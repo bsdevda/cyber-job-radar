@@ -1,5 +1,33 @@
 {
-  "generated_at": "",
+  "generated_at": "2026-08-14T15:57:24Z",
   "all_sources_failed": false,
-  "sources": {}
+  "sources": {
+    "arbeitnow": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 875,
+      "requests": 8,
+      "errors": [],
+      "error": ""
+    },
+    "remotive": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 18,
+      "requests": 1,
+      "errors": [],
+      "error": ""
+    },
+    "greenhouse": {
+      "status": "idle",
+      "ok": true,
+      "jobs": 0,
+      "requests": 0,
+      "errors": [],
+      "error": "",
+      "companies_checked": 0,
+      "companies_successful": 0,
+      "companies_failed": 0
+    }
+  }
 }

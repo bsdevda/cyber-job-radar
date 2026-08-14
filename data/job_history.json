@@ -80,6 +80,55 @@
           "error": ""
         }
       }
+    },
+    {
+      "generated_at": "2026-08-14T15:57:24Z",
+      "jobs_collected": 893,
+      "unique_jobs_after_deduplication": 858,
+      "duplicates_removed": 35,
+      "jobs_rejected_or_below_threshold": 851,
+      "relevant_jobs_in_current_run": 7,
+      "new_jobs": 2,
+      "updated_jobs": 2,
+      "strong_matches": 0,
+      "sources_checked": 3,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 7,
+      "jobs_by_source": {
+        "arbeitnow": 875,
+        "remotive": 18,
+        "greenhouse": 0
+      },
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 875,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 18,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "idle",
+          "ok": true,
+          "jobs": 0,
+          "requests": 0,
+          "errors": [],
+          "error": "",
+          "companies_checked": 0,
+          "companies_successful": 0,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -210,6 +259,38 @@
       "company": "FINN",
       "title": "Engineering Manager - Cloud & Security (m/f/x)",
       "score": 71
+    },
+    {
+      "at": "2026-08-14T15:57:24Z",
+      "job_key": "d65bc39d869850472ba5",
+      "event": "NEW",
+      "company": "VIA HealthTech",
+      "title": "IT Security & Compliance Manager (Part-Time)",
+      "score": 61
+    },
+    {
+      "at": "2026-08-14T15:57:24Z",
+      "job_key": "0d9158613f9e57d61233",
+      "event": "NEW",
+      "company": "Xtxmarketstechnologies",
+      "title": "Security Engineer",
+      "score": 79
+    },
+    {
+      "at": "2026-08-14T15:57:24Z",
+      "job_key": "975c260f4cccb6d07cbe",
+      "event": "UPDATED",
+      "company": "Mandl. Executives & Experts",
+      "title": "IT Security Experte (m/w/d) Incident Response & DLP",
+      "score": 65
+    },
+    {
+      "at": "2026-08-14T15:57:24Z",
+      "job_key": "790cb26d29fb8fff384e",
+      "event": "UPDATED",
+      "company": "Mozilla",
+      "title": "Senior Software Engineer, Firefox Security",
+      "score": 50
     }
   ]
 }

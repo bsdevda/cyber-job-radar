@@ -1,114 +1,64 @@
 {
-  "generated_at": "2026-08-14T06:54:35Z",
+  "generated_at": "2026-08-14T15:57:24Z",
   "summary": {
-    "generated_at": "2026-08-14T06:54:35Z",
+    "generated_at": "2026-08-14T15:57:24Z",
     "jobs_collected": 893,
-    "duplicates_removed": 23,
-    "jobs_rejected_or_below_threshold": 860,
-    "relevant_jobs_in_current_run": 10,
-    "new_jobs": 0,
-    "updated_jobs": 4,
+    "unique_jobs_after_deduplication": 858,
+    "duplicates_removed": 35,
+    "jobs_rejected_or_below_threshold": 851,
+    "relevant_jobs_in_current_run": 7,
+    "new_jobs": 2,
+    "updated_jobs": 2,
     "strong_matches": 0,
-    "sources_checked": 2,
+    "sources_checked": 3,
     "sources_failed": 0,
-    "report_jobs": 10
+    "sources_partial": 0,
+    "report_jobs": 7,
+    "jobs_by_source": {
+      "arbeitnow": 875,
+      "remotive": 18,
+      "greenhouse": 0
+    }
   },
   "jobs": [
     {
       "report_number": 1,
-      "job_key": "accdde42e3df719da13b",
-      "status": "UPDATED",
-      "score": 71,
+      "job_key": "0d9158613f9e57d61233",
+      "status": "NEW",
+      "score": 79,
       "score_label": "GOOD",
-      "title": "Engineering Manager - Cloud & Security (m/f/x)",
-      "company": "FINN",
-      "location": "Munich, Germany",
+      "title": "Security Engineer",
+      "company": "Xtxmarketstechnologies",
+      "location": "London",
       "working_model": "On-site / not specified",
-      "url": "https://www.arbeitnow.com/jobs/companies/finn/engineering-manager-cloud-security-munich-158179",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/xtxmarketstechnologies/security-engineer-london-369120",
+      "apply_url": "https://www.arbeitnow.co.uk/jobs/companies/xtxmarketstechnologies/security-engineer-london-369120",
+      "canonical_url": "https://www.arbeitnow.co.uk/jobs/companies/xtxmarketstechnologies/security-engineer-london-369120",
       "source": "Arbeitnow",
       "sources": [
         "Arbeitnow"
       ],
-      "published_at": "2026-08-12T02:05:12Z",
-      "first_seen": "2026-08-14T03:40:19Z",
-      "experience_required": "5+ years",
+      "original_source": "Arbeitnow",
+      "ats": "",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-08-14T06:55:21Z",
+      "first_seen": "2026-08-14T15:57:24Z",
+      "experience_required": null,
       "german_requirement": "No German requirement detected",
       "skill_matches": {
         "match": [
-          "python",
-          "sast"
+          "python"
         ],
-        "partial": [
-          "aws"
-        ],
+        "partial": [],
         "missing": [],
         "nice_to_have": []
       },
       "score_breakdown": {
-        "title": 10,
-        "skills": 20,
-        "experience": 7,
-        "security_relevance": 6,
-        "location": 9,
-        "language": 10,
-        "education": 5,
-        "career_value": 4
-      },
-      "match_reasons": [
-        "The role is based in Berlin/Germany.",
-        "No mandatory German level above the current profile was detected.",
-        "Strong evidenced skill matches include python, sast."
-      ],
-      "warnings": [
-        "Requests 5+ years versus approximately 2.1 years in the profile.",
-        "Exposure only; do not claim deep expertise: aws"
-      ],
-      "recommendation": "GOOD - REVIEW REQUIREMENTS",
-      "application_status": "NEW",
-      "description_excerpt": "Your Role As an Engineering Manager in our Tooling & Security department, you are directly responsible for maintaining and improving our internal tooling, cloud governance and security. You will lead an international, world-class team of engineers, and will help the rest of FINN work efficiently and securely in their day to day jobs. Your Mission Hire and lead an incredible team: Be the technical role model and go the extra mile to build, develop, and coach the team members on a daily basis. Best software for FINN: Actively contribute to and lead the further development of our internal tooling for cloud governance, security detection and automation, IT management, and much more. Strive for excellence: Strive to deliver the best possible user experience and to follow engineering best practices. Build it, run it: Build features with a ‘build it, run it’ mindset and be responsible for testing, deploying, and monitoring your code. We believe in Serverless! Your Profile Graduated with a Bachelor’s degree (or equivalent) in Computer Science or in a similar field. Proven track record with 5+ years of software engineering experience in larger projects. 2+ years of experience building and…"
-    },
-    {
-      "report_number": 2,
-      "job_key": "3d48f95fa4abe32880a2",
-      "status": "UPDATED",
-      "score": 67,
-      "score_label": "REVIEW",
-      "title": "Sr. Security Engineer - GRC EU/UK Regulation & Data Protection",
-      "company": "Xai",
-      "location": "London",
-      "working_model": "On-site / not specified",
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/xai/sr-security-engineer-grc-eu-uk-regulation-data-protection-london-320202",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "published_at": "2026-08-14T00:55:18Z",
-      "first_seen": "2026-08-14T03:40:19Z",
-      "experience_required": "7+ years",
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "penetration testing",
-          "secure sdlc",
-          "vulnerability management"
-        ],
-        "partial": [
-          "aws",
-          "ci/cd",
-          "nist"
-        ],
-        "missing": [
-          "azure",
-          "gdpr",
-          "iso 27001"
-        ],
-        "nice_to_have": []
-      },
-      "score_breakdown": {
         "title": 20,
-        "skills": 14,
-        "experience": 4,
-        "security_relevance": 8,
+        "skills": 23,
+        "experience": 11,
+        "security_relevance": 4,
         "location": 2,
         "language": 10,
         "education": 5,
@@ -116,21 +66,16 @@
       },
       "match_reasons": [
         "The title is in a high-priority target role family.",
-        "The responsibilities align strongly with Application/Product Security work.",
         "No mandatory German level above the current profile was detected.",
-        "Strong evidenced skill matches include penetration testing, secure sdlc, vulnerability management."
+        "Strong evidenced skill matches include python."
       ],
-      "warnings": [
-        "Requests 7+ years versus approximately 2.1 years in the profile.",
-        "Potential skill gaps: azure, gdpr, iso 27001",
-        "Exposure only; do not claim deep expertise: aws, ci/cd, nist"
-      ],
-      "recommendation": "REVIEW - check gaps before applying",
+      "warnings": [],
+      "recommendation": "GOOD - REVIEW REQUIREMENTS",
       "application_status": "NEW",
-      "description_excerpt": "SpaceXAI’s mission is to create AI systems that can accurately understand the universe and aid humanity in its pursuit of knowledge. Our team is small, highly motivated, and focused on engineering excellence. This organization is for individuals who appreciate challenging themselves and thrive on curiosity. We operate with a flat organizational structure. All employees are expected to be hands-on and to contribute directly to the company’s mission. Leadership is given to those who show initiative and consistently deliver excellence. Work ethic and strong prioritization skills are important. All employees are expected to have strong communication skills. They should be able to concisely and accurately share knowledge with their teammates. ABOUT THE ROLE: We are seeking an experienced Governance, Risk, and Compliance (GRC) Engineer focused on European Union and United Kingdom information security and financial services regulation to help scale compliance for SpaceXAI and xMoney. As we expand deeper into regulated EU/UK markets, maintaining a robust, transparent, and technically sound information security GRC program is critical. You will architect the systems and processes that auto…"
+      "description_excerpt": "The Firm XTX Markets is a leading algorithmic trading firm which uses state-of-the-art machine learning technology to produce price forecasts for over 53,000 financial instruments across equities, fixed income, currencies, commodities and crypto. It uses those forecasts to trade on exchanges and alternative trading venues, and to offer differentiated liquidity directly to clients worldwide. The firm trades over $250bn a day across 35 countries and has over 300 employees based in London, Singapore, New York, Paris, Bristol, Mumbai, Yerevan and Kajaani. We leverage the talent of the people who work here, modern computational techniques and state-of-the-art research infrastructure to analyse large data sets across markets quickly and efficiently, to maximize the effectiveness of our proprietary trading algorithms. We are actively seeking new methods and ideas. The models that drive our trading strategies have evolved considerably over the last 10 years, from econometric methods that gave our company its name, to trees, to neural networks, to modern deep learning architectures. XTX Markets has an unrivalled level of computational resources in the trading industry, with a growing resea…"
     },
     {
-      "report_number": 3,
+      "report_number": 2,
       "job_key": "975c260f4cccb6d07cbe",
       "status": "UPDATED",
       "score": 65,
@@ -140,10 +85,16 @@
       "location": "Munich, Germany",
       "working_model": "Remote",
       "url": "https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/it-security-experte-incident-response-dlp-munich-455340",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/it-security-experte-incident-response-dlp-munich-455340",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/it-security-experte-incident-response-dlp-munich-455340",
       "source": "Arbeitnow",
       "sources": [
         "Arbeitnow"
       ],
+      "original_source": "Arbeitnow",
+      "ats": "",
+      "also_found_on": [],
+      "priority_employer": false,
       "published_at": "2026-08-13T13:30:26Z",
       "first_seen": "2026-08-14T03:40:19Z",
       "experience_required": null,
@@ -181,61 +132,113 @@
       "description_excerpt": "In dieser Rolle übernimmst du eine zentrale Funktion im Aufbau und in der Weiterentwicklung einer modernen IT-Sicherheitsstrategie mit Fokus auf Incident Response und Data Loss Prevention (DLP). Du arbeitest eng mit verschiedenen Fachbereichen zusammen und sorgst dafür, dass sensible Unternehmensdaten effektiv geschützt werden. Neben der operativen Arbeit im SIEM gestaltest du Security-Prozesse aktiv mit. Dich erwartet eine abwechslungsreiche Position mit viel Gestaltungsspielraum in einem sicherheitskritischen Umfeld. Aufgaben Überwachung und Bearbeitung von Sicherheitsvorfällen im SIEM sowie kontinuierliche Verbesserung der Alarm- und Erkennungslogik Konzeption, Implementierung und Betrieb von DLP-Lösungen zur Absicherung sensibler Daten Beratung interner Fachbereiche bei IT-Projekten mit Schwerpunkt auf Security-Anforderungen Identifikation schützenswerter Informationen sowie Definition geeigneter Maßnahmen zu deren Absicherung Weiterentwicklung des Security Monitorings zur frühzeitigen Erkennung neuer Bedrohungen Pflege und Optimierung von Regelwerken im SIEM- und DLP-Umfeld Durchführung von Audits und Erstellung von Reports zur Bewertung der Sicherheitsmaßnahmen Planung und S…"
     },
     {
-      "report_number": 4,
-      "job_key": "973ebf42ee7ab50c3088",
-      "status": "UPDATED",
-      "score": 58,
-      "score_label": "STRETCH",
-      "title": "Java Developer (m/w/d) für Authentication & Security",
-      "company": "Mandl. Executives & Experts",
-      "location": "Munich, Germany",
-      "working_model": "Hybrid",
-      "url": "https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/java-developer-fur-authentication-security-munich-330583",
+      "report_number": 3,
+      "job_key": "d65bc39d869850472ba5",
+      "status": "NEW",
+      "score": 61,
+      "score_label": "REVIEW",
+      "title": "IT Security & Compliance Manager (Part-Time)",
+      "company": "VIA HealthTech",
+      "location": "Berlin, Germany",
+      "working_model": "On-site / not specified",
+      "url": "https://www.arbeitnow.com/jobs/companies/via-healthtech/it-security-compliance-manager-part-time-berlin-469634",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/via-healthtech/it-security-compliance-manager-part-time-berlin-469634",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/via-healthtech/it-security-compliance-manager-part-time-berlin-469634",
       "source": "Arbeitnow",
       "sources": [
         "Arbeitnow"
       ],
-      "published_at": "2026-08-13T13:00:51Z",
-      "first_seen": "2026-08-14T03:40:19Z",
-      "experience_required": "4+ years",
+      "original_source": "Arbeitnow",
+      "ats": "",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-08-14T14:01:04Z",
+      "first_seen": "2026-08-14T15:57:24Z",
+      "experience_required": null,
       "german_requirement": "German unspecified required",
       "skill_matches": {
         "match": [
-          "kali linux"
+          "penetration testing"
         ],
         "partial": [
-          "aws",
-          "ci/cd",
-          "docker"
+          "nist"
         ],
         "missing": [
-          "kubernetes"
+          "iso 27001"
         ],
         "nice_to_have": []
       },
       "score_breakdown": {
         "title": 10,
-        "skills": 15,
-        "experience": 10,
-        "security_relevance": 4,
-        "location": 9,
+        "skills": 14,
+        "experience": 11,
+        "security_relevance": 6,
+        "location": 10,
         "language": 4,
         "education": 3,
         "career_value": 3
       },
       "match_reasons": [
         "The role is based in Berlin/Germany.",
-        "Strong evidenced skill matches include kali linux."
+        "Strong evidenced skill matches include penetration testing."
       ],
       "warnings": [
         "German unspecified required",
-        "Requests 4+ years versus approximately 2.1 years in the profile.",
-        "Potential skill gaps: kubernetes",
-        "Exposure only; do not claim deep expertise: aws, ci/cd, docker"
+        "Potential skill gaps: iso 27001",
+        "Exposure only; do not claim deep expertise: nist"
       ],
+      "recommendation": "REVIEW - check gaps before applying",
+      "application_status": "NEW",
+      "description_excerpt": "VIA HealthTech automates psychotherapy documentation — from session notes to psychological reports — so therapists spend less time on admin and more time with patients. We work at the intersection of mental healthcare, AI, and software. Security is central to what we build: we process highly sensitive data and already hold C5 and ISO27001 certification. Aufgaben We are looking for a hands-on IT Security & Compliance Manager to own our IT Compliance, ISMS, and our IT security setup end-to-end. This is a broad role in a small team. You will not only maintain policies but also implement systems, configure tools, run audits, and work directly with engineering to make security a practical part of how we build. In practice, that means: Compliance end-to-end: ISO27001 and, most importantly, C5: Audits, evidence, risk management, corrective actions, auditor communication, internal training Controls: deciding what a control should be, building it, and verifying that it works Vanta: keeping it current and accurate as we grow Internal IT security: you own design and baseline like identity, MDM, device policies, endpoint hardening, access model, on-/offboarding SaaS security administration: c…"
+    },
+    {
+      "report_number": 4,
+      "job_key": "790cb26d29fb8fff384e",
+      "status": "UPDATED",
+      "score": 50,
+      "score_label": "STRETCH",
+      "title": "Senior Software Engineer, Firefox Security",
+      "company": "Mozilla",
+      "location": "Unspecified",
+      "working_model": "On-site / not specified",
+      "url": "https://www.arbeitnow.com/jobs/companies/mozilla/senior-software-engineer-firefox-security-410673",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/mozilla/senior-software-engineer-firefox-security-410673",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/mozilla/senior-software-engineer-firefox-security-410673",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "original_source": "Arbeitnow",
+      "ats": "",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-08-13T11:55:14Z",
+      "first_seen": "2026-08-14T03:40:19Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [],
+        "partial": [],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 10,
+        "skills": 7,
+        "experience": 11,
+        "security_relevance": 4,
+        "location": 2,
+        "language": 10,
+        "education": 3,
+        "career_value": 3
+      },
+      "match_reasons": [
+        "No mandatory German level above the current profile was detected."
+      ],
+      "warnings": [],
       "recommendation": "STRETCH - apply only if the role is strategically valuable",
       "application_status": "NEW",
-      "description_excerpt": "Für ein etabliertes und marktführendes Medienunternehmen mit Sitz in München suchen wir einen erfahrenen Java Developer (m/w/d), der moderne Authentifizierungs- und Identity-Management-Lösungen in einer hochskalierbaren Cloud-Umgebung weiterentwickelt. Du arbeitest in einem agilen Entwicklerteam und treibst die technische Weiterentwicklung von sicherheitskritischen Anwendungen voran. Dabei stehen Themen wie Authentication, Authorization, Single Sign-On, Identity Management sowie Cloud-native Architekturen auf AWS und Kubernetes im Fokus. Aufgaben Entwicklung und Weiterentwicklung von Backend-Anwendungen mit Java Konzeption und Implementierung moderner Authentifizierungs- und Autorisierungslösungen Mitarbeit an Themen rund um Identity & Access Management (IAM) Entwicklung und Betrieb cloudnativer Anwendungen auf AWS Deployment und Betrieb von Services innerhalb einer Kubernetes-Umgebung Sicherstellung hoher Sicherheits-, Qualitäts- und Performance-Standards Qualifikation Mindestens 4 Jahre Berufserfahrung in der Softwareentwicklung mit Java Erfahrung in der Entwicklung moderner Backend-Systeme und Microservices Kenntnisse im Bereich Authentication & Authorization (z. B. OAuth2, Ope…"
+      "description_excerpt": "Why Mozilla? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. The Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. What you’ll do: Advance Firefox's security architecture and cryptography stack: Contribute to improvements in Firefox's core security systems, with a focus on cryptographic protocols, WebPKI, and security-sensitive web APIs. H…"
     },
     {
       "report_number": 5,
@@ -248,10 +251,16 @@
       "location": "Gilching, Bayern, Germany",
       "working_model": "On-site / not specified",
       "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/it-security-engineer-gilching-99422",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/it-security-engineer-gilching-99422",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/it-security-engineer-gilching-99422",
       "source": "Arbeitnow",
       "sources": [
         "Arbeitnow"
       ],
+      "original_source": "Arbeitnow",
+      "ats": "",
+      "also_found_on": [],
+      "priority_employer": false,
       "published_at": "2026-08-12T14:30:10Z",
       "first_seen": "2026-08-14T03:40:19Z",
       "experience_required": null,
@@ -296,178 +305,69 @@
     },
     {
       "report_number": 6,
-      "job_key": "8ad18102b9891af2fece",
+      "job_key": "973ebf42ee7ab50c3088",
       "status": "SEEN_BEFORE",
-      "score": 72,
-      "score_label": "GOOD",
-      "title": "Infrastructure Security Engineer",
-      "company": "Xai",
-      "location": "London",
+      "score": 58,
+      "score_label": "STRETCH",
+      "title": "Java Developer (m/w/d) für Authentication & Security",
+      "company": "Mandl. Executives & Experts",
+      "location": "Munich, Germany",
       "working_model": "Hybrid",
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/xai/infrastructure-security-engineer-london-373050",
+      "url": "https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/java-developer-fur-authentication-security-munich-330583",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/java-developer-fur-authentication-security-munich-330583",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/java-developer-fur-authentication-security-munich-330583",
       "source": "Arbeitnow",
       "sources": [
         "Arbeitnow"
       ],
-      "published_at": "2026-08-14T00:55:17Z",
+      "original_source": "Arbeitnow",
+      "ats": "",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-08-13T13:00:51Z",
       "first_seen": "2026-08-14T03:40:19Z",
-      "experience_required": "3-5 years",
-      "german_requirement": "No German requirement detected",
+      "experience_required": "4+ years",
+      "german_requirement": "German unspecified required",
       "skill_matches": {
         "match": [
-          "python",
-          "vulnerability assessment"
+          "kali linux"
         ],
         "partial": [
           "aws",
           "ci/cd",
-          "cloud security",
-          "docker",
-          "nist",
-          "siem"
+          "docker"
         ],
         "missing": [
-          "azure",
-          "gdpr",
           "kubernetes"
         ],
         "nice_to_have": []
       },
       "score_breakdown": {
-        "title": 20,
-        "skills": 14,
-        "experience": 13,
-        "security_relevance": 4,
-        "location": 2,
-        "language": 10,
-        "education": 5,
-        "career_value": 4
-      },
-      "match_reasons": [
-        "The title is in a high-priority target role family.",
-        "No mandatory German level above the current profile was detected.",
-        "Strong evidenced skill matches include python, vulnerability assessment."
-      ],
-      "warnings": [
-        "Requests 3-5 years versus approximately 2.1 years in the profile.",
-        "Potential skill gaps: azure, gdpr, kubernetes",
-        "Exposure only; do not claim deep expertise: aws, ci/cd, cloud security, docker, nist, siem"
-      ],
-      "recommendation": "GOOD - REVIEW REQUIREMENTS",
-      "application_status": "NEW",
-      "description_excerpt": "SpaceXAI’s mission is to create AI systems that can accurately understand the universe and aid humanity in its pursuit of knowledge. Our team is small, highly motivated, and focused on engineering excellence. This organization is for individuals who appreciate challenging themselves and thrive on curiosity. We operate with a flat organizational structure. All employees are expected to be hands-on and to contribute directly to the company’s mission. Leadership is given to those who show initiative and consistently deliver excellence. Work ethic and strong prioritization skills are important. All employees are expected to have strong communication skills. They should be able to concisely and accurately share knowledge with their teammates. ABOUT THE ROLE: We are seeking a talented and motivated Infrastructure Security Engineer to join our security team. In this role, you will design, implement, and maintain secure cloud and hybrid infrastructure, and ensure the integrity of our cloud-native applications. This role focuses on securing critical infrastructure across multi-cloud and hybrid environments, with work that may span platforms such as SpaceXAI, X Social, X Money and related s…"
-    },
-    {
-      "report_number": 7,
-      "job_key": "85348bfab89f8cc75ef0",
-      "status": "SEEN_BEFORE",
-      "score": 69,
-      "score_label": "REVIEW",
-      "title": "Junior Cyber Strategy & Architecture Consultant (m/w/d) - Focus GRC",
-      "company": "NVISO",
-      "location": "Frankfurt am Main, Germany",
-      "working_model": "On-site / not specified",
-      "url": "https://www.arbeitnow.com/jobs/companies/nviso/junior-cyber-strategy-architecture-consultant-focus-grc-frankfurt-am-main-139665",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "published_at": "2026-08-11T14:30:26Z",
-      "first_seen": "2026-08-14T03:40:19Z",
-      "experience_required": null,
-      "german_requirement": "German unspecified required",
-      "skill_matches": {
-        "match": [
-          "owasp"
-        ],
-        "partial": [],
-        "missing": [],
-        "nice_to_have": [
-          "iso 27001 (missing)",
-          "nist (partial)"
-        ]
-      },
-      "score_breakdown": {
         "title": 10,
-        "skills": 23,
-        "experience": 11,
+        "skills": 15,
+        "experience": 10,
         "security_relevance": 4,
         "location": 9,
         "language": 4,
-        "education": 5,
+        "education": 3,
         "career_value": 3
       },
       "match_reasons": [
         "The role is based in Berlin/Germany.",
-        "Strong evidenced skill matches include owasp."
+        "Strong evidenced skill matches include kali linux."
       ],
       "warnings": [
-        "German unspecified required"
+        "German unspecified required",
+        "Requests 4+ years versus approximately 2.1 years in the profile.",
+        "Potential skill gaps: kubernetes",
+        "Exposure only; do not claim deep expertise: aws, ci/cd, docker"
       ],
-      "recommendation": "REVIEW - check gaps before applying",
+      "recommendation": "STRETCH - apply only if the role is strategically valuable",
       "application_status": "NEW",
-      "description_excerpt": "It all starts with the mission: NVISO is here to protect European society from potentially devastating cyber attacks! This means we offer cyber security services to private and governmental organizations to help them better prepare for, prevent, detect and respond to cyber security incidents. All of this is built on four fundamental values that define who we are: We are Proud, We Break Barriers, We Care and No BS! Tasks As a Junior Cyber Strategy & Architecture Consultant (m/w/d) with a focus on GRC located in Germany, you will work together with Senior or Principal Consultants to support our larger to smaller customers with the overall reinforcement of their security posture. Typical engagements include (but are not limited to): Assisting client’s IT or security teams with the implementation of strategic security programs and projects. You solve together with other NVISO experts customers challenges or work in full integration with the client organization. Supporting the refinement of security governance, policies, processes and guidelines in all areas of the cyber security field. Assisting the implementation our client’s ISMS (Information Security Management Systems) by also imp…"
+      "description_excerpt": "Für ein etabliertes und marktführendes Medienunternehmen mit Sitz in München suchen wir einen erfahrenen Java Developer (m/w/d), der moderne Authentifizierungs- und Identity-Management-Lösungen in einer hochskalierbaren Cloud-Umgebung weiterentwickelt. Du arbeitest in einem agilen Entwicklerteam und treibst die technische Weiterentwicklung von sicherheitskritischen Anwendungen voran. Dabei stehen Themen wie Authentication, Authorization, Single Sign-On, Identity Management sowie Cloud-native Architekturen auf AWS und Kubernetes im Fokus. Aufgaben Entwicklung und Weiterentwicklung von Backend-Anwendungen mit Java Konzeption und Implementierung moderner Authentifizierungs- und Autorisierungslösungen Mitarbeit an Themen rund um Identity & Access Management (IAM) Entwicklung und Betrieb cloudnativer Anwendungen auf AWS Deployment und Betrieb von Services innerhalb einer Kubernetes-Umgebung Sicherstellung hoher Sicherheits-, Qualitäts- und Performance-Standards Qualifikation Mindestens 4 Jahre Berufserfahrung in der Softwareentwicklung mit Java Erfahrung in der Entwicklung moderner Backend-Systeme und Microservices Kenntnisse im Bereich Authentication & Authorization (z. B. OAuth2, Ope…"
     },
     {
-      "report_number": 8,
-      "job_key": "0e941e4bf040222bbfdd",
-      "status": "SEEN_BEFORE",
-      "score": 64,
-      "score_label": "REVIEW",
-      "title": "Cloud Engineer (m/f/x)",
-      "company": "UP42 GmbH",
-      "location": "Berlin, Germany",
-      "working_model": "Hybrid",
-      "url": "https://www.arbeitnow.com/jobs/companies/up42-gmbh/cloud-engineer-berlin-2476",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "published_at": "2026-08-12T08:30:10Z",
-      "first_seen": "2026-08-14T03:40:19Z",
-      "experience_required": null,
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "sast"
-        ],
-        "partial": [
-          "aws",
-          "ci/cd",
-          "cloud security",
-          "devsecops"
-        ],
-        "missing": [
-          "azure",
-          "kubernetes"
-        ],
-        "nice_to_have": []
-      },
-      "score_breakdown": {
-        "title": 6,
-        "skills": 13,
-        "experience": 11,
-        "security_relevance": 6,
-        "location": 10,
-        "language": 10,
-        "education": 3,
-        "career_value": 5
-      },
-      "match_reasons": [
-        "The role is based in Berlin/Germany.",
-        "No mandatory German level above the current profile was detected.",
-        "Strong evidenced skill matches include sast."
-      ],
-      "warnings": [
-        "Potential skill gaps: azure, kubernetes",
-        "Exposure only; do not claim deep expertise: aws, ci/cd, cloud security, devsecops"
-      ],
-      "recommendation": "REVIEW - check gaps before applying",
-      "application_status": "NEW",
-      "description_excerpt": "UP42 was founded in 2019 with a clear purpose: to transform how organizations order, access, and analyze Earth observation data. Our platform brings together the world’s leading geospatial providers, and offers a single touchpoint to access, manage, and process data at scale. From vegetation management and infrastructure monitoring to disaster response, UP42 helps organizations across industries find solutions to complex problems through Earth observation. Our expert support team and detailed documentation guide our users through every step. Since July 2025, UP42 has been a part of Neo Space Group. We are looking for a Cloud Engineer (m/f/x) to join our motivated SRE team in Berlin to help scale and maintain our cloud infrastructure while ensuring the reliability and performance of our geospatial processing platform. What you will do: Build, maintain and scale reliable infrastructure solutions using cloud-native technologies. Contribute to our IaC practices by managing and deploying cloud resources using Terraform and other modern tools. Manage, troubleshoot, and optimize Kubernetes clusters and workloads in Google Cloud Platform (GCP). Maintain and enhance monitoring and alerting…"
-    },
-    {
-      "report_number": 9,
+      "report_number": 7,
       "job_key": "5ffa1d142e6185ca0c3b",
       "status": "SEEN_BEFORE",
       "score": 57,
@@ -477,10 +377,16 @@
       "location": "Potsdam - Gisma, Germany",
       "working_model": "On-site / not specified",
       "url": "https://www.arbeitnow.com/jobs/companies/global-university-systems-gmbh/professor-of-cybersecurity-potsdam-gisma-238808",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/global-university-systems-gmbh/professor-of-cybersecurity-potsdam-gisma-238808",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/global-university-systems-gmbh/professor-of-cybersecurity-potsdam-gisma-238808",
       "source": "Arbeitnow",
       "sources": [
         "Arbeitnow"
       ],
+      "original_source": "Arbeitnow",
+      "ats": "",
+      "also_found_on": [],
+      "priority_employer": false,
       "published_at": "2026-08-13T02:09:17Z",
       "first_seen": "2026-08-14T03:40:19Z",
       "experience_required": null,
@@ -509,84 +415,56 @@
       "recommendation": "STRETCH - apply only if the role is strategically valuable",
       "application_status": "NEW",
       "description_excerpt": "Find Jobs in Germany on Arbeitnow"
-    },
-    {
-      "report_number": 10,
-      "job_key": "790cb26d29fb8fff384e",
-      "status": "SEEN_BEFORE",
-      "score": 50,
-      "score_label": "STRETCH",
-      "title": "Senior Software Engineer, Firefox Security",
-      "company": "Mozilla",
-      "location": "Unspecified",
-      "working_model": "On-site / not specified",
-      "url": "https://www.arbeitnow.com/jobs/companies/mozilla/senior-software-engineer-firefox-security-410673",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "published_at": "2026-08-13T11:55:14Z",
-      "first_seen": "2026-08-14T03:40:19Z",
-      "experience_required": null,
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [],
-        "partial": [],
-        "missing": [],
-        "nice_to_have": []
-      },
-      "score_breakdown": {
-        "title": 10,
-        "skills": 7,
-        "experience": 11,
-        "security_relevance": 4,
-        "location": 2,
-        "language": 10,
-        "education": 3,
-        "career_value": 3
-      },
-      "match_reasons": [
-        "No mandatory German level above the current profile was detected."
-      ],
-      "warnings": [],
-      "recommendation": "STRETCH - apply only if the role is strategically valuable",
-      "application_status": "NEW",
-      "description_excerpt": "Why Mozilla? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. The Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. What you’ll do: Advance Firefox's security architecture and cryptography stack: Contribute to improvements in Firefox's core security systems, with a focus on cryptographic protocols, WebPKI, and security-sensitive web APIs. H…"
     }
   ],
   "source_status": {
     "arbeitnow": {
+      "status": "ok",
       "ok": true,
       "jobs": 875,
       "requests": 8,
+      "errors": [],
       "error": ""
     },
     "remotive": {
+      "status": "ok",
       "ok": true,
       "jobs": 18,
       "requests": 1,
+      "errors": [],
       "error": ""
+    },
+    "greenhouse": {
+      "status": "idle",
+      "ok": true,
+      "jobs": 0,
+      "requests": 0,
+      "errors": [],
+      "error": "",
+      "companies_checked": 0,
+      "companies_successful": 0,
+      "companies_failed": 0
     }
   },
+  "all_sources_failed": false,
   "rejection_summary": {
-    "Insufficient cybersecurity relevance": 857,
+    "Insufficient cybersecurity relevance": 849,
     "Student/internship-only employment type": 70,
-    "Excluded seniority/employment type in title: werkstudent": 60,
+    "Excluded seniority/employment type in title: werkstudent": 56,
     "German C1 required": 47,
-    "On-site role outside the target region": 28,
-    "On-site role outside Germany": 28,
-    "Excluded seniority/employment type in title: working student": 24,
-    "German C2 required": 17,
-    "Native German required": 15,
-    "Mandatory experience is too senior: 10+ years": 14,
-    "Mandatory experience is too senior: 8+ years": 9,
-    "Mandatory experience is too senior: 8-12 years": 2,
+    "Excluded seniority/employment type in title: working student": 26,
+    "Native German required": 14,
+    "German C2 required": 14,
+    "On-site role outside the target region": 11,
+    "On-site role outside Germany": 11,
+    "Mandatory experience is too senior: 8+ years": 10,
+    "Mandatory experience is too senior: 10+ years": 10,
+    "Mandatory experience is too senior: 12+ years": 1,
     "Mandatory experience is too senior: 15+ years": 1,
     "Mandatory experience is too senior: 12-15 years": 1,
     "Mandatory experience is too senior: 8-9 years": 1,
     "Score below relevance threshold (47 < 50)": 1,
     "Score below relevance threshold (49 < 50)": 1,
-    "Excluded seniority/employment type in title: internship": 1,
-    "Excluded seniority/employment type in title: staff security engineer": 1
+    "Mandatory experience is too senior: 8-12 years": 1
   }
 }
