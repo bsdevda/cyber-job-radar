@@ -1,4 +1,113 @@
 {
-  "runs": [],
-  "events": []
+  "runs": [
+    {
+      "generated_at": "2026-08-14T03:40:19Z",
+      "jobs_collected": 893,
+      "duplicates_removed": 22,
+      "jobs_rejected_or_below_threshold": 861,
+      "relevant_jobs_in_current_run": 10,
+      "new_jobs": 10,
+      "updated_jobs": 0,
+      "strong_matches": 0,
+      "sources_checked": 2,
+      "sources_failed": 0,
+      "report_jobs": 10,
+      "source_status": {
+        "arbeitnow": {
+          "ok": true,
+          "jobs": 875,
+          "requests": 8,
+          "error": ""
+        },
+        "remotive": {
+          "ok": true,
+          "jobs": 18,
+          "requests": 1,
+          "error": ""
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "at": "2026-08-14T03:40:19Z",
+      "job_key": "3d48f95fa4abe32880a2",
+      "event": "NEW",
+      "company": "Xai",
+      "title": "Sr. Security Engineer - GRC EU/UK Regulation & Data Protection",
+      "score": 67
+    },
+    {
+      "at": "2026-08-14T03:40:19Z",
+      "job_key": "8ad18102b9891af2fece",
+      "event": "NEW",
+      "company": "Xai",
+      "title": "Infrastructure Security Engineer",
+      "score": 72
+    },
+    {
+      "at": "2026-08-14T03:40:19Z",
+      "job_key": "975c260f4cccb6d07cbe",
+      "event": "NEW",
+      "company": "Mandl. Executives & Experts",
+      "title": "IT Security Experte (m/w/d) Incident Response & DLP",
+      "score": 65
+    },
+    {
+      "at": "2026-08-14T03:40:19Z",
+      "job_key": "973ebf42ee7ab50c3088",
+      "event": "NEW",
+      "company": "Mandl. Executives & Experts",
+      "title": "Java Developer (m/w/d) für Authentication & Security",
+      "score": 58
+    },
+    {
+      "at": "2026-08-14T03:40:19Z",
+      "job_key": "790cb26d29fb8fff384e",
+      "event": "NEW",
+      "company": "Mozilla",
+      "title": "Senior Software Engineer, Firefox Security",
+      "score": 50
+    },
+    {
+      "at": "2026-08-14T03:40:19Z",
+      "job_key": "5ffa1d142e6185ca0c3b",
+      "event": "NEW",
+      "company": "Global University Systems GmbH",
+      "title": "Professor (m/f/d) of Cybersecurity",
+      "score": 57
+    },
+    {
+      "at": "2026-08-14T03:40:19Z",
+      "job_key": "e9e07b891971f0d92e82",
+      "event": "NEW",
+      "company": "Quantum-Systems GmbH",
+      "title": "IT Security Engineer (m/f/d)",
+      "score": 77
+    },
+    {
+      "at": "2026-08-14T03:40:19Z",
+      "job_key": "accdde42e3df719da13b",
+      "event": "NEW",
+      "company": "FINN",
+      "title": "Engineering Manager - Cloud & Security (m/f/x)",
+      "score": 71
+    },
+    {
+      "at": "2026-08-14T03:40:19Z",
+      "job_key": "0e941e4bf040222bbfdd",
+      "event": "NEW",
+      "company": "UP42 GmbH",
+      "title": "Cloud Engineer (m/f/x)",
+      "score": 64
+    },
+    {
+      "at": "2026-08-14T03:40:19Z",
+      "job_key": "85348bfab89f8cc75ef0",
+      "event": "NEW",
+      "company": "NVISO",
+      "title": "Junior Cyber Strategy & Architecture Consultant (m/w/d) - Focus GRC",
+      "score": 69
+    }
+  ]
 }
