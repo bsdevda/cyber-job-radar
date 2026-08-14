@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-14T03:59:57Z",
+  "generated_at": "2026-08-14T06:54:35Z",
   "summary": {
-    "generated_at": "2026-08-14T03:59:57Z",
+    "generated_at": "2026-08-14T06:54:35Z",
     "jobs_collected": 893,
-    "duplicates_removed": 13,
-    "jobs_rejected_or_below_threshold": 870,
+    "duplicates_removed": 23,
+    "jobs_rejected_or_below_threshold": 860,
     "relevant_jobs_in_current_run": 10,
     "new_jobs": 0,
-    "updated_jobs": 2,
+    "updated_jobs": 4,
     "strong_matches": 0,
     "sources_checked": 2,
     "sources_failed": 0,
@@ -69,64 +69,176 @@
     },
     {
       "report_number": 2,
-      "job_key": "0e941e4bf040222bbfdd",
+      "job_key": "3d48f95fa4abe32880a2",
       "status": "UPDATED",
-      "score": 64,
+      "score": 67,
       "score_label": "REVIEW",
-      "title": "Cloud Engineer (m/f/x)",
-      "company": "UP42 GmbH",
-      "location": "Berlin, Germany",
-      "working_model": "Hybrid",
-      "url": "https://www.arbeitnow.com/jobs/companies/up42-gmbh/cloud-engineer-berlin-2476",
+      "title": "Sr. Security Engineer - GRC EU/UK Regulation & Data Protection",
+      "company": "Xai",
+      "location": "London",
+      "working_model": "On-site / not specified",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/xai/sr-security-engineer-grc-eu-uk-regulation-data-protection-london-320202",
       "source": "Arbeitnow",
       "sources": [
         "Arbeitnow"
       ],
-      "published_at": "2026-08-12T08:30:10Z",
+      "published_at": "2026-08-14T00:55:18Z",
       "first_seen": "2026-08-14T03:40:19Z",
-      "experience_required": null,
+      "experience_required": "7+ years",
       "german_requirement": "No German requirement detected",
       "skill_matches": {
         "match": [
-          "sast"
+          "penetration testing",
+          "secure sdlc",
+          "vulnerability management"
         ],
         "partial": [
           "aws",
           "ci/cd",
-          "cloud security",
-          "devsecops"
+          "nist"
         ],
         "missing": [
           "azure",
+          "gdpr",
+          "iso 27001"
+        ],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 14,
+        "experience": 4,
+        "security_relevance": 8,
+        "location": 2,
+        "language": 10,
+        "education": 5,
+        "career_value": 4
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "The responsibilities align strongly with Application/Product Security work.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include penetration testing, secure sdlc, vulnerability management."
+      ],
+      "warnings": [
+        "Requests 7+ years versus approximately 2.1 years in the profile.",
+        "Potential skill gaps: azure, gdpr, iso 27001",
+        "Exposure only; do not claim deep expertise: aws, ci/cd, nist"
+      ],
+      "recommendation": "REVIEW - check gaps before applying",
+      "application_status": "NEW",
+      "description_excerpt": "SpaceXAI’s mission is to create AI systems that can accurately understand the universe and aid humanity in its pursuit of knowledge. Our team is small, highly motivated, and focused on engineering excellence. This organization is for individuals who appreciate challenging themselves and thrive on curiosity. We operate with a flat organizational structure. All employees are expected to be hands-on and to contribute directly to the company’s mission. Leadership is given to those who show initiative and consistently deliver excellence. Work ethic and strong prioritization skills are important. All employees are expected to have strong communication skills. They should be able to concisely and accurately share knowledge with their teammates. ABOUT THE ROLE: We are seeking an experienced Governance, Risk, and Compliance (GRC) Engineer focused on European Union and United Kingdom information security and financial services regulation to help scale compliance for SpaceXAI and xMoney. As we expand deeper into regulated EU/UK markets, maintaining a robust, transparent, and technically sound information security GRC program is critical. You will architect the systems and processes that auto…"
+    },
+    {
+      "report_number": 3,
+      "job_key": "975c260f4cccb6d07cbe",
+      "status": "UPDATED",
+      "score": 65,
+      "score_label": "REVIEW",
+      "title": "IT Security Experte (m/w/d) Incident Response & DLP",
+      "company": "Mandl. Executives & Experts",
+      "location": "Munich, Germany",
+      "working_model": "Remote",
+      "url": "https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/it-security-experte-incident-response-dlp-munich-455340",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "published_at": "2026-08-13T13:30:26Z",
+      "first_seen": "2026-08-14T03:40:19Z",
+      "experience_required": null,
+      "german_requirement": "German unspecified required",
+      "skill_matches": {
+        "match": [
+          "penetration testing"
+        ],
+        "partial": [
+          "siem"
+        ],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 10,
+        "skills": 19,
+        "experience": 11,
+        "security_relevance": 6,
+        "location": 9,
+        "language": 4,
+        "education": 3,
+        "career_value": 3
+      },
+      "match_reasons": [
+        "The role is based in Berlin/Germany.",
+        "Strong evidenced skill matches include penetration testing."
+      ],
+      "warnings": [
+        "German unspecified required",
+        "Exposure only; do not claim deep expertise: siem"
+      ],
+      "recommendation": "REVIEW - check gaps before applying",
+      "application_status": "NEW",
+      "description_excerpt": "In dieser Rolle übernimmst du eine zentrale Funktion im Aufbau und in der Weiterentwicklung einer modernen IT-Sicherheitsstrategie mit Fokus auf Incident Response und Data Loss Prevention (DLP). Du arbeitest eng mit verschiedenen Fachbereichen zusammen und sorgst dafür, dass sensible Unternehmensdaten effektiv geschützt werden. Neben der operativen Arbeit im SIEM gestaltest du Security-Prozesse aktiv mit. Dich erwartet eine abwechslungsreiche Position mit viel Gestaltungsspielraum in einem sicherheitskritischen Umfeld. Aufgaben Überwachung und Bearbeitung von Sicherheitsvorfällen im SIEM sowie kontinuierliche Verbesserung der Alarm- und Erkennungslogik Konzeption, Implementierung und Betrieb von DLP-Lösungen zur Absicherung sensibler Daten Beratung interner Fachbereiche bei IT-Projekten mit Schwerpunkt auf Security-Anforderungen Identifikation schützenswerter Informationen sowie Definition geeigneter Maßnahmen zu deren Absicherung Weiterentwicklung des Security Monitorings zur frühzeitigen Erkennung neuer Bedrohungen Pflege und Optimierung von Regelwerken im SIEM- und DLP-Umfeld Durchführung von Audits und Erstellung von Reports zur Bewertung der Sicherheitsmaßnahmen Planung und S…"
+    },
+    {
+      "report_number": 4,
+      "job_key": "973ebf42ee7ab50c3088",
+      "status": "UPDATED",
+      "score": 58,
+      "score_label": "STRETCH",
+      "title": "Java Developer (m/w/d) für Authentication & Security",
+      "company": "Mandl. Executives & Experts",
+      "location": "Munich, Germany",
+      "working_model": "Hybrid",
+      "url": "https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/java-developer-fur-authentication-security-munich-330583",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "published_at": "2026-08-13T13:00:51Z",
+      "first_seen": "2026-08-14T03:40:19Z",
+      "experience_required": "4+ years",
+      "german_requirement": "German unspecified required",
+      "skill_matches": {
+        "match": [
+          "kali linux"
+        ],
+        "partial": [
+          "aws",
+          "ci/cd",
+          "docker"
+        ],
+        "missing": [
           "kubernetes"
         ],
         "nice_to_have": []
       },
       "score_breakdown": {
-        "title": 6,
-        "skills": 13,
-        "experience": 11,
-        "security_relevance": 6,
-        "location": 10,
-        "language": 10,
+        "title": 10,
+        "skills": 15,
+        "experience": 10,
+        "security_relevance": 4,
+        "location": 9,
+        "language": 4,
         "education": 3,
-        "career_value": 5
+        "career_value": 3
       },
       "match_reasons": [
         "The role is based in Berlin/Germany.",
-        "No mandatory German level above the current profile was detected.",
-        "Strong evidenced skill matches include sast."
+        "Strong evidenced skill matches include kali linux."
       ],
       "warnings": [
-        "Potential skill gaps: azure, kubernetes",
-        "Exposure only; do not claim deep expertise: aws, ci/cd, cloud security, devsecops"
+        "German unspecified required",
+        "Requests 4+ years versus approximately 2.1 years in the profile.",
+        "Potential skill gaps: kubernetes",
+        "Exposure only; do not claim deep expertise: aws, ci/cd, docker"
       ],
-      "recommendation": "REVIEW - check gaps before applying",
+      "recommendation": "STRETCH - apply only if the role is strategically valuable",
       "application_status": "NEW",
-      "description_excerpt": "UP42 was founded in 2019 with a clear purpose: to transform how organizations order, access, and analyze Earth observation data. Our platform brings together the world’s leading geospatial providers, and offers a single touchpoint to access, manage, and process data at scale. From vegetation management and infrastructure monitoring to disaster response, UP42 helps organizations across industries find solutions to complex problems through Earth observation. Our expert support team and detailed documentation guide our users through every step. Since July 2025, UP42 has been a part of Neo Space Group. We are looking for a Cloud Engineer (m/f/x) to join our motivated SRE team in Berlin to help scale and maintain our cloud infrastructure while ensuring the reliability and performance of our geospatial processing platform. What you will do: Build, maintain and scale reliable infrastructure solutions using cloud-native technologies. Contribute to our IaC practices by managing and deploying cloud resources using Terraform and other modern tools. Manage, troubleshoot, and optimize Kubernetes clusters and workloads in Google Cloud Platform (GCP). Maintain and enhance monitoring and alerting…"
+      "description_excerpt": "Für ein etabliertes und marktführendes Medienunternehmen mit Sitz in München suchen wir einen erfahrenen Java Developer (m/w/d), der moderne Authentifizierungs- und Identity-Management-Lösungen in einer hochskalierbaren Cloud-Umgebung weiterentwickelt. Du arbeitest in einem agilen Entwicklerteam und treibst die technische Weiterentwicklung von sicherheitskritischen Anwendungen voran. Dabei stehen Themen wie Authentication, Authorization, Single Sign-On, Identity Management sowie Cloud-native Architekturen auf AWS und Kubernetes im Fokus. Aufgaben Entwicklung und Weiterentwicklung von Backend-Anwendungen mit Java Konzeption und Implementierung moderner Authentifizierungs- und Autorisierungslösungen Mitarbeit an Themen rund um Identity & Access Management (IAM) Entwicklung und Betrieb cloudnativer Anwendungen auf AWS Deployment und Betrieb von Services innerhalb einer Kubernetes-Umgebung Sicherstellung hoher Sicherheits-, Qualitäts- und Performance-Standards Qualifikation Mindestens 4 Jahre Berufserfahrung in der Softwareentwicklung mit Java Erfahrung in der Entwicklung moderner Backend-Systeme und Microservices Kenntnisse im Bereich Authentication & Authorization (z. B. OAuth2, Ope…"
     },
     {
-      "report_number": 3,
+      "report_number": 5,
       "job_key": "e9e07b891971f0d92e82",
       "status": "SEEN_BEFORE",
       "score": 77,
@@ -183,7 +295,7 @@
       "description_excerpt": "As an IT Security Engineer (m/f/d), you will be responsible for strengthening and protecting our organization's IT environment against evolving cyber threats. You will work closely with infrastructure, software, and operational teams to design, implement, and maintain security controls that ensure the confidentiality, integrity, and availability of our systems and data. We are looking for a hands-on security professional who is passionate about cybersecurity, enjoys solving complex challenges, and thrives in a fast-paced, innovative environment. What is your Day to Day Mission: Monitor, analyze, and respond to security events, alerts, and incidents Develop and enforce security policies in collaboration with internal stakeholders, taking into account industry-specific compliance requirements Perform system hardening and security baseline management for servers, endpoints, and critical infrastructure components. Support the deployment and administration of security solutions such as Endpoint Detection & Response (EDR), SIEM, vulnerability management, and identity security platforms. Design, implementation, and operation of firewall infrastructures using Fortinet and Sophos technolog…"
     },
     {
-      "report_number": 4,
+      "report_number": 6,
       "job_key": "8ad18102b9891af2fece",
       "status": "SEEN_BEFORE",
       "score": 72,
@@ -246,7 +358,7 @@
       "description_excerpt": "SpaceXAI’s mission is to create AI systems that can accurately understand the universe and aid humanity in its pursuit of knowledge. Our team is small, highly motivated, and focused on engineering excellence. This organization is for individuals who appreciate challenging themselves and thrive on curiosity. We operate with a flat organizational structure. All employees are expected to be hands-on and to contribute directly to the company’s mission. Leadership is given to those who show initiative and consistently deliver excellence. Work ethic and strong prioritization skills are important. All employees are expected to have strong communication skills. They should be able to concisely and accurately share knowledge with their teammates. ABOUT THE ROLE: We are seeking a talented and motivated Infrastructure Security Engineer to join our security team. In this role, you will design, implement, and maintain secure cloud and hybrid infrastructure, and ensure the integrity of our cloud-native applications. This role focuses on securing critical infrastructure across multi-cloud and hybrid environments, with work that may span platforms such as SpaceXAI, X Social, X Money and related s…"
     },
     {
-      "report_number": 5,
+      "report_number": 7,
       "job_key": "85348bfab89f8cc75ef0",
       "status": "SEEN_BEFORE",
       "score": 69,
@@ -297,174 +409,62 @@
       "description_excerpt": "It all starts with the mission: NVISO is here to protect European society from potentially devastating cyber attacks! This means we offer cyber security services to private and governmental organizations to help them better prepare for, prevent, detect and respond to cyber security incidents. All of this is built on four fundamental values that define who we are: We are Proud, We Break Barriers, We Care and No BS! Tasks As a Junior Cyber Strategy & Architecture Consultant (m/w/d) with a focus on GRC located in Germany, you will work together with Senior or Principal Consultants to support our larger to smaller customers with the overall reinforcement of their security posture. Typical engagements include (but are not limited to): Assisting client’s IT or security teams with the implementation of strategic security programs and projects. You solve together with other NVISO experts customers challenges or work in full integration with the client organization. Supporting the refinement of security governance, policies, processes and guidelines in all areas of the cyber security field. Assisting the implementation our client’s ISMS (Information Security Management Systems) by also imp…"
     },
     {
-      "report_number": 6,
-      "job_key": "3d48f95fa4abe32880a2",
+      "report_number": 8,
+      "job_key": "0e941e4bf040222bbfdd",
       "status": "SEEN_BEFORE",
-      "score": 67,
+      "score": 64,
       "score_label": "REVIEW",
-      "title": "Sr. Security Engineer - GRC EU/UK Regulation & Data Protection",
-      "company": "Xai",
-      "location": "London",
-      "working_model": "On-site / not specified",
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/xai/sr-security-engineer-grc-eu-uk-regulation-data-protection-london-320202",
+      "title": "Cloud Engineer (m/f/x)",
+      "company": "UP42 GmbH",
+      "location": "Berlin, Germany",
+      "working_model": "Hybrid",
+      "url": "https://www.arbeitnow.com/jobs/companies/up42-gmbh/cloud-engineer-berlin-2476",
       "source": "Arbeitnow",
       "sources": [
         "Arbeitnow"
       ],
-      "published_at": "2026-08-14T00:55:18Z",
+      "published_at": "2026-08-12T08:30:10Z",
       "first_seen": "2026-08-14T03:40:19Z",
-      "experience_required": "7+ years",
+      "experience_required": null,
       "german_requirement": "No German requirement detected",
       "skill_matches": {
         "match": [
-          "penetration testing",
-          "secure sdlc",
-          "vulnerability management"
+          "sast"
         ],
         "partial": [
           "aws",
           "ci/cd",
-          "nist"
+          "cloud security",
+          "devsecops"
         ],
         "missing": [
           "azure",
-          "gdpr",
-          "iso 27001"
-        ],
-        "nice_to_have": []
-      },
-      "score_breakdown": {
-        "title": 20,
-        "skills": 14,
-        "experience": 4,
-        "security_relevance": 8,
-        "location": 2,
-        "language": 10,
-        "education": 5,
-        "career_value": 4
-      },
-      "match_reasons": [
-        "The title is in a high-priority target role family.",
-        "The responsibilities align strongly with Application/Product Security work.",
-        "No mandatory German level above the current profile was detected.",
-        "Strong evidenced skill matches include penetration testing, secure sdlc, vulnerability management."
-      ],
-      "warnings": [
-        "Requests 7+ years versus approximately 2.1 years in the profile.",
-        "Potential skill gaps: azure, gdpr, iso 27001",
-        "Exposure only; do not claim deep expertise: aws, ci/cd, nist"
-      ],
-      "recommendation": "REVIEW - check gaps before applying",
-      "application_status": "NEW",
-      "description_excerpt": "SpaceXAI’s mission is to create AI systems that can accurately understand the universe and aid humanity in its pursuit of knowledge. Our team is small, highly motivated, and focused on engineering excellence. This organization is for individuals who appreciate challenging themselves and thrive on curiosity. We operate with a flat organizational structure. All employees are expected to be hands-on and to contribute directly to the company’s mission. Leadership is given to those who show initiative and consistently deliver excellence. Work ethic and strong prioritization skills are important. All employees are expected to have strong communication skills. They should be able to concisely and accurately share knowledge with their teammates. ABOUT THE ROLE: We are seeking an experienced Governance, Risk, and Compliance (GRC) Engineer focused on European Union and United Kingdom information security and financial services regulation to help scale compliance for SpaceXAI and xMoney. As we expand deeper into regulated EU/UK markets, maintaining a robust, transparent, and technically sound information security GRC program is critical. You will architect the systems and processes that auto…"
-    },
-    {
-      "report_number": 7,
-      "job_key": "975c260f4cccb6d07cbe",
-      "status": "SEEN_BEFORE",
-      "score": 65,
-      "score_label": "REVIEW",
-      "title": "IT Security Experte (m/w/d) Incident Response & DLP",
-      "company": "Mandl. Executives & Experts",
-      "location": "Munich, Germany",
-      "working_model": "Remote",
-      "url": "https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/it-security-experte-incident-response-dlp-munich-455340",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "published_at": "2026-08-13T13:30:26Z",
-      "first_seen": "2026-08-14T03:40:19Z",
-      "experience_required": null,
-      "german_requirement": "German unspecified required",
-      "skill_matches": {
-        "match": [
-          "penetration testing"
-        ],
-        "partial": [
-          "siem"
-        ],
-        "missing": [],
-        "nice_to_have": []
-      },
-      "score_breakdown": {
-        "title": 10,
-        "skills": 19,
-        "experience": 11,
-        "security_relevance": 6,
-        "location": 9,
-        "language": 4,
-        "education": 3,
-        "career_value": 3
-      },
-      "match_reasons": [
-        "The role is based in Berlin/Germany.",
-        "Strong evidenced skill matches include penetration testing."
-      ],
-      "warnings": [
-        "German unspecified required",
-        "Exposure only; do not claim deep expertise: siem"
-      ],
-      "recommendation": "REVIEW - check gaps before applying",
-      "application_status": "NEW",
-      "description_excerpt": "In dieser Rolle übernimmst du eine zentrale Funktion im Aufbau und in der Weiterentwicklung einer modernen IT-Sicherheitsstrategie mit Fokus auf Incident Response und Data Loss Prevention (DLP). Du arbeitest eng mit verschiedenen Fachbereichen zusammen und sorgst dafür, dass sensible Unternehmensdaten effektiv geschützt werden. Neben der operativen Arbeit im SIEM gestaltest du Security-Prozesse aktiv mit. Dich erwartet eine abwechslungsreiche Position mit viel Gestaltungsspielraum in einem sicherheitskritischen Umfeld. Aufgaben Überwachung und Bearbeitung von Sicherheitsvorfällen im SIEM sowie kontinuierliche Verbesserung der Alarm- und Erkennungslogik Konzeption, Implementierung und Betrieb von DLP-Lösungen zur Absicherung sensibler Daten Beratung interner Fachbereiche bei IT-Projekten mit Schwerpunkt auf Security-Anforderungen Identifikation schützenswerter Informationen sowie Definition geeigneter Maßnahmen zu deren Absicherung Weiterentwicklung des Security Monitorings zur frühzeitigen Erkennung neuer Bedrohungen Pflege und Optimierung von Regelwerken im SIEM- und DLP-Umfeld Durchführung von Audits und Erstellung von Reports zur Bewertung der Sicherheitsmaßnahmen Planung und S…"
-    },
-    {
-      "report_number": 8,
-      "job_key": "973ebf42ee7ab50c3088",
-      "status": "SEEN_BEFORE",
-      "score": 58,
-      "score_label": "STRETCH",
-      "title": "Java Developer (m/w/d) für Authentication & Security",
-      "company": "Mandl. Executives & Experts",
-      "location": "Munich, Germany",
-      "working_model": "Hybrid",
-      "url": "https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/java-developer-fur-authentication-security-munich-330583",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "published_at": "2026-08-13T13:00:51Z",
-      "first_seen": "2026-08-14T03:40:19Z",
-      "experience_required": "4+ years",
-      "german_requirement": "German unspecified required",
-      "skill_matches": {
-        "match": [
-          "kali linux"
-        ],
-        "partial": [
-          "aws",
-          "ci/cd",
-          "docker"
-        ],
-        "missing": [
           "kubernetes"
         ],
         "nice_to_have": []
       },
       "score_breakdown": {
-        "title": 10,
-        "skills": 15,
-        "experience": 10,
-        "security_relevance": 4,
-        "location": 9,
-        "language": 4,
+        "title": 6,
+        "skills": 13,
+        "experience": 11,
+        "security_relevance": 6,
+        "location": 10,
+        "language": 10,
         "education": 3,
-        "career_value": 3
+        "career_value": 5
       },
       "match_reasons": [
         "The role is based in Berlin/Germany.",
-        "Strong evidenced skill matches include kali linux."
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include sast."
       ],
       "warnings": [
-        "German unspecified required",
-        "Requests 4+ years versus approximately 2.1 years in the profile.",
-        "Potential skill gaps: kubernetes",
-        "Exposure only; do not claim deep expertise: aws, ci/cd, docker"
+        "Potential skill gaps: azure, kubernetes",
+        "Exposure only; do not claim deep expertise: aws, ci/cd, cloud security, devsecops"
       ],
-      "recommendation": "STRETCH - apply only if the role is strategically valuable",
+      "recommendation": "REVIEW - check gaps before applying",
       "application_status": "NEW",
-      "description_excerpt": "Für ein etabliertes und marktführendes Medienunternehmen mit Sitz in München suchen wir einen erfahrenen Java Developer (m/w/d), der moderne Authentifizierungs- und Identity-Management-Lösungen in einer hochskalierbaren Cloud-Umgebung weiterentwickelt. Du arbeitest in einem agilen Entwicklerteam und treibst die technische Weiterentwicklung von sicherheitskritischen Anwendungen voran. Dabei stehen Themen wie Authentication, Authorization, Single Sign-On, Identity Management sowie Cloud-native Architekturen auf AWS und Kubernetes im Fokus. Aufgaben Entwicklung und Weiterentwicklung von Backend-Anwendungen mit Java Konzeption und Implementierung moderner Authentifizierungs- und Autorisierungslösungen Mitarbeit an Themen rund um Identity & Access Management (IAM) Entwicklung und Betrieb cloudnativer Anwendungen auf AWS Deployment und Betrieb von Services innerhalb einer Kubernetes-Umgebung Sicherstellung hoher Sicherheits-, Qualitäts- und Performance-Standards Qualifikation Mindestens 4 Jahre Berufserfahrung in der Softwareentwicklung mit Java Erfahrung in der Entwicklung moderner Backend-Systeme und Microservices Kenntnisse im Bereich Authentication & Authorization (z. B. OAuth2, Ope…"
+      "description_excerpt": "UP42 was founded in 2019 with a clear purpose: to transform how organizations order, access, and analyze Earth observation data. Our platform brings together the world’s leading geospatial providers, and offers a single touchpoint to access, manage, and process data at scale. From vegetation management and infrastructure monitoring to disaster response, UP42 helps organizations across industries find solutions to complex problems through Earth observation. Our expert support team and detailed documentation guide our users through every step. Since July 2025, UP42 has been a part of Neo Space Group. We are looking for a Cloud Engineer (m/f/x) to join our motivated SRE team in Berlin to help scale and maintain our cloud infrastructure while ensuring the reliability and performance of our geospatial processing platform. What you will do: Build, maintain and scale reliable infrastructure solutions using cloud-native technologies. Contribute to our IaC practices by managing and deploying cloud resources using Terraform and other modern tools. Manage, troubleshoot, and optimize Kubernetes clusters and workloads in Google Cloud Platform (GCP). Maintain and enhance monitoring and alerting…"
     },
     {
       "report_number": 9,
@@ -569,17 +569,17 @@
     }
   },
   "rejection_summary": {
-    "Insufficient cybersecurity relevance": 867,
-    "Student/internship-only employment type": 71,
-    "Excluded seniority/employment type in title: werkstudent": 64,
+    "Insufficient cybersecurity relevance": 857,
+    "Student/internship-only employment type": 70,
+    "Excluded seniority/employment type in title: werkstudent": 60,
     "German C1 required": 47,
-    "Excluded seniority/employment type in title: working student": 22,
+    "On-site role outside the target region": 28,
+    "On-site role outside Germany": 28,
+    "Excluded seniority/employment type in title: working student": 24,
     "German C2 required": 17,
-    "Mandatory experience is too senior: 10+ years": 17,
-    "On-site role outside the target region": 17,
-    "On-site role outside Germany": 17,
     "Native German required": 15,
-    "Mandatory experience is too senior: 8+ years": 10,
+    "Mandatory experience is too senior: 10+ years": 14,
+    "Mandatory experience is too senior: 8+ years": 9,
     "Mandatory experience is too senior: 8-12 years": 2,
     "Mandatory experience is too senior: 15+ years": 1,
     "Mandatory experience is too senior: 12-15 years": 1,

@@ -3,7 +3,7 @@
 **Date:** 2026-08-14
 **Jobs collected:** 893
 **New jobs:** 0
-**Updated jobs:** 2
+**Updated jobs:** 4
 **Relevant jobs:** 10
 **Strong matches:** 0
 **Sources checked:** 2
@@ -48,7 +48,7 @@ No jobs in this section today.
 
 **Recommendation:** GOOD - REVIEW REQUIREMENTS
 
-### 3. IT Security Engineer (m/f/d)
+### 5. IT Security Engineer (m/f/d)
 
 - **Company:** Quantum-Systems GmbH
 - **Location:** Gilching, Bayern, Germany
@@ -79,7 +79,7 @@ No jobs in this section today.
 
 **Recommendation:** GOOD - REVIEW REQUIREMENTS
 
-### 4. Infrastructure Security Engineer
+### 6. Infrastructure Security Engineer
 
 - **Company:** Xai
 - **Location:** London
@@ -112,38 +112,69 @@ No jobs in this section today.
 
 ## 🟡 REVIEW
 
-### 2. Cloud Engineer (m/f/x)
+### 2. Sr. Security Engineer - GRC EU/UK Regulation & Data Protection
 
-- **Company:** UP42 GmbH
-- **Location:** Berlin, Germany
-- **Working model:** Hybrid
+- **Company:** Xai
+- **Location:** London
+- **Working model:** On-site / not specified
 - **Source:** Arbeitnow
-- **Posted:** 2026-08-12
+- **Posted:** 2026-08-14
 - **First seen:** 2026-08-14
 - **Radar status:** UPDATED
 - **Application status:** NEW
-- **Match score:** **64/100 - REVIEW**
-- **Direct job URL:** [UP42 GmbH vacancy](https://www.arbeitnow.com/jobs/companies/up42-gmbh/cloud-engineer-berlin-2476)
+- **Match score:** **67/100 - REVIEW**
+- **Direct job URL:** [Xai vacancy](https://www.arbeitnow.co.uk/jobs/companies/xai/sr-security-engineer-grc-eu-uk-regulation-data-protection-london-320202)
 
-**Strong matches:** sast
+**Strong matches:** penetration testing, secure sdlc, vulnerability management
 
-**Partial matches:** aws, ci/cd, cloud security, devsecops
+**Partial matches:** aws, ci/cd, nist
 
-**Potential gaps:** azure, kubernetes
+**Potential gaps:** azure, gdpr, iso 27001
+
+**Nice-to-have requirements:** None detected
+
+**Experience:** 7+ years
+
+**German:** No German requirement detected
+
+**Why relevant:** The title is in a high-priority target role family. The responsibilities align strongly with Application/Product Security work. No mandatory German level above the current profile was detected. Strong evidenced skill matches include penetration testing, secure sdlc, vulnerability management.
+
+**Warnings:** Requests 7+ years versus approximately 2.1 years in the profile. Potential skill gaps: azure, gdpr, iso 27001 Exposure only; do not claim deep expertise: aws, ci/cd, nist
+
+**Recommendation:** REVIEW - check gaps before applying
+
+### 3. IT Security Experte (m/w/d) Incident Response & DLP
+
+- **Company:** Mandl. Executives & Experts
+- **Location:** Munich, Germany
+- **Working model:** Remote
+- **Source:** Arbeitnow
+- **Posted:** 2026-08-13
+- **First seen:** 2026-08-14
+- **Radar status:** UPDATED
+- **Application status:** NEW
+- **Match score:** **65/100 - REVIEW**
+- **Direct job URL:** [Mandl. Executives & Experts vacancy](https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/it-security-experte-incident-response-dlp-munich-455340)
+
+**Strong matches:** penetration testing
+
+**Partial matches:** siem
+
+**Potential gaps:** None detected
 
 **Nice-to-have requirements:** None detected
 
 **Experience:** No explicit years detected
 
-**German:** No German requirement detected
+**German:** German unspecified required
 
-**Why relevant:** The role is based in Berlin/Germany. No mandatory German level above the current profile was detected. Strong evidenced skill matches include sast.
+**Why relevant:** The role is based in Berlin/Germany. Strong evidenced skill matches include penetration testing.
 
-**Warnings:** Potential skill gaps: azure, kubernetes Exposure only; do not claim deep expertise: aws, ci/cd, cloud security, devsecops
+**Warnings:** German unspecified required Exposure only; do not claim deep expertise: siem
 
 **Recommendation:** REVIEW - check gaps before applying
 
-### 5. Junior Cyber Strategy & Architecture Consultant (m/w/d) - Focus GRC
+### 7. Junior Cyber Strategy & Architecture Consultant (m/w/d) - Focus GRC
 
 - **Company:** NVISO
 - **Location:** Frankfurt am Main, Germany
@@ -174,71 +205,40 @@ No jobs in this section today.
 
 **Recommendation:** REVIEW - check gaps before applying
 
-### 6. Sr. Security Engineer - GRC EU/UK Regulation & Data Protection
+### 8. Cloud Engineer (m/f/x)
 
-- **Company:** Xai
-- **Location:** London
-- **Working model:** On-site / not specified
+- **Company:** UP42 GmbH
+- **Location:** Berlin, Germany
+- **Working model:** Hybrid
 - **Source:** Arbeitnow
-- **Posted:** 2026-08-14
+- **Posted:** 2026-08-12
 - **First seen:** 2026-08-14
 - **Radar status:** SEEN_BEFORE
 - **Application status:** NEW
-- **Match score:** **67/100 - REVIEW**
-- **Direct job URL:** [Xai vacancy](https://www.arbeitnow.co.uk/jobs/companies/xai/sr-security-engineer-grc-eu-uk-regulation-data-protection-london-320202)
+- **Match score:** **64/100 - REVIEW**
+- **Direct job URL:** [UP42 GmbH vacancy](https://www.arbeitnow.com/jobs/companies/up42-gmbh/cloud-engineer-berlin-2476)
 
-**Strong matches:** penetration testing, secure sdlc, vulnerability management
+**Strong matches:** sast
 
-**Partial matches:** aws, ci/cd, nist
+**Partial matches:** aws, ci/cd, cloud security, devsecops
 
-**Potential gaps:** azure, gdpr, iso 27001
-
-**Nice-to-have requirements:** None detected
-
-**Experience:** 7+ years
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. The responsibilities align strongly with Application/Product Security work. No mandatory German level above the current profile was detected. Strong evidenced skill matches include penetration testing, secure sdlc, vulnerability management.
-
-**Warnings:** Requests 7+ years versus approximately 2.1 years in the profile. Potential skill gaps: azure, gdpr, iso 27001 Exposure only; do not claim deep expertise: aws, ci/cd, nist
-
-**Recommendation:** REVIEW - check gaps before applying
-
-### 7. IT Security Experte (m/w/d) Incident Response & DLP
-
-- **Company:** Mandl. Executives & Experts
-- **Location:** Munich, Germany
-- **Working model:** Remote
-- **Source:** Arbeitnow
-- **Posted:** 2026-08-13
-- **First seen:** 2026-08-14
-- **Radar status:** SEEN_BEFORE
-- **Application status:** NEW
-- **Match score:** **65/100 - REVIEW**
-- **Direct job URL:** [Mandl. Executives & Experts vacancy](https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/it-security-experte-incident-response-dlp-munich-455340)
-
-**Strong matches:** penetration testing
-
-**Partial matches:** siem
-
-**Potential gaps:** None detected
+**Potential gaps:** azure, kubernetes
 
 **Nice-to-have requirements:** None detected
 
 **Experience:** No explicit years detected
 
-**German:** German unspecified required
+**German:** No German requirement detected
 
-**Why relevant:** The role is based in Berlin/Germany. Strong evidenced skill matches include penetration testing.
+**Why relevant:** The role is based in Berlin/Germany. No mandatory German level above the current profile was detected. Strong evidenced skill matches include sast.
 
-**Warnings:** German unspecified required Exposure only; do not claim deep expertise: siem
+**Warnings:** Potential skill gaps: azure, kubernetes Exposure only; do not claim deep expertise: aws, ci/cd, cloud security, devsecops
 
 **Recommendation:** REVIEW - check gaps before applying
 
 ## 🟠 STRETCH
 
-### 8. Java Developer (m/w/d) für Authentication & Security
+### 4. Java Developer (m/w/d) für Authentication & Security
 
 - **Company:** Mandl. Executives & Experts
 - **Location:** Munich, Germany
@@ -246,7 +246,7 @@ No jobs in this section today.
 - **Source:** Arbeitnow
 - **Posted:** 2026-08-13
 - **First seen:** 2026-08-14
-- **Radar status:** SEEN_BEFORE
+- **Radar status:** UPDATED
 - **Application status:** NEW
 - **Match score:** **58/100 - STRETCH**
 - **Direct job URL:** [Mandl. Executives & Experts vacancy](https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/java-developer-fur-authentication-security-munich-330583)

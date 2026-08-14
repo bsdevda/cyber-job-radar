@@ -53,6 +53,33 @@
           "error": ""
         }
       }
+    },
+    {
+      "generated_at": "2026-08-14T06:54:35Z",
+      "jobs_collected": 893,
+      "duplicates_removed": 23,
+      "jobs_rejected_or_below_threshold": 860,
+      "relevant_jobs_in_current_run": 10,
+      "new_jobs": 0,
+      "updated_jobs": 4,
+      "strong_matches": 0,
+      "sources_checked": 2,
+      "sources_failed": 0,
+      "report_jobs": 10,
+      "source_status": {
+        "arbeitnow": {
+          "ok": true,
+          "jobs": 875,
+          "requests": 8,
+          "error": ""
+        },
+        "remotive": {
+          "ok": true,
+          "jobs": 18,
+          "requests": 1,
+          "error": ""
+        }
+      }
     }
   ],
   "events": [
@@ -146,6 +173,38 @@
     },
     {
       "at": "2026-08-14T03:59:57Z",
+      "job_key": "accdde42e3df719da13b",
+      "event": "UPDATED",
+      "company": "FINN",
+      "title": "Engineering Manager - Cloud & Security (m/f/x)",
+      "score": 71
+    },
+    {
+      "at": "2026-08-14T06:54:35Z",
+      "job_key": "3d48f95fa4abe32880a2",
+      "event": "UPDATED",
+      "company": "Xai",
+      "title": "Sr. Security Engineer - GRC EU/UK Regulation & Data Protection",
+      "score": 67
+    },
+    {
+      "at": "2026-08-14T06:54:35Z",
+      "job_key": "975c260f4cccb6d07cbe",
+      "event": "UPDATED",
+      "company": "Mandl. Executives & Experts",
+      "title": "IT Security Experte (m/w/d) Incident Response & DLP",
+      "score": 65
+    },
+    {
+      "at": "2026-08-14T06:54:35Z",
+      "job_key": "973ebf42ee7ab50c3088",
+      "event": "UPDATED",
+      "company": "Mandl. Executives & Experts",
+      "title": "Java Developer (m/w/d) für Authentication & Security",
+      "score": 58
+    },
+    {
+      "at": "2026-08-14T06:54:35Z",
       "job_key": "accdde42e3df719da13b",
       "event": "UPDATED",
       "company": "FINN",
