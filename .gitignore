@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.venv/
+venv/
+.env
+*.log
+.DS_Store
+Thumbs.db
+
+# Never commit private career or identity documents.
+private/
+cv/
+*.pdf
+*.docx
+*.pem
+*.key
+*.sqlite

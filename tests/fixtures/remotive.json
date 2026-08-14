@@ -1,0 +1,30 @@
+{
+  "jobs": [
+    {
+      "id": 200,
+      "url": "https://remotive.com/remote/jobs/software-development/security-engineer-200",
+      "title": "Security Engineer",
+      "company_name": "Remote Secure",
+      "category": "Software Development",
+      "tags": ["Security", "AWS", "Docker"],
+      "job_type": "full_time",
+      "publication_date": "2026-08-14T06:00:00Z",
+      "candidate_required_location": "Europe",
+      "salary": "",
+      "description": "<p>Work remotely from Europe on application security, secure SDLC, API security, SAST, DAST and threat modeling. Experience with OWASP and vulnerability management is required. AWS, Docker and Kubernetes are preferred. English is the company language.</p>"
+    },
+    {
+      "id": 201,
+      "url": "https://remotive.com/remote/jobs/all-others/security-analyst-201",
+      "title": "Security Analyst",
+      "company_name": "US Secure",
+      "category": "All Others",
+      "tags": ["Security"],
+      "job_type": "full_time",
+      "publication_date": "2026-08-14T06:30:00Z",
+      "candidate_required_location": "USA only",
+      "salary": "",
+      "description": "<p>Monitor SIEM alerts and investigate incidents. This remote role is available in the USA only.</p>"
+    }
+  ]
+}

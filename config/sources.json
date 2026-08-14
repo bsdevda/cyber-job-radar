@@ -1,0 +1,21 @@
+{
+  "http": {
+    "timeout_seconds": 25,
+    "retries": 3,
+    "backoff_seconds": 1.0,
+    "user_agent": "CyberJobRadar/1.0 (+personal non-commercial job search)"
+  },
+  "sources": {
+    "arbeitnow": {
+      "enabled": true,
+      "endpoint": "https://www.arbeitnow.com/api/job-board-api",
+      "max_pages": 8,
+      "delay_seconds": 0.35
+    },
+    "remotive": {
+      "enabled": true,
+      "endpoint": "https://remotive.com/api/remote-jobs",
+      "delay_seconds": 0.0
+    }
+  }
+}

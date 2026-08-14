@@ -1,0 +1,44 @@
+{
+  "pages": [
+    {
+      "data": [
+        {
+          "slug": "example-appsec-berlin-100",
+          "company_name": "Example GmbH",
+          "title": "Application Security Engineer (m/f/d)",
+          "description": "<p>Join our product security team in Berlin. You will perform threat modeling, API security testing, web application security reviews, SAST and DAST, and vulnerability management. We use OWASP, Burp Suite, Fortify, Python and CI/CD. A computer science degree and 3+ years of security experience are required. German is a plus; English is our working language.</p>",
+          "remote": false,
+          "url": "https://www.arbeitnow.com/jobs/companies/example/example-appsec-berlin-100?utm_source=test",
+          "tags": ["Security", "Engineering"],
+          "job_types": ["Full-Time"],
+          "location": "Berlin, Deutschland",
+          "created_at": 1786660000
+        },
+        {
+          "slug": "sales-berlin-101",
+          "company_name": "Example GmbH",
+          "title": "Enterprise Account Executive",
+          "description": "<p>Sell cybersecurity software to enterprise customers. Five years of sales experience required.</p>",
+          "remote": false,
+          "url": "https://www.arbeitnow.com/jobs/companies/example/sales-berlin-101",
+          "tags": ["Sales"],
+          "job_types": ["Full-Time"],
+          "location": "Berlin",
+          "created_at": 1786660100
+        },
+        {
+          "slug": "principal-security-102",
+          "company_name": "Too Senior SE",
+          "title": "Principal Security Engineer",
+          "description": "<p>Lead product security. At least 10 years of security experience required.</p>",
+          "remote": false,
+          "url": "https://www.arbeitnow.com/jobs/companies/too-senior/principal-security-102",
+          "tags": ["Security"],
+          "job_types": ["Full-Time"],
+          "location": "Munich",
+          "created_at": 1786660200
+        }
+      ]
+    }
+  ]
+}
