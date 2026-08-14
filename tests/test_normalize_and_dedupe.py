@@ -37,11 +37,16 @@ class NormalizationAndDeduplicationTests(unittest.TestCase):
 
     def test_deduplicates_across_sources(self) -> None:
         left = normalize_job(self._raw("Arbeitnow", "https://arbeitnow.com/jobs/1"))
-        right = normalize_job(self._raw("Greenhouse", "https://boards.greenhouse.io/secure/jobs/1"))
+        greenhouse = self._raw("Greenhouse", "https://boards.greenhouse.io/secure/jobs/1")
+        greenhouse["ats"] = "greenhouse"
+        greenhouse["apply_url"] = greenhouse["url"]
+        right = normalize_job(greenhouse)
         result = deduplicate_jobs([left, right])
         self.assertEqual(len(result), 1)
         self.assertEqual(result[0]["sources"], ["Arbeitnow", "Greenhouse"])
         self.assertEqual(result[0]["url"], "https://boards.greenhouse.io/secure/jobs/1")
+        self.assertEqual(result[0]["ats"], "greenhouse")
+        self.assertEqual(result[0]["source"], "Greenhouse")
 
 
 if __name__ == "__main__":

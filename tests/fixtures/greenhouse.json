@@ -1,0 +1,37 @@
+{
+  "boards": {
+    "secureco": {
+      "jobs": [
+        {
+          "id": 987654,
+          "title": "Product Security Engineer (m/f/d)",
+          "updated_at": "2026-08-14T08:30:00+02:00",
+          "location": {
+            "name": "Berlin, Germany"
+          },
+          "absolute_url": "https://boards.greenhouse.io/secureco/jobs/987654",
+          "content": "<p>Improve product security using threat modeling, OWASP, and secure code review.</p>",
+          "metadata": [
+            {
+              "name": "Employment Type",
+              "value": "Full-time"
+            }
+          ],
+          "departments": [
+            {
+              "name": "Security"
+            }
+          ],
+          "offices": [
+            {
+              "name": "Berlin"
+            }
+          ]
+        }
+      ]
+    },
+    "emptyco": {
+      "jobs": []
+    }
+  }
+}

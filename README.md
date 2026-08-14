@@ -4,10 +4,13 @@ A free, rule-based job discovery and matching system for a Berlin-based cybersec
 
 The crawler performs **discovery + first filtering**. ChatGPT or a human performs the final vacancy review, CV tailoring, and APPLY / REVIEW / SKIP decision. The project never auto-applies and never needs an OpenAI API key.
 
-## What is included in Version 1
+## What is included in Version 1.1
 
 - Arbeitnow's public Germany/Europe job API
 - Remotive's public remote-jobs API
+- Public Greenhouse job boards selected in `config/companies.json`
+- Per-source and per-Greenhouse-company health reporting
+- Configuration validation before any network request
 - Provider-isolated failure handling
 - HTML cleanup and one normalized job schema
 - URL, fingerprint, and similarity-based deduplication
@@ -26,7 +29,7 @@ The crawler performs **discovery + first filtering**. ChatGPT or a human perform
 
 ```mermaid
 flowchart TD
-    A["Public APIs"] --> B["Collectors"]
+    A["Public APIs + configured Greenhouse boards"] --> B["Collectors"]
     B --> C["Normalize + deduplicate"]
     C --> D["Hard filters"]
     D --> E["Transparent scoring"]
@@ -35,7 +38,7 @@ flowchart TD
     G --> H["Human / ChatGPT review"]
 ```
 
-Each collector fails independently. A Remotive outage, for example, is recorded in the report without discarding successfully collected Arbeitnow jobs.
+Each collector fails independently. A Remotive outage, for example, is recorded in the report without discarding successfully collected Arbeitnow jobs. Within Greenhouse, one invalid employer board is recorded without stopping the other configured employers.
 
 ## Material design corrections
 
@@ -59,6 +62,7 @@ cyber-job-radar/
 │   ├── applications.json
 │   ├── job_history.json
 │   ├── jobs.json
+│   ├── source_health.json
 │   └── seen_jobs.json
 ├── reports/
 │   ├── archive/
@@ -67,12 +71,14 @@ cyber-job-radar/
 ├── src/
 │   ├── collectors/
 │   ├── analysis.py
+│   ├── config_validation.py
 │   ├── deduplication.py
 │   ├── filters.py
 │   ├── main.py
 │   ├── normalize.py
 │   ├── reporting.py
 │   ├── scoring.py
+│   ├── source_health.py
 │   ├── storage.py
 │   └── utils.py
 ├── tests/
@@ -123,21 +129,21 @@ Python 3.12's standard library provides all runtime dependencies. `requirements.
 
 ## Test without calling live APIs
 
-This deterministic command uses the provider-shaped payloads in `tests/fixtures/`:
+The test suite uses provider-shaped fixtures and temporary data directories. It never calls live providers and never replaces your real `data/jobs.json`:
 
 ### PowerShell
 
 ```powershell
-python -m src.main --fixture-dir .\tests\fixtures --no-archive
+python -m unittest discover -s tests -v
 ```
 
 ### Linux / Kali
 
 ```bash
-python -m src.main --fixture-dir tests/fixtures --no-archive
+python -m unittest discover -s tests -v
 ```
 
-Expected fixture result: five raw postings, two relevant jobs, and a report containing an Application Security Engineer plus a Europe-remote Security Engineer.
+The integration test expects five general-source fixture postings, two relevant jobs, and a report containing an Application Security Engineer plus a Europe-remote Security Engineer. Greenhouse parsing and failure isolation have separate deterministic tests.
 
 ## Create the GitHub repository
 
@@ -201,13 +207,48 @@ Prefer configuration changes over hard-coded company logic.
 
 Edit `config/sources.json` to enable/disable a provider or adjust respectful request settings. Arbeitnow pages are fetched with a short delay and bounded page count. HTTP requests use timeouts, retries, exponential backoff, and an identifiable user agent.
 
-### Priority companies
+### Greenhouse employers
 
-Add names to `config/companies.json`:
+Greenhouse Version 1.1 is enabled in `config/sources.json`, but makes no requests until you add at least one enabled employer to `config/companies.json`:
 
 ```json
 {
-  "priority_companies": ["Example GmbH"]
+  "priority_companies": [],
+  "greenhouse": [
+    {
+      "name": "Example GmbH",
+      "board": "example",
+      "priority": false,
+      "enabled": true,
+      "notes": "Optional note"
+    }
+  ],
+  "lever": [],
+  "ashby": [],
+  "recruitee": [],
+  "smartrecruiters": []
+}
+```
+
+For a hosted board such as `https://boards.greenhouse.io/example`, the board token is `example`, the final path segment. The employer name is display metadata; the `board` token controls the public API request. Disabled entries are validated but not queried. Empty ATS arrays are valid and let later versions extend the same file without migration.
+
+Do not guess board tokens. Open the employer's genuine careers page, follow its Greenhouse link, and copy the token from the URL. A wrong or migrated board appears as a company failure in source health while other employers continue.
+
+### Priority companies
+
+Set `priority: true` on an ATS entry, or keep using the backwards-compatible name list:
+
+```json
+{
+  "priority_companies": ["Example GmbH"],
+  "greenhouse": [
+    {
+      "name": "Another Security Company",
+      "board": "anothersecuritycompany",
+      "priority": true,
+      "enabled": true
+    }
+  ]
 }
 ```
 
@@ -260,6 +301,7 @@ Requirements such as three years, German nice-to-have, AWS preferred, or Kuberne
 - `data/jobs.json`: full normalized descriptions and scoring evidence
 - `data/seen_jobs.json`: first/last seen timestamps and content hashes
 - `data/job_history.json`: bounded run summaries and NEW/UPDATED/REMOVED events
+- `data/source_health.json`: latest collector health, job counts, and short structured errors
 - `data/applications.json`: manual application state, kept separate so refreshes cannot overwrite it
 
 Radar status meanings:
@@ -325,7 +367,10 @@ git status
 
 Common checks:
 
-- **One provider fails:** inspect the Source Status section; other providers should still finish.
+- **One provider fails:** inspect the Source Health section and `data/source_health.json`; other providers should still finish.
+- **One Greenhouse company fails:** verify its configured `board` token and whether the employer moved to another ATS. The remaining Greenhouse companies still run.
+- **Greenhouse shows idle:** this is normal when its company list is empty or every entry is disabled.
+- **Invalid configuration:** read the precise `ConfigurationError`, correct `companies.json`, then rerun tests. Invalid objects, identifiers, booleans, sections, and duplicates are rejected before requests begin.
 - **All live requests fail locally:** run the offline fixture command to separate network/provider problems from code problems.
 - **A good role is rejected:** inspect `rejection_summary` in `reports/latest.json`, add a test reproducing it, then adjust configuration or the narrow rule.
 - **A score seems wrong:** inspect `score_breakdown`, `skill_matches`, `experience_required`, and `german_requirement` before changing weights.
@@ -357,6 +402,7 @@ The `.gitignore` blocks common private-document locations and formats, but alway
 
 - [Arbeitnow Job Board API](https://www.arbeitnow.com/blog/job-board-api) is public and currently requires no API key.
 - [Remotive's public API terms](https://remotive.com/remote-jobs/api) require linking to the Remotive vacancy and identifying Remotive as the source; the generated report preserves both. Public API jobs are delayed by 24 hours under their current terms.
+- [Greenhouse Job Board API](https://developers.greenhouse.io/job-board.html) documents the public board jobs endpoint and the optional full-description response.
 - [GitHub Actions schedule documentation](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule) describes timezone-aware cron scheduling and possible schedule delays.
 - [GitHub Actions billing documentation](https://docs.github.com/en/billing/concepts/product-billing/github-actions) explains free public-repository usage and private-repository quotas.
 
@@ -365,16 +411,16 @@ If a provider changes or withdraws its public access, disable that source rather
 ## Known limitations
 
 - Rule-based extraction can miss unusual language or interpret ambiguous requirements imperfectly.
-- Arbeitnow and Remotive alone cannot cover every German cybersecurity vacancy.
+- The configured sources cannot cover every German cybersecurity vacancy.
 - Arbeitnow pagination is bounded to control runtime and request volume; change it carefully.
 - Remotive covers remote roles globally, so strict location filtering removes many results.
 - Job removals are inferred after a time window, not confirmed directly with every employer.
 - Some aggregator URLs may not be the employer's original ATS URL.
 - Public GitHub Actions schedules are not guaranteed to start at the exact minute.
 
-## Version 2 path
+## Phased roadmap
 
-The collector interface is ready for Greenhouse, Lever, and Ashby boards configured by company identifier. Add those providers only after Version 1 passes locally and in GitHub Actions. Version 2 should preserve the current schema, tracking, reports, and tests instead of rebuilding them.
+Version 1.1 adds Greenhouse only. After it passes locally and in GitHub Actions, Version 1.2 can add Lever and Ashby using the same collector result, company configuration, normalization, source-health, storage, and reporting pipeline. Recruitee, SmartRecruiters, ATS detection, and portal-email ingestion remain later phases and are intentionally not included in this change.
 
 ## License
 

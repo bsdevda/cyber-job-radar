@@ -1,4 +1,9 @@
 {
   "priority_companies": [],
-  "notes": "Priority status is shown separately and never inflates technical-fit scoring. ATS board identifiers will be added in Version 2."
+  "greenhouse": [],
+  "lever": [],
+  "ashby": [],
+  "recruitee": [],
+  "smartrecruiters": [],
+  "notes": "Version 1.1 supports Greenhouse. Later ATS arrays are reserved for phased integrations. Priority status is reported separately and never inflates technical-fit scoring."
 }

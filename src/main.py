@@ -7,12 +7,14 @@ from pathlib import Path
 from typing import Any
 
 from .analysis import detect_german_requirement, detect_skills, extract_experience
-from .collectors import ArbeitnowCollector, RemotiveCollector
+from .collectors import ArbeitnowCollector, GreenhouseCollector, RemotiveCollector
+from .config_validation import ConfigurationError, priority_company_names, validate_companies_config
 from .deduplication import deduplicate_jobs
 from .filters import hard_filter, summarize_rejections
 from .normalize import content_hash, normalize_job
 from .reporting import build_report_payload, render_markdown, select_report_jobs
 from .scoring import score_job
+from .source_health import build_source_health
 from .storage import append_run_history, apply_seen_tracking, merge_job_database
 from .utils import HttpClient, iso_now, load_json, normalize_text, write_json_atomic, write_text_atomic
 
@@ -24,10 +26,16 @@ def run(project_root: Path, fixture_dir: Path | None = None, no_archive: bool = 
     search_config = load_json(project_root / "config/search_config.json")
     profile = load_json(project_root / "config/candidate_profile.json")
     sources_config = load_json(project_root / "config/sources.json")
-    companies = load_json(project_root / "config/companies.json", {"priority_companies": []})
+    companies = validate_companies_config(
+        load_json(project_root / "config/companies.json", {"priority_companies": []})
+    )
     http = HttpClient(**sources_config["http"])
 
-    collector_types = {"arbeitnow": ArbeitnowCollector, "remotive": RemotiveCollector}
+    collector_types = {
+        "arbeitnow": ArbeitnowCollector,
+        "remotive": RemotiveCollector,
+        "greenhouse": GreenhouseCollector,
+    }
     results = []
     raw_jobs: list[dict[str, Any]] = []
     for source_name, source_options in sources_config["sources"].items():
@@ -35,22 +43,23 @@ def run(project_root: Path, fixture_dir: Path | None = None, no_archive: bool = 
             continue
         collector_type = collector_types.get(source_name)
         if collector_type is None:
-            LOGGER.error("No collector implementation for enabled source: %s", source_name)
-            continue
-        result = collector_type(source_options, http).collect(fixture_dir)
+            raise ConfigurationError(f"No collector implementation for enabled source: {source_name}")
+        result = collector_type(source_options, http, companies.get(source_name, [])).collect(fixture_dir)
         results.append(result)
         raw_jobs.extend(result.jobs)
         if result.ok:
             LOGGER.info("%s: collected %d job(s)", source_name, len(result.jobs))
         else:
             LOGGER.error("%s failed: %s", source_name, result.error)
+        for error in result.errors:
+            LOGGER.warning("%s", error.get("message", error))
 
     normalized = [normalize_job(raw) for raw in raw_jobs]
     deduped = deduplicate_jobs(normalized)
     duplicate_count = len(normalized) - len(deduped)
     accepted: list[dict[str, Any]] = []
     rejected: list[dict[str, Any]] = []
-    priority_companies = {normalize_text(name) for name in companies.get("priority_companies", [])}
+    priority_companies = priority_company_names(companies)
 
     for job in deduped:
         job["content_hash"] = content_hash(job)
@@ -84,27 +93,22 @@ def run(project_root: Path, fixture_dir: Path | None = None, no_archive: bool = 
     seen = load_json(data_dir / "seen_jobs.json", {})
     applications = load_json(data_dir / "applications.json", {})
     history = load_json(data_dir / "job_history.json", {"runs": [], "events": []})
+    source_health = build_source_health(results, now)
+    source_status = source_health["sources"]
     seen, events = apply_seen_tracking(
         accepted,
         seen,
         now,
         int(search_config["expire_after_days"]),
-        allow_expiry=any(result.ok for result in results),
+        allow_expiry=any(
+            details["status"] in {"ok", "partial"} for details in source_status.values()
+        ),
     )
     jobs_db = merge_job_database(previous_jobs, accepted, seen)
     for job in accepted:
         application = applications.get(job["job_key"], {})
         job["application_status"] = application.get("status", "NEW")
 
-    source_status = {
-        result.source: {
-            "ok": result.ok,
-            "jobs": len(result.jobs),
-            "requests": result.requests,
-            "error": result.error,
-        }
-        for result in results
-    }
     report_jobs = select_report_jobs(accepted, search_config)
     payload = build_report_payload(
         report_jobs,
@@ -115,6 +119,7 @@ def run(project_root: Path, fixture_dir: Path | None = None, no_archive: bool = 
         len(rejected),
         now,
     )
+    payload["all_sources_failed"] = source_health["all_sources_failed"]
     payload["rejection_summary"] = summarize_rejections(rejected)
     run_summary = {**payload["summary"], "source_status": source_status}
     history = append_run_history(
@@ -124,6 +129,7 @@ def run(project_root: Path, fixture_dir: Path | None = None, no_archive: bool = 
     write_json_atomic(data_dir / "jobs.json", jobs_db)
     write_json_atomic(data_dir / "seen_jobs.json", seen)
     write_json_atomic(data_dir / "job_history.json", history)
+    write_json_atomic(data_dir / "source_health.json", source_health)
     write_json_atomic(project_root / "reports/latest.json", payload)
     markdown = render_markdown(payload)
     write_text_atomic(project_root / "reports/latest.md", markdown)
@@ -161,10 +167,17 @@ def main(argv: list[str] | None = None) -> int:
         format="%(asctime)s %(levelname)s %(name)s: %(message)s",
     )
     try:
-        run(args.project_root.resolve(), args.fixture_dir.resolve() if args.fixture_dir else None, args.no_archive)
+        payload = run(
+            args.project_root.resolve(),
+            args.fixture_dir.resolve() if args.fixture_dir else None,
+            args.no_archive,
+        )
     except Exception:
         LOGGER.exception("Radar run failed")
         return 1
+    if payload.get("all_sources_failed"):
+        LOGGER.error("All operational sources failed; reports were written for diagnosis")
+        return 2
     return 0
 
 

@@ -109,20 +109,36 @@ def normalize_job(raw: dict[str, Any]) -> dict[str, Any]:
         str(raw.get("location") or ""), bool(raw.get("remote")), description
     )
     source = str(raw.get("source") or "Unknown")
+    company = html_to_text(str(raw.get("company") or "Unknown company"))
+    title = html_to_text(str(raw.get("title") or "Untitled role"))
+    url = canonicalize_url(str(raw.get("url") or ""))
+    apply_url = canonicalize_url(str(raw.get("apply_url") or url))
+    canonical_url = canonicalize_url(str(raw.get("canonical_url") or url))
+    source_job_id = str(raw.get("source_job_id") or raw.get("source_id") or "")
+    title_normalized = normalize_title(title)
     job = {
-        "job_key": job_key_for(str(raw.get("company") or ""), str(raw.get("title") or ""), location),
+        "job_key": job_key_for(company, title, location),
         "source": source,
         "sources": [source],
-        "source_urls": {source: canonicalize_url(str(raw.get("url") or ""))},
-        "source_id": str(raw.get("source_id") or ""),
-        "company": html_to_text(str(raw.get("company") or "Unknown company")),
-        "title": html_to_text(str(raw.get("title") or "Untitled role")),
-        "normalized_title": normalize_title(str(raw.get("title") or "")),
+        "source_urls": {source: url},
+        "source_id": source_job_id,
+        "source_job_id": source_job_id,
+        "source_job_ids": {source: source_job_id} if source_job_id else {},
+        "company": company,
+        "company_normalized": normalize_company(company),
+        "title": title,
+        "normalized_title": title_normalized,
+        "title_normalized": title_normalized,
         "location": location,
+        "location_normalized": normalize_text(location).replace("deutschland", "germany"),
         "country": country,
         "remote": remote,
         "hybrid": hybrid,
-        "url": canonicalize_url(str(raw.get("url") or "")),
+        "onsite": not remote and not hybrid,
+        "url": url,
+        "apply_url": apply_url,
+        "canonical_url": canonical_url,
+        "ats": normalize_text(str(raw.get("ats") or "")),
         "published_at": normalize_datetime(str(raw.get("published_at") or "")),
         "first_seen": "",
         "last_seen": "",

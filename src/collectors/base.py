@@ -13,7 +13,11 @@ class CollectionResult:
     jobs: list[dict[str, Any]] = field(default_factory=list)
     ok: bool = True
     error: str = ""
+    errors: list[dict[str, Any]] = field(default_factory=list)
     requests: int = 0
+    companies_checked: int = 0
+    companies_successful: int = 0
+    companies_failed: int = 0
 
 
 class Collector(Protocol):
@@ -25,9 +29,15 @@ class Collector(Protocol):
 class BaseCollector:
     name = "base"
 
-    def __init__(self, config: dict[str, Any], client: HttpClient) -> None:
+    def __init__(
+        self,
+        config: dict[str, Any],
+        client: HttpClient,
+        companies: list[dict[str, Any]] | None = None,
+    ) -> None:
         self.config = config
         self.client = client
+        self.companies = companies or []
 
     def _fixture(self, fixture_dir: Path | None) -> dict[str, Any] | None:
         if fixture_dir is None:
