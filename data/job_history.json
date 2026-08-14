@@ -26,6 +26,33 @@
           "error": ""
         }
       }
+    },
+    {
+      "generated_at": "2026-08-14T03:59:57Z",
+      "jobs_collected": 893,
+      "duplicates_removed": 13,
+      "jobs_rejected_or_below_threshold": 870,
+      "relevant_jobs_in_current_run": 10,
+      "new_jobs": 0,
+      "updated_jobs": 2,
+      "strong_matches": 0,
+      "sources_checked": 2,
+      "sources_failed": 0,
+      "report_jobs": 10,
+      "source_status": {
+        "arbeitnow": {
+          "ok": true,
+          "jobs": 875,
+          "requests": 8,
+          "error": ""
+        },
+        "remotive": {
+          "ok": true,
+          "jobs": 18,
+          "requests": 1,
+          "error": ""
+        }
+      }
     }
   ],
   "events": [
@@ -108,6 +135,22 @@
       "company": "NVISO",
       "title": "Junior Cyber Strategy & Architecture Consultant (m/w/d) - Focus GRC",
       "score": 69
+    },
+    {
+      "at": "2026-08-14T03:59:57Z",
+      "job_key": "0e941e4bf040222bbfdd",
+      "event": "UPDATED",
+      "company": "UP42 GmbH",
+      "title": "Cloud Engineer (m/f/x)",
+      "score": 64
+    },
+    {
+      "at": "2026-08-14T03:59:57Z",
+      "job_key": "accdde42e3df719da13b",
+      "event": "UPDATED",
+      "company": "FINN",
+      "title": "Engineering Manager - Cloud & Security (m/f/x)",
+      "score": 71
     }
   ]
 }

@@ -2,8 +2,8 @@
 
 **Date:** 2026-08-14
 **Jobs collected:** 893
-**New jobs:** 10
-**Updated jobs:** 0
+**New jobs:** 0
+**Updated jobs:** 2
 **Relevant jobs:** 10
 **Strong matches:** 0
 **Sources checked:** 2
@@ -17,69 +17,7 @@ No jobs in this section today.
 
 ## 🟢 STRONG MATCHES
 
-### 1. IT Security Engineer (m/f/d)
-
-- **Company:** Quantum-Systems GmbH
-- **Location:** Gilching, Bayern, Germany
-- **Working model:** On-site / not specified
-- **Source:** Arbeitnow
-- **Posted:** 2026-08-12
-- **First seen:** 2026-08-14
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **77/100 - GOOD**
-- **Direct job URL:** [Quantum-Systems GmbH vacancy](https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/it-security-engineer-gilching-99422)
-
-**Strong matches:** vulnerability management
-
-**Partial matches:** cloud security, nist, siem
-
-**Potential gaps:** azure
-
-**Nice-to-have requirements:** None detected
-
-**Experience:** No explicit years detected
-
-**German:** German is preferred/nice-to-have
-
-**Why relevant:** The title is in a high-priority target role family. The role is based in Berlin/Germany. No mandatory German level above the current profile was detected. Strong evidenced skill matches include vulnerability management.
-
-**Warnings:** Potential skill gaps: azure Exposure only; do not claim deep expertise: cloud security, nist, siem
-
-**Recommendation:** GOOD - REVIEW REQUIREMENTS
-
-### 2. Infrastructure Security Engineer
-
-- **Company:** Xai
-- **Location:** London
-- **Working model:** Hybrid
-- **Source:** Arbeitnow
-- **Posted:** 2026-08-14
-- **First seen:** 2026-08-14
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **72/100 - GOOD**
-- **Direct job URL:** [Xai vacancy](https://www.arbeitnow.co.uk/jobs/companies/xai/infrastructure-security-engineer-london-373050)
-
-**Strong matches:** python, vulnerability assessment
-
-**Partial matches:** aws, ci/cd, cloud security, docker, nist, siem
-
-**Potential gaps:** azure, gdpr, kubernetes
-
-**Nice-to-have requirements:** None detected
-
-**Experience:** 3-5 years
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. No mandatory German level above the current profile was detected. Strong evidenced skill matches include python, vulnerability assessment.
-
-**Warnings:** Requests 3-5 years versus approximately 2.1 years in the profile. Potential skill gaps: azure, gdpr, kubernetes Exposure only; do not claim deep expertise: aws, ci/cd, cloud security, docker, nist, siem
-
-**Recommendation:** GOOD - REVIEW REQUIREMENTS
-
-### 3. Engineering Manager - Cloud & Security (m/f/x)
+### 1. Engineering Manager - Cloud & Security (m/f/x)
 
 - **Company:** FINN
 - **Location:** Munich, Germany
@@ -87,7 +25,7 @@ No jobs in this section today.
 - **Source:** Arbeitnow
 - **Posted:** 2026-08-12
 - **First seen:** 2026-08-14
-- **Radar status:** NEW
+- **Radar status:** UPDATED
 - **Application status:** NEW
 - **Match score:** **71/100 - GOOD**
 - **Direct job URL:** [FINN vacancy](https://www.arbeitnow.com/jobs/companies/finn/engineering-manager-cloud-security-munich-158179)
@@ -110,9 +48,102 @@ No jobs in this section today.
 
 **Recommendation:** GOOD - REVIEW REQUIREMENTS
 
+### 3. IT Security Engineer (m/f/d)
+
+- **Company:** Quantum-Systems GmbH
+- **Location:** Gilching, Bayern, Germany
+- **Working model:** On-site / not specified
+- **Source:** Arbeitnow
+- **Posted:** 2026-08-12
+- **First seen:** 2026-08-14
+- **Radar status:** SEEN_BEFORE
+- **Application status:** NEW
+- **Match score:** **77/100 - GOOD**
+- **Direct job URL:** [Quantum-Systems GmbH vacancy](https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/it-security-engineer-gilching-99422)
+
+**Strong matches:** vulnerability management
+
+**Partial matches:** cloud security, nist, siem
+
+**Potential gaps:** azure
+
+**Nice-to-have requirements:** None detected
+
+**Experience:** No explicit years detected
+
+**German:** German is preferred/nice-to-have
+
+**Why relevant:** The title is in a high-priority target role family. The role is based in Berlin/Germany. No mandatory German level above the current profile was detected. Strong evidenced skill matches include vulnerability management.
+
+**Warnings:** Potential skill gaps: azure Exposure only; do not claim deep expertise: cloud security, nist, siem
+
+**Recommendation:** GOOD - REVIEW REQUIREMENTS
+
+### 4. Infrastructure Security Engineer
+
+- **Company:** Xai
+- **Location:** London
+- **Working model:** Hybrid
+- **Source:** Arbeitnow
+- **Posted:** 2026-08-14
+- **First seen:** 2026-08-14
+- **Radar status:** SEEN_BEFORE
+- **Application status:** NEW
+- **Match score:** **72/100 - GOOD**
+- **Direct job URL:** [Xai vacancy](https://www.arbeitnow.co.uk/jobs/companies/xai/infrastructure-security-engineer-london-373050)
+
+**Strong matches:** python, vulnerability assessment
+
+**Partial matches:** aws, ci/cd, cloud security, docker, nist, siem
+
+**Potential gaps:** azure, gdpr, kubernetes
+
+**Nice-to-have requirements:** None detected
+
+**Experience:** 3-5 years
+
+**German:** No German requirement detected
+
+**Why relevant:** The title is in a high-priority target role family. No mandatory German level above the current profile was detected. Strong evidenced skill matches include python, vulnerability assessment.
+
+**Warnings:** Requests 3-5 years versus approximately 2.1 years in the profile. Potential skill gaps: azure, gdpr, kubernetes Exposure only; do not claim deep expertise: aws, ci/cd, cloud security, docker, nist, siem
+
+**Recommendation:** GOOD - REVIEW REQUIREMENTS
+
 ## 🟡 REVIEW
 
-### 4. Junior Cyber Strategy & Architecture Consultant (m/w/d) - Focus GRC
+### 2. Cloud Engineer (m/f/x)
+
+- **Company:** UP42 GmbH
+- **Location:** Berlin, Germany
+- **Working model:** Hybrid
+- **Source:** Arbeitnow
+- **Posted:** 2026-08-12
+- **First seen:** 2026-08-14
+- **Radar status:** UPDATED
+- **Application status:** NEW
+- **Match score:** **64/100 - REVIEW**
+- **Direct job URL:** [UP42 GmbH vacancy](https://www.arbeitnow.com/jobs/companies/up42-gmbh/cloud-engineer-berlin-2476)
+
+**Strong matches:** sast
+
+**Partial matches:** aws, ci/cd, cloud security, devsecops
+
+**Potential gaps:** azure, kubernetes
+
+**Nice-to-have requirements:** None detected
+
+**Experience:** No explicit years detected
+
+**German:** No German requirement detected
+
+**Why relevant:** The role is based in Berlin/Germany. No mandatory German level above the current profile was detected. Strong evidenced skill matches include sast.
+
+**Warnings:** Potential skill gaps: azure, kubernetes Exposure only; do not claim deep expertise: aws, ci/cd, cloud security, devsecops
+
+**Recommendation:** REVIEW - check gaps before applying
+
+### 5. Junior Cyber Strategy & Architecture Consultant (m/w/d) - Focus GRC
 
 - **Company:** NVISO
 - **Location:** Frankfurt am Main, Germany
@@ -120,7 +151,7 @@ No jobs in this section today.
 - **Source:** Arbeitnow
 - **Posted:** 2026-08-11
 - **First seen:** 2026-08-14
-- **Radar status:** NEW
+- **Radar status:** SEEN_BEFORE
 - **Application status:** NEW
 - **Match score:** **69/100 - REVIEW**
 - **Direct job URL:** [NVISO vacancy](https://www.arbeitnow.com/jobs/companies/nviso/junior-cyber-strategy-architecture-consultant-focus-grc-frankfurt-am-main-139665)
@@ -143,7 +174,7 @@ No jobs in this section today.
 
 **Recommendation:** REVIEW - check gaps before applying
 
-### 5. Sr. Security Engineer - GRC EU/UK Regulation & Data Protection
+### 6. Sr. Security Engineer - GRC EU/UK Regulation & Data Protection
 
 - **Company:** Xai
 - **Location:** London
@@ -151,7 +182,7 @@ No jobs in this section today.
 - **Source:** Arbeitnow
 - **Posted:** 2026-08-14
 - **First seen:** 2026-08-14
-- **Radar status:** NEW
+- **Radar status:** SEEN_BEFORE
 - **Application status:** NEW
 - **Match score:** **67/100 - REVIEW**
 - **Direct job URL:** [Xai vacancy](https://www.arbeitnow.co.uk/jobs/companies/xai/sr-security-engineer-grc-eu-uk-regulation-data-protection-london-320202)
@@ -174,7 +205,7 @@ No jobs in this section today.
 
 **Recommendation:** REVIEW - check gaps before applying
 
-### 6. IT Security Experte (m/w/d) Incident Response & DLP
+### 7. IT Security Experte (m/w/d) Incident Response & DLP
 
 - **Company:** Mandl. Executives & Experts
 - **Location:** Munich, Germany
@@ -182,7 +213,7 @@ No jobs in this section today.
 - **Source:** Arbeitnow
 - **Posted:** 2026-08-13
 - **First seen:** 2026-08-14
-- **Radar status:** NEW
+- **Radar status:** SEEN_BEFORE
 - **Application status:** NEW
 - **Match score:** **65/100 - REVIEW**
 - **Direct job URL:** [Mandl. Executives & Experts vacancy](https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/it-security-experte-incident-response-dlp-munich-455340)
@@ -205,37 +236,6 @@ No jobs in this section today.
 
 **Recommendation:** REVIEW - check gaps before applying
 
-### 7. Cloud Engineer (m/f/x)
-
-- **Company:** UP42 GmbH
-- **Location:** Berlin, Germany
-- **Working model:** Hybrid
-- **Source:** Arbeitnow
-- **Posted:** 2026-08-11
-- **First seen:** 2026-08-14
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **64/100 - REVIEW**
-- **Direct job URL:** [UP42 GmbH vacancy](https://www.arbeitnow.com/jobs/companies/up42-gmbh/cloud-engineer-berlin-277815)
-
-**Strong matches:** sast
-
-**Partial matches:** aws, ci/cd, cloud security, devsecops
-
-**Potential gaps:** azure, kubernetes
-
-**Nice-to-have requirements:** None detected
-
-**Experience:** No explicit years detected
-
-**German:** No German requirement detected
-
-**Why relevant:** The role is based in Berlin/Germany. No mandatory German level above the current profile was detected. Strong evidenced skill matches include sast.
-
-**Warnings:** Potential skill gaps: azure, kubernetes Exposure only; do not claim deep expertise: aws, ci/cd, cloud security, devsecops
-
-**Recommendation:** REVIEW - check gaps before applying
-
 ## 🟠 STRETCH
 
 ### 8. Java Developer (m/w/d) für Authentication & Security
@@ -246,7 +246,7 @@ No jobs in this section today.
 - **Source:** Arbeitnow
 - **Posted:** 2026-08-13
 - **First seen:** 2026-08-14
-- **Radar status:** NEW
+- **Radar status:** SEEN_BEFORE
 - **Application status:** NEW
 - **Match score:** **58/100 - STRETCH**
 - **Direct job URL:** [Mandl. Executives & Experts vacancy](https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/java-developer-fur-authentication-security-munich-330583)
@@ -277,7 +277,7 @@ No jobs in this section today.
 - **Source:** Arbeitnow
 - **Posted:** 2026-08-13
 - **First seen:** 2026-08-14
-- **Radar status:** NEW
+- **Radar status:** SEEN_BEFORE
 - **Application status:** NEW
 - **Match score:** **57/100 - STRETCH**
 - **Direct job URL:** [Global University Systems GmbH vacancy](https://www.arbeitnow.com/jobs/companies/global-university-systems-gmbh/professor-of-cybersecurity-potsdam-gisma-238808)
@@ -308,7 +308,7 @@ No jobs in this section today.
 - **Source:** Arbeitnow
 - **Posted:** 2026-08-13
 - **First seen:** 2026-08-14
-- **Radar status:** NEW
+- **Radar status:** SEEN_BEFORE
 - **Application status:** NEW
 - **Match score:** **50/100 - STRETCH**
 - **Direct job URL:** [Mozilla vacancy](https://www.arbeitnow.com/jobs/companies/mozilla/senior-software-engineer-firefox-security-410673)
