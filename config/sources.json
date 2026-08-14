@@ -1,7 +1,7 @@
 {
   "http": {
-    "timeout_seconds": 25,
-    "retries": 3,
+    "timeout_seconds": 20,
+    "retries": 2,
     "backoff_seconds": 1.0,
     "user_agent": "CyberJobRadar/1.0 (+personal non-commercial job search)"
   },
@@ -20,7 +20,8 @@
     "greenhouse": {
       "enabled": true,
       "endpoint": "https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true",
-      "delay_seconds": 0.2
+      "delay_seconds": 0.05,
+      "max_workers": 8
     }
   }
 }

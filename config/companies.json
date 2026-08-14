@@ -268,11 +268,11 @@
       "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
     },
     {
-      "name": "Canonical",
-      "board": "canonicaljobs",
+      "name": "Bugcrowd",
+      "board": "bugcrowd",
       "priority": false,
       "enabled": true,
-      "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
     },
     {
       "name": "Coinbase",
@@ -1163,5 +1163,4 @@
   "smartrecruiters": [],
   "notes": "Greenhouse watchlist for Berlin, Germany and Europe-remote cybersecurity roles. Contains 165 enabled public boards: the original 15 plus 150 live-validated additions, including 19 additional Berlin employers. Board endpoints were checked against the public Greenhouse Job Board API on 2026-08-14. Priority status is reported separately and never inflates technical-fit scoring."
 }
-
 

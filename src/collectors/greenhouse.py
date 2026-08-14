@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import re
 import time
+from concurrent.futures import Future, ThreadPoolExecutor
 from pathlib import Path
 from typing import Any
 
@@ -32,32 +33,84 @@ class GreenhouseCollector(BaseCollector):
                 result.companies_failed = result.companies_checked
                 return result
 
-        for index, company in enumerate(enabled_companies):
-            try:
-                payload = self._payload(company, fixture, result)
-                for raw in payload.get("jobs", []):
-                    if isinstance(raw, dict):
-                        result.jobs.append(self._map_job(raw, company))
-                result.companies_successful += 1
-            except Exception as exc:
-                error = self._error(str(company.get("name") or company.get("board")), exc)
-                result.errors.append(error)
-                result.companies_failed += 1
-            if fixture is None and index + 1 < len(enabled_companies):
-                delay = float(self.config.get("delay_seconds", 0.2))
-                if delay:
-                    time.sleep(delay)
+        if fixture is not None:
+            self._collect_sequential(enabled_companies, fixture, result)
+        else:
+            self._collect_parallel(enabled_companies, result)
 
         result.ok = result.companies_successful > 0
         if result.errors:
             result.error = result.errors[0]["message"]
         return result
 
+    def _collect_sequential(
+        self,
+        companies: list[dict[str, Any]],
+        fixture: dict[str, Any],
+        result: CollectionResult,
+    ) -> None:
+        """Keep fixture collection deterministic and free from test-only threads."""
+        for company in companies:
+            try:
+                payload = self._payload(company, fixture)
+                self._record_success(result, company, payload)
+            except Exception as exc:
+                self._record_failure(result, company, exc)
+
+    def _collect_parallel(
+        self,
+        companies: list[dict[str, Any]],
+        result: CollectionResult,
+    ) -> None:
+        """Fetch live boards concurrently while preserving configured result order."""
+        configured_workers = int(self.config.get("max_workers", 6))
+        max_workers = max(1, min(configured_workers, 12, len(companies)))
+        delay = max(0.0, float(self.config.get("delay_seconds", 0.05)))
+        futures: list[tuple[dict[str, Any], Future[dict[str, Any]]]] = []
+
+        with ThreadPoolExecutor(
+            max_workers=max_workers,
+            thread_name_prefix="greenhouse",
+        ) as executor:
+            for index, company in enumerate(companies):
+                futures.append((company, executor.submit(self._payload, company, None)))
+                result.requests += 1
+                if delay and index + 1 < len(companies):
+                    time.sleep(delay)
+
+            # Iterating the future list instead of as_completed keeps jobs and
+            # diagnostics stable between runs without making requests sequential.
+            for company, future in futures:
+                try:
+                    self._record_success(result, company, future.result())
+                except Exception as exc:
+                    self._record_failure(result, company, exc)
+
+    def _record_success(
+        self,
+        result: CollectionResult,
+        company: dict[str, Any],
+        payload: dict[str, Any],
+    ) -> None:
+        for raw in payload.get("jobs", []):
+            if isinstance(raw, dict):
+                result.jobs.append(self._map_job(raw, company))
+        result.companies_successful += 1
+
+    def _record_failure(
+        self,
+        result: CollectionResult,
+        company: dict[str, Any],
+        exc: Exception,
+    ) -> None:
+        label = str(company.get("name") or company.get("board"))
+        result.errors.append(self._error(label, exc))
+        result.companies_failed += 1
+
     def _payload(
         self,
         company: dict[str, Any],
         fixture: dict[str, Any] | None,
-        result: CollectionResult,
     ) -> dict[str, Any]:
         board = str(company["board"])
         if fixture is not None:
@@ -70,7 +123,6 @@ class GreenhouseCollector(BaseCollector):
             return payload
 
         endpoint = str(self.config["endpoint"]).format(board=board)
-        result.requests += 1
         payload = self.client.get_json(endpoint)
         if not isinstance(payload, dict):
             raise ValueError("Greenhouse response must be a JSON object")

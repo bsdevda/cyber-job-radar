@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import unittest
+from threading import Event, Lock
 from pathlib import Path
 
 from src.collectors.greenhouse import GreenhouseCollector
@@ -26,6 +27,31 @@ class StubClient:
         if isinstance(response, Exception):
             raise response
         return response
+
+
+class CoordinatedClient(StubClient):
+    """Only releases requests after two worker threads overlap."""
+
+    def __init__(self) -> None:
+        super().__init__()
+        self._lock = Lock()
+        self._release = Event()
+        self.active = 0
+        self.max_active = 0
+
+    def get_json(self, url: str):
+        with self._lock:
+            self.active += 1
+            self.max_active = max(self.max_active, self.active)
+            if self.active >= 2:
+                self._release.set()
+        if not self._release.wait(timeout=2):
+            raise RuntimeError("Greenhouse requests did not overlap")
+        try:
+            return super().get_json(url)
+        finally:
+            with self._lock:
+                self.active -= 1
 
 
 class GreenhouseCollectorTests(unittest.TestCase):
@@ -104,6 +130,20 @@ class GreenhouseCollectorTests(unittest.TestCase):
         self.assertEqual(len(result.jobs), 1)
         self.assertEqual(result.errors[0]["http_status"], 404)
         self.assertEqual(result.errors[0]["company"], "Broken Co")
+
+    def test_live_boards_use_bounded_parallel_requests(self) -> None:
+        client = CoordinatedClient()
+        config = {**SOURCE_CONFIG, "max_workers": 2}
+        result = GreenhouseCollector(
+            config,
+            client,
+            [self._company("one"), self._company("two", name="Second Co")],
+        ).collect()
+
+        self.assertTrue(result.ok)
+        self.assertEqual(result.requests, 2)
+        self.assertEqual(result.companies_successful, 2)
+        self.assertEqual(client.max_active, 2)
 
     def test_bad_response_or_total_http_failure_is_failed(self) -> None:
         for response in (["not", "an", "object"], RuntimeError("HTTP Error 503")):
