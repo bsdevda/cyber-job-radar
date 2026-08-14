@@ -1,9 +1,1167 @@
 {
   "priority_companies": [],
-  "greenhouse": [],
+  "greenhouse": [
+    {
+      "name": "Solaris SE",
+      "board": "solarisbank",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin fintech; Application Security, vulnerability management and security operations"
+    },
+    {
+      "name": "Staffbase",
+      "board": "staffbase",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin and Germany; Product Security and Security Engineering"
+    },
+    {
+      "name": "Cresta",
+      "board": "cresta",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin hybrid; Software Security and product security"
+    },
+    {
+      "name": "ClickHouse",
+      "board": "clickhouse",
+      "priority": true,
+      "enabled": true,
+      "notes": "Germany remote; Product Security, AppSec, cloud security and vulnerability assessment"
+    },
+    {
+      "name": "Constructor Knowledge",
+      "board": "constructorknowledg",
+      "priority": true,
+      "enabled": true,
+      "notes": "Germany remote; Application Security, web/API testing and secure SDLC"
+    },
+    {
+      "name": "Mozilla",
+      "board": "mozilla",
+      "priority": true,
+      "enabled": true,
+      "notes": "Germany remote; Product Security, Firefox security and incident response"
+    },
+    {
+      "name": "Gallup",
+      "board": "gallup",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin; Product Security, platform security and cloud security"
+    },
+    {
+      "name": "Contentful",
+      "board": "contentful",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin technology employer; monitor future product and application security roles"
+    },
+    {
+      "name": "Raisin",
+      "board": "raisin",
+      "priority": false,
+      "enabled": true,
+      "notes": "Berlin fintech; IT Security, cyber risk and security engineering"
+    },
+    {
+      "name": "Wolt",
+      "board": "wolt",
+      "priority": false,
+      "enabled": true,
+      "notes": "Berlin; proactive security, product security and cloud security"
+    },
+    {
+      "name": "MOIA",
+      "board": "moia",
+      "priority": false,
+      "enabled": true,
+      "notes": "Berlin and Germany; vehicle, cloud and product security"
+    },
+    {
+      "name": "Vercel",
+      "board": "vercel",
+      "priority": false,
+      "enabled": true,
+      "notes": "Berlin hybrid; security software and platform security"
+    },
+    {
+      "name": "JetBrains",
+      "board": "jetbrains",
+      "priority": false,
+      "enabled": true,
+      "notes": "Berlin or remote Germany; product and software security"
+    },
+    {
+      "name": "Isar Aerospace",
+      "board": "isaraerospace",
+      "priority": false,
+      "enabled": true,
+      "notes": "Germany; Software Security, Product Security and infrastructure security"
+    },
+    {
+      "name": "FREENOW",
+      "board": "freenow",
+      "priority": false,
+      "enabled": true,
+      "notes": "Berlin/Hamburg; information security, GRC and security analyst roles"
+    },
+    {
+      "name": "Apaleo",
+      "board": "apaleo",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin startup or technology employer; monitor security, platform, cloud and GRC roles"
+    },
+    {
+      "name": "Blacklane",
+      "board": "blacklane",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin startup or technology employer; monitor security, platform, cloud and GRC roles"
+    },
+    {
+      "name": "Charles River Associates",
+      "board": "charlesriverassociates",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin startup or technology employer; monitor security, platform, cloud and GRC roles"
+    },
+    {
+      "name": "DEPT",
+      "board": "dept",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin startup or technology employer; monitor security, platform, cloud and GRC roles"
+    },
+    {
+      "name": "DigitalService",
+      "board": "digitalservice",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin startup or technology employer; monitor security, platform, cloud and GRC roles"
+    },
+    {
+      "name": "dunnhumby",
+      "board": "dunnhumby",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin startup or technology employer; monitor security, platform, cloud and GRC roles"
+    },
+    {
+      "name": "GetYourGuide",
+      "board": "getyourguide",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin startup or technology employer; monitor security, platform, cloud and GRC roles"
+    },
+    {
+      "name": "Grover",
+      "board": "grover",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin startup or technology employer; monitor security, platform, cloud and GRC roles"
+    },
+    {
+      "name": "Hive",
+      "board": "hive",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin startup or technology employer; monitor security, platform, cloud and GRC roles"
+    },
+    {
+      "name": "Inceptive",
+      "board": "inceptive",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin startup or technology employer; monitor security, platform, cloud and GRC roles"
+    },
+    {
+      "name": "Parloa",
+      "board": "parloa",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin startup or technology employer; monitor security, platform, cloud and GRC roles"
+    },
+    {
+      "name": "Planet",
+      "board": "planetlabs",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin startup or technology employer; monitor security, platform, cloud and GRC roles"
+    },
+    {
+      "name": "Project A",
+      "board": "projectaservicesgmbhcokg",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin startup or technology employer; monitor security, platform, cloud and GRC roles"
+    },
+    {
+      "name": "SoundCloud",
+      "board": "soundcloud71",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin startup or technology employer; monitor security, platform, cloud and GRC roles"
+    },
+    {
+      "name": "Superchat",
+      "board": "superchat",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin startup or technology employer; monitor security, platform, cloud and GRC roles"
+    },
+    {
+      "name": "The Quality Group",
+      "board": "thequalitygroupgmbh2",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin startup or technology employer; monitor security, platform, cloud and GRC roles"
+    },
+    {
+      "name": "Topsort",
+      "board": "topsort",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin startup or technology employer; monitor security, platform, cloud and GRC roles"
+    },
+    {
+      "name": "Tripadvisor",
+      "board": "tripadvisor",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin startup or technology employer; monitor security, platform, cloud and GRC roles"
+    },
+    {
+      "name": "Unframe",
+      "board": "unframe",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin startup or technology employer; monitor security, platform, cloud and GRC roles"
+    },
+    {
+      "name": "IONOS",
+      "board": "ionos",
+      "priority": true,
+      "enabled": true,
+      "notes": "Germany technology employer; monitor security, platform, cloud and GRC roles"
+    },
+    {
+      "name": "NavVis",
+      "board": "navvis",
+      "priority": true,
+      "enabled": true,
+      "notes": "Germany technology employer; monitor security, platform, cloud and GRC roles"
+    },
+    {
+      "name": "Algolia",
+      "board": "algolia",
+      "priority": false,
+      "enabled": true,
+      "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
+    },
+    {
+      "name": "Bitpanda",
+      "board": "bitpanda",
+      "priority": false,
+      "enabled": true,
+      "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
+    },
+    {
+      "name": "Canonical",
+      "board": "canonicaljobs",
+      "priority": false,
+      "enabled": true,
+      "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
+    },
+    {
+      "name": "Coinbase",
+      "board": "coinbase",
+      "priority": false,
+      "enabled": true,
+      "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
+    },
+    {
+      "name": "Elastic",
+      "board": "elastic",
+      "priority": false,
+      "enabled": true,
+      "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
+    },
+    {
+      "name": "Fivetran",
+      "board": "fivetran",
+      "priority": false,
+      "enabled": true,
+      "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
+    },
+    {
+      "name": "GitLab",
+      "board": "gitlab",
+      "priority": false,
+      "enabled": true,
+      "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
+    },
+    {
+      "name": "Grafana Labs",
+      "board": "grafanalabs",
+      "priority": false,
+      "enabled": true,
+      "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
+    },
+    {
+      "name": "Intercom",
+      "board": "intercom",
+      "priority": false,
+      "enabled": true,
+      "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
+    },
+    {
+      "name": "Mercari",
+      "board": "mercari",
+      "priority": false,
+      "enabled": true,
+      "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
+    },
+    {
+      "name": "MongoDB",
+      "board": "mongodb",
+      "priority": false,
+      "enabled": true,
+      "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
+    },
+    {
+      "name": "Remote",
+      "board": "remotecom",
+      "priority": false,
+      "enabled": true,
+      "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
+    },
+    {
+      "name": "Riot Games",
+      "board": "riotgames",
+      "priority": false,
+      "enabled": true,
+      "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
+    },
+    {
+      "name": "Scopely",
+      "board": "scopely",
+      "priority": false,
+      "enabled": true,
+      "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
+    },
+    {
+      "name": "SingleStore",
+      "board": "singlestore",
+      "priority": false,
+      "enabled": true,
+      "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
+    },
+    {
+      "name": "Stability AI",
+      "board": "stabilityai",
+      "priority": false,
+      "enabled": true,
+      "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
+    },
+    {
+      "name": "Stripe",
+      "board": "stripe",
+      "priority": false,
+      "enabled": true,
+      "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
+    },
+    {
+      "name": "Third Bridge",
+      "board": "thirdbridge",
+      "priority": false,
+      "enabled": true,
+      "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
+    },
+    {
+      "name": "Twilio",
+      "board": "twilio",
+      "priority": false,
+      "enabled": true,
+      "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
+    },
+    {
+      "name": "Zeta Global",
+      "board": "zetaglobal",
+      "priority": false,
+      "enabled": true,
+      "notes": "Europe or remote technology employer; monitor Germany and Europe-remote security openings"
+    },
+    {
+      "name": "Abnormal Security",
+      "board": "abnormalsecurity",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "BitGo",
+      "board": "bitgo",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Chainguard",
+      "board": "chainguard",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Checkr",
+      "board": "checkr",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "CircleCI",
+      "board": "circleci",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Cloudflare",
+      "board": "cloudflare",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Cribl",
+      "board": "cribl",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Datadog",
+      "board": "datadog",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Fastly",
+      "board": "fastly",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Fireblocks",
+      "board": "fireblocks",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Gemini",
+      "board": "gemini",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Guardsquare",
+      "board": "guardsquare",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Honeycomb",
+      "board": "honeycomb",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Huntress",
+      "board": "huntress",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "KnowBe4",
+      "board": "knowbe4",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "LaunchDarkly",
+      "board": "launchdarkly",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Lookout",
+      "board": "lookoutinc",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "New Relic",
+      "board": "newrelic",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Okta",
+      "board": "okta",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Orca Security",
+      "board": "orcasecurity",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "PagerDuty",
+      "board": "pagerduty",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Ripple",
+      "board": "ripple",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "SIXGEN",
+      "board": "sixgeninc",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Sumo Logic",
+      "board": "sumologic",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Tailscale",
+      "board": "tailscale",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Tanium",
+      "board": "tanium",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Veeam",
+      "board": "veeamsoftware",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Verkada",
+      "board": "verkada",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Wiz",
+      "board": "wizinc",
+      "priority": false,
+      "enabled": true,
+      "notes": "Security-focused employer; monitor Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Affirm",
+      "board": "affirm",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Airbnb",
+      "board": "airbnb",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Airspace",
+      "board": "airspace",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Airtable",
+      "board": "airtable",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Amplitude",
+      "board": "amplitude",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Anduril Industries",
+      "board": "andurilindustries",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Anthropic",
+      "board": "anthropic",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "AppLovin",
+      "board": "applovin",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Block",
+      "board": "block",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Brex",
+      "board": "brex",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "BridgeBio",
+      "board": "bridgebio",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Calm",
+      "board": "calm",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Carta",
+      "board": "carta",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "CharterUP",
+      "board": "charterup",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Chime",
+      "board": "chime",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Civic Nation",
+      "board": "civicnation",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Cockroach Labs",
+      "board": "cockroachlabs",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Coursera",
+      "board": "coursera",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Culture Amp",
+      "board": "cultureamp",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Databricks",
+      "board": "databricks",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Dialpad",
+      "board": "dialpad",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Discord",
+      "board": "discord",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Dropbox",
+      "board": "dropbox",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Duolingo",
+      "board": "duolingo",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Epic Games",
+      "board": "epicgames",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Faire",
+      "board": "faire",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Figma",
+      "board": "figma",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Flatiron Health",
+      "board": "flatironhealth",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Flexport",
+      "board": "flexport",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Glean",
+      "board": "gleanwork",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Greenhouse Software",
+      "board": "greenhouse",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Gusto",
+      "board": "gusto",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Imply",
+      "board": "imply",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Instacart",
+      "board": "instacart",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Instawork",
+      "board": "instawork",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Justworks",
+      "board": "justworks",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Khan Academy",
+      "board": "khanacademy",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Lattice",
+      "board": "lattice",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Locus Robotics",
+      "board": "locusrobotics",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Lucid Software",
+      "board": "lucidsoftware",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Lyft",
+      "board": "lyft",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Magic Leap",
+      "board": "magicleap",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Marqeta",
+      "board": "marqeta",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Maven Clinic",
+      "board": "mavenclinic",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Melio",
+      "board": "melio",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Mercury",
+      "board": "mercury",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Mixpanel",
+      "board": "mixpanel",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Nuro",
+      "board": "nuro",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Oscar Health",
+      "board": "oscar",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Peloton",
+      "board": "peloton",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Pinterest",
+      "board": "pinterest",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "PlanetScale",
+      "board": "planetscale",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Poshmark",
+      "board": "poshmark",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Postman",
+      "board": "postman",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Precision Medicine Group",
+      "board": "precisionmedicinegroup",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Pulley",
+      "board": "pulley",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Recursion",
+      "board": "recursionpharmaceuticals",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Reddit",
+      "board": "reddit",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Robinhood",
+      "board": "robinhood",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Roblox",
+      "board": "roblox",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Salesloft",
+      "board": "salesloft",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Samsara",
+      "board": "samsara",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Scale AI",
+      "board": "scaleai",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Scout AI",
+      "board": "scoutai",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "SeatGeek",
+      "board": "seatgeek",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "SoFi",
+      "board": "sofi",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "SpaceX",
+      "board": "spacex",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Squarespace",
+      "board": "squarespace",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Starburst",
+      "board": "starburst",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "StockX",
+      "board": "stockx",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "StubHub",
+      "board": "stubhubinc",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Sweetgreen",
+      "board": "sweetgreen",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Together AI",
+      "board": "togetherai",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Twitch",
+      "board": "twitch",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Upstart",
+      "board": "upstart",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Waymo",
+      "board": "waymo",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Webflow",
+      "board": "webflow",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "xAI",
+      "board": "xai",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "Yugabyte",
+      "board": "yugabyte",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "ZoomInfo",
+      "board": "zoominfo",
+      "priority": false,
+      "enabled": true,
+      "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    }
+  ],
   "lever": [],
   "ashby": [],
   "recruitee": [],
   "smartrecruiters": [],
-  "notes": "Version 1.1 supports Greenhouse. Later ATS arrays are reserved for phased integrations. Priority status is reported separately and never inflates technical-fit scoring."
+  "notes": "Greenhouse watchlist for Berlin, Germany and Europe-remote cybersecurity roles. Contains 165 enabled public boards: the original 15 plus 150 live-validated additions, including 19 additional Berlin employers. Board endpoints were checked against the public Greenhouse Job Board API on 2026-08-14. Priority status is reported separately and never inflates technical-fit scoring."
 }
+
+
