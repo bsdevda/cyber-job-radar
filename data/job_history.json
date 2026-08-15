@@ -129,6 +129,55 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-08-15T04:18:44Z",
+      "jobs_collected": 20776,
+      "unique_jobs_after_deduplication": 19298,
+      "duplicates_removed": 1478,
+      "jobs_rejected_or_below_threshold": 18950,
+      "relevant_jobs_in_current_run": 348,
+      "new_jobs": 342,
+      "updated_jobs": 3,
+      "strong_matches": 42,
+      "sources_checked": 3,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 30,
+      "jobs_by_source": {
+        "arbeitnow": 875,
+        "remotive": 18,
+        "greenhouse": 19883
+      },
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 875,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 18,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 19883,
+          "requests": 165,
+          "errors": [],
+          "error": "",
+          "companies_checked": 165,
+          "companies_successful": 165,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -291,6 +340,2766 @@
       "company": "Mozilla",
       "title": "Senior Software Engineer, Firefox Security",
       "score": 50
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "5afeef04575b90f06129",
+      "event": "NEW",
+      "company": "Escape",
+      "title": "Security Advocate | AI AppSec",
+      "score": 75
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "d76c5bc8b17e6f0cd344",
+      "event": "NEW",
+      "company": "Chainguard",
+      "title": "Senior Customer Success Manager - Germany",
+      "score": 55
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "42d70f4c1468e9960061",
+      "event": "NEW",
+      "company": "knowbe4",
+      "title": "Graduate Data Scientist - Cyber Analytics (Position located in Cheltenham, United Kingdom)",
+      "score": 68
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "d65bc39d869850472ba5",
+      "event": "UPDATED",
+      "company": "VIA HealthTech",
+      "title": "IT Security & Compliance Manager (Part-Time)",
+      "score": 61
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "790cb26d29fb8fff384e",
+      "event": "UPDATED",
+      "company": "Mozilla",
+      "title": "Senior Software Engineer, Firefox Security",
+      "score": 50
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "5ffa1d142e6185ca0c3b",
+      "event": "UPDATED",
+      "company": "Global University Systems GmbH",
+      "title": "Professor (m/f/d) of Cybersecurity",
+      "score": 57
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "45a27cf9d8ba792df6b7",
+      "event": "NEW",
+      "company": "Solaris SE",
+      "title": "Cyber Security Engineer (Vulnerability Management & SecOperations)",
+      "score": 81
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "f19b320b6f4231da471f",
+      "event": "NEW",
+      "company": "Solaris SE",
+      "title": "Cyber Security Staff Engineer - Application Security",
+      "score": 68
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "6d7ff67be63db6a1d5da",
+      "event": "NEW",
+      "company": "Solaris SE",
+      "title": "Cyber Security Staff Engineer - AWS Cloud",
+      "score": 59
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "aafd5c15542458527646",
+      "event": "NEW",
+      "company": "Solaris SE",
+      "title": "Senior IT Auditor (f/m/d)",
+      "score": 50
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "3ab65cae16c490b3b3b7",
+      "event": "NEW",
+      "company": "Staffbase",
+      "title": "Principal Information Security Manager",
+      "score": 57
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "c274fb39228c2b8b60a7",
+      "event": "NEW",
+      "company": "Staffbase",
+      "title": "Principal Information Security Manager",
+      "score": 58
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "719ccbbf19376ba59bc9",
+      "event": "NEW",
+      "company": "Staffbase",
+      "title": "Principal Information Security Manager",
+      "score": 57
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "8c9b869ea118336a975b",
+      "event": "NEW",
+      "company": "Staffbase",
+      "title": "Principal Information Security Manager",
+      "score": 57
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "521c71dc83dfa3787db3",
+      "event": "NEW",
+      "company": "Staffbase",
+      "title": "Senior Product Security Engineer",
+      "score": 88
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "dc19daa2558845a82810",
+      "event": "NEW",
+      "company": "Staffbase",
+      "title": "Senior Product Security Engineer",
+      "score": 87
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "934940412eaa4bfbcd32",
+      "event": "NEW",
+      "company": "Staffbase",
+      "title": "Senior Product Security Engineer",
+      "score": 87
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "4a2be2f14080b0c6fe7a",
+      "event": "NEW",
+      "company": "ClickHouse",
+      "title": "Cloud Security Engineer",
+      "score": 70
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "ec1523a9be53badedb01",
+      "event": "NEW",
+      "company": "ClickHouse",
+      "title": "Offensive Security Engineer",
+      "score": 74
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "029b986949e1ae352ed4",
+      "event": "NEW",
+      "company": "ClickHouse",
+      "title": "Security Specialist - EMEA (location flexible)",
+      "score": 63
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "24365356946040eb456e",
+      "event": "NEW",
+      "company": "ClickHouse",
+      "title": "Senior Product Security Engineer",
+      "score": 82
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "09c76585ee02f18d234e",
+      "event": "NEW",
+      "company": "ClickHouse",
+      "title": "Senior Security Automation Engineer",
+      "score": 61
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "be732b0a21bd68ef2347",
+      "event": "NEW",
+      "company": "Mozilla",
+      "title": "Senior Product Security Engineer",
+      "score": 82
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "35ae7616bcf139ac58fc",
+      "event": "NEW",
+      "company": "Mozilla",
+      "title": "Senior Security Engineer, Bug Bounty",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "875c65530f3650541798",
+      "event": "NEW",
+      "company": "Mozilla",
+      "title": "Senior Software Engineer, Firefox Security",
+      "score": 54
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "f24ae651382ec38ce5f1",
+      "event": "NEW",
+      "company": "Gallup",
+      "title": "Security Engineer — Platform Security",
+      "score": 80
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "ce81145631d67f21d7bd",
+      "event": "NEW",
+      "company": "Gallup",
+      "title": "Senior Security Engineer — Platform Security",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "865bcb3862ab52b814f2",
+      "event": "NEW",
+      "company": "Gallup",
+      "title": "Senior Security Engineer (Product Security)",
+      "score": 84
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "2ba1811c9d426bdf9d3a",
+      "event": "NEW",
+      "company": "Wolt",
+      "title": "Physical Security and Safety Specialist",
+      "score": 62
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "09563e59cdbb3193acae",
+      "event": "NEW",
+      "company": "MOIA",
+      "title": "(Senior) Automotive Cyber Security Test Manager (all genders)",
+      "score": 80
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "56eecec8066af79a0fb0",
+      "event": "NEW",
+      "company": "MOIA",
+      "title": "Senior Vehicle Security Engineer (all genders)",
+      "score": 85
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "c1ab5b22feaa0afc7ed6",
+      "event": "NEW",
+      "company": "Vercel",
+      "title": "Product Security Engineer",
+      "score": 90
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "59039a1f42a8c045cc25",
+      "event": "NEW",
+      "company": "Vercel",
+      "title": "Security Engineer, Detection Response",
+      "score": 82
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "6a6db9233a3f1857a90c",
+      "event": "NEW",
+      "company": "Vercel",
+      "title": "Security Software Engineer, IAM",
+      "score": 51
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "8284e91e3afc1425ab11",
+      "event": "NEW",
+      "company": "Vercel",
+      "title": "Security Software Engineer, Open Source Frameworks",
+      "score": 74
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "9e8e071b253d6d6eb5ba",
+      "event": "NEW",
+      "company": "Vercel",
+      "title": "Senior Security Software Engineer, v0",
+      "score": 80
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "1403c8d037e4168fd248",
+      "event": "NEW",
+      "company": "DEPT",
+      "title": "Information Security Specialist",
+      "score": 52
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "c0edae664d9125ddbcce",
+      "event": "NEW",
+      "company": "Inceptive",
+      "title": "Secure Data Infrastructure for AI",
+      "score": 57
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "c520bb5f58b4a830e3b9",
+      "event": "NEW",
+      "company": "The Quality Group",
+      "title": "AI Security Engineer (gn)",
+      "score": 78
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "7e460b08e8dd9ea5ff10",
+      "event": "NEW",
+      "company": "Tripadvisor",
+      "title": "Cloud Security Engineer II (AWS, SecOps)",
+      "score": 82
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "4cee644eedae15045571",
+      "event": "NEW",
+      "company": "Tripadvisor",
+      "title": "DevSecOps Engineer (Cloud Security, AWS)",
+      "score": 79
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "27e3af958bde5f39d88b",
+      "event": "NEW",
+      "company": "Tripadvisor",
+      "title": "Senior Application Security Engineer",
+      "score": 78
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "9ba7cf301be480a6ff9f",
+      "event": "NEW",
+      "company": "NavVis",
+      "title": "Senior Security Engineer (F/M/D)",
+      "score": 77
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "96f6e2ebbcca24b306a2",
+      "event": "NEW",
+      "company": "Algolia",
+      "title": "Information Security Engineer",
+      "score": 75
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "862738451119e6a83656",
+      "event": "NEW",
+      "company": "Bitpanda",
+      "title": "Cyber Security Engineer, Elastic (Security Operations)",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "5082abe333d884e594ac",
+      "event": "NEW",
+      "company": "Bitpanda",
+      "title": "Senior Cyber Security Engineer, Elastic (Security Operations)",
+      "score": 67
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "b7dfa4347bb13e99666a",
+      "event": "NEW",
+      "company": "Bugcrowd",
+      "title": "Cleared Vulnerability Research Engineer",
+      "score": 70
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "a05dd291441dc13da445",
+      "event": "NEW",
+      "company": "Bugcrowd",
+      "title": "Manager, Security Operations",
+      "score": 70
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "f102d80bf29fdeac32c5",
+      "event": "NEW",
+      "company": "Bugcrowd",
+      "title": "Product Security Engineering Manager",
+      "score": 76
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "a9e72ea6b052c544bd0b",
+      "event": "NEW",
+      "company": "Bugcrowd",
+      "title": "Reinforcement Learning Engineer (Cybersecurity)",
+      "score": 66
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "2535ca32d7d74b14d32b",
+      "event": "NEW",
+      "company": "Bugcrowd",
+      "title": "Security Program Manager",
+      "score": 69
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "afca702752dc6d622277",
+      "event": "NEW",
+      "company": "Bugcrowd",
+      "title": "Security Program Manager (Part Time)",
+      "score": 69
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "9fc8f3202bb9ab0dd7d0",
+      "event": "NEW",
+      "company": "Coinbase",
+      "title": "Senior Manager, Security Audit",
+      "score": 68
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "da9bebcce460ae1806a4",
+      "event": "NEW",
+      "company": "Elastic",
+      "title": "Principal Solutions Architect, Security Specialist",
+      "score": 50
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "ab0772d847d4d66a5923",
+      "event": "NEW",
+      "company": "Elastic",
+      "title": "Principal Solutions Architect, Security Specialist",
+      "score": 50
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "c06459ce19351fa0a7e9",
+      "event": "NEW",
+      "company": "Elastic",
+      "title": "Senior Solutions Architect - Security Specialist",
+      "score": 55
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "4e31ce3e5c39ef76a434",
+      "event": "NEW",
+      "company": "GitLab",
+      "title": "Director of Engineering, Security Factory",
+      "score": 68
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "81d6b961fdfc0ca4373c",
+      "event": "NEW",
+      "company": "GitLab",
+      "title": "Manager, Customer Success",
+      "score": 61
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "7eaff07677ada2977c2d",
+      "event": "NEW",
+      "company": "GitLab",
+      "title": "Manager, Customer Success Managers, EMEA",
+      "score": 62
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "cd67fcd5316d663c73ae",
+      "event": "NEW",
+      "company": "GitLab",
+      "title": "Senior Customer Success Architect - Singapore",
+      "score": 68
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "5f6ee9fd63ae16df4eae",
+      "event": "NEW",
+      "company": "GitLab",
+      "title": "Senior Internal Auditor, Technology",
+      "score": 61
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "1e5246df9f380b977ff6",
+      "event": "NEW",
+      "company": "GitLab",
+      "title": "Senior Security Engineer, Security Incident Response Team (SIRT) - EMEA",
+      "score": 71
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "5aec9fdf2f09aae99cde",
+      "event": "NEW",
+      "company": "GitLab",
+      "title": "Senior Software Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "83e9dd8f746096c386ff",
+      "event": "NEW",
+      "company": "GitLab",
+      "title": "Senior Solutions Architect, Global SI (India)",
+      "score": 66
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "a40b04f84c4ba5d79013",
+      "event": "NEW",
+      "company": "GitLab",
+      "title": "Staff Infrastructure Security Engineer",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "cbe0aa5202394199bfca",
+      "event": "NEW",
+      "company": "Intercom",
+      "title": "Application Security Engineer",
+      "score": 80
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "c7fc21bf09194add43dd",
+      "event": "NEW",
+      "company": "Intercom",
+      "title": "Application Security Engineer",
+      "score": 80
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "b93de742b526a1fc5a6c",
+      "event": "NEW",
+      "company": "Intercom",
+      "title": "Cloud Security Engineer",
+      "score": 71
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "41b7679cbfdfaddc5d8c",
+      "event": "NEW",
+      "company": "Intercom",
+      "title": "Cloud Security Engineer",
+      "score": 71
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "b68f1c0375f2cbdc9bae",
+      "event": "NEW",
+      "company": "MongoDB",
+      "title": "Security Software Engineer, Infrastructure Security (Staff or Senior)",
+      "score": 56
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "b92a5320479d110541b2",
+      "event": "NEW",
+      "company": "MongoDB",
+      "title": "Senior Product Security Engineer, Server",
+      "score": 69
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "8f91cc9e38d3d3eac39d",
+      "event": "NEW",
+      "company": "MongoDB",
+      "title": "Senior Product Security Engineer, Server",
+      "score": 69
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "3c2a9ae56c8471caeb44",
+      "event": "NEW",
+      "company": "MongoDB",
+      "title": "Senior Software Engineer, Server Networking Security (Rust)",
+      "score": 55
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "9816c43954cef5188a6b",
+      "event": "NEW",
+      "company": "MongoDB",
+      "title": "Senior Software Engineer, Server Security",
+      "score": 51
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "f1a5d681455159a35733",
+      "event": "NEW",
+      "company": "MongoDB",
+      "title": "Senior Software Engineer, Server Security",
+      "score": 51
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "021c91f6dc1985b703f1",
+      "event": "NEW",
+      "company": "Riot Games",
+      "title": "Cloud Infrastructure and Security Engineer (Contract)",
+      "score": 78
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "abc02304a4b342560a10",
+      "event": "NEW",
+      "company": "Riot Games",
+      "title": "Principal Software Engineer - DevOps / Site Reliability Engineer",
+      "score": 54
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "4caee26873bb5855d150",
+      "event": "NEW",
+      "company": "Scopely",
+      "title": "Senior Security Compliance Engineer",
+      "score": 55
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "63691de92619afe1dd1a",
+      "event": "NEW",
+      "company": "Scopely",
+      "title": "Senior Security Engineer, Software",
+      "score": 74
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "a5e94ba42b52cb813258",
+      "event": "NEW",
+      "company": "Scopely",
+      "title": "Sr.Client Security Engineer",
+      "score": 81
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "87d40ac69d80719465e9",
+      "event": "NEW",
+      "company": "Scopely",
+      "title": "Sr. Security Compliance Engineer",
+      "score": 55
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "aaa8fe5c55ee8a8efaf2",
+      "event": "NEW",
+      "company": "Stripe",
+      "title": "Client Platform Security Engineer",
+      "score": 71
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "0915b07f295b6cd903ea",
+      "event": "NEW",
+      "company": "Stripe",
+      "title": "Cloud Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "259a13fe6b2ddf9f59dc",
+      "event": "NEW",
+      "company": "Stripe",
+      "title": "IT Governance, Risk & Compliance (GRC) Specialist, Luxembourg",
+      "score": 63
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "c76252769d62bfd4df0b",
+      "event": "NEW",
+      "company": "Stripe",
+      "title": "Program Manager, Security GRC",
+      "score": 54
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "4191a9a83f42b4ecc6d0",
+      "event": "NEW",
+      "company": "Stripe",
+      "title": "Security Analyst, Bug Bounty",
+      "score": 78
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "cb30724fb54882c61e1f",
+      "event": "NEW",
+      "company": "Stripe",
+      "title": "Security Engineer, Privy",
+      "score": 76
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "28ef05c305dae10ef1d1",
+      "event": "NEW",
+      "company": "Stripe",
+      "title": "Security Incident Response Manager",
+      "score": 61
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "5e047ff1e9713ac437b0",
+      "event": "NEW",
+      "company": "Stripe",
+      "title": "Software Engineer, Vulnerability Management",
+      "score": 74
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "a7a43ca2624e1863c19f",
+      "event": "NEW",
+      "company": "Third Bridge",
+      "title": "DevSecOps Engineer - Wuhan",
+      "score": 67
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "44a4d9bdbc561230bea8",
+      "event": "NEW",
+      "company": "Twilio",
+      "title": "Global Security Operations Center Operator",
+      "score": 75
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "447f4e8abd0edd63fa1b",
+      "event": "NEW",
+      "company": "Twilio",
+      "title": "Security Engineer, Incident Response",
+      "score": 65
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "5f1495a42be71d0b2970",
+      "event": "NEW",
+      "company": "Twilio",
+      "title": "Senior Analyst, Security Risk",
+      "score": 56
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "6f4eab29dbf91bc694ea",
+      "event": "NEW",
+      "company": "Twilio",
+      "title": "Staff Engineer - Offensive Security",
+      "score": 65
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "5dfd94368bb0ea36538c",
+      "event": "NEW",
+      "company": "Twilio",
+      "title": "Staff Enterprise Security Engineer, AI Security",
+      "score": 70
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "6d3bb6a8652c6368f5e5",
+      "event": "NEW",
+      "company": "Zeta Global",
+      "title": "Director, Application Security",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "5356cc39b160dbaa0668",
+      "event": "NEW",
+      "company": "Zeta Global",
+      "title": "Lead Application Security Engineer",
+      "score": 81
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "5a8d8a0bd192552d6836",
+      "event": "NEW",
+      "company": "Zeta Global",
+      "title": "Senior Product Manager, Application Security",
+      "score": 73
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "2e8e64ce4f3b7bf4266b",
+      "event": "NEW",
+      "company": "Zeta Global",
+      "title": "Senior Product Manager, Application Security",
+      "score": 73
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "8e1e64bf11f0364b6524",
+      "event": "NEW",
+      "company": "Abnormal Security",
+      "title": "Application Security Engineer II",
+      "score": 75
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "5779f38197c6f15f2f85",
+      "event": "NEW",
+      "company": "Abnormal Security",
+      "title": "Machine Learning Engineer I - Message Security Products",
+      "score": 68
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "b0259b75b9fb141de40d",
+      "event": "NEW",
+      "company": "Abnormal Security",
+      "title": "Senior Software Engineer - Behavioral Security Products",
+      "score": 50
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "512246d8e37cccb472b2",
+      "event": "NEW",
+      "company": "Abnormal Security",
+      "title": "Software Engineer II - Identity Security Posture Management (ISPM)",
+      "score": 53
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "4be4974337161c43fb85",
+      "event": "NEW",
+      "company": "Abnormal Security",
+      "title": "Software Engineer II - Message Security Products",
+      "score": 64
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "37e743bf52d423097c65",
+      "event": "NEW",
+      "company": "Chainguard",
+      "title": "Customer Success Manager, Enterprise - East",
+      "score": 55
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "14e9974bd18020bb9299",
+      "event": "NEW",
+      "company": "Chainguard",
+      "title": "Security Engineer",
+      "score": 66
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "55fdfa8af84b064012ab",
+      "event": "NEW",
+      "company": "Chainguard",
+      "title": "Senior Customer Success Manager - Federal",
+      "score": 55
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "90f0449bba70bfd8ee85",
+      "event": "NEW",
+      "company": "Chainguard",
+      "title": "Senior Customer Success Manager - Germany",
+      "score": 62
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "fc94262881dcaaa79a06",
+      "event": "NEW",
+      "company": "Chainguard",
+      "title": "Senior Product Security Engineer",
+      "score": 75
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "ff1e0dc380c3851d0a84",
+      "event": "NEW",
+      "company": "Chainguard",
+      "title": "Senior Security Engineer (Cloud)",
+      "score": 66
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "6e4944a612ec85e98712",
+      "event": "NEW",
+      "company": "Chainguard",
+      "title": "Staff Customer Success Manager, Majors (Financial Services)",
+      "score": 58
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "3c2eec776b729f48f225",
+      "event": "NEW",
+      "company": "Chainguard",
+      "title": "Staff Product Security Engineer",
+      "score": 75
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "686c850f1267076c5f6b",
+      "event": "NEW",
+      "company": "Chainguard",
+      "title": "Staff Vulnerability Management Engineer",
+      "score": 73
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "ae746ad60beadb23f747",
+      "event": "NEW",
+      "company": "Cloudflare",
+      "title": "AI Security Research & Red Team Engineer",
+      "score": 66
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "5b18c08cccb1da4474af",
+      "event": "NEW",
+      "company": "Cloudflare",
+      "title": "Engineering Manager - Security Platform",
+      "score": 62
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "04544a6e8e0d1f3bc644",
+      "event": "NEW",
+      "company": "Cloudflare",
+      "title": "Network Security Engineer",
+      "score": 77
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "c0d2c23e403db595a99f",
+      "event": "NEW",
+      "company": "Cloudflare",
+      "title": "Product Security Engineer",
+      "score": 79
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "04f7ab7b5457beb5ae57",
+      "event": "NEW",
+      "company": "Cloudflare",
+      "title": "Product Security Engineer",
+      "score": 79
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "42e34a6cf914539de271",
+      "event": "NEW",
+      "company": "Cloudflare",
+      "title": "Security Engineer (IAM)",
+      "score": 64
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "1539c4c45893cae968dc",
+      "event": "NEW",
+      "company": "Cloudflare",
+      "title": "Senior Customer Engineer, Digital Native Enterprise - Bay Area",
+      "score": 58
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "5c17795d0ddedf3534b7",
+      "event": "NEW",
+      "company": "Cloudflare",
+      "title": "Senior Customer Engineer, Digital Native Enterprise - Los Angeles",
+      "score": 58
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "2a348fbd5263eda4d14d",
+      "event": "NEW",
+      "company": "Cloudflare",
+      "title": "Senior Customer Engineer, Digital Native Enterprise - New York",
+      "score": 58
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "0d5ddf8cec6b60afe385",
+      "event": "NEW",
+      "company": "Cloudflare",
+      "title": "Senior Global Physical Security Specialist",
+      "score": 53
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "23ce9eb6fe149658aa8c",
+      "event": "NEW",
+      "company": "Cloudflare",
+      "title": "Senior Product Security Engineer",
+      "score": 83
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "419bb07f65c9daed1667",
+      "event": "NEW",
+      "company": "Cloudflare",
+      "title": "Senior Security Compliance Specialist",
+      "score": 56
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "af53b3da926ff8cbd143",
+      "event": "NEW",
+      "company": "Cloudflare",
+      "title": "Vulnerability Management Engineer",
+      "score": 75
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "6c950d0fe1232d2478ef",
+      "event": "NEW",
+      "company": "Cribl",
+      "title": "Staff Security Operations Engineer",
+      "score": 70
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "fb08bb63ff66474d72fe",
+      "event": "NEW",
+      "company": "Datadog",
+      "title": "Director, Product Management - Cloud Security and Shared Capabilities",
+      "score": 59
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "c1f9658ff60001a5e10c",
+      "event": "NEW",
+      "company": "Datadog",
+      "title": "Enterprise Security Sales Specialist",
+      "score": 53
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "3963d557131da0ecdfed",
+      "event": "NEW",
+      "company": "Datadog",
+      "title": "Manager I, Engineering - Code Security",
+      "score": 50
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "2457fe744e7024af32e0",
+      "event": "NEW",
+      "company": "Datadog",
+      "title": "Manager I, Engineering - Security Libraries",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "9e7a6e4f30c44c3e5e05",
+      "event": "NEW",
+      "company": "Datadog",
+      "title": "Principal Partner Manager - Channels (UKI Security)",
+      "score": 57
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "c6c252907032782a71e0",
+      "event": "NEW",
+      "company": "Datadog",
+      "title": "Product Manager II, AI & Data Security",
+      "score": 52
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "4f945c193e6402daef55",
+      "event": "NEW",
+      "company": "Datadog",
+      "title": "Regional Manager, Sales Engineering - Security (NORAM)",
+      "score": 59
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "db2599450b999401ee2e",
+      "event": "NEW",
+      "company": "Datadog",
+      "title": "Security Sales Engineer",
+      "score": 63
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "ebb4142be1c523b3c34c",
+      "event": "NEW",
+      "company": "Datadog",
+      "title": "Senior Partner Manager - Channels (Security)",
+      "score": 57
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "d6fcafe92f28a6ac43de",
+      "event": "NEW",
+      "company": "Datadog",
+      "title": "Senior Platform Security Engineer",
+      "score": 75
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "b459c45e10d57a6de025",
+      "event": "NEW",
+      "company": "Datadog",
+      "title": "Senior Security Engineer - Cloud SIEM",
+      "score": 67
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "6c8f5442305767da9d09",
+      "event": "NEW",
+      "company": "Datadog",
+      "title": "Senior Security Engineer - Cloud SIEM",
+      "score": 67
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "e35218a3262722973709",
+      "event": "NEW",
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Security Libraries",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "87fc02d18ed56c5d9443",
+      "event": "NEW",
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Security Libraries",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "8b17857e291e1a0dc004",
+      "event": "NEW",
+      "company": "Datadog",
+      "title": "Staff Application Security Engineer",
+      "score": 84
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "0c4e11638fc8b2b2e92e",
+      "event": "NEW",
+      "company": "Datadog",
+      "title": "Staff Software Engineer - Security Agent",
+      "score": 73
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "7ae19bb3485c40ba617b",
+      "event": "NEW",
+      "company": "Datadog",
+      "title": "Staff Software Engineer - Security Agent",
+      "score": 66
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "084c023de6dac0ce341b",
+      "event": "NEW",
+      "company": "Fastly",
+      "title": "Senior Engineer - Security Products (Backend APIs)",
+      "score": 54
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "a19450f5821e06658ccd",
+      "event": "NEW",
+      "company": "Fastly",
+      "title": "Senior Security Technical Account Manager",
+      "score": 66
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "12d71f50e1f40f3514ef",
+      "event": "NEW",
+      "company": "Fastly",
+      "title": "Threat Detection Analyst (Japanese & English speaking)",
+      "score": 63
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "fce0263fb791426f2059",
+      "event": "NEW",
+      "company": "Fastly",
+      "title": "Threat Detection Analyst (Japanese & English speaking)",
+      "score": 63
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "7eff86259df3e48efd47",
+      "event": "NEW",
+      "company": "Fastly",
+      "title": "Threat Detection Analyst (Japanese Speaking)",
+      "score": 63
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "28abba31d8800814e5d1",
+      "event": "NEW",
+      "company": "Fireblocks",
+      "title": "Director Application Security",
+      "score": 61
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "f733db595e167d12674a",
+      "event": "NEW",
+      "company": "Fireblocks",
+      "title": "Information Security Engineer",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "553ed7847ff2c65c4877",
+      "event": "NEW",
+      "company": "Fireblocks",
+      "title": "Security Operations Team Lead",
+      "score": 53
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "6715544571f8363d6051",
+      "event": "NEW",
+      "company": "Gemini",
+      "title": "Senior Application Security Engineer",
+      "score": 79
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "af993a47ba150c7ab459",
+      "event": "NEW",
+      "company": "Gemini",
+      "title": "Senior Platform Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "32867fbb1c08754eea30",
+      "event": "NEW",
+      "company": "Gemini",
+      "title": "Staff Application Security Engineer",
+      "score": 76
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "99f454e3969f1d5d7b37",
+      "event": "NEW",
+      "company": "Guardsquare",
+      "title": "Channel Development Executive – EMEA",
+      "score": 70
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "a533c7a4173a96e95a92",
+      "event": "NEW",
+      "company": "Guardsquare",
+      "title": "Compiler Engineer C++/LLVM (Singapore)",
+      "score": 74
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "feb490381ec1b6ff5585",
+      "event": "NEW",
+      "company": "Guardsquare",
+      "title": "Field Marketing Manager - APAC",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "c9f1997569346f8f8b12",
+      "event": "NEW",
+      "company": "Guardsquare",
+      "title": "Java Software Engineer (Singapore)",
+      "score": 74
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "11ba0be6e9421b1e7348",
+      "event": "NEW",
+      "company": "Guardsquare",
+      "title": "Sales Executive - APAC (Singapore)",
+      "score": 64
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "f4835602d9584098294f",
+      "event": "NEW",
+      "company": "Guardsquare",
+      "title": "Solution Engineer - APAC (Singapore)",
+      "score": 70
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "194ac3492d1d4b09620c",
+      "event": "NEW",
+      "company": "Guardsquare",
+      "title": "Solution Engineer (Spanish/English) - Boston (US)",
+      "score": 70
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "c2b4747ecb4baae4a7b5",
+      "event": "NEW",
+      "company": "Guardsquare",
+      "title": "Solution Engineer (Spanish/English) - Leuven",
+      "score": 70
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "1a1998742e7765131bf8",
+      "event": "NEW",
+      "company": "Huntress",
+      "title": "Security Operations Analyst- Ireland",
+      "score": 70
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "116b6d7085234db0c1ca",
+      "event": "NEW",
+      "company": "Huntress",
+      "title": "Staff Product Manager, Endpoint Security Posture Management",
+      "score": 62
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "992c07bba8af7a01627d",
+      "event": "NEW",
+      "company": "KnowBe4",
+      "title": "Email Security Analyst",
+      "score": 79
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "ed65981b76f457436503",
+      "event": "NEW",
+      "company": "LaunchDarkly",
+      "title": "Product Security Engineer",
+      "score": 86
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "e8e71d96c81463687d9a",
+      "event": "NEW",
+      "company": "LaunchDarkly",
+      "title": "Security Analyst - Governance, Risk, and Compliance (West)",
+      "score": 62
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "2d551f5691f7ab0f2e90",
+      "event": "NEW",
+      "company": "Okta",
+      "title": "Senior IT Internal Auditor",
+      "score": 66
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "13b62c3a30a755746d6d",
+      "event": "NEW",
+      "company": "Okta",
+      "title": "Sr. Product Manager - Agentic Security",
+      "score": 55
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "87357cacdbe1b545c8ca",
+      "event": "NEW",
+      "company": "Okta",
+      "title": "Staff Product Security Engineer, PSIRT",
+      "score": 75
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "986756d99630ca7b3377",
+      "event": "NEW",
+      "company": "Okta",
+      "title": "Staff Security Analyst, Customer Assurance",
+      "score": 79
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "582b5a333dc95a523489",
+      "event": "NEW",
+      "company": "Orca Security",
+      "title": "Security Researcher",
+      "score": 60
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "cd6c7f2aadd2c7b9f00d",
+      "event": "NEW",
+      "company": "Orca Security",
+      "title": "Senior Software Engineer",
+      "score": 52
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "548ca34814667a24607f",
+      "event": "NEW",
+      "company": "SIXGEN",
+      "title": "ISSO (TS/SCI & CIPOLY)",
+      "score": 57
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "57dd6a132823fa7d7bf5",
+      "event": "NEW",
+      "company": "SIXGEN",
+      "title": "Senior Engineer, Cyber AI R&D (TS/SCI)",
+      "score": 68
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "66820daf9bdbb2e94251",
+      "event": "NEW",
+      "company": "SIXGEN",
+      "title": "Senior Red Team Operator",
+      "score": 71
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "c67151850142311e2df0",
+      "event": "NEW",
+      "company": "SIXGEN",
+      "title": "Senior Web Application Penetration Tester",
+      "score": 81
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "6bd8f6e1b83ccf950657",
+      "event": "NEW",
+      "company": "SIXGEN",
+      "title": "Talent Pool - Cyber & Engineering Roles - TS/SCI w/Poly",
+      "score": 54
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "437e62f8c80766910d2e",
+      "event": "NEW",
+      "company": "Tailscale",
+      "title": "Security Infrastructure Engineer",
+      "score": 65
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "ce41ebd78e7f5ec01f06",
+      "event": "NEW",
+      "company": "Tailscale",
+      "title": "Security Software Engineer",
+      "score": 74
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "d655c003bd43d4fa68e5",
+      "event": "NEW",
+      "company": "Tanium",
+      "title": "IT Audit Manager",
+      "score": 53
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "ee648a2475c6b3195fef",
+      "event": "NEW",
+      "company": "Tanium",
+      "title": "Senior Federal IT Auditor",
+      "score": 57
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "a8156a83238dc2b18b7c",
+      "event": "NEW",
+      "company": "Veeam",
+      "title": "Cyber-Security Operations Analyst III, Product AppSec",
+      "score": 73
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "7cc60b107427bd284648",
+      "event": "NEW",
+      "company": "Veeam",
+      "title": "Lead Customer Success Engineer - Data & AI Security",
+      "score": 66
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "dd8bef1be7fd644d7702",
+      "event": "NEW",
+      "company": "Veeam",
+      "title": "Lead Customer Success Engineer - Data & AI Security (East)",
+      "score": 59
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "3091e0057187ac4ac110",
+      "event": "NEW",
+      "company": "Veeam",
+      "title": "Security Engineer III, Product AppSec",
+      "score": 79
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "4cc1a576e82ae6401a0f",
+      "event": "NEW",
+      "company": "Veeam",
+      "title": "Security Tech Lead",
+      "score": 61
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "bc85abc58bfb6f40d2f6",
+      "event": "NEW",
+      "company": "Veeam",
+      "title": "Security Tech Lead",
+      "score": 61
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "f0951231d244b1aaf617",
+      "event": "NEW",
+      "company": "Veeam",
+      "title": "Senior Sales Engineer - Data & AI Security",
+      "score": 53
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "46b8aaaf23b0d9c65b83",
+      "event": "NEW",
+      "company": "Veeam",
+      "title": "Senior Technical Alliances Lead, Security & AI",
+      "score": 50
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "a093b1d2235de0e8fd39",
+      "event": "NEW",
+      "company": "Veeam",
+      "title": "Sr. Customer Success Engineer",
+      "score": 53
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "f9731078dcf680a0fe83",
+      "event": "NEW",
+      "company": "Verkada",
+      "title": "Solutions Engineer, Auckland",
+      "score": 57
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "7dd82968fc9b106e1c95",
+      "event": "NEW",
+      "company": "Wiz",
+      "title": "AI Security Researcher",
+      "score": 53
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "a4c8eea11b05ee01f2e4",
+      "event": "NEW",
+      "company": "Wiz",
+      "title": "AI Security Researcher",
+      "score": 53
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "88f9b752c47c78716cb5",
+      "event": "NEW",
+      "company": "Wiz",
+      "title": "Pentest Product Associate",
+      "score": 70
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "dc09c2af1b43afb5726b",
+      "event": "NEW",
+      "company": "Wiz",
+      "title": "Principal Solutions Engineer",
+      "score": 70
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "624ab491d889dcb4375d",
+      "event": "NEW",
+      "company": "Wiz",
+      "title": "Security Engineer",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "d61c6fea6026de5c2ed5",
+      "event": "NEW",
+      "company": "Wiz",
+      "title": "Solutions Support Engineer, (Cloud Security & AI)",
+      "score": 57
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "943928e74e6bf2c053dd",
+      "event": "NEW",
+      "company": "Wiz",
+      "title": "Technical Product Associate",
+      "score": 56
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "4e0ce66d91b889d4815e",
+      "event": "NEW",
+      "company": "Affirm",
+      "title": "Product Security Engineer II",
+      "score": 88
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "c74552343a52d5826108",
+      "event": "NEW",
+      "company": "Affirm",
+      "title": "Security Risk Management Lead",
+      "score": 64
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "b36abf24f04f7da42c0a",
+      "event": "NEW",
+      "company": "Anduril Industries",
+      "title": "Security Data Engineer",
+      "score": 55
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "87abf58862455ba6f63f",
+      "event": "NEW",
+      "company": "Anduril Industries",
+      "title": "Senior Network Security Engineer",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "f643179d353e95ca1910",
+      "event": "NEW",
+      "company": "Anthropic",
+      "title": "Anthropic Fellows Program, AI Safety & Security",
+      "score": 65
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "e320b047ac967e82a0e6",
+      "event": "NEW",
+      "company": "Anthropic",
+      "title": "Applied AI Architect, National Security",
+      "score": 64
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "b210c3f18e8b0131fc83",
+      "event": "NEW",
+      "company": "Anthropic",
+      "title": "Lead, Frontier Red Team (Cyber)",
+      "score": 52
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "69f99369302fcadab942",
+      "event": "NEW",
+      "company": "Anthropic",
+      "title": "Platform Security Engineering, Operating Systems",
+      "score": 59
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "8a9eca9a29d5f6ff7dc6",
+      "event": "NEW",
+      "company": "Anthropic",
+      "title": "Red Team Engineer, Safeguards",
+      "score": 74
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "dd42b7e97c0f459da5c2",
+      "event": "NEW",
+      "company": "Anthropic",
+      "title": "Research Engineer, Cybersecurity RL (Reinforcement Learning)",
+      "score": 53
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "1be124c28c4d52dd8896",
+      "event": "NEW",
+      "company": "Anthropic",
+      "title": "Research Engineer / Scientist, Frontier Red Team (Cyber)",
+      "score": 71
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "32440b1b073bd1f107c0",
+      "event": "NEW",
+      "company": "Anthropic",
+      "title": "Safeguards Enforcement Analyst, Cyber Harm",
+      "score": 68
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "ba0f4c5c4131f0c5f88e",
+      "event": "NEW",
+      "company": "Anthropic",
+      "title": "Security Controls Assurance Lead",
+      "score": 59
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "35f5f21a741b7073267c",
+      "event": "NEW",
+      "company": "Anthropic",
+      "title": "Security Engineer, Detection & Response",
+      "score": 66
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "682198d7be9d6fea67a1",
+      "event": "NEW",
+      "company": "Anthropic",
+      "title": "Security Software Engineer, Detection & Response Platform",
+      "score": 56
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "5583bf878ef3a7855be0",
+      "event": "NEW",
+      "company": "Anthropic",
+      "title": "Senior Software Security Engineer",
+      "score": 74
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "f9bc64bbf922fa991409",
+      "event": "NEW",
+      "company": "Anthropic",
+      "title": "Software Security Engineering Manager, Secure Frameworks",
+      "score": 77
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "1f160eb6f1411288d2fb",
+      "event": "NEW",
+      "company": "Anthropic",
+      "title": "Staff+ Application Security Engineer",
+      "score": 90
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "bf73ac8a33662e50637e",
+      "event": "NEW",
+      "company": "Anthropic",
+      "title": "Staff+ Application Security Engineer - M&A",
+      "score": 90
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "0bba37b6a7224516f6e3",
+      "event": "NEW",
+      "company": "Anthropic",
+      "title": "Staff+ Software Engineer, Cybersecurity Products",
+      "score": 63
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "0a1d3ea766f86016e4ca",
+      "event": "NEW",
+      "company": "Anthropic",
+      "title": "Technical Cyber Threat Investigator",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "1d4c5242d871d791313a",
+      "event": "NEW",
+      "company": "Anthropic",
+      "title": "Technical Program Manager, Security",
+      "score": 53
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "cdd3055cd2d0d04cabb4",
+      "event": "NEW",
+      "company": "Anthropic",
+      "title": "Technical Recruiter, Security",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "61385d27eb552dd41fde",
+      "event": "NEW",
+      "company": "AppLovin",
+      "title": "Physical Security Manager",
+      "score": 50
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "f41d0130abd40c50bf55",
+      "event": "NEW",
+      "company": "Databricks",
+      "title": "Principal Security Field Engineer",
+      "score": 59
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "9f033ae48c23ada1b882",
+      "event": "NEW",
+      "company": "Databricks",
+      "title": "Senior Software Engineer - Security",
+      "score": 58
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "bff963b69425860e0cc4",
+      "event": "NEW",
+      "company": "Databricks",
+      "title": "Senior Specialist Solutions Engineer - Platform Security and Cloud Infrastructure",
+      "score": 55
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "751c693e79a1b4ab58b6",
+      "event": "NEW",
+      "company": "Databricks",
+      "title": "Specialist Solutions Architect (Security)",
+      "score": 61
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "fd20e674a4d9fadb352b",
+      "event": "NEW",
+      "company": "Databricks",
+      "title": "Sr Security Engineer, Incident Response",
+      "score": 67
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "fb3d7fc8d9768f866a0c",
+      "event": "NEW",
+      "company": "Databricks",
+      "title": "Staff Security Assurance Engineer",
+      "score": 57
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "975cc21386d14f90f983",
+      "event": "NEW",
+      "company": "Databricks",
+      "title": "Staff Security Field Engineer",
+      "score": 59
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "fe7cc2780b3850deb175",
+      "event": "NEW",
+      "company": "Databricks",
+      "title": "Staff Security Software Engineer, AI Security",
+      "score": 64
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "069490d2042f0ac03534",
+      "event": "NEW",
+      "company": "Databricks",
+      "title": "Staff Security Software Engineer, AI Security Engineering",
+      "score": 77
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "5e58bc9bb77fd47c04a0",
+      "event": "NEW",
+      "company": "Databricks",
+      "title": "Staff Technical Program Manager - Cleared/Security",
+      "score": 51
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "1b968790016dfa70e84c",
+      "event": "NEW",
+      "company": "Discord",
+      "title": "Engineering Manager, Platform Security",
+      "score": 63
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "62ee317f4246242441e7",
+      "event": "NEW",
+      "company": "Discord",
+      "title": "Security Analyst",
+      "score": 59
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "e39c9f72b7e05f73ed9c",
+      "event": "NEW",
+      "company": "Discord",
+      "title": "Senior Software Engineer, Application Security",
+      "score": 66
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "b4cfc160a37960eef678",
+      "event": "NEW",
+      "company": "Discord",
+      "title": "Technology Risk Audit Manager",
+      "score": 64
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "205f924305d7ca5b38d1",
+      "event": "NEW",
+      "company": "Epic Games",
+      "title": "Senior Game Security Programmer",
+      "score": 52
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "cdd8d5ce85e7bee95512",
+      "event": "NEW",
+      "company": "Faire",
+      "title": "Senior Enterprise Security Engineer",
+      "score": 67
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "6e6c15e16485f9c99390",
+      "event": "NEW",
+      "company": "Flexport",
+      "title": "Product Security Engineer II",
+      "score": 84
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "1d38e156b953662063e2",
+      "event": "NEW",
+      "company": "Gusto",
+      "title": "Security Technical Program Manager",
+      "score": 64
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "8caeed08c4acbd3ab86c",
+      "event": "NEW",
+      "company": "Instacart",
+      "title": "Senior Product Security Engineer II",
+      "score": 77
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "146e71ef7d98b6f0b813",
+      "event": "NEW",
+      "company": "Justworks",
+      "title": "Senior Security Engineer (AI Security)",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "53b27edf31982e9d3bdf",
+      "event": "NEW",
+      "company": "Justworks",
+      "title": "Senior Security Engineer (Detection & Response)",
+      "score": 65
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "80c0ed6b2edf0c96b168",
+      "event": "NEW",
+      "company": "Lucid Software",
+      "title": "Security Analyst",
+      "score": 66
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "f66abd94bc8c43df71a1",
+      "event": "NEW",
+      "company": "Lucid Software",
+      "title": "Security Analyst",
+      "score": 66
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "5e29da5961d57f1edb72",
+      "event": "NEW",
+      "company": "Lucid Software",
+      "title": "Security Analyst III",
+      "score": 64
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "e3090d5d3ecde6256145",
+      "event": "NEW",
+      "company": "Lucid Software",
+      "title": "Security Analyst III",
+      "score": 64
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "025478bb6f53f5619f2a",
+      "event": "NEW",
+      "company": "Lyft",
+      "title": "Investigator, Global Security",
+      "score": 52
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "ec041d1ddf50ba686c06",
+      "event": "NEW",
+      "company": "Lyft",
+      "title": "Senior Security Assurance Analyst",
+      "score": 51
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "b7b782180f6e712620dc",
+      "event": "NEW",
+      "company": "Lyft",
+      "title": "Senior Software Engineer, CorpSec",
+      "score": 67
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "19c072a59f641f8ddf52",
+      "event": "NEW",
+      "company": "Mercury",
+      "title": "Senior Cloud Security Engineer - InfoSec",
+      "score": 65
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "6297a6a13843f796c756",
+      "event": "NEW",
+      "company": "Mercury",
+      "title": "Senior IT Auditor",
+      "score": 58
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "dc0ddc39ff53e56e1406",
+      "event": "NEW",
+      "company": "Peloton",
+      "title": "Security Engineer, Incident Response",
+      "score": 64
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "5db0cad5b8b6bff674e6",
+      "event": "NEW",
+      "company": "Pinterest",
+      "title": "Security Software Engineer II, Detection and Response",
+      "score": 69
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "9cfd224c185ab929eb7d",
+      "event": "NEW",
+      "company": "Pinterest",
+      "title": "Sr. Security Software Engineer, Application Security",
+      "score": 74
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "a2d4c0a9cb536c41bd61",
+      "event": "NEW",
+      "company": "Reddit",
+      "title": "Lead Physical Security Engineer",
+      "score": 53
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "4605b93a1fdb4ab4eeba",
+      "event": "NEW",
+      "company": "Reddit",
+      "title": "Senior Security Engineer, AI Security",
+      "score": 73
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "8af9b5ec7e693b81baa4",
+      "event": "NEW",
+      "company": "Robinhood",
+      "title": "Security Engineer, Application Security",
+      "score": 84
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "31f533d4120556cc20ad",
+      "event": "NEW",
+      "company": "Robinhood",
+      "title": "Senior Cloud Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "38a4ed694cc2a8da8b9e",
+      "event": "NEW",
+      "company": "Robinhood",
+      "title": "Senior Corporate Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "7beaed2e79456aa6ec12",
+      "event": "NEW",
+      "company": "Robinhood",
+      "title": "Senior Software Engineer, Security Platform",
+      "score": 51
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "4f1effbc5058064a3bac",
+      "event": "NEW",
+      "company": "Robinhood",
+      "title": "Software Engineer, Proactive Capabilities",
+      "score": 62
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "27b245e8a2314c81b873",
+      "event": "NEW",
+      "company": "Samsara",
+      "title": "Senior Security Operations Engineer I",
+      "score": 63
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "d2c07a0f7d680fcd4fd3",
+      "event": "NEW",
+      "company": "Samsara",
+      "title": "Sr. Security Engineer - Enterprise Security",
+      "score": 75
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "93f622f623297b8ad07a",
+      "event": "NEW",
+      "company": "Scale AI",
+      "title": "Chief of Staff, Public Sector Engineering & Security",
+      "score": 65
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "8f4d1fabf4705fb79a84",
+      "event": "NEW",
+      "company": "Scale AI",
+      "title": "DevOps Engineer, Infrastructure & Security",
+      "score": 61
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "70bb7705b786f8170cf3",
+      "event": "NEW",
+      "company": "Scale AI",
+      "title": "Infrastructure Security Engineer, Public Sector",
+      "score": 75
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "0b377612accadd64fcda",
+      "event": "NEW",
+      "company": "Scale AI",
+      "title": "National Security Hackathon 2026 - General Interest",
+      "score": 50
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "caaffa01374ba79d8969",
+      "event": "NEW",
+      "company": "Scale AI",
+      "title": "National Security Policy, Senior Manager",
+      "score": 54
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "4f381178a63ab4bf7a68",
+      "event": "NEW",
+      "company": "Scale AI",
+      "title": "Product Security Engineer, Public Sector",
+      "score": 80
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "d18a672c3f73d3836bb6",
+      "event": "NEW",
+      "company": "Scale AI",
+      "title": "Security Assurance Lead",
+      "score": 52
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "5ade9ef43f4ce63711e9",
+      "event": "NEW",
+      "company": "Scale AI",
+      "title": "Security Engineer, Detection & Response",
+      "score": 64
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "525d8146962e9f60f3ad",
+      "event": "NEW",
+      "company": "Scale AI",
+      "title": "Security Engineer, Infrastructure",
+      "score": 70
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "840d104460f094793305",
+      "event": "NEW",
+      "company": "Scale AI",
+      "title": "Security Engineer, Product Security",
+      "score": 80
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "f2ba381545f729496e4c",
+      "event": "NEW",
+      "company": "Scale AI",
+      "title": "Security Engineer, Public Sector",
+      "score": 63
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "0ddf853ac510cb43a90c",
+      "event": "NEW",
+      "company": "Scale AI",
+      "title": "Senior AI Product Manager, Cybersecurity",
+      "score": 50
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "bb35f25c02883bb04b54",
+      "event": "NEW",
+      "company": "Scale AI",
+      "title": "Strategic Projects Lead, Public Sector - Cyber",
+      "score": 74
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "904f797d6effae5ef1d8",
+      "event": "NEW",
+      "company": "Scout AI",
+      "title": "Senior IT Infrastructure & Security Engineer",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "2d30cd3a207e44240339",
+      "event": "NEW",
+      "company": "SoFi",
+      "title": "Staff Backend Engineer, Custody Core (Crypto Security)",
+      "score": 57
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "b2cc69650d84a5d680ee",
+      "event": "NEW",
+      "company": "SoFi",
+      "title": "Staff Security Detection Engineer, Machine Learning",
+      "score": 52
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "9b584b6f61119bcb929f",
+      "event": "NEW",
+      "company": "SoFi",
+      "title": "Staff Vulnerability Management Engineer",
+      "score": 74
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "4cefd2b99458bdaf0f8d",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Classified Cyber Assurance Analyst",
+      "score": 66
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "708c1203a4b83d36c9ce",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Communications Security Account Manager",
+      "score": 54
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "6bb0706638447adbf914",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Embedded Security Engineer (Starlink)",
+      "score": 83
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "e3e739f675c2fbdb2dd1",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Embedded Security Engineer (Starlink)",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "7946130c6b36aeb92ef8",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Embedded Security Engineer (Starlink)",
+      "score": 83
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "71c4ed127b20610a4f12",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Information Security Analyst",
+      "score": 76
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "0d90980dde63337c2428",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Information Security Analyst",
+      "score": 76
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "23e13a2a75c2c91a0952",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Information System Security Manager",
+      "score": 66
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "8fb0af7f3a1f53333197",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Information System Security Officer",
+      "score": 66
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "3e406c4340a8314cbf09",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Lead Security Officer",
+      "score": 67
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "835835b7e670f635c129",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Lead Security Officer",
+      "score": 67
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "8a22c35f9ac59f16b8fe",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Lead Security Officer (Terafab)",
+      "score": 67
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "910dda263b8c689ba486",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+      "score": 68
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "aff0898a3c828c0c289f",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+      "score": 68
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "89c831639882c5842564",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+      "score": 68
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "826cbd9eb53d0adc5e81",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Physical Security Hardware Specialist",
+      "score": 60
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "fd285cf9c701a134620c",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Physical Security Hardware Specialist",
+      "score": 60
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "803ac33bfffd5a1f3756",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Product Security Engineer (Starlink)",
+      "score": 86
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "c4e7f016d6df4730e252",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Product Security Engineer (Starlink)",
+      "score": 86
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "c67cf9263b4bb18551e9",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Product Security Engineer (Starlink)",
+      "score": 75
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "414173a7259ba46e73bc",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Analyst (Blue Team)",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "71791444615e52820fa7",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Analyst (Detection and Incident Response)",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "24c687c9f5b31da94c53",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Analyst (SOC)",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "fa7720fefa2e3902a821",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Analyst (Threat Detection)",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "6d8e14a940843ae8c44c",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Engineer",
+      "score": 83
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "c90a5e2bb316a5ce7e00",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Engineer",
+      "score": 83
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "a7355df8b589295f9afa",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Engineer (Blue Team)",
+      "score": 74
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "e2839a4dd732c4805902",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Engineer (Blue Team)",
+      "score": 76
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "ed710fc0247ff585aab4",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Engineer (Detection Engineering)",
+      "score": 76
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "30ff537c506bbe47d8df",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Engineer (Embedded & Networking)",
+      "score": 83
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "69ecdd31169472be3f4f",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Engineer (Embedded & Networking)",
+      "score": 83
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "9c559a7baa47ab9161f3",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Engineer (Embedded OT)",
+      "score": 83
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "deefff99e288803bab5a",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Engineer (Embedded OT)",
+      "score": 83
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "4475929caa26d3124c10",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Officer 3",
+      "score": 66
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "5fbd0acbb2281c5a4cac",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Officer 3",
+      "score": 66
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "6d5ca2830a4047f8c429",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Officer 3",
+      "score": 66
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "4b8225da75cdf42079f1",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Officer 3",
+      "score": 66
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "a04783ef25a1488cd2d8",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Operator 2 (Part Time)",
+      "score": 54
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "42f615edf386745057cb",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Software Engineer (Starlink)",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "4a759f5307d74dba64df",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Software Engineer (Starlink)",
+      "score": 72
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "a8149624b357e843b8ec",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Software Engineer (Starlink)",
+      "score": 61
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "86c305f3e1a7bb353838",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Security Software Engineer - Top Secret Clearance",
+      "score": 79
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "72eed934844edbfb562a",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Sr. Application Security Engineer",
+      "score": 77
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "d0e95b6d38d54e873981",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Sr. Classified Cyber Assurance Analyst",
+      "score": 57
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "0089b2961a175532c287",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Sr. Cyber Assurance Analyst, Finance",
+      "score": 50
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "1cd9d4759fe11e6e50d1",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Sr. Cyber Assurance Analyst, Finance",
+      "score": 52
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "21788b8d514d04f6b9fa",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Sr. Cyber Assurance Analyst, Starlink",
+      "score": 57
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "8e1e9396a129bcc5e509",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Sr. Cyber Assurance Analyst, Starlink",
+      "score": 56
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "afa768eb4ca395c84fe5",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Sr. Physical Security Hardware Specialist",
+      "score": 54
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "4212a4060e3d21e12532",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Sr. Security Engineer",
+      "score": 75
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "cd8f827945e103c51280",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Sr. Software Engineer, Security (Starship)",
+      "score": 61
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "1834e2d3c973319e964a",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Supervisor, Security",
+      "score": 53
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "58ec338b75593c957cb1",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Supervisor, Security",
+      "score": 53
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "bab33156f9cef9f7cdf5",
+      "event": "NEW",
+      "company": "SpaceX",
+      "title": "Supervisor, Security Protective Operations Center",
+      "score": 53
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "72b1fa6f947bd3592237",
+      "event": "NEW",
+      "company": "Squarespace",
+      "title": "Security Engineer - Incident Response",
+      "score": 71
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "507e542464270d3cf331",
+      "event": "NEW",
+      "company": "Starburst",
+      "title": "Application Security Engineer",
+      "score": 87
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "dbc93bb3b0fc4294a332",
+      "event": "NEW",
+      "company": "Upstart",
+      "title": "Security Operations Engineer (SecOps) II",
+      "score": 75
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "df0860f0b64e84cd6e21",
+      "event": "NEW",
+      "company": "Upstart",
+      "title": "Senior Security Engineer, Data Security",
+      "score": 59
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "edfd2ebe8415f086dbee",
+      "event": "NEW",
+      "company": "xAI",
+      "title": "Application Security Engineer",
+      "score": 82
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "f35a1a612998381851de",
+      "event": "NEW",
+      "company": "xAI",
+      "title": "Network Security Engineer",
+      "score": 71
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "b2ba06096339f84f6957",
+      "event": "NEW",
+      "company": "xAI",
+      "title": "Security Engineer - Detection & Response (Japan, X Money)",
+      "score": 80
+    },
+    {
+      "at": "2026-08-15T04:18:44Z",
+      "job_key": "fe4944ff99ad0cf7633b",
+      "event": "NEW",
+      "company": "xAI",
+      "title": "Software Engineer - Platform Security",
+      "score": 70
     }
   ]
 }

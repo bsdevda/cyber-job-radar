@@ -19,16 +19,16 @@
   },
   "975c260f4cccb6d07cbe": {
     "first_seen": "2026-08-14T03:40:19Z",
-    "last_seen": "2026-08-14T15:57:24Z",
+    "last_seen": "2026-08-15T04:18:44Z",
     "content_hash": "d8efb688da1fecca28fed229e1ed2c67cdcbbddb04c960929fdf19a7a4aec100",
-    "status": "UPDATED",
+    "status": "SEEN_BEFORE",
     "company": "Mandl. Executives & Experts",
     "title": "IT Security Experte (m/w/d) Incident Response & DLP",
     "url": "https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/it-security-experte-incident-response-dlp-munich-455340"
   },
   "973ebf42ee7ab50c3088": {
     "first_seen": "2026-08-14T03:40:19Z",
-    "last_seen": "2026-08-14T15:57:24Z",
+    "last_seen": "2026-08-15T04:18:44Z",
     "content_hash": "e5d20337e3e0eaaea489885728112c3541ed920d8db77975311da282d7eb9ec4",
     "status": "SEEN_BEFORE",
     "company": "Mandl. Executives & Experts",
@@ -37,8 +37,8 @@
   },
   "790cb26d29fb8fff384e": {
     "first_seen": "2026-08-14T03:40:19Z",
-    "last_seen": "2026-08-14T15:57:24Z",
-    "content_hash": "d772cdb117772360ee5255fca0e7ceb090ea9c793f094ea3417eb4b104d3580d",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "78d5333a4243e6b7cf6696742aa09d1fec7b70eda5aca6a90adc13c274cad4a5",
     "status": "UPDATED",
     "company": "Mozilla",
     "title": "Senior Software Engineer, Firefox Security",
@@ -46,16 +46,16 @@
   },
   "5ffa1d142e6185ca0c3b": {
     "first_seen": "2026-08-14T03:40:19Z",
-    "last_seen": "2026-08-14T15:57:24Z",
-    "content_hash": "2653468e00e4e6b5c0ce17d7c534210385df5dfcaf0ecc4a665024c93bfc94a2",
-    "status": "SEEN_BEFORE",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "6c1b0380a65604eb72c26fe757cc6e8f00f34923d2778f8e9d85012df54c98a4",
+    "status": "UPDATED",
     "company": "Global University Systems GmbH",
     "title": "Professor (m/f/d) of Cybersecurity",
     "url": "https://www.arbeitnow.com/jobs/companies/global-university-systems-gmbh/professor-of-cybersecurity-potsdam-gisma-238808"
   },
   "e9e07b891971f0d92e82": {
     "first_seen": "2026-08-14T03:40:19Z",
-    "last_seen": "2026-08-14T15:57:24Z",
+    "last_seen": "2026-08-15T04:18:44Z",
     "content_hash": "ac14afd1aeaae69ee7a22ef8cf00bea5b458cc5c178307de01cc7b99412a8d0d",
     "status": "SEEN_BEFORE",
     "company": "Quantum-Systems GmbH",
@@ -91,9 +91,9 @@
   },
   "d65bc39d869850472ba5": {
     "first_seen": "2026-08-14T15:57:24Z",
-    "last_seen": "2026-08-14T15:57:24Z",
-    "content_hash": "fd7bd6f7fcaf458d75c2feba1ca0eacde0119a509eff9e0d70723d273424ca57",
-    "status": "NEW",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "1f677e1ec2794554fe6cf561296ff54626020f17a31ec79480fe8d1c35e381fe",
+    "status": "UPDATED",
     "company": "VIA HealthTech",
     "title": "IT Security & Compliance Manager (Part-Time)",
     "url": "https://www.arbeitnow.com/jobs/companies/via-healthtech/it-security-compliance-manager-part-time-berlin-469634"
@@ -106,5 +106,3083 @@
     "company": "Xtxmarketstechnologies",
     "title": "Security Engineer",
     "url": "https://www.arbeitnow.co.uk/jobs/companies/xtxmarketstechnologies/security-engineer-london-369120"
+  },
+  "5afeef04575b90f06129": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "babf67be4dcef253b730e2e6465e19c408c85402122aee09ba294356cd35b139",
+    "status": "NEW",
+    "company": "Escape",
+    "title": "Security Advocate | AI AppSec",
+    "url": "https://www.arbeitnow.com/jobs/companies/escape/remote-security-advocate-ai-appsec-150685"
+  },
+  "d76c5bc8b17e6f0cd344": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "77244815b3298bee3dfb095bc7befba020416778559ec3a31f83f3a57da4e8cc",
+    "status": "NEW",
+    "company": "Chainguard",
+    "title": "Senior Customer Success Manager - Germany",
+    "url": "https://www.arbeitnow.com/jobs/companies/chainguard/senior-customer-success-manager-germany-182783"
+  },
+  "42d70f4c1468e9960061": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "0695f280a0cf0b2b4fb783126a4392e24d2ea7f13dfe6c4baa7dc44120b170b0",
+    "status": "NEW",
+    "company": "knowbe4",
+    "title": "Graduate Data Scientist - Cyber Analytics (Position located in Cheltenham, United Kingdom)",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/knowbe4/graduate-data-scientist-cyber-analytics-position-located-in-cheltenham-united-kingdom-254481"
+  },
+  "45a27cf9d8ba792df6b7": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "f332fd1711128078a854738243ffae198feba46f27a1039b5fe34ead12c69b6b",
+    "status": "NEW",
+    "company": "Solaris SE",
+    "title": "Cyber Security Engineer (Vulnerability Management & SecOperations)",
+    "url": "https://job-boards.greenhouse.io/solarisbank/jobs/8596685002"
+  },
+  "f19b320b6f4231da471f": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "443acf218ae8484dfef75df5bf808011f5c34241d1569078b19ff62f8e027225",
+    "status": "NEW",
+    "company": "Solaris SE",
+    "title": "Cyber Security Staff Engineer - Application Security",
+    "url": "https://job-boards.greenhouse.io/solarisbank/jobs/8596522002"
+  },
+  "6d7ff67be63db6a1d5da": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "f623f7dd1ba022efd95dc1d5e90d7382cdcb6077dc9e2f20cc9caadee8706124",
+    "status": "NEW",
+    "company": "Solaris SE",
+    "title": "Cyber Security Staff Engineer - AWS Cloud",
+    "url": "https://job-boards.greenhouse.io/solarisbank/jobs/8596423002"
+  },
+  "aafd5c15542458527646": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "817a68054b2bbf237232bd43fe19bebf40b9d86e297d8734608469ce5f45b5cf",
+    "status": "NEW",
+    "company": "Solaris SE",
+    "title": "Senior IT Auditor (f/m/d)",
+    "url": "https://job-boards.greenhouse.io/solarisbank/jobs/8378932002"
+  },
+  "3ab65cae16c490b3b3b7": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "50bc71ec24d4e62bed190fd5748956a7d27518929a227605887ae1248aea0be0",
+    "status": "NEW",
+    "company": "Staffbase",
+    "title": "Principal Information Security Manager",
+    "url": "https://job-boards.greenhouse.io/staffbase/jobs/8622018002"
+  },
+  "c274fb39228c2b8b60a7": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b8d0f5db2a21378fa76c636c2f06925f4da0de6910438fedaec1e17c7d97d503",
+    "status": "NEW",
+    "company": "Staffbase",
+    "title": "Principal Information Security Manager",
+    "url": "https://job-boards.greenhouse.io/staffbase/jobs/8622016002"
+  },
+  "719ccbbf19376ba59bc9": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "7f6ff36bd209689259c8c7487c9351fc14d290f3c880842fc5f99ca2fcf253ad",
+    "status": "NEW",
+    "company": "Staffbase",
+    "title": "Principal Information Security Manager",
+    "url": "https://job-boards.greenhouse.io/staffbase/jobs/8622017002"
+  },
+  "8c9b869ea118336a975b": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "88c74bc09c445e4598c9c7e4aa7bd917175a13a21f0b17d0b0138f8c0e2b59ca",
+    "status": "NEW",
+    "company": "Staffbase",
+    "title": "Principal Information Security Manager",
+    "url": "https://job-boards.greenhouse.io/staffbase/jobs/8632483002"
+  },
+  "521c71dc83dfa3787db3": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "2c040214033ea8916a3acfc5d53099f7b45d4e07ed4a37d2804853d325041e92",
+    "status": "NEW",
+    "company": "Staffbase",
+    "title": "Senior Product Security Engineer",
+    "url": "https://job-boards.greenhouse.io/staffbase/jobs/8524710002"
+  },
+  "dc19daa2558845a82810": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "aa4af0a74f03e36e56e1a7b0b10ca4ebef4ddac3fe31f3b4e5ef76b3412800ad",
+    "status": "NEW",
+    "company": "Staffbase",
+    "title": "Senior Product Security Engineer",
+    "url": "https://job-boards.greenhouse.io/staffbase/jobs/8670749002"
+  },
+  "934940412eaa4bfbcd32": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "a47c25e95f8beb22c72af4c8c4cb87a48a89d088dcce2101a9516b50f3151c03",
+    "status": "NEW",
+    "company": "Staffbase",
+    "title": "Senior Product Security Engineer",
+    "url": "https://job-boards.greenhouse.io/staffbase/jobs/8670748002"
+  },
+  "4a2be2f14080b0c6fe7a": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "39e817ad3a708e9169ff9c7ead3cdef88a1f629c247dff23126fc737cc8b09a3",
+    "status": "NEW",
+    "company": "ClickHouse",
+    "title": "Cloud Security Engineer",
+    "url": "https://job-boards.greenhouse.io/clickhouse/jobs/5854400004"
+  },
+  "ec1523a9be53badedb01": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "1539f87de0375556ac757b915ca150ff5e46922ca1b2b5a187c7e60c6d59beb2",
+    "status": "NEW",
+    "company": "ClickHouse",
+    "title": "Offensive Security Engineer",
+    "url": "https://job-boards.greenhouse.io/clickhouse/jobs/6116798004"
+  },
+  "029b986949e1ae352ed4": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "d249d9c5da8a8b00c9c09aa4d6a8b3a6fbf8115e8a82a33fad91d4008f250374",
+    "status": "NEW",
+    "company": "ClickHouse",
+    "title": "Security Specialist - EMEA (location flexible)",
+    "url": "https://job-boards.greenhouse.io/clickhouse/jobs/6143078004"
+  },
+  "24365356946040eb456e": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "87815c5bd2df3cb0d07824ce9043c9cca6322d7fdabe413be754d5ed7ceb8568",
+    "status": "NEW",
+    "company": "ClickHouse",
+    "title": "Senior Product Security Engineer",
+    "url": "https://job-boards.greenhouse.io/clickhouse/jobs/6130151004"
+  },
+  "09c76585ee02f18d234e": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "6d496dc0bd73af83588fe74bf47eeffbf23573774413906bb058dd6ba4e9ef84",
+    "status": "NEW",
+    "company": "ClickHouse",
+    "title": "Senior Security Automation Engineer",
+    "url": "https://job-boards.greenhouse.io/clickhouse/jobs/6105352004"
+  },
+  "be732b0a21bd68ef2347": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "cbb821c54a459f05ced3b5cf659c206d6ef564ae9b663fa2505bd8a0caa7975e",
+    "status": "NEW",
+    "company": "Mozilla",
+    "title": "Senior Product Security Engineer",
+    "url": "https://job-boards.greenhouse.io/mozilla/jobs/7583571"
+  },
+  "35ae7616bcf139ac58fc": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "a87078bc25b40427a2bad843231a3b74031d8ddc03ea0eadc68321c3fc0ea3a2",
+    "status": "NEW",
+    "company": "Mozilla",
+    "title": "Senior Security Engineer, Bug Bounty",
+    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8064608"
+  },
+  "875c65530f3650541798": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "35a5731e8643e9082e7e47d73b2e3c5c8bb2b8e6d3d40e7001215dcc9400ac2c",
+    "status": "NEW",
+    "company": "Mozilla",
+    "title": "Senior Software Engineer, Firefox Security",
+    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8026953"
+  },
+  "f24ae651382ec38ce5f1": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "2493e1bbda6144c593da430a5963a55bbf416b949f9764325e3b3ad79429a3c5",
+    "status": "NEW",
+    "company": "Gallup",
+    "title": "Security Engineer — Platform Security",
+    "url": "https://job-boards.greenhouse.io/gallup/jobs/4357249009"
+  },
+  "ce81145631d67f21d7bd": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b88c991bf44a41013e17678f3c2389ccfe7de5342d1778a9d16e8ec388929b7e",
+    "status": "NEW",
+    "company": "Gallup",
+    "title": "Senior Security Engineer — Platform Security",
+    "url": "https://job-boards.greenhouse.io/gallup/jobs/4322239009"
+  },
+  "865bcb3862ab52b814f2": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "8eed75370b049848d1a3f7f204d37e57f8cf97abf885555cd31a24a01e09b461",
+    "status": "NEW",
+    "company": "Gallup",
+    "title": "Senior Security Engineer (Product Security)",
+    "url": "https://job-boards.greenhouse.io/gallup/jobs/4201834009"
+  },
+  "2ba1811c9d426bdf9d3a": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "d8acb7fb950e63da4beda54e42a75293477c32f1fc1538baef715f244a193353",
+    "status": "NEW",
+    "company": "Wolt",
+    "title": "Physical Security and Safety Specialist",
+    "url": "https://job-boards.greenhouse.io/wolt/jobs/7996749"
+  },
+  "09563e59cdbb3193acae": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "604680bf8b17cb2ad64619ffc506bd544eb25edf87c7cd29aeeec2cca47ebdc0",
+    "status": "NEW",
+    "company": "MOIA",
+    "title": "(Senior) Automotive Cyber Security Test Manager (all genders)",
+    "url": "https://job-boards.eu.greenhouse.io/moia/jobs/4769714101"
+  },
+  "56eecec8066af79a0fb0": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "eee08ced90cb8b7b695aafeab6401645e42b56acb818c45756e2a40496aa6ec8",
+    "status": "NEW",
+    "company": "MOIA",
+    "title": "Senior Vehicle Security Engineer (all genders)",
+    "url": "https://job-boards.eu.greenhouse.io/moia/jobs/4769020101"
+  },
+  "c1ab5b22feaa0afc7ed6": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "ff0a297c70e882820361d76e2dfe4d8dffff80350bded7aaf94a14eee926d75d",
+    "status": "NEW",
+    "company": "Vercel",
+    "title": "Product Security Engineer",
+    "url": "https://job-boards.greenhouse.io/vercel/jobs/6102343004"
+  },
+  "59039a1f42a8c045cc25": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "ff65e1102d22b95c32dc726b77869ff74a3e37aef547bf9ae631170d231bb36d",
+    "status": "NEW",
+    "company": "Vercel",
+    "title": "Security Engineer, Detection Response",
+    "url": "https://job-boards.greenhouse.io/vercel/jobs/6111332004"
+  },
+  "6a6db9233a3f1857a90c": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "e0a3f1713100f2474f75573ee0af0e9a0a23eab0fc49b4b5d01caf2dcbddb28b",
+    "status": "NEW",
+    "company": "Vercel",
+    "title": "Security Software Engineer, IAM",
+    "url": "https://job-boards.greenhouse.io/vercel/jobs/6093255004"
+  },
+  "8284e91e3afc1425ab11": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "d86efa2787c694e5fa37113af82e18e631aaf8b7eb19ffcf85182061a1463efc",
+    "status": "NEW",
+    "company": "Vercel",
+    "title": "Security Software Engineer, Open Source Frameworks",
+    "url": "https://job-boards.greenhouse.io/vercel/jobs/6117204004"
+  },
+  "9e8e071b253d6d6eb5ba": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "d54beb7630dc614f4b931f6f8b585d7525c88ba5e97893ac630e2ad3ec795c7a",
+    "status": "NEW",
+    "company": "Vercel",
+    "title": "Senior Security Software Engineer, v0",
+    "url": "https://job-boards.greenhouse.io/vercel/jobs/6117209004"
+  },
+  "1403c8d037e4168fd248": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "2a7ca61f2ca79e632f188b6c000bfd6ebb6b204eda0fa7fdc33a8ea19283f2c1",
+    "status": "NEW",
+    "company": "DEPT",
+    "title": "Information Security Specialist",
+    "url": "https://job-boards.greenhouse.io/dept/jobs/8071164"
+  },
+  "c0edae664d9125ddbcce": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "0d36cecc55c86f9a4629884a000b279dcfb508ed9812b736b31ccd1b61468da3",
+    "status": "NEW",
+    "company": "Inceptive",
+    "title": "Secure Data Infrastructure for AI",
+    "url": "https://job-boards.greenhouse.io/inceptive/jobs/5167437007"
+  },
+  "c520bb5f58b4a830e3b9": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "e4c5f5d9bc837af49849a7c5aef50ecb42003080207a3dd789bdc9fbbe1dcf56",
+    "status": "NEW",
+    "company": "The Quality Group",
+    "title": "AI Security Engineer (gn)",
+    "url": "https://job-boards.eu.greenhouse.io/thequalitygroupgmbh2/jobs/4890993101"
+  },
+  "7e460b08e8dd9ea5ff10": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "bfc302ab7c8c90e439e4c162be7d0c8c6a0cb360016dc97576f8a7d5debb8d53",
+    "status": "NEW",
+    "company": "Tripadvisor",
+    "title": "Cloud Security Engineer II (AWS, SecOps)",
+    "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/7814510"
+  },
+  "4cee644eedae15045571": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "d26707a869b016af3fbd6360f89fdfd99fb9d9a5e84672059e46fd43307e91ee",
+    "status": "NEW",
+    "company": "Tripadvisor",
+    "title": "DevSecOps Engineer (Cloud Security, AWS)",
+    "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8072940"
+  },
+  "27e3af958bde5f39d88b": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "20e811da31f8180d5775d49cc560541109728b2b598558b48d42a83752bdac4d",
+    "status": "NEW",
+    "company": "Tripadvisor",
+    "title": "Senior Application Security Engineer",
+    "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/7002181"
+  },
+  "9ba7cf301be480a6ff9f": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "695565afccbc0ea27aed88980573bdd4151d8c3a3fd8cfff9885244f400ab84b",
+    "status": "NEW",
+    "company": "NavVis",
+    "title": "Senior Security Engineer (F/M/D)",
+    "url": "https://job-boards.eu.greenhouse.io/navvis/jobs/4714167101"
+  },
+  "96f6e2ebbcca24b306a2": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "4cb5501d802962629b94f26b2cb9cfb903f879a2560ba07fed9adaf52b446e26",
+    "status": "NEW",
+    "company": "Algolia",
+    "title": "Information Security Engineer",
+    "url": "https://job-boards.greenhouse.io/algolia/jobs/6112872004"
+  },
+  "862738451119e6a83656": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "28c7b4917f570937f80250d0850cd9e2349a51e27e263ececda1faa4afd5a2e6",
+    "status": "NEW",
+    "company": "Bitpanda",
+    "title": "Cyber Security Engineer, Elastic (Security Operations)",
+    "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4703766101"
+  },
+  "5082abe333d884e594ac": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "a7c4ac8518c718701d6d43e433317350874d71041ad7875216cf4b7cad9c4d74",
+    "status": "NEW",
+    "company": "Bitpanda",
+    "title": "Senior Cyber Security Engineer, Elastic (Security Operations)",
+    "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4699355101"
+  },
+  "b7dfa4347bb13e99666a": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "0bcb808b113c9aab9073df52e949464c1e6e5232d3f149ee7aeca04831351151",
+    "status": "NEW",
+    "company": "Bugcrowd",
+    "title": "Cleared Vulnerability Research Engineer",
+    "url": "https://boards.greenhouse.io/bugcrowd/jobs/7493973?gh_jid=7493973"
+  },
+  "a05dd291441dc13da445": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "f64c930f212a37db89e4f6f6587a3eb093f8ab084c2c6eaaded89cfb5c33ddf7",
+    "status": "NEW",
+    "company": "Bugcrowd",
+    "title": "Manager, Security Operations",
+    "url": "https://boards.greenhouse.io/bugcrowd/jobs/8065555?gh_jid=8065555"
+  },
+  "f102d80bf29fdeac32c5": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "63774fbf221d89b8110829a7dd2d944d687c7457563483ec07911f8441c63c92",
+    "status": "NEW",
+    "company": "Bugcrowd",
+    "title": "Product Security Engineering Manager",
+    "url": "https://boards.greenhouse.io/bugcrowd/jobs/7793504?gh_jid=7793504"
+  },
+  "a9e72ea6b052c544bd0b": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "e37858dc23de1ff715d35c721c0febb87dd40adec1d726eea965aa6576a283a5",
+    "status": "NEW",
+    "company": "Bugcrowd",
+    "title": "Reinforcement Learning Engineer (Cybersecurity)",
+    "url": "https://boards.greenhouse.io/bugcrowd/jobs/7843516?gh_jid=7843516"
+  },
+  "2535ca32d7d74b14d32b": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "e53ac07342dbc19221108574ff09ccf21877ae1bcdca3c77ee70adecf113b6c4",
+    "status": "NEW",
+    "company": "Bugcrowd",
+    "title": "Security Program Manager",
+    "url": "https://boards.greenhouse.io/bugcrowd/jobs/8090475?gh_jid=8090475"
+  },
+  "afca702752dc6d622277": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "63f6690f1cf13875ca150a554ab54eb9be719dbfd08edf16e96afbeea6b50af7",
+    "status": "NEW",
+    "company": "Bugcrowd",
+    "title": "Security Program Manager (Part Time)",
+    "url": "https://boards.greenhouse.io/bugcrowd/jobs/8097496?gh_jid=8097496"
+  },
+  "9fc8f3202bb9ab0dd7d0": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "0fea28ac850cf6e4827ce2ee27d76a8d6ebbcb0fedb73187fbfcd456a5c487c7",
+    "status": "NEW",
+    "company": "Coinbase",
+    "title": "Senior Manager, Security Audit",
+    "url": "https://www.coinbase.com/careers/positions/7997926?gh_jid=7997926"
+  },
+  "da9bebcce460ae1806a4": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "9f28566a6f846dece1d5ee18e3e28c7a54e175e4e999082c32c8421e5f6718e1",
+    "status": "NEW",
+    "company": "Elastic",
+    "title": "Principal Solutions Architect, Security Specialist",
+    "url": "https://jobs.elastic.co/jobs?gh_jid=8011801&gh_jid=8011801"
+  },
+  "ab0772d847d4d66a5923": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "4e4fec1d1cb9588af0d82c0f94ba5fe5791fcfd32ad4d32031e71cc5d7494774",
+    "status": "NEW",
+    "company": "Elastic",
+    "title": "Principal Solutions Architect, Security Specialist",
+    "url": "https://jobs.elastic.co/jobs?gh_jid=8040943&gh_jid=8040943"
+  },
+  "c06459ce19351fa0a7e9": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "a11f3ca567db53f96ac92359b06cd0ac7ea30dea4bea11d9ada7768d35d5da6e",
+    "status": "NEW",
+    "company": "Elastic",
+    "title": "Senior Solutions Architect - Security Specialist",
+    "url": "https://jobs.elastic.co/jobs?gh_jid=7995039&gh_jid=7995039"
+  },
+  "4e31ce3e5c39ef76a434": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "18cc8aad71ed57d3f05dedc7a1cb42709eb959a5bba48874e22ff8e29e2c56b9",
+    "status": "NEW",
+    "company": "GitLab",
+    "title": "Director of Engineering, Security Factory",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8607104002"
+  },
+  "81d6b961fdfc0ca4373c": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "3783199f7ffb1c42848d3201706cf5ff0e3eb5de7cf1424429fa779b1f2514cf",
+    "status": "NEW",
+    "company": "GitLab",
+    "title": "Manager, Customer Success",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8691859002"
+  },
+  "7eaff07677ada2977c2d": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "e3c03a4a33e819e6c9abda797e818a4f0eda1ec8b06f873f80306c1bf1ee25fb",
+    "status": "NEW",
+    "company": "GitLab",
+    "title": "Manager, Customer Success Managers, EMEA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8613199002"
+  },
+  "cd67fcd5316d663c73ae": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b5d092768a30b74929687addbb50845a8164b2894ee0af138cc5b66c775abae6",
+    "status": "NEW",
+    "company": "GitLab",
+    "title": "Senior Customer Success Architect - Singapore",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8648304002"
+  },
+  "5f6ee9fd63ae16df4eae": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "7d9d482cc89d531d76ea9574c6c06c08fea4494f61c6a90445a5f1cfdd6b652b",
+    "status": "NEW",
+    "company": "GitLab",
+    "title": "Senior Internal Auditor, Technology",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8643077002"
+  },
+  "1e5246df9f380b977ff6": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "74246e07bf9ab646d23c8e4d829d64ba280c7599d61a4b73b9b12d692232b28e",
+    "status": "NEW",
+    "company": "GitLab",
+    "title": "Senior Security Engineer, Security Incident Response Team (SIRT) - EMEA",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8628447002"
+  },
+  "5aec9fdf2f09aae99cde": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "ed7fda31dd9eb7e521e0c6d137d9505fb786cf6928d930ea4fd2398ad5597559",
+    "status": "NEW",
+    "company": "GitLab",
+    "title": "Senior Software Security Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8637549002"
+  },
+  "83e9dd8f746096c386ff": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "0ba14c3fa2e1acbfec7218e137227e0501f2d5aab93067e4534f83aa4e60e325",
+    "status": "NEW",
+    "company": "GitLab",
+    "title": "Senior Solutions Architect, Global SI (India)",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8591221002"
+  },
+  "a40b04f84c4ba5d79013": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "9b1a56ef337c00c288f932ecb5cac3880b3c50858f4f432952cdf03c6865a96e",
+    "status": "NEW",
+    "company": "GitLab",
+    "title": "Staff Infrastructure Security Engineer",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8514960002"
+  },
+  "cbe0aa5202394199bfca": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "32907313362e11f92a66aee281b1b7054b7103d8eff689ef2257d1e3d72622b9",
+    "status": "NEW",
+    "company": "Intercom",
+    "title": "Application Security Engineer",
+    "url": "https://job-boards.greenhouse.io/intercom/jobs/8018140"
+  },
+  "c7fc21bf09194add43dd": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "56820e7ec2b3c3e338d12a907aa0910894eb7e6dae9bcfee2c3e94c7bd3ef4bd",
+    "status": "NEW",
+    "company": "Intercom",
+    "title": "Application Security Engineer",
+    "url": "https://job-boards.greenhouse.io/intercom/jobs/8025649"
+  },
+  "b93de742b526a1fc5a6c": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "bf7f0c8c5b48ad47fed830443de9e508a73706228da956d11644bd5247a93c4a",
+    "status": "NEW",
+    "company": "Intercom",
+    "title": "Cloud Security Engineer",
+    "url": "https://job-boards.greenhouse.io/intercom/jobs/8028152"
+  },
+  "41b7679cbfdfaddc5d8c": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "ec492a55378de9ae068bd877865aa64ce30f349a863fd4a4223b7dc0c63820aa",
+    "status": "NEW",
+    "company": "Intercom",
+    "title": "Cloud Security Engineer",
+    "url": "https://job-boards.greenhouse.io/intercom/jobs/8028029"
+  },
+  "b68f1c0375f2cbdc9bae": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "55e50f26e188d54d1ef0882d233135116521cbccd69b9e45d57095a1628d5672",
+    "status": "NEW",
+    "company": "MongoDB",
+    "title": "Security Software Engineer, Infrastructure Security (Staff or Senior)",
+    "url": "https://www.mongodb.com/careers/job?gh_jid=7727899"
+  },
+  "b92a5320479d110541b2": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "f741fb686d45b9192780450b1707e9a9164db23ee025124e44445dc752e5a2b0",
+    "status": "NEW",
+    "company": "MongoDB",
+    "title": "Senior Product Security Engineer, Server",
+    "url": "https://www.mongodb.com/careers/job?gh_jid=7484909"
+  },
+  "8f91cc9e38d3d3eac39d": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "97732c1e6b482f8fe2fd038c9d5ab9880249ddf95e3d517e9327c7ce5339744d",
+    "status": "NEW",
+    "company": "MongoDB",
+    "title": "Senior Product Security Engineer, Server",
+    "url": "https://www.mongodb.com/careers/job?gh_jid=7956226"
+  },
+  "3c2a9ae56c8471caeb44": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "375dcbda7cb24eb51b7725c4ad4d4041901c1639546e637f2877c5d6404d2b5d",
+    "status": "NEW",
+    "company": "MongoDB",
+    "title": "Senior Software Engineer, Server Networking Security (Rust)",
+    "url": "https://www.mongodb.com/careers/job?gh_jid=7653008"
+  },
+  "9816c43954cef5188a6b": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "97afd65b8932bf3ea1b0c07118959b1a51f4e7f777c099c5569574fb3b9be2a0",
+    "status": "NEW",
+    "company": "MongoDB",
+    "title": "Senior Software Engineer, Server Security",
+    "url": "https://www.mongodb.com/careers/job?gh_jid=7815677"
+  },
+  "f1a5d681455159a35733": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "82a74d33011c2eaa51a022e34b664b145b328a16d1e511d31d8b0fa6de8b86fb",
+    "status": "NEW",
+    "company": "MongoDB",
+    "title": "Senior Software Engineer, Server Security",
+    "url": "https://www.mongodb.com/careers/job?gh_jid=7815679"
+  },
+  "021c91f6dc1985b703f1": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "d195d208cb3833a1a672835f6cfbd0884ecdd72ae437639f3353f0676a311a2f",
+    "status": "NEW",
+    "company": "Riot Games",
+    "title": "Cloud Infrastructure and Security Engineer (Contract)",
+    "url": "https://www.riotgames.com/en/work-with-us/job/8055923?gh_jid=8055923"
+  },
+  "abc02304a4b342560a10": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "6b00c10f929dc653212f5f9de93fca187b3600b47cc282d4d29e637ea915f39d",
+    "status": "NEW",
+    "company": "Riot Games",
+    "title": "Principal Software Engineer - DevOps / Site Reliability Engineer",
+    "url": "https://www.riotgames.com/en/work-with-us/job/8108097?gh_jid=8108097"
+  },
+  "4caee26873bb5855d150": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "1e8dcb8db8711181b7bc76e53e05f08658aa24a9ddebaf4bd279ff9067cec1ca",
+    "status": "NEW",
+    "company": "Scopely",
+    "title": "Senior Security Compliance Engineer",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5181482008?gh_jid=5181482008"
+  },
+  "63691de92619afe1dd1a": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "6fb3b682d304b6138ff640eb4d13c10cee958b500a0e03a25c03cd804295f0dc",
+    "status": "NEW",
+    "company": "Scopely",
+    "title": "Senior Security Engineer, Software",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5250466008?gh_jid=5250466008"
+  },
+  "a5e94ba42b52cb813258": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "ebbaef9ce4def599cc548abc11f50b6f3b112e1b2b1a8062aa1d9db5361713a2",
+    "status": "NEW",
+    "company": "Scopely",
+    "title": "Sr.Client Security Engineer",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5123830008?gh_jid=5123830008"
+  },
+  "87d40ac69d80719465e9": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "5d757728a454d1ea4c02f42c543589f71ed2c6a82a957e6b45b91556c330ba02",
+    "status": "NEW",
+    "company": "Scopely",
+    "title": "Sr. Security Compliance Engineer",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5387038008?gh_jid=5387038008"
+  },
+  "aaa8fe5c55ee8a8efaf2": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "c55b5ff79a53e87c3d024c5a92de3e596e8a85bd1873672ae3b9cc7019458d8d",
+    "status": "NEW",
+    "company": "Stripe",
+    "title": "Client Platform Security Engineer",
+    "url": "https://stripe.com/jobs/search?gh_jid=7982720"
+  },
+  "0915b07f295b6cd903ea": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "45b89828fef5c07c3470d121b04f1b04b43098e275185b0e519a4275fc997228",
+    "status": "NEW",
+    "company": "Stripe",
+    "title": "Cloud Security Engineer",
+    "url": "https://stripe.com/jobs/search?gh_jid=7867389"
+  },
+  "259a13fe6b2ddf9f59dc": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "ce545a4d325cdb8e26f93e24befadc499d491a328e6881cea83db8d9b8839900",
+    "status": "NEW",
+    "company": "Stripe",
+    "title": "IT Governance, Risk & Compliance (GRC) Specialist, Luxembourg",
+    "url": "https://stripe.com/jobs/search?gh_jid=7587254"
+  },
+  "c76252769d62bfd4df0b": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "33f188fd321e7c45213658686c5741e49bfc698371036ab65ff6e191a9ba3c95",
+    "status": "NEW",
+    "company": "Stripe",
+    "title": "Program Manager, Security GRC",
+    "url": "https://stripe.com/jobs/search?gh_jid=8078131"
+  },
+  "4191a9a83f42b4ecc6d0": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "0f9b225afad12257b0c027665268429a4df4b5fe71fb3fbf6e0398a6996bec4b",
+    "status": "NEW",
+    "company": "Stripe",
+    "title": "Security Analyst, Bug Bounty",
+    "url": "https://stripe.com/jobs/search?gh_jid=7979393"
+  },
+  "cb30724fb54882c61e1f": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "e98308996db021e76a74c74b2986de3c49fa92e866044fb593f45aff7a27f984",
+    "status": "NEW",
+    "company": "Stripe",
+    "title": "Security Engineer, Privy",
+    "url": "https://stripe.com/jobs/search?gh_jid=8073092"
+  },
+  "28ef05c305dae10ef1d1": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "62977dff629afa64263c1c1cf7600ef46412529b7eef59152dc781c53d943c2a",
+    "status": "NEW",
+    "company": "Stripe",
+    "title": "Security Incident Response Manager",
+    "url": "https://stripe.com/jobs/search?gh_jid=8007205"
+  },
+  "5e047ff1e9713ac437b0": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "66e069f20c6c1d73407329ac6eff472904743730f8910daea9fb6183333b373c",
+    "status": "NEW",
+    "company": "Stripe",
+    "title": "Software Engineer, Vulnerability Management",
+    "url": "https://stripe.com/jobs/search?gh_jid=8089353"
+  },
+  "a7a43ca2624e1863c19f": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "6aff163cf59fc1b0d4908ff1ef12f9e2f9f3cb853ee27581261a727f94b0d45e",
+    "status": "NEW",
+    "company": "Third Bridge",
+    "title": "DevSecOps Engineer - Wuhan",
+    "url": "https://job-boards.eu.greenhouse.io/thirdbridge/jobs/4907671101?gh_jid=4907671101"
+  },
+  "44a4d9bdbc561230bea8": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "99b61dde8c8471404d7455d19e99015d07bb836a761b1cbb00db34a1eb710939",
+    "status": "NEW",
+    "company": "Twilio",
+    "title": "Global Security Operations Center Operator",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7808464"
+  },
+  "447f4e8abd0edd63fa1b": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "508b2a7bc1c93aea74e7310c5a8fd2ae9ef069611f469f3338bf4e65c84523f9",
+    "status": "NEW",
+    "company": "Twilio",
+    "title": "Security Engineer, Incident Response",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8055481"
+  },
+  "5f1495a42be71d0b2970": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "9487024844b16fb21fd1e888413eced34dc0b9708c980de598748a73bc621c1c",
+    "status": "NEW",
+    "company": "Twilio",
+    "title": "Senior Analyst, Security Risk",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8088440"
+  },
+  "6f4eab29dbf91bc694ea": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "329b615262cf22724b42a76ff73026a0102a47369292b6ab8bdd9367c24ffa8f",
+    "status": "NEW",
+    "company": "Twilio",
+    "title": "Staff Engineer - Offensive Security",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8048657"
+  },
+  "5dfd94368bb0ea36538c": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "d8c1bbe9242428a61125838bdf8ce9092c4841ea9d34d4685e5b40c2bd109787",
+    "status": "NEW",
+    "company": "Twilio",
+    "title": "Staff Enterprise Security Engineer, AI Security",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7962686"
+  },
+  "6d3bb6a8652c6368f5e5": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b4e84a092a3e4f2ce03316059486215c24b6dd24c9f9122aca3ccec15a7ff352",
+    "status": "NEW",
+    "company": "Zeta Global",
+    "title": "Director, Application Security",
+    "url": "https://job-boards.greenhouse.io/zetaglobal/jobs/5541205004"
+  },
+  "5356cc39b160dbaa0668": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "f59e629ed0f20f51ce2d0b503c4688962bb392b06285a17b0b6fc402359d76ec",
+    "status": "NEW",
+    "company": "Zeta Global",
+    "title": "Lead Application Security Engineer",
+    "url": "https://job-boards.greenhouse.io/zetaglobal/jobs/6115724004"
+  },
+  "5a8d8a0bd192552d6836": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "155254d9aecd619ee14eb7a6059d4122c655857ec21187b3039cd1fffb5a6729",
+    "status": "NEW",
+    "company": "Zeta Global",
+    "title": "Senior Product Manager, Application Security",
+    "url": "https://job-boards.greenhouse.io/zetaglobal/jobs/6129736004"
+  },
+  "2e8e64ce4f3b7bf4266b": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b31371c986d91448d47e304f475eb0d04cd4527ce788b9fc58bf05c3b226ca37",
+    "status": "NEW",
+    "company": "Zeta Global",
+    "title": "Senior Product Manager, Application Security",
+    "url": "https://job-boards.greenhouse.io/zetaglobal/jobs/6133813004"
+  },
+  "8e1e64bf11f0364b6524": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "c904a728a8638ac9ae3bb76fc5d3b3b0b87604ea765ceef0cae7d2c3060d4a24",
+    "status": "NEW",
+    "company": "Abnormal Security",
+    "title": "Application Security Engineer II",
+    "url": "https://abnormal.ai/careers/jobs/7832743003?gh_jid=7832743003"
+  },
+  "5779f38197c6f15f2f85": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "31f85588e4942d7a1c646722a949bf283ee8b04b3517803a7bb2ab633647db7d",
+    "status": "NEW",
+    "company": "Abnormal Security",
+    "title": "Machine Learning Engineer I - Message Security Products",
+    "url": "https://abnormal.ai/careers/jobs/7816935003?gh_jid=7816935003"
+  },
+  "b0259b75b9fb141de40d": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "8c2f42cf94ff24c61c63db8f868540314134d992fc50bfc2d15fb25fe80d1056",
+    "status": "NEW",
+    "company": "Abnormal Security",
+    "title": "Senior Software Engineer - Behavioral Security Products",
+    "url": "https://abnormal.ai/careers/jobs/7551263003?gh_jid=7551263003"
+  },
+  "512246d8e37cccb472b2": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "fabaae2dd21882d8040ae0148cf19c58179a6c3a6c7b3f4ca91b38b2bc65abe9",
+    "status": "NEW",
+    "company": "Abnormal Security",
+    "title": "Software Engineer II - Identity Security Posture Management (ISPM)",
+    "url": "https://abnormal.ai/careers/jobs/7807807003?gh_jid=7807807003"
+  },
+  "4be4974337161c43fb85": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "8cbd7af3f21984aa7e8454e166fed364b2317d0162b39ab46ef85214f32319fd",
+    "status": "NEW",
+    "company": "Abnormal Security",
+    "title": "Software Engineer II - Message Security Products",
+    "url": "https://abnormal.ai/careers/jobs/7732942003?gh_jid=7732942003"
+  },
+  "37e743bf52d423097c65": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "acbf3a88e4ec181af87cfa2936f877c65af2b632baacacceec3401069b809421",
+    "status": "NEW",
+    "company": "Chainguard",
+    "title": "Customer Success Manager, Enterprise - East",
+    "url": "https://job-boards.greenhouse.io/chainguard/jobs/4694873006"
+  },
+  "14e9974bd18020bb9299": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "3b5e49095868bdbb47ed3f9ab5fbd77e908166f6ba2e05b7e7e5d069e7ab7609",
+    "status": "NEW",
+    "company": "Chainguard",
+    "title": "Security Engineer",
+    "url": "https://job-boards.greenhouse.io/chainguard/jobs/4700281006"
+  },
+  "55fdfa8af84b064012ab": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "81a61b6cf034de47bb6e90f6fd220f30fac2c6b6bf8638ae07cd46ed760f0faf",
+    "status": "NEW",
+    "company": "Chainguard",
+    "title": "Senior Customer Success Manager - Federal",
+    "url": "https://job-boards.greenhouse.io/chainguard/jobs/4694876006"
+  },
+  "90f0449bba70bfd8ee85": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "4cefa1dc87d562a3f411989556aca349b6650e9448bcacf1815a83669e841483",
+    "status": "NEW",
+    "company": "Chainguard",
+    "title": "Senior Customer Success Manager - Germany",
+    "url": "https://job-boards.greenhouse.io/chainguard/jobs/4704918006"
+  },
+  "fc94262881dcaaa79a06": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "ddcb14efbf592e3c540313a942e65fc2ca65395ece43e163c13fe75d22c1d4c5",
+    "status": "NEW",
+    "company": "Chainguard",
+    "title": "Senior Product Security Engineer",
+    "url": "https://job-boards.greenhouse.io/chainguard/jobs/4688972006"
+  },
+  "ff1e0dc380c3851d0a84": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "4e1db836d210d3433227bfa7e9ee8bde5e88f9b91432d284f70a7c16d9202eef",
+    "status": "NEW",
+    "company": "Chainguard",
+    "title": "Senior Security Engineer (Cloud)",
+    "url": "https://job-boards.greenhouse.io/chainguard/jobs/4700287006"
+  },
+  "6e4944a612ec85e98712": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "fd2b719505d110a829d9715ea41668fd49d2ef29e7216fc2b9eb58452fcafbc2",
+    "status": "NEW",
+    "company": "Chainguard",
+    "title": "Staff Customer Success Manager, Majors (Financial Services)",
+    "url": "https://job-boards.greenhouse.io/chainguard/jobs/4694869006"
+  },
+  "3c2eec776b729f48f225": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "2813ca41aaee475750050d8546df7bf86a2b35c20e4343e404d5494a24f80517",
+    "status": "NEW",
+    "company": "Chainguard",
+    "title": "Staff Product Security Engineer",
+    "url": "https://job-boards.greenhouse.io/chainguard/jobs/4696743006"
+  },
+  "686c850f1267076c5f6b": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "8bc564efdf0e644472e7ad70ef24723cce913f9289cba9487767bc5aa46dcd55",
+    "status": "NEW",
+    "company": "Chainguard",
+    "title": "Staff Vulnerability Management Engineer",
+    "url": "https://job-boards.greenhouse.io/chainguard/jobs/4696741006"
+  },
+  "ae746ad60beadb23f747": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "e0b245c70614af7ff3854e9acf01e5800eb4ef6311899518edcf0c829afd4ad6",
+    "status": "NEW",
+    "company": "Cloudflare",
+    "title": "AI Security Research & Red Team Engineer",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8097321?gh_jid=8097321"
+  },
+  "5b18c08cccb1da4474af": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "43806627f8a5a238f9c8fec591cfafbc2c0ca70763c524f37f4d830909b9eb8e",
+    "status": "NEW",
+    "company": "Cloudflare",
+    "title": "Engineering Manager - Security Platform",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8007815?gh_jid=8007815"
+  },
+  "04544a6e8e0d1f3bc644": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "91d8bd2a2f0d8dfd3e4f2e398ffba81d5412bd8ed3fa56f6b04c8c36255a5668",
+    "status": "NEW",
+    "company": "Cloudflare",
+    "title": "Network Security Engineer",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8081027?gh_jid=8081027"
+  },
+  "c0d2c23e403db595a99f": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b1b86f212cbb9fb27fc276ed90df44cc47938dcd9e3e749dd9510af76a3b42c5",
+    "status": "NEW",
+    "company": "Cloudflare",
+    "title": "Product Security Engineer",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8053116?gh_jid=8053116"
+  },
+  "04f7ab7b5457beb5ae57": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "5e06cebfe1751eec2b3b637e11fcb143d2a48371aabad2ddd2b79efc57b9f074",
+    "status": "NEW",
+    "company": "Cloudflare",
+    "title": "Product Security Engineer",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8102768?gh_jid=8102768"
+  },
+  "42e34a6cf914539de271": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "83d567ebdc8f216349fef1064dbcd0be7dba573eca48dda4bb136241557ba1e9",
+    "status": "NEW",
+    "company": "Cloudflare",
+    "title": "Security Engineer (IAM)",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8124227?gh_jid=8124227"
+  },
+  "1539c4c45893cae968dc": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "415f6ddba34a8f2ed5a3d18e1c63b06f5832b88bb975adf50f56d51c632067f4",
+    "status": "NEW",
+    "company": "Cloudflare",
+    "title": "Senior Customer Engineer, Digital Native Enterprise - Bay Area",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8077614?gh_jid=8077614"
+  },
+  "5c17795d0ddedf3534b7": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "d70af94eaf89273bbff303bfb0cf163401df93f36c60e5b4563efab2294f9a94",
+    "status": "NEW",
+    "company": "Cloudflare",
+    "title": "Senior Customer Engineer, Digital Native Enterprise - Los Angeles",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8078129?gh_jid=8078129"
+  },
+  "2a348fbd5263eda4d14d": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "8272a1ed42d436827955ecc1aa0e756654a3295a11cad0fd1b14a1a04b9f1ac4",
+    "status": "NEW",
+    "company": "Cloudflare",
+    "title": "Senior Customer Engineer, Digital Native Enterprise - New York",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8080187?gh_jid=8080187"
+  },
+  "0d5ddf8cec6b60afe385": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "8fab594866d85b150b8b8f7806a266e76e46771c51f694a267a9c92aeaba6032",
+    "status": "NEW",
+    "company": "Cloudflare",
+    "title": "Senior Global Physical Security Specialist",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8025514?gh_jid=8025514"
+  },
+  "23ce9eb6fe149658aa8c": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "83760a884fe63205f2b3ae7a0bf66617faa4c16fe88875e93b276259b87916db",
+    "status": "NEW",
+    "company": "Cloudflare",
+    "title": "Senior Product Security Engineer",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8079931?gh_jid=8079931"
+  },
+  "419bb07f65c9daed1667": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "e1b91e596a918dcea476bfdd0c3682ca2815fb01a0f0eb1aab3653e95f64aaa7",
+    "status": "NEW",
+    "company": "Cloudflare",
+    "title": "Senior Security Compliance Specialist",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8077641?gh_jid=8077641"
+  },
+  "af53b3da926ff8cbd143": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "793288c62deb25c42ab93235b4fd609e43c1af9965c566b20250cd5ea3f792cc",
+    "status": "NEW",
+    "company": "Cloudflare",
+    "title": "Vulnerability Management Engineer",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/7579269?gh_jid=7579269"
+  },
+  "6c950d0fe1232d2478ef": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "9d46326ae962158afa995351ab1bfb9b9c3d94f43dbbd5f8788535d87acafabc",
+    "status": "NEW",
+    "company": "Cribl",
+    "title": "Staff Security Operations Engineer",
+    "url": "https://cribl.io/job-detail?gh_jid=6097202004"
+  },
+  "fb08bb63ff66474d72fe": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "49c7a1d2e77f7dbc0961af7a163af4d1b824ca9d03207ed081df34f75244a386",
+    "status": "NEW",
+    "company": "Datadog",
+    "title": "Director, Product Management - Cloud Security and Shared Capabilities",
+    "url": "https://careers.datadoghq.com/detail/8030324?gh_jid=8030324"
+  },
+  "c1f9658ff60001a5e10c": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "34578d1936d49d60080d1928fb7a2c1557409e80b8d5542dbd5522393b2f2ac7",
+    "status": "NEW",
+    "company": "Datadog",
+    "title": "Enterprise Security Sales Specialist",
+    "url": "https://careers.datadoghq.com/detail/7132132?gh_jid=7132132"
+  },
+  "3963d557131da0ecdfed": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "e4be62190dd17139b196497d96952d0e411bbd9c50a9625658cf633755ac938d",
+    "status": "NEW",
+    "company": "Datadog",
+    "title": "Manager I, Engineering - Code Security",
+    "url": "https://careers.datadoghq.com/detail/8108378?gh_jid=8108378"
+  },
+  "2457fe744e7024af32e0": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b4b11ec6bd5178ba45a27f77e5f0f8a4400a0d22c9382b32ffa8077109b3f862",
+    "status": "NEW",
+    "company": "Datadog",
+    "title": "Manager I, Engineering - Security Libraries",
+    "url": "https://careers.datadoghq.com/detail/8094219?gh_jid=8094219"
+  },
+  "9e7a6e4f30c44c3e5e05": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "75bd398433597bd4e03e3f2fe6bd4a2c6801600f5193fd5f0be45e96259273b9",
+    "status": "NEW",
+    "company": "Datadog",
+    "title": "Principal Partner Manager - Channels (UKI Security)",
+    "url": "https://careers.datadoghq.com/detail/7747740?gh_jid=7747740"
+  },
+  "c6c252907032782a71e0": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "4406df2cafaed1318cc22243a3f34b0f790534a1fea8964ca12449f5cf5225d5",
+    "status": "NEW",
+    "company": "Datadog",
+    "title": "Product Manager II, AI & Data Security",
+    "url": "https://careers.datadoghq.com/detail/8012549?gh_jid=8012549"
+  },
+  "4f945c193e6402daef55": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "d7b33063ab0d4059d6af1ef7ce5976b50a447c6792446aeb59577eb7532d6b1a",
+    "status": "NEW",
+    "company": "Datadog",
+    "title": "Regional Manager, Sales Engineering - Security (NORAM)",
+    "url": "https://careers.datadoghq.com/detail/8016279?gh_jid=8016279"
+  },
+  "db2599450b999401ee2e": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b3706ee7cdb4ad8d90f0cfbc580ce4bd9c4cd38044324f04fb298ad186f36f0a",
+    "status": "NEW",
+    "company": "Datadog",
+    "title": "Security Sales Engineer",
+    "url": "https://careers.datadoghq.com/detail/7554877?gh_jid=7554877"
+  },
+  "ebb4142be1c523b3c34c": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "c7cef298281576ad551c119828f36f118e3e2dd6aebdb2d5381ac67f561f9d39",
+    "status": "NEW",
+    "company": "Datadog",
+    "title": "Senior Partner Manager - Channels (Security)",
+    "url": "https://careers.datadoghq.com/detail/7582681?gh_jid=7582681"
+  },
+  "d6fcafe92f28a6ac43de": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "5173b21ef791cc0486bbd3bf899e78a448e1dec6abf16ea0284927e3e9a871ef",
+    "status": "NEW",
+    "company": "Datadog",
+    "title": "Senior Platform Security Engineer",
+    "url": "https://careers.datadoghq.com/detail/8094188?gh_jid=8094188"
+  },
+  "b459c45e10d57a6de025": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "61dfcd40b1142e093cefebe27bd83bf178bbb0f01735840e9ee2594bdeb27767",
+    "status": "NEW",
+    "company": "Datadog",
+    "title": "Senior Security Engineer - Cloud SIEM",
+    "url": "https://careers.datadoghq.com/detail/7996898?gh_jid=7996898"
+  },
+  "6c8f5442305767da9d09": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b3f6cf3932bbdb89c80e7dbe6af241794da032712531527e98da04419b8c3caf",
+    "status": "NEW",
+    "company": "Datadog",
+    "title": "Senior Security Engineer - Cloud SIEM",
+    "url": "https://careers.datadoghq.com/detail/8000258?gh_jid=8000258"
+  },
+  "e35218a3262722973709": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "02450a6325e073f91e17cf13ed1ebfa23c9dc4104e018f84a9c2943076d2bfee",
+    "status": "NEW",
+    "company": "Datadog",
+    "title": "Senior Software Engineer - Security Libraries",
+    "url": "https://careers.datadoghq.com/detail/8081477?gh_jid=8081477"
+  },
+  "87fc02d18ed56c5d9443": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "ef3b13325b835f86ace9ced3cc9ede3c012efbab77397b2608e25e262b121262",
+    "status": "NEW",
+    "company": "Datadog",
+    "title": "Senior Software Engineer - Security Libraries",
+    "url": "https://careers.datadoghq.com/detail/8088590?gh_jid=8088590"
+  },
+  "8b17857e291e1a0dc004": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b132170c23bf8e6045dba7201a33025f45cb846a5bc53dd3adcc3d03680f0545",
+    "status": "NEW",
+    "company": "Datadog",
+    "title": "Staff Application Security Engineer",
+    "url": "https://careers.datadoghq.com/detail/7777798?gh_jid=7777798"
+  },
+  "0c4e11638fc8b2b2e92e": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "434eb89baf534de40d5f56babb25a0ee8d4954ce743b19d835befceee1327f96",
+    "status": "NEW",
+    "company": "Datadog",
+    "title": "Staff Software Engineer - Security Agent",
+    "url": "https://careers.datadoghq.com/detail/8007598?gh_jid=8007598"
+  },
+  "7ae19bb3485c40ba617b": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "bc93ad12bb8d80edbceb0c662a824984c0c31e6029ef0429821483ccdf09336d",
+    "status": "NEW",
+    "company": "Datadog",
+    "title": "Staff Software Engineer - Security Agent",
+    "url": "https://careers.datadoghq.com/detail/8007589?gh_jid=8007589"
+  },
+  "084c023de6dac0ce341b": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "8a481eea9b725beea5869b496d19b10bf651541c90408a93f3f9f43a41b711a9",
+    "status": "NEW",
+    "company": "Fastly",
+    "title": "Senior Engineer - Security Products (Backend APIs)",
+    "url": "https://www.fastly.com/about/jobs/apply?gh_jid=8011076"
+  },
+  "a19450f5821e06658ccd": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "16024bda951da0bd7a10feb004ef656a1a1b7d7dbf540c72f983114d74185d7c",
+    "status": "NEW",
+    "company": "Fastly",
+    "title": "Senior Security Technical Account Manager",
+    "url": "https://www.fastly.com/about/jobs/apply?gh_jid=8114333"
+  },
+  "12d71f50e1f40f3514ef": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b2cdf9d4235516b4e5672b87e5bb2cbaeb56f00d945c9c1c57bd181fed226bb6",
+    "status": "NEW",
+    "company": "Fastly",
+    "title": "Threat Detection Analyst (Japanese & English speaking)",
+    "url": "https://www.fastly.com/about/jobs/apply?gh_jid=7912473"
+  },
+  "fce0263fb791426f2059": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "114b452c12cc35ba861b390414a457e494e2cd6802c30de664b4d35dc783d216",
+    "status": "NEW",
+    "company": "Fastly",
+    "title": "Threat Detection Analyst (Japanese & English speaking)",
+    "url": "https://www.fastly.com/about/jobs/apply?gh_jid=7912475"
+  },
+  "7eff86259df3e48efd47": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "075c086ea0ab800c61d01c63182f0f314f625233275392f932dd5e9bcdf57f8b",
+    "status": "NEW",
+    "company": "Fastly",
+    "title": "Threat Detection Analyst (Japanese Speaking)",
+    "url": "https://www.fastly.com/about/jobs/apply?gh_jid=7641510"
+  },
+  "28abba31d8800814e5d1": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "8ace8764e27d9c7e47ca5a748edb5b9e037264f28b01241fe43b6803c411cd51",
+    "status": "NEW",
+    "company": "Fireblocks",
+    "title": "Director Application Security",
+    "url": "https://www.fireblocks.com/careers/position?gh_jid=4689361006"
+  },
+  "f733db595e167d12674a": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "91d1455f27df31107096ff77eb200abb10d6325ffa6a987b3dacdc62670d898c",
+    "status": "NEW",
+    "company": "Fireblocks",
+    "title": "Information Security Engineer",
+    "url": "https://www.fireblocks.com/careers/position?gh_jid=4701826006"
+  },
+  "553ed7847ff2c65c4877": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "ad2da454a2dfbb6a4f9b84483ca594f8fac4f6f2220b86ee2c604c70652b8438",
+    "status": "NEW",
+    "company": "Fireblocks",
+    "title": "Security Operations Team Lead",
+    "url": "https://www.fireblocks.com/careers/position?gh_jid=4655907006"
+  },
+  "6715544571f8363d6051": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "dc3f81d8a0de012cb26c9f1b76ea199170f317da29d58e19b2e7c30b1ac4be15",
+    "status": "NEW",
+    "company": "Gemini",
+    "title": "Senior Application Security Engineer",
+    "url": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7833599&gh_jid=7833599"
+  },
+  "af993a47ba150c7ab459": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "0044dcb80de56d1928b02171ba24531a18bdfd2bf09bba5f18eb0af2b011201c",
+    "status": "NEW",
+    "company": "Gemini",
+    "title": "Senior Platform Security Engineer",
+    "url": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7905052&gh_jid=7905052"
+  },
+  "32867fbb1c08754eea30": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "aa262d8b18eaa00cc8f16d52f544dc16104dbd2532a02a74644d052c3430e8f7",
+    "status": "NEW",
+    "company": "Gemini",
+    "title": "Staff Application Security Engineer",
+    "url": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8074978&gh_jid=8074978"
+  },
+  "99f454e3969f1d5d7b37": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "e5365a9c5535f8a757505778c73a68400a33231a50ad14e59d6fe74bd1bb4de5",
+    "status": "NEW",
+    "company": "Guardsquare",
+    "title": "Channel Development Executive – EMEA",
+    "url": "https://job-boards.greenhouse.io/guardsquare/jobs/7866412"
+  },
+  "a533c7a4173a96e95a92": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "73a68374fcf7d09086d756d90e2cdd2b8ed92bce559f5480be5be98dc593ba1f",
+    "status": "NEW",
+    "company": "Guardsquare",
+    "title": "Compiler Engineer C++/LLVM (Singapore)",
+    "url": "https://job-boards.greenhouse.io/guardsquare/jobs/8078823"
+  },
+  "feb490381ec1b6ff5585": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "1ba3a57dcd1697e17f7754af767b0101720c7520dae61a9ab6b0d1bd01a5846c",
+    "status": "NEW",
+    "company": "Guardsquare",
+    "title": "Field Marketing Manager - APAC",
+    "url": "https://job-boards.greenhouse.io/guardsquare/jobs/8064225"
+  },
+  "c9f1997569346f8f8b12": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "d547828a471c854ce0fa76e2d88cac5a7dd7fe02ecd1df54559a568101a8a4a9",
+    "status": "NEW",
+    "company": "Guardsquare",
+    "title": "Java Software Engineer (Singapore)",
+    "url": "https://job-boards.greenhouse.io/guardsquare/jobs/8078846"
+  },
+  "11ba0be6e9421b1e7348": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "7c7cc52b60c7c05b19d1701e80258400e08947a703e702a23c258db24576b3db",
+    "status": "NEW",
+    "company": "Guardsquare",
+    "title": "Sales Executive - APAC (Singapore)",
+    "url": "https://job-boards.greenhouse.io/guardsquare/jobs/8018275"
+  },
+  "f4835602d9584098294f": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "1e31a45f5dba0baeac45ff5e323f7fb6a0818b22fd60eaa4b78c2aac13423e13",
+    "status": "NEW",
+    "company": "Guardsquare",
+    "title": "Solution Engineer - APAC (Singapore)",
+    "url": "https://job-boards.greenhouse.io/guardsquare/jobs/8018370"
+  },
+  "194ac3492d1d4b09620c": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "3558b4d13b0434671f59a61ad5b6e60198d08d8960ead1bd3034a33fc1c5c3cc",
+    "status": "NEW",
+    "company": "Guardsquare",
+    "title": "Solution Engineer (Spanish/English) - Boston (US)",
+    "url": "https://job-boards.greenhouse.io/guardsquare/jobs/1872459"
+  },
+  "c2b4747ecb4baae4a7b5": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "fa846b17fe9648940e6180daebe62a0165ebceeab0fb5755d7285316ed1aeb20",
+    "status": "NEW",
+    "company": "Guardsquare",
+    "title": "Solution Engineer (Spanish/English) - Leuven",
+    "url": "https://job-boards.greenhouse.io/guardsquare/jobs/270716"
+  },
+  "1a1998742e7765131bf8": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "7fd1972fbc4894a1fe98f3eab7b87154a21bae3736e2985373eed0b8de1f881b",
+    "status": "NEW",
+    "company": "Huntress",
+    "title": "Security Operations Analyst- Ireland",
+    "url": "https://job-boards.greenhouse.io/huntress/jobs/7835871003"
+  },
+  "116b6d7085234db0c1ca": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "05a11be2019b167b89ca3be425404d160067cd002ce297799552c37a15f373ab",
+    "status": "NEW",
+    "company": "Huntress",
+    "title": "Staff Product Manager, Endpoint Security Posture Management",
+    "url": "https://job-boards.greenhouse.io/huntress/jobs/7574100003"
+  },
+  "992c07bba8af7a01627d": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "e459c2e57e219db53716d2c5e6762c178b6b6d1fcb25cfd3fca975aceb30f77f",
+    "status": "NEW",
+    "company": "KnowBe4",
+    "title": "Email Security Analyst",
+    "url": "https://job-boards.greenhouse.io/knowbe4/jobs/8632913002"
+  },
+  "ed65981b76f457436503": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "2faa76548801114148eb35c93a024f9b0c4653fc033c7b01c4e356fe0af76f24",
+    "status": "NEW",
+    "company": "LaunchDarkly",
+    "title": "Product Security Engineer",
+    "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7736270003"
+  },
+  "e8e71d96c81463687d9a": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "97c6265dbef35abe301dcf3111d65ccd3fc37a3ee78a1335f08f072cd1f86925",
+    "status": "NEW",
+    "company": "LaunchDarkly",
+    "title": "Security Analyst - Governance, Risk, and Compliance (West)",
+    "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7753776003"
+  },
+  "2d551f5691f7ab0f2e90": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "37ec54f48c8e9aedf173863e27e85dcb48be5b1f73d2fe66da454efd216d658f",
+    "status": "NEW",
+    "company": "Okta",
+    "title": "Senior IT Internal Auditor",
+    "url": "https://www.okta.com/company/careers/opportunity/8078084?gh_jid=8078084"
+  },
+  "13b62c3a30a755746d6d": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "495768010d66e4e129ba2d5178a57eef0d07b304e9030036b6cc9595c6918c7a",
+    "status": "NEW",
+    "company": "Okta",
+    "title": "Sr. Product Manager - Agentic Security",
+    "url": "https://www.okta.com/company/careers/opportunity/8038929?gh_jid=8038929"
+  },
+  "87357cacdbe1b545c8ca": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "7a823b73716310a53a700ba2bfc441d8831fbfa6f25e10603fa8e8e54f173b9d",
+    "status": "NEW",
+    "company": "Okta",
+    "title": "Staff Product Security Engineer, PSIRT",
+    "url": "https://www.okta.com/company/careers/opportunity/8087739?gh_jid=8087739"
+  },
+  "986756d99630ca7b3377": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "5cc7396b624017a4cb22811316a5f9b523bf9a818140753452d6b18e775a2887",
+    "status": "NEW",
+    "company": "Okta",
+    "title": "Staff Security Analyst, Customer Assurance",
+    "url": "https://www.okta.com/company/careers/opportunity/7743848?gh_jid=7743848"
+  },
+  "582b5a333dc95a523489": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "e2f9f925194d470723a57b53956e14ffef82831c56db0b821d9a76e6561def97",
+    "status": "NEW",
+    "company": "Orca Security",
+    "title": "Security Researcher",
+    "url": "https://orca.security/about/careers/6111515004?gh_jid=6111515004"
+  },
+  "cd6c7f2aadd2c7b9f00d": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "6631c7d591fd7c60c4bc4fda4beca7266ea9c2fac2dcf8406ca3d7a720a8b5b4",
+    "status": "NEW",
+    "company": "Orca Security",
+    "title": "Senior Software Engineer",
+    "url": "https://orca.security/about/careers/5263129004?gh_jid=5263129004"
+  },
+  "548ca34814667a24607f": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "4c35084f8664d2aee214d97d572460e47b272c17272e31e51478bf09c1f1cd96",
+    "status": "NEW",
+    "company": "SIXGEN",
+    "title": "ISSO (TS/SCI & CIPOLY)",
+    "url": "https://job-boards.greenhouse.io/sixgeninc/jobs/5373791008"
+  },
+  "57dd6a132823fa7d7bf5": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "75bb253ebffbef16e9f3ca2f0f21c9740df9e997fbf4bc1317f9f635cf081716",
+    "status": "NEW",
+    "company": "SIXGEN",
+    "title": "Senior Engineer, Cyber AI R&D (TS/SCI)",
+    "url": "https://job-boards.greenhouse.io/sixgeninc/jobs/5385032008"
+  },
+  "66820daf9bdbb2e94251": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "cb2fd51d73bccde9c7654bbbf90f7790eb15d7fbdbee8ac2073927009e34b2f0",
+    "status": "NEW",
+    "company": "SIXGEN",
+    "title": "Senior Red Team Operator",
+    "url": "https://job-boards.greenhouse.io/sixgeninc/jobs/5255309008"
+  },
+  "c67151850142311e2df0": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "50ff48b3d3a21d3171175de2c604df4e94aed5108e5989c698e334e6dc5768e3",
+    "status": "NEW",
+    "company": "SIXGEN",
+    "title": "Senior Web Application Penetration Tester",
+    "url": "https://job-boards.greenhouse.io/sixgeninc/jobs/4005800008"
+  },
+  "6bd8f6e1b83ccf950657": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "cb3f527cc881e8db91ed0e9fef917fe095996d4bbc42929845ac5bbb9fbbfce8",
+    "status": "NEW",
+    "company": "SIXGEN",
+    "title": "Talent Pool - Cyber & Engineering Roles - TS/SCI w/Poly",
+    "url": "https://job-boards.greenhouse.io/sixgeninc/jobs/4763051008"
+  },
+  "437e62f8c80766910d2e": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "d0c702cc8853aaf1e7eda0a6c0d972a8281b1b876bf3087e62f93e9844a65a20",
+    "status": "NEW",
+    "company": "Tailscale",
+    "title": "Security Infrastructure Engineer",
+    "url": "https://job-boards.greenhouse.io/tailscale/jobs/4648927005"
+  },
+  "ce41ebd78e7f5ec01f06": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "a10a0db5d40646f940ade61e592e1e6546fd75df221cfaf8f530ff116791ddf5",
+    "status": "NEW",
+    "company": "Tailscale",
+    "title": "Security Software Engineer",
+    "url": "https://job-boards.greenhouse.io/tailscale/jobs/4648916005"
+  },
+  "d655c003bd43d4fa68e5": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "62fb37fbaf4fbe23846db4a5bc4b98ca9fdf56d766b3f151242f7781257efae3",
+    "status": "NEW",
+    "company": "Tanium",
+    "title": "IT Audit Manager",
+    "url": "https://job-boards.greenhouse.io/tanium/jobs/8126775"
+  },
+  "ee648a2475c6b3195fef": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "a5844738f8a35588c4517037abc035373b61354094263eecc83dfb061f532889",
+    "status": "NEW",
+    "company": "Tanium",
+    "title": "Senior Federal IT Auditor",
+    "url": "https://job-boards.greenhouse.io/tanium/jobs/8126966"
+  },
+  "a8156a83238dc2b18b7c": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "968772540d967039988983c61266f013df07b454f4cf8832908798374a9a88de",
+    "status": "NEW",
+    "company": "Veeam",
+    "title": "Cyber-Security Operations Analyst III, Product AppSec",
+    "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4753867101"
+  },
+  "7cc60b107427bd284648": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "18c42394516b2df2f099d4d6c10a9555539987319f7f47878522595efd9c5d17",
+    "status": "NEW",
+    "company": "Veeam",
+    "title": "Lead Customer Success Engineer - Data & AI Security",
+    "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4896573101"
+  },
+  "dd8bef1be7fd644d7702": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "fa26028bfca3204c4832d9eee1ba87f7b48e2a8c19ef39cdb126b0127974f1e2",
+    "status": "NEW",
+    "company": "Veeam",
+    "title": "Lead Customer Success Engineer - Data & AI Security (East)",
+    "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4903808101"
+  },
+  "3091e0057187ac4ac110": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "100a5b3fa31a78b6ffc4d760125c486c077ce8fa8731ad2b5c8159df53ead81a",
+    "status": "NEW",
+    "company": "Veeam",
+    "title": "Security Engineer III, Product AppSec",
+    "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4743695101"
+  },
+  "4cc1a576e82ae6401a0f": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "4c6feedbd311f02b0ef7aed6eec409a4b346b91e32cf93d53c903fd3f7d7462e",
+    "status": "NEW",
+    "company": "Veeam",
+    "title": "Security Tech Lead",
+    "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4835415101"
+  },
+  "bc85abc58bfb6f40d2f6": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "5ace035f6321deb35c1e0da73b00b19fb14e60f8af19f63b62c468cdfa176e48",
+    "status": "NEW",
+    "company": "Veeam",
+    "title": "Security Tech Lead",
+    "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4744364101"
+  },
+  "f0951231d244b1aaf617": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "c9893c5fe1786256d571ef564eb77ecbcdd78f269935b1874925fca5c5edb58b",
+    "status": "NEW",
+    "company": "Veeam",
+    "title": "Senior Sales Engineer - Data & AI Security",
+    "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4821756101"
+  },
+  "46b8aaaf23b0d9c65b83": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "97ea8d88929b663e95f0774ff250cf80609eead55ddd83af4af611a23efe12f5",
+    "status": "NEW",
+    "company": "Veeam",
+    "title": "Senior Technical Alliances Lead, Security & AI",
+    "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4744421101"
+  },
+  "a093b1d2235de0e8fd39": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b8620b4b6e2be9b62566806bf06d8ba696ce0b021f0e5b7178b2b817673fc401",
+    "status": "NEW",
+    "company": "Veeam",
+    "title": "Sr. Customer Success Engineer",
+    "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4744270101"
+  },
+  "f9731078dcf680a0fe83": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "08cb776b47926255be087cc30e2232a04d453f330ecc4d13dee5a766e19321ef",
+    "status": "NEW",
+    "company": "Verkada",
+    "title": "Solutions Engineer, Auckland",
+    "url": "https://job-boards.greenhouse.io/verkada/jobs/5207764007"
+  },
+  "7dd82968fc9b106e1c95": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "d2ec79cd8ea9fc0888b137854878b49cc3a5a17f8b299202dc036eadcb8ada46",
+    "status": "NEW",
+    "company": "Wiz",
+    "title": "AI Security Researcher",
+    "url": "https://www.wiz.io/careers/job/4659437006/:title?gh_jid=4659437006"
+  },
+  "a4c8eea11b05ee01f2e4": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "3cb0c3069e74ffa661778d62d2e6e1d773bf1a44ebff6b74090fdd6142950cfd",
+    "status": "NEW",
+    "company": "Wiz",
+    "title": "AI Security Researcher",
+    "url": "https://www.wiz.io/careers/job/4681239006/:title?gh_jid=4681239006"
+  },
+  "88f9b752c47c78716cb5": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "2424eba7c0c6e2a7185c3731bf743dceb7a95733aba1e3afafafb5bd6be437a5",
+    "status": "NEW",
+    "company": "Wiz",
+    "title": "Pentest Product Associate",
+    "url": "https://www.wiz.io/careers/job/4645081006/:title?gh_jid=4645081006"
+  },
+  "dc09c2af1b43afb5726b": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "8bf1597c681cc80082fdf61e22259c0266cec2044680f0191d993ef34133929e",
+    "status": "NEW",
+    "company": "Wiz",
+    "title": "Principal Solutions Engineer",
+    "url": "https://www.wiz.io/careers/job/4693220006/:title?gh_jid=4693220006"
+  },
+  "624ab491d889dcb4375d": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "c8e47e012793511f487d11fe9f6629fd53d938a0527fba409801947e4e99f3e7",
+    "status": "NEW",
+    "company": "Wiz",
+    "title": "Security Engineer",
+    "url": "https://www.wiz.io/careers/job/4422889006/:title?gh_jid=4422889006"
+  },
+  "d61c6fea6026de5c2ed5": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "1f2d9049d956241e96202e1369e8489bc944115234919f386f59e9842baa1da9",
+    "status": "NEW",
+    "company": "Wiz",
+    "title": "Solutions Support Engineer, (Cloud Security & AI)",
+    "url": "https://www.wiz.io/careers/job/4665064006/:title?gh_jid=4665064006"
+  },
+  "943928e74e6bf2c053dd": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "181939334d12d4db86cd0828b2c72dde18610ac82ada07728fd8b9e88b94b76b",
+    "status": "NEW",
+    "company": "Wiz",
+    "title": "Technical Product Associate",
+    "url": "https://www.wiz.io/careers/job/4615170006/:title?gh_jid=4615170006"
+  },
+  "4e0ce66d91b889d4815e": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "677aa659b34aa7c53cb345e02054253e3f5c8c587bc21aa2314ec5f87c2b35d6",
+    "status": "NEW",
+    "company": "Affirm",
+    "title": "Product Security Engineer II",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7796530003"
+  },
+  "c74552343a52d5826108": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "ce1489627b84ca2212a943c869b89fe782807bc92593dd4c0fd1d1debbfa473a",
+    "status": "NEW",
+    "company": "Affirm",
+    "title": "Security Risk Management Lead",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7718808003"
+  },
+  "b36abf24f04f7da42c0a": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "0c0c6b7f0cf06acdb50fc801409c1ff3b60a7d8a5e60bd9f6b7d9b5a22d193b0",
+    "status": "NEW",
+    "company": "Anduril Industries",
+    "title": "Security Data Engineer",
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5159366007?gh_jid=5159366007"
+  },
+  "87abf58862455ba6f63f": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "72316144e19e65ff980c832510368f2a3730111442acb33350594b8b3aa02397",
+    "status": "NEW",
+    "company": "Anduril Industries",
+    "title": "Senior Network Security Engineer",
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5155231007?gh_jid=5155231007"
+  },
+  "f643179d353e95ca1910": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "311839585c00de77cae811b3b980e543d328bf2c9ca2e4d99c4ef7eb685e96a3",
+    "status": "NEW",
+    "company": "Anthropic",
+    "title": "Anthropic Fellows Program, AI Safety & Security",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183044008"
+  },
+  "e320b047ac967e82a0e6": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "a6dc2ca8decd12deb7546f39ddc6552367a06c59ea740c124b0fef1b74742fd6",
+    "status": "NEW",
+    "company": "Anthropic",
+    "title": "Applied AI Architect, National Security",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5079511008"
+  },
+  "b210c3f18e8b0131fc83": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "687b44677f42bd2fb738cd4ee9196e4945ecf291d14e88dd3fa30dce96e5d566",
+    "status": "NEW",
+    "company": "Anthropic",
+    "title": "Lead, Frontier Red Team (Cyber)",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5326358008"
+  },
+  "69f99369302fcadab942": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "c2773965318811c44d9b630a0320822c908a0ea43937c867ae90b9faa4816a0e",
+    "status": "NEW",
+    "company": "Anthropic",
+    "title": "Platform Security Engineering, Operating Systems",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5290426008"
+  },
+  "8a9eca9a29d5f6ff7dc6": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "ff85cc1f1944f9e87dd29f6811eae793572e2f954cb8832336178d204067622a",
+    "status": "NEW",
+    "company": "Anthropic",
+    "title": "Red Team Engineer, Safeguards",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5320469008"
+  },
+  "dd42b7e97c0f459da5c2": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "9a8e36354743c2be87ca16fbfac8e0b7be666733f5d91234caa6b08d5622f1ef",
+    "status": "NEW",
+    "company": "Anthropic",
+    "title": "Research Engineer, Cybersecurity RL (Reinforcement Learning)",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5025624008"
+  },
+  "1be124c28c4d52dd8896": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "cf93a93bde82faf7e9576d8183a6cdb4352363ed8e2e1b4772752a1a5327d260",
+    "status": "NEW",
+    "company": "Anthropic",
+    "title": "Research Engineer / Scientist, Frontier Red Team (Cyber)",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5076477008"
+  },
+  "32440b1b073bd1f107c0": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "c6616a79949eb917997b28b9da7f70077796de74b66e5dae3e989c6c2aa17718",
+    "status": "NEW",
+    "company": "Anthropic",
+    "title": "Safeguards Enforcement Analyst, Cyber Harm",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5311159008"
+  },
+  "ba0f4c5c4131f0c5f88e": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "43a349e25a417746df3686c01d3db278c5e97809437c7f37323be82267763c9d",
+    "status": "NEW",
+    "company": "Anthropic",
+    "title": "Security Controls Assurance Lead",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5250063008"
+  },
+  "35f5f21a741b7073267c": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "e69230a724a6308ff5f7b92b4a9d1a53ea819c2ffe4b74a627fdf9569e76ee56",
+    "status": "NEW",
+    "company": "Anthropic",
+    "title": "Security Engineer, Detection & Response",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4982193008"
+  },
+  "682198d7be9d6fea67a1": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "dbd337d1be3768962411c0cf0a3862c565a6f692f41bd9bf7be683ef89bbdc5f",
+    "status": "NEW",
+    "company": "Anthropic",
+    "title": "Security Software Engineer, Detection & Response Platform",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4595463008"
+  },
+  "5583bf878ef3a7855be0": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b41dd44d6d348b2d8d03357eadc5f3e2aa6105646984526149529af1566ccf5d",
+    "status": "NEW",
+    "company": "Anthropic",
+    "title": "Senior Software Security Engineer",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4887959008"
+  },
+  "f9bc64bbf922fa991409": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "66fff52319ffcd980189c498d8e97dc1b93d54a1b9ea6fefac156743a25c7f51",
+    "status": "NEW",
+    "company": "Anthropic",
+    "title": "Software Security Engineering Manager, Secure Frameworks",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5324758008"
+  },
+  "1f160eb6f1411288d2fb": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "bd3d440a8387d5e2ff5976ef6b66acd8db4e9cf667e650ef42d8bc173c596176",
+    "status": "NEW",
+    "company": "Anthropic",
+    "title": "Staff+ Application Security Engineer",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4502508008"
+  },
+  "bf73ac8a33662e50637e": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "5678a72f9e0c896c4b0a99f85f60f6ac8c2d241df8e90b79bdab0a76085d6ca2",
+    "status": "NEW",
+    "company": "Anthropic",
+    "title": "Staff+ Application Security Engineer - M&A",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5311463008"
+  },
+  "0bba37b6a7224516f6e3": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "0bc7e485e8d4c52c7073d5db7db0bf07d8b4c853c0cc106312a956771c6e9c4f",
+    "status": "NEW",
+    "company": "Anthropic",
+    "title": "Staff+ Software Engineer, Cybersecurity Products",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5063007008"
+  },
+  "0a1d3ea766f86016e4ca": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "3d27394d358c214b592353148e0e65d2236e038a26c1ee5bdfb24f45429aefbb",
+    "status": "NEW",
+    "company": "Anthropic",
+    "title": "Technical Cyber Threat Investigator",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5066995008"
+  },
+  "1d4c5242d871d791313a": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "47aaccb1fb424f3e5b33fd13624960915adaa8c701b9bd3548d4eaef8681ebce",
+    "status": "NEW",
+    "company": "Anthropic",
+    "title": "Technical Program Manager, Security",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4989788008"
+  },
+  "cdd3055cd2d0d04cabb4": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "e64dff362a9619d144e9752e614b323dc8830a080fe95fcbf012c7dcf86f0751",
+    "status": "NEW",
+    "company": "Anthropic",
+    "title": "Technical Recruiter, Security",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5350448008"
+  },
+  "61385d27eb552dd41fde": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "90edfb882dc64810affad28ebe4a81e743b9dda1d6ababf4a795455469201622",
+    "status": "NEW",
+    "company": "AppLovin",
+    "title": "Physical Security Manager",
+    "url": "https://boards.greenhouse.io/applovin/jobs/4705009006?gh_jid=4705009006"
+  },
+  "f41d0130abd40c50bf55": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "79f14af7aab9aea7f35d18687bef9ab57385dcfb089bab278cb09d1faa85dc7e",
+    "status": "NEW",
+    "company": "Databricks",
+    "title": "Principal Security Field Engineer",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8612863002"
+  },
+  "9f033ae48c23ada1b882": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "55d4301f5284d835915faf31f8166d42a189778cf4760ba13bd7c352460dcb49",
+    "status": "NEW",
+    "company": "Databricks",
+    "title": "Senior Software Engineer - Security",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7274459002"
+  },
+  "bff963b69425860e0cc4": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "8cb0f3e496af4ea53d03594c9984b6a6a159ac0af5692b74d7d26a663e2143bf",
+    "status": "NEW",
+    "company": "Databricks",
+    "title": "Senior Specialist Solutions Engineer - Platform Security and Cloud Infrastructure",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8687202002"
+  },
+  "751c693e79a1b4ab58b6": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "ebc6bb84188085447eda69b50cc39cc8307f0e2a2f9920c09d211e73d0fe5bd2",
+    "status": "NEW",
+    "company": "Databricks",
+    "title": "Specialist Solutions Architect (Security)",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8622164002"
+  },
+  "fd20e674a4d9fadb352b": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "6213eea977dae994f31f136ccf78646914b8ea74017645b3a801eb8aa296159e",
+    "status": "NEW",
+    "company": "Databricks",
+    "title": "Sr Security Engineer, Incident Response",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8618455002"
+  },
+  "fb3d7fc8d9768f866a0c": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "9a7b34af6411db45150f373c92b0c01a4b5a56aa7c473f282b11d3845bdd590c",
+    "status": "NEW",
+    "company": "Databricks",
+    "title": "Staff Security Assurance Engineer",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8430837002"
+  },
+  "975cc21386d14f90f983": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "92141ed096f0004cd11a60aa7139407081fef5851adb5f1c9fd0296d819b8d2b",
+    "status": "NEW",
+    "company": "Databricks",
+    "title": "Staff Security Field Engineer",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8612870002"
+  },
+  "fe7cc2780b3850deb175": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "67fb662e01d2a53f252af87639f0b26bfb9aeacb00f9f12be4a67eca03d4d042",
+    "status": "NEW",
+    "company": "Databricks",
+    "title": "Staff Security Software Engineer, AI Security",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8026634002"
+  },
+  "069490d2042f0ac03534": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "607dffe25e26ebbdd221abe38cd5a30afd64871acab1d664d2e99444e25ed0dc",
+    "status": "NEW",
+    "company": "Databricks",
+    "title": "Staff Security Software Engineer, AI Security Engineering",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7882009002"
+  },
+  "5e58bc9bb77fd47c04a0": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "bf0878609f2bdbb83cd50966bddecd1ec80fb3a026bfd272aa0d835b3ddab08e",
+    "status": "NEW",
+    "company": "Databricks",
+    "title": "Staff Technical Program Manager - Cleared/Security",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8493148002"
+  },
+  "1b968790016dfa70e84c": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "c0d7862f1ea6d8e886d4738957bd86e8ecfbf287f61f8f151973f7100430c5db",
+    "status": "NEW",
+    "company": "Discord",
+    "title": "Engineering Manager, Platform Security",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8649856002"
+  },
+  "62ee317f4246242441e7": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "3ada3c46655402196610802f6bfcd1e4d572324d49dcec1fa286680715b16f7c",
+    "status": "NEW",
+    "company": "Discord",
+    "title": "Security Analyst",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8652553002"
+  },
+  "e39c9f72b7e05f73ed9c": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "f53c3ae9351e8ce17150744e766fe2c9d9070b9bd0b6b24de24b392358b073fd",
+    "status": "NEW",
+    "company": "Discord",
+    "title": "Senior Software Engineer, Application Security",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8656854002"
+  },
+  "b4cfc160a37960eef678": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "cb01f436d5881891e57371c6010002d26a1997aa47fd0747d506b31a32271e86",
+    "status": "NEW",
+    "company": "Discord",
+    "title": "Technology Risk Audit Manager",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8694818002"
+  },
+  "205f924305d7ca5b38d1": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "a8ccd5fa6d16ec4029b2ea335c5fd0be0b083a1ce7bb5757150fdef7ec49ce1b",
+    "status": "NEW",
+    "company": "Epic Games",
+    "title": "Senior Game Security Programmer",
+    "url": "https://epicgames.com/careers/jobs/5986044004?gh_jid=5986044004"
+  },
+  "cdd8d5ce85e7bee95512": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "294d32c55b2a15c54117958d990e15482d5455e053799c9a268b1487c1a71b0d",
+    "status": "NEW",
+    "company": "Faire",
+    "title": "Senior Enterprise Security Engineer",
+    "url": "https://boards.greenhouse.io/faire/jobs/8659413002?gh_jid=8659413002"
+  },
+  "6e6c15e16485f9c99390": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "9e9b36c2269ad2c10a2ff876d2453ef2bc8c3c0fbf403bfca99f3052523e4d96",
+    "status": "NEW",
+    "company": "Flexport",
+    "title": "Product Security Engineer II",
+    "url": "https://job-boards.greenhouse.io/flexport/jobs/7921061"
+  },
+  "1d38e156b953662063e2": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "19b31e072fc9d59c30a95a7f92dd6dede623d341bcfaffdb730373dfc6b389bc",
+    "status": "NEW",
+    "company": "Gusto",
+    "title": "Security Technical Program Manager",
+    "url": "https://job-boards.greenhouse.io/gusto/jobs/8068218"
+  },
+  "8caeed08c4acbd3ab86c": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "1864531fdfc2aa59c4b0a48421950ae15e2579276fe23cbaf2d2e181a497af0f",
+    "status": "NEW",
+    "company": "Instacart",
+    "title": "Senior Product Security Engineer II",
+    "url": "https://instacart.careers/job?gh_jid=8017071"
+  },
+  "146e71ef7d98b6f0b813": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "75d41e640f352e04ecd57265d47eceae8033db69d22c018c3cbb256f0a8e7c63",
+    "status": "NEW",
+    "company": "Justworks",
+    "title": "Senior Security Engineer (AI Security)",
+    "url": "https://boards.greenhouse.io/justworks/jobs/7356444?gh_jid=7356444"
+  },
+  "53b27edf31982e9d3bdf": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b02d1e55889b4cc47b2b6a2cd20a6165d57370d90595d38906e39caf38e791ce",
+    "status": "NEW",
+    "company": "Justworks",
+    "title": "Senior Security Engineer (Detection & Response)",
+    "url": "https://boards.greenhouse.io/justworks/jobs/7868291?gh_jid=7868291"
+  },
+  "80c0ed6b2edf0c96b168": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "e660698039bab4b086bc5c8d4c41bb75e51094625edcdca0c939f34cbb9a38e7",
+    "status": "NEW",
+    "company": "Lucid Software",
+    "title": "Security Analyst",
+    "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/6112935004"
+  },
+  "f66abd94bc8c43df71a1": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "2bc046b6deb7b5f8c4e6ee36ad353612f01e0dbabcdcc6f0abad0ba67541a1aa",
+    "status": "NEW",
+    "company": "Lucid Software",
+    "title": "Security Analyst",
+    "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/6112976004"
+  },
+  "5e29da5961d57f1edb72": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "110a5631f9aec928e9560ee28b0dc547e9871b5a68cc2a0f4efeb6b348015de4",
+    "status": "NEW",
+    "company": "Lucid Software",
+    "title": "Security Analyst III",
+    "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/6117122004"
+  },
+  "e3090d5d3ecde6256145": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "3f794675a617b99767b2dcc551dbcc515ff5dfca158b07ca86e2328c7869f6de",
+    "status": "NEW",
+    "company": "Lucid Software",
+    "title": "Security Analyst III",
+    "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/6117123004"
+  },
+  "025478bb6f53f5619f2a": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "928dcd5507cf4e2bebdb13a2cfb19255ff7fc7d0ac32c183b88dc97b49da8faf",
+    "status": "NEW",
+    "company": "Lyft",
+    "title": "Investigator, Global Security",
+    "url": "https://app.careerpuck.com/job-board/lyft/job/8675426002?gh_jid=8675426002"
+  },
+  "ec041d1ddf50ba686c06": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "7b16627425737622a604bf648706e1da882d9f4d2441992a2ce041bbe54c8bb3",
+    "status": "NEW",
+    "company": "Lyft",
+    "title": "Senior Security Assurance Analyst",
+    "url": "https://app.careerpuck.com/job-board/lyft/job/8662388002?gh_jid=8662388002"
+  },
+  "b7b782180f6e712620dc": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "a5d78c5f0efa2688e02cf1e326944bc88b3b5f13346666590b5a42401d998ec3",
+    "status": "NEW",
+    "company": "Lyft",
+    "title": "Senior Software Engineer, CorpSec",
+    "url": "https://app.careerpuck.com/job-board/lyft/job/8421525002?gh_jid=8421525002"
+  },
+  "19c072a59f641f8ddf52": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "c41575322a822a9752ee2dc5b51f1b28504ba673845e2e5be87e424b1528bc08",
+    "status": "NEW",
+    "company": "Mercury",
+    "title": "Senior Cloud Security Engineer - InfoSec",
+    "url": "https://job-boards.greenhouse.io/mercury/jobs/6134310004"
+  },
+  "6297a6a13843f796c756": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "ecf0a1f37a466359752da0d16cb6eff8eefff68d94d56acd23488312f09e330c",
+    "status": "NEW",
+    "company": "Mercury",
+    "title": "Senior IT Auditor",
+    "url": "https://job-boards.greenhouse.io/mercury/jobs/6132319004"
+  },
+  "dc0ddc39ff53e56e1406": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "a5276cc6e0e9b9eb0874656977f8529ed9bc454ad2021a945a69e09480901bec",
+    "status": "NEW",
+    "company": "Peloton",
+    "title": "Security Engineer, Incident Response",
+    "url": "https://careers.onepeloton.com/en/all-jobs?gh_jid=8074713"
+  },
+  "5db0cad5b8b6bff674e6": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "d5a1324aa24d33d262634c1f3c3e06b93404a67729088740d3b45267e053d665",
+    "status": "NEW",
+    "company": "Pinterest",
+    "title": "Security Software Engineer II, Detection and Response",
+    "url": "https://www.pinterestcareers.com/jobs?gh_jid=8015490"
+  },
+  "9cfd224c185ab929eb7d": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "0956bd2e5d51837988140352184d894f52b7a21d2d6866bae37da52a74d8d283",
+    "status": "NEW",
+    "company": "Pinterest",
+    "title": "Sr. Security Software Engineer, Application Security",
+    "url": "https://www.pinterestcareers.com/jobs?gh_jid=7494708"
+  },
+  "a2d4c0a9cb536c41bd61": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "7d2323697090240ddb9a7cfe97da8d04d1737cfccb352c7008f70c87f2ac67e4",
+    "status": "NEW",
+    "company": "Reddit",
+    "title": "Lead Physical Security Engineer",
+    "url": "https://job-boards.greenhouse.io/reddit/jobs/8108528"
+  },
+  "4605b93a1fdb4ab4eeba": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "c1fe8ddf09df2fe67eace584b369c7b72bead0081a6d55ea8680248201ce9db0",
+    "status": "NEW",
+    "company": "Reddit",
+    "title": "Senior Security Engineer, AI Security",
+    "url": "https://job-boards.greenhouse.io/reddit/jobs/8039261"
+  },
+  "8af9b5ec7e693b81baa4": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "05fd0fbeea603b5b38453f996bc5c18fc84b4a555dc2ac459bc66687dc559921",
+    "status": "NEW",
+    "company": "Robinhood",
+    "title": "Security Engineer, Application Security",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7918258?t=gh_src%3D&gh_jid=7918258"
+  },
+  "31f533d4120556cc20ad": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "f0f8860591cefaa86c81032997d047a8d395a36d574c6d90779592dad150f6bd",
+    "status": "NEW",
+    "company": "Robinhood",
+    "title": "Senior Cloud Security Engineer",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7178427?t=gh_src%3D&gh_jid=7178427"
+  },
+  "38a4ed694cc2a8da8b9e": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "80056938be12107e2d444ff40bc51cf38048b0cc4132485b8442c748cd30c926",
+    "status": "NEW",
+    "company": "Robinhood",
+    "title": "Senior Corporate Security Engineer",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7847485?t=gh_src%3D&gh_jid=7847485"
+  },
+  "7beaed2e79456aa6ec12": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "568976a5c00cd841dc8a3583ed4283b8c0b04405d37d52c663d2847be93291ce",
+    "status": "NEW",
+    "company": "Robinhood",
+    "title": "Senior Software Engineer, Security Platform",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7899482?t=gh_src%3D&gh_jid=7899482"
+  },
+  "4f1effbc5058064a3bac": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "972b9cf927e27a52ff9a23ca683c7195a93d8baf1336bb3422ce8411394846dd",
+    "status": "NEW",
+    "company": "Robinhood",
+    "title": "Software Engineer, Proactive Capabilities",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8067604?t=gh_src%3D&gh_jid=8067604"
+  },
+  "27b245e8a2314c81b873": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "1ba8bc05aa60d5748f0518eb2deee3cbed2a620020e3536bc62125faf11eb2a5",
+    "status": "NEW",
+    "company": "Samsara",
+    "title": "Senior Security Operations Engineer I",
+    "url": "https://www.samsara.com/company/careers/roles/8027084?gh_jid=8027084"
+  },
+  "d2c07a0f7d680fcd4fd3": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "26ed0cc500dba5c3669b5836e17ff9f658fcfd63c8f0b309a7d0eaf52fdd990f",
+    "status": "NEW",
+    "company": "Samsara",
+    "title": "Sr. Security Engineer - Enterprise Security",
+    "url": "https://www.samsara.com/company/careers/roles/7834975?gh_jid=7834975"
+  },
+  "93f622f623297b8ad07a": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "f5ac0c647ba7d7e0f331ee4211ea8ba510b072f6f5bb331c057bdc2b0c82e83b",
+    "status": "NEW",
+    "company": "Scale AI",
+    "title": "Chief of Staff, Public Sector Engineering & Security",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4720163005"
+  },
+  "8f4d1fabf4705fb79a84": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "6de2aff2be7003af5210c68c7c8a979759a9a7a28b05eca13a0ef2e431020c2a",
+    "status": "NEW",
+    "company": "Scale AI",
+    "title": "DevOps Engineer, Infrastructure & Security",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4674863005"
+  },
+  "70bb7705b786f8170cf3": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "fe22a3e7a1ad794cf0d2cb8b4ed74b125235afd966b2c1c5ae2e6133a15a70d3",
+    "status": "NEW",
+    "company": "Scale AI",
+    "title": "Infrastructure Security Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4718258005"
+  },
+  "0b377612accadd64fcda": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "190855e940ad74a85bcaed33f908b839ec9b0dea87a174e9f3f098057d2dcd11",
+    "status": "NEW",
+    "company": "Scale AI",
+    "title": "National Security Hackathon 2026 - General Interest",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4687588005"
+  },
+  "caaffa01374ba79d8969": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "316c37233b93b2a628dc74704d857950848a1e35aac74a898294173ba82f357f",
+    "status": "NEW",
+    "company": "Scale AI",
+    "title": "National Security Policy, Senior Manager",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4723002005"
+  },
+  "4f381178a63ab4bf7a68": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "34dca7b0a77fcdb61dce3ea8396cfecdabb135760cd36e7eb36cb6086222cd74",
+    "status": "NEW",
+    "company": "Scale AI",
+    "title": "Product Security Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4651559005"
+  },
+  "d18a672c3f73d3836bb6": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b10a084c0509d13fd39acd4eb829c349979ea3d298c9ea078a5f5c6cac81c74d",
+    "status": "NEW",
+    "company": "Scale AI",
+    "title": "Security Assurance Lead",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4711741005"
+  },
+  "5ade9ef43f4ce63711e9": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "1467b32c9d2054102efdfd722096663fddd0575cec95a90e0496e03ab56a0178",
+    "status": "NEW",
+    "company": "Scale AI",
+    "title": "Security Engineer, Detection & Response",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4684073005"
+  },
+  "525d8146962e9f60f3ad": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "876baf6ca9a3feb0241ff8a02fa9d39f2923935828b82b0a4614a88aab3d2c1c",
+    "status": "NEW",
+    "company": "Scale AI",
+    "title": "Security Engineer, Infrastructure",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4646888005"
+  },
+  "840d104460f094793305": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "f64eef60dc2c00c7eb564fa2a8b837dd517bf96715c79b0ab91f39f772381efd",
+    "status": "NEW",
+    "company": "Scale AI",
+    "title": "Security Engineer, Product Security",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4643029005"
+  },
+  "f2ba381545f729496e4c": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "9c9380c9cd5ee79a91a9bceccaaf0c0def2345d900f02d1beebb137a612389cb",
+    "status": "NEW",
+    "company": "Scale AI",
+    "title": "Security Engineer, Public Sector",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4718314005"
+  },
+  "0ddf853ac510cb43a90c": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "c722811697178cc75898871b82c1ffbe5f465f0eb1b2f79e57a41e71795819bc",
+    "status": "NEW",
+    "company": "Scale AI",
+    "title": "Senior AI Product Manager, Cybersecurity",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4720213005"
+  },
+  "bb35f25c02883bb04b54": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "9bf15733c30e37dfea03e5514d3a8115839307035c521a248bdc8acd6324fb23",
+    "status": "NEW",
+    "company": "Scale AI",
+    "title": "Strategic Projects Lead, Public Sector - Cyber",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4722928005"
+  },
+  "904f797d6effae5ef1d8": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "0df476029bc712806e4d6febea22c786631748c7cf30637f9dfeb7ccbcc20583",
+    "status": "NEW",
+    "company": "Scout AI",
+    "title": "Senior IT Infrastructure & Security Engineer",
+    "url": "https://job-boards.greenhouse.io/scoutai/jobs/5326907008"
+  },
+  "2d30cd3a207e44240339": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "6e64e3d2cc193a5d9c4b2bb87cbe186d05751fa8c891e847f86243fa129b9987",
+    "status": "NEW",
+    "company": "SoFi",
+    "title": "Staff Backend Engineer, Custody Core (Crypto Security)",
+    "url": "https://sofi.com/careers/job/7819801003?gh_jid=7819801003"
+  },
+  "b2cc69650d84a5d680ee": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "e3625536fbd90bebf1e383e35420f510a08245dd12d9ead549118ae781e64d49",
+    "status": "NEW",
+    "company": "SoFi",
+    "title": "Staff Security Detection Engineer, Machine Learning",
+    "url": "https://sofi.com/careers/job/7818418003?gh_jid=7818418003"
+  },
+  "9b584b6f61119bcb929f": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "f40633a4a690320accdba06113f0153ec42519e7b697c4d1a557c695bdaaa246",
+    "status": "NEW",
+    "company": "SoFi",
+    "title": "Staff Vulnerability Management Engineer",
+    "url": "https://sofi.com/careers/job/7818426003?gh_jid=7818426003"
+  },
+  "4cefd2b99458bdaf0f8d": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "0258fef1eb76dbb8f50be8ce3d1442d347c015f8f9eb70433fd91f81fb04b480",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Classified Cyber Assurance Analyst",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8594579002?gh_jid=8594579002"
+  },
+  "708c1203a4b83d36c9ce": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "e1b66fad42eae4188f2f961e7adbf267cd8cc852b770755cfc1fd42f1168cee4",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Communications Security Account Manager",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8622739002?gh_jid=8622739002"
+  },
+  "6bb0706638447adbf914": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "f8715395d45562493ed88b8218fb9a8b56f769b7c0136b8bcbef75eb1b70cc22",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Embedded Security Engineer (Starlink)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8577410002?gh_jid=8577410002"
+  },
+  "e3e739f675c2fbdb2dd1": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "6ffa67a0d97f1a845912d043de3e5969fd6375115c90235f894ef7c46d5e0cd4",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Embedded Security Engineer (Starlink)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8624836002?gh_jid=8624836002"
+  },
+  "7946130c6b36aeb92ef8": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "de0479508a96bead6733340f162382387138f17369017a59511583d04a8fd9e3",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Embedded Security Engineer (Starlink)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8543670002?gh_jid=8543670002"
+  },
+  "71c4ed127b20610a4f12": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "d2433d2985e19c6581e30d0f5f426a8babdc186f5f25df1c4cafebe81ac725a6",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Information Security Analyst",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8517412002?gh_jid=8517412002"
+  },
+  "0d90980dde63337c2428": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "30af9c326d49b00427b741240d54d42da8c7aeec34b96956991267ee1423a37e",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Information Security Analyst",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8530684002?gh_jid=8530684002"
+  },
+  "23e13a2a75c2c91a0952": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "97e161782f988ae4ed1409eeb14bd884160f5fd51825500e7d2339bca404abe4",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Information System Security Manager",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8599803002?gh_jid=8599803002"
+  },
+  "8fb0af7f3a1f53333197": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "55ef64e1b060dd31cfd11a8d6707fc969fe4468ba14baf73136bfdf049b3d1ec",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Information System Security Officer",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8599825002?gh_jid=8599825002"
+  },
+  "3e406c4340a8314cbf09": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "400ecfe71954763dd6f973af666a3a9fe463be9e8a8ad60789bc1e0cecc1508c",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Lead Security Officer",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8649378002?gh_jid=8649378002"
+  },
+  "835835b7e670f635c129": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "11c9e5906eca12ca4f340d81713b50a197959485585a19f71723c1c1e78ac18b",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Lead Security Officer",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8627069002?gh_jid=8627069002"
+  },
+  "8a22c35f9ac59f16b8fe": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "eec8bbb8a9b4a9e39fac38ff05f2e067dfbcaa8a5d005e57fd4b0e1c46dfa0c2",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Lead Security Officer (Terafab)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8708523002?gh_jid=8708523002"
+  },
+  "910dda263b8c689ba486": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "6640745e609db9ef5ffbbfcb559fd1da12135452e4b8873690b6ca6e0b8be64a",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8696158002?gh_jid=8696158002"
+  },
+  "aff0898a3c828c0c289f": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "a2483e1a7800ffd05bb774d36170e8ef1b5f23a9023523ce21014e72d89ef093",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8696143002?gh_jid=8696143002"
+  },
+  "89c831639882c5842564": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "38364144037b44a5ec144b4b61bdcefdadec63ce6ce48ebb928af4c45addec48",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8696156002?gh_jid=8696156002"
+  },
+  "826cbd9eb53d0adc5e81": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "2be286259a83d6135201ab899d27fc22dfbeeacddb6c535e4d9e2842782cbfb8",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Physical Security Hardware Specialist",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8691749002?gh_jid=8691749002"
+  },
+  "fd285cf9c701a134620c": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "3767397dcd65327bb67b39c804c4ae6b3d39fefd604373beaeb71c7db751d2ab",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Physical Security Hardware Specialist",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8643901002?gh_jid=8643901002"
+  },
+  "803ac33bfffd5a1f3756": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "2b4a1f758c035fbbb6fbf72008c595050de6a01446b303413f4cb271fa973b99",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Product Security Engineer (Starlink)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8543671002?gh_jid=8543671002"
+  },
+  "c4e7f016d6df4730e252": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "67e0a1e6bd6642c9688bfa17f58b4e585544294fe5b2ff9268efbfcc3ec830c7",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Product Security Engineer (Starlink)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8577411002?gh_jid=8577411002"
+  },
+  "c67cf9263b4bb18551e9": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b07083a7b72ab53a16d85462d94aa867f5661a2c09540e35a0b9b3d6e5bfac64",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Product Security Engineer (Starlink)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8624835002?gh_jid=8624835002"
+  },
+  "414173a7259ba46e73bc": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "ac064325e50fb32c6b80e1c22674f34d6d4e45af60d83c5f732b29a4a173ab23",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Analyst (Blue Team)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8650240002?gh_jid=8650240002"
+  },
+  "71791444615e52820fa7": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "e976e45c527d87f1704d5f5a0b2f8def3e17b109c0b0462776bba247c82951b7",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Analyst (Detection and Incident Response)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8525400002?gh_jid=8525400002"
+  },
+  "24c687c9f5b31da94c53": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "6eee8736f8932da498355ccebe2f7d20a76fd358e439772e841e1b9e8a740445",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Analyst (SOC)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8650239002?gh_jid=8650239002"
+  },
+  "fa7720fefa2e3902a821": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "e8c652fac9d533328869ef2ed86de41f4e156954a30f0f2e5fb0dc5a551dff1f",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Analyst (Threat Detection)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8650241002?gh_jid=8650241002"
+  },
+  "6d8e14a940843ae8c44c": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "ec361e88882b93e2da72c18a44dca01915a622731d860d84cde6e8874e0b5409",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Engineer",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8567522002?gh_jid=8567522002"
+  },
+  "c90a5e2bb316a5ce7e00": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "7cdaad1488d5bb450ed400097b32763d21f92124867c1f7c58376ead2bf1b6a3",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Engineer",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8567571002?gh_jid=8567571002"
+  },
+  "a7355df8b589295f9afa": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b36a849f2feb3f2c9b8891efd4c16fbba3a15ccba753414c8c1c2c064c77f827",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Engineer (Blue Team)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8611223002?gh_jid=8611223002"
+  },
+  "e2839a4dd732c4805902": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "a91d2ec4d76fac50c828051e5da8d8765e95a2c5305fb016e9621fed56b96ecc",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Engineer (Blue Team)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8611050002?gh_jid=8611050002"
+  },
+  "ed710fc0247ff585aab4": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "fe31c2d5d5e32abec83b84e267a0291034899fa1d2bbe3a545b04a232211d1b2",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Engineer (Detection Engineering)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8650242002?gh_jid=8650242002"
+  },
+  "30ff537c506bbe47d8df": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "61fc00455fc4dfd4cb60a9d03eab8e433f6f984e4dede7b36177c6526de2889b",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Engineer (Embedded & Networking)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8593385002?gh_jid=8593385002"
+  },
+  "69ecdd31169472be3f4f": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "757d7492c0aeb50f12da2eab5e86c9a0547800fefeb9d5d38bba6088e34ea423",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Engineer (Embedded & Networking)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8593384002?gh_jid=8593384002"
+  },
+  "9c559a7baa47ab9161f3": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "842d9b7b03166bbb5844a5d27dd0c8524e1bb8cfb5ef60bf5553dcf91620229f",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Engineer (Embedded OT)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8593388002?gh_jid=8593388002"
+  },
+  "deefff99e288803bab5a": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "ee16e83a9401ec3926305aa80a009eafab4a0e33dccc055525134c43ed7505f2",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Engineer (Embedded OT)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8593389002?gh_jid=8593389002"
+  },
+  "4475929caa26d3124c10": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b5537eb27fcf4286e5fca4ad7ade25a722ef1812d6891aebdca49daad0eeb677",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Officer 3",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8632107002?gh_jid=8632107002"
+  },
+  "5fbd0acbb2281c5a4cac": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "f62d695dccd623ce4ff94e58dbf5402946e5f0f755b6224f4cfe97b78e0699f7",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Officer 3",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8600093002?gh_jid=8600093002"
+  },
+  "6d5ca2830a4047f8c429": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "6d6379d072f9f59374188177e34fad8401420ea0f279a90cdc7f9f94d319f418",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Officer 3",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8600107002?gh_jid=8600107002"
+  },
+  "4b8225da75cdf42079f1": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "8b6aeaeb995f91b81b1beea602616c7406f19e1168dd45cd8919494cca0176a0",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Officer 3",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8600112002?gh_jid=8600112002"
+  },
+  "a04783ef25a1488cd2d8": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "12b3f4d77a3975e91e6e528040ec8e7a6ed4b2d339b0dc46a8aa1de5ad6dfb2e",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Operator 2 (Part Time)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8650117002?gh_jid=8650117002"
+  },
+  "42f615edf386745057cb": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "650bbede3888378944bb3c28f567d41f98293b05d909341b85b57114c647ab31",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Software Engineer (Starlink)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8543784002?gh_jid=8543784002"
+  },
+  "4a759f5307d74dba64df": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b06caa138554421b292691c1118a293a121f424489007c35e1650582e2e06b68",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Software Engineer (Starlink)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8543817002?gh_jid=8543817002"
+  },
+  "a8149624b357e843b8ec": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "9d877bc752f1da9d10e47a5dfd3b782fa2095cb9992a37b966e6769ef9bdd0c8",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Software Engineer (Starlink)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8624833002?gh_jid=8624833002"
+  },
+  "86c305f3e1a7bb353838": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "94322935e63f9a631c225dcb241ecfa8d08027b152a6afdf43fddfc52680cab9",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Security Software Engineer - Top Secret Clearance",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8564158002?gh_jid=8564158002"
+  },
+  "72eed934844edbfb562a": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "a1a3ae95644b9a470b01ae32c9ee80e83fb0e6601adfe7701f28da51b91e4415",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Sr. Application Security Engineer",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8624695002?gh_jid=8624695002"
+  },
+  "d0e95b6d38d54e873981": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "cc7358e04d2dca044dfe941159f4c2250f07e05f113213ddc851fb9e2eaa43e4",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Sr. Classified Cyber Assurance Analyst",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8594632002?gh_jid=8594632002"
+  },
+  "0089b2961a175532c287": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "d3e215c71b56e4852aafc50a3eeceb89326a6ebd33e5ff5ba087ef4e6293f015",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Sr. Cyber Assurance Analyst, Finance",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8688114002?gh_jid=8688114002"
+  },
+  "1cd9d4759fe11e6e50d1": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "89d5710ad6c18c6ad0791c064dbfc8eb8b84b2b5024352bb5ed0c778423e0456",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Sr. Cyber Assurance Analyst, Finance",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8692443002?gh_jid=8692443002"
+  },
+  "21788b8d514d04f6b9fa": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b3a866825112107bebbd1f3288425012992df71895ed6b5712361f0de7ebf58b",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Sr. Cyber Assurance Analyst, Starlink",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8601804002?gh_jid=8601804002"
+  },
+  "8e1e9396a129bcc5e509": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "8ecca8e24435831bc4b81ec934b400305273443abb84481eab8efaa1c7c16b8e",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Sr. Cyber Assurance Analyst, Starlink",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8603677002?gh_jid=8603677002"
+  },
+  "afa768eb4ca395c84fe5": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "190f47719dd5732de31136032b9142df950bce39fb7156b881dcb4b066cb77ab",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Sr. Physical Security Hardware Specialist",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8694862002?gh_jid=8694862002"
+  },
+  "4212a4060e3d21e12532": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "d74689e478a94cbdd6548788a4c353d21ffd8f4c6124400a5b78663b34e9af0b",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Sr. Security Engineer",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8702385002?gh_jid=8702385002"
+  },
+  "cd8f827945e103c51280": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "1fa0314e2d676d6835520ea82f535d532883b79398262a588b82baa13688343c",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Sr. Software Engineer, Security (Starship)",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8562402002?gh_jid=8562402002"
+  },
+  "1834e2d3c973319e964a": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "6d0f6f4a519d71dd4879dc1f2895520053034c4896bd93a970a2333fc995dae4",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Supervisor, Security",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8606552002?gh_jid=8606552002"
+  },
+  "58ec338b75593c957cb1": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "83969e1e370197647216d84d677bde71017c35baf0ab338e499850c5759008a3",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Supervisor, Security",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8604744002?gh_jid=8604744002"
+  },
+  "bab33156f9cef9f7cdf5": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "69027aeb8a5fd4f4f1715a92b3d5272081fdf2696a48e2944fec4f159e835690",
+    "status": "NEW",
+    "company": "SpaceX",
+    "title": "Supervisor, Security Protective Operations Center",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8612130002?gh_jid=8612130002"
+  },
+  "72b1fa6f947bd3592237": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b4176490c27a0b697d37b2b85c4100f359728b3252dc627a4aefa984569665b3",
+    "status": "NEW",
+    "company": "Squarespace",
+    "title": "Security Engineer - Incident Response",
+    "url": "http://www.squarespace.com/about/careers?gh_jid=8013777"
+  },
+  "507e542464270d3cf331": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "efd5d787e8aacef5d998b3f9921eaabf815aec700fcfc4d0eae7d97a3c17c404",
+    "status": "NEW",
+    "company": "Starburst",
+    "title": "Application Security Engineer",
+    "url": "https://job-boards.greenhouse.io/starburst/jobs/5119301008"
+  },
+  "dbc93bb3b0fc4294a332": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "a5a18be6c96b5bcc9f96c98143003c9dc820f02ad76f24bb03af66fa16e037d1",
+    "status": "NEW",
+    "company": "Upstart",
+    "title": "Security Operations Engineer (SecOps) II",
+    "url": "https://careers.upstart.com/jobs?gh_jid=8054616"
+  },
+  "df0860f0b64e84cd6e21": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "c5136332fc72cb62350cd3e2919264e934b5adee3181b6446672adbf173c0271",
+    "status": "NEW",
+    "company": "Upstart",
+    "title": "Senior Security Engineer, Data Security",
+    "url": "https://careers.upstart.com/jobs?gh_jid=7767161"
+  },
+  "edfd2ebe8415f086dbee": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "ae7c827fb855dbaf5495954934055f7342350d7dbbbac04d629346dca7c6bd8d",
+    "status": "NEW",
+    "company": "xAI",
+    "title": "Application Security Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4559147007"
+  },
+  "f35a1a612998381851de": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b5cbc9fed7fb104b360c3865b47e81ec1944c756c7efb42b6883bd78d520e7bf",
+    "status": "NEW",
+    "company": "xAI",
+    "title": "Network Security Engineer",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4800712007"
+  },
+  "b2ba06096339f84f6957": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "d111c3e9e1fdbb37eae055ecf30d1ac66446ad26e9a854acedd929f99269a350",
+    "status": "NEW",
+    "company": "xAI",
+    "title": "Security Engineer - Detection & Response (Japan, X Money)",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/5143756007"
+  },
+  "fe4944ff99ad0cf7633b": {
+    "first_seen": "2026-08-15T04:18:44Z",
+    "last_seen": "2026-08-15T04:18:44Z",
+    "content_hash": "b8839f3e5592249f684e40d9c659d0afd900c01b69a271bd1d24b4f18bb1c0fa",
+    "status": "NEW",
+    "company": "xAI",
+    "title": "Software Engineer - Platform Security",
+    "url": "https://job-boards.greenhouse.io/xai/jobs/4835611007"
   }
 }

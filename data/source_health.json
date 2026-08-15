@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T15:57:24Z",
+  "generated_at": "2026-08-15T04:18:44Z",
   "all_sources_failed": false,
   "sources": {
     "arbeitnow": {
@@ -19,14 +19,14 @@
       "error": ""
     },
     "greenhouse": {
-      "status": "idle",
+      "status": "ok",
       "ok": true,
-      "jobs": 0,
-      "requests": 0,
+      "jobs": 19883,
+      "requests": 165,
       "errors": [],
       "error": "",
-      "companies_checked": 0,
-      "companies_successful": 0,
+      "companies_checked": 165,
+      "companies_successful": 165,
       "companies_failed": 0
     }
   }

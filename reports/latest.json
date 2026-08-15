@@ -1,50 +1,625 @@
 {
-  "generated_at": "2026-08-14T15:57:24Z",
+  "generated_at": "2026-08-15T04:18:44Z",
   "summary": {
-    "generated_at": "2026-08-14T15:57:24Z",
-    "jobs_collected": 893,
-    "unique_jobs_after_deduplication": 858,
-    "duplicates_removed": 35,
-    "jobs_rejected_or_below_threshold": 851,
-    "relevant_jobs_in_current_run": 7,
-    "new_jobs": 2,
-    "updated_jobs": 2,
-    "strong_matches": 0,
+    "generated_at": "2026-08-15T04:18:44Z",
+    "jobs_collected": 20776,
+    "unique_jobs_after_deduplication": 19298,
+    "duplicates_removed": 1478,
+    "jobs_rejected_or_below_threshold": 18950,
+    "relevant_jobs_in_current_run": 348,
+    "new_jobs": 342,
+    "updated_jobs": 3,
+    "strong_matches": 42,
     "sources_checked": 3,
     "sources_failed": 0,
     "sources_partial": 0,
-    "report_jobs": 7,
+    "report_jobs": 30,
     "jobs_by_source": {
       "arbeitnow": 875,
       "remotive": 18,
-      "greenhouse": 0
+      "greenhouse": 19883
     }
   },
   "jobs": [
     {
       "report_number": 1,
-      "job_key": "0d9158613f9e57d61233",
+      "job_key": "c1ab5b22feaa0afc7ed6",
       "status": "NEW",
-      "score": 79,
-      "score_label": "GOOD",
-      "title": "Security Engineer",
-      "company": "Xtxmarketstechnologies",
-      "location": "London",
-      "working_model": "On-site / not specified",
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/xtxmarketstechnologies/security-engineer-london-369120",
-      "apply_url": "https://www.arbeitnow.co.uk/jobs/companies/xtxmarketstechnologies/security-engineer-london-369120",
-      "canonical_url": "https://www.arbeitnow.co.uk/jobs/companies/xtxmarketstechnologies/security-engineer-london-369120",
-      "source": "Arbeitnow",
+      "score": 90,
+      "score_label": "EXCELLENT",
+      "title": "Product Security Engineer",
+      "company": "Vercel",
+      "location": "Berlin, Germany",
+      "working_model": "Hybrid",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6102343004",
+      "apply_url": "https://job-boards.greenhouse.io/vercel/jobs/6102343004",
+      "canonical_url": "https://job-boards.greenhouse.io/vercel/jobs/6102343004",
+      "source": "Greenhouse",
       "sources": [
-        "Arbeitnow"
+        "Greenhouse"
       ],
-      "original_source": "Arbeitnow",
-      "ats": "",
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
       "also_found_on": [],
       "priority_employer": false,
-      "published_at": "2026-08-14T06:55:21Z",
-      "first_seen": "2026-08-14T15:57:24Z",
+      "published_at": "2026-08-13T21:38:18Z",
+      "first_seen": "2026-08-15T04:18:44Z",
       "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "frida",
+          "penetration testing",
+          "security testing",
+          "threat modeling"
+        ],
+        "partial": [],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 23,
+        "experience": 11,
+        "security_relevance": 8,
+        "location": 10,
+        "language": 10,
+        "education": 3,
+        "career_value": 5
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "The responsibilities align strongly with Application/Product Security work.",
+        "The role is based in Berlin/Germany.",
+        "No mandatory German level above the current profile was detected."
+      ],
+      "warnings": [],
+      "recommendation": "APPLY FIRST - verify the full vacancy and tailor the CV",
+      "application_status": "NEW",
+      "description_excerpt": "About Vercel: Vercel is the agentic infrastructure company. We free people and agents to ship what’s next. For more than a decade, Vercel has shaped how the web is built. As the team behind Next.js, v0, and AI SDK, we create products that help builders move from idea to production with speed, security, and exceptional developer experience. Now, software is entering a new era, and the next generation of products will not just be used by people. They will be built, extended, and operated by agents. We are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. Whether you’re building our products, supporting our customers, growing our community, or shaping our story, you’ll help define what comes next. About the Role: Traditional product security teams work one report at a time: a person triages a bug bounty submission, validates it, reproduces it, and hands it off for a fix. That doesn't scale past a certain volume, and Vercel is well past it. Adding more triagers doesn't close that gap. Building the systems that triage at that scale does. This role is about building that system. Your core focus is toolin…"
+    },
+    {
+      "report_number": 2,
+      "job_key": "1f160eb6f1411288d2fb",
+      "status": "NEW",
+      "score": 90,
+      "score_label": "EXCELLENT",
+      "title": "Staff+ Application Security Engineer",
+      "company": "Anthropic",
+      "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",
+      "working_model": "Remote",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4502508008",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4502508008",
+      "canonical_url": "https://job-boards.greenhouse.io/anthropic/jobs/4502508008",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-08-03T22:25:22Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "application security",
+          "penetration testing",
+          "python",
+          "sast",
+          "threat modeling"
+        ],
+        "partial": [],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 23,
+        "experience": 11,
+        "security_relevance": 10,
+        "location": 6,
+        "language": 10,
+        "education": 5,
+        "career_value": 5
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "The responsibilities align strongly with Application/Product Security work.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include application security, penetration testing, python, sast, threat modeling."
+      ],
+      "warnings": [],
+      "recommendation": "APPLY FIRST - verify the full vacancy and tailor the CV",
+      "application_status": "NEW",
+      "description_excerpt": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role: Anthropic's Application Security team secures the systems that build, serve, and increasingly are Claude. The attack surface is unlike most AppSec work: multi-agent orchestration, sandboxed code execution, agents holding delegated credentials, untrusted tool output crossing trust boundaries — problems with little prior art and no off-the-shelf playbook. The way the team works is also different. We use Claude as our primary tool across every part of the job: it drives our static analysis, drafts and fixes vulnerabilities as pull requests, performs first-line bug bounty triage, and assists threat modeling for design reviews. The human work is the judgment layer — system-level reasoning, deciding what matters, and building the next thing the model can't do yet. This is a builder's role on a senior team. We hire engineers who ship produc…"
+    },
+    {
+      "report_number": 3,
+      "job_key": "bf73ac8a33662e50637e",
+      "status": "NEW",
+      "score": 90,
+      "score_label": "EXCELLENT",
+      "title": "Staff+ Application Security Engineer - M&A",
+      "company": "Anthropic",
+      "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",
+      "working_model": "Remote",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5311463008",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5311463008",
+      "canonical_url": "https://job-boards.greenhouse.io/anthropic/jobs/5311463008",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-08-03T22:25:22Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "application security",
+          "dast",
+          "penetration testing",
+          "python",
+          "sast",
+          "threat modeling",
+          "vulnerability assessment",
+          "vulnerability management"
+        ],
+        "partial": [],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 23,
+        "experience": 11,
+        "security_relevance": 10,
+        "location": 6,
+        "language": 10,
+        "education": 5,
+        "career_value": 5
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "The responsibilities align strongly with Application/Product Security work.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include application security, dast, penetration testing, python, sast."
+      ],
+      "warnings": [],
+      "recommendation": "APPLY FIRST - verify the full vacancy and tailor the CV",
+      "application_status": "NEW",
+      "description_excerpt": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role Anthropic's Application Security team secures the systems that build, serve, and increasingly are Claude — and as Anthropic's footprint grows, that mandate now extends to companies and codebases we bring in from outside. This role establishes that function. You'll own security due diligence and secure integration for Anthropic's acquisitions — assessing a target's security posture pre-close, writing the security risk readout for leadership, and after close, bringing acquired systems up to Anthropic's bar. Security has been part of every deal to date, but this is the first dedicated role for it: you'll formalize the playbook, the risk model, and the tooling, and make them repeatable. This is an AppSec role first. You'll be an active member of the Application Security team — same rituals, same on-run rotation, same tooling, working alon…"
+    },
+    {
+      "report_number": 4,
+      "job_key": "4e0ce66d91b889d4815e",
+      "status": "NEW",
+      "score": 88,
+      "score_label": "STRONG",
+      "title": "Product Security Engineer II",
+      "company": "Affirm",
+      "location": "Remote Canada",
+      "working_model": "Remote",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7796530003",
+      "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7796530003",
+      "canonical_url": "https://job-boards.greenhouse.io/affirm/jobs/7796530003",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-08-12T19:12:11Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": "0-2 years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "api security",
+          "application security",
+          "burp suite",
+          "owasp",
+          "penetration testing",
+          "python",
+          "vulnerability management"
+        ],
+        "partial": [],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 23,
+        "experience": 15,
+        "security_relevance": 10,
+        "location": 2,
+        "language": 10,
+        "education": 3,
+        "career_value": 5
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "The responsibilities align strongly with Application/Product Security work.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include api security, application security, burp suite, owasp, penetration testing."
+      ],
+      "warnings": [],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the InfoSec & IT Team The Application Security team helps Affirm build and launch products that earn customer trust, meet compliance obligations, and reduce business risk. We partner closely with product, engineering, infrastructure, risk, compliance, and other teams to identify security risks early, recommend pragmatic mitigations, and help teams find safe paths to launch. We are looking for an early-career Application Security Engineer who is curious, collaborative, and comfortable working with code. You will help assess application risks, support vulnerability management efforts, partner with engineering teams on secure design decisions, and contribute lightweight tooling, automation, and code-informed analysis that helps AppSec scale across Affirm. This role is a great fit for someone who has hands-on software or security experience, enjoys reading and reasoning about code, is actively developing offensive security skills, and wants to apply those skills in a product-minded, risk-based way. What You'l…"
+    },
+    {
+      "report_number": 5,
+      "job_key": "521c71dc83dfa3787db3",
+      "status": "NEW",
+      "score": 88,
+      "score_label": "STRONG",
+      "title": "Senior Product Security Engineer",
+      "company": "Staffbase",
+      "location": "Berlin, Germany",
+      "working_model": "On-site / not specified",
+      "url": "https://job-boards.greenhouse.io/staffbase/jobs/8524710002",
+      "apply_url": "https://job-boards.greenhouse.io/staffbase/jobs/8524710002",
+      "canonical_url": "https://job-boards.greenhouse.io/staffbase/jobs/8524710002",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": true,
+      "published_at": "2026-08-04T07:42:41Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": null,
+      "german_requirement": "German is preferred/nice-to-have",
+      "skill_matches": {
+        "match": [
+          "dast",
+          "frida",
+          "penetration testing",
+          "sast",
+          "secure sdlc",
+          "vulnerability management"
+        ],
+        "partial": [
+          "ci/cd"
+        ],
+        "missing": [
+          "kubernetes"
+        ],
+        "nice_to_have": [
+          "python (match)"
+        ]
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 20,
+        "experience": 11,
+        "security_relevance": 10,
+        "location": 10,
+        "language": 9,
+        "education": 3,
+        "career_value": 5
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "The responsibilities align strongly with Application/Product Security work.",
+        "The role is based in Berlin/Germany.",
+        "No mandatory German level above the current profile was detected."
+      ],
+      "warnings": [
+        "Potential skill gaps: kubernetes",
+        "Exposure only; do not claim deep expertise: ci/cd"
+      ],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "About Staffbase We inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees. Headquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience. We are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication. At Staffbase, security is at the heart of everything we build. Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company. We believe the best security work happens when people bring their authentic selves and diverse perspectives to the table and we’…"
+    },
+    {
+      "report_number": 6,
+      "job_key": "dc19daa2558845a82810",
+      "status": "NEW",
+      "score": 87,
+      "score_label": "STRONG",
+      "title": "Senior Product Security Engineer",
+      "company": "Staffbase",
+      "location": "Chemnitz, Sachsen, Germany",
+      "working_model": "On-site / not specified",
+      "url": "https://job-boards.greenhouse.io/staffbase/jobs/8670749002",
+      "apply_url": "https://job-boards.greenhouse.io/staffbase/jobs/8670749002",
+      "canonical_url": "https://job-boards.greenhouse.io/staffbase/jobs/8670749002",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": true,
+      "published_at": "2026-08-04T07:43:02Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": null,
+      "german_requirement": "German is preferred/nice-to-have",
+      "skill_matches": {
+        "match": [
+          "dast",
+          "frida",
+          "penetration testing",
+          "sast",
+          "secure sdlc",
+          "vulnerability management"
+        ],
+        "partial": [
+          "ci/cd"
+        ],
+        "missing": [
+          "kubernetes"
+        ],
+        "nice_to_have": [
+          "python (match)"
+        ]
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 20,
+        "experience": 11,
+        "security_relevance": 10,
+        "location": 9,
+        "language": 9,
+        "education": 3,
+        "career_value": 5
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "The responsibilities align strongly with Application/Product Security work.",
+        "The role is based in Berlin/Germany.",
+        "No mandatory German level above the current profile was detected."
+      ],
+      "warnings": [
+        "Potential skill gaps: kubernetes",
+        "Exposure only; do not claim deep expertise: ci/cd"
+      ],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "About Staffbase We inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees. Headquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience. We are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication. At Staffbase, security is at the heart of everything we build. Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company. We believe the best security work happens when people bring their authentic selves and diverse perspectives to the table and we’…"
+    },
+    {
+      "report_number": 7,
+      "job_key": "934940412eaa4bfbcd32",
+      "status": "NEW",
+      "score": 87,
+      "score_label": "STRONG",
+      "title": "Senior Product Security Engineer",
+      "company": "Staffbase",
+      "location": "Dresden, Sachsen, Germany",
+      "working_model": "On-site / not specified",
+      "url": "https://job-boards.greenhouse.io/staffbase/jobs/8670748002",
+      "apply_url": "https://job-boards.greenhouse.io/staffbase/jobs/8670748002",
+      "canonical_url": "https://job-boards.greenhouse.io/staffbase/jobs/8670748002",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": true,
+      "published_at": "2026-08-04T07:42:52Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": null,
+      "german_requirement": "German is preferred/nice-to-have",
+      "skill_matches": {
+        "match": [
+          "dast",
+          "frida",
+          "penetration testing",
+          "sast",
+          "secure sdlc",
+          "vulnerability management"
+        ],
+        "partial": [
+          "ci/cd"
+        ],
+        "missing": [
+          "kubernetes"
+        ],
+        "nice_to_have": [
+          "python (match)"
+        ]
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 20,
+        "experience": 11,
+        "security_relevance": 10,
+        "location": 9,
+        "language": 9,
+        "education": 3,
+        "career_value": 5
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "The responsibilities align strongly with Application/Product Security work.",
+        "The role is based in Berlin/Germany.",
+        "No mandatory German level above the current profile was detected."
+      ],
+      "warnings": [
+        "Potential skill gaps: kubernetes",
+        "Exposure only; do not claim deep expertise: ci/cd"
+      ],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "About Staffbase We inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees. Headquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience. We are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication. At Staffbase, security is at the heart of everything we build. Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company. We believe the best security work happens when people bring their authentic selves and diverse perspectives to the table and we’…"
+    },
+    {
+      "report_number": 8,
+      "job_key": "507e542464270d3cf331",
+      "status": "NEW",
+      "score": 87,
+      "score_label": "STRONG",
+      "title": "Application Security Engineer",
+      "company": "Starburst",
+      "location": "Warsaw, Poland",
+      "working_model": "On-site / not specified",
+      "url": "https://job-boards.greenhouse.io/starburst/jobs/5119301008",
+      "apply_url": "https://job-boards.greenhouse.io/starburst/jobs/5119301008",
+      "canonical_url": "https://job-boards.greenhouse.io/starburst/jobs/5119301008",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-05-19T20:27:29Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": "2-5 years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "api security",
+          "application security",
+          "burp suite",
+          "dast",
+          "owasp",
+          "owasp zap",
+          "python",
+          "sast",
+          "threat modeling"
+        ],
+        "partial": [
+          "aws",
+          "ci/cd",
+          "cloud security"
+        ],
+        "missing": [
+          "azure"
+        ],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 20,
+        "experience": 15,
+        "security_relevance": 10,
+        "location": 2,
+        "language": 10,
+        "education": 5,
+        "career_value": 5
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "The responsibilities align strongly with Application/Product Security work.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include api security, application security, burp suite, dast, owasp."
+      ],
+      "warnings": [
+        "Potential skill gaps: azure",
+        "Exposure only; do not claim deep expertise: aws, ci/cd, cloud security"
+      ],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "About Starburst Starburst delivers enterprise intelligence at scale by giving organizations secure, governed access to all their data, wherever it lives. Built for distributed data environments, Starburst helps enterprises power AI and analytics without the cost and complexity of traditional data consolidation. With open standards including Trino and Apache Iceberg, Starburst enables trusted access to complete enterprise context while helping organizations avoid vendor lock-in. Leading global enterprises trust Starburst to fuel AI, analytics, and enterprise intelligence. Learn more at starburst.ai. About the Role: As a Security Engineer focused on Application and Product Security, you will play a key role in improving the security posture of our applications, services, and development ecosystem. You will work closely with engineering teams to integrate security into the software development lifecycle, build secure-by-default patterns, and ensure that products are resilient against modern threats. This role combines hands-on technical work, security engineering, and collaboration with developers to guide secure design and remediation. You will help implement security controls, perf…"
+    },
+    {
+      "report_number": 9,
+      "job_key": "ed65981b76f457436503",
+      "status": "NEW",
+      "score": 86,
+      "score_label": "STRONG",
+      "title": "Product Security Engineer",
+      "company": "LaunchDarkly",
+      "location": "Remote - US West",
+      "working_model": "Remote",
+      "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7736270003",
+      "apply_url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7736270003",
+      "canonical_url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7736270003",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-08-14T23:18:12Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": "4+ years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "owasp",
+          "python",
+          "sast",
+          "threat modeling"
+        ],
+        "partial": [
+          "cloud security"
+        ],
+        "missing": [],
+        "nice_to_have": [
+          "application security (match)"
+        ]
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 22,
+        "experience": 10,
+        "security_relevance": 10,
+        "location": 6,
+        "language": 10,
+        "education": 3,
+        "career_value": 5
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "The responsibilities align strongly with Application/Product Security work.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include owasp, python, sast, threat modeling."
+      ],
+      "warnings": [
+        "Requests 4+ years versus approximately 2.1 years in the profile.",
+        "Exposure only; do not claim deep expertise: cloud security"
+      ],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "About the Job: LaunchDarkly's Product Security team is hiring a Product Security Engineer to strengthen how we secure the platform engineers build with every day. You'll bring depth in security fundamentals and program design as a member of a small, high-leverage team with strong engineering instincts. LaunchDarkly is critical infrastructure. Our security team keeps it safe for the global systems that depend on us. You'll spend most of your time on threat modeling and cloud security posture, with rotating exposure to the rest of the ProdSec surface area. Your work will help developers move fast without sacrificing security, through automation, guidance, and the kind of partnership that makes the secure path the easy one. You'll report to the Director of Security and work closely with software engineers, product managers, and other security engineers. We expect you to bring a sharp point of view on where AI can take work off the team's plate and make our coverage deeper. Responsibilities: Lead threat modeling engagements on the features and services where the risk warrants it. Partner with the ProdSec lead to evolve the practice from on-request to repeatable, with clear criteria fo…"
+    },
+    {
+      "report_number": 10,
+      "job_key": "c4e7f016d6df4730e252",
+      "status": "NEW",
+      "score": 86,
+      "score_label": "STRONG",
+      "title": "Product Security Engineer (Starlink)",
+      "company": "SpaceX",
+      "location": "Hawthorne, CA",
+      "working_model": "On-site / not specified",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8577411002?gh_jid=8577411002",
+      "apply_url": "https://boards.greenhouse.io/spacex/jobs/8577411002?gh_jid=8577411002",
+      "canonical_url": "https://boards.greenhouse.io/spacex/jobs/8577411002?gh_jid=8577411002",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-07-24T21:18:10Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": "2+ years",
       "german_requirement": "No German requirement detected",
       "skill_matches": {
         "match": [
@@ -57,7 +632,482 @@
       "score_breakdown": {
         "title": 20,
         "skills": 23,
+        "experience": 15,
+        "security_relevance": 6,
+        "location": 2,
+        "language": 10,
+        "education": 5,
+        "career_value": 5
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include python."
+      ],
+      "warnings": [],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars. PRODUCT SECURITY ENGINEER (STARLINK) At SpaceX we’re leveraging our experience in building rockets and spacecraft to deploy Starlink, the world’s most advanced broadband internet system. Starlink is the world’s largest satellite constellation and is providing fast, reliable internet to millions of users worldwide. We design, build, test, and operate all parts of the system – thousands of satellites, consumer receivers that allow users to connect within minutes of unboxing, and the software that brings it all together. We’ve only begun to scratch the surface of Starlink’s potential global impact and are looking for best-in-class engineers to help maximize Starlink’s utility for communities and businesses around the globe. As a Security Software Engineer you will influence the security of software across our product lines. We are looking for people with a track record of shipping reliable software and who h…"
+    },
+    {
+      "report_number": 11,
+      "job_key": "803ac33bfffd5a1f3756",
+      "status": "NEW",
+      "score": 86,
+      "score_label": "STRONG",
+      "title": "Product Security Engineer (Starlink)",
+      "company": "SpaceX",
+      "location": "Redmond, WA",
+      "working_model": "On-site / not specified",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8543671002?gh_jid=8543671002",
+      "apply_url": "https://boards.greenhouse.io/spacex/jobs/8543671002?gh_jid=8543671002",
+      "canonical_url": "https://boards.greenhouse.io/spacex/jobs/8543671002?gh_jid=8543671002",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-07-24T21:18:03Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": "2+ years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "frida",
+          "python"
+        ],
+        "partial": [],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 23,
+        "experience": 15,
+        "security_relevance": 6,
+        "location": 2,
+        "language": 10,
+        "education": 5,
+        "career_value": 5
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include frida, python."
+      ],
+      "warnings": [],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars. PRODUCT SECURITY ENGINEER (STARLINK) At SpaceX we’re leveraging our experience in building rockets and spacecraft to deploy Starlink, the world’s most advanced broadband internet system. Starlink is the world’s largest satellite constellation and is providing fast, reliable internet to millions of users worldwide. We design, build, test, and operate all parts of the system – thousands of satellites, consumer receivers that allow users to connect within minutes of unboxing, and the software that brings it all together. We’ve only begun to scratch the surface of Starlink’s potential global impact and are looking for best-in-class engineers to help maximize Starlink’s utility for communities and businesses around the globe. As a Security Software Engineer you will influence the security of software across our product lines. We are looking for people with a track record of shipping reliable software and who h…"
+    },
+    {
+      "report_number": 12,
+      "job_key": "56eecec8066af79a0fb0",
+      "status": "NEW",
+      "score": 85,
+      "score_label": "STRONG",
+      "title": "Senior Vehicle Security Engineer (all genders)",
+      "company": "MOIA",
+      "location": "Berlin, Germany",
+      "working_model": "Hybrid",
+      "url": "https://job-boards.eu.greenhouse.io/moia/jobs/4769020101",
+      "apply_url": "https://job-boards.eu.greenhouse.io/moia/jobs/4769020101",
+      "canonical_url": "https://job-boards.eu.greenhouse.io/moia/jobs/4769020101",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-07-31T13:22:35Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "threat modeling"
+        ],
+        "partial": [
+          "nist"
+        ],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 19,
         "experience": 11,
+        "security_relevance": 6,
+        "location": 10,
+        "language": 10,
+        "education": 5,
+        "career_value": 4
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "The role is based in Berlin/Germany.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include threat modeling."
+      ],
+      "warnings": [
+        "Exposure only; do not claim deep expertise: nist"
+      ],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "Join us as a Senior Vehicle Security Engineer (all genders) and help safeguard the future of autonomous mobility at MOIA! At MOIA, vehicle security is a cornerstone of trust in autonomous mobility. As a Senior Vehicle Security Engineer you’ll be part of a dedicated team that ensures our autonomous mobility platform is secure, resilient, and compliant with mobility industry standards. You’ll work across the full product lifecycle of our fully autonomous vehicles like the ID.Buzz AD—from concept to deployment and operations—designing and implementing cybersecurity strategies that protect our users, vehicles, and infrastructure. We’re looking for someone who thrives in cross-functional environments, understands the nuances of embedded systems and distributed architectures, and can translate complex threat models into actionable engineering requirements. What you will do Define cybersecurity concepts and system boundaries for autonomous mobility features, considering real-world operating environments. Conduct threat analysis and risk assessments (TARA) in alignment with ISO/SAE 21434, identifying vulnerabilities and evaluating attack feasibility. Translate TARA outcomes into security…"
+    },
+    {
+      "report_number": 13,
+      "job_key": "865bcb3862ab52b814f2",
+      "status": "NEW",
+      "score": 84,
+      "score_label": "STRONG",
+      "title": "Senior Security Engineer (Product Security)",
+      "company": "Gallup",
+      "location": "Omaha Riverfront",
+      "working_model": "On-site / not specified",
+      "url": "https://job-boards.greenhouse.io/gallup/jobs/4201834009",
+      "apply_url": "https://job-boards.greenhouse.io/gallup/jobs/4201834009",
+      "canonical_url": "https://job-boards.greenhouse.io/gallup/jobs/4201834009",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": true,
+      "published_at": "2026-08-14T13:26:35Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "api security",
+          "penetration testing",
+          "python"
+        ],
+        "partial": [],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 23,
+        "experience": 11,
+        "security_relevance": 8,
+        "location": 2,
+        "language": 10,
+        "education": 5,
+        "career_value": 5
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "The responsibilities align strongly with Application/Product Security work.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include api security, penetration testing, python."
+      ],
+      "warnings": [],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "Anticipate attacks, outsmart threats and safeguard innovation. Gallup is seeking a senior security engineer (product security) to help build and scale security into the core of our products. This role sits at the intersection of engineering and offensive security — ideal for someone who enjoys breaking things thoughtfully and then helping teams rebuild them stronger. You’ll bring an attacker’s mindset to uncover real-world risks across our applications and then partner directly with senior, staff engineers and engineering managers to turn those findings into durable, secure solutions. This is a high-impact role with the autonomy to shape how security is embedded across Gallup technology. What You’ll Do Perform penetration testing across web, mobile and API applications to identify and validate security vulnerabilities Partner with engineering teams to incorporate security into applications from the start through secure coding guidance. What Makes You Stand Out Clear communication: You turn complex risks into clear, actionable guidance. Self-starter mindset: You thrive working independently while knowing when to pull in others. Impactful speed: You move quickly without cutting corn…"
+    },
+    {
+      "report_number": 14,
+      "job_key": "8b17857e291e1a0dc004",
+      "status": "NEW",
+      "score": 84,
+      "score_label": "STRONG",
+      "title": "Staff Application Security Engineer",
+      "company": "Datadog",
+      "location": "Boston, Massachusetts, USA; Connecticut, USA, Remote; Delaware, USA, Remote; District of Columbia, USA, Remote; Maryland, USA, Remote; Massachusetts, USA, Remote; New Jersey, USA, Remote; New York, New York, USA; New York, USA, Remote; Rhode Island, USA, Remote",
+      "working_model": "Remote",
+      "url": "https://careers.datadoghq.com/detail/7777798?gh_jid=7777798",
+      "apply_url": "https://careers.datadoghq.com/detail/7777798?gh_jid=7777798",
+      "canonical_url": "https://careers.datadoghq.com/detail/7777798?gh_jid=7777798",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-08-12T19:59:08Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "api security",
+          "application security",
+          "dast",
+          "owasp",
+          "sast",
+          "threat modeling"
+        ],
+        "partial": [],
+        "missing": [],
+        "nice_to_have": [
+          "python (match)"
+        ]
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 23,
+        "experience": 11,
+        "security_relevance": 10,
+        "location": 2,
+        "language": 10,
+        "education": 3,
+        "career_value": 5
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "The responsibilities align strongly with Application/Product Security work.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include api security, application security, dast, owasp, sast."
+      ],
+      "warnings": [],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "As a Staff Application Security Engineer at Datadog, you'll set technical direction for how we approach application security at scale. You'll define the frameworks, methodologies, and architectural patterns that engineering teams across Datadog adopt and apply independently. You're the person others come to when they don't know how to make something secure, and you reliably have an answer. You'll be a point of contact for our most complex security programs, often spanning multiple teams and multiple quarters. The role requires both depth (going very deep on specific problems when needed) and breadth (recognizing patterns across systems and drawing connections that others miss). Partnering closely with teams inside and outside the security org is key to success. You'll help shape the AppSec roadmap and make the case for where investment should go. We use our own platform. Logs, Dashboards, Service Catalog, and APM aren't just things we sell: they're tools the AppSec team uses to build security services, measure adoption of secure defaults, and communicate risk across the organization. AI is also part of the picture. Engineering at Datadog increasingly uses agentic tooling throughou…"
+    },
+    {
+      "report_number": 15,
+      "job_key": "8af9b5ec7e693b81baa4",
+      "status": "NEW",
+      "score": 84,
+      "score_label": "STRONG",
+      "title": "Security Engineer, Application Security",
+      "company": "Robinhood",
+      "location": "Bellevue, WA; Menlo Park, CA",
+      "working_model": "On-site / not specified",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/7918258?t=gh_src%3D&gh_jid=7918258",
+      "apply_url": "https://boards.greenhouse.io/robinhood/jobs/7918258?t=gh_src%3D&gh_jid=7918258",
+      "canonical_url": "https://boards.greenhouse.io/robinhood/jobs/7918258?t=gh_src%3D&gh_jid=7918258",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-08-12T18:33:35Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": "3+ years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "application security",
+          "python",
+          "threat modeling"
+        ],
+        "partial": [],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 23,
+        "experience": 13,
+        "security_relevance": 8,
+        "location": 2,
+        "language": 10,
+        "education": 3,
+        "career_value": 5
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "The responsibilities align strongly with Application/Product Security work.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include application security, python, threat modeling."
+      ],
+      "warnings": [
+        "Requests 3+ years versus approximately 2.1 years in the profile."
+      ],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing, fast-moving team with ethics at the center of everything we do. Expectations are high, and so are the rewards. The Proactive Security team builds and operates systems that help engineers identify and resolve security risks earlier in the software development lifecycle. The team creates practical safeguards, including shared libraries, frameworks, and automated checks that make secure development easier to adopt. You’ll work closely with product and engineering teams to reduce risk at scale while su…"
+    },
+    {
+      "report_number": 16,
+      "job_key": "6e6c15e16485f9c99390",
+      "status": "NEW",
+      "score": 84,
+      "score_label": "STRONG",
+      "title": "Product Security Engineer II",
+      "company": "Flexport",
+      "location": "Amsterdam, Netherlands",
+      "working_model": "On-site / not specified",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/7921061",
+      "apply_url": "https://job-boards.greenhouse.io/flexport/jobs/7921061",
+      "canonical_url": "https://job-boards.greenhouse.io/flexport/jobs/7921061",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-07-09T23:28:21Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": "2-5 years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "application security",
+          "burp suite",
+          "owasp",
+          "owasp zap",
+          "python",
+          "sast",
+          "secure sdlc",
+          "threat modeling",
+          "vulnerability management",
+          "web security"
+        ],
+        "partial": [
+          "aws",
+          "cloud security"
+        ],
+        "missing": [
+          "azure",
+          "gdpr"
+        ],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 19,
+        "experience": 15,
+        "security_relevance": 10,
+        "location": 2,
+        "language": 10,
+        "education": 3,
+        "career_value": 5
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "The responsibilities align strongly with Application/Product Security work.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include application security, burp suite, owasp, owasp zap, python."
+      ],
+      "warnings": [
+        "Potential skill gaps: azure, gdpr",
+        "Exposure only; do not claim deep expertise: aws, cloud security"
+      ],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "About Flexport: At Flexport, we believe global trade can move the human race forward. That’s why it’s our mission to make global commerce so easy there will be more of it. We’re shaping the future of a $10T industry with solutions powered by innovative technology and exceptional people. Today, companies of all sizes—from emerging brands to Fortune 500s—use Flexport technology to move more than $19B of merchandise across 112 countries a year. The recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people. Ready to tackle global challenges that impact business, society, and the environment? Come join us. About Flexport: At Flexport, we believe global trade can move the human race forward. That’s why it’s our mission to make global commerce so easy there will be more of it. We’re shaping the future of a $10T industry with solutions powered by innovative technology and exceptional people. Today, companies of all sizes - from emerging brands to Fortune 500s - use Flexport technology to move mor…"
+    },
+    {
+      "report_number": 17,
+      "job_key": "23ce9eb6fe149658aa8c",
+      "status": "NEW",
+      "score": 83,
+      "score_label": "STRONG",
+      "title": "Senior Product Security Engineer",
+      "company": "Cloudflare",
+      "location": "Hybrid",
+      "working_model": "Hybrid",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8079931?gh_jid=8079931",
+      "apply_url": "https://boards.greenhouse.io/cloudflare/jobs/8079931?gh_jid=8079931",
+      "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8079931?gh_jid=8079931",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-08-06T19:17:31Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "application security",
+          "penetration testing",
+          "sast",
+          "threat modeling",
+          "vulnerability assessment",
+          "vulnerability management"
+        ],
+        "partial": [
+          "nist"
+        ],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 22,
+        "experience": 11,
+        "security_relevance": 10,
+        "location": 2,
+        "language": 10,
+        "education": 3,
+        "career_value": 5
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "The responsibilities align strongly with Application/Product Security work.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include application security, penetration testing, sast, threat modeling, vulnerability assessment."
+      ],
+      "warnings": [
+        "Exposure only; do not claim deep expertise: nist"
+      ],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company. At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a \"normalized\" problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, lev…"
+    },
+    {
+      "report_number": 18,
+      "job_key": "6bb0706638447adbf914",
+      "status": "NEW",
+      "score": 83,
+      "score_label": "STRONG",
+      "title": "Embedded Security Engineer (Starlink)",
+      "company": "SpaceX",
+      "location": "Hawthorne, CA",
+      "working_model": "On-site / not specified",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8577410002?gh_jid=8577410002",
+      "apply_url": "https://boards.greenhouse.io/spacex/jobs/8577410002?gh_jid=8577410002",
+      "canonical_url": "https://boards.greenhouse.io/spacex/jobs/8577410002?gh_jid=8577410002",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-07-24T21:18:10Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": "2+ years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "python"
+        ],
+        "partial": [],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 23,
+        "experience": 15,
         "security_relevance": 4,
         "location": 2,
         "language": 10,
@@ -70,209 +1120,486 @@
         "Strong evidenced skill matches include python."
       ],
       "warnings": [],
-      "recommendation": "GOOD - REVIEW REQUIREMENTS",
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
       "application_status": "NEW",
-      "description_excerpt": "The Firm XTX Markets is a leading algorithmic trading firm which uses state-of-the-art machine learning technology to produce price forecasts for over 53,000 financial instruments across equities, fixed income, currencies, commodities and crypto. It uses those forecasts to trade on exchanges and alternative trading venues, and to offer differentiated liquidity directly to clients worldwide. The firm trades over $250bn a day across 35 countries and has over 300 employees based in London, Singapore, New York, Paris, Bristol, Mumbai, Yerevan and Kajaani. We leverage the talent of the people who work here, modern computational techniques and state-of-the-art research infrastructure to analyse large data sets across markets quickly and efficiently, to maximize the effectiveness of our proprietary trading algorithms. We are actively seeking new methods and ideas. The models that drive our trading strategies have evolved considerably over the last 10 years, from econometric methods that gave our company its name, to trees, to neural networks, to modern deep learning architectures. XTX Markets has an unrivalled level of computational resources in the trading industry, with a growing resea…"
+      "description_excerpt": "SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars. EMBEDDED SECURITY ENGINEER (STARLINK) At SpaceX we’re leveraging our experience in building rockets and spacecraft to deploy Starlink, the world’s most advanced broadband internet system. Starlink is the world’s largest satellite constellation and is providing fast, reliable internet to millions of users worldwide. We design, build, test, and operate all parts of the system – thousands of satellites, consumer receivers that allow users to connect within minutes of unboxing, and the software that brings it all together. We’ve only begun to scratch the surface of Starlink’s potential global impact and are looking for best-in-class engineers to help maximize Starlink’s utility for communities and businesses around the globe. As a Security Software Engineer you will influence the security of software across our product lines. We are looking for people with a track record of shipping reliable software and who…"
     },
     {
-      "report_number": 2,
-      "job_key": "975c260f4cccb6d07cbe",
-      "status": "UPDATED",
-      "score": 65,
-      "score_label": "REVIEW",
-      "title": "IT Security Experte (m/w/d) Incident Response & DLP",
-      "company": "Mandl. Executives & Experts",
-      "location": "Munich, Germany",
-      "working_model": "Remote",
-      "url": "https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/it-security-experte-incident-response-dlp-munich-455340",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/it-security-experte-incident-response-dlp-munich-455340",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/it-security-experte-incident-response-dlp-munich-455340",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "original_source": "Arbeitnow",
-      "ats": "",
-      "also_found_on": [],
-      "priority_employer": false,
-      "published_at": "2026-08-13T13:30:26Z",
-      "first_seen": "2026-08-14T03:40:19Z",
-      "experience_required": null,
-      "german_requirement": "German unspecified required",
-      "skill_matches": {
-        "match": [
-          "penetration testing"
-        ],
-        "partial": [
-          "siem"
-        ],
-        "missing": [],
-        "nice_to_have": []
-      },
-      "score_breakdown": {
-        "title": 10,
-        "skills": 19,
-        "experience": 11,
-        "security_relevance": 6,
-        "location": 9,
-        "language": 4,
-        "education": 3,
-        "career_value": 3
-      },
-      "match_reasons": [
-        "The role is based in Berlin/Germany.",
-        "Strong evidenced skill matches include penetration testing."
-      ],
-      "warnings": [
-        "German unspecified required",
-        "Exposure only; do not claim deep expertise: siem"
-      ],
-      "recommendation": "REVIEW - check gaps before applying",
-      "application_status": "NEW",
-      "description_excerpt": "In dieser Rolle übernimmst du eine zentrale Funktion im Aufbau und in der Weiterentwicklung einer modernen IT-Sicherheitsstrategie mit Fokus auf Incident Response und Data Loss Prevention (DLP). Du arbeitest eng mit verschiedenen Fachbereichen zusammen und sorgst dafür, dass sensible Unternehmensdaten effektiv geschützt werden. Neben der operativen Arbeit im SIEM gestaltest du Security-Prozesse aktiv mit. Dich erwartet eine abwechslungsreiche Position mit viel Gestaltungsspielraum in einem sicherheitskritischen Umfeld. Aufgaben Überwachung und Bearbeitung von Sicherheitsvorfällen im SIEM sowie kontinuierliche Verbesserung der Alarm- und Erkennungslogik Konzeption, Implementierung und Betrieb von DLP-Lösungen zur Absicherung sensibler Daten Beratung interner Fachbereiche bei IT-Projekten mit Schwerpunkt auf Security-Anforderungen Identifikation schützenswerter Informationen sowie Definition geeigneter Maßnahmen zu deren Absicherung Weiterentwicklung des Security Monitorings zur frühzeitigen Erkennung neuer Bedrohungen Pflege und Optimierung von Regelwerken im SIEM- und DLP-Umfeld Durchführung von Audits und Erstellung von Reports zur Bewertung der Sicherheitsmaßnahmen Planung und S…"
-    },
-    {
-      "report_number": 3,
-      "job_key": "d65bc39d869850472ba5",
+      "report_number": 19,
+      "job_key": "6d8e14a940843ae8c44c",
       "status": "NEW",
-      "score": 61,
-      "score_label": "REVIEW",
-      "title": "IT Security & Compliance Manager (Part-Time)",
-      "company": "VIA HealthTech",
-      "location": "Berlin, Germany",
+      "score": 83,
+      "score_label": "STRONG",
+      "title": "Security Engineer",
+      "company": "SpaceX",
+      "location": "Cape Canaveral, FL",
       "working_model": "On-site / not specified",
-      "url": "https://www.arbeitnow.com/jobs/companies/via-healthtech/it-security-compliance-manager-part-time-berlin-469634",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/via-healthtech/it-security-compliance-manager-part-time-berlin-469634",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/via-healthtech/it-security-compliance-manager-part-time-berlin-469634",
-      "source": "Arbeitnow",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8567522002?gh_jid=8567522002",
+      "apply_url": "https://boards.greenhouse.io/spacex/jobs/8567522002?gh_jid=8567522002",
+      "canonical_url": "https://boards.greenhouse.io/spacex/jobs/8567522002?gh_jid=8567522002",
+      "source": "Greenhouse",
       "sources": [
-        "Arbeitnow"
+        "Greenhouse"
       ],
-      "original_source": "Arbeitnow",
-      "ats": "",
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
       "also_found_on": [],
       "priority_employer": false,
-      "published_at": "2026-08-14T14:01:04Z",
-      "first_seen": "2026-08-14T15:57:24Z",
-      "experience_required": null,
-      "german_requirement": "German unspecified required",
-      "skill_matches": {
-        "match": [
-          "penetration testing"
-        ],
-        "partial": [
-          "nist"
-        ],
-        "missing": [
-          "iso 27001"
-        ],
-        "nice_to_have": []
-      },
-      "score_breakdown": {
-        "title": 10,
-        "skills": 14,
-        "experience": 11,
-        "security_relevance": 6,
-        "location": 10,
-        "language": 4,
-        "education": 3,
-        "career_value": 3
-      },
-      "match_reasons": [
-        "The role is based in Berlin/Germany.",
-        "Strong evidenced skill matches include penetration testing."
-      ],
-      "warnings": [
-        "German unspecified required",
-        "Potential skill gaps: iso 27001",
-        "Exposure only; do not claim deep expertise: nist"
-      ],
-      "recommendation": "REVIEW - check gaps before applying",
-      "application_status": "NEW",
-      "description_excerpt": "VIA HealthTech automates psychotherapy documentation — from session notes to psychological reports — so therapists spend less time on admin and more time with patients. We work at the intersection of mental healthcare, AI, and software. Security is central to what we build: we process highly sensitive data and already hold C5 and ISO27001 certification. Aufgaben We are looking for a hands-on IT Security & Compliance Manager to own our IT Compliance, ISMS, and our IT security setup end-to-end. This is a broad role in a small team. You will not only maintain policies but also implement systems, configure tools, run audits, and work directly with engineering to make security a practical part of how we build. In practice, that means: Compliance end-to-end: ISO27001 and, most importantly, C5: Audits, evidence, risk management, corrective actions, auditor communication, internal training Controls: deciding what a control should be, building it, and verifying that it works Vanta: keeping it current and accurate as we grow Internal IT security: you own design and baseline like identity, MDM, device policies, endpoint hardening, access model, on-/offboarding SaaS security administration: c…"
-    },
-    {
-      "report_number": 4,
-      "job_key": "790cb26d29fb8fff384e",
-      "status": "UPDATED",
-      "score": 50,
-      "score_label": "STRETCH",
-      "title": "Senior Software Engineer, Firefox Security",
-      "company": "Mozilla",
-      "location": "Unspecified",
-      "working_model": "On-site / not specified",
-      "url": "https://www.arbeitnow.com/jobs/companies/mozilla/senior-software-engineer-firefox-security-410673",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/mozilla/senior-software-engineer-firefox-security-410673",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/mozilla/senior-software-engineer-firefox-security-410673",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "original_source": "Arbeitnow",
-      "ats": "",
-      "also_found_on": [],
-      "priority_employer": false,
-      "published_at": "2026-08-13T11:55:14Z",
-      "first_seen": "2026-08-14T03:40:19Z",
-      "experience_required": null,
+      "published_at": "2026-07-24T21:18:07Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": "2+ years",
       "german_requirement": "No German requirement detected",
       "skill_matches": {
-        "match": [],
+        "match": [
+          "python"
+        ],
         "partial": [],
         "missing": [],
         "nice_to_have": []
       },
       "score_breakdown": {
-        "title": 10,
-        "skills": 7,
-        "experience": 11,
+        "title": 20,
+        "skills": 23,
+        "experience": 15,
         "security_relevance": 4,
         "location": 2,
         "language": 10,
-        "education": 3,
-        "career_value": 3
+        "education": 5,
+        "career_value": 4
       },
       "match_reasons": [
-        "No mandatory German level above the current profile was detected."
+        "The title is in a high-priority target role family.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include python."
       ],
       "warnings": [],
-      "recommendation": "STRETCH - apply only if the role is strategically valuable",
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
       "application_status": "NEW",
-      "description_excerpt": "Why Mozilla? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. The Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. What you’ll do: Advance Firefox's security architecture and cryptography stack: Contribute to improvements in Firefox's core security systems, with a focus on cryptographic protocols, WebPKI, and security-sensitive web APIs. H…"
+      "description_excerpt": "SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars. SECURITY ENGINEER SpaceX is looking for a Security Engineer to join our Information Security department to help protect and drive the SpaceX mission. Information drives our business and we must protect the confidentiality, integrity, and availability of systems and processes across the enterprise. As a highly visible and dynamic organization, we must also value and guard against damage to our reputation and brand. It is paramount that we defend against loss of control or confidence in our systems, to guarantee the highest probability of success. This role will focus on the \"behind the scenes\" technologies that ensure our networks and systems are up to industry and SpaceX standards of information security. It will also focus on providing high-criticality and high-risk services, with the confidentiality, integrity, and availability of those services in mind. RESPONSIBILITIES: Design, build, and maintain tec…"
     },
     {
-      "report_number": 5,
-      "job_key": "e9e07b891971f0d92e82",
-      "status": "SEEN_BEFORE",
-      "score": 77,
-      "score_label": "GOOD",
-      "title": "IT Security Engineer (m/f/d)",
-      "company": "Quantum-Systems GmbH",
-      "location": "Gilching, Bayern, Germany",
+      "report_number": 20,
+      "job_key": "c90a5e2bb316a5ce7e00",
+      "status": "NEW",
+      "score": 83,
+      "score_label": "STRONG",
+      "title": "Security Engineer",
+      "company": "SpaceX",
+      "location": "Hawthorne, CA",
       "working_model": "On-site / not specified",
-      "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/it-security-engineer-gilching-99422",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/it-security-engineer-gilching-99422",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/it-security-engineer-gilching-99422",
-      "source": "Arbeitnow",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8567571002?gh_jid=8567571002",
+      "apply_url": "https://boards.greenhouse.io/spacex/jobs/8567571002?gh_jid=8567571002",
+      "canonical_url": "https://boards.greenhouse.io/spacex/jobs/8567571002?gh_jid=8567571002",
+      "source": "Greenhouse",
       "sources": [
-        "Arbeitnow"
+        "Greenhouse"
       ],
-      "original_source": "Arbeitnow",
-      "ats": "",
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
       "also_found_on": [],
       "priority_employer": false,
-      "published_at": "2026-08-12T14:30:10Z",
-      "first_seen": "2026-08-14T03:40:19Z",
-      "experience_required": null,
-      "german_requirement": "German is preferred/nice-to-have",
+      "published_at": "2026-07-24T21:18:07Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": "2+ years",
+      "german_requirement": "No German requirement detected",
       "skill_matches": {
         "match": [
-          "vulnerability management"
+          "python"
+        ],
+        "partial": [],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 23,
+        "experience": 15,
+        "security_relevance": 4,
+        "location": 2,
+        "language": 10,
+        "education": 5,
+        "career_value": 4
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include python."
+      ],
+      "warnings": [],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars. SECURITY ENGINEER SpaceX is looking for a Security Engineer to join our Information Security department to help protect and drive the SpaceX mission. Information drives our business and we must protect the confidentiality, integrity, and availability of systems and processes across the enterprise. As a highly visible and dynamic organization, we must also value and guard against damage to our reputation and brand. It is paramount that we defend against loss of control or confidence in our systems, to guarantee the highest probability of success. This role will focus on the \"behind the scenes\" technologies that ensure our networks and systems are up to industry and SpaceX standards of information security. It will also focus on providing high-criticality and high-risk services, with the confidentiality, integrity, and availability of those services in mind. RESPONSIBILITIES: Design, build, and maintain tec…"
+    },
+    {
+      "report_number": 21,
+      "job_key": "30ff537c506bbe47d8df",
+      "status": "NEW",
+      "score": 83,
+      "score_label": "STRONG",
+      "title": "Security Engineer (Embedded & Networking)",
+      "company": "SpaceX",
+      "location": "Cape Canaveral, FL",
+      "working_model": "On-site / not specified",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8593385002?gh_jid=8593385002",
+      "apply_url": "https://boards.greenhouse.io/spacex/jobs/8593385002?gh_jid=8593385002",
+      "canonical_url": "https://boards.greenhouse.io/spacex/jobs/8593385002?gh_jid=8593385002",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-07-24T21:18:07Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": "2+ years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "python"
+        ],
+        "partial": [],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 23,
+        "experience": 15,
+        "security_relevance": 4,
+        "location": 2,
+        "language": 10,
+        "education": 5,
+        "career_value": 4
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include python."
+      ],
+      "warnings": [],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars. SECURITY ENGINEER (EMBEDDED & NETWORKING) SpaceX is looking for a Security Engineer to join our Information Security department to help protect and drive the SpaceX mission. Information drives our business and we must protect the confidentiality, integrity, and availability of systems and processes across the enterprise. As a highly visible and dynamic organization, we must also value and guard against damage to our reputation and brand. It is paramount that we defend against loss of control or confidence in our systems, to guarantee the highest probability of success. This role will focus on the \"behind the scenes\" technologies that ensure our networks and systems are up to industry and SpaceX standards of information security. It will also focus on providing high-criticality and high-risk services, with the confidentiality, integrity, and availability of those services in mind. RESPONSIBILITIES: Design,…"
+    },
+    {
+      "report_number": 22,
+      "job_key": "69ecdd31169472be3f4f",
+      "status": "NEW",
+      "score": 83,
+      "score_label": "STRONG",
+      "title": "Security Engineer (Embedded & Networking)",
+      "company": "SpaceX",
+      "location": "Hawthorne, CA",
+      "working_model": "On-site / not specified",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8593384002?gh_jid=8593384002",
+      "apply_url": "https://boards.greenhouse.io/spacex/jobs/8593384002?gh_jid=8593384002",
+      "canonical_url": "https://boards.greenhouse.io/spacex/jobs/8593384002?gh_jid=8593384002",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-07-24T21:18:07Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": "2+ years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "python"
+        ],
+        "partial": [],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 23,
+        "experience": 15,
+        "security_relevance": 4,
+        "location": 2,
+        "language": 10,
+        "education": 5,
+        "career_value": 4
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include python."
+      ],
+      "warnings": [],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars. SECURITY ENGINEER (EMBEDDED & NETWORKING) SpaceX is looking for a Security Engineer to join our Information Security department to help protect and drive the SpaceX mission. Information drives our business and we must protect the confidentiality, integrity, and availability of systems and processes across the enterprise. As a highly visible and dynamic organization, we must also value and guard against damage to our reputation and brand. It is paramount that we defend against loss of control or confidence in our systems, to guarantee the highest probability of success. This role will focus on the \"behind the scenes\" technologies that ensure our networks and systems are up to industry and SpaceX standards of information security. It will also focus on providing high-criticality and high-risk services, with the confidentiality, integrity, and availability of those services in mind. RESPONSIBILITIES: Design,…"
+    },
+    {
+      "report_number": 23,
+      "job_key": "9c559a7baa47ab9161f3",
+      "status": "NEW",
+      "score": 83,
+      "score_label": "STRONG",
+      "title": "Security Engineer (Embedded OT)",
+      "company": "SpaceX",
+      "location": "Hawthorne, CA",
+      "working_model": "On-site / not specified",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8593388002?gh_jid=8593388002",
+      "apply_url": "https://boards.greenhouse.io/spacex/jobs/8593388002?gh_jid=8593388002",
+      "canonical_url": "https://boards.greenhouse.io/spacex/jobs/8593388002?gh_jid=8593388002",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-07-24T21:18:07Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": "2+ years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "python"
+        ],
+        "partial": [],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 23,
+        "experience": 15,
+        "security_relevance": 4,
+        "location": 2,
+        "language": 10,
+        "education": 5,
+        "career_value": 4
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include python."
+      ],
+      "warnings": [],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars. SECURITY ENGINEER (EMBEDDED OT) SpaceX is looking for a Security Engineer to join our Information Security department to help protect and drive the SpaceX mission. Information drives our business and we must protect the confidentiality, integrity, and availability of systems and processes across the enterprise. As a highly visible and dynamic organization, we must also value and guard against damage to our reputation and brand. It is paramount that we defend against loss of control or confidence in our systems, to guarantee the highest probability of success. This role will focus on the \"behind the scenes\" technologies that ensure our networks and systems are up to industry and SpaceX standards of information security. It will also focus on providing high-criticality and high-risk services, with the confidentiality, integrity, and availability of those services in mind. RESPONSIBILITIES: Design, build, an…"
+    },
+    {
+      "report_number": 24,
+      "job_key": "deefff99e288803bab5a",
+      "status": "NEW",
+      "score": 83,
+      "score_label": "STRONG",
+      "title": "Security Engineer (Embedded OT)",
+      "company": "SpaceX",
+      "location": "Cape Canaveral, FL",
+      "working_model": "On-site / not specified",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8593389002?gh_jid=8593389002",
+      "apply_url": "https://boards.greenhouse.io/spacex/jobs/8593389002?gh_jid=8593389002",
+      "canonical_url": "https://boards.greenhouse.io/spacex/jobs/8593389002?gh_jid=8593389002",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-07-24T21:18:07Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": "2+ years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "python"
+        ],
+        "partial": [],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 23,
+        "experience": 15,
+        "security_relevance": 4,
+        "location": 2,
+        "language": 10,
+        "education": 5,
+        "career_value": 4
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include python."
+      ],
+      "warnings": [],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars. SECURITY ENGINEER (EMBEDDED OT) SpaceX is looking for a Security Engineer to join our Information Security department to help protect and drive the SpaceX mission. Information drives our business and we must protect the confidentiality, integrity, and availability of systems and processes across the enterprise. As a highly visible and dynamic organization, we must also value and guard against damage to our reputation and brand. It is paramount that we defend against loss of control or confidence in our systems, to guarantee the highest probability of success. This role will focus on the \"behind the scenes\" technologies that ensure our networks and systems are up to industry and SpaceX standards of information security. It will also focus on providing high-criticality and high-risk services, with the confidentiality, integrity, and availability of those services in mind. RESPONSIBILITIES: Design, build, an…"
+    },
+    {
+      "report_number": 25,
+      "job_key": "7946130c6b36aeb92ef8",
+      "status": "NEW",
+      "score": 83,
+      "score_label": "STRONG",
+      "title": "Embedded Security Engineer (Starlink)",
+      "company": "SpaceX",
+      "location": "Redmond, WA",
+      "working_model": "On-site / not specified",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8543670002?gh_jid=8543670002",
+      "apply_url": "https://boards.greenhouse.io/spacex/jobs/8543670002?gh_jid=8543670002",
+      "canonical_url": "https://boards.greenhouse.io/spacex/jobs/8543670002?gh_jid=8543670002",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-07-24T21:18:03Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": "2+ years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "frida",
+          "python"
+        ],
+        "partial": [],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 23,
+        "experience": 15,
+        "security_relevance": 4,
+        "location": 2,
+        "language": 10,
+        "education": 5,
+        "career_value": 4
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include frida, python."
+      ],
+      "warnings": [],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of enabling human life on Mars. EMBEDDED SECURITY ENGINEER (STARLINK) At SpaceX we’re leveraging our experience in building rockets and spacecraft to deploy Starlink, the world’s most advanced broadband internet system. Starlink is the world’s largest satellite constellation and is providing fast, reliable internet to millions of users worldwide. We design, build, test, and operate all parts of the system – thousands of satellites, consumer receivers that allow users to connect within minutes of unboxing, and the software that brings it all together. We’ve only begun to scratch the surface of Starlink’s potential global impact and are looking for best-in-class engineers to help maximize Starlink’s utility for communities and businesses around the globe. As a Security Software Engineer you will influence the security of software across our product lines. We are looking for people with a track record of shipping reliable software and who…"
+    },
+    {
+      "report_number": 26,
+      "job_key": "59039a1f42a8c045cc25",
+      "status": "NEW",
+      "score": 82,
+      "score_label": "STRONG",
+      "title": "Security Engineer, Detection Response",
+      "company": "Vercel",
+      "location": "Berlin, Germany",
+      "working_model": "Hybrid",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6111332004",
+      "apply_url": "https://job-boards.greenhouse.io/vercel/jobs/6111332004",
+      "canonical_url": "https://job-boards.greenhouse.io/vercel/jobs/6111332004",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-08-13T21:38:18Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "frida",
+          "python"
         ],
         "partial": [
+          "aws",
           "cloud security",
           "nist",
           "siem"
+        ],
+        "missing": [],
+        "nice_to_have": [
+          "api security (match)"
+        ]
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 18,
+        "experience": 11,
+        "security_relevance": 6,
+        "location": 10,
+        "language": 10,
+        "education": 3,
+        "career_value": 4
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "The role is based in Berlin/Germany.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include frida, python."
+      ],
+      "warnings": [
+        "Exposure only; do not claim deep expertise: aws, cloud security, nist, siem"
+      ],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "About Vercel: Vercel is the agentic infrastructure company. We free people and agents to ship what’s next. For more than a decade, Vercel has shaped how the web is built. As the team behind Next.js, v0, and AI SDK, we create products that help builders move from idea to production with speed, security, and exceptional developer experience. Now, software is entering a new era, and the next generation of products will not just be used by people. They will be built, extended, and operated by agents. We are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. Whether you’re building our products, supporting our customers, growing our community, or shaping our story, you’ll help define what comes next. About the Role: We are looking for a Security Engineer to join our Detection Response team. In this role, you will be responsible for managing Vercel’s internal Corporate Security (CorpSec) posture, monitoring for security anomalies, building additional detections and visibility mechanisms, and ensuring the overall security of our internal systems. You will work closely with various teams to support audits,…"
+    },
+    {
+      "report_number": 27,
+      "job_key": "edfd2ebe8415f086dbee",
+      "status": "NEW",
+      "score": 82,
+      "score_label": "STRONG",
+      "title": "Application Security Engineer",
+      "company": "xAI",
+      "location": "Palo Alto, California",
+      "working_model": "On-site / not specified",
+      "url": "https://job-boards.greenhouse.io/xai/jobs/4559147007",
+      "apply_url": "https://job-boards.greenhouse.io/xai/jobs/4559147007",
+      "canonical_url": "https://job-boards.greenhouse.io/xai/jobs/4559147007",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": false,
+      "published_at": "2026-08-13T16:10:10Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": "3-5 years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "application security",
+          "burp suite",
+          "owasp",
+          "owasp zap",
+          "python",
+          "sast",
+          "security testing",
+          "threat modeling"
+        ],
+        "partial": [
+          "aws",
+          "ci/cd",
+          "devsecops"
         ],
         "missing": [
           "azure"
@@ -281,140 +1608,214 @@
       },
       "score_breakdown": {
         "title": 20,
-        "skills": 15,
-        "experience": 11,
-        "security_relevance": 4,
-        "location": 9,
-        "language": 9,
+        "skills": 19,
+        "experience": 13,
+        "security_relevance": 8,
+        "location": 2,
+        "language": 10,
         "education": 5,
-        "career_value": 4
+        "career_value": 5
       },
       "match_reasons": [
         "The title is in a high-priority target role family.",
-        "The role is based in Berlin/Germany.",
+        "The responsibilities align strongly with Application/Product Security work.",
         "No mandatory German level above the current profile was detected.",
-        "Strong evidenced skill matches include vulnerability management."
+        "Strong evidenced skill matches include application security, burp suite, owasp, owasp zap, python."
       ],
       "warnings": [
+        "Requests 3-5 years versus approximately 2.1 years in the profile.",
         "Potential skill gaps: azure",
-        "Exposure only; do not claim deep expertise: cloud security, nist, siem"
+        "Exposure only; do not claim deep expertise: aws, ci/cd, devsecops"
       ],
-      "recommendation": "GOOD - REVIEW REQUIREMENTS",
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
       "application_status": "NEW",
-      "description_excerpt": "As an IT Security Engineer (m/f/d), you will be responsible for strengthening and protecting our organization's IT environment against evolving cyber threats. You will work closely with infrastructure, software, and operational teams to design, implement, and maintain security controls that ensure the confidentiality, integrity, and availability of our systems and data. We are looking for a hands-on security professional who is passionate about cybersecurity, enjoys solving complex challenges, and thrives in a fast-paced, innovative environment. What is your Day to Day Mission: Monitor, analyze, and respond to security events, alerts, and incidents Develop and enforce security policies in collaboration with internal stakeholders, taking into account industry-specific compliance requirements Perform system hardening and security baseline management for servers, endpoints, and critical infrastructure components. Support the deployment and administration of security solutions such as Endpoint Detection & Response (EDR), SIEM, vulnerability management, and identity security platforms. Design, implementation, and operation of firewall infrastructures using Fortinet and Sophos technolog…"
+      "description_excerpt": "SpaceXAI’s mission is to create AI systems that can accurately understand the universe and aid humanity in its pursuit of knowledge. Our team is small, highly motivated, and focused on engineering excellence. This organization is for individuals who appreciate challenging themselves and thrive on curiosity. We operate with a flat organizational structure. All employees are expected to be hands-on and to contribute directly to the company’s mission. Leadership is given to those who show initiative and consistently deliver excellence. Work ethic and strong prioritization skills are important. All employees are expected to have strong communication skills. They should be able to concisely and accurately share knowledge with their teammates. ABOUT THE ROLE: We are seeking a skilled and innovative Application Security Engineer to join our technology-driven company. In this role, you will be responsible for ensuring the security and integrity of our cloud-native applications and systems throughout the software development lifecycle, with a particular focus on code security, CI/CD pipelines, and emerging AI technologies. RESPONSIBILITIES: Conduct in-depth code reviews and static analysis…"
     },
     {
-      "report_number": 6,
-      "job_key": "973ebf42ee7ab50c3088",
-      "status": "SEEN_BEFORE",
-      "score": 58,
-      "score_label": "STRETCH",
-      "title": "Java Developer (m/w/d) für Authentication & Security",
-      "company": "Mandl. Executives & Experts",
-      "location": "Munich, Germany",
-      "working_model": "Hybrid",
-      "url": "https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/java-developer-fur-authentication-security-munich-330583",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/java-developer-fur-authentication-security-munich-330583",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/java-developer-fur-authentication-security-munich-330583",
-      "source": "Arbeitnow",
+      "report_number": 28,
+      "job_key": "24365356946040eb456e",
+      "status": "NEW",
+      "score": 82,
+      "score_label": "STRONG",
+      "title": "Senior Product Security Engineer",
+      "company": "ClickHouse",
+      "location": "Netherlands (remote)",
+      "working_model": "Remote",
+      "url": "https://job-boards.greenhouse.io/clickhouse/jobs/6130151004",
+      "apply_url": "https://job-boards.greenhouse.io/clickhouse/jobs/6130151004",
+      "canonical_url": "https://job-boards.greenhouse.io/clickhouse/jobs/6130151004",
+      "source": "Greenhouse",
       "sources": [
-        "Arbeitnow"
+        "Greenhouse"
       ],
-      "original_source": "Arbeitnow",
-      "ats": "",
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
       "also_found_on": [],
-      "priority_employer": false,
-      "published_at": "2026-08-13T13:00:51Z",
-      "first_seen": "2026-08-14T03:40:19Z",
-      "experience_required": "4+ years",
-      "german_requirement": "German unspecified required",
+      "priority_employer": true,
+      "published_at": "2026-08-03T12:30:26Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
       "skill_matches": {
         "match": [
-          "kali linux"
+          "owasp",
+          "penetration testing",
+          "threat modeling",
+          "vulnerability assessment"
         ],
         "partial": [
-          "aws",
-          "ci/cd",
-          "docker"
+          "aws"
         ],
         "missing": [
+          "azure",
           "kubernetes"
         ],
         "nice_to_have": []
       },
       "score_breakdown": {
-        "title": 10,
-        "skills": 15,
-        "experience": 10,
-        "security_relevance": 4,
-        "location": 9,
-        "language": 4,
-        "education": 3,
-        "career_value": 3
+        "title": 20,
+        "skills": 17,
+        "experience": 11,
+        "security_relevance": 8,
+        "location": 6,
+        "language": 10,
+        "education": 5,
+        "career_value": 5
       },
       "match_reasons": [
-        "The role is based in Berlin/Germany.",
-        "Strong evidenced skill matches include kali linux."
+        "The title is in a high-priority target role family.",
+        "The responsibilities align strongly with Application/Product Security work.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include owasp, penetration testing, threat modeling, vulnerability assessment."
       ],
       "warnings": [
-        "German unspecified required",
-        "Requests 4+ years versus approximately 2.1 years in the profile.",
-        "Potential skill gaps: kubernetes",
-        "Exposure only; do not claim deep expertise: aws, ci/cd, docker"
+        "Potential skill gaps: azure, kubernetes",
+        "Exposure only; do not claim deep expertise: aws"
       ],
-      "recommendation": "STRETCH - apply only if the role is strategically valuable",
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
       "application_status": "NEW",
-      "description_excerpt": "Für ein etabliertes und marktführendes Medienunternehmen mit Sitz in München suchen wir einen erfahrenen Java Developer (m/w/d), der moderne Authentifizierungs- und Identity-Management-Lösungen in einer hochskalierbaren Cloud-Umgebung weiterentwickelt. Du arbeitest in einem agilen Entwicklerteam und treibst die technische Weiterentwicklung von sicherheitskritischen Anwendungen voran. Dabei stehen Themen wie Authentication, Authorization, Single Sign-On, Identity Management sowie Cloud-native Architekturen auf AWS und Kubernetes im Fokus. Aufgaben Entwicklung und Weiterentwicklung von Backend-Anwendungen mit Java Konzeption und Implementierung moderner Authentifizierungs- und Autorisierungslösungen Mitarbeit an Themen rund um Identity & Access Management (IAM) Entwicklung und Betrieb cloudnativer Anwendungen auf AWS Deployment und Betrieb von Services innerhalb einer Kubernetes-Umgebung Sicherstellung hoher Sicherheits-, Qualitäts- und Performance-Standards Qualifikation Mindestens 4 Jahre Berufserfahrung in der Softwareentwicklung mit Java Erfahrung in der Entwicklung moderner Backend-Systeme und Microservices Kenntnisse im Bereich Authentication & Authorization (z. B. OAuth2, Ope…"
+      "description_excerpt": "About ClickHouse Recognized on the 2025 Forbes Cloud 100 list, ClickHouse is one of the most innovative and fast-growing private cloud companies. With more than 4,000 customers and ARR that has grown over 250 percent year over year, ClickHouse leads the market in real-time analytics, data warehousing, observability, and AI workloads. The company’s sustained, accelerating momentum was recently validated by a $400M Series D financing round. Over the past three months, customers including Capital One, Lovable, Decagon, Polymarket, and Airwallex have adopted the platform or expanded existing deployments. These customers join an established base of AI innovators and global brands such as Meta, Cursor, Sony, and Tesla. We’re on a mission to transform how companies use data. Come be a part of our journey! About the team The Security Team is responsible for providing key security capabilities covering application, cloud and enterprise security, incident response, detection and GRC. Our team is looking for an experienced, hands-on security practitioner, who will drive the adoption of modern security processes and tooling, with focus on supporting our engineering and product teams in improv…"
     },
     {
-      "report_number": 7,
-      "job_key": "5ffa1d142e6185ca0c3b",
-      "status": "SEEN_BEFORE",
-      "score": 57,
-      "score_label": "STRETCH",
-      "title": "Professor (m/f/d) of Cybersecurity",
-      "company": "Global University Systems GmbH",
-      "location": "Potsdam - Gisma, Germany",
+      "report_number": 29,
+      "job_key": "7e460b08e8dd9ea5ff10",
+      "status": "NEW",
+      "score": 82,
+      "score_label": "STRONG",
+      "title": "Cloud Security Engineer II (AWS, SecOps)",
+      "company": "Tripadvisor",
+      "location": "Kraków",
       "working_model": "On-site / not specified",
-      "url": "https://www.arbeitnow.com/jobs/companies/global-university-systems-gmbh/professor-of-cybersecurity-potsdam-gisma-238808",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/global-university-systems-gmbh/professor-of-cybersecurity-potsdam-gisma-238808",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/global-university-systems-gmbh/professor-of-cybersecurity-potsdam-gisma-238808",
-      "source": "Arbeitnow",
+      "url": "https://job-boards.greenhouse.io/tripadvisor/jobs/7814510",
+      "apply_url": "https://job-boards.greenhouse.io/tripadvisor/jobs/7814510",
+      "canonical_url": "https://job-boards.greenhouse.io/tripadvisor/jobs/7814510",
+      "source": "Greenhouse",
       "sources": [
-        "Arbeitnow"
+        "Greenhouse"
       ],
-      "original_source": "Arbeitnow",
-      "ats": "",
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
       "also_found_on": [],
-      "priority_employer": false,
-      "published_at": "2026-08-13T02:09:17Z",
-      "first_seen": "2026-08-14T03:40:19Z",
+      "priority_employer": true,
+      "published_at": "2026-07-23T11:04:57Z",
+      "first_seen": "2026-08-15T04:18:44Z",
       "experience_required": null,
       "german_requirement": "No German requirement detected",
       "skill_matches": {
-        "match": [],
+        "match": [
+          "application security",
+          "dast",
+          "owasp",
+          "python",
+          "sast",
+          "threat modeling",
+          "vulnerability management"
+        ],
+        "partial": [
+          "aws",
+          "cloud security",
+          "siem"
+        ],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "score_breakdown": {
+        "title": 20,
+        "skills": 21,
+        "experience": 11,
+        "security_relevance": 10,
+        "location": 2,
+        "language": 10,
+        "education": 3,
+        "career_value": 5
+      },
+      "match_reasons": [
+        "The title is in a high-priority target role family.",
+        "The responsibilities align strongly with Application/Product Security work.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include application security, dast, owasp, python, sast."
+      ],
+      "warnings": [
+        "Exposure only; do not claim deep expertise: aws, cloud security, siem"
+      ],
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
+      "application_status": "NEW",
+      "description_excerpt": "About Tripadvisor The Tripadvisor Group connects people to experiences worth sharing, and aims to be the world’s most trusted source for travel and experiences. We leverage our brands, technology, and capabilities to connect our global audience with partners through rich content, travel guidance, and two-sided marketplaces for experiences, accommodations, restaurants, and other travel categories. The subsidiaries of Tripadvisor, Inc. (Nasdaq: TRIP), include a portfolio of travel brands and businesses, including Tripadvisor, Viator, and TheFork. We are looking for a hands-on Cloud Security Engineer II (AWS, SecOps) to be the first line of defense for the Tripadvisor Experiences platform. This is a critical mid-level role that blends proactive security engineering with reactive incident response. You will live and breathe in our product's cloud environment, monitoring for threats, responding to security incidents, automating defenses, and working closely with our engineering teams to build a more resilient platform. Job Location: Poland, remote. We are able to offer only permanent contracts (umowa o pracę) What You’ll Do: Product-Focused Incident Response: Monitor, analyze, and inve…"
+    },
+    {
+      "report_number": 30,
+      "job_key": "be732b0a21bd68ef2347",
+      "status": "NEW",
+      "score": 82,
+      "score_label": "STRONG",
+      "title": "Senior Product Security Engineer",
+      "company": "Mozilla",
+      "location": "Remote UK",
+      "working_model": "Remote",
+      "url": "https://job-boards.greenhouse.io/mozilla/jobs/7583571",
+      "apply_url": "https://job-boards.greenhouse.io/mozilla/jobs/7583571",
+      "canonical_url": "https://job-boards.greenhouse.io/mozilla/jobs/7583571",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "original_source": "Greenhouse",
+      "ats": "greenhouse",
+      "also_found_on": [],
+      "priority_employer": true,
+      "published_at": "2026-07-09T16:24:04Z",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "python",
+          "web security"
+        ],
         "partial": [],
         "missing": [],
         "nice_to_have": []
       },
       "score_breakdown": {
-        "title": 10,
-        "skills": 7,
+        "title": 20,
+        "skills": 23,
         "experience": 11,
-        "security_relevance": 4,
-        "location": 9,
+        "security_relevance": 8,
+        "location": 2,
         "language": 10,
         "education": 3,
-        "career_value": 3
+        "career_value": 5
       },
       "match_reasons": [
-        "The role is based in Berlin/Germany.",
-        "No mandatory German level above the current profile was detected."
+        "The title is in a high-priority target role family.",
+        "The responsibilities align strongly with Application/Product Security work.",
+        "No mandatory German level above the current profile was detected.",
+        "Strong evidenced skill matches include python, web security."
       ],
       "warnings": [],
-      "recommendation": "STRETCH - apply only if the role is strategically valuable",
+      "recommendation": "STRONG - REVIEW FOR APPLICATION",
       "application_status": "NEW",
-      "description_excerpt": "Find Jobs in Germany on Arbeitnow"
+      "description_excerpt": "Why Mozilla? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. The Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. About this team and role: addons.mozilla.org (AMO) is the foundation of the Firefox add-ons ecosystem. It’s a showcase for developers to publish and grow their extensions, and a place of discovery for millions of users who cus…"
     }
   ],
   "source_status": {
@@ -435,36 +1836,62 @@
       "error": ""
     },
     "greenhouse": {
-      "status": "idle",
+      "status": "ok",
       "ok": true,
-      "jobs": 0,
-      "requests": 0,
+      "jobs": 19883,
+      "requests": 165,
       "errors": [],
       "error": "",
-      "companies_checked": 0,
-      "companies_successful": 0,
+      "companies_checked": 165,
+      "companies_successful": 165,
       "companies_failed": 0
     }
   },
   "all_sources_failed": false,
   "rejection_summary": {
-    "Insufficient cybersecurity relevance": 849,
-    "Student/internship-only employment type": 70,
-    "Excluded seniority/employment type in title: werkstudent": 56,
-    "German C1 required": 47,
-    "Excluded seniority/employment type in title: working student": 26,
-    "Native German required": 14,
-    "German C2 required": 14,
-    "On-site role outside the target region": 11,
-    "On-site role outside Germany": 11,
-    "Mandatory experience is too senior: 8+ years": 10,
-    "Mandatory experience is too senior: 10+ years": 10,
-    "Mandatory experience is too senior: 12+ years": 1,
-    "Mandatory experience is too senior: 15+ years": 1,
-    "Mandatory experience is too senior: 12-15 years": 1,
+    "Insufficient cybersecurity relevance": 18615,
+    "On-site role outside the target region": 6304,
+    "On-site role outside Germany": 6304,
+    "Mandatory experience is too senior: 8+ years": 1372,
+    "Mandatory experience is too senior: 10+ years": 1152,
+    "Mandatory experience is too senior: 12+ years": 288,
+    "Mandatory experience is too senior: 15+ years": 205,
+    "Student/internship-only employment type": 110,
+    "German C1 required": 87,
+    "Mandatory experience is too senior: 9+ years": 83,
+    "Excluded seniority/employment type in title: werkstudent": 75,
+    "Native German required": 68,
+    "Excluded seniority/employment type in title: working student": 51,
+    "Mandatory experience is too senior: 8-10 years": 49,
+    "Mandatory experience is too senior: 10-15 years": 36,
+    "Mandatory experience is too senior: 8-12 years": 27,
+    "German C2 required": 22,
+    "Mandatory experience is too senior: 11+ years": 20,
+    "Excluded seniority/employment type in title: internship": 16,
+    "Excluded seniority/employment type in title: staff security engineer": 13,
+    "Mandatory experience is too senior: 10-12 years": 12,
+    "Score below relevance threshold (48 < 50)": 12,
+    "Mandatory experience is too senior: 12-15 years": 11,
+    "Mandatory experience is too senior: 14+ years": 10,
+    "Mandatory experience is too senior: 18+ years": 10,
+    "Mandatory experience is too senior: 20+ years": 7,
+    "Mandatory experience is too senior: 8-11 years": 5,
+    "Score below relevance threshold (46 < 50)": 5,
+    "Location is explicitly outside Germany/Europe eligibility": 4,
+    "Mandatory experience is too senior: 16+ years": 3,
+    "Mandatory experience is too senior: 13+ years": 3,
+    "Mandatory experience is too senior: 8-15 years": 2,
+    "Score below relevance threshold (47 < 50)": 2,
+    "Excluded seniority/employment type in title: principal security engineer": 2,
+    "Excluded seniority/employment type in title: chief information security officer": 2,
+    "Mandatory experience is too senior: 9-12 years": 2,
+    "Mandatory experience is too senior: 13-15 years": 2,
     "Mandatory experience is too senior: 8-9 years": 1,
-    "Score below relevance threshold (47 < 50)": 1,
     "Score below relevance threshold (49 < 50)": 1,
-    "Mandatory experience is too senior: 8-12 years": 1
+    "Excluded seniority/employment type in title: ciso": 1,
+    "Mandatory experience is too senior: 9-13 years": 1,
+    "Mandatory experience is too senior: 9-17 years": 1,
+    "Mandatory experience is too senior: 10-18 years": 1,
+    "Score below relevance threshold (45 < 50)": 1
   }
 }
