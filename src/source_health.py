@@ -5,12 +5,15 @@ from typing import Any
 from .collectors.base import CollectionResult
 
 
+COMPANY_SOURCES = {"greenhouse", "ashby", "lever", "personio"}
+
+
 def build_source_health(
     results: list[CollectionResult], generated_at: str
 ) -> dict[str, Any]:
     sources: dict[str, dict[str, Any]] = {}
     for result in results:
-        is_company_source = result.companies_checked > 0 or result.source == "greenhouse"
+        is_company_source = result.companies_checked > 0 or result.source in COMPANY_SOURCES
         if is_company_source and result.companies_checked == 0:
             status = "idle"
         elif is_company_source and result.companies_failed and result.companies_successful:

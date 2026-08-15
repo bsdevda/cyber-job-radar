@@ -1,14 +1,24 @@
 {
-  "profile_version": 1,
-  "summary": "Cybersecurity professional with a completed Master's in Computer Science - Cyber Security and 2+ years of Application Security, VAPT, and security consulting experience.",
+  "profile_version": 2,
+  "last_verified": "2026-08-15",
+  "summary": "Cybersecurity professional with a completed Master's in Computer Science - Cyber Security and 2+ years of security consulting experience across web, API, mobile and thick-client applications.",
   "experience_years": 2.1,
+  "professional_evidence": {
+    "security_assessments": "100+ web, mobile, API and thick-client assessments",
+    "high_critical_findings": "150+ high and critical vulnerabilities identified and prioritised",
+    "reports_and_sops": "50+ technical security reports and SOPs",
+    "client_context": "30+ enterprise clients and coordination across a 12-analyst team",
+    "ci_cd_scope": "Selected Jenkins projects integrating Fortify SAST and DAST checks",
+    "career_continuity": "McDonald's restaurant operations: part-time August 2024-June 2025 and full-time July 2025-present, alongside German study and continued cybersecurity development",
+    "current_development": "Independent OWASP-based security learning, German study and development of the Python/GitHub Actions Cybersecurity Job Radar"
+  },
   "education": [
-    "Master's in Computer Science - Cyber Security",
-    "Bachelor's in Information Technology"
+    "Master of Science in Computer Science - Cyber Security, completed May 2025",
+    "Bachelor of Science in Information Technology"
   ],
   "languages": {
     "english": "C1",
-    "german": "A2 (working toward B1)"
+    "german": "A2 (currently studying toward B1)"
   },
   "target_locations": [
     "Berlin",
@@ -16,17 +26,34 @@
     "Remote Germany",
     "Europe Remote"
   ],
+  "target_role_families": [
+    "Application Security",
+    "Product Security",
+    "Penetration Testing",
+    "Security Testing",
+    "Vulnerability Management",
+    "Security Engineering",
+    "Cloud Security / DevSecOps",
+    "SOC / Detection",
+    "IT Audit / GRC"
+  ],
   "skill_status": {
     "application security": "match",
     "appsec": "match",
+    "product security": "partial",
     "api security": "match",
     "web security": "match",
     "mobile security": "match",
+    "thick client security": "match",
     "penetration testing": "match",
     "vapt": "match",
     "vulnerability assessment": "match",
     "vulnerability management": "match",
+    "vulnerability triage": "match",
     "security testing": "match",
+    "secure code review": "match",
+    "remediation guidance": "match",
+    "stakeholder communication": "match",
     "secure sdlc": "match",
     "threat modeling": "match",
     "owasp": "match",
@@ -37,12 +64,11 @@
     "nikto": "match",
     "metasploit": "match",
     "wireshark": "match",
-    "fortify": "match",
-    "fortify sca": "match",
-    "fortify sast": "match",
+    "fortify static code analyzer": "match",
     "fortify webinspect": "match",
     "sast": "match",
     "dast": "match",
+    "software composition analysis": "missing",
     "postman": "match",
     "frida": "match",
     "mobsf": "match",
@@ -52,7 +78,13 @@
     "kali linux": "match",
     "cvss": "match",
     "security reporting": "match",
+    "security automation": "match",
     "python": "match",
+    "javascript": "partial",
+    "php": "partial",
+    "mysql": "partial",
+    "git": "partial",
+    "github actions": "partial",
     "splunk": "partial",
     "siem": "partial",
     "jenkins": "partial",
@@ -65,7 +97,36 @@
     "iso 27001": "missing",
     "gdpr": "missing",
     "azure": "missing",
-    "kubernetes": "missing"
+    "kubernetes": "missing",
+    "go": "missing",
+    "terraform": "missing"
   },
-  "honesty_note": "Statuses describe evidence in the supplied CV/profile. Partial means exposure, not production-depth expertise."
+  "skill_evidence": {
+    "application_security_testing": [
+      "Professional assessments across web, API, mobile and thick-client applications",
+      "Manual testing with Burp Suite, OWASP ZAP, Postman and mobile-security tools"
+    ],
+    "secure_development": [
+      "Manual secure code review and Fortify Static Code Analyzer assessments",
+      "Threat modelling and remediation guidance throughout security projects",
+      "Selected Jenkins integrations using Fortify SAST and WebInspect DAST"
+    ],
+    "communication": [
+      "Technical reports and SOPs for technical and non-technical stakeholders",
+      "Vulnerability prioritisation using OWASP and CVSS v3.1"
+    ],
+    "automation_and_programming": [
+      "Python automation for recurring penetration-testing activities",
+      "Academic full-stack project using JavaScript, PHP and MySQL",
+      "Current Python and GitHub Actions Cybersecurity Job Radar project"
+    ]
+  },
+  "truthful_constraints": [
+    "Product Security is a target role supported by transferable Application Security evidence, not a previous job title.",
+    "Jenkins, CI/CD, DevSecOps, AWS, Docker and cloud security are exposure or limited-project areas, not production-depth expertise.",
+    "Do not claim Kubernetes, Azure, Go, Terraform, ISO 27001 or GDPR implementation experience.",
+    "German is A2 and currently progressing toward B1; do not claim B1 completion.",
+    "Professional cybersecurity experience is approximately 2.1 years."
+  ],
+  "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
 }

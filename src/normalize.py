@@ -108,6 +108,7 @@ def normalize_job(raw: dict[str, Any]) -> dict[str, Any]:
     location, country, remote, hybrid = normalize_location(
         str(raw.get("location") or ""), bool(raw.get("remote")), description
     )
+    hybrid = bool(raw.get("hybrid")) or hybrid
     source = str(raw.get("source") or "Unknown")
     company = html_to_text(str(raw.get("company") or "Unknown company"))
     title = html_to_text(str(raw.get("title") or "Untitled role"))

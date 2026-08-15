@@ -1157,10 +1157,173 @@
       "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
     }
   ],
-  "lever": [],
-  "ashby": [],
+  "lever": [
+    {
+      "name": "Crypto.com",
+      "site": "crypto",
+      "region": "global",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin and global; Application Security, blockchain security and information security"
+    },
+    {
+      "name": "Westernacher Consulting",
+      "site": "westernacher",
+      "region": "eu",
+      "priority": false,
+      "enabled": true,
+      "notes": "Berlin/Germany consulting employer; monitor cyber and technology-risk roles"
+    },
+    {
+      "name": "Veeva Systems",
+      "site": "veeva",
+      "region": "global",
+      "priority": false,
+      "enabled": true,
+      "notes": "Germany locations and remote roles; monitor security engineering vacancies"
+    },
+    {
+      "name": "Pipedrive",
+      "site": "pipedrive",
+      "region": "global",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin technology employer; monitor product and application security roles"
+    },
+    {
+      "name": "OLX",
+      "site": "olx",
+      "region": "eu",
+      "priority": false,
+      "enabled": true,
+      "notes": "Berlin and European employer; monitor Germany and Europe-remote security roles"
+    },
+    {
+      "name": "Saviynt",
+      "site": "saviynt",
+      "region": "global",
+      "priority": false,
+      "enabled": true,
+      "notes": "Identity-security employer with Germany-remote vacancies"
+    }
+  ],
+  "ashby": [
+    {
+      "name": "KAYAK",
+      "board": "kayak",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin office; Security Engineering and security operations"
+    },
+    {
+      "name": "Moss",
+      "board": "moss",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin fintech startup; cloud, product and security operations roles"
+    },
+  {
+    "name": "vCluster Labs",
+    "board": "vClusterLabs",
+      "priority": true,
+      "enabled": true,
+      "notes": "Germany/Berlin remote; Application and Product Security"
+    },
+    {
+      "name": "Qdrant",
+      "board": "qdrant.tech",
+      "priority": true,
+      "enabled": true,
+      "notes": "Germany remote; Security Engineering and GRC"
+    },
+    {
+      "name": "SoSafe",
+      "board": "sosafe",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin/Cologne cybersecurity scale-up; monitor technical security roles"
+    },
+    {
+      "name": "Eye Security",
+      "board": "eye-security",
+      "priority": false,
+      "enabled": true,
+      "notes": "Berlin hybrid cybersecurity scale-up"
+    },
+    {
+      "name": "Enpal",
+      "board": "enpal",
+      "priority": false,
+      "enabled": true,
+      "notes": "Berlin startup; monitor future non-intern security engineering roles"
+    },
+    {
+      "name": "Langdock",
+      "board": "langdock",
+      "priority": false,
+      "enabled": true,
+      "notes": "Berlin AI startup; monitor future individual-contributor security roles"
+    }
+  ],
+  "personio": [
+    {
+      "name": "Wire",
+      "account": "wire-1",
+      "language": "en",
+      "priority": true,
+      "enabled": true,
+      "notes": "Berlin secure communications company; Product Security"
+    },
+  {
+    "name": "Scalian Germany",
+    "account": "scalian-germany",
+      "language": "de",
+      "priority": false,
+      "enabled": true,
+      "notes": "Berlin and Germany; penetration testing and cyber security engineering"
+    },
+    {
+      "name": "Perseus Technologies",
+      "account": "perseus",
+      "language": "de",
+      "priority": false,
+      "enabled": true,
+      "notes": "Berlin cybersecurity employer; incident response and cyber operations"
+    },
+    {
+      "name": "SysEleven",
+      "account": "syseleven",
+      "language": "de",
+      "priority": false,
+      "enabled": true,
+      "notes": "Berlin cloud and infrastructure employer"
+    },
+    {
+      "name": "LiveEO",
+      "account": "liveeo-gmbh",
+      "language": "en",
+      "priority": false,
+      "enabled": true,
+      "notes": "Berlin technology startup; monitor product and cloud security roles"
+    },
+  {
+    "name": "KNIME",
+    "account": "knime",
+    "language": "en",
+    "priority": true,
+    "enabled": true,
+    "notes": "Berlin/Konstanz technology company; Application Security and Product Security"
+    },
+    {
+      "name": "DNS:NET",
+      "account": "dnsnet",
+      "language": "de",
+      "priority": false,
+      "enabled": true,
+      "notes": "Berlin network operator; monitor suitable hands-on IT security roles"
+    }
+  ],
   "recruitee": [],
   "smartrecruiters": [],
-  "notes": "Greenhouse watchlist for Berlin, Germany and Europe-remote cybersecurity roles. Contains 165 enabled public boards: the original 15 plus 150 live-validated additions, including 19 additional Berlin employers. Board endpoints were checked against the public Greenhouse Job Board API on 2026-08-14. Priority status is reported separately and never inflates technical-fit scoring."
+  "notes": "Multi-ATS watchlist for Berlin, Germany and Europe-remote cybersecurity roles: 165 Greenhouse boards plus validated starter lists for Ashby, Lever and Personio. Priority status is reported separately and never inflates technical-fit scoring."
 }
-

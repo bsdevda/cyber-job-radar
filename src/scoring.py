@@ -6,30 +6,35 @@ from .utils import normalize_text
 
 
 SCORE_WEIGHTS = {
-    "title": 20,
+    "role_alignment": 20,
     "skills": 25,
     "experience": 15,
-    "security_relevance": 10,
-    "location": 10,
+    "location": 15,
     "language": 10,
+    "seniority": 10,
     "education": 5,
-    "career_value": 5,
 }
 
 
 def score_job(job: dict[str, Any], config: dict[str, Any], profile: dict[str, Any]) -> dict[str, Any]:
     breakdown = {
-        "title": _title_score(job, config),
+        "role_alignment": _role_alignment_score(job),
         "skills": _skills_score(job),
         "experience": _experience_score(job.get("experience_analysis")),
-        "security_relevance": _security_relevance_score(job),
-        "location": _location_score(job),
+        "location": int(job.get("location_analysis", {}).get("score", 0)),
         "language": _language_score(job.get("german_analysis", {})),
+        "seniority": _seniority_score(job.get("seniority_analysis", {})),
         "education": _education_score(job),
-        "career_value": _career_value_score(job),
     }
-    score = max(0, min(100, sum(breakdown.values())))
+    raw_score = max(0, min(100, sum(breakdown.values())))
+    caps = _score_caps(job)
+    cap = min((item["cap"] for item in caps), default=100)
+    score = min(raw_score, cap)
+
+    job["raw_score"] = raw_score
     job["score"] = score
+    job["score_cap"] = cap if cap < 100 else None
+    job["score_cap_reasons"] = [item["reason"] for item in caps if item["cap"] == cap]
     job["score_breakdown"] = breakdown
     job["score_label"] = score_label(score)
     job["match_reasons"] = _match_reasons(job, breakdown)
@@ -37,79 +42,57 @@ def score_job(job: dict[str, Any], config: dict[str, Any], profile: dict[str, An
     return job
 
 
-def _title_score(job: dict[str, Any], config: dict[str, Any]) -> int:
-    title = job.get("normalized_title") or normalize_text(job.get("title", ""))
-    for tier, points in (("tier_1", 20), ("tier_2", 17), ("tier_3", 13)):
-        if any(role in title or title in role for role in config["target_roles"][tier]):
-            return points
-    if any(term in title for term in ("security", "cyber", "vulnerability", "devsecops", "risk", "audit")):
-        return 10
-    return 6
+def _role_alignment_score(job: dict[str, Any]) -> int:
+    role = job.get("role_family", {})
+    priority = int(role.get("priority", 3))
+    confidence = role.get("confidence", "low")
+    base = {1: 20, 2: 16, 3: 12}.get(priority, 10)
+    return max(8, base - (2 if confidence == "low" else 0))
 
 
 def _skills_score(job: dict[str, Any]) -> int:
+    requirements = [
+        item for item in job.get("skill_requirements", []) if item.get("requirement") != "optional"
+    ]
+    if requirements:
+        values = {"match": 1.0, "partial": 0.5, "missing": 0.0}
+        ratio = sum(values.get(item.get("profile_status", "missing"), 0.0) for item in requirements)
+        ratio /= len(requirements)
+        optional_bonus = min(
+            2.0,
+            sum(
+                0.35 if item.get("profile_status") == "match" else 0.15
+                for item in job.get("skill_requirements", [])
+                if item.get("requirement") == "optional"
+            ),
+        )
+        return round(min(25, 4 + 19 * ratio + optional_bonus))
+
     categories = job.get("skill_matches", {})
     matched = len(categories.get("match", []))
     partial = len(categories.get("partial", []))
     missing = len(categories.get("missing", []))
     total = matched + partial + missing
     if total == 0:
-        return 7
-    ratio = (matched + 0.55 * partial) / total
-    optional = categories.get("nice_to_have", [])
-    optional_bonus = min(
-        2.0,
-        sum(0.3 if item.endswith("(match)") else 0.15 if item.endswith("(partial)") else 0 for item in optional),
-    )
-    return round(min(25, 5 + 18 * ratio + optional_bonus))
+        return 5
+    return round(min(25, 4 + 19 * ((matched + 0.5 * partial) / total)))
 
 
 def _experience_score(experience: dict[str, Any] | None) -> int:
     if not experience:
-        return 11
+        return 10
     years = int(experience.get("min_years", 0))
     if experience.get("optional"):
         years = max(0, years - 1)
     if years <= 2:
         return 15
     if years == 3:
-        return 13
+        return 12
     if years == 4:
-        return 10
+        return 8
     if years == 5:
-        return 7
-    if years <= 7:
         return 4
     return 0
-
-
-def _security_relevance_score(job: dict[str, Any]) -> int:
-    text = normalize_text(f"{job.get('title', '')} {job.get('description', '')}")
-    appsec_terms = (
-        "application security", "appsec", "product security", "api security", "web security",
-        "mobile security", "penetration test", "sast", "dast", "secure sdlc", "threat model",
-    )
-    hits = sum(term in text for term in appsec_terms)
-    if hits >= 4:
-        return 10
-    if hits >= 2:
-        return 8
-    if hits == 1:
-        return 6
-    return 4
-
-
-def _location_score(job: dict[str, Any]) -> int:
-    location = normalize_text(job.get("location", ""))
-    if "berlin" in location:
-        return 10
-    if job.get("country") == "Germany":
-        return 9
-    if job.get("remote") and job.get("country") in {"Europe", "Worldwide"}:
-        return 8
-    if job.get("remote") and not job.get("country"):
-        return 6
-    return 2
 
 
 def _language_score(german: dict[str, Any]) -> int:
@@ -119,33 +102,69 @@ def _language_score(german: dict[str, Any]) -> int:
     if category == "nice":
         return 9
     if category == "B1":
-        return 7
+        return 6
     if category == "B2":
-        return 3
-    if category in {"C1", "C2", "native"}:
         return 1
+    if category in {"C1", "C2", "native"}:
+        return 0
     return 4
+
+
+def _seniority_score(seniority: dict[str, Any]) -> int:
+    return {
+        "junior": 10,
+        "mid_unspecified": 10,
+        "senior": 4,
+        "lead": 0,
+        "staff_principal": 0,
+        "manager": 0,
+        "executive": 0,
+    }.get(seniority.get("level", "mid_unspecified"), 7)
 
 
 def _education_score(job: dict[str, Any]) -> int:
     text = normalize_text(job.get("description", ""))
-    if any(term in text for term in ("master degree", "master's degree", "computer science", "cyber security", "cybersecurity degree")):
-        return 5
-    if any(term in text for term in ("bachelor", "university degree", "degree in")):
+    if any(
+        term in text
+        for term in (
+            "master degree", "master's degree", "computer science", "cyber security",
+            "cybersecurity degree", "bachelor", "university degree", "degree in",
+        )
+    ):
         return 5
     return 3
 
 
-def _career_value_score(job: dict[str, Any]) -> int:
-    text = normalize_text(f"{job.get('title', '')} {job.get('description', '')}")
-    if any(term in text for term in ("application security", "appsec", "product security")):
-        return 5
-    growth = sum(term in text for term in ("api security", "sast", "dast", "secure sdlc", "threat model", "devsecops", "cloud security"))
-    if growth >= 3:
-        return 5
-    if growth >= 1 or "security engineer" in text:
-        return 4
-    return 3
+def _score_caps(job: dict[str, Any]) -> list[dict[str, Any]]:
+    caps: list[dict[str, Any]] = []
+    location_cap = job.get("location_analysis", {}).get("score_cap")
+    if location_cap:
+        caps.append({"cap": int(location_cap), "reason": job["location_analysis"]["reason"]})
+
+    seniority = job.get("seniority_analysis", {}).get("level")
+    if seniority == "senior":
+        caps.append({"cap": 69, "reason": "Senior title is above the profile's current 2+ years"})
+
+    experience = job.get("experience_analysis")
+    if experience and not experience.get("optional"):
+        years = int(experience.get("min_years", 0))
+        if years >= 5:
+            caps.append({"cap": 59, "reason": f"Mandatory experience requirement is {experience['display']}"})
+        elif years == 4:
+            caps.append({"cap": 69, "reason": f"Mandatory experience requirement is {experience['display']}"})
+        elif years == 3:
+            caps.append({"cap": 79, "reason": f"Mandatory experience requirement is {experience['display']}"})
+
+    german = job.get("german_analysis", {})
+    if german.get("mandatory") and german.get("category") == "B1":
+        caps.append({"cap": 69, "reason": "German B1 is mandatory while the profile is currently A2"})
+
+    mandatory_gaps = job.get("mandatory_gaps", [])
+    if any(item.get("profile_status") == "missing" for item in mandatory_gaps):
+        caps.append({"cap": 69, "reason": "At least one explicitly mandatory skill is not evidenced"})
+    elif mandatory_gaps:
+        caps.append({"cap": 79, "reason": "At least one explicitly mandatory skill has exposure only"})
+    return caps
 
 
 def score_label(score: int) -> str:
@@ -163,45 +182,58 @@ def score_label(score: int) -> str:
 
 
 def recommendation(score: int) -> str:
-    if score >= 90:
+    if score >= 85:
         return "APPLY FIRST - verify the full vacancy and tailor the CV"
     if score >= 80:
-        return "STRONG - REVIEW FOR APPLICATION"
+        return "APPLY - strong evidence-based match"
     if score >= 70:
-        return "GOOD - REVIEW REQUIREMENTS"
+        return "REVIEW - verify mandatory requirements before applying"
     if score >= 60:
-        return "REVIEW - check gaps before applying"
-    return "STRETCH - apply only if the role is strategically valuable"
+        return "REVIEW - material seniority, language, or skill risk"
+    return "STRETCH - apply only after manually resolving the flagged risks"
 
 
 def _match_reasons(job: dict[str, Any], breakdown: dict[str, int]) -> list[str]:
     reasons: list[str] = []
-    if breakdown["title"] >= 17:
-        reasons.append("The title is in a high-priority target role family.")
-    if breakdown["security_relevance"] >= 8:
-        reasons.append("The responsibilities align strongly with Application/Product Security work.")
-    if breakdown["location"] >= 9:
-        reasons.append("The role is based in Berlin/Germany.")
-    if breakdown["language"] >= 9:
-        reasons.append("No mandatory German level above the current profile was detected.")
-    if job.get("skill_matches", {}).get("match"):
-        skills = ", ".join(job["skill_matches"]["match"][:5])
-        reasons.append(f"Strong evidenced skill matches include {skills}.")
+    role = job.get("role_family", {})
+    if breakdown["role_alignment"] >= 16:
+        reasons.append(f"Role family: {role.get('label', 'target security role')}.")
+    location = job.get("location_analysis", {})
+    if location.get("category") == "eligible_germany":
+        reasons.append("The role is based in Berlin/Germany or explicitly accepts Germany.")
+    elif location.get("eligible"):
+        reasons.append(location.get("reason", "Remote eligibility detected.") + ".")
+    matches = job.get("skill_matches", {}).get("match", [])
+    if matches:
+        reasons.append("Evidenced matches include " + ", ".join(matches[:5]) + ".")
+    if breakdown["experience"] >= 12:
+        reasons.append("The detected experience requirement is within or close to the 2+ year profile.")
     return reasons[:4]
 
 
 def _warnings(job: dict[str, Any], profile: dict[str, Any]) -> list[str]:
     warnings: list[str] = []
+    location = job.get("location_analysis", {})
+    if location.get("verification_required"):
+        warnings.append(location.get("reason", "Verify location eligibility."))
     german = job.get("german_analysis", {})
     if german.get("category") not in {"none", "nice"}:
         warnings.append(german.get("label", "Check the German-language requirement."))
     experience = job.get("experience_analysis")
     if experience and experience.get("min_years", 0) > float(profile.get("experience_years", 0)):
-        warnings.append(f"Requests {experience['display']} versus approximately {profile.get('experience_years')} years in the profile.")
-    missing = job.get("skill_matches", {}).get("missing", [])
-    if missing:
-        warnings.append("Potential skill gaps: " + ", ".join(missing[:6]))
+        warnings.append(
+            f"Requests {experience['display']} versus approximately {profile.get('experience_years')} years in the profile."
+        )
+    for label, key in (
+        ("Mandatory gaps", "mandatory_gaps"),
+        ("Potential gaps", "potential_gaps"),
+        ("Optional gaps", "optional_gaps"),
+    ):
+        values = [item.get("skill", "") for item in job.get(key, [])]
+        if values:
+            warnings.append(f"{label}: " + ", ".join(values[:6]))
     partial = job.get("skill_matches", {}).get("partial", [])
     if partial:
         warnings.append("Exposure only; do not claim deep expertise: " + ", ".join(partial[:6]))
-    return warnings
+    warnings.extend(job.get("score_cap_reasons", []))
+    return list(dict.fromkeys(warnings))

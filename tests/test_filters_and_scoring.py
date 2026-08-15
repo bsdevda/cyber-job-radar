@@ -49,6 +49,72 @@ class FiltersAndScoringTests(unittest.TestCase):
         self.assertFalse(allowed)
         self.assertTrue(any("seniority" in reason for reason in reasons))
 
+    def test_rejects_staff_plus_and_remote_canada(self) -> None:
+        staff = self._job(
+            "Staff+ Application Security Engineer",
+            "Lead application security and OWASP work.",
+        )
+        allowed, reasons = hard_filter(staff, self.config)
+        self.assertFalse(allowed)
+        self.assertTrue(any("Staff/Principal" in reason for reason in reasons))
+
+        canada = self._job(
+            "Product Security Engineer",
+            "Perform product security reviews.",
+            location="Remote Canada",
+        )
+        canada["remote"] = True
+        allowed, reasons = hard_filter(canada, self.config)
+        self.assertFalse(allowed)
+        self.assertTrue(any("outside" in reason for reason in reasons))
+
+    def test_explicit_us_location_overrides_worldwide_company_copy(self) -> None:
+        job = self._job(
+            "Product Security Engineer",
+            "We are a global remote company and work from anywhere. Perform product security reviews.",
+            location="Remote - United States",
+        )
+        job["remote"] = True
+        allowed, reasons = hard_filter(job, self.config)
+        self.assertFalse(allowed)
+        self.assertTrue(any("outside" in reason for reason in reasons))
+
+        job = self._job(
+            "Application Security Engineer",
+            "Candidates in Germany can sometimes work with our global team.",
+            location="Remote US",
+        )
+        job["remote"] = True
+        allowed, reasons = hard_filter(job, self.config)
+        self.assertFalse(allowed)
+        self.assertTrue(any("outside" in reason for reason in reasons))
+
+    def test_rejects_non_cyber_title_with_security_terms_only_in_description(self) -> None:
+        job = self._job(
+            "Cloud Engineer",
+            "Maintain cloud systems using IAM, vulnerability management, security testing, and incident response.",
+        )
+        allowed, reasons = hard_filter(job, self.config)
+        self.assertFalse(allowed)
+        self.assertIn("Insufficient cybersecurity relevance", reasons)
+
+        professor = self._job(
+            "Professor of Cybersecurity",
+            "Teach cybersecurity, penetration testing, and vulnerability management.",
+        )
+        allowed, reasons = hard_filter(professor, self.config)
+        self.assertFalse(allowed)
+        self.assertIn("Insufficient cybersecurity relevance", reasons)
+
+    def test_rejects_mandatory_b2_german(self) -> None:
+        job = self._job(
+            "Security Tester",
+            "German B2 is required. Perform OWASP security testing.",
+        )
+        allowed, reasons = hard_filter(job, self.config)
+        self.assertFalse(allowed)
+        self.assertTrue(any("German B2" in reason for reason in reasons))
+
     def test_rejects_native_german_requirement(self) -> None:
         job = self._job("Security Consultant", "Native German is mandatory. Perform penetration testing and OWASP reviews.")
         allowed, reasons = hard_filter(job, self.config)
@@ -65,7 +131,9 @@ class FiltersAndScoringTests(unittest.TestCase):
         self.assertTrue(allowed)
         score_job(job, self.config, self.profile)
         self.assertEqual(set(job["score_breakdown"]), set(SCORE_WEIGHTS))
-        self.assertEqual(job["score"], sum(job["score_breakdown"].values()))
+        self.assertEqual(job["raw_score"], sum(job["score_breakdown"].values()))
+        self.assertLessEqual(job["score"], job["raw_score"])
+        self.assertEqual(job["score_cap"], 79)
         self.assertGreaterEqual(job["score"], 70)
         self.assertLessEqual(job["score"], 100)
 

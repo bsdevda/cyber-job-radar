@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workzag-jobs>
+  <position>
+    <id>4103</id>
+    <subcompany>SecureCo GmbH</subcompany>
+    <office>Berlin, Germany</office>
+    <department>Security</department>
+    <recruitingCategory>Engineering</recruitingCategory>
+    <name>Security Tester (m/f/d)</name>
+    <jobDescriptions>
+      <jobDescription>
+        <name>Responsibilities</name>
+        <value><![CDATA[Perform web and API security testing using OWASP and Burp Suite.]]></value>
+      </jobDescription>
+      <jobDescription>
+        <name>Profile</name>
+        <value><![CDATA[German is nice to have.]]></value>
+      </jobDescription>
+    </jobDescriptions>
+    <employmentType>permanent</employmentType>
+    <seniority>experienced</seniority>
+    <schedule>full-time</schedule>
+    <yearsOfExperience>1-2</yearsOfExperience>
+    <createdAt>2026-08-15T08:00:00+0200</createdAt>
+  </position>
+</workzag-jobs>

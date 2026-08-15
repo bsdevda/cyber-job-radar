@@ -9,6 +9,7 @@ ATS_IDENTIFIERS = {
     "greenhouse": "board",
     "lever": "site",
     "ashby": "board",
+    "personio": "account",
     "recruitee": "subdomain",
     "smartrecruiters": "identifier",
 }
@@ -52,6 +53,12 @@ def validate_companies_config(config: Any) -> dict[str, Any]:
                     raise ConfigurationError(f"{label}.{boolean_field} must be true or false")
             if "notes" in entry and not isinstance(entry["notes"], str):
                 raise ConfigurationError(f"{label}.notes must be a string")
+            if ats == "lever" and entry.get("region", "global") not in {"global", "eu"}:
+                raise ConfigurationError(f"{label}.region must be 'global' or 'eu'")
+            if ats == "personio" and entry.get("language", "en") not in {
+                "de", "en", "fr", "es", "nl", "it", "pt"
+            }:
+                raise ConfigurationError(f"{label}.language is not supported by Personio")
             name = entry.get("name")
             identifier = entry.get(identifier_field)
             if not isinstance(name, str) or not name.strip():

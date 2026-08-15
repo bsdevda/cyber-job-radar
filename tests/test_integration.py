@@ -24,6 +24,7 @@ def prepare_isolated_project(target: Path) -> None:
                 "greenhouse": [],
                 "lever": [],
                 "ashby": [],
+                "personio": [],
                 "recruitee": [],
                 "smartrecruiters": [],
             },
@@ -89,8 +90,55 @@ class IntegrationTests(unittest.TestCase):
             self.assertEqual(len(greenhouse_jobs), 1)
             self.assertTrue(greenhouse_jobs[0]["priority_employer"])
             report = (target / "reports/latest.md").read_text(encoding="utf-8")
-            self.assertIn("**ATS:** Greenhouse", report)
+            self.assertIn("**Source / ATS:** Greenhouse / Greenhouse", report)
             self.assertIn("**Priority employer:** YES", report)
+
+    def test_offline_run_with_ashby_lever_and_personio(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_directory:
+            target = Path(temp_directory)
+            prepare_isolated_project(target)
+            companies_path = target / "config/companies.json"
+            companies = json.loads(companies_path.read_text(encoding="utf-8"))
+            companies["ashby"] = [
+                {"name": "SecureCo GmbH", "board": "secureco", "enabled": True}
+            ]
+            companies["lever"] = [
+                {
+                    "name": "SecureCo GmbH",
+                    "site": "secureco",
+                    "region": "global",
+                    "enabled": True,
+                }
+            ]
+            companies["personio"] = [
+                {
+                    "name": "SecureCo GmbH",
+                    "account": "secureco",
+                    "language": "en",
+                    "enabled": True,
+                }
+            ]
+            companies_path.write_text(
+                json.dumps(companies, indent=2) + "\n", encoding="utf-8"
+            )
+
+            payload = run(target, ROOT / "tests/fixtures", no_archive=True)
+            self.assertEqual(payload["summary"]["jobs_collected"], 8)
+            for source in ("ashby", "lever", "personio"):
+                self.assertEqual(payload["source_status"][source]["status"], "ok")
+                self.assertEqual(payload["source_status"][source]["jobs"], 1)
+            jobs = json.loads((target / "data/jobs.json").read_text(encoding="utf-8"))
+            self.assertEqual(
+                {job.get("ats") for job in jobs if job.get("ats")},
+                {"ashby", "lever", "personio"},
+            )
+            handoff = json.loads(
+                (target / "reports/chatgpt_handoff.json").read_text(encoding="utf-8")
+            )
+            self.assertTrue(handoff["candidate_profile"]["truthful_constraints"])
+            self.assertTrue(all(job.get("full_description") for job in handoff["jobs"]))
+            self.assertTrue((target / "data/weekly_analytics.json").exists())
+            self.assertTrue((target / "reports/weekly.md").exists())
 
     def test_one_source_failure_does_not_stop_report(self) -> None:
         with tempfile.TemporaryDirectory() as temp_directory:

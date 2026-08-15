@@ -41,7 +41,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/jobs.json data/seen_jobs.json data/job_history.json data/source_health.json reports/latest.md reports/latest.json reports/archive/
+          git add data/jobs.json data/seen_jobs.json data/job_history.json data/source_health.json data/weekly_analytics.json reports/latest.md reports/latest.json reports/chatgpt_handoff.json reports/weekly.md reports/archive/
           if git diff --cached --quiet; then
             echo "No radar changes to commit."
           else

@@ -105,11 +105,14 @@ class HttpClient:
     backoff_seconds: float = 1.0
     user_agent: str = "CyberJobRadar/1.0"
 
-    def get_json(self, url: str) -> dict[str, Any]:
+    def get_json(self, url: str) -> Any:
+        return json.loads(self.get_text(url, accept="application/json"))
+
+    def get_text(self, url: str, accept: str = "text/plain, application/xml, text/xml") -> str:
         request = Request(
             url,
             headers={
-                "Accept": "application/json",
+                "Accept": accept,
                 "User-Agent": self.user_agent,
             },
         )
@@ -118,14 +121,14 @@ class HttpClient:
             try:
                 with urlopen(request, timeout=self.timeout_seconds) as response:
                     charset = response.headers.get_content_charset() or "utf-8"
-                    return json.loads(response.read().decode(charset))
+                    return response.read().decode(charset)
             except HTTPError as exc:
                 last_error = exc
                 if exc.code not in {408, 429, 500, 502, 503, 504}:
                     break
                 retry_after = exc.headers.get("Retry-After")
                 delay = float(retry_after) if retry_after and retry_after.isdigit() else self._delay(attempt)
-            except (URLError, TimeoutError, json.JSONDecodeError) as exc:
+            except (URLError, TimeoutError) as exc:
                 last_error = exc
                 delay = self._delay(attempt)
             if attempt + 1 < self.retries:

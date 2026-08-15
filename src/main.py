@@ -6,13 +6,33 @@ import sys
 from pathlib import Path
 from typing import Any
 
-from .analysis import detect_german_requirement, detect_skills, extract_experience
-from .collectors import ArbeitnowCollector, GreenhouseCollector, RemotiveCollector
+from .analysis import (
+    analyze_skill_requirements,
+    detect_german_requirement,
+    detect_skills,
+    extract_experience,
+)
+from .analytics import build_weekly_snapshot, render_weekly_markdown, update_weekly_analytics
+from .classification import classify_role, classify_seniority
+from .collectors import (
+    ArbeitnowCollector,
+    AshbyCollector,
+    GreenhouseCollector,
+    LeverCollector,
+    PersonioCollector,
+    RemotiveCollector,
+)
 from .config_validation import ConfigurationError, priority_company_names, validate_companies_config
 from .deduplication import deduplicate_jobs
+from .eligibility import assess_location
 from .filters import hard_filter, summarize_rejections
 from .normalize import content_hash, normalize_job
-from .reporting import build_report_payload, render_markdown, select_report_jobs
+from .reporting import (
+    build_chatgpt_handoff,
+    build_report_payload,
+    render_markdown,
+    select_report_jobs,
+)
 from .scoring import score_job
 from .source_health import build_source_health
 from .storage import append_run_history, apply_seen_tracking, merge_job_database
@@ -35,6 +55,9 @@ def run(project_root: Path, fixture_dir: Path | None = None, no_archive: bool = 
         "arbeitnow": ArbeitnowCollector,
         "remotive": RemotiveCollector,
         "greenhouse": GreenhouseCollector,
+        "ashby": AshbyCollector,
+        "lever": LeverCollector,
+        "personio": PersonioCollector,
     }
     results = []
     raw_jobs: list[dict[str, Any]] = []
@@ -74,6 +97,28 @@ def run(project_root: Path, fixture_dir: Path | None = None, no_archive: bool = 
         job["experience_required"] = experience["display"] if experience else None
         job["skills_detected"] = skills
         job["skill_matches"] = categories
+        requirements = analyze_skill_requirements(
+            job["description"], search_config["skill_aliases"], profile["skill_status"]
+        )
+        job["skill_requirements"] = requirements
+        job["mandatory_gaps"] = [
+            item
+            for item in requirements
+            if item["requirement"] == "mandatory" and item["profile_status"] in {"partial", "missing"}
+        ]
+        job["potential_gaps"] = [
+            item
+            for item in requirements
+            if item["requirement"] == "mentioned" and item["profile_status"] == "missing"
+        ]
+        job["optional_gaps"] = [
+            item
+            for item in requirements
+            if item["requirement"] == "optional" and item["profile_status"] in {"partial", "missing"}
+        ]
+        job["role_family"] = classify_role(job, search_config)
+        job["seniority_analysis"] = classify_seniority(job["title"])
+        job["location_analysis"] = assess_location(job, search_config)
         job["priority_employer"] = normalize_text(job["company"]) in priority_companies
         allowed, reasons = hard_filter(job, search_config)
         if not allowed:
@@ -118,6 +163,7 @@ def run(project_root: Path, fixture_dir: Path | None = None, no_archive: bool = 
         duplicate_count,
         len(rejected),
         now,
+        search_config,
     )
     payload["all_sources_failed"] = source_health["all_sources_failed"]
     payload["rejection_summary"] = summarize_rejections(rejected)
@@ -125,14 +171,31 @@ def run(project_root: Path, fixture_dir: Path | None = None, no_archive: bool = 
     history = append_run_history(
         history, run_summary, events, int(search_config["history_run_limit"])
     )
+    handoff = build_chatgpt_handoff(
+        report_jobs,
+        profile,
+        source_status,
+        payload["summary"],
+        now,
+        int(search_config.get("chatgpt_handoff_limit", 10)),
+    )
+    weekly_snapshot = build_weekly_snapshot(accepted, applications, now)
+    weekly_analytics = update_weekly_analytics(
+        load_json(data_dir / "weekly_analytics.json", {"snapshots": []}),
+        weekly_snapshot,
+        int(search_config.get("weekly_history_limit", 104)),
+    )
 
     write_json_atomic(data_dir / "jobs.json", jobs_db)
     write_json_atomic(data_dir / "seen_jobs.json", seen)
     write_json_atomic(data_dir / "job_history.json", history)
     write_json_atomic(data_dir / "source_health.json", source_health)
+    write_json_atomic(data_dir / "weekly_analytics.json", weekly_analytics)
     write_json_atomic(project_root / "reports/latest.json", payload)
-    markdown = render_markdown(payload)
+    write_json_atomic(project_root / "reports/chatgpt_handoff.json", handoff)
+    markdown = render_markdown(payload, search_config)
     write_text_atomic(project_root / "reports/latest.md", markdown)
+    write_text_atomic(project_root / "reports/weekly.md", render_weekly_markdown(weekly_analytics))
     if not no_archive:
         write_text_atomic(project_root / f"reports/archive/{now[:10]}.md", markdown)
     LOGGER.info(

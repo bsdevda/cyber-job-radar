@@ -1,11 +1,30 @@
 {
+  "scoring_version": 2,
   "timezone": "Europe/Berlin",
   "report_limit": 30,
+  "markdown_apply_first_limit": 5,
+  "markdown_top_match_score": 75,
+  "markdown_review_limit": 5,
+  "chatgpt_handoff_limit": 10,
   "strong_match_score": 80,
   "relevant_score": 50,
   "expire_after_days": 30,
   "history_run_limit": 365,
+  "weekly_history_limit": 104,
   "include_seen_fallback": true,
+  "report_excluded_application_statuses": [
+    "APPLIED",
+    "RECRUITER CONTACT",
+    "PHONE SCREEN",
+    "INTERVIEW",
+    "TECHNICAL INTERVIEW",
+    "FINAL INTERVIEW",
+    "OFFER",
+    "REJECTED",
+    "GHOSTED",
+    "SKIPPED",
+    "WITHDRAWN"
+  ],
   "target_roles": {
     "tier_1": [
       "application security engineer",
@@ -13,20 +32,22 @@
       "appsec engineer",
       "product security engineer",
       "product security specialist",
+      "penetration tester",
+      "penetration testing consultant",
+      "security tester",
+      "cyber security tester",
+      "vulnerability assessment consultant",
+      "vapt consultant",
+      "vulnerability management engineer"
+    ],
+    "tier_2": [
       "security engineer",
       "cybersecurity engineer",
       "cyber security engineer",
       "security consultant",
       "cybersecurity consultant",
-      "penetration tester",
-      "penetration testing consultant",
-      "vulnerability assessment consultant",
-      "vapt consultant"
-    ],
-    "tier_2": [
       "it security engineer",
       "information security engineer",
-      "vulnerability management engineer",
       "security analyst",
       "cybersecurity analyst",
       "soc analyst",
@@ -47,6 +68,62 @@
       "information security consultant"
     ]
   },
+  "role_families": {
+    "application_security": {
+      "label": "Application Security",
+      "priority": 1,
+      "title_terms": ["application security", "appsec"],
+      "description_terms": ["secure sdlc", "secure code review", "sast", "dast", "owasp"]
+    },
+    "product_security": {
+      "label": "Product Security",
+      "priority": 1,
+      "title_terms": ["product security", "software security"],
+      "description_terms": ["product security", "security design review", "secure by design", "threat model"]
+    },
+    "penetration_testing": {
+      "label": "Penetration Testing / VAPT",
+      "priority": 1,
+      "title_terms": ["penetration tester", "penetration testing", "pentester", "pentest", "vapt"],
+      "description_terms": ["penetration test", "vulnerability assessment", "burp suite", "offensive security"]
+    },
+    "security_testing": {
+      "label": "Security Testing",
+      "priority": 1,
+      "title_terms": ["security tester", "cyber security tester", "security test engineer"],
+      "description_terms": ["security testing", "test cases", "vulnerability testing", "sast", "dast"]
+    },
+    "vulnerability_management": {
+      "label": "Vulnerability Management",
+      "priority": 1,
+      "title_terms": ["vulnerability management", "vulnerability engineer", "vulnerability analyst"],
+      "description_terms": ["vulnerability management", "vulnerability triage", "remediation tracking", "cvss"]
+    },
+    "cloud_devsecops": {
+      "label": "Cloud Security / DevSecOps",
+      "priority": 2,
+      "title_terms": ["cloud security", "devsecops", "platform security"],
+      "description_terms": ["cloud security", "devsecops", "ci/cd security", "container security"]
+    },
+    "soc_detection": {
+      "label": "SOC / Detection and Response",
+      "priority": 2,
+      "title_terms": ["soc analyst", "detection engineer", "detection and response", "security operations", "incident response"],
+      "description_terms": ["siem", "splunk", "incident response", "detection engineering", "security monitoring"]
+    },
+    "it_audit_grc": {
+      "label": "IT Audit / GRC",
+      "priority": 3,
+      "title_terms": ["it auditor", "security auditor", "technology risk", "cyber risk", "grc", "security compliance"],
+      "description_terms": ["iso 27001", "gdpr", "risk assessment", "internal audit", "compliance"]
+    },
+    "security_engineering": {
+      "label": "Security Engineering",
+      "priority": 2,
+      "title_terms": ["security engineer", "cybersecurity engineer", "cyber security engineer", "security consultant"],
+      "description_terms": ["security engineering", "security controls", "vulnerability", "security architecture"]
+    }
+  },
   "security_discovery_terms": [
     "application security",
     "appsec",
@@ -56,6 +133,7 @@
     "penetration test",
     "pentest",
     "vapt",
+    "security testing",
     "vulnerability assessment",
     "vulnerability management",
     "security analyst",
@@ -80,13 +158,28 @@
     "head of security",
     "director of security",
     "security director",
-    "staff security engineer",
-    "principal security engineer",
     "working student",
     "werkstudent",
     "security intern",
     "cybersecurity intern",
     "internship"
+  ],
+  "hard_reject_non_cyber_title_terms": [
+    "physical security",
+    "security guard",
+    "safety specialist",
+    "professor",
+    "lecturer",
+    "reinforcement learning engineer",
+    "machine learning engineer",
+    "data scientist",
+    "java developer",
+    "backend developer",
+    "frontend developer",
+    "full stack developer",
+    "full-stack developer",
+    "account executive",
+    "sales representative"
   ],
   "outside_location_terms": [
     "united states only",
@@ -98,27 +191,50 @@
     "india only",
     "australia only"
   ],
+  "location_policy": {
+    "germany_markers": [
+      "berlin", "germany", "deutschland", "munich", "münchen", "hamburg", "frankfurt",
+      "cologne", "köln", "düsseldorf", "dusseldorf", "stuttgart", "leipzig", "dresden",
+      "potsdam", "bonn", "bremen", "hannover", "hanover", "nuremberg", "nürnberg"
+    ],
+    "europe_remote_markers": [
+      "europe remote", "remote europe", "european remote", "eu remote", "remote eu",
+      "europe, remote", "europe-wide", "across europe", "emea remote", "remote emea"
+    ],
+    "worldwide_markers": [
+      "worldwide", "anywhere", "global remote", "remote global", "work from anywhere"
+    ]
+  },
   "skill_aliases": {
     "application security": ["application security", "appsec"],
+    "product security": ["product security"],
     "api security": ["api security", "api penetration", "api testing"],
     "web security": ["web security", "web application security"],
     "mobile security": ["mobile security", "android security", "ios security"],
+    "thick client security": ["thick client security", "thick-client security", "desktop application security"],
     "penetration testing": ["penetration testing", "penetration test", "pentesting", "pentest"],
     "vulnerability assessment": ["vulnerability assessment", "security assessment"],
-    "vulnerability management": ["vulnerability management"],
-    "security testing": ["security testing"],
+    "vulnerability management": ["vulnerability management", "remediation tracking"],
+    "vulnerability triage": ["vulnerability triage", "triage vulnerabilities", "prioritize vulnerabilities", "prioritise vulnerabilities"],
+    "security testing": ["security testing", "security test"],
+    "secure code review": ["secure code review", "security code review", "source code review", "manual code review"],
+    "remediation guidance": ["remediation guidance", "remediation recommendation", "remediation advice"],
+    "stakeholder communication": ["stakeholder communication", "technical stakeholders", "non-technical stakeholders", "communicate security risk"],
     "secure sdlc": ["secure sdlc", "secure software development", "security development lifecycle", "shift left"],
     "threat modeling": ["threat modeling", "threat modelling"],
     "owasp": ["owasp"],
+    "owasp api security": ["owasp api security top 10", "owasp api top 10"],
     "burp suite": ["burp suite", "burp"],
     "owasp zap": ["owasp zap", "zaproxy"],
     "nmap": ["nmap"],
     "nikto": ["nikto"],
     "metasploit": ["metasploit"],
     "wireshark": ["wireshark"],
-    "fortify": ["fortify", "webinspect"],
+    "fortify static code analyzer": ["fortify static code analyzer", "fortify sca"],
+    "fortify webinspect": ["fortify webinspect", "webinspect"],
     "sast": ["sast", "static application security testing", "static analysis"],
     "dast": ["dast", "dynamic application security testing"],
+    "software composition analysis": ["software composition analysis", "dependency scanning", "dependency security", "sca tooling"],
     "postman": ["postman"],
     "frida": ["frida"],
     "mobsf": ["mobsf"],
@@ -128,7 +244,13 @@
     "kali linux": ["kali linux", "kali"],
     "cvss": ["cvss"],
     "security reporting": ["security reporting", "vulnerability report", "remediation report"],
+    "security automation": ["security automation", "automated security testing"],
     "python": ["python"],
+    "javascript": ["javascript", "node.js", "typescript"],
+    "php": ["php", "laravel"],
+    "mysql": ["mysql"],
+    "git": ["git", "gitlab", "github"],
+    "github actions": ["github actions"],
     "splunk": ["splunk"],
     "siem": ["siem", "security information and event management"],
     "jenkins": ["jenkins"],
@@ -139,6 +261,8 @@
     "aws": ["aws", "amazon web services"],
     "azure": ["azure"],
     "kubernetes": ["kubernetes", "k8s"],
+    "go": ["golang", " go "],
+    "terraform": ["terraform"],
     "iso 27001": ["iso 27001", "iso27001"],
     "gdpr": ["gdpr", "dsgvo"],
     "nist": ["nist", "nist csf"]

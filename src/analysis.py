@@ -15,6 +15,10 @@ MANDATORY_MARKERS = (
     "fluent", "excellent", "business fluent", "zwingend", "voraussetzung",
     "mindestens", "verhandlungssicher", "sehr gute", "fließend",
 )
+SKILL_REQUIREMENT_MARKERS = MANDATORY_MARKERS + (
+    "proven experience", "hands-on experience", "strong experience", "expertise in",
+    "strong knowledge", "solid knowledge", "you have", "you bring",
+)
 
 
 def sentences(text: str) -> list[str]:
@@ -128,6 +132,41 @@ def detect_skills(
     for values in categories.values():
         values.sort()
     return sorted(detected), categories
+
+
+def analyze_skill_requirements(
+    description: str,
+    aliases: dict[str, list[str]],
+    profile_status: dict[str, str],
+) -> list[dict[str, Any]]:
+    """Return requirement strength and short evidence for every detected skill."""
+    results: list[dict[str, Any]] = []
+    for skill, variants in aliases.items():
+        matches: list[tuple[str, str]] = []
+        for sentence in sentences(description):
+            normalized = normalize_text(sentence)
+            if not any(_contains_alias(normalized, alias) for alias in variants):
+                continue
+            if is_optional_context(normalized):
+                requirement = "optional"
+            elif any(marker in normalized for marker in SKILL_REQUIREMENT_MARKERS):
+                requirement = "mandatory"
+            else:
+                requirement = "mentioned"
+            matches.append((requirement, sentence[:260]))
+        if not matches:
+            continue
+        strengths = {"mentioned": 1, "optional": 2, "mandatory": 3}
+        requirement, evidence = max(matches, key=lambda item: strengths[item[0]])
+        results.append(
+            {
+                "skill": skill,
+                "profile_status": profile_status.get(skill, "missing"),
+                "requirement": requirement,
+                "evidence": evidence,
+            }
+        )
+    return sorted(results, key=lambda item: (item["requirement"], item["skill"]))
 
 
 def _contains_alias(sentence: str, alias: str) -> bool:

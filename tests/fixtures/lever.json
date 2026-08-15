@@ -1,0 +1,29 @@
+{
+  "sites": {
+    "secureco": [
+      {
+        "id": "lever-1",
+        "text": "Penetration Tester",
+        "categories": {
+          "location": "Berlin, Germany",
+          "allLocations": ["Berlin, Germany"],
+          "commitment": "Full-time",
+          "team": "Security",
+          "department": "Engineering"
+        },
+        "descriptionPlain": "Conduct web and API penetration testing using Burp Suite and OWASP guidance.",
+        "lists": [
+          {
+            "text": "Requirements",
+            "content": "<li>2+ years of security experience</li>"
+          }
+        ],
+        "additionalPlain": "",
+        "hostedUrl": "https://jobs.lever.co/secureco/lever-1",
+        "applyUrl": "https://jobs.lever.co/secureco/lever-1/apply",
+        "workplaceType": "hybrid",
+        "createdAt": 1786777200000
+      }
+    ]
+  }
+}

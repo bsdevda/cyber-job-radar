@@ -4,6 +4,8 @@ import re
 from collections import Counter
 from typing import Any
 
+from .classification import classify_seniority
+from .eligibility import assess_location
 from .utils import normalize_text
 
 
@@ -14,6 +16,11 @@ def hard_filter(job: dict[str, Any], config: dict[str, Any]) -> tuple[bool, list
     location = normalize_text(job.get("location", ""))
     employment = normalize_text(job.get("employment_type", ""))
 
+    seniority = job.get("seniority_analysis") or classify_seniority(job.get("title", ""))
+    job["seniority_analysis"] = seniority
+    if seniority.get("level") in {"executive", "manager", "staff_principal", "lead"}:
+        reasons.append(f"Excluded seniority in title: {seniority.get('label')}")
+
     for term in config["hard_reject_title_terms"]:
         if term in title:
             reasons.append(f"Excluded seniority/employment type in title: {term}")
@@ -21,17 +28,13 @@ def hard_filter(job: dict[str, Any], config: dict[str, Any]) -> tuple[bool, list
     if any(term in employment for term in ("intern", "internship", "working student", "werkstudent")):
         reasons.append("Student/internship-only employment type")
 
-    outside = config["outside_location_terms"]
-    if any(term in location for term in outside):
-        reasons.append("Location is explicitly outside Germany/Europe eligibility")
-    outside_countries = {"united states", "usa", "canada", "united kingdom", "uk", "india", "australia"}
-    if not job.get("remote") and job.get("country", "").casefold() in outside_countries:
-        reasons.append("On-site role outside the target region")
-    if not job.get("remote") and job.get("country") not in {"Germany", ""}:
-        reasons.append("On-site role outside Germany")
+    location_analysis = job.get("location_analysis") or assess_location(job, config)
+    job["location_analysis"] = location_analysis
+    if not location_analysis.get("eligible"):
+        reasons.append(location_analysis.get("reason", "Location is outside the target region"))
 
     german = job.get("german_analysis", {})
-    if german.get("mandatory") and german.get("category") in {"C1", "C2", "native"}:
+    if german.get("mandatory") and german.get("category") in {"B2", "C1", "C2", "native"}:
         reasons.append(german.get("label", "German proficiency is above the current profile"))
 
     experience = job.get("experience_analysis")
@@ -55,7 +58,8 @@ def hard_filter(job: dict[str, Any], config: dict[str, Any]) -> tuple[bool, list
 
 def is_cybersecurity_relevant(job: dict[str, Any], config: dict[str, Any]) -> bool:
     title = normalize_text(job.get("title", ""))
-    description = normalize_text(job.get("description", ""))
+    if any(term in title for term in config.get("hard_reject_non_cyber_title_terms", [])):
+        return False
     all_roles = [role for roles in config["target_roles"].values() for role in roles]
     if any(role in title for role in all_roles):
         return True
@@ -65,8 +69,10 @@ def is_cybersecurity_relevant(job: dict[str, Any], config: dict[str, Any]) -> bo
     )
     if any(term in title for term in title_security_terms):
         return True
-    hits = {term for term in config["security_discovery_terms"] if term in description}
-    return len(hits) >= 3
+    # Description-only matches are deliberately insufficient. Generic cloud,
+    # software, academic, sales, and physical-security jobs frequently mention
+    # several cyber terms without being cybersecurity vacancies.
+    return False
 
 
 def summarize_rejections(rejected: list[dict[str, Any]]) -> dict[str, int]:
