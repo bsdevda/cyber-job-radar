@@ -178,6 +178,92 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-08-15T17:01:09Z",
+      "scoring_version": 2,
+      "jobs_collected": 22404,
+      "unique_jobs_after_deduplication": 20520,
+      "duplicates_removed": 1884,
+      "jobs_rejected_or_below_threshold": 20482,
+      "relevant_jobs_in_current_run": 38,
+      "new_jobs": 21,
+      "updated_jobs": 2,
+      "strong_matches": 1,
+      "sources_checked": 6,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 30,
+      "jobs_by_source": {
+        "arbeitnow": 875,
+        "remotive": 16,
+        "greenhouse": 19879,
+        "ashby": 319,
+        "lever": 1113,
+        "personio": 202
+      },
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 875,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 16,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 19879,
+          "requests": 165,
+          "errors": [],
+          "error": "",
+          "companies_checked": 165,
+          "companies_successful": 165,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 319,
+          "requests": 8,
+          "errors": [],
+          "error": "",
+          "companies_checked": 8,
+          "companies_successful": 8,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1113,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 202,
+          "requests": 7,
+          "errors": [],
+          "error": "",
+          "companies_checked": 7,
+          "companies_successful": 7,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -3100,6 +3186,190 @@
       "company": "xAI",
       "title": "Software Engineer - Platform Security",
       "score": 70
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "ef7715b34e46f3bd18ea",
+      "event": "NEW",
+      "company": "Trusteq Gmbh",
+      "title": "Cybersecurity (Senior) Software Engineer (m/w/d)",
+      "score": 69
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "e00fb79de9c6d9f155d3",
+      "event": "NEW",
+      "company": "Trusteq Gmbh",
+      "title": "Cybersecurity (Senior) Consultant (m/w/d)",
+      "score": 56
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "fa71674280dee44411e9",
+      "event": "NEW",
+      "company": "Trusteq Gmbh",
+      "title": "AI Security (Senior) Consultant (m/w/d)",
+      "score": 56
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "5afeef04575b90f06129",
+      "event": "UPDATED",
+      "company": "Escape",
+      "title": "Security Advocate | AI AppSec",
+      "score": 59
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "975c260f4cccb6d07cbe",
+      "event": "UPDATED",
+      "company": "Mandl. Executives & Experts",
+      "title": "IT Security Experte (m/w/d) Incident Response & DLP",
+      "score": 76
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "adf40ac5904cb1b075ac",
+      "event": "NEW",
+      "company": "Qdrant",
+      "title": "Security Engineer",
+      "score": 74
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "b3982c1bc58ed8fd21e9",
+      "event": "NEW",
+      "company": "Eye Security",
+      "title": "SOC Analyst - Hybrid in The Hague or Berlin (f/m/x)",
+      "score": 76
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "b4e054c9836fe97015ac",
+      "event": "NEW",
+      "company": "Eye Security",
+      "title": "Junior Cyber Security Consultant (m/f/x)",
+      "score": 75
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "898b6eec2ebabae47e66",
+      "event": "NEW",
+      "company": "Scalian Germany AG",
+      "title": "(Senior) Consultant Operation Technology Security (m/w/d)*",
+      "score": 64
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "fe4a70153aff2653d721",
+      "event": "NEW",
+      "company": "Scalian Germany AG",
+      "title": "(Senior) Consultant Operation Technology Security (m/w/d)*",
+      "score": 64
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "dd09482ff1a947de8088",
+      "event": "NEW",
+      "company": "Scalian Germany AG",
+      "title": "Consultant Cyber Security (m/w/d)*",
+      "score": 62
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "15bcabcb5dcd0e4ca87e",
+      "event": "NEW",
+      "company": "Scalian Germany AG",
+      "title": "Consultant Cyber Security (m/w/d)*",
+      "score": 62
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "7cb3f4442fb57fd88c6e",
+      "event": "NEW",
+      "company": "Scalian Germany AG",
+      "title": "Consultant Cyber Security (m/w/d)*",
+      "score": 62
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "541d7086ddafaee1924e",
+      "event": "NEW",
+      "company": "Scalian Germany AG",
+      "title": "Consultant Cyber Security (m/w/d)*",
+      "score": 62
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "ad2f00e0754b1e10b2fe",
+      "event": "NEW",
+      "company": "Scalian Germany AG",
+      "title": "Consultant Cyber Security Automotive (m/w/d)*",
+      "score": 62
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "503754d75fa46453f7ca",
+      "event": "NEW",
+      "company": "Scalian Germany AG",
+      "title": "Consultant Cyber Security Automotive (m/w/d)*",
+      "score": 62
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "7c122b634a925ef200eb",
+      "event": "NEW",
+      "company": "Scalian Germany AG",
+      "title": "Consultant Operation Technology Security (m/w/d)*",
+      "score": 70
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "481723db940c16e3e090",
+      "event": "NEW",
+      "company": "Scalian Germany AG",
+      "title": "IT-Cyber-Consultant - IT-Security & Hardening (m/w/d)*",
+      "score": 71
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "a7a2f1793d635dee0100",
+      "event": "NEW",
+      "company": "Scalian Germany AG",
+      "title": "IT-Security Engineer (m/w/d)*",
+      "score": 86
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "632d0eb8039acbe3219d",
+      "event": "NEW",
+      "company": "Scalian Germany AG",
+      "title": "Netzwerksicherheit, Cisco, Bash - Cyber Security Engineer (m/w/d)*",
+      "score": 77
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "caa8048f7ed150c94624",
+      "event": "NEW",
+      "company": "Scalian Germany AG",
+      "title": "Netzwerksicherheit, Cisco, Bash - Cyber Security Engineer (m/w/d)*",
+      "score": 77
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "c74430d680695f4e8af4",
+      "event": "NEW",
+      "company": "Perseus Technologies",
+      "title": "Account- und Partnermanager (m/w/d) – Cybersecurity & Insurance Ecosystem",
+      "score": 62
+    },
+    {
+      "at": "2026-08-15T17:01:09Z",
+      "job_key": "4b12159b141a28bc94e7",
+      "event": "NEW",
+      "company": "KNIME GmbH",
+      "title": "Application Security Engineer (m/f/d) in Konstanz or Berlin",
+      "score": 59
     }
   ]
 }

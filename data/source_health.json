@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T04:18:44Z",
+  "generated_at": "2026-08-15T17:01:09Z",
   "all_sources_failed": false,
   "sources": {
     "arbeitnow": {
@@ -13,7 +13,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 18,
+      "jobs": 16,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -21,12 +21,45 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 19883,
+      "jobs": 19879,
       "requests": 165,
       "errors": [],
       "error": "",
       "companies_checked": 165,
       "companies_successful": 165,
+      "companies_failed": 0
+    },
+    "ashby": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 319,
+      "requests": 8,
+      "errors": [],
+      "error": "",
+      "companies_checked": 8,
+      "companies_successful": 8,
+      "companies_failed": 0
+    },
+    "lever": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 1113,
+      "requests": 6,
+      "errors": [],
+      "error": "",
+      "companies_checked": 6,
+      "companies_successful": 6,
+      "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 202,
+      "requests": 7,
+      "errors": [],
+      "error": "",
+      "companies_checked": 7,
+      "companies_successful": 7,
       "companies_failed": 0
     }
   }

@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "latest_week": "2026-08-10",
+  "snapshots": [
+    {
+      "week_start": "2026-08-10",
+      "generated_at": "2026-08-15T17:01:09Z",
+      "active_relevant_jobs": 38,
+      "role_family_counts": {
+        "Security Engineering": 13,
+        "Other Security": 10,
+        "Product Security": 5,
+        "IT Audit / GRC": 4,
+        "Application Security": 3,
+        "SOC / Detection and Response": 2,
+        "Penetration Testing / VAPT": 1
+      },
+      "score_bands": {
+        "60-69 review": 21,
+        "70-79 good": 9,
+        "50-59 stretch": 7,
+        "80-100 strong": 1
+      },
+      "skill_gaps": {
+        "mandatory": [
+          {
+            "skill": "aws",
+            "jobs": 4
+          },
+          {
+            "skill": "azure",
+            "jobs": 2
+          },
+          {
+            "skill": "cloud security",
+            "jobs": 2
+          },
+          {
+            "skill": "nist",
+            "jobs": 1
+          },
+          {
+            "skill": "siem",
+            "jobs": 1
+          },
+          {
+            "skill": "splunk",
+            "jobs": 1
+          },
+          {
+            "skill": "javascript",
+            "jobs": 1
+          },
+          {
+            "skill": "go",
+            "jobs": 1
+          },
+          {
+            "skill": "product security",
+            "jobs": 1
+          },
+          {
+            "skill": "ci/cd",
+            "jobs": 1
+          },
+          {
+            "skill": "devsecops",
+            "jobs": 1
+          },
+          {
+            "skill": "iso 27001",
+            "jobs": 1
+          }
+        ],
+        "potential": [
+          {
+            "skill": "go",
+            "jobs": 7
+          },
+          {
+            "skill": "iso 27001",
+            "jobs": 6
+          },
+          {
+            "skill": "azure",
+            "jobs": 4
+          },
+          {
+            "skill": "terraform",
+            "jobs": 3
+          },
+          {
+            "skill": "kubernetes",
+            "jobs": 2
+          },
+          {
+            "skill": "gdpr",
+            "jobs": 1
+          }
+        ],
+        "optional": [
+          {
+            "skill": "go",
+            "jobs": 3
+          },
+          {
+            "skill": "javascript",
+            "jobs": 3
+          },
+          {
+            "skill": "kubernetes",
+            "jobs": 3
+          },
+          {
+            "skill": "terraform",
+            "jobs": 3
+          },
+          {
+            "skill": "nist",
+            "jobs": 1
+          }
+        ],
+        "partial_exposure": [
+          {
+            "skill": "nist",
+            "jobs": 11
+          },
+          {
+            "skill": "aws",
+            "jobs": 8
+          },
+          {
+            "skill": "javascript",
+            "jobs": 7
+          },
+          {
+            "skill": "ci/cd",
+            "jobs": 6
+          },
+          {
+            "skill": "cloud security",
+            "jobs": 6
+          },
+          {
+            "skill": "product security",
+            "jobs": 6
+          },
+          {
+            "skill": "devsecops",
+            "jobs": 4
+          },
+          {
+            "skill": "git",
+            "jobs": 4
+          },
+          {
+            "skill": "siem",
+            "jobs": 4
+          },
+          {
+            "skill": "docker",
+            "jobs": 2
+          },
+          {
+            "skill": "splunk",
+            "jobs": 2
+          }
+        ]
+      },
+      "application_funnel": {
+        "tracked_records": 0,
+        "status_counts": {},
+        "applications_submitted": 0,
+        "responses_or_screens": 0,
+        "interviews": 0,
+        "offers": 0,
+        "response_rate_percent": 0.0,
+        "interview_rate_percent": 0.0,
+        "offer_rate_percent": 0.0
+      }
+    }
+  ]
+}

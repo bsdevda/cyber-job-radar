@@ -1,0 +1,1561 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-15T17:01:09Z",
+  "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
+  "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
+  "candidate_profile": {
+    "profile_version": 2,
+    "last_verified": "2026-08-15",
+    "summary": "Cybersecurity professional with a completed Master's in Computer Science - Cyber Security and 2+ years of security consulting experience across web, API, mobile and thick-client applications.",
+    "experience_years": 2.1,
+    "professional_evidence": {
+      "security_assessments": "100+ web, mobile, API and thick-client assessments",
+      "high_critical_findings": "150+ high and critical vulnerabilities identified and prioritised",
+      "reports_and_sops": "50+ technical security reports and SOPs",
+      "client_context": "30+ enterprise clients and coordination across a 12-analyst team",
+      "ci_cd_scope": "Selected Jenkins projects integrating Fortify SAST and DAST checks",
+      "career_continuity": "McDonald's restaurant operations: part-time August 2024-June 2025 and full-time July 2025-present, alongside German study and continued cybersecurity development",
+      "current_development": "Independent OWASP-based security learning, German study and development of the Python/GitHub Actions Cybersecurity Job Radar"
+    },
+    "education": [
+      "Master of Science in Computer Science - Cyber Security, completed May 2025",
+      "Bachelor of Science in Information Technology"
+    ],
+    "languages": {
+      "english": "C1",
+      "german": "A2 (currently studying toward B1)"
+    },
+    "target_locations": [
+      "Berlin",
+      "Germany",
+      "Remote Germany",
+      "Europe Remote"
+    ],
+    "target_role_families": [
+      "Application Security",
+      "Product Security",
+      "Penetration Testing",
+      "Security Testing",
+      "Vulnerability Management",
+      "Security Engineering",
+      "Cloud Security / DevSecOps",
+      "SOC / Detection",
+      "IT Audit / GRC"
+    ],
+    "skill_status": {
+      "application security": "match",
+      "appsec": "match",
+      "product security": "partial",
+      "api security": "match",
+      "web security": "match",
+      "mobile security": "match",
+      "thick client security": "match",
+      "penetration testing": "match",
+      "vapt": "match",
+      "vulnerability assessment": "match",
+      "vulnerability management": "match",
+      "vulnerability triage": "match",
+      "security testing": "match",
+      "secure code review": "match",
+      "remediation guidance": "match",
+      "stakeholder communication": "match",
+      "secure sdlc": "match",
+      "threat modeling": "match",
+      "owasp": "match",
+      "owasp api security": "match",
+      "burp suite": "match",
+      "owasp zap": "match",
+      "nmap": "match",
+      "nikto": "match",
+      "metasploit": "match",
+      "wireshark": "match",
+      "fortify static code analyzer": "match",
+      "fortify webinspect": "match",
+      "sast": "match",
+      "dast": "match",
+      "software composition analysis": "missing",
+      "postman": "match",
+      "frida": "match",
+      "mobsf": "match",
+      "sqlmap": "match",
+      "amass": "match",
+      "apktool": "match",
+      "kali linux": "match",
+      "cvss": "match",
+      "security reporting": "match",
+      "security automation": "match",
+      "python": "match",
+      "javascript": "partial",
+      "php": "partial",
+      "mysql": "partial",
+      "git": "partial",
+      "github actions": "partial",
+      "splunk": "partial",
+      "siem": "partial",
+      "jenkins": "partial",
+      "ci/cd": "partial",
+      "devsecops": "partial",
+      "docker": "partial",
+      "cloud security": "partial",
+      "aws": "partial",
+      "nist": "partial",
+      "iso 27001": "missing",
+      "gdpr": "missing",
+      "azure": "missing",
+      "kubernetes": "missing",
+      "go": "missing",
+      "terraform": "missing"
+    },
+    "skill_evidence": {
+      "application_security_testing": [
+        "Professional assessments across web, API, mobile and thick-client applications",
+        "Manual testing with Burp Suite, OWASP ZAP, Postman and mobile-security tools"
+      ],
+      "secure_development": [
+        "Manual secure code review and Fortify Static Code Analyzer assessments",
+        "Threat modelling and remediation guidance throughout security projects",
+        "Selected Jenkins integrations using Fortify SAST and WebInspect DAST"
+      ],
+      "communication": [
+        "Technical reports and SOPs for technical and non-technical stakeholders",
+        "Vulnerability prioritisation using OWASP and CVSS v3.1"
+      ],
+      "automation_and_programming": [
+        "Python automation for recurring penetration-testing activities",
+        "Academic full-stack project using JavaScript, PHP and MySQL",
+        "Current Python and GitHub Actions Cybersecurity Job Radar project"
+      ]
+    },
+    "truthful_constraints": [
+      "Product Security is a target role supported by transferable Application Security evidence, not a previous job title.",
+      "Jenkins, CI/CD, DevSecOps, AWS, Docker and cloud security are exposure or limited-project areas, not production-depth expertise.",
+      "Do not claim Kubernetes, Azure, Go, Terraform, ISO 27001 or GDPR implementation experience.",
+      "German is A2 and currently progressing toward B1; do not claim B1 completion.",
+      "Professional cybersecurity experience is approximately 2.1 years."
+    ],
+    "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
+  },
+  "radar_summary": {
+    "generated_at": "2026-08-15T17:01:09Z",
+    "scoring_version": 2,
+    "jobs_collected": 22404,
+    "unique_jobs_after_deduplication": 20520,
+    "duplicates_removed": 1884,
+    "jobs_rejected_or_below_threshold": 20482,
+    "relevant_jobs_in_current_run": 38,
+    "new_jobs": 21,
+    "updated_jobs": 2,
+    "strong_matches": 1,
+    "sources_checked": 6,
+    "sources_failed": 0,
+    "sources_partial": 0,
+    "report_jobs": 30,
+    "jobs_by_source": {
+      "arbeitnow": 875,
+      "remotive": 16,
+      "greenhouse": 19879,
+      "ashby": 319,
+      "lever": 1113,
+      "personio": 202
+    }
+  },
+  "source_status": {
+    "arbeitnow": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 875,
+      "requests": 8,
+      "errors": [],
+      "error": ""
+    },
+    "remotive": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 16,
+      "requests": 1,
+      "errors": [],
+      "error": ""
+    },
+    "greenhouse": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 19879,
+      "requests": 165,
+      "errors": [],
+      "error": "",
+      "companies_checked": 165,
+      "companies_successful": 165,
+      "companies_failed": 0
+    },
+    "ashby": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 319,
+      "requests": 8,
+      "errors": [],
+      "error": "",
+      "companies_checked": 8,
+      "companies_successful": 8,
+      "companies_failed": 0
+    },
+    "lever": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 1113,
+      "requests": 6,
+      "errors": [],
+      "error": "",
+      "companies_checked": 6,
+      "companies_successful": 6,
+      "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 202,
+      "requests": 7,
+      "errors": [],
+      "error": "",
+      "companies_checked": 7,
+      "companies_successful": 7,
+      "companies_failed": 0
+    }
+  },
+  "jobs": [
+    {
+      "report_number": 1,
+      "job_key": "a7a2f1793d635dee0100",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 86,
+      "raw_score": 86,
+      "score_cap": null,
+      "score_cap_reasons": [],
+      "score_label": "STRONG",
+      "title": "IT-Security Engineer (m/w/d)*",
+      "company": "Scalian Germany AG",
+      "location": "Hamburg, Germany",
+      "location_analysis": {
+        "category": "eligible_germany",
+        "eligible": true,
+        "score": 15,
+        "reason": "Germany/Berlin eligibility detected",
+        "verification_required": false,
+        "score_cap": null
+      },
+      "working_model": "On-site / not specified",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://scalian-germany.jobs.personio.de/job/2129613?language=de",
+      "apply_url": "https://scalian-germany.jobs.personio.de/job/2129613?language=de",
+      "canonical_url": "https://scalian-germany.jobs.personio.de/job/2129613?language=de",
+      "source": "Personio",
+      "sources": [
+        "Personio"
+      ],
+      "ats": "personio",
+      "priority_employer": false,
+      "published_at": "2025-05-26T14:37:56Z",
+      "posting_age_days": 446,
+      "urgency": "OLDER POSTING - VERIFY ACTIVE",
+      "first_seen": "2026-08-15T17:01:09Z",
+      "experience_required": "2-5 years",
+      "german_requirement": "German unspecified required",
+      "skill_matches": {
+        "match": [
+          "penetration testing"
+        ],
+        "partial": [],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 23,
+        "experience": 15,
+        "location": 15,
+        "language": 4,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "The role is based in Berlin/Germany or explicitly accepts Germany.",
+        "Evidenced matches include penetration testing.",
+        "The detected experience requirement is within or close to the 2+ year profile."
+      ],
+      "warnings": [
+        "German unspecified required"
+      ],
+      "recommendation": "APPLY FIRST - verify the full vacancy and tailor the CV",
+      "description_excerpt": "Warum zu uns Empower People. Create Success. Bei Scalian Germany stehen die Mitarbeitenden und das Miteinander im Fokus. Wir brennen für unsere technischen Themen, packen tatkräftig an und bringen uns proaktiv ein. Fachlich und persönlich geben wir tagtäglich unser Bestes. Gemeinsam feiern wir unsere kleinen und großen Erfolge, freuen uns aufrichtig für- und miteinander und unterstützen uns gegenseitig. Bringe mit uns Deine Karriere voran und nutze die vielfältigen Möglichkeiten, Dich individuell weiterzuentwickeln, Dein technisches Wissen und Deine Ideen zu teilen und auszubauen sowie praktische Projekte eigenverantwortlich zu übernehmen. Arbeite an spannenden technischen Herausforderungen und trage aktiv zur Verbesserung der Systeme bei. Was wir gemeinsam vorhaben Erweitere die Toolchain: Installiere Betriebssysteme und Software (Ubuntu, SUSE, Debian, VMware, Windows, Switche). Erstelle und optimiere Scripts: Anfangs vor Ort, später auch remote möglich. Führe Tests und Abnahmen durch: Vor Ort in Kiel. Sicherheitsanalysen und Audits: Führe Sicherheitsanalysen und Sicherheitsaudits durch. Penetration Testing und Netzwerksicherheit: Arbeite gemäß BSI-Prozessen. Nutze verschiedene T…",
+      "full_description": "Warum zu uns\nEmpower People. Create Success. Bei Scalian Germany stehen die Mitarbeitenden und das Miteinander im Fokus. Wir brennen für unsere technischen Themen, packen tatkräftig an und bringen uns proaktiv ein. Fachlich und persönlich geben wir tagtäglich unser Bestes. Gemeinsam feiern wir unsere kleinen und großen Erfolge, freuen uns aufrichtig für- und miteinander und unterstützen uns gegenseitig. Bringe mit uns Deine Karriere voran und nutze die vielfältigen Möglichkeiten, Dich individuell weiterzuentwickeln, Dein technisches Wissen und Deine Ideen zu teilen und auszubauen sowie praktische Projekte eigenverantwortlich zu übernehmen. Arbeite an spannenden technischen Herausforderungen und trage aktiv zur Verbesserung der Systeme bei.\n\nWas wir gemeinsam vorhaben\n\nErweitere die Toolchain: Installiere Betriebssysteme und Software (Ubuntu, SUSE, Debian, VMware, Windows, Switche).\n\nErstelle und optimiere Scripts: Anfangs vor Ort, später auch remote möglich.\n\nFühre Tests und Abnahmen durch: Vor Ort in Kiel.\n\nSicherheitsanalysen und Audits: Führe Sicherheitsanalysen und Sicherheitsaudits durch.\n\nPenetration Testing und Netzwerksicherheit: Arbeite gemäß BSI-Prozessen.\n\nNutze verschiedene Tools: Bash, Powershell und Nessus Compliance Scans.\n\nStakeholder Management: Kommuniziere (intern als auch extern) und arbeite eng mit Projektteams, Stakeholdern und Kunden zusammen.\n\nWomit Du überzeugst\n\nDu hast eine Ausbildung im IT-Bereich oder vergleichbare Qualifikation.\n\nDu bringst Erfahrung in Netzwerksicherheit und Penetration Testing mit.\n\nDeine Kenntnisse in BSI-Prozessen und Sicherheitsanalysen sind fundiert.\n\nDu hast Erfahrung mit Sicherheitsaudits und Nessus Compliance Scans.\n\nDeine Kenntnisse in Bash und Powershell sind ausgeprägt.\n\nDu kommunizierst klar und überzeugend.\n\nDu verfügst über sehr gute Deutschkenntnisse in Wort und Schrift.\n\nDeine Englischkenntnisse sind gut in Wort und Schrift.\n\nDu bringst die Bereitschaft zur Durchführung einer Sicherheitsüberprüfung mit.\n\nDu bist bereit für regelmäßige Dienstreisen innerhalb Deutschlands. Darunter verstehen wir die grundsätzliche Flexibilität unter der Woche beim Kunden vor Ort zu sein, insbesondere in Kiel.\n\nWorauf Du Dich freuen kannst\nUnsere besondere Unternehmenskultur:\n\nHerzliches und wertschätzendes Miteinander, in dem jede Persönlichkeit zählt \n\nOffener Austausch und offene Türen - vom Junior bis zum Vorstand \n\nZahlreiche Team- und Unternehmensevents, wie unser jährliches Sommerfest zusammen mit unseren Familien \n\nUnsere Benefits für Wohlergehen und Wachstum:\n\nAttraktive Arbeitsbedingungen z.B. mobil und mit flexiblen Arbeitszeitmodellen (keine Nachtschicht), eine sichere und technisch fortschrittliche Arbeitsumgebung, Möglichkeit für Sabbaticals\n\nHealth Care Benefits, z.B. vergünstigte Mitgliedschaften für Urban Sports Club \n\nZusatzleistungen, z.B. Corporate Benefits, attraktive betriebliche Altersvorsorge und JobRad\n\nUnser gemeinsamer Weg:\n\nIntensive Einarbeitung durch ein umfangreiches Onboarding und Patenprogramm\n\nVielfältige interne Weiterbildungsangebote und externe Fördermaßnahmen\n\nInternationales Austauschprogramm zur Förderung der persönlichen und beruflichen Weiterentwicklung innerhalb der Unternehmensgruppe\n\nUnd vieles mehr.\n\nWas Du wissen solltest\nWir suchen Persönlichkeiten! Daher prüfen wir Deine Bewerbung nicht ausschließlich auf eine bestimmte Stelle bezogen, sondern als eine Bewerbung an das Unternehmen Scalian Germany. In einem persönlichen Gespräch finden wir gemeinsam heraus, ob Deine Ziele und unsere Vorstellungen zueinander passen. \n\nDu findest Dich im Themengebiet und Standort nicht wieder? Sende uns gerne Deine Unterlagen zu – wir berücksichtigen Dich gerne für weitere Projekte an auch an anderen Standorten.\n\nAlles Weitere erzählen wir Dir in einem persönlichen Gespräch. Sende Deine Unterlagen entweder per E-Mail an bewerbung@tscalian.de oder nutze den \"Jetzt Bewerben\"-Button (Dateigröße max. 35 MB).\n\n2-5 years of experience",
+      "skill_requirements": [
+        {
+          "skill": "penetration testing",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Penetration Testing und Netzwerksicherheit: Arbeite gemäß BSI-Prozessen."
+        }
+      ],
+      "german_analysis": {
+        "category": "unspecified",
+        "level": "unspecified",
+        "mandatory": false,
+        "label": "German unspecified required",
+        "evidence": "Du verfügst über sehr gute Deutschkenntnisse in Wort und Schrift."
+      },
+      "experience_analysis": {
+        "min_years": 2,
+        "max_years": 5,
+        "optional": false,
+        "display": "2-5 years",
+        "evidence": "2-5 years of experience"
+      }
+    },
+    {
+      "report_number": 2,
+      "job_key": "caa8048f7ed150c94624",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 77,
+      "raw_score": 77,
+      "score_cap": null,
+      "score_cap_reasons": [],
+      "score_label": "GOOD",
+      "title": "Netzwerksicherheit, Cisco, Bash - Cyber Security Engineer (m/w/d)*",
+      "company": "Scalian Germany AG",
+      "location": "Hamburg, Germany",
+      "location_analysis": {
+        "category": "eligible_germany",
+        "eligible": true,
+        "score": 15,
+        "reason": "Germany/Berlin eligibility detected",
+        "verification_required": false,
+        "score_cap": null
+      },
+      "working_model": "On-site / not specified",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer",
+          "cyber security engineer"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://scalian-germany.jobs.personio.de/job/2131356?language=de",
+      "apply_url": "https://scalian-germany.jobs.personio.de/job/2131356?language=de",
+      "canonical_url": "https://scalian-germany.jobs.personio.de/job/2131356?language=de",
+      "source": "Personio",
+      "sources": [
+        "Personio"
+      ],
+      "ats": "personio",
+      "priority_employer": false,
+      "published_at": "2025-05-27T15:00:47Z",
+      "posting_age_days": 445,
+      "urgency": "OLDER POSTING - VERIFY ACTIVE",
+      "first_seen": "2026-08-15T17:01:09Z",
+      "experience_required": "2-5 years",
+      "german_requirement": "German unspecified required",
+      "skill_matches": {
+        "match": [],
+        "partial": [
+          "nist"
+        ],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 14,
+        "experience": 15,
+        "location": 15,
+        "language": 4,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "The role is based in Berlin/Germany or explicitly accepts Germany.",
+        "The detected experience requirement is within or close to the 2+ year profile."
+      ],
+      "warnings": [
+        "German unspecified required",
+        "Exposure only; do not claim deep expertise: nist"
+      ],
+      "recommendation": "REVIEW - verify mandatory requirements before applying",
+      "description_excerpt": "Warum zu uns Empower People. Create Success. Bei Scalian Germany stehen die Mitarbeitenden und das Miteinander im Fokus. Wir brennen für unsere Themen, bringen uns proaktiv ein und geben fachlich und persönlich tagtäglich unser Bestes. Gemeinsam feiern wir unsere kleinen und großen Erfolge, freuen uns aufrichtig für- und miteinander und unterstützen uns gegenseitig. Bringe mit uns Deine Karriere voran und nutze die vielfältigen Möglichkeiten, Dich individuell weiterzuentwickeln, Dein Wissen und Deine Ideen zu teilen und auszubauen sowie Projekte eigenverantwortlich zu übernehmen. Was wir gemeinsam vorhaben Systemhärtung und Sicherheitsmanagement: Du führst Systemhärtungsmaßnahmen für Linux (RHEL) und Windows-Systeme gemäß den Vorgaben von Cert-BW und BSI durch. Sicherheitsrichtlinien und Automatisierung: Du entwickelst und implementierst Sicherheitsrichtlinien und -verfahren. Mit Bash- und PowerShell-Skripten automatisierst Du sicherheitsrelevante Aufgaben und Hardening-Prozesse. Virtualisierung und Infrastrukturhärtung: Du verwaltest und härtest VM-Umgebungen. Active Directory und Netzwerkabsicherung: Du administrierst und härtest Active Directory (AD) Umgebungen. Zudem konfiguri…",
+      "full_description": "Warum zu uns\nEmpower People. Create Success. Bei Scalian Germany stehen die Mitarbeitenden und das Miteinander im Fokus. Wir brennen für unsere Themen, bringen uns proaktiv ein und geben fachlich und persönlich tagtäglich unser Bestes. Gemeinsam feiern wir unsere kleinen und großen Erfolge, freuen uns aufrichtig für- und miteinander und unterstützen uns gegenseitig. Bringe mit uns Deine Karriere voran und nutze die vielfältigen Möglichkeiten, Dich individuell weiterzuentwickeln, Dein Wissen und Deine Ideen zu teilen und auszubauen sowie Projekte eigenverantwortlich zu übernehmen.\n\nWas wir gemeinsam vorhaben\n\nSystemhärtung und Sicherheitsmanagement: Du führst Systemhärtungsmaßnahmen für Linux (RHEL) und Windows-Systeme gemäß den Vorgaben von Cert-BW und BSI durch.\n\nSicherheitsrichtlinien und Automatisierung: Du entwickelst und implementierst Sicherheitsrichtlinien und -verfahren. Mit Bash- und PowerShell-Skripten automatisierst Du sicherheitsrelevante Aufgaben und Hardening-Prozesse.\n\nVirtualisierung und Infrastrukturhärtung: Du verwaltest und härtest VM-Umgebungen.\n\nActive Directory und Netzwerkabsicherung: Du administrierst und härtest Active Directory (AD) Umgebungen. Zudem konfigurierst und verwaltest Du Firewalls (Cisco) zur Realisierung von Netzwerksicherheit.\n\nSicherheitsüberprüfungen und -audits: Du führst Sicherheitsüberprüfungen und -audits durch, analysierst Schwachstellen und behebst Sicherheitslücken in Systemen und Netzwerken.\n\nTeamarbeit und Sicherheitsstrategie: Du arbeitest eng mit anderen IT-Teams zusammen, um eine ganzheitliche Sicherheitsstrategie zu entwickeln und umzusetzen.\n\nStakeholder Management: Kommuniziere (intern als auch extern) und arbeite eng mit Projektteams, Stakeholdern und Kunden zusammen.\n\nWomit Du überzeugst\n\nDu hast eine technische Ausbildung, Studium oder vergleichbare Qualifikation.\n\nDeine fundierten Kenntnisse in der Systemadministration von Linux RHEL oder Windows zeichnen Dich aus.\n\nDu hast Erfahrung mit den Sicherheitsrichtlinien und -standards von CertBW und BSI.\n\nDu hast fortgeschrittene Fähigkeiten in der Skripterstellung mit Bash und PowerShell.\n\nDu hast Erfahrung in der Verwaltung von VM-Umgebungen, sowie in der Konfiguration und Verwaltung von Firewalls.\n\nDu hast Kenntnisse in der Administration von Active Directory (AD).\n\nDer persönliche Kontakt mit Kunden bringt Dir Spaß.\n\nEigenständiges Arbeiten und die Übernahme von Verantwortung zeichnen Dich aus.\n\nDu verfügst über sehr gute Deutschkenntnisse in Wort und Schrift.\n\nDu bringst die Bereitschaft zur Durchführung einer Sicherheitsüberprüfung mit.\n\nDu bist bereit für regelmäßige Dienstreisen innerhalb Deutschlands. Darunter verstehen wir die grundsätzliche Flexibilität unter der Woche beim Kunden vor Ort zu sein.\n\nWorauf Du Dich freuen kannst\nUnsere besondere Unternehmenskultur:\n\nHerzliches und wertschätzendes Miteinander, in dem jede Persönlichkeit zählt \n\nOffener Austausch und offene Türen - vom Junior bis zum Vorstand \n\nZahlreiche Team- und Unternehmensevents, wie unser jährliches Sommerfest zusammen mit unseren Familien \n\nUnsere Benefits für Wohlergehen und Wachstum:\n\nSmartes Arbeiten, z.B. mobil und mit flexiblen Arbeitszeitmodellen, Möglichkeit für Sabbaticals und Workation\n\nZusatzleistungen, z.B. Corporate Benefits, attraktive betriebliche Altersvorsorge, Blinkist und JobRad\n\nHealth Care Benefits, z.B. vergünstigte Mitgliedschaften für Urban Sports Club \n\nUnser gemeinsamer Weg:\n\nIntensive Einarbeitung durch ein umfangreiches Onboarding und Patenprogramm\n\nVielfältige interne Weiterbildungsangebote und externe Fördermaßnahmen\n\nInternationales Austauschprogramm zur Förderung der persönlichen und beruflichen Weiterentwicklung innerhalb der Unternehmensgruppe\n\nUnd vieles mehr.\n\nWas Du wissen solltest\nWir suchen Persönlichkeiten! Daher prüfen wir Deine Bewerbung nicht ausschließlich auf eine bestimmte Stelle bezogen, sondern als eine Bewerbung an das Unternehmen Scalian Germany. In einem persönlichen Gespräch finden wir gemeinsam heraus, ob Deine Ziele und unsere Vorstellungen zueinander passen. \n\nDu findest Dich im Themengebiet und Standort nicht wieder? Sende uns gerne Deine Unterlagen zu – wir berücksichtigen Dich gerne für weitere Projekte an auch an anderen Standorten.\n\nAlles Weitere erzählen wir Dir in einem persönlichen Gespräch. Sende Deine Unterlagen entweder per E-Mail an bewerbung@scalian.de oder nutze den \"Jetzt Bewerben\"-Button (Dateigröße max. 35 MB).\n\n2-5 years of experience",
+      "skill_requirements": [
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Active Directory und Netzwerkabsicherung: Du administrierst und härtest Active Directory (AD) Umgebungen."
+        }
+      ],
+      "german_analysis": {
+        "category": "unspecified",
+        "level": "unspecified",
+        "mandatory": false,
+        "label": "German unspecified required",
+        "evidence": "Du verfügst über sehr gute Deutschkenntnisse in Wort und Schrift."
+      },
+      "experience_analysis": {
+        "min_years": 2,
+        "max_years": 5,
+        "optional": false,
+        "display": "2-5 years",
+        "evidence": "2-5 years of experience"
+      }
+    },
+    {
+      "report_number": 3,
+      "job_key": "632d0eb8039acbe3219d",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 77,
+      "raw_score": 77,
+      "score_cap": null,
+      "score_cap_reasons": [],
+      "score_label": "GOOD",
+      "title": "Netzwerksicherheit, Cisco, Bash - Cyber Security Engineer (m/w/d)*",
+      "company": "Scalian Germany AG",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_germany",
+        "eligible": true,
+        "score": 15,
+        "reason": "Germany/Berlin eligibility detected",
+        "verification_required": false,
+        "score_cap": null
+      },
+      "working_model": "On-site / not specified",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer",
+          "cyber security engineer"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://scalian-germany.jobs.personio.de/job/2131353?language=de",
+      "apply_url": "https://scalian-germany.jobs.personio.de/job/2131353?language=de",
+      "canonical_url": "https://scalian-germany.jobs.personio.de/job/2131353?language=de",
+      "source": "Personio",
+      "sources": [
+        "Personio"
+      ],
+      "ats": "personio",
+      "priority_employer": false,
+      "published_at": "2025-05-27T14:58:59Z",
+      "posting_age_days": 445,
+      "urgency": "OLDER POSTING - VERIFY ACTIVE",
+      "first_seen": "2026-08-15T17:01:09Z",
+      "experience_required": "2-5 years",
+      "german_requirement": "German unspecified required",
+      "skill_matches": {
+        "match": [],
+        "partial": [
+          "nist"
+        ],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 14,
+        "experience": 15,
+        "location": 15,
+        "language": 4,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "The role is based in Berlin/Germany or explicitly accepts Germany.",
+        "The detected experience requirement is within or close to the 2+ year profile."
+      ],
+      "warnings": [
+        "German unspecified required",
+        "Exposure only; do not claim deep expertise: nist"
+      ],
+      "recommendation": "REVIEW - verify mandatory requirements before applying",
+      "description_excerpt": "Warum zu uns Empower People. Create Success. Bei Scalian Germany stehen die Mitarbeitenden und das Miteinander im Fokus. Wir brennen für unsere Themen, bringen uns proaktiv ein und geben fachlich und persönlich tagtäglich unser Bestes. Gemeinsam feiern wir unsere kleinen und großen Erfolge, freuen uns aufrichtig für- und miteinander und unterstützen uns gegenseitig. Bringe mit uns Deine Karriere voran und nutze die vielfältigen Möglichkeiten, Dich individuell weiterzuentwickeln, Dein Wissen und Deine Ideen zu teilen und auszubauen sowie Projekte eigenverantwortlich zu übernehmen. Was wir gemeinsam vorhaben Systemhärtung und Sicherheitsmanagement: Du führst Systemhärtungsmaßnahmen für Linux (RHEL) und Windows-Systeme gemäß den Vorgaben von Cert-BW und BSI durch. Sicherheitsrichtlinien und Automatisierung: Du entwickelst und implementierst Sicherheitsrichtlinien und -verfahren. Mit Bash- und PowerShell-Skripten automatisierst Du sicherheitsrelevante Aufgaben und Hardening-Prozesse. Virtualisierung und Infrastrukturhärtung: Du verwaltest und härtest VM-Umgebungen. Active Directory und Netzwerkabsicherung: Du administrierst und härtest Active Directory (AD) Umgebungen. Zudem konfiguri…",
+      "full_description": "Warum zu uns\nEmpower People. Create Success. Bei Scalian Germany stehen die Mitarbeitenden und das Miteinander im Fokus. Wir brennen für unsere Themen, bringen uns proaktiv ein und geben fachlich und persönlich tagtäglich unser Bestes. Gemeinsam feiern wir unsere kleinen und großen Erfolge, freuen uns aufrichtig für- und miteinander und unterstützen uns gegenseitig. Bringe mit uns Deine Karriere voran und nutze die vielfältigen Möglichkeiten, Dich individuell weiterzuentwickeln, Dein Wissen und Deine Ideen zu teilen und auszubauen sowie Projekte eigenverantwortlich zu übernehmen.\n\nWas wir gemeinsam vorhaben\n\nSystemhärtung und Sicherheitsmanagement: Du führst Systemhärtungsmaßnahmen für Linux (RHEL) und Windows-Systeme gemäß den Vorgaben von Cert-BW und BSI durch.\n\nSicherheitsrichtlinien und Automatisierung: Du entwickelst und implementierst Sicherheitsrichtlinien und -verfahren. Mit Bash- und PowerShell-Skripten automatisierst Du sicherheitsrelevante Aufgaben und Hardening-Prozesse.\n\nVirtualisierung und Infrastrukturhärtung: Du verwaltest und härtest VM-Umgebungen.\n\nActive Directory und Netzwerkabsicherung: Du administrierst und härtest Active Directory (AD) Umgebungen. Zudem konfigurierst und verwaltest Du Firewalls (Cisco) zur Realisierung von Netzwerksicherheit.\n\nSicherheitsüberprüfungen und -audits: Du führst Sicherheitsüberprüfungen und -audits durch, analysierst Schwachstellen und behebst Sicherheitslücken in Systemen und Netzwerken.\n\nTeamarbeit und Sicherheitsstrategie: Du arbeitest eng mit anderen IT-Teams zusammen, um eine ganzheitliche Sicherheitsstrategie zu entwickeln und umzusetzen.\n\nStakeholder Management: Kommuniziere (intern als auch extern) und arbeite eng mit Projektteams, Stakeholdern und Kunden zusammen.\n\nWomit Du überzeugst\n\nDu hast eine technische Ausbildung, Studium oder vergleichbare Qualifikation.\n\nDeine fundierten Kenntnisse in der Systemadministration von Linux RHEL oder Windows zeichnen Dich aus.\n\nDu hast Erfahrung mit den Sicherheitsrichtlinien und -standards von CertBW und BSI.\n\nDu hast fortgeschrittene Fähigkeiten in der Skripterstellung mit Bash und PowerShell.\n\nDu hast Erfahrung in der Verwaltung von VM-Umgebungen, sowie in der Konfiguration und Verwaltung von Firewalls.\n\nDu hast Kenntnisse in der Administration von Active Directory (AD).\n\nDer persönliche Kontakt mit Kunden bringt Dir Spaß.\n\nEigenständiges Arbeiten und die Übernahme von Verantwortung zeichnen Dich aus.\n\nDu verfügst über sehr gute Deutschkenntnisse in Wort und Schrift.\n\nDu bringst die Bereitschaft zur Durchführung einer Sicherheitsüberprüfung mit.\n\nDu bist bereit für regelmäßige Dienstreisen innerhalb Deutschlands. Darunter verstehen wir die grundsätzliche Flexibilität unter der Woche beim Kunden vor Ort zu sein.\n\nWorauf Du Dich freuen kannst\nUnsere besondere Unternehmenskultur:\n\nHerzliches und wertschätzendes Miteinander, in dem jede Persönlichkeit zählt \n\nOffener Austausch und offene Türen - vom Junior bis zum Vorstand \n\nZahlreiche Team- und Unternehmensevents, wie unser jährliches Sommerfest zusammen mit unseren Familien \n\nUnsere Benefits für Wohlergehen und Wachstum:\n\nSmartes Arbeiten, z.B. mobil und mit flexiblen Arbeitszeitmodellen, Möglichkeit für Sabbaticals und Workation\n\nZusatzleistungen, z.B. Corporate Benefits, attraktive betriebliche Altersvorsorge, Blinkist und JobRad\n\nHealth Care Benefits, z.B. vergünstigte Mitgliedschaften für Urban Sports Club \n\nUnser gemeinsamer Weg:\n\nIntensive Einarbeitung durch ein umfangreiches Onboarding und Patenprogramm\n\nVielfältige interne Weiterbildungsangebote und externe Fördermaßnahmen\n\nInternationales Austauschprogramm zur Förderung der persönlichen und beruflichen Weiterentwicklung innerhalb der Unternehmensgruppe\n\nUnd vieles mehr.\n\nWas Du wissen solltest\nWir suchen Persönlichkeiten! Daher prüfen wir Deine Bewerbung nicht ausschließlich auf eine bestimmte Stelle bezogen, sondern als eine Bewerbung an das Unternehmen Scalian Germany. In einem persönlichen Gespräch finden wir gemeinsam heraus, ob Deine Ziele und unsere Vorstellungen zueinander passen. \n\nDu findest Dich im Themengebiet und Standort nicht wieder? Sende uns gerne Deine Unterlagen zu – wir berücksichtigen Dich gerne für weitere Projekte an auch an anderen Standorten.\n\nAlles Weitere erzählen wir Dir in einem persönlichen Gespräch. Sende Deine Unterlagen entweder per E-Mail an bewerbung@scalian.de oder nutze den \"Jetzt Bewerben\"-Button (Dateigröße max. 35 MB).\n\n2-5 years of experience",
+      "skill_requirements": [
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Active Directory und Netzwerkabsicherung: Du administrierst und härtest Active Directory (AD) Umgebungen."
+        }
+      ],
+      "german_analysis": {
+        "category": "unspecified",
+        "level": "unspecified",
+        "mandatory": false,
+        "label": "German unspecified required",
+        "evidence": "Du verfügst über sehr gute Deutschkenntnisse in Wort und Schrift."
+      },
+      "experience_analysis": {
+        "min_years": 2,
+        "max_years": 5,
+        "optional": false,
+        "display": "2-5 years",
+        "evidence": "2-5 years of experience"
+      }
+    },
+    {
+      "report_number": 4,
+      "job_key": "975c260f4cccb6d07cbe",
+      "status": "UPDATED",
+      "application_status": "NEW",
+      "score": 76,
+      "raw_score": 76,
+      "score_cap": null,
+      "score_cap_reasons": [],
+      "score_label": "GOOD",
+      "title": "IT Security Experte (m/w/d) Incident Response & DLP",
+      "company": "Mandl. Executives & Experts",
+      "location": "Munich, Germany",
+      "location_analysis": {
+        "category": "eligible_germany",
+        "eligible": true,
+        "score": 15,
+        "reason": "Germany/Berlin eligibility detected",
+        "verification_required": false,
+        "score_cap": null
+      },
+      "working_model": "Remote",
+      "role_family": {
+        "id": "soc_detection",
+        "label": "SOC / Detection and Response",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "incident response",
+          "siem",
+          "incident response",
+          "security monitoring"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/it-security-experte-incident-response-dlp-munich-455340",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/it-security-experte-incident-response-dlp-munich-455340",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/it-security-experte-incident-response-dlp-munich-455340",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "published_at": "2026-08-13T13:30:26Z",
+      "posting_age_days": 2,
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-08-14T03:40:19Z",
+      "experience_required": null,
+      "german_requirement": "German unspecified required",
+      "skill_matches": {
+        "match": [
+          "penetration testing"
+        ],
+        "partial": [
+          "siem"
+        ],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 18,
+        "experience": 10,
+        "location": 15,
+        "language": 4,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: SOC / Detection and Response.",
+        "The role is based in Berlin/Germany or explicitly accepts Germany.",
+        "Evidenced matches include penetration testing."
+      ],
+      "warnings": [
+        "German unspecified required",
+        "Exposure only; do not claim deep expertise: siem"
+      ],
+      "recommendation": "REVIEW - verify mandatory requirements before applying",
+      "description_excerpt": "In dieser Rolle übernimmst du eine zentrale Funktion im Aufbau und in der Weiterentwicklung einer modernen IT-Sicherheitsstrategie mit Fokus auf Incident Response und Data Loss Prevention (DLP). Du arbeitest eng mit verschiedenen Fachbereichen zusammen und sorgst dafür, dass sensible Unternehmensdaten effektiv geschützt werden. Neben der operativen Arbeit im SIEM gestaltest du Security-Prozesse aktiv mit. Dich erwartet eine abwechslungsreiche Position mit viel Gestaltungsspielraum in einem sicherheitskritischen Umfeld. Aufgaben Überwachung und Bearbeitung von Sicherheitsvorfällen im SIEM sowie kontinuierliche Verbesserung der Alarm- und Erkennungslogik Konzeption, Implementierung und Betrieb von DLP-Lösungen zur Absicherung sensibler Daten Beratung interner Fachbereiche bei IT-Projekten mit Schwerpunkt auf Security-Anforderungen Identifikation schützenswerter Informationen sowie Definition geeigneter Maßnahmen zu deren Absicherung Weiterentwicklung des Security Monitorings zur frühzeitigen Erkennung neuer Bedrohungen Pflege und Optimierung von Regelwerken im SIEM- und DLP-Umfeld Durchführung von Audits und Erstellung von Reports zur Bewertung der Sicherheitsmaßnahmen Planung und S…",
+      "full_description": "In dieser Rolle übernimmst du eine zentrale Funktion im Aufbau und in der Weiterentwicklung einer modernen IT-Sicherheitsstrategie mit Fokus auf Incident Response und Data Loss Prevention (DLP). Du arbeitest eng mit verschiedenen Fachbereichen zusammen und sorgst dafür, dass sensible Unternehmensdaten effektiv geschützt werden. Neben der operativen Arbeit im SIEM gestaltest du Security-Prozesse aktiv mit. Dich erwartet eine abwechslungsreiche Position mit viel Gestaltungsspielraum in einem sicherheitskritischen Umfeld.\n\nAufgaben\n\nÜberwachung und Bearbeitung von Sicherheitsvorfällen im SIEM sowie kontinuierliche Verbesserung der Alarm- und Erkennungslogik\n\nKonzeption, Implementierung und Betrieb von DLP-Lösungen zur Absicherung sensibler Daten\n\nBeratung interner Fachbereiche bei IT-Projekten mit Schwerpunkt auf Security-Anforderungen\n\nIdentifikation schützenswerter Informationen sowie Definition geeigneter Maßnahmen zu deren Absicherung\n\nWeiterentwicklung des Security Monitorings zur frühzeitigen Erkennung neuer Bedrohungen\n\nPflege und Optimierung von Regelwerken im SIEM- und DLP-Umfeld\n\nDurchführung von Audits und Erstellung von Reports zur Bewertung der Sicherheitsmaßnahmen\n\nPlanung und Steuerung von IT-Sicherheitsprojekten\n\nUnterstützung bei Sensibilisierungsmaßnahmen und Schulungen rund um das Thema Informationssicherheit\n\nQualifikation\n\nAbgeschlossenes Studium im IT-Umfeld oder vergleichbare Qualifikation (z. B. Fachinformatiker mit entsprechender Erfahrung)\n\nMehrjährige Praxis in IT-Security, insbesondere in Incident Response und idealerweise Penetration Testing\n\nFundierte Kenntnisse in Windows-, Linux- und Netzwerkumgebungen\n\nStrukturierte, eigenverantwortliche und lösungsorientierte Arbeitsweise\n\nHohes Maß an Engagement und Eigeninitiative\n\nSehr gute Deutsch- und Englischkenntnisse\n\nBenefits\n\nFlexible Arbeitszeiten und Möglichkeit zur Teilzeit\n\nÜberdurchschnittlicher Urlaubsanspruch (30+ Tage)\n\nUnbefristetes Arbeitsverhältnis mit langfristiger Perspektive\n\nUmfangreiche Weiterbildungsangebote\n\nBetriebliche Altersvorsorge und Gesundheitsprogramme\n\nZusatzleistungen wie JobRad und Mitarbeiter-Events\n\nUnterstützung bei Kinderbetreuung\n\nKantine und moderne Arbeitsumgebung\n\nOption auf Workation\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "penetration testing",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Mehrjährige Praxis in IT-Security, insbesondere in Incident Response und idealerweise Penetration Testing"
+        },
+        {
+          "skill": "siem",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Neben der operativen Arbeit im SIEM gestaltest du Security-Prozesse aktiv mit."
+        }
+      ],
+      "german_analysis": {
+        "category": "unspecified",
+        "level": "unspecified",
+        "mandatory": false,
+        "label": "German unspecified required",
+        "evidence": "Sehr gute Deutsch- und Englischkenntnisse"
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 5,
+      "job_key": "b3982c1bc58ed8fd21e9",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 76,
+      "raw_score": 76,
+      "score_cap": null,
+      "score_cap_reasons": [],
+      "score_label": "GOOD",
+      "title": "SOC Analyst - Hybrid in The Hague or Berlin (f/m/x)",
+      "company": "Eye Security",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_germany",
+        "eligible": true,
+        "score": 15,
+        "reason": "Germany/Berlin eligibility detected",
+        "verification_required": false,
+        "score_cap": null
+      },
+      "working_model": "Hybrid",
+      "role_family": {
+        "id": "soc_detection",
+        "label": "SOC / Detection and Response",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "soc analyst",
+          "siem"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://jobs.ashbyhq.com/eye-security/203eae34-46ef-4d5d-bd34-a218207e6b62",
+      "apply_url": "https://jobs.ashbyhq.com/eye-security/203eae34-46ef-4d5d-bd34-a218207e6b62/application",
+      "canonical_url": "https://jobs.ashbyhq.com/eye-security/203eae34-46ef-4d5d-bd34-a218207e6b62",
+      "source": "Ashby",
+      "sources": [
+        "Ashby"
+      ],
+      "ats": "ashby",
+      "priority_employer": false,
+      "published_at": "2026-04-07T12:15:06Z",
+      "posting_age_days": 130,
+      "urgency": "OLDER POSTING - VERIFY ACTIVE",
+      "first_seen": "2026-08-15T17:01:09Z",
+      "experience_required": null,
+      "german_requirement": "German unspecified required",
+      "skill_matches": {
+        "match": [
+          "python"
+        ],
+        "partial": [
+          "siem"
+        ],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 18,
+        "experience": 10,
+        "location": 15,
+        "language": 4,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: SOC / Detection and Response.",
+        "The role is based in Berlin/Germany or explicitly accepts Germany.",
+        "Evidenced matches include python."
+      ],
+      "warnings": [
+        "German unspecified required",
+        "Exposure only; do not claim deep expertise: siem"
+      ],
+      "recommendation": "REVIEW - verify mandatory requirements before applying",
+      "description_excerpt": "ABOUT EYE SECURITY Eye Security is providing cybersecurity with embedded cyber insurance solutions for organizations in Europe. Headquartered in the Netherlands, we are already over 170 FTEs and continue to grow internationally. We combine cutting-edge technology with hands-on expertise to detect, respond to, and recover from cyber threats in real time. Our team brings together talent from intelligence, military, tech, and consulting backgrounds — all united by a shared mission: to make enterprise-grade cybersecurity accessible to every business, not just the big players. At Eye, you’ll work on projects with an international footprint, solving real-world challenges and helping to build a safer digital future for our clients. ABOUT THIS ROLE We are looking for a SOC Analyst - Tier 1 (f/m/x) to join our Security Operations team. In this role, you will act as the first line of defense, monitoring security alerts, identifying real threats, and ensuring that relevant incidents are escalated quickly and clearly. This is an entry-level position designed for candidates who want to start or grow their career in cybersecurity. You will work with real-world incidents from day one, supported…",
+      "full_description": "ABOUT EYE SECURITY\n\nEye Security is providing cybersecurity with embedded cyber insurance solutions for organizations in Europe. Headquartered in the Netherlands, we are already over 170 FTEs and continue to grow internationally.\n\nWe combine cutting-edge technology with hands-on expertise to detect, respond to, and recover from cyber threats in real time. Our team brings together talent from intelligence, military, tech, and consulting backgrounds — all united by a shared mission: to make enterprise-grade cybersecurity accessible to every business, not just the big players.\n\nAt Eye, you’ll work on projects with an international footprint, solving real-world challenges and helping to build a safer digital future for our clients.\n\nABOUT THIS ROLE\n\nWe are looking for a SOC Analyst - Tier 1 (f/m/x) to join our Security Operations team. In this role, you will act as the first line of defense, monitoring security alerts, identifying real threats, and ensuring that relevant incidents are escalated quickly and clearly.\n\nThis is an entry-level position designed for candidates who want to start or grow their career in cybersecurity. You will work with real-world incidents from day one, supported by experienced colleagues and a structured onboarding process.\n\nYou will not be expected to solve complex investigations independently. Instead, your focus will be on building strong fundamentals in alert analysis, documentation, and escalation, while learning how a modern SOC operates at scale.\n\nThis is a strong early-career role in cybersecurity, with a clear path to grow into more advanced roles over time.\n\nWHAT YOU WILL DO\n\n- Monitor and analyze incoming security alerts from tools such as EDR and SIEM\n\n- Distinguish between false positives and real security threats\n\n- Document your findings clearly and consistently\n\n- Perform basic enrichment to gather context around alerts\n\n- Escalate relevant incidents to more senior analysts\n\n- Continuously learn through real-world cases, onboarding, and collaboration with the team\n\nWHAT YOU WILL NEED\n\n- Basic understanding of IT fundamentals (networks, operating systems, IT infrastructure...)\n\n- Familiarity with cybersecurity concepts such as alerts, logs, or incidents\n\n- Exposure to security operations (studies, internship, or relevant work)\n\n- Strong attention to detail and structured way of working\n\n- Motivation to learn and grow in a hands-on cybersecurity environment\n\n- Strong communication skills and ability to document clearly\n\n- Fluency in English (internal working language)\n\n- Fluency in German or Dutch (required for client communication)\n\nNICE-TO-HAVE\n\n- Exposure to tools such as EDR or SIEM\n\n- Basic scripting knowledge (e.g. Python, Bash)\n\n- Previous hands-on experience in a SOC or similar environment\n\nWHAT WE OFFER\n\n- A meaningful mission: protect organizations across Europe from real-world cyber threats\n\n- Work with top-tier professionals from national CERTs, intelligence agencies, and leading tech backgrounds\n\n- A remote-friendly culture with quarterly meetups and annual company retreats (in Spain, Portugal, Italy…)\n\n- Weekly lunches (NL) and Thursday socials to stay connected\n\n- A generous time-off policy, including wellbeing and volunteering days",
+      "skill_requirements": [
+        {
+          "skill": "python",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Python, Bash)"
+        },
+        {
+          "skill": "siem",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "- Monitor and analyze incoming security alerts from tools such as EDR and SIEM"
+        }
+      ],
+      "german_analysis": {
+        "category": "unspecified",
+        "level": "unspecified",
+        "mandatory": false,
+        "label": "German unspecified required",
+        "evidence": "- Fluency in German or Dutch (required for client communication)"
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 6,
+      "job_key": "b4e054c9836fe97015ac",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 75,
+      "raw_score": 75,
+      "score_cap": null,
+      "score_cap_reasons": [],
+      "score_label": "GOOD",
+      "title": "Junior Cyber Security Consultant (m/f/x)",
+      "company": "Eye Security",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_germany",
+        "eligible": true,
+        "score": 15,
+        "reason": "Germany/Berlin eligibility detected",
+        "verification_required": false,
+        "score_cap": null
+      },
+      "working_model": "Hybrid",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security consultant",
+          "security controls"
+        ]
+      },
+      "seniority": {
+        "level": "junior",
+        "label": "Junior/Entry level",
+        "evidence": "junior"
+      },
+      "url": "https://jobs.ashbyhq.com/eye-security/060db520-64e6-47b3-8522-2f2526e78c44",
+      "apply_url": "https://jobs.ashbyhq.com/eye-security/060db520-64e6-47b3-8522-2f2526e78c44/application",
+      "canonical_url": "https://jobs.ashbyhq.com/eye-security/060db520-64e6-47b3-8522-2f2526e78c44",
+      "source": "Ashby",
+      "sources": [
+        "Ashby"
+      ],
+      "ats": "ashby",
+      "priority_employer": false,
+      "published_at": "2026-07-30T08:47:46Z",
+      "posting_age_days": 16,
+      "urgency": "OPEN FOR REVIEW",
+      "first_seen": "2026-08-15T17:01:09Z",
+      "experience_required": null,
+      "german_requirement": "German is preferred/nice-to-have",
+      "skill_matches": {
+        "match": [],
+        "partial": [
+          "cloud security",
+          "nist"
+        ],
+        "missing": [
+          "azure"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [
+        {
+          "skill": "azure",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- Basic familiarity with cloud security concepts or exposure to Azure/Microsoft cloud environments"
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 10,
+        "experience": 10,
+        "location": 15,
+        "language": 9,
+        "seniority": 10,
+        "education": 5
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "The role is based in Berlin/Germany or explicitly accepts Germany."
+      ],
+      "warnings": [
+        "Potential gaps: azure",
+        "Exposure only; do not claim deep expertise: cloud security, nist"
+      ],
+      "recommendation": "REVIEW - verify mandatory requirements before applying",
+      "description_excerpt": "ABOUT EYE SECURITY Eye Security is providing cyber security with embedded cyber insurance solutions for organisations across Europe. Headquartered in the Netherlands, we're over 190 FTEs and growing internationally, having secured Series C funding of 60 million. We combine cutting-edge technology with hands-on expertise to detect, respond to, and recover from cyber threats in real time. Our team brings together talent from intelligence, military, tech, and consulting backgrounds, all united by one shared mission: to make enterprise-grade cyber security accessible to every business, not just the big players. At Eye, you'll work on projects with an international footprint, solving real-world challenges and helping to build a safer digital future for our SME clients and our partners. ABOUT THIS ROLE We are looking for a Junior Cyber Security Consultant to join our Service Delivery (SD) team, the heart of Eye Security. In this role, you'll be part of a team that guides organisations through their security journey, helping them understand and improve their cyber posture. You'll execute core tasks within a predefined process: onboarding new customers, supporting them with security quest…",
+      "full_description": "ABOUT EYE SECURITY\n\nEye Security is providing cyber security with embedded cyber insurance solutions for organisations across Europe. Headquartered in the Netherlands, we're over 190 FTEs and growing internationally, having secured Series C funding of 60 million.\n\nWe combine cutting-edge technology with hands-on expertise to detect, respond to, and recover from cyber threats in real time. Our team brings together talent from intelligence, military, tech, and consulting backgrounds, all united by one shared mission: to make enterprise-grade cyber security accessible to every business, not just the big players.\n\nAt Eye, you'll work on projects with an international footprint, solving real-world challenges and helping to build a safer digital future for our SME clients and our partners.\n\nABOUT THIS ROLE\n\nWe are looking for a Junior Cyber Security Consultant to join our Service Delivery (SD) team, the heart of Eye Security. In this role, you'll be part of a team that guides organisations through their security journey, helping them understand and improve their cyber posture.\n\nYou'll execute core tasks within a predefined process: onboarding new customers, supporting them with security questions, delivering periodic cyber-security reviews, and working closely with our technical experts. Your role is hands-on and focused, allowing you to develop real expertise in a structured, supportive environment whilst gradually taking on more responsibility.\n\nService Delivery sits at the intersection of product, operations, and customers, so you'll work across different teams and grow in multiple aspects of cyber security. This is a strong early-career role with a clear path to grow into more advanced consultant roles over time. You'll solve real problems for real customers, supported by experienced colleagues who want to see you succeed.\n\nWHAT YOU WILL DO\n\n- Guide new customers through Eye's onboarding process, helping them implement EDR, cloud monitoring, and other security controls\n\n- Assess customer security questions and concerns, working out how Eye's resources can best support them\n\n- Deliver periodic security reviews, providing tailored advice and helping customers understand which measures to prioritise\n\n- Work closely with our Cyber Security Specialists, Product, Customer Success, Engineering, Security Operations, and Threat Intelligence teams to solve customer challenges\n\n- Spot opportunities to improve how Eye operates, both technically and in how we build relationships with customers\n\n- Learn from experienced colleagues and contribute ideas to real projects, taking ownership of well-defined deliverables\n\n- Support second-line technical challenges alongside our first-line support team and specialists\n\nWHAT YOU WILL NEED\n\n- Keen interest in cyber security. A formal qualification isn't required, but helpful if you have it\n\n- Basic understanding of small to medium-sized IT networks and Active Directory\n\n- Strong problem-solving skills and a proactive, initiative-driven attitude\n\n- Strong at working with customers and our partners and take on an advisory role, explaining security concepts in accessible terms\n\n- Strong communication and interpersonal skills\n\n- Curiosity and willingness to learn across different areas of security\n\n- Fluency in German and English; other European languages are a bonus\n\nNICE-TO-HAVE\n\n- Experience or exposure to EDR platforms (Crowdstrike) or endpoint security tools\n\n- Basic familiarity with cloud security concepts or exposure to Azure/Microsoft cloud environments\n\n- Any relevant security certifications (Security+, CEH) or active study towards one\n\n- Track record of side projects, open-source contributions, or hands-on security learning (labs, CTFs, personal projects)\n\n- Experience in technical support or customer-facing technical roles\n\n- Background in IT networks or systems administration\n\nWHAT WE OFFER\n\n- A meaningful mission: protect organisations across Europe from real-world cyber threats\n\n- Work with top-tier professionals from national CERTs, intelligence agencies, and leading tech backgrounds\n\n- A key role in building an innovative product line combining effective cyber security with cyber insurance\n\n- A remote-friendly culture with regular meetups and annual company retreats (Spain, Portugal, Italy, Greece and beyond)\n\n- Flexibility in working hours (Output based) \n\n- On-Site Thursday socials to stay connected with your team\n\n- A generous time-off policy, including wellbeing and volunteering days\n\n- Structured mentorship and clear development pathways as you grow into more senior consultant roles\n\n- Monthly events, a fun team culture, and real opportunities for career development as Eye scales rapidly\n\nIf you're hesitant about applying for this role because you're unsure whether your capabilities match the job requirements, please get in touch, either by email to daniel.boatman@eye.security or via linkedin Daniel Boatman https://www.linkedin.com/in/danielboatman-eyesecurity/ OR Björn Blockhuis https://www.linkedin.com/in/blockhuis/, the manager for this role. We're a growing company and might be able to find a way to navigate this together.\n\nWe are an equal opportunity employer. We are committed to making our hiring process accessible to everyone. If you need a reasonable accommodation to apply or interview for this role, please inform the TA team.",
+      "skill_requirements": [
+        {
+          "skill": "azure",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- Basic familiarity with cloud security concepts or exposure to Azure/Microsoft cloud environments"
+        },
+        {
+          "skill": "cloud security",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "- Basic familiarity with cloud security concepts or exposure to Azure/Microsoft cloud environments"
+        },
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "- Background in IT networks or systems administration"
+        }
+      ],
+      "german_analysis": {
+        "category": "nice",
+        "level": "unspecified",
+        "mandatory": false,
+        "label": "German is preferred/nice-to-have",
+        "evidence": "- Fluency in German and English; other European languages are a bonus"
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 7,
+      "job_key": "adf40ac5904cb1b075ac",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 74,
+      "raw_score": 74,
+      "score_cap": null,
+      "score_cap_reasons": [],
+      "score_label": "GOOD",
+      "title": "Security Engineer",
+      "company": "Qdrant",
+      "location": "Germany | France | Netherlands | Spain",
+      "location_analysis": {
+        "category": "eligible_germany",
+        "eligible": true,
+        "score": 15,
+        "reason": "Germany/Berlin eligibility detected",
+        "verification_required": false,
+        "score_cap": null
+      },
+      "working_model": "Remote",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer",
+          "security engineering",
+          "security controls",
+          "vulnerability"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://jobs.ashbyhq.com/qdrant.tech/bd2459f6-42d1-488c-a680-a27f09895626",
+      "apply_url": "https://jobs.ashbyhq.com/qdrant.tech/bd2459f6-42d1-488c-a680-a27f09895626/application",
+      "canonical_url": "https://jobs.ashbyhq.com/qdrant.tech/bd2459f6-42d1-488c-a680-a27f09895626",
+      "source": "Ashby",
+      "sources": [
+        "Ashby"
+      ],
+      "ats": "ashby",
+      "priority_employer": true,
+      "published_at": "2026-08-05T12:52:42Z",
+      "posting_age_days": 10,
+      "urgency": "OPEN FOR REVIEW",
+      "first_seen": "2026-08-15T17:01:09Z",
+      "experience_required": null,
+      "german_requirement": "German requested; level/strictness unclear",
+      "skill_matches": {
+        "match": [
+          "penetration testing",
+          "python",
+          "security automation",
+          "security reporting",
+          "threat modeling",
+          "vulnerability management"
+        ],
+        "partial": [
+          "aws",
+          "ci/cd",
+          "cloud security",
+          "docker",
+          "git",
+          "product security"
+        ],
+        "missing": [
+          "go",
+          "kubernetes"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- Investigate reported vulnerabilities at the code level, including our Rust core, Go and Python tooling."
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- Monitor, investigate, and respond to security alerts across AWS, Kubernetes, CI/CD, and related infrastructure."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 16,
+        "experience": 10,
+        "location": 15,
+        "language": 4,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "The role is based in Berlin/Germany or explicitly accepts Germany.",
+        "Evidenced matches include penetration testing, python, security automation, security reporting, threat modeling."
+      ],
+      "warnings": [
+        "German requested; level/strictness unclear",
+        "Potential gaps: go, kubernetes",
+        "Exposure only; do not claim deep expertise: aws, ci/cd, cloud security, docker, git, product security"
+      ],
+      "recommendation": "REVIEW - verify mandatory requirements before applying",
+      "description_excerpt": "Qdrant is an open-source vector search engine powering the next generation of AI applications, from semantic search and retrieval-augmented generation (RAG) to AI agents and real-time recommendations. Trusted by global leaders like Canva, HubSpot, Tripadvisor, Bosch, and Deutsche Telekom, we’re building the retrieval infrastructure layer for modern AI. Recently raising $50M in Series B funding, we are growing rapidly and committed to transforming how AI understands and interacts with data. As a remote-first company, we believe diverse backgrounds, perspectives, and experiences fuel innovation. Here, you’ll own meaningful work, tackle challenges, and grow alongside passionate individuals dedicated to shaping the future of AI. We are looking for a Mid-Level Security Engineer to own the hands-on engineering and operational work within our security program. You will be embedded in the Cloud Engineering team, report into the Security Officer, and work closely together to identify risks, set priorities, and drive security issues through remediation. You will act as a security enabler across all Product & Engineering. WHAT YOU WILL OWN - Run our public bug bounty program: triage reports,…",
+      "full_description": "Qdrant is an open-source vector search engine powering the next generation of AI applications, from semantic search and retrieval-augmented generation (RAG) to AI agents and real-time recommendations.\n\nTrusted by global leaders like Canva, HubSpot, Tripadvisor, Bosch, and Deutsche Telekom, we’re building the retrieval infrastructure layer for modern AI. Recently raising $50M in Series B funding, we are growing rapidly and committed to transforming how AI understands and interacts with data.\n\nAs a remote-first company, we believe diverse backgrounds, perspectives, and experiences fuel innovation. Here, you’ll own meaningful work, tackle challenges, and grow alongside passionate individuals dedicated to shaping the future of AI.\n\nWe are looking for a Mid-Level Security Engineer to own the hands-on engineering and operational work within our security program. You will be embedded in the Cloud Engineering team, report into the Security Officer, and work closely together to identify risks, set priorities, and drive security issues through remediation. You will act as a security enabler across all Product & Engineering.\n\nWHAT YOU WILL OWN\n\n- Run our public bug bounty program: triage reports, reproduce and validate findings, communicate clearly with security researchers, and drive remediation through to closure.\n\n- Investigate reported vulnerabilities at the code level, including our Rust core, Go and Python tooling.\n\n- Enable engineers to build secure systems: provide tooling, paved-road defaults, documentation, and practical guidance so security is the easy path, not a checkpoint.\n\n- Partner with engineering teams to design, review, and verify fixes, and set clear security requirements on changes where the risk warrants it.\n\n- Harden and maintain our GitHub organization’s security posture, including secret scanning, push protection, branch protection and rulesets, dependency alerts, and code scanning, in partnership with the engineering teams that use these repositories daily.\n\n- Monitor, investigate, and respond to security alerts across AWS, Kubernetes, CI/CD, and related infrastructure.\n\n- Track and report security metrics (vulnerability remediation SLAs, MTTR, patch latency, critical findings) and keep reporting current for the Security Officer.\n\n- Implement, configure, and maintain security tooling across our development and cloud environments.\n\n- Support security incident response, including investigation, containment, remediation, and follow-up.\n\n- Maintain clear, complete, and auditable records of vulnerability and incident work in our tracking systems.\n\n- Build security automation and guardrails that scale across the development lifecycle: CI/CD security checks, policy-as-code, GitHub automation, and automated cloud security controls, so secure defaults are enforced by tooling rather than review.\n\n- Participate in threat modeling and architecture reviews for new services and major changes.\n\nWe are also building out our ISMS, which creates opportunities to contribute to security-tooling evaluations, technical vendor assessments, and proof-of-concept work. Formal compliance ownership, vendor risk assessments, and customer security questionnaires remain with the Security Officer.\n\nThis is a hands-on technical role focused on security engineering, vulnerability management, and incident response. The Security Officer owns compliance, formal third-party risk assessments, and customer security questionnaires, allowing you to focus primarily on engineering work. On-call expectations are low: there is no formal rotation, though occasional availability for high-severity incidents is expected.\n\nWHO YOU ARE\n\n- You can read and navigate an unfamiliar codebase (Rust, Go, Python) well enough to validate a vulnerability report, trace its impact, and judge whether a proposed fix actually closes it.\n\n- You write and maintain automation and security tooling comfortably, and can hold a credible technical conversation in code review.\n\n- Experience triaging vulnerability reports or working with a bug bounty program, vulnerability disclosure program, product security team, or similar function.\n\n- Practical knowledge of cloud and container security, particularly AWS and Kubernetes.\n\n- Familiarity with GitHub security features and securing CI/CD pipelines.\n\n- The ability to investigate alerts and vulnerabilities methodically, distinguish genuine risk from noise, and recommend proportionate remediation.\n\n- Clear written communication skills for working with external researchers and internal engineering teams.\n\n- A self-directed approach and comfort independently managing a security queue.\n\n- 3+ years in a hands-on security engineering, product security, or vulnerability management role.\n\nNice to have\n\n- An offensive security background, such as penetration testing, CTF participation, vulnerability research, or exploit analysis.\n\n- Experience working in an open-source company or contributing security improvements to open-source projects.\n\n- Familiarity with cloud-native incident response.\n\nWHY JOIN US\n\n- A remote-first, international team working on cutting-edge AI infrastructure.\n\n- A competitive salary with additional perks.\n\n- Flexible working hours and async-friendly culture.\n\n- High ownership and real impact.\n\n- Open-source, engineering-driven culture.\n\n- Choose your own laptop equipment.\n\nFor US-based candidates, we also offer a comprehensive benefits package including 401k match, health, dental, and vision insurance, plus flexible PTO policy.\n\nQdrant is an equal-opportunity employer. We believe the best ideas come from diverse teams, and we actively welcome applicants from all backgrounds. If this role excites you but you don't check every single box, we'd still love to hear from you! We don't want to miss out on great people because of a checklist.\n\nCOME BUILD WITH US!\n\nFOR INFORMATION ON HOW WE HANDLE YOUR PERSONAL DATA, PLEASE REFER TO OUR RECRUITMENT PRIVACY POLICY https://qdrant.tech/legal/recruitment-privacy-policy/\n\n#LI-REMOTE",
+      "skill_requirements": [
+        {
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "- Monitor, investigate, and respond to security alerts across AWS, Kubernetes, CI/CD, and related infrastructure."
+        },
+        {
+          "skill": "ci/cd",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "- Monitor, investigate, and respond to security alerts across AWS, Kubernetes, CI/CD, and related infrastructure."
+        },
+        {
+          "skill": "cloud security",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "- Build security automation and guardrails that scale across the development lifecycle: CI/CD security checks, policy-as-code, GitHub automation, and automated cloud security controls, so secure defaults are enforced by tooling rather than review."
+        },
+        {
+          "skill": "docker",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "- Practical knowledge of cloud and container security, particularly AWS and Kubernetes."
+        },
+        {
+          "skill": "git",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "- Harden and maintain our GitHub organization’s security posture, including secret scanning, push protection, branch protection and rulesets, dependency alerts, and code scanning, in partnership with the engineering teams that use these repositories daily."
+        },
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- Investigate reported vulnerabilities at the code level, including our Rust core, Go and Python tooling."
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- Monitor, investigate, and respond to security alerts across AWS, Kubernetes, CI/CD, and related infrastructure."
+        },
+        {
+          "skill": "penetration testing",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "- An offensive security background, such as penetration testing, CTF participation, vulnerability research, or exploit analysis."
+        },
+        {
+          "skill": "product security",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "- Experience triaging vulnerability reports or working with a bug bounty program, vulnerability disclosure program, product security team, or similar function."
+        },
+        {
+          "skill": "python",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "- Investigate reported vulnerabilities at the code level, including our Rust core, Go and Python tooling."
+        },
+        {
+          "skill": "security automation",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "- Build security automation and guardrails that scale across the development lifecycle: CI/CD security checks, policy-as-code, GitHub automation, and automated cloud security controls, so secure defaults are enforced by tooling rather than review."
+        },
+        {
+          "skill": "security reporting",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "- You can read and navigate an unfamiliar codebase (Rust, Go, Python) well enough to validate a vulnerability report, trace its impact, and judge whether a proposed fix actually closes it."
+        },
+        {
+          "skill": "threat modeling",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "- Participate in threat modeling and architecture reviews for new services and major changes."
+        },
+        {
+          "skill": "vulnerability management",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "This is a hands-on technical role focused on security engineering, vulnerability management, and incident response."
+        }
+      ],
+      "german_analysis": {
+        "category": "unspecified",
+        "level": "unspecified",
+        "mandatory": false,
+        "label": "German requested; level/strictness unclear",
+        "evidence": "Trusted by global leaders like Canva, HubSpot, Tripadvisor, Bosch, and Deutsche Telekom, we’re building the retrieval infrastructure layer for modern AI."
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 8,
+      "job_key": "481723db940c16e3e090",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 71,
+      "raw_score": 71,
+      "score_cap": null,
+      "score_cap_reasons": [],
+      "score_label": "GOOD",
+      "title": "IT-Cyber-Consultant - IT-Security & Hardening (m/w/d)*",
+      "company": "Scalian Germany AG",
+      "location": "Hamburg, Germany",
+      "location_analysis": {
+        "category": "eligible_germany",
+        "eligible": true,
+        "score": 15,
+        "reason": "Germany/Berlin eligibility detected",
+        "verification_required": false,
+        "score_cap": null
+      },
+      "working_model": "On-site / not specified",
+      "role_family": {
+        "id": "other_security",
+        "label": "Other Security",
+        "priority": 3,
+        "confidence": "low",
+        "evidence": []
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://scalian-germany.jobs.personio.de/job/2125609?language=de",
+      "apply_url": "https://scalian-germany.jobs.personio.de/job/2125609?language=de",
+      "canonical_url": "https://scalian-germany.jobs.personio.de/job/2125609?language=de",
+      "source": "Personio",
+      "sources": [
+        "Personio"
+      ],
+      "ats": "personio",
+      "priority_employer": false,
+      "published_at": "2025-05-22T17:42:54Z",
+      "posting_age_days": 449,
+      "urgency": "OLDER POSTING - VERIFY ACTIVE",
+      "first_seen": "2026-08-15T17:01:09Z",
+      "experience_required": "2-5 years",
+      "german_requirement": "German unspecified required",
+      "skill_matches": {
+        "match": [],
+        "partial": [
+          "nist"
+        ],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 10,
+        "skills": 14,
+        "experience": 15,
+        "location": 15,
+        "language": 4,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "The role is based in Berlin/Germany or explicitly accepts Germany.",
+        "The detected experience requirement is within or close to the 2+ year profile."
+      ],
+      "warnings": [
+        "German unspecified required",
+        "Exposure only; do not claim deep expertise: nist"
+      ],
+      "recommendation": "REVIEW - verify mandatory requirements before applying",
+      "description_excerpt": "Warum zu uns Empower People. Create Success. Bei Scalian Germany stehen die Mitarbeitenden und das Miteinander im Fokus. Wir brennen für unsere Themen, bringen uns proaktiv ein und geben fachlich und persönlich tagtäglich unser Bestes. Gemeinsam feiern wir unsere kleinen und großen Erfolge, freuen uns aufrichtig für- und miteinander und unterstützen uns gegenseitig. Bringe mit uns Deine Karriere voran und nutze die vielfältigen Möglichkeiten, Dich individuell weiterzuentwickeln, Dein Wissen und Deine Ideen zu teilen und auszubauen sowie Projekte eigenverantwortlich zu übernehmen. Was wir gemeinsam vorhaben Systemhärtung und Sicherheitsmanagement: Du führst Systemhärtungsmaßnahmen für Linux (RHEL) und Windows-Systeme gemäß den Vorgaben von Cert-BW und BSI durch. Sicherheitsrichtlinien und Automatisierung: Du entwickelst und implementierst Sicherheitsrichtlinien und -verfahren. Mit Bash- und PowerShell-Skripten automatisierst Du sicherheitsrelevante Aufgaben und Hardening-Prozesse. Virtualisierung und Infrastrukturhärtung: Du verwaltest und härtest VM-Umgebungen. Active Directory und Netzwerkabsicherung: Du administrierst und härtest Active Directory (AD) Umgebungen. Zudem konfiguri…",
+      "full_description": "Warum zu uns\nEmpower People. Create Success. Bei Scalian Germany stehen die Mitarbeitenden und das Miteinander im Fokus. Wir brennen für unsere Themen, bringen uns proaktiv ein und geben fachlich und persönlich tagtäglich unser Bestes. Gemeinsam feiern wir unsere kleinen und großen Erfolge, freuen uns aufrichtig für- und miteinander und unterstützen uns gegenseitig. Bringe mit uns Deine Karriere voran und nutze die vielfältigen Möglichkeiten, Dich individuell weiterzuentwickeln, Dein Wissen und Deine Ideen zu teilen und auszubauen sowie Projekte eigenverantwortlich zu übernehmen.\n\nWas wir gemeinsam vorhaben\n\nSystemhärtung und Sicherheitsmanagement: Du führst Systemhärtungsmaßnahmen für Linux (RHEL) und Windows-Systeme gemäß den Vorgaben von Cert-BW und BSI durch.\n\nSicherheitsrichtlinien und Automatisierung: Du entwickelst und implementierst Sicherheitsrichtlinien und -verfahren. Mit Bash- und PowerShell-Skripten automatisierst Du sicherheitsrelevante Aufgaben und Hardening-Prozesse.\n\nVirtualisierung und Infrastrukturhärtung: Du verwaltest und härtest VM-Umgebungen.\n\nActive Directory und Netzwerkabsicherung: Du administrierst und härtest Active Directory (AD) Umgebungen. Zudem konfigurierst und verwaltest Du Firewalls (Cisco) zur Realisierung von Netzwerksicherheit.\n\nSicherheitsüberprüfungen und -audits: Du führst Sicherheitsüberprüfungen und -audits durch, analysierst Schwachstellen und behebst Sicherheitslücken in Systemen und Netzwerken.\n\nTeamarbeit und Sicherheitsstrategie: Du arbeitest eng mit anderen IT-Teams zusammen, um eine ganzheitliche Sicherheitsstrategie zu entwickeln und umzusetzen.\n\nStakeholder Management: Kommuniziere (intern als auch extern) und arbeite eng mit Projektteams, Stakeholdern und Kunden zusammen.\n\nWomit Du überzeugst\n\nDu hast eine technische Ausbildung, Studium oder vergleichbare Qualifikation.\n\nDeine fundierten Kenntnisse in der Systemadministration von Linux RHEL oder Windows zeichnen Dich aus.\n\nDu hast Erfahrung mit den Sicherheitsrichtlinien und -standards von CertBW und BSI.\n\nDu hast fortgeschrittene Fähigkeiten in der Skripterstellung mit Bash und PowerShell.\n\nDu hast Erfahrung in der Verwaltung von VM-Umgebungen, sowie in der Konfiguration und Verwaltung von Firewalls.\n\nDu hast Kenntnisse in der Administration von Active Directory (AD).\n\nDer persönliche Kontakt mit Kunden bringt Dir Spaß.\n\nEigenständiges Arbeiten und die Übernahme von Verantwortung zeichnen Dich aus.\n\nDu verfügst über sehr gute Deutschkenntnisse in Wort und Schrift.\n\nDu bringst die Bereitschaft zur Durchführung einer Sicherheitsüberprüfung mit.\n\nDu bist bereit für regelmäßige Dienstreisen innerhalb Deutschlands. Darunter verstehen wir die grundsätzliche Flexibilität unter der Woche beim Kunden vor Ort zu sein.\n\nWorauf Du Dich freuen kannst\nUnsere besondere Unternehmenskultur:\n\nHerzliches und wertschätzendes Miteinander, in dem jede Persönlichkeit zählt \n\nOffener Austausch und offene Türen - vom Junior bis zum Vorstand \n\nZahlreiche Team- und Unternehmensevents, wie unser jährliches Sommerfest zusammen mit unseren Familien \n\nUnsere Benefits für Wohlergehen und Wachstum:\n\nSmartes Arbeiten, z.B. mobil und mit flexiblen Arbeitszeitmodellen, Möglichkeit für Sabbaticals und Workation\n\nZusatzleistungen, z.B. Corporate Benefits, attraktive betriebliche Altersvorsorge und JobRad\n\nHealth Care Benefits, z.B. vergünstigte Mitgliedschaften für Urban Sports Club \n\nUnser gemeinsamer Weg:\n\nIntensive Einarbeitung durch ein umfangreiches Onboarding und Patenprogramm\n\nVielfältige interne Weiterbildungsangebote und externe Fördermaßnahmen\n\nInternationales Austauschprogramm zur Förderung der persönlichen und beruflichen Weiterentwicklung innerhalb der Unternehmensgruppe\n\nUnd vieles mehr.\n\nWas Du wissen solltest\nWir suchen Persönlichkeiten! Daher prüfen wir Deine Bewerbung nicht ausschließlich auf eine bestimmte Stelle bezogen, sondern als eine Bewerbung an das Unternehmen Scalian Germany. In einem persönlichen Gespräch finden wir gemeinsam heraus, ob Deine Ziele und unsere Vorstellungen zueinander passen. \n\nDu findest Dich im Themengebiet und Standort nicht wieder? Sende uns gerne Deine Unterlagen zu – wir berücksichtigen Dich gerne für weitere Projekte an auch an anderen Standorten.\n\nAlles Weitere erzählen wir Dir in einem persönlichen Gespräch. Sende Deine Unterlagen entweder per E-Mail an bewerbung@scalian.de oder nutze den \"Jetzt Bewerben\"-Button (Dateigröße max. 35 MB).\n\n2-5 years of experience",
+      "skill_requirements": [
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Active Directory und Netzwerkabsicherung: Du administrierst und härtest Active Directory (AD) Umgebungen."
+        }
+      ],
+      "german_analysis": {
+        "category": "unspecified",
+        "level": "unspecified",
+        "mandatory": false,
+        "label": "German unspecified required",
+        "evidence": "Du verfügst über sehr gute Deutschkenntnisse in Wort und Schrift."
+      },
+      "experience_analysis": {
+        "min_years": 2,
+        "max_years": 5,
+        "optional": false,
+        "display": "2-5 years",
+        "evidence": "2-5 years of experience"
+      }
+    },
+    {
+      "report_number": 9,
+      "job_key": "7c122b634a925ef200eb",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 70,
+      "raw_score": 70,
+      "score_cap": null,
+      "score_cap_reasons": [],
+      "score_label": "GOOD",
+      "title": "Consultant Operation Technology Security (m/w/d)*",
+      "company": "Scalian Germany AG",
+      "location": "München, Germany",
+      "location_analysis": {
+        "category": "eligible_germany",
+        "eligible": true,
+        "score": 15,
+        "reason": "Germany/Berlin eligibility detected",
+        "verification_required": false,
+        "score_cap": null
+      },
+      "working_model": "On-site / not specified",
+      "role_family": {
+        "id": "it_audit_grc",
+        "label": "IT Audit / GRC",
+        "priority": 3,
+        "confidence": "medium",
+        "evidence": [
+          "iso 27001"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://scalian-germany.jobs.personio.de/job/1747299?language=de",
+      "apply_url": "https://scalian-germany.jobs.personio.de/job/1747299?language=de",
+      "canonical_url": "https://scalian-germany.jobs.personio.de/job/1747299?language=de",
+      "source": "Personio",
+      "sources": [
+        "Personio"
+      ],
+      "ats": "personio",
+      "priority_employer": false,
+      "published_at": "2024-09-20T14:09:47Z",
+      "posting_age_days": 694,
+      "urgency": "OLDER POSTING - VERIFY ACTIVE",
+      "first_seen": "2026-08-15T17:01:09Z",
+      "experience_required": "2-5 years",
+      "german_requirement": "German unspecified required",
+      "skill_matches": {
+        "match": [],
+        "partial": [
+          "nist"
+        ],
+        "missing": [
+          "iso 27001"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Deine Kenntnisse in relevanten Standards wie IEC 62443 und ISO 27001 runden Dein Profil ab."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 12,
+        "skills": 9,
+        "experience": 15,
+        "location": 15,
+        "language": 4,
+        "seniority": 10,
+        "education": 5
+      },
+      "match_reasons": [
+        "The role is based in Berlin/Germany or explicitly accepts Germany.",
+        "The detected experience requirement is within or close to the 2+ year profile."
+      ],
+      "warnings": [
+        "German unspecified required",
+        "Potential gaps: iso 27001",
+        "Exposure only; do not claim deep expertise: nist"
+      ],
+      "recommendation": "REVIEW - verify mandatory requirements before applying",
+      "description_excerpt": "Warum zu uns Empower People. Create Success. Bei Scalian Germany stehen die Mitarbeitenden und das Miteinander im Fokus. Wir brennen für unsere Themen, bringen uns proaktiv ein und geben fachlich und persönlich tagtäglich unser Bestes. Gemeinsam feiern wir unsere kleinen und großen Erfolge, freuen uns aufrichtig für- und miteinander und unterstützen uns gegenseitig. Bringe mit uns Deine Karriere voran und nutze die vielfältigen Möglichkeiten, Dich individuell weiterzuentwickeln, Dein Wissen und Deine Ideen zu teilen und auszubauen sowie Projekte eigenverantwortlich zu übernehmen. Was wir gemeinsam vorhaben Treibe OT-Security Projekte voran: Übernimm die Teilprojektleitung und setze Standards für die OT-Security im IT/OT-Programm. Entwickle Prozesse & Services weiter: Hilf mit, die OT-Architektur zu gestalten und unterstütze bei der Etablierung eines IT/OT-Serviceportfolios sowie der dazugehörigen Prozesse. Rechenzentrumssicherheit im Fokus: Stelle sicher, dass Hard- und Software in Energieerzeugungsanlagen sicher und stabil laufen. Lege Ziele fest: Definiere klare Aufgaben und setze Prioritäten, um gemeinsam die Projektziele zu erreichen. Stakeholder Management: Kommuniziere (inte…",
+      "full_description": "Warum zu uns\nEmpower People. Create Success. Bei Scalian Germany stehen die Mitarbeitenden und das Miteinander im Fokus. Wir brennen für unsere Themen, bringen uns proaktiv ein und geben fachlich und persönlich tagtäglich unser Bestes. Gemeinsam feiern wir unsere kleinen und großen Erfolge, freuen uns aufrichtig für- und miteinander und unterstützen uns gegenseitig. Bringe mit uns Deine Karriere voran und nutze die vielfältigen Möglichkeiten, Dich individuell weiterzuentwickeln, Dein Wissen und Deine Ideen zu teilen und auszubauen sowie Projekte eigenverantwortlich zu übernehmen.\n\nWas wir gemeinsam vorhaben\n\nTreibe OT-Security Projekte voran: Übernimm die Teilprojektleitung und setze Standards für die OT-Security im IT/OT-Programm.\n\nEntwickle Prozesse & Services weiter: Hilf mit, die OT-Architektur zu gestalten und unterstütze bei der Etablierung eines IT/OT-Serviceportfolios sowie der dazugehörigen Prozesse.\n\nRechenzentrumssicherheit im Fokus: Stelle sicher, dass Hard- und Software in Energieerzeugungsanlagen sicher und stabil laufen.\n\nLege Ziele fest: Definiere klare Aufgaben und setze Prioritäten, um gemeinsam die Projektziele zu erreichen.\n\nStakeholder Management: Kommuniziere (intern als auch extern) und arbeite eng mit Projektteams, Stakeholdern und Kunden zusammen.\n\nWomit Du überzeugst\n\nDu hast ein abgeschlossenes Studium in Informatik, Medieninformatik, Wirtschaftsinformatik oder Technologiemanagement.\n\nDu bringst praktische Erfahrung im Bereich Cyber Security mit und hast ein gutes Wissen in NIST, KRITIS und IT-Grundschutz.\n\nDeine Kenntnisse in relevanten Standards wie IEC 62443 und ISO 27001 runden Dein Profil ab.\n\nProaktiv ergreifst Du die Initiative und treibst Ideen und Lösungen voran.\n\nDer persönliche Kontakt mit Kunden bringt Dir Spaß.\n\nTeamgeist, Einsatzbereitschaft und Durchsetzungsvermögen sind für Dich selbstverständlich.\n\nDu verfügst über sehr gute Deutschkenntnisse in Wort und Schrift.\n\nDeine Englischkenntnisse sind gut in Wort und Schrift.\n\nDu bist bereit für regelmäßige Dienstreisen innerhalb Deutschlands. Darunter verstehen wir die grundsätzliche Flexibilität unter der Woche beim Kunden vor Ort zu sein.\n\nWorauf Du Dich freuen kannst\nUnsere besondere Unternehmenskultur:\n\nHerzliches und wertschätzendes Miteinander, in dem jede Persönlichkeit zählt \n\nOffener Austausch und offene Türen - vom Junior bis zum Vorstand \n\nZahlreiche Team- und Unternehmensevents, wie unser jährliches Sommerfest zusammen mit unseren Familien \n\nUnsere Benefits für Wohlergehen und Wachstum:\n\nSmartes Arbeiten, z.B. mobil und mit flexiblen Arbeitszeitmodellen, Möglichkeit für Sabbaticals und Workation\n\nZusatzleistungen, z.B. Corporate Benefits, attraktive betriebliche Altersvorsorge und JobRad\n\nHealth Care Benefits, z.B. vergünstigte Mitgliedschaften für Urban Sports Club \n\nUnser gemeinsamer Weg:\n\nIntensive Einarbeitung durch ein umfangreiches Onboarding und Patenprogramm\n\nVielfältige interne Weiterbildungsangebote und externe Fördermaßnahmen\n\nInternationales Austauschprogramm zur Förderung der persönlichen und beruflichen Weiterentwicklung innerhalb der Unternehmensgruppe\n\nUnd vieles mehr.\n\nWas Du wissen solltest\nWir suchen Persönlichkeiten! Daher prüfen wir Deine Bewerbung nicht ausschließlich auf eine bestimmte Stelle bezogen, sondern als eine Bewerbung an das Unternehmen Scalian Germany. In einem persönlichen Gespräch finden wir gemeinsam heraus, ob Deine Ziele und unsere Vorstellungen zueinander passen. \nDu findest Dich nicht im Themengebiet und Standort wieder? Lass uns gerne Deine Initiativbewerbung zukommen. Vergleichbare Themen haben wir auch an anderen Standorten!\n\nAlles Weitere erzählen wir Dir in einem persönlichen Gespräch. Sende Deine Unterlagen entweder per E-Mail an bewerbung@scalian.de oder nutze den \"Jetzt Bewerben\"-Button (Dateigröße max. 35 MB).\n\n2-5 years of experience",
+      "skill_requirements": [
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Deine Kenntnisse in relevanten Standards wie IEC 62443 und ISO 27001 runden Dein Profil ab."
+        },
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Du bringst praktische Erfahrung im Bereich Cyber Security mit und hast ein gutes Wissen in NIST, KRITIS und IT-Grundschutz."
+        }
+      ],
+      "german_analysis": {
+        "category": "unspecified",
+        "level": "unspecified",
+        "mandatory": false,
+        "label": "German unspecified required",
+        "evidence": "Du verfügst über sehr gute Deutschkenntnisse in Wort und Schrift."
+      },
+      "experience_analysis": {
+        "min_years": 2,
+        "max_years": 5,
+        "optional": false,
+        "display": "2-5 years",
+        "evidence": "2-5 years of experience"
+      }
+    },
+    {
+      "report_number": 10,
+      "job_key": "ef7715b34e46f3bd18ea",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 74,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "Senior title is above the profile's current 2+ years"
+      ],
+      "score_label": "REVIEW",
+      "title": "Cybersecurity (Senior) Software Engineer (m/w/d)",
+      "company": "Trusteq Gmbh",
+      "location": "München, Germany",
+      "location_analysis": {
+        "category": "eligible_germany",
+        "eligible": true,
+        "score": 15,
+        "reason": "Germany/Berlin eligibility detected",
+        "verification_required": false,
+        "score_cap": null
+      },
+      "working_model": "On-site / not specified",
+      "role_family": {
+        "id": "application_security",
+        "label": "Application Security",
+        "priority": 1,
+        "confidence": "medium",
+        "evidence": [
+          "owasp"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://www.arbeitnow.com/jobs/companies/trusteq-gmbh/cybersecurity-senior-software-engineer-munchen-470677",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/trusteq-gmbh/cybersecurity-senior-software-engineer-munchen-470677",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/trusteq-gmbh/cybersecurity-senior-software-engineer-munchen-470677",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "published_at": "2026-08-15T11:09:31Z",
+      "posting_age_days": 0,
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-08-15T17:01:09Z",
+      "experience_required": "2-5 years",
+      "german_requirement": "German requested; level/strictness unclear",
+      "skill_matches": {
+        "match": [
+          "application security",
+          "owasp",
+          "python"
+        ],
+        "partial": [
+          "aws",
+          "ci/cd",
+          "devsecops",
+          "docker",
+          "git",
+          "javascript"
+        ],
+        "missing": [
+          "azure",
+          "go",
+          "kubernetes",
+          "terraform"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [
+        {
+          "skill": "azure",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Du hast idealerweise bereits mit DevSecOps-Ansätzen gearbeitet und Security in Entwicklungs- und Deployment-Prozesse integriert (AWS, Azure, GCP)"
+        },
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Java, Python, Typescript, Go) mit und hast ein starkes Interesse daran, Security von Anfang an mitzudenken"
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Du bringst Kenntnisse in Container-Technologien (Docker, Kubernetes) und deren Absicherung mit"
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Idealerweise hast Du bereits mit Werkzeugen wie Terraform, OpenTofu oder Pulumi gearbeitet"
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 20,
+        "skills": 13,
+        "experience": 15,
+        "location": 15,
+        "language": 4,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Application Security.",
+        "The role is based in Berlin/Germany or explicitly accepts Germany.",
+        "Evidenced matches include application security, owasp, python.",
+        "The detected experience requirement is within or close to the 2+ year profile."
+      ],
+      "warnings": [
+        "German requested; level/strictness unclear",
+        "Potential gaps: azure, go, kubernetes, terraform",
+        "Exposure only; do not claim deep expertise: aws, ci/cd, devsecops, docker, git, javascript",
+        "Senior title is above the profile's current 2+ years"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "DEINE AUFGABEN Du entwickelst sichere Software- und Infrastrukturlösungen und integrierst Security-by-Design-Prinzipien von Anfang an in den Entwicklungs- und Bereitstellungsprozess. Du unterstützt unsere Kund:innen bei der Konzeption, Entwicklung und Absicherung moderner Anwendungen und Infrastrukturen, beispielsweise in den Bereichen KI, Web, APIs und Cloud. Du identifizierst Sicherheitsrisiken in bestehenden Anwendungen, Cloud-Umgebungen und Infrastrukturkonfigurationen und leitest konkrete Maßnahmen zur Behebung ab. Du führst Code-Reviews mit Fokus auf Security durch und etablierst Best Practices für sichere Softwareentwicklung Du arbeitest eng mit Entwicklerteams, Architekt:innen, Infrastrukturteams und Security-Verantwortlichen zusammen, um ganzheitlich sichere Systeme zu gestalten. Du implementierst Security-Mechanismen wie Authentifizierung, Autorisierung, Verschlüsselung und Secrets Management in Softwarelösungen und Cloud-Konfigurationen. Du integrierst Security-Checks in CI/CD-Pipelines und unterstützt beim Aufbau von DevSecOps-Strukturen. Du entwickelst und pflegst Infrastructure-as-Code-Lösungen, um Cloud- und Plattforminfrastrukturen sicher, nachvollziehbar und wiede…",
+      "full_description": "DEINE AUFGABEN\n\nDu entwickelst sichere Software- und Infrastrukturlösungen und integrierst Security-by-Design-Prinzipien von Anfang an in den Entwicklungs- und Bereitstellungsprozess.\n\nDu unterstützt unsere Kund:innen bei der Konzeption, Entwicklung und Absicherung moderner Anwendungen und Infrastrukturen, beispielsweise in den Bereichen KI, Web, APIs und Cloud.\n\nDu identifizierst Sicherheitsrisiken in bestehenden Anwendungen, Cloud-Umgebungen und Infrastrukturkonfigurationen und leitest konkrete Maßnahmen zur Behebung ab.\n\nDu führst Code-Reviews mit Fokus auf Security durch und etablierst Best Practices für sichere Softwareentwicklung\n\nDu arbeitest eng mit Entwicklerteams, Architekt:innen, Infrastrukturteams und Security-Verantwortlichen zusammen, um ganzheitlich sichere Systeme zu gestalten.\n\nDu implementierst Security-Mechanismen wie Authentifizierung, Autorisierung, Verschlüsselung und Secrets Management in Softwarelösungen und Cloud-Konfigurationen.\n\nDu integrierst Security-Checks in CI/CD-Pipelines und unterstützt beim Aufbau von DevSecOps-Strukturen.\n\nDu entwickelst und pflegst Infrastructure-as-Code-Lösungen, um Cloud- und Plattforminfrastrukturen sicher, nachvollziehbar und wiederholbar bereitzustellen.\n\nDu analysierst neue Technologien und Tools im Bereich Application Security und bringst Deine Ideen aktiv in Kundenprojekte ein.\n\nDu begleitest unsere Kund:innen bei der Transformation hin zu sicherer Softwareentwicklung, modernen Architekturen und automatisierten Infrastrukturprozessen.\n\nDu übernimmst Verantwortung für eigene Arbeitspakete und bringst Dich aktiv in die Weiterentwicklung unserer Themen und Services ein.\n\nDEIN PROFIL\n\nDu hast ein gut bis sehr gut abgeschlossenes Studium im Bereich Informatik, Wirtschaftsinformatik, IT-Sicherheit oder eine vergleichbare Qualifikation\n\nDu bringst für die Rolle Engineer 1–2 Jahre und für die Rolle Senior Engineer 2-5 Jahre Berufserfahrung mit\n\nDu bringst fundierte Kenntnisse in der Softwareentwicklung (z. B. Java, Python, Typescript, Go) mit und hast ein starkes Interesse daran, Security von Anfang an mitzudenken\n\nDu kennst dich mit Cloud-Infrastrukturen, Automatisierung und Deployment-Prozessen aus\n\nDu hast Erfahrung mit Clean Code, Design Patterns und Softwarequalität und kannst diese Prinzipien auch auf Automatisierungs- und Infrastrukturcode übertragen.\n\nDu kennst dich mit Versionskontrolle (Git) und Code Reviews aus\n\nDu kennst gängige Secure Coding Practices und hast ein gutes Verständnis für typische Schwachstellen (z. B. OWASP Top 10)\n\nDu bringst Kenntnisse in Container-Technologien (Docker, Kubernetes) und deren Absicherung mit \n\nDu hast praktische Erfahrung mit Infrastructure as Code oder möchtest Deine vorhandenen Kenntnisse in diesem Bereich vertiefen. Idealerweise hast Du bereits mit Werkzeugen wie Terraform, OpenTofu oder Pulumi gearbeitet\n\nDu hast Erfahrung mit automatisierten Tests, beispielsweise Unit-, Integrations- und Security-Tests, und kennst auch Ansätze zur automatisierten Prüfung von Infrastrukturkonfigurationen\n\nDu hast idealerweise bereits mit DevSecOps-Ansätzen gearbeitet und Security in Entwicklungs- und Deployment-Prozesse integriert (AWS, Azure, GCP)\n\nDu hast im besten Fall Verständnis moderner Sicherheitsarchitekturen (z. B. Zero Trust, Least Privilege, Defense in Depth) \n\nDu hast optimalerweise schon Zertifizierungen im Bereich Security\n\nDu denkst nicht nur technisch, sondern auch analytisch und kannst Sicherheitsrisiken strukturiert bewerten und priorisieren\n\nDu hast Spaß daran, Dich in neue Technologien und Security-Themen einzuarbeiten und Dein Wissen kontinuierlich weiterzuentwickeln\n\nDu arbeitest gerne im Team, übernimmst Verantwortung für Deine Themen und treibst diese eigenständig voran\n\nDu kommunizierst sicher auf Deutsch und Englisch und kannst komplexe Sachverhalte verständlich vermitteln, auch im Austausch mit Kund:innen\n\nDu willst nicht nur umsetzen, sondern aktiv mitgestalten und echte Erfolge in Projekten und beim Aufbau neuer Themen leisten\n\nDu hast schon Erfahrung im Consulting-Umfeld oder in der Zusammenarbeit mit Kund:innen\n\nDu verfügst über sehr gute Deutsch- und Englischkenntnisse (mind. C1 in beiden Sprachen)\n\nDEINE BENEFITS\n\nUnterstützende Teamkultur: Teamzusammenhalt ist uns wichtig - wir unterstützen uns gegenseitig und pflegen eine gesunde Officekultur. Unser Eventteam plant regelmäßige Afterworks und sorgt für einen Austausch außerhalb des Arbeitsplatzes.\n\nSchnelle Verantwortungsübernahme: Du übernimmst ab Tag 1 spannende Aufgaben mit eigener Verantwortung - egal ob auf deinem Projekt oder bei der Einbringung in interne Aufgabe - du gestaltest mit!\n\nKlare Karrieremöglichkeiten: Bei uns findest du ein Umfeld, das dich fördert, fordert und weiterbringt. Wir haben klar definierte Karrieremöglichkeiten und ein transparentes Anforderungsmanagement and jedes Level.\n\nKreativer Arbeitsplatz: Wir geben dir die Freiheit und Zeit, kreative Lösungen zu entwickeln und bieten dir dafür die beste und modernste Hardware an (Apple oder Windows).\n\nMitarbeiterbenefits: Flexible Arbeitsmodelle, BahnCard, JobRad, Spendit-Card, Wellpass und betriebliche Altersvorsorge sorgen für dein Wohlbefinden. Außerdem gibt es bei uns im Office den Besten Kaffee aus unserer neuen Siebträgermaschine und einen immer gefüllten Soft-Getränkekühlschrank.\n\nAttraktive Urlaubsregelung: Du genießt 30 Tage Urlaub im Jahr und kannst flexibel von daheim arbeiten.\n\nFind Jobs in Germany on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "application security",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Du analysierst neue Technologien und Tools im Bereich Application Security und bringst Deine Ideen aktiv in Kundenprojekte ein."
+        },
+        {
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Du hast idealerweise bereits mit DevSecOps-Ansätzen gearbeitet und Security in Entwicklungs- und Deployment-Prozesse integriert (AWS, Azure, GCP)"
+        },
+        {
+          "skill": "azure",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Du hast idealerweise bereits mit DevSecOps-Ansätzen gearbeitet und Security in Entwicklungs- und Deployment-Prozesse integriert (AWS, Azure, GCP)"
+        },
+        {
+          "skill": "ci/cd",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Du integrierst Security-Checks in CI/CD-Pipelines und unterstützt beim Aufbau von DevSecOps-Strukturen."
+        },
+        {
+          "skill": "devsecops",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Du integrierst Security-Checks in CI/CD-Pipelines und unterstützt beim Aufbau von DevSecOps-Strukturen."
+        },
+        {
+          "skill": "docker",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Du bringst Kenntnisse in Container-Technologien (Docker, Kubernetes) und deren Absicherung mit"
+        },
+        {
+          "skill": "git",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Du kennst dich mit Versionskontrolle (Git) und Code Reviews aus"
+        },
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Java, Python, Typescript, Go) mit und hast ein starkes Interesse daran, Security von Anfang an mitzudenken"
+        },
+        {
+          "skill": "javascript",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Java, Python, Typescript, Go) mit und hast ein starkes Interesse daran, Security von Anfang an mitzudenken"
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Du bringst Kenntnisse in Container-Technologien (Docker, Kubernetes) und deren Absicherung mit"
+        },
+        {
+          "skill": "owasp",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "OWASP Top 10)"
+        },
+        {
+          "skill": "python",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Java, Python, Typescript, Go) mit und hast ein starkes Interesse daran, Security von Anfang an mitzudenken"
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Idealerweise hast Du bereits mit Werkzeugen wie Terraform, OpenTofu oder Pulumi gearbeitet"
+        }
+      ],
+      "german_analysis": {
+        "category": "unspecified",
+        "level": "unspecified",
+        "mandatory": false,
+        "label": "German requested; level/strictness unclear",
+        "evidence": "Du kommunizierst sicher auf Deutsch und Englisch und kannst komplexe Sachverhalte verständlich vermitteln, auch im Austausch mit Kund:innen"
+      },
+      "experience_analysis": {
+        "min_years": 2,
+        "max_years": 5,
+        "optional": false,
+        "display": "2-5 years",
+        "evidence": "Du bringst für die Rolle Engineer 1–2 Jahre und für die Rolle Senior Engineer 2-5 Jahre Berufserfahrung mit"
+      }
+    }
+  ],
+  "analysis_request": {
+    "instruction": "Review each vacancy against the supplied professional evidence. Do not trust the automated score without checking the full description.",
+    "return_for_each_job": [
+      "APPLY FIRST / APPLY / REVIEW / STRETCH / SKIP",
+      "evidence-based fit percentage",
+      "mandatory and optional gaps",
+      "location and work-eligibility risk",
+      "truthful CV tailoring",
+      "three likely interview questions with evidence-backed answer angles"
+    ],
+    "never_invent": [
+      "production-depth AWS, Kubernetes, cloud, CI/CD or programming experience",
+      "management experience",
+      "certifications or German level not present in the profile",
+      "security tools or responsibilities not supported by evidence"
+    ]
+  }
+}

@@ -1,1092 +1,405 @@
 # Cybersecurity Job Radar
 
 **Date:** 2026-08-15
-**Raw postings collected:** 20776
-**Unique jobs after deduplication:** 19298
-**New jobs:** 342
-**Updated jobs:** 3
-**Relevant jobs:** 348
-**Strong matches:** 42
-**Sources checked:** 3
+**Scoring model:** v2
+**Raw postings collected:** 22404
+**Unique jobs after deduplication:** 20520
+**New jobs:** 21
+**Updated jobs:** 2
+**Relevant jobs:** 38
+**Strong matches:** 1
+**Sources checked:** 6
 **Sources failed:** 0
 **Sources partially successful:** 0
 
-> Scores are a transparent first filter, not an application decision. Verify the original vacancy before tailoring a CV.
+> The score is a transparent first filter. Verify the original vacancy before tailoring a CV or applying.
 
 ## Jobs Collected by Source
 
 - **Arbeitnow:** 875
-- **Remotive:** 18
-- **Greenhouse:** 19883
+- **Remotive:** 16
+- **Greenhouse:** 19879
+- **Ashby:** 319
+- **Lever:** 1113
+- **Personio:** 202
 
-## 🔥 APPLY FIRST
+## 🔥 TOP MATCHES
 
-### 1. Product Security Engineer
+### 1. IT-Security Engineer (m/w/d)*
 
-- **Company:** Vercel
-- **Location:** Berlin, Germany
-- **Working model:** Hybrid
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
+- **Company:** Scalian Germany AG
+- **Location:** Hamburg, Germany
+- **Location eligibility:** Germany/Berlin eligibility detected
+- **Working model:** On-site / not specified
+- **Role family:** Security Engineering
+- **Seniority:** Mid-level or unspecified
+- **Source / ATS:** Personio / Personio
 - **Priority employer:** NO
-- **Posted:** 2026-08-13
+- **Posted:** 2025-05-26 (OLDER POSTING - VERIFY ACTIVE)
 - **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **90/100 - EXCELLENT**
-- **Direct job URL:** [Vercel vacancy](https://job-boards.greenhouse.io/vercel/jobs/6102343004)
+- **Radar / application status:** NEW / NEW
+- **Match score:** **86/100 - STRONG**
+- **Direct job URL:** [Scalian Germany AG vacancy](https://scalian-germany.jobs.personio.de/job/2129613?language=de)
 
-**Strong matches:** frida, penetration testing, security testing, threat modeling
+**Strong matches:** penetration testing
 
 **Partial matches:** None detected
 
-**Potential gaps:** None detected
-
-**Nice-to-have requirements:** None detected
-
-**Experience:** No explicit years detected
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. The responsibilities align strongly with Application/Product Security work. The role is based in Berlin/Germany. No mandatory German level above the current profile was detected.
-
-**Warnings:** No major automated warning.
-
-**Recommendation:** APPLY FIRST - verify the full vacancy and tailor the CV
-
-### 2. Staff+ Application Security Engineer
-
-- **Company:** Anthropic
-- **Location:** Remote-Friendly (Travel-Required) \| San Francisco, CA \| Seattle, WA \| New York City, NY
-- **Working model:** Remote
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** NO
-- **Posted:** 2026-08-03
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **90/100 - EXCELLENT**
-- **Direct job URL:** [Anthropic vacancy](https://job-boards.greenhouse.io/anthropic/jobs/4502508008)
-
-**Strong matches:** application security, penetration testing, python, sast, threat modeling
-
-**Partial matches:** None detected
+**Mandatory gaps:** None explicitly detected
 
 **Potential gaps:** None detected
 
-**Nice-to-have requirements:** None detected
-
-**Experience:** No explicit years detected
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. The responsibilities align strongly with Application/Product Security work. No mandatory German level above the current profile was detected. Strong evidenced skill matches include application security, penetration testing, python, sast, threat modeling.
-
-**Warnings:** No major automated warning.
-
-**Recommendation:** APPLY FIRST - verify the full vacancy and tailor the CV
-
-### 3. Staff+ Application Security Engineer - M&A
-
-- **Company:** Anthropic
-- **Location:** Remote-Friendly (Travel-Required) \| San Francisco, CA \| Seattle, WA \| New York City, NY
-- **Working model:** Remote
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** NO
-- **Posted:** 2026-08-03
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **90/100 - EXCELLENT**
-- **Direct job URL:** [Anthropic vacancy](https://job-boards.greenhouse.io/anthropic/jobs/5311463008)
-
-**Strong matches:** application security, dast, penetration testing, python, sast, threat modeling, vulnerability assessment, vulnerability management
-
-**Partial matches:** None detected
-
-**Potential gaps:** None detected
-
-**Nice-to-have requirements:** None detected
-
-**Experience:** No explicit years detected
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. The responsibilities align strongly with Application/Product Security work. No mandatory German level above the current profile was detected. Strong evidenced skill matches include application security, dast, penetration testing, python, sast.
-
-**Warnings:** No major automated warning.
-
-**Recommendation:** APPLY FIRST - verify the full vacancy and tailor the CV
-
-## 🟢 STRONG MATCHES
-
-### 4. Product Security Engineer II
-
-- **Company:** Affirm
-- **Location:** Remote Canada
-- **Working model:** Remote
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** NO
-- **Posted:** 2026-08-12
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **88/100 - STRONG**
-- **Direct job URL:** [Affirm vacancy](https://job-boards.greenhouse.io/affirm/jobs/7796530003)
-
-**Strong matches:** api security, application security, burp suite, owasp, penetration testing, python, vulnerability management
-
-**Partial matches:** None detected
-
-**Potential gaps:** None detected
-
-**Nice-to-have requirements:** None detected
-
-**Experience:** 0-2 years
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. The responsibilities align strongly with Application/Product Security work. No mandatory German level above the current profile was detected. Strong evidenced skill matches include api security, application security, burp suite, owasp, penetration testing.
-
-**Warnings:** No major automated warning.
-
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
-
-### 5. Senior Product Security Engineer
-
-- **Company:** Staffbase
-- **Location:** Berlin, Germany
-- **Working model:** On-site / not specified
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** YES
-- **Posted:** 2026-08-04
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **88/100 - STRONG**
-- **Direct job URL:** [Staffbase vacancy](https://job-boards.greenhouse.io/staffbase/jobs/8524710002)
-
-**Strong matches:** dast, frida, penetration testing, sast, secure sdlc, vulnerability management
-
-**Partial matches:** ci/cd
-
-**Potential gaps:** kubernetes
-
-**Nice-to-have requirements:** python (match)
-
-**Experience:** No explicit years detected
-
-**German:** German is preferred/nice-to-have
-
-**Why relevant:** The title is in a high-priority target role family. The responsibilities align strongly with Application/Product Security work. The role is based in Berlin/Germany. No mandatory German level above the current profile was detected.
-
-**Warnings:** Potential skill gaps: kubernetes Exposure only; do not claim deep expertise: ci/cd
-
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
-
-### 6. Senior Product Security Engineer
-
-- **Company:** Staffbase
-- **Location:** Chemnitz, Sachsen, Germany
-- **Working model:** On-site / not specified
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** YES
-- **Posted:** 2026-08-04
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **87/100 - STRONG**
-- **Direct job URL:** [Staffbase vacancy](https://job-boards.greenhouse.io/staffbase/jobs/8670749002)
-
-**Strong matches:** dast, frida, penetration testing, sast, secure sdlc, vulnerability management
-
-**Partial matches:** ci/cd
-
-**Potential gaps:** kubernetes
-
-**Nice-to-have requirements:** python (match)
-
-**Experience:** No explicit years detected
-
-**German:** German is preferred/nice-to-have
-
-**Why relevant:** The title is in a high-priority target role family. The responsibilities align strongly with Application/Product Security work. The role is based in Berlin/Germany. No mandatory German level above the current profile was detected.
-
-**Warnings:** Potential skill gaps: kubernetes Exposure only; do not claim deep expertise: ci/cd
-
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
-
-### 7. Senior Product Security Engineer
-
-- **Company:** Staffbase
-- **Location:** Dresden, Sachsen, Germany
-- **Working model:** On-site / not specified
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** YES
-- **Posted:** 2026-08-04
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **87/100 - STRONG**
-- **Direct job URL:** [Staffbase vacancy](https://job-boards.greenhouse.io/staffbase/jobs/8670748002)
-
-**Strong matches:** dast, frida, penetration testing, sast, secure sdlc, vulnerability management
-
-**Partial matches:** ci/cd
-
-**Potential gaps:** kubernetes
-
-**Nice-to-have requirements:** python (match)
-
-**Experience:** No explicit years detected
-
-**German:** German is preferred/nice-to-have
-
-**Why relevant:** The title is in a high-priority target role family. The responsibilities align strongly with Application/Product Security work. The role is based in Berlin/Germany. No mandatory German level above the current profile was detected.
-
-**Warnings:** Potential skill gaps: kubernetes Exposure only; do not claim deep expertise: ci/cd
-
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
-
-### 8. Application Security Engineer
-
-- **Company:** Starburst
-- **Location:** Warsaw, Poland
-- **Working model:** On-site / not specified
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** NO
-- **Posted:** 2026-05-19
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **87/100 - STRONG**
-- **Direct job URL:** [Starburst vacancy](https://job-boards.greenhouse.io/starburst/jobs/5119301008)
-
-**Strong matches:** api security, application security, burp suite, dast, owasp, owasp zap, python, sast, threat modeling
-
-**Partial matches:** aws, ci/cd, cloud security
-
-**Potential gaps:** azure
-
-**Nice-to-have requirements:** None detected
+**Optional gaps:** None detected
 
 **Experience:** 2-5 years
 
-**German:** No German requirement detected
+**German:** German unspecified required
 
-**Why relevant:** The title is in a high-priority target role family. The responsibilities align strongly with Application/Product Security work. No mandatory German level above the current profile was detected. Strong evidenced skill matches include api security, application security, burp suite, dast, owasp.
+**Why relevant:** Role family: Security Engineering. The role is based in Berlin/Germany or explicitly accepts Germany. Evidenced matches include penetration testing. The detected experience requirement is within or close to the 2+ year profile.
 
-**Warnings:** Potential skill gaps: azure Exposure only; do not claim deep expertise: aws, ci/cd, cloud security
+**Warnings:** German unspecified required
 
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
+**Recommendation:** APPLY FIRST - verify the full vacancy and tailor the CV
 
-### 9. Product Security Engineer
+### 2. Netzwerksicherheit, Cisco, Bash - Cyber Security Engineer (m/w/d)*
 
-- **Company:** LaunchDarkly
-- **Location:** Remote - US West
-- **Working model:** Remote
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** NO
-- **Posted:** 2026-08-14
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **86/100 - STRONG**
-- **Direct job URL:** [LaunchDarkly vacancy](https://job-boards.greenhouse.io/launchdarkly/jobs/7736270003)
-
-**Strong matches:** owasp, python, sast, threat modeling
-
-**Partial matches:** cloud security
-
-**Potential gaps:** None detected
-
-**Nice-to-have requirements:** application security (match)
-
-**Experience:** 4+ years
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. The responsibilities align strongly with Application/Product Security work. No mandatory German level above the current profile was detected. Strong evidenced skill matches include owasp, python, sast, threat modeling.
-
-**Warnings:** Requests 4+ years versus approximately 2.1 years in the profile. Exposure only; do not claim deep expertise: cloud security
-
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
-
-### 10. Product Security Engineer (Starlink)
-
-- **Company:** SpaceX
-- **Location:** Hawthorne, CA
+- **Company:** Scalian Germany AG
+- **Location:** Hamburg, Germany
+- **Location eligibility:** Germany/Berlin eligibility detected
 - **Working model:** On-site / not specified
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
+- **Role family:** Security Engineering
+- **Seniority:** Mid-level or unspecified
+- **Source / ATS:** Personio / Personio
 - **Priority employer:** NO
-- **Posted:** 2026-07-24
+- **Posted:** 2025-05-27 (OLDER POSTING - VERIFY ACTIVE)
 - **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **86/100 - STRONG**
-- **Direct job URL:** [SpaceX vacancy](https://boards.greenhouse.io/spacex/jobs/8577411002?gh_jid=8577411002)
+- **Radar / application status:** NEW / NEW
+- **Match score:** **77/100 - GOOD**
+- **Direct job URL:** [Scalian Germany AG vacancy](https://scalian-germany.jobs.personio.de/job/2131356?language=de)
 
-**Strong matches:** python
-
-**Partial matches:** None detected
-
-**Potential gaps:** None detected
-
-**Nice-to-have requirements:** None detected
-
-**Experience:** 2+ years
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. No mandatory German level above the current profile was detected. Strong evidenced skill matches include python.
-
-**Warnings:** No major automated warning.
-
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
-
-### 11. Product Security Engineer (Starlink)
-
-- **Company:** SpaceX
-- **Location:** Redmond, WA
-- **Working model:** On-site / not specified
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** NO
-- **Posted:** 2026-07-24
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **86/100 - STRONG**
-- **Direct job URL:** [SpaceX vacancy](https://boards.greenhouse.io/spacex/jobs/8543671002?gh_jid=8543671002)
-
-**Strong matches:** frida, python
-
-**Partial matches:** None detected
-
-**Potential gaps:** None detected
-
-**Nice-to-have requirements:** None detected
-
-**Experience:** 2+ years
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. No mandatory German level above the current profile was detected. Strong evidenced skill matches include frida, python.
-
-**Warnings:** No major automated warning.
-
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
-
-### 12. Senior Vehicle Security Engineer (all genders)
-
-- **Company:** MOIA
-- **Location:** Berlin, Germany
-- **Working model:** Hybrid
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** NO
-- **Posted:** 2026-07-31
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **85/100 - STRONG**
-- **Direct job URL:** [MOIA vacancy](https://job-boards.eu.greenhouse.io/moia/jobs/4769020101)
-
-**Strong matches:** threat modeling
+**Strong matches:** None detected
 
 **Partial matches:** nist
 
-**Potential gaps:** None detected
-
-**Nice-to-have requirements:** None detected
-
-**Experience:** No explicit years detected
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. The role is based in Berlin/Germany. No mandatory German level above the current profile was detected. Strong evidenced skill matches include threat modeling.
-
-**Warnings:** Exposure only; do not claim deep expertise: nist
-
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
-
-### 13. Senior Security Engineer (Product Security)
-
-- **Company:** Gallup
-- **Location:** Omaha Riverfront
-- **Working model:** On-site / not specified
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** YES
-- **Posted:** 2026-08-14
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **84/100 - STRONG**
-- **Direct job URL:** [Gallup vacancy](https://job-boards.greenhouse.io/gallup/jobs/4201834009)
-
-**Strong matches:** api security, penetration testing, python
-
-**Partial matches:** None detected
+**Mandatory gaps:** None explicitly detected
 
 **Potential gaps:** None detected
 
-**Nice-to-have requirements:** None detected
-
-**Experience:** No explicit years detected
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. The responsibilities align strongly with Application/Product Security work. No mandatory German level above the current profile was detected. Strong evidenced skill matches include api security, penetration testing, python.
-
-**Warnings:** No major automated warning.
-
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
-
-### 14. Staff Application Security Engineer
-
-- **Company:** Datadog
-- **Location:** Boston, Massachusetts, USA; Connecticut, USA, Remote; Delaware, USA, Remote; District of Columbia, USA, Remote; Maryland, USA, Remote; Massachusetts, USA, Remote; New Jersey, USA, Remote; New York, New York, USA; New York, USA, Remote; Rhode Island, USA, Remote
-- **Working model:** Remote
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** NO
-- **Posted:** 2026-08-12
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **84/100 - STRONG**
-- **Direct job URL:** [Datadog vacancy](https://careers.datadoghq.com/detail/7777798?gh_jid=7777798)
-
-**Strong matches:** api security, application security, dast, owasp, sast, threat modeling
-
-**Partial matches:** None detected
-
-**Potential gaps:** None detected
-
-**Nice-to-have requirements:** python (match)
-
-**Experience:** No explicit years detected
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. The responsibilities align strongly with Application/Product Security work. No mandatory German level above the current profile was detected. Strong evidenced skill matches include api security, application security, dast, owasp, sast.
-
-**Warnings:** No major automated warning.
-
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
-
-### 15. Security Engineer, Application Security
-
-- **Company:** Robinhood
-- **Location:** Bellevue, WA; Menlo Park, CA
-- **Working model:** On-site / not specified
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** NO
-- **Posted:** 2026-08-12
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **84/100 - STRONG**
-- **Direct job URL:** [Robinhood vacancy](https://boards.greenhouse.io/robinhood/jobs/7918258?t=gh_src%3D&gh_jid=7918258)
-
-**Strong matches:** application security, python, threat modeling
-
-**Partial matches:** None detected
-
-**Potential gaps:** None detected
-
-**Nice-to-have requirements:** None detected
-
-**Experience:** 3+ years
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. The responsibilities align strongly with Application/Product Security work. No mandatory German level above the current profile was detected. Strong evidenced skill matches include application security, python, threat modeling.
-
-**Warnings:** Requests 3+ years versus approximately 2.1 years in the profile.
-
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
-
-### 16. Product Security Engineer II
-
-- **Company:** Flexport
-- **Location:** Amsterdam, Netherlands
-- **Working model:** On-site / not specified
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** NO
-- **Posted:** 2026-07-09
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **84/100 - STRONG**
-- **Direct job URL:** [Flexport vacancy](https://job-boards.greenhouse.io/flexport/jobs/7921061)
-
-**Strong matches:** application security, burp suite, owasp, owasp zap, python, sast, secure sdlc, threat modeling, vulnerability management, web security
-
-**Partial matches:** aws, cloud security
-
-**Potential gaps:** azure, gdpr
-
-**Nice-to-have requirements:** None detected
+**Optional gaps:** None detected
 
 **Experience:** 2-5 years
 
-**German:** No German requirement detected
+**German:** German unspecified required
 
-**Why relevant:** The title is in a high-priority target role family. The responsibilities align strongly with Application/Product Security work. No mandatory German level above the current profile was detected. Strong evidenced skill matches include application security, burp suite, owasp, owasp zap, python.
+**Why relevant:** Role family: Security Engineering. The role is based in Berlin/Germany or explicitly accepts Germany. The detected experience requirement is within or close to the 2+ year profile.
 
-**Warnings:** Potential skill gaps: azure, gdpr Exposure only; do not claim deep expertise: aws, cloud security
+**Warnings:** German unspecified required Exposure only; do not claim deep expertise: nist
 
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
+**Recommendation:** REVIEW - verify mandatory requirements before applying
 
-### 17. Senior Product Security Engineer
+### 3. Netzwerksicherheit, Cisco, Bash - Cyber Security Engineer (m/w/d)*
 
-- **Company:** Cloudflare
-- **Location:** Hybrid
-- **Working model:** Hybrid
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
+- **Company:** Scalian Germany AG
+- **Location:** Berlin, Germany
+- **Location eligibility:** Germany/Berlin eligibility detected
+- **Working model:** On-site / not specified
+- **Role family:** Security Engineering
+- **Seniority:** Mid-level or unspecified
+- **Source / ATS:** Personio / Personio
 - **Priority employer:** NO
-- **Posted:** 2026-08-06
+- **Posted:** 2025-05-27 (OLDER POSTING - VERIFY ACTIVE)
 - **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **83/100 - STRONG**
-- **Direct job URL:** [Cloudflare vacancy](https://boards.greenhouse.io/cloudflare/jobs/8079931?gh_jid=8079931)
+- **Radar / application status:** NEW / NEW
+- **Match score:** **77/100 - GOOD**
+- **Direct job URL:** [Scalian Germany AG vacancy](https://scalian-germany.jobs.personio.de/job/2131353?language=de)
 
-**Strong matches:** application security, penetration testing, sast, threat modeling, vulnerability assessment, vulnerability management
+**Strong matches:** None detected
 
 **Partial matches:** nist
 
+**Mandatory gaps:** None explicitly detected
+
 **Potential gaps:** None detected
 
-**Nice-to-have requirements:** None detected
+**Optional gaps:** None detected
+
+**Experience:** 2-5 years
+
+**German:** German unspecified required
+
+**Why relevant:** Role family: Security Engineering. The role is based in Berlin/Germany or explicitly accepts Germany. The detected experience requirement is within or close to the 2+ year profile.
+
+**Warnings:** German unspecified required Exposure only; do not claim deep expertise: nist
+
+**Recommendation:** REVIEW - verify mandatory requirements before applying
+
+### 4. IT Security Experte (m/w/d) Incident Response & DLP
+
+- **Company:** Mandl. Executives & Experts
+- **Location:** Munich, Germany
+- **Location eligibility:** Germany/Berlin eligibility detected
+- **Working model:** Remote
+- **Role family:** SOC / Detection and Response
+- **Seniority:** Mid-level or unspecified
+- **Source / ATS:** Arbeitnow / Not Identified
+- **Priority employer:** NO
+- **Posted:** 2026-08-13 (NEW - APPLY QUICKLY)
+- **First seen:** 2026-08-14
+- **Radar / application status:** UPDATED / NEW
+- **Match score:** **76/100 - GOOD**
+- **Direct job URL:** [Mandl. Executives & Experts vacancy](https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/it-security-experte-incident-response-dlp-munich-455340)
+
+**Strong matches:** penetration testing
+
+**Partial matches:** siem
+
+**Mandatory gaps:** None explicitly detected
+
+**Potential gaps:** None detected
+
+**Optional gaps:** None detected
 
 **Experience:** No explicit years detected
 
-**German:** No German requirement detected
+**German:** German unspecified required
 
-**Why relevant:** The title is in a high-priority target role family. The responsibilities align strongly with Application/Product Security work. No mandatory German level above the current profile was detected. Strong evidenced skill matches include application security, penetration testing, sast, threat modeling, vulnerability assessment.
+**Why relevant:** Role family: SOC / Detection and Response. The role is based in Berlin/Germany or explicitly accepts Germany. Evidenced matches include penetration testing.
 
-**Warnings:** Exposure only; do not claim deep expertise: nist
+**Warnings:** German unspecified required Exposure only; do not claim deep expertise: siem
 
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
+**Recommendation:** REVIEW - verify mandatory requirements before applying
 
-### 18. Embedded Security Engineer (Starlink)
+### 5. SOC Analyst - Hybrid in The Hague or Berlin (f/m/x)
 
-- **Company:** SpaceX
-- **Location:** Hawthorne, CA
-- **Working model:** On-site / not specified
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** NO
-- **Posted:** 2026-07-24
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **83/100 - STRONG**
-- **Direct job URL:** [SpaceX vacancy](https://boards.greenhouse.io/spacex/jobs/8577410002?gh_jid=8577410002)
-
-**Strong matches:** python
-
-**Partial matches:** None detected
-
-**Potential gaps:** None detected
-
-**Nice-to-have requirements:** None detected
-
-**Experience:** 2+ years
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. No mandatory German level above the current profile was detected. Strong evidenced skill matches include python.
-
-**Warnings:** No major automated warning.
-
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
-
-### 19. Security Engineer
-
-- **Company:** SpaceX
-- **Location:** Cape Canaveral, FL
-- **Working model:** On-site / not specified
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** NO
-- **Posted:** 2026-07-24
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **83/100 - STRONG**
-- **Direct job URL:** [SpaceX vacancy](https://boards.greenhouse.io/spacex/jobs/8567522002?gh_jid=8567522002)
-
-**Strong matches:** python
-
-**Partial matches:** None detected
-
-**Potential gaps:** None detected
-
-**Nice-to-have requirements:** None detected
-
-**Experience:** 2+ years
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. No mandatory German level above the current profile was detected. Strong evidenced skill matches include python.
-
-**Warnings:** No major automated warning.
-
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
-
-### 20. Security Engineer
-
-- **Company:** SpaceX
-- **Location:** Hawthorne, CA
-- **Working model:** On-site / not specified
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** NO
-- **Posted:** 2026-07-24
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **83/100 - STRONG**
-- **Direct job URL:** [SpaceX vacancy](https://boards.greenhouse.io/spacex/jobs/8567571002?gh_jid=8567571002)
-
-**Strong matches:** python
-
-**Partial matches:** None detected
-
-**Potential gaps:** None detected
-
-**Nice-to-have requirements:** None detected
-
-**Experience:** 2+ years
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. No mandatory German level above the current profile was detected. Strong evidenced skill matches include python.
-
-**Warnings:** No major automated warning.
-
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
-
-### 21. Security Engineer (Embedded & Networking)
-
-- **Company:** SpaceX
-- **Location:** Cape Canaveral, FL
-- **Working model:** On-site / not specified
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** NO
-- **Posted:** 2026-07-24
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **83/100 - STRONG**
-- **Direct job URL:** [SpaceX vacancy](https://boards.greenhouse.io/spacex/jobs/8593385002?gh_jid=8593385002)
-
-**Strong matches:** python
-
-**Partial matches:** None detected
-
-**Potential gaps:** None detected
-
-**Nice-to-have requirements:** None detected
-
-**Experience:** 2+ years
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. No mandatory German level above the current profile was detected. Strong evidenced skill matches include python.
-
-**Warnings:** No major automated warning.
-
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
-
-### 22. Security Engineer (Embedded & Networking)
-
-- **Company:** SpaceX
-- **Location:** Hawthorne, CA
-- **Working model:** On-site / not specified
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** NO
-- **Posted:** 2026-07-24
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **83/100 - STRONG**
-- **Direct job URL:** [SpaceX vacancy](https://boards.greenhouse.io/spacex/jobs/8593384002?gh_jid=8593384002)
-
-**Strong matches:** python
-
-**Partial matches:** None detected
-
-**Potential gaps:** None detected
-
-**Nice-to-have requirements:** None detected
-
-**Experience:** 2+ years
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. No mandatory German level above the current profile was detected. Strong evidenced skill matches include python.
-
-**Warnings:** No major automated warning.
-
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
-
-### 23. Security Engineer (Embedded OT)
-
-- **Company:** SpaceX
-- **Location:** Hawthorne, CA
-- **Working model:** On-site / not specified
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** NO
-- **Posted:** 2026-07-24
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **83/100 - STRONG**
-- **Direct job URL:** [SpaceX vacancy](https://boards.greenhouse.io/spacex/jobs/8593388002?gh_jid=8593388002)
-
-**Strong matches:** python
-
-**Partial matches:** None detected
-
-**Potential gaps:** None detected
-
-**Nice-to-have requirements:** None detected
-
-**Experience:** 2+ years
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. No mandatory German level above the current profile was detected. Strong evidenced skill matches include python.
-
-**Warnings:** No major automated warning.
-
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
-
-### 24. Security Engineer (Embedded OT)
-
-- **Company:** SpaceX
-- **Location:** Cape Canaveral, FL
-- **Working model:** On-site / not specified
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** NO
-- **Posted:** 2026-07-24
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **83/100 - STRONG**
-- **Direct job URL:** [SpaceX vacancy](https://boards.greenhouse.io/spacex/jobs/8593389002?gh_jid=8593389002)
-
-**Strong matches:** python
-
-**Partial matches:** None detected
-
-**Potential gaps:** None detected
-
-**Nice-to-have requirements:** None detected
-
-**Experience:** 2+ years
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. No mandatory German level above the current profile was detected. Strong evidenced skill matches include python.
-
-**Warnings:** No major automated warning.
-
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
-
-### 25. Embedded Security Engineer (Starlink)
-
-- **Company:** SpaceX
-- **Location:** Redmond, WA
-- **Working model:** On-site / not specified
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** NO
-- **Posted:** 2026-07-24
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **83/100 - STRONG**
-- **Direct job URL:** [SpaceX vacancy](https://boards.greenhouse.io/spacex/jobs/8543670002?gh_jid=8543670002)
-
-**Strong matches:** frida, python
-
-**Partial matches:** None detected
-
-**Potential gaps:** None detected
-
-**Nice-to-have requirements:** None detected
-
-**Experience:** 2+ years
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. No mandatory German level above the current profile was detected. Strong evidenced skill matches include frida, python.
-
-**Warnings:** No major automated warning.
-
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
-
-### 26. Security Engineer, Detection Response
-
-- **Company:** Vercel
+- **Company:** Eye Security
 - **Location:** Berlin, Germany
+- **Location eligibility:** Germany/Berlin eligibility detected
 - **Working model:** Hybrid
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
+- **Role family:** SOC / Detection and Response
+- **Seniority:** Mid-level or unspecified
+- **Source / ATS:** Ashby / Ashby
 - **Priority employer:** NO
-- **Posted:** 2026-08-13
+- **Posted:** 2026-04-07 (OLDER POSTING - VERIFY ACTIVE)
 - **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **82/100 - STRONG**
-- **Direct job URL:** [Vercel vacancy](https://job-boards.greenhouse.io/vercel/jobs/6111332004)
+- **Radar / application status:** NEW / NEW
+- **Match score:** **76/100 - GOOD**
+- **Direct job URL:** [Eye Security vacancy](https://jobs.ashbyhq.com/eye-security/203eae34-46ef-4d5d-bd34-a218207e6b62)
 
-**Strong matches:** frida, python
+**Strong matches:** python
 
-**Partial matches:** aws, cloud security, nist, siem
+**Partial matches:** siem
+
+**Mandatory gaps:** None explicitly detected
 
 **Potential gaps:** None detected
 
-**Nice-to-have requirements:** api security (match)
+**Optional gaps:** None detected
 
 **Experience:** No explicit years detected
 
-**German:** No German requirement detected
+**German:** German unspecified required
 
-**Why relevant:** The title is in a high-priority target role family. The role is based in Berlin/Germany. No mandatory German level above the current profile was detected. Strong evidenced skill matches include frida, python.
+**Why relevant:** Role family: SOC / Detection and Response. The role is based in Berlin/Germany or explicitly accepts Germany. Evidenced matches include python.
 
-**Warnings:** Exposure only; do not claim deep expertise: aws, cloud security, nist, siem
+**Warnings:** German unspecified required Exposure only; do not claim deep expertise: siem
 
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
+**Recommendation:** REVIEW - verify mandatory requirements before applying
 
-### 27. Application Security Engineer
+## 🟡 REVIEW NEXT
 
-- **Company:** xAI
-- **Location:** Palo Alto, California
-- **Working model:** On-site / not specified
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
+### 6. Junior Cyber Security Consultant (m/f/x)
+
+- **Company:** Eye Security
+- **Location:** Berlin, Germany
+- **Location eligibility:** Germany/Berlin eligibility detected
+- **Working model:** Hybrid
+- **Role family:** Security Engineering
+- **Seniority:** Junior/Entry level
+- **Source / ATS:** Ashby / Ashby
 - **Priority employer:** NO
-- **Posted:** 2026-08-13
+- **Posted:** 2026-07-30 (OPEN FOR REVIEW)
 - **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **82/100 - STRONG**
-- **Direct job URL:** [xAI vacancy](https://job-boards.greenhouse.io/xai/jobs/4559147007)
+- **Radar / application status:** NEW / NEW
+- **Match score:** **75/100 - GOOD**
+- **Direct job URL:** [Eye Security vacancy](https://jobs.ashbyhq.com/eye-security/060db520-64e6-47b3-8522-2f2526e78c44)
 
-**Strong matches:** application security, burp suite, owasp, owasp zap, python, sast, security testing, threat modeling
+**Strong matches:** None detected
 
-**Partial matches:** aws, ci/cd, devsecops
+**Partial matches:** cloud security, nist
+
+**Mandatory gaps:** None explicitly detected
 
 **Potential gaps:** azure
 
-**Nice-to-have requirements:** None detected
-
-**Experience:** 3-5 years
-
-**German:** No German requirement detected
-
-**Why relevant:** The title is in a high-priority target role family. The responsibilities align strongly with Application/Product Security work. No mandatory German level above the current profile was detected. Strong evidenced skill matches include application security, burp suite, owasp, owasp zap, python.
-
-**Warnings:** Requests 3-5 years versus approximately 2.1 years in the profile. Potential skill gaps: azure Exposure only; do not claim deep expertise: aws, ci/cd, devsecops
-
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
-
-### 28. Senior Product Security Engineer
-
-- **Company:** ClickHouse
-- **Location:** Netherlands (remote)
-- **Working model:** Remote
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** YES
-- **Posted:** 2026-08-03
-- **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **82/100 - STRONG**
-- **Direct job URL:** [ClickHouse vacancy](https://job-boards.greenhouse.io/clickhouse/jobs/6130151004)
-
-**Strong matches:** owasp, penetration testing, threat modeling, vulnerability assessment
-
-**Partial matches:** aws
-
-**Potential gaps:** azure, kubernetes
-
-**Nice-to-have requirements:** None detected
+**Optional gaps:** None detected
 
 **Experience:** No explicit years detected
 
-**German:** No German requirement detected
+**German:** German is preferred/nice-to-have
 
-**Why relevant:** The title is in a high-priority target role family. The responsibilities align strongly with Application/Product Security work. No mandatory German level above the current profile was detected. Strong evidenced skill matches include owasp, penetration testing, threat modeling, vulnerability assessment.
+**Why relevant:** Role family: Security Engineering. The role is based in Berlin/Germany or explicitly accepts Germany.
 
-**Warnings:** Potential skill gaps: azure, kubernetes Exposure only; do not claim deep expertise: aws
+**Warnings:** Potential gaps: azure Exposure only; do not claim deep expertise: cloud security, nist
 
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
+**Recommendation:** REVIEW - verify mandatory requirements before applying
 
-### 29. Cloud Security Engineer II (AWS, SecOps)
+### 7. Security Engineer
 
-- **Company:** Tripadvisor
-- **Location:** Kraków
+- **Company:** Qdrant
+- **Location:** Germany \| France \| Netherlands \| Spain
+- **Location eligibility:** Germany/Berlin eligibility detected
+- **Working model:** Remote
+- **Role family:** Security Engineering
+- **Seniority:** Mid-level or unspecified
+- **Source / ATS:** Ashby / Ashby
+- **Priority employer:** YES
+- **Posted:** 2026-08-05 (OPEN FOR REVIEW)
+- **First seen:** 2026-08-15
+- **Radar / application status:** NEW / NEW
+- **Match score:** **74/100 - GOOD**
+- **Direct job URL:** [Qdrant vacancy](https://jobs.ashbyhq.com/qdrant.tech/bd2459f6-42d1-488c-a680-a27f09895626)
+
+**Strong matches:** penetration testing, python, security automation, security reporting, threat modeling, vulnerability management
+
+**Partial matches:** aws, ci/cd, cloud security, docker, git, product security
+
+**Mandatory gaps:** None explicitly detected
+
+**Potential gaps:** go, kubernetes
+
+**Optional gaps:** None detected
+
+**Experience:** No explicit years detected
+
+**German:** German requested; level/strictness unclear
+
+**Why relevant:** Role family: Security Engineering. The role is based in Berlin/Germany or explicitly accepts Germany. Evidenced matches include penetration testing, python, security automation, security reporting, threat modeling.
+
+**Warnings:** German requested; level/strictness unclear Potential gaps: go, kubernetes Exposure only; do not claim deep expertise: aws, ci/cd, cloud security, docker, git, product security
+
+**Recommendation:** REVIEW - verify mandatory requirements before applying
+
+### 8. IT-Cyber-Consultant - IT-Security & Hardening (m/w/d)*
+
+- **Company:** Scalian Germany AG
+- **Location:** Hamburg, Germany
+- **Location eligibility:** Germany/Berlin eligibility detected
 - **Working model:** On-site / not specified
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** YES
-- **Posted:** 2026-07-23
+- **Role family:** Other Security
+- **Seniority:** Mid-level or unspecified
+- **Source / ATS:** Personio / Personio
+- **Priority employer:** NO
+- **Posted:** 2025-05-22 (OLDER POSTING - VERIFY ACTIVE)
 - **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **82/100 - STRONG**
-- **Direct job URL:** [Tripadvisor vacancy](https://job-boards.greenhouse.io/tripadvisor/jobs/7814510)
+- **Radar / application status:** NEW / NEW
+- **Match score:** **71/100 - GOOD**
+- **Direct job URL:** [Scalian Germany AG vacancy](https://scalian-germany.jobs.personio.de/job/2125609?language=de)
 
-**Strong matches:** application security, dast, owasp, python, sast, threat modeling, vulnerability management
+**Strong matches:** None detected
 
-**Partial matches:** aws, cloud security, siem
+**Partial matches:** nist
+
+**Mandatory gaps:** None explicitly detected
 
 **Potential gaps:** None detected
 
-**Nice-to-have requirements:** None detected
+**Optional gaps:** None detected
 
-**Experience:** No explicit years detected
+**Experience:** 2-5 years
 
-**German:** No German requirement detected
+**German:** German unspecified required
 
-**Why relevant:** The title is in a high-priority target role family. The responsibilities align strongly with Application/Product Security work. No mandatory German level above the current profile was detected. Strong evidenced skill matches include application security, dast, owasp, python, sast.
+**Why relevant:** The role is based in Berlin/Germany or explicitly accepts Germany. The detected experience requirement is within or close to the 2+ year profile.
 
-**Warnings:** Exposure only; do not claim deep expertise: aws, cloud security, siem
+**Warnings:** German unspecified required Exposure only; do not claim deep expertise: nist
 
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
+**Recommendation:** REVIEW - verify mandatory requirements before applying
 
-### 30. Senior Product Security Engineer
+### 9. Consultant Operation Technology Security (m/w/d)*
 
-- **Company:** Mozilla
-- **Location:** Remote UK
-- **Working model:** Remote
-- **Source:** Greenhouse
-- **Original source:** Greenhouse
-- **ATS:** Greenhouse
-- **Also found on:** No other source
-- **Priority employer:** YES
-- **Posted:** 2026-07-09
+- **Company:** Scalian Germany AG
+- **Location:** München, Germany
+- **Location eligibility:** Germany/Berlin eligibility detected
+- **Working model:** On-site / not specified
+- **Role family:** IT Audit / GRC
+- **Seniority:** Mid-level or unspecified
+- **Source / ATS:** Personio / Personio
+- **Priority employer:** NO
+- **Posted:** 2024-09-20 (OLDER POSTING - VERIFY ACTIVE)
 - **First seen:** 2026-08-15
-- **Radar status:** NEW
-- **Application status:** NEW
-- **Match score:** **82/100 - STRONG**
-- **Direct job URL:** [Mozilla vacancy](https://job-boards.greenhouse.io/mozilla/jobs/7583571)
+- **Radar / application status:** NEW / NEW
+- **Match score:** **70/100 - GOOD**
+- **Direct job URL:** [Scalian Germany AG vacancy](https://scalian-germany.jobs.personio.de/job/1747299?language=de)
 
-**Strong matches:** python, web security
+**Strong matches:** None detected
 
-**Partial matches:** None detected
+**Partial matches:** nist
 
-**Potential gaps:** None detected
+**Mandatory gaps:** None explicitly detected
 
-**Nice-to-have requirements:** None detected
+**Potential gaps:** iso 27001
 
-**Experience:** No explicit years detected
+**Optional gaps:** None detected
 
-**German:** No German requirement detected
+**Experience:** 2-5 years
 
-**Why relevant:** The title is in a high-priority target role family. The responsibilities align strongly with Application/Product Security work. No mandatory German level above the current profile was detected. Strong evidenced skill matches include python, web security.
+**German:** German unspecified required
 
-**Warnings:** No major automated warning.
+**Why relevant:** The role is based in Berlin/Germany or explicitly accepts Germany. The detected experience requirement is within or close to the 2+ year profile.
 
-**Recommendation:** STRONG - REVIEW FOR APPLICATION
+**Warnings:** German unspecified required Potential gaps: iso 27001 Exposure only; do not claim deep expertise: nist
 
-## 🟡 REVIEW
+**Recommendation:** REVIEW - verify mandatory requirements before applying
 
-No jobs in this section today.
+### 10. Cybersecurity (Senior) Software Engineer (m/w/d)
 
-## 🟠 STRETCH
+- **Company:** Trusteq Gmbh
+- **Location:** München, Germany
+- **Location eligibility:** Germany/Berlin eligibility detected
+- **Working model:** On-site / not specified
+- **Role family:** Application Security
+- **Seniority:** Senior
+- **Source / ATS:** Arbeitnow / Not Identified
+- **Priority employer:** NO
+- **Posted:** 2026-08-15 (NEW - APPLY QUICKLY)
+- **First seen:** 2026-08-15
+- **Radar / application status:** NEW / NEW
+- **Match score:** **69/100 - REVIEW**
+- **Direct job URL:** [Trusteq Gmbh vacancy](https://www.arbeitnow.com/jobs/companies/trusteq-gmbh/cybersecurity-senior-software-engineer-munchen-470677)
 
-No jobs in this section today.
+**Strong matches:** application security, owasp, python
+
+**Partial matches:** aws, ci/cd, devsecops, docker, git, javascript
+
+**Mandatory gaps:** None explicitly detected
+
+**Potential gaps:** azure, go, kubernetes, terraform
+
+**Optional gaps:** None detected
+
+**Experience:** 2-5 years
+
+**German:** German requested; level/strictness unclear
+
+**Why relevant:** Role family: Application Security. The role is based in Berlin/Germany or explicitly accepts Germany. Evidenced matches include application security, owasp, python. The detected experience requirement is within or close to the 2+ year profile.
+
+**Warnings:** German requested; level/strictness unclear Potential gaps: azure, go, kubernetes, terraform Exposure only; do not claim deep expertise: aws, ci/cd, devsecops, docker, git, javascript Senior title is above the profile's current 2+ years
+
+**Recommendation:** REVIEW - material seniority, language, or skill risk
+
+## Remaining candidates
+
+20 additional ranked jobs are available in `reports/latest.json`; the daily Markdown intentionally stays limited to the most actionable queue.
 
 ## Source Health
 
 - ✅ **Arbeitnow** — 875 jobs
-- ✅ **Remotive** — 18 jobs
-- ✅ **Greenhouse** — 165/165 companies successful, 19883 jobs
+- ✅ **Remotive** — 16 jobs
+- ✅ **Greenhouse** — 165/165 companies successful, 19879 jobs
+- ✅ **Ashby** — 8/8 companies successful, 319 jobs
+- ✅ **Lever** — 6/6 companies successful, 1113 jobs
+- ✅ **Personio** — 7/7 companies successful, 202 jobs
 
 ## ChatGPT Handoff
 
-Upload or link both `reports/latest.md` and `data/jobs.json`, then ask: `Analyze job #1 against my actual CV. Verify the original requirements and recommend APPLY, REVIEW, or SKIP without inventing experience.`
+Upload only `reports/chatgpt_handoff.json`. It contains the sanitized candidate evidence, the top vacancies, their full descriptions, URLs and automated analysis.
