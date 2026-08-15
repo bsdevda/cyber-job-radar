@@ -16,7 +16,7 @@ concurrency:
 jobs:
   collect-score-report:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
       - name: Check out repository

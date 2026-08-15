@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import logging
 import sys
+import time
 from pathlib import Path
 from typing import Any
 
@@ -25,7 +26,7 @@ from .collectors import (
 from .config_validation import ConfigurationError, priority_company_names, validate_companies_config
 from .deduplication import deduplicate_jobs
 from .eligibility import assess_location
-from .filters import hard_filter, summarize_rejections
+from .filters import hard_filter, is_cybersecurity_relevant, summarize_rejections
 from .normalize import content_hash, normalize_job
 from .reporting import (
     build_chatgpt_handoff,
@@ -77,24 +78,62 @@ def run(project_root: Path, fixture_dir: Path | None = None, no_archive: bool = 
         for error in result.errors:
             LOGGER.warning("%s", error.get("message", error))
 
+    phase_started = time.perf_counter()
     normalized = [normalize_job(raw) for raw in raw_jobs]
+    LOGGER.info(
+        "Normalized %d posting(s) in %.1fs",
+        len(normalized),
+        time.perf_counter() - phase_started,
+    )
+    phase_started = time.perf_counter()
     deduped = deduplicate_jobs(normalized)
     duplicate_count = len(normalized) - len(deduped)
+    LOGGER.info(
+        "Deduplicated to %d posting(s) in %.1fs",
+        len(deduped),
+        time.perf_counter() - phase_started,
+    )
     accepted: list[dict[str, Any]] = []
     rejected: list[dict[str, Any]] = []
     priority_companies = priority_company_names(companies)
 
-    for job in deduped:
-        job["content_hash"] = content_hash(job)
+    phase_started = time.perf_counter()
+    for index, job in enumerate(deduped, 1):
+        if index % 5000 == 0:
+            LOGGER.info(
+                "Processed %d/%d unique postings (%d relevant so far)",
+                index,
+                len(deduped),
+                len(accepted),
+            )
+        # Title relevance is intentionally checked before description-wide
+        # language, experience and 60-skill analysis. Large employer boards
+        # contain mostly non-security vacancies; scoring every one made the
+        # workflow exceed its time limit without changing the final report.
+        if not is_cybersecurity_relevant(job, search_config):
+            job["rejection_reasons"] = ["Insufficient cybersecurity relevance"]
+            rejected.append(job)
+            continue
+
         german = detect_german_requirement(job["description"])
         experience = extract_experience(job["description"])
-        skills, categories = detect_skills(
-            job["description"], search_config["skill_aliases"], profile["skill_status"]
-        )
         job["german_analysis"] = german
         job["german_requirement"] = german["label"]
         job["experience_analysis"] = experience
         job["experience_required"] = experience["display"] if experience else None
+        job["seniority_analysis"] = classify_seniority(job["title"])
+        job["location_analysis"] = assess_location(job, search_config)
+        allowed, reasons = hard_filter(job, search_config)
+        if not allowed:
+            job["rejection_reasons"] = reasons
+            rejected.append(job)
+            continue
+
+        # The expensive evidence scan is needed only for security vacancies
+        # that survived hard filters.
+        skills, categories = detect_skills(
+            job["description"], search_config["skill_aliases"], profile["skill_status"]
+        )
         job["skills_detected"] = skills
         job["skill_matches"] = categories
         requirements = analyze_skill_requirements(
@@ -117,20 +156,19 @@ def run(project_root: Path, fixture_dir: Path | None = None, no_archive: bool = 
             if item["requirement"] == "optional" and item["profile_status"] in {"partial", "missing"}
         ]
         job["role_family"] = classify_role(job, search_config)
-        job["seniority_analysis"] = classify_seniority(job["title"])
-        job["location_analysis"] = assess_location(job, search_config)
         job["priority_employer"] = normalize_text(job["company"]) in priority_companies
-        allowed, reasons = hard_filter(job, search_config)
-        if not allowed:
-            job["rejection_reasons"] = reasons
-            rejected.append(job)
-            continue
+        job["content_hash"] = content_hash(job)
         score_job(job, search_config, profile)
         if job["score"] < int(search_config["relevant_score"]):
             job["rejection_reasons"] = [f"Score below relevance threshold ({job['score']} < {search_config['relevant_score']})"]
             rejected.append(job)
             continue
         accepted.append(job)
+    LOGGER.info(
+        "Filtered and scored %d posting(s) in %.1fs",
+        len(deduped),
+        time.perf_counter() - phase_started,
+    )
 
     now = iso_now()
     data_dir = project_root / "data"

@@ -5,7 +5,9 @@ import shutil
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
+from src.analysis import detect_skills
 from src.main import main, run
 
 
@@ -52,7 +54,8 @@ class IntegrationTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp_directory:
             target = Path(temp_directory)
             prepare_isolated_project(target)
-            payload = run(target, ROOT / "tests/fixtures", no_archive=False)
+            with patch("src.main.detect_skills", wraps=detect_skills) as skill_scan:
+                payload = run(target, ROOT / "tests/fixtures", no_archive=False)
             self.assertEqual(payload["summary"]["jobs_collected"], 5)
             self.assertEqual(payload["summary"]["relevant_jobs_in_current_run"], 2)
             self.assertEqual(payload["summary"]["new_jobs"], 2)
@@ -62,6 +65,9 @@ class IntegrationTests(unittest.TestCase):
             jobs = json.loads((target / "data/jobs.json").read_text(encoding="utf-8"))
             self.assertEqual(len(jobs), 2)
             self.assertTrue(all(job["description"] for job in jobs))
+            # Only the two eligible security vacancies receive the expensive
+            # evidence scan; sales, region-locked and overly senior jobs do not.
+            self.assertEqual(skill_scan.call_count, 2)
 
     def test_offline_run_with_configured_greenhouse_board(self) -> None:
         with tempfile.TemporaryDirectory() as temp_directory:
