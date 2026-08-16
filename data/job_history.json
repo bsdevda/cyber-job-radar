@@ -264,6 +264,92 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-08-16T16:00:04Z",
+      "scoring_version": 2,
+      "jobs_collected": 22442,
+      "unique_jobs_after_deduplication": 20558,
+      "duplicates_removed": 1884,
+      "jobs_rejected_or_below_threshold": 20520,
+      "relevant_jobs_in_current_run": 38,
+      "new_jobs": 1,
+      "updated_jobs": 3,
+      "strong_matches": 1,
+      "sources_checked": 6,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 30,
+      "jobs_by_source": {
+        "arbeitnow": 875,
+        "remotive": 14,
+        "greenhouse": 19920,
+        "ashby": 319,
+        "lever": 1113,
+        "personio": 201
+      },
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 875,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 14,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 19920,
+          "requests": 165,
+          "errors": [],
+          "error": "",
+          "companies_checked": 165,
+          "companies_successful": 165,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 319,
+          "requests": 8,
+          "errors": [],
+          "error": "",
+          "companies_checked": 8,
+          "companies_successful": 8,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1113,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 201,
+          "requests": 7,
+          "errors": [],
+          "error": "",
+          "companies_checked": 7,
+          "companies_successful": 7,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -3369,6 +3455,38 @@
       "event": "NEW",
       "company": "KNIME GmbH",
       "title": "Application Security Engineer (m/f/d) in Konstanz or Berlin",
+      "score": 59
+    },
+    {
+      "at": "2026-08-16T16:00:04Z",
+      "job_key": "e00fb79de9c6d9f155d3",
+      "event": "UPDATED",
+      "company": "Trusteq Gmbh",
+      "title": "Cybersecurity (Senior) Consultant (m/w/d)",
+      "score": 56
+    },
+    {
+      "at": "2026-08-16T16:00:04Z",
+      "job_key": "fa71674280dee44411e9",
+      "event": "UPDATED",
+      "company": "Trusteq Gmbh",
+      "title": "AI Security (Senior) Consultant (m/w/d)",
+      "score": 56
+    },
+    {
+      "at": "2026-08-16T16:00:04Z",
+      "job_key": "5afeef04575b90f06129",
+      "event": "UPDATED",
+      "company": "Escape",
+      "title": "Security Advocate | AI AppSec",
+      "score": 59
+    },
+    {
+      "at": "2026-08-16T16:00:04Z",
+      "job_key": "7c3f2329b14b8ef79fa2",
+      "event": "NEW",
+      "company": "Samsara",
+      "title": "Sr. Security Engineer - Enterprise Security",
       "score": 59
     }
   ]

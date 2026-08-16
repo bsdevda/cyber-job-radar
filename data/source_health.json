@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T17:01:09Z",
+  "generated_at": "2026-08-16T16:00:04Z",
   "all_sources_failed": false,
   "sources": {
     "arbeitnow": {
@@ -13,7 +13,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 16,
+      "jobs": 14,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -21,7 +21,7 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 19879,
+      "jobs": 19920,
       "requests": 165,
       "errors": [],
       "error": "",
@@ -54,7 +54,7 @@
     "personio": {
       "status": "ok",
       "ok": true,
-      "jobs": 202,
+      "jobs": 201,
       "requests": 7,
       "errors": [],
       "error": "",
