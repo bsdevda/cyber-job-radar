@@ -1,13 +1,13 @@
 # Cybersecurity Job Radar
 
 **Date:** 2026-08-16
-**Scoring model:** v2
-**Raw postings collected:** 22442
-**Unique jobs after deduplication:** 20558
-**New jobs:** 1
-**Updated jobs:** 3
-**Relevant jobs:** 38
-**Strong matches:** 1
+**Scoring model:** v2.1
+**Raw postings collected:** 22440
+**Unique jobs after deduplication:** 18051
+**New jobs:** 3
+**Updated jobs:** 0
+**Relevant jobs:** 18
+**Strong matches:** 0
 **Sources checked:** 6
 **Sources failed:** 0
 **Sources partially successful:** 0
@@ -18,360 +18,110 @@
 
 - **Arbeitnow:** 875
 - **Remotive:** 14
-- **Greenhouse:** 19920
+- **Greenhouse:** 19918
 - **Ashby:** 319
 - **Lever:** 1113
 - **Personio:** 201
 
 ## 🔥 TOP MATCHES
 
-### 5. IT-Security Engineer (m/w/d)*
-
-- **Company:** Scalian Germany AG
-- **Location:** Hamburg, Germany
-- **Location eligibility:** Germany/Berlin eligibility detected
-- **Working model:** On-site / not specified
-- **Role family:** Security Engineering
-- **Seniority:** Mid-level or unspecified
-- **Source / ATS:** Personio / Personio
-- **Priority employer:** NO
-- **Posted:** 2025-05-26 (OLDER POSTING - VERIFY ACTIVE)
-- **First seen:** 2026-08-15
-- **Radar / application status:** SEEN_BEFORE / NEW
-- **Match score:** **86/100 - STRONG**
-- **Direct job URL:** [Scalian Germany AG vacancy](https://scalian-germany.jobs.personio.de/job/2129613?language=de)
-
-**Strong matches:** penetration testing
-
-**Partial matches:** None detected
-
-**Mandatory gaps:** None explicitly detected
-
-**Potential gaps:** None detected
-
-**Optional gaps:** None detected
-
-**Experience:** 2-5 years
-
-**German:** German unspecified required
-
-**Why relevant:** Role family: Security Engineering. The role is based in Berlin/Germany or explicitly accepts Germany. Evidenced matches include penetration testing. The detected experience requirement is within or close to the 2+ year profile.
-
-**Warnings:** German unspecified required
-
-**Recommendation:** APPLY FIRST - verify the full vacancy and tailor the CV
-
-### 6. Product Security Engineer
-
-- **Company:** Vercel
-- **Location:** Berlin, Germany
-- **Location eligibility:** Germany/Berlin eligibility detected
-- **Working model:** Hybrid
-- **Role family:** Product Security
-- **Seniority:** Mid-level or unspecified
-- **Source / ATS:** Greenhouse / Greenhouse
-- **Priority employer:** NO
-- **Posted:** 2026-08-13 (NEW - APPLY QUICKLY)
-- **First seen:** 2026-08-15
-- **Radar / application status:** SEEN_BEFORE / NEW
-- **Match score:** **79/100 - GOOD**
-- **Direct job URL:** [Vercel vacancy](https://job-boards.greenhouse.io/vercel/jobs/6102343004)
-
-**Strong matches:** frida, penetration testing, security automation, security testing, threat modeling, vulnerability triage
-
-**Partial matches:** javascript, product security
-
-**Mandatory gaps:** javascript
-
-**Potential gaps:** go
-
-**Optional gaps:** None detected
-
-**Experience:** No explicit years detected
-
-**German:** No German requirement detected
-
-**Why relevant:** Role family: Product Security. The role is based in Berlin/Germany or explicitly accepts Germany. Evidenced matches include frida, penetration testing, security automation, security testing, threat modeling.
-
-**Warnings:** Mandatory gaps: javascript Potential gaps: go Exposure only; do not claim deep expertise: javascript, product security At least one explicitly mandatory skill has exposure only
-
-**Recommendation:** REVIEW - verify mandatory requirements before applying
-
-### 7. Netzwerksicherheit, Cisco, Bash - Cyber Security Engineer (m/w/d)*
-
-- **Company:** Scalian Germany AG
-- **Location:** Hamburg, Germany
-- **Location eligibility:** Germany/Berlin eligibility detected
-- **Working model:** On-site / not specified
-- **Role family:** Security Engineering
-- **Seniority:** Mid-level or unspecified
-- **Source / ATS:** Personio / Personio
-- **Priority employer:** NO
-- **Posted:** 2025-05-27 (OLDER POSTING - VERIFY ACTIVE)
-- **First seen:** 2026-08-15
-- **Radar / application status:** SEEN_BEFORE / NEW
-- **Match score:** **77/100 - GOOD**
-- **Direct job URL:** [Scalian Germany AG vacancy](https://scalian-germany.jobs.personio.de/job/2131356?language=de)
-
-**Strong matches:** None detected
-
-**Partial matches:** nist
-
-**Mandatory gaps:** None explicitly detected
-
-**Potential gaps:** None detected
-
-**Optional gaps:** None detected
-
-**Experience:** 2-5 years
-
-**German:** German unspecified required
-
-**Why relevant:** Role family: Security Engineering. The role is based in Berlin/Germany or explicitly accepts Germany. The detected experience requirement is within or close to the 2+ year profile.
-
-**Warnings:** German unspecified required Exposure only; do not claim deep expertise: nist
-
-**Recommendation:** REVIEW - verify mandatory requirements before applying
-
-### 8. Netzwerksicherheit, Cisco, Bash - Cyber Security Engineer (m/w/d)*
-
-- **Company:** Scalian Germany AG
-- **Location:** Berlin, Germany
-- **Location eligibility:** Germany/Berlin eligibility detected
-- **Working model:** On-site / not specified
-- **Role family:** Security Engineering
-- **Seniority:** Mid-level or unspecified
-- **Source / ATS:** Personio / Personio
-- **Priority employer:** NO
-- **Posted:** 2025-05-27 (OLDER POSTING - VERIFY ACTIVE)
-- **First seen:** 2026-08-15
-- **Radar / application status:** SEEN_BEFORE / NEW
-- **Match score:** **77/100 - GOOD**
-- **Direct job URL:** [Scalian Germany AG vacancy](https://scalian-germany.jobs.personio.de/job/2131353?language=de)
-
-**Strong matches:** None detected
-
-**Partial matches:** nist
-
-**Mandatory gaps:** None explicitly detected
-
-**Potential gaps:** None detected
-
-**Optional gaps:** None detected
-
-**Experience:** 2-5 years
-
-**German:** German unspecified required
-
-**Why relevant:** Role family: Security Engineering. The role is based in Berlin/Germany or explicitly accepts Germany. The detected experience requirement is within or close to the 2+ year profile.
-
-**Warnings:** German unspecified required Exposure only; do not claim deep expertise: nist
-
-**Recommendation:** REVIEW - verify mandatory requirements before applying
-
-### 9. IT Security Experte (m/w/d) Incident Response & DLP
-
-- **Company:** Mandl. Executives & Experts
-- **Location:** Munich, Germany
-- **Location eligibility:** Germany/Berlin eligibility detected
-- **Working model:** Remote
-- **Role family:** SOC / Detection and Response
-- **Seniority:** Mid-level or unspecified
-- **Source / ATS:** Arbeitnow / Not Identified
-- **Priority employer:** NO
-- **Posted:** 2026-08-13 (RECENT)
-- **First seen:** 2026-08-14
-- **Radar / application status:** SEEN_BEFORE / NEW
-- **Match score:** **76/100 - GOOD**
-- **Direct job URL:** [Mandl. Executives & Experts vacancy](https://www.arbeitnow.com/jobs/companies/mandl-executives-experts/it-security-experte-incident-response-dlp-munich-455340)
-
-**Strong matches:** penetration testing
-
-**Partial matches:** siem
-
-**Mandatory gaps:** None explicitly detected
-
-**Potential gaps:** None detected
-
-**Optional gaps:** None detected
-
-**Experience:** No explicit years detected
-
-**German:** German unspecified required
-
-**Why relevant:** Role family: SOC / Detection and Response. The role is based in Berlin/Germany or explicitly accepts Germany. Evidenced matches include penetration testing.
-
-**Warnings:** German unspecified required Exposure only; do not claim deep expertise: siem
-
-**Recommendation:** REVIEW - verify mandatory requirements before applying
+No jobs in this section today.
 
 ## 🟡 REVIEW NEXT
 
-### 1. Security Advocate \| AI AppSec
+### 1. Senior Security Engineer, Bug Bounty
 
-- **Company:** Escape
-- **Location:** Remote
-- **Location eligibility:** Remote role, but Germany/Europe eligibility is not explicit
-- **Working model:** Remote
-- **Role family:** Application Security
-- **Seniority:** Mid-level or unspecified
-- **Source / ATS:** Arbeitnow / Not Identified
-- **Priority employer:** NO
-- **Posted:** 2026-08-14 (NEW - APPLY QUICKLY)
-- **First seen:** 2026-08-15
-- **Radar / application status:** UPDATED / NEW
-- **Match score:** **59/100 - STRETCH**
-- **Direct job URL:** [Escape vacancy](https://www.arbeitnow.com/jobs/companies/escape/remote-security-advocate-ai-appsec-150685)
-
-**Strong matches:** api security, application security, dast, penetration testing
-
-**Partial matches:** cloud security, devsecops, git
-
-**Mandatory gaps:** None explicitly detected
-
-**Potential gaps:** None detected
-
-**Optional gaps:** None detected
-
-**Experience:** No explicit years detected
-
-**German:** No German requirement detected
-
-**Why relevant:** Role family: Application Security. Remote role, but Germany/Europe eligibility is not explicit. Evidenced matches include api security, application security, dast, penetration testing.
-
-**Warnings:** Remote role, but Germany/Europe eligibility is not explicit Exposure only; do not claim deep expertise: cloud security, devsecops, git
-
-**Recommendation:** STRETCH - apply only after manually resolving the flagged risks
-
-### 2. Sr. Security Engineer - Enterprise Security
-
-- **Company:** Samsara
-- **Location:** Remote - CA
-- **Location eligibility:** Remote role, but Germany/Europe eligibility is not explicit
+- **Company:** Mozilla
+- **Location:** Remote Germany
+- **Location eligibility:** Germany/Berlin eligibility detected
 - **Working model:** Remote
 - **Role family:** Security Engineering
 - **Seniority:** Senior
 - **Source / ATS:** Greenhouse / Greenhouse
-- **Priority employer:** NO
-- **Posted:** 2026-08-14 (NEW - APPLY QUICKLY)
+- **Priority employer:** YES
+- **Posted:** 2026-08-02 (OPEN FOR REVIEW)
 - **First seen:** 2026-08-16
 - **Radar / application status:** NEW / NEW
-- **Match score:** **59/100 - STRETCH**
-- **Direct job URL:** [Samsara vacancy](https://www.samsara.com/company/careers/roles/7752492?gh_jid=7752492)
+- **Match score:** **69/100 - REVIEW**
+- **Direct job URL:** [Mozilla vacancy](https://job-boards.greenhouse.io/mozilla/jobs/8088831)
 
 **Strong matches:** python
 
-**Partial matches:** aws, splunk
+**Partial matches:** aws, incident response, javascript, nist, software development
 
-**Mandatory gaps:** aws
+**Mandatory gaps:** software development
 
-**Potential gaps:** terraform
+**Potential gaps:** azure, bug bounty
 
-**Optional gaps:** None detected
+**Optional gaps:** go, javascript, rust
 
-**Experience:** 4+ years
+**Experience:** No explicit years detected
 
 **German:** No German requirement detected
 
-**Why relevant:** Role family: Security Engineering. Remote role, but Germany/Europe eligibility is not explicit. Evidenced matches include python.
+**Why relevant:** Role family: Security Engineering. The role is based in Berlin/Germany or explicitly accepts Germany. Evidenced matches include python.
 
-**Warnings:** Remote role, but Germany/Europe eligibility is not explicit Requests 4+ years versus approximately 2.1 years in the profile. Mandatory gaps: aws Potential gaps: terraform Exposure only; do not claim deep expertise: aws, splunk
+**Warnings:** Mandatory gaps: software development Potential gaps: azure, bug bounty Optional gaps: go, javascript, rust Exposure only; do not claim deep expertise: aws, incident response, javascript, nist, software development Senior title is above the profile's current 2+ years At least one explicitly mandatory skill has exposure only
 
-**Recommendation:** STRETCH - apply only after manually resolving the flagged risks
+**Recommendation:** REVIEW - material seniority, language, or skill risk
 
-### 3. Cybersecurity (Senior) Consultant (m/w/d)
+### 2. Senior Product Security Engineer
 
-- **Company:** Trusteq Gmbh
-- **Location:** München, Germany
+- **Company:** Mozilla
+- **Location:** Remote Germany
 - **Location eligibility:** Germany/Berlin eligibility detected
-- **Working model:** On-site / not specified
-- **Role family:** Other Security
+- **Working model:** Remote
+- **Role family:** Product Security
 - **Seniority:** Senior
-- **Source / ATS:** Arbeitnow / Not Identified
-- **Priority employer:** NO
-- **Posted:** 2026-08-15 (NEW - APPLY QUICKLY)
-- **First seen:** 2026-08-15
-- **Radar / application status:** UPDATED / NEW
-- **Match score:** **56/100 - STRETCH**
-- **Direct job URL:** [Trusteq Gmbh vacancy](https://www.arbeitnow.com/jobs/companies/trusteq-gmbh/cybersecurity-senior-consultant-munchen-382114)
+- **Source / ATS:** Greenhouse / Greenhouse
+- **Priority employer:** YES
+- **Posted:** 2026-07-09 (OLDER POSTING - VERIFY ACTIVE)
+- **First seen:** 2026-08-16
+- **Radar / application status:** NEW / NEW
+- **Match score:** **69/100 - REVIEW**
+- **Direct job URL:** [Mozilla vacancy](https://job-boards.greenhouse.io/mozilla/jobs/7583558)
 
-**Strong matches:** None detected
+**Strong matches:** python, web security
 
-**Partial matches:** None detected
+**Partial matches:** incident response, javascript, mysql
 
 **Mandatory gaps:** None explicitly detected
 
-**Potential gaps:** None detected
+**Potential gaps:** rust
 
 **Optional gaps:** None detected
 
-**Experience:** 2-5 years
+**Experience:** No explicit years detected
 
-**German:** German unspecified required
+**German:** No German requirement detected
 
-**Why relevant:** The role is based in Berlin/Germany or explicitly accepts Germany. The detected experience requirement is within or close to the 2+ year profile.
+**Why relevant:** Role family: Product Security. The role is based in Berlin/Germany or explicitly accepts Germany. Evidenced matches include python, web security.
 
-**Warnings:** German unspecified required Senior title is above the profile's current 2+ years
+**Warnings:** Potential gaps: rust Exposure only; do not claim deep expertise: incident response, javascript, mysql Senior title is above the profile's current 2+ years
 
-**Recommendation:** STRETCH - apply only after manually resolving the flagged risks
+**Recommendation:** REVIEW - material seniority, language, or skill risk
 
-### 4. AI Security (Senior) Consultant (m/w/d)
+### 3. Senior Software Engineer, Firefox Security
 
-- **Company:** Trusteq Gmbh
-- **Location:** München, Germany
+- **Company:** Mozilla
+- **Location:** Remote Germany
 - **Location eligibility:** Germany/Berlin eligibility detected
-- **Working model:** On-site / not specified
-- **Role family:** Other Security
+- **Working model:** Remote
+- **Role family:** Security Engineering
 - **Seniority:** Senior
-- **Source / ATS:** Arbeitnow / Not Identified
-- **Priority employer:** NO
-- **Posted:** 2026-08-15 (NEW - APPLY QUICKLY)
-- **First seen:** 2026-08-15
-- **Radar / application status:** UPDATED / NEW
-- **Match score:** **56/100 - STRETCH**
-- **Direct job URL:** [Trusteq Gmbh vacancy](https://www.arbeitnow.com/jobs/companies/trusteq-gmbh/ai-security-senior-consultant-munchen-283182)
+- **Source / ATS:** Greenhouse / Greenhouse
+- **Priority employer:** YES
+- **Posted:** 2026-07-29 (OPEN FOR REVIEW)
+- **First seen:** 2026-08-16
+- **Radar / application status:** NEW / NEW
+- **Match score:** **67/100 - REVIEW**
+- **Direct job URL:** [Mozilla vacancy](https://job-boards.greenhouse.io/mozilla/jobs/8016848)
 
 **Strong matches:** None detected
 
-**Partial matches:** None detected
+**Partial matches:** software development
 
-**Mandatory gaps:** None explicitly detected
-
-**Potential gaps:** None detected
-
-**Optional gaps:** None detected
-
-**Experience:** 2-5 years
-
-**German:** German unspecified required
-
-**Why relevant:** The role is based in Berlin/Germany or explicitly accepts Germany. The detected experience requirement is within or close to the 2+ year profile.
-
-**Warnings:** German unspecified required Senior title is above the profile's current 2+ years
-
-**Recommendation:** STRETCH - apply only after manually resolving the flagged risks
-
-### 10. SOC Analyst - Hybrid in The Hague or Berlin (f/m/x)
-
-- **Company:** Eye Security
-- **Location:** Berlin, Germany
-- **Location eligibility:** Germany/Berlin eligibility detected
-- **Working model:** Hybrid
-- **Role family:** SOC / Detection and Response
-- **Seniority:** Mid-level or unspecified
-- **Source / ATS:** Ashby / Ashby
-- **Priority employer:** NO
-- **Posted:** 2026-04-07 (OLDER POSTING - VERIFY ACTIVE)
-- **First seen:** 2026-08-15
-- **Radar / application status:** SEEN_BEFORE / NEW
-- **Match score:** **76/100 - GOOD**
-- **Direct job URL:** [Eye Security vacancy](https://jobs.ashbyhq.com/eye-security/203eae34-46ef-4d5d-bd34-a218207e6b62)
-
-**Strong matches:** python
-
-**Partial matches:** siem
-
-**Mandatory gaps:** None explicitly detected
+**Mandatory gaps:** rust, software development
 
 **Potential gaps:** None detected
 
@@ -379,23 +129,95 @@
 
 **Experience:** No explicit years detected
 
-**German:** German unspecified required
+**German:** No German requirement detected
 
-**Why relevant:** Role family: SOC / Detection and Response. The role is based in Berlin/Germany or explicitly accepts Germany. Evidenced matches include python.
+**Why relevant:** Role family: Security Engineering. The role is based in Berlin/Germany or explicitly accepts Germany.
 
-**Warnings:** German unspecified required Exposure only; do not claim deep expertise: siem
+**Warnings:** Mandatory gaps: rust, software development Exposure only; do not claim deep expertise: software development Senior title is above the profile's current 2+ years One explicitly mandatory skill is not evidenced
 
-**Recommendation:** REVIEW - verify mandatory requirements before applying
+**Recommendation:** REVIEW - material seniority, language, or skill risk
+
+### 4. Senior Product Security Engineer
+
+- **Company:** Staffbase
+- **Location:** Berlin, Germany
+- **Location eligibility:** Germany/Berlin eligibility detected
+- **Working model:** On-site / not specified
+- **Role family:** Product Security
+- **Seniority:** Senior
+- **Source / ATS:** Greenhouse / Greenhouse
+- **Priority employer:** YES
+- **Posted:** 2026-08-04 (OPEN FOR REVIEW)
+- **First seen:** 2026-08-15
+- **Radar / application status:** SEEN_BEFORE / NEW
+- **Match score:** **69/100 - REVIEW**
+- **Direct job URL:** [Staffbase vacancy](https://job-boards.greenhouse.io/staffbase/jobs/8524710002)
+
+**Strong matches:** dast, frida, penetration testing, sast, secure sdlc, security automation, vulnerability management
+
+**Partial matches:** ci/cd, javascript, product security, software development
+
+**Mandatory gaps:** None explicitly detected
+
+**Potential gaps:** rust
+
+**Optional gaps:** go, javascript, kubernetes, terraform
+
+**Experience:** No explicit years detected
+
+**German:** German is preferred/nice-to-have
+
+**Why relevant:** Role family: Product Security. The role is based in Berlin/Germany or explicitly accepts Germany. Evidenced matches include dast, frida, penetration testing, sast, secure sdlc.
+
+**Warnings:** Potential gaps: rust Optional gaps: go, javascript, kubernetes, terraform Exposure only; do not claim deep expertise: ci/cd, javascript, product security, software development Senior title is above the profile's current 2+ years
+
+**Recommendation:** REVIEW - material seniority, language, or skill risk
+
+### 5. Senior Security Engineer (F/M/D)
+
+- **Company:** NavVis
+- **Location:** Munich Hybrid (NavVis GmbH), Germany
+- **Location eligibility:** Germany/Berlin eligibility detected
+- **Working model:** Hybrid
+- **Role family:** Security Engineering
+- **Seniority:** Senior
+- **Source / ATS:** Greenhouse / Greenhouse
+- **Priority employer:** YES
+- **Posted:** 2026-07-16 (OLDER POSTING - VERIFY ACTIVE)
+- **First seen:** 2026-08-15
+- **Radar / application status:** SEEN_BEFORE / NEW
+- **Match score:** **69/100 - REVIEW**
+- **Direct job URL:** [NavVis vacancy](https://job-boards.eu.greenhouse.io/navvis/jobs/4714167101)
+
+**Strong matches:** sast, stakeholder communication
+
+**Partial matches:** incident response, network security
+
+**Mandatory gaps:** go, incident response
+
+**Potential gaps:** iso 27001
+
+**Optional gaps:** None detected
+
+**Experience:** No explicit years detected
+
+**German:** No German requirement detected
+
+**Why relevant:** Role family: Security Engineering. The role is based in Berlin/Germany or explicitly accepts Germany. Evidenced matches include sast, stakeholder communication.
+
+**Warnings:** Mandatory gaps: go, incident response Potential gaps: iso 27001 Exposure only; do not claim deep expertise: incident response, network security Senior title is above the profile's current 2+ years One explicitly mandatory skill is not evidenced
+
+**Recommendation:** REVIEW - material seniority, language, or skill risk
 
 ## Remaining candidates
 
-20 additional ranked jobs are available in `reports/latest.json`; the daily Markdown intentionally stays limited to the most actionable queue.
+13 additional ranked jobs are available in `reports/latest.json`; the daily Markdown intentionally stays limited to the most actionable queue.
 
 ## Source Health
 
 - ✅ **Arbeitnow** — 875 jobs
 - ✅ **Remotive** — 14 jobs
-- ✅ **Greenhouse** — 165/165 companies successful, 19920 jobs
+- ✅ **Greenhouse** — 165/165 companies successful, 19918 jobs
 - ✅ **Ashby** — 8/8 companies successful, 319 jobs
 - ✅ **Lever** — 6/6 companies successful, 1113 jobs
 - ✅ **Personio** — 7/7 companies successful, 201 jobs

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T16:00:04Z",
+  "generated_at": "2026-08-16T17:17:56Z",
   "all_sources_failed": false,
   "sources": {
     "arbeitnow": {
@@ -21,7 +21,7 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 19920,
+      "jobs": 19918,
       "requests": 165,
       "errors": [],
       "error": "",

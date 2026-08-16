@@ -350,6 +350,92 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-08-16T17:17:56Z",
+      "scoring_version": 2.1,
+      "jobs_collected": 22440,
+      "unique_jobs_after_deduplication": 18051,
+      "duplicates_removed": 4389,
+      "jobs_rejected_or_below_threshold": 18033,
+      "relevant_jobs_in_current_run": 18,
+      "new_jobs": 3,
+      "updated_jobs": 0,
+      "strong_matches": 0,
+      "sources_checked": 6,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 18,
+      "jobs_by_source": {
+        "arbeitnow": 875,
+        "remotive": 14,
+        "greenhouse": 19918,
+        "ashby": 319,
+        "lever": 1113,
+        "personio": 201
+      },
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 875,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 14,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 19918,
+          "requests": 165,
+          "errors": [],
+          "error": "",
+          "companies_checked": 165,
+          "companies_successful": 165,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 319,
+          "requests": 8,
+          "errors": [],
+          "error": "",
+          "companies_checked": 8,
+          "companies_successful": 8,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1113,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 201,
+          "requests": 7,
+          "errors": [],
+          "error": "",
+          "companies_checked": 7,
+          "companies_successful": 7,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -3488,6 +3574,30 @@
       "company": "Samsara",
       "title": "Sr. Security Engineer - Enterprise Security",
       "score": 59
+    },
+    {
+      "at": "2026-08-16T17:17:56Z",
+      "job_key": "b420e12f1f07d8e20c57",
+      "event": "NEW",
+      "company": "Mozilla",
+      "title": "Senior Software Engineer, Firefox Security",
+      "score": 67
+    },
+    {
+      "at": "2026-08-16T17:17:56Z",
+      "job_key": "caa220d352ded536fb49",
+      "event": "NEW",
+      "company": "Mozilla",
+      "title": "Senior Product Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-08-16T17:17:56Z",
+      "job_key": "86705e70d7803af16172",
+      "event": "NEW",
+      "company": "Mozilla",
+      "title": "Senior Security Engineer, Bug Bounty",
+      "score": 69
     }
   ]
 }
