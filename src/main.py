@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import logging
+import os
 import sys
 import time
 from pathlib import Path
@@ -37,6 +38,13 @@ from .deduplication import deduplicate_jobs
 from .eligibility import assess_location
 from .filters import hard_filter, is_cybersecurity_relevant, summarize_rejections
 from .normalize import content_hash, normalize_job
+from .notifications import build_job_alert, render_job_alert_markdown
+from .quality_review import (
+    build_quality_review,
+    empty_feedback,
+    normalize_quality_feedback,
+    render_quality_review_markdown,
+)
 from .reporting import (
     build_chatgpt_handoff,
     build_report_payload,
@@ -59,6 +67,11 @@ def run(
     generated_at_override: str | None = None,
     employer_mode: str = "daily",
 ) -> dict[str, Any]:
+    process_started = time.time()
+    try:
+        workflow_started = float(os.environ.get("RADAR_WORKFLOW_STARTED_EPOCH", process_started))
+    except ValueError:
+        workflow_started = process_started
     generated_at = generated_at_override or iso_now()
     search_config = load_json(project_root / "config/search_config.json")
     profile = load_json(project_root / "config/candidate_profile.json")
@@ -281,6 +294,11 @@ def run(
         now,
         search_config,
     )
+    payload["summary"]["employer_mode"] = employer_mode
+    payload["summary"]["quality_review_schema_version"] = 1
+    payload["summary"]["workflow_duration_seconds"] = round(
+        max(0.0, time.time() - workflow_started), 1
+    )
     payload["all_sources_failed"] = source_health["all_sources_failed"]
     payload["employer_scan"] = employer_selection
     payload["rejection_summary"] = summarize_rejections(rejected)
@@ -288,6 +306,18 @@ def run(
     history = append_run_history(
         history, run_summary, events, int(search_config["history_run_limit"])
     )
+    quality_feedback = normalize_quality_feedback(
+        load_json(data_dir / "quality_feedback.json", empty_feedback())
+    )
+    quality_review = build_quality_review(
+        history,
+        quality_feedback,
+        applications,
+        jobs_db,
+        now,
+        search_config.get("quality_review", {}),
+    )
+    job_alert = build_job_alert(accepted, search_config, now)
     handoff = build_chatgpt_handoff(
         report_jobs,
         profile,
@@ -306,15 +336,25 @@ def run(
     write_json_atomic(data_dir / "jobs.json", jobs_db)
     write_json_atomic(data_dir / "seen_jobs.json", seen)
     write_json_atomic(data_dir / "job_history.json", history)
+    write_json_atomic(data_dir / "quality_feedback.json", quality_feedback)
     write_json_atomic(data_dir / "source_health.json", source_health)
     write_json_atomic(company_health_path, company_health)
     write_json_atomic(data_dir / "applications.json", applications)
     write_json_atomic(data_dir / "weekly_analytics.json", weekly_analytics)
     write_json_atomic(project_root / "reports/latest.json", payload)
     write_json_atomic(project_root / "reports/chatgpt_handoff.json", handoff)
+    write_json_atomic(project_root / "reports/job_alert.json", job_alert)
+    write_json_atomic(project_root / "reports/quality_review.json", quality_review)
     markdown = render_markdown(payload, search_config)
     write_text_atomic(project_root / "reports/latest.md", markdown)
     write_text_atomic(project_root / "reports/weekly.md", render_weekly_markdown(weekly_analytics))
+    write_text_atomic(
+        project_root / "reports/job_alert.md", render_job_alert_markdown(job_alert)
+    )
+    write_text_atomic(
+        project_root / "reports/quality_review.md",
+        render_quality_review_markdown(quality_review),
+    )
     write_application_csv(project_root / "reports/application_tracker.csv", applications)
     write_text_atomic(
         project_root / "reports/company_health.md",

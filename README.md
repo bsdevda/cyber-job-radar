@@ -4,6 +4,18 @@ A zero-API-key, rule-based vacancy radar built around Bharatsingh Devda's verifi
 
 The radar performs discovery and evidence-based triage. A human or ChatGPT still verifies the original vacancy and makes the final application decision. It never auto-applies and it never sends a CV to an employer.
 
+## Version 2.3 selective alerts and quality calibration
+
+- Creates a GitHub Issue only when a newly discovered, unapplied vacancy scores at least 80: `APPLY FIRST` at 85+ or a strong `APPLY` at 80-84.
+- Uses the repository's built-in `GITHUB_TOKEN`; no Telegram bot, email password, paid service, or additional secret is required.
+- Uses a deterministic alert title and checks existing issues before creation, preventing duplicate alerts after a workflow retry.
+- Assigns the alert Issue to the repository owner and keeps radar collection successful if GitHub Issue creation is unavailable.
+- Adds explicit suitable/false-positive feedback and missed-vacancy logging instead of pretending those metrics can be inferred automatically.
+- Generates a rolling `reports/quality_review.md` from the latest 14 completed daily runs.
+- Measures relevant/new jobs, review coverage, false positives, missed vacancies, duplicates, source failures, workflow duration, applications, interviews, and score-band outcomes.
+- Compares score-component averages only when both interview and negative outcomes exist; it never changes scoring weights automatically.
+- Expands the deterministic suite to 58 passing tests.
+
 ## Version 2.2 production operations
 
 - Replaces the all-employers-every-day pattern with five deterministic weekday batches. Priority employers are checked every weekday; together, Monday-Friday cover every enabled non-priority employer.
@@ -57,7 +69,9 @@ flowchart TD
     D --> E["Profile and Scoring v2"]
     E --> F["Persistent job and application history"]
     F --> G["Daily report + ChatGPT handoff"]
+    G --> I["New score 80+? GitHub Issue alert"]
     F --> H["Weekly skill-gap + funnel analytics"]
+    F --> J["Rolling 14-run quality review"]
 ```
 
 One source or employer can fail without stopping successful collectors. A complete operational-source failure returns a non-zero exit code after diagnostic files are written.
@@ -77,6 +91,7 @@ cyber-job-radar/
 │   ├── company_health.json
 │   ├── job_history.json
 │   ├── jobs.json
+│   ├── quality_feedback.json
 │   ├── seen_jobs.json
 │   ├── source_health.json
 │   └── weekly_analytics.json
@@ -85,8 +100,12 @@ cyber-job-radar/
 │   ├── application_tracker.csv
 │   ├── chatgpt_handoff.json
 │   ├── company_health.md
+│   ├── job_alert.json
+│   ├── job_alert.md
 │   ├── latest.json
 │   ├── latest.md
+│   ├── quality_review.json
+│   ├── quality_review.md
 │   └── weekly.md
 ├── src/
 │   ├── collectors/
@@ -96,10 +115,13 @@ cyber-job-radar/
 │   ├── eligibility.py
 │   ├── filters.py
 │   ├── main.py
+│   ├── notifications.py
+│   ├── quality_review.py
 │   ├── reporting.py
 │   └── scoring.py
 ├── tests/
 ├── CHATGPT_ANALYSIS_PROMPT.md
+├── VERSION_2_3_UPDATE.md
 ├── VERSION_2_2_UPDATE.md
 └── README.md
 ```
@@ -141,6 +163,18 @@ Runtime collection uses only Python's standard library. Tests use offline provid
 The workflow runs Monday-Friday at 07:30 using `Europe/Berlin`. Those runs use one rotating employer batch plus every priority employer. A full watchlist run happens Sunday at 08:00. It can also be started from **Actions → Daily Cybersecurity Job Radar → Run workflow**, where `daily` or `full` can be selected.
 
 The job checks out the repository, runs all tests, collects/scores vacancies, and commits only generated radar data and reports. No secrets or paid APIs are required. Standard public-repository GitHub-hosted runner usage is intended to keep operation at €0. If the repository is private, remain within the current GitHub Free included-minute allowance and do not enable paid/larger runners. Check GitHub billing settings after platform-plan changes.
+
+### Free strong-match notifications
+
+The workflow has minimum `contents: write` and `issues: write` permissions. When at least one genuinely new job scores 80+, it creates one `job-alert` Issue containing all qualifying jobs for that run. Seen-before, already-applied, `REVIEW`, and `STRETCH` vacancies do not trigger an alert.
+
+After installing v2.3:
+
+1. Open the repository's **Settings → General → Features** and confirm **Issues** is enabled.
+2. Open **Watch → Custom** on the repository and enable **Issues** so GitHub sends your selected web/email notifications.
+3. Run the workflow once using `daily`. A run without a new score-80+ job correctly creates no Issue.
+
+The Issue step uses GitHub CLI with the built-in token and a Markdown body file. It never interpolates vacancy descriptions into shell commands. Issue creation is non-blocking: a disabled Issues feature or temporary GitHub permission problem produces a workflow warning but does not discard the radar reports.
 
 ## Profile and Scoring v2
 
@@ -253,6 +287,9 @@ Never guess identifiers. Open the employer's genuine careers page and copy the t
 - `data/weekly_analytics.json`: up to 104 weekly snapshots.
 - `reports/company_health.md`: human-readable scan coverage and employer problems.
 - `reports/application_tracker.csv`: spreadsheet-friendly application records.
+- `reports/job_alert.json` and `reports/job_alert.md`: deterministic payload for a new strong-match GitHub Issue.
+- `data/quality_feedback.json`: manual suitable/false-positive and missed-vacancy evidence.
+- `reports/quality_review.json` and `reports/quality_review.md`: rolling 14-daily-run quality and outcome review.
 
 For ChatGPT, upload only `reports/chatgpt_handoff.json` and say:
 
@@ -301,17 +338,56 @@ Weekly analytics calculate response, interview and offer rates in total and sepa
 
 If the GitHub repository is public, application records are also public. Keep notes professional and non-sensitive, never store recruiter contact details, and make the repository private if the application history should remain confidential.
 
+## Fourteen-run quality review
+
+Automatic counts cannot determine whether a job was truly suitable. Review radar jobs and record the result using their `job_key`:
+
+```powershell
+python -m src.quality_review mark `
+  --job-key "PASTE_JOB_KEY" `
+  --verdict suitable `
+  --notes "Mandatory requirements and Germany location verified"
+
+python -m src.quality_review mark `
+  --job-key "PASTE_JOB_KEY" `
+  --verdict false-positive `
+  --notes "Title looked relevant but the work is physical security"
+```
+
+If you find a suitable vacancy elsewhere that the radar missed:
+
+```powershell
+python -m src.quality_review missed `
+  --company "Example GmbH" `
+  --position "Penetration Tester" `
+  --url "https://example.com/careers/job" `
+  --found-date "2026-08-17" `
+  --reason "Employer/source not covered"
+```
+
+Review or regenerate the evidence at any time:
+
+```powershell
+python -m src.quality_review list
+python -m src.quality_review report
+Get-Content .\reports\quality_review.md
+```
+
+The baseline starts with the first v2.3 run; older preserved v2.2 history is not counted. After 14 calendar days with completed `daily` runs, the report changes from `COLLECTING BASELINE` to `READY FOR EVIDENCE REVIEW`. Only the latest rerun from each day is counted; Sunday `full` runs are excluded so repeated manual runs cannot fake a two-week baseline. A false-positive rate is labelled unreliable until at least five jobs have been manually reviewed. Score calibration also remains blocked until at least six usable outcomes include both interviews and rejection/ghosting results.
+
+Do not change weights merely because 14 days elapsed. A change requires actual evidence, inspection of the underlying jobs, a small controlled adjustment that keeps the total at 100, and a regression test. Quality notes are committed by the workflow; keep them non-sensitive if the repository is public.
+
 ## Safe update and Git commands
 
-For Production Operations v2.2, follow `VERSION_2_2_UPDATE.md`. The update must preserve `data/jobs.json`, `data/seen_jobs.json`, `data/job_history.json`, `data/applications.json`, `data/company_health.json`, and existing report archives.
+For Selective Alerts and Quality Calibration v2.3, follow `VERSION_2_3_UPDATE.md`. The update must preserve `data/jobs.json`, `data/seen_jobs.json`, `data/job_history.json`, `data/applications.json`, `data/company_health.json`, `data/quality_feedback.json`, and existing report archives.
 
 After copying the v2 files:
 
 ```powershell
 python -m unittest discover -s tests -v
 git status
-git add .github config src tests data\company_health.json reports\application_tracker.csv reports\company_health.md README.md VERSION_2_2_UPDATE.md
-git commit -m "feat: add runtime-safe employer scans and application tracking"
+git add .github config src tests data\quality_feedback.json reports\job_alert.json reports\job_alert.md reports\quality_review.json reports\quality_review.md README.md VERSION_2_3_UPDATE.md
+git commit -m "feat: add selective job alerts and quality calibration"
 git pull --rebase origin main
 git push
 ```
@@ -329,6 +405,8 @@ Do not use `git add .` until `git status` confirms that no CV/PDF/private file i
 - Job count suddenly collapses: compare source health before changing scoring rules.
 - Bad job appears: inspect `location_analysis`, `seniority_analysis`, `role_family`, and `rejection_summary`, then add a regression test before changing the rule.
 - Score looks wrong: inspect `raw_score`, `score_cap`, `score_breakdown`, `mandatory_gaps`, and `warnings`.
+- No alert Issue: confirm the job is `NEW`, scores at least 80, Issues is enabled, and the workflow has `issues: write`; a normal run with no qualifying job should not create an Issue.
+- Quality report is incomplete: mark reviewed jobs, log missed vacancies, and update application/interview dates; the radar cannot infer these facts.
 - Workflow approaches 30 minutes: confirm the run uses `daily`, inspect `reports/company_health.md`, and keep the title prefilter and eight-second ATS timeout enabled. Use `full` only for the Sunday/manual audit.
 - Git push is rejected: run `git status`, commit or stash intentional changes, then `git pull --rebase origin main` and `git push`.
 

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "generated_at": null,
+  "window": {
+    "target_daily_runs": 14,
+    "completed_daily_runs": 0,
+    "ready_for_tuning": false
+  },
+  "metrics": {},
+  "outcomes_by_score_band": {},
+  "score_calibration": {},
+  "false_positive_jobs": [],
+  "missed_jobs": [],
+  "recommendations": []
+}

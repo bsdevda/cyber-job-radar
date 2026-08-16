@@ -19,6 +19,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: cyber-job-radar-${{ github.ref }}
@@ -32,6 +33,10 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
+
+      - name: Start workflow-duration measurement
+        shell: bash
+        run: echo "RADAR_WORKFLOW_STARTED_EPOCH=$(date +%s)" >> "$GITHUB_ENV"
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -54,12 +59,46 @@ jobs:
           echo "Employer scan mode: $mode"
           python -m src.main --employer-mode "$mode"
 
+      - name: Create issue for new strong matches
+        if: ${{ success() }}
+        continue-on-error: true
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          has_alert="$(python -c 'import json; print(str(json.load(open("reports/job_alert.json", encoding="utf-8"))["has_alert"]).lower())')"
+          if [ "$has_alert" != "true" ]; then
+            echo "No new APPLY FIRST or strong APPLY vacancy; no issue created."
+            exit 0
+          fi
+
+          alert_title="$(python -c 'import json; print(json.load(open("reports/job_alert.json", encoding="utf-8"))["title"])')"
+          existing_titles="$(gh issue list --repo "$GITHUB_REPOSITORY" --state all --limit 500 --json title)"
+          if printf '%s' "$existing_titles" | ALERT_TITLE="$alert_title" python -c 'import json, os, sys; titles=json.load(sys.stdin); raise SystemExit(0 if any(item.get("title") == os.environ["ALERT_TITLE"] for item in titles) else 1)'; then
+            echo "Alert issue already exists: $alert_title"
+            exit 0
+          fi
+
+          label_args=()
+          if gh label create job-alert --repo "$GITHUB_REPOSITORY" --color "B60205" --description "New high-priority Cybersecurity Job Radar match" --force; then
+            label_args=(--label job-alert)
+          fi
+          if ! gh issue create --repo "$GITHUB_REPOSITORY" --title "$alert_title" --body-file reports/job_alert.md "${label_args[@]}" --assignee "$GITHUB_REPOSITORY_OWNER"; then
+            echo "::warning::Could not assign the alert issue; retrying without an assignee."
+            existing_titles="$(gh issue list --repo "$GITHUB_REPOSITORY" --state all --limit 500 --json title)"
+            if printf '%s' "$existing_titles" | ALERT_TITLE="$alert_title" python -c 'import json, os, sys; titles=json.load(sys.stdin); raise SystemExit(0 if any(item.get("title") == os.environ["ALERT_TITLE"] for item in titles) else 1)'; then
+              echo "The first request created the Issue despite its non-zero result; no retry needed."
+            else
+              gh issue create --repo "$GITHUB_REPOSITORY" --title "$alert_title" --body-file reports/job_alert.md "${label_args[@]}"
+            fi
+          fi
+
       - name: Commit updated radar data
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/jobs.json data/seen_jobs.json data/job_history.json data/source_health.json data/company_health.json data/applications.json data/weekly_analytics.json reports/latest.md reports/latest.json reports/chatgpt_handoff.json reports/weekly.md reports/company_health.md reports/application_tracker.csv reports/archive/
+          git add data/jobs.json data/seen_jobs.json data/job_history.json data/source_health.json data/company_health.json data/applications.json data/weekly_analytics.json data/quality_feedback.json reports/latest.md reports/latest.json reports/chatgpt_handoff.json reports/weekly.md reports/company_health.md reports/application_tracker.csv reports/job_alert.md reports/job_alert.json reports/quality_review.md reports/quality_review.json reports/archive/
           if git diff --cached --quiet; then
             echo "No radar changes to commit."
           else

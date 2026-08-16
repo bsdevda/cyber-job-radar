@@ -7,6 +7,19 @@
   "markdown_review_limit": 5,
   "chatgpt_handoff_limit": 10,
   "strong_match_score": 80,
+  "notifications": {
+    "enabled": true,
+    "provider": "github_issue",
+    "minimum_score": 80,
+    "new_statuses": ["NEW"],
+    "maximum_jobs_per_alert": 10
+  },
+  "quality_review": {
+    "window_runs": 14,
+    "minimum_runs_before_tuning": 14,
+    "minimum_reviewed_jobs_for_false_positive_rate": 5,
+    "minimum_outcomes_for_score_tuning": 6
+  },
   "relevant_score": 50,
   "max_posting_age_days": 120,
   "stale_posting_score_cap_days": 60,
