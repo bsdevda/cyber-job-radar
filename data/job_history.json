@@ -436,6 +436,106 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-08-16T21:45:22Z",
+      "scoring_version": 2.1,
+      "jobs_collected": 6203,
+      "security_title_candidates": 211,
+      "prefiltered_non_security_jobs": 5992,
+      "unique_jobs_after_deduplication": 150,
+      "duplicates_removed": 61,
+      "jobs_rejected_or_below_threshold": 6124,
+      "relevant_jobs_in_current_run": 18,
+      "new_jobs": 3,
+      "updated_jobs": 1,
+      "strong_matches": 0,
+      "sources_checked": 7,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 18,
+      "jobs_by_source": {
+        "arbeitnow": 875,
+        "remotive": 14,
+        "greenhouse": 4802,
+        "ashby": 229,
+        "lever": 114,
+        "personio": 169,
+        "recruitee": 0
+      },
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 875,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 14,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 4802,
+          "requests": 65,
+          "errors": [],
+          "error": "",
+          "companies_checked": 65,
+          "companies_successful": 65,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 229,
+          "requests": 8,
+          "errors": [],
+          "error": "",
+          "companies_checked": 8,
+          "companies_successful": 8,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 114,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 169,
+          "requests": 4,
+          "errors": [],
+          "error": "",
+          "companies_checked": 4,
+          "companies_successful": 4,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "idle",
+          "ok": true,
+          "jobs": 0,
+          "requests": 0,
+          "errors": [],
+          "error": "",
+          "companies_checked": 0,
+          "companies_successful": 0,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -3597,6 +3697,38 @@
       "event": "NEW",
       "company": "Mozilla",
       "title": "Senior Security Engineer, Bug Bounty",
+      "score": 69
+    },
+    {
+      "at": "2026-08-16T21:45:22Z",
+      "job_key": "5afeef04575b90f06129",
+      "event": "UPDATED",
+      "company": "Escape",
+      "title": "Security Advocate | AI AppSec",
+      "score": 59
+    },
+    {
+      "at": "2026-08-16T21:45:22Z",
+      "job_key": "61f504a1b399ea41dd23",
+      "event": "NEW",
+      "company": "HelloFresh",
+      "title": "Senior Cloud Security Engineer (m,f,x)",
+      "score": 62
+    },
+    {
+      "at": "2026-08-16T21:45:22Z",
+      "job_key": "1f74892653c6467e49ca",
+      "event": "NEW",
+      "company": "N26",
+      "title": "Senior Cloud Security Engineer",
+      "score": 59
+    },
+    {
+      "at": "2026-08-16T21:45:22Z",
+      "job_key": "ba170f4eb78d3dff47c8",
+      "event": "NEW",
+      "company": "N26",
+      "title": "Senior Product Security Engineer",
       "score": 69
     }
   ]

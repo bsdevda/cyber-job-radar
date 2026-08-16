@@ -2,13 +2,15 @@
 
 **Date:** 2026-08-16
 **Scoring model:** v2.1
-**Raw postings collected:** 22440
-**Unique jobs after deduplication:** 18051
+**Raw postings collected:** 6203
+**Security-title candidates:** 211
+**Non-security titles skipped early:** 5992
+**Unique jobs after deduplication:** 150
 **New jobs:** 3
-**Updated jobs:** 0
+**Updated jobs:** 1
 **Relevant jobs:** 18
 **Strong matches:** 0
-**Sources checked:** 6
+**Sources checked:** 7
 **Sources failed:** 0
 **Sources partially successful:** 0
 
@@ -18,10 +20,20 @@
 
 - **Arbeitnow:** 875
 - **Remotive:** 14
-- **Greenhouse:** 19918
-- **Ashby:** 319
-- **Lever:** 1113
-- **Personio:** 201
+- **Greenhouse:** 4802
+- **Ashby:** 229
+- **Lever:** 114
+- **Personio:** 169
+- **Recruitee:** 0
+
+## Employer Watchlist Scan
+
+- **Mode:** Daily
+- **Greenhouse:** 65/172 selected; 107 rotating; 0 cooling down
+- **Ashby:** 8/13 selected; 5 rotating; 0 cooling down
+- **Lever:** 3/6 selected; 3 rotating; 0 cooling down
+- **Personio:** 4/7 selected; 3 rotating; 0 cooling down
+- **Recruitee:** 0/2 selected; 2 rotating; 0 cooling down
 
 ## 🔥 TOP MATCHES
 
@@ -29,99 +41,27 @@ No jobs in this section today.
 
 ## 🟡 REVIEW NEXT
 
-### 1. Senior Security Engineer, Bug Bounty
+### 1. Senior Product Security Engineer
 
-- **Company:** Mozilla
-- **Location:** Remote Germany
+- **Company:** N26
+- **Location:** Berlin, Germany
 - **Location eligibility:** Germany/Berlin eligibility detected
-- **Working model:** Remote
-- **Role family:** Security Engineering
-- **Seniority:** Senior
-- **Source / ATS:** Greenhouse / Greenhouse
-- **Priority employer:** YES
-- **Posted:** 2026-08-02 (OPEN FOR REVIEW)
-- **First seen:** 2026-08-16
-- **Radar / application status:** NEW / NEW
-- **Match score:** **69/100 - REVIEW**
-- **Direct job URL:** [Mozilla vacancy](https://job-boards.greenhouse.io/mozilla/jobs/8088831)
-
-**Strong matches:** python
-
-**Partial matches:** aws, incident response, javascript, nist, software development
-
-**Mandatory gaps:** software development
-
-**Potential gaps:** azure, bug bounty
-
-**Optional gaps:** go, javascript, rust
-
-**Experience:** No explicit years detected
-
-**German:** No German requirement detected
-
-**Why relevant:** Role family: Security Engineering. The role is based in Berlin/Germany or explicitly accepts Germany. Evidenced matches include python.
-
-**Warnings:** Mandatory gaps: software development Potential gaps: azure, bug bounty Optional gaps: go, javascript, rust Exposure only; do not claim deep expertise: aws, incident response, javascript, nist, software development Senior title is above the profile's current 2+ years At least one explicitly mandatory skill has exposure only
-
-**Recommendation:** REVIEW - material seniority, language, or skill risk
-
-### 2. Senior Product Security Engineer
-
-- **Company:** Mozilla
-- **Location:** Remote Germany
-- **Location eligibility:** Germany/Berlin eligibility detected
-- **Working model:** Remote
+- **Working model:** On-site / not specified
 - **Role family:** Product Security
 - **Seniority:** Senior
 - **Source / ATS:** Greenhouse / Greenhouse
 - **Priority employer:** YES
-- **Posted:** 2026-07-09 (OLDER POSTING - VERIFY ACTIVE)
+- **Posted:** 2026-08-07 (OPEN FOR REVIEW)
 - **First seen:** 2026-08-16
 - **Radar / application status:** NEW / NEW
 - **Match score:** **69/100 - REVIEW**
-- **Direct job URL:** [Mozilla vacancy](https://job-boards.greenhouse.io/mozilla/jobs/7583558)
+- **Direct job URL:** [N26 vacancy](https://n26.com/en-eu/careers/positions/8110812?gh_jid=8110812)
 
-**Strong matches:** python, web security
+**Strong matches:** application security, mobile security, owasp, penetration testing, python, secure sdlc, security testing, threat modeling, web security
 
-**Partial matches:** incident response, javascript, mysql
+**Partial matches:** incident response, product security, software development
 
-**Mandatory gaps:** None explicitly detected
-
-**Potential gaps:** rust
-
-**Optional gaps:** None detected
-
-**Experience:** No explicit years detected
-
-**German:** No German requirement detected
-
-**Why relevant:** Role family: Product Security. The role is based in Berlin/Germany or explicitly accepts Germany. Evidenced matches include python, web security.
-
-**Warnings:** Potential gaps: rust Exposure only; do not claim deep expertise: incident response, javascript, mysql Senior title is above the profile's current 2+ years
-
-**Recommendation:** REVIEW - material seniority, language, or skill risk
-
-### 3. Senior Software Engineer, Firefox Security
-
-- **Company:** Mozilla
-- **Location:** Remote Germany
-- **Location eligibility:** Germany/Berlin eligibility detected
-- **Working model:** Remote
-- **Role family:** Security Engineering
-- **Seniority:** Senior
-- **Source / ATS:** Greenhouse / Greenhouse
-- **Priority employer:** YES
-- **Posted:** 2026-07-29 (OPEN FOR REVIEW)
-- **First seen:** 2026-08-16
-- **Radar / application status:** NEW / NEW
-- **Match score:** **67/100 - REVIEW**
-- **Direct job URL:** [Mozilla vacancy](https://job-boards.greenhouse.io/mozilla/jobs/8016848)
-
-**Strong matches:** None detected
-
-**Partial matches:** software development
-
-**Mandatory gaps:** rust, software development
+**Mandatory gaps:** go, software development
 
 **Potential gaps:** None detected
 
@@ -131,71 +71,71 @@ No jobs in this section today.
 
 **German:** No German requirement detected
 
-**Why relevant:** Role family: Security Engineering. The role is based in Berlin/Germany or explicitly accepts Germany.
+**Why relevant:** Role family: Product Security. The role is based in Berlin/Germany or explicitly accepts Germany. Evidenced matches include application security, mobile security, owasp, penetration testing, python.
 
-**Warnings:** Mandatory gaps: rust, software development Exposure only; do not claim deep expertise: software development Senior title is above the profile's current 2+ years One explicitly mandatory skill is not evidenced
+**Warnings:** Mandatory gaps: go, software development Exposure only; do not claim deep expertise: incident response, product security, software development Senior title is above the profile's current 2+ years One explicitly mandatory skill is not evidenced
 
 **Recommendation:** REVIEW - material seniority, language, or skill risk
 
-### 4. Senior Product Security Engineer
+### 2. Senior Cloud Security Engineer (m,f,x)
 
-- **Company:** Staffbase
+- **Company:** HelloFresh
 - **Location:** Berlin, Germany
 - **Location eligibility:** Germany/Berlin eligibility detected
-- **Working model:** On-site / not specified
-- **Role family:** Product Security
+- **Working model:** Hybrid
+- **Role family:** Cloud Security / DevSecOps
 - **Seniority:** Senior
 - **Source / ATS:** Greenhouse / Greenhouse
 - **Priority employer:** YES
-- **Posted:** 2026-08-04 (OPEN FOR REVIEW)
-- **First seen:** 2026-08-15
-- **Radar / application status:** SEEN_BEFORE / NEW
-- **Match score:** **69/100 - REVIEW**
-- **Direct job URL:** [Staffbase vacancy](https://job-boards.greenhouse.io/staffbase/jobs/8524710002)
+- **Posted:** 2026-08-12 (RECENT)
+- **First seen:** 2026-08-16
+- **Radar / application status:** NEW / NEW
+- **Match score:** **62/100 - REVIEW**
+- **Direct job URL:** [HelloFresh vacancy](https://careers.hellofresh.com/global/en/job/8095941?gh_jid=8095941)
 
-**Strong matches:** dast, frida, penetration testing, sast, secure sdlc, security automation, vulnerability management
+**Strong matches:** None detected
 
-**Partial matches:** ci/cd, javascript, product security, software development
+**Partial matches:** ci/cd, cloud security, devsecops, network security
 
-**Mandatory gaps:** None explicitly detected
+**Mandatory gaps:** network security
 
-**Potential gaps:** rust
+**Potential gaps:** infrastructure as code, kubernetes
 
-**Optional gaps:** go, javascript, kubernetes, terraform
+**Optional gaps:** None detected
 
 **Experience:** No explicit years detected
 
-**German:** German is preferred/nice-to-have
+**German:** German requested; level/strictness unclear
 
-**Why relevant:** Role family: Product Security. The role is based in Berlin/Germany or explicitly accepts Germany. Evidenced matches include dast, frida, penetration testing, sast, secure sdlc.
+**Why relevant:** Role family: Cloud Security / DevSecOps. The role is based in Berlin/Germany or explicitly accepts Germany.
 
-**Warnings:** Potential gaps: rust Optional gaps: go, javascript, kubernetes, terraform Exposure only; do not claim deep expertise: ci/cd, javascript, product security, software development Senior title is above the profile's current 2+ years
+**Warnings:** German requested; level/strictness unclear Mandatory gaps: network security Potential gaps: infrastructure as code, kubernetes Exposure only; do not claim deep expertise: ci/cd, cloud security, devsecops, network security Senior title is above the profile's current 2+ years At least one explicitly mandatory skill has exposure only
 
 **Recommendation:** REVIEW - material seniority, language, or skill risk
 
-### 5. Senior Security Engineer (F/M/D)
+### 3. Senior Cloud Security Engineer
 
-- **Company:** NavVis
-- **Location:** Munich Hybrid (NavVis GmbH), Germany
+- **Company:** N26
+- **Location:** Berlin, Germany
 - **Location eligibility:** Germany/Berlin eligibility detected
-- **Working model:** Hybrid
-- **Role family:** Security Engineering
+- **Working model:** On-site / not specified
+- **Role family:** Cloud Security / DevSecOps
 - **Seniority:** Senior
 - **Source / ATS:** Greenhouse / Greenhouse
 - **Priority employer:** YES
-- **Posted:** 2026-07-16 (OLDER POSTING - VERIFY ACTIVE)
-- **First seen:** 2026-08-15
-- **Radar / application status:** SEEN_BEFORE / NEW
-- **Match score:** **69/100 - REVIEW**
-- **Direct job URL:** [NavVis vacancy](https://job-boards.eu.greenhouse.io/navvis/jobs/4714167101)
+- **Posted:** 2026-08-05 (OPEN FOR REVIEW)
+- **First seen:** 2026-08-16
+- **Radar / application status:** NEW / NEW
+- **Match score:** **59/100 - STRETCH**
+- **Direct job URL:** [N26 vacancy](https://n26.com/en-eu/careers/positions/8076441?gh_jid=8076441)
 
-**Strong matches:** sast, stakeholder communication
+**Strong matches:** owasp, penetration testing, python, security automation, security testing, threat modeling
 
-**Partial matches:** incident response, network security
+**Partial matches:** aws, ci/cd, cloud security, incident response
 
-**Mandatory gaps:** go, incident response
+**Mandatory gaps:** aws, bash, ci/cd, cloud security, go, infrastructure as code, kubernetes, terraform
 
-**Potential gaps:** iso 27001
+**Potential gaps:** None detected
 
 **Optional gaps:** None detected
 
@@ -203,9 +143,81 @@ No jobs in this section today.
 
 **German:** No German requirement detected
 
-**Why relevant:** Role family: Security Engineering. The role is based in Berlin/Germany or explicitly accepts Germany. Evidenced matches include sast, stakeholder communication.
+**Why relevant:** Role family: Cloud Security / DevSecOps. The role is based in Berlin/Germany or explicitly accepts Germany. Evidenced matches include owasp, penetration testing, python, security automation, security testing.
 
-**Warnings:** Mandatory gaps: go, incident response Potential gaps: iso 27001 Exposure only; do not claim deep expertise: incident response, network security Senior title is above the profile's current 2+ years One explicitly mandatory skill is not evidenced
+**Warnings:** Mandatory gaps: aws, bash, ci/cd, cloud security, go, infrastructure as code Exposure only; do not claim deep expertise: aws, ci/cd, cloud security, incident response Multiple explicitly mandatory skills are not evidenced
+
+**Recommendation:** STRETCH - apply only after manually resolving the flagged risks
+
+### 4. Security Advocate \| AI AppSec
+
+- **Company:** Escape
+- **Location:** Remote
+- **Location eligibility:** Remote role, but Germany/Europe eligibility is not explicit
+- **Working model:** Remote
+- **Role family:** Application Security
+- **Seniority:** Mid-level or unspecified
+- **Source / ATS:** Arbeitnow / Not Identified
+- **Priority employer:** NO
+- **Posted:** 2026-08-14 (NEW - APPLY QUICKLY)
+- **First seen:** 2026-08-15
+- **Radar / application status:** UPDATED / NEW
+- **Match score:** **59/100 - STRETCH**
+- **Direct job URL:** [Escape vacancy](https://www.arbeitnow.com/jobs/companies/escape/remote-security-advocate-ai-appsec-150685)
+
+**Strong matches:** api security, application security, dast, penetration testing
+
+**Partial matches:** cloud security, devsecops, git
+
+**Mandatory gaps:** git
+
+**Potential gaps:** rust
+
+**Optional gaps:** None detected
+
+**Experience:** No explicit years detected
+
+**German:** No German requirement detected
+
+**Why relevant:** Role family: Application Security. Remote role, but Germany/Europe eligibility is not explicit. Evidenced matches include api security, application security, dast, penetration testing.
+
+**Warnings:** Remote role, but Germany/Europe eligibility is not explicit Mandatory gaps: git Potential gaps: rust Exposure only; do not claim deep expertise: cloud security, devsecops, git
+
+**Recommendation:** STRETCH - apply only after manually resolving the flagged risks
+
+### 5. Product Security Engineer
+
+- **Company:** Vercel
+- **Location:** Berlin, Germany
+- **Location eligibility:** Germany/Berlin eligibility detected
+- **Working model:** Hybrid
+- **Role family:** Product Security
+- **Seniority:** Mid-level or unspecified
+- **Source / ATS:** Greenhouse / Greenhouse
+- **Priority employer:** YES
+- **Posted:** 2026-08-13 (RECENT)
+- **First seen:** 2026-08-15
+- **Radar / application status:** SEEN_BEFORE / NEW
+- **Match score:** **69/100 - REVIEW**
+- **Direct job URL:** [Vercel vacancy](https://job-boards.greenhouse.io/vercel/jobs/6102343004)
+
+**Strong matches:** frida, penetration testing, security automation, security testing, threat modeling, vulnerability triage
+
+**Partial matches:** javascript, product security, software development
+
+**Mandatory gaps:** javascript
+
+**Potential gaps:** bug bounty, go, rust, vulnerability disclosure program
+
+**Optional gaps:** None detected
+
+**Experience:** No explicit years detected
+
+**German:** No German requirement detected
+
+**Why relevant:** Role family: Product Security. The role is based in Berlin/Germany or explicitly accepts Germany. Evidenced matches include frida, penetration testing, security automation, security testing, threat modeling.
+
+**Warnings:** Mandatory gaps: javascript Potential gaps: bug bounty, go, rust, vulnerability disclosure program Exposure only; do not claim deep expertise: javascript, product security, software development At least one explicitly mandatory skill has exposure only
 
 **Recommendation:** REVIEW - material seniority, language, or skill risk
 
@@ -217,10 +229,11 @@ No jobs in this section today.
 
 - ✅ **Arbeitnow** — 875 jobs
 - ✅ **Remotive** — 14 jobs
-- ✅ **Greenhouse** — 165/165 companies successful, 19918 jobs
-- ✅ **Ashby** — 8/8 companies successful, 319 jobs
-- ✅ **Lever** — 6/6 companies successful, 1113 jobs
-- ✅ **Personio** — 7/7 companies successful, 201 jobs
+- ✅ **Greenhouse** — 65/65 companies successful, 4802 jobs
+- ✅ **Ashby** — 8/8 companies successful, 229 jobs
+- ✅ **Lever** — 3/3 companies successful, 114 jobs
+- ✅ **Personio** — 4/4 companies successful, 169 jobs
+- ◻️ **Recruitee** — no enabled companies
 
 ## ChatGPT Handoff
 
