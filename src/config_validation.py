@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from datetime import date
 from typing import Any
 
 from .utils import normalize_text
@@ -48,11 +49,34 @@ def validate_companies_config(config: Any) -> dict[str, Any]:
             label = f"{ats}[{index}]"
             if not isinstance(entry, dict):
                 raise ConfigurationError(f"{label} must be a JSON object")
-            for boolean_field in ("enabled", "priority"):
+            for boolean_field in ("enabled", "priority", "current_security_hiring"):
                 if boolean_field in entry and not isinstance(entry[boolean_field], bool):
                     raise ConfigurationError(f"{label}.{boolean_field} must be true or false")
             if "notes" in entry and not isinstance(entry["notes"], str):
                 raise ConfigurationError(f"{label}.notes must be a string")
+            if "category" in entry and (
+                not isinstance(entry["category"], str) or not entry["category"].strip()
+            ):
+                raise ConfigurationError(f"{label}.category must be a non-empty string")
+            roles = entry.get("security_roles_verified", [])
+            if not isinstance(roles, list) or not all(
+                isinstance(role, str) and role.strip() for role in roles
+            ):
+                raise ConfigurationError(
+                    f"{label}.security_roles_verified must be a list of non-empty strings"
+                )
+            verified_at = entry.get("security_hiring_verified_at")
+            if verified_at is not None:
+                if not isinstance(verified_at, str):
+                    raise ConfigurationError(
+                        f"{label}.security_hiring_verified_at must use YYYY-MM-DD"
+                    )
+                try:
+                    date.fromisoformat(verified_at)
+                except ValueError as exc:
+                    raise ConfigurationError(
+                        f"{label}.security_hiring_verified_at must use YYYY-MM-DD"
+                    ) from exc
             if ats == "lever" and entry.get("region", "global") not in {"global", "eu"}:
                 raise ConfigurationError(f"{label}.region must be 'global' or 'eu'")
             if ats == "personio" and entry.get("language", "en") not in {

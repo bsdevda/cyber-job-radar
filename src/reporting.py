@@ -44,6 +44,7 @@ def build_report_payload(
     all_relevant_jobs: list[dict[str, Any]],
     source_status: dict[str, dict[str, Any]],
     collected_count: int,
+    security_candidate_count: int,
     duplicate_count: int,
     rejected_count: int,
     generated_at: str,
@@ -55,7 +56,9 @@ def build_report_payload(
         "generated_at": generated_at,
         "scoring_version": config.get("scoring_version", 2),
         "jobs_collected": collected_count,
-        "unique_jobs_after_deduplication": collected_count - duplicate_count,
+        "security_title_candidates": security_candidate_count,
+        "prefiltered_non_security_jobs": collected_count - security_candidate_count,
+        "unique_jobs_after_deduplication": security_candidate_count - duplicate_count,
         "duplicates_removed": duplicate_count,
         "jobs_rejected_or_below_threshold": rejected_count,
         "relevant_jobs_in_current_run": len(all_relevant_jobs),
@@ -151,6 +154,8 @@ def render_markdown(payload: dict[str, Any], config: dict[str, Any]) -> str:
         f"**Date:** {date}",
         f"**Scoring model:** v{summary.get('scoring_version', 2)}",
         f"**Raw postings collected:** {summary['jobs_collected']}",
+        f"**Security-title candidates:** {summary.get('security_title_candidates', summary['jobs_collected'])}",
+        f"**Non-security titles skipped early:** {summary.get('prefiltered_non_security_jobs', 0)}",
         f"**Unique jobs after deduplication:** {summary['unique_jobs_after_deduplication']}",
         f"**New jobs:** {summary['new_jobs']}",
         f"**Updated jobs:** {summary['updated_jobs']}",
@@ -167,6 +172,16 @@ def render_markdown(payload: dict[str, Any], config: dict[str, Any]) -> str:
     ]
     for source, count in summary["jobs_by_source"].items():
         lines.append(f"- **{source.title()}:** {count}")
+    lines.extend(["", "## Employer Watchlist Scan", ""])
+    employer_scan = payload.get("employer_scan", {})
+    lines.append(f"- **Mode:** {str(employer_scan.get('mode', 'daily')).title()}")
+    for source, details in employer_scan.get("sources", {}).items():
+        lines.append(
+            f"- **{source.title()}:** {details.get('selected', 0)}/"
+            f"{details.get('configured_enabled', 0)} selected; "
+            f"{details.get('skipped_by_rotation', 0)} rotating; "
+            f"{details.get('skipped_by_cooldown', 0)} cooling down"
+        )
     lines.append("")
 
     jobs = payload["jobs"]

@@ -1,9 +1,17 @@
 {
   "http": {
-    "timeout_seconds": 20,
+    "timeout_seconds": 15,
     "retries": 2,
-    "backoff_seconds": 1.0,
+    "backoff_seconds": 0.5,
     "user_agent": "CyberJobRadar/1.0 (+personal non-commercial job search)"
+  },
+  "employer_scan": {
+    "daily_batch_count": 5,
+    "daily_company_limit_per_source": 75,
+    "full_company_limit_per_source": 500,
+    "failure_cooldown_hours": 24,
+    "max_failure_cooldown_hours": 168,
+    "invalid_identifier_cooldown_days": 30
   },
   "sources": {
     "arbeitnow": {
@@ -21,26 +29,37 @@
       "enabled": true,
       "endpoint": "https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true",
       "delay_seconds": 0.05,
-      "max_workers": 8
+      "max_workers": 8,
+      "http": {"timeout_seconds": 8, "retries": 1, "backoff_seconds": 0.25}
     },
     "ashby": {
       "enabled": true,
       "endpoint": "https://api.ashbyhq.com/posting-api/job-board/{board}?includeCompensation=true",
       "delay_seconds": 0.05,
-      "max_workers": 6
+      "max_workers": 6,
+      "http": {"timeout_seconds": 8, "retries": 1, "backoff_seconds": 0.25}
     },
     "lever": {
       "enabled": true,
       "endpoint": "https://api.lever.co/v0/postings/{site}?mode=json",
       "eu_endpoint": "https://api.eu.lever.co/v0/postings/{site}?mode=json",
       "delay_seconds": 0.05,
-      "max_workers": 6
+      "max_workers": 6,
+      "http": {"timeout_seconds": 8, "retries": 1, "backoff_seconds": 0.25}
     },
     "personio": {
       "enabled": true,
       "endpoint": "https://{account}.jobs.personio.de/xml?language={language}",
       "delay_seconds": 0.05,
-      "max_workers": 6
+      "max_workers": 6,
+      "http": {"timeout_seconds": 8, "retries": 1, "backoff_seconds": 0.25}
+    },
+    "recruitee": {
+      "enabled": true,
+      "endpoint": "https://{subdomain}.recruitee.com/api/offers/",
+      "delay_seconds": 0.05,
+      "max_workers": 6,
+      "http": {"timeout_seconds": 8, "retries": 1, "backoff_seconds": 0.25}
     }
   }
 }

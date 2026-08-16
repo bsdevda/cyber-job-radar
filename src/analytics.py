@@ -43,34 +43,21 @@ def build_weekly_snapshot(
         for skill in job.get("skill_matches", {}).get("partial", []):
             partial[skill] += 1
 
-    statuses = Counter(
-        str(application.get("status", "NEW")).upper() for application in applications.values()
-    )
-    applied = 0
-    responses = 0
-    interviews = 0
-    offers = 0
+    funnel = _application_funnel(list(applications.values()))
+    by_recommendation: dict[str, list[dict[str, Any]]] = {}
+    by_cv_version: dict[str, list[dict[str, Any]]] = {}
     for application in applications.values():
-        status = str(application.get("status", "NEW")).upper()
-        stage = APPLICATION_STAGE.get(status, 0)
-        submitted = stage >= 1 or bool(application.get("applied_date"))
-        responded = stage >= 2 or bool(application.get("response_date"))
-        interviewed = stage >= 3 or bool(application.get("interview_date"))
-        offered = stage >= 5 or str(application.get("final_result", "")).upper() == "OFFER"
-        applied += bool(submitted)
-        responses += bool(responded)
-        interviews += bool(interviewed)
-        offers += bool(offered)
-    funnel = {
-        "tracked_records": len(applications),
-        "status_counts": dict(statuses.most_common()),
-        "applications_submitted": applied,
-        "responses_or_screens": responses,
-        "interviews": interviews,
-        "offers": offers,
-        "response_rate_percent": _rate(responses, applied),
-        "interview_rate_percent": _rate(interviews, applied),
-        "offer_rate_percent": _rate(offers, applied),
+        recommendation_label = str(
+            application.get("radar_recommendation") or "UNRECORDED"
+        ).upper()
+        cv_version = str(application.get("cv_version") or "UNRECORDED")
+        by_recommendation.setdefault(recommendation_label, []).append(application)
+        by_cv_version.setdefault(cv_version, []).append(application)
+    funnel["by_radar_recommendation"] = {
+        key: _application_funnel(values) for key, values in sorted(by_recommendation.items())
+    }
+    funnel["by_cv_version"] = {
+        key: _application_funnel(values) for key, values in sorted(by_cv_version.items())
     }
     return {
         "week_start": week_start.isoformat(),
@@ -146,6 +133,16 @@ def render_weekly_markdown(analytics: dict[str, Any]) -> str:
             f"- **Interviews:** {funnel['interviews']} ({funnel['interview_rate_percent']}%)",
             f"- **Offers:** {funnel['offers']} ({funnel['offer_rate_percent']}%)",
             "",
+            "### Outcomes by radar recommendation",
+            "",
+        ]
+    )
+    lines.extend(_funnel_table(funnel.get("by_radar_recommendation", {})))
+    lines.extend(["", "### Outcomes by CV version", ""])
+    lines.extend(_funnel_table(funnel.get("by_cv_version", {})))
+    lines.extend(
+        [
+            "",
             "Update `data/applications.json` after each application or recruiter interaction; otherwise funnel rates remain zero.",
             "",
         ]
@@ -169,6 +166,57 @@ def _top(counter: Counter[str], limit: int = 12) -> list[dict[str, Any]]:
 
 def _rate(numerator: int, denominator: int) -> float:
     return round(100 * numerator / denominator, 1) if denominator else 0.0
+
+
+def _application_funnel(records: list[dict[str, Any]]) -> dict[str, Any]:
+    statuses = Counter(str(record.get("status", "NEW")).upper() for record in records)
+    applied = responses = interviews = offers = 0
+    for record in records:
+        status = str(record.get("status", "NEW")).upper()
+        stage = APPLICATION_STAGE.get(status, 0)
+        submitted = stage >= 1 or bool(
+            record.get("application_date") or record.get("applied_date")
+        )
+        responded = (
+            stage >= 2
+            or status == "REJECTED"
+            or bool(record.get("response_date") or record.get("rejection_date"))
+        )
+        interviewed = stage >= 3 or bool(
+            record.get("interview_date") or record.get("interview_stage")
+        )
+        offered = stage >= 5 or str(record.get("final_result", "")).upper() == "OFFER"
+        applied += bool(submitted)
+        responses += bool(responded)
+        interviews += bool(interviewed)
+        offers += bool(offered)
+    return {
+        "tracked_records": len(records),
+        "status_counts": dict(statuses.most_common()),
+        "applications_submitted": applied,
+        "responses_or_screens": responses,
+        "interviews": interviews,
+        "offers": offers,
+        "response_rate_percent": _rate(responses, applied),
+        "interview_rate_percent": _rate(interviews, applied),
+        "offer_rate_percent": _rate(offers, applied),
+    }
+
+
+def _funnel_table(values: dict[str, dict[str, Any]]) -> list[str]:
+    if not values:
+        return ["No tracked outcomes yet."]
+    lines = [
+        "| Group | Applied | Responses | Interviews | Offers | Interview rate |",
+        "| --- | ---: | ---: | ---: | ---: | ---: |",
+    ]
+    for key, metrics in values.items():
+        lines.append(
+            f"| {key} | {metrics['applications_submitted']} | "
+            f"{metrics['responses_or_screens']} | {metrics['interviews']} | "
+            f"{metrics['offers']} | {metrics['interview_rate_percent']}% |"
+        )
+    return lines
 
 
 def _mapping_lines(values: dict[str, int], empty: str) -> list[str]:

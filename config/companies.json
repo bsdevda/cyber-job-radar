@@ -74,15 +74,23 @@
     {
       "name": "MOIA",
       "board": "moia",
-      "priority": false,
+      "priority": true,
       "enabled": true,
+      "category": "berlin_scaleup",
+      "current_security_hiring": true,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": ["Detection & Response Lead"],
       "notes": "Berlin and Germany; vehicle, cloud and product security"
     },
     {
       "name": "Vercel",
       "board": "vercel",
-      "priority": false,
+      "priority": true,
       "enabled": true,
+      "category": "berlin_technology",
+      "current_security_hiring": true,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": ["Product Security Engineer", "Security Engineer, Detection Response", "Security Software Engineer"],
       "notes": "Berlin hybrid; security software and platform security"
     },
     {
@@ -1155,6 +1163,83 @@
       "priority": false,
       "enabled": true,
       "notes": "Global technology employer; location filters retain Berlin, Germany and Europe-remote openings"
+    },
+    {
+      "name": "N26",
+      "board": "n26",
+      "priority": true,
+      "enabled": true,
+      "category": "berlin_fintech_scaleup",
+      "current_security_hiring": true,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": ["Senior Cloud Security Engineer", "Information Security Controls Manager"],
+      "notes": "Berlin fintech; verified public Greenhouse board and current Berlin security hiring"
+    },
+    {
+      "name": "HelloFresh",
+      "board": "hellofresh",
+      "priority": true,
+      "enabled": true,
+      "category": "berlin_scaleup",
+      "current_security_hiring": true,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": ["Senior Cloud Security Engineer"],
+      "notes": "Berlin-headquartered technology company; verified current cloud-security hiring"
+    },
+    {
+      "name": "PandaDoc",
+      "board": "pandadoc",
+      "priority": false,
+      "enabled": true,
+      "category": "berlin_technology",
+      "current_security_hiring": false,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": [],
+      "notes": "Berlin hiring footprint; valid public board, retained for future Application Security openings"
+    },
+    {
+      "name": "commercetools",
+      "board": "commercetools",
+      "priority": true,
+      "enabled": true,
+      "category": "berlin_scaleup",
+      "current_security_hiring": true,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": ["Principal Engineer, Product Security"],
+      "notes": "Berlin technology scale-up; verified current Product Security hiring"
+    },
+    {
+      "name": "Ada Health",
+      "board": "adahealth",
+      "priority": false,
+      "enabled": true,
+      "category": "germany_healthtech_startup",
+      "current_security_hiring": false,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": [],
+      "notes": "Berlin healthtech; valid but currently empty public board retained for future security roles"
+    },
+    {
+      "name": "Klang Games",
+      "board": "klanggames",
+      "priority": false,
+      "enabled": true,
+      "category": "berlin_gaming_startup",
+      "current_security_hiring": false,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": [],
+      "notes": "Berlin games startup; valid public board retained for future product/platform security roles"
+    },
+    {
+      "name": "Wooga",
+      "board": "wooga",
+      "priority": false,
+      "enabled": true,
+      "category": "berlin_gaming_scaleup",
+      "current_security_hiring": false,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": [],
+      "notes": "Berlin games company; valid public board retained for future product/platform security roles"
     }
   ],
   "lever": [
@@ -1188,6 +1273,10 @@
       "region": "global",
       "priority": true,
       "enabled": true,
+      "category": "berlin_technology_scaleup",
+      "current_security_hiring": true,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": ["Principal Security Engineer"],
       "notes": "Berlin technology employer; monitor product and application security roles"
     },
     {
@@ -1234,6 +1323,10 @@
       "board": "qdrant.tech",
       "priority": true,
       "enabled": true,
+      "category": "berlin_database_startup",
+      "current_security_hiring": true,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": ["Security Engineer"],
       "notes": "Germany remote; Security Engineering and GRC"
     },
     {
@@ -1246,8 +1339,12 @@
     {
       "name": "Eye Security",
       "board": "eye-security",
-      "priority": false,
+      "priority": true,
       "enabled": true,
+      "category": "berlin_cybersecurity_scaleup",
+      "current_security_hiring": true,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": ["Junior Cyber Security Consultant", "SOC Analyst"],
       "notes": "Berlin hybrid cybersecurity scale-up"
     },
     {
@@ -1262,7 +1359,66 @@
       "board": "langdock",
       "priority": false,
       "enabled": true,
-      "notes": "Berlin AI startup; monitor future individual-contributor security roles"
+      "category": "berlin_ai_startup",
+      "current_security_hiring": true,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": ["Security Lead"],
+      "notes": "Berlin AI startup; current role is lead-level, but monitor future individual-contributor security roles"
+    },
+    {
+      "name": "Taktile",
+      "board": "taktile",
+      "priority": true,
+      "enabled": true,
+      "category": "berlin_fintech_startup",
+      "current_security_hiring": true,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": ["Security Lead"],
+      "notes": "Berlin fintech startup; current security leadership opening and future security engineering watch"
+    },
+    {
+      "name": "Upvest",
+      "board": "upvest",
+      "priority": true,
+      "enabled": true,
+      "category": "berlin_fintech_scaleup",
+      "current_security_hiring": true,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": ["Security Engineering Lead", "Lead IT Risk Manager"],
+      "notes": "Berlin investment-infrastructure scale-up; verified current security hiring"
+    },
+    {
+      "name": "Choco",
+      "board": "choco",
+      "priority": false,
+      "enabled": true,
+      "category": "berlin_foodtech_startup",
+      "current_security_hiring": false,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": [],
+      "notes": "Berlin foodtech startup; valid public board retained for future security openings"
+    },
+    {
+      "name": "n8n",
+      "board": "n8n",
+      "priority": false,
+      "enabled": true,
+      "category": "berlin_automation_startup",
+      "current_security_hiring": false,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": [],
+      "notes": "Berlin-founded automation scale-up; valid public board retained for future Product Security/AppSec roles"
+    },
+    {
+      "name": "Leapsome",
+      "board": "leapsome",
+      "priority": false,
+      "enabled": true,
+      "category": "berlin_hrtech_scaleup",
+      "current_security_hiring": false,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": [],
+      "notes": "Berlin HR technology scale-up; valid public board retained for future security openings"
     }
   ],
   "personio": [
@@ -1272,14 +1428,22 @@
       "language": "en",
       "priority": true,
       "enabled": true,
+      "category": "berlin_cybersecurity_scaleup",
+      "current_security_hiring": true,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": ["Senior Security Engineer", "Senior Security Engineer - Product"],
       "notes": "Berlin secure communications company; Product Security"
     },
   {
     "name": "Scalian Germany",
     "account": "scalian-germany",
       "language": "de",
-      "priority": false,
+      "priority": true,
       "enabled": true,
+      "category": "germany_security_consulting",
+      "current_security_hiring": true,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": ["Consultant Cyber Security", "Cyber Security Engineer"],
       "notes": "Berlin and Germany; penetration testing and cyber security engineering"
     },
     {
@@ -1312,6 +1476,10 @@
     "language": "en",
     "priority": true,
     "enabled": true,
+    "category": "berlin_technology_scaleup",
+    "current_security_hiring": true,
+    "security_hiring_verified_at": "2026-08-16",
+    "security_roles_verified": ["Application Security Engineer"],
     "notes": "Berlin/Konstanz technology company; Application Security and Product Security"
     },
     {
@@ -1323,7 +1491,30 @@
       "notes": "Berlin network operator; monitor suitable hands-on IT security roles"
     }
   ],
-  "recruitee": [],
+  "recruitee": [
+    {
+      "name": "Cygrid",
+      "subdomain": "cygridgmbh",
+      "priority": false,
+      "enabled": true,
+      "category": "berlin_cybersecurity_startup",
+      "current_security_hiring": false,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": [],
+      "notes": "Early-stage Berlin identity-security and AI startup; monitor technical security openings"
+    },
+    {
+      "name": "DrAnsay",
+      "subdomain": "dransay",
+      "priority": false,
+      "enabled": true,
+      "category": "berlin_healthtech_startup",
+      "current_security_hiring": false,
+      "security_hiring_verified_at": "2026-08-16",
+      "security_roles_verified": [],
+      "notes": "German digital-health company; valid Recruitee feed retained for recurring cloud/application security roles"
+    }
+  ],
   "smartrecruiters": [],
-  "notes": "Multi-ATS watchlist for Berlin, Germany and Europe-remote cybersecurity roles: 165 Greenhouse boards plus validated starter lists for Ashby, Lever and Personio. Priority status is reported separately and never inflates technical-fit scoring."
+  "notes": "Multi-ATS watchlist for Berlin, Germany and Europe-remote cybersecurity roles. Public identifiers were live-validated on 2026-08-16. Berlin startup/scale-up metadata distinguishes currently verified security hiring from future-watch employers. Priority status controls scan frequency only and never inflates technical-fit scoring."
 }

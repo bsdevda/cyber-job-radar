@@ -5,7 +5,7 @@ from typing import Any
 from .collectors.base import CollectionResult
 
 
-COMPANY_SOURCES = {"greenhouse", "ashby", "lever", "personio"}
+COMPANY_SOURCES = {"greenhouse", "ashby", "lever", "personio", "recruitee"}
 
 
 def build_source_health(

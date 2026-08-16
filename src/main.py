@@ -15,6 +15,7 @@ from .analysis import (
     extract_experience,
 )
 from .analytics import build_weekly_snapshot, render_weekly_markdown, update_weekly_analytics
+from .application_tracker import normalize_applications, write_application_csv
 from .classification import classify_role, classify_seniority
 from .collectors import (
     ArbeitnowCollector,
@@ -22,7 +23,14 @@ from .collectors import (
     GreenhouseCollector,
     LeverCollector,
     PersonioCollector,
+    RecruiteeCollector,
     RemotiveCollector,
+)
+from .company_schedule import (
+    IDENTIFIER_FIELDS,
+    render_company_health_markdown,
+    select_companies,
+    update_company_health,
 )
 from .config_validation import ConfigurationError, priority_company_names, validate_companies_config
 from .deduplication import deduplicate_jobs
@@ -49,6 +57,7 @@ def run(
     fixture_dir: Path | None = None,
     no_archive: bool = False,
     generated_at_override: str | None = None,
+    employer_mode: str = "daily",
 ) -> dict[str, Any]:
     generated_at = generated_at_override or iso_now()
     search_config = load_json(project_root / "config/search_config.json")
@@ -57,7 +66,12 @@ def run(
     companies = validate_companies_config(
         load_json(project_root / "config/companies.json", {"priority_companies": []})
     )
-    http = HttpClient(**sources_config["http"])
+    employer_scan_options = sources_config.get("employer_scan", {})
+    company_health_path = project_root / "data/company_health.json"
+    existing_company_health = load_json(
+        company_health_path,
+        {"schema_version": 1, "employers": {}},
+    )
 
     collector_types = {
         "arbeitnow": ArbeitnowCollector,
@@ -66,16 +80,46 @@ def run(
         "ashby": AshbyCollector,
         "lever": LeverCollector,
         "personio": PersonioCollector,
+        "recruitee": RecruiteeCollector,
     }
     results = []
     raw_jobs: list[dict[str, Any]] = []
+    employer_selection: dict[str, Any] = {
+        "mode": employer_mode,
+        "generated_at": generated_at,
+        "sources": {},
+    }
     for source_name, source_options in sources_config["sources"].items():
         if not source_options.get("enabled", False):
             continue
         collector_type = collector_types.get(source_name)
         if collector_type is None:
             raise ConfigurationError(f"No collector implementation for enabled source: {source_name}")
-        result = collector_type(source_options, http, companies.get(source_name, [])).collect(fixture_dir)
+        source_companies = companies.get(source_name, [])
+        if source_name in IDENTIFIER_FIELDS:
+            source_companies, selection = select_companies(
+                source_name,
+                source_companies,
+                existing_company_health,
+                generated_at,
+                employer_mode,
+                employer_scan_options,
+                fixture_mode=fixture_dir is not None,
+            )
+            employer_selection["sources"][source_name] = selection
+            LOGGER.info(
+                "%s employer scan: %d selected, %d rotation skip(s), %d cooldown skip(s)",
+                source_name,
+                selection["selected"],
+                selection["skipped_by_rotation"],
+                selection["skipped_by_cooldown"],
+            )
+        client_options = {
+            **sources_config["http"],
+            **source_options.get("http", {}),
+        }
+        http = HttpClient(**client_options)
+        result = collector_type(source_options, http, source_companies).collect(fixture_dir)
         results.append(result)
         raw_jobs.extend(result.jobs)
         if result.ok:
@@ -86,7 +130,17 @@ def run(
             LOGGER.warning("%s", error.get("message", error))
 
     phase_started = time.perf_counter()
-    normalized = [normalize_job(raw) for raw in raw_jobs]
+    security_candidate_jobs = [
+        raw for raw in raw_jobs if is_cybersecurity_relevant(raw, search_config)
+    ]
+    prefiltered_count = len(raw_jobs) - len(security_candidate_jobs)
+    LOGGER.info(
+        "Title prefilter retained %d/%d posting(s); skipped %d non-security title(s)",
+        len(security_candidate_jobs),
+        len(raw_jobs),
+        prefiltered_count,
+    )
+    normalized = [normalize_job(raw) for raw in security_candidate_jobs]
     LOGGER.info(
         "Normalized %d posting(s) in %.1fs",
         len(normalized),
@@ -184,9 +238,22 @@ def run(
     data_dir = project_root / "data"
     previous_jobs = load_json(data_dir / "jobs.json", [])
     seen = load_json(data_dir / "seen_jobs.json", {})
-    applications = load_json(data_dir / "applications.json", {})
+    applications = normalize_applications(
+        load_json(data_dir / "applications.json", {}),
+        previous_jobs,
+        now,
+    )
     history = load_json(data_dir / "job_history.json", {"runs": [], "events": []})
     source_health = build_source_health(results, now)
+    source_health["employer_scan"] = employer_selection
+    company_health = update_company_health(
+        existing_company_health,
+        companies,
+        results,
+        employer_selection,
+        now,
+        employer_scan_options,
+    )
     source_status = source_health["sources"]
     seen, events = apply_seen_tracking(
         accepted,
@@ -208,12 +275,14 @@ def run(
         accepted,
         source_status,
         len(raw_jobs),
+        len(security_candidate_jobs),
         duplicate_count,
-        len(rejected),
+        len(rejected) + prefiltered_count,
         now,
         search_config,
     )
     payload["all_sources_failed"] = source_health["all_sources_failed"]
+    payload["employer_scan"] = employer_selection
     payload["rejection_summary"] = summarize_rejections(rejected)
     run_summary = {**payload["summary"], "source_status": source_status}
     history = append_run_history(
@@ -238,17 +307,27 @@ def run(
     write_json_atomic(data_dir / "seen_jobs.json", seen)
     write_json_atomic(data_dir / "job_history.json", history)
     write_json_atomic(data_dir / "source_health.json", source_health)
+    write_json_atomic(company_health_path, company_health)
+    write_json_atomic(data_dir / "applications.json", applications)
     write_json_atomic(data_dir / "weekly_analytics.json", weekly_analytics)
     write_json_atomic(project_root / "reports/latest.json", payload)
     write_json_atomic(project_root / "reports/chatgpt_handoff.json", handoff)
     markdown = render_markdown(payload, search_config)
     write_text_atomic(project_root / "reports/latest.md", markdown)
     write_text_atomic(project_root / "reports/weekly.md", render_weekly_markdown(weekly_analytics))
+    write_application_csv(project_root / "reports/application_tracker.csv", applications)
+    write_text_atomic(
+        project_root / "reports/company_health.md",
+        render_company_health_markdown(company_health),
+    )
     if not no_archive:
         write_text_atomic(project_root / f"reports/archive/{now[:10]}.md", markdown)
     LOGGER.info(
         "Run complete: %d collected, %d relevant, %d rejected, %d duplicate(s)",
-        len(raw_jobs), len(accepted), len(rejected), duplicate_count,
+        len(raw_jobs),
+        len(accepted),
+        len(rejected) + prefiltered_count,
+        duplicate_count,
     )
     return payload
 
@@ -267,6 +346,12 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         help="Read provider payloads from arbeitnow.json/remotive.json instead of the network.",
     )
     parser.add_argument("--no-archive", action="store_true", help="Do not write a dated Markdown archive.")
+    parser.add_argument(
+        "--employer-mode",
+        choices=("daily", "full"),
+        default="daily",
+        help="Use the daily rotating employer batch or the complete employer watchlist.",
+    )
     parser.add_argument("--verbose", action="store_true", help="Enable debug logging.")
     return parser.parse_args(argv)
 
@@ -282,6 +367,7 @@ def main(argv: list[str] | None = None) -> int:
             args.project_root.resolve(),
             args.fixture_dir.resolve() if args.fixture_dir else None,
             args.no_archive,
+            employer_mode=args.employer_mode,
         )
     except Exception:
         LOGGER.exception("Radar run failed")

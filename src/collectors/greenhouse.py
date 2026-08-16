@@ -92,10 +92,12 @@ class GreenhouseCollector(BaseCollector):
         company: dict[str, Any],
         payload: dict[str, Any],
     ) -> None:
+        before = len(result.jobs)
         for raw in payload.get("jobs", []):
             if isinstance(raw, dict):
                 result.jobs.append(self._map_job(raw, company))
         result.companies_successful += 1
+        self._record_company_success(result, company, len(result.jobs) - before)
 
     def _record_failure(
         self,
@@ -104,8 +106,10 @@ class GreenhouseCollector(BaseCollector):
         exc: Exception,
     ) -> None:
         label = str(company.get("name") or company.get("board"))
-        result.errors.append(self._error(label, exc))
+        error = self._error(label, exc)
+        result.errors.append(error)
         result.companies_failed += 1
+        self._record_company_failure(result, company, error)
 
     def _payload(
         self,

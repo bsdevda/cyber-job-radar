@@ -4,6 +4,19 @@ A zero-API-key, rule-based vacancy radar built around Bharatsingh Devda's verifi
 
 The radar performs discovery and evidence-based triage. A human or ChatGPT still verifies the original vacancy and makes the final application decision. It never auto-applies and it never sends a CV to an employer.
 
+## Version 2.2 production operations
+
+- Replaces the all-employers-every-day pattern with five deterministic weekday batches. Priority employers are checked every weekday; together, Monday-Friday cover every enabled non-priority employer.
+- Runs a complete employer-watchlist scan on Sunday while keeping Arbeitnow and Remotive in every run.
+- Uses separate eight-second, single-attempt ATS requests so a slow employer cannot consume the workflow budget.
+- Maintains `data/company_health.json`: successful checks recover immediately, transient failures back off exponentially, and HTTP 404/410 identifiers are suppressed for 30 days before a safe retry.
+- Writes `reports/company_health.md` with coverage, verified security-hiring employers and suppressed identifiers.
+- Applies the strict cybersecurity-title rule before normalization and deduplication. A measured weekday live run skipped 5,993 irrelevant titles and processed 211 security candidates from 6,204 raw postings in 132 seconds.
+- Adds public Recruitee collection, initially covering Cygrid's Berlin cybersecurity feed and the German DrAnsay healthtech feed.
+- Expands the validated watchlist to 200 employers, including Berlin startup/scale-up metadata and 14 employers with security hiring verified on 2026-08-16.
+- Adds a validated application-tracker command, CSV export, recommendation/CV-version funnel cohorts, and rejection/interview outcome dates.
+- Adds regression coverage for rotation, cooldown recovery, startup metadata, Recruitee, application validation and export. The suite contains 54 passing tests.
+
 ## Version 2.1 quality safeguards
 
 - Treats explicit fluent, excellent, very good, business-fluent, B2, C1, C2 and native German requirements as hard blockers for the current A2 profile.
@@ -25,7 +38,7 @@ The radar performs discovery and evidence-based triage. A human or ChatGPT still
 - Explicit seniority, required-experience, German-language, location, mandatory-skill, optional-skill, and posting-age analysis.
 - Conservative caps for senior titles, experience above the profile, uncertain remote eligibility, and mandatory gaps.
 - Strict title relevance and Germany/Europe-remote eligibility to suppress generic software, academic, physical-security, and region-locked jobs.
-- Public Arbeitnow, Remotive, Greenhouse, Ashby, Lever, and Personio collection.
+- Public Arbeitnow, Remotive, Greenhouse, Ashby, Lever, Personio, and Recruitee collection.
 - Independent source/company failures, bounded parallel requests, timeouts, retries, and source-health output.
 - Compact daily Markdown: five top matches and five review candidates; complete ranked data stays in JSON.
 - A single private `reports/chatgpt_handoff.json` containing sanitized profile evidence, the top ten jobs, full descriptions, URLs, gaps, and analysis instructions.
@@ -37,8 +50,9 @@ The radar performs discovery and evidence-based triage. A human or ChatGPT still
 
 ```mermaid
 flowchart TD
-    A["Public APIs and employer ATS boards"] --> B["Independent collectors"]
-    B --> C["Normalize and deduplicate"]
+    A["Public APIs and employer ATS boards"] --> B["Daily rotation + failure cooldowns"]
+    B --> C0["Independent collectors"]
+    C0 --> C["Title prefilter, normalize and deduplicate"]
     C --> D["Location, seniority, language and relevance filters"]
     D --> E["Profile and Scoring v2"]
     E --> F["Persistent job and application history"]
@@ -60,6 +74,7 @@ cyber-job-radar/
 │   └── sources.json
 ├── data/
 │   ├── applications.json
+│   ├── company_health.json
 │   ├── job_history.json
 │   ├── jobs.json
 │   ├── seen_jobs.json
@@ -67,7 +82,9 @@ cyber-job-radar/
 │   └── weekly_analytics.json
 ├── reports/
 │   ├── archive/
+│   ├── application_tracker.csv
 │   ├── chatgpt_handoff.json
+│   ├── company_health.md
 │   ├── latest.json
 │   ├── latest.md
 │   └── weekly.md
@@ -83,7 +100,7 @@ cyber-job-radar/
 │   └── scoring.py
 ├── tests/
 ├── CHATGPT_ANALYSIS_PROMPT.md
-├── VERSION_2_0_UPDATE.md
+├── VERSION_2_2_UPDATE.md
 └── README.md
 ```
 
@@ -121,7 +138,7 @@ Runtime collection uses only Python's standard library. Tests use offline provid
 
 ## GitHub Actions
 
-The workflow runs Monday-Friday at 07:30 using `Europe/Berlin`, so daylight-saving time is handled by the scheduler. It can also be started from **Actions → Daily Cybersecurity Job Radar → Run workflow**.
+The workflow runs Monday-Friday at 07:30 using `Europe/Berlin`. Those runs use one rotating employer batch plus every priority employer. A full watchlist run happens Sunday at 08:00. It can also be started from **Actions → Daily Cybersecurity Job Radar → Run workflow**, where `daily` or `full` can be selected.
 
 The job checks out the repository, runs all tests, collects/scores vacancies, and commits only generated radar data and reports. No secrets or paid APIs are required. Standard public-repository GitHub-hosted runner usage is intended to keep operation at €0. If the repository is private, remain within the current GitHub Free included-minute allowance and do not enable paid/larger runners. Check GitHub billing settings after platform-plan changes.
 
@@ -203,6 +220,25 @@ For `https://example.jobs.personio.de`:
 {"name": "Example GmbH", "account": "example", "language": "en", "priority": false, "enabled": true}
 ```
 
+### Recruitee
+
+For `https://example.recruitee.com`:
+
+```json
+{"name": "Example GmbH", "subdomain": "example", "priority": false, "enabled": true}
+```
+
+Optional evidence fields are validated and shown in the company-health report:
+
+```json
+{
+  "category": "berlin_cybersecurity_startup",
+  "current_security_hiring": true,
+  "security_hiring_verified_at": "2026-08-16",
+  "security_roles_verified": ["Application Security Engineer"]
+}
+```
+
 Never guess identifiers. Open the employer's genuine careers page and copy the tenant/board token from its ATS URL. A migrated or invalid board is recorded as a company-level source-health error while other employers continue. Priority-company metadata is a review tie-breaker; it does not inflate fit scores.
 
 ## Generated outputs
@@ -213,7 +249,10 @@ Never guess identifiers. Open the employer's genuine careers page and copy the t
 - `reports/weekly.md`: human-readable weekly demand, gap, and funnel summary.
 - `data/jobs.json`: persistent normalized job database with full descriptions.
 - `data/source_health.json`: provider and employer success/error details.
+- `data/company_health.json`: persistent per-employer success, failure, cooldown and retry state.
 - `data/weekly_analytics.json`: up to 104 weekly snapshots.
+- `reports/company_health.md`: human-readable scan coverage and employer problems.
+- `reports/application_tracker.csv`: spreadsheet-friendly application records.
 
 For ChatGPT, upload only `reports/chatgpt_handoff.json` and say:
 
@@ -226,38 +265,53 @@ Never invent skills, certifications, language level, or production experience.
 
 ## Application tracking and funnel analytics
 
-Copy a `job_key` from `reports/latest.json` or `data/jobs.json` into `data/applications.json`:
+Use the tracker command instead of manually constructing JSON. Copy a `job_key` from `reports/latest.json` or `data/jobs.json`:
 
-```json
-{
-  "0123456789abcdef0123": {
-    "status": "APPLIED",
-    "applied_date": "2026-08-15",
-    "cv_version": "security-v4",
-    "cover_letter_used": true,
-    "response_date": null,
-    "interview_date": null,
-    "final_result": null,
-    "notes": "Applied on employer career page"
-  }
-}
+```powershell
+python -m src.application_tracker set `
+  --job-key "PASTE_JOB_KEY" `
+  --status "APPLIED" `
+  --cv-version "appsec-v5" `
+  --cover-letter-used yes `
+  --notes "Applied through the employer career page"
 ```
+
+The command fills company, position, score, recommendation, URL and application date from the stored job. Update later stages with the same `job_key`:
+
+```powershell
+python -m src.application_tracker set `
+  --job-key "PASTE_JOB_KEY" `
+  --status "TECHNICAL INTERVIEW" `
+  --response-date "2026-08-20" `
+  --interview-date "2026-08-25" `
+  --interview-stage "Technical interview" `
+  --notes "Prepare API testing strategy and threat-modelling examples"
+
+python -m src.application_tracker list
+python -m src.application_tracker export
+```
+
+For a vacancy not present in the radar database, also supply `--company` and `--position`. Dates must use `YYYY-MM-DD`; scores must be between 0 and 100; unsupported statuses fail before the file is written.
 
 Suggested statuses: `REVIEW`, `SAVE`, `APPLIED`, `RECRUITER CONTACT`, `PHONE SCREEN`, `INTERVIEW`, `TECHNICAL INTERVIEW`, `FINAL INTERVIEW`, `OFFER`, `REJECTED`, `GHOSTED`, `WITHDRAWN`, and `SKIPPED`.
 
 Already-applied, interviewed, rejected, ghosted, withdrawn, offered, and skipped jobs stay in storage but are excluded from the daily application queue. Update the application file after each action; otherwise weekly funnel rates remain zero.
 
+Weekly analytics calculate response, interview and offer rates in total and separately by radar recommendation and CV version. This shows whether stronger radar scores and particular truthful CV versions actually produce better outcomes.
+
+If the GitHub repository is public, application records are also public. Keep notes professional and non-sensitive, never store recruiter contact details, and make the repository private if the application history should remain confidential.
+
 ## Safe update and Git commands
 
-For Scoring v2.1, follow `VERSION_2_1_UPDATE.md`. The update must preserve `data/jobs.json`, `data/seen_jobs.json`, `data/job_history.json`, `data/applications.json`, and existing report archives.
+For Production Operations v2.2, follow `VERSION_2_2_UPDATE.md`. The update must preserve `data/jobs.json`, `data/seen_jobs.json`, `data/job_history.json`, `data/applications.json`, `data/company_health.json`, and existing report archives.
 
 After copying the v2 files:
 
 ```powershell
 python -m unittest discover -s tests -v
 git status
-git add config src tests README.md VERSION_2_1_UPDATE.md
-git commit -m "fix: improve language age gap and duplicate scoring"
+git add .github config src tests data\company_health.json reports\application_tracker.csv reports\company_health.md README.md VERSION_2_2_UPDATE.md
+git commit -m "feat: add runtime-safe employer scans and application tracking"
 git pull --rebase origin main
 git push
 ```
@@ -275,7 +329,7 @@ Do not use `git add .` until `git status` confirms that no CV/PDF/private file i
 - Job count suddenly collapses: compare source health before changing scoring rules.
 - Bad job appears: inspect `location_analysis`, `seniority_analysis`, `role_family`, and `rejection_summary`, then add a regression test before changing the rule.
 - Score looks wrong: inspect `raw_score`, `score_cap`, `score_breakdown`, `mandatory_gaps`, and `warnings`.
-- Workflow exceeds time: keep bounded workers, remove invalid employer boards, and leave the workflow timeout at 30 minutes.
+- Workflow approaches 30 minutes: confirm the run uses `daily`, inspect `reports/company_health.md`, and keep the title prefilter and eight-second ATS timeout enabled. Use `full` only for the Sunday/manual audit.
 - Git push is rejected: run `git status`, commit or stash intentional changes, then `git pull --rebase origin main` and `git push`.
 
 ## Cost and safety constraints

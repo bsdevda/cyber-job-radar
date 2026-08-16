@@ -6,6 +6,7 @@ from pathlib import Path
 from src.collectors.ashby import AshbyCollector
 from src.collectors.lever import LeverCollector
 from src.collectors.personio import PersonioCollector
+from src.collectors.recruitee import RecruiteeCollector
 from src.normalize import normalize_job
 
 
@@ -70,6 +71,22 @@ class AtsCollectorTests(unittest.TestCase):
         self.assertEqual(job["title"], "Security Tester (m/f/d)")
         self.assertIn("1-2 years of experience", job["description"])
         self.assertIn("personio.de/job/4103", job["url"])
+
+    def test_recruitee_fixture_maps_public_offer_fields(self) -> None:
+        collector = RecruiteeCollector(
+            {"endpoint": "https://{subdomain}.recruitee.com/api/offers/"},
+            StubClient(),
+            [{"name": "SecureCo GmbH", "subdomain": "secureco", "enabled": True}],
+        )
+        result = collector.collect(FIXTURES)
+        self.assertTrue(result.ok)
+        self.assertEqual(result.companies_successful, 1)
+        job = normalize_job(result.jobs[0])
+        self.assertEqual(job["ats"], "recruitee")
+        self.assertEqual(job["title"], "Application Security Engineer")
+        self.assertEqual(job["location"], "Berlin, Germany")
+        self.assertTrue(job["hybrid"])
+        self.assertIn("2 years", job["description"])
 
 
 if __name__ == "__main__":

@@ -2,8 +2,19 @@ name: Daily Cybersecurity Job Radar
 
 on:
   workflow_dispatch:
+    inputs:
+      employer_mode:
+        description: Employer watchlist mode
+        required: true
+        default: daily
+        type: choice
+        options:
+          - daily
+          - full
   schedule:
     - cron: "30 7 * * 1-5"
+      timezone: "Europe/Berlin"
+    - cron: "0 8 * * 0"
       timezone: "Europe/Berlin"
 
 permissions:
@@ -16,7 +27,7 @@ concurrency:
 jobs:
   collect-score-report:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 30
 
     steps:
       - name: Check out repository
@@ -34,14 +45,21 @@ jobs:
         run: python -m unittest discover -s tests -v
 
       - name: Collect and score jobs
-        run: python -m src.main
+        shell: bash
+        run: |
+          mode="${{ inputs.employer_mode || 'daily' }}"
+          if [ "${{ github.event.schedule }}" = "0 8 * * 0" ]; then
+            mode="full"
+          fi
+          echo "Employer scan mode: $mode"
+          python -m src.main --employer-mode "$mode"
 
       - name: Commit updated radar data
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/jobs.json data/seen_jobs.json data/job_history.json data/source_health.json data/weekly_analytics.json reports/latest.md reports/latest.json reports/chatgpt_handoff.json reports/weekly.md reports/archive/
+          git add data/jobs.json data/seen_jobs.json data/job_history.json data/source_health.json data/company_health.json data/applications.json data/weekly_analytics.json reports/latest.md reports/latest.json reports/chatgpt_handoff.json reports/weekly.md reports/company_health.md reports/application_tracker.csv reports/archive/
           if git diff --cached --quiet; then
             echo "No radar changes to commit."
           else

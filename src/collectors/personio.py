@@ -73,6 +73,7 @@ class PersonioCollector(BaseCollector):
     ) -> None:
         result.jobs.extend(jobs)
         result.companies_successful += 1
+        self._record_company_success(result, company, len(jobs))
 
     @staticmethod
     def _map_position(position: ET.Element, company: dict[str, Any]) -> dict[str, Any]:
@@ -128,8 +129,10 @@ class PersonioCollector(BaseCollector):
         }
 
     def _record_failure(self, result: CollectionResult, company: dict[str, Any], exc: Exception) -> None:
-        result.errors.append(self._error(str(company.get("name") or company.get("account")), exc))
+        error = self._error(str(company.get("name") or company.get("account")), exc)
+        result.errors.append(error)
         result.companies_failed += 1
+        self._record_company_failure(result, company, error)
 
     def _record_total_failure(
         self, result: CollectionResult, companies: list[dict[str, Any]], exc: Exception

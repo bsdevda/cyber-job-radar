@@ -1,0 +1,29 @@
+{
+  "subdomains": {
+    "secureco": {
+      "offers": [
+        {
+          "id": 5501,
+          "guid": "sec5501",
+          "slug": "application-security-engineer",
+          "status": "published",
+          "company_name": "SecureCo GmbH",
+          "title": "Application Security Engineer",
+          "location": "Berlin, Berlin, Germany",
+          "remote": false,
+          "hybrid": true,
+          "careers_url": "https://secureco.recruitee.com/o/application-security-engineer",
+          "careers_apply_url": "https://secureco.recruitee.com/o/application-security-engineer/c/new",
+          "published_at": "2026-08-14 09:30:00 UTC",
+          "description": "Assess web applications and APIs using OWASP and Burp Suite.",
+          "requirements": "At least 2 years of application security experience. English required; German is a plus.",
+          "department": "Security",
+          "category_code": "engineering",
+          "experience_code": "experienced",
+          "employment_type_code": "fulltime_permanent",
+          "salary": {"currency": "EUR", "min": 55000, "max": 70000, "period": "year"}
+        }
+      ]
+    }
+  }
+}

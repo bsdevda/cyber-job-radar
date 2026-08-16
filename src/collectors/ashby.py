@@ -76,6 +76,7 @@ class AshbyCollector(BaseCollector):
     def _record_success(
         self, result: CollectionResult, company: dict[str, Any], payload: dict[str, Any]
     ) -> None:
+        before = len(result.jobs)
         jobs = payload.get("jobs", [])
         if not isinstance(jobs, list):
             raise ValueError("Ashby response jobs must be a list")
@@ -83,6 +84,7 @@ class AshbyCollector(BaseCollector):
             if isinstance(raw, dict) and raw.get("isListed", True):
                 result.jobs.append(self._map_job(raw, company))
         result.companies_successful += 1
+        self._record_company_success(result, company, len(result.jobs) - before)
 
     @staticmethod
     def _map_job(raw: dict[str, Any], company: dict[str, Any]) -> dict[str, Any]:
@@ -119,8 +121,10 @@ class AshbyCollector(BaseCollector):
         }
 
     def _record_failure(self, result: CollectionResult, company: dict[str, Any], exc: Exception) -> None:
-        result.errors.append(self._error(str(company.get("name") or company.get("board")), exc))
+        error = self._error(str(company.get("name") or company.get("board")), exc)
+        result.errors.append(error)
         result.companies_failed += 1
+        self._record_company_failure(result, company, error)
 
     def _record_total_failure(
         self, result: CollectionResult, companies: list[dict[str, Any]], exc: Exception
