@@ -4,28 +4,29 @@
   "snapshots": [
     {
       "week_start": "2026-08-10",
-      "generated_at": "2026-08-16T21:45:22Z",
-      "active_relevant_jobs": 18,
+      "generated_at": "2026-08-16T22:20:22Z",
+      "active_relevant_jobs": 20,
       "role_family_counts": {
-        "Security Engineering": 8,
+        "Security Engineering": 9,
         "Product Security": 5,
         "Application Security": 2,
         "Cloud Security / DevSecOps": 2,
-        "IT Audit / GRC": 1
+        "IT Audit / GRC": 1,
+        "Penetration Testing / VAPT": 1
       },
       "score_bands": {
         "60-69 review": 12,
-        "50-59 stretch": 6
+        "50-59 stretch": 8
       },
       "skill_gaps": {
         "mandatory": [
           {
-            "skill": "go",
+            "skill": "aws",
             "jobs": 5
           },
           {
-            "skill": "aws",
-            "jobs": 4
+            "skill": "go",
+            "jobs": 5
           },
           {
             "skill": "git",
@@ -40,6 +41,10 @@
             "jobs": 3
           },
           {
+            "skill": "nist",
+            "jobs": 3
+          },
+          {
             "skill": "software development",
             "jobs": 3
           },
@@ -48,7 +53,7 @@
             "jobs": 3
           },
           {
-            "skill": "nist",
+            "skill": "edr",
             "jobs": 2
           },
           {
@@ -62,16 +67,12 @@
           {
             "skill": "cloud security",
             "jobs": 2
-          },
-          {
-            "skill": "kubernetes",
-            "jobs": 2
           }
         ],
         "potential": [
           {
             "skill": "rust",
-            "jobs": 9
+            "jobs": 10
           },
           {
             "skill": "bug bounty",
@@ -108,6 +109,10 @@
           {
             "skill": "edr",
             "jobs": 1
+          },
+          {
+            "skill": "dlp",
+            "jobs": 1
           }
         ],
         "optional": [
@@ -132,6 +137,10 @@
             "jobs": 1
           },
           {
+            "skill": "active directory",
+            "jobs": 1
+          },
+          {
             "skill": "incident response",
             "jobs": 1
           }
@@ -142,6 +151,10 @@
             "jobs": 9
           },
           {
+            "skill": "aws",
+            "jobs": 7
+          },
+          {
             "skill": "software development",
             "jobs": 7
           },
@@ -150,20 +163,16 @@
             "jobs": 6
           },
           {
-            "skill": "aws",
-            "jobs": 6
-          },
-          {
             "skill": "javascript",
             "jobs": 6
           },
           {
-            "skill": "product security",
+            "skill": "nist",
             "jobs": 5
           },
           {
-            "skill": "nist",
-            "jobs": 4
+            "skill": "product security",
+            "jobs": 5
           },
           {
             "skill": "ci/cd",
@@ -182,7 +191,7 @@
             "jobs": 2
           },
           {
-            "skill": "network security",
+            "skill": "splunk",
             "jobs": 2
           }
         ]

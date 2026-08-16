@@ -1,15 +1,51 @@
 {
   "schema_version": 1,
-  "generated_at": null,
+  "generated_at": "2026-08-16T22:20:22Z",
   "window": {
     "target_daily_runs": 14,
     "completed_daily_runs": 0,
-    "ready_for_tuning": false
+    "minimum_runs_before_tuning": 14,
+    "ready_for_tuning": false,
+    "period_start": "2026-08-16",
+    "period_end": "2026-08-16"
   },
-  "metrics": {},
+  "metrics": {
+    "relevant_job_observations": 0,
+    "new_relevant_jobs_found": 0,
+    "reviewed_jobs": 0,
+    "suitable_jobs_confirmed": 0,
+    "false_positives": 0,
+    "false_positive_rate_percent": 0.0,
+    "false_positive_rate_is_reliable": false,
+    "missed_suitable_jobs": 0,
+    "raw_jobs_collected": 0,
+    "duplicates_removed": 0,
+    "duplicate_rate_percent": 0.0,
+    "source_checks": 0,
+    "source_failures": 0,
+    "source_partials": 0,
+    "source_failure_rate_percent": 0.0,
+    "average_workflow_duration_seconds": null,
+    "workflow_duration_coverage_runs": 0,
+    "applications_submitted": 0,
+    "interviews_received": 0,
+    "application_cohort_interviews": 0,
+    "application_to_interview_rate_percent": 0.0
+  },
   "outcomes_by_score_band": {},
-  "score_calibration": {},
+  "score_calibration": {
+    "ready": false,
+    "usable_outcomes": 0,
+    "interviewed_outcomes": 0,
+    "negative_outcomes": 0,
+    "message": "Insufficient outcome evidence: 0/6 usable outcomes, including 0 interview(s) and 0 rejection/ghosting outcome(s). Do not change scoring weights yet.",
+    "component_deltas": {}
+  },
   "false_positive_jobs": [],
   "missed_jobs": [],
-  "recommendations": []
+  "recommendations": [
+    "Keep the current scoring weights unchanged until the required daily-run baseline is complete.",
+    "Mark suitable and false-positive radar jobs and log suitable vacancies found outside the radar during every run.",
+    "Maintain application and interview dates so outcome calibration becomes possible."
+  ]
 }

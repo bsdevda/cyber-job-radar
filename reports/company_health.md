@@ -1,19 +1,19 @@
 # Employer Watchlist Health
 
-**Generated:** 2026-08-16T21:45:22Z
-**Scan mode:** Daily
+**Generated:** 2026-08-16T22:20:22Z
+**Scan mode:** Full
 **Configured employers:** 200
-**Healthy after a completed check:** 80
-**Cooling down:** 0
+**Healthy after a completed check:** 193
+**Cooling down:** 7
 **Invalid identifiers:** 0
 
 ## Scan coverage
 
-- **Greenhouse:** 65/172 selected; 107 scheduled for another batch; 0 cooling down
-- **Ashby:** 8/13 selected; 5 scheduled for another batch; 0 cooling down
-- **Lever:** 3/6 selected; 3 scheduled for another batch; 0 cooling down
-- **Personio:** 4/7 selected; 3 scheduled for another batch; 0 cooling down
-- **Recruitee:** 0/2 selected; 2 scheduled for another batch; 0 cooling down
+- **Greenhouse:** 172/172 selected; 0 scheduled for another batch; 0 cooling down
+- **Ashby:** 13/13 selected; 0 scheduled for another batch; 0 cooling down
+- **Lever:** 6/6 selected; 0 scheduled for another batch; 0 cooling down
+- **Personio:** 7/7 selected; 0 scheduled for another batch; 0 cooling down
+- **Recruitee:** 2/2 selected; 0 scheduled for another batch; 0 cooling down
 
 ## Verified security hiring watch
 
@@ -34,4 +34,10 @@
 
 ## Suppressed or failing identifiers
 
-No configured employer is currently suppressed or failing.
+- **Airtable (greenhouse):** temporarily_failed; next retry 2026-08-17T22:20:22Z; Greenhouse | Airtable | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/airtable/jobs?content=true: The read operation timed out
+- **Anduril Industries (greenhouse):** temporarily_failed; next retry 2026-08-17T22:20:22Z; Greenhouse | Anduril Industries | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs?content=true: The read operation timed out
+- **Cribl (greenhouse):** temporarily_failed; next retry 2026-08-17T22:20:22Z; Greenhouse | Cribl | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/cribl/jobs?content=true: The read operation timed out
+- **Datadog (greenhouse):** temporarily_failed; next retry 2026-08-17T22:20:22Z; Greenhouse | Datadog | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true: The read operation timed out
+- **Epic Games (greenhouse):** temporarily_failed; next retry 2026-08-17T22:20:22Z; Greenhouse | Epic Games | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/epicgames/jobs?content=true: The read operation timed out
+- **Faire (greenhouse):** temporarily_failed; next retry 2026-08-17T22:20:22Z; Greenhouse | Faire | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/faire/jobs?content=true: The read operation timed out
+- **SoFi (greenhouse):** temporarily_failed; next retry 2026-08-17T22:20:22Z; Greenhouse | SoFi | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/sofi/jobs?content=true: The read operation timed out

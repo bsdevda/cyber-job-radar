@@ -1,558 +1,39 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-16T21:45:22Z",
+  "generated_at": "2026-08-16T22:20:22Z",
   "summary": {
-    "generated_at": "2026-08-16T21:45:22Z",
+    "generated_at": "2026-08-16T22:20:22Z",
     "scoring_version": 2.1,
-    "jobs_collected": 6203,
-    "security_title_candidates": 211,
-    "prefiltered_non_security_jobs": 5992,
-    "unique_jobs_after_deduplication": 150,
-    "duplicates_removed": 61,
-    "jobs_rejected_or_below_threshold": 6124,
-    "relevant_jobs_in_current_run": 18,
-    "new_jobs": 3,
-    "updated_jobs": 1,
+    "jobs_collected": 20102,
+    "security_title_candidates": 640,
+    "prefiltered_non_security_jobs": 19462,
+    "unique_jobs_after_deduplication": 517,
+    "duplicates_removed": 123,
+    "jobs_rejected_or_below_threshold": 19959,
+    "relevant_jobs_in_current_run": 20,
+    "new_jobs": 0,
+    "updated_jobs": 0,
     "strong_matches": 0,
     "sources_checked": 7,
     "sources_failed": 0,
-    "sources_partial": 0,
-    "report_jobs": 18,
+    "sources_partial": 1,
+    "report_jobs": 20,
     "jobs_by_source": {
       "arbeitnow": 875,
       "remotive": 14,
-      "greenhouse": 4802,
-      "ashby": 229,
-      "lever": 114,
-      "personio": 169,
-      "recruitee": 0
-    }
+      "greenhouse": 17430,
+      "ashby": 460,
+      "lever": 1113,
+      "personio": 201,
+      "recruitee": 9
+    },
+    "employer_mode": "full",
+    "quality_review_schema_version": 1,
+    "workflow_duration_seconds": 52.8
   },
   "jobs": [
     {
       "report_number": 1,
-      "job_key": "ba170f4eb78d3dff47c8",
-      "status": "NEW",
-      "application_status": "NEW",
-      "score": 69,
-      "raw_score": 81,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "Senior title is above the profile's current 2+ years",
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "score_label": "REVIEW",
-      "title": "Senior Product Security Engineer",
-      "company": "N26",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_germany",
-        "eligible": true,
-        "score": 15,
-        "reason": "Germany/Berlin eligibility detected",
-        "verification_required": false,
-        "score_cap": null
-      },
-      "working_model": "On-site / not specified",
-      "role_family": {
-        "id": "product_security",
-        "label": "Product Security",
-        "priority": 1,
-        "confidence": "high",
-        "evidence": [
-          "product security",
-          "product security",
-          "security design review",
-          "threat model"
-        ]
-      },
-      "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
-      },
-      "url": "https://n26.com/en-eu/careers/positions/8110812?gh_jid=8110812",
-      "apply_url": "https://n26.com/en-eu/careers/positions/8110812?gh_jid=8110812",
-      "canonical_url": "https://n26.com/en-eu/careers/positions/8110812?gh_jid=8110812",
-      "source": "Greenhouse",
-      "sources": [
-        "Greenhouse"
-      ],
-      "ats": "greenhouse",
-      "priority_employer": true,
-      "published_at": "2026-08-07T13:16:23Z",
-      "posting_age_days": 9,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 9,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
-      },
-      "urgency": "OPEN FOR REVIEW",
-      "first_seen": "2026-08-16T21:45:22Z",
-      "experience_required": null,
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "application security",
-          "mobile security",
-          "owasp",
-          "penetration testing",
-          "python",
-          "secure sdlc",
-          "security testing",
-          "threat modeling",
-          "web security"
-        ],
-        "partial": [
-          "incident response",
-          "product security",
-          "software development"
-        ],
-        "missing": [
-          "go"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Expertise in software engineering with one or more general-purpose programming languages (e.g., Python, Go, or similar)."
-        },
-        {
-          "skill": "software development",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Expertise in software engineering with one or more general-purpose programming languages (e.g., Python, Go, or similar)."
-        }
-      ],
-      "potential_gaps": [],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 20,
-        "skills": 19,
-        "experience": 10,
-        "location": 15,
-        "language": 10,
-        "seniority": 4,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Product Security.",
-        "The role is based in Berlin/Germany or explicitly accepts Germany.",
-        "Evidenced matches include application security, mobile security, owasp, penetration testing, python."
-      ],
-      "warnings": [
-        "Mandatory gaps: go, software development",
-        "Exposure only; do not claim deep expertise: incident response, product security, software development",
-        "Senior title is above the profile's current 2+ years",
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "About the opportunity We are seeking a Senior Product Security Engineer to drive the product security strategy and empower our engineering teams to design and build secure software across our diverse product portfolio. This role involves leading the integration of advanced security practices into cutting-edge technologies - such as Generative AI (GenAI), Large Language Models (LLM), and data governance systems - while also ensuring the security of our microservice architecture and mobile application. You will be independently responsible for delivering robust security for every feature and service we provide to our customers. The Product Security team is part of N26’s Security Engineering Segment. In this role, you will serve as a key mentor and contributor, actively promoting N26’s security standards by integrating security practices throughout the product lifecycle. You will provide guidance and support to other engineers, sharing your expertise and helping to elevate the overall security posture of our products. As we embrace emerging technologies like GenAI and LLMs, this role will independently lead efforts to safeguard sensitive data, align with data governance principles, a…"
-    },
-    {
-      "report_number": 2,
-      "job_key": "61f504a1b399ea41dd23",
-      "status": "NEW",
-      "application_status": "NEW",
-      "score": 62,
-      "raw_score": 62,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "Senior title is above the profile's current 2+ years",
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "score_label": "REVIEW",
-      "title": "Senior Cloud Security Engineer (m,f,x)",
-      "company": "HelloFresh",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_germany",
-        "eligible": true,
-        "score": 15,
-        "reason": "Germany/Berlin eligibility detected",
-        "verification_required": false,
-        "score_cap": null
-      },
-      "working_model": "Hybrid",
-      "role_family": {
-        "id": "cloud_devsecops",
-        "label": "Cloud Security / DevSecOps",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "cloud security",
-          "cloud security",
-          "devsecops"
-        ]
-      },
-      "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
-      },
-      "url": "https://careers.hellofresh.com/global/en/job/8095941?gh_jid=8095941",
-      "apply_url": "https://careers.hellofresh.com/global/en/job/8095941?gh_jid=8095941",
-      "canonical_url": "https://careers.hellofresh.com/global/en/job/8095941?gh_jid=8095941",
-      "source": "Greenhouse",
-      "sources": [
-        "Greenhouse"
-      ],
-      "ats": "greenhouse",
-      "priority_employer": true,
-      "published_at": "2026-08-12T08:23:56Z",
-      "posting_age_days": 4,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 4,
-        "category": "recent",
-        "label": "RECENT"
-      },
-      "urgency": "RECENT",
-      "first_seen": "2026-08-16T21:45:22Z",
-      "experience_required": null,
-      "german_requirement": "German requested; level/strictness unclear",
-      "skill_matches": {
-        "match": [],
-        "partial": [
-          "ci/cd",
-          "cloud security",
-          "devsecops",
-          "network security"
-        ],
-        "missing": [
-          "infrastructure as code",
-          "kubernetes"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "network security",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Knowledge of security engineering, computer and network security, security protocols, and applied cryptography"
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "infrastructure as code",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Understanding of modern cloud technology components and deployment patterns: CI/CD, virtual machines, containers, Kubernetes, serverless, infrastructure as code, etc"
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Understanding of modern cloud technology components and deployment patterns: CI/CD, virtual machines, containers, Kubernetes, serverless, infrastructure as code, etc"
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 10,
-        "experience": 10,
-        "location": 15,
-        "language": 4,
-        "seniority": 4,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Cloud Security / DevSecOps.",
-        "The role is based in Berlin/Germany or explicitly accepts Germany."
-      ],
-      "warnings": [
-        "German requested; level/strictness unclear",
-        "Mandatory gaps: network security",
-        "Potential gaps: infrastructure as code, kubernetes",
-        "Exposure only; do not claim deep expertise: ci/cd, cloud security, devsecops, network security",
-        "Senior title is above the profile's current 2+ years",
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "The role HelloFresh is the world leader in meal-kits and one of Germany's biggest and fastest growing publicly traded companies. Join the Hellofresh security team to help to maintain the highest security standards within the industry. In this role you will join the Cloud Security Team, which is responsible for providing infrastructure security solutions at scale through automation. Above all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you. What you’ll do Enhance the security posture of HelloFresh’s cloud infrastructure and services, hardening them against abuse and nefarious activities Secure containers, CI/CD pipelines and implement guardrails for the developers aligned with the DevSecOps principles Automate procedures and develop products to improve the Security posture of HelloFresh’s infrastructure Design and operate scalable processes to provision cloud access and maintain least-privilege Mentor and train your peers on the best practices in security…"
-    },
-    {
-      "report_number": 3,
-      "job_key": "1f74892653c6467e49ca",
-      "status": "NEW",
-      "application_status": "NEW",
-      "score": 59,
-      "raw_score": 74,
-      "score_cap": 59,
-      "score_cap_reasons": [
-        "Multiple explicitly mandatory skills are not evidenced"
-      ],
-      "score_label": "STRETCH",
-      "title": "Senior Cloud Security Engineer",
-      "company": "N26",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_germany",
-        "eligible": true,
-        "score": 15,
-        "reason": "Germany/Berlin eligibility detected",
-        "verification_required": false,
-        "score_cap": null
-      },
-      "working_model": "On-site / not specified",
-      "role_family": {
-        "id": "cloud_devsecops",
-        "label": "Cloud Security / DevSecOps",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "cloud security",
-          "cloud security"
-        ]
-      },
-      "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
-      },
-      "url": "https://n26.com/en-eu/careers/positions/8076441?gh_jid=8076441",
-      "apply_url": "https://n26.com/en-eu/careers/positions/8076441?gh_jid=8076441",
-      "canonical_url": "https://n26.com/en-eu/careers/positions/8076441?gh_jid=8076441",
-      "source": "Greenhouse",
-      "sources": [
-        "Greenhouse"
-      ],
-      "ats": "greenhouse",
-      "priority_employer": true,
-      "published_at": "2026-08-05T09:59:35Z",
-      "posting_age_days": 11,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 11,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
-      },
-      "urgency": "OPEN FOR REVIEW",
-      "first_seen": "2026-08-16T21:45:22Z",
-      "experience_required": null,
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "owasp",
-          "penetration testing",
-          "python",
-          "security automation",
-          "security testing",
-          "threat modeling"
-        ],
-        "partial": [
-          "aws",
-          "ci/cd",
-          "cloud security",
-          "incident response"
-        ],
-        "missing": [
-          "bash",
-          "go",
-          "infrastructure as code",
-          "kubernetes",
-          "terraform"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Cloud Security: Competent understanding and experience of securing at minimum AWS cloud infrastructure environments, CI/CD pipelines, containerized environment and Linux systems."
-        },
-        {
-          "skill": "bash",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Scripting Skills: Proficiency in Python, Bash, or GO for scripting and automation."
-        },
-        {
-          "skill": "ci/cd",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Cloud Security: Competent understanding and experience of securing at minimum AWS cloud infrastructure environments, CI/CD pipelines, containerized environment and Linux systems."
-        },
-        {
-          "skill": "cloud security",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Cloud Security: Competent understanding and experience of securing at minimum AWS cloud infrastructure environments, CI/CD pipelines, containerized environment and Linux systems."
-        },
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Scripting Skills: Proficiency in Python, Bash, or GO for scripting and automation."
-        },
-        {
-          "skill": "infrastructure as code",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Cloud Deployment: Hands-on Experience with modern cloud technology components and deployment patterns: virtual machines, containers, Kubernetes, serverless, infrastructure as code, etc."
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Cloud Deployment: Hands-on Experience with modern cloud technology components and deployment patterns: virtual machines, containers, Kubernetes, serverless, infrastructure as code, etc."
-        },
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Automation Pro: Proficiency in using CI/CD pipelines (e.g., Terraform) for implementing automated security testing and change management."
-        }
-      ],
-      "potential_gaps": [],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 14,
-        "experience": 10,
-        "location": 15,
-        "language": 10,
-        "seniority": 4,
-        "education": 5
-      },
-      "match_reasons": [
-        "Role family: Cloud Security / DevSecOps.",
-        "The role is based in Berlin/Germany or explicitly accepts Germany.",
-        "Evidenced matches include owasp, penetration testing, python, security automation, security testing."
-      ],
-      "warnings": [
-        "Mandatory gaps: aws, bash, ci/cd, cloud security, go, infrastructure as code",
-        "Exposure only; do not claim deep expertise: aws, ci/cd, cloud security, incident response",
-        "Multiple explicitly mandatory skills are not evidenced"
-      ],
-      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "About the opportunity Are you passionate about cybersecurity and eager to make a real impact in a dynamic environment? Look no further! We are on the lookout for a Senior Cloud Security Engineer who is ready to take the lead in proactively identifying and mitigating security threats and safeguarding our sensitive data. Join forces with our Platform and Data teams and be at the forefront of safeguarding our customer and our organisation. At N26, our Infrastructure Security team is on a mission to detect and remediate IT and cloud infrastructure security threats. We're dedicated to providing efficient and effective services that empower our N26 tech teams to thrive. Once here you will Drive the Cloud Infrastructure Security function roadmap in alignment with the Product Manager, Tech Lead, and Engineering Manager. Own, define and drive initiatives, solutions, processes and frameworks to proactively identify and mitigate security threats within our AWS infrastructure which leads to an overall improvement of our security maturity. Design, deploy and maintain state-of-the-art cloud-native security solutions, incorporating end-to-end data protection, advanced threat detection, automated…"
-    },
-    {
-      "report_number": 4,
-      "job_key": "5afeef04575b90f06129",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 59,
-      "raw_score": 76,
-      "score_cap": 59,
-      "score_cap_reasons": [
-        "Remote role, but Germany/Europe eligibility is not explicit"
-      ],
-      "score_label": "STRETCH",
-      "title": "Security Advocate | AI AppSec",
-      "company": "Escape",
-      "location": "Remote",
-      "location_analysis": {
-        "category": "remote_region_unclear",
-        "eligible": true,
-        "score": 6,
-        "reason": "Remote role, but Germany/Europe eligibility is not explicit",
-        "verification_required": true,
-        "score_cap": 59
-      },
-      "working_model": "Remote",
-      "role_family": {
-        "id": "application_security",
-        "label": "Application Security",
-        "priority": 1,
-        "confidence": "high",
-        "evidence": [
-          "appsec",
-          "dast"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://www.arbeitnow.com/jobs/companies/escape/remote-security-advocate-ai-appsec-150685",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/escape/remote-security-advocate-ai-appsec-150685",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/escape/remote-security-advocate-ai-appsec-150685",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "published_at": "2026-08-14T23:40:13Z",
-      "posting_age_days": 1,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 1,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-08-15T04:18:44Z",
-      "experience_required": null,
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "api security",
-          "application security",
-          "dast",
-          "penetration testing"
-        ],
-        "partial": [
-          "cloud security",
-          "devsecops",
-          "git"
-        ],
-        "missing": [
-          "rust"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "git",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "They start with an interesting vulnerability, a technical demo, a GitHub project, a conference talk, a strong opinion or a very good security meme."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Through talks, live demos, content creation, and customer engagement, you’ll be the voice of Escape’s security expertise and a trusted partner for our users."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 20,
-        "skills": 17,
-        "experience": 10,
-        "location": 6,
-        "language": 10,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Application Security.",
-        "Remote role, but Germany/Europe eligibility is not explicit.",
-        "Evidenced matches include api security, application security, dast, penetration testing."
-      ],
-      "warnings": [
-        "Remote role, but Germany/Europe eligibility is not explicit",
-        "Mandatory gaps: git",
-        "Potential gaps: rust",
-        "Exposure only; do not claim deep expertise: cloud security, devsecops, git"
-      ],
-      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "About Escape Escape secures the code-to-cloud attack surface that covers DAST, ASM and AI Pentesting. Our platform continuously maps and tests every asset exposed to the internet, including undocumented APIs and endpoints, with automated AI penetration testing and DAST running at the pace of modern development teams. With a team of 45+ people based across Paris, Amsterdam, Hawaii, Boston, and New York, Escape is Series A funded and rapidly growing. We are building a world-class team to help organizations protect what matters most. The Role As a Security Advocate at Escape, you will bridge the gap between our security technology and the engineering community. You will champion security best practices, promote our platform, and empower developers, security teams, and customers to take proactive approaches to security. Our users and customers are deeply technical: Security Engineers, AppSec teams, developers, security researchers and CISOs. We’re looking for someone who can speak their language and become one of the technical voices of Escape in the security community. Your mission: demystify complex security issues, contribute to our product’s visibility, and build lasting relations…"
-    },
-    {
-      "report_number": 5,
       "job_key": "c1ab5b22feaa0afc7ed6",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -693,7 +174,7 @@
       "description_excerpt": "About Vercel: Vercel is the agentic infrastructure company. We free people and agents to ship what’s next. For more than a decade, Vercel has shaped how the web is built. As the team behind Next.js, v0, and AI SDK, we create products that help builders move from idea to production with speed, security, and exceptional developer experience. Now, software is entering a new era, and the next generation of products will not just be used by people. They will be built, extended, and operated by agents. We are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. Whether you’re building our products, supporting our customers, growing our community, or shaping our story, you’ll help define what comes next. About the Role: Traditional product security teams work one report at a time: a person triages a bug bounty submission, validates it, reproduces it, and hands it off for a fix. That doesn't scale past a certain volume, and Vercel is well past it. Adding more triagers doesn't close that gap. Building the systems that triage at that scale does. This role is about building that system. Your core focus is toolin…"
     },
     {
-      "report_number": 6,
+      "report_number": 2,
       "job_key": "8284e91e3afc1425ab11",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -822,7 +303,7 @@
       "description_excerpt": "About Vercel: Vercel is the agentic infrastructure company. We free people and agents to ship what’s next. For more than a decade, Vercel has shaped how the web is built. As the team behind Next.js, v0, and AI SDK, we create products that help builders move from idea to production with speed, security, and exceptional developer experience. Now, software is entering a new era, and the next generation of products will not just be used by people. They will be built, extended, and operated by agents. We are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. Whether you’re building our products, supporting our customers, growing our community, or shaping our story, you’ll help define what comes next. About the role Vercel builds and maintains a broad portfolio of open source projects that power the modern web, running in millions of applications. Your primary focus will be Turborepo, Nuxt, Svelte/SvelteKit, SWR, Workflow, and Nitro. A single structural fix at the framework level protects every one of those applications at once, which makes this one of the highest-leverage security roles at the company. W…"
     },
     {
-      "report_number": 7,
+      "report_number": 3,
       "job_key": "9e8e071b253d6d6eb5ba",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -952,7 +433,131 @@
       "description_excerpt": "About Vercel: Vercel is the agentic infrastructure company. We free people and agents to ship what’s next. For more than a decade, Vercel has shaped how the web is built. As the team behind Next.js, v0, and AI SDK, we create products that help builders move from idea to production with speed, security, and exceptional developer experience. Now, software is entering a new era, and the next generation of products will not just be used by people. They will be built, extended, and operated by agents. We are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. Whether you’re building our products, supporting our customers, growing our community, or shaping our story, you’ll help define what comes next. About the role v0 turns natural language into working, deployed applications. An agent writes code, executes it, and ships it on a user's behalf. That makes v0 one of the most interesting and highest-stakes security surfaces at Vercel: sandboxed code execution, multi-tenant isolation, permission boundaries between what a user asked for and what the agent actually did, and resistance to prompt injection and t…"
     },
     {
-      "report_number": 8,
+      "report_number": 4,
+      "job_key": "ba170f4eb78d3dff47c8",
+      "status": "SEEN_BEFORE",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 81,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "Senior title is above the profile's current 2+ years",
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "score_label": "REVIEW",
+      "title": "Senior Product Security Engineer",
+      "company": "N26",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_germany",
+        "eligible": true,
+        "score": 15,
+        "reason": "Germany/Berlin eligibility detected",
+        "verification_required": false,
+        "score_cap": null
+      },
+      "working_model": "On-site / not specified",
+      "role_family": {
+        "id": "product_security",
+        "label": "Product Security",
+        "priority": 1,
+        "confidence": "high",
+        "evidence": [
+          "product security",
+          "product security",
+          "security design review",
+          "threat model"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://n26.com/en-eu/careers/positions/8110812?gh_jid=8110812",
+      "apply_url": "https://n26.com/en-eu/careers/positions/8110812?gh_jid=8110812",
+      "canonical_url": "https://n26.com/en-eu/careers/positions/8110812?gh_jid=8110812",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "ats": "greenhouse",
+      "priority_employer": true,
+      "published_at": "2026-08-07T13:16:23Z",
+      "posting_age_days": 9,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 9,
+        "category": "current",
+        "label": "OPEN FOR REVIEW"
+      },
+      "urgency": "OPEN FOR REVIEW",
+      "first_seen": "2026-08-16T21:45:22Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "application security",
+          "mobile security",
+          "owasp",
+          "penetration testing",
+          "python",
+          "secure sdlc",
+          "security testing",
+          "threat modeling",
+          "web security"
+        ],
+        "partial": [
+          "incident response",
+          "product security",
+          "software development"
+        ],
+        "missing": [
+          "go"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Expertise in software engineering with one or more general-purpose programming languages (e.g., Python, Go, or similar)."
+        },
+        {
+          "skill": "software development",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Expertise in software engineering with one or more general-purpose programming languages (e.g., Python, Go, or similar)."
+        }
+      ],
+      "potential_gaps": [],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 20,
+        "skills": 19,
+        "experience": 10,
+        "location": 15,
+        "language": 10,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Product Security.",
+        "The role is based in Berlin/Germany or explicitly accepts Germany.",
+        "Evidenced matches include application security, mobile security, owasp, penetration testing, python."
+      ],
+      "warnings": [
+        "Mandatory gaps: go, software development",
+        "Exposure only; do not claim deep expertise: incident response, product security, software development",
+        "Senior title is above the profile's current 2+ years",
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "About the opportunity We are seeking a Senior Product Security Engineer to drive the product security strategy and empower our engineering teams to design and build secure software across our diverse product portfolio. This role involves leading the integration of advanced security practices into cutting-edge technologies - such as Generative AI (GenAI), Large Language Models (LLM), and data governance systems - while also ensuring the security of our microservice architecture and mobile application. You will be independently responsible for delivering robust security for every feature and service we provide to our customers. The Product Security team is part of N26’s Security Engineering Segment. In this role, you will serve as a key mentor and contributor, actively promoting N26’s security standards by integrating security practices throughout the product lifecycle. You will provide guidance and support to other engineers, sharing your expertise and helping to elevate the overall security posture of our products. As we embrace emerging technologies like GenAI and LLMs, this role will independently lead efforts to safeguard sensitive data, align with data governance principles, a…"
+    },
+    {
+      "report_number": 5,
       "job_key": "521c71dc83dfa3787db3",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1096,7 +701,7 @@
       "description_excerpt": "About Staffbase We inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees. Headquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience. We are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication. At Staffbase, security is at the heart of everything we build. Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company. We believe the best security work happens when people bring their authentic selves and diverse perspectives to the table and we’…"
     },
     {
-      "report_number": 9,
+      "report_number": 6,
       "job_key": "86705e70d7803af16172",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1245,7 +850,7 @@
       "description_excerpt": "To learn the Hiring Ranges for this position, please select your location from the Apply Now dropdown menu. To learn more about our Hiring Range System, please click this link. Why Mozilla? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. The Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. About this team and role: At Mozilla, we believe…"
     },
     {
-      "report_number": 10,
+      "report_number": 7,
       "job_key": "56eecec8066af79a0fb0",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1349,7 +954,7 @@
       "description_excerpt": "Join us as a Senior Vehicle Security Engineer (all genders) and help safeguard the future of autonomous mobility at MOIA! At MOIA, vehicle security is a cornerstone of trust in autonomous mobility. As a Senior Vehicle Security Engineer you’ll be part of a dedicated team that ensures our autonomous mobility platform is secure, resilient, and compliant with mobility industry standards. You’ll work across the full product lifecycle of our fully autonomous vehicles like the ID.Buzz AD—from concept to deployment and operations—designing and implementing cybersecurity strategies that protect our users, vehicles, and infrastructure. We’re looking for someone who thrives in cross-functional environments, understands the nuances of embedded systems and distributed architectures, and can translate complex threat models into actionable engineering requirements. What you will do Define cybersecurity concepts and system boundaries for autonomous mobility features, considering real-world operating environments. Conduct threat analysis and risk assessments (TARA) in alignment with ISO/SAE 21434, identifying vulnerabilities and evaluating attack feasibility. Translate TARA outcomes into security…"
     },
     {
-      "report_number": 11,
+      "report_number": 8,
       "job_key": "9ba7cf301be480a6ff9f",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1473,7 +1078,7 @@
       "description_excerpt": "THE OPPORTUNITY Join our Global IT Infrastructure team and take ownership of security operations that protect NavVis worldwide. You’ll lead detection and incident response across corporate IT and SaaS environments, working hand-in-hand with Service Delivery, Cloud Infrastructure Engineering, and our Cloud Infrastructure Engineer. This is an hands-on role where you’ll make real impact—investigating threats, driving improvements, and shaping security processes. No ticket forwarding, no passive coordination—just meaningful responsibility and the chance to build a security posture you can be proud of. If you thrive on solving complex problems, love staying ahead of emerging threats, and want to safeguard technology that powers the future of spatial intelligence, we want to hear from you! HOW YOU WILL MAKE AN IMPACT Lead security incident response and drive continuous improvements. Own Microsoft Defender, email security, and phishing protection. Strengthen network security with IT Ops: firewalls, VPNs, segmentation. Manage vulnerability scanning, remediation, and risk reporting. Govern access reviews and enforce least privileges. Run ISO 27001 & SOC 2 audits and coordinate via Vanta. S…"
     },
     {
-      "report_number": 12,
+      "report_number": 9,
       "job_key": "caa220d352ded536fb49",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1579,7 +1184,7 @@
       "description_excerpt": "Why Mozilla? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. The Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. About this team and role: addons.mozilla.org (AMO) is the foundation of the Firefox add-ons ecosystem. It’s a showcase for developers to publish and grow their extensions, and a place of discovery for millions of users who cus…"
     },
     {
-      "report_number": 13,
+      "report_number": 10,
       "job_key": "029b986949e1ae352ed4",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1701,7 +1306,7 @@
       "description_excerpt": "About ClickHouse Recognized on the 2025 Forbes Cloud 100 list, ClickHouse is one of the most innovative and fast-growing private cloud companies. With more than 4,000 customers and ARR that has grown over 250 percent year over year, ClickHouse leads the market in real-time analytics, data warehousing, observability, and AI workloads. The company’s sustained, accelerating momentum was recently validated by a $400M Series D financing round. Over the past three months, customers including Capital One, Lovable, Decagon, Polymarket, and Airwallex have adopted the platform or expanded existing deployments. These customers join an established base of AI innovators and global brands such as Meta, Cursor, Sony, and Tesla. We’re on a mission to transform how companies use data. Come be a part of our journey! As ClickHouse moves further into financial services, healthcare, telco, and the public sector across EMEA, more of our deals now turn on a specific set of questions: where the data lives, who can reach it, how it's encrypted, and what the auditor needs to see. We're looking for a Security Specialist to own those conversations, a specialist overlay within our EMEA Solutions Architecture…"
     },
     {
-      "report_number": 14,
+      "report_number": 11,
       "job_key": "b420e12f1f07d8e20c57",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1809,7 +1414,130 @@
       "description_excerpt": "Why Mozilla? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. The Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. What you’ll do: Advance Firefox's security architecture and cryptography stack: Contribute to improvements in Firefox's core security systems, with a focus on cryptographic protocols, WebPKI, and security-sensitive web APIs. H…"
     },
     {
-      "report_number": 15,
+      "report_number": 12,
+      "job_key": "61f504a1b399ea41dd23",
+      "status": "SEEN_BEFORE",
+      "application_status": "NEW",
+      "score": 62,
+      "raw_score": 62,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "Senior title is above the profile's current 2+ years",
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "score_label": "REVIEW",
+      "title": "Senior Cloud Security Engineer (m,f,x)",
+      "company": "HelloFresh",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_germany",
+        "eligible": true,
+        "score": 15,
+        "reason": "Germany/Berlin eligibility detected",
+        "verification_required": false,
+        "score_cap": null
+      },
+      "working_model": "Hybrid",
+      "role_family": {
+        "id": "cloud_devsecops",
+        "label": "Cloud Security / DevSecOps",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "cloud security",
+          "cloud security",
+          "devsecops"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://careers.hellofresh.com/global/en/job/8095941?gh_jid=8095941",
+      "apply_url": "https://careers.hellofresh.com/global/en/job/8095941?gh_jid=8095941",
+      "canonical_url": "https://careers.hellofresh.com/global/en/job/8095941?gh_jid=8095941",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "ats": "greenhouse",
+      "priority_employer": true,
+      "published_at": "2026-08-12T08:23:56Z",
+      "posting_age_days": 4,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 4,
+        "category": "recent",
+        "label": "RECENT"
+      },
+      "urgency": "RECENT",
+      "first_seen": "2026-08-16T21:45:22Z",
+      "experience_required": null,
+      "german_requirement": "German requested; level/strictness unclear",
+      "skill_matches": {
+        "match": [],
+        "partial": [
+          "ci/cd",
+          "cloud security",
+          "devsecops",
+          "network security"
+        ],
+        "missing": [
+          "infrastructure as code",
+          "kubernetes"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "network security",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Knowledge of security engineering, computer and network security, security protocols, and applied cryptography"
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "infrastructure as code",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Understanding of modern cloud technology components and deployment patterns: CI/CD, virtual machines, containers, Kubernetes, serverless, infrastructure as code, etc"
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Understanding of modern cloud technology components and deployment patterns: CI/CD, virtual machines, containers, Kubernetes, serverless, infrastructure as code, etc"
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 10,
+        "experience": 10,
+        "location": 15,
+        "language": 4,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Cloud Security / DevSecOps.",
+        "The role is based in Berlin/Germany or explicitly accepts Germany."
+      ],
+      "warnings": [
+        "German requested; level/strictness unclear",
+        "Mandatory gaps: network security",
+        "Potential gaps: infrastructure as code, kubernetes",
+        "Exposure only; do not claim deep expertise: ci/cd, cloud security, devsecops, network security",
+        "Senior title is above the profile's current 2+ years",
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "The role HelloFresh is the world leader in meal-kits and one of Germany's biggest and fastest growing publicly traded companies. Join the Hellofresh security team to help to maintain the highest security standards within the industry. In this role you will join the Cloud Security Team, which is responsible for providing infrastructure security solutions at scale through automation. Above all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you. What you’ll do Enhance the security posture of HelloFresh’s cloud infrastructure and services, hardening them against abuse and nefarious activities Secure containers, CI/CD pipelines and implement guardrails for the developers aligned with the DevSecOps principles Automate procedures and develop products to improve the Security posture of HelloFresh’s infrastructure Design and operate scalable processes to provision cloud access and maintain least-privilege Mentor and train your peers on the best practices in security…"
+    },
+    {
+      "report_number": 13,
       "job_key": "59039a1f42a8c045cc25",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1989,7 +1717,7 @@
       "description_excerpt": "About Vercel: Vercel is the agentic infrastructure company. We free people and agents to ship what’s next. For more than a decade, Vercel has shaped how the web is built. As the team behind Next.js, v0, and AI SDK, we create products that help builders move from idea to production with speed, security, and exceptional developer experience. Now, software is entering a new era, and the next generation of products will not just be used by people. They will be built, extended, and operated by agents. We are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. Whether you’re building our products, supporting our customers, growing our community, or shaping our story, you’ll help define what comes next. About the Role: We are looking for a Security Engineer to join our Detection Response team. In this role, you will be responsible for managing Vercel’s internal Corporate Security (CorpSec) posture, monitoring for security anomalies, building additional detections and visibility mechanisms, and ensuring the overall security of our internal systems. You will work closely with various teams to support audits,…"
     },
     {
-      "report_number": 16,
+      "report_number": 14,
       "job_key": "f24ae651382ec38ce5f1",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -2160,7 +1888,7 @@
       "description_excerpt": "Think like an attacker. Build like a defender. As a security engineer for platform security at Gallup, you'll protect the cloud and infrastructure that power our global business while helping Gallup stay ahead of an ever-changing threat landscape. In this role, you'll strengthen security by design, assist with incident response support and partner across engineering teams to build resilient platforms that enable innovation. You'll have the autonomy to shape how Gallup builds, strengthens and continuously improves platform security. What You’ll Do Advise infrastructure and engineering teams on secure design for cloud platforms, enterprise infrastructure and endpoint environments Design, implement and continuously improve security controls across Gallup's cloud and infrastructure environments Conduct cloud security posture management (CSPM) reviews and infrastructure vulnerability assessments across network, system and cloud environments Administer, optimize and tune Splunk SIEM and endpoint detection and response (EDR) platforms to improve visibility, detection and response capabilities Embed security controls, metrics and best practices early in infrastructure initiatives through…"
     },
     {
-      "report_number": 17,
+      "report_number": 15,
       "job_key": "adf40ac5904cb1b075ac",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -2347,7 +2075,403 @@
       "description_excerpt": "Qdrant is an open-source vector search engine powering the next generation of AI applications, from semantic search and retrieval-augmented generation (RAG) to AI agents and real-time recommendations. Trusted by global leaders like Canva, HubSpot, Tripadvisor, Bosch, and Deutsche Telekom, we’re building the retrieval infrastructure layer for modern AI. Recently raising $50M in Series B funding, we are growing rapidly and committed to transforming how AI understands and interacts with data. As a remote-first company, we believe diverse backgrounds, perspectives, and experiences fuel innovation. Here, you’ll own meaningful work, tackle challenges, and grow alongside passionate individuals dedicated to shaping the future of AI. We are looking for a Mid-Level Security Engineer to own the hands-on engineering and operational work within our security program. You will be embedded in the Cloud Engineering team, report into the Security Officer, and work closely together to identify risks, set priorities, and drive security issues through remediation. You will act as a security enabler across all Product & Engineering. WHAT YOU WILL OWN - Run our public bug bounty program: triage reports,…"
     },
     {
+      "report_number": 16,
+      "job_key": "1f74892653c6467e49ca",
+      "status": "SEEN_BEFORE",
+      "application_status": "NEW",
+      "score": 59,
+      "raw_score": 74,
+      "score_cap": 59,
+      "score_cap_reasons": [
+        "Multiple explicitly mandatory skills are not evidenced"
+      ],
+      "score_label": "STRETCH",
+      "title": "Senior Cloud Security Engineer",
+      "company": "N26",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_germany",
+        "eligible": true,
+        "score": 15,
+        "reason": "Germany/Berlin eligibility detected",
+        "verification_required": false,
+        "score_cap": null
+      },
+      "working_model": "On-site / not specified",
+      "role_family": {
+        "id": "cloud_devsecops",
+        "label": "Cloud Security / DevSecOps",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "cloud security",
+          "cloud security"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://n26.com/en-eu/careers/positions/8076441?gh_jid=8076441",
+      "apply_url": "https://n26.com/en-eu/careers/positions/8076441?gh_jid=8076441",
+      "canonical_url": "https://n26.com/en-eu/careers/positions/8076441?gh_jid=8076441",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "ats": "greenhouse",
+      "priority_employer": true,
+      "published_at": "2026-08-05T09:59:35Z",
+      "posting_age_days": 11,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 11,
+        "category": "current",
+        "label": "OPEN FOR REVIEW"
+      },
+      "urgency": "OPEN FOR REVIEW",
+      "first_seen": "2026-08-16T21:45:22Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "owasp",
+          "penetration testing",
+          "python",
+          "security automation",
+          "security testing",
+          "threat modeling"
+        ],
+        "partial": [
+          "aws",
+          "ci/cd",
+          "cloud security",
+          "incident response"
+        ],
+        "missing": [
+          "bash",
+          "go",
+          "infrastructure as code",
+          "kubernetes",
+          "terraform"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Cloud Security: Competent understanding and experience of securing at minimum AWS cloud infrastructure environments, CI/CD pipelines, containerized environment and Linux systems."
+        },
+        {
+          "skill": "bash",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Scripting Skills: Proficiency in Python, Bash, or GO for scripting and automation."
+        },
+        {
+          "skill": "ci/cd",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Cloud Security: Competent understanding and experience of securing at minimum AWS cloud infrastructure environments, CI/CD pipelines, containerized environment and Linux systems."
+        },
+        {
+          "skill": "cloud security",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Cloud Security: Competent understanding and experience of securing at minimum AWS cloud infrastructure environments, CI/CD pipelines, containerized environment and Linux systems."
+        },
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Scripting Skills: Proficiency in Python, Bash, or GO for scripting and automation."
+        },
+        {
+          "skill": "infrastructure as code",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Cloud Deployment: Hands-on Experience with modern cloud technology components and deployment patterns: virtual machines, containers, Kubernetes, serverless, infrastructure as code, etc."
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Cloud Deployment: Hands-on Experience with modern cloud technology components and deployment patterns: virtual machines, containers, Kubernetes, serverless, infrastructure as code, etc."
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Automation Pro: Proficiency in using CI/CD pipelines (e.g., Terraform) for implementing automated security testing and change management."
+        }
+      ],
+      "potential_gaps": [],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 14,
+        "experience": 10,
+        "location": 15,
+        "language": 10,
+        "seniority": 4,
+        "education": 5
+      },
+      "match_reasons": [
+        "Role family: Cloud Security / DevSecOps.",
+        "The role is based in Berlin/Germany or explicitly accepts Germany.",
+        "Evidenced matches include owasp, penetration testing, python, security automation, security testing."
+      ],
+      "warnings": [
+        "Mandatory gaps: aws, bash, ci/cd, cloud security, go, infrastructure as code",
+        "Exposure only; do not claim deep expertise: aws, ci/cd, cloud security, incident response",
+        "Multiple explicitly mandatory skills are not evidenced"
+      ],
+      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
+      "description_excerpt": "About the opportunity Are you passionate about cybersecurity and eager to make a real impact in a dynamic environment? Look no further! We are on the lookout for a Senior Cloud Security Engineer who is ready to take the lead in proactively identifying and mitigating security threats and safeguarding our sensitive data. Join forces with our Platform and Data teams and be at the forefront of safeguarding our customer and our organisation. At N26, our Infrastructure Security team is on a mission to detect and remediate IT and cloud infrastructure security threats. We're dedicated to providing efficient and effective services that empower our N26 tech teams to thrive. Once here you will Drive the Cloud Infrastructure Security function roadmap in alignment with the Product Manager, Tech Lead, and Engineering Manager. Own, define and drive initiatives, solutions, processes and frameworks to proactively identify and mitigate security threats within our AWS infrastructure which leads to an overall improvement of our security maturity. Design, deploy and maintain state-of-the-art cloud-native security solutions, incorporating end-to-end data protection, advanced threat detection, automated…"
+    },
+    {
+      "report_number": 17,
+      "job_key": "5afeef04575b90f06129",
+      "status": "SEEN_BEFORE",
+      "application_status": "NEW",
+      "score": 59,
+      "raw_score": 76,
+      "score_cap": 59,
+      "score_cap_reasons": [
+        "Remote role, but Germany/Europe eligibility is not explicit"
+      ],
+      "score_label": "STRETCH",
+      "title": "Security Advocate | AI AppSec",
+      "company": "Escape",
+      "location": "Remote",
+      "location_analysis": {
+        "category": "remote_region_unclear",
+        "eligible": true,
+        "score": 6,
+        "reason": "Remote role, but Germany/Europe eligibility is not explicit",
+        "verification_required": true,
+        "score_cap": 59
+      },
+      "working_model": "Remote",
+      "role_family": {
+        "id": "application_security",
+        "label": "Application Security",
+        "priority": 1,
+        "confidence": "high",
+        "evidence": [
+          "appsec",
+          "dast"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://www.arbeitnow.com/jobs/companies/escape/remote-security-advocate-ai-appsec-150685",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/escape/remote-security-advocate-ai-appsec-150685",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/escape/remote-security-advocate-ai-appsec-150685",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "published_at": "2026-08-14T23:40:13Z",
+      "posting_age_days": 1,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 1,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "api security",
+          "application security",
+          "dast",
+          "penetration testing"
+        ],
+        "partial": [
+          "cloud security",
+          "devsecops",
+          "git"
+        ],
+        "missing": [
+          "rust"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "git",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "They start with an interesting vulnerability, a technical demo, a GitHub project, a conference talk, a strong opinion or a very good security meme."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Through talks, live demos, content creation, and customer engagement, you’ll be the voice of Escape’s security expertise and a trusted partner for our users."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 20,
+        "skills": 17,
+        "experience": 10,
+        "location": 6,
+        "language": 10,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Application Security.",
+        "Remote role, but Germany/Europe eligibility is not explicit.",
+        "Evidenced matches include api security, application security, dast, penetration testing."
+      ],
+      "warnings": [
+        "Remote role, but Germany/Europe eligibility is not explicit",
+        "Mandatory gaps: git",
+        "Potential gaps: rust",
+        "Exposure only; do not claim deep expertise: cloud security, devsecops, git"
+      ],
+      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
+      "description_excerpt": "About Escape Escape secures the code-to-cloud attack surface that covers DAST, ASM and AI Pentesting. Our platform continuously maps and tests every asset exposed to the internet, including undocumented APIs and endpoints, with automated AI penetration testing and DAST running at the pace of modern development teams. With a team of 45+ people based across Paris, Amsterdam, Hawaii, Boston, and New York, Escape is Series A funded and rapidly growing. We are building a world-class team to help organizations protect what matters most. The Role As a Security Advocate at Escape, you will bridge the gap between our security technology and the engineering community. You will champion security best practices, promote our platform, and empower developers, security teams, and customers to take proactive approaches to security. Our users and customers are deeply technical: Security Engineers, AppSec teams, developers, security researchers and CISOs. We’re looking for someone who can speak their language and become one of the technical voices of Escape in the security community. Your mission: demystify complex security issues, contribute to our product’s visibility, and build lasting relations…"
+    },
+    {
       "report_number": 18,
+      "job_key": "c67151850142311e2df0",
+      "status": "SEEN_BEFORE",
+      "application_status": "NEW",
+      "score": 59,
+      "raw_score": 69,
+      "score_cap": 59,
+      "score_cap_reasons": [
+        "Remote role, but Germany/Europe eligibility is not explicit",
+        "Mandatory experience requirement is 5+ years"
+      ],
+      "score_label": "STRETCH",
+      "title": "Senior Web Application Penetration Tester",
+      "company": "SIXGEN",
+      "location": "Remote",
+      "location_analysis": {
+        "category": "remote_region_unclear",
+        "eligible": true,
+        "score": 6,
+        "reason": "Remote role, but Germany/Europe eligibility is not explicit",
+        "verification_required": true,
+        "score_cap": 59
+      },
+      "working_model": "Remote",
+      "role_family": {
+        "id": "penetration_testing",
+        "label": "Penetration Testing / VAPT",
+        "priority": 1,
+        "confidence": "high",
+        "evidence": [
+          "penetration tester",
+          "penetration test",
+          "offensive security"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://job-boards.greenhouse.io/sixgeninc/jobs/4005800008",
+      "apply_url": "https://job-boards.greenhouse.io/sixgeninc/jobs/4005800008",
+      "canonical_url": "https://job-boards.greenhouse.io/sixgeninc/jobs/4005800008",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "ats": "greenhouse",
+      "priority_employer": false,
+      "published_at": "2026-08-03T14:37:50Z",
+      "posting_age_days": 13,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 13,
+        "category": "current",
+        "label": "OPEN FOR REVIEW"
+      },
+      "urgency": "OPEN FOR REVIEW",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": "5+ years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "application security",
+          "penetration testing",
+          "security testing",
+          "stakeholder communication",
+          "vulnerability assessment",
+          "web security"
+        ],
+        "partial": [
+          "nist"
+        ],
+        "missing": [],
+        "nice_to_have": [
+          "active directory (missing)"
+        ]
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Familiarity with NIST 800-series standards and cybersecurity best practices."
+        }
+      ],
+      "potential_gaps": [],
+      "optional_gaps": [
+        {
+          "skill": "active directory",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Experience with Active Directory security assessments."
+        }
+      ],
+      "score_breakdown": {
+        "role_alignment": 20,
+        "skills": 22,
+        "experience": 4,
+        "location": 6,
+        "language": 10,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Penetration Testing / VAPT.",
+        "Remote role, but Germany/Europe eligibility is not explicit.",
+        "Evidenced matches include application security, penetration testing, security testing, stakeholder communication, vulnerability assessment."
+      ],
+      "warnings": [
+        "Remote role, but Germany/Europe eligibility is not explicit",
+        "Requests 5+ years versus approximately 2.1 years in the profile.",
+        "Mandatory gaps: nist",
+        "Optional gaps: active directory",
+        "Exposure only; do not claim deep expertise: nist",
+        "Mandatory experience requirement is 5+ years"
+      ],
+      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
+      "description_excerpt": "SIXGEN’s mission is to deliver agile, mission-ready cybersecurity solutions that empower government and critical infrastructure organizations to stay ahead of advanced cyber threats. We combine innovation, deep expertise, and cutting-edge capabilities to uncover vulnerabilities, protect vital systems, and ensure operational superiority in an ever-evolving digital landscape. POSITION OVERVIEW Position: Senior Web Application Penetration Tester Job Type: Full-time Location: Remote Clearance Requirements: Must be able to obtain a Secret Clearance Travel Requirements: Up to 10% Experience: 5+ years WHAT YOU'LL DO We are seeking a skilled and motivated Senior Web Application Penetration Tester to join our growing cyber operations team. The ideal candidate will possess deep expertise in web application security testing, vulnerability research, and exploitation techniques, with the ability to identify complex attack paths and develop creative solutions to challenging security problems. This role goes far beyond automated scanning. Successful candidates will conduct in-depth assessments of web applications, APIs, mobile applications, and supporting infrastructure while leveraging custom t…"
+    },
+    {
+      "report_number": 19,
       "job_key": "4b12159b141a28bc94e7",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -2469,6 +2593,150 @@
       ],
       "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
       "description_excerpt": "Mission Strengthen and scale application security practices across KNIME, ensuring that products used by thousands of data professionals and Fortune 500 companies meet enterprise-grade security standards. Role Overview As Application Security Engineer, you will be the driving force behind security awareness, enablement, and engineering across KNIME's software development organization. You'll embed security by design into the SDLC, manage supply chain and vulnerability risks, and collaborate closely with engineers, architects, DevSecOps, and IT/ISMS teams to continuously raise the security bar. Responsibilities Raise awareness of software security across KNIME, especially within the software development organization Organize and lead internal trainings and workshops on security topics such as OWASP Top Ten Partner with software architects and engineering teams to embed security best practices early in the SDLC Track usage of third-party libraries through SBOM technologies, validate security issues, and ensure timely remediation Improve automated tooling and processes for enhancing security posture together with the DevSecOps team and engineering leaders Conduct periodic internal pe…"
+    },
+    {
+      "report_number": 20,
+      "job_key": "7c3f2329b14b8ef79fa2",
+      "status": "SEEN_BEFORE",
+      "application_status": "NEW",
+      "score": 56,
+      "raw_score": 56,
+      "score_cap": 59,
+      "score_cap_reasons": [
+        "Remote role, but Germany/Europe eligibility is not explicit",
+        "Multiple explicitly mandatory skills are not evidenced"
+      ],
+      "score_label": "STRETCH",
+      "title": "Sr. Security Engineer - Enterprise Security",
+      "company": "Samsara",
+      "location": "Remote - CA",
+      "location_analysis": {
+        "category": "remote_region_unclear",
+        "eligible": true,
+        "score": 6,
+        "reason": "Remote role, but Germany/Europe eligibility is not explicit",
+        "verification_required": true,
+        "score_cap": 59
+      },
+      "working_model": "Remote",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer",
+          "security engineering"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "sr"
+      },
+      "url": "https://www.samsara.com/company/careers/roles/7752492?gh_jid=7752492",
+      "apply_url": "https://www.samsara.com/company/careers/roles/7752492?gh_jid=7752492",
+      "canonical_url": "https://www.samsara.com/company/careers/roles/7752492?gh_jid=7752492",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "ats": "greenhouse",
+      "priority_employer": false,
+      "published_at": "2026-08-14T13:12:47Z",
+      "posting_age_days": 2,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 2,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-08-16T16:00:04Z",
+      "experience_required": "4+ years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "python"
+        ],
+        "partial": [
+          "aws",
+          "splunk"
+        ],
+        "missing": [
+          "dlp",
+          "edr",
+          "infrastructure as code",
+          "rust",
+          "terraform"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Hands-on experience with automation tools (e.g., Tines, AWS Lambda) and common security platforms (e.g., Crowdstrike, Zscaler, Wiz)."
+        },
+        {
+          "skill": "edr",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Hands-on experience with automation tools (e.g., Tines, AWS Lambda) and common security platforms (e.g., Crowdstrike, Zscaler, Wiz)."
+        },
+        {
+          "skill": "infrastructure as code",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Experience with infrastructure as code deployments using Terraform"
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Experience with infrastructure as code deployments using Terraform"
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "dlp",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Experience driving efforts around zero trust, least privilege, just-in-time access management, identity lifecycle management, and data loss prevention."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Experience driving efforts around zero trust, least privilege, just-in-time access management, identity lifecycle management, and data loss prevention."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 9,
+        "experience": 8,
+        "location": 6,
+        "language": 10,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "Remote role, but Germany/Europe eligibility is not explicit.",
+        "Evidenced matches include python."
+      ],
+      "warnings": [
+        "Remote role, but Germany/Europe eligibility is not explicit",
+        "Requests 4+ years versus approximately 2.1 years in the profile.",
+        "Mandatory gaps: aws, edr, infrastructure as code, terraform",
+        "Potential gaps: dlp, rust",
+        "Exposure only; do not claim deep expertise: aws, splunk",
+        "Multiple explicitly mandatory skills are not evidenced"
+      ],
+      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
+      "description_excerpt": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale. Working at Samsara means you’ll help define the future of physical operations and be on a team that’s shaping an exciting array of product solutions, including Video-Based Safety, Vehicle Telematics, Apps and Driver Workflows, and Equipment Monitoring. As part of a recently public company, you’ll have the autonomy and support to make an impact as we build for the long term. About the role: The Senior Security Engineer I - Enterprise Security is responsible for building, operating, and maintaining Samsara’s core security infrastructu…"
     }
   ],
   "source_status": {
@@ -2489,281 +2757,231 @@
       "error": ""
     },
     "greenhouse": {
-      "status": "ok",
+      "status": "partial",
       "ok": true,
-      "jobs": 4802,
-      "requests": 65,
-      "errors": [],
-      "error": "",
-      "companies_checked": 65,
-      "companies_successful": 65,
-      "companies_failed": 0
+      "jobs": 17430,
+      "requests": 172,
+      "errors": [
+        {
+          "source": "greenhouse",
+          "company": "Airtable",
+          "http_status": null,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/airtable/jobs?content=true: The read operation timed out",
+          "message": "Greenhouse | Airtable | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/airtable/jobs?content=true: The read operation timed out"
+        },
+        {
+          "source": "greenhouse",
+          "company": "Anduril Industries",
+          "http_status": null,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs?content=true: The read operation timed out",
+          "message": "Greenhouse | Anduril Industries | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs?content=true: The read operation timed out"
+        },
+        {
+          "source": "greenhouse",
+          "company": "Cribl",
+          "http_status": null,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/cribl/jobs?content=true: The read operation timed out",
+          "message": "Greenhouse | Cribl | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/cribl/jobs?content=true: The read operation timed out"
+        },
+        {
+          "source": "greenhouse",
+          "company": "Datadog",
+          "http_status": null,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true: The read operation timed out",
+          "message": "Greenhouse | Datadog | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true: The read operation timed out"
+        },
+        {
+          "source": "greenhouse",
+          "company": "Epic Games",
+          "http_status": null,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/epicgames/jobs?content=true: The read operation timed out",
+          "message": "Greenhouse | Epic Games | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/epicgames/jobs?content=true: The read operation timed out"
+        },
+        {
+          "source": "greenhouse",
+          "company": "Faire",
+          "http_status": null,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/faire/jobs?content=true: The read operation timed out",
+          "message": "Greenhouse | Faire | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/faire/jobs?content=true: The read operation timed out"
+        },
+        {
+          "source": "greenhouse",
+          "company": "SoFi",
+          "http_status": null,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/sofi/jobs?content=true: The read operation timed out",
+          "message": "Greenhouse | SoFi | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/sofi/jobs?content=true: The read operation timed out"
+        }
+      ],
+      "error": "Greenhouse | Airtable | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/airtable/jobs?content=true: The read operation timed out",
+      "companies_checked": 172,
+      "companies_successful": 165,
+      "companies_failed": 7
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 229,
-      "requests": 8,
+      "jobs": 460,
+      "requests": 13,
       "errors": [],
       "error": "",
-      "companies_checked": 8,
-      "companies_successful": 8,
+      "companies_checked": 13,
+      "companies_successful": 13,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 114,
-      "requests": 3,
+      "jobs": 1113,
+      "requests": 6,
       "errors": [],
       "error": "",
-      "companies_checked": 3,
-      "companies_successful": 3,
+      "companies_checked": 6,
+      "companies_successful": 6,
       "companies_failed": 0
     },
     "personio": {
       "status": "ok",
       "ok": true,
-      "jobs": 169,
-      "requests": 4,
+      "jobs": 201,
+      "requests": 7,
       "errors": [],
       "error": "",
-      "companies_checked": 4,
-      "companies_successful": 4,
+      "companies_checked": 7,
+      "companies_successful": 7,
       "companies_failed": 0
     },
     "recruitee": {
-      "status": "idle",
+      "status": "ok",
       "ok": true,
-      "jobs": 0,
-      "requests": 0,
+      "jobs": 9,
+      "requests": 2,
       "errors": [],
       "error": "",
-      "companies_checked": 0,
-      "companies_successful": 0,
+      "companies_checked": 2,
+      "companies_successful": 2,
       "companies_failed": 0
     }
   },
   "all_sources_failed": false,
   "employer_scan": {
-    "mode": "daily",
-    "generated_at": "2026-08-16T21:45:22Z",
+    "mode": "full",
+    "generated_at": "2026-08-16T22:20:22Z",
     "sources": {
       "greenhouse": {
         "source": "greenhouse",
-        "mode": "daily",
-        "batch_index": 1,
+        "mode": "full",
+        "batch_index": null,
         "configured_enabled": 172,
         "priority_configured": 34,
-        "selected": 65,
-        "skipped_by_rotation": 107,
+        "selected": 172,
+        "skipped_by_rotation": 0,
         "skipped_by_cooldown": 0,
-        "rotation_skip_keys": [
-          "greenhouse:abnormalsecurity",
-          "greenhouse:adahealth",
-          "greenhouse:affirm",
-          "greenhouse:airbnb",
-          "greenhouse:algolia",
-          "greenhouse:amplitude",
-          "greenhouse:andurilindustries",
-          "greenhouse:anthropic",
-          "greenhouse:bitpanda",
-          "greenhouse:block",
-          "greenhouse:brex",
-          "greenhouse:bridgebio",
-          "greenhouse:bugcrowd",
-          "greenhouse:calm",
-          "greenhouse:carta",
-          "greenhouse:chainguard",
-          "greenhouse:charterup",
-          "greenhouse:checkr",
-          "greenhouse:chime",
-          "greenhouse:coinbase",
-          "greenhouse:coursera",
-          "greenhouse:cribl",
-          "greenhouse:datadog",
-          "greenhouse:dialpad",
-          "greenhouse:discord",
-          "greenhouse:dropbox",
-          "greenhouse:elastic",
-          "greenhouse:faire",
-          "greenhouse:fastly",
-          "greenhouse:figma",
-          "greenhouse:fireblocks",
-          "greenhouse:fivetran",
-          "greenhouse:flatironhealth",
-          "greenhouse:flexport",
-          "greenhouse:freenow",
-          "greenhouse:gemini",
-          "greenhouse:gitlab",
-          "greenhouse:gleanwork",
-          "greenhouse:grafanalabs",
-          "greenhouse:guardsquare",
-          "greenhouse:honeycomb",
-          "greenhouse:huntress",
-          "greenhouse:instacart",
-          "greenhouse:instawork",
-          "greenhouse:intercom",
-          "greenhouse:isaraerospace",
-          "greenhouse:jetbrains",
-          "greenhouse:justworks",
-          "greenhouse:khanacademy",
-          "greenhouse:knowbe4",
-          "greenhouse:launchdarkly",
-          "greenhouse:locusrobotics",
-          "greenhouse:lookoutinc",
-          "greenhouse:lucidsoftware",
-          "greenhouse:lyft",
-          "greenhouse:magicleap",
-          "greenhouse:mavenclinic",
-          "greenhouse:melio",
-          "greenhouse:mercari",
-          "greenhouse:mixpanel",
-          "greenhouse:mongodb",
-          "greenhouse:newrelic",
-          "greenhouse:nuro",
-          "greenhouse:okta",
-          "greenhouse:orcasecurity",
-          "greenhouse:oscar",
-          "greenhouse:pagerduty",
-          "greenhouse:pandadoc",
-          "greenhouse:peloton",
-          "greenhouse:pinterest",
-          "greenhouse:poshmark",
-          "greenhouse:precisionmedicinegroup",
-          "greenhouse:pulley",
-          "greenhouse:raisin",
-          "greenhouse:recursionpharmaceuticals",
-          "greenhouse:reddit",
-          "greenhouse:remotecom",
-          "greenhouse:robinhood",
-          "greenhouse:roblox",
-          "greenhouse:salesloft",
-          "greenhouse:samsara",
-          "greenhouse:scaleai",
-          "greenhouse:scopely",
-          "greenhouse:scoutai",
-          "greenhouse:seatgeek",
-          "greenhouse:singlestore",
-          "greenhouse:sixgeninc",
-          "greenhouse:spacex",
-          "greenhouse:squarespace",
-          "greenhouse:stabilityai",
-          "greenhouse:stockx",
-          "greenhouse:stripe",
-          "greenhouse:sumologic",
-          "greenhouse:tailscale",
-          "greenhouse:tanium",
-          "greenhouse:thirdbridge",
-          "greenhouse:twilio",
-          "greenhouse:twitch",
-          "greenhouse:upstart",
-          "greenhouse:veeamsoftware",
-          "greenhouse:verkada",
-          "greenhouse:waymo",
-          "greenhouse:webflow",
-          "greenhouse:wizinc",
-          "greenhouse:xai",
-          "greenhouse:yugabyte",
-          "greenhouse:zetaglobal"
-        ],
+        "rotation_skip_keys": [],
         "cooldown_skip_keys": []
       },
       "ashby": {
         "source": "ashby",
-        "mode": "daily",
-        "batch_index": 1,
+        "mode": "full",
+        "batch_index": null,
         "configured_enabled": 13,
         "priority_configured": 8,
-        "selected": 8,
-        "skipped_by_rotation": 5,
+        "selected": 13,
+        "skipped_by_rotation": 0,
         "skipped_by_cooldown": 0,
-        "rotation_skip_keys": [
-          "ashby:choco",
-          "ashby:enpal",
-          "ashby:langdock",
-          "ashby:leapsome",
-          "ashby:n8n"
-        ],
+        "rotation_skip_keys": [],
         "cooldown_skip_keys": []
       },
       "lever": {
         "source": "lever",
-        "mode": "daily",
-        "batch_index": 1,
+        "mode": "full",
+        "batch_index": null,
         "configured_enabled": 6,
         "priority_configured": 2,
-        "selected": 3,
-        "skipped_by_rotation": 3,
+        "selected": 6,
+        "skipped_by_rotation": 0,
         "skipped_by_cooldown": 0,
-        "rotation_skip_keys": [
-          "lever:olx",
-          "lever:saviynt",
-          "lever:veeva"
-        ],
+        "rotation_skip_keys": [],
         "cooldown_skip_keys": []
       },
       "personio": {
         "source": "personio",
-        "mode": "daily",
-        "batch_index": 1,
+        "mode": "full",
+        "batch_index": null,
         "configured_enabled": 7,
         "priority_configured": 3,
-        "selected": 4,
-        "skipped_by_rotation": 3,
+        "selected": 7,
+        "skipped_by_rotation": 0,
         "skipped_by_cooldown": 0,
-        "rotation_skip_keys": [
-          "personio:dnsnet",
-          "personio:liveeo-gmbh",
-          "personio:perseus"
-        ],
+        "rotation_skip_keys": [],
         "cooldown_skip_keys": []
       },
       "recruitee": {
         "source": "recruitee",
-        "mode": "daily",
-        "batch_index": 1,
+        "mode": "full",
+        "batch_index": null,
         "configured_enabled": 2,
         "priority_configured": 0,
-        "selected": 0,
-        "skipped_by_rotation": 2,
+        "selected": 2,
+        "skipped_by_rotation": 0,
         "skipped_by_cooldown": 0,
-        "rotation_skip_keys": [
-          "recruitee:cygridgmbh",
-          "recruitee:dransay"
-        ],
+        "rotation_skip_keys": [],
         "cooldown_skip_keys": []
       }
     }
   },
   "rejection_summary": {
-    "The vacancy is restricted to a country/region outside the Germany or Europe-remote target": 72,
-    "Excluded seniority in title: Staff/Principal": 31,
-    "Advanced/fluent German required": 24,
-    "Excluded seniority in title: Management": 18,
-    "On-site location is outside Germany or cannot be confirmed as Germany": 11,
-    "Mandatory experience is too senior: 8+ years": 11,
-    "Hybrid role without a confirmed Germany location": 10,
-    "Mandatory experience is too senior: 10+ years": 9,
-    "Excluded seniority in title: Executive": 7,
-    "Excluded seniority in title: Lead/Architect": 5,
-    "Student/internship-only employment type": 3,
+    "The vacancy is restricted to a country/region outside the Germany or Europe-remote target": 383,
+    "Excluded seniority in title: Management": 84,
+    "Excluded seniority in title: Staff/Principal": 81,
+    "Mandatory experience is too senior: 8+ years": 57,
+    "On-site location is outside Germany or cannot be confirmed as Germany": 45,
+    "Mandatory experience is too senior: 10+ years": 31,
+    "Excluded seniority in title: Lead/Architect": 30,
+    "Advanced/fluent German required": 27,
+    "Excluded seniority in title: Executive": 24,
+    "Hybrid role without a confirmed Germany location": 20,
+    "Mandatory experience is too senior: 15+ years": 7,
+    "Student/internship-only employment type": 4,
     "Posting is too old: 199 days (maximum 120)": 3,
-    "Mandatory experience is too senior: 15+ years": 3,
+    "Mandatory experience is too senior: 12+ years": 3,
     "Excluded seniority/employment type in title: werkstudent": 2,
+    "Excluded seniority/employment type in title: working student": 2,
     "Posting is too old: 131 days (maximum 120)": 2,
     "Excluded seniority/employment type in title: chief information security officer": 2,
+    "Mandatory experience is too senior: 9+ years": 2,
     "Posting is too old: 325 days (maximum 120)": 2,
-    "Excluded seniority/employment type in title: working student": 1,
     "Excluded seniority/employment type in title: security intern": 1,
     "German C1 required": 1,
+    "Insufficient cybersecurity relevance": 1,
+    "Posting is too old: 332 days (maximum 120)": 1,
+    "Mandatory experience is too senior: 8-11 years": 1,
     "Mandatory experience is too senior: 8-10 years": 1,
     "Posting is too old: 186 days (maximum 120)": 1,
+    "Posting is too old: 122 days (maximum 120)": 1,
+    "Posting is too old: 149 days (maximum 120)": 1,
+    "Mandatory experience is too senior: 8-12 years": 1,
+    "Mandatory experience is too senior: 10-15 years": 1,
+    "Posting is too old: 165 days (maximum 120)": 1,
+    "Posting is too old: 157 days (maximum 120)": 1,
+    "Mandatory experience is too senior: 14+ years": 1,
+    "Posting is too old: 158 days (maximum 120)": 1,
+    "Posting is too old: 126 days (maximum 120)": 1,
+    "Posting is too old: 192 days (maximum 120)": 1,
+    "Posting is too old: 1320 days (maximum 120)": 1,
     "Posting is too old: 278 days (maximum 120)": 1,
     "Posting is too old: 459 days (maximum 120)": 1,
     "Posting is too old: 531 days (maximum 120)": 1,
     "Posting is too old: 695 days (maximum 120)": 1,
     "Posting is too old: 446 days (maximum 120)": 1,
-    "Posting is too old: 447 days (maximum 120)": 1
+    "Posting is too old: 447 days (maximum 120)": 1,
+    "Posting is too old: 268 days (maximum 120)": 1,
+    "Posting is too old: 153 days (maximum 120)": 1
   }
 }

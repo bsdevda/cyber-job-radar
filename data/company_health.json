@@ -1,201 +1,76 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T21:45:22Z",
+  "generated_at": "2026-08-16T22:20:22Z",
   "scan": {
-    "mode": "daily",
-    "generated_at": "2026-08-16T21:45:22Z",
+    "mode": "full",
+    "generated_at": "2026-08-16T22:20:22Z",
     "sources": {
       "greenhouse": {
         "source": "greenhouse",
-        "mode": "daily",
-        "batch_index": 1,
+        "mode": "full",
+        "batch_index": null,
         "configured_enabled": 172,
         "priority_configured": 34,
-        "selected": 65,
-        "skipped_by_rotation": 107,
+        "selected": 172,
+        "skipped_by_rotation": 0,
         "skipped_by_cooldown": 0,
-        "rotation_skip_keys": [
-          "greenhouse:abnormalsecurity",
-          "greenhouse:adahealth",
-          "greenhouse:affirm",
-          "greenhouse:airbnb",
-          "greenhouse:algolia",
-          "greenhouse:amplitude",
-          "greenhouse:andurilindustries",
-          "greenhouse:anthropic",
-          "greenhouse:bitpanda",
-          "greenhouse:block",
-          "greenhouse:brex",
-          "greenhouse:bridgebio",
-          "greenhouse:bugcrowd",
-          "greenhouse:calm",
-          "greenhouse:carta",
-          "greenhouse:chainguard",
-          "greenhouse:charterup",
-          "greenhouse:checkr",
-          "greenhouse:chime",
-          "greenhouse:coinbase",
-          "greenhouse:coursera",
-          "greenhouse:cribl",
-          "greenhouse:datadog",
-          "greenhouse:dialpad",
-          "greenhouse:discord",
-          "greenhouse:dropbox",
-          "greenhouse:elastic",
-          "greenhouse:faire",
-          "greenhouse:fastly",
-          "greenhouse:figma",
-          "greenhouse:fireblocks",
-          "greenhouse:fivetran",
-          "greenhouse:flatironhealth",
-          "greenhouse:flexport",
-          "greenhouse:freenow",
-          "greenhouse:gemini",
-          "greenhouse:gitlab",
-          "greenhouse:gleanwork",
-          "greenhouse:grafanalabs",
-          "greenhouse:guardsquare",
-          "greenhouse:honeycomb",
-          "greenhouse:huntress",
-          "greenhouse:instacart",
-          "greenhouse:instawork",
-          "greenhouse:intercom",
-          "greenhouse:isaraerospace",
-          "greenhouse:jetbrains",
-          "greenhouse:justworks",
-          "greenhouse:khanacademy",
-          "greenhouse:knowbe4",
-          "greenhouse:launchdarkly",
-          "greenhouse:locusrobotics",
-          "greenhouse:lookoutinc",
-          "greenhouse:lucidsoftware",
-          "greenhouse:lyft",
-          "greenhouse:magicleap",
-          "greenhouse:mavenclinic",
-          "greenhouse:melio",
-          "greenhouse:mercari",
-          "greenhouse:mixpanel",
-          "greenhouse:mongodb",
-          "greenhouse:newrelic",
-          "greenhouse:nuro",
-          "greenhouse:okta",
-          "greenhouse:orcasecurity",
-          "greenhouse:oscar",
-          "greenhouse:pagerduty",
-          "greenhouse:pandadoc",
-          "greenhouse:peloton",
-          "greenhouse:pinterest",
-          "greenhouse:poshmark",
-          "greenhouse:precisionmedicinegroup",
-          "greenhouse:pulley",
-          "greenhouse:raisin",
-          "greenhouse:recursionpharmaceuticals",
-          "greenhouse:reddit",
-          "greenhouse:remotecom",
-          "greenhouse:robinhood",
-          "greenhouse:roblox",
-          "greenhouse:salesloft",
-          "greenhouse:samsara",
-          "greenhouse:scaleai",
-          "greenhouse:scopely",
-          "greenhouse:scoutai",
-          "greenhouse:seatgeek",
-          "greenhouse:singlestore",
-          "greenhouse:sixgeninc",
-          "greenhouse:spacex",
-          "greenhouse:squarespace",
-          "greenhouse:stabilityai",
-          "greenhouse:stockx",
-          "greenhouse:stripe",
-          "greenhouse:sumologic",
-          "greenhouse:tailscale",
-          "greenhouse:tanium",
-          "greenhouse:thirdbridge",
-          "greenhouse:twilio",
-          "greenhouse:twitch",
-          "greenhouse:upstart",
-          "greenhouse:veeamsoftware",
-          "greenhouse:verkada",
-          "greenhouse:waymo",
-          "greenhouse:webflow",
-          "greenhouse:wizinc",
-          "greenhouse:xai",
-          "greenhouse:yugabyte",
-          "greenhouse:zetaglobal"
-        ],
+        "rotation_skip_keys": [],
         "cooldown_skip_keys": []
       },
       "ashby": {
         "source": "ashby",
-        "mode": "daily",
-        "batch_index": 1,
+        "mode": "full",
+        "batch_index": null,
         "configured_enabled": 13,
         "priority_configured": 8,
-        "selected": 8,
-        "skipped_by_rotation": 5,
+        "selected": 13,
+        "skipped_by_rotation": 0,
         "skipped_by_cooldown": 0,
-        "rotation_skip_keys": [
-          "ashby:choco",
-          "ashby:enpal",
-          "ashby:langdock",
-          "ashby:leapsome",
-          "ashby:n8n"
-        ],
+        "rotation_skip_keys": [],
         "cooldown_skip_keys": []
       },
       "lever": {
         "source": "lever",
-        "mode": "daily",
-        "batch_index": 1,
+        "mode": "full",
+        "batch_index": null,
         "configured_enabled": 6,
         "priority_configured": 2,
-        "selected": 3,
-        "skipped_by_rotation": 3,
+        "selected": 6,
+        "skipped_by_rotation": 0,
         "skipped_by_cooldown": 0,
-        "rotation_skip_keys": [
-          "lever:olx",
-          "lever:saviynt",
-          "lever:veeva"
-        ],
+        "rotation_skip_keys": [],
         "cooldown_skip_keys": []
       },
       "personio": {
         "source": "personio",
-        "mode": "daily",
-        "batch_index": 1,
+        "mode": "full",
+        "batch_index": null,
         "configured_enabled": 7,
         "priority_configured": 3,
-        "selected": 4,
-        "skipped_by_rotation": 3,
+        "selected": 7,
+        "skipped_by_rotation": 0,
         "skipped_by_cooldown": 0,
-        "rotation_skip_keys": [
-          "personio:dnsnet",
-          "personio:liveeo-gmbh",
-          "personio:perseus"
-        ],
+        "rotation_skip_keys": [],
         "cooldown_skip_keys": []
       },
       "recruitee": {
         "source": "recruitee",
-        "mode": "daily",
-        "batch_index": 1,
+        "mode": "full",
+        "batch_index": null,
         "configured_enabled": 2,
         "priority_configured": 0,
-        "selected": 0,
-        "skipped_by_rotation": 2,
+        "selected": 2,
+        "skipped_by_rotation": 0,
         "skipped_by_cooldown": 0,
-        "rotation_skip_keys": [
-          "recruitee:cygridgmbh",
-          "recruitee:dransay"
-        ],
+        "rotation_skip_keys": [],
         "cooldown_skip_keys": []
       }
     }
   },
   "summary": {
     "configured": 200,
-    "healthy": 80,
-    "cooling_down": 0,
+    "healthy": 193,
+    "cooling_down": 7,
     "invalid_identifiers": 0
   },
   "employers": {
@@ -209,7 +84,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "2026-08-16",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 11,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "ashby:enpal": {
       "source": "ashby",
@@ -221,7 +104,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 144,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "ashby:eye-security": {
       "source": "ashby",
@@ -237,11 +128,11 @@
         "SOC Analyst"
       ],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 22,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -257,11 +148,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 43,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -278,7 +169,15 @@
       "security_roles_verified": [
         "Security Lead"
       ],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 19,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "ashby:leapsome": {
       "source": "ashby",
@@ -290,7 +189,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "2026-08-16",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 18,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "ashby:moss": {
       "source": "ashby",
@@ -303,11 +210,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 34,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -322,7 +229,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "2026-08-16",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 39,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "ashby:qdrant.tech": {
       "source": "ashby",
@@ -337,11 +252,11 @@
         "Security Engineer"
       ],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 12,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -357,11 +272,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 24,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -379,11 +294,11 @@
         "Security Lead"
       ],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 44,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -402,11 +317,11 @@
         "Lead IT Risk Manager"
       ],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 30,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -422,11 +337,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 20,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -441,7 +356,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 68,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:adahealth": {
       "source": "greenhouse",
@@ -453,7 +376,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "2026-08-16",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 0,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:affirm": {
       "source": "greenhouse",
@@ -465,7 +396,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 194,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:airbnb": {
       "source": "greenhouse",
@@ -477,7 +416,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 186,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:airspace": {
       "source": "greenhouse",
@@ -490,11 +437,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 14,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -510,14 +457,15 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
-      "jobs_last_seen": 17,
-      "status": "ok",
-      "consecutive_failures": 0,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 0,
+      "status": "temporarily_failed",
+      "consecutive_failures": 1,
       "last_success_at": "2026-08-16T21:45:22Z",
       "last_http_status": null,
-      "last_error": "",
-      "next_retry_at": null
+      "last_error": "Greenhouse | Airtable | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/airtable/jobs?content=true: The read operation timed out",
+      "next_retry_at": "2026-08-17T22:20:22Z",
+      "last_failure_at": "2026-08-16T22:20:22Z"
     },
     "greenhouse:algolia": {
       "source": "greenhouse",
@@ -529,7 +477,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 34,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:amplitude": {
       "source": "greenhouse",
@@ -541,7 +497,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 31,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:andurilindustries": {
       "source": "greenhouse",
@@ -553,7 +517,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 0,
+      "status": "temporarily_failed",
+      "consecutive_failures": 1,
+      "last_failure_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "Greenhouse | Anduril Industries | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs?content=true: The read operation timed out",
+      "next_retry_at": "2026-08-17T22:20:22Z"
     },
     "greenhouse:anthropic": {
       "source": "greenhouse",
@@ -565,7 +537,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 441,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:apaleo": {
       "source": "greenhouse",
@@ -578,11 +558,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 8,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -598,11 +578,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 31,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -618,11 +598,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 36,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -637,7 +617,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 39,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:blacklane": {
       "source": "greenhouse",
@@ -650,11 +638,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 12,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -669,7 +657,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 194,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:brex": {
       "source": "greenhouse",
@@ -681,7 +677,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 293,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:bridgebio": {
       "source": "greenhouse",
@@ -693,7 +697,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 92,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:bugcrowd": {
       "source": "greenhouse",
@@ -705,7 +717,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 16,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:calm": {
       "source": "greenhouse",
@@ -717,7 +737,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 0,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:carta": {
       "source": "greenhouse",
@@ -729,7 +757,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 58,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:chainguard": {
       "source": "greenhouse",
@@ -741,7 +777,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 88,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:charlesriverassociates": {
       "source": "greenhouse",
@@ -754,11 +798,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 75,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -773,7 +817,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 11,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:checkr": {
       "source": "greenhouse",
@@ -785,7 +837,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 47,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:chime": {
       "source": "greenhouse",
@@ -797,7 +857,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 57,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:circleci": {
       "source": "greenhouse",
@@ -810,11 +878,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 5,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -830,11 +898,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 5,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -850,11 +918,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 175,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -870,11 +938,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 304,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -890,11 +958,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 28,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -909,7 +977,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 169,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:commercetools": {
       "source": "greenhouse",
@@ -924,11 +1000,11 @@
         "Principal Engineer, Product Security"
       ],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 23,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -944,11 +1020,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 23,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -964,11 +1040,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 26,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -983,7 +1059,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 22,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:cresta": {
       "source": "greenhouse",
@@ -996,11 +1080,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
-      "jobs_last_seen": 95,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 97,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1015,7 +1099,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 0,
+      "status": "temporarily_failed",
+      "consecutive_failures": 1,
+      "last_failure_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "Greenhouse | Cribl | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/cribl/jobs?content=true: The read operation timed out",
+      "next_retry_at": "2026-08-17T22:20:22Z"
     },
     "greenhouse:cultureamp": {
       "source": "greenhouse",
@@ -1028,11 +1120,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 24,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1048,11 +1140,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 809,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1067,7 +1159,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 0,
+      "status": "temporarily_failed",
+      "consecutive_failures": 1,
+      "last_failure_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "Greenhouse | Datadog | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true: The read operation timed out",
+      "next_retry_at": "2026-08-17T22:20:22Z"
     },
     "greenhouse:dept": {
       "source": "greenhouse",
@@ -1080,11 +1180,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 233,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1099,7 +1199,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 92,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:digitalservice": {
       "source": "greenhouse",
@@ -1112,11 +1220,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 11,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1131,7 +1239,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 50,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:dropbox": {
       "source": "greenhouse",
@@ -1143,7 +1259,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 35,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:dunnhumby": {
       "source": "greenhouse",
@@ -1156,11 +1280,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 70,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1176,11 +1300,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 69,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1195,7 +1319,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 256,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:epicgames": {
       "source": "greenhouse",
@@ -1208,14 +1340,15 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
-      "jobs_last_seen": 162,
-      "status": "ok",
-      "consecutive_failures": 0,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 0,
+      "status": "temporarily_failed",
+      "consecutive_failures": 1,
       "last_success_at": "2026-08-16T21:45:22Z",
       "last_http_status": null,
-      "last_error": "",
-      "next_retry_at": null
+      "last_error": "Greenhouse | Epic Games | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/epicgames/jobs?content=true: The read operation timed out",
+      "next_retry_at": "2026-08-17T22:20:22Z",
+      "last_failure_at": "2026-08-16T22:20:22Z"
     },
     "greenhouse:faire": {
       "source": "greenhouse",
@@ -1227,7 +1360,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 0,
+      "status": "temporarily_failed",
+      "consecutive_failures": 1,
+      "last_failure_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "Greenhouse | Faire | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/faire/jobs?content=true: The read operation timed out",
+      "next_retry_at": "2026-08-17T22:20:22Z"
     },
     "greenhouse:fastly": {
       "source": "greenhouse",
@@ -1239,7 +1380,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 54,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:figma": {
       "source": "greenhouse",
@@ -1251,7 +1400,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 161,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:fireblocks": {
       "source": "greenhouse",
@@ -1263,7 +1420,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 69,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:fivetran": {
       "source": "greenhouse",
@@ -1275,7 +1440,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 230,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:flatironhealth": {
       "source": "greenhouse",
@@ -1287,7 +1460,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 34,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:flexport": {
       "source": "greenhouse",
@@ -1299,7 +1480,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 158,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:freenow": {
       "source": "greenhouse",
@@ -1311,7 +1500,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 47,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:gallup": {
       "source": "greenhouse",
@@ -1324,11 +1521,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 51,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1343,7 +1540,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 40,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:getyourguide": {
       "source": "greenhouse",
@@ -1356,11 +1561,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 55,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1375,7 +1580,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 196,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:gleanwork": {
       "source": "greenhouse",
@@ -1387,7 +1600,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 112,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:grafanalabs": {
       "source": "greenhouse",
@@ -1399,7 +1620,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 148,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:greenhouse": {
       "source": "greenhouse",
@@ -1412,11 +1641,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 14,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1432,11 +1661,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 9,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1451,7 +1680,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 16,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:gusto": {
       "source": "greenhouse",
@@ -1464,11 +1701,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 88,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1486,11 +1723,11 @@
         "Senior Cloud Security Engineer"
       ],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 372,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1506,11 +1743,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 16,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1525,7 +1762,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 16,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:huntress": {
       "source": "greenhouse",
@@ -1537,7 +1782,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 34,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:imply": {
       "source": "greenhouse",
@@ -1550,11 +1803,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 4,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1570,11 +1823,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 10,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1589,7 +1842,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 112,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:instawork": {
       "source": "greenhouse",
@@ -1601,7 +1862,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 54,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:intercom": {
       "source": "greenhouse",
@@ -1613,7 +1882,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 118,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:ionos": {
       "source": "greenhouse",
@@ -1626,11 +1903,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 30,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1645,7 +1922,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 103,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:jetbrains": {
       "source": "greenhouse",
@@ -1657,7 +1942,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 88,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:justworks": {
       "source": "greenhouse",
@@ -1669,7 +1962,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 98,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:khanacademy": {
       "source": "greenhouse",
@@ -1681,7 +1982,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 27,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:klanggames": {
       "source": "greenhouse",
@@ -1694,11 +2003,11 @@
       "security_hiring_verified_at": "2026-08-16",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 1,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1713,7 +2022,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 78,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:lattice": {
       "source": "greenhouse",
@@ -1726,11 +2043,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 8,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1745,7 +2062,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 46,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:locusrobotics": {
       "source": "greenhouse",
@@ -1757,7 +2082,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 9,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:lookoutinc": {
       "source": "greenhouse",
@@ -1769,7 +2102,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 0,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:lucidsoftware": {
       "source": "greenhouse",
@@ -1781,7 +2122,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 37,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:lyft": {
       "source": "greenhouse",
@@ -1793,7 +2142,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 171,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:magicleap": {
       "source": "greenhouse",
@@ -1805,7 +2162,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 6,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:marqeta": {
       "source": "greenhouse",
@@ -1818,11 +2183,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 44,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1837,7 +2202,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 31,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:melio": {
       "source": "greenhouse",
@@ -1849,7 +2222,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 22,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:mercari": {
       "source": "greenhouse",
@@ -1861,7 +2242,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 2,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:mercury": {
       "source": "greenhouse",
@@ -1874,11 +2263,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 61,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1893,7 +2282,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 56,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:moia": {
       "source": "greenhouse",
@@ -1908,11 +2305,11 @@
         "Detection & Response Lead"
       ],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 21,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1927,7 +2324,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 409,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:mozilla": {
       "source": "greenhouse",
@@ -1940,11 +2345,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 86,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1963,11 +2368,11 @@
         "Information Security Controls Manager"
       ],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 77,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -1983,11 +2388,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 37,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2002,7 +2407,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 61,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:nuro": {
       "source": "greenhouse",
@@ -2014,7 +2427,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 108,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:okta": {
       "source": "greenhouse",
@@ -2026,7 +2447,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 333,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:orcasecurity": {
       "source": "greenhouse",
@@ -2038,7 +2467,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 11,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:oscar": {
       "source": "greenhouse",
@@ -2050,7 +2487,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 265,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:pagerduty": {
       "source": "greenhouse",
@@ -2062,7 +2507,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 26,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:pandadoc": {
       "source": "greenhouse",
@@ -2074,7 +2527,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "2026-08-16",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 49,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:parloa": {
       "source": "greenhouse",
@@ -2087,11 +2548,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 52,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2106,7 +2567,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 55,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:pinterest": {
       "source": "greenhouse",
@@ -2118,7 +2587,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 221,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:planetlabs": {
       "source": "greenhouse",
@@ -2131,11 +2608,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 82,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2151,11 +2628,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 10,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2170,7 +2647,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 0,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:postman": {
       "source": "greenhouse",
@@ -2183,11 +2668,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 109,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2202,7 +2687,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 194,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:projectaservicesgmbhcokg": {
       "source": "greenhouse",
@@ -2215,11 +2708,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 54,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2234,7 +2727,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 0,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:raisin": {
       "source": "greenhouse",
@@ -2246,7 +2747,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 34,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:recursionpharmaceuticals": {
       "source": "greenhouse",
@@ -2258,7 +2767,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 16,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:reddit": {
       "source": "greenhouse",
@@ -2270,7 +2787,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 151,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:remotecom": {
       "source": "greenhouse",
@@ -2282,7 +2807,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 225,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:riotgames": {
       "source": "greenhouse",
@@ -2295,11 +2828,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 158,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2315,11 +2848,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 134,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2334,7 +2867,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 124,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:roblox": {
       "source": "greenhouse",
@@ -2346,7 +2887,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 230,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:salesloft": {
       "source": "greenhouse",
@@ -2358,7 +2907,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 39,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:samsara": {
       "source": "greenhouse",
@@ -2370,7 +2927,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 270,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:scaleai": {
       "source": "greenhouse",
@@ -2382,7 +2947,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 210,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:scopely": {
       "source": "greenhouse",
@@ -2394,7 +2967,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 156,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:scoutai": {
       "source": "greenhouse",
@@ -2406,7 +2987,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 28,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:seatgeek": {
       "source": "greenhouse",
@@ -2418,7 +3007,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 25,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:singlestore": {
       "source": "greenhouse",
@@ -2430,7 +3027,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 40,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:sixgeninc": {
       "source": "greenhouse",
@@ -2442,7 +3047,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 22,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:sofi": {
       "source": "greenhouse",
@@ -2455,14 +3068,15 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
-      "jobs_last_seen": 60,
-      "status": "ok",
-      "consecutive_failures": 0,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 0,
+      "status": "temporarily_failed",
+      "consecutive_failures": 1,
       "last_success_at": "2026-08-16T21:45:22Z",
       "last_http_status": null,
-      "last_error": "",
-      "next_retry_at": null
+      "last_error": "Greenhouse | SoFi | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/sofi/jobs?content=true: The read operation timed out",
+      "next_retry_at": "2026-08-17T22:20:22Z",
+      "last_failure_at": "2026-08-16T22:20:22Z"
     },
     "greenhouse:solarisbank": {
       "source": "greenhouse",
@@ -2475,11 +3089,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 33,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2495,11 +3109,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 10,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2514,7 +3128,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 2104,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:squarespace": {
       "source": "greenhouse",
@@ -2526,7 +3148,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 20,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:stabilityai": {
       "source": "greenhouse",
@@ -2538,7 +3168,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 5,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:staffbase": {
       "source": "greenhouse",
@@ -2551,11 +3189,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 29,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2571,11 +3209,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 16,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2590,7 +3228,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 30,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:stripe": {
       "source": "greenhouse",
@@ -2602,7 +3248,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 578,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:stubhubinc": {
       "source": "greenhouse",
@@ -2615,11 +3269,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 19,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2634,7 +3288,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 22,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:superchat": {
       "source": "greenhouse",
@@ -2647,11 +3309,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 13,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2667,11 +3329,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 46,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2686,7 +3348,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 57,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:tanium": {
       "source": "greenhouse",
@@ -2698,7 +3368,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 52,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:thequalitygroupgmbh2": {
       "source": "greenhouse",
@@ -2711,11 +3389,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 107,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2730,7 +3408,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 123,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:togetherai": {
       "source": "greenhouse",
@@ -2743,11 +3429,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 60,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2763,11 +3449,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 14,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2783,11 +3469,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 94,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2802,7 +3488,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 157,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:twitch": {
       "source": "greenhouse",
@@ -2814,7 +3508,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 63,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:unframe": {
       "source": "greenhouse",
@@ -2827,11 +3529,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 37,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2846,7 +3548,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 98,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:veeamsoftware": {
       "source": "greenhouse",
@@ -2858,7 +3568,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 230,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:vercel": {
       "source": "greenhouse",
@@ -2875,11 +3593,11 @@
         "Security Software Engineer"
       ],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 83,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2894,7 +3612,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 285,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:waymo": {
       "source": "greenhouse",
@@ -2906,7 +3632,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 377,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:webflow": {
       "source": "greenhouse",
@@ -2918,7 +3652,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 28,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:wizinc": {
       "source": "greenhouse",
@@ -2930,7 +3672,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 116,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:wolt": {
       "source": "greenhouse",
@@ -2943,11 +3693,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 239,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2963,11 +3713,11 @@
       "security_hiring_verified_at": "2026-08-16",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 0,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -2982,7 +3732,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 226,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:yugabyte": {
       "source": "greenhouse",
@@ -2994,7 +3752,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 14,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:zetaglobal": {
       "source": "greenhouse",
@@ -3006,7 +3772,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 132,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "greenhouse:zoominfo": {
       "source": "greenhouse",
@@ -3019,11 +3793,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 104,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -3039,11 +3813,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 26,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -3058,7 +3832,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 51,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "lever:pipedrive": {
       "source": "lever",
@@ -3073,11 +3855,11 @@
         "Principal Security Engineer"
       ],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 16,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -3092,7 +3874,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 114,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "lever:veeva": {
       "source": "lever",
@@ -3104,7 +3894,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 834,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "lever:westernacher": {
       "source": "lever",
@@ -3117,11 +3915,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 72,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -3136,7 +3934,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 11,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "personio:knime": {
       "source": "personio",
@@ -3151,11 +3957,11 @@
         "Application Security Engineer"
       ],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 9,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -3170,7 +3976,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 18,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "personio:perseus": {
       "source": "personio",
@@ -3182,7 +3996,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 3,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "personio:scalian-germany": {
       "source": "personio",
@@ -3198,11 +4020,11 @@
         "Cyber Security Engineer"
       ],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 149,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -3218,11 +4040,11 @@
       "security_hiring_verified_at": "",
       "security_roles_verified": [],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 7,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -3241,11 +4063,11 @@
         "Senior Security Engineer - Product"
       ],
       "configured": true,
-      "last_checked_at": "2026-08-16T21:45:22Z",
+      "last_checked_at": "2026-08-16T22:20:22Z",
       "jobs_last_seen": 4,
       "status": "ok",
       "consecutive_failures": 0,
-      "last_success_at": "2026-08-16T21:45:22Z",
+      "last_success_at": "2026-08-16T22:20:22Z",
       "last_http_status": null,
       "last_error": "",
       "next_retry_at": null
@@ -3260,7 +4082,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "2026-08-16",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 5,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     },
     "recruitee:dransay": {
       "source": "recruitee",
@@ -3272,7 +4102,15 @@
       "current_security_hiring": false,
       "security_hiring_verified_at": "2026-08-16",
       "security_roles_verified": [],
-      "configured": true
+      "configured": true,
+      "last_checked_at": "2026-08-16T22:20:22Z",
+      "jobs_last_seen": 4,
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-08-16T22:20:22Z",
+      "last_http_status": null,
+      "last_error": "",
+      "next_retry_at": null
     }
   }
 }

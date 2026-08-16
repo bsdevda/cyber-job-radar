@@ -536,6 +536,166 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-08-16T22:20:22Z",
+      "scoring_version": 2.1,
+      "jobs_collected": 20102,
+      "security_title_candidates": 640,
+      "prefiltered_non_security_jobs": 19462,
+      "unique_jobs_after_deduplication": 517,
+      "duplicates_removed": 123,
+      "jobs_rejected_or_below_threshold": 19959,
+      "relevant_jobs_in_current_run": 20,
+      "new_jobs": 0,
+      "updated_jobs": 0,
+      "strong_matches": 0,
+      "sources_checked": 7,
+      "sources_failed": 0,
+      "sources_partial": 1,
+      "report_jobs": 20,
+      "jobs_by_source": {
+        "arbeitnow": 875,
+        "remotive": 14,
+        "greenhouse": 17430,
+        "ashby": 460,
+        "lever": 1113,
+        "personio": 201,
+        "recruitee": 9
+      },
+      "employer_mode": "full",
+      "quality_review_schema_version": 1,
+      "workflow_duration_seconds": 52.8,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 875,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 14,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 17430,
+          "requests": 172,
+          "errors": [
+            {
+              "source": "greenhouse",
+              "company": "Airtable",
+              "http_status": null,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/airtable/jobs?content=true: The read operation timed out",
+              "message": "Greenhouse | Airtable | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/airtable/jobs?content=true: The read operation timed out"
+            },
+            {
+              "source": "greenhouse",
+              "company": "Anduril Industries",
+              "http_status": null,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs?content=true: The read operation timed out",
+              "message": "Greenhouse | Anduril Industries | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs?content=true: The read operation timed out"
+            },
+            {
+              "source": "greenhouse",
+              "company": "Cribl",
+              "http_status": null,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/cribl/jobs?content=true: The read operation timed out",
+              "message": "Greenhouse | Cribl | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/cribl/jobs?content=true: The read operation timed out"
+            },
+            {
+              "source": "greenhouse",
+              "company": "Datadog",
+              "http_status": null,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true: The read operation timed out",
+              "message": "Greenhouse | Datadog | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true: The read operation timed out"
+            },
+            {
+              "source": "greenhouse",
+              "company": "Epic Games",
+              "http_status": null,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/epicgames/jobs?content=true: The read operation timed out",
+              "message": "Greenhouse | Epic Games | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/epicgames/jobs?content=true: The read operation timed out"
+            },
+            {
+              "source": "greenhouse",
+              "company": "Faire",
+              "http_status": null,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/faire/jobs?content=true: The read operation timed out",
+              "message": "Greenhouse | Faire | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/faire/jobs?content=true: The read operation timed out"
+            },
+            {
+              "source": "greenhouse",
+              "company": "SoFi",
+              "http_status": null,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/sofi/jobs?content=true: The read operation timed out",
+              "message": "Greenhouse | SoFi | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/sofi/jobs?content=true: The read operation timed out"
+            }
+          ],
+          "error": "Greenhouse | Airtable | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/airtable/jobs?content=true: The read operation timed out",
+          "companies_checked": 172,
+          "companies_successful": 165,
+          "companies_failed": 7
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 460,
+          "requests": 13,
+          "errors": [],
+          "error": "",
+          "companies_checked": 13,
+          "companies_successful": 13,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1113,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 201,
+          "requests": 7,
+          "errors": [],
+          "error": "",
+          "companies_checked": 7,
+          "companies_successful": 7,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 9,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
