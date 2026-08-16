@@ -23,6 +23,7 @@ from .collectors import (
     AshbyCollector,
     GreenhouseCollector,
     LeverCollector,
+    LinkedInPostsCollector,
     PersonioCollector,
     RecruiteeCollector,
     RemotiveCollector,
@@ -92,6 +93,7 @@ def run(
         "greenhouse": GreenhouseCollector,
         "ashby": AshbyCollector,
         "lever": LeverCollector,
+        "linkedin_posts": LinkedInPostsCollector,
         "personio": PersonioCollector,
         "recruitee": RecruiteeCollector,
     }
@@ -278,11 +280,15 @@ def run(
         ),
     )
     jobs_db = merge_job_database(previous_jobs, accepted, seen)
-    for job in accepted:
+    for job in jobs_db:
         application = applications.get(job["job_key"], {})
         job["application_status"] = application.get("status", "NEW")
 
-    report_jobs = select_report_jobs(accepted, search_config)
+    # The daily scoring summary remains based on this run's accepted jobs, but
+    # the reading queue is selected from the active cumulative database. This
+    # keeps up to 50 still-active matches visible even when a rotating employer
+    # batch yields fewer jobs on a particular day.
+    report_jobs = select_report_jobs(jobs_db, search_config)
     payload = build_report_payload(
         report_jobs,
         accepted,

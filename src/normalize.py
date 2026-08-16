@@ -158,6 +158,9 @@ def normalize_job(raw: dict[str, Any]) -> dict[str, Any]:
         "status": "NEW",
         "priority_employer": False,
         "tags": sorted({html_to_text(str(tag)) for tag in raw.get("tags", []) if tag}),
+        "lead_type": str(raw.get("lead_type") or ""),
+        "post_author": html_to_text(str(raw.get("post_author") or "")),
+        "feed_name": html_to_text(str(raw.get("feed_name") or "")),
     }
     job["content_hash"] = content_hash(job)
     return job

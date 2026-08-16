@@ -185,26 +185,54 @@ def render_markdown(payload: dict[str, Any], config: dict[str, Any]) -> str:
     lines.append("")
 
     jobs = payload["jobs"]
+    markdown_limit = max(1, int(config.get("markdown_job_limit", 50)))
+    visible_jobs = jobs[:markdown_limit]
     apply_limit = int(config.get("markdown_apply_first_limit", 5))
     top_match_score = int(config.get("markdown_top_match_score", 75))
-    review_limit = int(config.get("markdown_review_limit", 5))
-    apply_jobs = [job for job in jobs if int(job.get("score", 0)) >= top_match_score][:apply_limit]
+    review_limit = int(config.get("markdown_review_limit", markdown_limit))
+    apply_jobs = [
+        job for job in visible_jobs if int(job.get("score", 0)) >= top_match_score
+    ][:apply_limit]
     apply_keys = {job["job_key"] for job in apply_jobs}
-    review_jobs = [job for job in jobs if job["job_key"] not in apply_keys][:review_limit]
-    for heading, section_jobs in (("🔥 TOP MATCHES", apply_jobs), ("🟡 REVIEW NEXT", review_jobs)):
+    review_jobs = [
+        job for job in visible_jobs if job["job_key"] not in apply_keys
+    ][:review_limit]
+    tracker_url = (
+        str(config.get("repository_url") or "").rstrip("/")
+        + "/actions/workflows/update-application.yml"
+    )
+    lines.extend(
+        [
+            "## Application Tracker",
+            "",
+            f"Use the [Update Application Tracker form]({tracker_url}) to change a status. "
+            "GitHub Actions validates the entry, updates JSON and CSV, and commits it automatically—no local file editing or Git commands.",
+            "",
+        ]
+    )
+    for heading, section_jobs in (
+        ("🔥 TOP MATCHES", apply_jobs),
+        ("🟡 REVIEW / STRETCH QUEUE", review_jobs),
+    ):
         lines.extend([f"## {heading}", ""])
         if not section_jobs:
             lines.extend(["No jobs in this section today.", ""])
         else:
             for job in section_jobs:
-                lines.extend(_render_job(job))
+                lines.extend(_render_job(job, tracker_url))
 
-    hidden = max(0, len(jobs) - len(apply_jobs) - len(review_jobs))
+    displayed_keys = {
+        job["job_key"] for job in [*apply_jobs, *review_jobs]
+    }
+    hidden = max(0, len(jobs) - len(displayed_keys))
     lines.extend(
         [
-            "## Remaining candidates",
+            "## Queue coverage",
             "",
-            f"{hidden} additional ranked jobs are available in `reports/latest.json`; the daily Markdown intentionally stays limited to the most actionable queue.",
+            f"Displayed **{len(displayed_keys)}** ranked active jobs in this page "
+            f"(configured maximum: {markdown_limit}).",
+            f"{hidden} additional ranked jobs are available in `reports/latest.json`. "
+            "If fewer than 50 are displayed, the radar currently has fewer than 50 active jobs that passed the relevance and eligibility filters; it never pads the report with irrelevant roles.",
             "",
             "## Source Health",
             "",
@@ -264,6 +292,9 @@ def _compact_job(job: dict[str, Any], number: int, generated_at: str) -> dict[st
         "sources": job.get("sources", []),
         "ats": job.get("ats", ""),
         "priority_employer": bool(job.get("priority_employer")),
+        "lead_type": job.get("lead_type", ""),
+        "post_author": job.get("post_author", ""),
+        "feed_name": job.get("feed_name", ""),
         "published_at": job.get("published_at"),
         "posting_age_days": age,
         "posting_age_analysis": age_analysis,
@@ -283,7 +314,7 @@ def _compact_job(job: dict[str, Any], number: int, generated_at: str) -> dict[st
     }
 
 
-def _render_job(job: dict[str, Any]) -> list[str]:
+def _render_job(job: dict[str, Any], tracker_url: str = "") -> list[str]:
     strong = job.get("skill_matches", {}).get("match", [])
     partial = job.get("skill_matches", {}).get("partial", [])
     mandatory = [item.get("skill", "") for item in job.get("mandatory_gaps", [])]
@@ -291,7 +322,10 @@ def _render_job(job: dict[str, Any]) -> list[str]:
     optional = [item.get("skill", "") for item in job.get("optional_gaps", [])]
     role = job.get("role_family", {})
     seniority = job.get("seniority", {})
-    return [
+    source_url_label = (
+        "LinkedIn post lead" if job.get("lead_type") == "linkedin_post" else "Direct job URL"
+    )
+    lines = [
         f"### {job['report_number']}. {_clean(job.get('title', 'Untitled role'))}",
         "",
         f"- **Company:** {_clean(job.get('company', 'Unknown'))}",
@@ -305,8 +339,9 @@ def _render_job(job: dict[str, Any]) -> list[str]:
         f"- **Posted:** {(job.get('published_at') or 'Unknown')[:10]} ({job.get('urgency')})",
         f"- **First seen:** {(job.get('first_seen') or 'Unknown')[:10]}",
         f"- **Radar / application status:** {job.get('status')} / {job.get('application_status')}",
+        f"- **Job key:** `{_clean(job.get('job_key'))}`",
         f"- **Match score:** **{job.get('score')}/100 - {job.get('score_label')}**",
-        f"- **Direct job URL:** [{_clean(job.get('company', 'Open job'))} vacancy]({job.get('url')})",
+        f"- **{source_url_label}:** [{_clean(job.get('company', 'Open job'))}]({job.get('url')})",
         "",
         "**Strong matches:** " + (_join(strong) or "None detected"),
         "",
@@ -329,6 +364,17 @@ def _render_job(job: dict[str, Any]) -> list[str]:
         f"**Recommendation:** {job.get('recommendation')}",
         "",
     ]
+    if job.get("lead_type") == "linkedin_post":
+        lines[-2:-2] = [
+            "**LinkedIn lead warning:** This is a public-post lead, not a verified vacancy. Open the post and verify the employer, complete job description, English requirement, location and official application URL.",
+            "",
+        ]
+    if tracker_url:
+        lines[-1:-1] = [
+            f"**Tracker:** [Open the automatic update form]({tracker_url}) and paste job key `{_clean(job.get('job_key'))}`.",
+            "",
+        ]
+    return lines
 
 
 def working_model(job: dict[str, Any]) -> str:

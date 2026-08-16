@@ -141,6 +141,13 @@ def _education_score(job: dict[str, Any]) -> int:
 
 def _score_caps(job: dict[str, Any], config: dict[str, Any]) -> list[dict[str, Any]]:
     caps: list[dict[str, Any]] = []
+    if job.get("lead_type") == "linkedin_post":
+        caps.append(
+            {
+                "cap": 69,
+                "reason": "LinkedIn post lead: verify the complete official vacancy before applying",
+            }
+        )
     location_cap = job.get("location_analysis", {}).get("score_cap")
     if location_cap:
         caps.append({"cap": int(location_cap), "reason": job["location_analysis"]["reason"]})

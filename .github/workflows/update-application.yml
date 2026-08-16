@@ -1,0 +1,131 @@
+name: Update Application Tracker
+
+on:
+  workflow_dispatch:
+    inputs:
+      job_key:
+        description: Job key copied from reports/latest.md
+        required: true
+        type: string
+      status:
+        description: Current application status
+        required: true
+        default: REVIEW
+        type: choice
+        options:
+          - REVIEW
+          - SAVE
+          - APPLIED
+          - RECRUITER CONTACT
+          - PHONE SCREEN
+          - INTERVIEW
+          - TECHNICAL INTERVIEW
+          - FINAL INTERVIEW
+          - OFFER
+          - REJECTED
+          - GHOSTED
+          - WITHDRAWN
+          - SKIPPED
+      application_date:
+        description: Application date (YYYY-MM-DD); APPLIED defaults to today when blank
+        required: false
+        type: string
+      response_date:
+        description: Recruiter response date (YYYY-MM-DD)
+        required: false
+        type: string
+      interview_date:
+        description: Interview date (YYYY-MM-DD)
+        required: false
+        type: string
+      rejection_date:
+        description: Rejection date (YYYY-MM-DD)
+        required: false
+        type: string
+      interview_stage:
+        description: Interview stage or next step
+        required: false
+        type: string
+      cv_version:
+        description: CV filename/version used
+        required: false
+        type: string
+      cover_letter_used:
+        description: Was a cover letter submitted?
+        required: true
+        default: not-recorded
+        type: choice
+        options:
+          - not-recorded
+          - yes
+          - no
+      notes:
+        description: Short non-sensitive note (repository data may be public)
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cyber-job-radar-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update-tracker:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Update tracker safely
+        shell: bash
+        env:
+          JOB_KEY: ${{ inputs.job_key }}
+          STATUS: ${{ inputs.status }}
+          APPLICATION_DATE: ${{ inputs.application_date }}
+          RESPONSE_DATE: ${{ inputs.response_date }}
+          INTERVIEW_DATE: ${{ inputs.interview_date }}
+          REJECTION_DATE: ${{ inputs.rejection_date }}
+          INTERVIEW_STAGE: ${{ inputs.interview_stage }}
+          CV_VERSION: ${{ inputs.cv_version }}
+          COVER_LETTER_USED: ${{ inputs.cover_letter_used }}
+          NOTES: ${{ inputs.notes }}
+        run: |
+          args=(set --job-key "$JOB_KEY" --status "$STATUS")
+          if [ -n "$APPLICATION_DATE" ]; then args+=(--application-date "$APPLICATION_DATE"); fi
+          if [ -n "$RESPONSE_DATE" ]; then args+=(--response-date "$RESPONSE_DATE"); fi
+          if [ -n "$INTERVIEW_DATE" ]; then args+=(--interview-date "$INTERVIEW_DATE"); fi
+          if [ -n "$REJECTION_DATE" ]; then args+=(--rejection-date "$REJECTION_DATE"); fi
+          if [ -n "$INTERVIEW_STAGE" ]; then args+=(--interview-stage "$INTERVIEW_STAGE"); fi
+          if [ -n "$CV_VERSION" ]; then args+=(--cv-version "$CV_VERSION"); fi
+          if [ "$COVER_LETTER_USED" != "not-recorded" ]; then args+=(--cover-letter-used "$COVER_LETTER_USED"); fi
+          if [ -n "$NOTES" ]; then args+=(--notes "$NOTES"); fi
+          python -m src.application_tracker "${args[@]}"
+          python -m src.application_tracker list
+
+      - name: Verify tracker tests
+        run: python -m unittest tests.test_application_tracker -v
+
+      - name: Commit tracker update
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/applications.json reports/application_tracker.csv
+          if git diff --cached --quiet; then
+            echo "No tracker change to commit."
+            exit 0
+          fi
+          git commit -m "chore: update application tracker"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"

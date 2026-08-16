@@ -1,11 +1,13 @@
 {
   "scoring_version": 2.1,
   "timezone": "Europe/Berlin",
-  "report_limit": 30,
-  "markdown_apply_first_limit": 5,
+  "report_limit": 50,
+  "markdown_job_limit": 50,
+  "markdown_apply_first_limit": 10,
   "markdown_top_match_score": 75,
-  "markdown_review_limit": 5,
+  "markdown_review_limit": 50,
   "chatgpt_handoff_limit": 10,
+  "repository_url": "https://github.com/bsdevda/cyber-job-radar",
   "strong_match_score": 80,
   "notifications": {
     "enabled": true,

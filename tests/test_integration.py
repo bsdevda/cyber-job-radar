@@ -69,6 +69,7 @@ class IntegrationTests(unittest.TestCase):
             self.assertTrue((target / "reports/job_alert.json").exists())
             self.assertTrue((target / "reports/quality_review.json").exists())
             self.assertTrue((target / "reports/quality_review.md").exists())
+            self.assertTrue((ROOT / ".github/workflows/update-application.yml").exists())
             self.assertEqual(payload["source_status"]["greenhouse"]["status"], "idle")
             self.assertEqual(payload["summary"]["employer_mode"], "daily")
             self.assertEqual(payload["summary"]["quality_review_schema_version"], 1)

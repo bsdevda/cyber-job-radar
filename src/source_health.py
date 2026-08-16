@@ -6,6 +6,7 @@ from .collectors.base import CollectionResult
 
 
 COMPANY_SOURCES = {"greenhouse", "ashby", "lever", "personio", "recruitee"}
+OPTIONAL_FEED_SOURCES = {"linkedin_posts"}
 
 
 def build_source_health(
@@ -14,7 +15,9 @@ def build_source_health(
     sources: dict[str, dict[str, Any]] = {}
     for result in results:
         is_company_source = result.companies_checked > 0 or result.source in COMPANY_SOURCES
-        if is_company_source and result.companies_checked == 0:
+        if result.source in OPTIONAL_FEED_SOURCES and result.requests == 0 and not result.jobs:
+            status = "idle"
+        elif is_company_source and result.companies_checked == 0:
             status = "idle"
         elif is_company_source and result.companies_failed and result.companies_successful:
             status = "partial"

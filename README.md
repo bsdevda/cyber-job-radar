@@ -4,6 +4,17 @@ A zero-API-key, rule-based vacancy radar built around Bharatsingh Devda's verifi
 
 The radar performs discovery and evidence-based triage. A human or ChatGPT still verifies the original vacancy and makes the final application decision. It never auto-applies and it never sends a CV to an employer.
 
+## Version 2.4 LinkedIn leads, 50-job report and automatic tracker updates
+
+- Adds a compliant LinkedIn-post lead collector that consumes user-authorized RSS/Atom alerts but never requests LinkedIn, signs in, stores cookies, scrapes profiles, or bypasses access controls.
+- Keeps only public LinkedIn post URLs whose alert metadata contains both a target cybersecurity role and clear hiring intent.
+- Treats each post as an unverified lead and caps it below automatic alert level until the employer, complete vacancy, English requirement, Germany eligibility and official application link are verified.
+- Selects the daily reading queue from the cumulative active database and displays up to 50 ranked jobs in `reports/latest.md`.
+- Never pads the Markdown report with rejected or irrelevant roles when fewer than 50 active matches exist.
+- Adds **Actions → Update Application Tracker**, a validated form that updates `data/applications.json` and `reports/application_tracker.csv` and commits them automatically.
+- Shows the required `job_key` and tracker-form link beneath every job in `reports/latest.md`.
+- Expands the deterministic offline suite to 63 passing tests.
+
 ## Version 2.3 selective alerts and quality calibration
 
 - Creates a GitHub Issue only when a newly discovered, unapplied vacancy scores at least 80: `APPLY FIRST` at 85+ or a strong `APPLY` at 80-84.
@@ -52,7 +63,7 @@ The radar performs discovery and evidence-based triage. A human or ChatGPT still
 - Strict title relevance and Germany/Europe-remote eligibility to suppress generic software, academic, physical-security, and region-locked jobs.
 - Public Arbeitnow, Remotive, Greenhouse, Ashby, Lever, Personio, and Recruitee collection.
 - Independent source/company failures, bounded parallel requests, timeouts, retries, and source-health output.
-- Compact daily Markdown: five top matches and five review candidates; complete ranked data stays in JSON.
+- Daily Markdown containing up to 50 active ranked jobs; complete structured data stays in JSON.
 - A single private `reports/chatgpt_handoff.json` containing sanitized profile evidence, the top ten jobs, full descriptions, URLs, gaps, and analysis instructions.
 - Weekly role-demand, skill-gap, score-band, and application-funnel analytics.
 - Deterministic unit/integration tests with offline provider fixtures.
@@ -62,7 +73,7 @@ The radar performs discovery and evidence-based triage. A human or ChatGPT still
 
 ```mermaid
 flowchart TD
-    A["Public APIs and employer ATS boards"] --> B["Daily rotation + failure cooldowns"]
+    A["Public APIs, employer ATS boards and authorized post-alert feeds"] --> B["Daily rotation + failure cooldowns"]
     B --> C0["Independent collectors"]
     C0 --> C["Title prefilter, normalize and deduplicate"]
     C --> D["Location, seniority, language and relevance filters"]
@@ -81,6 +92,7 @@ One source or employer can fail without stopping successful collectors. A comple
 ```text
 cyber-job-radar/
 ├── .github/workflows/daily-jobs.yml
+├── .github/workflows/update-application.yml
 ├── config/
 │   ├── candidate_profile.json
 │   ├── companies.json
@@ -122,6 +134,7 @@ cyber-job-radar/
 ├── tests/
 ├── CHATGPT_ANALYSIS_PROMPT.md
 ├── VERSION_2_3_UPDATE.md
+├── VERSION_2_4_UPDATE.md
 ├── VERSION_2_2_UPDATE.md
 └── README.md
 ```
@@ -162,7 +175,40 @@ Runtime collection uses only Python's standard library. Tests use offline provid
 
 The workflow runs Monday-Friday at 07:30 using `Europe/Berlin`. Those runs use one rotating employer batch plus every priority employer. A full watchlist run happens Sunday at 08:00. It can also be started from **Actions → Daily Cybersecurity Job Radar → Run workflow**, where `daily` or `full` can be selected.
 
-The job checks out the repository, runs all tests, collects/scores vacancies, and commits only generated radar data and reports. No secrets or paid APIs are required. Standard public-repository GitHub-hosted runner usage is intended to keep operation at €0. If the repository is private, remain within the current GitHub Free included-minute allowance and do not enable paid/larger runners. Check GitHub billing settings after platform-plan changes.
+The job checks out the repository, runs all tests, collects/scores vacancies, and commits only generated radar data and reports. Core ATS collection needs no secret. LinkedIn post discovery uses one optional secret containing feed URLs. Standard public-repository GitHub-hosted runner usage is intended to keep operation at €0. If the repository is private, remain within the current GitHub Free included-minute allowance and do not enable paid/larger runners. Check GitHub billing settings after platform-plan changes.
+
+### LinkedIn public-post leads without scraping
+
+LinkedIn does not provide a free general API for searching every member's posts. Its rules also prohibit unauthorized crawlers, scripts and bots. The radar therefore does **not** access LinkedIn automatically. Instead, it consumes RSS/Atom alerts that you created and that contain public LinkedIn post links. Coverage depends on what the alert provider indexes; no €0 compliant method can guarantee every LinkedIn post.
+
+One-time setup:
+
+1. Open [Google Alerts](https://www.google.com/alerts) while signed in.
+2. Create separate alerts rather than one complicated query. Suggested searches:
+
+```text
+site:linkedin.com/posts "application security" hiring Germany
+site:linkedin.com/posts "product security" hiring Germany
+site:linkedin.com/posts "penetration tester" hiring Germany
+site:linkedin.com/posts "security tester" hiring Germany
+site:linkedin.com/posts "security engineer" hiring Berlin
+site:linkedin.com/posts cybersecurity hiring "remote Germany"
+```
+
+3. For each alert choose English, Germany, all results and RSS delivery. Copy the resulting RSS URL.
+4. In GitHub open **Settings → Secrets and variables → Actions → New repository secret**.
+5. Name it `LINKEDIN_POST_FEEDS_JSON` and store the URLs as a JSON array:
+
+```json
+[
+  "https://www.google.com/alerts/feeds/REPLACE_WITH_YOUR_FIRST_FEED",
+  "https://www.google.com/alerts/feeds/REPLACE_WITH_YOUR_SECOND_FEED"
+]
+```
+
+Do not commit private feed URLs to `config/sources.json`. The workflow reads the secret at runtime. With no secret configured, `linkedin_posts` is safely reported as `idle` and every other source continues.
+
+The collector stores only feed-provided lead metadata and the public post URL. It does not fetch the post. Each lead is labelled and capped at 69 until a person verifies the complete official vacancy.
 
 ### Free strong-match notifications
 
@@ -277,8 +323,8 @@ Never guess identifiers. Open the employer's genuine careers page and copy the t
 
 ## Generated outputs
 
-- `reports/latest.md`: deliberately compact daily reading queue.
-- `reports/latest.json`: up to 30 ranked jobs with structured scoring evidence.
+- `reports/latest.md`: up to 50 active ranked jobs with direct links, gaps, job keys and tracker links.
+- `reports/latest.json`: up to 50 active ranked jobs with structured scoring evidence.
 - `reports/chatgpt_handoff.json`: the only file needed for a private ChatGPT vacancy review.
 - `reports/weekly.md`: human-readable weekly demand, gap, and funnel summary.
 - `data/jobs.json`: persistent normalized job database with full descriptions.
@@ -302,7 +348,17 @@ Never invent skills, certifications, language level, or production experience.
 
 ## Application tracking and funnel analytics
 
-Use the tracker command instead of manually constructing JSON. Copy a `job_key` from `reports/latest.json` or `data/jobs.json`:
+The easiest method requires no local editing, PowerShell, Git commit, pull or push:
+
+1. Open `reports/latest.md` on GitHub.
+2. Copy the `job_key` shown below the vacancy.
+3. Click **Open the automatic update form**, or open **Actions → Update Application Tracker → Run workflow**.
+4. Paste the job key, choose the current status and optionally enter dates, CV version, cover-letter choice and a short note.
+5. Run the workflow. It validates the record, updates both JSON and CSV, runs tracker tests, commits and pushes automatically.
+
+The status in `reports/application_tracker.csv` changes immediately. The job's status inside `reports/latest.md` is refreshed during the next radar run. The form cannot infer whether you truly submitted an application; retaining that one truthful selection prevents incorrect funnel analytics.
+
+The local command remains available as a fallback. Copy a `job_key` from `reports/latest.md`, `reports/latest.json` or `data/jobs.json`:
 
 ```powershell
 python -m src.application_tracker set `
@@ -332,7 +388,7 @@ For a vacancy not present in the radar database, also supply `--company` and `--
 
 Suggested statuses: `REVIEW`, `SAVE`, `APPLIED`, `RECRUITER CONTACT`, `PHONE SCREEN`, `INTERVIEW`, `TECHNICAL INTERVIEW`, `FINAL INTERVIEW`, `OFFER`, `REJECTED`, `GHOSTED`, `WITHDRAWN`, and `SKIPPED`.
 
-Already-applied, interviewed, rejected, ghosted, withdrawn, offered, and skipped jobs stay in storage but are excluded from the daily application queue. Update the application file after each action; otherwise weekly funnel rates remain zero.
+Already-applied, interviewed, rejected, ghosted, withdrawn, offered, and skipped jobs stay in storage but are excluded from the daily application queue. Update the form after each application or recruiter event; otherwise weekly funnel rates remain zero.
 
 Weekly analytics calculate response, interview and offer rates in total and separately by radar recommendation and CV version. This shows whether stronger radar scores and particular truthful CV versions actually produce better outcomes.
 
@@ -379,15 +435,15 @@ Do not change weights merely because 14 days elapsed. A change requires actual e
 
 ## Safe update and Git commands
 
-For Selective Alerts and Quality Calibration v2.3, follow `VERSION_2_3_UPDATE.md`. The update must preserve `data/jobs.json`, `data/seen_jobs.json`, `data/job_history.json`, `data/applications.json`, `data/company_health.json`, `data/quality_feedback.json`, and existing report archives.
+For LinkedIn Leads, 50-Job Reporting and Automatic Tracker v2.4, follow `VERSION_2_4_UPDATE.md`. The update must preserve `data/jobs.json`, `data/seen_jobs.json`, `data/job_history.json`, `data/applications.json`, `data/company_health.json`, `data/quality_feedback.json`, and existing report archives.
 
 After copying the v2 files:
 
 ```powershell
 python -m unittest discover -s tests -v
 git status
-git add .github config src tests data\quality_feedback.json reports\job_alert.json reports\job_alert.md reports\quality_review.json reports\quality_review.md README.md VERSION_2_3_UPDATE.md
-git commit -m "feat: add selective job alerts and quality calibration"
+git add .github config src tests README.md VERSION_2_4_UPDATE.md
+git commit -m "feat: add LinkedIn leads, 50-job report and automatic tracker"
 git pull --rebase origin main
 git push
 ```
@@ -401,6 +457,9 @@ Do not use `git add .` until `git status` confirms that no CV/PDF/private file i
 - Tests fail: do not run or push the live workflow until all tests pass.
 - One source fails: inspect `data/source_health.json`; successful providers should still report.
 - ATS is idle: no enabled companies are configured for that ATS.
+- LinkedIn Posts is idle: configure the optional `LINKEDIN_POST_FEEDS_JSON` repository secret; other sources continue normally.
+- LinkedIn feed returns zero leads: confirm the feed contains public `/posts/`, `/feed/update/`, or `/pulse/` URLs and hiring/security terms. The radar intentionally rejects generic posts.
+- Tracker form fails: copy the exact job key from `reports/latest.md`, use `YYYY-MM-DD` dates, and check whether another radar workflow is still running.
 - One company fails: verify its current public ATS identifier; the remaining companies continue.
 - Job count suddenly collapses: compare source health before changing scoring rules.
 - Bad job appears: inspect `location_analysis`, `seniority_analysis`, `role_family`, and `rejection_summary`, then add a regression test before changing the rule.
