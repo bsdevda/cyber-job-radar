@@ -4,6 +4,19 @@ A zero-API-key, rule-based vacancy radar built around Bharatsingh Devda's verifi
 
 The radar performs discovery and evidence-based triage. A human or ChatGPT still verifies the original vacancy and makes the final application decision. It never auto-applies and it never sends a CV to an employer.
 
+## Version 2.1 quality safeguards
+
+- Treats explicit fluent, excellent, very good, business-fluent, B2, C1, C2 and native German requirements as hard blockers for the current A2 profile.
+- Keeps generic German requirements reviewable but caps them when the required level is unclear.
+- Ignores German company names such as Deutsche Telekom when detecting language requirements.
+- Rejects vacancies published more than 120 days ago; jobs older than 60 days or without a valid date receive conservative score caps.
+- Understands `NICE-TO-HAVE` sections so optional technologies do not become mandatory gaps.
+- Expands evidence checks for cloud, container, infrastructure, SOC, DLP, EDR, bug-bounty, GitHub-security and OT/ICS requirements.
+- Caps roles with missing mandatory skills as stretch/review candidates instead of allowing inflated top-match scores.
+- Merges same-company postings with identical or extremely similar descriptions, including title/location variants, while preferring Berlin when source quality is equal.
+- Bounds duplicate comparisons so large employer boards cannot reintroduce the workflow timeout.
+- Uses deterministic run dates in integration tests so posting-age tests do not expire over time.
+
 ## Version 2.0
 
 - Profile and Scoring v2 based on verified CV evidence: 2.1 years of security consulting, 100+ web/API/mobile/thick-client assessments, 150+ high/critical findings, 50+ reports/SOPs, OWASP, Burp Suite, Fortify SAST/DAST, threat modelling, secure code review, Python automation, German A2 progressing toward B1, and a completed cybersecurity Master's.
@@ -133,7 +146,7 @@ The sanitized profile contains no phone, email, street address, photo, CV, ident
 | Education relevance | 5 |
 | **Total** | **100** |
 
-The raw score is followed by conservative caps. Examples: a senior title is capped, an explicit three-to-five-year requirement is capped progressively, mandatory German B1 is capped while the profile is A2, an unsupported mandatory skill is capped, and unclear remote eligibility cannot become a top match.
+The raw score is followed by conservative caps. Examples: a senior title is capped, an explicit three-to-five-year requirement is capped progressively, mandatory German B1 is capped while the profile is A2, unsupported mandatory skills are capped, stale or undated postings are capped, and unclear remote eligibility cannot become a top match.
 
 The main report excludes scores below 50. A score is not permission to claim a missing skill and is not a replacement for reading the original vacancy.
 
@@ -146,6 +159,8 @@ The radar rejects:
 - explicit US, Canada, UK, India, Australia, and other non-target region restrictions;
 - on-site or unclear hybrid jobs outside Germany;
 - mandatory German B2/C1/C2/native requirements;
+- explicit fluent, excellent, very good or business-fluent German requirements;
+- postings older than the configured 120-day maximum;
 - mandatory eight-plus years, citizenship, or active-clearance requirements;
 - non-cyber titles that merely mention security in their descriptions;
 - physical security, academic teaching, generic developer/data roles, and similar false positives.
@@ -234,15 +249,15 @@ Already-applied, interviewed, rejected, ghosted, withdrawn, offered, and skipped
 
 ## Safe update and Git commands
 
-Follow `VERSION_2_0_UPDATE.md`. The update must preserve `data/jobs.json`, `data/seen_jobs.json`, `data/job_history.json`, `data/applications.json`, and existing report archives.
+For Scoring v2.1, follow `VERSION_2_1_UPDATE.md`. The update must preserve `data/jobs.json`, `data/seen_jobs.json`, `data/job_history.json`, `data/applications.json`, and existing report archives.
 
 After copying the v2 files:
 
 ```powershell
 python -m unittest discover -s tests -v
 git status
-git add .github config src tests README.md CHATGPT_ANALYSIS_PROMPT.md VERSION_2_0_UPDATE.md
-git commit -m "feat: add profile scoring v2 and expanded ATS analytics"
+git add config src tests README.md VERSION_2_1_UPDATE.md
+git commit -m "fix: improve language age gap and duplicate scoring"
 git pull --rebase origin main
 git push
 ```

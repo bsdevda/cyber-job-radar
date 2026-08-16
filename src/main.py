@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Any
 
 from .analysis import (
+    analyze_posting_age,
     analyze_skill_requirements,
     detect_german_requirement,
     detect_skills,
@@ -43,7 +44,13 @@ from .utils import HttpClient, iso_now, load_json, normalize_text, write_json_at
 LOGGER = logging.getLogger("cyber_job_radar")
 
 
-def run(project_root: Path, fixture_dir: Path | None = None, no_archive: bool = False) -> dict[str, Any]:
+def run(
+    project_root: Path,
+    fixture_dir: Path | None = None,
+    no_archive: bool = False,
+    generated_at_override: str | None = None,
+) -> dict[str, Any]:
+    generated_at = generated_at_override or iso_now()
     search_config = load_json(project_root / "config/search_config.json")
     profile = load_json(project_root / "config/candidate_profile.json")
     sources_config = load_json(project_root / "config/sources.json")
@@ -86,7 +93,7 @@ def run(project_root: Path, fixture_dir: Path | None = None, no_archive: bool = 
         time.perf_counter() - phase_started,
     )
     phase_started = time.perf_counter()
-    deduped = deduplicate_jobs(normalized)
+    deduped = deduplicate_jobs(normalized, search_config)
     duplicate_count = len(normalized) - len(deduped)
     LOGGER.info(
         "Deduplicated to %d posting(s) in %.1fs",
@@ -121,6 +128,9 @@ def run(project_root: Path, fixture_dir: Path | None = None, no_archive: bool = 
         job["german_requirement"] = german["label"]
         job["experience_analysis"] = experience
         job["experience_required"] = experience["display"] if experience else None
+        job["posting_age_analysis"] = analyze_posting_age(
+            job.get("published_at", ""), generated_at
+        )
         job["seniority_analysis"] = classify_seniority(job["title"])
         job["location_analysis"] = assess_location(job, search_config)
         allowed, reasons = hard_filter(job, search_config)
@@ -170,7 +180,7 @@ def run(project_root: Path, fixture_dir: Path | None = None, no_archive: bool = 
         time.perf_counter() - phase_started,
     )
 
-    now = iso_now()
+    now = generated_at
     data_dir = project_root / "data"
     previous_jobs = load_json(data_dir / "jobs.json", [])
     seen = load_json(data_dir / "seen_jobs.json", {})

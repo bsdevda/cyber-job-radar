@@ -1,9 +1,9 @@
 from __future__ import annotations
 
 from collections import Counter
-from datetime import UTC, datetime
 from typing import Any
 
+from .analysis import analyze_posting_age
 from .scoring import recommendation
 
 
@@ -220,7 +220,11 @@ def render_markdown(payload: dict[str, Any], config: dict[str, Any]) -> str:
 
 
 def _compact_job(job: dict[str, Any], number: int, generated_at: str) -> dict[str, Any]:
-    age, urgency = posting_age(job.get("published_at", ""), generated_at)
+    age_analysis = job.get("posting_age_analysis") or analyze_posting_age(
+        job.get("published_at", ""), generated_at
+    )
+    age = age_analysis.get("age_days")
+    urgency = age_analysis.get("label", "POSTING DATE UNKNOWN")
     return {
         "report_number": number,
         "job_key": job["job_key"],
@@ -247,6 +251,7 @@ def _compact_job(job: dict[str, Any], number: int, generated_at: str) -> dict[st
         "priority_employer": bool(job.get("priority_employer")),
         "published_at": job.get("published_at"),
         "posting_age_days": age,
+        "posting_age_analysis": age_analysis,
         "urgency": urgency,
         "first_seen": job.get("first_seen"),
         "experience_required": job.get("experience_required"),
@@ -320,23 +325,8 @@ def working_model(job: dict[str, Any]) -> str:
 
 
 def posting_age(published_at: str, generated_at: str) -> tuple[int | None, str]:
-    try:
-        published = datetime.fromisoformat(published_at.replace("Z", "+00:00"))
-        generated = datetime.fromisoformat(generated_at.replace("Z", "+00:00"))
-        if published.tzinfo is None:
-            published = published.replace(tzinfo=UTC)
-        if generated.tzinfo is None:
-            generated = generated.replace(tzinfo=UTC)
-        age = max(0, (generated - published).days)
-    except (ValueError, TypeError, AttributeError):
-        return None, "POSTING DATE UNKNOWN"
-    if age <= 2:
-        return age, "NEW - APPLY QUICKLY"
-    if age <= 7:
-        return age, "RECENT"
-    if age <= 30:
-        return age, "OPEN FOR REVIEW"
-    return age, "OLDER POSTING - VERIFY ACTIVE"
+    analysis = analyze_posting_age(published_at, generated_at)
+    return analysis.get("age_days"), analysis.get("label", "POSTING DATE UNKNOWN")
 
 
 def _description_excerpt(description: str, limit: int = 1200) -> str:

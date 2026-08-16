@@ -1,28 +1,42 @@
 from __future__ import annotations
 
 import re
+from datetime import UTC, datetime
 from typing import Any
 
 from .utils import normalize_text
 
 
 OPTIONAL_MARKERS = (
-    "nice to have", "preferred", "preferably", "a plus", "bonus", "advantageous",
+    "nice to have", "nice-to-have", "preferred", "preferably", "a plus", "bonus", "advantageous",
     "beneficial", "desirable", "optional", "von vorteil", "wünschenswert",
 )
 MANDATORY_MARKERS = (
     "required", "must", "mandatory", "minimum", "at least", "proficiency",
-    "fluent", "excellent", "business fluent", "zwingend", "voraussetzung",
+    "fluency", "fluent", "excellent", "very good", "business fluent",
+    "professional proficiency", "working language", "zwingend", "voraussetzung",
     "mindestens", "verhandlungssicher", "sehr gute", "fließend",
+)
+ADVANCED_LANGUAGE_MARKERS = (
+    "fluency", "fluent", "excellent", "very good", "business fluent",
+    "professional proficiency", "verhandlungssicher", "sehr gute", "fließend",
 )
 SKILL_REQUIREMENT_MARKERS = MANDATORY_MARKERS + (
     "proven experience", "hands-on experience", "strong experience", "expertise in",
-    "strong knowledge", "solid knowledge", "you have", "you bring",
+    "strong knowledge", "solid knowledge", "practical knowledge", "familiarity with",
+    "knowledge of", "experience with", "experience in", "several years", "you have",
+    "you bring", "you can", "comfortable with", "proficient in", "advanced skills",
+    "mehrjährige", "fundierte", "fortgeschrittene", "ausgeprägt", "du hast",
+    "du bringst", "verfügst über", "erfahrung mit", "erfahrung in", "kenntnisse in",
 )
 
 
 def sentences(text: str) -> list[str]:
-    return [part.strip() for part in re.split(r"(?<=[.!?])\s+|[\r\n]+|[•●▪]", text) if part.strip()]
+    return [
+        part.strip()
+        for part in re.split(r"(?<=[.!?])\s+|;\s+|[\r\n]+|[•●▪]", text)
+        if part.strip()
+    ]
 
 
 def is_optional_context(text: str) -> bool:
@@ -30,13 +44,61 @@ def is_optional_context(text: str) -> bool:
     return any(marker in lowered for marker in OPTIONAL_MARKERS)
 
 
+def sentence_contexts(text: str) -> list[tuple[str, bool]]:
+    """Return sentences with optional-section state propagated from nearby headings."""
+    optional_section = False
+    result: list[tuple[str, bool]] = []
+    optional_headings = (
+        "nice to have", "nice-to-have", "preferred qualifications",
+        "optional qualifications", "bonus qualifications", "wünschenswert",
+        "von vorteil",
+    )
+    reset_headings = (
+        "what you will need", "who you are", "requirements", "qualifications",
+        "your profile", "dein profil", "womit du überzeugst", "must have",
+        "what you will do", "responsibilities", "aufgaben", "deine aufgaben",
+        "what we offer", "benefits", "warum zu uns",
+    )
+    for sentence in sentences(text):
+        normalized = normalize_text(sentence).strip(" :-")
+        if len(normalized) <= 80 and any(
+            normalized == heading or normalized.startswith(heading + " ")
+            for heading in optional_headings
+        ):
+            optional_section = True
+            result.append((sentence, True))
+            continue
+        if len(normalized) <= 80 and any(
+            normalized == heading or normalized.startswith(heading + " ")
+            for heading in reset_headings
+        ):
+            optional_section = False
+            result.append((sentence, False))
+            continue
+        result.append((sentence, optional_section))
+    return result
+
+
 def detect_german_requirement(description: str) -> dict[str, Any]:
     candidates = [
         sentence for sentence in sentences(description)
-        if re.search(r"\b(german|deutsch(?:e|en|er|es)?|deutschkenntnisse)\b", normalize_text(sentence))
+        if _contains_german_language_reference(sentence)
     ]
     best: dict[str, Any] | None = None
-    rank = {"none": 0, "nice": 1, "unspecified": 2, "B1": 3, "B2": 4, "C1": 5, "C2": 6, "native": 7}
+    rank = {
+        "none": 0,
+        "nice": 1,
+        "unspecified": 2,
+        "A1": 3,
+        "A2": 4,
+        "B1": 5,
+        "required": 6,
+        "B2": 7,
+        "advanced": 8,
+        "C1": 9,
+        "C2": 10,
+        "native": 11,
+    }
     for sentence in candidates:
         lowered = normalize_text(sentence)
         optional = is_optional_context(lowered)
@@ -49,13 +111,26 @@ def detect_german_requirement(description: str) -> dict[str, Any]:
         if optional:
             category = "nice"
             label = f"German {level} is preferred/nice-to-have" if level != "unspecified" else "German is preferred/nice-to-have"
-        elif mandatory or level in {"B1", "B2", "C1", "C2", "native"}:
+        elif level in {"A1", "A2", "B1", "B2", "C1", "C2", "native"}:
             category = level
             label = f"German {level} required" if level != "native" else "Native German required"
+        elif any(marker in lowered for marker in ADVANCED_LANGUAGE_MARKERS):
+            category = "advanced"
+            level = "advanced"
+            label = "Advanced/fluent German required"
+        elif mandatory:
+            category = "required"
+            label = "German proficiency required (level not stated)"
         else:
             category = "unspecified"
             label = "German requested; level/strictness unclear"
-        item = {"category": category, "level": level, "mandatory": not optional and category != "unspecified", "label": label, "evidence": sentence[:240]}
+        item = {
+            "category": category,
+            "level": level,
+            "mandatory": not optional and category not in {"unspecified", "nice"},
+            "label": label,
+            "evidence": sentence[:240],
+        }
         if best is None or rank[category] > rank[best["category"]]:
             best = item
     if best:
@@ -69,6 +144,51 @@ def detect_german_requirement(description: str) -> dict[str, Any]:
             "evidence": "The vacancy text is predominantly German.",
         }
     return {"category": "none", "level": "none", "mandatory": False, "label": "No German requirement detected", "evidence": ""}
+
+
+def _contains_german_language_reference(sentence: str) -> bool:
+    """Detect language requirements without treating German company names as language evidence."""
+    lowered = normalize_text(sentence)
+    if re.search(r"\bgerman\b", lowered):
+        return True
+    if re.search(r"\bdeutsch(?:kenntnisse|sprachig|sprache)\b", lowered):
+        return True
+    if re.search(r"\bdeutsche\s+(?:sprache|sprachkenntnisse)\b", lowered):
+        return True
+    return bool(re.search(r"\b(?:auf\s+)?deutsch\b", lowered))
+
+
+def analyze_posting_age(published_at: str, reference_at: str) -> dict[str, Any]:
+    """Return deterministic posting-age evidence for filtering, scoring, and reports."""
+    try:
+        published = datetime.fromisoformat(str(published_at).replace("Z", "+00:00"))
+        reference = datetime.fromisoformat(str(reference_at).replace("Z", "+00:00"))
+        if published.tzinfo is None:
+            published = published.replace(tzinfo=UTC)
+        if reference.tzinfo is None:
+            reference = reference.replace(tzinfo=UTC)
+        age_days = max(0, (reference - published).days)
+    except (ValueError, TypeError, AttributeError):
+        return {
+            "known": False,
+            "age_days": None,
+            "category": "unknown",
+            "label": "POSTING DATE UNKNOWN",
+        }
+    if age_days <= 2:
+        category, label = "new", "NEW - APPLY QUICKLY"
+    elif age_days <= 7:
+        category, label = "recent", "RECENT"
+    elif age_days <= 30:
+        category, label = "current", "OPEN FOR REVIEW"
+    else:
+        category, label = "older", "OLDER POSTING - VERIFY ACTIVE"
+    return {
+        "known": True,
+        "age_days": age_days,
+        "category": category,
+        "label": label,
+    }
 
 
 def looks_mostly_german(text: str) -> bool:
@@ -112,15 +232,15 @@ def detect_skills(
     aliases: dict[str, list[str]],
     profile_status: dict[str, str],
 ) -> tuple[list[str], dict[str, list[str]]]:
-    text_sentences = sentences(description)
-    normalized_sentences = [normalize_text(sentence) for sentence in text_sentences]
+    contextual_sentences = sentence_contexts(description)
     categories: dict[str, list[str]] = {"match": [], "partial": [], "missing": [], "nice_to_have": []}
     detected: list[str] = []
     for skill, variants in aliases.items():
         occurrences: list[bool] = []
-        for sentence in normalized_sentences:
+        for raw_sentence, optional_section in contextual_sentences:
+            sentence = normalize_text(raw_sentence)
             if any(_contains_alias(sentence, alias) for alias in variants):
-                occurrences.append(is_optional_context(sentence))
+                occurrences.append(optional_section or is_optional_context(sentence))
         if not occurrences:
             continue
         detected.append(skill)
@@ -143,11 +263,11 @@ def analyze_skill_requirements(
     results: list[dict[str, Any]] = []
     for skill, variants in aliases.items():
         matches: list[tuple[str, str]] = []
-        for sentence in sentences(description):
+        for sentence, optional_section in sentence_contexts(description):
             normalized = normalize_text(sentence)
             if not any(_contains_alias(normalized, alias) for alias in variants):
                 continue
-            if is_optional_context(normalized):
+            if optional_section or is_optional_context(normalized):
                 requirement = "optional"
             elif any(marker in normalized for marker in SKILL_REQUIREMENT_MARKERS):
                 requirement = "mandatory"

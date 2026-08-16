@@ -34,8 +34,16 @@ def hard_filter(job: dict[str, Any], config: dict[str, Any]) -> tuple[bool, list
         reasons.append(location_analysis.get("reason", "Location is outside the target region"))
 
     german = job.get("german_analysis", {})
-    if german.get("mandatory") and german.get("category") in {"B2", "C1", "C2", "native"}:
+    if german.get("mandatory") and german.get("category") in {
+        "B2", "advanced", "C1", "C2", "native",
+    }:
         reasons.append(german.get("label", "German proficiency is above the current profile"))
+
+    posting_age = job.get("posting_age_analysis", {})
+    age_days = posting_age.get("age_days")
+    max_age = int(config.get("max_posting_age_days", 120))
+    if age_days is not None and int(age_days) > max_age:
+        reasons.append(f"Posting is too old: {age_days} days (maximum {max_age})")
 
     experience = job.get("experience_analysis")
     if experience and not experience.get("optional") and experience.get("min_years", 0) >= 8:

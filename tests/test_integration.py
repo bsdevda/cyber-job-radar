@@ -55,7 +55,12 @@ class IntegrationTests(unittest.TestCase):
             target = Path(temp_directory)
             prepare_isolated_project(target)
             with patch("src.main.detect_skills", wraps=detect_skills) as skill_scan:
-                payload = run(target, ROOT / "tests/fixtures", no_archive=False)
+                payload = run(
+                    target,
+                    ROOT / "tests/fixtures",
+                    no_archive=False,
+                    generated_at_override="2026-08-15T12:00:00Z",
+                )
             self.assertEqual(payload["summary"]["jobs_collected"], 5)
             self.assertEqual(payload["summary"]["relevant_jobs_in_current_run"], 2)
             self.assertEqual(payload["summary"]["new_jobs"], 2)
@@ -87,7 +92,12 @@ class IntegrationTests(unittest.TestCase):
                 json.dumps(companies, indent=2) + "\n", encoding="utf-8"
             )
 
-            payload = run(target, ROOT / "tests/fixtures", no_archive=True)
+            payload = run(
+                target,
+                ROOT / "tests/fixtures",
+                no_archive=True,
+                generated_at_override="2026-08-15T12:00:00Z",
+            )
             self.assertEqual(payload["summary"]["jobs_collected"], 6)
             self.assertEqual(payload["source_status"]["greenhouse"]["status"], "ok")
             self.assertEqual(payload["source_status"]["greenhouse"]["jobs"], 1)
@@ -128,7 +138,12 @@ class IntegrationTests(unittest.TestCase):
                 json.dumps(companies, indent=2) + "\n", encoding="utf-8"
             )
 
-            payload = run(target, ROOT / "tests/fixtures", no_archive=True)
+            payload = run(
+                target,
+                ROOT / "tests/fixtures",
+                no_archive=True,
+                generated_at_override="2026-08-15T12:00:00Z",
+            )
             self.assertEqual(payload["summary"]["jobs_collected"], 8)
             for source in ("ashby", "lever", "personio"):
                 self.assertEqual(payload["source_status"][source]["status"], "ok")
@@ -153,7 +168,12 @@ class IntegrationTests(unittest.TestCase):
             prepare_isolated_project(target)
             fixtures.mkdir()
             shutil.copy(ROOT / "tests/fixtures/arbeitnow.json", fixtures / "arbeitnow.json")
-            payload = run(target, fixtures, no_archive=True)
+            payload = run(
+                target,
+                fixtures,
+                no_archive=True,
+                generated_at_override="2026-08-15T12:00:00Z",
+            )
             self.assertTrue(payload["source_status"]["arbeitnow"]["ok"])
             self.assertFalse(payload["source_status"]["remotive"]["ok"])
             self.assertEqual(payload["source_status"]["greenhouse"]["status"], "idle")
@@ -166,7 +186,12 @@ class IntegrationTests(unittest.TestCase):
             fixtures = Path(temp_directory) / "empty-fixtures"
             prepare_isolated_project(target)
             fixtures.mkdir()
-            payload = run(target, fixtures, no_archive=True)
+            payload = run(
+                target,
+                fixtures,
+                no_archive=True,
+                generated_at_override="2026-08-15T12:00:00Z",
+            )
             self.assertTrue(payload["all_sources_failed"])
             self.assertEqual(payload["source_status"]["arbeitnow"]["status"], "failed")
             self.assertEqual(payload["source_status"]["remotive"]["status"], "failed")

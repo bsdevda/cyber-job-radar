@@ -27,7 +27,7 @@ def score_job(job: dict[str, Any], config: dict[str, Any], profile: dict[str, An
         "education": _education_score(job),
     }
     raw_score = max(0, min(100, sum(breakdown.values())))
-    caps = _score_caps(job)
+    caps = _score_caps(job, config)
     cap = min((item["cap"] for item in caps), default=100)
     score = min(raw_score, cap)
 
@@ -101,12 +101,16 @@ def _language_score(german: dict[str, Any]) -> int:
         return 10
     if category == "nice":
         return 9
+    if category in {"A1", "A2"}:
+        return 8
     if category == "B1":
         return 6
     if category == "B2":
         return 1
-    if category in {"C1", "C2", "native"}:
+    if category in {"advanced", "C1", "C2", "native"}:
         return 0
+    if category == "required":
+        return 2
     return 4
 
 
@@ -135,7 +139,7 @@ def _education_score(job: dict[str, Any]) -> int:
     return 3
 
 
-def _score_caps(job: dict[str, Any]) -> list[dict[str, Any]]:
+def _score_caps(job: dict[str, Any], config: dict[str, Any]) -> list[dict[str, Any]]:
     caps: list[dict[str, Any]] = []
     location_cap = job.get("location_analysis", {}).get("score_cap")
     if location_cap:
@@ -158,12 +162,26 @@ def _score_caps(job: dict[str, Any]) -> list[dict[str, Any]]:
     german = job.get("german_analysis", {})
     if german.get("mandatory") and german.get("category") == "B1":
         caps.append({"cap": 69, "reason": "German B1 is mandatory while the profile is currently A2"})
+    elif german.get("mandatory") and german.get("category") == "required":
+        caps.append({"cap": 59, "reason": "German is mandatory but the required level is not stated"})
 
     mandatory_gaps = job.get("mandatory_gaps", [])
-    if any(item.get("profile_status") == "missing" for item in mandatory_gaps):
-        caps.append({"cap": 69, "reason": "At least one explicitly mandatory skill is not evidenced"})
+    missing_mandatory = sum(
+        item.get("profile_status") == "missing" for item in mandatory_gaps
+    )
+    if missing_mandatory >= 2:
+        caps.append({"cap": 59, "reason": "Multiple explicitly mandatory skills are not evidenced"})
+    elif missing_mandatory == 1:
+        caps.append({"cap": 69, "reason": "One explicitly mandatory skill is not evidenced"})
     elif mandatory_gaps:
-        caps.append({"cap": 79, "reason": "At least one explicitly mandatory skill has exposure only"})
+        caps.append({"cap": 69, "reason": "At least one explicitly mandatory skill has exposure only"})
+
+    posting_age = job.get("posting_age_analysis", {})
+    age_days = posting_age.get("age_days")
+    if age_days is None:
+        caps.append({"cap": 79, "reason": "Posting date is unknown; verify that the vacancy is active"})
+    elif int(age_days) > int(config.get("stale_posting_score_cap_days", 60)):
+        caps.append({"cap": 69, "reason": f"Posting is {age_days} days old; verify that it is active"})
     return caps
 
 

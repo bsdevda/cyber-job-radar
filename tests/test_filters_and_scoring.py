@@ -4,7 +4,13 @@ import json
 import unittest
 from pathlib import Path
 
-from src.analysis import detect_german_requirement, detect_skills, extract_experience
+from src.analysis import (
+    analyze_posting_age,
+    analyze_skill_requirements,
+    detect_german_requirement,
+    detect_skills,
+    extract_experience,
+)
 from src.filters import hard_filter
 from src.normalize import normalize_job
 from src.scoring import SCORE_WEIGHTS, score_job
@@ -41,6 +47,16 @@ class FiltersAndScoringTests(unittest.TestCase):
         skills, matches = detect_skills(job["description"], self.config["skill_aliases"], self.profile["skill_status"])
         job["skills_detected"] = skills
         job["skill_matches"] = matches
+        requirements = analyze_skill_requirements(
+            job["description"], self.config["skill_aliases"], self.profile["skill_status"]
+        )
+        job["skill_requirements"] = requirements
+        job["mandatory_gaps"] = [
+            item
+            for item in requirements
+            if item["requirement"] == "mandatory"
+            and item["profile_status"] in {"partial", "missing"}
+        ]
         return job
 
     def test_rejects_principal_role(self) -> None:
@@ -120,6 +136,43 @@ class FiltersAndScoringTests(unittest.TestCase):
         allowed, reasons = hard_filter(job, self.config)
         self.assertFalse(allowed)
         self.assertTrue(any("Native German" in reason for reason in reasons))
+
+    def test_rejects_advanced_german_without_cefr_level(self) -> None:
+        job = self._job(
+            "Security Consultant",
+            "Fluency in German and English is required for client communication. Perform penetration testing.",
+        )
+        allowed, reasons = hard_filter(job, self.config)
+        self.assertFalse(allowed)
+        self.assertTrue(any("Advanced/fluent German" in reason for reason in reasons))
+
+    def test_rejects_stale_posting(self) -> None:
+        job = self._job(
+            "Application Security Engineer",
+            "Perform OWASP application security assessments.",
+        )
+        job["posting_age_analysis"] = analyze_posting_age(
+            "2025-01-01T00:00:00Z", "2026-08-15T00:00:00Z"
+        )
+        allowed, reasons = hard_filter(job, self.config)
+        self.assertFalse(allowed)
+        self.assertTrue(any("Posting is too old" in reason for reason in reasons))
+
+    def test_multiple_missing_mandatory_skills_are_capped_as_stretch(self) -> None:
+        job = self._job(
+            "Product Security Engineer",
+            "You have practical knowledge of Kubernetes and Terraform. "
+            "Perform OWASP application security testing and threat modeling.",
+        )
+        job["posting_age_analysis"] = analyze_posting_age(
+            "2026-08-14T00:00:00Z", "2026-08-15T00:00:00Z"
+        )
+        allowed, _ = hard_filter(job, self.config)
+        self.assertTrue(allowed)
+        score_job(job, self.config, self.profile)
+        self.assertEqual(job["score_cap"], 59)
+        self.assertGreaterEqual(job["score"], self.config["relevant_score"])
+        self.assertLess(job["score"], 60)
 
     def test_score_is_transparent_and_bounded(self) -> None:
         job = self._job(
