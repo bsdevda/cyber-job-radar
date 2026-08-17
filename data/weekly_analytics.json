@@ -1,10 +1,209 @@
 {
   "schema_version": 1,
-  "latest_week": "2026-08-10",
+  "latest_week": "2026-08-17",
   "snapshots": [
     {
       "week_start": "2026-08-10",
       "generated_at": "2026-08-16T23:38:52Z",
+      "active_relevant_jobs": 18,
+      "role_family_counts": {
+        "Security Engineering": 8,
+        "Product Security": 5,
+        "Application Security": 2,
+        "Cloud Security / DevSecOps": 2,
+        "IT Audit / GRC": 1
+      },
+      "score_bands": {
+        "60-69 review": 12,
+        "50-59 stretch": 6
+      },
+      "skill_gaps": {
+        "mandatory": [
+          {
+            "skill": "go",
+            "jobs": 5
+          },
+          {
+            "skill": "aws",
+            "jobs": 4
+          },
+          {
+            "skill": "git",
+            "jobs": 3
+          },
+          {
+            "skill": "bash",
+            "jobs": 3
+          },
+          {
+            "skill": "incident response",
+            "jobs": 3
+          },
+          {
+            "skill": "software development",
+            "jobs": 3
+          },
+          {
+            "skill": "rust",
+            "jobs": 3
+          },
+          {
+            "skill": "nist",
+            "jobs": 2
+          },
+          {
+            "skill": "siem",
+            "jobs": 2
+          },
+          {
+            "skill": "ci/cd",
+            "jobs": 2
+          },
+          {
+            "skill": "cloud security",
+            "jobs": 2
+          },
+          {
+            "skill": "kubernetes",
+            "jobs": 2
+          }
+        ],
+        "potential": [
+          {
+            "skill": "rust",
+            "jobs": 9
+          },
+          {
+            "skill": "bug bounty",
+            "jobs": 5
+          },
+          {
+            "skill": "go",
+            "jobs": 3
+          },
+          {
+            "skill": "iso 27001",
+            "jobs": 3
+          },
+          {
+            "skill": "vulnerability disclosure program",
+            "jobs": 3
+          },
+          {
+            "skill": "azure",
+            "jobs": 2
+          },
+          {
+            "skill": "gdpr",
+            "jobs": 1
+          },
+          {
+            "skill": "infrastructure as code",
+            "jobs": 1
+          },
+          {
+            "skill": "kubernetes",
+            "jobs": 1
+          },
+          {
+            "skill": "edr",
+            "jobs": 1
+          }
+        ],
+        "optional": [
+          {
+            "skill": "go",
+            "jobs": 2
+          },
+          {
+            "skill": "javascript",
+            "jobs": 2
+          },
+          {
+            "skill": "rust",
+            "jobs": 1
+          },
+          {
+            "skill": "kubernetes",
+            "jobs": 1
+          },
+          {
+            "skill": "terraform",
+            "jobs": 1
+          },
+          {
+            "skill": "incident response",
+            "jobs": 1
+          }
+        ],
+        "partial_exposure": [
+          {
+            "skill": "incident response",
+            "jobs": 9
+          },
+          {
+            "skill": "software development",
+            "jobs": 7
+          },
+          {
+            "skill": "cloud security",
+            "jobs": 6
+          },
+          {
+            "skill": "aws",
+            "jobs": 6
+          },
+          {
+            "skill": "javascript",
+            "jobs": 6
+          },
+          {
+            "skill": "product security",
+            "jobs": 5
+          },
+          {
+            "skill": "nist",
+            "jobs": 4
+          },
+          {
+            "skill": "ci/cd",
+            "jobs": 4
+          },
+          {
+            "skill": "devsecops",
+            "jobs": 3
+          },
+          {
+            "skill": "git",
+            "jobs": 3
+          },
+          {
+            "skill": "siem",
+            "jobs": 2
+          },
+          {
+            "skill": "network security",
+            "jobs": 2
+          }
+        ]
+      },
+      "application_funnel": {
+        "tracked_records": 0,
+        "status_counts": {},
+        "applications_submitted": 0,
+        "responses_or_screens": 0,
+        "interviews": 0,
+        "offers": 0,
+        "response_rate_percent": 0.0,
+        "interview_rate_percent": 0.0,
+        "offer_rate_percent": 0.0,
+        "by_radar_recommendation": {},
+        "by_cv_version": {}
+      }
+    },
+    {
+      "week_start": "2026-08-17",
+      "generated_at": "2026-08-17T01:28:00Z",
       "active_relevant_jobs": 18,
       "role_family_counts": {
         "Security Engineering": 8,
