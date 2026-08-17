@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T01:28:00Z",
+  "generated_at": "2026-08-17T06:00:43Z",
   "all_sources_failed": false,
   "sources": {
     "arbeitnow": {
@@ -29,7 +29,7 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 5781,
+      "jobs": 5773,
       "requests": 51,
       "errors": [],
       "error": "",
@@ -40,7 +40,7 @@
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 384,
+      "jobs": 385,
       "requests": 10,
       "errors": [],
       "error": "",
@@ -84,7 +84,7 @@
   },
   "employer_scan": {
     "mode": "daily",
-    "generated_at": "2026-08-17T01:28:00Z",
+    "generated_at": "2026-08-17T06:00:43Z",
     "sources": {
       "greenhouse": {
         "source": "greenhouse",

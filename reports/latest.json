@@ -1,18 +1,18 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-17T01:28:00Z",
+  "generated_at": "2026-08-17T06:00:43Z",
   "summary": {
-    "generated_at": "2026-08-17T01:28:00Z",
+    "generated_at": "2026-08-17T06:00:43Z",
     "scoring_version": 2.1,
-    "jobs_collected": 7258,
-    "security_title_candidates": 265,
-    "prefiltered_non_security_jobs": 6993,
-    "unique_jobs_after_deduplication": 191,
+    "jobs_collected": 7251,
+    "security_title_candidates": 264,
+    "prefiltered_non_security_jobs": 6987,
+    "unique_jobs_after_deduplication": 190,
     "duplicates_removed": 74,
-    "jobs_rejected_or_below_threshold": 7166,
+    "jobs_rejected_or_below_threshold": 7159,
     "relevant_jobs_in_current_run": 18,
     "new_jobs": 0,
-    "updated_jobs": 0,
+    "updated_jobs": 1,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
@@ -22,15 +22,15 @@
       "arbeitnow": 875,
       "remotive": 14,
       "linkedin_posts": 0,
-      "greenhouse": 5781,
-      "ashby": 384,
+      "greenhouse": 5773,
+      "ashby": 385,
       "lever": 42,
       "personio": 162,
       "recruitee": 0
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
-    "workflow_duration_seconds": 25.1
+    "workflow_duration_seconds": 29.0
   },
   "jobs": [
     {
@@ -2229,10 +2229,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-04T05:04:47Z",
-      "posting_age_days": 12,
+      "posting_age_days": 13,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 12,
+        "age_days": 13,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2312,10 +2312,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-04T05:04:45Z",
-      "posting_age_days": 12,
+      "posting_age_days": 13,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 12,
+        "age_days": 13,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -3983,7 +3983,7 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 5781,
+      "jobs": 5773,
       "requests": 51,
       "errors": [],
       "error": "",
@@ -3994,7 +3994,7 @@
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 384,
+      "jobs": 385,
       "requests": 10,
       "errors": [],
       "error": "",
@@ -4039,7 +4039,7 @@
   "all_sources_failed": false,
   "employer_scan": {
     "mode": "daily",
-    "generated_at": "2026-08-17T01:28:00Z",
+    "generated_at": "2026-08-17T06:00:43Z",
     "sources": {
       "greenhouse": {
         "source": "greenhouse",
@@ -4244,7 +4244,7 @@
     }
   },
   "rejection_summary": {
-    "The vacancy is restricted to a country/region outside the Germany or Europe-remote target": 107,
+    "The vacancy is restricted to a country/region outside the Germany or Europe-remote target": 106,
     "On-site location is outside Germany or cannot be confirmed as Germany": 26,
     "Excluded seniority in title: Management": 24,
     "Advanced/fluent German required": 24,

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T01:28:00Z",
+  "generated_at": "2026-08-17T06:00:43Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -165,17 +165,17 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-08-17T01:28:00Z",
+    "generated_at": "2026-08-17T06:00:43Z",
     "scoring_version": 2.1,
-    "jobs_collected": 7258,
-    "security_title_candidates": 265,
-    "prefiltered_non_security_jobs": 6993,
-    "unique_jobs_after_deduplication": 191,
+    "jobs_collected": 7251,
+    "security_title_candidates": 264,
+    "prefiltered_non_security_jobs": 6987,
+    "unique_jobs_after_deduplication": 190,
     "duplicates_removed": 74,
-    "jobs_rejected_or_below_threshold": 7166,
+    "jobs_rejected_or_below_threshold": 7159,
     "relevant_jobs_in_current_run": 18,
     "new_jobs": 0,
-    "updated_jobs": 0,
+    "updated_jobs": 1,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
@@ -185,15 +185,15 @@
       "arbeitnow": 875,
       "remotive": 14,
       "linkedin_posts": 0,
-      "greenhouse": 5781,
-      "ashby": 384,
+      "greenhouse": 5773,
+      "ashby": 385,
       "lever": 42,
       "personio": 162,
       "recruitee": 0
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
-    "workflow_duration_seconds": 25.1
+    "workflow_duration_seconds": 29.0
   },
   "source_status": {
     "arbeitnow": {
@@ -223,7 +223,7 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 5781,
+      "jobs": 5773,
       "requests": 51,
       "errors": [],
       "error": "",
@@ -234,7 +234,7 @@
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 384,
+      "jobs": 385,
       "requests": 10,
       "errors": [],
       "error": "",

@@ -2,12 +2,12 @@
 
 **Date:** 2026-08-17
 **Scoring model:** v2.1
-**Raw postings collected:** 7258
-**Security-title candidates:** 265
-**Non-security titles skipped early:** 6993
-**Unique jobs after deduplication:** 191
+**Raw postings collected:** 7251
+**Security-title candidates:** 264
+**Non-security titles skipped early:** 6987
+**Unique jobs after deduplication:** 190
 **New jobs:** 0
-**Updated jobs:** 0
+**Updated jobs:** 1
 **Relevant jobs:** 18
 **Strong matches:** 0
 **Sources checked:** 8
@@ -21,8 +21,8 @@
 - **Arbeitnow:** 875
 - **Remotive:** 14
 - **Linkedin_Posts:** 0
-- **Greenhouse:** 5781
-- **Ashby:** 384
+- **Greenhouse:** 5773
+- **Ashby:** 385
 - **Lever:** 42
 - **Personio:** 162
 - **Recruitee:** 0
@@ -2004,8 +2004,8 @@ Displayed **50** ranked active jobs in this page (configured maximum: 50).
 - ✅ **Arbeitnow** — 875 jobs
 - ✅ **Remotive** — 14 jobs
 - ✅ **Linkedin_Posts** — 0 jobs
-- ✅ **Greenhouse** — 51/51 companies successful, 5781 jobs
-- ✅ **Ashby** — 10/10 companies successful, 384 jobs
+- ✅ **Greenhouse** — 51/51 companies successful, 5773 jobs
+- ✅ **Ashby** — 10/10 companies successful, 385 jobs
 - ✅ **Lever** — 2/2 companies successful, 42 jobs
 - ✅ **Personio** — 3/3 companies successful, 162 jobs
 - ◻️ **Recruitee** — no enabled companies

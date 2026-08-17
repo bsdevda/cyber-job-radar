@@ -1,6 +1,6 @@
 # Employer Watchlist Health
 
-**Generated:** 2026-08-17T01:28:00Z
+**Generated:** 2026-08-17T06:00:43Z
 **Scan mode:** Daily
 **Configured employers:** 200
 **Healthy after a completed check:** 193
