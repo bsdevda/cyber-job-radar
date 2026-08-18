@@ -109,9 +109,9 @@
   },
   "5afeef04575b90f06129": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-17T06:00:43Z",
+    "last_seen": "2026-08-18T05:54:58Z",
     "content_hash": "babf67be4dcef253b730e2e6465e19c408c85402122aee09ba294356cd35b139",
-    "status": "UPDATED",
+    "status": "SEEN_BEFORE",
     "company": "Escape",
     "title": "Security Advocate | AI AppSec",
     "url": "https://www.arbeitnow.com/jobs/companies/escape/remote-security-advocate-ai-appsec-150685"
@@ -208,7 +208,7 @@
   },
   "521c71dc83dfa3787db3": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-17T06:00:43Z",
+    "last_seen": "2026-08-18T05:54:58Z",
     "content_hash": "2c040214033ea8916a3acfc5d53099f7b45d4e07ed4a37d2804853d325041e92",
     "status": "SEEN_BEFORE",
     "company": "Staffbase",
@@ -253,7 +253,7 @@
   },
   "029b986949e1ae352ed4": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-17T06:00:43Z",
+    "last_seen": "2026-08-18T05:54:58Z",
     "content_hash": "d249d9c5da8a8b00c9c09aa4d6a8b3a6fbf8115e8a82a33fad91d4008f250374",
     "status": "SEEN_BEFORE",
     "company": "ClickHouse",
@@ -307,7 +307,7 @@
   },
   "f24ae651382ec38ce5f1": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-17T06:00:43Z",
+    "last_seen": "2026-08-18T05:54:58Z",
     "content_hash": "2493e1bbda6144c593da430a5963a55bbf416b949f9764325e3b3ad79429a3c5",
     "status": "SEEN_BEFORE",
     "company": "Gallup",
@@ -352,7 +352,7 @@
   },
   "56eecec8066af79a0fb0": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-17T06:00:43Z",
+    "last_seen": "2026-08-18T05:54:58Z",
     "content_hash": "eee08ced90cb8b7b695aafeab6401645e42b56acb818c45756e2a40496aa6ec8",
     "status": "SEEN_BEFORE",
     "company": "MOIA",
@@ -361,7 +361,7 @@
   },
   "c1ab5b22feaa0afc7ed6": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-17T06:00:43Z",
+    "last_seen": "2026-08-18T05:54:58Z",
     "content_hash": "ff0a297c70e882820361d76e2dfe4d8dffff80350bded7aaf94a14eee926d75d",
     "status": "SEEN_BEFORE",
     "company": "Vercel",
@@ -370,7 +370,7 @@
   },
   "59039a1f42a8c045cc25": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-17T06:00:43Z",
+    "last_seen": "2026-08-18T05:54:58Z",
     "content_hash": "ff65e1102d22b95c32dc726b77869ff74a3e37aef547bf9ae631170d231bb36d",
     "status": "SEEN_BEFORE",
     "company": "Vercel",
@@ -388,7 +388,7 @@
   },
   "8284e91e3afc1425ab11": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-17T06:00:43Z",
+    "last_seen": "2026-08-18T05:54:58Z",
     "content_hash": "d86efa2787c694e5fa37113af82e18e631aaf8b7eb19ffcf85182061a1463efc",
     "status": "SEEN_BEFORE",
     "company": "Vercel",
@@ -397,7 +397,7 @@
   },
   "9e8e071b253d6d6eb5ba": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-17T06:00:43Z",
+    "last_seen": "2026-08-18T05:54:58Z",
     "content_hash": "d54beb7630dc614f4b931f6f8b585d7525c88ba5e97893ac630e2ad3ec795c7a",
     "status": "SEEN_BEFORE",
     "company": "Vercel",
@@ -460,7 +460,7 @@
   },
   "9ba7cf301be480a6ff9f": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-17T06:00:43Z",
+    "last_seen": "2026-08-18T05:54:58Z",
     "content_hash": "695565afccbc0ea27aed88980573bdd4151d8c3a3fd8cfff9885244f400ab84b",
     "status": "SEEN_BEFORE",
     "company": "NavVis",
@@ -3214,7 +3214,7 @@
   },
   "adf40ac5904cb1b075ac": {
     "first_seen": "2026-08-15T17:01:09Z",
-    "last_seen": "2026-08-17T06:00:43Z",
+    "last_seen": "2026-08-18T05:54:58Z",
     "content_hash": "fdc07b8c262c0d6b03f79b0bc6a594d0ceac4957ce1a1340c1b0a8bf86a9fc32",
     "status": "SEEN_BEFORE",
     "company": "Qdrant",
@@ -3367,7 +3367,7 @@
   },
   "4b12159b141a28bc94e7": {
     "first_seen": "2026-08-15T17:01:09Z",
-    "last_seen": "2026-08-17T06:00:43Z",
+    "last_seen": "2026-08-18T05:54:58Z",
     "content_hash": "384bc5eb613a9fc1fac3df76b8ad496ccb946ecfdf6e87e7d55bc43cf2d997da",
     "status": "SEEN_BEFORE",
     "company": "KNIME GmbH",
@@ -3385,7 +3385,7 @@
   },
   "b420e12f1f07d8e20c57": {
     "first_seen": "2026-08-16T17:17:56Z",
-    "last_seen": "2026-08-17T06:00:43Z",
+    "last_seen": "2026-08-18T05:54:58Z",
     "content_hash": "9dda02a34f6e93154b6a916a70218da610d414b0a1b5a092eb1fe44a4e12aeef",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3394,7 +3394,7 @@
   },
   "caa220d352ded536fb49": {
     "first_seen": "2026-08-16T17:17:56Z",
-    "last_seen": "2026-08-17T06:00:43Z",
+    "last_seen": "2026-08-18T05:54:58Z",
     "content_hash": "76a30194c6fe0b2976dc191b01042620d06cc236fdbe7f4c61ef55ec2fac548e",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3403,7 +3403,7 @@
   },
   "86705e70d7803af16172": {
     "first_seen": "2026-08-16T17:17:56Z",
-    "last_seen": "2026-08-17T06:00:43Z",
+    "last_seen": "2026-08-18T05:54:58Z",
     "content_hash": "c73e28a96e6e3939953771f1d4d0b9958738832150c021895e03f233bab33dcf",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3412,7 +3412,7 @@
   },
   "61f504a1b399ea41dd23": {
     "first_seen": "2026-08-16T21:45:22Z",
-    "last_seen": "2026-08-17T06:00:43Z",
+    "last_seen": "2026-08-18T05:54:58Z",
     "content_hash": "8910bc323cf61434de813cf2d5ca414d24377df0d51739e086b4e2962bd0a1a9",
     "status": "SEEN_BEFORE",
     "company": "HelloFresh",
@@ -3421,7 +3421,7 @@
   },
   "1f74892653c6467e49ca": {
     "first_seen": "2026-08-16T21:45:22Z",
-    "last_seen": "2026-08-17T06:00:43Z",
+    "last_seen": "2026-08-18T05:54:58Z",
     "content_hash": "fad2549be74af53a6045a50e41f26d99a64250d8c199fbd448c5cf1d8498fece",
     "status": "SEEN_BEFORE",
     "company": "N26",
@@ -3430,7 +3430,7 @@
   },
   "ba170f4eb78d3dff47c8": {
     "first_seen": "2026-08-16T21:45:22Z",
-    "last_seen": "2026-08-17T06:00:43Z",
+    "last_seen": "2026-08-18T05:54:58Z",
     "content_hash": "fd3dbdfd32e0e79b830856a08e42dc758465b83b194d5cdfc0d915e4d14efa1c",
     "status": "SEEN_BEFORE",
     "company": "N26",
