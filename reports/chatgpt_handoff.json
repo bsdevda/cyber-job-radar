@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-18T05:54:58Z",
+  "generated_at": "2026-08-19T05:56:21Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -165,16 +165,16 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-08-18T05:54:58Z",
+    "generated_at": "2026-08-19T05:56:21Z",
     "scoring_version": 2.1,
-    "jobs_collected": 6231,
-    "security_title_candidates": 206,
-    "prefiltered_non_security_jobs": 6025,
-    "unique_jobs_after_deduplication": 144,
-    "duplicates_removed": 62,
-    "jobs_rejected_or_below_threshold": 6151,
-    "relevant_jobs_in_current_run": 18,
-    "new_jobs": 0,
+    "jobs_collected": 8884,
+    "security_title_candidates": 291,
+    "prefiltered_non_security_jobs": 8593,
+    "unique_jobs_after_deduplication": 223,
+    "duplicates_removed": 68,
+    "jobs_rejected_or_below_threshold": 8793,
+    "relevant_jobs_in_current_run": 23,
+    "new_jobs": 5,
     "updated_jobs": 0,
     "strong_matches": 0,
     "sources_checked": 8,
@@ -182,24 +182,24 @@
     "sources_partial": 0,
     "report_jobs": 50,
     "jobs_by_source": {
-      "arbeitnow": 951,
-      "remotive": 16,
+      "arbeitnow": 950,
+      "remotive": 17,
       "linkedin_posts": 0,
-      "greenhouse": 4747,
-      "ashby": 231,
-      "lever": 117,
-      "personio": 169,
-      "recruitee": 0
+      "greenhouse": 6574,
+      "ashby": 242,
+      "lever": 936,
+      "personio": 162,
+      "recruitee": 3
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
-    "workflow_duration_seconds": 23.9
+    "workflow_duration_seconds": 29.2
   },
   "source_status": {
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 951,
+      "jobs": 950,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -207,7 +207,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 16,
+      "jobs": 17,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -223,40 +223,29 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 4747,
-      "requests": 65,
+      "jobs": 6574,
+      "requests": 71,
       "errors": [],
       "error": "",
-      "companies_checked": 65,
-      "companies_successful": 65,
+      "companies_checked": 71,
+      "companies_successful": 71,
       "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 231,
-      "requests": 8,
+      "jobs": 242,
+      "requests": 9,
       "errors": [],
       "error": "",
-      "companies_checked": 8,
-      "companies_successful": 8,
+      "companies_checked": 9,
+      "companies_successful": 9,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 117,
-      "requests": 3,
-      "errors": [],
-      "error": "",
-      "companies_checked": 3,
-      "companies_successful": 3,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 169,
+      "jobs": 936,
       "requests": 4,
       "errors": [],
       "error": "",
@@ -264,15 +253,26 @@
       "companies_successful": 4,
       "companies_failed": 0
     },
-    "recruitee": {
-      "status": "idle",
+    "personio": {
+      "status": "ok",
       "ok": true,
-      "jobs": 0,
-      "requests": 0,
+      "jobs": 162,
+      "requests": 3,
       "errors": [],
       "error": "",
-      "companies_checked": 0,
-      "companies_successful": 0,
+      "companies_checked": 3,
+      "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "recruitee": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 3,
+      "requests": 1,
+      "errors": [],
+      "error": "",
+      "companies_checked": 1,
+      "companies_successful": 1,
       "companies_failed": 0
     }
   },
@@ -307,10 +307,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-03T22:25:22Z",
-      "posting_age_days": 14,
+      "posting_age_days": 15,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 14,
+        "age_days": 15,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -393,10 +393,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-03T22:25:22Z",
-      "posting_age_days": 14,
+      "posting_age_days": 15,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 14,
+        "age_days": 15,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -482,10 +482,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T19:12:11Z",
-      "posting_age_days": 5,
+      "posting_age_days": 6,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 5,
+        "age_days": 6,
         "category": "recent",
         "label": "RECENT"
       },
@@ -576,10 +576,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-05-19T20:27:29Z",
-      "posting_age_days": 90,
+      "posting_age_days": 91,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 90,
+        "age_days": 91,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -681,10 +681,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-14T23:18:12Z",
-      "posting_age_days": 3,
+      "posting_age_days": 4,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 3,
+        "age_days": 4,
         "category": "recent",
         "label": "RECENT"
       },
@@ -779,10 +779,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-24T21:18:10Z",
-      "posting_age_days": 24,
+      "posting_age_days": 25,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 24,
+        "age_days": 25,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -866,10 +866,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-24T21:18:03Z",
-      "posting_age_days": 24,
+      "posting_age_days": 25,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 24,
+        "age_days": 25,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -954,10 +954,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-14T13:26:35Z",
-      "posting_age_days": 3,
+      "posting_age_days": 4,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 3,
+        "age_days": 4,
         "category": "recent",
         "label": "RECENT"
       },
@@ -1038,10 +1038,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T19:59:08Z",
-      "posting_age_days": 5,
+      "posting_age_days": 6,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 5,
+        "age_days": 6,
         "category": "recent",
         "label": "RECENT"
       },
@@ -1127,10 +1127,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T18:33:35Z",
-      "posting_age_days": 5,
+      "posting_age_days": 6,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 5,
+        "age_days": 6,
         "category": "recent",
         "label": "RECENT"
       },

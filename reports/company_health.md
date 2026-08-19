@@ -1,19 +1,19 @@
 # Employer Watchlist Health
 
-**Generated:** 2026-08-18T05:54:58Z
+**Generated:** 2026-08-19T05:56:21Z
 **Scan mode:** Daily
 **Configured employers:** 200
-**Healthy after a completed check:** 196
+**Healthy after a completed check:** 197
 **Cooling down:** 0
 **Invalid identifiers:** 0
 
 ## Scan coverage
 
-- **Greenhouse:** 65/172 selected; 107 scheduled for another batch; 0 cooling down
-- **Ashby:** 8/13 selected; 5 scheduled for another batch; 0 cooling down
-- **Lever:** 3/6 selected; 3 scheduled for another batch; 0 cooling down
-- **Personio:** 4/7 selected; 3 scheduled for another batch; 0 cooling down
-- **Recruitee:** 0/2 selected; 2 scheduled for another batch; 0 cooling down
+- **Greenhouse:** 71/172 selected; 101 scheduled for another batch; 0 cooling down
+- **Ashby:** 9/13 selected; 4 scheduled for another batch; 0 cooling down
+- **Lever:** 4/6 selected; 2 scheduled for another batch; 0 cooling down
+- **Personio:** 3/7 selected; 4 scheduled for another batch; 0 cooling down
+- **Recruitee:** 1/2 selected; 1 scheduled for another batch; 0 cooling down
 
 ## Verified security hiring watch
 
@@ -37,4 +37,3 @@
 - **Anduril Industries (greenhouse):** temporarily_failed; next retry 2026-08-17T22:20:22Z; Greenhouse | Anduril Industries | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs?content=true: The read operation timed out
 - **Cribl (greenhouse):** temporarily_failed; next retry 2026-08-17T22:20:22Z; Greenhouse | Cribl | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/cribl/jobs?content=true: The read operation timed out
 - **Datadog (greenhouse):** temporarily_failed; next retry 2026-08-17T22:20:22Z; Greenhouse | Datadog | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true: The read operation timed out
-- **Faire (greenhouse):** temporarily_failed; next retry 2026-08-17T22:20:22Z; Greenhouse | Faire | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/faire/jobs?content=true: The read operation timed out
