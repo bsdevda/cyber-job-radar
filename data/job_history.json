@@ -1256,6 +1256,118 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-08-20T05:56:43Z",
+      "scoring_version": 2.1,
+      "jobs_collected": 7193,
+      "security_title_candidates": 289,
+      "prefiltered_non_security_jobs": 6904,
+      "unique_jobs_after_deduplication": 218,
+      "duplicates_removed": 71,
+      "jobs_rejected_or_below_threshold": 7101,
+      "relevant_jobs_in_current_run": 21,
+      "new_jobs": 1,
+      "updated_jobs": 4,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 50,
+      "jobs_by_source": {
+        "arbeitnow": 950,
+        "remotive": 17,
+        "linkedin_posts": 0,
+        "greenhouse": 5607,
+        "ashby": 263,
+        "lever": 156,
+        "personio": 197,
+        "recruitee": 3
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "workflow_duration_seconds": 30.0,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 950,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 17,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 5607,
+          "requests": 59,
+          "errors": [],
+          "error": "",
+          "companies_checked": 59,
+          "companies_successful": 59,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 263,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 156,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 197,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 3,
+          "requests": 1,
+          "errors": [],
+          "error": "",
+          "companies_checked": 1,
+          "companies_successful": 1,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -4498,6 +4610,46 @@
       "company": "RedMimicry GmbH",
       "title": "Full Stack Engineer, Security Analytics",
       "score": 59
+    },
+    {
+      "at": "2026-08-20T05:56:43Z",
+      "job_key": "de5ca6344fea6fa934d6",
+      "event": "NEW",
+      "company": "Linro",
+      "title": "Security & Compliance Engineer - Remote Germany",
+      "score": 67
+    },
+    {
+      "at": "2026-08-20T05:56:43Z",
+      "job_key": "521c71dc83dfa3787db3",
+      "event": "UPDATED",
+      "company": "Staffbase",
+      "title": "Senior Product Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-08-20T05:56:43Z",
+      "job_key": "434bce3fa460fea652c3",
+      "event": "UPDATED",
+      "company": "Kertos",
+      "title": "(Senior) Professional Services Consultant - Information Security (all genders)",
+      "score": 60
+    },
+    {
+      "at": "2026-08-20T05:56:43Z",
+      "job_key": "d7cfc6c691d50d52874e",
+      "event": "UPDATED",
+      "company": "RedMimicry GmbH",
+      "title": "Platform and Integration Engineer, Security Telemetry (32h)",
+      "score": 75
+    },
+    {
+      "at": "2026-08-20T05:56:43Z",
+      "job_key": "94f173f287cfa560ea63",
+      "event": "UPDATED",
+      "company": "RedMimicry GmbH",
+      "title": "Senior AI/ML Engineer, Security Log Intelligence",
+      "score": 69
     }
   ]
 }
