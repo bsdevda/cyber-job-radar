@@ -203,18 +203,17 @@
     },
     {
       "week_start": "2026-08-17",
-      "generated_at": "2026-08-20T05:56:43Z",
-      "active_relevant_jobs": 21,
+      "generated_at": "2026-08-21T01:58:22Z",
+      "active_relevant_jobs": 23,
       "role_family_counts": {
-        "Security Engineering": 7,
+        "Security Engineering": 10,
         "Product Security": 5,
         "IT Audit / GRC": 3,
         "SOC / Detection and Response": 3,
-        "Cloud Security / DevSecOps": 2,
-        "Penetration Testing / VAPT": 1
+        "Cloud Security / DevSecOps": 2
       },
       "score_bands": {
-        "60-69 review": 14,
+        "60-69 review": 16,
         "50-59 stretch": 6,
         "70-79 good": 1
       },
@@ -222,14 +221,18 @@
         "mandatory": [
           {
             "skill": "go",
-            "jobs": 6
+            "jobs": 7
           },
           {
-            "skill": "incident response",
-            "jobs": 4
+            "skill": "rust",
+            "jobs": 5
           },
           {
             "skill": "aws",
+            "jobs": 5
+          },
+          {
+            "skill": "incident response",
             "jobs": 4
           },
           {
@@ -241,15 +244,7 @@
             "jobs": 3
           },
           {
-            "skill": "nist",
-            "jobs": 3
-          },
-          {
             "skill": "software development",
-            "jobs": 3
-          },
-          {
-            "skill": "rust",
             "jobs": 3
           },
           {
@@ -258,6 +253,10 @@
           },
           {
             "skill": "edr",
+            "jobs": 2
+          },
+          {
+            "skill": "nist",
             "jobs": 2
           },
           {
@@ -275,12 +274,12 @@
             "jobs": 7
           },
           {
-            "skill": "bug bounty",
-            "jobs": 5
+            "skill": "go",
+            "jobs": 6
           },
           {
-            "skill": "go",
-            "jobs": 4
+            "skill": "bug bounty",
+            "jobs": 5
           },
           {
             "skill": "edr",
@@ -321,6 +320,10 @@
             "jobs": 3
           },
           {
+            "skill": "azure",
+            "jobs": 2
+          },
+          {
             "skill": "terraform",
             "jobs": 2
           },
@@ -329,11 +332,11 @@
             "jobs": 2
           },
           {
-            "skill": "aws",
+            "skill": "edr",
             "jobs": 1
           },
           {
-            "skill": "azure",
+            "skill": "aws",
             "jobs": 1
           },
           {
@@ -357,10 +360,6 @@
             "jobs": 1
           },
           {
-            "skill": "active directory",
-            "jobs": 1
-          },
-          {
             "skill": "incident response",
             "jobs": 1
           }
@@ -368,10 +367,14 @@
         "partial_exposure": [
           {
             "skill": "incident response",
-            "jobs": 10
+            "jobs": 11
           },
           {
             "skill": "aws",
+            "jobs": 8
+          },
+          {
+            "skill": "cloud security",
             "jobs": 7
           },
           {
@@ -383,12 +386,12 @@
             "jobs": 7
           },
           {
-            "skill": "cloud security",
+            "skill": "nist",
             "jobs": 6
           },
           {
-            "skill": "nist",
-            "jobs": 6
+            "skill": "network security",
+            "jobs": 5
           },
           {
             "skill": "ci/cd",
@@ -404,10 +407,6 @@
           },
           {
             "skill": "docker",
-            "jobs": 2
-          },
-          {
-            "skill": "network security",
             "jobs": 2
           },
           {

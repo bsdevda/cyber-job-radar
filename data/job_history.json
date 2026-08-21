@@ -1368,6 +1368,118 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-08-21T01:58:22Z",
+      "scoring_version": 2.1,
+      "jobs_collected": 7550,
+      "security_title_candidates": 220,
+      "prefiltered_non_security_jobs": 7330,
+      "unique_jobs_after_deduplication": 156,
+      "duplicates_removed": 64,
+      "jobs_rejected_or_below_threshold": 7463,
+      "relevant_jobs_in_current_run": 23,
+      "new_jobs": 2,
+      "updated_jobs": 1,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 50,
+      "jobs_by_source": {
+        "arbeitnow": 950,
+        "remotive": 17,
+        "linkedin_posts": 0,
+        "greenhouse": 6130,
+        "ashby": 245,
+        "lever": 47,
+        "personio": 161,
+        "recruitee": 0
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "workflow_duration_seconds": 30.0,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 950,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 17,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 6130,
+          "requests": 62,
+          "errors": [],
+          "error": "",
+          "companies_checked": 62,
+          "companies_successful": 62,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 245,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 47,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 161,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "idle",
+          "ok": true,
+          "jobs": 0,
+          "requests": 0,
+          "errors": [],
+          "error": "",
+          "companies_checked": 0,
+          "companies_successful": 0,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -4650,6 +4762,30 @@
       "company": "RedMimicry GmbH",
       "title": "Senior AI/ML Engineer, Security Log Intelligence",
       "score": 69
+    },
+    {
+      "at": "2026-08-21T01:58:22Z",
+      "job_key": "61dfc9671eb031f4af21",
+      "event": "NEW",
+      "company": "Nomios",
+      "title": "Cybersecurity Consultant – Palo Alto Networks (m/w/d)",
+      "score": 68
+    },
+    {
+      "at": "2026-08-21T01:58:22Z",
+      "job_key": "658c3a2152e98af31380",
+      "event": "NEW",
+      "company": "Nomios",
+      "title": "Cybersecurity Consultant – Juniper & Arista (m/w/d)",
+      "score": 67
+    },
+    {
+      "at": "2026-08-21T01:58:22Z",
+      "job_key": "de5ca6344fea6fa934d6",
+      "event": "UPDATED",
+      "company": "Linro",
+      "title": "Security & Compliance Engineer - Remote Germany",
+      "score": 67
     }
   ]
 }

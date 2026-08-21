@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-20T05:56:43Z",
+  "generated_at": "2026-08-21T01:58:22Z",
   "enabled": true,
   "provider": "github_issue",
   "minimum_score": 80,
   "has_alert": false,
-  "title": "[Job Radar] 0 new strong matches - 2026-08-20 [e3b0c44298]",
+  "title": "[Job Radar] 0 new strong matches - 2026-08-21 [e3b0c44298]",
   "deduplication_key": "e3b0c44298",
   "candidate_count": 0,
   "included_count": 0,
