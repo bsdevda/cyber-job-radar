@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T01:58:22Z",
+  "generated_at": "2026-08-21T05:58:06Z",
   "all_sources_failed": false,
   "sources": {
     "arbeitnow": {
@@ -51,7 +51,7 @@
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 47,
+      "jobs": 48,
       "requests": 2,
       "errors": [],
       "error": "",
@@ -84,7 +84,7 @@
   },
   "employer_scan": {
     "mode": "daily",
-    "generated_at": "2026-08-21T01:58:22Z",
+    "generated_at": "2026-08-21T05:58:06Z",
     "sources": {
       "greenhouse": {
         "source": "greenhouse",

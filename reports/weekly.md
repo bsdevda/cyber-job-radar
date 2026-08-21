@@ -1,7 +1,7 @@
 # Weekly Job Radar Analytics
 
 **Week starting:** 2026-08-17
-**Generated:** 2026-08-21T01:58:22Z
+**Generated:** 2026-08-21T05:58:06Z
 **Active relevant jobs:** 23
 
 ## Role-family demand

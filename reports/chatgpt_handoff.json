@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-21T01:58:22Z",
+  "generated_at": "2026-08-21T05:58:06Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -165,17 +165,17 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-08-21T01:58:22Z",
+    "generated_at": "2026-08-21T05:58:06Z",
     "scoring_version": 2.1,
-    "jobs_collected": 7550,
+    "jobs_collected": 7551,
     "security_title_candidates": 220,
-    "prefiltered_non_security_jobs": 7330,
+    "prefiltered_non_security_jobs": 7331,
     "unique_jobs_after_deduplication": 156,
     "duplicates_removed": 64,
-    "jobs_rejected_or_below_threshold": 7463,
+    "jobs_rejected_or_below_threshold": 7464,
     "relevant_jobs_in_current_run": 23,
-    "new_jobs": 2,
-    "updated_jobs": 1,
+    "new_jobs": 0,
+    "updated_jobs": 3,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
@@ -187,13 +187,13 @@
       "linkedin_posts": 0,
       "greenhouse": 6130,
       "ashby": 245,
-      "lever": 47,
+      "lever": 48,
       "personio": 161,
       "recruitee": 0
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
-    "workflow_duration_seconds": 30.0
+    "workflow_duration_seconds": 28.3
   },
   "source_status": {
     "arbeitnow": {
@@ -245,7 +245,7 @@
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 47,
+      "jobs": 48,
       "requests": 2,
       "errors": [],
       "error": "",

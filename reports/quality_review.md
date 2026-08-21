@@ -3,20 +3,20 @@
 **Status:** COLLECTING BASELINE
 **Daily runs:** 6/14
 **Period:** 2026-08-16 to 2026-08-21
-**Generated:** 2026-08-21T01:58:22Z
+**Generated:** 2026-08-21T05:58:06Z
 
 ## Quality and operations
 
 | Metric | Result |
 | --- | ---: |
 | Relevant job observations | 121 |
-| New relevant jobs found | 8 |
+| New relevant jobs found | 6 |
 | Manually reviewed jobs | 0 |
 | False positives | 0 (0.0%) |
 | Missed suitable jobs logged | 0 |
 | Duplicates removed | 399 (27.2%) |
 | Source failures | 0/44 (0.0%) |
-| Average workflow duration | 27.5 seconds |
+| Average workflow duration | 27.2 seconds |
 | Applications submitted | 0 |
 | Interviews received during period | 0 |
 | Applications from period reaching interview | 0 (0.0%) |
