@@ -203,22 +203,26 @@
     },
     {
       "week_start": "2026-08-17",
-      "generated_at": "2026-08-21T05:58:06Z",
+      "generated_at": "2026-08-23T06:28:18Z",
       "active_relevant_jobs": 23,
       "role_family_counts": {
-        "Security Engineering": 10,
+        "Security Engineering": 13,
         "Product Security": 5,
-        "IT Audit / GRC": 3,
-        "SOC / Detection and Response": 3,
-        "Cloud Security / DevSecOps": 2
+        "Cloud Security / DevSecOps": 2,
+        "SOC / Detection and Response": 1,
+        "IT Audit / GRC": 1,
+        "Penetration Testing / VAPT": 1
       },
       "score_bands": {
-        "60-69 review": 16,
-        "50-59 stretch": 6,
-        "70-79 good": 1
+        "60-69 review": 14,
+        "50-59 stretch": 9
       },
       "skill_gaps": {
         "mandatory": [
+          {
+            "skill": "aws",
+            "jobs": 7
+          },
           {
             "skill": "go",
             "jobs": 7
@@ -228,12 +232,20 @@
             "jobs": 5
           },
           {
-            "skill": "aws",
-            "jobs": 5
+            "skill": "nist",
+            "jobs": 4
           },
           {
-            "skill": "incident response",
+            "skill": "infrastructure as code",
             "jobs": 4
+          },
+          {
+            "skill": "terraform",
+            "jobs": 4
+          },
+          {
+            "skill": "edr",
+            "jobs": 3
           },
           {
             "skill": "siem",
@@ -244,45 +256,33 @@
             "jobs": 3
           },
           {
+            "skill": "incident response",
+            "jobs": 3
+          },
+          {
             "skill": "software development",
             "jobs": 3
           },
           {
-            "skill": "iso 27001",
-            "jobs": 2
-          },
-          {
-            "skill": "edr",
-            "jobs": 2
-          },
-          {
-            "skill": "nist",
-            "jobs": 2
-          },
-          {
-            "skill": "ci/cd",
-            "jobs": 2
-          },
-          {
             "skill": "cloud security",
-            "jobs": 2
+            "jobs": 3
           }
         ],
         "potential": [
           {
             "skill": "rust",
-            "jobs": 7
+            "jobs": 8
           },
           {
             "skill": "go",
-            "jobs": 6
+            "jobs": 5
           },
           {
             "skill": "bug bounty",
             "jobs": 5
           },
           {
-            "skill": "edr",
+            "skill": "azure",
             "jobs": 3
           },
           {
@@ -290,41 +290,33 @@
             "jobs": 3
           },
           {
-            "skill": "infrastructure as code",
-            "jobs": 2
-          },
-          {
-            "skill": "gdpr",
-            "jobs": 2
-          },
-          {
-            "skill": "azure",
-            "jobs": 2
-          },
-          {
             "skill": "iso 27001",
             "jobs": 2
           },
           {
-            "skill": "detection engineering",
+            "skill": "gdpr",
+            "jobs": 1
+          },
+          {
+            "skill": "infrastructure as code",
             "jobs": 1
           },
           {
             "skill": "kubernetes",
+            "jobs": 1
+          },
+          {
+            "skill": "edr",
+            "jobs": 1
+          },
+          {
+            "skill": "dlp",
             "jobs": 1
           }
         ],
         "optional": [
           {
             "skill": "go",
-            "jobs": 3
-          },
-          {
-            "skill": "azure",
-            "jobs": 2
-          },
-          {
-            "skill": "terraform",
             "jobs": 2
           },
           {
@@ -332,15 +324,15 @@
             "jobs": 2
           },
           {
+            "skill": "powershell",
+            "jobs": 1
+          },
+          {
             "skill": "edr",
             "jobs": 1
           },
           {
-            "skill": "aws",
-            "jobs": 1
-          },
-          {
-            "skill": "software development",
+            "skill": "rust",
             "jobs": 1
           },
           {
@@ -348,15 +340,15 @@
             "jobs": 1
           },
           {
-            "skill": "bsi it-grundschutz",
+            "skill": "terraform",
             "jobs": 1
           },
           {
-            "skill": "splunk",
+            "skill": "azure",
             "jobs": 1
           },
           {
-            "skill": "rust",
+            "skill": "active directory",
             "jobs": 1
           },
           {
@@ -366,19 +358,15 @@
         ],
         "partial_exposure": [
           {
-            "skill": "incident response",
-            "jobs": 11
+            "skill": "aws",
+            "jobs": 9
           },
           {
-            "skill": "aws",
-            "jobs": 8
+            "skill": "incident response",
+            "jobs": 9
           },
           {
             "skill": "cloud security",
-            "jobs": 7
-          },
-          {
-            "skill": "javascript",
             "jobs": 7
           },
           {
@@ -387,6 +375,10 @@
           },
           {
             "skill": "nist",
+            "jobs": 6
+          },
+          {
+            "skill": "javascript",
             "jobs": 6
           },
           {
@@ -403,10 +395,10 @@
           },
           {
             "skill": "siem",
-            "jobs": 5
+            "jobs": 3
           },
           {
-            "skill": "docker",
+            "skill": "splunk",
             "jobs": 2
           },
           {

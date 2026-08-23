@@ -1592,6 +1592,127 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-08-23T06:28:18Z",
+      "scoring_version": 2.1,
+      "jobs_collected": 23396,
+      "security_title_candidates": 731,
+      "prefiltered_non_security_jobs": 22665,
+      "unique_jobs_after_deduplication": 580,
+      "duplicates_removed": 151,
+      "jobs_rejected_or_below_threshold": 23222,
+      "relevant_jobs_in_current_run": 23,
+      "new_jobs": 3,
+      "updated_jobs": 3,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 1,
+      "report_jobs": 50,
+      "jobs_by_source": {
+        "arbeitnow": 950,
+        "remotive": 20,
+        "linkedin_posts": 0,
+        "greenhouse": 20617,
+        "ashby": 452,
+        "lever": 1146,
+        "personio": 205,
+        "recruitee": 6
+      },
+      "employer_mode": "full",
+      "quality_review_schema_version": 1,
+      "workflow_duration_seconds": 35.8,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 950,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 20,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 20617,
+          "requests": 172,
+          "errors": [
+            {
+              "source": "greenhouse",
+              "company": "Lookout",
+              "http_status": 404,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/lookoutinc/jobs?content=true: HTTP Error 404: Not Found",
+              "message": "Greenhouse | Lookout | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/lookoutinc/jobs?content=true: HTTP Error 404: Not Found"
+            }
+          ],
+          "error": "Greenhouse | Lookout | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/lookoutinc/jobs?content=true: HTTP Error 404: Not Found",
+          "companies_checked": 172,
+          "companies_successful": 171,
+          "companies_failed": 1
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 452,
+          "requests": 13,
+          "errors": [],
+          "error": "",
+          "companies_checked": 13,
+          "companies_successful": 13,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1146,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 205,
+          "requests": 7,
+          "errors": [],
+          "error": "",
+          "companies_checked": 7,
+          "companies_successful": 7,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 6,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -4922,6 +5043,54 @@
       "company": "RedMimicry GmbH",
       "title": "Senior AI/ML Engineer, Security Log Intelligence",
       "score": 69
+    },
+    {
+      "at": "2026-08-23T06:28:18Z",
+      "job_key": "9b9a510f2c4a28ff264e",
+      "event": "NEW",
+      "company": "Capmo",
+      "title": "Senior Security Engineer (all genders)",
+      "score": 63
+    },
+    {
+      "at": "2026-08-23T06:28:18Z",
+      "job_key": "602dba779f68101d790d",
+      "event": "NEW",
+      "company": "Hello Lemon GmbH",
+      "title": "Systemadministrator (m/w/d) IT-Security und Infrastruktur",
+      "score": 59
+    },
+    {
+      "at": "2026-08-23T06:28:18Z",
+      "job_key": "61dfc9671eb031f4af21",
+      "event": "UPDATED",
+      "company": "Nomios",
+      "title": "Cybersecurity Consultant – Palo Alto Networks (m/w/d)",
+      "score": 68
+    },
+    {
+      "at": "2026-08-23T06:28:18Z",
+      "job_key": "658c3a2152e98af31380",
+      "event": "UPDATED",
+      "company": "Nomios",
+      "title": "Cybersecurity Consultant – Juniper & Arista (m/w/d)",
+      "score": 67
+    },
+    {
+      "at": "2026-08-23T06:28:18Z",
+      "job_key": "521c71dc83dfa3787db3",
+      "event": "UPDATED",
+      "company": "Staffbase",
+      "title": "Senior Product Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-08-23T06:28:18Z",
+      "job_key": "b0c87693b777ab13ba5f",
+      "event": "NEW",
+      "company": "Wiz",
+      "title": "Security Engineer - Product",
+      "score": 59
     }
   ]
 }

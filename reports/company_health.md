@@ -1,19 +1,19 @@
 # Employer Watchlist Health
 
-**Generated:** 2026-08-21T05:58:06Z
-**Scan mode:** Daily
+**Generated:** 2026-08-23T06:28:18Z
+**Scan mode:** Full
 **Configured employers:** 200
-**Healthy after a completed check:** 200
-**Cooling down:** 0
-**Invalid identifiers:** 0
+**Healthy after a completed check:** 199
+**Cooling down:** 1
+**Invalid identifiers:** 1
 
 ## Scan coverage
 
-- **Greenhouse:** 62/172 selected; 110 scheduled for another batch; 0 cooling down
-- **Ashby:** 9/13 selected; 4 scheduled for another batch; 0 cooling down
-- **Lever:** 2/6 selected; 4 scheduled for another batch; 0 cooling down
-- **Personio:** 3/7 selected; 4 scheduled for another batch; 0 cooling down
-- **Recruitee:** 0/2 selected; 2 scheduled for another batch; 0 cooling down
+- **Greenhouse:** 172/172 selected; 0 scheduled for another batch; 0 cooling down
+- **Ashby:** 13/13 selected; 0 scheduled for another batch; 0 cooling down
+- **Lever:** 6/6 selected; 0 scheduled for another batch; 0 cooling down
+- **Personio:** 7/7 selected; 0 scheduled for another batch; 0 cooling down
+- **Recruitee:** 2/2 selected; 0 scheduled for another batch; 0 cooling down
 
 ## Verified security hiring watch
 
@@ -34,4 +34,4 @@
 
 ## Suppressed or failing identifiers
 
-No configured employer is currently suppressed or failing.
+- **Lookout (greenhouse):** invalid_identifier; next retry 2026-09-22T06:28:18Z; Greenhouse | Lookout | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/lookoutinc/jobs?content=true: HTTP Error 404: Not Found
