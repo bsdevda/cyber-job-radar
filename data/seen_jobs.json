@@ -208,9 +208,9 @@
   },
   "521c71dc83dfa3787db3": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-23T06:28:18Z",
+    "last_seen": "2026-08-24T06:03:17Z",
     "content_hash": "2c040214033ea8916a3acfc5d53099f7b45d4e07ed4a37d2804853d325041e92",
-    "status": "UPDATED",
+    "status": "SEEN_BEFORE",
     "company": "Staffbase",
     "title": "Senior Product Security Engineer",
     "url": "https://job-boards.greenhouse.io/staffbase/jobs/8729143002"
@@ -253,7 +253,7 @@
   },
   "029b986949e1ae352ed4": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-23T06:28:18Z",
+    "last_seen": "2026-08-24T06:03:17Z",
     "content_hash": "d249d9c5da8a8b00c9c09aa4d6a8b3a6fbf8115e8a82a33fad91d4008f250374",
     "status": "SEEN_BEFORE",
     "company": "ClickHouse",
@@ -307,7 +307,7 @@
   },
   "f24ae651382ec38ce5f1": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-23T06:28:18Z",
+    "last_seen": "2026-08-24T06:03:17Z",
     "content_hash": "2493e1bbda6144c593da430a5963a55bbf416b949f9764325e3b3ad79429a3c5",
     "status": "SEEN_BEFORE",
     "company": "Gallup",
@@ -361,7 +361,7 @@
   },
   "c1ab5b22feaa0afc7ed6": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-23T06:28:18Z",
+    "last_seen": "2026-08-24T06:03:17Z",
     "content_hash": "ff0a297c70e882820361d76e2dfe4d8dffff80350bded7aaf94a14eee926d75d",
     "status": "SEEN_BEFORE",
     "company": "Vercel",
@@ -370,7 +370,7 @@
   },
   "59039a1f42a8c045cc25": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-23T06:28:18Z",
+    "last_seen": "2026-08-24T06:03:17Z",
     "content_hash": "ff65e1102d22b95c32dc726b77869ff74a3e37aef547bf9ae631170d231bb36d",
     "status": "SEEN_BEFORE",
     "company": "Vercel",
@@ -388,7 +388,7 @@
   },
   "8284e91e3afc1425ab11": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-23T06:28:18Z",
+    "last_seen": "2026-08-24T06:03:17Z",
     "content_hash": "d86efa2787c694e5fa37113af82e18e631aaf8b7eb19ffcf85182061a1463efc",
     "status": "SEEN_BEFORE",
     "company": "Vercel",
@@ -397,7 +397,7 @@
   },
   "9e8e071b253d6d6eb5ba": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-23T06:28:18Z",
+    "last_seen": "2026-08-24T06:03:17Z",
     "content_hash": "d54beb7630dc614f4b931f6f8b585d7525c88ba5e97893ac630e2ad3ec795c7a",
     "status": "SEEN_BEFORE",
     "company": "Vercel",
@@ -460,7 +460,7 @@
   },
   "9ba7cf301be480a6ff9f": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-23T06:28:18Z",
+    "last_seen": "2026-08-24T06:03:17Z",
     "content_hash": "695565afccbc0ea27aed88980573bdd4151d8c3a3fd8cfff9885244f400ab84b",
     "status": "SEEN_BEFORE",
     "company": "NavVis",
@@ -3214,7 +3214,7 @@
   },
   "adf40ac5904cb1b075ac": {
     "first_seen": "2026-08-15T17:01:09Z",
-    "last_seen": "2026-08-23T06:28:18Z",
+    "last_seen": "2026-08-24T06:03:17Z",
     "content_hash": "fdc07b8c262c0d6b03f79b0bc6a594d0ceac4957ce1a1340c1b0a8bf86a9fc32",
     "status": "SEEN_BEFORE",
     "company": "Qdrant",
@@ -3385,7 +3385,7 @@
   },
   "b420e12f1f07d8e20c57": {
     "first_seen": "2026-08-16T17:17:56Z",
-    "last_seen": "2026-08-23T06:28:18Z",
+    "last_seen": "2026-08-24T06:03:17Z",
     "content_hash": "9dda02a34f6e93154b6a916a70218da610d414b0a1b5a092eb1fe44a4e12aeef",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3394,7 +3394,7 @@
   },
   "caa220d352ded536fb49": {
     "first_seen": "2026-08-16T17:17:56Z",
-    "last_seen": "2026-08-23T06:28:18Z",
+    "last_seen": "2026-08-24T06:03:17Z",
     "content_hash": "76a30194c6fe0b2976dc191b01042620d06cc236fdbe7f4c61ef55ec2fac548e",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3403,7 +3403,7 @@
   },
   "86705e70d7803af16172": {
     "first_seen": "2026-08-16T17:17:56Z",
-    "last_seen": "2026-08-23T06:28:18Z",
+    "last_seen": "2026-08-24T06:03:17Z",
     "content_hash": "c73e28a96e6e3939953771f1d4d0b9958738832150c021895e03f233bab33dcf",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3412,7 +3412,7 @@
   },
   "61f504a1b399ea41dd23": {
     "first_seen": "2026-08-16T21:45:22Z",
-    "last_seen": "2026-08-23T06:28:18Z",
+    "last_seen": "2026-08-24T06:03:17Z",
     "content_hash": "8910bc323cf61434de813cf2d5ca414d24377df0d51739e086b4e2962bd0a1a9",
     "status": "SEEN_BEFORE",
     "company": "HelloFresh",
@@ -3421,7 +3421,7 @@
   },
   "1f74892653c6467e49ca": {
     "first_seen": "2026-08-16T21:45:22Z",
-    "last_seen": "2026-08-23T06:28:18Z",
+    "last_seen": "2026-08-24T06:03:17Z",
     "content_hash": "fad2549be74af53a6045a50e41f26d99a64250d8c199fbd448c5cf1d8498fece",
     "status": "SEEN_BEFORE",
     "company": "N26",
@@ -3430,7 +3430,7 @@
   },
   "ba170f4eb78d3dff47c8": {
     "first_seen": "2026-08-16T21:45:22Z",
-    "last_seen": "2026-08-23T06:28:18Z",
+    "last_seen": "2026-08-24T06:03:17Z",
     "content_hash": "fd3dbdfd32e0e79b830856a08e42dc758465b83b194d5cdfc0d915e4d14efa1c",
     "status": "SEEN_BEFORE",
     "company": "N26",
@@ -3511,18 +3511,18 @@
   },
   "9b9a510f2c4a28ff264e": {
     "first_seen": "2026-08-23T06:28:18Z",
-    "last_seen": "2026-08-23T06:28:18Z",
+    "last_seen": "2026-08-24T06:03:17Z",
     "content_hash": "8c9da2ce1e6598aa30b1cf2d6813805d3c306931cf8447baf0ad9ba4508f3bf2",
-    "status": "NEW",
+    "status": "SEEN_BEFORE",
     "company": "Capmo",
     "title": "Senior Security Engineer (all genders)",
     "url": "https://www.arbeitnow.com/jobs/companies/capmo/senior-security-engineer-all-genders-munich-9202"
   },
   "602dba779f68101d790d": {
     "first_seen": "2026-08-23T06:28:18Z",
-    "last_seen": "2026-08-23T06:28:18Z",
+    "last_seen": "2026-08-24T06:03:17Z",
     "content_hash": "e9477c021db1332795698fa24d4100e75f13184a31ee0706510f0767d88f78a7",
-    "status": "NEW",
+    "status": "SEEN_BEFORE",
     "company": "Hello Lemon GmbH",
     "title": "Systemadministrator (m/w/d) IT-Security und Infrastruktur",
     "url": "https://www.arbeitnow.com/jobs/companies/hello-lemon-gmbh/systemadministrator-it-security-und-infrastruktur-cologne-211948"
@@ -3535,5 +3535,50 @@
     "company": "Wiz",
     "title": "Security Engineer - Product",
     "url": "https://www.wiz.io/careers/job/4707176006/:title?gh_jid=4707176006"
+  },
+  "739902d4aff1b178a04a": {
+    "first_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-24T06:03:17Z",
+    "content_hash": "b73771c45c7db3400e2e616773a43c7127c7d29b746064597b526e069114e6c0",
+    "status": "NEW",
+    "company": "wizinc",
+    "title": "Security Engineer - Product",
+    "url": "https://www.arbeitnow.com/jobs/companies/wizinc/security-engineer-product-berlin-216370"
+  },
+  "51633de3452b1370c80f": {
+    "first_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-24T06:03:17Z",
+    "content_hash": "4e7bd13f69f17b4799ac720e5a87eff42171fa040005ed3c4084ec9668883910",
+    "status": "NEW",
+    "company": "Authority.inc",
+    "title": "Cybersecurity Expert (United Kingdom)",
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/authorityinc/cybersecurity-expert-united-kingdom-london-123844"
+  },
+  "75afdc3c992dee662947": {
+    "first_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-24T06:03:17Z",
+    "content_hash": "8f9f4895a75ce1585848dbd1d6e7f4d7037a71fed341eb04fbee0f4241d65062",
+    "status": "NEW",
+    "company": "Mobileye",
+    "title": "Autosar Cybersecurity Software Development (m/w/d)",
+    "url": "https://www.arbeitnow.com/jobs/companies/mobileye/autosar-cybersecurity-software-development-koblenz-germany-149881"
+  },
+  "f9b1c8d652e5b037abc5": {
+    "first_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-24T06:03:17Z",
+    "content_hash": "f33ad43f60356590c1135749ca4bca423b6fdb86cd0d5184fed16fa61b951e1d",
+    "status": "NEW",
+    "company": "Nomios",
+    "title": "Cybersecurity Consultant – Juniper & Arista (m/w/d)",
+    "url": "https://www.arbeitnow.com/jobs/companies/nomios/cybersecurity-consultant-juniper-arista-frankfurt-am-main-463580"
+  },
+  "24a09ed4f8512dfb6d9d": {
+    "first_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-24T06:03:17Z",
+    "content_hash": "359b7da4a26a920b537a143bb2a0b18678b5e3b2d45c7d8f92a9a83a00c738f7",
+    "status": "NEW",
+    "company": "Nomios",
+    "title": "Cybersecurity Consultant – Palo Alto Networks (m/w/d)",
+    "url": "https://www.arbeitnow.com/jobs/companies/nomios/cybersecurity-consultant-palo-alto-networks-frankfurt-am-main-420645"
   }
 }
