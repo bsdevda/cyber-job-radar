@@ -423,36 +423,31 @@
     },
     {
       "week_start": "2026-08-24",
-      "generated_at": "2026-08-24T06:03:17Z",
-      "active_relevant_jobs": 22,
+      "generated_at": "2026-08-25T05:57:47Z",
+      "active_relevant_jobs": 21,
       "role_family_counts": {
         "Security Engineering": 11,
-        "Product Security": 5,
+        "Product Security": 4,
         "Cloud Security / DevSecOps": 3,
-        "Other Security": 1,
-        "SOC / Detection and Response": 1,
-        "IT Audit / GRC": 1
+        "IT Audit / GRC": 2,
+        "Other Security": 1
       },
       "score_bands": {
         "60-69 review": 14,
-        "50-59 stretch": 8
+        "50-59 stretch": 7
       },
       "skill_gaps": {
         "mandatory": [
-          {
-            "skill": "go",
-            "jobs": 6
-          },
           {
             "skill": "aws",
             "jobs": 5
           },
           {
-            "skill": "bash",
-            "jobs": 4
+            "skill": "go",
+            "jobs": 5
           },
           {
-            "skill": "software development",
+            "skill": "bash",
             "jobs": 4
           },
           {
@@ -468,11 +463,7 @@
             "jobs": 3
           },
           {
-            "skill": "nist",
-            "jobs": 3
-          },
-          {
-            "skill": "siem",
+            "skill": "software development",
             "jobs": 3
           },
           {
@@ -485,6 +476,14 @@
           },
           {
             "skill": "docker",
+            "jobs": 2
+          },
+          {
+            "skill": "infrastructure as code",
+            "jobs": 2
+          },
+          {
+            "skill": "terraform",
             "jobs": 2
           }
         ],
@@ -502,20 +501,20 @@
             "jobs": 5
           },
           {
-            "skill": "azure",
-            "jobs": 3
-          },
-          {
             "skill": "vulnerability disclosure program",
             "jobs": 3
           },
           {
-            "skill": "iso 27001",
+            "skill": "gdpr",
             "jobs": 2
           },
           {
-            "skill": "gdpr",
-            "jobs": 1
+            "skill": "azure",
+            "jobs": 2
+          },
+          {
+            "skill": "iso 27001",
+            "jobs": 2
           },
           {
             "skill": "infrastructure as code",
@@ -548,10 +547,6 @@
             "jobs": 1
           },
           {
-            "skill": "powershell",
-            "jobs": 1
-          },
-          {
             "skill": "rust",
             "jobs": 1
           },
@@ -570,19 +565,19 @@
         ],
         "partial_exposure": [
           {
-            "skill": "incident response",
-            "jobs": 9
-          },
-          {
             "skill": "cloud security",
             "jobs": 8
           },
           {
-            "skill": "software development",
+            "skill": "incident response",
             "jobs": 8
           },
           {
             "skill": "aws",
+            "jobs": 7
+          },
+          {
+            "skill": "software development",
             "jobs": 7
           },
           {
@@ -594,23 +589,23 @@
             "jobs": 5
           },
           {
-            "skill": "nist",
-            "jobs": 5
-          },
-          {
-            "skill": "product security",
-            "jobs": 5
-          },
-          {
             "skill": "network security",
             "jobs": 4
           },
           {
-            "skill": "siem",
-            "jobs": 3
+            "skill": "nist",
+            "jobs": 4
+          },
+          {
+            "skill": "product security",
+            "jobs": 4
           },
           {
             "skill": "docker",
+            "jobs": 2
+          },
+          {
+            "skill": "siem",
             "jobs": 2
           },
           {

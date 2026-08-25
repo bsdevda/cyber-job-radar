@@ -208,7 +208,7 @@
   },
   "521c71dc83dfa3787db3": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-25T05:57:47Z",
     "content_hash": "2c040214033ea8916a3acfc5d53099f7b45d4e07ed4a37d2804853d325041e92",
     "status": "SEEN_BEFORE",
     "company": "Staffbase",
@@ -253,7 +253,7 @@
   },
   "029b986949e1ae352ed4": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-25T05:57:47Z",
     "content_hash": "d249d9c5da8a8b00c9c09aa4d6a8b3a6fbf8115e8a82a33fad91d4008f250374",
     "status": "SEEN_BEFORE",
     "company": "ClickHouse",
@@ -307,7 +307,7 @@
   },
   "f24ae651382ec38ce5f1": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-25T05:57:47Z",
     "content_hash": "2493e1bbda6144c593da430a5963a55bbf416b949f9764325e3b3ad79429a3c5",
     "status": "SEEN_BEFORE",
     "company": "Gallup",
@@ -361,7 +361,7 @@
   },
   "c1ab5b22feaa0afc7ed6": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-25T05:57:47Z",
     "content_hash": "ff0a297c70e882820361d76e2dfe4d8dffff80350bded7aaf94a14eee926d75d",
     "status": "SEEN_BEFORE",
     "company": "Vercel",
@@ -370,7 +370,7 @@
   },
   "59039a1f42a8c045cc25": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-25T05:57:47Z",
     "content_hash": "ff65e1102d22b95c32dc726b77869ff74a3e37aef547bf9ae631170d231bb36d",
     "status": "SEEN_BEFORE",
     "company": "Vercel",
@@ -388,7 +388,7 @@
   },
   "8284e91e3afc1425ab11": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-25T05:57:47Z",
     "content_hash": "d86efa2787c694e5fa37113af82e18e631aaf8b7eb19ffcf85182061a1463efc",
     "status": "SEEN_BEFORE",
     "company": "Vercel",
@@ -397,7 +397,7 @@
   },
   "9e8e071b253d6d6eb5ba": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-25T05:57:47Z",
     "content_hash": "d54beb7630dc614f4b931f6f8b585d7525c88ba5e97893ac630e2ad3ec795c7a",
     "status": "SEEN_BEFORE",
     "company": "Vercel",
@@ -460,7 +460,7 @@
   },
   "9ba7cf301be480a6ff9f": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-25T05:57:47Z",
     "content_hash": "695565afccbc0ea27aed88980573bdd4151d8c3a3fd8cfff9885244f400ab84b",
     "status": "SEEN_BEFORE",
     "company": "NavVis",
@@ -3214,7 +3214,7 @@
   },
   "adf40ac5904cb1b075ac": {
     "first_seen": "2026-08-15T17:01:09Z",
-    "last_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-25T05:57:47Z",
     "content_hash": "fdc07b8c262c0d6b03f79b0bc6a594d0ceac4957ce1a1340c1b0a8bf86a9fc32",
     "status": "SEEN_BEFORE",
     "company": "Qdrant",
@@ -3385,7 +3385,7 @@
   },
   "b420e12f1f07d8e20c57": {
     "first_seen": "2026-08-16T17:17:56Z",
-    "last_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-25T05:57:47Z",
     "content_hash": "9dda02a34f6e93154b6a916a70218da610d414b0a1b5a092eb1fe44a4e12aeef",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3394,7 +3394,7 @@
   },
   "caa220d352ded536fb49": {
     "first_seen": "2026-08-16T17:17:56Z",
-    "last_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-25T05:57:47Z",
     "content_hash": "76a30194c6fe0b2976dc191b01042620d06cc236fdbe7f4c61ef55ec2fac548e",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3403,7 +3403,7 @@
   },
   "86705e70d7803af16172": {
     "first_seen": "2026-08-16T17:17:56Z",
-    "last_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-25T05:57:47Z",
     "content_hash": "c73e28a96e6e3939953771f1d4d0b9958738832150c021895e03f233bab33dcf",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3412,7 +3412,7 @@
   },
   "61f504a1b399ea41dd23": {
     "first_seen": "2026-08-16T21:45:22Z",
-    "last_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-25T05:57:47Z",
     "content_hash": "8910bc323cf61434de813cf2d5ca414d24377df0d51739e086b4e2962bd0a1a9",
     "status": "SEEN_BEFORE",
     "company": "HelloFresh",
@@ -3421,7 +3421,7 @@
   },
   "1f74892653c6467e49ca": {
     "first_seen": "2026-08-16T21:45:22Z",
-    "last_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-25T05:57:47Z",
     "content_hash": "fad2549be74af53a6045a50e41f26d99a64250d8c199fbd448c5cf1d8498fece",
     "status": "SEEN_BEFORE",
     "company": "N26",
@@ -3439,12 +3439,12 @@
   },
   "434bce3fa460fea652c3": {
     "first_seen": "2026-08-19T05:56:21Z",
-    "last_seen": "2026-08-21T05:58:06Z",
+    "last_seen": "2026-08-25T05:57:47Z",
     "content_hash": "8d2a9e876da7f2249b9eb841b921d41fdca8ae504dced5cf91f58cd5ba997a3c",
     "status": "SEEN_BEFORE",
     "company": "Kertos",
     "title": "(Senior) Professional Services Consultant - Information Security (all genders)",
-    "url": "https://www.arbeitnow.com/jobs/companies/kertos/senior-professional-services-consultant-information-security-all-genders-munchen-112099"
+    "url": "https://www.arbeitnow.com/jobs/companies/kertos/senior-professional-services-consultant-information-security-all-genders-munchen-140645"
   },
   "cb6967b2bf650cf96879": {
     "first_seen": "2026-08-19T05:56:21Z",
@@ -3511,7 +3511,7 @@
   },
   "9b9a510f2c4a28ff264e": {
     "first_seen": "2026-08-23T06:28:18Z",
-    "last_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-25T05:57:47Z",
     "content_hash": "8c9da2ce1e6598aa30b1cf2d6813805d3c306931cf8447baf0ad9ba4508f3bf2",
     "status": "SEEN_BEFORE",
     "company": "Capmo",
@@ -3538,45 +3538,45 @@
   },
   "739902d4aff1b178a04a": {
     "first_seen": "2026-08-24T06:03:17Z",
-    "last_seen": "2026-08-24T06:03:17Z",
-    "content_hash": "b73771c45c7db3400e2e616773a43c7127c7d29b746064597b526e069114e6c0",
-    "status": "NEW",
+    "last_seen": "2026-08-25T05:57:47Z",
+    "content_hash": "db6bb4d5bcb9da2968bccad8cd7a88a6be1e708db201910008a28c54ee3dfb9d",
+    "status": "UPDATED",
     "company": "wizinc",
     "title": "Security Engineer - Product",
     "url": "https://www.arbeitnow.com/jobs/companies/wizinc/security-engineer-product-berlin-216370"
   },
   "51633de3452b1370c80f": {
     "first_seen": "2026-08-24T06:03:17Z",
-    "last_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-25T05:57:47Z",
     "content_hash": "4e7bd13f69f17b4799ac720e5a87eff42171fa040005ed3c4084ec9668883910",
-    "status": "NEW",
+    "status": "SEEN_BEFORE",
     "company": "Authority.inc",
     "title": "Cybersecurity Expert (United Kingdom)",
     "url": "https://www.arbeitnow.co.uk/jobs/companies/authorityinc/cybersecurity-expert-united-kingdom-london-123844"
   },
   "75afdc3c992dee662947": {
     "first_seen": "2026-08-24T06:03:17Z",
-    "last_seen": "2026-08-24T06:03:17Z",
-    "content_hash": "8f9f4895a75ce1585848dbd1d6e7f4d7037a71fed341eb04fbee0f4241d65062",
-    "status": "NEW",
+    "last_seen": "2026-08-25T05:57:47Z",
+    "content_hash": "4f13713834f5f5a986c2ca5a858e4c51db2317fbc04afc74050dbb5a7fe2c1ad",
+    "status": "UPDATED",
     "company": "Mobileye",
     "title": "Autosar Cybersecurity Software Development (m/w/d)",
     "url": "https://www.arbeitnow.com/jobs/companies/mobileye/autosar-cybersecurity-software-development-koblenz-germany-149881"
   },
   "f9b1c8d652e5b037abc5": {
     "first_seen": "2026-08-24T06:03:17Z",
-    "last_seen": "2026-08-24T06:03:17Z",
+    "last_seen": "2026-08-25T05:57:47Z",
     "content_hash": "f33ad43f60356590c1135749ca4bca423b6fdb86cd0d5184fed16fa61b951e1d",
-    "status": "NEW",
+    "status": "SEEN_BEFORE",
     "company": "Nomios",
     "title": "Cybersecurity Consultant – Juniper & Arista (m/w/d)",
     "url": "https://www.arbeitnow.com/jobs/companies/nomios/cybersecurity-consultant-juniper-arista-frankfurt-am-main-463580"
   },
   "24a09ed4f8512dfb6d9d": {
     "first_seen": "2026-08-24T06:03:17Z",
-    "last_seen": "2026-08-24T06:03:17Z",
-    "content_hash": "359b7da4a26a920b537a143bb2a0b18678b5e3b2d45c7d8f92a9a83a00c738f7",
-    "status": "NEW",
+    "last_seen": "2026-08-25T05:57:47Z",
+    "content_hash": "3c695bc47b8db55cf30288c3fc45b618c2c87c3f0f68ad95bd82446740a7cb6d",
+    "status": "UPDATED",
     "company": "Nomios",
     "title": "Cybersecurity Consultant – Palo Alto Networks (m/w/d)",
     "url": "https://www.arbeitnow.com/jobs/companies/nomios/cybersecurity-consultant-palo-alto-networks-frankfurt-am-main-420645"

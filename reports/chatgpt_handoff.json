@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-24T06:03:17Z",
+  "generated_at": "2026-08-25T05:57:47Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -165,17 +165,17 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-08-24T06:03:17Z",
+    "generated_at": "2026-08-25T05:57:47Z",
     "scoring_version": 2.1,
-    "jobs_collected": 7388,
-    "security_title_candidates": 270,
-    "prefiltered_non_security_jobs": 7118,
-    "unique_jobs_after_deduplication": 197,
-    "duplicates_removed": 73,
-    "jobs_rejected_or_below_threshold": 7293,
-    "relevant_jobs_in_current_run": 22,
-    "new_jobs": 5,
-    "updated_jobs": 0,
+    "jobs_collected": 6198,
+    "security_title_candidates": 210,
+    "prefiltered_non_security_jobs": 5988,
+    "unique_jobs_after_deduplication": 148,
+    "duplicates_removed": 62,
+    "jobs_rejected_or_below_threshold": 6115,
+    "relevant_jobs_in_current_run": 21,
+    "new_jobs": 0,
+    "updated_jobs": 3,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
@@ -183,17 +183,17 @@
     "report_jobs": 50,
     "jobs_by_source": {
       "arbeitnow": 950,
-      "remotive": 20,
+      "remotive": 18,
       "linkedin_posts": 0,
-      "greenhouse": 5826,
-      "ashby": 378,
-      "lever": 52,
-      "personio": 162,
+      "greenhouse": 4716,
+      "ashby": 226,
+      "lever": 123,
+      "personio": 165,
       "recruitee": 0
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
-    "workflow_duration_seconds": 24.1
+    "workflow_duration_seconds": 25.5
   },
   "source_status": {
     "arbeitnow": {
@@ -207,7 +207,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 20,
+      "jobs": 18,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -223,45 +223,45 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 5826,
-      "requests": 51,
+      "jobs": 4716,
+      "requests": 65,
       "errors": [],
       "error": "",
-      "companies_checked": 51,
-      "companies_successful": 51,
+      "companies_checked": 65,
+      "companies_successful": 65,
       "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 378,
-      "requests": 10,
+      "jobs": 226,
+      "requests": 8,
       "errors": [],
       "error": "",
-      "companies_checked": 10,
-      "companies_successful": 10,
+      "companies_checked": 8,
+      "companies_successful": 8,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 52,
-      "requests": 2,
-      "errors": [],
-      "error": "",
-      "companies_checked": 2,
-      "companies_successful": 2,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 162,
+      "jobs": 123,
       "requests": 3,
       "errors": [],
       "error": "",
       "companies_checked": 3,
       "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 165,
+      "requests": 4,
+      "errors": [],
+      "error": "",
+      "companies_checked": 4,
+      "companies_successful": 4,
       "companies_failed": 0
     },
     "recruitee": {
@@ -307,10 +307,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-03T22:25:22Z",
-      "posting_age_days": 20,
+      "posting_age_days": 21,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 20,
+        "age_days": 21,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -393,10 +393,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-03T22:25:22Z",
-      "posting_age_days": 20,
+      "posting_age_days": 21,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 20,
+        "age_days": 21,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -482,10 +482,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T19:12:11Z",
-      "posting_age_days": 11,
+      "posting_age_days": 12,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 11,
+        "age_days": 12,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -576,10 +576,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-05-19T20:27:29Z",
-      "posting_age_days": 96,
+      "posting_age_days": 97,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 96,
+        "age_days": 97,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -681,10 +681,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-14T23:18:12Z",
-      "posting_age_days": 9,
+      "posting_age_days": 10,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 9,
+        "age_days": 10,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -779,14 +779,14 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-24T21:18:10Z",
-      "posting_age_days": 30,
+      "posting_age_days": 31,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 30,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
+        "age_days": 31,
+        "category": "older",
+        "label": "OLDER POSTING - VERIFY ACTIVE"
       },
-      "urgency": "OPEN FOR REVIEW",
+      "urgency": "OLDER POSTING - VERIFY ACTIVE",
       "first_seen": "2026-08-15T04:18:44Z",
       "experience_required": "2+ years",
       "german_requirement": "No German requirement detected",
@@ -866,14 +866,14 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-24T21:18:03Z",
-      "posting_age_days": 30,
+      "posting_age_days": 31,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 30,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
+        "age_days": 31,
+        "category": "older",
+        "label": "OLDER POSTING - VERIFY ACTIVE"
       },
-      "urgency": "OPEN FOR REVIEW",
+      "urgency": "OLDER POSTING - VERIFY ACTIVE",
       "first_seen": "2026-08-15T04:18:44Z",
       "experience_required": "2+ years",
       "german_requirement": "No German requirement detected",
@@ -954,10 +954,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-14T13:26:35Z",
-      "posting_age_days": 9,
+      "posting_age_days": 10,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 9,
+        "age_days": 10,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1038,10 +1038,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T19:59:08Z",
-      "posting_age_days": 11,
+      "posting_age_days": 12,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 11,
+        "age_days": 12,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1127,10 +1127,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T18:33:35Z",
-      "posting_age_days": 11,
+      "posting_age_days": 12,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 11,
+        "age_days": 12,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
