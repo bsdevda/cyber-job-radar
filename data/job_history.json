@@ -2178,6 +2178,118 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-08-28T17:37:02Z",
+      "scoring_version": 2.1,
+      "jobs_collected": 7553,
+      "security_title_candidates": 223,
+      "prefiltered_non_security_jobs": 7330,
+      "unique_jobs_after_deduplication": 157,
+      "duplicates_removed": 66,
+      "jobs_rejected_or_below_threshold": 7470,
+      "relevant_jobs_in_current_run": 17,
+      "new_jobs": 0,
+      "updated_jobs": 4,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 50,
+      "jobs_by_source": {
+        "arbeitnow": 950,
+        "remotive": 19,
+        "linkedin_posts": 0,
+        "greenhouse": 6102,
+        "ashby": 250,
+        "lever": 65,
+        "personio": 167,
+        "recruitee": 0
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "workflow_duration_seconds": 22.1,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 950,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 19,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 6102,
+          "requests": 62,
+          "errors": [],
+          "error": "",
+          "companies_checked": 62,
+          "companies_successful": 62,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 250,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 65,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 167,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "idle",
+          "ok": true,
+          "jobs": 0,
+          "requests": 0,
+          "errors": [],
+          "error": "",
+          "companies_checked": 0,
+          "companies_successful": 0,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -5676,6 +5788,38 @@
       "company": "HelloFresh",
       "title": "Security Engineer (ITSec) (m,f,x)",
       "score": 64
+    },
+    {
+      "at": "2026-08-28T17:37:02Z",
+      "job_key": "4afa9462370d50b6650c",
+      "event": "UPDATED",
+      "company": "HelloFresh",
+      "title": "Security Engineer (ITSec) (m,f,x)",
+      "score": 64
+    },
+    {
+      "at": "2026-08-28T17:37:02Z",
+      "job_key": "c9a4882b15b462f012a3",
+      "event": "UPDATED",
+      "company": "HelloFresh",
+      "title": "Cloud Security Engineer (m,f,x)",
+      "score": 69
+    },
+    {
+      "at": "2026-08-28T17:37:02Z",
+      "job_key": "57609de858cd85e028d6",
+      "event": "UPDATED",
+      "company": "HelloFresh",
+      "title": "Security Engineer (SOC) (m,f,x)",
+      "score": 69
+    },
+    {
+      "at": "2026-08-28T17:37:02Z",
+      "job_key": "a2044c24720686ed5a7d",
+      "event": "UPDATED",
+      "company": "HelloFresh",
+      "title": "Senior Security Engineer (SOC) (m,f,x)",
+      "score": 59
     }
   ]
 }
