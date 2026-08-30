@@ -1,19 +1,19 @@
 # Employer Watchlist Health
 
-**Generated:** 2026-08-28T17:37:02Z
-**Scan mode:** Daily
+**Generated:** 2026-08-30T10:59:28Z
+**Scan mode:** Full
 **Configured employers:** 200
-**Healthy after a completed check:** 198
+**Healthy after a completed check:** 199
 **Cooling down:** 1
 **Invalid identifiers:** 1
 
 ## Scan coverage
 
-- **Greenhouse:** 62/172 selected; 109 scheduled for another batch; 1 cooling down
-- **Ashby:** 9/13 selected; 4 scheduled for another batch; 0 cooling down
-- **Lever:** 2/6 selected; 4 scheduled for another batch; 0 cooling down
-- **Personio:** 3/7 selected; 4 scheduled for another batch; 0 cooling down
-- **Recruitee:** 0/2 selected; 2 scheduled for another batch; 0 cooling down
+- **Greenhouse:** 171/172 selected; 0 scheduled for another batch; 1 cooling down
+- **Ashby:** 13/13 selected; 0 scheduled for another batch; 0 cooling down
+- **Lever:** 6/6 selected; 0 scheduled for another batch; 0 cooling down
+- **Personio:** 7/7 selected; 0 scheduled for another batch; 0 cooling down
+- **Recruitee:** 2/2 selected; 0 scheduled for another batch; 0 cooling down
 
 ## Verified security hiring watch
 
@@ -34,5 +34,4 @@
 
 ## Suppressed or failing identifiers
 
-- **Huntress (greenhouse):** temporarily_failed; next retry 2026-08-27T05:59:57Z; Greenhouse | Huntress | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/huntress/jobs?content=true: The read operation timed out
 - **Lookout (greenhouse):** invalid_identifier; next retry 2026-09-22T06:28:18Z; Greenhouse | Lookout | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/lookoutinc/jobs?content=true: HTTP Error 404: Not Found
