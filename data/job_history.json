@@ -2402,6 +2402,118 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-08-31T11:44:41Z",
+      "scoring_version": 2.1,
+      "jobs_collected": 7436,
+      "security_title_candidates": 271,
+      "prefiltered_non_security_jobs": 7165,
+      "unique_jobs_after_deduplication": 200,
+      "duplicates_removed": 71,
+      "jobs_rejected_or_below_threshold": 7347,
+      "relevant_jobs_in_current_run": 18,
+      "new_jobs": 0,
+      "updated_jobs": 1,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 50,
+      "jobs_by_source": {
+        "arbeitnow": 950,
+        "remotive": 19,
+        "linkedin_posts": 0,
+        "greenhouse": 5846,
+        "ashby": 387,
+        "lever": 67,
+        "personio": 167,
+        "recruitee": 0
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "workflow_duration_seconds": 23.9,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 950,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 19,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 5846,
+          "requests": 51,
+          "errors": [],
+          "error": "",
+          "companies_checked": 51,
+          "companies_successful": 51,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 387,
+          "requests": 10,
+          "errors": [],
+          "error": "",
+          "companies_checked": 10,
+          "companies_successful": 10,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 67,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 167,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "idle",
+          "ok": true,
+          "jobs": 0,
+          "requests": 0,
+          "errors": [],
+          "error": "",
+          "companies_checked": 0,
+          "companies_successful": 0,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -5956,6 +6068,14 @@
       "company": "Samsara",
       "title": "Sr. Security Engineer - Enterprise Security",
       "score": 52
+    },
+    {
+      "at": "2026-08-31T11:44:41Z",
+      "job_key": "4afa9462370d50b6650c",
+      "event": "UPDATED",
+      "company": "HelloFresh",
+      "title": "Security Engineer (ITSec) (m,f,x)",
+      "score": 64
     }
   ]
 }
