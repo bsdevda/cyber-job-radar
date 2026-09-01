@@ -1,18 +1,18 @@
 # Employer Watchlist Health
 
-**Generated:** 2026-08-31T11:44:41Z
+**Generated:** 2026-09-01T10:20:37Z
 **Scan mode:** Daily
 **Configured employers:** 200
-**Healthy after a completed check:** 199
-**Cooling down:** 1
-**Invalid identifiers:** 1
+**Healthy after a completed check:** 197
+**Cooling down:** 3
+**Invalid identifiers:** 2
 
 ## Scan coverage
 
-- **Greenhouse:** 51/172 selected; 120 scheduled for another batch; 1 cooling down
-- **Ashby:** 10/13 selected; 3 scheduled for another batch; 0 cooling down
-- **Lever:** 2/6 selected; 4 scheduled for another batch; 0 cooling down
-- **Personio:** 3/7 selected; 4 scheduled for another batch; 0 cooling down
+- **Greenhouse:** 65/172 selected; 106 scheduled for another batch; 1 cooling down
+- **Ashby:** 8/13 selected; 5 scheduled for another batch; 0 cooling down
+- **Lever:** 3/6 selected; 3 scheduled for another batch; 0 cooling down
+- **Personio:** 4/7 selected; 3 scheduled for another batch; 0 cooling down
 - **Recruitee:** 0/2 selected; 2 scheduled for another batch; 0 cooling down
 
 ## Verified security hiring watch
@@ -35,3 +35,5 @@
 ## Suppressed or failing identifiers
 
 - **Lookout (greenhouse):** invalid_identifier; next retry 2026-09-22T06:28:18Z; Greenhouse | Lookout | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/lookoutinc/jobs?content=true: HTTP Error 404: Not Found
+- **Marqeta (greenhouse):** invalid_identifier; next retry 2026-10-01T10:20:37Z; Greenhouse | Marqeta | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/marqeta/jobs?content=true: HTTP Error 404: Not Found
+- **Westernacher Consulting (lever):** temporarily_failed; next retry 2026-09-02T10:20:37Z; Lever | Westernacher Consulting | RuntimeError | Request failed after 1 attempt(s): https://api.eu.lever.co/v0/postings/westernacher?mode=json: The read operation timed out

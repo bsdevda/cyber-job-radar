@@ -1,36 +1,36 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-31T11:44:41Z",
+  "generated_at": "2026-09-01T10:20:37Z",
   "summary": {
-    "generated_at": "2026-08-31T11:44:41Z",
+    "generated_at": "2026-09-01T10:20:37Z",
     "scoring_version": 2.1,
-    "jobs_collected": 7436,
-    "security_title_candidates": 271,
-    "prefiltered_non_security_jobs": 7165,
-    "unique_jobs_after_deduplication": 200,
-    "duplicates_removed": 71,
-    "jobs_rejected_or_below_threshold": 7347,
+    "jobs_collected": 6193,
+    "security_title_candidates": 208,
+    "prefiltered_non_security_jobs": 5985,
+    "unique_jobs_after_deduplication": 148,
+    "duplicates_removed": 60,
+    "jobs_rejected_or_below_threshold": 6115,
     "relevant_jobs_in_current_run": 18,
-    "new_jobs": 0,
+    "new_jobs": 1,
     "updated_jobs": 1,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
-    "sources_partial": 0,
+    "sources_partial": 2,
     "report_jobs": 50,
     "jobs_by_source": {
       "arbeitnow": 950,
       "remotive": 19,
       "linkedin_posts": 0,
-      "greenhouse": 5846,
-      "ashby": 387,
+      "greenhouse": 4754,
+      "ashby": 231,
       "lever": 67,
-      "personio": 167,
+      "personio": 172,
       "recruitee": 0
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
-    "workflow_duration_seconds": 23.9
+    "workflow_duration_seconds": 33.6
   },
   "jobs": [
     {
@@ -63,10 +63,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-03T22:25:22Z",
-      "posting_age_days": 27,
+      "posting_age_days": 28,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 27,
+        "age_days": 28,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -139,10 +139,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-03T22:25:22Z",
-      "posting_age_days": 27,
+      "posting_age_days": 28,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 27,
+        "age_days": 28,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -218,10 +218,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T19:12:11Z",
-      "posting_age_days": 18,
+      "posting_age_days": 19,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 18,
+        "age_days": 19,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -296,10 +296,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-05-19T20:27:29Z",
-      "posting_age_days": 103,
+      "posting_age_days": 104,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 103,
+        "age_days": 104,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -385,10 +385,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-14T23:18:12Z",
-      "posting_age_days": 16,
+      "posting_age_days": 17,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 16,
+        "age_days": 17,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -467,10 +467,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-24T21:18:10Z",
-      "posting_age_days": 37,
+      "posting_age_days": 38,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 37,
+        "age_days": 38,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -538,10 +538,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-24T21:18:03Z",
-      "posting_age_days": 37,
+      "posting_age_days": 38,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 37,
+        "age_days": 38,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -610,10 +610,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-14T13:26:35Z",
-      "posting_age_days": 16,
+      "posting_age_days": 17,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 16,
+        "age_days": 17,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -684,10 +684,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T19:59:08Z",
-      "posting_age_days": 18,
+      "posting_age_days": 19,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 18,
+        "age_days": 19,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -763,10 +763,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T18:33:35Z",
-      "posting_age_days": 18,
+      "posting_age_days": 19,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 18,
+        "age_days": 19,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -839,10 +839,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-09T23:28:21Z",
-      "posting_age_days": 52,
+      "posting_age_days": 53,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 52,
+        "age_days": 53,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -929,10 +929,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-06T19:17:31Z",
-      "posting_age_days": 24,
+      "posting_age_days": 25,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 24,
+        "age_days": 25,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1010,10 +1010,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-24T21:18:10Z",
-      "posting_age_days": 37,
+      "posting_age_days": 38,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 37,
+        "age_days": 38,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -1081,10 +1081,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-24T21:18:07Z",
-      "posting_age_days": 37,
+      "posting_age_days": 38,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 37,
+        "age_days": 38,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -1152,10 +1152,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-24T21:18:07Z",
-      "posting_age_days": 37,
+      "posting_age_days": 38,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 37,
+        "age_days": 38,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -1223,10 +1223,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-24T21:18:07Z",
-      "posting_age_days": 37,
+      "posting_age_days": 38,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 37,
+        "age_days": 38,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -1294,10 +1294,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-24T21:18:07Z",
-      "posting_age_days": 37,
+      "posting_age_days": 38,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 37,
+        "age_days": 38,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -1365,10 +1365,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-24T21:18:07Z",
-      "posting_age_days": 37,
+      "posting_age_days": 38,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 37,
+        "age_days": 38,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -1436,10 +1436,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-24T21:18:07Z",
-      "posting_age_days": 37,
+      "posting_age_days": 38,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 37,
+        "age_days": 38,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -1507,10 +1507,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-24T21:18:03Z",
-      "posting_age_days": 37,
+      "posting_age_days": 38,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 37,
+        "age_days": 38,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -1579,10 +1579,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-03T12:30:26Z",
-      "posting_age_days": 27,
+      "posting_age_days": 28,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 27,
+        "age_days": 28,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1746,10 +1746,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-09T16:24:04Z",
-      "posting_age_days": 52,
+      "posting_age_days": 53,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 52,
+        "age_days": 53,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -1819,10 +1819,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-13T16:10:10Z",
-      "posting_age_days": 17,
+      "posting_age_days": 18,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 17,
+        "age_days": 18,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1908,10 +1908,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T09:15:17Z",
-      "posting_age_days": 19,
+      "posting_age_days": 20,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 19,
+        "age_days": 20,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1988,10 +1988,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-11T08:56:06Z",
-      "posting_age_days": 20,
+      "posting_age_days": 21,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 20,
+        "age_days": 21,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2059,10 +2059,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-16T16:47:01Z",
-      "posting_age_days": 45,
+      "posting_age_days": 46,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 45,
+        "age_days": 46,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -2153,10 +2153,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-13T16:10:10Z",
-      "posting_age_days": 17,
+      "posting_age_days": 18,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 17,
+        "age_days": 18,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2229,10 +2229,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-04T05:04:47Z",
-      "posting_age_days": 27,
+      "posting_age_days": 28,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 27,
+        "age_days": 28,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2312,10 +2312,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-04T05:04:45Z",
-      "posting_age_days": 27,
+      "posting_age_days": 28,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 27,
+        "age_days": 28,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2396,14 +2396,14 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-31T13:22:35Z",
-      "posting_age_days": 30,
+      "posting_age_days": 31,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 30,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
+        "age_days": 31,
+        "category": "older",
+        "label": "OLDER POSTING - VERIFY ACTIVE"
       },
-      "urgency": "OPEN FOR REVIEW",
+      "urgency": "OLDER POSTING - VERIFY ACTIVE",
       "first_seen": "2026-08-15T04:18:44Z",
       "experience_required": null,
       "german_requirement": "No German requirement detected",
@@ -2476,10 +2476,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-20T17:52:46Z",
-      "posting_age_days": 41,
+      "posting_age_days": 42,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 41,
+        "age_days": 42,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -2555,10 +2555,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-20T17:52:46Z",
-      "posting_age_days": 41,
+      "posting_age_days": 42,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 41,
+        "age_days": 42,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -2634,10 +2634,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-17T20:05:58Z",
-      "posting_age_days": 44,
+      "posting_age_days": 45,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 44,
+        "age_days": 45,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -2718,10 +2718,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-14T09:10:22Z",
-      "posting_age_days": 17,
+      "posting_age_days": 18,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 17,
+        "age_days": 18,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2810,10 +2810,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-14T06:55:21Z",
-      "posting_age_days": 17,
+      "posting_age_days": 18,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 17,
+        "age_days": 18,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2881,10 +2881,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-10T18:06:07Z",
-      "posting_age_days": 20,
+      "posting_age_days": 21,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 20,
+        "age_days": 21,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2952,10 +2952,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-06T19:17:31Z",
-      "posting_age_days": 24,
+      "posting_age_days": 25,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 24,
+        "age_days": 25,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -3034,10 +3034,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-06T19:17:31Z",
-      "posting_age_days": 24,
+      "posting_age_days": 25,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 24,
+        "age_days": 25,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -3116,14 +3116,14 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-31T15:23:35Z",
-      "posting_age_days": 30,
+      "posting_age_days": 31,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 30,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
+        "age_days": 31,
+        "category": "older",
+        "label": "OLDER POSTING - VERIFY ACTIVE"
       },
-      "urgency": "OPEN FOR REVIEW",
+      "urgency": "OLDER POSTING - VERIFY ACTIVE",
       "first_seen": "2026-08-15T04:18:44Z",
       "experience_required": "3+ years",
       "german_requirement": "No German requirement detected",
@@ -3195,10 +3195,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-30T17:18:27Z",
-      "posting_age_days": 31,
+      "posting_age_days": 32,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 31,
+        "age_days": 32,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -3278,10 +3278,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-24T21:18:07Z",
-      "posting_age_days": 37,
+      "posting_age_days": 38,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 37,
+        "age_days": 38,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -3357,10 +3357,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-05-12T08:52:53Z",
-      "posting_age_days": 111,
+      "posting_age_days": 112,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 111,
+        "age_days": 112,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -3445,10 +3445,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-06T16:10:09Z",
-      "posting_age_days": 24,
+      "posting_age_days": 25,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 24,
+        "age_days": 25,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -3525,10 +3525,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-28T17:17:50Z",
-      "posting_age_days": 33,
+      "posting_age_days": 34,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 33,
+        "age_days": 34,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -3601,10 +3601,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-11T18:54:31Z",
-      "posting_age_days": 19,
+      "posting_age_days": 20,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 19,
+        "age_days": 20,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -3680,10 +3680,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-06T19:17:31Z",
-      "posting_age_days": 24,
+      "posting_age_days": 25,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 24,
+        "age_days": 25,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -3757,10 +3757,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-05T20:40:41Z",
-      "posting_age_days": 25,
+      "posting_age_days": 26,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 25,
+        "age_days": 26,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -3834,10 +3834,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-03T22:25:22Z",
-      "posting_age_days": 27,
+      "posting_age_days": 28,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 27,
+        "age_days": 28,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -3907,10 +3907,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-24T21:18:17Z",
-      "posting_age_days": 37,
+      "posting_age_days": 38,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 37,
+        "age_days": 38,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -3981,47 +3981,65 @@
       "error": ""
     },
     "greenhouse": {
-      "status": "ok",
+      "status": "partial",
       "ok": true,
-      "jobs": 5846,
-      "requests": 51,
-      "errors": [],
-      "error": "",
-      "companies_checked": 51,
-      "companies_successful": 51,
-      "companies_failed": 0
+      "jobs": 4754,
+      "requests": 65,
+      "errors": [
+        {
+          "source": "greenhouse",
+          "company": "Marqeta",
+          "http_status": 404,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/marqeta/jobs?content=true: HTTP Error 404: Not Found",
+          "message": "Greenhouse | Marqeta | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/marqeta/jobs?content=true: HTTP Error 404: Not Found"
+        }
+      ],
+      "error": "Greenhouse | Marqeta | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/marqeta/jobs?content=true: HTTP Error 404: Not Found",
+      "companies_checked": 65,
+      "companies_successful": 64,
+      "companies_failed": 1
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 387,
-      "requests": 10,
+      "jobs": 231,
+      "requests": 8,
       "errors": [],
       "error": "",
-      "companies_checked": 10,
-      "companies_successful": 10,
+      "companies_checked": 8,
+      "companies_successful": 8,
       "companies_failed": 0
     },
     "lever": {
-      "status": "ok",
+      "status": "partial",
       "ok": true,
       "jobs": 67,
-      "requests": 2,
-      "errors": [],
-      "error": "",
-      "companies_checked": 2,
+      "requests": 3,
+      "errors": [
+        {
+          "source": "lever",
+          "company": "Westernacher Consulting",
+          "http_status": null,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://api.eu.lever.co/v0/postings/westernacher?mode=json: The read operation timed out",
+          "message": "Lever | Westernacher Consulting | RuntimeError | Request failed after 1 attempt(s): https://api.eu.lever.co/v0/postings/westernacher?mode=json: The read operation timed out"
+        }
+      ],
+      "error": "Lever | Westernacher Consulting | RuntimeError | Request failed after 1 attempt(s): https://api.eu.lever.co/v0/postings/westernacher?mode=json: The read operation timed out",
+      "companies_checked": 3,
       "companies_successful": 2,
-      "companies_failed": 0
+      "companies_failed": 1
     },
     "personio": {
       "status": "ok",
       "ok": true,
-      "jobs": 167,
-      "requests": 3,
+      "jobs": 172,
+      "requests": 4,
       "errors": [],
       "error": "",
-      "companies_checked": 3,
-      "companies_successful": 3,
+      "companies_checked": 4,
+      "companies_successful": 4,
       "companies_failed": 0
     },
     "recruitee": {
@@ -4039,54 +4057,49 @@
   "all_sources_failed": false,
   "employer_scan": {
     "mode": "daily",
-    "generated_at": "2026-08-31T11:44:41Z",
+    "generated_at": "2026-09-01T10:20:37Z",
     "sources": {
       "greenhouse": {
         "source": "greenhouse",
         "mode": "daily",
-        "batch_index": 0,
+        "batch_index": 1,
         "configured_enabled": 172,
         "priority_configured": 34,
-        "selected": 51,
-        "skipped_by_rotation": 120,
+        "selected": 65,
+        "skipped_by_rotation": 106,
         "skipped_by_cooldown": 1,
         "rotation_skip_keys": [
+          "greenhouse:abnormalsecurity",
+          "greenhouse:adahealth",
           "greenhouse:affirm",
           "greenhouse:airbnb",
-          "greenhouse:airspace",
-          "greenhouse:airtable",
           "greenhouse:algolia",
           "greenhouse:amplitude",
           "greenhouse:andurilindustries",
           "greenhouse:anthropic",
-          "greenhouse:applovin",
-          "greenhouse:bitgo",
           "greenhouse:bitpanda",
           "greenhouse:block",
+          "greenhouse:brex",
           "greenhouse:bridgebio",
           "greenhouse:bugcrowd",
+          "greenhouse:calm",
           "greenhouse:carta",
           "greenhouse:chainguard",
           "greenhouse:charterup",
           "greenhouse:checkr",
-          "greenhouse:circleci",
-          "greenhouse:civicnation",
-          "greenhouse:cloudflare",
-          "greenhouse:cockroachlabs",
+          "greenhouse:chime",
           "greenhouse:coinbase",
           "greenhouse:coursera",
           "greenhouse:cribl",
-          "greenhouse:cultureamp",
-          "greenhouse:databricks",
           "greenhouse:datadog",
+          "greenhouse:dialpad",
           "greenhouse:discord",
           "greenhouse:dropbox",
-          "greenhouse:duolingo",
           "greenhouse:elastic",
-          "greenhouse:epicgames",
           "greenhouse:faire",
           "greenhouse:fastly",
           "greenhouse:figma",
+          "greenhouse:fireblocks",
           "greenhouse:fivetran",
           "greenhouse:flatironhealth",
           "greenhouse:flexport",
@@ -4094,12 +4107,10 @@
           "greenhouse:gemini",
           "greenhouse:gitlab",
           "greenhouse:gleanwork",
-          "greenhouse:greenhouse",
+          "greenhouse:grafanalabs",
           "greenhouse:guardsquare",
-          "greenhouse:gusto",
           "greenhouse:honeycomb",
           "greenhouse:huntress",
-          "greenhouse:imply",
           "greenhouse:instacart",
           "greenhouse:instawork",
           "greenhouse:intercom",
@@ -4107,17 +4118,15 @@
           "greenhouse:jetbrains",
           "greenhouse:justworks",
           "greenhouse:khanacademy",
-          "greenhouse:klanggames",
           "greenhouse:knowbe4",
-          "greenhouse:lattice",
           "greenhouse:launchdarkly",
           "greenhouse:locusrobotics",
           "greenhouse:lucidsoftware",
           "greenhouse:lyft",
-          "greenhouse:marqeta",
+          "greenhouse:magicleap",
+          "greenhouse:mavenclinic",
           "greenhouse:melio",
           "greenhouse:mercari",
-          "greenhouse:mercury",
           "greenhouse:mixpanel",
           "greenhouse:mongodb",
           "greenhouse:newrelic",
@@ -4127,17 +4136,16 @@
           "greenhouse:oscar",
           "greenhouse:pagerduty",
           "greenhouse:pandadoc",
+          "greenhouse:peloton",
           "greenhouse:pinterest",
-          "greenhouse:planetscale",
           "greenhouse:poshmark",
-          "greenhouse:postman",
           "greenhouse:precisionmedicinegroup",
           "greenhouse:pulley",
           "greenhouse:raisin",
           "greenhouse:recursionpharmaceuticals",
+          "greenhouse:reddit",
           "greenhouse:remotecom",
-          "greenhouse:riotgames",
-          "greenhouse:ripple",
+          "greenhouse:robinhood",
           "greenhouse:roblox",
           "greenhouse:salesloft",
           "greenhouse:samsara",
@@ -4147,30 +4155,26 @@
           "greenhouse:seatgeek",
           "greenhouse:singlestore",
           "greenhouse:sixgeninc",
-          "greenhouse:sofi",
+          "greenhouse:spacex",
           "greenhouse:squarespace",
           "greenhouse:stabilityai",
-          "greenhouse:starburst",
           "greenhouse:stockx",
           "greenhouse:stripe",
-          "greenhouse:stubhubinc",
           "greenhouse:sumologic",
-          "greenhouse:sweetgreen",
           "greenhouse:tailscale",
-          "greenhouse:togetherai",
+          "greenhouse:tanium",
+          "greenhouse:thirdbridge",
           "greenhouse:twilio",
           "greenhouse:twitch",
           "greenhouse:upstart",
           "greenhouse:veeamsoftware",
+          "greenhouse:verkada",
           "greenhouse:waymo",
           "greenhouse:webflow",
           "greenhouse:wizinc",
-          "greenhouse:wolt",
-          "greenhouse:wooga",
           "greenhouse:xai",
           "greenhouse:yugabyte",
-          "greenhouse:zetaglobal",
-          "greenhouse:zoominfo"
+          "greenhouse:zetaglobal"
         ],
         "cooldown_skip_keys": [
           "greenhouse:lookoutinc"
@@ -4179,13 +4183,15 @@
       "ashby": {
         "source": "ashby",
         "mode": "daily",
-        "batch_index": 0,
+        "batch_index": 1,
         "configured_enabled": 13,
         "priority_configured": 8,
-        "selected": 10,
-        "skipped_by_rotation": 3,
+        "selected": 8,
+        "skipped_by_rotation": 5,
         "skipped_by_cooldown": 0,
         "rotation_skip_keys": [
+          "ashby:choco",
+          "ashby:enpal",
           "ashby:langdock",
           "ashby:leapsome",
           "ashby:n8n"
@@ -4195,41 +4201,39 @@
       "lever": {
         "source": "lever",
         "mode": "daily",
-        "batch_index": 0,
+        "batch_index": 1,
         "configured_enabled": 6,
         "priority_configured": 2,
-        "selected": 2,
-        "skipped_by_rotation": 4,
+        "selected": 3,
+        "skipped_by_rotation": 3,
         "skipped_by_cooldown": 0,
         "rotation_skip_keys": [
           "lever:olx",
           "lever:saviynt",
-          "lever:veeva",
-          "lever:westernacher"
+          "lever:veeva"
         ],
         "cooldown_skip_keys": []
       },
       "personio": {
         "source": "personio",
         "mode": "daily",
-        "batch_index": 0,
+        "batch_index": 1,
         "configured_enabled": 7,
         "priority_configured": 3,
-        "selected": 3,
-        "skipped_by_rotation": 4,
+        "selected": 4,
+        "skipped_by_rotation": 3,
         "skipped_by_cooldown": 0,
         "rotation_skip_keys": [
           "personio:dnsnet",
           "personio:liveeo-gmbh",
-          "personio:perseus",
-          "personio:syseleven"
+          "personio:perseus"
         ],
         "cooldown_skip_keys": []
       },
       "recruitee": {
         "source": "recruitee",
         "mode": "daily",
-        "batch_index": 0,
+        "batch_index": 1,
         "configured_enabled": 2,
         "priority_configured": 0,
         "selected": 0,
@@ -4244,33 +4248,33 @@
     }
   },
   "rejection_summary": {
-    "The vacancy is restricted to a country/region outside the Germany or Europe-remote target": 108,
-    "On-site location is outside Germany or cannot be confirmed as Germany": 33,
-    "Excluded seniority in title: Management": 26,
-    "Excluded seniority in title: Staff/Principal": 25,
-    "Mandatory experience is too senior: 8+ years": 16,
-    "Advanced/fluent German required": 15,
-    "German C1 required": 9,
-    "Mandatory experience is too senior: 10+ years": 8,
-    "Excluded seniority in title: Lead/Architect": 8,
-    "Excluded seniority in title: Executive": 6,
-    "Student/internship-only employment type": 3,
-    "Posting is too old: 214 days (maximum 120)": 3,
-    "Posting is too old: 145 days (maximum 120)": 2,
+    "The vacancy is restricted to a country/region outside the Germany or Europe-remote target": 72,
+    "Excluded seniority in title: Staff/Principal": 29,
+    "Excluded seniority in title: Management": 21,
+    "Advanced/fluent German required": 16,
+    "On-site location is outside Germany or cannot be confirmed as Germany": 12,
+    "Mandatory experience is too senior: 10+ years": 10,
+    "Mandatory experience is too senior: 8+ years": 9,
+    "German C1 required": 8,
+    "Hybrid role without a confirmed Germany location": 6,
+    "Excluded seniority in title: Executive": 5,
+    "Student/internship-only employment type": 4,
+    "Excluded seniority in title: Lead/Architect": 4,
+    "Excluded seniority/employment type in title: werkstudent": 2,
+    "Posting is too old: 146 days (maximum 120)": 2,
     "Mandatory experience is too senior: 15+ years": 2,
-    "Posting is too old: 339 days (maximum 120)": 2,
+    "Excluded seniority/employment type in title: chief information security officer": 2,
+    "Posting is too old: 340 days (maximum 120)": 2,
     "Excluded seniority/employment type in title: working student": 1,
     "Excluded seniority/employment type in title: security intern": 1,
-    "Excluded seniority/employment type in title: chief information security officer": 1,
-    "Mandatory experience is too senior: 12+ years": 1,
     "German C2 required": 1,
-    "Posting is too old: 201 days (maximum 120)": 1,
-    "Posting is too old: 132 days (maximum 120)": 1,
-    "Posting is too old: 292 days (maximum 120)": 1,
-    "Posting is too old: 473 days (maximum 120)": 1,
+    "Posting is too old: 202 days (maximum 120)": 1,
+    "Posting is too old: 133 days (maximum 120)": 1,
+    "Posting is too old: 293 days (maximum 120)": 1,
+    "Posting is too old: 474 days (maximum 120)": 1,
     "Posting is too old: 546 days (maximum 120)": 1,
-    "Posting is too old: 709 days (maximum 120)": 1,
-    "Posting is too old: 460 days (maximum 120)": 1,
-    "Posting is too old: 461 days (maximum 120)": 1
+    "Posting is too old: 710 days (maximum 120)": 1,
+    "Posting is too old: 461 days (maximum 120)": 1,
+    "Posting is too old: 462 days (maximum 120)": 1
   }
 }

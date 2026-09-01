@@ -1,22 +1,22 @@
 # Cybersecurity Job Radar - 14-Run Quality Review
 
 **Status:** COLLECTING BASELINE
-**Daily runs:** 12/14
-**Period:** 2026-08-16 to 2026-08-31
-**Generated:** 2026-08-31T11:44:41Z
+**Daily runs:** 13/14
+**Period:** 2026-08-16 to 2026-09-01
+**Generated:** 2026-09-01T10:20:37Z
 
 ## Quality and operations
 
 | Metric | Result |
 | --- | ---: |
-| Relevant job observations | 232 |
-| New relevant jobs found | 16 |
+| Relevant job observations | 250 |
+| New relevant jobs found | 17 |
 | Manually reviewed jobs | 0 |
 | False positives | 0 (0.0%) |
 | Missed suitable jobs logged | 0 |
-| Duplicates removed | 822 (26.9%) |
-| Source failures | 0/88 (0.0%) |
-| Average workflow duration | 27.5 seconds |
+| Duplicates removed | 882 (27.1%) |
+| Source failures | 0/95 (0.0%) |
+| Average workflow duration | 28.0 seconds |
 | Applications submitted | 0 |
 | Interviews received during period | 0 |
 | Applications from period reaching interview | 0 (0.0%) |
