@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T10:20:37Z",
+  "generated_at": "2026-09-02T09:49:06Z",
   "window": {
     "target_daily_runs": 14,
-    "completed_daily_runs": 13,
+    "completed_daily_runs": 14,
     "minimum_runs_before_tuning": 14,
-    "ready_for_tuning": false,
+    "ready_for_tuning": true,
     "period_start": "2026-08-16",
-    "period_end": "2026-09-01"
+    "period_end": "2026-09-02"
   },
   "metrics": {
-    "relevant_job_observations": 250,
+    "relevant_job_observations": 267,
     "new_relevant_jobs_found": 17,
     "reviewed_jobs": 0,
     "suitable_jobs_confirmed": 0,
@@ -18,15 +18,15 @@
     "false_positive_rate_percent": 0.0,
     "false_positive_rate_is_reliable": false,
     "missed_suitable_jobs": 0,
-    "raw_jobs_collected": 94026,
-    "duplicates_removed": 882,
-    "duplicate_rate_percent": 27.1,
-    "source_checks": 95,
+    "raw_jobs_collected": 102824,
+    "duplicates_removed": 946,
+    "duplicate_rate_percent": 26.6,
+    "source_checks": 103,
     "source_failures": 0,
-    "source_partials": 3,
+    "source_partials": 4,
     "source_failure_rate_percent": 0.0,
-    "average_workflow_duration_seconds": 28.0,
-    "workflow_duration_coverage_runs": 13,
+    "average_workflow_duration_seconds": 28.1,
+    "workflow_duration_coverage_runs": 14,
     "applications_submitted": 0,
     "interviews_received": 0,
     "application_cohort_interviews": 0,
@@ -44,8 +44,8 @@
   "false_positive_jobs": [],
   "missed_jobs": [],
   "recommendations": [
-    "Keep the current scoring weights unchanged until the required daily-run baseline is complete.",
-    "Mark suitable and false-positive radar jobs and log suitable vacancies found outside the radar during every run.",
-    "Maintain application and interview dates so outcome calibration becomes possible."
+    "Do not tune relevance yet: only 0 jobs were manually reviewed; at least 5 are required for a minimally useful false-positive rate.",
+    "Duplicate rate exceeds 15%; add regression fixtures for the dominant duplicate pattern before expanding sources further.",
+    "Keep all scoring weights unchanged because there are not enough interviewed and negative application outcomes."
   ]
 }

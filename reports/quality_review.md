@@ -1,22 +1,22 @@
 # Cybersecurity Job Radar - 14-Run Quality Review
 
-**Status:** COLLECTING BASELINE
-**Daily runs:** 13/14
-**Period:** 2026-08-16 to 2026-09-01
-**Generated:** 2026-09-01T10:20:37Z
+**Status:** READY FOR EVIDENCE REVIEW
+**Daily runs:** 14/14
+**Period:** 2026-08-16 to 2026-09-02
+**Generated:** 2026-09-02T09:49:06Z
 
 ## Quality and operations
 
 | Metric | Result |
 | --- | ---: |
-| Relevant job observations | 250 |
+| Relevant job observations | 267 |
 | New relevant jobs found | 17 |
 | Manually reviewed jobs | 0 |
 | False positives | 0 (0.0%) |
 | Missed suitable jobs logged | 0 |
-| Duplicates removed | 882 (27.1%) |
-| Source failures | 0/95 (0.0%) |
-| Average workflow duration | 28.0 seconds |
+| Duplicates removed | 946 (26.6%) |
+| Source failures | 0/103 (0.0%) |
+| Average workflow duration | 28.1 seconds |
 | Applications submitted | 0 |
 | Interviews received during period | 0 |
 | Applications from period reaching interview | 0 (0.0%) |
@@ -33,9 +33,9 @@ Insufficient outcome evidence: 0/6 usable outcomes, including 0 interview(s) and
 
 ## Recommendations
 
-- Keep the current scoring weights unchanged until the required daily-run baseline is complete.
-- Mark suitable and false-positive radar jobs and log suitable vacancies found outside the radar during every run.
-- Maintain application and interview dates so outcome calibration becomes possible.
+- Do not tune relevance yet: only 0 jobs were manually reviewed; at least 5 are required for a minimally useful false-positive rate.
+- Duplicate rate exceeds 15%; add regression fixtures for the dominant duplicate pattern before expanding sources further.
+- Keep all scoring weights unchanged because there are not enough interviewed and negative application outcomes.
 
 ## Manual feedback still required
 

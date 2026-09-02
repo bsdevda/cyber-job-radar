@@ -2644,6 +2644,127 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-09-02T09:49:06Z",
+      "scoring_version": 2.1,
+      "jobs_collected": 8798,
+      "security_title_candidates": 294,
+      "prefiltered_non_security_jobs": 8504,
+      "unique_jobs_after_deduplication": 230,
+      "duplicates_removed": 64,
+      "jobs_rejected_or_below_threshold": 8717,
+      "relevant_jobs_in_current_run": 17,
+      "new_jobs": 0,
+      "updated_jobs": 0,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 1,
+      "report_jobs": 50,
+      "jobs_by_source": {
+        "arbeitnow": 950,
+        "remotive": 18,
+        "linkedin_posts": 0,
+        "greenhouse": 6402,
+        "ashby": 250,
+        "lever": 1004,
+        "personio": 172,
+        "recruitee": 2
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "workflow_duration_seconds": 30.5,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 950,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 18,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 6402,
+          "requests": 71,
+          "errors": [
+            {
+              "source": "greenhouse",
+              "company": "ClickHouse",
+              "http_status": 404,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found",
+              "message": "Greenhouse | ClickHouse | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found"
+            }
+          ],
+          "error": "Greenhouse | ClickHouse | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found",
+          "companies_checked": 71,
+          "companies_successful": 70,
+          "companies_failed": 1
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 250,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1004,
+          "requests": 4,
+          "errors": [],
+          "error": "",
+          "companies_checked": 4,
+          "companies_successful": 4,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 172,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2,
+          "requests": 1,
+          "errors": [],
+          "error": "",
+          "companies_checked": 1,
+          "companies_successful": 1,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
