@@ -15185,7 +15185,7 @@
     "ats": "greenhouse",
     "published_at": "2026-08-25T12:11:23Z",
     "first_seen": "2026-08-26T05:59:57Z",
-    "last_seen": "2026-09-02T09:49:06Z",
+    "last_seen": "2026-09-03T10:00:48Z",
     "description": "The role\n\nWe’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges. Security Engineers work in a variety of ways to constantly iterate and improve HelloFresh’s security posture. \n\nThis role aims to improve the HelloFresh Security Logging & Monitoring Program by maturing the tools, processes and playbooks to reduce dwell time (indicators of which would be lowered MTTD&R).\n\nAbove all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you.\n\nWhat you’ll do\n\nResponsible for SOC monitoring, use-case building, triage and advisory using cloud-native SIEM platforms\n\nConduct initial triage of security events and incidents and document progress throughout the Incident Response Lifecycle\n\nAutomate, optimize, automate and operate modern security solutions like EDR/EPPs and conventional Firewalls, IDS/IPS, Email Security, VPN, and MDM tools\n\nLeverage premium and open-source threat intel feeds to regularly sweep environments against rising APT campaigns\n\nPrepare status reports and follow up with the stakeholders through Jira and Incident Mgmt. Platform to close the remediation loop \n\nFacilitate efficient Incident Detection and Response in AWS cloud and enterprise IT environments\n\nWhat you’ll bring\n\nA minimum of 2 years of experience working in mature SOC environments\n\nSecurity monitoring and incident response experience in public cloud environments such as AWS\n\nExperience with cloud SIEM & SOAR platforms, DDoS mitigation and preventing tools and Layer-7 Web-based perimeter security controls\n\nUnderstanding of network intrusion methods, network containment, segregation techniques and technologies such as Sandboxes and Intrusion Detection/Prevention Systems (ID/PS)\n\nAbility to operate EDR, EPP and Device Management solutions as per best security practices\n\nDecent programming skills to enable data processing, IaC and security automations\n\nGood communication and reporting skills\n\nExperience with log analysis stacks like ElasticSearch, Splunk/SumoLogic\n\nOpen to working on-call in rotational shifts\n\nWhat we offer\n\nElevate your lifestyle! Join one of Europe's fastest-growing tech powerhouses in a dynamic phase of expansion.\n\nImmerse yourself in a diverse global community of 90+ nationalities.\n\nEnjoy a competitive compensation package that goes beyond the norm, with perks like a HelloFresh- subsidized Pension Scheme and a Hybrid working model.\n\nElevate your lifestyle with exclusive discounts on your weekly HelloFresh box and office meals.\n\nInvest in your growth with a German language learning budget, and access to the HelloFresh Academy.\n\nPlus, we've got your well-being covered with mental health support, transportation perks, and working-parent-friendly benefits. From our 24/7 gym access,wellbeing platforms like Headspace and Spill, to sabbatical leave options, HelloFresh is not just a workplace; it's a lifestyle of perks and possibilities!",
     "salary": "",
     "employment_type": "",
@@ -15268,9 +15268,9 @@
     },
     "posting_age_analysis": {
       "known": true,
-      "age_days": 7,
-      "category": "recent",
-      "label": "RECENT"
+      "age_days": 8,
+      "category": "current",
+      "label": "OPEN FOR REVIEW"
     },
     "seniority_analysis": {
       "level": "mid_unspecified",
@@ -15430,7 +15430,7 @@
     "ats": "greenhouse",
     "published_at": "2026-08-26T08:26:15Z",
     "first_seen": "2026-08-27T16:38:50Z",
-    "last_seen": "2026-09-02T09:49:06Z",
+    "last_seen": "2026-09-03T10:00:48Z",
     "description": "The role\n\nHelloFresh is the world leader in meal-kits and one of Germany's biggest and fastest growing publicly traded companies. Join the Hellofresh security team to help to maintain the highest security standards within the industry. In this role you will join the Cloud Security Team, which is responsible for providing infrastructure security solutions at scale through automation.\n\nAbove all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you.\n\nWhat you’ll do\n\nEnhance the security posture of HelloFresh’s cloud infrastructure and services, hardening them against abuse and nefarious activities\n\nSecure containers, CI/CD pipelines and implement guardrails for the developers aligned with the DevSecOps principles\n\nAutomate procedures and develop products to improve the Security posture of HelloFresh’s infrastructure\n\nDesign and operate scalable processes to provision cloud access and maintain least-privilege\n\nMentor and train your peers on the best practices in security\n\nRemediate and validate security issues across cloud infrastructure\n\nWhat you’ll bring\n\nCurious mindset, the eagerness to learn and a commitment to staying updated with the latest advancements and best practices in the field of security\n\nBachelor's degree in Computer Science, Engineering, or a related field.\n\nWork experience in a security domain\n\nFluency in one or more programming or scripting languages (e.g. Python, GO)\n\nExperience with one of the major cloud provider (AWS, Azure, GCP)\n\nAbility to work independently and as part of cross-functional squads\n\nGood problem solving skills and the ability to troubleshoot and solve technical issues\n\nWhat we offer\n\nElevate your lifestyle! Join one of Europe's fastest-growing tech powerhouses in a dynamic phase of expansion.\n\nImmerse yourself in a diverse global community of 90+ nationalities.\n\nEnjoy a competitive compensation package that goes beyond the norm, with perks like a HelloFresh- subsidized Pension Scheme and a Hybrid working model.\n\nElevate your lifestyle with exclusive discounts on your weekly HelloFresh box and office meals.\n\nInvest in your growth with a German language learning budget, and access to the HelloFresh Academy.\n\nPlus, we've got your well-being covered with mental health support, transportation perks, and working-parent-friendly benefits. From our 24/7 gym access,wellbeing platforms like Headspace and Spill, to sabbatical leave options, HelloFresh is not just a workplace; it's a lifestyle of perks and possibilities!",
     "salary": "",
     "employment_type": "",
@@ -15504,9 +15504,9 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 7,
-      "category": "recent",
-      "label": "RECENT"
+      "age_days": 8,
+      "category": "current",
+      "label": "OPEN FOR REVIEW"
     },
     "seniority_analysis": {
       "level": "mid_unspecified",
@@ -16181,12 +16181,12 @@
       "Greenhouse"
     ],
     "source_urls": {
-      "Greenhouse": "https://job-boards.greenhouse.io/mozilla/jobs/8064613"
+      "Greenhouse": "https://job-boards.greenhouse.io/mozilla/jobs/8088831"
     },
     "source_id": "8088831",
     "source_job_id": "8088831",
     "source_job_ids": {
-      "Greenhouse": "8064613"
+      "Greenhouse": "8088831"
     },
     "company": "Mozilla",
     "company_normalized": "mozilla",
@@ -16205,7 +16205,7 @@
     "ats": "greenhouse",
     "published_at": "2026-08-26T23:47:44Z",
     "first_seen": "2026-08-16T17:17:56Z",
-    "last_seen": "2026-09-02T09:49:06Z",
+    "last_seen": "2026-09-03T10:00:48Z",
     "description": "To learn the Hiring Ranges for this position, please select your location from the Apply Now dropdown menu.\n\nTo learn more about our Hiring Range System, please click this link.\n\nWhy Mozilla?\n\nMozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. \n\nThe Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. \n\nAbout this team and role:\n\nAt Mozilla, we believe the internet is a global public resource—open and accessible to all. As a Security Engineer, you'll protect that vision by building, breaking, and hardening products that put people’s privacy and safety first. We are looking for a security engineer to own, manage and administer the Mozilla Web Bug Bounty program and work with Mozilla product and SIRT teams to ensure risk mitigation of security incidents and events. \n\nWhat you’ll do:\n\nOwn and scale Mozilla’s web bug bounty program, including strategy, prioritization, KPIs, and continuous improvement\n\nAct as the primary interface with external researchers and platforms (e.g., HackerOne), fostering a high-quality and trusted research community\n\nLead triage and technical validation of incoming reports across multiple intake channels (HackerOne, Bugzilla, email)\n\nDrive end-to-end vulnerability remediation, partnering with engineering teams to ensure timely, effective fixes\n\nIdentify root causes and systemic issues, and influence long-term improvements in secure development practices\n\nCollaborate with the Security Incident Response Team (SIRT) on active incidents and post-incident reviews\n\nPerform targeted code reviews (primarily JavaScript and Python) during investigations and high-risk changes\n\nDevelop or leverage tooling to improve triage efficiency, signal quality, and program insights\n\nWhat you’ll bring:\n\n3+ years of demonstrated ability in a security engineering role.\n\nExperience operating bug bounty programs, including enhancements, automation and scaling, and/or bug hunting\n\nPractical experience working with modern cloud technologies (eg. Amazon Web Services, Google Cloud Platform, Heroku, Microsoft Azure, etc.)\n\nExperience analyzing code and systems to move from vulnerability → root cause → prevention\n\nReal-world experience in software development and/or engineering operations\n\nAbility to develop your own tools as needed in a variety of programming languages (eg. Python, Go, Rust, Javascript, etc.) is a plus, but not required.\n\nStrong communication, collaboration, and problem-solving skills, with the ability to influence and guide cross-functional teams.\n\nFormal credentials are great, but real-world experience, curiosity, passion and a growth mindset matter more.\n\nWhat you’ll get:\n\nGenerous performance-based bonus plans to all eligible employees - we share in our success as one team\n\nRich medical, dental, and vision coverage\n\nGenerous retirement contributions with 100% immediate vesting (regardless of whether you contribute)\n\nQuarterly all-company wellness days where everyone takes a pause together\n\nCountry specific holidays plus a day off for your birthday\n\nOne-time home office stipend\n\nAnnual professional development budget\n\nQuarterly well-being stipend\n\nConsiderable paid parental leave\n\nEmployee referral bonus program\n\nOther benefits (life/AD&D, disability, EAP, etc. - varies by country)\n\nAbout Mozilla \n\nMozilla exists to build the Internet as a public resource accessible to all because we believe that open and free is better than closed and controlled. When you work at Mozilla, you give yourself a chance to make a difference in the lives of Web users everywhere. And you give us a chance to make a difference in your life every single day. Join us to work on the Web as the platform and help create more opportunity and innovation for everyone online.\n\nCommitment to diversity, equity, inclusion, and belonging\n\nMozilla understands that valuing diverse creative practices and forms of knowledge are crucial to and enrich the company’s core mission. We encourage applications from everyone, including members of all equity-seeking communities, such as (but certainly not limited to) women, racialized and Indigenous persons, persons with disabilities, persons of all sexual orientations, gender identities, and expressions.\n\nWe will ensure that qualified individuals with disabilities are provided reasonable accommodations to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment, as appropriate. Please contact us at hiringaccommodation@mozilla.com to request accommodation.\n\nWe are an equal opportunity employer. We do not discriminate on the basis of race (including hairstyle and texture), religion (including religious grooming and dress practices), gender, gender identity, gender expression, color, national origin, pregnancy, ancestry, domestic partner status, disability, sexual orientation, age, genetic predisposition, medical condition, marital status, citizenship status, military or veteran status, or any other basis covered by applicable laws. Mozilla will not tolerate discrimination or harassment based on any of these characteristics or any other unlawful behavior, conduct, or purpose.\n\nGroup: D\n\n#LI-DNI\n\nReq ID: R3105",
     "salary": "",
     "employment_type": "",
@@ -16287,7 +16287,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 6,
+      "age_days": 7,
       "category": "recent",
       "label": "RECENT"
     },
@@ -16434,12 +16434,12 @@
       "Greenhouse"
     ],
     "source_urls": {
-      "Greenhouse": "https://n26.com/en-eu/careers/positions/8110812?gh_jid=8110812"
+      "Greenhouse": "https://n26.com/en-eu/careers/positions/8113987?gh_jid=8113987"
     },
     "source_id": "8110812",
     "source_job_id": "8110812",
     "source_job_ids": {
-      "Greenhouse": "8110812"
+      "Greenhouse": "8113987"
     },
     "company": "N26",
     "company_normalized": "n26",
@@ -16458,7 +16458,7 @@
     "ats": "greenhouse",
     "published_at": "2026-09-02T08:33:39Z",
     "first_seen": "2026-08-16T21:45:22Z",
-    "last_seen": "2026-09-02T09:49:06Z",
+    "last_seen": "2026-09-03T10:00:48Z",
     "description": "About the opportunity\n\nWe are seeking a Senior Product Security Engineer to drive the product security strategy and empower our engineering teams to design and build secure software across our diverse product portfolio. This role involves leading the integration of advanced security practices into cutting-edge technologies - such as Generative AI (GenAI), Large Language Models (LLM), and data governance systems - while also ensuring the security of our microservice architecture and mobile application. You will be independently responsible for delivering robust security for every feature and service we provide to our customers.\n\nThe Product Security team is part of N26’s Security Engineering Segment. In this role, you will serve as a key mentor and contributor, actively promoting N26’s security standards by integrating security practices throughout the product lifecycle. You will provide guidance and support to other engineers, sharing your expertise and helping to elevate the overall security posture of our products.\n\nAs we embrace emerging technologies like GenAI and LLMs, this role will independently lead efforts to safeguard sensitive data, align with data governance principles, and address risks unique to AI-driven products. You will also ensure our broader product ecosystem remains secure, scalable, and resilient. Additionally, you will proactively drive the enhancement of our Product Security Program, providing strategic guidance to engineering teams to anticipate and counter evolving threats.\n\nIn this role, you will:\n\nIndependently apply advanced knowledge of security architecture to guide software engineers in building secure products and services across a diverse technology stack, including microservices, mobile applications, and cutting-edge AI-driven solutions.\n\nServe as a technical leader and mentor, collaborating closely with engineering teams to understand and address their complex application security needs, including those related to emerging technologies like Generative AI (GenAI) and Large Language Models (LLM).\n\nPerform application security design reviews, threat modeling, and code reviews, ensuring security principles are embedded in every stage of the development lifecycle.\n\nUtilize expert penetration testing skills to assess and strengthen the security of internal and external applications and services, including AI-powered features and traditional systems.\n\nIndependently develop advanced tooling to support the Secure Software Development Lifecycle (SSDLC) and other security initiatives across diverse product environments.\n\nBuild automation frameworks to enable engineering teams to deliver secure features efficiently, whether for AI solutions or traditional applications.\n\nMentor and educate engineering teams and security champions on secure coding and development practices, including security considerations unique to AI and data governance.\n\nEmpower engineering teams to independently identify and remediate vulnerabilities before they reach production, with a focus on both general application security and AI-specific risks.\n\nLead reactive incident response if a security event occurs.\n\nConduct proactive and in-depth research to detect new attack vectors, including those targeting AI technologies, data pipelines, and LLM-based systems.\n\nWhat you need to be successful (Background and Skills): \n\nExpertise in software engineering with one or more general-purpose programming languages (e.g., Python, Go, or similar).\n\nExtensive experience with threat modeling, security testing, and analyzing applications, including those involving emerging technologies like Generative AI (GenAI) and Large Language Models (LLM).\n\nPrior experience in building automation to support the Secure Software Development Lifecycle (SSDLC).\n\nProven ability to lead and mentor engineering teams, supporting them throughout the Software Development Lifecycle (SDLC).\n\nA passion for information security and an interest in staying ahead of evolving threats, particularly those targeting AI systems.\n\nDeep technical knowledge in multiple areas:\n\nCloud and networking security\n\nWeb application security\n\nMobile security\n\nSecurity challenges unique to AI-driven products and data governance.\n\nStrong understanding of microservice architectures and working with scalable software in the cloud.\n\nA highly developed ability to identify flaws in software and effectively communicate and implement practical solutions.\n\nExpertise in static/dynamic code analysis, fuzzing, and other techniques to identify security vulnerabilities.\n\nSolid knowledge of secure coding best practices and security standards, including the OWASP Top 10.\n\nThe ability to strategically balance security risks with the need for product innovation and advancement.\n\nWhat’s in it for you:\n\nAccelerate your career growth by joining one of Europe’s most talked about disruptors.\n\nEmployee benefits that range from a competitive personal development budget, work from home budget, discounts to fitness & wellness memberships, language apps and public transportation. \n\nCome together with your team in the office for a dedicated day of teamwork each week, plus another day of your choice, and enjoy the flexibility of remote work the rest of the time. Some roles may require additional in-office presence.\n\nAs an N26 employee you will have access to a Premium subscription on your personal N26 bank account. As well as subscriptions for friends and family members. \n\nAdditional day of annual leave for each year of service. \n\nA high degree of autonomy and access to cutting edge technologies - all while working with a friendly team of peers of diverse nationalities, life experiences and backgrounds. \n\nA relocation package with visa support for those who need it.\n\nWho we are\n\nN26 has reimagined banking for today’s digital world. Technology and design empower everything we do and it’s how we are building the global banking platform the world loves to use.\n\nWe've eliminated physical branches, paperwork, and hidden fees for an elegant digital experience and supreme savings. Giving people the power to live and bank their way is what gets us out of bed in the morning and inspires the work that we do. \n\nWe are headquartered in Berlin with offices in multiple cities across Europe, including Vienna and Barcelona, and a 1,500-strong team of more than 80 nationalities.\n\nSounds good? Apply now for this position.\n\nEqual Opportunities:\n\nWe recognize that our strength lies in our people and the varied perspectives they bring to our workforce. We strive to build talented and diverse teams to drive our business success and empower our people to reach their full potential.\n\nWe genuinely welcome and encourage applications from people of all backgrounds, cultures, genders, sexual orientations, abilities, neurodiversities, and ages. We're committed to creating an inclusive workspace where everyone feels valued and respected, free from harassment and discrimination. If there's anything you need to make the application process work for you, please let us know by reaching out to candidate.exp@n26.com. \n\nVisit our website to learn more about Diversity, Equity, & Inclusion at N26.",
     "salary": "",
     "employment_type": "",
@@ -16543,7 +16543,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 0,
+      "age_days": 1,
       "category": "new",
       "label": "NEW - APPLY QUICKLY"
     },
@@ -16784,7 +16784,7 @@
     "ats": "greenhouse",
     "published_at": "2026-07-16T13:00:30Z",
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-09-02T09:49:06Z",
+    "last_seen": "2026-09-03T10:00:48Z",
     "description": "THE OPPORTUNITY\n\nJoin our Global IT Infrastructure team and take ownership of security operations that protect NavVis worldwide. You’ll lead detection and incident response across corporate IT and SaaS environments, working hand-in-hand with Service Delivery, Cloud Infrastructure Engineering, and our Cloud Infrastructure Engineer. \n\nThis is an hands-on role where you’ll make real impact—investigating threats, driving improvements, and shaping security processes. No ticket forwarding, no passive coordination—just meaningful responsibility and the chance to build a security posture you can be proud of. \n\nIf you thrive on solving complex problems, love staying ahead of emerging threats, and want to safeguard technology that powers the future of spatial intelligence, we want to hear from you! \n\nHOW YOU WILL MAKE AN IMPACT\n\nLead security incident response and drive continuous improvements. \n\nOwn Microsoft Defender, email security, and phishing protection. \n\nStrengthen network security with IT Ops: firewalls, VPNs, segmentation. \n\nManage vulnerability scanning, remediation, and risk reporting. \n\nGovern access reviews and enforce least privileges. \n\nRun ISO 27001 & SOC 2 audits and coordinate via Vanta. \n\nSupport business continuity and disaster recovery planning. \n\nAssess vendor security and monitor SaaS risk. \n\nResearch emerging threats and refine security playbooks. \n\nWHAT WILL HELP YOU SUCCEED IN THE ROLE\n\nYou have strong, hands-on experience across security operations, incident response, and forensic analysis in SaaS and hybrid IT environments. \n\nYou bring deep practical knowledge of Microsoft Defender, Entra ID, email security, identity-related incidents, and endpoint protection. \n\nYou are comfortable managing security topics from start to finish with minimal oversight. \n\nYou are a strong communicator who can break down complex security topics in simple actionable terms to both technical and non-technical stakeholders. \n\nYou are experienced working with infrastructure teams to operate network and vulnerability security controls. \n\nYou demonstrate a proven ability to drive ISO 27001 OR SOC 2 audits end-to-end. \n\nYou bring pragmatic approaches to improving processes with a bias towards automation over manual work. \n\nHOW WE WILL KNOW WE ARE A PERFECT MATCH\n\nYour recruiting partner for this role is Sylvie (she/her). You can expect to go through a screening call, and/or up to 4 rounds of interviews, where we would love to discover your passion and interests, introduce you to who we are and what drives us, and finally understand how we can potentially add value to each other's growth.\n\nHOW WE WILL KEEP YOU SMILING\n\nIt's important to take a break from work! We offer 30 days of paid time off per year\n\nAffordable access to a vast network of fitness and wellness facilities through EGYM Wellpass subsidy\n\nDeutschlandticket subsidy to support sustainable travel using public transport\n\nWe offer flexible working hours and a hybrid work setup, enabling you to plan your work around your life, and not your life around work!\n\nWe offer full visa and relocation support for international candidates\n\nAn attractive bike leasing model through JobRad, in line with our commitment towards sustainable mobility\n\nA competitive compensation package that values the skills and experience you bring\n\nUp to 4000 EUR employee referral bonus \n\nFinancial support for local language classes to help you in your journey of integrating into the culture!\n\nWe derive our strength from our diversity.\n\nNavVis’ unwavering commitment to fostering an inclusive and diverse workplace has laid the foundation for our incredible growth. We thrive on the collective strength of our people who come from diverse backgrounds. We respect and value every experience associated with race, gender identity, sexual orientation, nationality, religion and disability. We do not discriminate on the basis of any of these, or other identities, and strongly encourage everyone to apply.\n\nTogether with you, we build NavVis!\n\nIf you need assistance at any stage of the recruiting process due to a disability, please reach out to your recruiting partner(s) for this position.",
     "salary": "",
     "employment_type": "Full or Part-time",
@@ -16856,7 +16856,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 47,
+      "age_days": 48,
       "category": "older",
       "label": "OLDER POSTING - VERIFY ACTIVE"
     },
@@ -17645,12 +17645,12 @@
       "Greenhouse"
     ],
     "source_urls": {
-      "Greenhouse": "https://job-boards.greenhouse.io/staffbase/jobs/8670749002"
+      "Greenhouse": "https://job-boards.greenhouse.io/staffbase/jobs/8729143002"
     },
     "source_id": "8729143002",
     "source_job_id": "8729143002",
     "source_job_ids": {
-      "Greenhouse": "8670749002"
+      "Greenhouse": "8729143002"
     },
     "company": "Staffbase",
     "company_normalized": "staffbase",
@@ -17667,9 +17667,9 @@
     "apply_url": "https://job-boards.greenhouse.io/staffbase/jobs/8729143002",
     "canonical_url": "https://job-boards.greenhouse.io/staffbase/jobs/8729143002",
     "ats": "greenhouse",
-    "published_at": "2026-08-28T09:55:39Z",
+    "published_at": "2026-09-02T15:12:02Z",
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-09-02T09:49:06Z",
+    "last_seen": "2026-09-03T10:00:48Z",
     "description": "About Staffbase\n\nWe inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees.\n\nHeadquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience.\nWe are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication.\n\nAt Staffbase, security is at the heart of everything we build. Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company. We believe the best security work happens when people bring their authentic selves and diverse perspectives to the table and we’re proud of the unique mix of talents and backgrounds in our team.\n\nAs an enablement team, we provide tools, guidance, and insights that allow developers to integrate security early in the development process. We see security not as a blocker but as a trusted partner that is the foundation for better products. With us, you’ll get hands-on experience with modern security practices, mentorship from experienced engineers, and the chance to make a visible impact in a global SaaS environment.\n\nWe work together with curiosity, humility, and a growth mindset, supporting each other, taking ownership of our contributions, and celebrating progress along the way. Here, your ideas matter, your work will shape how we build secure products, and you’ll have space to grow into new challenges.\n\nWhat you’ll be doing \n\nTake ownership of tasks that improve our security automation and strengthen our product security pipelines\n\nProactively explore the use of AI for vulnerability detection and remediation\n\nContinuously learn and share knowledge about how vulnerabilities apply in our specific product context\n\nSupport the team by enhancing our services with software engineering solutions\n\nCollaborate closely with stakeholders across the product department and gain broad exposure to how a growing SaaS company operates\n\nMaintain our outbound e-mail security by regularly reviewing the related metrics\n\nMaintain our Web Application Firewall ruleset\n\nKubernetes security\n\nCI/CD pipelines security\n\nMaintain our central HTML sanitization service written in TypeScript\n\nWhat you need to be successful \n\nPractical knowledge of security topics (e.g. penetration testing, secure software development, vulnerability management, SAST, DAST)\n\nStrong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python\n\nPractical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize\n\nStrong communication skills in English (German is a plus)\n\nWhat you'll get \n\nCompetitive Compensation - we offer attractive salary packages including LTIP (unit-based Long Term Incentive Plan)\n\nFlexibility - we offer flexible working time models and the option of hybrid work, and support this with a yearly flex work allowance of €1560\n\nRecharge - with 31 vacation days annually (incl. one floating holiday), plus pro rata fully paid Fridays off during August\n\nSupport - we’re offering a company pension scheme\n\nVolunteers Day - you’ll get one day off per year for supporting a social project",
     "salary": "",
     "employment_type": "",
@@ -17764,9 +17764,9 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 4,
-      "category": "recent",
-      "label": "RECENT"
+      "age_days": 0,
+      "category": "new",
+      "label": "NEW - APPLY QUICKLY"
     },
     "seniority_analysis": {
       "level": "senior",
@@ -19112,7 +19112,7 @@
     "ats": "greenhouse",
     "published_at": "2026-08-26T20:09:45Z",
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-09-02T09:49:06Z",
+    "last_seen": "2026-09-03T10:00:48Z",
     "description": "About Vercel:\n\nVercel is the agentic infrastructure company. We free people and agents to ship what’s next.\n\nFor more than a decade, Vercel has shaped how the web is built. As the team behind Next.js, v0, and AI SDK, we create products that help builders move from idea to production with speed, security, and exceptional developer experience.\n\nNow, software is entering a new era, and the next generation of products will not just be used by people. They will be built, extended, and operated by agents.\n\nWe are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. Whether you’re building our products, supporting our customers, growing our community, or shaping our story, you’ll help define what comes next.\n\nAbout the Role:\n\nTraditional product security teams work one report at a time: a person triages a bug bounty submission, validates it, reproduces it, and hands it off for a fix. That doesn't scale past a certain volume, and Vercel is well past it. Adding more triagers doesn't close that gap. Building the systems that triage at that scale does.\n\nThis role is about building that system. Your core focus is tooling that triages and validates bug bounty and other externally reported security findings at scale, reasoning about validity, severity, and reproducibility the way a human triager would, but continuously and at volume. And we want to go beyond triage. The real leverage is in connecting a validated finding to its root cause and driving the fix, ideally with the remediation itself proposed or opened automatically for well-understood vulnerability classes.\n\nMore broadly, this is a mandate to rethink traditional security tooling for how Vercel actually operates: agent-scale testing and automation in place of processes built for a much smaller company. This role also has real scope to build tooling that gives our customers their own security testing capabilities for what they build on Vercel, not just harden Vercel's own surface.\n\nBecause of this, we're optimizing for someone who wants to build systems, not someone whose background is manual penetration testing. A software engineer with a strong desire to move into security, or a security engineer with a strong engineering background, is exactly who we're looking for.\n\nIf you're based within a pre-determined commuting distance of one of our offices (SF, NY, London, or Berlin), the role includes in-office anchor days on Monday, Tuesday, and Friday. If you're located beyond that distance, the role is fully remote. For location-specific details, please connect with our recruiting team.\n\nWhat You Will Do:\n\nBuild tooling to triage and validate bug bounty and external findings at scale: Design and operate the systems that take in externally reported vulnerabilities and automatically assess validity, severity, and reproducibility, at a volume no manual triage process could match.\n\nPush triage beyond pattern matching, into agentic analysis: Build and operate LLM/agent-based reasoning that can validate business logic, auth, and design-level findings, not just match against known signatures.\n\nGo from validated finding to root cause: Trace validated findings back to the underlying pattern or class, so the team fixes the reason it happened, not just the one report that came in.\n\nBuild toward automated remediation, not just automated triage: Design systems that can propose, and increasingly open, the fix itself for well-understood vulnerability classes, with the right human review gates in place.\n\nRethink traditional security tooling for scale: Question which parts of the traditional product security toolkit (manual threat modeling, ad hoc code review, point-in-time pentests) still make sense at Vercel's scale, and build the agent-driven tooling that replaces or augments them.\n\nOwn and evolve the bug bounty program: Manage the researcher-facing side (scope, policy, engagement) as well as the internal tooling, so every report gets resolved and makes the automated triage smarter for the next one.\n\nBuild toward customer-facing security testing capabilities: Extend the tooling and automation you build for Vercel's own products into a capability customers can use to test the security of what they build and deploy on the platform.\n\nAbout You:\n\nYou're a builder first: Strong software engineering background is more important here than classic penetration testing experience. You'd rather build the system that triages a thousand reports than work through them one at a time. We're equally excited by a software engineer who wants to move into security and a security engineer with a strong engineering background; a manual pentesting background alone is not what this role is optimized for.\n\nUnderstand vulnerability triage and validation, even if that's not your primary background: You know (or can quickly learn) how to assess an externally reported finding, reproduce it, and judge severity, and you understand what makes that process hard to scale.\n\nCurious about, or already building with, agentic and LLM-based security tooling: You have a point of view on where AI agents can reliably validate, root-cause, and fix vulnerabilities today, and where they can't yet.\n\nRoot cause and systems thinking: You default to \"how do I make this scale to the next ten thousand reports\" and \"why did this class of bug happen,\" rather than closing the one ticket in front of you.\n\nComfortable defining a new practice: Agent-scale product security isn't a mature discipline yet. You're excited to help define what it looks like at Vercel rather than inherit a playbook.\n\nWeb tech stack proficiency: Strong familiarity with JavaScript/TypeScript and Node.js runtime security, and modern web frameworks (ideally Next.js or React and Node-based frameworks), so you can read and validate the code your tooling is analyzing.\n\nBonus If You:\n\nHave built or contributed to security automation used broadly across an engineering org, not just for your own team.\n\nHave experience running or triaging a bug bounty / vulnerability disclosure program.\n\nHave experience testing or securing multi-tenant platforms where customer-built applications run on shared infrastructure.\n\nHave built systems that auto-generate or auto-propose code fixes, not just findings.\n\nHave thought about what security testing as a product capability could look like for a platform's customers.\n\nHold relevant security certifications or recognitions (for example, OSCP, OSWE, CISSP, or notable bug bounty hall of fame entries). These demonstrate your depth of knowledge, though they are not required.\n\nBenefits:\n\nCompetitive compensation package, including equity.\n\nInclusive Healthcare Package.\n\nLearn and Grow - we provide mentorship and send you to events that help you build your network and skills.\n\nFlexible Time Off.\n\nWe will provide you the gear you need to do your role, and a WFH budget for you to outfit your space as needed.\n\nVercel is committed to fostering and empowering an inclusive community within our organization. We do not discriminate on the basis of race, religion, color, gender expression or identity, sexual orientation, national origin, citizenship, age, marital status, veteran status, disability status, or any other characteristic protected by law. Vercel encourages everyone to apply for our available positions, even if they don't necessarily check every box on the job description.\n\nThe San Francisco, CA base pay range for this role is $208,000.00 - $312,000.00. Actual salary will be based on job-related skills, experience, and location. Compensation outside of San Francisco may be adjusted based on employee location. The total compensation package may include benefits, equity-based compensation, and eligibility for a company bonus or variable pay program depending on the role. Your recruiter can share more details during the hiring process.",
     "salary": "",
     "employment_type": "",
@@ -19200,7 +19200,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 6,
+      "age_days": 7,
       "category": "recent",
       "label": "RECENT"
     },
@@ -19381,7 +19381,7 @@
     "ats": "greenhouse",
     "published_at": "2026-08-18T22:06:17Z",
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-09-02T09:49:06Z",
+    "last_seen": "2026-09-03T10:00:48Z",
     "description": "About Vercel:\n\nVercel is the agentic infrastructure company. We free people and agents to ship what’s next.\n\nFor more than a decade, Vercel has shaped how the web is built. As the team behind Next.js, v0, and AI SDK, we create products that help builders move from idea to production with speed, security, and exceptional developer experience.\n\nNow, software is entering a new era, and the next generation of products will not just be used by people. They will be built, extended, and operated by agents.\n\nWe are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. Whether you’re building our products, supporting our customers, growing our community, or shaping our story, you’ll help define what comes next.\n\nAbout the role\n\nv0 turns natural language into working, deployed applications. An agent writes code, executes it, and ships it on a user's behalf. That makes v0 one of the most interesting and highest-stakes security surfaces at Vercel: sandboxed code execution, multi-tenant isolation, permission boundaries between what a user asked for and what the agent actually did, and resistance to prompt injection and tool misuse.\n\nWe're looking for a Senior (IC4) software engineer with a strong security background to sit fully embedded inside the v0 team, not as a rotating auditor who reviews designs and files tickets, but as a peer engineer who owns security end to end for everything v0 ships. That means finding and fixing vulnerabilities yourself, building security features directly into the product, reviewing every new feature and launch before it goes out, and running the relationship with our HackerOne researcher community for anything v0-related. You'll spend real time being a great generalist engineer: building features, fixing bugs, shipping to production alongside the rest of the team. The difference is that you bring security judgment and hands-on ownership to everything the team builds, and you're the one who catches the sandbox escape, the auth gap, or the injection vector before it ships, rather than after.\n\nThis role reports into the security organization but is deployed full-time with v0, and is evaluated as much on shipped product velocity as on security outcomes. As a senior (IC4) engineer, you're expected to operate independently, set the security bar for the team, and be trusted to make the final call on v0-specific tradeoffs.\n\nWhat you will do\n\nFind and fix issues yourself: Proactively hunt for vulnerabilities across v0, from code you're reviewing to systems you're actively poking at, and ship the fix, not just the finding.\n\nBuild security features directly into the product: Design and implement the security-facing functionality itself (sandboxing/isolation controls, permission boundaries, abuse detection, safe defaults for generated apps) as a normal part of the v0 roadmap, not a side project.\n\nReview all new v0 features and launches: Be the security reviewer of record for everything the team ships (new capabilities, generated-app patterns, integrations) before it goes out the door.\n\nOwn the HackerOne relationship for v0: Triage, validate, and drive fixes for reports from Vercel's HackerOne researcher community that touch v0, and work directly with researchers on reproduction and remediation.\n\nOwn the v0 threat model: Understand and continuously refine how v0 generates, executes, and deploys code, including sandbox/runtime isolation, permission boundaries between agent actions and user intent, and defenses against prompt injection and tool-use abuse.\n\nHarden code execution boundaries: Work directly on how agent-generated code is scoped, sandboxed, and constrained before it touches real infrastructure, including Vercel's own sandbox and serverless runtimes.\n\nBuild guardrails that don't slow the team down: Create patterns, libraries, and checks that let v0 engineers ship new generated-app capabilities quickly without reintroducing known bug classes (auth, SSRF, injection) each time.\n\nPartner with central Product Security: Share threat models, incident learnings, and SDLC tooling with the broader security team, while making the final call on v0-specific tradeoffs since you have the deepest context on the product.\n\nRespond to v0-specific security reports and incidents: Be the first responder and technical owner when a security issue is reported against v0 specifically.\n\nThink like an attacker, and like an agent: Reason about how a user, or an agent acting on that user's behalf, could misuse v0 to attack itself, other tenants, or the platform underneath it.\n\nAbout you\n\nYou're a software engineer first: 5+ years building and shipping production web applications, at a level where you operate independently (IC4/Senior). You can pick up a normal feature ticket and ship it end to end, this is not a pure audit/review role.\n\nStrong full-stack fundamentals: Comfortable in TypeScript, React, and Node, and able to work in the same codebase, PR flow, and velocity as the rest of the v0 team.\n\nReal security judgment: You understand authN/authZ design, sandboxing and isolation, injection vulnerability classes, and can reason about \"an AI agent writing and running code\" as a novel attack surface, even if your background so far has been primarily software engineering rather than a security title.\n\nYou influence through code, not just process: You'd rather fix the root cause in a PR than write a policy doc about it. You can be the security conscience of a fast-moving team without becoming its bottleneck.\n\nComfortable with ambiguity: v0's threat model is still being written. You're excited to define it rather than inherit a mature playbook.\n\nWilling to build with v0, not just secure it: You're happy to actually go use v0 to build things and understand how our products work end to end, not just read the code from the outside.\n\nBonus if you have\n\nAlready a v0 user or familiar with how it and Vercel's broader product line work.\n\nHands-on experience with sandboxing, container isolation, or multi-tenant systems.\n\nDone prompt injection / jailbreak / LLM application security research on an agentic or AI-powered product.\n\nPreviously shipped a coding agent, dev tool, or code-generation product end to end.\n\nRelevant security certifications (OSCP, OSWE) or notable bug bounty / CTF history. Nice to have, not required for this role.\n\nEnjoy building content and talking publicly about your work: blog posts, conference talks, or research writeups. We'd love for this role to help tell the story of how v0 approaches security, not just do the work quietly.\n\nBenefits:\n\nCompetitive compensation package, including equity.\n\nInclusive Healthcare Package.\n\nLearn and Grow - we provide mentorship and send you to events that help you build your network and skills.\n\nFlexible Time Off.\n\nWe will provide you the gear you need to do your role, and a WFH budget for you to outfit your space as needed.\n\nThe San Francisco, CA base pay range for this role is $208,000.00 - $312,000.00. Actual salary will be based on job-related skills, experience, and location. Compensation outside of San Francisco may be adjusted based on employee location. The total compensation package may include benefits, equity-based compensation, and eligibility for a company bonus or variable pay program depending on the role. Your recruiter can share more details during the hiring process. \n\nVercel is committed to fostering and empowering an inclusive community within our organization. We do not discriminate on the basis of race, religion, color, gender expression or identity, sexual orientation, national origin, citizenship, age, marital status, veteran status, disability status, or any other characteristic protected by law. Vercel encourages everyone to apply for our available positions, even if they don't necessarily check every box on the job description.",
     "salary": "",
     "employment_type": "",
@@ -19455,7 +19455,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 14,
+      "age_days": 15,
       "category": "current",
       "label": "OPEN FOR REVIEW"
     },
@@ -19594,7 +19594,7 @@
     "ats": "greenhouse",
     "published_at": "2026-08-18T22:06:17Z",
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-09-02T09:49:06Z",
+    "last_seen": "2026-09-03T10:00:48Z",
     "description": "About Vercel:\n\nVercel is the agentic infrastructure company. We free people and agents to ship what’s next.\n\nFor more than a decade, Vercel has shaped how the web is built. As the team behind Next.js, v0, and AI SDK, we create products that help builders move from idea to production with speed, security, and exceptional developer experience.\n\nNow, software is entering a new era, and the next generation of products will not just be used by people. They will be built, extended, and operated by agents.\n\nWe are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. Whether you’re building our products, supporting our customers, growing our community, or shaping our story, you’ll help define what comes next.\n\nAbout the role\n\nVercel builds and maintains a broad portfolio of open source projects that power the modern web, running in millions of applications. Your primary focus will be Turborepo, Nuxt, Svelte/SvelteKit, SWR, Workflow, and Nitro. A single structural fix at the framework level protects every one of those applications at once, which makes this one of the highest-leverage security roles at the company.\n\nWe're looking for a security engineer who loves finding a whole class of vulnerability and eliminating it in one move, not someone who's satisfied filing one bug at a time. You'll run deep security assessments of framework internals (routing, middleware, caching, server actions, the build pipeline), find the systemic patterns that produce entire families of bugs, and drive the framework-level fixes and design changes that remove them permanently. You'll also own how these projects handle externally reported vulnerabilities, coordinated disclosure, and CVEs, working directly with maintainers and the open source security community. This includes hands-on ownership of Vercel's open source bug bounty program for these projects: triaging incoming reports, validating and reproducing findings, and driving fixes with the right maintainers.\n\nWhat you will do\n\nHunt for vulnerability classes, not individual bugs: Run deep security assessments of framework internals (routing, middleware, caching, data fetching, server actions/RSC boundaries, build tooling) to find the systemic design patterns that produce whole families of issues.\n\nDrive root-cause framework fixes: Push design changes upstream that eliminate a category of vulnerability across every application built on the framework, rather than patching individual instances as they're reported.\n\nOwn vulnerability disclosure and CVEs: Triage security reports from the community and researchers across Turborepo, Nuxt, Svelte/SvelteKit, SWR, Workflow, Nitro, and other maintained OSS projects. Coordinate embargoed fixes, write and publish advisories, and manage the CVE/CNA process end to end.\n\nRun the OSS bug bounty program for these projects: Own triage and validation of incoming reports to Vercel's open source bug bounty program for Turborepo, Nuxt, Svelte/SvelteKit, SWR, Workflow, and Nitro. Reproduce findings, assess severity, and coordinate fixes with the right maintainers and researchers.\n\nGet security into design early: Partner with framework maintainers and core teams during RFCs and design review, so new features ship with security considered from the first draft, not bolted on after a report comes in.\n\nBuild preventive tooling: Contribute linters, codemods, and CI checks that catch regressions of previously-fixed vulnerability classes before they land again.\n\nOwn supply chain security for these projects: Harden how dependencies, releases, and published packages for Turborepo, Nuxt, Svelte/SvelteKit, SWR, Workflow, and Nitro are built, signed, and distributed. As more contributions and dependency updates are generated or assisted by AI agents, build the review and provenance practices that keep that increased volume safe.\n\nWork with the community, not around it: Engage directly with maintainers, contributors, and external researchers as peers. Bring pragmatic security recommendations to project discussions in a way that respects how these projects actually get built, and represent Vercel in coordinated disclosure norms and working groups when an issue spans multiple ecosystems.\n\nAbout you\n\nYou've actually used or broken these frameworks: You've built real things with Turborepo, Nuxt, Svelte/SvelteKit, SWR, Workflow, or Nitro (or closely comparable projects), or you've found and reported security issues in them. This is a hard requirement, not a nice-to-have: we need someone who understands what these projects actually do and how they're actually used, not a generalist parachuting in.\n\nYou have a deep appreciation and respect for open source work: You understand that these are community projects with maintainers, contributors, and users who care deeply about them, and you treat that with the seriousness it deserves. You're not here to slow the project down with process for its own sake.\n\n4+ years in security engineering, ideally with real hands-on open source contribution experience. You've actually sent PRs to projects like these, not just filed issues against them.\n\nYou're energized by root cause, not remediation count: Finding the one design flaw that kills fifty potential bugs is more satisfying to you than closing fifty tickets one at a time.\n\nYou can read framework internals, not just application code: Strong JavaScript/TypeScript fundamentals and genuine familiarity with how modern meta-frameworks work under the hood (routing, SSR/RSC, middleware, bundling/build systems).\n\nPragmatic, not theoretical: You can weigh real-world risk against maintainer and community bandwidth, and land on security improvements that actually ship, rather than the theoretically ideal fix that never gets merged.\n\nVulnerability research chops: Experience with structured security assessment methodology and coordinated/responsible disclosure processes, including handling embargoes and writing clear advisories.\n\nClear communicator: You can explain a vulnerability, a tradeoff, or a design recommendation clearly to maintainers, contributors, and non-security engineers alike, in writing and in conversation.\n\nComfortable operating in public: You're used to working transparently with external researchers, maintainers, and the community, not just inside a company's four walls.\n\nBonus if you have\n\nCVE credits or published security research, especially in JavaScript frameworks or the Node ecosystem.\n\nMaintained or heavily contributed to a widely used open source project.\n\nExperience with supply chain security tooling (Sigstore, SLSA/provenance, dependency and package scanning).\n\nThought about how increasing AI-agent-authored contributions change the risk model for open source maintenance.\n\nRun or triaged for a bug bounty / vulnerability disclosure program before, ideally for open source projects.\n\nBenefits:\n\nCompetitive compensation package, including equity.\n\nInclusive Healthcare Package.\n\nLearn and Grow - we provide mentorship and send you to events that help you build your network and skills.\n\nFlexible Time Off.\n\nWe will provide you the gear you need to do your role, and a WFH budget for you to outfit your space as needed.\n\nThe San Francisco, CA base pay range for this role is $208,000.00 - $312,000.00. Actual salary will be based on job-related skills, experience, and location. Compensation outside of San Francisco may be adjusted based on employee location. The total compensation package may include benefits, equity-based compensation, and eligibility for a company bonus or variable pay program depending on the role. Your recruiter can share more details during the hiring process. \n\nVercel is committed to fostering and empowering an inclusive community within our organization. We do not discriminate on the basis of race, religion, color, gender expression or identity, sexual orientation, national origin, citizenship, age, marital status, veteran status, disability status, or any other characteristic protected by law. Vercel encourages everyone to apply for our available positions, even if they don't necessarily check every box on the job description.",
     "salary": "",
     "employment_type": "",
@@ -19671,7 +19671,7 @@
     },
     "posting_age_analysis": {
       "known": true,
-      "age_days": 14,
+      "age_days": 15,
       "category": "current",
       "label": "OPEN FOR REVIEW"
     },
@@ -22215,12 +22215,12 @@
       "Greenhouse"
     ],
     "source_urls": {
-      "Greenhouse": "https://job-boards.greenhouse.io/mozilla/jobs/8026933"
+      "Greenhouse": "https://job-boards.greenhouse.io/mozilla/jobs/8026958"
     },
     "source_id": "8016848",
     "source_job_id": "8016848",
     "source_job_ids": {
-      "Greenhouse": "8026933"
+      "Greenhouse": "8026958"
     },
     "company": "Mozilla",
     "company_normalized": "mozilla",
@@ -22239,7 +22239,7 @@
     "ats": "greenhouse",
     "published_at": "2026-07-29T20:16:55Z",
     "first_seen": "2026-08-16T17:17:56Z",
-    "last_seen": "2026-09-02T09:49:06Z",
+    "last_seen": "2026-09-03T10:00:48Z",
     "description": "Why Mozilla?\n\nMozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. \n\nThe Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms.\n\nWhat you’ll do: \n\nAdvance Firefox's security architecture and cryptography stack: Contribute to improvements in Firefox's core security systems, with a focus on cryptographic protocols, WebPKI, and security-sensitive web APIs. Help implement and maintain security features that support the evolution of public key infrastructure on the web.\n\nDesign and implement web platform security features: Develop and ship web platform features in collaboration with teammates and the broader web community. Contribute to standards-based, secure, and interoperable implementations across Firefox.\n\nImprove browser reliability, performance, and resource efficiency: Investigate and resolve issues impacting stability, correctness, and performance. Analyze and improve memory usage and efficiency within a complex, multi-threaded browser environment.\n\nCollaborate on security initiatives: Partner with engineers across teams to identify, prioritize, and address security issues. Participate in debugging, root cause analysis, and implementation of effective long-term solutions.\n\nContribute to technical design and planning: Participate in technical discussions, design reviews, and project planning for security-related initiatives. Help evaluate tradeoffs and contribute to engineering decisions within your area of work.\n\nWhat you’ll bring: \n\nStrong software engineering and security fundamentals: Experience in software engineering, with proficiency in C/C++ and a solid understanding of security principles, including cryptographic protocols and implementations.\n\nExperience building and maintaining complex software systems: Ability to contribute to the design, implementation, testing, and maintenance of software in large-scale or security-sensitive environments.\n\nStrong debugging and problem-solving skills: Expertise in diagnosing and resolving issues in multi-threaded, cross-platform native applications, including performance and memory-related challenges.\n\nCollaborative and effective communicator: Ability to work effectively with distributed teams, communicate technical concepts clearly, and collaborate constructively to solve problems.\n\nGrowth mindset and willingness to learn: Demonstrated curiosity and desire to deepen expertise in browser security, cryptography, and systems programming while continuously improving engineering skills.\n\nWeb platform and modern systems experience: Familiarity with web technologies and interest or experience in Rust. Comfortable working within large, complex, multi-language codebases.\n\nWhat you’ll get:\n\nGenerous performance-based bonus plans to all eligible employees - we share in our success as one team\n\nRich medical, dental, and vision coverage\n\nGenerous retirement contributions with 100% immediate vesting (regardless of whether you contribute)\n\nQuarterly all-company wellness days where everyone takes a pause together\n\nCountry specific holidays plus a day off for your birthday\n\nOne-time home office stipend\n\nAnnual professional development budget\n\nQuarterly well-being stipend\n\nConsiderable paid parental leave\n\nEmployee referral bonus program\n\nOther benefits (life/AD&D, disability, EAP, etc. - varies by country)\n\nAbout Mozilla \n\nMozilla exists to build the Internet as a public resource accessible to all because we believe that open and free is better than closed and controlled. When you work at Mozilla, you give yourself a chance to make a difference in the lives of Web users everywhere. And you give us a chance to make a difference in your life every single day. Join us to work on the Web as the platform and help create more opportunity and innovation for everyone online.\n\nCommitment to diversity, equity, inclusion, and belonging\n\nMozilla understands that valuing diverse creative practices and forms of knowledge are crucial to and enrich the company’s core mission. We encourage applications from everyone, including members of all equity-seeking communities, such as (but certainly not limited to) women, racialized and Indigenous persons, persons with disabilities, persons of all sexual orientations, gender identities, and expressions.\n\nWe will ensure that qualified individuals with disabilities are provided reasonable accommodations to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment, as appropriate. Please contact us at hiringaccommodation@mozilla.com to request accommodation.\n\nWe are an equal opportunity employer. We do not discriminate on the basis of race (including hairstyle and texture), religion (including religious grooming and dress practices), gender, gender identity, gender expression, color, national origin, pregnancy, ancestry, domestic partner status, disability, sexual orientation, age, genetic predisposition, medical condition, marital status, citizenship status, military or veteran status, or any other basis covered by applicable laws. Mozilla will not tolerate discrimination or harassment based on any of these characteristics or any other unlawful behavior, conduct, or purpose.\n\nGroup: D\n\n#LI-REMOTE\n\nReq ID: R3156\n\nHiring Ranges:\n\nCanada Tier 1 Locations\n\n$104,000—$139,000 CAD\n\nCanada Tier 2 Locations\n\n$95,000—$126,000 CAD",
     "salary": "",
     "employment_type": "",
@@ -22301,7 +22301,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 34,
+      "age_days": 35,
       "category": "older",
       "label": "OLDER POSTING - VERIFY ACTIVE"
     },
@@ -26519,7 +26519,7 @@
     "ats": "greenhouse",
     "published_at": "2026-08-28T12:51:55Z",
     "first_seen": "2026-08-27T16:38:50Z",
-    "last_seen": "2026-09-02T09:49:06Z",
+    "last_seen": "2026-09-03T10:00:48Z",
     "description": "The role\n\nWe’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges. Security Engineers work in a variety of ways to constantly iterate and improve HelloFresh’s security posture. \n\nYou will be the first port of call for responding to any of HelloFresh’s security related questions and concerns. You will also develop and deliver tools and processes to enable colleagues to achieve their goals and objectives.\n\nAbove all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you.\n\nWhat you’ll do\n\nEnhance the security posture of the enterprise IT infrastructure, services, and tools by hardening them against abuse and nefarious activity\n\nImplement secure configurations and policies for IAM, EDR, VPN, Firewalls, Email Security, Slack and MDM tools\n\nResponsible for security hardening and posture of enterprise IT assets\n\nAdapt to modern AI adoption strategy through implementing and mitigating AI controls in a variety of methods including Shadow AI, MCP integrations, and protecting against AI-based risks\n\nDeploy, optimize and operate modern security solutions like EDR, Zero-Trust, SSE/CASB, DLP, and Patch Management tools\n\nAssist in company-wide security awareness campaigns and vulnerability patching\n\nPerform comparative technical and commercial analysis for various security products/tools prior to procurement\n\nWhat you’ll bring\n\nHands-on experience hardening workstations, network equipment, servers, IAM platforms through using CIS/NIST frameworks\n\nUnderstanding and usage of Generative AI from a corporate perspective, including LLM guardrails, MCP connections/gateways, and risks stemming from its usage such as prompt injections\n\nAbility to perform malware analysis on Windows, MacOS, and Linux machines\n\nUnderstanding of modern-day social engineering attacks and how to prevent them through technical controls and training\n\nIn-depth understanding of common TCP/IP protocols and modern-day security threats on each network layer and protecting against them\n\nGood communication and reporting skills\n\nWhat we offer\n\nElevate your lifestyle! Join one of Europe's fastest-growing tech powerhouses in a dynamic phase of expansion.\n\nImmerse yourself in a diverse global community of 90+ nationalities.\n\nEnjoy a competitive compensation package that goes beyond the norm, with perks like a HelloFresh- subsidized Pension Scheme and a Hybrid working model.\n\nElevate your lifestyle with exclusive discounts on your weekly HelloFresh box and office meals.\n\nInvest in your growth with a German language learning budget, and access to the HelloFresh Academy.\n\nPlus, we've got your well-being covered with mental health support, transportation perks, and working-parent-friendly benefits. From our 24/7 gym access,wellbeing platforms like Headspace and Spill, to sabbatical leave options, HelloFresh is not just a workplace; it's a lifestyle of perks and possibilities!",
     "salary": "",
     "employment_type": "",
@@ -26585,7 +26585,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 4,
+      "age_days": 5,
       "category": "recent",
       "label": "RECENT"
     },
@@ -32821,6 +32821,285 @@
     "application_status": "NEW"
   },
   {
+    "job_key": "39a4143cefceeb7bc131",
+    "source": "Ashby",
+    "sources": [
+      "Ashby"
+    ],
+    "source_urls": {
+      "Ashby": "https://jobs.ashbyhq.com/eye-security/55426be0-d8ff-4f04-9762-ee673d6638f6"
+    },
+    "source_id": "55426be0-d8ff-4f04-9762-ee673d6638f6",
+    "source_job_id": "55426be0-d8ff-4f04-9762-ee673d6638f6",
+    "source_job_ids": {
+      "Ashby": "55426be0-d8ff-4f04-9762-ee673d6638f6"
+    },
+    "company": "Eye Security",
+    "company_normalized": "eye security",
+    "title": "Technical Information Security Officer (ISO)",
+    "normalized_title": "technical information security officer iso",
+    "title_normalized": "technical information security officer iso",
+    "location": "Berlin, Germany",
+    "location_normalized": "berlin germany",
+    "country": "Germany",
+    "remote": true,
+    "hybrid": true,
+    "onsite": false,
+    "url": "https://jobs.ashbyhq.com/eye-security/55426be0-d8ff-4f04-9762-ee673d6638f6",
+    "apply_url": "https://jobs.ashbyhq.com/eye-security/55426be0-d8ff-4f04-9762-ee673d6638f6/application",
+    "canonical_url": "https://jobs.ashbyhq.com/eye-security/55426be0-d8ff-4f04-9762-ee673d6638f6",
+    "ats": "ashby",
+    "published_at": "2026-09-02T12:52:21Z",
+    "first_seen": "2026-09-03T10:00:48Z",
+    "last_seen": "2026-09-03T10:00:48Z",
+    "description": "ABOUT EYE SECURITY\n\nEye Security provides cybersecurity with embedded cyber insurance solutions for organizations across Europe. Headquartered in the Netherlands, we are already over 190 FTEs and continue to grow internationally, having secured our Series C funding of 60 million euros. We combine cutting-edge technology with hands-on expertise to detect, respond to, and recover from cyber threats in real time. Our team brings together talent from intelligence, military, tech, and consulting backgrounds, all united by a shared mission: to make enterprise-grade cybersecurity accessible to every business, particularly SMEs, not just the big players. At Eye, you will work on projects with an international footprint, helping ourselves to meet ISO 27001:2022 and EU NIS2 obligations while building a safer digital future.\n\nABOUT THIS ROLE\n\nWe are looking for a Technical Information Security Officer to lead the design and implementation of our IT security architecture, monitoring infrastructure, and technical controls. In this role, you will translate compliance requirements from our CISO office into robust technical solutions, design and deploy security architecture components, manage our log analytics and monitoring platform, and ensure all security controls are functioning as intended. You act as the technical counterpart to our compliance-facing ISO. Where the CISO office defines what controls need to prove compliance, you design and implement how those controls work and ensure they remain operational and effective. This is a senior technical cybersecurity role with strategic influence over Eye Security's security posture.\n\nWHAT YOU WILL DO\n\nSECURITY ARCHITECTURE\n\n• Design and implement insider threat solutions, such as Data Loss Prevention (DLP), to safeguard sensitive information and prevent unauthorized data exfiltration.\n\n• Define and enforce role-based access controls and separation of duties principles to prevent abuse and limit the effect of mistakes across systems and applications.\n\n• Establish and maintain secure configurations for systems, applications, and network components in alignment with industry standards and ISO 27001:2022 requirements.\n\n• Develop threat models and security design documentation to anticipate and mitigate emerging attack vectors.\n\nLOG ANALYTICS & SYSTEMS MONITORING\n\n• Deploy and configure centralized logging infrastructure and SIEM platforms to collect, store, and analyze security events across all systems and applications.\n\n• Design and implement alerting rules and monitoring workflows to detect anomalies, suspicious activities, and potential security breaches in real time.\n\n• Monitor, investigate, and respond to security alerts in coordination with the CISO office and provide recommendations for remediation.\n\n• Optimize log retention, storage, and analytics performance to maintain compliance with regulatory and operational requirements.\n\nVULNERABILITY & RISK MANAGEMENT\n\n• Coordinate vulnerability disclosure processes and manage the bug bounty program to identify and remediate security weaknesses in a timely manner.\n\n• Coordinate and oversee penetration testing engagements to validate security controls and identify gaps in the security architecture.\n\n• Develop and maintain a process for tracking, prioritizing, and remediating identified vulnerabilities and security findings.\n\nSECURE DEVELOPMENT & CONFIGURATION MANAGEMENT\n\n• Establish and enforce secure coding principles and practices for all internal software development and third-party components.\n\n• Implement configuration management processes to ensure systems are deployed and maintained in a secure, consistent, and auditable manner.\n\n• Design and implement secure data masking techniques to protect sensitive information in non-production environments and during data processing.\n\nCOMPLIANCE SUPPORT & COLLABORATION WITH CISO OFFICE\n\n• Work closely with the Information Security Officers to translate compliance requirements into clear technical specifications for architecture, logging, and monitoring.\n\n• Provide evidence and documentation of technical controls to support compliance audits and regulatory assessments for ISO 27001:2022 and EU NIS2.\n\n• Support the ISO’s in defining technical monitoring requirements and help validate that implemented controls meet compliance objectives.\n\n• Develop and support cyber security incident exercises and participate in the Incident Response Team during security breaches.\n\nWHAT YOU WILL NEED\n\nMust-haves\n\n• Hands-on experience with AWS, DLP, log analytics, SIEM platforms, and secure configuration management in enterprise environments.\n\n• Deep understanding of role-based access control (RBAC), separation of duties principles, and their implementation in modern IT infrastructures.\n\n• Expertise in security frameworks and compliance standards, particularly ISO 27001:2022 and EU NIS2 requirements.\n\n• Excellent analytical and problem-solving skills with the ability to translate compliance requirements into technical solutions.\n\n• Strong communication skills to bridge compliance and technical audiences, including senior leadership and external auditors.\n\n• Fluent English (written and spoken); Dutch is a plus.\n\nNice-to-have\n\n• Experience with cloud security tools and architectures (Azure, or equivalent).\n\n• Experience with bug bounty programs and vulnerability management platforms.\n\n• Relevant certifications (e.g., OSCP).\n\n• Knowledge of secure development lifecycle (SDLC) practices and secure coding standards.\n\n• Experience leading security architecture design in a scaling organization.\n\nHOW THIS ROLE FITS OUR TEAM\n\nThis role is the technical foundation of Eye Security's security posture. While the Information Security Officers formulates what needs to be monitored and evidenced for compliance, you design and implement the technical infrastructure that makes it happen. You will build and lead the IT Security Office, ensuring that security architecture, log analytics, and monitoring capabilities remain aligned with our evolving compliance requirements and threat landscape as Eye Security scales. You will work closely with the ISO’s to ensure requirements flow seamlessly from compliance to implementation, and with the Engineering team to maintain operational excellence.\n\nWHAT WE OFFER\n\n• A meaningful mission: protect organizations across Europe from real-world cyber threats.\n\n• Work with top-tier professionals from national CERTs, intelligence agencies, and leading tech backgrounds.\n\n• A remote-friendly culture with quarterly meetups and annual company retreats (in Spain, Portugal, Italy...).\n\n• Thursday socials to stay connected.\n\n• A generous time-off policy, including wellbeing and volunteering days.\n\n• Competitive salary and professional development opportunities.\n\nEQUAL OPPORTUNITY\n\nEye Security is an equal opportunity employer. We are committed to making our hiring process accessible to everyone. If you need a reasonable accommodation to apply or interview for this role, please inform the TA team.",
+    "salary": "",
+    "employment_type": "FullTime",
+    "experience_required": null,
+    "german_requirement": "No German requirement detected",
+    "skills_detected": [
+      "aws",
+      "azure",
+      "bug bounty",
+      "cloud security",
+      "dlp",
+      "incident response",
+      "iso 27001",
+      "penetration testing",
+      "siem",
+      "software development",
+      "vulnerability disclosure program",
+      "vulnerability management"
+    ],
+    "skill_matches": {
+      "match": [
+        "penetration testing"
+      ],
+      "partial": [
+        "aws",
+        "incident response",
+        "siem",
+        "software development"
+      ],
+      "missing": [
+        "bug bounty",
+        "dlp",
+        "iso 27001",
+        "vulnerability disclosure program"
+      ],
+      "nice_to_have": [
+        "azure (missing)",
+        "cloud security (partial)",
+        "vulnerability management (match)"
+      ]
+    },
+    "score": 59,
+    "score_label": "STRETCH",
+    "score_breakdown": {
+      "role_alignment": 16,
+      "skills": 12,
+      "experience": 10,
+      "location": 15,
+      "language": 10,
+      "seniority": 10,
+      "education": 5
+    },
+    "match_reasons": [
+      "Role family: Security Engineering.",
+      "The role is based in Berlin/Germany or explicitly accepts Germany.",
+      "Evidenced matches include penetration testing."
+    ],
+    "warnings": [
+      "Mandatory gaps: aws, dlp, iso 27001, siem",
+      "Potential gaps: vulnerability disclosure program",
+      "Optional gaps: azure, bug bounty, cloud security",
+      "Exposure only; do not claim deep expertise: aws, incident response, siem, software development",
+      "Multiple explicitly mandatory skills are not evidenced"
+    ],
+    "status": "NEW",
+    "priority_employer": true,
+    "tags": [
+      "Compliance & IT",
+      "Foundation"
+    ],
+    "lead_type": "",
+    "post_author": "",
+    "feed_name": "",
+    "content_hash": "b7cdc291ef656c282df8ea95d3cd1bea65643dd5986182a0dc58a7d45a3a3c19",
+    "german_analysis": {
+      "category": "none",
+      "level": "none",
+      "mandatory": false,
+      "label": "No German requirement detected",
+      "evidence": ""
+    },
+    "experience_analysis": null,
+    "posting_age_analysis": {
+      "known": true,
+      "age_days": 0,
+      "category": "new",
+      "label": "NEW - APPLY QUICKLY"
+    },
+    "seniority_analysis": {
+      "level": "mid_unspecified",
+      "label": "Mid-level or unspecified",
+      "evidence": "No explicit seniority marker in title"
+    },
+    "location_analysis": {
+      "category": "eligible_germany",
+      "eligible": true,
+      "score": 15,
+      "reason": "Germany/Berlin eligibility detected",
+      "verification_required": false,
+      "score_cap": null
+    },
+    "skill_requirements": [
+      {
+        "skill": "aws",
+        "profile_status": "partial",
+        "requirement": "mandatory",
+        "evidence": "Hands-on experience with AWS, DLP, log analytics, SIEM platforms, and secure configuration management in enterprise environments."
+      },
+      {
+        "skill": "dlp",
+        "profile_status": "missing",
+        "requirement": "mandatory",
+        "evidence": "Hands-on experience with AWS, DLP, log analytics, SIEM platforms, and secure configuration management in enterprise environments."
+      },
+      {
+        "skill": "iso 27001",
+        "profile_status": "missing",
+        "requirement": "mandatory",
+        "evidence": "Expertise in security frameworks and compliance standards, particularly ISO 27001:2022 and EU NIS2 requirements."
+      },
+      {
+        "skill": "siem",
+        "profile_status": "partial",
+        "requirement": "mandatory",
+        "evidence": "Hands-on experience with AWS, DLP, log analytics, SIEM platforms, and secure configuration management in enterprise environments."
+      },
+      {
+        "skill": "incident response",
+        "profile_status": "partial",
+        "requirement": "mentioned",
+        "evidence": "Develop and support cyber security incident exercises and participate in the Incident Response Team during security breaches."
+      },
+      {
+        "skill": "penetration testing",
+        "profile_status": "match",
+        "requirement": "mentioned",
+        "evidence": "Coordinate and oversee penetration testing engagements to validate security controls and identify gaps in the security architecture."
+      },
+      {
+        "skill": "software development",
+        "profile_status": "partial",
+        "requirement": "mentioned",
+        "evidence": "Establish and enforce secure coding principles and practices for all internal software development and third-party components."
+      },
+      {
+        "skill": "vulnerability disclosure program",
+        "profile_status": "missing",
+        "requirement": "mentioned",
+        "evidence": "Coordinate vulnerability disclosure processes and manage the bug bounty program to identify and remediate security weaknesses in a timely manner."
+      },
+      {
+        "skill": "azure",
+        "profile_status": "missing",
+        "requirement": "optional",
+        "evidence": "Experience with cloud security tools and architectures (Azure, or equivalent)."
+      },
+      {
+        "skill": "bug bounty",
+        "profile_status": "missing",
+        "requirement": "optional",
+        "evidence": "Experience with bug bounty programs and vulnerability management platforms."
+      },
+      {
+        "skill": "cloud security",
+        "profile_status": "partial",
+        "requirement": "optional",
+        "evidence": "Experience with cloud security tools and architectures (Azure, or equivalent)."
+      },
+      {
+        "skill": "vulnerability management",
+        "profile_status": "match",
+        "requirement": "optional",
+        "evidence": "Experience with bug bounty programs and vulnerability management platforms."
+      }
+    ],
+    "mandatory_gaps": [
+      {
+        "skill": "aws",
+        "profile_status": "partial",
+        "requirement": "mandatory",
+        "evidence": "Hands-on experience with AWS, DLP, log analytics, SIEM platforms, and secure configuration management in enterprise environments."
+      },
+      {
+        "skill": "dlp",
+        "profile_status": "missing",
+        "requirement": "mandatory",
+        "evidence": "Hands-on experience with AWS, DLP, log analytics, SIEM platforms, and secure configuration management in enterprise environments."
+      },
+      {
+        "skill": "iso 27001",
+        "profile_status": "missing",
+        "requirement": "mandatory",
+        "evidence": "Expertise in security frameworks and compliance standards, particularly ISO 27001:2022 and EU NIS2 requirements."
+      },
+      {
+        "skill": "siem",
+        "profile_status": "partial",
+        "requirement": "mandatory",
+        "evidence": "Hands-on experience with AWS, DLP, log analytics, SIEM platforms, and secure configuration management in enterprise environments."
+      }
+    ],
+    "potential_gaps": [
+      {
+        "skill": "vulnerability disclosure program",
+        "profile_status": "missing",
+        "requirement": "mentioned",
+        "evidence": "Coordinate vulnerability disclosure processes and manage the bug bounty program to identify and remediate security weaknesses in a timely manner."
+      }
+    ],
+    "optional_gaps": [
+      {
+        "skill": "azure",
+        "profile_status": "missing",
+        "requirement": "optional",
+        "evidence": "Experience with cloud security tools and architectures (Azure, or equivalent)."
+      },
+      {
+        "skill": "bug bounty",
+        "profile_status": "missing",
+        "requirement": "optional",
+        "evidence": "Experience with bug bounty programs and vulnerability management platforms."
+      },
+      {
+        "skill": "cloud security",
+        "profile_status": "partial",
+        "requirement": "optional",
+        "evidence": "Experience with cloud security tools and architectures (Azure, or equivalent)."
+      }
+    ],
+    "role_family": {
+      "id": "security_engineering",
+      "label": "Security Engineering",
+      "priority": 2,
+      "confidence": "medium",
+      "evidence": [
+        "security controls",
+        "vulnerability",
+        "security architecture"
+      ]
+    },
+    "raw_score": 78,
+    "score_cap": 59,
+    "score_cap_reasons": [
+      "Multiple explicitly mandatory skills are not evidenced"
+    ],
+    "application_status": "NEW"
+  },
+  {
     "job_key": "f24ae651382ec38ce5f1",
     "source": "Greenhouse",
     "sources": [
@@ -33147,7 +33426,7 @@
     "ats": "greenhouse",
     "published_at": "2026-08-29T00:41:07Z",
     "first_seen": "2026-08-30T10:59:28Z",
-    "last_seen": "2026-08-30T10:59:28Z",
+    "last_seen": "2026-09-03T10:00:48Z",
     "description": "About Glean:\n\nGlean is the Work AI platform that helps everyone work smarter with AI. What began as the industry’s most advanced enterprise search has evolved into a full-scale Work AI ecosystem, powering intelligent Search, an AI Assistant, and scalable AI agents on one secure, open platform. With over 100 enterprise SaaS connectors, flexible LLM choice, and robust APIs, Glean gives organizations the infrastructure to govern, scale, and customize AI across their entire business - without vendor lock-in or costly implementation cycles.\n\nAt its core, Glean is redefining how enterprises find, use, and act on knowledge. Its Enterprise Graph and Personal Knowledge Graph map the relationships between people, content, and activity, delivering deeply personalized, context-aware responses for every employee. This foundation powers Glean’s agentic capabilities - AI agents that automate real work across teams by accessing the industry’s broadest range of data: enterprise and world, structured and unstructured, historical and real-time. The result: measurable business impact through faster onboarding, hours of productivity gained each week, and smarter, safer decisions at every level.\n\nRecognized by Fast Company as one of the World’s Most Innovative Companies (Top 10, 2025), by CNBC’s Disruptor 50, Bloomberg’s AI Startups to Watch (2026), Forbes AI 50, and Gartner’s Tech Innovators in Agentic AI, Glean continues to accelerate its global impact. With customers across 50+ industries and 1,000+ employees in more than 25 countries, we’re helping the world’s largest organizations make every employee AI-fluent, and turning the superintelligent enterprise from concept into reality.\n\nIf you’re excited to shape how the world works, you’ll help build systems used daily across Microsoft Teams, Zoom, ServiceNow, Zendesk, GitHub, and many more - deeply embedded where people get things done. You’ll ship agentic capabilities on an open, extensible stack, with the craft and care required for enterprise trust, as we bring Work AI to every employee, in every company.\n\nAbout the Role:\n\nGlean is seeking a talented security-focused software engineer to join our growing team. In this role, you will play a critical role in developing and maintaining the security foundation of our platform. You will be responsible for designing, implementing, and testing security features across various software components.\n\nYou will:\n\nDesign, develop, and maintain secure software for core platform functionalities, particularly focusing on:\n\nAuthentication and authorization systems\n\nSecure communication channels between services (e.g., API security)\n\nSecure data storage and access controls\n\nCollaborate with cross-functional teams (engineering, product) to integrate security best practices throughout the development lifecycle.\n\nStay up-to-date on the latest security threats, vulnerabilities, and mitigation strategies.\n\nConduct security code reviews and identify potential security risks in existing codebases.\n\nDevelop and implement automated security testing procedures.\n\nRespond to security incidents and participate in incident response procedures.\n\nContinuously improve the platform's security posture by identifying and implementing security enhancements.\n\nDocument security processes, procedures, and best practices.\n\nAbout you:\n\nBA/BS in computer science, or related degree, MS a strong plus\n\nMinimum 5+ years of experience in software development with a strong focus on security aspects\n\nProven experience in designing and implementing secure authentication and authorization systems\n\nIn-depth understanding of secure coding principles and best practices (e.g., OWASP Top 10)\n\nExperience with secure communication protocols (e.g., TLS/SSL)\n\nFamiliarity with security testing tools and methodologies (e.g., static code analysis, penetration testing)\n\nExcellent problem-solving and analytical skills\n\nStrong communication and collaboration skills\n\nAbility to work independently and as part of a cross-functional team\n\nPassion for security and a commitment to building secure and reliable systems\n\nKey knowledge and skills\n\nThrive in a customer-focused, tight-nit and cross-functional environment - being a team player and willing to take on whatever is most impactful for the company is a must.\n\nA proactive and positive attitude to lead, learn, troubleshoot and take ownership of both small tasks and large features.\n\nAn interest/desire to learn and own various aspects of security.\n\nStrong coding skills (for example in Go/Python/Java/C++ etc) with an emphasis on designing for reliability and scale, and writing well-tested components.\n\nExperience with cloud security principles and tools (AWS Security, GCP Security)\n\nExperience with container security (Docker Security, Kubernetes Security)\n\nLocation:\n\nThis role is remote\n\nCompensation & Benefits:\n\nThe standard base salary range for this position is $185,000 - $260,000 annually. Compensation offered will be determined by factors such as location, level, job-related knowledge, skills, and experience. Certain roles may be eligible for variable compensation, equity, and benefits.\n\nWe offer a comprehensive benefits package including competitive compensation, Medical, Vision, and Dental coverage, generous time-off policy, and the opportunity to contribute to your 401k plan to support your long-term goals. When you join, you'll receive a home office improvement stipend, as well as an annual education and wellness stipends to support your growth and wellbeing. We foster a vibrant company culture through regular events, and provide healthy lunches daily to keep you fueled and focused.\n\nWe are a diverse bunch of people and we want to continue to attract and retain a diverse range of people into our organization. We're committed to an inclusive and diverse company. We do not discriminate based on gender, ethnicity, sexual orientation, religion, civil or family status, age, disability, or race.\n\n#LI-REMOTE\n\nAI-First Mindset at Glean:\n\nAt Glean, AI fluency is core to how we work and we're committed to ensuring every new hire feels confident integrating AI into their everyday work. As part of the interview process, you'll complete a brief AI-focused exercise or discussion so we can understand how you think about, design, and use AI to drive impact in your role. Feel free to reference any tools, platforms, or workflows you use today — prior Glean experience isn't required.\n\nGlobal Data Privacy Notice for Job Candidates and Applicants:\n\nDepending on your location, the General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), or other privacy laws may regulate the way we manage the data of job applicants. Our full notice outlining how data will be processed as part of the application procedure for applicable locations is available in our Privacy Policy. By submitting your application, you are agreeing to our use and processing of your data as required. US applicants and their applications are subject to arbitration of disputes as outlined in our Applicant Arbitration Agreement.\n\nBy clicking “Submit Application,” I confirm that I have read the Global Data Privacy Notice and the Applicant Arbitration Agreement, and I agree to the terms.",
     "salary": "",
     "employment_type": "",
@@ -33223,7 +33502,7 @@
       "Mandatory experience requirement is 5+ years",
       "Multiple explicitly mandatory skills are not evidenced"
     ],
-    "status": "NEW",
+    "status": "SEEN_BEFORE",
     "priority_employer": false,
     "tags": [
       "Engineering",
@@ -33249,9 +33528,9 @@
     },
     "posting_age_analysis": {
       "known": true,
-      "age_days": 1,
-      "category": "new",
-      "label": "NEW - APPLY QUICKLY"
+      "age_days": 5,
+      "category": "recent",
+      "label": "RECENT"
     },
     "seniority_analysis": {
       "level": "mid_unspecified",
@@ -33703,7 +33982,7 @@
     "ats": "greenhouse",
     "published_at": "2026-08-26T08:34:16Z",
     "first_seen": "2026-08-27T16:38:50Z",
-    "last_seen": "2026-09-02T09:49:06Z",
+    "last_seen": "2026-09-03T10:00:48Z",
     "description": "The role\n\nWe’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges. Security Engineers work in a variety of ways to constantly iterate and improve HelloFresh’s security posture. \n\nAs an Experienced SOC Analyst at HelloFresh, you’ll bring advanced expertise to our SOC team in Manila. Working in a flat team structure, you’ll act as a Senior Engineer handling escalations from junior analysts, driving complex investigations, and ensuring accurate incident reporting.\n\nYou’ll be the point of contact for Berlin SOC leadership during major incidents, mentor junior colleagues, and help refine SOC processes. This is a hands-on technical role with strong responsibility, requiring both depth in incident response and leadership qualities to keep the operations effective\n\nAbove all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you.\n\nWhat you’ll do\n\nResponsible for maturing logging and monitoring of Cloud, IT and Application workloads through automation and IaC\n\nFilter, ingest and optimize security-specific events from large log streams such as App logs, Kubernetes logs, CloudTrail, CloudFlare and ELB logs etc.\n\nConduct threat hunts against file-less malware and APTs by leveraging EDR, OS and network telemetry acquired through specialized open-source tool set like Sysmon, Osquery, RITA and Zeek\n\nAI-Enhanced Coding: Ability to use AI coding assistants to write scripts for security automation and data parsing and building detection logic.\n\nInvestigation Acceleration: Proficiency in using LLMs (e.g., Claude, ChatGPT, Gemini) to quickly summarize high-volume JSON logs, investigate and explain complex code snippets etc. \n\nDevelop advanced correlation and cross-correlation rules beyond what is available out of the box to detect sophisticated attacks and fraud cases\n\nGenerate security metrics and reporting on incidents and effectiveness of the SOC operation\n\nLead efficient Incident Detection and Response in AWS cloud and enterprise IT environments\n\nShift Communication: Serve as the shift’s main communicator, updating Berlin SOC leadership and local IT/business stakeholders during active incidents.\n\nPlaybook & Process Improvement: Suggest detection rule tuning, SOP refinements, and contribute to the team knowledge base to reduce false positives and improve workflows.\n\nMentor level (L1) SOC team, conduct purple teaming workshops and participate in CTFs\n\nWhat you’ll bring\n\nProven security monitoring and incident response experience in public cloud environments\n\nExperience with cloud SIEM & SOAR platforms, DDoS mitigation and preventing tools and Layer-7 Web-based perimeter security controls\n\nExcellent programming (automation) skill with Python / Go\n\nExperience with cloud SIEM & SOAR platforms, DDoS mitigation and preventing tools and Layer-7 Web-based perimeter security controls\n\nAI-Enhanced Coding: Ability to use AI coding assistants to write and debug Python scripts for security automation and data parsing.\n\nDetection Logic: Proficiency in writing detection rules (Sigma, KQL) with the assistance of AI tools to optimize query performance and coverage.\n\nUnderstanding of network intrusion methods, network containment, segregation techniques and technologies such as Sandboxes and Intrusion Detection/Prevention Systems (ID/PS)\n\nAbility to analyze disparate log sources on demand and cut noise from the signal\n\nGood communication and reporting skills\n\nCommand over log analysis stacks like ElasticSearch, Splunk/SumoLogic, Graylog\n\nOpen to working on-call in rotational shifts\n\nMeeting response time and incident closure metrics, with thorough documentation and timely stakeholder updates.\n\nWhat we offer\n\nElevate your lifestyle! Join one of Europe's fastest-growing tech powerhouses in a dynamic phase of expansion.\n\nImmerse yourself in a diverse global community of 90+ nationalities.\n\nEnjoy a competitive compensation package that goes beyond the norm, with perks like a HelloFresh- subsidized Pension Scheme and a Hybrid working model.\n\nElevate your lifestyle with exclusive discounts on your weekly HelloFresh box and office meals.\n\nInvest in your growth with a German language learning budget, and access to the HelloFresh Academy.\n\nPlus, we've got your well-being covered with mental health support, transportation perks, and working-parent-friendly benefits. From our 24/7 gym access,wellbeing platforms like Headspace and Spill, to sabbatical leave options, HelloFresh is not just a workplace; it's a lifestyle of perks and possibilities!",
     "salary": "",
     "employment_type": "",
@@ -33787,9 +34066,9 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 7,
-      "category": "recent",
-      "label": "RECENT"
+      "age_days": 8,
+      "category": "current",
+      "label": "OPEN FOR REVIEW"
     },
     "seniority_analysis": {
       "level": "senior",
@@ -34385,7 +34664,7 @@
     "ats": "greenhouse",
     "published_at": "2026-08-05T09:59:35Z",
     "first_seen": "2026-08-16T21:45:22Z",
-    "last_seen": "2026-09-02T09:49:06Z",
+    "last_seen": "2026-09-03T10:00:48Z",
     "description": "About the opportunity\n\nAre you passionate about cybersecurity and eager to make a real impact in a dynamic environment? Look no further! We are on the lookout for a Senior Cloud Security Engineer who is ready to take the lead in proactively identifying and mitigating security threats and safeguarding our sensitive data. Join forces with our Platform and Data teams and be at the forefront of safeguarding our customer and our organisation.\n\nAt N26, our Infrastructure Security team is on a mission to detect and remediate IT and cloud infrastructure security threats. We're dedicated to providing efficient and effective services that empower our N26 tech teams to thrive.\n\nOnce here you will\n\nDrive the Cloud Infrastructure Security function roadmap in alignment with the Product Manager, Tech Lead, and Engineering Manager.\n\nOwn, define and drive initiatives, solutions, processes and frameworks to proactively identify and mitigate security threats within our AWS infrastructure which leads to an overall improvement of our security maturity.\n\nDesign, deploy and maintain state-of-the-art cloud-native security solutions, incorporating end-to-end data protection, advanced threat detection, automated controls, alerting and remediation mechanisms to ensure continuous compliance and protection across our cloud infrastructure. \n\nPerform regular and proactive research to detect new attack vectors.\n\nPerform Threat Modeling Sessions, assess and classify identify security threats and define threats mitigation solutions in alignment with the stakeholders\n\nMonitor for vulnerabilities, perform ongoing risk assessment and collaborate with cross-functional teams to mitigate the risk.\n\nDefine the pentesting scope and scenarios.\n\nDevelop and maintain documentation providing clear guidelines to strengthen security posture and ensure consistent, secure cloud operations across the organisation.\n\nProvide a first class service to our main stakeholders in our support portal\n\nBe part of our security incident response on-call rotation (voluntary) and lead security incidents \n\nWhat you will bring along\n\nCloud Security: Competent understanding and experience of securing at minimum AWS cloud infrastructure environments, CI/CD pipelines, containerized environment and Linux systems.\n\nRisk Assessment: Experience with assessing security findings and mitigation strategies \n\nSecurity Savvy: Competent knowledge of common security frameworks and tactics, including STRIDE, MITRE ATT&CK®, and OWASP.\n\nData Security: Understanding of cloud data security challenges and best practices across cloud cloud environments.\n\nTool Mastery: Experience in deploying and customising security tools to address threats and reduce risk (CSPM/CNAPP, vulnerability scanners, IDS/IPS, endpoint security, KSPM, container runtime security, etc.)\n\nAutomation Pro: Proficiency in using CI/CD pipelines (e.g., Terraform) for implementing automated security testing and change management.\n\nCloud Deployment: Hands-on Experience with modern cloud technology components and deployment patterns: virtual machines, containers, Kubernetes, serverless, infrastructure as code, etc.\n\nScripting Skills: Proficiency in Python, Bash, or GO for scripting and automation.\n\nEthical Hacker: Experience with ethical hacking and penetration test methodologies.\n\nTeamwork & Collaboration\n\nAgile Mindset: Familiarity with agile methodologies and project management.\n\nCollaborative Spirit: Demonstrated ability to collaborate across teams and segments to achieve complex objectives.\n\nHands-On: A hands-on attitude with a knack for driving solutions to completion.\n\nCommunicator: Excellent oral and written communication skills.\n\nGrowth-Driven: A growth mindset focused on learning and pushing the team forward.\n\nCommunity Contributor: Contributions to the security community, such as open-source tools, research papers, conference talks, etc.\n\nEducational Background: A Master's degree in cybersecurity or a related field or a Bachelor's degree in computer science or a related field with an advanced security certification.\n\nIf you're ready to embark on a thrilling journey in the world of IT security and make a meaningful impact, we want to hear from you! Join our team at N26 and help us protect what matters most.\n\nWhat’s in it for you:\n\nAccelerate your career growth by joining one of Europe’s most talked about disruptors 🚀.\n\nEmployee benefits that range from a competitive personal development budget, work from home budget, discounts to fitness & wellness memberships, language apps and public transportation. \n\nAs an N26 employee you will have access to a Premium subscription on your personal N26 bank account. As well as subscriptions for friends and family members. \n\nAdditional day of annual leave for each year of service. \n\nA high degree of autonomy and access to cutting edge technologies - all while working with a friendly team of peers of diverse nationalities, life experiences and family statuses. \n\nA relocation package with visa support for those who need it.\n\nWho we are\n\nN26 has reimagined banking for today’s digital world. Technology and design empower everything we do and it’s how we are building the global banking platform the world loves to use.\n\nWe've eliminated physical branches, paperwork, and hidden fees for an elegant digital experience and supreme savings. Giving people the power to live and bank their way is what gets us out of bed in the morning and inspires the work that we do. \n\nWe are headquartered in Berlin with offices in multiple cities across Europe, including Vienna and Barcelona, and a 1,500-strong team of more than 80 nationalities.\n\nSounds good? Apply now for this position.\n\nEqual Opportunities:\n\nWe recognize that our strength lies in our people and the varied perspectives they bring to our workforce. We strive to build talented and diverse teams to drive our business success and empower our people to reach their full potential.\n\nWe genuinely welcome and encourage applications from people of all backgrounds, cultures, genders, sexual orientations, abilities, neurodiversities, and ages. We're committed to creating an inclusive workspace where everyone feels valued and respected, free from harassment and discrimination. If there's anything you need to make the application process work for you, please let us know by reaching out to candidate.exp@n26.com. \n\nVisit our website to learn more about Diversity, Equity, & Inclusion at N26.",
     "salary": "",
     "employment_type": "",
@@ -34473,7 +34752,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 27,
+      "age_days": 29,
       "category": "current",
       "label": "OPEN FOR REVIEW"
     },
@@ -34682,8 +34961,8 @@
     "ats": "",
     "published_at": "2026-08-31T20:40:18Z",
     "first_seen": "2026-09-01T10:20:37Z",
-    "last_seen": "2026-09-02T09:49:06Z",
-    "description": "About Us \n\nParity is one of the world’s most experienced companies building the core infrastructure behind blockchain — the system that allows information and value to be shared securely without needing an intermediary. We’re laying the foundation for a better web which respects the freedom and data of individuals, and empowers developers to build better, more trustworthy online services.\n\nOur remote-first, global team develop open-source software that anyone can use or improve. This includes Polkadot, Polkadot SDK, and Kusama — key parts of the Web3 tech stack, the next generation of the internet. Our mission is to make Polkadot the most active and innovative community in blockchain, powering a new era of connected and decentralised applications.\n\nAbout the Team\n\nParity’s Security Engineering team is at the forefront of protecting the Polkadot ecosystem by designing and implementing secure software, auditing code for vulnerabilities, and building cutting-edge ML tools to automate security analysis. We work closely with development teams to embed security best practices across our open-source stack, ensuring that our blockchain infrastructure is robust, resilient, and secure by design.\n\nAbout the Role\n\nAs a security-focused software engineer, you will go beyond traditional application security - you’ll audit and ideally write secure Rust code where needed, conduct deep manual and automated code audits, and leverage machine learning to enhance security across our ecosystem. This is an opportunity to shape the security landscape of the next generation of decentralized applications and protocols.\n\nAssist in developing Secure Software – Write and optimise Rust code to build security-critical components and tools.\n\nCode Auditing & Vulnerability Analysis – Perform deep manual and automated code reviews to identify and mitigate security vulnerabilities.\n\nML-Powered Security – Design and implement machine learning models for automated security analysis, anomaly detection, and threat mitigation.\n\nBug Bounty & Vulnerability Management – Manage bug bounty submissions, triage security reports, and collaborate with ethical hackers to resolve issues.\n\nSecure Development Best Practices – Work with engineering teams to integrate security best practices into the software development lifecycle.\n\nThreat Modeling & Risk Assessment – Identify and assess security risks in our blockchain infrastructure, smart contracts, and core software.\n\nStay Cutting-Edge – Research and implement the latest advancements in secure coding, ML-driven security, and blockchain security.\n\nWhat We're Looking For\n\nExperience with secure coding practices and memory safety concepts.\n\nBackground in code auditing, vulnerability analysis, or exploit development.\n\nExperience triaging and resolving bug bounty reports.\n\nKnowledge of machine learning techniques applied to security (e.g., anomaly detection, fuzzing, automated threat detection).\n\nFamiliarity with cryptographic principles, blockchain security, or decentralized systems.\n\nStrong problem-solving skills and an offensive security mindset.\n\nIf you're excited about writing secure software, auditing code, and pioneering ML-driven security solutions for Web3, we’d love to hear from you!\n\nAbout Working With Us\n\nJoining Parity means joining team mates who are genuinely excited about the impact their projects are having, and the opportunity to grow alongside some of the brightest minds in the Web3 space! You’ll work remotely and flexibly, while still getting to meet your team mates throughout the year at team and company-wide retreats.\n\nUpon receiving an offer, all candidates undergo a background check through Zinc, our trusted third-party provider. Team members will be taken on as a contractor via our UK entity. View our Applicant Notice to see how we use your data.\n\nParity is an Equal Opportunity Employer. We welcome diversity in our global team and care about everyone in our collective feeling included and welcome.\n\nIs this position not quite your match? Browse our other open roles.\n\nFind Jobs in Germany on Arbeitnow",
+    "last_seen": "2026-09-03T10:00:48Z",
+    "description": "About Us \n\nParity is one of the world’s most experienced companies building the core infrastructure behind blockchain — the system that allows information and value to be shared securely without needing an intermediary. We’re laying the foundation for a better web which respects the freedom and data of individuals, and empowers developers to build better, more trustworthy online services.\n\nOur remote-first, global team develop open-source software that anyone can use or improve. This includes Polkadot, Polkadot SDK, and Kusama — key parts of the Web3 tech stack, the next generation of the internet. Our mission is to make Polkadot the most active and innovative community in blockchain, powering a new era of connected and decentralised applications.\n\nAbout the Team\n\nParity’s Security Engineering team is at the forefront of protecting the Polkadot ecosystem by designing and implementing secure software, auditing code for vulnerabilities, and building cutting-edge ML tools to automate security analysis. We work closely with development teams to embed security best practices across our open-source stack, ensuring that our blockchain infrastructure is robust, resilient, and secure by design.\n\nAbout the Role\n\nAs a security-focused software engineer, you will go beyond traditional application security - you’ll audit and ideally write secure Rust code where needed, conduct deep manual and automated code audits, and leverage machine learning to enhance security across our ecosystem. This is an opportunity to shape the security landscape of the next generation of decentralized applications and protocols.\n\nAssist in developing Secure Software – Write and optimise Rust code to build security-critical components and tools.\n\nCode Auditing & Vulnerability Analysis – Perform deep manual and automated code reviews to identify and mitigate security vulnerabilities.\n\nML-Powered Security – Design and implement machine learning models for automated security analysis, anomaly detection, and threat mitigation.\n\nBug Bounty & Vulnerability Management – Manage bug bounty submissions, triage security reports, and collaborate with ethical hackers to resolve issues.\n\nSecure Development Best Practices – Work with engineering teams to integrate security best practices into the software development lifecycle.\n\nThreat Modeling & Risk Assessment – Identify and assess security risks in our blockchain infrastructure, smart contracts, and core software.\n\nStay Cutting-Edge – Research and implement the latest advancements in secure coding, ML-driven security, and blockchain security.\n\nWhat We're Looking For\n\nExperience with secure coding practices and memory safety concepts.\n\nBackground in code auditing, vulnerability analysis, or exploit development.\n\nExperience triaging and resolving bug bounty reports.\n\nKnowledge of machine learning techniques applied to security (e.g., anomaly detection, fuzzing, automated threat detection).\n\nFamiliarity with cryptographic principles, blockchain security, or decentralized systems.\n\nStrong problem-solving skills and an offensive security mindset.\n\nIf you're excited about writing secure software, auditing code, and pioneering ML-driven security solutions for Web3, we’d love to hear from you!\n\nAbout Working With Us\n\nJoining Parity means joining team mates who are genuinely excited about the impact their projects are having, and the opportunity to grow alongside some of the brightest minds in the Web3 space! You’ll work remotely and flexibly, while still getting to meet your team mates throughout the year at team and company-wide retreats.\n\nUpon receiving an offer, all candidates undergo a background check through Zinc, our trusted third-party provider. Team members will be taken on as a contractor via our UK entity. View our Applicant Notice to see how we use your data.\n\nParity is an Equal Opportunity Employer. We welcome diversity in our global team and care about everyone in our collective feeling included and welcome.\n\nIs this position not quite your match? Browse our other open roles.\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
     "salary": "",
     "employment_type": "Contract",
     "experience_required": null,
@@ -34734,7 +35013,7 @@
       "Potential gaps: bug bounty, go, rust",
       "Exposure only; do not claim deep expertise: software development"
     ],
-    "status": "SEEN_BEFORE",
+    "status": "UPDATED",
     "priority_employer": false,
     "tags": [
       "Acceleration"
@@ -34742,7 +35021,7 @@
     "lead_type": "",
     "post_author": "",
     "feed_name": "",
-    "content_hash": "2537ebfa82aac597cf8cb358acc63a8d1b58d5a508180c651c38c9f470ecbf42",
+    "content_hash": "5e59fa53d67592e978a7cc7f725a8eae390073a023a1730bcd50575e589b759f",
     "german_analysis": {
       "category": "none",
       "level": "none",
@@ -34753,7 +35032,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 1,
+      "age_days": 2,
       "category": "new",
       "label": "NEW - APPLY QUICKLY"
     },
@@ -34885,7 +35164,7 @@
     "ats": "ashby",
     "published_at": "2026-08-05T12:52:42Z",
     "first_seen": "2026-08-15T17:01:09Z",
-    "last_seen": "2026-09-02T09:49:06Z",
+    "last_seen": "2026-09-03T10:00:48Z",
     "description": "Qdrant is an open-source vector search engine powering the next generation of AI applications, from semantic search and retrieval-augmented generation (RAG) to AI agents and real-time recommendations.\n\nTrusted by global leaders like Canva, HubSpot, Tripadvisor, Bosch, and Deutsche Telekom, we’re building the retrieval infrastructure layer for modern AI. Recently raising $50M in Series B funding, we are growing rapidly and committed to transforming how AI understands and interacts with data.\n\nAs a remote-first company, we believe diverse backgrounds, perspectives, and experiences fuel innovation. Here, you’ll own meaningful work, tackle challenges, and grow alongside passionate individuals dedicated to shaping the future of AI.\n\nWe are looking for a Mid-Level Security Engineer to own the hands-on engineering and operational work within our security program. You will be embedded in the Cloud Engineering team, report into the Security Officer, and work closely together to identify risks, set priorities, and drive security issues through remediation. You will act as a security enabler across all Product & Engineering.\n\nWHAT YOU WILL OWN\n\n- Run our public bug bounty program: triage reports, reproduce and validate findings, communicate clearly with security researchers, and drive remediation through to closure.\n\n- Investigate reported vulnerabilities at the code level, including our Rust core, Go and Python tooling.\n\n- Enable engineers to build secure systems: provide tooling, paved-road defaults, documentation, and practical guidance so security is the easy path, not a checkpoint.\n\n- Partner with engineering teams to design, review, and verify fixes, and set clear security requirements on changes where the risk warrants it.\n\n- Harden and maintain our GitHub organization’s security posture, including secret scanning, push protection, branch protection and rulesets, dependency alerts, and code scanning, in partnership with the engineering teams that use these repositories daily.\n\n- Monitor, investigate, and respond to security alerts across AWS, Kubernetes, CI/CD, and related infrastructure.\n\n- Track and report security metrics (vulnerability remediation SLAs, MTTR, patch latency, critical findings) and keep reporting current for the Security Officer.\n\n- Implement, configure, and maintain security tooling across our development and cloud environments.\n\n- Support security incident response, including investigation, containment, remediation, and follow-up.\n\n- Maintain clear, complete, and auditable records of vulnerability and incident work in our tracking systems.\n\n- Build security automation and guardrails that scale across the development lifecycle: CI/CD security checks, policy-as-code, GitHub automation, and automated cloud security controls, so secure defaults are enforced by tooling rather than review.\n\n- Participate in threat modeling and architecture reviews for new services and major changes.\n\nWe are also building out our ISMS, which creates opportunities to contribute to security-tooling evaluations, technical vendor assessments, and proof-of-concept work. Formal compliance ownership, vendor risk assessments, and customer security questionnaires remain with the Security Officer.\n\nThis is a hands-on technical role focused on security engineering, vulnerability management, and incident response. The Security Officer owns compliance, formal third-party risk assessments, and customer security questionnaires, allowing you to focus primarily on engineering work. On-call expectations are low: there is no formal rotation, though occasional availability for high-severity incidents is expected.\n\nWHO YOU ARE\n\n- You can read and navigate an unfamiliar codebase (Rust, Go, Python) well enough to validate a vulnerability report, trace its impact, and judge whether a proposed fix actually closes it.\n\n- You write and maintain automation and security tooling comfortably, and can hold a credible technical conversation in code review.\n\n- Experience triaging vulnerability reports or working with a bug bounty program, vulnerability disclosure program, product security team, or similar function.\n\n- Practical knowledge of cloud and container security, particularly AWS and Kubernetes.\n\n- Familiarity with GitHub security features and securing CI/CD pipelines.\n\n- The ability to investigate alerts and vulnerabilities methodically, distinguish genuine risk from noise, and recommend proportionate remediation.\n\n- Clear written communication skills for working with external researchers and internal engineering teams.\n\n- A self-directed approach and comfort independently managing a security queue.\n\n- 3+ years in a hands-on security engineering, product security, or vulnerability management role.\n\nNice to have\n\n- An offensive security background, such as penetration testing, CTF participation, vulnerability research, or exploit analysis.\n\n- Experience working in an open-source company or contributing security improvements to open-source projects.\n\n- Familiarity with cloud-native incident response.\n\nWHY JOIN US\n\n- A remote-first, international team working on cutting-edge AI infrastructure.\n\n- A competitive salary with additional perks.\n\n- Flexible working hours and async-friendly culture.\n\n- High ownership and real impact.\n\n- Open-source, engineering-driven culture.\n\n- Choose your own laptop equipment.\n\nFor US-based full-time employees, we also offer a comprehensive benefits package including 401k match, health, dental, and vision insurance, plus flexible PTO policy.\n\nQdrant is an equal-opportunity employer. We believe the best ideas come from diverse teams, and we actively welcome applicants from all backgrounds. If this role excites you but you don't check every single box, we'd still love to hear from you! We don't want to miss out on great people because of a checklist.\n\nCome build with us!\n\nFOR INFORMATION ON HOW WE HANDLE YOUR PERSONAL DATA, PLEASE REFER TO OUR RECRUITMENT PRIVACY POLICY https://qdrant.tech/legal/recruitment-privacy-policy/\n\n#LI-REMOTE",
     "salary": "",
     "employment_type": "FullTime",
@@ -34983,7 +35262,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 27,
+      "age_days": 28,
       "category": "current",
       "label": "OPEN FOR REVIEW"
     },
@@ -35428,7 +35707,7 @@
     "ats": "greenhouse",
     "published_at": "2026-08-27T17:05:02Z",
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-08-30T10:59:28Z",
+    "last_seen": "2026-09-03T10:00:48Z",
     "description": "SIXGEN’s mission is to deliver agile, mission-ready cybersecurity solutions that empower government and critical infrastructure organizations to stay ahead of advanced cyber threats. We combine innovation, deep expertise, and cutting-edge capabilities to uncover vulnerabilities, protect vital systems, and ensure operational superiority in an ever-evolving digital landscape.\n\nPOSITION OVERVIEW\n\nPosition: Senior Web Application Penetration Tester\nJob Type: Full-time\nLocation: Remote\nClearance Requirements: Must be able to obtain a Secret Clearance\nTravel Requirements: Up to 10%\nExperience: 5+ years\n\nWHAT YOU'LL DO\n\nWe are seeking a skilled and motivated Senior Web Application Penetration Tester to join our growing cyber operations team. The ideal candidate will possess deep expertise in web application security testing, vulnerability research, and exploitation techniques, with the ability to identify complex attack paths and develop creative solutions to challenging security problems.\n\nThis role goes far beyond automated scanning. Successful candidates will conduct in-depth assessments of web applications, APIs, mobile applications, and supporting infrastructure while leveraging custom tooling, manual testing techniques, and advanced exploitation methodologies to uncover impactful security findings.\n\nKEY RESPONSIBILITIES\n\nWeb Application Security Assessments\n\nConduct penetration testing of web applications, APIs, mobile applications, databases, and client-side technologies.\n\nPerform application enumeration, endpoint discovery, vulnerability research, and exploitation activities.\n\nIdentify, validate, and assess vulnerabilities across complex environments.\n\nAnalyze attack paths and security weaknesses to determine business and operational impact.\n\nTechnical Analysis & Research\n\nDevelop and utilize custom tools, scripts, and payloads to support testing activities.\n\nPerform network mapping, vulnerability analysis, and security assessments across applications and supporting infrastructure.\n\nResearch emerging vulnerabilities, attack techniques, and exploitation methodologies.\n\nSupport post-exploitation activities involving cloud and enterprise environments when applicable.\n\nClient Engagement & Reporting\n\nCollaborate with clients and internal teams to define scope, review findings, and recommend remediation strategies.\n\nCommunicate technical concepts and findings to both technical and non-technical stakeholders.\n\nProduce comprehensive reports, including detailed findings, exploitation procedures, risk analysis, and mitigation recommendations.\n\nParticipate in client meetings and provide ongoing updates throughout assessment activities.\n\nQUALIFICATIONS\n\n5+ years of experience in web application penetration testing or offensive cybersecurity.\n\nDemonstrated experience conducting manual web application security assessments.\n\nKnowledge of modern web application vulnerabilities, attack methodologies, and exploitation techniques.\n\nExperience with network mapping, vulnerability scanning, and penetration testing methodologies.\n\nFamiliarity with NIST 800-series standards and cybersecurity best practices.\n\nExperience developing scripts, payloads, or custom testing tools.\n\nStrong analytical, problem-solving, and communication skills.\n\nPreferred Certifications\n\nOne or more of the following certifications is strongly preferred:\n\nCWES (preferred)\n\nCWEE (preferred)\n\nOSCP\n\nOSWA\n\nOSWE\n\nCRTO\n\nGWAPT\n\nOther relevant hands-on offensive security certifications\n\nPREFERRED QUALIFICATIONS\n\nExperience with cloud environments and post-exploitation activities.\n\nExperience with Active Directory security assessments.\n\nFamiliarity with FISMA compliance requirements.\n\nExperience supporting government or regulated industry clients.\n\nProficiency with common offensive security tools and frameworks.\n\nCOMPENSATION & BENEFITS\n\nAt SIXGEN, we are committed to fair and equitable compensation practices. Compensation for this role will be based on experience, qualifications, technical expertise, and overall alignment with the position.\n\nAdditionally, SIXGEN offers top-tier benefits for full-time employees, including:\n\nEmployer-paid health insurance premiums (medical, dental, vision) for you and your family \n\nEmployer-paid short/long term disability insurance and basic life/AD&D insurance\n\n401K with a 4% employer contribution\n\nProfessional development reimbursement options available (training, certification, education, etc)​\n\nFlexible and remote work policies for most positions\n\nFlexible PTO and holiday schedule\n\nFor more information, please reach out to our Director of Human Resources, Amy Maxwell at amy.maxwell@sixgen.io.\n\nOUR COMMITMENT\n\nSIXGEN is an Equal Opportunity Employer. We ensure that all applicants are considered for employment without regard to race, color, religion, sexual orientation, gender identity, national origin, disability, age, marital status, ancestry, projected veteran status, or any other protected group or class.\n\nWe are committed to fostering an inclusive culture that values diversity in our people, reflecting the communities we serve and our customer base. We strive to attract and retain a diverse talent pool and create an environment where everyone is empowered to be their authentic selves at work.",
     "salary": "",
     "employment_type": "",
@@ -35511,9 +35790,9 @@
     },
     "posting_age_analysis": {
       "known": true,
-      "age_days": 2,
-      "category": "new",
-      "label": "NEW - APPLY QUICKLY"
+      "age_days": 6,
+      "category": "recent",
+      "label": "RECENT"
     },
     "seniority_analysis": {
       "level": "senior",
@@ -35924,7 +36203,7 @@
     "ats": "greenhouse",
     "published_at": "2026-08-18T22:06:16Z",
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-09-02T09:49:06Z",
+    "last_seen": "2026-09-03T10:00:48Z",
     "description": "About Vercel:\n\nVercel is the agentic infrastructure company. We free people and agents to ship what’s next.\n\nFor more than a decade, Vercel has shaped how the web is built. As the team behind Next.js, v0, and AI SDK, we create products that help builders move from idea to production with speed, security, and exceptional developer experience.\n\nNow, software is entering a new era, and the next generation of products will not just be used by people. They will be built, extended, and operated by agents.\n\nWe are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. Whether you’re building our products, supporting our customers, growing our community, or shaping our story, you’ll help define what comes next.\n\nAbout the Role:\n\nWe are looking for a Security Engineer to join our Detection Response team. In this role, you will be responsible for managing Vercel’s internal Corporate Security (CorpSec) posture, monitoring for security anomalies, building additional detections and visibility mechanisms, and ensuring the overall security of our internal systems. You will work closely with various teams to support audits, optimize visibility, and handle security incidents as they arise.\n\nIf you’re based within a pre-determined commuting distance of one of our offices (SF, NY, London, or Berlin), the role includes in-office anchor days on Monday, Tuesday, and Friday. If you're located beyond that distance, the role is fully remote. For location-specific details, please connect with our recruiting team.\n\nWhat You Will Do:\n\nMonitor and respond to security alerts across multiple channels, including managed SOC escalations.\n\nMaintain visibility and logging infrastructure, ensuring effective SIEM (Security Information and Event Management) operations.\n\nSupport security audits for PCI, SOC2, ISO, and other compliance frameworks, gathering evidence and collaborating with Engineering, GRC and the broader Security Division.\n\nProactively enhance security operations by developing and deploying new detections, security tooling and rigorously managing key security partners.\n\nWork on security investigations, incidents, and urgent requests as they arise, as well as contributing to the build-out and continuous improvement of the on-call process to enhance efficiency and effectiveness.\n\nContinuously act as a guardian to enable the business to navigate risk-based changes.\n\nManage and enhance email security, endpoint security posture (EDR, configuration, and management), GitHub administration best practices, and internal security tooling to strengthen Vercel's overall security framework\n\nAbout You:\n\nExtensive experience in security operations, including SIEM management, security logging, and detection engineering.\n\nStrong knowledge of AWS infrastructure and cloud security best practices.\n\nExperience with GitHub administration and security controls.\n\nProficiency in SQL for data analysis and security investigations.\n\nHands-on experience with incident response, including detection, triage, and remediation.\n\nStrong endpoint management skills across multiple operating systems (Mac, Windows, Linux).\n\nProficiency in at least one scripting language (Python, Bash) and one compiled language (Rust, Go).\n\nFamiliarity with serverless functions and API security is a plus.\n\nBonus If You:\n\nHave experience working with managed SOC providers and security automation platforms.\n\nHave worked in high-growth, cloud-native environments with a focus on scalability.\n\nAre comfortable working in a fast-paced environment with shifting priorities.\n\nBenefits:\n\nCompetitive compensation package, including equity.\n\nInclusive Healthcare Package.\n\nLearn and Grow - we provide mentorship and send you to events that help you build your network and skills.\n\nFlexible Time Off.\n\nWe will provide you the gear you need to do your role, and a WFH budget for you to outfit your space as needed.\n\nThe San Francisco, CA base pay range for this role is $208,000-$312,000. This salary range is an estimate. Actual salary will be based on job-related skills, experience, and location. The total compensation package also includes benefits and equity-based compensation. Your recruiter can share more about the specific pay range for your location during the hiring process.\n\nVercel is committed to fostering and empowering an inclusive community within our organization. We do not discriminate on the basis of race, religion, color, gender expression or identity, sexual orientation, national origin, citizenship, age, marital status, veteran status, disability status, or any other characteristic protected by law. Vercel encourages everyone to apply for our available positions, even if they don't necessarily check every box on the job description.",
     "salary": "",
     "employment_type": "",
@@ -36016,7 +36295,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 14,
+      "age_days": 15,
       "category": "current",
       "label": "OPEN FOR REVIEW"
     },
@@ -36226,12 +36505,12 @@
       "Greenhouse"
     ],
     "source_urls": {
-      "Greenhouse": "https://www.wiz.io/careers/job/4707180006/:title?gh_jid=4707180006"
+      "Greenhouse": "https://www.wiz.io/careers/job/4707179006/:title?gh_jid=4707179006"
     },
     "source_id": "4707176006",
     "source_job_id": "4707176006",
     "source_job_ids": {
-      "Greenhouse": "4707180006"
+      "Greenhouse": "4707179006"
     },
     "company": "Wiz",
     "company_normalized": "wiz",
@@ -36250,7 +36529,7 @@
     "ats": "greenhouse",
     "published_at": "2026-08-21T13:37:09Z",
     "first_seen": "2026-08-23T06:28:18Z",
-    "last_seen": "2026-08-30T10:59:28Z",
+    "last_seen": "2026-09-03T10:00:48Z",
     "description": "Come join the organization that is redefining security for the AI era. As one of the fastest-growing startups ever, we enable teams to secure cloud and AI applications by connecting code, cloud, and runtime into a single shared context. Trusted by security teams all over the world, we have a proven track record of success and a culture that values world-class talent. Not to mention, we're now powered by Google, meaning we offer our customers an AI-powered platform that harnesses Google’s Threat Intelligence and Security Operations to better detect, prevent, and respond to threats across all environments, allowing for further innovation.\n\nOur Wizards from all over the globe work together to protect the infrastructure of our customers, including over 65% of the Fortune 100, who trust us to scan and secure over 230 billion files daily. We’re honored to be a leading player in a massive and growing market, and we continue to look for exceptional Wizards who are eager to make a significant impact on our team. At Wiz, you’ll have the freedom to think creatively, dream big, and use your full range of skills to contribute to our momentous growth. Come join our team and help us create secure cloud environments that allow even the best companies to move faster, all while having some fun!\n\nRole Description\n\nWiz is looking for a Security Engineer for Product & Production Infrastructure who has experience performing security reviews, vulnerability management, and detection and response operations in cloud-native environments. You’ll get to collaborate with our software development and DevOps teams to secure Wiz’s products, CI/CD infrastructure, and production infrastructure. You’ll also have the opportunity to influence our product roadmap by utilizing Wiz-for-Wiz to assess, monitor, and harden our environments.\n\nResponsibilities\n\nLead threat modeling and security reviews across Wiz's products and cloud infrastructure, identifying attack surfaces and developing scalable mitigation strategies.\n\nBuild automation, policy-as-code, and security tooling that enables development teams to \"shift left\" and integrate end-to-end security into their workflows.\n\nDesign and implement secure baselines for cloud resources and Kubernetes based infrastructure.\n\nDrive vulnerability management and remediation efforts – prioritizing issues, implementing mitigations, and designing strategic preventative controls in software supply chains from development through production.\n\nExtend our detection and response capabilities – building scalable solutions to identify malicious activity, triage alerts, and investigate and remediate incidents.\n\nBuild deep functional partnerships with Wiz's engineering and operations teams – helping them deliver secure-by-design solutions.\n\nMinimum qualifications\n\n7+ years of experience in security engineering or security operations work in cloud environments.\n\nExperience with AWS cloud security (or equivalent experience in Azure and GCP with some level of AWS experience).\n\nExperience with cloud native Kubernetes services (EKS/GKE/AKS) and container security principles.\n\nExperience securing IAM and cloud identities at scale.\n\nExperience leading technical security reviews of products and architectures, conducting threat modeling exercises, and translating findings into actionable security controls.\n\nPractical understanding of web application security concepts (such as OWASP Top-10 and similar).\n\nHands-on experience with IaC and related tools (Terraform, CloudFormation, Helm, Pulumi).\n\nExperience with automation and tooling development in one or more of the following: Python, Go, Shell, HCL, Rego.\n\nPreferred qualifications\n\nBachelor's degree in computer science or a related field, and/or equivalent job experience in lieu of a degree.\n\nExperience working with remote, globally distributed teams.\n\nExperience working in organizations that develop software and/or operate managed infrastructure and technology services for their own customers.\n\nExperience with CNAPP, CSPM, or CIEM solutions.\n\nApplicants must have the legal right to work in the country where the position is based, without the need for visa sponsorship. This role does not offer visa sponsorship.\n\nWiz is an equal opportunity employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, reproductive health decisions, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, genetic information, political views or activity, or other applicable legally protected characteristics. \n\nBy submitting your application, you acknowledge that Wiz will process your personal data in accordance with Wiz's Privacy Policy.",
     "salary": "",
     "employment_type": "",
@@ -36353,7 +36632,7 @@
     },
     "posting_age_analysis": {
       "known": true,
-      "age_days": 8,
+      "age_days": 12,
       "category": "current",
       "label": "OPEN FOR REVIEW"
     },

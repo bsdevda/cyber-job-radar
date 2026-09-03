@@ -2765,6 +2765,118 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-09-03T10:00:48Z",
+      "scoring_version": 2.1,
+      "jobs_collected": 7123,
+      "security_title_candidates": 322,
+      "prefiltered_non_security_jobs": 6801,
+      "unique_jobs_after_deduplication": 235,
+      "duplicates_removed": 87,
+      "jobs_rejected_or_below_threshold": 7016,
+      "relevant_jobs_in_current_run": 20,
+      "new_jobs": 1,
+      "updated_jobs": 1,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 50,
+      "jobs_by_source": {
+        "arbeitnow": 950,
+        "remotive": 18,
+        "linkedin_posts": 0,
+        "greenhouse": 5517,
+        "ashby": 270,
+        "lever": 155,
+        "personio": 210,
+        "recruitee": 3
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "workflow_duration_seconds": 30.3,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 950,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 18,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 5517,
+          "requests": 57,
+          "errors": [],
+          "error": "",
+          "companies_checked": 57,
+          "companies_successful": 57,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 270,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 155,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 210,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 3,
+          "requests": 1,
+          "errors": [],
+          "error": "",
+          "companies_checked": 1,
+          "companies_successful": 1,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -6343,6 +6455,22 @@
       "company": "Capmo",
       "title": "Senior Security Engineer (all genders)",
       "score": 69
+    },
+    {
+      "at": "2026-09-03T10:00:48Z",
+      "job_key": "7e3939e01a6374569a72",
+      "event": "UPDATED",
+      "company": "Parity",
+      "title": "Senior Security Engineer - Remote",
+      "score": 59
+    },
+    {
+      "at": "2026-09-03T10:00:48Z",
+      "job_key": "39a4143cefceeb7bc131",
+      "event": "NEW",
+      "company": "Eye Security",
+      "title": "Technical Information Security Officer (ISO)",
+      "score": 59
     }
   ]
 }
