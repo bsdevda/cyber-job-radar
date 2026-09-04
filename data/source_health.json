@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T04:05:07Z",
+  "generated_at": "2026-09-04T09:51:19Z",
   "all_sources_failed": false,
   "sources": {
     "arbeitnow": {
@@ -27,29 +27,20 @@
       "error": ""
     },
     "greenhouse": {
-      "status": "partial",
+      "status": "ok",
       "ok": true,
-      "jobs": 5831,
-      "requests": 61,
-      "errors": [
-        {
-          "source": "greenhouse",
-          "company": "Solaris SE",
-          "http_status": 404,
-          "exception_type": "RuntimeError",
-          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/solarisbank/jobs?content=true: HTTP Error 404: Not Found",
-          "message": "Greenhouse | Solaris SE | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/solarisbank/jobs?content=true: HTTP Error 404: Not Found"
-        }
-      ],
-      "error": "Greenhouse | Solaris SE | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/solarisbank/jobs?content=true: HTTP Error 404: Not Found",
-      "companies_checked": 61,
+      "jobs": 5829,
+      "requests": 60,
+      "errors": [],
+      "error": "",
+      "companies_checked": 60,
       "companies_successful": 60,
-      "companies_failed": 1
+      "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 251,
+      "jobs": 252,
       "requests": 9,
       "errors": [],
       "error": "",
@@ -93,7 +84,7 @@
   },
   "employer_scan": {
     "mode": "daily",
-    "generated_at": "2026-09-04T04:05:07Z",
+    "generated_at": "2026-09-04T09:51:19Z",
     "sources": {
       "greenhouse": {
         "source": "greenhouse",
@@ -101,9 +92,9 @@
         "batch_index": 4,
         "configured_enabled": 172,
         "priority_configured": 34,
-        "selected": 61,
+        "selected": 60,
         "skipped_by_rotation": 108,
-        "skipped_by_cooldown": 3,
+        "skipped_by_cooldown": 4,
         "rotation_skip_keys": [
           "greenhouse:abnormalsecurity",
           "greenhouse:adahealth",
@@ -216,6 +207,7 @@
         ],
         "cooldown_skip_keys": [
           "greenhouse:clickhouse",
+          "greenhouse:solarisbank",
           "greenhouse:lookoutinc",
           "greenhouse:marqeta"
         ]

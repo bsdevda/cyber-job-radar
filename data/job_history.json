@@ -2999,6 +2999,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-09-04T09:51:19Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 7299,
+      "security_title_candidates": 193,
+      "prefiltered_non_security_jobs": 7106,
+      "unique_jobs_after_deduplication": 141,
+      "duplicates_removed": 52,
+      "jobs_rejected_or_below_threshold": 7232,
+      "relevant_jobs_in_current_run": 15,
+      "new_jobs": 0,
+      "updated_jobs": 0,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 46,
+      "jobs_by_source": {
+        "arbeitnow": 950,
+        "remotive": 18,
+        "linkedin_posts": 0,
+        "greenhouse": 5829,
+        "ashby": 252,
+        "lever": 73,
+        "personio": 177,
+        "recruitee": 0
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 22.6,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 950,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 18,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 5829,
+          "requests": 60,
+          "errors": [],
+          "error": "",
+          "companies_checked": 60,
+          "companies_successful": 60,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 252,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 73,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 177,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "idle",
+          "ok": true,
+          "jobs": 0,
+          "requests": 0,
+          "errors": [],
+          "error": "",
+          "companies_checked": 0,
+          "companies_successful": 0,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [

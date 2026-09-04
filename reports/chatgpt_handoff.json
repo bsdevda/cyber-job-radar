@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T04:05:07Z",
+  "generated_at": "2026-09-04T09:51:19Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,28 +171,28 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-09-04T04:05:07Z",
+    "generated_at": "2026-09-04T09:51:19Z",
     "scoring_version": 2.2,
-    "jobs_collected": 7300,
+    "jobs_collected": 7299,
     "security_title_candidates": 193,
-    "prefiltered_non_security_jobs": 7107,
+    "prefiltered_non_security_jobs": 7106,
     "unique_jobs_after_deduplication": 141,
     "duplicates_removed": 52,
-    "jobs_rejected_or_below_threshold": 7233,
+    "jobs_rejected_or_below_threshold": 7232,
     "relevant_jobs_in_current_run": 15,
     "new_jobs": 0,
     "updated_jobs": 0,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
-    "sources_partial": 1,
+    "sources_partial": 0,
     "report_jobs": 46,
     "jobs_by_source": {
       "arbeitnow": 950,
       "remotive": 18,
       "linkedin_posts": 0,
-      "greenhouse": 5831,
-      "ashby": 251,
+      "greenhouse": 5829,
+      "ashby": 252,
       "lever": 73,
       "personio": 177,
       "recruitee": 0
@@ -200,7 +200,7 @@
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 25.0
+    "workflow_duration_seconds": 22.6
   },
   "source_status": {
     "arbeitnow": {
@@ -228,29 +228,20 @@
       "error": ""
     },
     "greenhouse": {
-      "status": "partial",
+      "status": "ok",
       "ok": true,
-      "jobs": 5831,
-      "requests": 61,
-      "errors": [
-        {
-          "source": "greenhouse",
-          "company": "Solaris SE",
-          "http_status": 404,
-          "exception_type": "RuntimeError",
-          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/solarisbank/jobs?content=true: HTTP Error 404: Not Found",
-          "message": "Greenhouse | Solaris SE | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/solarisbank/jobs?content=true: HTTP Error 404: Not Found"
-        }
-      ],
-      "error": "Greenhouse | Solaris SE | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/solarisbank/jobs?content=true: HTTP Error 404: Not Found",
-      "companies_checked": 61,
+      "jobs": 5829,
+      "requests": 60,
+      "errors": [],
+      "error": "",
+      "companies_checked": 60,
       "companies_successful": 60,
-      "companies_failed": 1
+      "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 251,
+      "jobs": 252,
       "requests": 9,
       "errors": [],
       "error": "",
@@ -333,10 +324,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T09:15:17Z",
-      "posting_age_days": 22,
+      "posting_age_days": 23,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 22,
+        "age_days": 23,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -827,10 +818,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T07:52:04Z",
-      "posting_age_days": 22,
+      "posting_age_days": 23,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 22,
+        "age_days": 23,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1105,10 +1096,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T09:15:36Z",
-      "posting_age_days": 22,
+      "posting_age_days": 23,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 22,
+        "age_days": 23,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1225,10 +1216,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-14T09:10:22Z",
-      "posting_age_days": 20,
+      "posting_age_days": 21,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 20,
+        "age_days": 21,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },

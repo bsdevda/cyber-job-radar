@@ -2,9 +2,9 @@
 
 **Date:** 2026-09-04
 **Scoring model:** v2.2
-**Raw postings collected:** 7300
+**Raw postings collected:** 7299
 **Security-title candidates:** 193
-**Non-security titles skipped early:** 7107
+**Non-security titles skipped early:** 7106
 **Unique jobs after deduplication:** 141
 **New jobs:** 0
 **Updated jobs:** 0
@@ -12,7 +12,7 @@
 **Strong matches:** 0
 **Sources checked:** 8
 **Sources failed:** 0
-**Sources partially successful:** 1
+**Sources partially successful:** 0
 **Stored jobs excluded by current policy:** 360
 
 > **Strict scope:** Berlin on-site/hybrid/remote; Germany remote; Europe/EU/EMEA remote; worldwide/anywhere remote from Germany English-speaking roles only; German may be optional or require no more than verified A2.
@@ -24,8 +24,8 @@
 - **Arbeitnow:** 950
 - **Remotive:** 18
 - **Linkedin_Posts:** 0
-- **Greenhouse:** 5831
-- **Ashby:** 251
+- **Greenhouse:** 5829
+- **Ashby:** 252
 - **Lever:** 73
 - **Personio:** 177
 - **Recruitee:** 0
@@ -33,7 +33,7 @@
 ## Employer Watchlist Scan
 
 - **Mode:** Daily
-- **Greenhouse:** 61/172 selected; 108 rotating; 3 cooling down
+- **Greenhouse:** 60/172 selected; 108 rotating; 4 cooling down
 - **Ashby:** 9/13 selected; 4 rotating; 0 cooling down
 - **Lever:** 2/6 selected; 4 rotating; 0 cooling down
 - **Personio:** 3/7 selected; 4 rotating; 0 cooling down
@@ -642,7 +642,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 - **Seniority:** Unspecified
 - **Source / ATS:** Greenhouse / Greenhouse
 - **Priority employer:** YES
-- **Posted:** 2026-08-04 (OPEN FOR REVIEW)
+- **Posted:** 2026-08-04 (OLDER POSTING - VERIFY ACTIVE)
 - **First seen:** 2026-08-15
 - **Radar / application status:** NEW / NEW
 - **Job key:** `c274fb39228c2b8b60a7`
@@ -681,7 +681,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 - **Seniority:** Unspecified
 - **Source / ATS:** Greenhouse / Greenhouse
 - **Priority employer:** YES
-- **Posted:** 2026-08-04 (OPEN FOR REVIEW)
+- **Posted:** 2026-08-04 (OLDER POSTING - VERIFY ACTIVE)
 - **First seen:** 2026-08-15
 - **Radar / application status:** NEW / NEW
 - **Job key:** `8c9b869ea118336a975b`
@@ -1851,9 +1851,8 @@ Displayed **46** ranked active jobs in this page (configured maximum: 50).
 - ✅ **Arbeitnow** — 950 jobs
 - ✅ **Remotive** — 18 jobs
 - ✅ **Linkedin_Posts** — 0 jobs
-- ⚠️ **Greenhouse** — 60/61 companies successful, 5831 jobs
-  - Greenhouse \| Solaris SE \| RuntimeError \| HTTP 404 \| Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/solarisbank/jobs?content=true: HTTP Error 404: Not Found
-- ✅ **Ashby** — 9/9 companies successful, 251 jobs
+- ✅ **Greenhouse** — 60/60 companies successful, 5829 jobs
+- ✅ **Ashby** — 9/9 companies successful, 252 jobs
 - ✅ **Lever** — 2/2 companies successful, 73 jobs
 - ✅ **Personio** — 3/3 companies successful, 177 jobs
 - ◻️ **Recruitee** — no enabled companies
