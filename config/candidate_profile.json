@@ -1,6 +1,6 @@
 {
-  "profile_version": 2,
-  "last_verified": "2026-08-15",
+  "profile_version": 3,
+  "last_verified": "2026-09-04",
   "summary": "Cybersecurity professional with a completed Master's in Computer Science - Cyber Security and 2+ years of security consulting experience across web, API, mobile and thick-client applications.",
   "experience_years": 2.1,
   "professional_evidence": {
@@ -21,11 +21,16 @@
     "german": "A2 (currently studying toward B1)"
   },
   "target_locations": [
-    "Berlin",
-    "Germany",
-    "Remote Germany",
-    "Europe Remote"
+    "Berlin - on-site, hybrid or remote",
+    "Germany - remote only outside Berlin",
+    "Europe/EU/EMEA - remote only where Germany is eligible",
+    "Worldwide/anywhere - remote only where work from Germany is permitted"
   ],
+  "employment_preferences": {
+    "working_language": "English-speaking roles",
+    "german_requirement": "Optional German is acceptable; mandatory German must not exceed verified A2",
+    "location_rule": "Berlin may be on-site, hybrid or remote. All other jobs must be explicitly remote and available from Germany."
+  },
   "target_role_families": [
     "Application Security",
     "Product Security",
@@ -155,6 +160,7 @@
     "Do not claim Kubernetes, Azure, Go, Terraform, ISO 27001 or GDPR implementation experience.",
     "Do not convert assessment exposure into production ownership of Active Directory, firewalls, EDR, DLP, incident response, OT/ICS, infrastructure as code or system administration.",
     "German is A2 and currently progressing toward B1; do not claim B1 completion.",
+    "Do not recommend on-site or hybrid jobs outside Berlin, or remote jobs whose Germany/Europe/worldwide eligibility is unclear.",
     "Professional cybersecurity experience is approximately 2.1 years."
   ],
   "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."

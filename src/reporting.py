@@ -15,6 +15,7 @@ def select_report_jobs(jobs: list[dict[str, Any]], config: dict[str, Any]) -> li
         job
         for job in jobs
         if job.get("status") != "REMOVED"
+        and not job.get("policy_excluded", False)
         and str(job.get("application_status", "NEW")).upper() not in excluded_statuses
     ]
     sort_key = lambda job: (
@@ -110,6 +111,7 @@ def build_chatgpt_handoff(
         "education": profile.get("education", []),
         "languages": profile.get("languages", {}),
         "target_locations": profile.get("target_locations", []),
+        "employment_preferences": profile.get("employment_preferences", {}),
         "target_role_families": profile.get("target_role_families", []),
         "skill_status": profile.get("skill_status", {}),
         "skill_evidence": profile.get("skill_evidence", {}),
@@ -164,6 +166,9 @@ def render_markdown(payload: dict[str, Any], config: dict[str, Any]) -> str:
         f"**Sources checked:** {summary['sources_checked']}",
         f"**Sources failed:** {summary['sources_failed']}",
         f"**Sources partially successful:** {summary['sources_partial']}",
+        f"**Stored jobs excluded by current policy:** {summary.get('stored_jobs_excluded_by_current_policy', 0)}",
+        "",
+        f"> **Strict scope:** {config.get('location_policy', {}).get('display', 'Berlin on-site/hybrid/remote; Germany, Europe and worldwide only when explicitly remote.')} English-speaking roles only; German may be optional or require no more than verified A2.",
         "",
         "> The score is a transparent first filter. Verify the original vacancy before tailoring a CV or applying.",
         "",
@@ -282,6 +287,7 @@ def _compact_job(job: dict[str, Any], number: int, generated_at: str) -> dict[st
         "company": job.get("company"),
         "location": job.get("location"),
         "location_analysis": job.get("location_analysis", {}),
+        "location_scope": job.get("location_analysis", {}).get("scope", ""),
         "working_model": working_model(job),
         "role_family": job.get("role_family", {}),
         "seniority": job.get("seniority_analysis", {}),
@@ -378,6 +384,9 @@ def _render_job(job: dict[str, Any], tracker_url: str = "") -> list[str]:
 
 
 def working_model(job: dict[str, Any]) -> str:
+    policy_model = job.get("location_analysis", {}).get("work_model")
+    if policy_model:
+        return str(policy_model)
     if job.get("hybrid"):
         return "Hybrid"
     if job.get("remote"):

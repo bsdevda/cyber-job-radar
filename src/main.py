@@ -37,7 +37,12 @@ from .company_schedule import (
 from .config_validation import ConfigurationError, priority_company_names, validate_companies_config
 from .deduplication import deduplicate_jobs
 from .eligibility import assess_location
-from .filters import hard_filter, is_cybersecurity_relevant, summarize_rejections
+from .filters import (
+    apply_current_eligibility_policy,
+    hard_filter,
+    is_cybersecurity_relevant,
+    summarize_rejections,
+)
 from .normalize import content_hash, normalize_job
 from .notifications import build_job_alert, render_job_alert_markdown
 from .quality_review import (
@@ -280,6 +285,10 @@ def run(
         ),
     )
     jobs_db = merge_job_database(previous_jobs, accepted, seen)
+    # Revalidate the cumulative database on every run. Without this pass, jobs
+    # accepted by an older, broader location/language policy could remain in
+    # latest.md until the normal expiry window elapsed.
+    apply_current_eligibility_policy(jobs_db, search_config)
     for job in jobs_db:
         application = applications.get(job["job_key"], {})
         job["application_status"] = application.get("status", "NEW")
@@ -302,6 +311,9 @@ def run(
     )
     payload["summary"]["employer_mode"] = employer_mode
     payload["summary"]["quality_review_schema_version"] = 1
+    payload["summary"]["stored_jobs_excluded_by_current_policy"] = sum(
+        bool(job.get("policy_excluded")) for job in jobs_db
+    )
     payload["summary"]["workflow_duration_seconds"] = round(
         max(0.0, time.time() - workflow_started), 1
     )

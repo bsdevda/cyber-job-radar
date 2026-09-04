@@ -4,6 +4,7 @@ import re
 from collections import Counter
 from typing import Any
 
+from .analysis import detect_german_requirement, looks_mostly_german
 from .classification import classify_seniority
 from .eligibility import assess_location
 from .utils import normalize_text
@@ -33,11 +34,9 @@ def hard_filter(job: dict[str, Any], config: dict[str, Any]) -> tuple[bool, list
     if not location_analysis.get("eligible"):
         reasons.append(location_analysis.get("reason", "Location is outside the target region"))
 
-    german = job.get("german_analysis", {})
-    if german.get("mandatory") and german.get("category") in {
-        "B2", "advanced", "C1", "C2", "native",
-    }:
-        reasons.append(german.get("label", "German proficiency is above the current profile"))
+    language_reason = language_policy_rejection(job, config)
+    if language_reason:
+        reasons.append(language_reason)
 
     posting_age = job.get("posting_age_analysis", {})
     age_days = posting_age.get("age_days")
@@ -62,6 +61,60 @@ def hard_filter(job: dict[str, Any], config: dict[str, Any]) -> tuple[bool, list
     if not is_cybersecurity_relevant(job, config):
         reasons.append("Insufficient cybersecurity relevance")
     return not reasons, reasons
+
+
+def language_policy_rejection(
+    job: dict[str, Any], config: dict[str, Any]
+) -> str | None:
+    """Return one language-policy blocker, or ``None`` when the role fits.
+
+    The profile targets English-speaking teams. Optional German remains fine,
+    and a mandatory A1/A2 requirement is within the verified profile. Higher
+    or unspecified mandatory German requirements are excluded.
+    """
+    policy = config.get("language_policy", {})
+    german = job.get("german_analysis") or detect_german_requirement(
+        str(job.get("description", ""))
+    )
+    job["german_analysis"] = german
+    if not policy.get("english_speaking_only", False):
+        if german.get("mandatory") and german.get("category") in {
+            "B2", "advanced", "C1", "C2", "native",
+        }:
+            return german.get("label", "German proficiency is above the current profile")
+        return None
+
+    allowed_levels = {
+        str(level).upper()
+        for level in policy.get("allowed_mandatory_german_levels", ["A1", "A2"])
+    }
+    if german.get("mandatory") and str(german.get("category", "")).upper() not in allowed_levels:
+        return german.get(
+            "label", "Mandatory German proficiency exceeds the verified A2 profile"
+        )
+    if policy.get("reject_predominantly_german_descriptions", True) and looks_mostly_german(
+        str(job.get("description", ""))
+    ):
+        return "Vacancy text is predominantly German; the radar is limited to English-speaking roles"
+    return None
+
+
+def apply_current_eligibility_policy(
+    jobs: list[dict[str, Any]], config: dict[str, Any]
+) -> list[dict[str, Any]]:
+    """Recheck persisted jobs so a stricter policy takes effect immediately."""
+    for job in jobs:
+        location = assess_location(job, config)
+        job["location_analysis"] = location
+        reasons: list[str] = []
+        if not location.get("eligible"):
+            reasons.append(location.get("reason", "Location is outside the target scope"))
+        language_reason = language_policy_rejection(job, config)
+        if language_reason:
+            reasons.append(language_reason)
+        job["policy_excluded"] = bool(reasons)
+        job["policy_exclusion_reasons"] = reasons
+    return jobs
 
 
 def is_cybersecurity_relevant(job: dict[str, Any], config: dict[str, Any]) -> bool:

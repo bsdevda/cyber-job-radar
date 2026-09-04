@@ -286,8 +286,22 @@ def _infer_location(value: str) -> tuple[str, bool]:
         return "Remote Germany", True
     if any(term in text for term in ("germany", "deutschland", "munich", "hamburg")):
         return "Germany", "remote" in text
-    if any(term in text for term in ("remote europe", "europe remote", "remote emea")):
+    if any(
+        term in text
+        for term in (
+            "remote europe", "europe remote", "remote eu", "eu remote",
+            "remote emea", "emea remote",
+        )
+    ):
         return "Europe Remote", True
+    if any(
+        term in text
+        for term in (
+            "worldwide", "remote anywhere", "work from anywhere",
+            "anywhere in the world", "global remote", "remote global",
+        )
+    ):
+        return "Worldwide Remote", True
     if "remote" in text:
         return "Remote - region not stated", True
     return "Location not stated", True

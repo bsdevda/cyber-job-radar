@@ -1,5 +1,5 @@
 {
-  "scoring_version": 2.1,
+  "scoring_version": 2.2,
   "timezone": "Europe/Berlin",
   "report_limit": 50,
   "markdown_job_limit": 50,
@@ -215,6 +215,8 @@
     "australia only"
   ],
   "location_policy": {
+    "display": "Berlin on-site/hybrid/remote; Germany remote; Europe/EU/EMEA remote; worldwide/anywhere remote from Germany",
+    "berlin_markers": ["berlin"],
     "germany_markers": [
       "berlin", "germany", "deutschland", "munich", "münchen", "hamburg", "frankfurt",
       "cologne", "köln", "düsseldorf", "dusseldorf", "stuttgart", "leipzig", "dresden",
@@ -225,8 +227,14 @@
       "europe, remote", "europe-wide", "across europe", "emea remote", "remote emea"
     ],
     "worldwide_markers": [
-      "worldwide", "anywhere", "global remote", "remote global", "work from anywhere"
+      "worldwide", "anywhere", "global remote", "remote global", "work from anywhere",
+      "remote anywhere", "anywhere in the world"
     ]
+  },
+  "language_policy": {
+    "english_speaking_only": true,
+    "allowed_mandatory_german_levels": ["A1", "A2"],
+    "reject_predominantly_german_descriptions": true
   },
   "skill_aliases": {
     "application security": ["application security", "appsec"],

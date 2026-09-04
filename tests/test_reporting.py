@@ -39,6 +39,18 @@ class ReportingTests(unittest.TestCase):
         self.assertIn("Update Application Tracker form", markdown)
         self.assertIn("**Job key:** `job-050`", markdown)
 
+    def test_policy_excluded_stored_jobs_never_return_to_latest_report(self) -> None:
+        eligible = _job(1)
+        excluded = _job(2)
+        excluded["score"] = 99
+        excluded["policy_excluded"] = True
+        excluded["policy_exclusion_reasons"] = ["On-site role is not located in Berlin"]
+        selected = select_report_jobs(
+            [excluded, eligible],
+            {"report_limit": 50, "include_seen_fallback": True},
+        )
+        self.assertEqual([job["job_key"] for job in selected], [eligible["job_key"]])
+
 
 def _job(index: int) -> dict:
     return {

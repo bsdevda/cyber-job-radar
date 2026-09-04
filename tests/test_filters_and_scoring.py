@@ -11,7 +11,7 @@ from src.analysis import (
     detect_skills,
     extract_experience,
 )
-from src.filters import hard_filter
+from src.filters import apply_current_eligibility_policy, hard_filter
 from src.normalize import normalize_job
 from src.scoring import SCORE_WEIGHTS, score_job
 
@@ -95,6 +95,70 @@ class FiltersAndScoringTests(unittest.TestCase):
         self.assertFalse(allowed)
         self.assertTrue(any("outside" in reason for reason in reasons))
 
+    def test_accepts_only_the_configured_location_scopes(self) -> None:
+        cases = (
+            ("Berlin", False, False, "eligible_berlin"),
+            ("Berlin Hybrid", False, True, "eligible_berlin"),
+            ("Remote Germany", True, False, "eligible_germany_remote"),
+            ("Europe Remote", True, False, "eligible_europe_remote"),
+            ("Worldwide Remote", True, False, "eligible_worldwide_remote"),
+        )
+        for location, remote, hybrid, category in cases:
+            with self.subTest(location=location):
+                job = self._job(
+                    "Application Security Engineer",
+                    "English-speaking application security role using OWASP.",
+                    location=location,
+                )
+                job["remote"] = remote or job["remote"]
+                job["hybrid"] = hybrid
+                allowed, reasons = hard_filter(job, self.config)
+                self.assertTrue(allowed, reasons)
+                self.assertEqual(job["location_analysis"]["category"], category)
+
+    def test_rejects_non_berlin_germany_onsite_and_hybrid(self) -> None:
+        for location, hybrid in (("Munich", False), ("Hamburg Hybrid", True)):
+            with self.subTest(location=location):
+                job = self._job(
+                    "Application Security Engineer",
+                    "English-speaking application security role using OWASP.",
+                    location=location,
+                )
+                job["remote"] = False
+                job["hybrid"] = hybrid
+                allowed, reasons = hard_filter(job, self.config)
+                self.assertFalse(allowed)
+                self.assertTrue(any("outside Berlin" in reason for reason in reasons))
+
+    def test_rejects_remote_role_when_region_is_unclear(self) -> None:
+        job = self._job(
+            "Product Security Engineer",
+            "English-speaking remote product security role using OWASP.",
+            location="Remote",
+        )
+        job["remote"] = True
+        allowed, reasons = hard_filter(job, self.config)
+        self.assertFalse(allowed)
+        self.assertTrue(any("Remote region is unclear" in reason for reason in reasons))
+
+    def test_revalidates_jobs_saved_by_an_older_policy(self) -> None:
+        old_job = self._job(
+            "Application Security Engineer",
+            "English-speaking application security role using OWASP.",
+            location="Munich",
+        )
+        old_job["location_analysis"] = {
+            "category": "eligible_germany",
+            "eligible": True,
+            "reason": "Old broad Germany policy",
+        }
+        apply_current_eligibility_policy([old_job], self.config)
+        self.assertTrue(old_job["policy_excluded"])
+        self.assertEqual(
+            old_job["location_analysis"]["category"],
+            "ineligible_non_berlin_germany",
+        )
+
         job = self._job(
             "Application Security Engineer",
             "Candidates in Germany can sometimes work with our global team.",
@@ -145,6 +209,33 @@ class FiltersAndScoringTests(unittest.TestCase):
         allowed, reasons = hard_filter(job, self.config)
         self.assertFalse(allowed)
         self.assertTrue(any("Advanced/fluent German" in reason for reason in reasons))
+
+    def test_english_role_policy_accepts_a2_but_rejects_mandatory_b1(self) -> None:
+        a2 = self._job(
+            "Security Tester",
+            "English is the working language. German A2 is required for local coordination. Perform OWASP testing.",
+        )
+        allowed, reasons = hard_filter(a2, self.config)
+        self.assertTrue(allowed, reasons)
+
+        b1 = self._job(
+            "Security Tester",
+            "English is the working language. German B1 is required for client work. Perform OWASP testing.",
+        )
+        allowed, reasons = hard_filter(b1, self.config)
+        self.assertFalse(allowed)
+        self.assertTrue(any("German B1" in reason for reason in reasons))
+
+    def test_rejects_predominantly_german_vacancy_text(self) -> None:
+        description = (
+            "Wir suchen eine Person für Sicherheit und wir arbeiten gemeinsam. "
+            "Deine Aufgaben und deine Erfahrung sind wichtig. Sie sind verantwortlich "
+            "für Sicherheit und unsere Bewerbung. Wir bieten dir Kenntnisse und Erfahrung. "
+        ) * 4
+        job = self._job("Security Consultant", description)
+        allowed, reasons = hard_filter(job, self.config)
+        self.assertFalse(allowed)
+        self.assertTrue(any("predominantly German" in reason for reason in reasons))
 
     def test_rejects_stale_posting(self) -> None:
         job = self._job(

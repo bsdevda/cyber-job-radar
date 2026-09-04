@@ -101,6 +101,24 @@ class LinkedInPostsCollectorTests(unittest.TestCase):
         self.assertEqual(result.requests, 0)
         self.assertEqual(len(result.jobs), 1)
 
+    def test_worldwide_post_is_mapped_to_explicit_remote_scope(self) -> None:
+        jobs = self.collector._map_entries(
+            [
+                {
+                    "title": "Hiring Application Security Engineer - work from anywhere",
+                    "description": "Join our global remote team. Apply for this cybersecurity role.",
+                    "link": "https://www.linkedin.com/posts/example_worldwide-security-role",
+                    "guid": "worldwide-1",
+                    "published_at": "2026-09-04T00:00:00Z",
+                    "author": "Secure Anywhere",
+                }
+            ],
+            "Worldwide feed",
+        )
+        self.assertEqual(len(jobs), 1)
+        self.assertEqual(jobs[0]["location"], "Worldwide Remote")
+        self.assertTrue(jobs[0]["remote"])
+
     def test_linkedin_lead_cannot_trigger_strong_match_alert(self) -> None:
         job = {
             "lead_type": "linkedin_post",

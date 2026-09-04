@@ -4,6 +4,19 @@ A zero-API-key, rule-based vacancy radar built around Bharatsingh Devda's verifi
 
 The radar performs discovery and evidence-based triage. A human or ChatGPT still verifies the original vacancy and makes the final application decision. It never auto-applies and it never sends a CV to an employer.
 
+## Version 2.5 strict Berlin and remote-work eligibility
+
+- Allows on-site, hybrid and remote vacancies when Berlin is an available work location.
+- Outside Berlin, allows only explicitly remote vacancies in one of three scopes: Germany remote, Europe/EU/EMEA remote, or worldwide/anywhere remote.
+- Rejects on-site and hybrid vacancies elsewhere in Germany, including Munich, Hamburg and Frankfurt.
+- Rejects generic `Remote` vacancies when the permitted country or region is not stated.
+- Gives an explicit non-target location priority over generic worldwide wording copied into a company description.
+- Limits results to English-speaking roles. Optional German and mandatory A1/A2 remain compatible with the verified A2 profile; mandatory B1 or higher, mandatory German with no stated level, and predominantly German vacancy text are excluded.
+- Rechecks the entire stored job database on every run, so vacancies admitted by the earlier broad Germany policy disappear from `latest.md` immediately rather than waiting 30 days to expire.
+- Carries the exact location preference and verified language limit into `chatgpt_handoff.json`.
+- Expands LinkedIn-post inference for EU/EMEA and worldwide/anywhere remote wording.
+- Expands the deterministic offline suite to 71 passing tests.
+
 ## Version 2.4 LinkedIn leads, 50-job report and automatic tracker updates
 
 - Adds a compliant LinkedIn-post lead collector that consumes user-authorized RSS/Atom alerts but never requests LinkedIn, signs in, stores cookies, scrapes profiles, or bypasses access controls.
@@ -135,6 +148,7 @@ cyber-job-radar/
 ├── CHATGPT_ANALYSIS_PROMPT.md
 ├── VERSION_2_3_UPDATE.md
 ├── VERSION_2_4_UPDATE.md
+├── VERSION_2_5_UPDATE.md
 ├── VERSION_2_2_UPDATE.md
 └── README.md
 ```
@@ -193,6 +207,9 @@ site:linkedin.com/posts "penetration tester" hiring Germany
 site:linkedin.com/posts "security tester" hiring Germany
 site:linkedin.com/posts "security engineer" hiring Berlin
 site:linkedin.com/posts cybersecurity hiring "remote Germany"
+site:linkedin.com/posts cybersecurity hiring "remote Europe"
+site:linkedin.com/posts cybersecurity hiring "remote EMEA"
+site:linkedin.com/posts cybersecurity hiring "work from anywhere"
 ```
 
 3. For each alert choose English, Germany, all results and RSS delivery. Copy the resulting RSS URL.
