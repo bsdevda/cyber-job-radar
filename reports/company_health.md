@@ -1,19 +1,19 @@
 # Employer Watchlist Health
 
-**Generated:** 2026-09-04T09:51:19Z
-**Scan mode:** Daily
+**Generated:** 2026-09-06T10:01:28Z
+**Scan mode:** Full
 **Configured employers:** 200
-**Healthy after a completed check:** 195
-**Cooling down:** 4
-**Invalid identifiers:** 4
+**Healthy after a completed check:** 193
+**Cooling down:** 7
+**Invalid identifiers:** 5
 
 ## Scan coverage
 
-- **Greenhouse:** 60/172 selected; 108 scheduled for another batch; 4 cooling down
-- **Ashby:** 9/13 selected; 4 scheduled for another batch; 0 cooling down
-- **Lever:** 2/6 selected; 4 scheduled for another batch; 0 cooling down
-- **Personio:** 3/7 selected; 4 scheduled for another batch; 0 cooling down
-- **Recruitee:** 0/2 selected; 2 scheduled for another batch; 0 cooling down
+- **Greenhouse:** 168/172 selected; 0 scheduled for another batch; 4 cooling down
+- **Ashby:** 13/13 selected; 0 scheduled for another batch; 0 cooling down
+- **Lever:** 6/6 selected; 0 scheduled for another batch; 0 cooling down
+- **Personio:** 7/7 selected; 0 scheduled for another batch; 0 cooling down
+- **Recruitee:** 2/2 selected; 0 scheduled for another batch; 0 cooling down
 
 ## Verified security hiring watch
 
@@ -34,8 +34,10 @@
 
 ## Suppressed or failing identifiers
 
+- **Anduril Industries (greenhouse):** temporarily_failed; next retry 2026-09-07T10:01:28Z; Greenhouse | Anduril Industries | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs?content=true: The read operation timed out
 - **ClickHouse (greenhouse):** invalid_identifier; next retry 2026-10-02T09:49:06Z; Greenhouse | ClickHouse | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found
+- **Datadog (greenhouse):** temporarily_failed; next retry 2026-09-07T10:01:28Z; Greenhouse | Datadog | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true: The read operation timed out
 - **Lookout (greenhouse):** invalid_identifier; next retry 2026-09-22T06:28:18Z; Greenhouse | Lookout | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/lookoutinc/jobs?content=true: HTTP Error 404: Not Found
+- **Magic Leap (greenhouse):** invalid_identifier; next retry 2026-10-06T10:01:28Z; Greenhouse | Magic Leap | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found
 - **Marqeta (greenhouse):** invalid_identifier; next retry 2026-10-01T10:20:37Z; Greenhouse | Marqeta | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/marqeta/jobs?content=true: HTTP Error 404: Not Found
 - **Solaris SE (greenhouse):** invalid_identifier; next retry 2026-10-04T04:05:07Z; Greenhouse | Solaris SE | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/solarisbank/jobs?content=true: HTTP Error 404: Not Found
-- **Westernacher Consulting (lever):** temporarily_failed; next retry 2026-09-02T10:20:37Z; Lever | Westernacher Consulting | RuntimeError | Request failed after 1 attempt(s): https://api.eu.lever.co/v0/postings/westernacher?mode=json: The read operation timed out

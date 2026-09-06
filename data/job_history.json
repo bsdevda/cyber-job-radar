@@ -3112,6 +3112,144 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-09-06T10:01:28Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 20975,
+      "security_title_candidates": 710,
+      "prefiltered_non_security_jobs": 20265,
+      "unique_jobs_after_deduplication": 571,
+      "duplicates_removed": 139,
+      "jobs_rejected_or_below_threshold": 20818,
+      "relevant_jobs_in_current_run": 18,
+      "new_jobs": 2,
+      "updated_jobs": 0,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 1,
+      "report_jobs": 48,
+      "jobs_by_source": {
+        "arbeitnow": 1100,
+        "remotive": 15,
+        "linkedin_posts": 0,
+        "greenhouse": 17989,
+        "ashby": 482,
+        "lever": 1172,
+        "personio": 212,
+        "recruitee": 5
+      },
+      "employer_mode": "full",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 43.4,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1100,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 15,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 17989,
+          "requests": 168,
+          "errors": [
+            {
+              "source": "greenhouse",
+              "company": "Anduril Industries",
+              "http_status": null,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs?content=true: The read operation timed out",
+              "message": "Greenhouse | Anduril Industries | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs?content=true: The read operation timed out"
+            },
+            {
+              "source": "greenhouse",
+              "company": "Datadog",
+              "http_status": null,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true: The read operation timed out",
+              "message": "Greenhouse | Datadog | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true: The read operation timed out"
+            },
+            {
+              "source": "greenhouse",
+              "company": "Magic Leap",
+              "http_status": 404,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found",
+              "message": "Greenhouse | Magic Leap | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found"
+            }
+          ],
+          "error": "Greenhouse | Anduril Industries | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs?content=true: The read operation timed out",
+          "companies_checked": 168,
+          "companies_successful": 165,
+          "companies_failed": 3
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 482,
+          "requests": 13,
+          "errors": [],
+          "error": "",
+          "companies_checked": 13,
+          "companies_successful": 13,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1172,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 212,
+          "requests": 7,
+          "errors": [],
+          "error": "",
+          "companies_checked": 7,
+          "companies_successful": 7,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 5,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -6705,6 +6843,22 @@
       "event": "NEW",
       "company": "Eye Security",
       "title": "Technical Information Security Officer (ISO)",
+      "score": 59
+    },
+    {
+      "at": "2026-09-06T10:01:28Z",
+      "job_key": "cc78a757c373716678d7",
+      "event": "NEW",
+      "company": "Ygo",
+      "title": "Cloud Security Engineer",
+      "score": 71
+    },
+    {
+      "at": "2026-09-06T10:01:28Z",
+      "job_key": "a03342dd76095c14515c",
+      "event": "NEW",
+      "company": "Vivenu",
+      "title": "Senior Security Engineer - AppSec (d/f/m)",
       "score": 59
     }
   ]
