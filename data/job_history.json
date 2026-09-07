@@ -3250,6 +3250,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-09-07T10:37:07Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 7475,
+      "security_title_candidates": 262,
+      "prefiltered_non_security_jobs": 7213,
+      "unique_jobs_after_deduplication": 201,
+      "duplicates_removed": 61,
+      "jobs_rejected_or_below_threshold": 7396,
+      "relevant_jobs_in_current_run": 18,
+      "new_jobs": 1,
+      "updated_jobs": 0,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 49,
+      "jobs_by_source": {
+        "arbeitnow": 1100,
+        "remotive": 18,
+        "linkedin_posts": 0,
+        "greenhouse": 5710,
+        "ashby": 398,
+        "lever": 72,
+        "personio": 177,
+        "recruitee": 0
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 29.0,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1100,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 18,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 5710,
+          "requests": 48,
+          "errors": [],
+          "error": "",
+          "companies_checked": 48,
+          "companies_successful": 48,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 398,
+          "requests": 10,
+          "errors": [],
+          "error": "",
+          "companies_checked": 10,
+          "companies_successful": 10,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 72,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 177,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "idle",
+          "ok": true,
+          "jobs": 0,
+          "requests": 0,
+          "errors": [],
+          "error": "",
+          "companies_checked": 0,
+          "companies_successful": 0,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -6860,6 +6973,14 @@
       "company": "Vivenu",
       "title": "Senior Security Engineer - AppSec (d/f/m)",
       "score": 59
+    },
+    {
+      "at": "2026-09-07T10:37:07Z",
+      "job_key": "d84c944e049e1a080116",
+      "event": "NEW",
+      "company": "RedMimicry GmbH",
+      "title": "Software Developer (Go) - Security Analytics",
+      "score": 69
     }
   ]
 }
