@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-07T10:37:07Z",
+  "generated_at": "2026-09-08T09:57:55Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,36 +171,36 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-09-07T10:37:07Z",
+    "generated_at": "2026-09-08T09:57:55Z",
     "scoring_version": 2.2,
-    "jobs_collected": 7475,
-    "security_title_candidates": 262,
-    "prefiltered_non_security_jobs": 7213,
-    "unique_jobs_after_deduplication": 201,
-    "duplicates_removed": 61,
-    "jobs_rejected_or_below_threshold": 7396,
-    "relevant_jobs_in_current_run": 18,
+    "jobs_collected": 6235,
+    "security_title_candidates": 194,
+    "prefiltered_non_security_jobs": 6041,
+    "unique_jobs_after_deduplication": 146,
+    "duplicates_removed": 48,
+    "jobs_rejected_or_below_threshold": 6170,
+    "relevant_jobs_in_current_run": 17,
     "new_jobs": 1,
     "updated_jobs": 0,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
     "sources_partial": 0,
-    "report_jobs": 49,
+    "report_jobs": 50,
     "jobs_by_source": {
       "arbeitnow": 1100,
-      "remotive": 18,
+      "remotive": 17,
       "linkedin_posts": 0,
-      "greenhouse": 5710,
-      "ashby": 398,
-      "lever": 72,
-      "personio": 177,
+      "greenhouse": 4571,
+      "ashby": 227,
+      "lever": 138,
+      "personio": 182,
       "recruitee": 0
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 29.0
+    "workflow_duration_seconds": 23.9
   },
   "source_status": {
     "arbeitnow": {
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 18,
+      "jobs": 17,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -230,45 +230,45 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 5710,
-      "requests": 48,
+      "jobs": 4571,
+      "requests": 62,
       "errors": [],
       "error": "",
-      "companies_checked": 48,
-      "companies_successful": 48,
+      "companies_checked": 62,
+      "companies_successful": 62,
       "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 398,
-      "requests": 10,
+      "jobs": 227,
+      "requests": 8,
       "errors": [],
       "error": "",
-      "companies_checked": 10,
-      "companies_successful": 10,
+      "companies_checked": 8,
+      "companies_successful": 8,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 72,
-      "requests": 2,
-      "errors": [],
-      "error": "",
-      "companies_checked": 2,
-      "companies_successful": 2,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 177,
+      "jobs": 138,
       "requests": 3,
       "errors": [],
       "error": "",
       "companies_checked": 3,
       "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 182,
+      "requests": 4,
+      "errors": [],
+      "error": "",
+      "companies_checked": 4,
+      "companies_successful": 4,
       "companies_failed": 0
     },
     "recruitee": {
@@ -324,10 +324,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T09:15:17Z",
-      "posting_age_days": 26,
+      "posting_age_days": 27,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 26,
+        "age_days": 27,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -424,10 +424,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-31T13:22:35Z",
-      "posting_age_days": 37,
+      "posting_age_days": 38,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 37,
+        "age_days": 38,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -723,10 +723,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T19:59:08Z",
-      "posting_age_days": 25,
+      "posting_age_days": 26,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 25,
+        "age_days": 26,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -818,10 +818,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T07:52:04Z",
-      "posting_age_days": 26,
+      "posting_age_days": 27,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 26,
+        "age_days": 27,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -884,177 +884,6 @@
     },
     {
       "report_number": 6,
-      "job_key": "d84c944e049e1a080116",
-      "status": "NEW",
-      "application_status": "NEW",
-      "score": 69,
-      "raw_score": 73,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "score_label": "REVIEW",
-      "title": "Software Developer (Go) - Security Analytics",
-      "company": "RedMimicry GmbH",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin remote role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "Remote"
-      },
-      "location_scope": "Berlin",
-      "working_model": "Remote",
-      "role_family": {
-        "id": "soc_detection",
-        "label": "SOC / Detection and Response",
-        "priority": 2,
-        "confidence": "medium",
-        "evidence": [
-          "siem",
-          "incident response"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://www.arbeitnow.com/jobs/companies/redmimicry-gmbh/software-developer-go-security-analytics-berlin-146655",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/redmimicry-gmbh/software-developer-go-security-analytics-berlin-146655",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/redmimicry-gmbh/software-developer-go-security-analytics-berlin-146655",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-09-06T09:30:23Z",
-      "posting_age_days": 1,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 1,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-09-07T10:37:07Z",
-      "experience_required": null,
-      "german_requirement": "German is preferred/nice-to-have",
-      "skill_matches": {
-        "match": [],
-        "partial": [
-          "incident response",
-          "javascript",
-          "siem"
-        ],
-        "missing": [
-          "edr",
-          "go"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "edr",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Experience with SOC tooling, SIEM, EDR, incident response, threat hunting, or security analytics is a strong advantage"
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with SOC tooling, SIEM, EDR, incident response, threat hunting, or security analytics is a strong advantage"
-        },
-        {
-          "skill": "siem",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with SOC tooling, SIEM, EDR, incident response, threat hunting, or security analytics is a strong advantage"
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "You will build Go backend components and the application layer."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 10,
-        "experience": 10,
-        "location": 15,
-        "language": 9,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: SOC / Detection and Response.",
-        "Berlin remote role."
-      ],
-      "warnings": [
-        "Mandatory gaps: edr, incident response, siem",
-        "Potential gaps: go",
-        "Exposure only; do not claim deep expertise: incident response, javascript, siem",
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "We are building a new capability that turns fragmented, noisy security logs into explainable, AI-powered threat analysis, delivered inside the RedMimicry platform. As a Software Developer at RedMimicry, you will take a leading role in developing a new security analytics capability within our platform. You will build Go backend components and the application layer. Experience with web frontend frameworks is welcome, but not required for this role. This is a fixed term contract, running until 2027-10-31. Tasks Build the Analysis Backend: Implement the services that receive security telemetry, run analysis workflows, and store results and evidence. Design APIs: Define stable, versioned interfaces for ingestion, analysis, and reporting. Design Domain Models: Define maintainable data models for security events, analysis results, and supporting evidence. Handle Long-Running Jobs: Implement asynchronous processing, progress reporting, retries, cancellation, and useful failure states. Work at Volume: Move and process large telemetry sets with predictable memory, throughput, and backpressure behaviour. Integrate Model Inference: Build the interfaces between our services and our AI/ML compo…",
-      "full_description": "We are building a new capability that turns fragmented, noisy security logs into explainable, AI-powered threat analysis, delivered inside the RedMimicry platform.\n\nAs a Software Developer at RedMimicry, you will take a leading role in developing a new security analytics capability within our platform. You will build Go backend components and the application layer.\n\nExperience with web frontend frameworks is welcome, but not required for this role.\n\nThis is a fixed term contract, running until 2027-10-31.\n\nTasks\n\nBuild the Analysis Backend: Implement the services that receive security telemetry, run analysis workflows, and store results and evidence.\n\nDesign APIs: Define stable, versioned interfaces for ingestion, analysis, and reporting.\n\nDesign Domain Models: Define maintainable data models for security events, analysis results, and supporting evidence.\n\nHandle Long-Running Jobs: Implement asynchronous processing, progress reporting, retries, cancellation, and useful failure states.\n\nWork at Volume: Move and process large telemetry sets with predictable memory, throughput, and backpressure behaviour.\n\nIntegrate Model Inference: Build the interfaces between our services and our AI/ML components, including queuing, timeouts, partial results, and fallbacks.\n\nKeep Evidence Traceable: Preserve the path from an analysis result back to the exact source fields and log fragments behind it.\n\nImplement Reporting: Build consistent JSON and PDF reporting pipelines for machine-readable and human-readable outputs.\n\nBuild Secure Multi-Tenant Components: Apply authentication, authorisation, tenant separation, and secure data-handling patterns.\n\nMaintain Engineering Quality: Add tests, review code, document interfaces, profile performance, and translate analyst feedback into concrete improvements.\n\nRequirements\n\nGo\n\nStrong practical Go experience and a clear sense of idiomatic Go\n\nConcurrency with goroutines, channels, and context, including cancellation and timeouts\n\nProfiling, benchmarking, and reasoning about allocations and memory\n\nConfident use of the standard library and a deliberate approach to dependencies\n\nBackend Engineering\n\nAPI design, versioning, validation, and error handling\n\nRelational data modelling and SQL\n\nAsynchronous jobs, queues, background processing, and failure recovery\n\nTesting and observability\n\nSystem Design\n\nService boundaries, event-driven workflows, and integration patterns\n\nAuthentication, authorisation, and tenant isolation\n\nContainerised applications and production deployment workflows\n\nPerformance and reliability under large data volumes\n\nReporting and Data Presentation\n\nJSON APIs and machine-readable exports\n\nPDF or document-generation pipelines\n\nAudit-oriented or evidence-oriented data structures are a plus\n\nCybersecurity Knowledge\n\nExperience with SOC tooling, SIEM, EDR, incident response, threat hunting, or security analytics is a strong advantage\n\nAbility to understand process, host, identity, network, and timeline data\n\nFrontend (welcome, but not required)\n\nModern JavaScript or TypeScript and a component-based framework\n\nLanguages\n\nEnglish (required)\n\nGerman (a plus)\n\nBenefits\n\nWork from anywhere in Germany, and use our Berlin office as often as you like\n\n30 days of paid time off, and a quiet inbox while you are away\n\nCompany-paid Deutschlandticket\n\nAnnual budget for the courses and certifications you pick yourself\n\nModern tooling and extensive use of AI\n\nLight process, clear communication, focus on what really matters\n\nA close match is enough. If the role speaks to you, apply with your CV and anything else you would like us to see. What follows is short and transparent, a few conversations with the team and then your first week in Berlin. We are an equal opportunity employer and welcome applications from all backgrounds and genders. Questions about the role or the process are welcome at any point.\n\nFind Jobs in Germany on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "edr",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Experience with SOC tooling, SIEM, EDR, incident response, threat hunting, or security analytics is a strong advantage"
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with SOC tooling, SIEM, EDR, incident response, threat hunting, or security analytics is a strong advantage"
-        },
-        {
-          "skill": "siem",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with SOC tooling, SIEM, EDR, incident response, threat hunting, or security analytics is a strong advantage"
-        },
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "You will build Go backend components and the application layer."
-        },
-        {
-          "skill": "javascript",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Modern JavaScript or TypeScript and a component-based framework"
-        }
-      ],
-      "german_analysis": {
-        "category": "nice",
-        "level": "unspecified",
-        "mandatory": false,
-        "label": "German is preferred/nice-to-have",
-        "evidence": "German (a plus)"
-      },
-      "experience_analysis": null
-    },
-    {
-      "report_number": 7,
       "job_key": "94f173f287cfa560ea63",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1228,7 +1057,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 8,
+      "report_number": 7,
       "job_key": "f19b320b6f4231da471f",
       "status": "NEW",
       "application_status": "NEW",
@@ -1267,10 +1096,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T09:15:36Z",
-      "posting_age_days": 26,
+      "posting_age_days": 27,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 26,
+        "age_days": 27,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1348,7 +1177,7 @@
       }
     },
     {
-      "report_number": 9,
+      "report_number": 8,
       "job_key": "7cc60b107427bd284648",
       "status": "NEW",
       "application_status": "NEW",
@@ -1387,10 +1216,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-14T09:10:22Z",
-      "posting_age_days": 24,
+      "posting_age_days": 25,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 24,
+        "age_days": 25,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1444,7 +1273,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 10,
+      "report_number": 9,
       "job_key": "90f0449bba70bfd8ee85",
       "status": "NEW",
       "application_status": "NEW",
@@ -1483,10 +1312,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-14T15:06:05Z",
-      "posting_age_days": 23,
+      "posting_age_days": 24,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 23,
+        "age_days": 24,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1548,6 +1377,105 @@
         "optional": false,
         "display": "5+ years",
         "evidence": "5+ years experience in enterprise, customer facing roles collaborating with both technical and business teams - Customer Success, Professional Services, Technical Account Management or a combination of those plus Sales, Solutions Engineering, or Technical Supp"
+      }
+    },
+    {
+      "report_number": 10,
+      "job_key": "2ba1811c9d426bdf9d3a",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 62,
+      "raw_score": null,
+      "score_cap": null,
+      "score_cap_reasons": [],
+      "score_label": "REVIEW",
+      "title": "Physical Security and Safety Specialist",
+      "company": "Wolt",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin on-site role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "On-site"
+      },
+      "location_scope": "Berlin",
+      "working_model": "On-site",
+      "role_family": {},
+      "seniority": {},
+      "url": "https://job-boards.greenhouse.io/wolt/jobs/7996749",
+      "apply_url": "https://job-boards.greenhouse.io/wolt/jobs/7996749",
+      "canonical_url": "https://job-boards.greenhouse.io/wolt/jobs/7996749",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "ats": "greenhouse",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-08-12T18:47:36Z",
+      "posting_age_days": 26,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 26,
+        "category": "current",
+        "label": "OPEN FOR REVIEW"
+      },
+      "urgency": "OPEN FOR REVIEW",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": "3-5 years",
+      "german_requirement": "German unspecified required",
+      "skill_matches": {
+        "match": [],
+        "partial": [
+          "nist"
+        ],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "title": 10,
+        "skills": 15,
+        "experience": 13,
+        "security_relevance": 4,
+        "location": 10,
+        "language": 4,
+        "education": 3,
+        "career_value": 3
+      },
+      "match_reasons": [
+        "The role is based in Berlin/Germany."
+      ],
+      "warnings": [
+        "German unspecified required",
+        "Requests 3-5 years versus approximately 2.1 years in the profile.",
+        "Exposure only; do not claim deep expertise: nist"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "About Wolt At Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we’re building the delivery of (almost) everything and you’ll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe. Working at Wolt isn’t always easy, but it’s definitely exciting. Here you’ll learn more, build more, and ship more than in most other companies. You’ll be challenged a lot, but also have a lot of fun on the way. So, if you’re a self-starter with drive and entrepreneurial spirit, this could be the ride of your life. About the role Are you passionate about creating safe environments and thrive in a role where no two days are the same? We're looking for a hands-on and resourceful Physical Security and Safety Specialist to be the go-to security person for Germany and surrounding markets — someone ready to build, own, and grow the function alongside us. What you’ll be doing Manage day-to-day physical security operations for Germany and surrounding Central European markets, acting as the p…",
+      "full_description": "About Wolt\n\nAt Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we’re building the delivery of (almost) everything and you’ll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe.\n\nWorking at Wolt isn’t always easy, but it’s definitely exciting. Here you’ll learn more, build more, and ship more than in most other companies. You’ll be challenged a lot, but also have a lot of fun on the way. So, if you’re a self-starter with drive and entrepreneurial spirit, this could be the ride of your life.\n\nAbout the role\n\nAre you passionate about creating safe environments and thrive in a role where no two days are the same? We're looking for a hands-on and resourceful Physical Security and Safety Specialist to be the go-to security person for Germany and surrounding markets — someone ready to build, own, and grow the function alongside us.\n\nWhat you’ll be doing\n\nManage day-to-day physical security operations for Germany and surrounding Central European markets, acting as the primary security point of contact for the region.\n\nHandle a broad range of security incidents — coordinating with HR, Legal, and local stakeholders as needed.\n\nPlan and oversee physical security projects, including hardware installations, upgrades, and maintenance of access control systems across office and market locations.\n\nBuild and maintain relationships with security suppliers and installation contractors, ensuring quality delivery and service continuity.\n\nCollaborate closely with internal teams — Real Estate, HR, Legal, and local General Managers — to proactively identify and address security needs.\n\nContribute to global security initiatives and help shape scalable security processes for a fast-growing organization.\n\nOur humble expectations\n\nFluency in English (written and spoken) is essential, as it's our primary working language. German fluency is equally required for day-to-day communication with local stakeholders and vendors.\n\n3–5 years of experience in a physical security role, ideally with an administrative or project management component.\n\nGeneralist security background with the ability to handle both operational and project-based work independently.\n\nExperience coordinating with security vendors and suppliers.\n\nSelf-starter with a proactive mindset — you don't wait to be told what needs fixing, you find it and fix it.\n\nCuriosity and openness toward AI tools and technology \n\nSecurity coordinator certification or equivalent is a plus, but not required.\n\nWhat’s in it for you\n\n💙 You’ll get to work in a company culture where we take ownership beyond the obvious, do common things uncommonly well, we think big but stay humble, do right by people, we treat others kindly and justly, recognise that if we don’t learn, we won’t stay still but fall behind.\n\nOur Commitment to Diversity and Inclusion\n\nWe’re committed to growing and empowering a more inclusive community within our company, industry, and cities. That’s why we hire and cultivate diverse teams of people from all backgrounds, experiences, and perspectives. We believe that true innovation happens when everyone has room at the table and the tools, resources, and opportunity to excel.",
+      "skill_requirements": [],
+      "german_analysis": {
+        "category": "unspecified",
+        "level": "unspecified",
+        "mandatory": false,
+        "label": "German unspecified required",
+        "evidence": "German fluency is equally required for day-to-day communication with local stakeholders and vendors."
+      },
+      "experience_analysis": {
+        "min_years": 3,
+        "max_years": 5,
+        "optional": false,
+        "display": "3-5 years",
+        "evidence": "3–5 years of experience in a physical security role, ideally with an administrative or project management component."
       }
     }
   ],
