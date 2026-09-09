@@ -1,19 +1,19 @@
 # Employer Watchlist Health
 
-**Generated:** 2026-09-08T09:57:55Z
+**Generated:** 2026-09-09T09:59:35Z
 **Scan mode:** Daily
 **Configured employers:** 200
-**Healthy after a completed check:** 193
-**Cooling down:** 5
+**Healthy after a completed check:** 192
+**Cooling down:** 6
 **Invalid identifiers:** 5
 
 ## Scan coverage
 
-- **Greenhouse:** 62/172 selected; 105 scheduled for another batch; 5 cooling down
-- **Ashby:** 8/13 selected; 5 scheduled for another batch; 0 cooling down
-- **Lever:** 3/6 selected; 3 scheduled for another batch; 0 cooling down
-- **Personio:** 4/7 selected; 3 scheduled for another batch; 0 cooling down
-- **Recruitee:** 0/2 selected; 2 scheduled for another batch; 0 cooling down
+- **Greenhouse:** 69/172 selected; 98 scheduled for another batch; 5 cooling down
+- **Ashby:** 9/13 selected; 4 scheduled for another batch; 0 cooling down
+- **Lever:** 4/6 selected; 2 scheduled for another batch; 0 cooling down
+- **Personio:** 3/7 selected; 4 scheduled for another batch; 0 cooling down
+- **Recruitee:** 1/2 selected; 1 scheduled for another batch; 0 cooling down
 
 ## Verified security hiring watch
 
@@ -35,6 +35,7 @@
 ## Suppressed or failing identifiers
 
 - **Anduril Industries (greenhouse):** temporarily_failed; next retry 2026-09-07T10:01:28Z; Greenhouse | Anduril Industries | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs?content=true: The read operation timed out
+- **Bugcrowd (greenhouse):** temporarily_failed; next retry 2026-09-10T09:59:35Z; Greenhouse | Bugcrowd | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/bugcrowd/jobs?content=true: The read operation timed out
 - **ClickHouse (greenhouse):** invalid_identifier; next retry 2026-10-02T09:49:06Z; Greenhouse | ClickHouse | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found
 - **Datadog (greenhouse):** temporarily_failed; next retry 2026-09-07T10:01:28Z; Greenhouse | Datadog | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true: The read operation timed out
 - **Lookout (greenhouse):** invalid_identifier; next retry 2026-09-22T06:28:18Z; Greenhouse | Lookout | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/lookoutinc/jobs?content=true: HTTP Error 404: Not Found

@@ -865,18 +865,18 @@
     },
     {
       "week_start": "2026-09-07",
-      "generated_at": "2026-09-08T09:57:55Z",
+      "generated_at": "2026-09-09T09:59:35Z",
       "active_relevant_jobs": 17,
       "role_family_counts": {
         "Security Engineering": 9,
         "Product Security": 4,
         "Cloud Security / DevSecOps": 2,
-        "Application Security": 1,
-        "SOC / Detection and Response": 1
+        "IT Audit / GRC": 1,
+        "Application Security": 1
       },
       "score_bands": {
-        "60-69 review": 11,
-        "50-59 stretch": 6
+        "60-69 review": 10,
+        "50-59 stretch": 7
       },
       "skill_gaps": {
         "mandatory": [
@@ -890,19 +890,19 @@
           },
           {
             "skill": "incident response",
-            "jobs": 5
+            "jobs": 4
           },
           {
             "skill": "siem",
-            "jobs": 5
+            "jobs": 4
+          },
+          {
+            "skill": "nist",
+            "jobs": 3
           },
           {
             "skill": "software development",
             "jobs": 3
-          },
-          {
-            "skill": "nist",
-            "jobs": 2
           },
           {
             "skill": "detection engineering",
@@ -935,12 +935,12 @@
             "jobs": 7
           },
           {
-            "skill": "go",
+            "skill": "bug bounty",
             "jobs": 5
           },
           {
-            "skill": "bug bounty",
-            "jobs": 5
+            "skill": "go",
+            "jobs": 4
           },
           {
             "skill": "edr",
@@ -949,6 +949,10 @@
           {
             "skill": "vulnerability disclosure program",
             "jobs": 4
+          },
+          {
+            "skill": "iso 27001",
+            "jobs": 2
           },
           {
             "skill": "kubernetes",
@@ -964,10 +968,6 @@
           },
           {
             "skill": "azure",
-            "jobs": 1
-          },
-          {
-            "skill": "iso 27001",
             "jobs": 1
           }
         ],
@@ -1012,26 +1012,22 @@
         "partial_exposure": [
           {
             "skill": "incident response",
-            "jobs": 10
+            "jobs": 9
           },
           {
             "skill": "aws",
             "jobs": 8
           },
           {
-            "skill": "javascript",
-            "jobs": 7
-          },
-          {
             "skill": "software development",
             "jobs": 7
           },
           {
-            "skill": "ci/cd",
-            "jobs": 5
+            "skill": "javascript",
+            "jobs": 6
           },
           {
-            "skill": "siem",
+            "skill": "ci/cd",
             "jobs": 5
           },
           {
@@ -1039,15 +1035,19 @@
             "jobs": 5
           },
           {
+            "skill": "nist",
+            "jobs": 4
+          },
+          {
             "skill": "cloud security",
             "jobs": 4
           },
           {
-            "skill": "git",
-            "jobs": 3
+            "skill": "siem",
+            "jobs": 4
           },
           {
-            "skill": "nist",
+            "skill": "git",
             "jobs": 3
           },
           {

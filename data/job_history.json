@@ -3476,6 +3476,128 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-09-09T09:59:35Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 8940,
+      "security_title_candidates": 284,
+      "prefiltered_non_security_jobs": 8656,
+      "unique_jobs_after_deduplication": 233,
+      "duplicates_removed": 51,
+      "jobs_rejected_or_below_threshold": 8872,
+      "relevant_jobs_in_current_run": 17,
+      "new_jobs": 1,
+      "updated_jobs": 1,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 1,
+      "report_jobs": 50,
+      "jobs_by_source": {
+        "arbeitnow": 1100,
+        "remotive": 18,
+        "linkedin_posts": 0,
+        "greenhouse": 6378,
+        "ashby": 246,
+        "lever": 1020,
+        "personio": 175,
+        "recruitee": 3
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 35.7,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1100,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 18,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 6378,
+          "requests": 69,
+          "errors": [
+            {
+              "source": "greenhouse",
+              "company": "Bugcrowd",
+              "http_status": null,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/bugcrowd/jobs?content=true: The read operation timed out",
+              "message": "Greenhouse | Bugcrowd | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/bugcrowd/jobs?content=true: The read operation timed out"
+            }
+          ],
+          "error": "Greenhouse | Bugcrowd | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/bugcrowd/jobs?content=true: The read operation timed out",
+          "companies_checked": 69,
+          "companies_successful": 68,
+          "companies_failed": 1
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 246,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1020,
+          "requests": 4,
+          "errors": [],
+          "error": "",
+          "companies_checked": 4,
+          "companies_successful": 4,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 175,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 3,
+          "requests": 1,
+          "errors": [],
+          "error": "",
+          "companies_checked": 1,
+          "companies_successful": 1,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -7099,6 +7221,22 @@
       "at": "2026-09-08T09:57:55Z",
       "job_key": "6e733992a361e341e6e6",
       "event": "NEW",
+      "company": "Distribusion Technologies",
+      "title": "Senior Application Security Engineer (all genders)",
+      "score": 59
+    },
+    {
+      "at": "2026-09-09T09:59:35Z",
+      "job_key": "57712ed3d56671484e37",
+      "event": "NEW",
+      "company": "MOTOR Ai",
+      "title": "Senior IT Systems Administrator (m/f/d) Network & Security",
+      "score": 54
+    },
+    {
+      "at": "2026-09-09T09:59:35Z",
+      "job_key": "6e733992a361e341e6e6",
+      "event": "UPDATED",
       "company": "Distribusion Technologies",
       "title": "Senior Application Security Engineer (all genders)",
       "score": 59
