@@ -3598,6 +3598,136 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-09-10T09:57:17Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 6869,
+      "security_title_candidates": 245,
+      "prefiltered_non_security_jobs": 6624,
+      "unique_jobs_after_deduplication": 186,
+      "duplicates_removed": 59,
+      "jobs_rejected_or_below_threshold": 6792,
+      "relevant_jobs_in_current_run": 18,
+      "new_jobs": 1,
+      "updated_jobs": 0,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 1,
+      "report_jobs": 50,
+      "jobs_by_source": {
+        "arbeitnow": 1100,
+        "remotive": 17,
+        "linkedin_posts": 0,
+        "greenhouse": 5127,
+        "ashby": 263,
+        "lever": 155,
+        "personio": 204,
+        "recruitee": 3
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 37.5,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1100,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 17,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 5127,
+          "requests": 56,
+          "errors": [
+            {
+              "source": "greenhouse",
+              "company": "Elastic",
+              "http_status": null,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true: The read operation timed out",
+              "message": "Greenhouse | Elastic | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true: The read operation timed out"
+            },
+            {
+              "source": "greenhouse",
+              "company": "SIXGEN",
+              "http_status": null,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/sixgeninc/jobs?content=true: The read operation timed out",
+              "message": "Greenhouse | SIXGEN | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/sixgeninc/jobs?content=true: The read operation timed out"
+            }
+          ],
+          "error": "Greenhouse | Elastic | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true: The read operation timed out",
+          "companies_checked": 56,
+          "companies_successful": 54,
+          "companies_failed": 2
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 263,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 155,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 204,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 3,
+          "requests": 1,
+          "errors": [],
+          "error": "",
+          "companies_checked": 1,
+          "companies_successful": 1,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -7240,6 +7370,14 @@
       "company": "Distribusion Technologies",
       "title": "Senior Application Security Engineer (all genders)",
       "score": 59
+    },
+    {
+      "at": "2026-09-10T09:57:17Z",
+      "job_key": "b3d25546d338bae16a36",
+      "event": "NEW",
+      "company": "Awin",
+      "title": "Application Security Engineer (f/m/d)",
+      "score": 69
     }
   ]
 }

@@ -1,18 +1,18 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-09T09:59:35Z",
+  "generated_at": "2026-09-10T09:57:17Z",
   "summary": {
-    "generated_at": "2026-09-09T09:59:35Z",
+    "generated_at": "2026-09-10T09:57:17Z",
     "scoring_version": 2.2,
-    "jobs_collected": 8940,
-    "security_title_candidates": 284,
-    "prefiltered_non_security_jobs": 8656,
-    "unique_jobs_after_deduplication": 233,
-    "duplicates_removed": 51,
-    "jobs_rejected_or_below_threshold": 8872,
-    "relevant_jobs_in_current_run": 17,
+    "jobs_collected": 6869,
+    "security_title_candidates": 245,
+    "prefiltered_non_security_jobs": 6624,
+    "unique_jobs_after_deduplication": 186,
+    "duplicates_removed": 59,
+    "jobs_rejected_or_below_threshold": 6792,
+    "relevant_jobs_in_current_run": 18,
     "new_jobs": 1,
-    "updated_jobs": 1,
+    "updated_jobs": 0,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
@@ -20,18 +20,18 @@
     "report_jobs": 50,
     "jobs_by_source": {
       "arbeitnow": 1100,
-      "remotive": 18,
+      "remotive": 17,
       "linkedin_posts": 0,
-      "greenhouse": 6378,
-      "ashby": 246,
-      "lever": 1020,
-      "personio": 175,
+      "greenhouse": 5127,
+      "ashby": 263,
+      "lever": 155,
+      "personio": 204,
       "recruitee": 3
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 35.7
+    "workflow_duration_seconds": 37.5
   },
   "jobs": [
     {
@@ -74,10 +74,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T09:15:17Z",
-      "posting_age_days": 28,
+      "posting_age_days": 29,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 28,
+        "age_days": 29,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -164,10 +164,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-31T13:22:35Z",
-      "posting_age_days": 39,
+      "posting_age_days": 40,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 39,
+        "age_days": 40,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -388,10 +388,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T19:59:08Z",
-      "posting_age_days": 27,
+      "posting_age_days": 28,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 27,
+        "age_days": 28,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -473,10 +473,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T07:52:04Z",
-      "posting_age_days": 28,
+      "posting_age_days": 29,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 28,
+        "age_days": 29,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -529,6 +529,161 @@
     },
     {
       "report_number": 6,
+      "job_key": "b3d25546d338bae16a36",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 83,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "score_label": "REVIEW",
+      "title": "Application Security Engineer (f/m/d)",
+      "company": "Awin",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin on-site role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "On-site"
+      },
+      "location_scope": "Berlin",
+      "working_model": "On-site",
+      "role_family": {
+        "id": "application_security",
+        "label": "Application Security",
+        "priority": 1,
+        "confidence": "high",
+        "evidence": [
+          "application security",
+          "sast",
+          "dast"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://www.arbeitnow.com/jobs/companies/awin/application-security-engineer-berlin-berlin-342451",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/awin/application-security-engineer-berlin-berlin-342451",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/awin/application-security-engineer-berlin-berlin-342451",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-09-10T02:55:13Z",
+      "posting_age_days": 0,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-09-10T09:57:17Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "application security",
+          "dast",
+          "python",
+          "sast",
+          "threat modeling",
+          "vulnerability management"
+        ],
+        "partial": [
+          "aws",
+          "ci/cd",
+          "incident response",
+          "php",
+          "product security"
+        ],
+        "missing": [
+          "bug bounty",
+          "rust",
+          "software composition analysis",
+          "terraform"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Experience with Cloud Native environments (AWS), Containers and Terraform."
+        },
+        {
+          "skill": "php",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Coding proficiency in languages such as JS, PHP, Python."
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Experience with Cloud Native environments (AWS), Containers and Terraform."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "bug bounty",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Support the bug bounty process with finding validation."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Your role is to establish and lead an AppSec program within the Product and Technology department, acting as an evangelist for AppSec, trusted by engineers and managers alike."
+        },
+        {
+          "skill": "software composition analysis",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "SAST, DAST, dependency scanning) into CI/CD pipelines and IDEs."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 20,
+        "skills": 15,
+        "experience": 10,
+        "location": 15,
+        "language": 10,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Application Security.",
+        "Berlin on-site role.",
+        "Evidenced matches include application security, dast, python, sast, threat modeling."
+      ],
+      "warnings": [
+        "Mandatory gaps: aws, php, terraform",
+        "Potential gaps: bug bounty, rust, software composition analysis",
+        "Exposure only; do not claim deep expertise: aws, ci/cd, incident response, php, product security",
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "Purpose of Position Your role is to establish and lead an AppSec program within the Product and Technology department, acting as an evangelist for AppSec, trusted by engineers and managers alike. As a member of the core security team, you will engage in assessing application design proposals, to identify improvements to enable our engineers to create secure products. You will own the existing training program, redesign it to better equip engineers with the knowledge needed to develop secure applications, and create a Security Champions program to scale and embed a DevSecOps mindset across P&T. What you'll be responsible for Secure the SDLC: Integrate security tooling (e.g. SAST, DAST, dependency scanning) into CI/CD pipelines and IDEs. Automate and optimise checks so teams can identify and fix issues early and efficiently. Threat modelling & secure design: Collaborate with product and engineering teams during the design phase to conduct threat modelling sessions and pre-implementation security reviews. Code & architecture reviews: Guide developers on secure coding practices, perform targeted code reviews, and help resolve vulnerabilities with actionable remediation support. Vulner…"
+    },
+    {
+      "report_number": 7,
       "job_key": "94f173f287cfa560ea63",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -649,7 +804,7 @@
       "description_excerpt": "We are building a new capability that turns fragmented, noisy security logs into explainable, AI-powered threat analysis, delivered inside the RedMimicry platform. As Senior AI/ML Engineer at RedMimicry, you will lead the applied AI/ML work behind new analysis capabilities for our breach and attack emulation platform. The core challenge is extracting useful structure from heterogeneous, partially unstructured security telemetry and relating it to known attacker activity. The problem is broader than prompt engineering. You will determine where LLMs, embeddings, retrieval, learned ranking, and deterministic heuristics are justified. The standard is measurable improvement against reproducible baselines, not architectural fashion. Everything you build must operate under realistic latency, reliability, and deployment constraints. This is a fixed-term position running until 31 October 2027. Tasks Develop Security-Log Parsing Methods: Design and implement methods for extracting typed events from heterogeneous SIEM, EDR, NDR, operating-system, and network telemetry. Design Embeddings and Retrieval: Select, evaluate, and tune representations and retrieval methods for security events. Handl…"
     },
     {
-      "report_number": 7,
+      "report_number": 8,
       "job_key": "f19b320b6f4231da471f",
       "status": "NEW",
       "application_status": "NEW",
@@ -688,10 +843,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T09:15:36Z",
-      "posting_age_days": 28,
+      "posting_age_days": 29,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 28,
+        "age_days": 29,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -753,7 +908,7 @@
       "description_excerpt": "Solaris is Europe's leading embedded finance platform. Solaris’ full German banking license and proprietary modular B2B tech stack empowers its partners – from SMEs to large, multinational, non-financial companies – to offer compliant, customer-centric banking services, providing seamless experiences to customers across all industries. Founded in 2016, Solaris pioneered the Banking-as-a-Service market with an unparalleled combination of tech and banking. Solaris is headquartered in Berlin and employs 300 people in Europe. Your Role Integrate security seamlessly into the Software Development Lifecycle (SDLC) and DevSecOps pipelines by automating security gates (SAST, DAST, SCA, and container scanning). Conduct thorough threat modeling and architectural security reviews for complex applications, APIs, and microservices prior to deployment. Perform deep-dive manual and automated secure code reviews across various codebases to identify logic flaws and subtle implementation vulnerabilities. Build and maintain \"secure-by-default\" internal libraries, frameworks, and developer tools to systematically eliminate entire classes of vulnerabilities. Take ownership of the application vulnerabil…"
     },
     {
-      "report_number": 8,
+      "report_number": 9,
       "job_key": "7cc60b107427bd284648",
       "status": "NEW",
       "application_status": "NEW",
@@ -792,10 +947,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-14T09:10:22Z",
-      "posting_age_days": 26,
+      "posting_age_days": 27,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 26,
+        "age_days": 27,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -839,7 +994,7 @@
       "description_excerpt": "Veeam is the Data and AI Trust Company, specializing in helping organizations ensure their data and AI are fully understood, secured, and resilient to enable the acceleration of safe AI at scale. As the market leader in both data resilience and data security posture management, Veeam is built for the convergence of identity, data, security, and AI risk. Headquartered in Seattle with offices in more than 30 countries, Veeam protects over 550,000 customers worldwide, who trust Veeam to keep their businesses running. Join us as we go fearlessly forward together, growing, learning, and making a real impact for some of the world’s biggest brands. About the Role The ideal candidate will be naturally collaborative, articulate, extremely organized, have a solid technical understanding of Veeam's Securiti AI solutions, and be motivated by maximizing customer success and outcomes. Soft skills combined with technical skills are key in this role. As a Lead Customer Success Engineer, you are the primary technical owner driving long-term customer outcomes across the Securiti Data Command Center platform. You'll lead onboarding, adoption, and optimization; proactively identify churn risk and ups…"
     },
     {
-      "report_number": 9,
+      "report_number": 10,
       "job_key": "90f0449bba70bfd8ee85",
       "status": "NEW",
       "application_status": "NEW",
@@ -878,10 +1033,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-14T15:06:05Z",
-      "posting_age_days": 25,
+      "posting_age_days": 26,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 25,
+        "age_days": 26,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -930,7 +1085,7 @@
       "description_excerpt": "Chainguard is the trusted source for open source. By delivering hardened, secure, and production-ready builds of all the open source software engineers and AI agents rely on, Chainguard helps organizations build faster, stay compliant, and eliminate risk. Our customers include Fortune 500 enterprises and global industry leaders, including Anduril, Canva, Fortinet, Hewlett Packard Enterprise, OpenAI, Snap Inc., and Snowflake. Chainguard is venture-backed by leading investors, including Amplify, IVP, Kleiner Perkins, Lightspeed Venture Partners, Mantis VC, Redpoint Ventures, Sequoia Capital, and Spark Capital. The role, in a nutshell: As a Customer Success Manager at Chainguard, you will be the post-sales primary point of contact for our customers. You will be responsible for taking lead on customer engagements across onboarding, implementation, and adoption. In this role, you will work closely with Solutions Architects, Technical Support, Product Management, Engineering and Sales to ensure the successful onboarding and support of your customers. You are their day-to-day contact, building relationships with customers and driving outcomes, adoption, and delivering time-to-value. What…"
     },
     {
-      "report_number": 10,
+      "report_number": 11,
       "job_key": "2ba1811c9d426bdf9d3a",
       "status": "NEW",
       "application_status": "NEW",
@@ -969,10 +1124,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T18:47:36Z",
-      "posting_age_days": 27,
+      "posting_age_days": 28,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 27,
+        "age_days": 28,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1013,7 +1168,7 @@
       "description_excerpt": "About Wolt At Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we’re building the delivery of (almost) everything and you’ll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe. Working at Wolt isn’t always easy, but it’s definitely exciting. Here you’ll learn more, build more, and ship more than in most other companies. You’ll be challenged a lot, but also have a lot of fun on the way. So, if you’re a self-starter with drive and entrepreneurial spirit, this could be the ride of your life. About the role Are you passionate about creating safe environments and thrive in a role where no two days are the same? We're looking for a hands-on and resourceful Physical Security and Safety Specialist to be the go-to security person for Germany and surrounding markets — someone ready to build, own, and grow the function alongside us. What you’ll be doing Manage day-to-day physical security operations for Germany and surrounding Central European markets, acting as the p…"
     },
     {
-      "report_number": 11,
+      "report_number": 12,
       "job_key": "7eaff07677ada2977c2d",
       "status": "NEW",
       "application_status": "NEW",
@@ -1052,10 +1207,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-10T20:52:46Z",
-      "posting_age_days": 29,
+      "posting_age_days": 30,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 29,
+        "age_days": 30,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1104,7 +1259,7 @@
       "description_excerpt": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. Co-create the future with us as we build technology that transforms how the world develops software. *Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 20…"
     },
     {
-      "report_number": 12,
+      "report_number": 13,
       "job_key": "d65bc39d869850472ba5",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1143,10 +1298,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-14T14:01:04Z",
-      "posting_age_days": 25,
+      "posting_age_days": 26,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 25,
+        "age_days": 26,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1192,7 +1347,7 @@
       "description_excerpt": "VIA HealthTech automates psychotherapy documentation — from session notes to psychological reports — so therapists spend less time on admin and more time with patients. We work at the intersection of mental healthcare, AI, and software. Security is central to what we build: we process highly sensitive data and already hold C5 and ISO27001 certification. Aufgaben We are looking for a hands-on IT Security & Compliance Manager to own our IT Compliance, ISMS, and our IT security setup end-to-end. This is a broad role in a small team. You will not only maintain policies but also implement systems, configure tools, run audits, and work directly with engineering to make security a practical part of how we build. In practice, that means: Compliance end-to-end: ISO27001 and, most importantly, C5: Audits, evidence, risk management, corrective actions, auditor communication, internal training Controls: deciding what a control should be, building it, and verifying that it works Vanta: keeping it current and accurate as we grow Internal IT security: you own design and baseline like identity, MDM, device policies, endpoint hardening, access model, on-/offboarding SaaS security administration: c…"
     },
     {
-      "report_number": 13,
+      "report_number": 14,
       "job_key": "6d7ff67be63db6a1d5da",
       "status": "NEW",
       "application_status": "NEW",
@@ -1231,10 +1386,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T09:15:48Z",
-      "posting_age_days": 28,
+      "posting_age_days": 29,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 28,
+        "age_days": 29,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1283,7 +1438,7 @@
       "description_excerpt": "Solaris is Europe's leading embedded finance platform. Solaris’ full German banking license and proprietary modular B2B tech stack empowers its partners – from SMEs to large, multinational, non-financial companies – to offer compliant, customer-centric banking services, providing seamless experiences to customers across all industries. Founded in 2016, Solaris pioneered the Banking-as-a-Service market with an unparalleled combination of tech and banking. Solaris is headquartered in Berlin and employs 300 people in Europe. Your Role Partner closely with the existing Cloud Architecture and Engineering teams to audit the current AWS environment, identify security technical debt, and plan the refactoring of legacy resources into secure Terraform code. Design, deploy, tune, and maintain AWS WAF (Web Application Firewall) policies and rulesets to proactively protect corporate applications and APIs against application-layer attacks (OWASP Top 10, bots, and zero-day exploits). Establish and enforce cloud security guardrails, multi-account structures (AWS Organizations/Control Tower), and Service Control Policies (SCPs) in collaboration with the infrastructure team. Help on define and audi…"
     },
     {
-      "report_number": 14,
+      "report_number": 15,
       "job_key": "6e733992a361e341e6e6",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1429,7 +1584,7 @@
       "description_excerpt": "Distribusion is the world’s leading ground transportation marketplace and gives travellers seamless access to ground transportation online, from search to ticket purchase. We have built a cutting-edge B2B technology platform that connects bus, rail and ferry operators in 70+ countries with the biggest online retailers including Google Maps and Booking.com. We are shaping the future of travel and building the largest global network of transport providers and retailers. We are one of the fastest growing startups in travel, backed by leading venture capital investors including TQ Ventures, Lightrock, Creandum, and Northzone, and are headquartered in Berlin, Germany. Following our recent $80m Series C funding, we are ready to push beyond. We are looking for our first dedicated Application Security Engineer to build our AppSec practice from the ground up. This is a greenfield opportunity with a real attack surface: public partner-facing APIs, payment flows, and active bug bounties. You will own secure development, define what gets reviewed, implement security gates, build the \"paved road\" for ~150 engineers, and see the impact of your work in production within weeks. What you will do:…"
     },
     {
-      "report_number": 15,
+      "report_number": 16,
       "job_key": "c274fb39228c2b8b60a7",
       "status": "NEW",
       "application_status": "NEW",
@@ -1468,10 +1623,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-04T07:35:42Z",
-      "posting_age_days": 36,
+      "posting_age_days": 37,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 36,
+        "age_days": 37,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -1519,7 +1674,7 @@
       "description_excerpt": "About Staffbase We inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees. Headquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience. We are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication. Our information security program is fit for purpose and operationally sound. The next chapter is about making it investor-ready, AI-efficient, and capable of sustaining enterprise customer trust at scale. This is not a build-from-scratch role. It is a step up in maturity: fewer manual processes and sharper governance.…"
     },
     {
-      "report_number": 16,
+      "report_number": 17,
       "job_key": "8c9b869ea118336a975b",
       "status": "NEW",
       "application_status": "NEW",
@@ -1558,10 +1713,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-04T07:36:09Z",
-      "posting_age_days": 36,
+      "posting_age_days": 37,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 36,
+        "age_days": 37,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -1609,7 +1764,7 @@
       "description_excerpt": "About Staffbase We inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees. Headquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience. We are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication. Our information security program is fit for purpose and operationally sound. The next chapter is about making it investor-ready, AI-efficient, and capable of sustaining enterprise customer trust at scale. This is not a build-from-scratch role. It is a step up in maturity: fewer manual processes and sharper governance.…"
     },
     {
-      "report_number": 17,
+      "report_number": 18,
       "job_key": "c0edae664d9125ddbcce",
       "status": "NEW",
       "application_status": "NEW",
@@ -1648,10 +1803,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-08T05:00:16Z",
-      "posting_age_days": 63,
+      "posting_age_days": 64,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 63,
+        "age_days": 64,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -1703,121 +1858,6 @@
       ],
       "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
       "description_excerpt": "At Inceptive, you will drive forward development that could help billions of people. To accomplish this, you will be part of a collaborative, antedisciplinary team building our biological software. Our AI models depend on rich, high-quality biological datasets. The integrity, security, and reliability of those datasets and of the infrastructure that supports them are critical to everything we do. As we scale, we need someone who can architect and own the systems that keep our data and our customer’s data safe, well-governed, and optimally accessible to our machine learning pipelines. This is a senior, hands-on role: you will design and build, not just advise. You will work closely with our ML researchers, data engineers, and computational biologists to understand data flows end to end. This includes data ingestion, training, inference, analysis, logging, result output, and model serving. Your work will help secure our infrastructure at every stage. It will also protect our most sensitive assets, including model configurations and weights, training data, and experimental results, from external adversaries and insider threats. Your Mission, should you choose to accept it Embody our…"
-    },
-    {
-      "report_number": 18,
-      "job_key": "57712ed3d56671484e37",
-      "status": "NEW",
-      "application_status": "NEW",
-      "score": 54,
-      "raw_score": 54,
-      "score_cap": 59,
-      "score_cap_reasons": [
-        "Mandatory experience requirement is 7+ years"
-      ],
-      "score_label": "STRETCH",
-      "title": "Senior IT Systems Administrator (m/f/d) Network & Security",
-      "company": "MOTOR Ai",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin on-site role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "On-site"
-      },
-      "location_scope": "Berlin",
-      "working_model": "On-site",
-      "role_family": {
-        "id": "it_audit_grc",
-        "label": "IT Audit / GRC",
-        "priority": 3,
-        "confidence": "medium",
-        "evidence": [
-          "iso 27001",
-          "compliance"
-        ]
-      },
-      "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
-      },
-      "url": "https://www.arbeitnow.com/jobs/companies/motor-ai/senior-it-systems-administrator-network-security-berlin-230604",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/motor-ai/senior-it-systems-administrator-network-security-berlin-230604",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/motor-ai/senior-it-systems-administrator-network-security-berlin-230604",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-09-09T09:00:39Z",
-      "posting_age_days": 0,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 0,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-09-09T09:59:35Z",
-      "experience_required": "7+ years",
-      "german_requirement": "German B2 is preferred/nice-to-have",
-      "skill_matches": {
-        "match": [],
-        "partial": [
-          "nist"
-        ],
-        "missing": [
-          "iso 27001"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "nist",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "A degree in IT/Computer Science, completed vocational training as a System Administrator, or equivalent hands-on experience"
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Prepare and maintain documentation relevant to certifications and compliance frameworks such as NIS2 and ISO 27001"
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 12,
-        "skills": 9,
-        "experience": 0,
-        "location": 15,
-        "language": 9,
-        "seniority": 4,
-        "education": 5
-      },
-      "match_reasons": [
-        "Berlin on-site role."
-      ],
-      "warnings": [
-        "Requests 7+ years versus approximately 2.1 years in the profile.",
-        "Mandatory gaps: nist",
-        "Potential gaps: iso 27001",
-        "Exposure only; do not claim deep expertise: nist",
-        "Mandatory experience requirement is 7+ years"
-      ],
-      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "We are MOTOR Ai. Our mission is to make Level 4 autonomous driving a reality in Germany and beyond. By combining state-of-the-art AI with the expertise of our multidisciplinary team, we are poised to introduce the first solution of its kind in Germany that is eligible for certification on European roads. Since 2017, we have been steadfastly pursuing a single goal: to shape a future that is already in motion. Tasks Plan, design, and structure our corporate network end-to-end - hardware and software alike Monitor, maintain, and support the network infrastructure to ensure high availability across the company Implement and continuously monitor security measures to protect the network against unauthorized access Monitor system performance and network integrity, spotting bottlenecks and issues before they become problems Manage user accounts, permissions, and access rights Analyze and resolve network issues, including hands-on troubleshooting and performance tuning Own regular maintenance, patching, and system hygiene Create and maintain clear documentation of network configurations Prepare and maintain documentation relevant to certifications and compliance frameworks such as NIS2 and…"
     },
     {
       "report_number": 19,
@@ -1872,10 +1912,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-04-07T12:15:06Z",
-      "posting_age_days": 154,
+      "posting_age_days": 155,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 154,
+        "age_days": 155,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -1970,10 +2010,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-30T08:47:46Z",
-      "posting_age_days": 41,
+      "posting_age_days": 42,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 41,
+        "age_days": 42,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -2238,10 +2278,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-08T13:42:17Z",
-      "posting_age_days": 0,
+      "posting_age_days": 1,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 0,
+        "age_days": 1,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
@@ -2394,10 +2434,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-08T13:42:13Z",
-      "posting_age_days": 0,
+      "posting_age_days": 1,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 0,
+        "age_days": 1,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
@@ -2523,10 +2563,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-04T13:55:47Z",
-      "posting_age_days": 4,
+      "posting_age_days": 5,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 4,
+        "age_days": 5,
         "category": "recent",
         "label": "RECENT"
       },
@@ -2676,14 +2716,14 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-02T08:33:39Z",
-      "posting_age_days": 7,
+      "posting_age_days": 8,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 7,
-        "category": "recent",
-        "label": "RECENT"
+        "age_days": 8,
+        "category": "current",
+        "label": "OPEN FOR REVIEW"
       },
-      "urgency": "RECENT",
+      "urgency": "OPEN FOR REVIEW",
       "first_seen": "2026-08-16T21:45:22Z",
       "experience_required": null,
       "german_requirement": "No German requirement detected",
@@ -2805,10 +2845,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-26T23:47:44Z",
-      "posting_age_days": 13,
+      "posting_age_days": 14,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 13,
+        "age_days": 14,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2959,10 +2999,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-26T20:09:45Z",
-      "posting_age_days": 13,
+      "posting_age_days": 14,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 13,
+        "age_days": 14,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -3106,10 +3146,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-18T22:06:17Z",
-      "posting_age_days": 21,
+      "posting_age_days": 22,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 21,
+        "age_days": 22,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -3242,10 +3282,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-18T22:06:17Z",
-      "posting_age_days": 21,
+      "posting_age_days": 22,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 21,
+        "age_days": 22,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -3377,10 +3417,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-06T08:02:54Z",
-      "posting_age_days": 34,
+      "posting_age_days": 35,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 34,
+        "age_days": 35,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -3648,10 +3688,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-16T13:00:30Z",
-      "posting_age_days": 54,
+      "posting_age_days": 55,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 54,
+        "age_days": 55,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -4420,10 +4460,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-08T13:42:15Z",
-      "posting_age_days": 0,
+      "posting_age_days": 1,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 0,
+        "age_days": 1,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
@@ -4535,10 +4575,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T08:30:10Z",
-      "posting_age_days": 28,
+      "posting_age_days": 29,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 28,
+        "age_days": 29,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -4771,10 +4811,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-08T13:42:17Z",
-      "posting_age_days": 0,
+      "posting_age_days": 1,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 0,
+        "age_days": 1,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
@@ -4936,10 +4976,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-02T12:52:21Z",
-      "posting_age_days": 6,
+      "posting_age_days": 7,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 6,
+        "age_days": 7,
         "category": "recent",
         "label": "RECENT"
       },
@@ -5102,10 +5142,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-18T22:06:16Z",
-      "posting_age_days": 21,
+      "posting_age_days": 22,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 21,
+        "age_days": 22,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -5467,10 +5507,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-05T12:52:42Z",
-      "posting_age_days": 34,
+      "posting_age_days": 35,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 34,
+        "age_days": 35,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -6191,10 +6231,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-21T13:37:09Z",
-      "posting_age_days": 15,
+      "posting_age_days": 19,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 15,
+        "age_days": 19,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -6454,7 +6494,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 18,
+      "jobs": 17,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -6470,27 +6510,35 @@
     "greenhouse": {
       "status": "partial",
       "ok": true,
-      "jobs": 6378,
-      "requests": 69,
+      "jobs": 5127,
+      "requests": 56,
       "errors": [
         {
           "source": "greenhouse",
-          "company": "Bugcrowd",
+          "company": "Elastic",
           "http_status": null,
           "exception_type": "RuntimeError",
-          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/bugcrowd/jobs?content=true: The read operation timed out",
-          "message": "Greenhouse | Bugcrowd | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/bugcrowd/jobs?content=true: The read operation timed out"
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true: The read operation timed out",
+          "message": "Greenhouse | Elastic | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true: The read operation timed out"
+        },
+        {
+          "source": "greenhouse",
+          "company": "SIXGEN",
+          "http_status": null,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/sixgeninc/jobs?content=true: The read operation timed out",
+          "message": "Greenhouse | SIXGEN | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/sixgeninc/jobs?content=true: The read operation timed out"
         }
       ],
-      "error": "Greenhouse | Bugcrowd | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/bugcrowd/jobs?content=true: The read operation timed out",
-      "companies_checked": 69,
-      "companies_successful": 68,
-      "companies_failed": 1
+      "error": "Greenhouse | Elastic | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true: The read operation timed out",
+      "companies_checked": 56,
+      "companies_successful": 54,
+      "companies_failed": 2
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 246,
+      "jobs": 263,
       "requests": 9,
       "errors": [],
       "error": "",
@@ -6501,23 +6549,23 @@
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 1020,
-      "requests": 4,
-      "errors": [],
-      "error": "",
-      "companies_checked": 4,
-      "companies_successful": 4,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 175,
+      "jobs": 155,
       "requests": 3,
       "errors": [],
       "error": "",
       "companies_checked": 3,
       "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 204,
+      "requests": 6,
+      "errors": [],
+      "error": "",
+      "companies_checked": 6,
+      "companies_successful": 6,
       "companies_failed": 0
     },
     "recruitee": {
@@ -6535,99 +6583,111 @@
   "all_sources_failed": false,
   "employer_scan": {
     "mode": "daily",
-    "generated_at": "2026-09-09T09:59:35Z",
+    "generated_at": "2026-09-10T09:57:17Z",
     "sources": {
       "greenhouse": {
         "source": "greenhouse",
         "mode": "daily",
-        "batch_index": 2,
+        "batch_index": 3,
         "configured_enabled": 172,
         "priority_configured": 34,
-        "selected": 69,
-        "skipped_by_rotation": 98,
-        "skipped_by_cooldown": 5,
+        "selected": 56,
+        "skipped_by_rotation": 110,
+        "skipped_by_cooldown": 6,
         "rotation_skip_keys": [
           "greenhouse:abnormalsecurity",
           "greenhouse:adahealth",
-          "greenhouse:affirm",
-          "greenhouse:airbnb",
           "greenhouse:airspace",
           "greenhouse:airtable",
+          "greenhouse:algolia",
+          "greenhouse:amplitude",
           "greenhouse:andurilindustries",
+          "greenhouse:anthropic",
           "greenhouse:applovin",
           "greenhouse:bitgo",
+          "greenhouse:bitpanda",
+          "greenhouse:block",
           "greenhouse:brex",
+          "greenhouse:bridgebio",
           "greenhouse:calm",
-          "greenhouse:carta",
+          "greenhouse:chainguard",
+          "greenhouse:charterup",
           "greenhouse:checkr",
           "greenhouse:chime",
           "greenhouse:circleci",
           "greenhouse:civicnation",
           "greenhouse:cloudflare",
           "greenhouse:cockroachlabs",
-          "greenhouse:coinbase",
           "greenhouse:coursera",
           "greenhouse:cribl",
           "greenhouse:cultureamp",
           "greenhouse:databricks",
-          "greenhouse:datadog",
           "greenhouse:dialpad",
-          "greenhouse:dropbox",
+          "greenhouse:discord",
           "greenhouse:duolingo",
-          "greenhouse:elastic",
           "greenhouse:epicgames",
-          "greenhouse:fastly",
+          "greenhouse:faire",
+          "greenhouse:figma",
           "greenhouse:fireblocks",
+          "greenhouse:fivetran",
+          "greenhouse:flatironhealth",
           "greenhouse:flexport",
           "greenhouse:freenow",
+          "greenhouse:gemini",
           "greenhouse:gitlab",
-          "greenhouse:gleanwork",
           "greenhouse:grafanalabs",
           "greenhouse:greenhouse",
           "greenhouse:guardsquare",
           "greenhouse:gusto",
           "greenhouse:honeycomb",
+          "greenhouse:huntress",
           "greenhouse:imply",
+          "greenhouse:instacart",
           "greenhouse:instawork",
+          "greenhouse:intercom",
           "greenhouse:isaraerospace",
           "greenhouse:jetbrains",
-          "greenhouse:justworks",
-          "greenhouse:khanacademy",
           "greenhouse:klanggames",
           "greenhouse:knowbe4",
           "greenhouse:lattice",
           "greenhouse:launchdarkly",
-          "greenhouse:lyft",
+          "greenhouse:locusrobotics",
+          "greenhouse:lucidsoftware",
           "greenhouse:mavenclinic",
+          "greenhouse:melio",
           "greenhouse:mercari",
           "greenhouse:mercury",
           "greenhouse:mixpanel",
-          "greenhouse:newrelic",
+          "greenhouse:mongodb",
+          "greenhouse:nuro",
           "greenhouse:okta",
           "greenhouse:orcasecurity",
-          "greenhouse:oscar",
           "greenhouse:pagerduty",
           "greenhouse:pandadoc",
           "greenhouse:peloton",
-          "greenhouse:pinterest",
           "greenhouse:planetscale",
           "greenhouse:poshmark",
           "greenhouse:postman",
+          "greenhouse:precisionmedicinegroup",
+          "greenhouse:pulley",
+          "greenhouse:raisin",
+          "greenhouse:recursionpharmaceuticals",
           "greenhouse:reddit",
+          "greenhouse:remotecom",
           "greenhouse:riotgames",
           "greenhouse:ripple",
           "greenhouse:robinhood",
-          "greenhouse:roblox",
-          "greenhouse:salesloft",
+          "greenhouse:samsara",
+          "greenhouse:scaleai",
+          "greenhouse:scopely",
           "greenhouse:scoutai",
           "greenhouse:seatgeek",
-          "greenhouse:singlestore",
-          "greenhouse:sixgeninc",
           "greenhouse:sofi",
           "greenhouse:spacex",
-          "greenhouse:squarespace",
+          "greenhouse:stabilityai",
           "greenhouse:starburst",
           "greenhouse:stockx",
+          "greenhouse:stripe",
           "greenhouse:stubhubinc",
           "greenhouse:sumologic",
           "greenhouse:sweetgreen",
@@ -6636,19 +6696,20 @@
           "greenhouse:thirdbridge",
           "greenhouse:togetherai",
           "greenhouse:twilio",
-          "greenhouse:veeamsoftware",
+          "greenhouse:twitch",
+          "greenhouse:upstart",
           "greenhouse:verkada",
-          "greenhouse:waymo",
           "greenhouse:webflow",
-          "greenhouse:wizinc",
           "greenhouse:wolt",
           "greenhouse:wooga",
-          "greenhouse:zetaglobal",
+          "greenhouse:xai",
+          "greenhouse:yugabyte",
           "greenhouse:zoominfo"
         ],
         "cooldown_skip_keys": [
           "greenhouse:clickhouse",
           "greenhouse:solarisbank",
+          "greenhouse:bugcrowd",
           "greenhouse:lookoutinc",
           "greenhouse:magicleap",
           "greenhouse:marqeta"
@@ -6657,7 +6718,7 @@
       "ashby": {
         "source": "ashby",
         "mode": "daily",
-        "batch_index": 2,
+        "batch_index": 3,
         "configured_enabled": 13,
         "priority_configured": 8,
         "selected": 9,
@@ -6666,22 +6727,23 @@
         "rotation_skip_keys": [
           "ashby:choco",
           "ashby:enpal",
-          "ashby:leapsome",
-          "ashby:n8n"
+          "ashby:langdock",
+          "ashby:leapsome"
         ],
         "cooldown_skip_keys": []
       },
       "lever": {
         "source": "lever",
         "mode": "daily",
-        "batch_index": 2,
+        "batch_index": 3,
         "configured_enabled": 6,
         "priority_configured": 2,
-        "selected": 4,
-        "skipped_by_rotation": 2,
+        "selected": 3,
+        "skipped_by_rotation": 3,
         "skipped_by_cooldown": 0,
         "rotation_skip_keys": [
-          "lever:saviynt",
+          "lever:olx",
+          "lever:veeva",
           "lever:westernacher"
         ],
         "cooldown_skip_keys": []
@@ -6689,16 +6751,13 @@
       "personio": {
         "source": "personio",
         "mode": "daily",
-        "batch_index": 2,
+        "batch_index": 3,
         "configured_enabled": 7,
         "priority_configured": 3,
-        "selected": 3,
-        "skipped_by_rotation": 4,
+        "selected": 6,
+        "skipped_by_rotation": 1,
         "skipped_by_cooldown": 0,
         "rotation_skip_keys": [
-          "personio:dnsnet",
-          "personio:liveeo-gmbh",
-          "personio:perseus",
           "personio:syseleven"
         ],
         "cooldown_skip_keys": []
@@ -6706,62 +6765,59 @@
       "recruitee": {
         "source": "recruitee",
         "mode": "daily",
-        "batch_index": 2,
+        "batch_index": 3,
         "configured_enabled": 2,
         "priority_configured": 0,
         "selected": 1,
         "skipped_by_rotation": 1,
         "skipped_by_cooldown": 0,
         "rotation_skip_keys": [
-          "recruitee:dransay"
+          "recruitee:cygridgmbh"
         ],
         "cooldown_skip_keys": []
       }
     }
   },
   "rejection_summary": {
-    "The vacancy has an explicit location outside Berlin/Germany-remote/Europe-remote/worldwide-remote scope": 162,
-    "Excluded seniority in title: Management": 35,
-    "Excluded seniority in title: Staff/Principal": 28,
-    "Advanced/fluent German required": 19,
-    "Mandatory experience is too senior: 8+ years": 17,
-    "Mandatory experience is too senior: 10+ years": 15,
-    "Germany role is on-site/hybrid outside Berlin; only Germany-remote roles are allowed": 15,
-    "On-site role is not located in Berlin": 14,
-    "Excluded seniority in title: Lead/Architect": 13,
-    "German C1 required": 8,
-    "Excluded seniority in title: Executive": 7,
-    "Student/internship-only employment type": 4,
-    "Mandatory experience is too senior: 15+ years": 3,
-    "Remote region is unclear; Germany, Europe/EU/EMEA, or worldwide eligibility is not explicit": 2,
+    "The vacancy has an explicit location outside Berlin/Germany-remote/Europe-remote/worldwide-remote scope": 117,
+    "Excluded seniority in title: Management": 29,
+    "Advanced/fluent German required": 20,
+    "Excluded seniority in title: Staff/Principal": 19,
+    "Excluded seniority in title: Executive": 14,
+    "Mandatory experience is too senior: 8+ years": 14,
+    "On-site role is not located in Berlin": 12,
+    "Excluded seniority in title: Lead/Architect": 10,
+    "Mandatory experience is too senior: 10+ years": 9,
+    "Germany role is on-site/hybrid outside Berlin; only Germany-remote roles are allowed": 7,
+    "Mandatory experience is too senior: 15+ years": 6,
+    "Hybrid role is not located in Berlin": 5,
+    "Student/internship-only employment type": 3,
     "Excluded seniority/employment type in title: werkstudent": 2,
-    "Posting is too old: 348 days (maximum 120)": 2,
-    "Mandatory experience is too senior: 10-12 years": 1,
-    "Excluded seniority/employment type in title: working student": 1,
-    "Excluded seniority/employment type in title: security intern": 1,
+    "Mandatory experience is too senior: 12+ years": 2,
+    "Posting is too old: 349 days (maximum 120)": 2,
+    "Excluded seniority/employment type in title: head of security": 1,
+    "German C1 required": 1,
+    "Vacancy text is predominantly German; the radar is limited to English-speaking roles": 1,
     "Excluded seniority/employment type in title: chief information security officer": 1,
-    "Mandatory experience is too senior: 12+ years": 1,
-    "Insufficient cybersecurity relevance": 1,
-    "Mandatory experience is too senior: 8-15 years": 1,
-    "Mandatory experience is too senior: 8-12 years": 1,
-    "Mandatory experience is too senior: 8-10 years": 1,
-    "Hybrid role is not located in Berlin": 1,
-    "Mandatory experience is too senior: 8-11 years": 1,
-    "Posting is too old: 154 days (maximum 120)": 1,
+    "Posting is too old: 155 days (maximum 120)": 1,
     "German C2 required": 1,
     "German proficiency required (level not stated)": 1,
-    "Posting is too old: 124 days (maximum 120)": 1,
-    "Posting is too old: 210 days (maximum 120)": 1,
-    "Posting is too old: 126 days (maximum 120)": 1,
-    "Posting is too old: 128 days (maximum 120)": 1,
-    "Posting is too old: 145 days (maximum 120)": 1,
-    "Posting is too old: 1343 days (maximum 120)": 1,
-    "Posting is too old: 141 days (maximum 120)": 1,
-    "Posting is too old: 301 days (maximum 120)": 1,
-    "Posting is too old: 482 days (maximum 120)": 1,
-    "Posting is too old: 554 days (maximum 120)": 1,
-    "Posting is too old: 718 days (maximum 120)": 1,
-    "Posting is too old: 469 days (maximum 120)": 1,
-    "Posting is too old: 470 days (maximum 120)": 1
+    "Posting is too old: 125 days (maximum 120)": 1,
+    "Posting is too old: 211 days (maximum 120)": 1,
+    "Posting is too old: 127 days (maximum 120)": 1,
+    "Posting is too old: 129 days (maximum 120)": 1,
+    "Posting is too old: 174 days (maximum 120)": 1,
+    "Mandatory experience is too senior: 8-12 years": 1,
+    "Posting is too old: 189 days (maximum 120)": 1,
+    "Posting is too old: 181 days (maximum 120)": 1,
+    "Mandatory experience is too senior: 14+ years": 1,
+    "Posting is too old: 142 days (maximum 120)": 1,
+    "Posting is too old: 302 days (maximum 120)": 1,
+    "Posting is too old: 483 days (maximum 120)": 1,
+    "Posting is too old: 555 days (maximum 120)": 1,
+    "Posting is too old: 719 days (maximum 120)": 1,
+    "Posting is too old: 470 days (maximum 120)": 1,
+    "Posting is too old: 471 days (maximum 120)": 1,
+    "Posting is too old: 178 days (maximum 120)": 1
   }
 }

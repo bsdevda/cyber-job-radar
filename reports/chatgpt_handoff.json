@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-09T09:59:35Z",
+  "generated_at": "2026-09-10T09:57:17Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,17 +171,17 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-09-09T09:59:35Z",
+    "generated_at": "2026-09-10T09:57:17Z",
     "scoring_version": 2.2,
-    "jobs_collected": 8940,
-    "security_title_candidates": 284,
-    "prefiltered_non_security_jobs": 8656,
-    "unique_jobs_after_deduplication": 233,
-    "duplicates_removed": 51,
-    "jobs_rejected_or_below_threshold": 8872,
-    "relevant_jobs_in_current_run": 17,
+    "jobs_collected": 6869,
+    "security_title_candidates": 245,
+    "prefiltered_non_security_jobs": 6624,
+    "unique_jobs_after_deduplication": 186,
+    "duplicates_removed": 59,
+    "jobs_rejected_or_below_threshold": 6792,
+    "relevant_jobs_in_current_run": 18,
     "new_jobs": 1,
-    "updated_jobs": 1,
+    "updated_jobs": 0,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
@@ -189,18 +189,18 @@
     "report_jobs": 50,
     "jobs_by_source": {
       "arbeitnow": 1100,
-      "remotive": 18,
+      "remotive": 17,
       "linkedin_posts": 0,
-      "greenhouse": 6378,
-      "ashby": 246,
-      "lever": 1020,
-      "personio": 175,
+      "greenhouse": 5127,
+      "ashby": 263,
+      "lever": 155,
+      "personio": 204,
       "recruitee": 3
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 35.7
+    "workflow_duration_seconds": 37.5
   },
   "source_status": {
     "arbeitnow": {
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 18,
+      "jobs": 17,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -230,27 +230,35 @@
     "greenhouse": {
       "status": "partial",
       "ok": true,
-      "jobs": 6378,
-      "requests": 69,
+      "jobs": 5127,
+      "requests": 56,
       "errors": [
         {
           "source": "greenhouse",
-          "company": "Bugcrowd",
+          "company": "Elastic",
           "http_status": null,
           "exception_type": "RuntimeError",
-          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/bugcrowd/jobs?content=true: The read operation timed out",
-          "message": "Greenhouse | Bugcrowd | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/bugcrowd/jobs?content=true: The read operation timed out"
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true: The read operation timed out",
+          "message": "Greenhouse | Elastic | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true: The read operation timed out"
+        },
+        {
+          "source": "greenhouse",
+          "company": "SIXGEN",
+          "http_status": null,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/sixgeninc/jobs?content=true: The read operation timed out",
+          "message": "Greenhouse | SIXGEN | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/sixgeninc/jobs?content=true: The read operation timed out"
         }
       ],
-      "error": "Greenhouse | Bugcrowd | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/bugcrowd/jobs?content=true: The read operation timed out",
-      "companies_checked": 69,
-      "companies_successful": 68,
-      "companies_failed": 1
+      "error": "Greenhouse | Elastic | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true: The read operation timed out",
+      "companies_checked": 56,
+      "companies_successful": 54,
+      "companies_failed": 2
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 246,
+      "jobs": 263,
       "requests": 9,
       "errors": [],
       "error": "",
@@ -261,23 +269,23 @@
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 1020,
-      "requests": 4,
-      "errors": [],
-      "error": "",
-      "companies_checked": 4,
-      "companies_successful": 4,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 175,
+      "jobs": 155,
       "requests": 3,
       "errors": [],
       "error": "",
       "companies_checked": 3,
       "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 204,
+      "requests": 6,
+      "errors": [],
+      "error": "",
+      "companies_checked": 6,
+      "companies_successful": 6,
       "companies_failed": 0
     },
     "recruitee": {
@@ -333,10 +341,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T09:15:17Z",
-      "posting_age_days": 28,
+      "posting_age_days": 29,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 28,
+        "age_days": 29,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -433,10 +441,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-31T13:22:35Z",
-      "posting_age_days": 39,
+      "posting_age_days": 40,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 39,
+        "age_days": 40,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -732,10 +740,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T19:59:08Z",
-      "posting_age_days": 27,
+      "posting_age_days": 28,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 27,
+        "age_days": 28,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -827,10 +835,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T07:52:04Z",
-      "posting_age_days": 28,
+      "posting_age_days": 29,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 28,
+        "age_days": 29,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -893,6 +901,262 @@
     },
     {
       "report_number": 6,
+      "job_key": "b3d25546d338bae16a36",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 83,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "score_label": "REVIEW",
+      "title": "Application Security Engineer (f/m/d)",
+      "company": "Awin",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin on-site role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "On-site"
+      },
+      "location_scope": "Berlin",
+      "working_model": "On-site",
+      "role_family": {
+        "id": "application_security",
+        "label": "Application Security",
+        "priority": 1,
+        "confidence": "high",
+        "evidence": [
+          "application security",
+          "sast",
+          "dast"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://www.arbeitnow.com/jobs/companies/awin/application-security-engineer-berlin-berlin-342451",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/awin/application-security-engineer-berlin-berlin-342451",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/awin/application-security-engineer-berlin-berlin-342451",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-09-10T02:55:13Z",
+      "posting_age_days": 0,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-09-10T09:57:17Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "application security",
+          "dast",
+          "python",
+          "sast",
+          "threat modeling",
+          "vulnerability management"
+        ],
+        "partial": [
+          "aws",
+          "ci/cd",
+          "incident response",
+          "php",
+          "product security"
+        ],
+        "missing": [
+          "bug bounty",
+          "rust",
+          "software composition analysis",
+          "terraform"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Experience with Cloud Native environments (AWS), Containers and Terraform."
+        },
+        {
+          "skill": "php",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Coding proficiency in languages such as JS, PHP, Python."
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Experience with Cloud Native environments (AWS), Containers and Terraform."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "bug bounty",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Support the bug bounty process with finding validation."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Your role is to establish and lead an AppSec program within the Product and Technology department, acting as an evangelist for AppSec, trusted by engineers and managers alike."
+        },
+        {
+          "skill": "software composition analysis",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "SAST, DAST, dependency scanning) into CI/CD pipelines and IDEs."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 20,
+        "skills": 15,
+        "experience": 10,
+        "location": 15,
+        "language": 10,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Application Security.",
+        "Berlin on-site role.",
+        "Evidenced matches include application security, dast, python, sast, threat modeling."
+      ],
+      "warnings": [
+        "Mandatory gaps: aws, php, terraform",
+        "Potential gaps: bug bounty, rust, software composition analysis",
+        "Exposure only; do not claim deep expertise: aws, ci/cd, incident response, php, product security",
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "Purpose of Position Your role is to establish and lead an AppSec program within the Product and Technology department, acting as an evangelist for AppSec, trusted by engineers and managers alike. As a member of the core security team, you will engage in assessing application design proposals, to identify improvements to enable our engineers to create secure products. You will own the existing training program, redesign it to better equip engineers with the knowledge needed to develop secure applications, and create a Security Champions program to scale and embed a DevSecOps mindset across P&T. What you'll be responsible for Secure the SDLC: Integrate security tooling (e.g. SAST, DAST, dependency scanning) into CI/CD pipelines and IDEs. Automate and optimise checks so teams can identify and fix issues early and efficiently. Threat modelling & secure design: Collaborate with product and engineering teams during the design phase to conduct threat modelling sessions and pre-implementation security reviews. Code & architecture reviews: Guide developers on secure coding practices, perform targeted code reviews, and help resolve vulnerabilities with actionable remediation support. Vulner…",
+      "full_description": "Purpose of Position\n\nYour role is to establish and lead an AppSec program within the Product and Technology department, acting as an evangelist for AppSec, trusted by engineers and managers alike.\n\nAs a member of the core security team, you will engage in assessing application design proposals, to identify improvements to enable our engineers to create secure products.\n\nYou will own the existing training program, redesign it to better equip engineers with the knowledge needed to develop secure applications, and create a Security Champions program to scale and embed a DevSecOps mindset across P&T. \n\nWhat you'll be responsible for\n\nSecure the SDLC: Integrate security tooling (e.g. SAST, DAST, dependency scanning) into CI/CD pipelines and IDEs. Automate and optimise checks so teams can identify and fix issues early and efficiently.\n\nThreat modelling & secure design: Collaborate with product and engineering teams during the design phase to conduct threat modelling sessions and pre-implementation security reviews.\n\nCode & architecture reviews: Guide developers on secure coding practices, perform targeted code reviews, and help resolve vulnerabilities with actionable remediation support.\n\nVulnerability lifecycle management:\n\nIdentify, triage, track and report on vulnerabilities across internal and external apps and systems.\n\nCollaborate with engineers to close gaps efficiently.\n\nSupport the bug bounty process with finding validation.\n\nPresent vulnerability management reports to our heads of department.\n\nAI/ML & LLM security:\n\nProvide guidance on secure development of AI/LLM-powered features.\n\nHelp teams manage risks such as prompt injection, model misuse, and data leakage.\n\nLead threat modelling exercises for AI components and advise on secure integration patterns.\n\nIncident response collaboration: Support investigation and root cause analysis of application-layer incidents. Contribute to post-incident reviews and longer-term mitigation strategies.\n\nSecurity culture & enablement:\n\nAct as a security champion for development teams.\n\nBe an enthusiastic and vocal advocate for application security across all engineering and product teams.\n\nNurture and report on our application security training program for our code contributors.\n\nDeliver workshops and technical deep-dives on secure development practices.\n\nContribute to playbooks, documentation, and internal standards.\n\nResearch & innovation:\n\nStay ahead of industry threats and attack trends. Propose and test innovative ideas to reduce risk across our software supply chain and platforms.\n\nShowcase how to use AI and AI-powered tools to enhance productivity and improve our security posture.\n\nYour skills\n\n5+ years in application security, product security or related technical roles.\n\nExperience working directly with software engineer and product managers to secure web applications.\n\nExperience in working within an Agile environment.\n\nGood working proficiency in spoken and written English.\n\nExcellent interpersonal skills and ability to clearly communicate at every level of the organisation.\n\nMentorship and training skills.\n\nAbility to work across two different departments with multiple touch points.\n\nCoding proficiency in languages such as JS, PHP, Python.\n\nExperience with Cloud Native environments (AWS), Containers and Terraform.\n\nHands on experience with DAST, SAST, SCA tools, reporting and dashboarding platforms.\n\nOur Offer\n\nFlexi-Week: We prioritise your mental health and wellbeing by offering you a four-day Flexi-Week (with one lighter or completely disconnected day per week) at full pay, with no reduction to your annual holiday allowance.\n\nFlexi-office: We offer an international culture and flexibility through our hybrid/remote working scheme which is designed to foster a culture of mutual trust and working flexibility.\n\nWork Expense Contribution & Remote Working Furniture: You will receive a monthly allowance to cover part of your running costs, as well as a furniture package to support you in setting up a comfortable workspace when working from home.\n\nHealth and Wellbeing: With our support and access to various initiatives and sports offers, you can focus on your mental and physical wellbeing.\n\nDevelopment: We’ve built our extensive training suite, Awin Academy, to cover a wide range of skills that support your professional and personal growth, with trainings conveniently packaged to help your overall development.\n\nAppreciation: Thank and reward colleagues by sending them a voucher through our peer-to-peer recognition programme.\n\nWe are hiring in multiple countries for this role. Additional benefits, including health and wellbeing offerings, will be discussed during the initial interview.\n\nEstablished in 2000, Awin is proud of our dynamic, social and inclusive culture.\n\nLike all businesses, we’ve had to adapt and nurture our culture in a virtual environment. Our virtual ‘Life @ Awin’ hub brings our colleagues from across the globe together for various social activities.\n\nDiversity & Inclusion are paramount to us, and we proudly pursue and hire diverse team members. We champion uniqueness and authenticity; this is who we are at our core. Our network of affiliate partnerships are diverse and transparent, as are the employees powering our vision to build the world’s leading open partner ecosystem. We welcome all backgrounds, identities, and experiences. If you need support at any point in the application or interview process, please let us know.\n\nAwin is part of the Axel Springer group. Learn more at axelspringer.com/en/, and explore the Axel Springer Essentials here: axelspringer.com/en/inside/the-essentials-what-we-have-adapted-and-why \n\nApply now to begin the next stage of your career at a progressive company that supports both your professional and personal development.\n\nFind Jobs in Germany on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Experience with Cloud Native environments (AWS), Containers and Terraform."
+        },
+        {
+          "skill": "dast",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "Hands on experience with DAST, SAST, SCA tools, reporting and dashboarding platforms."
+        },
+        {
+          "skill": "php",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Coding proficiency in languages such as JS, PHP, Python."
+        },
+        {
+          "skill": "python",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "Coding proficiency in languages such as JS, PHP, Python."
+        },
+        {
+          "skill": "sast",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "Hands on experience with DAST, SAST, SCA tools, reporting and dashboarding platforms."
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Experience with Cloud Native environments (AWS), Containers and Terraform."
+        },
+        {
+          "skill": "application security",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Your role is to establish and lead an AppSec program within the Product and Technology department, acting as an evangelist for AppSec, trusted by engineers and managers alike."
+        },
+        {
+          "skill": "bug bounty",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Support the bug bounty process with finding validation."
+        },
+        {
+          "skill": "ci/cd",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "SAST, DAST, dependency scanning) into CI/CD pipelines and IDEs."
+        },
+        {
+          "skill": "incident response",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Incident response collaboration: Support investigation and root cause analysis of application-layer incidents."
+        },
+        {
+          "skill": "product security",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "5+ years in application security, product security or related technical roles."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Your role is to establish and lead an AppSec program within the Product and Technology department, acting as an evangelist for AppSec, trusted by engineers and managers alike."
+        },
+        {
+          "skill": "software composition analysis",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "SAST, DAST, dependency scanning) into CI/CD pipelines and IDEs."
+        },
+        {
+          "skill": "threat modeling",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Threat modelling & secure design: Collaborate with product and engineering teams during the design phase to conduct threat modelling sessions and pre-implementation security reviews."
+        },
+        {
+          "skill": "vulnerability management",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Present vulnerability management reports to our heads of department."
+        }
+      ],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 7,
       "job_key": "94f173f287cfa560ea63",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1066,7 +1330,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 7,
+      "report_number": 8,
       "job_key": "f19b320b6f4231da471f",
       "status": "NEW",
       "application_status": "NEW",
@@ -1105,10 +1369,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T09:15:36Z",
-      "posting_age_days": 28,
+      "posting_age_days": 29,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 28,
+        "age_days": 29,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1186,7 +1450,7 @@
       }
     },
     {
-      "report_number": 8,
+      "report_number": 9,
       "job_key": "7cc60b107427bd284648",
       "status": "NEW",
       "application_status": "NEW",
@@ -1225,10 +1489,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-14T09:10:22Z",
-      "posting_age_days": 26,
+      "posting_age_days": 27,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 26,
+        "age_days": 27,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1282,7 +1546,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 9,
+      "report_number": 10,
       "job_key": "90f0449bba70bfd8ee85",
       "status": "NEW",
       "application_status": "NEW",
@@ -1321,10 +1585,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-14T15:06:05Z",
-      "posting_age_days": 25,
+      "posting_age_days": 26,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 25,
+        "age_days": 26,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1386,105 +1650,6 @@
         "optional": false,
         "display": "5+ years",
         "evidence": "5+ years experience in enterprise, customer facing roles collaborating with both technical and business teams - Customer Success, Professional Services, Technical Account Management or a combination of those plus Sales, Solutions Engineering, or Technical Supp"
-      }
-    },
-    {
-      "report_number": 10,
-      "job_key": "2ba1811c9d426bdf9d3a",
-      "status": "NEW",
-      "application_status": "NEW",
-      "score": 62,
-      "raw_score": null,
-      "score_cap": null,
-      "score_cap_reasons": [],
-      "score_label": "REVIEW",
-      "title": "Physical Security and Safety Specialist",
-      "company": "Wolt",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin on-site role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "On-site"
-      },
-      "location_scope": "Berlin",
-      "working_model": "On-site",
-      "role_family": {},
-      "seniority": {},
-      "url": "https://job-boards.greenhouse.io/wolt/jobs/7996749",
-      "apply_url": "https://job-boards.greenhouse.io/wolt/jobs/7996749",
-      "canonical_url": "https://job-boards.greenhouse.io/wolt/jobs/7996749",
-      "source": "Greenhouse",
-      "sources": [
-        "Greenhouse"
-      ],
-      "ats": "greenhouse",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-08-12T18:47:36Z",
-      "posting_age_days": 27,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 27,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
-      },
-      "urgency": "OPEN FOR REVIEW",
-      "first_seen": "2026-08-15T04:18:44Z",
-      "experience_required": "3-5 years",
-      "german_requirement": "German unspecified required",
-      "skill_matches": {
-        "match": [],
-        "partial": [
-          "nist"
-        ],
-        "missing": [],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [],
-      "potential_gaps": [],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "title": 10,
-        "skills": 15,
-        "experience": 13,
-        "security_relevance": 4,
-        "location": 10,
-        "language": 4,
-        "education": 3,
-        "career_value": 3
-      },
-      "match_reasons": [
-        "The role is based in Berlin/Germany."
-      ],
-      "warnings": [
-        "German unspecified required",
-        "Requests 3-5 years versus approximately 2.1 years in the profile.",
-        "Exposure only; do not claim deep expertise: nist"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "About Wolt At Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we’re building the delivery of (almost) everything and you’ll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe. Working at Wolt isn’t always easy, but it’s definitely exciting. Here you’ll learn more, build more, and ship more than in most other companies. You’ll be challenged a lot, but also have a lot of fun on the way. So, if you’re a self-starter with drive and entrepreneurial spirit, this could be the ride of your life. About the role Are you passionate about creating safe environments and thrive in a role where no two days are the same? We're looking for a hands-on and resourceful Physical Security and Safety Specialist to be the go-to security person for Germany and surrounding markets — someone ready to build, own, and grow the function alongside us. What you’ll be doing Manage day-to-day physical security operations for Germany and surrounding Central European markets, acting as the p…",
-      "full_description": "About Wolt\n\nAt Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we’re building the delivery of (almost) everything and you’ll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe.\n\nWorking at Wolt isn’t always easy, but it’s definitely exciting. Here you’ll learn more, build more, and ship more than in most other companies. You’ll be challenged a lot, but also have a lot of fun on the way. So, if you’re a self-starter with drive and entrepreneurial spirit, this could be the ride of your life.\n\nAbout the role\n\nAre you passionate about creating safe environments and thrive in a role where no two days are the same? We're looking for a hands-on and resourceful Physical Security and Safety Specialist to be the go-to security person for Germany and surrounding markets — someone ready to build, own, and grow the function alongside us.\n\nWhat you’ll be doing\n\nManage day-to-day physical security operations for Germany and surrounding Central European markets, acting as the primary security point of contact for the region.\n\nHandle a broad range of security incidents — coordinating with HR, Legal, and local stakeholders as needed.\n\nPlan and oversee physical security projects, including hardware installations, upgrades, and maintenance of access control systems across office and market locations.\n\nBuild and maintain relationships with security suppliers and installation contractors, ensuring quality delivery and service continuity.\n\nCollaborate closely with internal teams — Real Estate, HR, Legal, and local General Managers — to proactively identify and address security needs.\n\nContribute to global security initiatives and help shape scalable security processes for a fast-growing organization.\n\nOur humble expectations\n\nFluency in English (written and spoken) is essential, as it's our primary working language. German fluency is equally required for day-to-day communication with local stakeholders and vendors.\n\n3–5 years of experience in a physical security role, ideally with an administrative or project management component.\n\nGeneralist security background with the ability to handle both operational and project-based work independently.\n\nExperience coordinating with security vendors and suppliers.\n\nSelf-starter with a proactive mindset — you don't wait to be told what needs fixing, you find it and fix it.\n\nCuriosity and openness toward AI tools and technology \n\nSecurity coordinator certification or equivalent is a plus, but not required.\n\nWhat’s in it for you\n\n💙 You’ll get to work in a company culture where we take ownership beyond the obvious, do common things uncommonly well, we think big but stay humble, do right by people, we treat others kindly and justly, recognise that if we don’t learn, we won’t stay still but fall behind.\n\nOur Commitment to Diversity and Inclusion\n\nWe’re committed to growing and empowering a more inclusive community within our company, industry, and cities. That’s why we hire and cultivate diverse teams of people from all backgrounds, experiences, and perspectives. We believe that true innovation happens when everyone has room at the table and the tools, resources, and opportunity to excel.",
-      "skill_requirements": [],
-      "german_analysis": {
-        "category": "unspecified",
-        "level": "unspecified",
-        "mandatory": false,
-        "label": "German unspecified required",
-        "evidence": "German fluency is equally required for day-to-day communication with local stakeholders and vendors."
-      },
-      "experience_analysis": {
-        "min_years": 3,
-        "max_years": 5,
-        "optional": false,
-        "display": "3-5 years",
-        "evidence": "3–5 years of experience in a physical security role, ideally with an administrative or project management component."
       }
     }
   ],
