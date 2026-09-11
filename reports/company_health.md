@@ -1,19 +1,19 @@
 # Employer Watchlist Health
 
-**Generated:** 2026-09-10T09:57:17Z
+**Generated:** 2026-09-11T09:54:54Z
 **Scan mode:** Daily
 **Configured employers:** 200
-**Healthy after a completed check:** 191
-**Cooling down:** 8
+**Healthy after a completed check:** 192
+**Cooling down:** 7
 **Invalid identifiers:** 5
 
 ## Scan coverage
 
-- **Greenhouse:** 56/172 selected; 110 scheduled for another batch; 6 cooling down
+- **Greenhouse:** 60/172 selected; 105 scheduled for another batch; 7 cooling down
 - **Ashby:** 9/13 selected; 4 scheduled for another batch; 0 cooling down
-- **Lever:** 3/6 selected; 3 scheduled for another batch; 0 cooling down
-- **Personio:** 6/7 selected; 1 scheduled for another batch; 0 cooling down
-- **Recruitee:** 1/2 selected; 1 scheduled for another batch; 0 cooling down
+- **Lever:** 2/6 selected; 4 scheduled for another batch; 0 cooling down
+- **Personio:** 3/7 selected; 4 scheduled for another batch; 0 cooling down
+- **Recruitee:** 0/2 selected; 2 scheduled for another batch; 0 cooling down
 
 ## Verified security hiring watch
 
@@ -34,7 +34,6 @@
 
 ## Suppressed or failing identifiers
 
-- **Anduril Industries (greenhouse):** temporarily_failed; next retry 2026-09-07T10:01:28Z; Greenhouse | Anduril Industries | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs?content=true: The read operation timed out
 - **Bugcrowd (greenhouse):** temporarily_failed; next retry 2026-09-10T09:59:35Z; Greenhouse | Bugcrowd | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/bugcrowd/jobs?content=true: The read operation timed out
 - **ClickHouse (greenhouse):** invalid_identifier; next retry 2026-10-02T09:49:06Z; Greenhouse | ClickHouse | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found
 - **Elastic (greenhouse):** temporarily_failed; next retry 2026-09-11T09:57:17Z; Greenhouse | Elastic | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true: The read operation timed out

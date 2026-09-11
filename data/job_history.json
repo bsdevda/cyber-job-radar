@@ -3728,6 +3728,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-09-11T09:54:54Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 7494,
+      "security_title_candidates": 206,
+      "prefiltered_non_security_jobs": 7288,
+      "unique_jobs_after_deduplication": 153,
+      "duplicates_removed": 53,
+      "jobs_rejected_or_below_threshold": 7424,
+      "relevant_jobs_in_current_run": 17,
+      "new_jobs": 0,
+      "updated_jobs": 1,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 50,
+      "jobs_by_source": {
+        "arbeitnow": 1100,
+        "remotive": 18,
+        "linkedin_posts": 0,
+        "greenhouse": 5884,
+        "ashby": 241,
+        "lever": 73,
+        "personio": 178,
+        "recruitee": 0
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 25.0,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1100,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 18,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 5884,
+          "requests": 60,
+          "errors": [],
+          "error": "",
+          "companies_checked": 60,
+          "companies_successful": 60,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 241,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 73,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 178,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "idle",
+          "ok": true,
+          "jobs": 0,
+          "requests": 0,
+          "errors": [],
+          "error": "",
+          "companies_checked": 0,
+          "companies_successful": 0,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -7378,6 +7491,14 @@
       "company": "Awin",
       "title": "Application Security Engineer (f/m/d)",
       "score": 69
+    },
+    {
+      "at": "2026-09-11T09:54:54Z",
+      "job_key": "57712ed3d56671484e37",
+      "event": "UPDATED",
+      "company": "MOTOR Ai",
+      "title": "Senior IT Systems Administrator (m/f/d) Network & Security",
+      "score": 54
     }
   ]
 }
