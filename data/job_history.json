@@ -3841,6 +3841,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-09-13T10:52:39Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 23775,
+      "security_title_candidates": 805,
+      "prefiltered_non_security_jobs": 22970,
+      "unique_jobs_after_deduplication": 642,
+      "duplicates_removed": 163,
+      "jobs_rejected_or_below_threshold": 23594,
+      "relevant_jobs_in_current_run": 18,
+      "new_jobs": 1,
+      "updated_jobs": 1,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 50,
+      "jobs_by_source": {
+        "arbeitnow": 1100,
+        "remotive": 16,
+        "linkedin_posts": 0,
+        "greenhouse": 20809,
+        "ashby": 460,
+        "lever": 1173,
+        "personio": 211,
+        "recruitee": 6
+      },
+      "employer_mode": "full",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 43.8,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1100,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 16,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 20809,
+          "requests": 167,
+          "errors": [],
+          "error": "",
+          "companies_checked": 167,
+          "companies_successful": 167,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 460,
+          "requests": 13,
+          "errors": [],
+          "error": "",
+          "companies_checked": 13,
+          "companies_successful": 13,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1173,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 211,
+          "requests": 7,
+          "errors": [],
+          "error": "",
+          "companies_checked": 7,
+          "companies_successful": 7,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 6,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -7499,6 +7612,57 @@
       "company": "MOTOR Ai",
       "title": "Senior IT Systems Administrator (m/f/d) Network & Security",
       "score": 54
+    },
+    {
+      "at": "2026-09-13T10:52:39Z",
+      "job_key": "b8cd59fa1a90fef70e9e",
+      "event": "NEW",
+      "company": "Superhuman",
+      "title": "Corporate Security Engineer",
+      "score": 59
+    },
+    {
+      "at": "2026-09-13T10:52:39Z",
+      "job_key": "521c71dc83dfa3787db3",
+      "event": "UPDATED",
+      "company": "Staffbase",
+      "title": "Senior Product Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-09-13T10:52:39Z",
+      "job_key": "3d48f95fa4abe32880a2",
+      "event": "REMOVED",
+      "company": "Xai",
+      "title": "Sr. Security Engineer - GRC EU/UK Regulation & Data Protection"
+    },
+    {
+      "at": "2026-09-13T10:52:39Z",
+      "job_key": "8ad18102b9891af2fece",
+      "event": "REMOVED",
+      "company": "Xai",
+      "title": "Infrastructure Security Engineer"
+    },
+    {
+      "at": "2026-09-13T10:52:39Z",
+      "job_key": "accdde42e3df719da13b",
+      "event": "REMOVED",
+      "company": "FINN",
+      "title": "Engineering Manager - Cloud & Security (m/f/x)"
+    },
+    {
+      "at": "2026-09-13T10:52:39Z",
+      "job_key": "0e941e4bf040222bbfdd",
+      "event": "REMOVED",
+      "company": "UP42 GmbH",
+      "title": "Cloud Engineer (m/f/x)"
+    },
+    {
+      "at": "2026-09-13T10:52:39Z",
+      "job_key": "85348bfab89f8cc75ef0",
+      "event": "REMOVED",
+      "company": "NVISO",
+      "title": "Junior Cyber Strategy & Architecture Consultant (m/w/d) - Focus GRC"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T09:54:54Z",
+  "generated_at": "2026-09-13T10:52:39Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,16 +171,16 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-09-11T09:54:54Z",
+    "generated_at": "2026-09-13T10:52:39Z",
     "scoring_version": 2.2,
-    "jobs_collected": 7494,
-    "security_title_candidates": 206,
-    "prefiltered_non_security_jobs": 7288,
-    "unique_jobs_after_deduplication": 153,
-    "duplicates_removed": 53,
-    "jobs_rejected_or_below_threshold": 7424,
-    "relevant_jobs_in_current_run": 17,
-    "new_jobs": 0,
+    "jobs_collected": 23775,
+    "security_title_candidates": 805,
+    "prefiltered_non_security_jobs": 22970,
+    "unique_jobs_after_deduplication": 642,
+    "duplicates_removed": 163,
+    "jobs_rejected_or_below_threshold": 23594,
+    "relevant_jobs_in_current_run": 18,
+    "new_jobs": 1,
     "updated_jobs": 1,
     "strong_matches": 0,
     "sources_checked": 8,
@@ -189,18 +189,18 @@
     "report_jobs": 50,
     "jobs_by_source": {
       "arbeitnow": 1100,
-      "remotive": 18,
+      "remotive": 16,
       "linkedin_posts": 0,
-      "greenhouse": 5884,
-      "ashby": 241,
-      "lever": 73,
-      "personio": 178,
-      "recruitee": 0
+      "greenhouse": 20809,
+      "ashby": 460,
+      "lever": 1173,
+      "personio": 211,
+      "recruitee": 6
     },
-    "employer_mode": "daily",
+    "employer_mode": "full",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 25.0
+    "workflow_duration_seconds": 43.8
   },
   "source_status": {
     "arbeitnow": {
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 18,
+      "jobs": 16,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -230,56 +230,56 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 5884,
-      "requests": 60,
+      "jobs": 20809,
+      "requests": 167,
       "errors": [],
       "error": "",
-      "companies_checked": 60,
-      "companies_successful": 60,
+      "companies_checked": 167,
+      "companies_successful": 167,
       "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 241,
-      "requests": 9,
+      "jobs": 460,
+      "requests": 13,
       "errors": [],
       "error": "",
-      "companies_checked": 9,
-      "companies_successful": 9,
+      "companies_checked": 13,
+      "companies_successful": 13,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 73,
-      "requests": 2,
+      "jobs": 1173,
+      "requests": 6,
       "errors": [],
       "error": "",
-      "companies_checked": 2,
-      "companies_successful": 2,
+      "companies_checked": 6,
+      "companies_successful": 6,
       "companies_failed": 0
     },
     "personio": {
       "status": "ok",
       "ok": true,
-      "jobs": 178,
-      "requests": 3,
+      "jobs": 211,
+      "requests": 7,
       "errors": [],
       "error": "",
-      "companies_checked": 3,
-      "companies_successful": 3,
+      "companies_checked": 7,
+      "companies_successful": 7,
       "companies_failed": 0
     },
     "recruitee": {
-      "status": "idle",
+      "status": "ok",
       "ok": true,
-      "jobs": 0,
-      "requests": 0,
+      "jobs": 6,
+      "requests": 2,
       "errors": [],
       "error": "",
-      "companies_checked": 0,
-      "companies_successful": 0,
+      "companies_checked": 2,
+      "companies_successful": 2,
       "companies_failed": 0
     }
   },
@@ -324,14 +324,14 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T09:15:17Z",
-      "posting_age_days": 30,
+      "posting_age_days": 32,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 30,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
+        "age_days": 32,
+        "category": "older",
+        "label": "OLDER POSTING - VERIFY ACTIVE"
       },
-      "urgency": "OPEN FOR REVIEW",
+      "urgency": "OLDER POSTING - VERIFY ACTIVE",
       "first_seen": "2026-08-15T04:18:44Z",
       "experience_required": null,
       "german_requirement": "German requested; level/strictness unclear",
@@ -424,10 +424,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-31T13:22:35Z",
-      "posting_age_days": 41,
+      "posting_age_days": 43,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 41,
+        "age_days": 43,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -723,14 +723,14 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T19:59:08Z",
-      "posting_age_days": 29,
+      "posting_age_days": 31,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 29,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
+        "age_days": 31,
+        "category": "older",
+        "label": "OLDER POSTING - VERIFY ACTIVE"
       },
-      "urgency": "OPEN FOR REVIEW",
+      "urgency": "OLDER POSTING - VERIFY ACTIVE",
       "first_seen": "2026-08-15T04:18:44Z",
       "experience_required": null,
       "german_requirement": "No German requirement detected",
@@ -818,14 +818,14 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T07:52:04Z",
-      "posting_age_days": 30,
+      "posting_age_days": 32,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 30,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
+        "age_days": 32,
+        "category": "older",
+        "label": "OLDER POSTING - VERIFY ACTIVE"
       },
-      "urgency": "OPEN FOR REVIEW",
+      "urgency": "OLDER POSTING - VERIFY ACTIVE",
       "first_seen": "2026-08-15T04:18:44Z",
       "experience_required": null,
       "german_requirement": "No German requirement detected",
@@ -884,6 +884,264 @@
     },
     {
       "report_number": 6,
+      "job_key": "521c71dc83dfa3787db3",
+      "status": "UPDATED",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 81,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "Senior title is above the profile's current 2+ years"
+      ],
+      "score_label": "REVIEW",
+      "title": "Senior Product Security Engineer",
+      "company": "Staffbase",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin remote role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Remote"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "product_security",
+        "label": "Product Security",
+        "priority": 1,
+        "confidence": "high",
+        "evidence": [
+          "product security",
+          "product security"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://job-boards.greenhouse.io/staffbase/jobs/8729143002",
+      "apply_url": "https://job-boards.greenhouse.io/staffbase/jobs/8729143002",
+      "canonical_url": "https://job-boards.greenhouse.io/staffbase/jobs/8729143002",
+      "source": "Greenhouse",
+      "sources": [
+        "Arbeitnow",
+        "Greenhouse"
+      ],
+      "ats": "greenhouse",
+      "priority_employer": true,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-09-11T15:38:01Z",
+      "posting_age_days": 1,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 1,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": null,
+      "german_requirement": "German is preferred/nice-to-have",
+      "skill_matches": {
+        "match": [
+          "dast",
+          "frida",
+          "penetration testing",
+          "sast",
+          "secure sdlc",
+          "security automation",
+          "vulnerability management"
+        ],
+        "partial": [
+          "ci/cd",
+          "javascript",
+          "product security",
+          "software development"
+        ],
+        "missing": [
+          "kubernetes",
+          "rust"
+        ],
+        "nice_to_have": [
+          "go (missing)",
+          "python (match)",
+          "terraform (missing)"
+        ]
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "We see security not as a blocker but as a trusted partner that is the foundation for better products."
+        }
+      ],
+      "optional_gaps": [
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Strong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python"
+        },
+        {
+          "skill": "javascript",
+          "profile_status": "partial",
+          "requirement": "optional",
+          "evidence": "Strong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python"
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Practical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize"
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Practical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize"
+        }
+      ],
+      "score_breakdown": {
+        "role_alignment": 20,
+        "skills": 20,
+        "experience": 10,
+        "location": 15,
+        "language": 9,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Product Security.",
+        "Berlin remote role.",
+        "Evidenced matches include dast, frida, penetration testing, sast, secure sdlc."
+      ],
+      "warnings": [
+        "Potential gaps: rust",
+        "Optional gaps: go, javascript, kubernetes, terraform",
+        "Exposure only; do not claim deep expertise: ci/cd, javascript, product security, software development",
+        "Senior title is above the profile's current 2+ years"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "About Staffbase We inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees. Headquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience. We are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication. At Staffbase, security is at the heart of everything we build. Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company. We believe the best security work happens when people bring their authentic selves and diverse perspectives to the table and we’…",
+      "full_description": "About Staffbase\n\nWe inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees.\n\nHeadquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience.\nWe are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication.\n\nAt Staffbase, security is at the heart of everything we build. Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company. We believe the best security work happens when people bring their authentic selves and diverse perspectives to the table and we’re proud of the unique mix of talents and backgrounds in our team.\n\nAs an enablement team, we provide tools, guidance, and insights that allow developers to integrate security early in the development process. We see security not as a blocker but as a trusted partner that is the foundation for better products. With us, you’ll get hands-on experience with modern security practices, mentorship from experienced engineers, and the chance to make a visible impact in a global SaaS environment.\n\nWe work together with curiosity, humility, and a growth mindset, supporting each other, taking ownership of our contributions, and celebrating progress along the way. Here, your ideas matter, your work will shape how we build secure products, and you’ll have space to grow into new challenges.\n\nWhat you’ll be doing \n\nTake ownership of tasks that improve our security automation and strengthen our product security pipelines\n\nProactively explore the use of AI for vulnerability detection and remediation\n\nContinuously learn and share knowledge about how vulnerabilities apply in our specific product context\n\nSupport the team by enhancing our services with software engineering solutions\n\nCollaborate closely with stakeholders across the product department and gain broad exposure to how a growing SaaS company operates\n\nMaintain our outbound e-mail security by regularly reviewing the related metrics\n\nMaintain our Web Application Firewall ruleset\n\nKubernetes security\n\nCI/CD pipelines security\n\nMaintain our central HTML sanitization service written in TypeScript\n\nWhat you need to be successful \n\nPractical knowledge of security topics (e.g. penetration testing, secure software development, vulnerability management, SAST, DAST)\n\nStrong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python\n\nPractical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize\n\nStrong communication skills in English (German is a plus)\n\nWhat you'll get \n\nCompetitive Compensation - we offer attractive salary packages including LTIP (unit-based Long Term Incentive Plan)\n\nFlexibility - we offer flexible working time models and the option of hybrid work, and support this with a yearly flex work allowance of €1560\n\nRecharge - with 31 vacation days annually (incl. one floating holiday), plus pro rata fully paid Fridays off during August\n\nSupport - we’re offering a company pension scheme\n\nVolunteers Day - you’ll get one day off per year for supporting a social project\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "ci/cd",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "CI/CD pipelines security"
+        },
+        {
+          "skill": "dast",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "penetration testing, secure software development, vulnerability management, SAST, DAST)"
+        },
+        {
+          "skill": "frida",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "one floating holiday), plus pro rata fully paid Fridays off during August"
+        },
+        {
+          "skill": "penetration testing",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "penetration testing, secure software development, vulnerability management, SAST, DAST)"
+        },
+        {
+          "skill": "product security",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "We see security not as a blocker but as a trusted partner that is the foundation for better products."
+        },
+        {
+          "skill": "sast",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "penetration testing, secure software development, vulnerability management, SAST, DAST)"
+        },
+        {
+          "skill": "secure sdlc",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "penetration testing, secure software development, vulnerability management, SAST, DAST)"
+        },
+        {
+          "skill": "security automation",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Take ownership of tasks that improve our security automation and strengthen our product security pipelines"
+        },
+        {
+          "skill": "software development",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Support the team by enhancing our services with software engineering solutions"
+        },
+        {
+          "skill": "vulnerability management",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "penetration testing, secure software development, vulnerability management, SAST, DAST)"
+        },
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Strong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python"
+        },
+        {
+          "skill": "javascript",
+          "profile_status": "partial",
+          "requirement": "optional",
+          "evidence": "Strong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python"
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Practical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize"
+        },
+        {
+          "skill": "python",
+          "profile_status": "match",
+          "requirement": "optional",
+          "evidence": "Strong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python"
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Practical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize"
+        }
+      ],
+      "german_analysis": {
+        "category": "nice",
+        "level": "unspecified",
+        "mandatory": false,
+        "label": "German is preferred/nice-to-have",
+        "evidence": "Strong communication skills in English (German is a plus)"
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 7,
       "job_key": "94f173f287cfa560ea63",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1057,7 +1315,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 7,
+      "report_number": 8,
       "job_key": "f19b320b6f4231da471f",
       "status": "NEW",
       "application_status": "NEW",
@@ -1096,14 +1354,14 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-12T09:15:36Z",
-      "posting_age_days": 30,
+      "posting_age_days": 32,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 30,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
+        "age_days": 32,
+        "category": "older",
+        "label": "OLDER POSTING - VERIFY ACTIVE"
       },
-      "urgency": "OPEN FOR REVIEW",
+      "urgency": "OLDER POSTING - VERIFY ACTIVE",
       "first_seen": "2026-08-15T04:18:44Z",
       "experience_required": "6+ years preferred",
       "german_requirement": "German requested; level/strictness unclear",
@@ -1177,7 +1435,7 @@
       }
     },
     {
-      "report_number": 8,
+      "report_number": 9,
       "job_key": "7cc60b107427bd284648",
       "status": "NEW",
       "application_status": "NEW",
@@ -1216,10 +1474,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-14T09:10:22Z",
-      "posting_age_days": 28,
+      "posting_age_days": 30,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 28,
+        "age_days": 30,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1273,7 +1531,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 9,
+      "report_number": 10,
       "job_key": "90f0449bba70bfd8ee85",
       "status": "NEW",
       "application_status": "NEW",
@@ -1312,10 +1570,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-14T15:06:05Z",
-      "posting_age_days": 27,
+      "posting_age_days": 29,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 27,
+        "age_days": 29,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1377,105 +1635,6 @@
         "optional": false,
         "display": "5+ years",
         "evidence": "5+ years experience in enterprise, customer facing roles collaborating with both technical and business teams - Customer Success, Professional Services, Technical Account Management or a combination of those plus Sales, Solutions Engineering, or Technical Supp"
-      }
-    },
-    {
-      "report_number": 10,
-      "job_key": "2ba1811c9d426bdf9d3a",
-      "status": "NEW",
-      "application_status": "NEW",
-      "score": 62,
-      "raw_score": null,
-      "score_cap": null,
-      "score_cap_reasons": [],
-      "score_label": "REVIEW",
-      "title": "Physical Security and Safety Specialist",
-      "company": "Wolt",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin on-site role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "On-site"
-      },
-      "location_scope": "Berlin",
-      "working_model": "On-site",
-      "role_family": {},
-      "seniority": {},
-      "url": "https://job-boards.greenhouse.io/wolt/jobs/7996749",
-      "apply_url": "https://job-boards.greenhouse.io/wolt/jobs/7996749",
-      "canonical_url": "https://job-boards.greenhouse.io/wolt/jobs/7996749",
-      "source": "Greenhouse",
-      "sources": [
-        "Greenhouse"
-      ],
-      "ats": "greenhouse",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-08-12T18:47:36Z",
-      "posting_age_days": 29,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 29,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
-      },
-      "urgency": "OPEN FOR REVIEW",
-      "first_seen": "2026-08-15T04:18:44Z",
-      "experience_required": "3-5 years",
-      "german_requirement": "German unspecified required",
-      "skill_matches": {
-        "match": [],
-        "partial": [
-          "nist"
-        ],
-        "missing": [],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [],
-      "potential_gaps": [],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "title": 10,
-        "skills": 15,
-        "experience": 13,
-        "security_relevance": 4,
-        "location": 10,
-        "language": 4,
-        "education": 3,
-        "career_value": 3
-      },
-      "match_reasons": [
-        "The role is based in Berlin/Germany."
-      ],
-      "warnings": [
-        "German unspecified required",
-        "Requests 3-5 years versus approximately 2.1 years in the profile.",
-        "Exposure only; do not claim deep expertise: nist"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "About Wolt At Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we’re building the delivery of (almost) everything and you’ll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe. Working at Wolt isn’t always easy, but it’s definitely exciting. Here you’ll learn more, build more, and ship more than in most other companies. You’ll be challenged a lot, but also have a lot of fun on the way. So, if you’re a self-starter with drive and entrepreneurial spirit, this could be the ride of your life. About the role Are you passionate about creating safe environments and thrive in a role where no two days are the same? We're looking for a hands-on and resourceful Physical Security and Safety Specialist to be the go-to security person for Germany and surrounding markets — someone ready to build, own, and grow the function alongside us. What you’ll be doing Manage day-to-day physical security operations for Germany and surrounding Central European markets, acting as the p…",
-      "full_description": "About Wolt\n\nAt Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we’re building the delivery of (almost) everything and you’ll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe.\n\nWorking at Wolt isn’t always easy, but it’s definitely exciting. Here you’ll learn more, build more, and ship more than in most other companies. You’ll be challenged a lot, but also have a lot of fun on the way. So, if you’re a self-starter with drive and entrepreneurial spirit, this could be the ride of your life.\n\nAbout the role\n\nAre you passionate about creating safe environments and thrive in a role where no two days are the same? We're looking for a hands-on and resourceful Physical Security and Safety Specialist to be the go-to security person for Germany and surrounding markets — someone ready to build, own, and grow the function alongside us.\n\nWhat you’ll be doing\n\nManage day-to-day physical security operations for Germany and surrounding Central European markets, acting as the primary security point of contact for the region.\n\nHandle a broad range of security incidents — coordinating with HR, Legal, and local stakeholders as needed.\n\nPlan and oversee physical security projects, including hardware installations, upgrades, and maintenance of access control systems across office and market locations.\n\nBuild and maintain relationships with security suppliers and installation contractors, ensuring quality delivery and service continuity.\n\nCollaborate closely with internal teams — Real Estate, HR, Legal, and local General Managers — to proactively identify and address security needs.\n\nContribute to global security initiatives and help shape scalable security processes for a fast-growing organization.\n\nOur humble expectations\n\nFluency in English (written and spoken) is essential, as it's our primary working language. German fluency is equally required for day-to-day communication with local stakeholders and vendors.\n\n3–5 years of experience in a physical security role, ideally with an administrative or project management component.\n\nGeneralist security background with the ability to handle both operational and project-based work independently.\n\nExperience coordinating with security vendors and suppliers.\n\nSelf-starter with a proactive mindset — you don't wait to be told what needs fixing, you find it and fix it.\n\nCuriosity and openness toward AI tools and technology \n\nSecurity coordinator certification or equivalent is a plus, but not required.\n\nWhat’s in it for you\n\n💙 You’ll get to work in a company culture where we take ownership beyond the obvious, do common things uncommonly well, we think big but stay humble, do right by people, we treat others kindly and justly, recognise that if we don’t learn, we won’t stay still but fall behind.\n\nOur Commitment to Diversity and Inclusion\n\nWe’re committed to growing and empowering a more inclusive community within our company, industry, and cities. That’s why we hire and cultivate diverse teams of people from all backgrounds, experiences, and perspectives. We believe that true innovation happens when everyone has room at the table and the tools, resources, and opportunity to excel.",
-      "skill_requirements": [],
-      "german_analysis": {
-        "category": "unspecified",
-        "level": "unspecified",
-        "mandatory": false,
-        "label": "German unspecified required",
-        "evidence": "German fluency is equally required for day-to-day communication with local stakeholders and vendors."
-      },
-      "experience_analysis": {
-        "min_years": 3,
-        "max_years": 5,
-        "optional": false,
-        "display": "3-5 years",
-        "evidence": "3–5 years of experience in a physical security role, ideally with an administrative or project management component."
       }
     }
   ],

@@ -1,19 +1,19 @@
 # Employer Watchlist Health
 
-**Generated:** 2026-09-11T09:54:54Z
-**Scan mode:** Daily
+**Generated:** 2026-09-13T10:52:39Z
+**Scan mode:** Full
 **Configured employers:** 200
-**Healthy after a completed check:** 192
-**Cooling down:** 7
+**Healthy after a completed check:** 195
+**Cooling down:** 5
 **Invalid identifiers:** 5
 
 ## Scan coverage
 
-- **Greenhouse:** 60/172 selected; 105 scheduled for another batch; 7 cooling down
-- **Ashby:** 9/13 selected; 4 scheduled for another batch; 0 cooling down
-- **Lever:** 2/6 selected; 4 scheduled for another batch; 0 cooling down
-- **Personio:** 3/7 selected; 4 scheduled for another batch; 0 cooling down
-- **Recruitee:** 0/2 selected; 2 scheduled for another batch; 0 cooling down
+- **Greenhouse:** 167/172 selected; 0 scheduled for another batch; 5 cooling down
+- **Ashby:** 13/13 selected; 0 scheduled for another batch; 0 cooling down
+- **Lever:** 6/6 selected; 0 scheduled for another batch; 0 cooling down
+- **Personio:** 7/7 selected; 0 scheduled for another batch; 0 cooling down
+- **Recruitee:** 2/2 selected; 0 scheduled for another batch; 0 cooling down
 
 ## Verified security hiring watch
 
@@ -34,11 +34,8 @@
 
 ## Suppressed or failing identifiers
 
-- **Bugcrowd (greenhouse):** temporarily_failed; next retry 2026-09-10T09:59:35Z; Greenhouse | Bugcrowd | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/bugcrowd/jobs?content=true: The read operation timed out
 - **ClickHouse (greenhouse):** invalid_identifier; next retry 2026-10-02T09:49:06Z; Greenhouse | ClickHouse | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found
-- **Elastic (greenhouse):** temporarily_failed; next retry 2026-09-11T09:57:17Z; Greenhouse | Elastic | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true: The read operation timed out
 - **Lookout (greenhouse):** invalid_identifier; next retry 2026-09-22T06:28:18Z; Greenhouse | Lookout | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/lookoutinc/jobs?content=true: HTTP Error 404: Not Found
 - **Magic Leap (greenhouse):** invalid_identifier; next retry 2026-10-06T10:01:28Z; Greenhouse | Magic Leap | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found
 - **Marqeta (greenhouse):** invalid_identifier; next retry 2026-10-01T10:20:37Z; Greenhouse | Marqeta | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/marqeta/jobs?content=true: HTTP Error 404: Not Found
-- **SIXGEN (greenhouse):** temporarily_failed; next retry 2026-09-11T09:57:17Z; Greenhouse | SIXGEN | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/sixgeninc/jobs?content=true: The read operation timed out
 - **Solaris SE (greenhouse):** invalid_identifier; next retry 2026-10-04T04:05:07Z; Greenhouse | Solaris SE | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/solarisbank/jobs?content=true: HTTP Error 404: Not Found
