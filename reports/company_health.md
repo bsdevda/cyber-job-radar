@@ -1,19 +1,19 @@
 # Employer Watchlist Health
 
-**Generated:** 2026-09-13T10:52:39Z
-**Scan mode:** Full
+**Generated:** 2026-09-14T10:53:09Z
+**Scan mode:** Daily
 **Configured employers:** 200
-**Healthy after a completed check:** 195
-**Cooling down:** 5
+**Healthy after a completed check:** 193
+**Cooling down:** 7
 **Invalid identifiers:** 5
 
 ## Scan coverage
 
-- **Greenhouse:** 167/172 selected; 0 scheduled for another batch; 5 cooling down
-- **Ashby:** 13/13 selected; 0 scheduled for another batch; 0 cooling down
-- **Lever:** 6/6 selected; 0 scheduled for another batch; 0 cooling down
-- **Personio:** 7/7 selected; 0 scheduled for another batch; 0 cooling down
-- **Recruitee:** 2/2 selected; 0 scheduled for another batch; 0 cooling down
+- **Greenhouse:** 48/172 selected; 119 scheduled for another batch; 5 cooling down
+- **Ashby:** 10/13 selected; 3 scheduled for another batch; 0 cooling down
+- **Lever:** 2/6 selected; 4 scheduled for another batch; 0 cooling down
+- **Personio:** 3/7 selected; 4 scheduled for another batch; 0 cooling down
+- **Recruitee:** 0/2 selected; 2 scheduled for another batch; 0 cooling down
 
 ## Verified security hiring watch
 
@@ -39,3 +39,5 @@
 - **Magic Leap (greenhouse):** invalid_identifier; next retry 2026-10-06T10:01:28Z; Greenhouse | Magic Leap | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found
 - **Marqeta (greenhouse):** invalid_identifier; next retry 2026-10-01T10:20:37Z; Greenhouse | Marqeta | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/marqeta/jobs?content=true: HTTP Error 404: Not Found
 - **Solaris SE (greenhouse):** invalid_identifier; next retry 2026-10-04T04:05:07Z; Greenhouse | Solaris SE | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/solarisbank/jobs?content=true: HTTP Error 404: Not Found
+- **Staffbase (greenhouse):** temporarily_failed; next retry 2026-09-15T10:53:09Z; Greenhouse | Staffbase | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/staffbase/jobs?content=true: The read operation timed out
+- **Vercel (greenhouse):** temporarily_failed; next retry 2026-09-15T10:53:09Z; Greenhouse | Vercel | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/vercel/jobs?content=true: The read operation timed out
