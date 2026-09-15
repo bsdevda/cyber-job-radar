@@ -1074,15 +1074,16 @@
     },
     {
       "week_start": "2026-09-14",
-      "generated_at": "2026-09-14T10:53:09Z",
-      "active_relevant_jobs": 12,
+      "generated_at": "2026-09-15T10:17:59Z",
+      "active_relevant_jobs": 13,
       "role_family_counts": {
         "Security Engineering": 8,
         "Cloud Security / DevSecOps": 3,
-        "Product Security": 1
+        "Product Security": 1,
+        "Other Security": 1
       },
       "score_bands": {
-        "60-69 review": 7,
+        "60-69 review": 8,
         "50-59 stretch": 5
       },
       "skill_gaps": {
@@ -1104,7 +1105,15 @@
             "jobs": 3
           },
           {
-            "skill": "dlp",
+            "skill": "docker",
+            "jobs": 2
+          },
+          {
+            "skill": "iso 27001",
+            "jobs": 2
+          },
+          {
+            "skill": "nist",
             "jobs": 2
           },
           {
@@ -1120,41 +1129,33 @@
             "jobs": 2
           },
           {
-            "skill": "azure",
+            "skill": "gdpr",
             "jobs": 1
           },
           {
-            "skill": "nist",
-            "jobs": 1
-          },
-          {
-            "skill": "splunk",
-            "jobs": 1
-          },
-          {
-            "skill": "network security",
+            "skill": "system administration",
             "jobs": 1
           }
         ],
         "potential": [
           {
-            "skill": "rust",
+            "skill": "infrastructure as code",
             "jobs": 4
+          },
+          {
+            "skill": "kubernetes",
+            "jobs": 3
           },
           {
             "skill": "edr",
             "jobs": 3
           },
           {
-            "skill": "infrastructure as code",
+            "skill": "rust",
             "jobs": 3
           },
           {
             "skill": "go",
-            "jobs": 2
-          },
-          {
-            "skill": "kubernetes",
             "jobs": 2
           },
           {
@@ -1164,6 +1165,14 @@
           {
             "skill": "vulnerability disclosure program",
             "jobs": 2
+          },
+          {
+            "skill": "powershell",
+            "jobs": 1
+          },
+          {
+            "skill": "terraform",
+            "jobs": 1
           },
           {
             "skill": "dlp",
@@ -1211,7 +1220,7 @@
         "partial_exposure": [
           {
             "skill": "incident response",
-            "jobs": 8
+            "jobs": 9
           },
           {
             "skill": "aws",
@@ -1219,14 +1228,14 @@
           },
           {
             "skill": "ci/cd",
-            "jobs": 4
+            "jobs": 5
           },
           {
             "skill": "cloud security",
             "jobs": 4
           },
           {
-            "skill": "network security",
+            "skill": "nist",
             "jobs": 3
           },
           {
@@ -1238,11 +1247,15 @@
             "jobs": 3
           },
           {
-            "skill": "devsecops",
+            "skill": "docker",
             "jobs": 2
           },
           {
-            "skill": "nist",
+            "skill": "javascript",
+            "jobs": 2
+          },
+          {
+            "skill": "devsecops",
             "jobs": 2
           },
           {
@@ -1250,12 +1263,8 @@
             "jobs": 2
           },
           {
-            "skill": "product security",
+            "skill": "network security",
             "jobs": 2
-          },
-          {
-            "skill": "javascript",
-            "jobs": 1
           }
         ]
       },

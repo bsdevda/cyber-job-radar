@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T10:53:09Z",
+  "generated_at": "2026-09-15T10:17:59Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,36 +171,36 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-09-14T10:53:09Z",
+    "generated_at": "2026-09-15T10:17:59Z",
     "scoring_version": 2.2,
-    "jobs_collected": 7446,
-    "security_title_candidates": 248,
-    "prefiltered_non_security_jobs": 7198,
-    "unique_jobs_after_deduplication": 190,
-    "duplicates_removed": 58,
-    "jobs_rejected_or_below_threshold": 7376,
-    "relevant_jobs_in_current_run": 12,
-    "new_jobs": 0,
+    "jobs_collected": 6181,
+    "security_title_candidates": 178,
+    "prefiltered_non_security_jobs": 6003,
+    "unique_jobs_after_deduplication": 134,
+    "duplicates_removed": 44,
+    "jobs_rejected_or_below_threshold": 6124,
+    "relevant_jobs_in_current_run": 13,
+    "new_jobs": 2,
     "updated_jobs": 0,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
-    "sources_partial": 1,
-    "report_jobs": 38,
+    "sources_partial": 0,
+    "report_jobs": 40,
     "jobs_by_source": {
       "arbeitnow": 1100,
       "remotive": 16,
       "linkedin_posts": 0,
-      "greenhouse": 5697,
-      "ashby": 381,
-      "lever": 74,
-      "personio": 178,
+      "greenhouse": 4528,
+      "ashby": 219,
+      "lever": 137,
+      "personio": 181,
       "recruitee": 0
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 27.1
+    "workflow_duration_seconds": 21.5
   },
   "source_status": {
     "arbeitnow": {
@@ -228,64 +228,47 @@
       "error": ""
     },
     "greenhouse": {
-      "status": "partial",
+      "status": "ok",
       "ok": true,
-      "jobs": 5697,
-      "requests": 48,
-      "errors": [
-        {
-          "source": "greenhouse",
-          "company": "Staffbase",
-          "http_status": null,
-          "exception_type": "RuntimeError",
-          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/staffbase/jobs?content=true: The read operation timed out",
-          "message": "Greenhouse | Staffbase | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/staffbase/jobs?content=true: The read operation timed out"
-        },
-        {
-          "source": "greenhouse",
-          "company": "Vercel",
-          "http_status": null,
-          "exception_type": "RuntimeError",
-          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/vercel/jobs?content=true: The read operation timed out",
-          "message": "Greenhouse | Vercel | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/vercel/jobs?content=true: The read operation timed out"
-        }
-      ],
-      "error": "Greenhouse | Staffbase | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/staffbase/jobs?content=true: The read operation timed out",
-      "companies_checked": 48,
-      "companies_successful": 46,
-      "companies_failed": 2
+      "jobs": 4528,
+      "requests": 60,
+      "errors": [],
+      "error": "",
+      "companies_checked": 60,
+      "companies_successful": 60,
+      "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 381,
-      "requests": 10,
+      "jobs": 219,
+      "requests": 8,
       "errors": [],
       "error": "",
-      "companies_checked": 10,
-      "companies_successful": 10,
+      "companies_checked": 8,
+      "companies_successful": 8,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 74,
-      "requests": 2,
-      "errors": [],
-      "error": "",
-      "companies_checked": 2,
-      "companies_successful": 2,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 178,
+      "jobs": 137,
       "requests": 3,
       "errors": [],
       "error": "",
       "companies_checked": 3,
       "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 181,
+      "requests": 4,
+      "errors": [],
+      "error": "",
+      "companies_checked": 4,
+      "companies_successful": 4,
       "companies_failed": 0
     },
     "recruitee": {
@@ -934,6 +917,395 @@
     },
     {
       "report_number": 4,
+      "job_key": "a418151dcfecc6e96393",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 63,
+      "raw_score": 63,
+      "score_cap": null,
+      "score_cap_reasons": [],
+      "score_label": "REVIEW",
+      "title": "Future opportunities - Women4Cyber",
+      "company": "Eye Security",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin hybrid role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Hybrid"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Hybrid",
+      "role_family": {
+        "id": "other_security",
+        "label": "Other Security",
+        "priority": 3,
+        "confidence": "low",
+        "evidence": []
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://jobs.ashbyhq.com/eye-security/20488c23-3818-41a0-a593-26f79f404f38",
+      "apply_url": "https://jobs.ashbyhq.com/eye-security/20488c23-3818-41a0-a593-26f79f404f38/application",
+      "canonical_url": "https://jobs.ashbyhq.com/eye-security/20488c23-3818-41a0-a593-26f79f404f38",
+      "source": "Ashby",
+      "sources": [
+        "Ashby"
+      ],
+      "ats": "ashby",
+      "priority_employer": true,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-09-15T08:59:22Z",
+      "posting_age_days": 0,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-09-15T10:17:59Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [],
+        "partial": [],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 10,
+        "skills": 5,
+        "experience": 10,
+        "location": 15,
+        "language": 10,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Berlin hybrid role."
+      ],
+      "warnings": [],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "About Eye Security Eye Security delivers cybersecurity with embedded cyber insurance for organizations across Europe. Headquartered in the Netherlands, we’ve grown to over 200 team members and continue to expand internationally. We combine cutting-edge technology with hands-on expertise to detect, respond to, and recover from cyber threats in real time. Our team includes talent from intelligence, military, tech, and consulting — all united by one mission: to make enterprise-grade cybersecurity accessible to every business, not just the big players. At Eye, you’ll work on projects with an international footprint, solve real-world challenges, and help build a safer digital future for our clients. What you can do with us If you’re looking to apply your skills in a real-world setting — solving complex problems, protecting real businesses, and learning fast — Eye Security is a place to do just that. We help small and medium-sized businesses (SMBs) across Europe stay secure against cyberattacks, financial loss, and operational disruption. They are essential, and they deserve better protection. At Eye, you will find opportunities across Engineering, Product, Design, Security Operations,…",
+      "full_description": "About Eye Security\n\nEye Security delivers cybersecurity with embedded cyber insurance for organizations across Europe. Headquartered in the Netherlands, we’ve grown to over 200 team members and continue to expand internationally.\n\nWe combine cutting-edge technology with hands-on expertise to detect, respond to, and recover from cyber threats in real time. Our team includes talent from intelligence, military, tech, and consulting — all united by one mission: to make enterprise-grade cybersecurity accessible to every business, not just the big players.\n\nAt Eye, you’ll work on projects with an international footprint, solve real-world challenges, and help build a safer digital future for our clients.\n\nWhat you can do with us\n\nIf you’re looking to apply your skills in a real-world setting — solving complex problems, protecting real businesses, and learning fast — Eye Security is a place to do just that. We help small and medium-sized businesses (SMBs) across Europe stay secure against cyberattacks, financial loss, and operational disruption. They are essential, and they deserve better protection.\n\nAt Eye, you will find opportunities across Engineering, Product, Design, Security Operations, Cyber Insurance, Customer Success, Sales Engineering, Marketing, Finance, Legal, and People & Talent. Whether you’re building, improving, supporting, or scaling, your work will have real impact from day one.\n\nNo matter which team you’re drawn to, you’ll be working alongside people tackling meaningful challenges with urgency, creativity, and a shared sense of purpose. You will gain hands-on experience, collaborate across disciplines, and contribute to something that matters.\n\nAre you up for it?\n\nWe look forward to receiving your application.",
+      "skill_requirements": [],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 5,
+      "job_key": "49da14a46b0c8770f5f3",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 59,
+      "raw_score": 80,
+      "score_cap": 59,
+      "score_cap_reasons": [
+        "Multiple explicitly mandatory skills are not evidenced"
+      ],
+      "score_label": "STRETCH",
+      "title": "IT Infrastructure and Security Engineer",
+      "company": "Zentso S GmbH",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin on-site role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "On-site"
+      },
+      "location_scope": "Berlin",
+      "working_model": "On-site",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer",
+          "vulnerability"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://www.arbeitnow.com/jobs/companies/zentso-s-gmbh/it-infrastructure-and-security-engineer-berlin-315887",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/zentso-s-gmbh/it-infrastructure-and-security-engineer-berlin-315887",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/zentso-s-gmbh/it-infrastructure-and-security-engineer-berlin-315887",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-09-14T18:10:03Z",
+      "posting_age_days": 0,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-09-15T10:17:59Z",
+      "experience_required": "2+ years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "python",
+          "sast",
+          "vulnerability management"
+        ],
+        "partial": [
+          "ci/cd",
+          "docker",
+          "incident response",
+          "javascript",
+          "nist"
+        ],
+        "missing": [
+          "gdpr",
+          "go",
+          "infrastructure as code",
+          "iso 27001",
+          "kubernetes",
+          "powershell",
+          "system administration",
+          "terraform"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "docker",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Familiarity with Docker, containerd, Helm, and kubectl."
+        },
+        {
+          "skill": "gdpr",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Working knowledge of GDPR and experience supporting compliance controls."
+        },
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Familiarity with ISO 27001 audit/certification processes."
+        },
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "2+ years of experience in IT infrastructure, cloud operations, systems administration, or DevOps."
+        },
+        {
+          "skill": "system administration",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "2+ years of experience in IT infrastructure, cloud operations, systems administration, or DevOps."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Python, Go, C#, JavaScript/TypeScript), with willingness to build small infrastructure-related applications and tools."
+        },
+        {
+          "skill": "infrastructure as code",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Support infrastructure-as-code adoption and automate routine operations using PowerShell, shell scripting, and other languages."
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "This is a hands-on, junior-to-mid-level role working closely with the IT Infrastructure and Security Lead and the CTO, assisting with day-to-day operations, security tasks, and the ongoing migration toward a containerised, Kubernetes-based deployment model."
+        },
+        {
+          "skill": "powershell",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Support infrastructure-as-code adoption and automate routine operations using PowerShell, shell scripting, and other languages."
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Exposure to Terraform, Pulumi, Ansible, CI/CD, or GitOps."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 11,
+        "experience": 15,
+        "location": 15,
+        "language": 10,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "Berlin on-site role.",
+        "Evidenced matches include python, sast, vulnerability management.",
+        "The detected experience requirement is within or close to the 2+ year profile."
+      ],
+      "warnings": [
+        "Mandatory gaps: docker, gdpr, iso 27001, nist, system administration",
+        "Potential gaps: go, infrastructure as code, kubernetes, powershell, terraform",
+        "Exposure only; do not claim deep expertise: ci/cd, docker, incident response, javascript, nist",
+        "Multiple explicitly mandatory skills are not evidenced"
+      ],
+      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
+      "description_excerpt": "Zentso builds and operates CloudToolz, a revenue-critical SaaS platform layered on top of iMIS RiSE association management software, serving clients across the UK, Europe, United States, and Asia Pacific. The platform encompasses workflow automation, form building, CRM, CMS, and payment processing capabilities delivered to organisations in multiple sectors. We are seeking a motivated IT Infrastructure and Security Engineer to support the global infrastructure and security posture underpinning CloudToolz and Zentso's internal systems. This is a hands-on, junior-to-mid-level role working closely with the IT Infrastructure and Security Lead and the CTO, assisting with day-to-day operations, security tasks, and the ongoing migration toward a containerised, Kubernetes-based deployment model. The successful candidate will be comfortable working across a distributed, multi-region environment, contributing directly to uptime, security, and compliance outcomes for a production platform. A key part of this role is supporting Zentso's transition to Kubernetes and helping build out an observability practice around Grafana OSS, alongside contributing scripts and small applications that automat…",
+      "full_description": "Zentso builds and operates CloudToolz, a revenue-critical SaaS platform layered on top of iMIS RiSE association management software, serving clients across the UK, Europe, United States, and Asia Pacific. The platform encompasses workflow automation, form building, CRM, CMS, and payment processing capabilities delivered to organisations in multiple sectors.\n\nWe are seeking a motivated IT Infrastructure and Security Engineer to support the global infrastructure and security posture underpinning CloudToolz and Zentso's internal systems. This is a hands-on, junior-to-mid-level role working closely with the IT Infrastructure and Security Lead and the CTO, assisting with day-to-day operations, security tasks, and the ongoing migration toward a containerised, Kubernetes-based deployment model. The successful candidate will be comfortable working across a distributed, multi-region environment, contributing directly to uptime, security, and compliance outcomes for a production platform.\n\nA key part of this role is supporting Zentso's transition to Kubernetes and helping build out an observability practice around Grafana OSS, alongside contributing scripts and small applications that automate and support infrastructure operations.\n\nTasks\n\nInfrastructure and Platform Operations\n\nHelp manage global infrastructure spanning Windows Server 2022, SQL Server, MongoDB, Redis, and Cloudflare across four regions, supporting the availability, performance, and scalability of the revenue-critical CloudToolz platform.\n\nSupport deployments of new CloudToolz releases (ASP.NET Core, integrating with Dynamics, iMIS, Salesforce, and native CRM/CMS) and contribute to the Kubernetes migration, including cluster operations such as deployments, scaling, network policies, and RBAC.\n\nHelp build and maintain a Grafana OSS observability stack — dashboards, alerting, and integration with metrics, logs, and traces.Assist with DNS, CDN, WAF, and DDoS protection via Cloudflare; monitor system performance and participate in incident response and recovery.\n\nMaintain documentation, runbooks, and disaster recovery procedures.\n\nWrite shell scripts and small infrastructure-related applications (automation tools, monitoring utilities, internal dashboards) in coordination with the Infrastructure Lead.\n\nSecurity Operations\n\nSupport identity and access management, endpoint protection, and vulnerability management.\n\nHelp administer policies across Microsoft 365, Bitwarden, Bitdefender GravityZone, and KnowBe4.\n\nContribute to GDPR/ISO 27001-aligned data protection policies, security awareness training, phishing simulations, and threat monitoring/response.\n\nIT Systems Administration\n\nSupport Microsoft 365 administration (Exchange Online, SharePoint, Teams, Entra ID) and Salesforce administration within scope.\n\nShare responsibility for endpoint security and password management configuration.\n\nStrategy and Continuous Improvement\n\nProvide input on infrastructure scaling, architecture decisions, and the containerisation roadmap.\n\nSupport infrastructure-as-code adoption and automate routine operations using PowerShell, shell scripting, and other languages.\n\nContribute to sprint planning for environment-level requirements and participate in on-call rotation.\n\nRequirements\n\nEssential\n\n2+ years of experience in IT infrastructure, cloud operations, systems administration, or DevOps.\n\nHands-on experience with Windows Server 2022, SQL Server, MongoDB, and Redis in operational contexts.Practical Cloudflare experience (DNS, WAF, CDN, security features).\n\nWorking proficiency in Microsoft 365 administration, including Entra ID, Exchange Online, and SharePoint.\n\nHands-on Kubernetes experience: workload deployment, basic cluster operations, networking (ingress, network policies), and RBAC.\n\nSolid understanding of networking fundamentals (firewalls, VPNs, DNS, access control).\n\nWorking knowledge of GDPR and experience supporting compliance controls.\n\nAbility to write shell scripts and program in at least one modern language (e.g. Python, Go, C#, JavaScript/TypeScript), with willingness to build small infrastructure-related applications and tools.\n\nStrong communication skills and ability to work independently within a distributed, multi-time-zone team.\n\nPreferred\n\nExperience with Grafana OSS, Prometheus, and Loki.\n\nFamiliarity with Docker, containerd, Helm, and kubectl.\n\nCertifications such as MCSA, CompTIA Security+, CKA, or equivalent.\n\nFamiliarity with ISO 27001 audit/certification processes.\n\nPowerShell scripting for automation and reporting.\n\nExposure to Terraform, Pulumi, Ansible, CI/CD, or GitOps.\n\nSalesforce administration experience.\n\nBenefits\n\nThis is a full-time, permanent position based in Berlin, Germany, offered on a remote-first basis. The CloudToolz platform operates continuously across multiple regions; the role includes on-call and out-of-hours escalation responsibilities.\n\nSalary range: €55,000 – €75,000 per year\n\nPerformance bonus: Discretionary, based on individual and company performance\n\nPension: Employer contribution in line with local requirements\n\nFlexible working: Remote-first; flexible hours with availability for global coordination\n\nProbation: 6 months\n\nCompensation is commensurate with demonstrable experience and the scope of the role. The range reflects a small-business context while remaining competitive for the Berlin IT market for this level of responsibility.\n\nAbout Zentso\n\nZentso is a software company specialising in association management technology. We build and maintain the CloudToolz platform, which extends iMIS RiSE with advanced workflow automation, forms, analytics, CRM, CMS, and payment processing capabilities. Our clients include national professional associations, peak bodies, and member-based organisations across Australia, the UK, and the Asia Pacific region.\n\nWe operate as a small, distributed team with a strong emphasis on technical ownership, direct communication, and pragmatic decision-making. The right person for this role will be someone who takes genuine satisfaction in keeping complex systems running reliably and securely, and who can operate with a high degree of autonomy.\n\nNote: Please include a cover letter with your CV explaining why you believe your qualifications and experience make you a strong fit for this position.\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "docker",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Familiarity with Docker, containerd, Helm, and kubectl."
+        },
+        {
+          "skill": "gdpr",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Working knowledge of GDPR and experience supporting compliance controls."
+        },
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Familiarity with ISO 27001 audit/certification processes."
+        },
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "2+ years of experience in IT infrastructure, cloud operations, systems administration, or DevOps."
+        },
+        {
+          "skill": "system administration",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "2+ years of experience in IT infrastructure, cloud operations, systems administration, or DevOps."
+        },
+        {
+          "skill": "ci/cd",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Exposure to Terraform, Pulumi, Ansible, CI/CD, or GitOps."
+        },
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Python, Go, C#, JavaScript/TypeScript), with willingness to build small infrastructure-related applications and tools."
+        },
+        {
+          "skill": "incident response",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "monitor system performance and participate in incident response and recovery."
+        },
+        {
+          "skill": "infrastructure as code",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Support infrastructure-as-code adoption and automate routine operations using PowerShell, shell scripting, and other languages."
+        },
+        {
+          "skill": "javascript",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Python, Go, C#, JavaScript/TypeScript), with willingness to build small infrastructure-related applications and tools."
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "This is a hands-on, junior-to-mid-level role working closely with the IT Infrastructure and Security Lead and the CTO, assisting with day-to-day operations, security tasks, and the ongoing migration toward a containerised, Kubernetes-based deployment model."
+        },
+        {
+          "skill": "powershell",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Support infrastructure-as-code adoption and automate routine operations using PowerShell, shell scripting, and other languages."
+        },
+        {
+          "skill": "python",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Python, Go, C#, JavaScript/TypeScript), with willingness to build small infrastructure-related applications and tools."
+        },
+        {
+          "skill": "sast",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Maintain documentation, runbooks, and disaster recovery procedures."
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Exposure to Terraform, Pulumi, Ansible, CI/CD, or GitOps."
+        },
+        {
+          "skill": "vulnerability management",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Support identity and access management, endpoint protection, and vulnerability management."
+        }
+      ],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": {
+        "min_years": 2,
+        "max_years": null,
+        "optional": false,
+        "display": "2+ years",
+        "evidence": "2+ years of experience in IT infrastructure, cloud operations, systems administration, or DevOps."
+      }
+    },
+    {
+      "report_number": 6,
       "job_key": "6e733992a361e341e6e6",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1180,7 +1552,7 @@
       }
     },
     {
-      "report_number": 5,
+      "report_number": 7,
       "job_key": "57712ed3d56671484e37",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1324,7 +1696,7 @@
       }
     },
     {
-      "report_number": 6,
+      "report_number": 8,
       "job_key": "b3982c1bc58ed8fd21e9",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1376,10 +1748,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-04-07T12:15:06Z",
-      "posting_age_days": 159,
+      "posting_age_days": 160,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 159,
+        "age_days": 160,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -1445,7 +1817,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 7,
+      "report_number": 9,
       "job_key": "b4e054c9836fe97015ac",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1497,10 +1869,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-07-30T08:47:46Z",
-      "posting_age_days": 46,
+      "posting_age_days": 47,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 46,
+        "age_days": 47,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -1579,7 +1951,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 8,
+      "report_number": 10,
       "job_key": "cc78a757c373716678d7",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1827,403 +2199,6 @@
         "evidence": "German"
       },
       "experience_analysis": null
-    },
-    {
-      "report_number": 9,
-      "job_key": "9ba7cf301be480a6ff9f",
-      "status": "SEEN_BEFORE",
-      "application_status": "NEW",
-      "score": 69,
-      "raw_score": 72,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "Senior title is above the profile's current 2+ years",
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "score_label": "REVIEW",
-      "title": "Senior Security Engineer (F/M/D)",
-      "company": "NavVis",
-      "location": "Munich Hybrid (NavVis GmbH), Germany",
-      "location_analysis": {
-        "category": "eligible_germany_remote",
-        "eligible": true,
-        "score": 15,
-        "reason": "Remote work from Germany is explicitly available",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Germany remote",
-        "work_model": "Remote"
-      },
-      "location_scope": "Germany remote",
-      "working_model": "Remote",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "security engineer",
-          "security controls",
-          "vulnerability"
-        ]
-      },
-      "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
-      },
-      "url": "https://job-boards.eu.greenhouse.io/navvis/jobs/4714167101",
-      "apply_url": "https://job-boards.eu.greenhouse.io/navvis/jobs/4714167101",
-      "canonical_url": "https://job-boards.eu.greenhouse.io/navvis/jobs/4714167101",
-      "source": "Greenhouse",
-      "sources": [
-        "Greenhouse"
-      ],
-      "ats": "greenhouse",
-      "priority_employer": true,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-09-11T10:13:09Z",
-      "posting_age_days": 3,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 3,
-        "category": "recent",
-        "label": "RECENT"
-      },
-      "urgency": "RECENT",
-      "first_seen": "2026-08-15T04:18:44Z",
-      "experience_required": null,
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "sast",
-          "stakeholder communication"
-        ],
-        "partial": [
-          "incident response",
-          "network security"
-        ],
-        "missing": [
-          "go",
-          "iso 27001"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "You can expect to go through a screening call, and/or up to 4 rounds of interviews, where we would love to discover your passion and interests, introduce you to who we are and what drives us, and finally understand how we can potentially add value to each othe"
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "You have strong, hands-on experience across security operations, incident response, and forensic analysis in SaaS and hybrid IT environments."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Run ISO 27001 & SOC 2 audits and coordinate via Vanta."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 14,
-        "experience": 10,
-        "location": 15,
-        "language": 10,
-        "seniority": 4,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Security Engineering.",
-        "Remote work from Germany is explicitly available.",
-        "Evidenced matches include sast, stakeholder communication."
-      ],
-      "warnings": [
-        "Mandatory gaps: go, incident response",
-        "Potential gaps: iso 27001",
-        "Exposure only; do not claim deep expertise: incident response, network security",
-        "Senior title is above the profile's current 2+ years",
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "THE OPPORTUNITY Join our Global IT Infrastructure team and take ownership of security operations that protect NavVis worldwide. You’ll lead detection and incident response across corporate IT and SaaS environments, working hand-in-hand with Service Delivery, Cloud Infrastructure Engineering, and our Cloud Infrastructure Engineer. This is an hands-on role where you’ll make real impact—investigating threats, driving improvements, and shaping security processes. No ticket forwarding, no passive coordination—just meaningful responsibility and the chance to build a security posture you can be proud of. If you thrive on solving complex problems, love staying ahead of emerging threats, and want to safeguard technology that powers the future of spatial intelligence, we want to hear from you! HOW YOU WILL MAKE AN IMPACT Lead security incident response and drive continuous improvements. Own Microsoft Defender, email security, and phishing protection. Strengthen network security with IT Ops: firewalls, VPNs, segmentation. Manage vulnerability scanning, remediation, and risk reporting. Govern access reviews and enforce least privileges. Run ISO 27001 & SOC 2 audits and coordinate via Vanta. S…",
-      "full_description": "THE OPPORTUNITY\n\nJoin our Global IT Infrastructure team and take ownership of security operations that protect NavVis worldwide. You’ll lead detection and incident response across corporate IT and SaaS environments, working hand-in-hand with Service Delivery, Cloud Infrastructure Engineering, and our Cloud Infrastructure Engineer. \n\nThis is an hands-on role where you’ll make real impact—investigating threats, driving improvements, and shaping security processes. No ticket forwarding, no passive coordination—just meaningful responsibility and the chance to build a security posture you can be proud of. \n\nIf you thrive on solving complex problems, love staying ahead of emerging threats, and want to safeguard technology that powers the future of spatial intelligence, we want to hear from you! \n\nHOW YOU WILL MAKE AN IMPACT\n\nLead security incident response and drive continuous improvements. \n\nOwn Microsoft Defender, email security, and phishing protection. \n\nStrengthen network security with IT Ops: firewalls, VPNs, segmentation. \n\nManage vulnerability scanning, remediation, and risk reporting. \n\nGovern access reviews and enforce least privileges. \n\nRun ISO 27001 & SOC 2 audits and coordinate via Vanta. \n\nSupport business continuity and disaster recovery planning. \n\nAssess vendor security and monitor SaaS risk. \n\nResearch emerging threats and refine security playbooks. \n\nWHAT WILL HELP YOU SUCCEED IN THE ROLE\n\nYou have strong, hands-on experience across security operations, incident response, and forensic analysis in SaaS and hybrid IT environments. \n\nYou bring deep practical knowledge of Microsoft Defender, Entra ID, email security, identity-related incidents, and endpoint protection. \n\nYou are comfortable managing security topics from start to finish with minimal oversight. \n\nYou are a strong communicator who can break down complex security topics in simple actionable terms to both technical and non-technical stakeholders. \n\nYou are experienced working with infrastructure teams to operate network and vulnerability security controls. \n\nYou demonstrate a proven ability to drive ISO 27001 OR SOC 2 audits end-to-end. \n\nYou bring pragmatic approaches to improving processes with a bias towards automation over manual work. \n\nHOW WE WILL KNOW WE ARE A PERFECT MATCH\n\nYour recruiting partner for this role is Sylvie (she/her). You can expect to go through a screening call, and/or up to 4 rounds of interviews, where we would love to discover your passion and interests, introduce you to who we are and what drives us, and finally understand how we can potentially add value to each other's growth.\n\nHOW WE WILL KEEP YOU SMILING\n\nIt's important to take a break from work! We offer 30 days of paid time off per year\n\nAffordable access to a vast network of fitness and wellness facilities through EGYM Wellpass subsidy\n\nDeutschlandticket subsidy to support sustainable travel using public transport\n\nWe offer flexible working hours and a hybrid work setup, enabling you to plan your work around your life, and not your life around work!\n\nWe offer full visa and relocation support for international candidates\n\nAn attractive bike leasing model through JobRad, in line with our commitment towards sustainable mobility\n\nA competitive compensation package that values the skills and experience you bring\n\nUp to 4000 EUR employee referral bonus \n\nFinancial support for local language classes to help you in your journey of integrating into the culture!\n\nWe derive our strength from our diversity.\n\nNavVis’ unwavering commitment to fostering an inclusive and diverse workplace has laid the foundation for our incredible growth. We thrive on the collective strength of our people who come from diverse backgrounds. We respect and value every experience associated with race, gender identity, sexual orientation, nationality, religion and disability. We do not discriminate on the basis of any of these, or other identities, and strongly encourage everyone to apply.\n\nTogether with you, we build NavVis!\n\nIf you need assistance at any stage of the recruiting process due to a disability, please reach out to your recruiting partner(s) for this position.",
-      "skill_requirements": [
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "You can expect to go through a screening call, and/or up to 4 rounds of interviews, where we would love to discover your passion and interests, introduce you to who we are and what drives us, and finally understand how we can potentially add value to each othe"
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "You have strong, hands-on experience across security operations, incident response, and forensic analysis in SaaS and hybrid IT environments."
-        },
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Run ISO 27001 & SOC 2 audits and coordinate via Vanta."
-        },
-        {
-          "skill": "network security",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Strengthen network security with IT Ops: firewalls, VPNs, segmentation."
-        },
-        {
-          "skill": "sast",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Support business continuity and disaster recovery planning."
-        },
-        {
-          "skill": "stakeholder communication",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "You are a strong communicator who can break down complex security topics in simple actionable terms to both technical and non-technical stakeholders."
-        }
-      ],
-      "german_analysis": {
-        "category": "none",
-        "level": "none",
-        "mandatory": false,
-        "label": "No German requirement detected",
-        "evidence": ""
-      },
-      "experience_analysis": null
-    },
-    {
-      "report_number": 10,
-      "job_key": "57609de858cd85e028d6",
-      "status": "SEEN_BEFORE",
-      "application_status": "NEW",
-      "score": 69,
-      "raw_score": 74,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "score_label": "REVIEW",
-      "title": "Security Engineer (SOC) (m,f,x)",
-      "company": "HelloFresh",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin hybrid role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "Hybrid"
-      },
-      "location_scope": "Berlin",
-      "working_model": "Hybrid",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "security engineer",
-          "security controls"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://careers.hellofresh.com/global/en/job/8146740?gh_jid=8146740",
-      "apply_url": "https://careers.hellofresh.com/global/en/job/8146740?gh_jid=8146740",
-      "canonical_url": "https://careers.hellofresh.com/global/en/job/8146740?gh_jid=8146740",
-      "source": "Greenhouse",
-      "sources": [
-        "Greenhouse"
-      ],
-      "ats": "greenhouse",
-      "priority_employer": true,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-09-08T13:42:17Z",
-      "posting_age_days": 5,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 5,
-        "category": "recent",
-        "label": "RECENT"
-      },
-      "urgency": "RECENT",
-      "first_seen": "2026-08-26T05:59:57Z",
-      "experience_required": "2+ years",
-      "german_requirement": "German requested; level/strictness unclear",
-      "skill_matches": {
-        "match": [
-          "security automation"
-        ],
-        "partial": [
-          "aws",
-          "incident response",
-          "siem",
-          "splunk"
-        ],
-        "missing": [
-          "edr",
-          "infrastructure as code",
-          "rust"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Security monitoring and incident response experience in public cloud environments such as AWS"
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Security monitoring and incident response experience in public cloud environments such as AWS"
-        },
-        {
-          "skill": "siem",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with cloud SIEM & SOAR platforms, DDoS mitigation and preventing tools and Layer-7 Web-based perimeter security controls"
-        },
-        {
-          "skill": "splunk",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with log analysis stacks like ElasticSearch, Splunk/SumoLogic"
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "edr",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Automate, optimize, automate and operate modern security solutions like EDR/EPPs and conventional Firewalls, IDS/IPS, Email Security, VPN, and MDM tools"
-        },
-        {
-          "skill": "infrastructure as code",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Decent programming skills to enable data processing, IaC and security automations"
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 11,
-        "experience": 15,
-        "location": 15,
-        "language": 4,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Security Engineering.",
-        "Berlin hybrid role.",
-        "Evidenced matches include security automation.",
-        "The detected experience requirement is within or close to the 2+ year profile."
-      ],
-      "warnings": [
-        "German requested; level/strictness unclear",
-        "Mandatory gaps: aws, incident response, siem, splunk",
-        "Potential gaps: edr, infrastructure as code, rust",
-        "Exposure only; do not claim deep expertise: aws, incident response, siem, splunk",
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "The role We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges. Security Engineers work in a variety of ways to constantly iterate and improve HelloFresh’s security posture. This role aims to improve the HelloFresh Security Logging & Monitoring Program by maturing the tools, processes and playbooks to reduce dwell time (indicators of which would be lowered MTTD&R). Above all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you. What you’ll do Responsible for SOC monitoring, use-case building, triage and advisory using cloud-native SIEM platforms Conduct initial triage of security events and incidents and document progress throughout the Incident Response Lifecycle Automate, optimize, automate and operate modern security solutions like EDR/EPPs and conventional Firewalls, IDS/IPS, Email Security, VPN, and MDM tools Leverage premium and open-source th…",
-      "full_description": "The role\n\nWe’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges. Security Engineers work in a variety of ways to constantly iterate and improve HelloFresh’s security posture. \n\nThis role aims to improve the HelloFresh Security Logging & Monitoring Program by maturing the tools, processes and playbooks to reduce dwell time (indicators of which would be lowered MTTD&R).\n\nAbove all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you.\n\nWhat you’ll do\n\nResponsible for SOC monitoring, use-case building, triage and advisory using cloud-native SIEM platforms\n\nConduct initial triage of security events and incidents and document progress throughout the Incident Response Lifecycle\n\nAutomate, optimize, automate and operate modern security solutions like EDR/EPPs and conventional Firewalls, IDS/IPS, Email Security, VPN, and MDM tools\n\nLeverage premium and open-source threat intel feeds to regularly sweep environments against rising APT campaigns\n\nPrepare status reports and follow up with the stakeholders through Jira and Incident Mgmt. Platform to close the remediation loop \n\nFacilitate efficient Incident Detection and Response in AWS cloud and enterprise IT environments\n\nWhat you’ll bring\n\nA minimum of 2 years of experience working in mature SOC environments\n\nSecurity monitoring and incident response experience in public cloud environments such as AWS\n\nExperience with cloud SIEM & SOAR platforms, DDoS mitigation and preventing tools and Layer-7 Web-based perimeter security controls\n\nUnderstanding of network intrusion methods, network containment, segregation techniques and technologies such as Sandboxes and Intrusion Detection/Prevention Systems (ID/PS)\n\nAbility to operate EDR, EPP and Device Management solutions as per best security practices\n\nDecent programming skills to enable data processing, IaC and security automations\n\nGood communication and reporting skills\n\nExperience with log analysis stacks like ElasticSearch, Splunk/SumoLogic\n\nOpen to working on-call in rotational shifts\n\nWhat we offer\n\nElevate your lifestyle! Join one of Europe's fastest-growing tech powerhouses in a dynamic phase of expansion.\n\nImmerse yourself in a diverse global community of 90+ nationalities.\n\nEnjoy a competitive compensation package that goes beyond the norm, with perks like a HelloFresh- subsidized Pension Scheme and a Hybrid working model.\n\nElevate your lifestyle with exclusive discounts on your weekly HelloFresh box and office meals.\n\nInvest in your growth with a German language learning budget, and access to the HelloFresh Academy.\n\nPlus, we've got your well-being covered with mental health support, transportation perks, and working-parent-friendly benefits. From our 24/7 gym access,wellbeing platforms like Headspace and Spill, to sabbatical leave options, HelloFresh is not just a workplace; it's a lifestyle of perks and possibilities!",
-      "skill_requirements": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Security monitoring and incident response experience in public cloud environments such as AWS"
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Security monitoring and incident response experience in public cloud environments such as AWS"
-        },
-        {
-          "skill": "siem",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with cloud SIEM & SOAR platforms, DDoS mitigation and preventing tools and Layer-7 Web-based perimeter security controls"
-        },
-        {
-          "skill": "splunk",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with log analysis stacks like ElasticSearch, Splunk/SumoLogic"
-        },
-        {
-          "skill": "edr",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Automate, optimize, automate and operate modern security solutions like EDR/EPPs and conventional Firewalls, IDS/IPS, Email Security, VPN, and MDM tools"
-        },
-        {
-          "skill": "infrastructure as code",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Decent programming skills to enable data processing, IaC and security automations"
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges."
-        },
-        {
-          "skill": "security automation",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Decent programming skills to enable data processing, IaC and security automations"
-        }
-      ],
-      "german_analysis": {
-        "category": "unspecified",
-        "level": "unspecified",
-        "mandatory": false,
-        "label": "German requested; level/strictness unclear",
-        "evidence": "Invest in your growth with a German language learning budget, and access to the HelloFresh Academy."
-      },
-      "experience_analysis": {
-        "min_years": 2,
-        "max_years": null,
-        "optional": false,
-        "display": "2+ years",
-        "evidence": "A minimum of 2 years of experience working in mature SOC environments"
-      }
     }
   ],
   "analysis_request": {
