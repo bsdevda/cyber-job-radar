@@ -4197,6 +4197,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-09-16T10:11:22Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 8996,
+      "security_title_candidates": 291,
+      "prefiltered_non_security_jobs": 8705,
+      "unique_jobs_after_deduplication": 232,
+      "duplicates_removed": 59,
+      "jobs_rejected_or_below_threshold": 8919,
+      "relevant_jobs_in_current_run": 18,
+      "new_jobs": 1,
+      "updated_jobs": 1,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 38,
+      "jobs_by_source": {
+        "arbeitnow": 1100,
+        "remotive": 15,
+        "linkedin_posts": 0,
+        "greenhouse": 6440,
+        "ashby": 235,
+        "lever": 1027,
+        "personio": 176,
+        "recruitee": 3
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 26.0,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1100,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 15,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 6440,
+          "requests": 69,
+          "errors": [],
+          "error": "",
+          "companies_checked": 69,
+          "companies_successful": 69,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 235,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1027,
+          "requests": 4,
+          "errors": [],
+          "error": "",
+          "companies_checked": 4,
+          "companies_successful": 4,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 176,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 3,
+          "requests": 1,
+          "errors": [],
+          "error": "",
+          "companies_checked": 1,
+          "companies_successful": 1,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -10246,6 +10359,183 @@
       "company": "Eye Security",
       "title": "Future opportunities - Women4Cyber",
       "score": 63
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "ca9ca2de50791397491c",
+      "event": "NEW",
+      "company": "Alan",
+      "title": "Security Engineer - GRC",
+      "score": 69
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "521c71dc83dfa3787db3",
+      "event": "UPDATED",
+      "company": "Staffbase",
+      "title": "Senior Product Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "975c260f4cccb6d07cbe",
+      "event": "REMOVED",
+      "company": "Mandl. Executives & Experts",
+      "title": "IT Security Experte (m/w/d) Incident Response & DLP"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "dc19daa2558845a82810",
+      "event": "REMOVED",
+      "company": "Staffbase",
+      "title": "Senior Product Security Engineer"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "934940412eaa4bfbcd32",
+      "event": "REMOVED",
+      "company": "Staffbase",
+      "title": "Senior Product Security Engineer"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "c520bb5f58b4a830e3b9",
+      "event": "REMOVED",
+      "company": "The Quality Group",
+      "title": "AI Security Engineer (gn)"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "ef7715b34e46f3bd18ea",
+      "event": "REMOVED",
+      "company": "Trusteq Gmbh",
+      "title": "Cybersecurity (Senior) Software Engineer (m/w/d)"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "e00fb79de9c6d9f155d3",
+      "event": "REMOVED",
+      "company": "Trusteq Gmbh",
+      "title": "Cybersecurity (Senior) Consultant (m/w/d)"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "fa71674280dee44411e9",
+      "event": "REMOVED",
+      "company": "Trusteq Gmbh",
+      "title": "AI Security (Senior) Consultant (m/w/d)"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "b3982c1bc58ed8fd21e9",
+      "event": "REMOVED",
+      "company": "Eye Security",
+      "title": "SOC Analyst - Hybrid in The Hague or Berlin (f/m/x)"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "b4e054c9836fe97015ac",
+      "event": "REMOVED",
+      "company": "Eye Security",
+      "title": "Junior Cyber Security Consultant (m/f/x)"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "898b6eec2ebabae47e66",
+      "event": "REMOVED",
+      "company": "Scalian Germany AG",
+      "title": "(Senior) Consultant Operation Technology Security (m/w/d)*"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "fe4a70153aff2653d721",
+      "event": "REMOVED",
+      "company": "Scalian Germany AG",
+      "title": "(Senior) Consultant Operation Technology Security (m/w/d)*"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "dd09482ff1a947de8088",
+      "event": "REMOVED",
+      "company": "Scalian Germany AG",
+      "title": "Consultant Cyber Security (m/w/d)*"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "15bcabcb5dcd0e4ca87e",
+      "event": "REMOVED",
+      "company": "Scalian Germany AG",
+      "title": "Consultant Cyber Security (m/w/d)*"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "7cb3f4442fb57fd88c6e",
+      "event": "REMOVED",
+      "company": "Scalian Germany AG",
+      "title": "Consultant Cyber Security (m/w/d)*"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "541d7086ddafaee1924e",
+      "event": "REMOVED",
+      "company": "Scalian Germany AG",
+      "title": "Consultant Cyber Security (m/w/d)*"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "ad2f00e0754b1e10b2fe",
+      "event": "REMOVED",
+      "company": "Scalian Germany AG",
+      "title": "Consultant Cyber Security Automotive (m/w/d)*"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "503754d75fa46453f7ca",
+      "event": "REMOVED",
+      "company": "Scalian Germany AG",
+      "title": "Consultant Cyber Security Automotive (m/w/d)*"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "7c122b634a925ef200eb",
+      "event": "REMOVED",
+      "company": "Scalian Germany AG",
+      "title": "Consultant Operation Technology Security (m/w/d)*"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "481723db940c16e3e090",
+      "event": "REMOVED",
+      "company": "Scalian Germany AG",
+      "title": "IT-Cyber-Consultant - IT-Security & Hardening (m/w/d)*"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "a7a2f1793d635dee0100",
+      "event": "REMOVED",
+      "company": "Scalian Germany AG",
+      "title": "IT-Security Engineer (m/w/d)*"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "632d0eb8039acbe3219d",
+      "event": "REMOVED",
+      "company": "Scalian Germany AG",
+      "title": "Netzwerksicherheit, Cisco, Bash - Cyber Security Engineer (m/w/d)*"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "caa8048f7ed150c94624",
+      "event": "REMOVED",
+      "company": "Scalian Germany AG",
+      "title": "Netzwerksicherheit, Cisco, Bash - Cyber Security Engineer (m/w/d)*"
+    },
+    {
+      "at": "2026-09-16T10:11:22Z",
+      "job_key": "c74430d680695f4e8af4",
+      "event": "REMOVED",
+      "company": "Perseus Technologies",
+      "title": "Account- und Partnermanager (m/w/d) – Cybersecurity & Insurance Ecosystem"
     }
   ]
 }
