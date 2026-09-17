@@ -4310,6 +4310,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-09-17T10:16:32Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 7284,
+      "security_title_candidates": 323,
+      "prefiltered_non_security_jobs": 6961,
+      "unique_jobs_after_deduplication": 234,
+      "duplicates_removed": 89,
+      "jobs_rejected_or_below_threshold": 7176,
+      "relevant_jobs_in_current_run": 19,
+      "new_jobs": 0,
+      "updated_jobs": 0,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 38,
+      "jobs_by_source": {
+        "arbeitnow": 1100,
+        "remotive": 13,
+        "linkedin_posts": 0,
+        "greenhouse": 5553,
+        "ashby": 259,
+        "lever": 152,
+        "personio": 204,
+        "recruitee": 3
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 27.2,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1100,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 13,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 5553,
+          "requests": 56,
+          "errors": [],
+          "error": "",
+          "companies_checked": 56,
+          "companies_successful": 56,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 259,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 152,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 204,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 3,
+          "requests": 1,
+          "errors": [],
+          "error": "",
+          "companies_checked": 1,
+          "companies_successful": 1,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -10536,6 +10649,13 @@
       "event": "REMOVED",
       "company": "Perseus Technologies",
       "title": "Account- und Partnermanager (m/w/d) – Cybersecurity & Insurance Ecosystem"
+    },
+    {
+      "at": "2026-09-17T10:16:32Z",
+      "job_key": "5afeef04575b90f06129",
+      "event": "REMOVED",
+      "company": "Escape",
+      "title": "Security Advocate | AI AppSec"
     }
   ]
 }
