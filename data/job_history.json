@@ -4423,6 +4423,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-09-18T09:58:20Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 7545,
+      "security_title_candidates": 206,
+      "prefiltered_non_security_jobs": 7339,
+      "unique_jobs_after_deduplication": 159,
+      "duplicates_removed": 47,
+      "jobs_rejected_or_below_threshold": 7481,
+      "relevant_jobs_in_current_run": 17,
+      "new_jobs": 0,
+      "updated_jobs": 0,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 36,
+      "jobs_by_source": {
+        "arbeitnow": 1100,
+        "remotive": 15,
+        "linkedin_posts": 0,
+        "greenhouse": 5980,
+        "ashby": 213,
+        "lever": 68,
+        "personio": 169,
+        "recruitee": 0
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 25.3,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1100,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 15,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 5980,
+          "requests": 60,
+          "errors": [],
+          "error": "",
+          "companies_checked": 60,
+          "companies_successful": 60,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 213,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 68,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 169,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "idle",
+          "ok": true,
+          "jobs": 0,
+          "requests": 0,
+          "errors": [],
+          "error": "",
+          "companies_checked": 0,
+          "companies_successful": 0,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -10656,6 +10769,34 @@
       "event": "REMOVED",
       "company": "Escape",
       "title": "Security Advocate | AI AppSec"
+    },
+    {
+      "at": "2026-09-18T09:58:20Z",
+      "job_key": "56eecec8066af79a0fb0",
+      "event": "REMOVED",
+      "company": "MOIA",
+      "title": "Senior Vehicle Security Engineer (all genders)"
+    },
+    {
+      "at": "2026-09-18T09:58:20Z",
+      "job_key": "4b12159b141a28bc94e7",
+      "event": "REMOVED",
+      "company": "KNIME GmbH",
+      "title": "Application Security Engineer (m/f/d) in Konstanz or Berlin"
+    },
+    {
+      "at": "2026-09-18T09:58:20Z",
+      "job_key": "7c3f2329b14b8ef79fa2",
+      "event": "REMOVED",
+      "company": "Samsara",
+      "title": "Sr. Security Engineer - Enterprise Security"
+    },
+    {
+      "at": "2026-09-18T09:58:20Z",
+      "job_key": "cb6967b2bf650cf96879",
+      "event": "REMOVED",
+      "company": "Baringa",
+      "title": "Senior Cyber Security Engineer"
     }
   ]
 }

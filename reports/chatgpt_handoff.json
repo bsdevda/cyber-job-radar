@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T10:16:32Z",
+  "generated_at": "2026-09-18T09:58:20Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,36 +171,36 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-09-17T10:16:32Z",
+    "generated_at": "2026-09-18T09:58:20Z",
     "scoring_version": 2.2,
-    "jobs_collected": 7284,
-    "security_title_candidates": 323,
-    "prefiltered_non_security_jobs": 6961,
-    "unique_jobs_after_deduplication": 234,
-    "duplicates_removed": 89,
-    "jobs_rejected_or_below_threshold": 7176,
-    "relevant_jobs_in_current_run": 19,
+    "jobs_collected": 7545,
+    "security_title_candidates": 206,
+    "prefiltered_non_security_jobs": 7339,
+    "unique_jobs_after_deduplication": 159,
+    "duplicates_removed": 47,
+    "jobs_rejected_or_below_threshold": 7481,
+    "relevant_jobs_in_current_run": 17,
     "new_jobs": 0,
     "updated_jobs": 0,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
     "sources_partial": 0,
-    "report_jobs": 38,
+    "report_jobs": 36,
     "jobs_by_source": {
       "arbeitnow": 1100,
-      "remotive": 13,
+      "remotive": 15,
       "linkedin_posts": 0,
-      "greenhouse": 5553,
-      "ashby": 259,
-      "lever": 152,
-      "personio": 204,
-      "recruitee": 3
+      "greenhouse": 5980,
+      "ashby": 213,
+      "lever": 68,
+      "personio": 169,
+      "recruitee": 0
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 27.2
+    "workflow_duration_seconds": 25.3
   },
   "source_status": {
     "arbeitnow": {
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 13,
+      "jobs": 15,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -230,18 +230,18 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 5553,
-      "requests": 56,
+      "jobs": 5980,
+      "requests": 60,
       "errors": [],
       "error": "",
-      "companies_checked": 56,
-      "companies_successful": 56,
+      "companies_checked": 60,
+      "companies_successful": 60,
       "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 259,
+      "jobs": 213,
       "requests": 9,
       "errors": [],
       "error": "",
@@ -252,7 +252,18 @@
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 152,
+      "jobs": 68,
+      "requests": 2,
+      "errors": [],
+      "error": "",
+      "companies_checked": 2,
+      "companies_successful": 2,
+      "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 169,
       "requests": 3,
       "errors": [],
       "error": "",
@@ -260,26 +271,15 @@
       "companies_successful": 3,
       "companies_failed": 0
     },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 204,
-      "requests": 6,
-      "errors": [],
-      "error": "",
-      "companies_checked": 6,
-      "companies_successful": 6,
-      "companies_failed": 0
-    },
     "recruitee": {
-      "status": "ok",
+      "status": "idle",
       "ok": true,
-      "jobs": 3,
-      "requests": 1,
+      "jobs": 0,
+      "requests": 0,
       "errors": [],
       "error": "",
-      "companies_checked": 1,
-      "companies_successful": 1,
+      "companies_checked": 0,
+      "companies_successful": 0,
       "companies_failed": 0
     }
   },
@@ -1645,15 +1645,15 @@
       "lead_type": "",
       "post_author": "",
       "feed_name": "",
-      "published_at": "2026-09-11T15:38:01Z",
-      "posting_age_days": 5,
+      "published_at": "2026-09-18T09:56:41Z",
+      "posting_age_days": 0,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 5,
-        "category": "recent",
-        "label": "RECENT"
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
       },
-      "urgency": "RECENT",
+      "urgency": "NEW - APPLY QUICKLY",
       "first_seen": "2026-08-15T04:18:44Z",
       "experience_required": null,
       "german_requirement": "German is preferred/nice-to-have",
@@ -1850,51 +1850,50 @@
     },
     {
       "report_number": 8,
-      "job_key": "9ba7cf301be480a6ff9f",
+      "job_key": "c1ab5b22feaa0afc7ed6",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
       "score": 69,
-      "raw_score": 72,
+      "raw_score": 83,
       "score_cap": 69,
       "score_cap_reasons": [
-        "Senior title is above the profile's current 2+ years",
-        "One explicitly mandatory skill is not evidenced"
+        "At least one explicitly mandatory skill has exposure only"
       ],
       "score_label": "REVIEW",
-      "title": "Senior Security Engineer (F/M/D)",
-      "company": "NavVis",
-      "location": "Munich Hybrid (NavVis GmbH), Germany",
+      "title": "Product Security Engineer",
+      "company": "Vercel",
+      "location": "Berlin, Germany",
       "location_analysis": {
-        "category": "eligible_germany_remote",
+        "category": "eligible_berlin",
         "eligible": true,
         "score": 15,
-        "reason": "Remote work from Germany is explicitly available",
+        "reason": "Berlin hybrid role",
         "verification_required": false,
         "score_cap": null,
-        "scope": "Germany remote",
-        "work_model": "Remote"
+        "scope": "Berlin",
+        "work_model": "Hybrid"
       },
-      "location_scope": "Germany remote",
-      "working_model": "Remote",
+      "location_scope": "Berlin",
+      "working_model": "Hybrid",
       "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
+        "id": "product_security",
+        "label": "Product Security",
+        "priority": 1,
         "confidence": "high",
         "evidence": [
-          "security engineer",
-          "security controls",
-          "vulnerability"
+          "product security",
+          "product security",
+          "threat model"
         ]
       },
       "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
       },
-      "url": "https://job-boards.eu.greenhouse.io/navvis/jobs/4714167101",
-      "apply_url": "https://job-boards.eu.greenhouse.io/navvis/jobs/4714167101",
-      "canonical_url": "https://job-boards.eu.greenhouse.io/navvis/jobs/4714167101",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6102343004",
+      "apply_url": "https://job-boards.greenhouse.io/vercel/jobs/6102343004",
+      "canonical_url": "https://job-boards.greenhouse.io/vercel/jobs/6102343004",
       "source": "Greenhouse",
       "sources": [
         "Greenhouse"
@@ -1904,116 +1903,176 @@
       "lead_type": "",
       "post_author": "",
       "feed_name": "",
-      "published_at": "2026-09-11T10:13:09Z",
-      "posting_age_days": 6,
+      "published_at": "2026-09-17T20:40:14Z",
+      "posting_age_days": 0,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 6,
-        "category": "recent",
-        "label": "RECENT"
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
       },
-      "urgency": "RECENT",
+      "urgency": "NEW - APPLY QUICKLY",
       "first_seen": "2026-08-15T04:18:44Z",
       "experience_required": null,
       "german_requirement": "No German requirement detected",
       "skill_matches": {
         "match": [
-          "sast",
-          "stakeholder communication"
+          "frida",
+          "penetration testing",
+          "security automation",
+          "security testing",
+          "threat modeling",
+          "vulnerability triage"
         ],
         "partial": [
-          "incident response",
-          "network security"
+          "javascript",
+          "product security",
+          "software development"
         ],
         "missing": [
+          "bug bounty",
           "go",
-          "iso 27001"
+          "rust",
+          "vulnerability disclosure program"
         ],
         "nice_to_have": []
       },
       "mandatory_gaps": [
         {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "You can expect to go through a screening call, and/or up to 4 rounds of interviews, where we would love to discover your passion and interests, introduce you to who we are and what drives us, and finally understand how we can potentially add value to each othe"
-        },
-        {
-          "skill": "incident response",
+          "skill": "javascript",
           "profile_status": "partial",
           "requirement": "mandatory",
-          "evidence": "You have strong, hands-on experience across security operations, incident response, and forensic analysis in SaaS and hybrid IT environments."
+          "evidence": "Web tech stack proficiency: Strong familiarity with JavaScript/TypeScript and Node.js runtime security, and modern web frameworks (ideally Next.js or React and Node-based frameworks), so you can read and validate the code your tooling is analyzing."
         }
       ],
       "potential_gaps": [
         {
-          "skill": "iso 27001",
+          "skill": "bug bounty",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "Run ISO 27001 & SOC 2 audits and coordinate via Vanta."
+          "evidence": "Traditional product security teams work one report at a time: a person triages a bug bounty submission, validates it, reproduces it, and hands it off for a fix."
+        },
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "And we want to go beyond triage."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "We are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide."
+        },
+        {
+          "skill": "vulnerability disclosure program",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Have experience running or triaging a bug bounty / vulnerability disclosure program."
         }
       ],
       "optional_gaps": [],
       "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 14,
+        "role_alignment": 20,
+        "skills": 15,
         "experience": 10,
         "location": 15,
         "language": 10,
-        "seniority": 4,
+        "seniority": 10,
         "education": 3
       },
       "match_reasons": [
-        "Role family: Security Engineering.",
-        "Remote work from Germany is explicitly available.",
-        "Evidenced matches include sast, stakeholder communication."
+        "Role family: Product Security.",
+        "Berlin hybrid role.",
+        "Evidenced matches include frida, penetration testing, security automation, security testing, threat modeling."
       ],
       "warnings": [
-        "Mandatory gaps: go, incident response",
-        "Potential gaps: iso 27001",
-        "Exposure only; do not claim deep expertise: incident response, network security",
-        "Senior title is above the profile's current 2+ years",
-        "One explicitly mandatory skill is not evidenced"
+        "Mandatory gaps: javascript",
+        "Potential gaps: bug bounty, go, rust, vulnerability disclosure program",
+        "Exposure only; do not claim deep expertise: javascript, product security, software development",
+        "At least one explicitly mandatory skill has exposure only"
       ],
       "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "THE OPPORTUNITY Join our Global IT Infrastructure team and take ownership of security operations that protect NavVis worldwide. You’ll lead detection and incident response across corporate IT and SaaS environments, working hand-in-hand with Service Delivery, Cloud Infrastructure Engineering, and our Cloud Infrastructure Engineer. This is an hands-on role where you’ll make real impact—investigating threats, driving improvements, and shaping security processes. No ticket forwarding, no passive coordination—just meaningful responsibility and the chance to build a security posture you can be proud of. If you thrive on solving complex problems, love staying ahead of emerging threats, and want to safeguard technology that powers the future of spatial intelligence, we want to hear from you! HOW YOU WILL MAKE AN IMPACT Lead security incident response and drive continuous improvements. Own Microsoft Defender, email security, and phishing protection. Strengthen network security with IT Ops: firewalls, VPNs, segmentation. Manage vulnerability scanning, remediation, and risk reporting. Govern access reviews and enforce least privileges. Run ISO 27001 & SOC 2 audits and coordinate via Vanta. S…",
-      "full_description": "THE OPPORTUNITY\n\nJoin our Global IT Infrastructure team and take ownership of security operations that protect NavVis worldwide. You’ll lead detection and incident response across corporate IT and SaaS environments, working hand-in-hand with Service Delivery, Cloud Infrastructure Engineering, and our Cloud Infrastructure Engineer. \n\nThis is an hands-on role where you’ll make real impact—investigating threats, driving improvements, and shaping security processes. No ticket forwarding, no passive coordination—just meaningful responsibility and the chance to build a security posture you can be proud of. \n\nIf you thrive on solving complex problems, love staying ahead of emerging threats, and want to safeguard technology that powers the future of spatial intelligence, we want to hear from you! \n\nHOW YOU WILL MAKE AN IMPACT\n\nLead security incident response and drive continuous improvements. \n\nOwn Microsoft Defender, email security, and phishing protection. \n\nStrengthen network security with IT Ops: firewalls, VPNs, segmentation. \n\nManage vulnerability scanning, remediation, and risk reporting. \n\nGovern access reviews and enforce least privileges. \n\nRun ISO 27001 & SOC 2 audits and coordinate via Vanta. \n\nSupport business continuity and disaster recovery planning. \n\nAssess vendor security and monitor SaaS risk. \n\nResearch emerging threats and refine security playbooks. \n\nWHAT WILL HELP YOU SUCCEED IN THE ROLE\n\nYou have strong, hands-on experience across security operations, incident response, and forensic analysis in SaaS and hybrid IT environments. \n\nYou bring deep practical knowledge of Microsoft Defender, Entra ID, email security, identity-related incidents, and endpoint protection. \n\nYou are comfortable managing security topics from start to finish with minimal oversight. \n\nYou are a strong communicator who can break down complex security topics in simple actionable terms to both technical and non-technical stakeholders. \n\nYou are experienced working with infrastructure teams to operate network and vulnerability security controls. \n\nYou demonstrate a proven ability to drive ISO 27001 OR SOC 2 audits end-to-end. \n\nYou bring pragmatic approaches to improving processes with a bias towards automation over manual work. \n\nHOW WE WILL KNOW WE ARE A PERFECT MATCH\n\nYour recruiting partner for this role is Sylvie (she/her). You can expect to go through a screening call, and/or up to 4 rounds of interviews, where we would love to discover your passion and interests, introduce you to who we are and what drives us, and finally understand how we can potentially add value to each other's growth.\n\nHOW WE WILL KEEP YOU SMILING\n\nIt's important to take a break from work! We offer 30 days of paid time off per year\n\nAffordable access to a vast network of fitness and wellness facilities through EGYM Wellpass subsidy\n\nDeutschlandticket subsidy to support sustainable travel using public transport\n\nWe offer flexible working hours and a hybrid work setup, enabling you to plan your work around your life, and not your life around work!\n\nWe offer full visa and relocation support for international candidates\n\nAn attractive bike leasing model through JobRad, in line with our commitment towards sustainable mobility\n\nA competitive compensation package that values the skills and experience you bring\n\nUp to 4000 EUR employee referral bonus \n\nFinancial support for local language classes to help you in your journey of integrating into the culture!\n\nWe derive our strength from our diversity.\n\nNavVis’ unwavering commitment to fostering an inclusive and diverse workplace has laid the foundation for our incredible growth. We thrive on the collective strength of our people who come from diverse backgrounds. We respect and value every experience associated with race, gender identity, sexual orientation, nationality, religion and disability. We do not discriminate on the basis of any of these, or other identities, and strongly encourage everyone to apply.\n\nTogether with you, we build NavVis!\n\nIf you need assistance at any stage of the recruiting process due to a disability, please reach out to your recruiting partner(s) for this position.",
+      "description_excerpt": "About Vercel: Vercel is the agentic infrastructure company. We free people and agents to ship what’s next. For more than a decade, Vercel has shaped how the web is built. As the team behind Next.js, v0, and AI SDK, we create products that help builders move from idea to production with speed, security, and exceptional developer experience. Now, software is entering a new era, and the next generation of products will not just be used by people. They will be built, extended, and operated by agents. We are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. Whether you’re building our products, supporting our customers, growing our community, or shaping our story, you’ll help define what comes next. About the Role: Traditional product security teams work one report at a time: a person triages a bug bounty submission, validates it, reproduces it, and hands it off for a fix. That doesn't scale past a certain volume, and Vercel is well past it. Adding more triagers doesn't close that gap. Building the systems that triage at that scale does. This role is about building that system. Your core focus is toolin…",
+      "full_description": "About Vercel:\n\nVercel is the agentic infrastructure company. We free people and agents to ship what’s next.\n\nFor more than a decade, Vercel has shaped how the web is built. As the team behind Next.js, v0, and AI SDK, we create products that help builders move from idea to production with speed, security, and exceptional developer experience.\n\nNow, software is entering a new era, and the next generation of products will not just be used by people. They will be built, extended, and operated by agents.\n\nWe are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. Whether you’re building our products, supporting our customers, growing our community, or shaping our story, you’ll help define what comes next.\n\nAbout the Role:\n\nTraditional product security teams work one report at a time: a person triages a bug bounty submission, validates it, reproduces it, and hands it off for a fix. That doesn't scale past a certain volume, and Vercel is well past it. Adding more triagers doesn't close that gap. Building the systems that triage at that scale does.\n\nThis role is about building that system. Your core focus is tooling that triages and validates bug bounty and other externally reported security findings at scale, reasoning about validity, severity, and reproducibility the way a human triager would, but continuously and at volume. And we want to go beyond triage. The real leverage is in connecting a validated finding to its root cause and driving the fix, ideally with the remediation itself proposed or opened automatically for well-understood vulnerability classes.\n\nMore broadly, this is a mandate to rethink traditional security tooling for how Vercel actually operates: agent-scale testing and automation in place of processes built for a much smaller company. This role also has real scope to build tooling that gives our customers their own security testing capabilities for what they build on Vercel, not just harden Vercel's own surface.\n\nBecause of this, we're optimizing for someone who wants to build systems, not someone whose background is manual penetration testing. A software engineer with a strong desire to move into security, or a security engineer with a strong engineering background, is exactly who we're looking for.\n\nIf you're based within a pre-determined commuting distance of one of our offices (SF, NY, London, or Berlin), the role includes in-office anchor days on Monday, Tuesday, and Friday. If you're located beyond that distance, the role is fully remote. For location-specific details, please connect with our recruiting team.\n\nWhat You Will Do:\n\nBuild tooling to triage and validate bug bounty and external findings at scale: Design and operate the systems that take in externally reported vulnerabilities and automatically assess validity, severity, and reproducibility, at a volume no manual triage process could match.\n\nPush triage beyond pattern matching, into agentic analysis: Build and operate LLM/agent-based reasoning that can validate business logic, auth, and design-level findings, not just match against known signatures.\n\nGo from validated finding to root cause: Trace validated findings back to the underlying pattern or class, so the team fixes the reason it happened, not just the one report that came in.\n\nBuild toward automated remediation, not just automated triage: Design systems that can propose, and increasingly open, the fix itself for well-understood vulnerability classes, with the right human review gates in place.\n\nRethink traditional security tooling for scale: Question which parts of the traditional product security toolkit (manual threat modeling, ad hoc code review, point-in-time pentests) still make sense at Vercel's scale, and build the agent-driven tooling that replaces or augments them.\n\nOwn and evolve the bug bounty program: Manage the researcher-facing side (scope, policy, engagement) as well as the internal tooling, so every report gets resolved and makes the automated triage smarter for the next one.\n\nBuild toward customer-facing security testing capabilities: Extend the tooling and automation you build for Vercel's own products into a capability customers can use to test the security of what they build and deploy on the platform.\n\nAbout You:\n\nYou're a builder first: Strong software engineering background is more important here than classic penetration testing experience. You'd rather build the system that triages a thousand reports than work through them one at a time. We're equally excited by a software engineer who wants to move into security and a security engineer with a strong engineering background; a manual pentesting background alone is not what this role is optimized for.\n\nUnderstand vulnerability triage and validation, even if that's not your primary background: You know (or can quickly learn) how to assess an externally reported finding, reproduce it, and judge severity, and you understand what makes that process hard to scale.\n\nCurious about, or already building with, agentic and LLM-based security tooling: You have a point of view on where AI agents can reliably validate, root-cause, and fix vulnerabilities today, and where they can't yet.\n\nRoot cause and systems thinking: You default to \"how do I make this scale to the next ten thousand reports\" and \"why did this class of bug happen,\" rather than closing the one ticket in front of you.\n\nComfortable defining a new practice: Agent-scale product security isn't a mature discipline yet. You're excited to help define what it looks like at Vercel rather than inherit a playbook.\n\nWeb tech stack proficiency: Strong familiarity with JavaScript/TypeScript and Node.js runtime security, and modern web frameworks (ideally Next.js or React and Node-based frameworks), so you can read and validate the code your tooling is analyzing.\n\nBonus If You:\n\nHave built or contributed to security automation used broadly across an engineering org, not just for your own team.\n\nHave experience running or triaging a bug bounty / vulnerability disclosure program.\n\nHave experience testing or securing multi-tenant platforms where customer-built applications run on shared infrastructure.\n\nHave built systems that auto-generate or auto-propose code fixes, not just findings.\n\nHave thought about what security testing as a product capability could look like for a platform's customers.\n\nHold relevant security certifications or recognitions (for example, OSCP, OSWE, CISSP, or notable bug bounty hall of fame entries). These demonstrate your depth of knowledge, though they are not required.\n\nBenefits:\n\nCompetitive compensation package, including equity.\n\nInclusive Healthcare Package.\n\nLearn and Grow - we provide mentorship and send you to events that help you build your network and skills.\n\nFlexible Time Off.\n\nWe will provide you the gear you need to do your role, and a WFH budget for you to outfit your space as needed.\n\nVercel is committed to fostering and empowering an inclusive community within our organization. We do not discriminate on the basis of race, religion, color, gender expression or identity, sexual orientation, national origin, citizenship, age, marital status, veteran status, disability status, or any other characteristic protected by law. Vercel encourages everyone to apply for our available positions, even if they don't necessarily check every box on the job description.\n\nThe San Francisco, CA base pay range for this role is $208,000.00 - $312,000.00. Actual salary will be based on job-related skills, experience, and location. Compensation outside of San Francisco may be adjusted based on employee location. The total compensation package may include benefits, equity-based compensation, and eligibility for a company bonus or variable pay program depending on the role. Your recruiter can share more details during the hiring process.",
       "skill_requirements": [
+        {
+          "skill": "javascript",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Web tech stack proficiency: Strong familiarity with JavaScript/TypeScript and Node.js runtime security, and modern web frameworks (ideally Next.js or React and Node-based frameworks), so you can read and validate the code your tooling is analyzing."
+        },
+        {
+          "skill": "bug bounty",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Traditional product security teams work one report at a time: a person triages a bug bounty submission, validates it, reproduces it, and hands it off for a fix."
+        },
+        {
+          "skill": "frida",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "If you're based within a pre-determined commuting distance of one of our offices (SF, NY, London, or Berlin), the role includes in-office anchor days on Monday, Tuesday, and Friday."
+        },
         {
           "skill": "go",
           "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "You can expect to go through a screening call, and/or up to 4 rounds of interviews, where we would love to discover your passion and interests, introduce you to who we are and what drives us, and finally understand how we can potentially add value to each othe"
+          "requirement": "mentioned",
+          "evidence": "And we want to go beyond triage."
         },
         {
-          "skill": "incident response",
+          "skill": "penetration testing",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Because of this, we're optimizing for someone who wants to build systems, not someone whose background is manual penetration testing."
+        },
+        {
+          "skill": "product security",
           "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "You have strong, hands-on experience across security operations, incident response, and forensic analysis in SaaS and hybrid IT environments."
+          "requirement": "mentioned",
+          "evidence": "Traditional product security teams work one report at a time: a person triages a bug bounty submission, validates it, reproduces it, and hands it off for a fix."
         },
         {
-          "skill": "iso 27001",
+          "skill": "rust",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "Run ISO 27001 & SOC 2 audits and coordinate via Vanta."
+          "evidence": "We are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide."
         },
         {
-          "skill": "network security",
+          "skill": "security automation",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Have built or contributed to security automation used broadly across an engineering org, not just for your own team."
+        },
+        {
+          "skill": "security testing",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "This role also has real scope to build tooling that gives our customers their own security testing capabilities for what they build on Vercel, not just harden Vercel's own surface."
+        },
+        {
+          "skill": "software development",
           "profile_status": "partial",
           "requirement": "mentioned",
-          "evidence": "Strengthen network security with IT Ops: firewalls, VPNs, segmentation."
+          "evidence": "You're a builder first: Strong software engineering background is more important here than classic penetration testing experience."
         },
         {
-          "skill": "sast",
+          "skill": "threat modeling",
           "profile_status": "match",
           "requirement": "mentioned",
-          "evidence": "Support business continuity and disaster recovery planning."
+          "evidence": "Rethink traditional security tooling for scale: Question which parts of the traditional product security toolkit (manual threat modeling, ad hoc code review, point-in-time pentests) still make sense at Vercel's scale, and build the agent-driven tooling that re"
         },
         {
-          "skill": "stakeholder communication",
+          "skill": "vulnerability disclosure program",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Have experience running or triaging a bug bounty / vulnerability disclosure program."
+        },
+        {
+          "skill": "vulnerability triage",
           "profile_status": "match",
           "requirement": "mentioned",
-          "evidence": "You are a strong communicator who can break down complex security topics in simple actionable terms to both technical and non-technical stakeholders."
+          "evidence": "Understand vulnerability triage and validation, even if that's not your primary background: You know (or can quickly learn) how to assess an externally reported finding, reproduce it, and judge severity, and you understand what makes that process hard to scale"
         }
       ],
       "german_analysis": {
@@ -2027,18 +2086,208 @@
     },
     {
       "report_number": 9,
-      "job_key": "57609de858cd85e028d6",
+      "job_key": "9e8e071b253d6d6eb5ba",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
       "score": 69,
-      "raw_score": 74,
+      "raw_score": 73,
       "score_cap": 69,
       "score_cap_reasons": [
+        "Senior title is above the profile's current 2+ years",
         "At least one explicitly mandatory skill has exposure only"
       ],
       "score_label": "REVIEW",
-      "title": "Security Engineer (SOC) (m,f,x)",
-      "company": "HelloFresh",
+      "title": "Senior Security Software Engineer, v0",
+      "company": "Vercel",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin hybrid role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Hybrid"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Hybrid",
+      "role_family": {
+        "id": "product_security",
+        "label": "Product Security",
+        "priority": 1,
+        "confidence": "medium",
+        "evidence": [
+          "product security",
+          "threat model"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6117209004",
+      "apply_url": "https://job-boards.greenhouse.io/vercel/jobs/6117209004",
+      "canonical_url": "https://job-boards.greenhouse.io/vercel/jobs/6117209004",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "ats": "greenhouse",
+      "priority_employer": true,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-09-17T20:40:14Z",
+      "posting_age_days": 0,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "application security"
+        ],
+        "partial": [
+          "javascript",
+          "product security",
+          "software development"
+        ],
+        "missing": [
+          "bug bounty",
+          "go",
+          "rust"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "product security",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Partner with central Product Security: Share threat models, incident learnings, and SDLC tooling with the broader security team, while making the final call on v0-specific tradeoffs since you have the deepest context on the product."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "bug bounty",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Relevant security certifications (OSCP, OSWE) or notable bug bounty / CTF history."
+        },
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Willing to build with v0, not just secure it: You're happy to actually go use v0 to build things and understand how our products work end to end, not just read the code from the outside."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "We are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 20,
+        "skills": 11,
+        "experience": 10,
+        "location": 15,
+        "language": 10,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Product Security.",
+        "Berlin hybrid role.",
+        "Evidenced matches include application security."
+      ],
+      "warnings": [
+        "Mandatory gaps: product security",
+        "Potential gaps: bug bounty, go, rust",
+        "Exposure only; do not claim deep expertise: javascript, product security, software development",
+        "Senior title is above the profile's current 2+ years",
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "About Vercel: Vercel is the agentic infrastructure company. We free people and agents to ship what’s next. For more than a decade, Vercel has shaped how the web is built. As the team behind Next.js, v0, and AI SDK, we create products that help builders move from idea to production with speed, security, and exceptional developer experience. Now, software is entering a new era, and the next generation of products will not just be used by people. They will be built, extended, and operated by agents. We are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. Whether you’re building our products, supporting our customers, growing our community, or shaping our story, you’ll help define what comes next. About the role v0 turns natural language into working, deployed applications. An agent writes code, executes it, and ships it on a user's behalf. That makes v0 one of the most interesting and highest-stakes security surfaces at Vercel: sandboxed code execution, multi-tenant isolation, permission boundaries between what a user asked for and what the agent actually did, and resistance to prompt injection and t…",
+      "full_description": "About Vercel:\n\nVercel is the agentic infrastructure company. We free people and agents to ship what’s next.\n\nFor more than a decade, Vercel has shaped how the web is built. As the team behind Next.js, v0, and AI SDK, we create products that help builders move from idea to production with speed, security, and exceptional developer experience.\n\nNow, software is entering a new era, and the next generation of products will not just be used by people. They will be built, extended, and operated by agents.\n\nWe are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. Whether you’re building our products, supporting our customers, growing our community, or shaping our story, you’ll help define what comes next.\n\nAbout the role\n\nv0 turns natural language into working, deployed applications. An agent writes code, executes it, and ships it on a user's behalf. That makes v0 one of the most interesting and highest-stakes security surfaces at Vercel: sandboxed code execution, multi-tenant isolation, permission boundaries between what a user asked for and what the agent actually did, and resistance to prompt injection and tool misuse.\n\nWe're looking for a Senior (IC4) software engineer with a strong security background to sit fully embedded inside the v0 team, not as a rotating auditor who reviews designs and files tickets, but as a peer engineer who owns security end to end for everything v0 ships. That means finding and fixing vulnerabilities yourself, building security features directly into the product, reviewing every new feature and launch before it goes out, and running the relationship with our HackerOne researcher community for anything v0-related. You'll spend real time being a great generalist engineer: building features, fixing bugs, shipping to production alongside the rest of the team. The difference is that you bring security judgment and hands-on ownership to everything the team builds, and you're the one who catches the sandbox escape, the auth gap, or the injection vector before it ships, rather than after.\n\nThis role reports into the security organization but is deployed full-time with v0, and is evaluated as much on shipped product velocity as on security outcomes. As a senior (IC4) engineer, you're expected to operate independently, set the security bar for the team, and be trusted to make the final call on v0-specific tradeoffs.\n\nWhat you will do\n\nFind and fix issues yourself: Proactively hunt for vulnerabilities across v0, from code you're reviewing to systems you're actively poking at, and ship the fix, not just the finding.\n\nBuild security features directly into the product: Design and implement the security-facing functionality itself (sandboxing/isolation controls, permission boundaries, abuse detection, safe defaults for generated apps) as a normal part of the v0 roadmap, not a side project.\n\nReview all new v0 features and launches: Be the security reviewer of record for everything the team ships (new capabilities, generated-app patterns, integrations) before it goes out the door.\n\nOwn the HackerOne relationship for v0: Triage, validate, and drive fixes for reports from Vercel's HackerOne researcher community that touch v0, and work directly with researchers on reproduction and remediation.\n\nOwn the v0 threat model: Understand and continuously refine how v0 generates, executes, and deploys code, including sandbox/runtime isolation, permission boundaries between agent actions and user intent, and defenses against prompt injection and tool-use abuse.\n\nHarden code execution boundaries: Work directly on how agent-generated code is scoped, sandboxed, and constrained before it touches real infrastructure, including Vercel's own sandbox and serverless runtimes.\n\nBuild guardrails that don't slow the team down: Create patterns, libraries, and checks that let v0 engineers ship new generated-app capabilities quickly without reintroducing known bug classes (auth, SSRF, injection) each time.\n\nPartner with central Product Security: Share threat models, incident learnings, and SDLC tooling with the broader security team, while making the final call on v0-specific tradeoffs since you have the deepest context on the product.\n\nRespond to v0-specific security reports and incidents: Be the first responder and technical owner when a security issue is reported against v0 specifically.\n\nThink like an attacker, and like an agent: Reason about how a user, or an agent acting on that user's behalf, could misuse v0 to attack itself, other tenants, or the platform underneath it.\n\nAbout you\n\nYou're a software engineer first: 5+ years building and shipping production web applications, at a level where you operate independently (IC4/Senior). You can pick up a normal feature ticket and ship it end to end, this is not a pure audit/review role.\n\nStrong full-stack fundamentals: Comfortable in TypeScript, React, and Node, and able to work in the same codebase, PR flow, and velocity as the rest of the v0 team.\n\nReal security judgment: You understand authN/authZ design, sandboxing and isolation, injection vulnerability classes, and can reason about \"an AI agent writing and running code\" as a novel attack surface, even if your background so far has been primarily software engineering rather than a security title.\n\nYou influence through code, not just process: You'd rather fix the root cause in a PR than write a policy doc about it. You can be the security conscience of a fast-moving team without becoming its bottleneck.\n\nComfortable with ambiguity: v0's threat model is still being written. You're excited to define it rather than inherit a mature playbook.\n\nWilling to build with v0, not just secure it: You're happy to actually go use v0 to build things and understand how our products work end to end, not just read the code from the outside.\n\nBonus if you have\n\nAlready a v0 user or familiar with how it and Vercel's broader product line work.\n\nHands-on experience with sandboxing, container isolation, or multi-tenant systems.\n\nDone prompt injection / jailbreak / LLM application security research on an agentic or AI-powered product.\n\nPreviously shipped a coding agent, dev tool, or code-generation product end to end.\n\nRelevant security certifications (OSCP, OSWE) or notable bug bounty / CTF history. Nice to have, not required for this role.\n\nEnjoy building content and talking publicly about your work: blog posts, conference talks, or research writeups. We'd love for this role to help tell the story of how v0 approaches security, not just do the work quietly.\n\nBenefits:\n\nCompetitive compensation package, including equity.\n\nInclusive Healthcare Package.\n\nLearn and Grow - we provide mentorship and send you to events that help you build your network and skills.\n\nFlexible Time Off.\n\nWe will provide you the gear you need to do your role, and a WFH budget for you to outfit your space as needed.\n\nThe San Francisco, CA base pay range for this role is $208,000.00 - $312,000.00. Actual salary will be based on job-related skills, experience, and location. Compensation outside of San Francisco may be adjusted based on employee location. The total compensation package may include benefits, equity-based compensation, and eligibility for a company bonus or variable pay program depending on the role. Your recruiter can share more details during the hiring process. \n\nVercel is committed to fostering and empowering an inclusive community within our organization. We do not discriminate on the basis of race, religion, color, gender expression or identity, sexual orientation, national origin, citizenship, age, marital status, veteran status, disability status, or any other characteristic protected by law. Vercel encourages everyone to apply for our available positions, even if they don't necessarily check every box on the job description.",
+      "skill_requirements": [
+        {
+          "skill": "product security",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Partner with central Product Security: Share threat models, incident learnings, and SDLC tooling with the broader security team, while making the final call on v0-specific tradeoffs since you have the deepest context on the product."
+        },
+        {
+          "skill": "application security",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Done prompt injection / jailbreak / LLM application security research on an agentic or AI-powered product."
+        },
+        {
+          "skill": "bug bounty",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Relevant security certifications (OSCP, OSWE) or notable bug bounty / CTF history."
+        },
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Willing to build with v0, not just secure it: You're happy to actually go use v0 to build things and understand how our products work end to end, not just read the code from the outside."
+        },
+        {
+          "skill": "javascript",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Strong full-stack fundamentals: Comfortable in TypeScript, React, and Node, and able to work in the same codebase, PR flow, and velocity as the rest of the v0 team."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "We are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide."
+        },
+        {
+          "skill": "software development",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Real security judgment: You understand authN/authZ design, sandboxing and isolation, injection vulnerability classes, and can reason about \"an AI agent writing and running code\" as a novel attack surface, even if your background so far has been primarily softw"
+        }
+      ],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 10,
+      "job_key": "8284e91e3afc1425ab11",
+      "status": "SEEN_BEFORE",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 72,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "Mandatory experience requirement is 4+ years",
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "score_label": "REVIEW",
+      "title": "Security Software Engineer, Open Source Frameworks",
+      "company": "Vercel",
       "location": "Berlin, Germany",
       "location_analysis": {
         "category": "eligible_berlin",
@@ -2056,10 +2305,10 @@
         "id": "security_engineering",
         "label": "Security Engineering",
         "priority": 2,
-        "confidence": "high",
+        "confidence": "medium",
         "evidence": [
-          "security engineer",
-          "security controls"
+          "security engineering",
+          "vulnerability"
         ]
       },
       "seniority": {
@@ -2067,9 +2316,9 @@
         "label": "Mid-level or unspecified",
         "evidence": "No explicit seniority marker in title"
       },
-      "url": "https://careers.hellofresh.com/global/en/job/8146740?gh_jid=8146740",
-      "apply_url": "https://careers.hellofresh.com/global/en/job/8146740?gh_jid=8146740",
-      "canonical_url": "https://careers.hellofresh.com/global/en/job/8146740?gh_jid=8146740",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6117204004",
+      "apply_url": "https://job-boards.greenhouse.io/vercel/jobs/6117204004",
+      "canonical_url": "https://job-boards.greenhouse.io/vercel/jobs/6117204004",
       "source": "Greenhouse",
       "sources": [
         "Greenhouse"
@@ -2079,354 +2328,132 @@
       "lead_type": "",
       "post_author": "",
       "feed_name": "",
-      "published_at": "2026-09-08T13:42:17Z",
-      "posting_age_days": 8,
+      "published_at": "2026-09-17T20:40:14Z",
+      "posting_age_days": 0,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 8,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
       },
-      "urgency": "OPEN FOR REVIEW",
-      "first_seen": "2026-08-26T05:59:57Z",
-      "experience_required": "2+ years",
-      "german_requirement": "German requested; level/strictness unclear",
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": "4+ years",
+      "german_requirement": "No German requirement detected",
       "skill_matches": {
         "match": [
-          "security automation"
+          "vulnerability assessment"
         ],
         "partial": [
-          "aws",
-          "incident response",
-          "siem",
-          "splunk"
+          "javascript"
         ],
         "missing": [
-          "edr",
-          "infrastructure as code",
-          "rust"
+          "bug bounty",
+          "rust",
+          "vulnerability disclosure program"
         ],
         "nice_to_have": []
       },
       "mandatory_gaps": [
         {
-          "skill": "aws",
+          "skill": "javascript",
           "profile_status": "partial",
           "requirement": "mandatory",
-          "evidence": "Security monitoring and incident response experience in public cloud environments such as AWS"
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Security monitoring and incident response experience in public cloud environments such as AWS"
-        },
-        {
-          "skill": "siem",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with cloud SIEM & SOAR platforms, DDoS mitigation and preventing tools and Layer-7 Web-based perimeter security controls"
-        },
-        {
-          "skill": "splunk",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with log analysis stacks like ElasticSearch, Splunk/SumoLogic"
+          "evidence": "You can read framework internals, not just application code: Strong JavaScript/TypeScript fundamentals and genuine familiarity with how modern meta-frameworks work under the hood (routing, SSR/RSC, middleware, bundling/build systems)."
         }
       ],
       "potential_gaps": [
         {
-          "skill": "edr",
+          "skill": "bug bounty",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "Automate, optimize, automate and operate modern security solutions like EDR/EPPs and conventional Firewalls, IDS/IPS, Email Security, VPN, and MDM tools"
-        },
-        {
-          "skill": "infrastructure as code",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Decent programming skills to enable data processing, IaC and security automations"
+          "evidence": "This includes hands-on ownership of Vercel's open source bug bounty program for these projects: triaging incoming reports, validating and reproducing findings, and driving fixes with the right maintainers."
         },
         {
           "skill": "rust",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges."
+          "evidence": "We are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide."
+        },
+        {
+          "skill": "vulnerability disclosure program",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Own vulnerability disclosure and CVEs: Triage security reports from the community and researchers across Turborepo, Nuxt, Svelte/SvelteKit, SWR, Workflow, Nitro, and other maintained OSS projects."
         }
       ],
       "optional_gaps": [],
       "score_breakdown": {
         "role_alignment": 16,
-        "skills": 11,
-        "experience": 15,
+        "skills": 10,
+        "experience": 8,
         "location": 15,
-        "language": 4,
+        "language": 10,
         "seniority": 10,
         "education": 3
       },
       "match_reasons": [
         "Role family: Security Engineering.",
         "Berlin hybrid role.",
-        "Evidenced matches include security automation.",
-        "The detected experience requirement is within or close to the 2+ year profile."
+        "Evidenced matches include vulnerability assessment."
       ],
       "warnings": [
-        "German requested; level/strictness unclear",
-        "Mandatory gaps: aws, incident response, siem, splunk",
-        "Potential gaps: edr, infrastructure as code, rust",
-        "Exposure only; do not claim deep expertise: aws, incident response, siem, splunk",
+        "Requests 4+ years versus approximately 2.1 years in the profile.",
+        "Mandatory gaps: javascript",
+        "Potential gaps: bug bounty, rust, vulnerability disclosure program",
+        "Exposure only; do not claim deep expertise: javascript",
+        "Mandatory experience requirement is 4+ years",
         "At least one explicitly mandatory skill has exposure only"
       ],
       "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "The role We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges. Security Engineers work in a variety of ways to constantly iterate and improve HelloFresh’s security posture. This role aims to improve the HelloFresh Security Logging & Monitoring Program by maturing the tools, processes and playbooks to reduce dwell time (indicators of which would be lowered MTTD&R). Above all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you. What you’ll do Responsible for SOC monitoring, use-case building, triage and advisory using cloud-native SIEM platforms Conduct initial triage of security events and incidents and document progress throughout the Incident Response Lifecycle Automate, optimize, automate and operate modern security solutions like EDR/EPPs and conventional Firewalls, IDS/IPS, Email Security, VPN, and MDM tools Leverage premium and open-source th…",
-      "full_description": "The role\n\nWe’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges. Security Engineers work in a variety of ways to constantly iterate and improve HelloFresh’s security posture. \n\nThis role aims to improve the HelloFresh Security Logging & Monitoring Program by maturing the tools, processes and playbooks to reduce dwell time (indicators of which would be lowered MTTD&R).\n\nAbove all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you.\n\nWhat you’ll do\n\nResponsible for SOC monitoring, use-case building, triage and advisory using cloud-native SIEM platforms\n\nConduct initial triage of security events and incidents and document progress throughout the Incident Response Lifecycle\n\nAutomate, optimize, automate and operate modern security solutions like EDR/EPPs and conventional Firewalls, IDS/IPS, Email Security, VPN, and MDM tools\n\nLeverage premium and open-source threat intel feeds to regularly sweep environments against rising APT campaigns\n\nPrepare status reports and follow up with the stakeholders through Jira and Incident Mgmt. Platform to close the remediation loop \n\nFacilitate efficient Incident Detection and Response in AWS cloud and enterprise IT environments\n\nWhat you’ll bring\n\nA minimum of 2 years of experience working in mature SOC environments\n\nSecurity monitoring and incident response experience in public cloud environments such as AWS\n\nExperience with cloud SIEM & SOAR platforms, DDoS mitigation and preventing tools and Layer-7 Web-based perimeter security controls\n\nUnderstanding of network intrusion methods, network containment, segregation techniques and technologies such as Sandboxes and Intrusion Detection/Prevention Systems (ID/PS)\n\nAbility to operate EDR, EPP and Device Management solutions as per best security practices\n\nDecent programming skills to enable data processing, IaC and security automations\n\nGood communication and reporting skills\n\nExperience with log analysis stacks like ElasticSearch, Splunk/SumoLogic\n\nOpen to working on-call in rotational shifts\n\nWhat we offer\n\nElevate your lifestyle! Join one of Europe's fastest-growing tech powerhouses in a dynamic phase of expansion.\n\nImmerse yourself in a diverse global community of 90+ nationalities.\n\nEnjoy a competitive compensation package that goes beyond the norm, with perks like a HelloFresh- subsidized Pension Scheme and a Hybrid working model.\n\nElevate your lifestyle with exclusive discounts on your weekly HelloFresh box and office meals.\n\nInvest in your growth with a German language learning budget, and access to the HelloFresh Academy.\n\nPlus, we've got your well-being covered with mental health support, transportation perks, and working-parent-friendly benefits. From our 24/7 gym access,wellbeing platforms like Headspace and Spill, to sabbatical leave options, HelloFresh is not just a workplace; it's a lifestyle of perks and possibilities!",
+      "description_excerpt": "About Vercel: Vercel is the agentic infrastructure company. We free people and agents to ship what’s next. For more than a decade, Vercel has shaped how the web is built. As the team behind Next.js, v0, and AI SDK, we create products that help builders move from idea to production with speed, security, and exceptional developer experience. Now, software is entering a new era, and the next generation of products will not just be used by people. They will be built, extended, and operated by agents. We are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. Whether you’re building our products, supporting our customers, growing our community, or shaping our story, you’ll help define what comes next. About the role Vercel builds and maintains a broad portfolio of open source projects that power the modern web, running in millions of applications. Your primary focus will be Turborepo, Nuxt, Svelte/SvelteKit, SWR, Workflow, and Nitro. A single structural fix at the framework level protects every one of those applications at once, which makes this one of the highest-leverage security roles at the company. W…",
+      "full_description": "About Vercel:\n\nVercel is the agentic infrastructure company. We free people and agents to ship what’s next.\n\nFor more than a decade, Vercel has shaped how the web is built. As the team behind Next.js, v0, and AI SDK, we create products that help builders move from idea to production with speed, security, and exceptional developer experience.\n\nNow, software is entering a new era, and the next generation of products will not just be used by people. They will be built, extended, and operated by agents.\n\nWe are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. Whether you’re building our products, supporting our customers, growing our community, or shaping our story, you’ll help define what comes next.\n\nAbout the role\n\nVercel builds and maintains a broad portfolio of open source projects that power the modern web, running in millions of applications. Your primary focus will be Turborepo, Nuxt, Svelte/SvelteKit, SWR, Workflow, and Nitro. A single structural fix at the framework level protects every one of those applications at once, which makes this one of the highest-leverage security roles at the company.\n\nWe're looking for a security engineer who loves finding a whole class of vulnerability and eliminating it in one move, not someone who's satisfied filing one bug at a time. You'll run deep security assessments of framework internals (routing, middleware, caching, server actions, the build pipeline), find the systemic patterns that produce entire families of bugs, and drive the framework-level fixes and design changes that remove them permanently. You'll also own how these projects handle externally reported vulnerabilities, coordinated disclosure, and CVEs, working directly with maintainers and the open source security community. This includes hands-on ownership of Vercel's open source bug bounty program for these projects: triaging incoming reports, validating and reproducing findings, and driving fixes with the right maintainers.\n\nWhat you will do\n\nHunt for vulnerability classes, not individual bugs: Run deep security assessments of framework internals (routing, middleware, caching, data fetching, server actions/RSC boundaries, build tooling) to find the systemic design patterns that produce whole families of issues.\n\nDrive root-cause framework fixes: Push design changes upstream that eliminate a category of vulnerability across every application built on the framework, rather than patching individual instances as they're reported.\n\nOwn vulnerability disclosure and CVEs: Triage security reports from the community and researchers across Turborepo, Nuxt, Svelte/SvelteKit, SWR, Workflow, Nitro, and other maintained OSS projects. Coordinate embargoed fixes, write and publish advisories, and manage the CVE/CNA process end to end.\n\nRun the OSS bug bounty program for these projects: Own triage and validation of incoming reports to Vercel's open source bug bounty program for Turborepo, Nuxt, Svelte/SvelteKit, SWR, Workflow, and Nitro. Reproduce findings, assess severity, and coordinate fixes with the right maintainers and researchers.\n\nGet security into design early: Partner with framework maintainers and core teams during RFCs and design review, so new features ship with security considered from the first draft, not bolted on after a report comes in.\n\nBuild preventive tooling: Contribute linters, codemods, and CI checks that catch regressions of previously-fixed vulnerability classes before they land again.\n\nOwn supply chain security for these projects: Harden how dependencies, releases, and published packages for Turborepo, Nuxt, Svelte/SvelteKit, SWR, Workflow, and Nitro are built, signed, and distributed. As more contributions and dependency updates are generated or assisted by AI agents, build the review and provenance practices that keep that increased volume safe.\n\nWork with the community, not around it: Engage directly with maintainers, contributors, and external researchers as peers. Bring pragmatic security recommendations to project discussions in a way that respects how these projects actually get built, and represent Vercel in coordinated disclosure norms and working groups when an issue spans multiple ecosystems.\n\nAbout you\n\nYou've actually used or broken these frameworks: You've built real things with Turborepo, Nuxt, Svelte/SvelteKit, SWR, Workflow, or Nitro (or closely comparable projects), or you've found and reported security issues in them. This is a hard requirement, not a nice-to-have: we need someone who understands what these projects actually do and how they're actually used, not a generalist parachuting in.\n\nYou have a deep appreciation and respect for open source work: You understand that these are community projects with maintainers, contributors, and users who care deeply about them, and you treat that with the seriousness it deserves. You're not here to slow the project down with process for its own sake.\n\n4+ years in security engineering, ideally with real hands-on open source contribution experience. You've actually sent PRs to projects like these, not just filed issues against them.\n\nYou're energized by root cause, not remediation count: Finding the one design flaw that kills fifty potential bugs is more satisfying to you than closing fifty tickets one at a time.\n\nYou can read framework internals, not just application code: Strong JavaScript/TypeScript fundamentals and genuine familiarity with how modern meta-frameworks work under the hood (routing, SSR/RSC, middleware, bundling/build systems).\n\nPragmatic, not theoretical: You can weigh real-world risk against maintainer and community bandwidth, and land on security improvements that actually ship, rather than the theoretically ideal fix that never gets merged.\n\nVulnerability research chops: Experience with structured security assessment methodology and coordinated/responsible disclosure processes, including handling embargoes and writing clear advisories.\n\nClear communicator: You can explain a vulnerability, a tradeoff, or a design recommendation clearly to maintainers, contributors, and non-security engineers alike, in writing and in conversation.\n\nComfortable operating in public: You're used to working transparently with external researchers, maintainers, and the community, not just inside a company's four walls.\n\nBonus if you have\n\nCVE credits or published security research, especially in JavaScript frameworks or the Node ecosystem.\n\nMaintained or heavily contributed to a widely used open source project.\n\nExperience with supply chain security tooling (Sigstore, SLSA/provenance, dependency and package scanning).\n\nThought about how increasing AI-agent-authored contributions change the risk model for open source maintenance.\n\nRun or triaged for a bug bounty / vulnerability disclosure program before, ideally for open source projects.\n\nBenefits:\n\nCompetitive compensation package, including equity.\n\nInclusive Healthcare Package.\n\nLearn and Grow - we provide mentorship and send you to events that help you build your network and skills.\n\nFlexible Time Off.\n\nWe will provide you the gear you need to do your role, and a WFH budget for you to outfit your space as needed.\n\nThe San Francisco, CA base pay range for this role is $208,000.00 - $312,000.00. Actual salary will be based on job-related skills, experience, and location. Compensation outside of San Francisco may be adjusted based on employee location. The total compensation package may include benefits, equity-based compensation, and eligibility for a company bonus or variable pay program depending on the role. Your recruiter can share more details during the hiring process. \n\nVercel is committed to fostering and empowering an inclusive community within our organization. We do not discriminate on the basis of race, religion, color, gender expression or identity, sexual orientation, national origin, citizenship, age, marital status, veteran status, disability status, or any other characteristic protected by law. Vercel encourages everyone to apply for our available positions, even if they don't necessarily check every box on the job description.",
       "skill_requirements": [
         {
-          "skill": "aws",
+          "skill": "javascript",
           "profile_status": "partial",
           "requirement": "mandatory",
-          "evidence": "Security monitoring and incident response experience in public cloud environments such as AWS"
+          "evidence": "You can read framework internals, not just application code: Strong JavaScript/TypeScript fundamentals and genuine familiarity with how modern meta-frameworks work under the hood (routing, SSR/RSC, middleware, bundling/build systems)."
         },
         {
-          "skill": "incident response",
-          "profile_status": "partial",
+          "skill": "vulnerability assessment",
+          "profile_status": "match",
           "requirement": "mandatory",
-          "evidence": "Security monitoring and incident response experience in public cloud environments such as AWS"
+          "evidence": "Vulnerability research chops: Experience with structured security assessment methodology and coordinated/responsible disclosure processes, including handling embargoes and writing clear advisories."
         },
         {
-          "skill": "siem",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with cloud SIEM & SOAR platforms, DDoS mitigation and preventing tools and Layer-7 Web-based perimeter security controls"
-        },
-        {
-          "skill": "splunk",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with log analysis stacks like ElasticSearch, Splunk/SumoLogic"
-        },
-        {
-          "skill": "edr",
+          "skill": "bug bounty",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "Automate, optimize, automate and operate modern security solutions like EDR/EPPs and conventional Firewalls, IDS/IPS, Email Security, VPN, and MDM tools"
-        },
-        {
-          "skill": "infrastructure as code",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Decent programming skills to enable data processing, IaC and security automations"
+          "evidence": "This includes hands-on ownership of Vercel's open source bug bounty program for these projects: triaging incoming reports, validating and reproducing findings, and driving fixes with the right maintainers."
         },
         {
           "skill": "rust",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges."
+          "evidence": "We are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide."
         },
         {
-          "skill": "security automation",
-          "profile_status": "match",
+          "skill": "vulnerability disclosure program",
+          "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "Decent programming skills to enable data processing, IaC and security automations"
+          "evidence": "Own vulnerability disclosure and CVEs: Triage security reports from the community and researchers across Turborepo, Nuxt, Svelte/SvelteKit, SWR, Workflow, Nitro, and other maintained OSS projects."
         }
       ],
       "german_analysis": {
-        "category": "unspecified",
-        "level": "unspecified",
+        "category": "none",
+        "level": "none",
         "mandatory": false,
-        "label": "German requested; level/strictness unclear",
-        "evidence": "Invest in your growth with a German language learning budget, and access to the HelloFresh Academy."
+        "label": "No German requirement detected",
+        "evidence": ""
       },
       "experience_analysis": {
-        "min_years": 2,
+        "min_years": 4,
         "max_years": null,
         "optional": false,
-        "display": "2+ years",
-        "evidence": "A minimum of 2 years of experience working in mature SOC environments"
+        "display": "4+ years",
+        "evidence": "4+ years in security engineering, ideally with real hands-on open source contribution experience."
       }
-    },
-    {
-      "report_number": 10,
-      "job_key": "c9a4882b15b462f012a3",
-      "status": "SEEN_BEFORE",
-      "application_status": "NEW",
-      "score": 69,
-      "raw_score": 72,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "score_label": "REVIEW",
-      "title": "Cloud Security Engineer (m,f,x)",
-      "company": "HelloFresh",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin hybrid role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "Hybrid"
-      },
-      "location_scope": "Berlin",
-      "working_model": "Hybrid",
-      "role_family": {
-        "id": "cloud_devsecops",
-        "label": "Cloud Security / DevSecOps",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "cloud security",
-          "cloud security",
-          "devsecops"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://careers.hellofresh.com/global/en/job/8146724?gh_jid=8146724",
-      "apply_url": "https://careers.hellofresh.com/global/en/job/8146724?gh_jid=8146724",
-      "canonical_url": "https://careers.hellofresh.com/global/en/job/8146724?gh_jid=8146724",
-      "source": "Greenhouse",
-      "sources": [
-        "Greenhouse"
-      ],
-      "ats": "greenhouse",
-      "priority_employer": true,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-09-08T13:42:13Z",
-      "posting_age_days": 8,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 8,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
-      },
-      "urgency": "OPEN FOR REVIEW",
-      "first_seen": "2026-08-27T16:38:50Z",
-      "experience_required": null,
-      "german_requirement": "German requested; level/strictness unclear",
-      "skill_matches": {
-        "match": [
-          "python"
-        ],
-        "partial": [
-          "aws",
-          "ci/cd",
-          "cloud security",
-          "devsecops"
-        ],
-        "missing": [
-          "azure",
-          "go"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with one of the major cloud provider (AWS, Azure, GCP)"
-        },
-        {
-          "skill": "azure",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Experience with one of the major cloud provider (AWS, Azure, GCP)"
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Python, GO)"
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 12,
-        "experience": 10,
-        "location": 15,
-        "language": 4,
-        "seniority": 10,
-        "education": 5
-      },
-      "match_reasons": [
-        "Role family: Cloud Security / DevSecOps.",
-        "Berlin hybrid role.",
-        "Evidenced matches include python."
-      ],
-      "warnings": [
-        "German requested; level/strictness unclear",
-        "Mandatory gaps: aws, azure",
-        "Potential gaps: go",
-        "Exposure only; do not claim deep expertise: aws, ci/cd, cloud security, devsecops",
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "The role HelloFresh is the world leader in meal-kits and one of Germany's biggest and fastest growing publicly traded companies. Join the Hellofresh security team to help to maintain the highest security standards within the industry. In this role you will join the Cloud Security Team, which is responsible for providing infrastructure security solutions at scale through automation. Above all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you. What you’ll do Enhance the security posture of HelloFresh’s cloud infrastructure and services, hardening them against abuse and nefarious activities Secure containers, CI/CD pipelines and implement guardrails for the developers aligned with the DevSecOps principles Automate procedures and develop products to improve the Security posture of HelloFresh’s infrastructure Design and operate scalable processes to provision cloud access and maintain least-privilege Mentor and train your peers on the best practices in security…",
-      "full_description": "The role\n\nHelloFresh is the world leader in meal-kits and one of Germany's biggest and fastest growing publicly traded companies. Join the Hellofresh security team to help to maintain the highest security standards within the industry. In this role you will join the Cloud Security Team, which is responsible for providing infrastructure security solutions at scale through automation.\n\nAbove all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you.\n\nWhat you’ll do\n\nEnhance the security posture of HelloFresh’s cloud infrastructure and services, hardening them against abuse and nefarious activities\n\nSecure containers, CI/CD pipelines and implement guardrails for the developers aligned with the DevSecOps principles\n\nAutomate procedures and develop products to improve the Security posture of HelloFresh’s infrastructure\n\nDesign and operate scalable processes to provision cloud access and maintain least-privilege\n\nMentor and train your peers on the best practices in security\n\nRemediate and validate security issues across cloud infrastructure\n\nWhat you’ll bring\n\nCurious mindset, the eagerness to learn and a commitment to staying updated with the latest advancements and best practices in the field of security\n\nBachelor's degree in Computer Science, Engineering, or a related field.\n\nWork experience in a security domain\n\nFluency in one or more programming or scripting languages (e.g. Python, GO)\n\nExperience with one of the major cloud provider (AWS, Azure, GCP)\n\nAbility to work independently and as part of cross-functional squads\n\nGood problem solving skills and the ability to troubleshoot and solve technical issues\n\nWhat we offer\n\nElevate your lifestyle! Join one of Europe's fastest-growing tech powerhouses in a dynamic phase of expansion.\n\nImmerse yourself in a diverse global community of 90+ nationalities.\n\nEnjoy a competitive compensation package that goes beyond the norm, with perks like a HelloFresh- subsidized Pension Scheme and a Hybrid working model.\n\nElevate your lifestyle with exclusive discounts on your weekly HelloFresh box and office meals.\n\nInvest in your growth with a German language learning budget, and access to the HelloFresh Academy.\n\nPlus, we've got your well-being covered with mental health support, transportation perks, and working-parent-friendly benefits. From our 24/7 gym access,wellbeing platforms like Headspace and Spill, to sabbatical leave options, HelloFresh is not just a workplace; it's a lifestyle of perks and possibilities!",
-      "skill_requirements": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with one of the major cloud provider (AWS, Azure, GCP)"
-        },
-        {
-          "skill": "azure",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Experience with one of the major cloud provider (AWS, Azure, GCP)"
-        },
-        {
-          "skill": "ci/cd",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Secure containers, CI/CD pipelines and implement guardrails for the developers aligned with the DevSecOps principles"
-        },
-        {
-          "skill": "cloud security",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "In this role you will join the Cloud Security Team, which is responsible for providing infrastructure security solutions at scale through automation."
-        },
-        {
-          "skill": "devsecops",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Secure containers, CI/CD pipelines and implement guardrails for the developers aligned with the DevSecOps principles"
-        },
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Python, GO)"
-        },
-        {
-          "skill": "python",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Python, GO)"
-        }
-      ],
-      "german_analysis": {
-        "category": "unspecified",
-        "level": "unspecified",
-        "mandatory": false,
-        "label": "German requested; level/strictness unclear",
-        "evidence": "Invest in your growth with a German language learning budget, and access to the HelloFresh Academy."
-      },
-      "experience_analysis": null
     }
   ],
   "analysis_request": {
