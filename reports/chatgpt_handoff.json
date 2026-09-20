@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T09:58:20Z",
+  "generated_at": "2026-09-20T10:22:50Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,36 +171,36 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-09-18T09:58:20Z",
+    "generated_at": "2026-09-20T10:22:50Z",
     "scoring_version": 2.2,
-    "jobs_collected": 7545,
-    "security_title_candidates": 206,
-    "prefiltered_non_security_jobs": 7339,
-    "unique_jobs_after_deduplication": 159,
-    "duplicates_removed": 47,
-    "jobs_rejected_or_below_threshold": 7481,
-    "relevant_jobs_in_current_run": 17,
-    "new_jobs": 0,
+    "jobs_collected": 24036,
+    "security_title_candidates": 818,
+    "prefiltered_non_security_jobs": 23218,
+    "unique_jobs_after_deduplication": 643,
+    "duplicates_removed": 175,
+    "jobs_rejected_or_below_threshold": 23843,
+    "relevant_jobs_in_current_run": 18,
+    "new_jobs": 1,
     "updated_jobs": 0,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
-    "sources_partial": 0,
-    "report_jobs": 36,
+    "sources_partial": 1,
+    "report_jobs": 33,
     "jobs_by_source": {
       "arbeitnow": 1100,
-      "remotive": 15,
+      "remotive": 17,
       "linkedin_posts": 0,
-      "greenhouse": 5980,
-      "ashby": 213,
-      "lever": 68,
-      "personio": 169,
-      "recruitee": 0
+      "greenhouse": 21108,
+      "ashby": 423,
+      "lever": 1186,
+      "personio": 196,
+      "recruitee": 6
     },
-    "employer_mode": "daily",
+    "employer_mode": "full",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 25.3
+    "workflow_duration_seconds": 41.7
   },
   "source_status": {
     "arbeitnow": {
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 15,
+      "jobs": 17,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -228,297 +228,107 @@
       "error": ""
     },
     "greenhouse": {
-      "status": "ok",
+      "status": "partial",
       "ok": true,
-      "jobs": 5980,
-      "requests": 60,
-      "errors": [],
-      "error": "",
-      "companies_checked": 60,
-      "companies_successful": 60,
-      "companies_failed": 0
+      "jobs": 21108,
+      "requests": 167,
+      "errors": [
+        {
+          "source": "greenhouse",
+          "company": "Postman",
+          "http_status": 404,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found",
+          "message": "Greenhouse | Postman | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found"
+        }
+      ],
+      "error": "Greenhouse | Postman | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found",
+      "companies_checked": 167,
+      "companies_successful": 166,
+      "companies_failed": 1
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 213,
-      "requests": 9,
+      "jobs": 423,
+      "requests": 13,
       "errors": [],
       "error": "",
-      "companies_checked": 9,
-      "companies_successful": 9,
+      "companies_checked": 13,
+      "companies_successful": 13,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 68,
+      "jobs": 1186,
+      "requests": 6,
+      "errors": [],
+      "error": "",
+      "companies_checked": 6,
+      "companies_successful": 6,
+      "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 196,
+      "requests": 7,
+      "errors": [],
+      "error": "",
+      "companies_checked": 7,
+      "companies_successful": 7,
+      "companies_failed": 0
+    },
+    "recruitee": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 6,
       "requests": 2,
       "errors": [],
       "error": "",
       "companies_checked": 2,
       "companies_successful": 2,
       "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 169,
-      "requests": 3,
-      "errors": [],
-      "error": "",
-      "companies_checked": 3,
-      "companies_successful": 3,
-      "companies_failed": 0
-    },
-    "recruitee": {
-      "status": "idle",
-      "ok": true,
-      "jobs": 0,
-      "requests": 0,
-      "errors": [],
-      "error": "",
-      "companies_checked": 0,
-      "companies_successful": 0,
-      "companies_failed": 0
     }
   },
   "jobs": [
     {
       "report_number": 1,
-      "job_key": "d7cfc6c691d50d52874e",
-      "status": "UPDATED",
+      "job_key": "32c54022816bcac2a151",
+      "status": "NEW",
       "application_status": "NEW",
-      "score": 75,
-      "raw_score": 75,
-      "score_cap": null,
-      "score_cap_reasons": [],
-      "score_label": "GOOD",
-      "title": "Platform and Integration Engineer, Security Telemetry (32h)",
-      "company": "RedMimicry GmbH",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin remote role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "Remote"
-      },
-      "location_scope": "Berlin",
-      "working_model": "Remote",
-      "role_family": {
-        "id": "soc_detection",
-        "label": "SOC / Detection and Response",
-        "priority": 2,
-        "confidence": "medium",
-        "evidence": [
-          "siem",
-          "splunk"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://www.arbeitnow.com/jobs/companies/redmimicry-gmbh/platform-and-integration-engineer-security-telemetry-32h-berlin-447900",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/redmimicry-gmbh/platform-and-integration-engineer-security-telemetry-32h-berlin-447900",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/redmimicry-gmbh/platform-and-integration-engineer-security-telemetry-32h-berlin-447900",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-08-18T18:30:28Z",
-      "posting_age_days": 2,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 2,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-08-19T05:56:21Z",
-      "experience_required": null,
-      "german_requirement": "German is preferred/nice-to-have",
-      "skill_matches": {
-        "match": [
-          "python"
-        ],
-        "partial": [
-          "ci/cd",
-          "docker",
-          "nist",
-          "siem"
-        ],
-        "missing": [
-          "edr",
-          "go"
-        ],
-        "nice_to_have": [
-          "bsi it-grundschutz (missing)",
-          "splunk (partial)"
-        ]
-      },
-      "mandatory_gaps": [],
-      "potential_gaps": [
-        {
-          "skill": "edr",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "You will work with SIEM, EDR, NDR, operating-system, and network exports"
-        },
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Go, Python, shell scripting, or comparable automation skills"
-        }
-      ],
-      "optional_gaps": [
-        {
-          "skill": "bsi it-grundschutz",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Experience with hardening, audit logging, data residency, or BSI IT-Grundschutz is a plus"
-        },
-        {
-          "skill": "splunk",
-          "profile_status": "partial",
-          "requirement": "optional",
-          "evidence": "Splunk, Elastic, Microsoft Sentinel, or comparable platforms are a plus"
-        }
-      ],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 12,
-        "experience": 10,
-        "location": 15,
-        "language": 9,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: SOC / Detection and Response.",
-        "The role is based in Berlin/Germany or explicitly accepts Germany.",
-        "Evidenced matches include python."
-      ],
-      "warnings": [
-        "Potential gaps: edr, go",
-        "Optional gaps: bsi it-grundschutz, splunk",
-        "Exposure only; do not claim deep expertise: ci/cd, docker, nist, siem"
-      ],
-      "recommendation": "REVIEW - verify mandatory requirements before applying",
-      "description_excerpt": "We are building a new capability that turns fragmented, noisy security logs into explainable, AI-powered threat analysis, delivered inside the RedMimicry platform. As Platform and Integration Engineer at RedMimicry, you will connect our security-analysis services to real security telemetry and make them deployable in cloud, on-premises, and restricted customer environments. You will work with SIEM, EDR, NDR, operating-system, and network exports; containerised services; GPU-backed workloads; and enterprise environments with strict security and data-residency requirements. This is not a pure DevOps position. You must understand the structure and failure modes of security telemetry and build reliable interfaces between customer systems, our analysis services, and the existing RedMimicry platform. This is a 32h/week part time job. This is a fixed-term position running until 31 October 2027. Tasks Build Security-Data Ingestion: Design and implement import paths for SIEM, EDR, NDR, operating-system, and related security telemetry. Normalise Critical Metadata: Standardise timestamps and expose relevant host, user, process, and network identities without destroying source provenance. Bui…",
-      "full_description": "We are building a new capability that turns fragmented, noisy security logs into explainable, AI-powered threat analysis, delivered inside the RedMimicry platform.\n\nAs Platform and Integration Engineer at RedMimicry, you will connect our security-analysis services to real security telemetry and make them deployable in cloud, on-premises, and restricted customer environments.\n\nYou will work with SIEM, EDR, NDR, operating-system, and network exports; containerised services; GPU-backed workloads; and enterprise environments with strict security and data-residency requirements.\n\nThis is not a pure DevOps position. You must understand the structure and failure modes of security telemetry and build reliable interfaces between customer systems, our analysis services, and the existing RedMimicry platform.\n\nThis is a 32h/week part time job. This is a fixed-term position running until 31 October 2027.\n\nTasks\n\nBuild Security-Data Ingestion: Design and implement import paths for SIEM, EDR, NDR, operating-system, and related security telemetry.\n\nNormalise Critical Metadata: Standardise timestamps and expose relevant host, user, process, and network identities without destroying source provenance.\n\nBuild Reproducible Test Environments: Maintain fixtures and environments for ingestion and regression testing.\n\nPackage and Operate the Services: Containerise our services and implement deployment automation, monitoring, logging, and health checks.\n\nSupport On-Premises and Restricted Environments: Develop reliable installation and upgrade processes for customer-operated environments.\n\nAutomate Validation and Recovery: Build environment checks, smoke tests, backup and restore workflows, and diagnostic tooling.\n\nSupport Customers: Prepare, install, troubleshoot, and validate customer environments.\n\nDocument Operations: Maintain deployment guides, runbooks, and known limitations.\n\nRequirements\n\nYou do not need to meet every requirement to apply. We are looking for strong systems judgement and the ability to debug across application, operating-system, network, and infrastructure boundaries.\n\nSystems and Infrastructure\n\nStrong Linux administration and troubleshooting skills\n\nDocker or comparable container tooling\n\nCI/CD, configuration management, deployment automation, and observability\n\nNetworking fundamentals, TLS, proxies, routing, DNS, and firewall behaviour\n\nSecure configuration and least-privilege operation\n\nIntegration Engineering\n\nExperience integrating heterogeneous third-party systems and APIs\n\nRobust handling of files, streams, schemas, encodings, timestamps, and version drift\n\nGo, Python, shell scripting, or comparable automation skills\n\nTest fixtures, integration tests, and compatibility testing\n\nSecurity Telemetry\n\nSIEM, EDR, NDR, SOAR, Windows event logs, Sysmon, Linux audit data, or network telemetry\n\nSplunk, Elastic, Microsoft Sentinel, or comparable platforms are a plus\n\nUnderstanding of host, process, identity, and network artefacts\n\nCloud and On-Premises Deployment\n\nProduction cloud services and multi-tenant architectures\n\nOn-premises software packaging and enterprise installation workflows\n\nAir-gapped or restricted environments\n\nGPU infrastructure or model-serving experience is a plus\n\nSecurity and Compliance\n\nExperience with hardening, audit logging, data residency, or BSI IT-Grundschutz is a plus\n\nLanguages\n\nEnglish (required)\n\nGerman (professional working proficiency strongly preferred due to customer work)\n\nBenefits\n\nWork from anywhere in Germany, and use our Berlin office as often as you like\n\n30 days of paid time off, and a quiet inbox while you are away\n\nCompany-paid Deutschlandticket\n\nAnnual budget for the courses and certifications you pick yourself\n\nModern tooling and extensive use of AI\n\nLight process, clear communication, focus on what really matters\n\nA close match is enough. If the role speaks to you, apply with your CV and anything else you would like us to see. What follows is short and transparent, a few conversations with the team and then your first week in Berlin. We are an equal opportunity employer and welcome applications from all backgrounds and genders. Questions about the role or the process are welcome at any point.\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "ci/cd",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "CI/CD, configuration management, deployment automation, and observability"
-        },
-        {
-          "skill": "docker",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Docker or comparable container tooling"
-        },
-        {
-          "skill": "edr",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "You will work with SIEM, EDR, NDR, operating-system, and network exports"
-        },
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Go, Python, shell scripting, or comparable automation skills"
-        },
-        {
-          "skill": "nist",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Strong Linux administration and troubleshooting skills"
-        },
-        {
-          "skill": "python",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Go, Python, shell scripting, or comparable automation skills"
-        },
-        {
-          "skill": "siem",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "You will work with SIEM, EDR, NDR, operating-system, and network exports"
-        },
-        {
-          "skill": "bsi it-grundschutz",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Experience with hardening, audit logging, data residency, or BSI IT-Grundschutz is a plus"
-        },
-        {
-          "skill": "splunk",
-          "profile_status": "partial",
-          "requirement": "optional",
-          "evidence": "Splunk, Elastic, Microsoft Sentinel, or comparable platforms are a plus"
-        }
-      ],
-      "german_analysis": {
-        "category": "nice",
-        "level": "unspecified",
-        "mandatory": false,
-        "label": "German is preferred/nice-to-have",
-        "evidence": "German (professional working proficiency strongly preferred due to customer work)"
-      },
-      "experience_analysis": null
-    },
-    {
-      "report_number": 2,
-      "job_key": "94f173f287cfa560ea63",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 69,
-      "raw_score": 71,
-      "score_cap": 69,
+      "score": 59,
+      "raw_score": 64,
+      "score_cap": 59,
       "score_cap_reasons": [
-        "Senior title is above the profile's current 2+ years"
+        "Mandatory experience requirement is 5+ years"
       ],
-      "score_label": "REVIEW",
-      "title": "Senior AI/ML Engineer, Security Log Intelligence",
-      "company": "RedMimicry GmbH",
-      "location": "Berlin, Germany",
+      "score_label": "STRETCH",
+      "title": "Senior Security Engineer",
+      "company": "Kestra Technologies",
+      "location": "Europe",
       "location_analysis": {
-        "category": "eligible_berlin",
+        "category": "eligible_europe_remote",
         "eligible": true,
-        "score": 15,
-        "reason": "Berlin remote role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
+        "score": 13,
+        "reason": "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
+        "verification_required": true,
+        "score_cap": 89,
+        "scope": "Europe remote",
         "work_model": "Remote"
       },
-      "location_scope": "Berlin",
+      "location_scope": "Europe remote",
       "working_model": "Remote",
       "role_family": {
-        "id": "soc_detection",
-        "label": "SOC / Detection and Response",
+        "id": "security_engineering",
+        "label": "Security Engineering",
         "priority": 2,
-        "confidence": "medium",
+        "confidence": "high",
         "evidence": [
-          "siem",
-          "incident response",
-          "detection engineering"
+          "security engineer",
+          "security engineering",
+          "vulnerability"
         ]
       },
       "seniority": {
@@ -526,9 +336,9 @@
         "label": "Senior",
         "evidence": "senior"
       },
-      "url": "https://www.arbeitnow.com/jobs/companies/redmimicry-gmbh/senior-ai-ml-engineer-security-log-intelligence-berlin-431641",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/redmimicry-gmbh/senior-ai-ml-engineer-security-log-intelligence-berlin-431641",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/redmimicry-gmbh/senior-ai-ml-engineer-security-log-intelligence-berlin-431641",
+      "url": "https://www.arbeitnow.fr/jobs/companies/kestra-technologies/senior-security-engineer-villeneuve-dascq-8214",
+      "apply_url": "https://www.arbeitnow.fr/jobs/companies/kestra-technologies/senior-security-engineer-villeneuve-dascq-8214",
+      "canonical_url": "https://www.arbeitnow.fr/jobs/companies/kestra-technologies/senior-security-engineer-villeneuve-dascq-8214",
       "source": "Arbeitnow",
       "sources": [
         "Arbeitnow"
@@ -538,127 +348,276 @@
       "lead_type": "",
       "post_author": "",
       "feed_name": "",
-      "published_at": "2026-08-18T18:30:28Z",
-      "posting_age_days": 2,
+      "published_at": "2026-09-20T01:40:09Z",
+      "posting_age_days": 0,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 2,
+        "age_days": 0,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
       "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-08-19T05:56:21Z",
-      "experience_required": null,
-      "german_requirement": "German is preferred/nice-to-have",
+      "first_seen": "2026-09-20T10:22:50Z",
+      "experience_required": "5+ years",
+      "german_requirement": "No German requirement detected",
       "skill_matches": {
         "match": [
-          "python"
+          "dast",
+          "penetration testing",
+          "sast",
+          "secure code review",
+          "threat modeling"
         ],
         "partial": [
+          "aws",
+          "ci/cd",
+          "cloud security",
+          "devsecops",
+          "docker",
+          "git",
+          "github actions",
           "incident response",
-          "nist",
-          "siem",
-          "software development"
+          "javascript",
+          "product security"
         ],
         "missing": [
-          "detection engineering",
-          "edr"
+          "github security",
+          "kubernetes",
+          "rust",
+          "terraform",
+          "vulnerability disclosure program"
         ],
         "nice_to_have": []
       },
-      "mandatory_gaps": [],
-      "potential_gaps": [
+      "mandatory_gaps": [
         {
-          "skill": "detection engineering",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Security logs, SIEM, EDR, NDR, detection engineering, incident response, or threat hunting are strong advantages"
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
         },
         {
-          "skill": "edr",
+          "skill": "cloud security",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
+        },
+        {
+          "skill": "devsecops",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role."
+        },
+        {
+          "skill": "docker",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
+        },
+        {
+          "skill": "product security",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "github security",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "Develop Security-Log Parsing Methods: Design and implement methods for extracting typed events from heterogeneous SIEM, EDR, NDR, operating-system, and network telemetry."
+          "evidence": "Security & Vulnerability Tools: Trivy, GitHub Security / Dependabot, Elastic Security"
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Trusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale."
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Infrastructure: Docker, Kubernetes, Terraform"
+        },
+        {
+          "skill": "vulnerability disclosure program",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Own our public security posture as an open-source project: vulnerability disclosure process, CVE handling, security advisories, and the trust model of our plugin ecosystem."
         }
       ],
       "optional_gaps": [],
       "score_breakdown": {
         "role_alignment": 16,
-        "skills": 12,
-        "experience": 10,
-        "location": 15,
-        "language": 9,
+        "skills": 14,
+        "experience": 4,
+        "location": 13,
+        "language": 10,
         "seniority": 4,
-        "education": 5
+        "education": 3
       },
       "match_reasons": [
-        "Role family: SOC / Detection and Response.",
-        "The role is based in Berlin/Germany or explicitly accepts Germany.",
-        "Evidenced matches include python."
+        "Role family: Security Engineering.",
+        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country.",
+        "Evidenced matches include dast, penetration testing, sast, secure code review, threat modeling."
       ],
       "warnings": [
-        "Potential gaps: detection engineering, edr",
-        "Exposure only; do not claim deep expertise: incident response, nist, siem, software development",
-        "Senior title is above the profile's current 2+ years"
+        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
+        "Requests 5+ years versus approximately 2.1 years in the profile.",
+        "Mandatory gaps: aws, cloud security, devsecops, docker, kubernetes, product security",
+        "Potential gaps: github security, rust, terraform, vulnerability disclosure program",
+        "Exposure only; do not claim deep expertise: aws, ci/cd, cloud security, devsecops, docker, git",
+        "Mandatory experience requirement is 5+ years"
       ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "We are building a new capability that turns fragmented, noisy security logs into explainable, AI-powered threat analysis, delivered inside the RedMimicry platform. As Senior AI/ML Engineer at RedMimicry, you will lead the applied AI/ML work behind new analysis capabilities for our breach and attack emulation platform. The core challenge is extracting useful structure from heterogeneous, partially unstructured security telemetry and relating it to known attacker activity. The problem is broader than prompt engineering. You will determine where LLMs, embeddings, retrieval, learned ranking, and deterministic heuristics are justified. The standard is measurable improvement against reproducible baselines, not architectural fashion. Everything you build must operate under realistic latency, reliability, and deployment constraints. This is a fixed-term position running until 31 October 2027. Tasks Develop Security-Log Parsing Methods: Design and implement methods for extracting typed events from heterogeneous SIEM, EDR, NDR, operating-system, and network telemetry. Design Embeddings and Retrieval: Select, evaluate, and tune representations and retrieval methods for security events. Handl…",
-      "full_description": "We are building a new capability that turns fragmented, noisy security logs into explainable, AI-powered threat analysis, delivered inside the RedMimicry platform.\n\nAs Senior AI/ML Engineer at RedMimicry, you will lead the applied AI/ML work behind new analysis capabilities for our breach and attack emulation platform. The core challenge is extracting useful structure from heterogeneous, partially unstructured security telemetry and relating it to known attacker activity.\n\nThe problem is broader than prompt engineering. You will determine where LLMs, embeddings, retrieval, learned ranking, and deterministic heuristics are justified. The standard is measurable improvement against reproducible baselines, not architectural fashion. Everything you build must operate under realistic latency, reliability, and deployment constraints.\n\nThis is a fixed-term position running until 31 October 2027.\n\nTasks\n\nDevelop Security-Log Parsing Methods: Design and implement methods for extracting typed events from heterogeneous SIEM, EDR, NDR, operating-system, and network telemetry.\n\nDesign Embeddings and Retrieval: Select, evaluate, and tune representations and retrieval methods for security events.\n\nHandle Ambiguity Explicitly: Implement confidence scoring, calibration, and controlled treatment of ambiguous evidence.\n\nGround Results in Evidence: Ensure that results are supported by traceable evidence from the original telemetry.\n\nBuild Rigorous Evaluations: Define datasets, baselines, ablations, and metrics, and analyse failure modes systematically.\n\nOptimise Inference: Make the pipeline practical for cloud operation and on-premises deployment.\n\nProductise the Research: Work with backend, integration, and offensive-security engineers to turn experimental methods into maintainable services.\n\nDocument the Work: Produce clear experiment records, architecture decisions, and technical reports.\n\nContribute to Academic Research: Contribute, at minimum as a co-author, to an academic research paper published in the context of the project.\n\nRequirements\n\nYou do not need to meet every requirement to apply. We care more about demonstrated depth, sound experimental judgement, and the ability to ship reliable systems than about a specific academic title.\n\nMachine Learning and LLM Systems\n\nStrong Python programming skills\n\nPractical experience with PyTorch or a comparable framework\n\nExperience with open-weight language models, structured outputs, embeddings, or retrieval systems\n\nExperience with fine-tuning, PEFT, quantisation, model serving, or inference optimisation\n\nUnderstanding of hallucination, calibration, distribution shift, and model failure analysis\n\nInformation Retrieval and Evaluation\n\nSemantic retrieval, ranking, classification, or information extraction\n\nApproximate nearest-neighbour search and vector indices\n\nEvaluation using metrics such as Recall@K, MRR, F1, exact match, calibration, and ablation studies\n\nDataset construction, partitioning, and reproducible benchmarking\n\nSoftware Engineering\n\nAbility to turn experimental code into maintainable production components\n\nTesting, profiling, observability, and performance analysis\n\nExperience working with APIs, distributed services, and containerised environments\n\nCybersecurity Knowledge\n\nSecurity logs, SIEM, EDR, NDR, detection engineering, incident response, or threat hunting are strong advantages\n\nUnderstanding of endpoint, process, identity, and network telemetry is a plus\n\nResearch Background\n\nMSc, PhD, or equivalent practical research experience in computer science, machine learning, data science, mathematics, or a related field\n\nAbility to read, reproduce, and critically evaluate current research\n\nLanguages\n\nEnglish (required)\n\nGerman (a plus)\n\nBenefits\n\nWork from anywhere in Germany, and use our Berlin office as often as you like\n\n30 days of paid time off, and a quiet inbox while you are away\n\nCompany-paid Deutschlandticket\n\nAnnual budget for the courses and certifications you pick yourself\n\nModern tooling and extensive use of AI\n\nLight process, clear communication, focus on what really matters\n\nA close match is enough. If the role speaks to you, apply with your CV and anything else you would like us to see. What follows is short and transparent, a few conversations with the team and then your first week in Berlin. We are an equal opportunity employer and welcome applications from all backgrounds and genders. Questions about the role or the process are welcome at any point.\n\nFind Jobs in Germany on Arbeitnow",
+      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
+      "description_excerpt": "About Kestra Kestra is the universal orchestration platform: open source, declarative, and designed to orchestrate data pipelines, IT automation, business workflows, and AI/agentic systems. Trusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale. The open-source project has close to 30,000 GitHub stars, hundreds of contributors, and a fast-growing global community. About the role Kestra runs arbitrary, user-defined code at scale. Our users write workflows that execute scripts, containers, and queries against their own production systems, through hundreds of community-built plugins, on a platform whose entire source code is public. That is an unusually rich attack surface, and securing it is a genuinely hard engineering problem rather than a checklist exercise. You would be our first dedicated security hire. We're looking for a Senior Security Engineer to own and elevate the end-to-end security posture of our platform, infrastructure, and open-source ecosystem. This is a unique, hybrid role for someone who excels at both sides of security: actively breaking systems to fin…",
+      "full_description": "About Kestra\n\nKestra is the universal orchestration platform: open source, declarative, and designed to orchestrate data pipelines, IT automation, business workflows, and AI/agentic systems.\n\nTrusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale. The open-source project has close to 30,000 GitHub stars, hundreds of contributors, and a fast-growing global community.\n\nAbout the role\n\nKestra runs arbitrary, user-defined code at scale. Our users write workflows that execute scripts, containers, and queries against their own production systems, through hundreds of community-built plugins, on a platform whose entire source code is public. That is an unusually rich attack surface, and securing it is a genuinely hard engineering problem rather than a checklist exercise.\n\nYou would be our first dedicated security hire. We're looking for a Senior Security Engineer to own and elevate the end-to-end security posture of our platform, infrastructure, and open-source ecosystem.\n\nThis is a unique, hybrid role for someone who excels at both sides of security: actively breaking systems to find vulnerabilities (hands-on penetration testing) and actively fixing them (opening PRs, patching infrastructure, and managing supply chain risks). If you want to build a world-class security foundation for a fast-growing open-source and SaaS platform, this role is for you.\n\nThis is a hands-on engineering role, not a GRC or compliance one.\n\nWhat you would do\n\nYour first six months would focus on the first three points below. The rest is where the role grows.\n\nConduct hands-on penetration testing and threat modeling across our web application, APIs, control plane, and cloud environments.\n\nManage end-to-end vulnerability tracking across our codebases, software dependencies (SCA), container images, and cloud infrastructure.\n\nProactively fix security flaws by writing patches, submitting Pull Requests (PRs), or collaborating directly with product teams to guide remediation.\n\nAudit and harden our cloud infrastructure (GCP, Kubernetes clusters, and networking configurations) against external and internal threats.\n\nAutomate security tooling into our CI/CD pipelines (SAST, DAST, dependency scanners) to catch CVEs before code reaches production.\n\nPerform security code reviews and evaluate third-party dependencies, open-source integrations, and supply-chain risks.\n\nLead incident response efforts and establish continuous monitoring, detection, and mitigation strategies.\n\nOwn our public security posture as an open-source project: vulnerability disclosure process, CVE handling, security advisories, and the trust model of our plugin ecosystem.\n\nOur Tech Stack\n\nSecurity & Vulnerability Tools: Trivy, GitHub Security / Dependabot, Elastic Security \n\nInfrastructure: Docker, Kubernetes, Terraform\n\nCloud: GCP\n\nProgramming language: Java, Typescript, Javascript\n\nDatastore: PostgreSQL, Elasticsearch\n\nQueuing: Redis, Kafka, AMQP\n\nMonitoring & Logs: ELK, Prometheus, Grafana\n\nDeployment & Repository: GitHub Actions, ArgoCD\n\nWhat we are looking for\n\n5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role.\n\nStrong hands-on penetration testing background, with proven ability to discover application, API, and network-level vulnerabilities.\n\nA builder/fixer mindset: You don't just export scanner PDFs; you can read code, understand exploits, write fixes, or provide clear remediation steps to engineers.\n\nDeep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker).\n\nExperience with dependency and supply-chain security (CVE management, open-source licensing, SCA tools).\n\nFluent in English and comfortable working autonomously in a fully remote environment.\n\nAdaptability to a fast-paced open-source startup environment where pragmatism and execution speed matter.\n\nPerks & Benefits\n\nWork from anywhere: We’re a remote-first company, so you can work from wherever feels like home. Plus, you’ll have access to coworking spaces worldwide if you ever need a change of scenery.\n\nHealth coverage: From medical support, dental, and vision, we've got you covered.\n\nHome office setup on us: We’ll provide all the equipment you need to work comfortably.\n\nOur Hiring Process\n\nWe aim to move quickly (2-3 weeks), but we can adjust the timeline if needed.\n\nIntro call with the hiring manager (30 min)\n\nTechnical scenario / Practical assessment (2 hours, asynchronous homework focusing on threat assessment and remediation)\n\nTeam chat with one of your future colleagues (30 min)\n\nFinal discussion with one of our co-founders (30 min)\n\nFind Jobs in France on Arbeitnow",
       "skill_requirements": [
         {
-          "skill": "detection engineering",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Security logs, SIEM, EDR, NDR, detection engineering, incident response, or threat hunting are strong advantages"
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
         },
         {
-          "skill": "edr",
+          "skill": "cloud security",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
+        },
+        {
+          "skill": "devsecops",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role."
+        },
+        {
+          "skill": "docker",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
+        },
+        {
+          "skill": "product security",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role."
+        },
+        {
+          "skill": "ci/cd",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Automate security tooling into our CI/CD pipelines (SAST, DAST, dependency scanners) to catch CVEs before code reaches production."
+        },
+        {
+          "skill": "dast",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Automate security tooling into our CI/CD pipelines (SAST, DAST, dependency scanners) to catch CVEs before code reaches production."
+        },
+        {
+          "skill": "git",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "The open-source project has close to 30,000 GitHub stars, hundreds of contributors, and a fast-growing global community."
+        },
+        {
+          "skill": "github actions",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Deployment & Repository: GitHub Actions, ArgoCD"
+        },
+        {
+          "skill": "github security",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "Develop Security-Log Parsing Methods: Design and implement methods for extracting typed events from heterogeneous SIEM, EDR, NDR, operating-system, and network telemetry."
+          "evidence": "Security & Vulnerability Tools: Trivy, GitHub Security / Dependabot, Elastic Security"
         },
         {
           "skill": "incident response",
           "profile_status": "partial",
           "requirement": "mentioned",
-          "evidence": "Security logs, SIEM, EDR, NDR, detection engineering, incident response, or threat hunting are strong advantages"
+          "evidence": "Lead incident response efforts and establish continuous monitoring, detection, and mitigation strategies."
         },
         {
-          "skill": "nist",
+          "skill": "javascript",
           "profile_status": "partial",
           "requirement": "mentioned",
-          "evidence": "You will determine where LLMs, embeddings, retrieval, learned ranking, and deterministic heuristics are justified."
+          "evidence": "Programming language: Java, Typescript, Javascript"
         },
         {
-          "skill": "python",
+          "skill": "penetration testing",
           "profile_status": "match",
           "requirement": "mentioned",
-          "evidence": "Strong Python programming skills"
+          "evidence": "This is a unique, hybrid role for someone who excels at both sides of security: actively breaking systems to find vulnerabilities (hands-on penetration testing) and actively fixing them (opening PRs, patching infrastructure, and managing supply chain risks)."
         },
         {
-          "skill": "siem",
-          "profile_status": "partial",
+          "skill": "rust",
+          "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "Develop Security-Log Parsing Methods: Design and implement methods for extracting typed events from heterogeneous SIEM, EDR, NDR, operating-system, and network telemetry."
+          "evidence": "Trusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale."
         },
         {
-          "skill": "software development",
-          "profile_status": "partial",
+          "skill": "sast",
+          "profile_status": "match",
           "requirement": "mentioned",
-          "evidence": "Software Engineering"
+          "evidence": "Automate security tooling into our CI/CD pipelines (SAST, DAST, dependency scanners) to catch CVEs before code reaches production."
+        },
+        {
+          "skill": "secure code review",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Perform security code reviews and evaluate third-party dependencies, open-source integrations, and supply-chain risks."
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Infrastructure: Docker, Kubernetes, Terraform"
+        },
+        {
+          "skill": "threat modeling",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Conduct hands-on penetration testing and threat modeling across our web application, APIs, control plane, and cloud environments."
+        },
+        {
+          "skill": "vulnerability disclosure program",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Own our public security posture as an open-source project: vulnerability disclosure process, CVE handling, security advisories, and the trust model of our plugin ecosystem."
         }
       ],
       "german_analysis": {
-        "category": "nice",
-        "level": "unspecified",
+        "category": "none",
+        "level": "none",
         "mandatory": false,
-        "label": "German is preferred/nice-to-have",
-        "evidence": "German (a plus)"
+        "label": "No German requirement detected",
+        "evidence": ""
       },
-      "experience_analysis": null
+      "experience_analysis": {
+        "min_years": 5,
+        "max_years": null,
+        "optional": false,
+        "display": "5+ years",
+        "evidence": "5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role."
+      }
     },
     {
-      "report_number": 3,
+      "report_number": 2,
       "job_key": "49da14a46b0c8770f5f3",
       "status": "NEW",
       "application_status": "NEW",
@@ -951,7 +910,7 @@
       }
     },
     {
-      "report_number": 4,
+      "report_number": 3,
       "job_key": "6e733992a361e341e6e6",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1198,7 +1157,7 @@
       }
     },
     {
-      "report_number": 5,
+      "report_number": 4,
       "job_key": "57712ed3d56671484e37",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1342,7 +1301,7 @@
       }
     },
     {
-      "report_number": 6,
+      "report_number": 5,
       "job_key": "cc78a757c373716678d7",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1592,7 +1551,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 7,
+      "report_number": 6,
       "job_key": "521c71dc83dfa3787db3",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1645,11 +1604,11 @@
       "lead_type": "",
       "post_author": "",
       "feed_name": "",
-      "published_at": "2026-09-18T09:56:41Z",
-      "posting_age_days": 0,
+      "published_at": "2026-09-18T10:05:38Z",
+      "posting_age_days": 2,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 0,
+        "age_days": 2,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
@@ -1849,7 +1808,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 8,
+      "report_number": 7,
       "job_key": "c1ab5b22feaa0afc7ed6",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1904,10 +1863,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-17T20:40:14Z",
-      "posting_age_days": 0,
+      "posting_age_days": 2,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 0,
+        "age_days": 2,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
@@ -2085,7 +2044,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 9,
+      "report_number": 8,
       "job_key": "9e8e071b253d6d6eb5ba",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -2140,10 +2099,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-17T20:40:14Z",
-      "posting_age_days": 0,
+      "posting_age_days": 2,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 0,
+        "age_days": 2,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
@@ -2274,7 +2233,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 10,
+      "report_number": 9,
       "job_key": "8284e91e3afc1425ab11",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -2329,10 +2288,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-17T20:40:14Z",
-      "posting_age_days": 0,
+      "posting_age_days": 2,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 0,
+        "age_days": 2,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
@@ -2454,6 +2413,183 @@
         "display": "4+ years",
         "evidence": "4+ years in security engineering, ideally with real hands-on open source contribution experience."
       }
+    },
+    {
+      "report_number": 10,
+      "job_key": "9ba7cf301be480a6ff9f",
+      "status": "SEEN_BEFORE",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 72,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "Senior title is above the profile's current 2+ years",
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "score_label": "REVIEW",
+      "title": "Senior Security Engineer (F/M/D)",
+      "company": "NavVis",
+      "location": "Munich Hybrid (NavVis GmbH), Germany",
+      "location_analysis": {
+        "category": "eligible_germany_remote",
+        "eligible": true,
+        "score": 15,
+        "reason": "Remote work from Germany is explicitly available",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Germany remote",
+        "work_model": "Remote"
+      },
+      "location_scope": "Germany remote",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer",
+          "security controls",
+          "vulnerability"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://job-boards.eu.greenhouse.io/navvis/jobs/4714167101",
+      "apply_url": "https://job-boards.eu.greenhouse.io/navvis/jobs/4714167101",
+      "canonical_url": "https://job-boards.eu.greenhouse.io/navvis/jobs/4714167101",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "ats": "greenhouse",
+      "priority_employer": true,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-09-11T10:13:09Z",
+      "posting_age_days": 9,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 9,
+        "category": "current",
+        "label": "OPEN FOR REVIEW"
+      },
+      "urgency": "OPEN FOR REVIEW",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "sast",
+          "stakeholder communication"
+        ],
+        "partial": [
+          "incident response",
+          "network security"
+        ],
+        "missing": [
+          "go",
+          "iso 27001"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "You can expect to go through a screening call, and/or up to 4 rounds of interviews, where we would love to discover your passion and interests, introduce you to who we are and what drives us, and finally understand how we can potentially add value to each othe"
+        },
+        {
+          "skill": "incident response",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "You have strong, hands-on experience across security operations, incident response, and forensic analysis in SaaS and hybrid IT environments."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Run ISO 27001 & SOC 2 audits and coordinate via Vanta."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 14,
+        "experience": 10,
+        "location": 15,
+        "language": 10,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "Remote work from Germany is explicitly available.",
+        "Evidenced matches include sast, stakeholder communication."
+      ],
+      "warnings": [
+        "Mandatory gaps: go, incident response",
+        "Potential gaps: iso 27001",
+        "Exposure only; do not claim deep expertise: incident response, network security",
+        "Senior title is above the profile's current 2+ years",
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "THE OPPORTUNITY Join our Global IT Infrastructure team and take ownership of security operations that protect NavVis worldwide. You’ll lead detection and incident response across corporate IT and SaaS environments, working hand-in-hand with Service Delivery, Cloud Infrastructure Engineering, and our Cloud Infrastructure Engineer. This is an hands-on role where you’ll make real impact—investigating threats, driving improvements, and shaping security processes. No ticket forwarding, no passive coordination—just meaningful responsibility and the chance to build a security posture you can be proud of. If you thrive on solving complex problems, love staying ahead of emerging threats, and want to safeguard technology that powers the future of spatial intelligence, we want to hear from you! HOW YOU WILL MAKE AN IMPACT Lead security incident response and drive continuous improvements. Own Microsoft Defender, email security, and phishing protection. Strengthen network security with IT Ops: firewalls, VPNs, segmentation. Manage vulnerability scanning, remediation, and risk reporting. Govern access reviews and enforce least privileges. Run ISO 27001 & SOC 2 audits and coordinate via Vanta. S…",
+      "full_description": "THE OPPORTUNITY\n\nJoin our Global IT Infrastructure team and take ownership of security operations that protect NavVis worldwide. You’ll lead detection and incident response across corporate IT and SaaS environments, working hand-in-hand with Service Delivery, Cloud Infrastructure Engineering, and our Cloud Infrastructure Engineer. \n\nThis is an hands-on role where you’ll make real impact—investigating threats, driving improvements, and shaping security processes. No ticket forwarding, no passive coordination—just meaningful responsibility and the chance to build a security posture you can be proud of. \n\nIf you thrive on solving complex problems, love staying ahead of emerging threats, and want to safeguard technology that powers the future of spatial intelligence, we want to hear from you! \n\nHOW YOU WILL MAKE AN IMPACT\n\nLead security incident response and drive continuous improvements. \n\nOwn Microsoft Defender, email security, and phishing protection. \n\nStrengthen network security with IT Ops: firewalls, VPNs, segmentation. \n\nManage vulnerability scanning, remediation, and risk reporting. \n\nGovern access reviews and enforce least privileges. \n\nRun ISO 27001 & SOC 2 audits and coordinate via Vanta. \n\nSupport business continuity and disaster recovery planning. \n\nAssess vendor security and monitor SaaS risk. \n\nResearch emerging threats and refine security playbooks. \n\nWHAT WILL HELP YOU SUCCEED IN THE ROLE\n\nYou have strong, hands-on experience across security operations, incident response, and forensic analysis in SaaS and hybrid IT environments. \n\nYou bring deep practical knowledge of Microsoft Defender, Entra ID, email security, identity-related incidents, and endpoint protection. \n\nYou are comfortable managing security topics from start to finish with minimal oversight. \n\nYou are a strong communicator who can break down complex security topics in simple actionable terms to both technical and non-technical stakeholders. \n\nYou are experienced working with infrastructure teams to operate network and vulnerability security controls. \n\nYou demonstrate a proven ability to drive ISO 27001 OR SOC 2 audits end-to-end. \n\nYou bring pragmatic approaches to improving processes with a bias towards automation over manual work. \n\nHOW WE WILL KNOW WE ARE A PERFECT MATCH\n\nYour recruiting partner for this role is Sylvie (she/her). You can expect to go through a screening call, and/or up to 4 rounds of interviews, where we would love to discover your passion and interests, introduce you to who we are and what drives us, and finally understand how we can potentially add value to each other's growth.\n\nHOW WE WILL KEEP YOU SMILING\n\nIt's important to take a break from work! We offer 30 days of paid time off per year\n\nAffordable access to a vast network of fitness and wellness facilities through EGYM Wellpass subsidy\n\nDeutschlandticket subsidy to support sustainable travel using public transport\n\nWe offer flexible working hours and a hybrid work setup, enabling you to plan your work around your life, and not your life around work!\n\nWe offer full visa and relocation support for international candidates\n\nAn attractive bike leasing model through JobRad, in line with our commitment towards sustainable mobility\n\nA competitive compensation package that values the skills and experience you bring\n\nUp to 4000 EUR employee referral bonus \n\nFinancial support for local language classes to help you in your journey of integrating into the culture!\n\nWe derive our strength from our diversity.\n\nNavVis’ unwavering commitment to fostering an inclusive and diverse workplace has laid the foundation for our incredible growth. We thrive on the collective strength of our people who come from diverse backgrounds. We respect and value every experience associated with race, gender identity, sexual orientation, nationality, religion and disability. We do not discriminate on the basis of any of these, or other identities, and strongly encourage everyone to apply.\n\nTogether with you, we build NavVis!\n\nIf you need assistance at any stage of the recruiting process due to a disability, please reach out to your recruiting partner(s) for this position.",
+      "skill_requirements": [
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "You can expect to go through a screening call, and/or up to 4 rounds of interviews, where we would love to discover your passion and interests, introduce you to who we are and what drives us, and finally understand how we can potentially add value to each othe"
+        },
+        {
+          "skill": "incident response",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "You have strong, hands-on experience across security operations, incident response, and forensic analysis in SaaS and hybrid IT environments."
+        },
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Run ISO 27001 & SOC 2 audits and coordinate via Vanta."
+        },
+        {
+          "skill": "network security",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Strengthen network security with IT Ops: firewalls, VPNs, segmentation."
+        },
+        {
+          "skill": "sast",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Support business continuity and disaster recovery planning."
+        },
+        {
+          "skill": "stakeholder communication",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "You are a strong communicator who can break down complex security topics in simple actionable terms to both technical and non-technical stakeholders."
+        }
+      ],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": null
     }
   ],
   "analysis_request": {

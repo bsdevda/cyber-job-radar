@@ -3,7 +3,7 @@
 **Status:** READY FOR EVIDENCE REVIEW
 **Daily runs:** 14/14
 **Period:** 2026-09-01 to 2026-09-18
-**Generated:** 2026-09-18T09:58:20Z
+**Generated:** 2026-09-20T10:22:50Z
 
 ## Quality and operations
 

@@ -4536,6 +4536,128 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-09-20T10:22:50Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 24036,
+      "security_title_candidates": 818,
+      "prefiltered_non_security_jobs": 23218,
+      "unique_jobs_after_deduplication": 643,
+      "duplicates_removed": 175,
+      "jobs_rejected_or_below_threshold": 23843,
+      "relevant_jobs_in_current_run": 18,
+      "new_jobs": 1,
+      "updated_jobs": 0,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 1,
+      "report_jobs": 33,
+      "jobs_by_source": {
+        "arbeitnow": 1100,
+        "remotive": 17,
+        "linkedin_posts": 0,
+        "greenhouse": 21108,
+        "ashby": 423,
+        "lever": 1186,
+        "personio": 196,
+        "recruitee": 6
+      },
+      "employer_mode": "full",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 41.7,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1100,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 17,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 21108,
+          "requests": 167,
+          "errors": [
+            {
+              "source": "greenhouse",
+              "company": "Postman",
+              "http_status": 404,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found",
+              "message": "Greenhouse | Postman | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found"
+            }
+          ],
+          "error": "Greenhouse | Postman | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found",
+          "companies_checked": 167,
+          "companies_successful": 166,
+          "companies_failed": 1
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 423,
+          "requests": 13,
+          "errors": [],
+          "error": "",
+          "companies_checked": 13,
+          "companies_successful": 13,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1186,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 196,
+          "requests": 7,
+          "errors": [],
+          "error": "",
+          "companies_checked": 7,
+          "companies_successful": 7,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 6,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -10797,6 +10919,42 @@
       "event": "REMOVED",
       "company": "Baringa",
       "title": "Senior Cyber Security Engineer"
+    },
+    {
+      "at": "2026-09-20T10:22:50Z",
+      "job_key": "32c54022816bcac2a151",
+      "event": "NEW",
+      "company": "Kestra Technologies",
+      "title": "Senior Security Engineer",
+      "score": 59
+    },
+    {
+      "at": "2026-09-20T10:22:50Z",
+      "job_key": "d7cfc6c691d50d52874e",
+      "event": "REMOVED",
+      "company": "RedMimicry GmbH",
+      "title": "Platform and Integration Engineer, Security Telemetry (32h)"
+    },
+    {
+      "at": "2026-09-20T10:22:50Z",
+      "job_key": "94f173f287cfa560ea63",
+      "event": "REMOVED",
+      "company": "RedMimicry GmbH",
+      "title": "Senior AI/ML Engineer, Security Log Intelligence"
+    },
+    {
+      "at": "2026-09-20T10:22:50Z",
+      "job_key": "481ef9e1e774c9bdce7f",
+      "event": "REMOVED",
+      "company": "RedMimicry GmbH",
+      "title": "Full Stack Engineer, Security Analytics"
+    },
+    {
+      "at": "2026-09-20T10:22:50Z",
+      "job_key": "de5ca6344fea6fa934d6",
+      "event": "REMOVED",
+      "company": "Linro",
+      "title": "Security & Compliance Engineer - Remote Germany"
     }
   ]
 }
