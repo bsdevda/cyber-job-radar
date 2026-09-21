@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T10:22:50Z",
+  "generated_at": "2026-09-21T10:58:18Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,36 +171,36 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-09-20T10:22:50Z",
+    "generated_at": "2026-09-21T10:58:18Z",
     "scoring_version": 2.2,
-    "jobs_collected": 24036,
-    "security_title_candidates": 818,
-    "prefiltered_non_security_jobs": 23218,
-    "unique_jobs_after_deduplication": 643,
-    "duplicates_removed": 175,
-    "jobs_rejected_or_below_threshold": 23843,
-    "relevant_jobs_in_current_run": 18,
-    "new_jobs": 1,
+    "jobs_collected": 7658,
+    "security_title_candidates": 282,
+    "prefiltered_non_security_jobs": 7376,
+    "unique_jobs_after_deduplication": 217,
+    "duplicates_removed": 65,
+    "jobs_rejected_or_below_threshold": 7578,
+    "relevant_jobs_in_current_run": 15,
+    "new_jobs": 0,
     "updated_jobs": 0,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
-    "sources_partial": 1,
+    "sources_partial": 0,
     "report_jobs": 33,
     "jobs_by_source": {
       "arbeitnow": 1100,
-      "remotive": 17,
+      "remotive": 20,
       "linkedin_posts": 0,
-      "greenhouse": 21108,
-      "ashby": 423,
-      "lever": 1186,
-      "personio": 196,
-      "recruitee": 6
+      "greenhouse": 5941,
+      "ashby": 358,
+      "lever": 76,
+      "personio": 163,
+      "recruitee": 0
     },
-    "employer_mode": "full",
+    "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 41.7
+    "workflow_duration_seconds": 23.8
   },
   "source_status": {
     "arbeitnow": {
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 17,
+      "jobs": 20,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -228,67 +228,58 @@
       "error": ""
     },
     "greenhouse": {
-      "status": "partial",
+      "status": "ok",
       "ok": true,
-      "jobs": 21108,
-      "requests": 167,
-      "errors": [
-        {
-          "source": "greenhouse",
-          "company": "Postman",
-          "http_status": 404,
-          "exception_type": "RuntimeError",
-          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found",
-          "message": "Greenhouse | Postman | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found"
-        }
-      ],
-      "error": "Greenhouse | Postman | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found",
-      "companies_checked": 167,
-      "companies_successful": 166,
-      "companies_failed": 1
+      "jobs": 5941,
+      "requests": 48,
+      "errors": [],
+      "error": "",
+      "companies_checked": 48,
+      "companies_successful": 48,
+      "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 423,
-      "requests": 13,
+      "jobs": 358,
+      "requests": 10,
       "errors": [],
       "error": "",
-      "companies_checked": 13,
-      "companies_successful": 13,
+      "companies_checked": 10,
+      "companies_successful": 10,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 1186,
-      "requests": 6,
-      "errors": [],
-      "error": "",
-      "companies_checked": 6,
-      "companies_successful": 6,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 196,
-      "requests": 7,
-      "errors": [],
-      "error": "",
-      "companies_checked": 7,
-      "companies_successful": 7,
-      "companies_failed": 0
-    },
-    "recruitee": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 6,
+      "jobs": 76,
       "requests": 2,
       "errors": [],
       "error": "",
       "companies_checked": 2,
       "companies_successful": 2,
+      "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 163,
+      "requests": 3,
+      "errors": [],
+      "error": "",
+      "companies_checked": 3,
+      "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "recruitee": {
+      "status": "idle",
+      "ok": true,
+      "jobs": 0,
+      "requests": 0,
+      "errors": [],
+      "error": "",
+      "companies_checked": 0,
+      "companies_successful": 0,
       "companies_failed": 0
     }
   },
@@ -1605,14 +1596,14 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-18T10:05:38Z",
-      "posting_age_days": 2,
+      "posting_age_days": 3,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 2,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
+        "age_days": 3,
+        "category": "recent",
+        "label": "RECENT"
       },
-      "urgency": "NEW - APPLY QUICKLY",
+      "urgency": "RECENT",
       "first_seen": "2026-08-15T04:18:44Z",
       "experience_required": null,
       "german_requirement": "German is preferred/nice-to-have",
@@ -1863,14 +1854,14 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-17T20:40:14Z",
-      "posting_age_days": 2,
+      "posting_age_days": 3,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 2,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
+        "age_days": 3,
+        "category": "recent",
+        "label": "RECENT"
       },
-      "urgency": "NEW - APPLY QUICKLY",
+      "urgency": "RECENT",
       "first_seen": "2026-08-15T04:18:44Z",
       "experience_required": null,
       "german_requirement": "No German requirement detected",
@@ -2099,14 +2090,14 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-17T20:40:14Z",
-      "posting_age_days": 2,
+      "posting_age_days": 3,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 2,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
+        "age_days": 3,
+        "category": "recent",
+        "label": "RECENT"
       },
-      "urgency": "NEW - APPLY QUICKLY",
+      "urgency": "RECENT",
       "first_seen": "2026-08-15T04:18:44Z",
       "experience_required": null,
       "german_requirement": "No German requirement detected",
@@ -2288,14 +2279,14 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-17T20:40:14Z",
-      "posting_age_days": 2,
+      "posting_age_days": 3,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 2,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
+        "age_days": 3,
+        "category": "recent",
+        "label": "RECENT"
       },
-      "urgency": "NEW - APPLY QUICKLY",
+      "urgency": "RECENT",
       "first_seen": "2026-08-15T04:18:44Z",
       "experience_required": "4+ years",
       "german_requirement": "No German requirement detected",
@@ -2471,10 +2462,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-11T10:13:09Z",
-      "posting_age_days": 9,
+      "posting_age_days": 10,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 9,
+        "age_days": 10,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
