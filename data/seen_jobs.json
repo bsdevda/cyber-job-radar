@@ -208,7 +208,7 @@
   },
   "521c71dc83dfa3787db3": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-09-22T10:12:35Z",
+    "last_seen": "2026-09-23T10:12:29Z",
     "content_hash": "2c040214033ea8916a3acfc5d53099f7b45d4e07ed4a37d2804853d325041e92",
     "status": "SEEN_BEFORE",
     "company": "Staffbase",
@@ -361,7 +361,7 @@
   },
   "c1ab5b22feaa0afc7ed6": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-09-22T10:12:35Z",
+    "last_seen": "2026-09-23T10:12:29Z",
     "content_hash": "ff0a297c70e882820361d76e2dfe4d8dffff80350bded7aaf94a14eee926d75d",
     "status": "SEEN_BEFORE",
     "company": "Vercel",
@@ -370,7 +370,7 @@
   },
   "59039a1f42a8c045cc25": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-09-22T10:12:35Z",
+    "last_seen": "2026-09-23T10:12:29Z",
     "content_hash": "ff65e1102d22b95c32dc726b77869ff74a3e37aef547bf9ae631170d231bb36d",
     "status": "SEEN_BEFORE",
     "company": "Vercel",
@@ -388,7 +388,7 @@
   },
   "8284e91e3afc1425ab11": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-09-22T10:12:35Z",
+    "last_seen": "2026-09-23T10:12:29Z",
     "content_hash": "d86efa2787c694e5fa37113af82e18e631aaf8b7eb19ffcf85182061a1463efc",
     "status": "SEEN_BEFORE",
     "company": "Vercel",
@@ -397,7 +397,7 @@
   },
   "9e8e071b253d6d6eb5ba": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-09-22T10:12:35Z",
+    "last_seen": "2026-09-23T10:12:29Z",
     "content_hash": "d54beb7630dc614f4b931f6f8b585d7525c88ba5e97893ac630e2ad3ec795c7a",
     "status": "SEEN_BEFORE",
     "company": "Vercel",
@@ -460,7 +460,7 @@
   },
   "9ba7cf301be480a6ff9f": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-09-22T10:12:35Z",
+    "last_seen": "2026-09-23T10:12:29Z",
     "content_hash": "695565afccbc0ea27aed88980573bdd4151d8c3a3fd8cfff9885244f400ab84b",
     "status": "SEEN_BEFORE",
     "company": "NavVis",
@@ -3214,7 +3214,7 @@
   },
   "adf40ac5904cb1b075ac": {
     "first_seen": "2026-08-15T17:01:09Z",
-    "last_seen": "2026-09-22T10:12:35Z",
+    "last_seen": "2026-09-23T10:12:29Z",
     "content_hash": "b5d79684c158dd21a22b161caeb7fc7ce838b589f10eb85b95807e2a1ac10691",
     "status": "SEEN_BEFORE",
     "company": "Qdrant",
@@ -3403,7 +3403,7 @@
   },
   "86705e70d7803af16172": {
     "first_seen": "2026-08-16T17:17:56Z",
-    "last_seen": "2026-09-22T10:12:35Z",
+    "last_seen": "2026-09-23T10:12:29Z",
     "content_hash": "c73e28a96e6e3939953771f1d4d0b9958738832150c021895e03f233bab33dcf",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3412,7 +3412,7 @@
   },
   "61f504a1b399ea41dd23": {
     "first_seen": "2026-08-16T21:45:22Z",
-    "last_seen": "2026-09-22T10:12:35Z",
+    "last_seen": "2026-09-23T10:12:29Z",
     "content_hash": "8910bc323cf61434de813cf2d5ca414d24377df0d51739e086b4e2962bd0a1a9",
     "status": "SEEN_BEFORE",
     "company": "HelloFresh",
@@ -3430,7 +3430,7 @@
   },
   "ba170f4eb78d3dff47c8": {
     "first_seen": "2026-08-16T21:45:22Z",
-    "last_seen": "2026-09-22T10:12:35Z",
+    "last_seen": "2026-09-23T10:12:29Z",
     "content_hash": "fd3dbdfd32e0e79b830856a08e42dc758465b83b194d5cdfc0d915e4d14efa1c",
     "status": "SEEN_BEFORE",
     "company": "N26",
@@ -3522,7 +3522,7 @@
     "first_seen": "2026-08-23T06:28:18Z",
     "last_seen": "2026-08-24T06:03:17Z",
     "content_hash": "e9477c021db1332795698fa24d4100e75f13184a31ee0706510f0767d88f78a7",
-    "status": "SEEN_BEFORE",
+    "status": "REMOVED",
     "company": "Hello Lemon GmbH",
     "title": "Systemadministrator (m/w/d) IT-Security und Infrastruktur",
     "url": "https://www.arbeitnow.com/jobs/companies/hello-lemon-gmbh/systemadministrator-it-security-und-infrastruktur-cologne-211948"
@@ -3592,7 +3592,7 @@
   },
   "57609de858cd85e028d6": {
     "first_seen": "2026-08-26T05:59:57Z",
-    "last_seen": "2026-09-22T10:12:35Z",
+    "last_seen": "2026-09-23T10:12:29Z",
     "content_hash": "bd8ebbf7cfff2cba1858a52e8aad2d8dc9ae7ca1d5531abbea34bdcc94248ace",
     "status": "SEEN_BEFORE",
     "company": "HelloFresh",
@@ -3601,7 +3601,7 @@
   },
   "a2044c24720686ed5a7d": {
     "first_seen": "2026-08-27T16:38:50Z",
-    "last_seen": "2026-09-22T10:12:35Z",
+    "last_seen": "2026-09-23T10:12:29Z",
     "content_hash": "dae15702a702acbb1270d8742b02f91fda2e2312cd2cd8901c1bcd22372668e6",
     "status": "SEEN_BEFORE",
     "company": "HelloFresh",
@@ -3619,7 +3619,7 @@
   },
   "4afa9462370d50b6650c": {
     "first_seen": "2026-08-27T16:38:50Z",
-    "last_seen": "2026-09-22T10:12:35Z",
+    "last_seen": "2026-09-23T10:12:29Z",
     "content_hash": "ee4cbf05842197e310e742ea7df5f36825988fe1dd6662cfd5991f76d56544a1",
     "status": "SEEN_BEFORE",
     "company": "HelloFresh",
@@ -3646,7 +3646,7 @@
   },
   "39a4143cefceeb7bc131": {
     "first_seen": "2026-09-03T10:00:48Z",
-    "last_seen": "2026-09-22T10:12:35Z",
+    "last_seen": "2026-09-23T10:12:29Z",
     "content_hash": "b7cdc291ef656c282df8ea95d3cd1bea65643dd5986182a0dc58a7d45a3a3c19",
     "status": "SEEN_BEFORE",
     "company": "Eye Security",

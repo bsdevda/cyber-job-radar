@@ -1291,26 +1291,26 @@
     },
     {
       "week_start": "2026-09-21",
-      "generated_at": "2026-09-22T10:12:35Z",
-      "active_relevant_jobs": 15,
+      "generated_at": "2026-09-23T10:12:29Z",
+      "active_relevant_jobs": 14,
       "role_family_counts": {
         "Security Engineering": 9,
         "Product Security": 4,
-        "Cloud Security / DevSecOps": 2
+        "Cloud Security / DevSecOps": 1
       },
       "score_bands": {
-        "60-69 review": 11,
+        "60-69 review": 10,
         "50-59 stretch": 4
       },
       "skill_gaps": {
         "mandatory": [
           {
-            "skill": "aws",
+            "skill": "go",
             "jobs": 5
           },
           {
-            "skill": "go",
-            "jobs": 5
+            "skill": "aws",
+            "jobs": 4
           },
           {
             "skill": "incident response",
@@ -1345,11 +1345,11 @@
             "jobs": 2
           },
           {
-            "skill": "azure",
+            "skill": "splunk",
             "jobs": 1
           },
           {
-            "skill": "splunk",
+            "skill": "network security",
             "jobs": 1
           }
         ],
@@ -1371,15 +1371,15 @@
             "jobs": 4
           },
           {
-            "skill": "go",
-            "jobs": 3
-          },
-          {
             "skill": "infrastructure as code",
             "jobs": 3
           },
           {
             "skill": "kubernetes",
+            "jobs": 2
+          },
+          {
+            "skill": "go",
             "jobs": 2
           },
           {
@@ -1440,7 +1440,7 @@
           },
           {
             "skill": "aws",
-            "jobs": 7
+            "jobs": 6
           },
           {
             "skill": "software development",
@@ -1455,14 +1455,6 @@
             "jobs": 5
           },
           {
-            "skill": "ci/cd",
-            "jobs": 4
-          },
-          {
-            "skill": "cloud security",
-            "jobs": 4
-          },
-          {
             "skill": "siem",
             "jobs": 4
           },
@@ -1471,8 +1463,12 @@
             "jobs": 3
           },
           {
-            "skill": "devsecops",
-            "jobs": 2
+            "skill": "ci/cd",
+            "jobs": 3
+          },
+          {
+            "skill": "cloud security",
+            "jobs": 3
           },
           {
             "skill": "splunk",
@@ -1480,6 +1476,10 @@
           },
           {
             "skill": "network security",
+            "jobs": 2
+          },
+          {
+            "skill": "git",
             "jobs": 2
           }
         ]
