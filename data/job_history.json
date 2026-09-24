@@ -4997,6 +4997,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-09-24T10:21:43Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 7267,
+      "security_title_candidates": 309,
+      "prefiltered_non_security_jobs": 6958,
+      "unique_jobs_after_deduplication": 222,
+      "duplicates_removed": 87,
+      "jobs_rejected_or_below_threshold": 7165,
+      "relevant_jobs_in_current_run": 15,
+      "new_jobs": 0,
+      "updated_jobs": 4,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 32,
+      "jobs_by_source": {
+        "arbeitnow": 1100,
+        "remotive": 19,
+        "linkedin_posts": 0,
+        "greenhouse": 5557,
+        "ashby": 241,
+        "lever": 157,
+        "personio": 190,
+        "recruitee": 3
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 29.2,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1100,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 19,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 5557,
+          "requests": 57,
+          "errors": [],
+          "error": "",
+          "companies_checked": 57,
+          "companies_successful": 57,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 241,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 157,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 190,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 3,
+          "requests": 1,
+          "errors": [],
+          "error": "",
+          "companies_checked": 1,
+          "companies_successful": 1,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -11322,6 +11435,73 @@
       "event": "REMOVED",
       "company": "Hello Lemon GmbH",
       "title": "Systemadministrator (m/w/d) IT-Security und Infrastruktur"
+    },
+    {
+      "at": "2026-09-24T10:21:43Z",
+      "job_key": "c1ab5b22feaa0afc7ed6",
+      "event": "UPDATED",
+      "company": "Vercel",
+      "title": "Product Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-09-24T10:21:43Z",
+      "job_key": "59039a1f42a8c045cc25",
+      "event": "UPDATED",
+      "company": "Vercel",
+      "title": "Security Engineer, Detection Response",
+      "score": 59
+    },
+    {
+      "at": "2026-09-24T10:21:43Z",
+      "job_key": "8284e91e3afc1425ab11",
+      "event": "UPDATED",
+      "company": "Vercel",
+      "title": "Security Software Engineer, Open Source Frameworks",
+      "score": 69
+    },
+    {
+      "at": "2026-09-24T10:21:43Z",
+      "job_key": "9e8e071b253d6d6eb5ba",
+      "event": "UPDATED",
+      "company": "Vercel",
+      "title": "Senior Security Software Engineer, v0",
+      "score": 69
+    },
+    {
+      "at": "2026-09-24T10:21:43Z",
+      "job_key": "caa220d352ded536fb49",
+      "event": "REMOVED",
+      "company": "Mozilla",
+      "title": "Senior Product Security Engineer"
+    },
+    {
+      "at": "2026-09-24T10:21:43Z",
+      "job_key": "51633de3452b1370c80f",
+      "event": "REMOVED",
+      "company": "Authority.inc",
+      "title": "Cybersecurity Expert (United Kingdom)"
+    },
+    {
+      "at": "2026-09-24T10:21:43Z",
+      "job_key": "75afdc3c992dee662947",
+      "event": "REMOVED",
+      "company": "Mobileye",
+      "title": "Autosar Cybersecurity Software Development (m/w/d)"
+    },
+    {
+      "at": "2026-09-24T10:21:43Z",
+      "job_key": "f9b1c8d652e5b037abc5",
+      "event": "REMOVED",
+      "company": "Nomios",
+      "title": "Cybersecurity Consultant – Juniper & Arista (m/w/d)"
+    },
+    {
+      "at": "2026-09-24T10:21:43Z",
+      "job_key": "24a09ed4f8512dfb6d9d",
+      "event": "REMOVED",
+      "company": "Nomios",
+      "title": "Cybersecurity Consultant – Palo Alto Networks (m/w/d)"
     }
   ]
 }
