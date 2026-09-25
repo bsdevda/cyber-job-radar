@@ -5110,6 +5110,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-09-25T10:25:16Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 7509,
+      "security_title_candidates": 195,
+      "prefiltered_non_security_jobs": 7314,
+      "unique_jobs_after_deduplication": 160,
+      "duplicates_removed": 35,
+      "jobs_rejected_or_below_threshold": 7461,
+      "relevant_jobs_in_current_run": 13,
+      "new_jobs": 0,
+      "updated_jobs": 4,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 31,
+      "jobs_by_source": {
+        "arbeitnow": 1100,
+        "remotive": 19,
+        "linkedin_posts": 0,
+        "greenhouse": 5940,
+        "ashby": 206,
+        "lever": 78,
+        "personio": 166,
+        "recruitee": 0
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 22.4,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1100,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 19,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 5940,
+          "requests": 60,
+          "errors": [],
+          "error": "",
+          "companies_checked": 60,
+          "companies_successful": 60,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 206,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 78,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 166,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "idle",
+          "ok": true,
+          "jobs": 0,
+          "requests": 0,
+          "errors": [],
+          "error": "",
+          "companies_checked": 0,
+          "companies_successful": 0,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -11502,6 +11615,59 @@
       "event": "REMOVED",
       "company": "Nomios",
       "title": "Cybersecurity Consultant – Palo Alto Networks (m/w/d)"
+    },
+    {
+      "at": "2026-09-25T10:25:16Z",
+      "job_key": "c1ab5b22feaa0afc7ed6",
+      "event": "UPDATED",
+      "company": "Vercel",
+      "title": "Product Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-09-25T10:25:16Z",
+      "job_key": "59039a1f42a8c045cc25",
+      "event": "UPDATED",
+      "company": "Vercel",
+      "title": "Security Engineer, Detection Response",
+      "score": 59
+    },
+    {
+      "at": "2026-09-25T10:25:16Z",
+      "job_key": "8284e91e3afc1425ab11",
+      "event": "UPDATED",
+      "company": "Vercel",
+      "title": "Security Software Engineer, Open Source Frameworks",
+      "score": 69
+    },
+    {
+      "at": "2026-09-25T10:25:16Z",
+      "job_key": "9e8e071b253d6d6eb5ba",
+      "event": "UPDATED",
+      "company": "Vercel",
+      "title": "Senior Security Software Engineer, v0",
+      "score": 69
+    },
+    {
+      "at": "2026-09-25T10:25:16Z",
+      "job_key": "434bce3fa460fea652c3",
+      "event": "REMOVED",
+      "company": "Kertos",
+      "title": "(Senior) Professional Services Consultant - Information Security (all genders)"
+    },
+    {
+      "at": "2026-09-25T10:25:16Z",
+      "job_key": "739902d4aff1b178a04a",
+      "event": "REMOVED",
+      "company": "wizinc",
+      "title": "Security Engineer - Product"
+    },
+    {
+      "at": "2026-09-25T10:25:16Z",
+      "job_key": "dab07ac6704a6c58e04b",
+      "event": "REMOVED",
+      "company": "Quantum-Systems GmbH",
+      "title": "Senior Systems Engineer - Product Security (m/f/d)"
     }
   ]
 }
