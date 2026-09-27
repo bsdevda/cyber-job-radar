@@ -1,189 +1,54 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-25T10:25:16Z",
+  "generated_at": "2026-09-27T11:08:18Z",
   "summary": {
-    "generated_at": "2026-09-25T10:25:16Z",
+    "generated_at": "2026-09-27T11:08:18Z",
     "scoring_version": 2.2,
-    "jobs_collected": 7509,
-    "security_title_candidates": 195,
-    "prefiltered_non_security_jobs": 7314,
-    "unique_jobs_after_deduplication": 160,
-    "duplicates_removed": 35,
-    "jobs_rejected_or_below_threshold": 7461,
-    "relevant_jobs_in_current_run": 13,
+    "jobs_collected": 24289,
+    "security_title_candidates": 805,
+    "prefiltered_non_security_jobs": 23484,
+    "unique_jobs_after_deduplication": 637,
+    "duplicates_removed": 168,
+    "jobs_rejected_or_below_threshold": 24107,
+    "relevant_jobs_in_current_run": 14,
     "new_jobs": 0,
-    "updated_jobs": 4,
+    "updated_jobs": 1,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
     "sources_partial": 0,
     "report_jobs": 31,
     "jobs_by_source": {
-      "arbeitnow": 1100,
-      "remotive": 19,
+      "arbeitnow": 1250,
+      "remotive": 18,
       "linkedin_posts": 0,
-      "greenhouse": 5940,
-      "ashby": 206,
-      "lever": 78,
-      "personio": 166,
-      "recruitee": 0
+      "greenhouse": 21206,
+      "ashby": 415,
+      "lever": 1199,
+      "personio": 196,
+      "recruitee": 5
     },
-    "employer_mode": "daily",
+    "employer_mode": "full",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 22.4
+    "workflow_duration_seconds": 48.7
   },
   "jobs": [
     {
       "report_number": 1,
-      "job_key": "8284e91e3afc1425ab11",
+      "job_key": "61f504a1b399ea41dd23",
       "status": "UPDATED",
       "application_status": "NEW",
-      "score": 69,
-      "raw_score": 72,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "Mandatory experience requirement is 4+ years",
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "score_label": "REVIEW",
-      "title": "Security Software Engineer, Open Source Frameworks",
-      "company": "Vercel",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin hybrid role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "Hybrid"
-      },
-      "location_scope": "Berlin",
-      "working_model": "Hybrid",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "medium",
-        "evidence": [
-          "security engineering",
-          "vulnerability"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://job-boards.greenhouse.io/vercel/jobs/6117204004",
-      "apply_url": "https://job-boards.greenhouse.io/vercel/jobs/6117204004",
-      "canonical_url": "https://job-boards.greenhouse.io/vercel/jobs/6117204004",
-      "source": "Greenhouse",
-      "sources": [
-        "Greenhouse"
-      ],
-      "ats": "greenhouse",
-      "priority_employer": true,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-09-24T18:14:50Z",
-      "posting_age_days": 0,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 0,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-08-15T04:18:44Z",
-      "experience_required": "4+ years",
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "vulnerability assessment"
-        ],
-        "partial": [
-          "javascript"
-        ],
-        "missing": [
-          "bug bounty",
-          "rust",
-          "vulnerability disclosure program"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "javascript",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "You can read framework internals, not just application code: Strong JavaScript/TypeScript fundamentals and genuine familiarity with how modern meta-frameworks work under the hood (routing, SSR/RSC, middleware, bundling/build systems)."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "bug bounty",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "This includes hands-on ownership of Vercel's open source bug bounty program for these projects: triaging incoming reports, validating and reproducing findings, and driving fixes with the right maintainers."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide."
-        },
-        {
-          "skill": "vulnerability disclosure program",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Own vulnerability disclosure and CVEs: Triage security reports from the community and researchers across Turborepo, Nuxt, Svelte/SvelteKit, SWR, Workflow, Nitro, and other maintained OSS projects."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 10,
-        "experience": 8,
-        "location": 15,
-        "language": 10,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Security Engineering.",
-        "Berlin hybrid role.",
-        "Evidenced matches include vulnerability assessment."
-      ],
-      "warnings": [
-        "Requests 4+ years versus approximately 2.1 years in the profile.",
-        "Mandatory gaps: javascript",
-        "Potential gaps: bug bounty, rust, vulnerability disclosure program",
-        "Exposure only; do not claim deep expertise: javascript",
-        "Mandatory experience requirement is 4+ years",
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "About Vercel: Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience. Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. About The Role: Vercel builds and maintains a broad portfolio of open source projects that power the modern web, running in millions of applications. Your primary focus will be Turborepo, Nuxt, Svelte/SvelteKit, SWR, Workflow, and Nitro. A single structural fix at the framework level protects every one of those applications at once, which makes this one of the highest-leverage security roles at the company. We're looking for a security engineer who loves finding a whole class of vulnerability and eliminating it in one move, not someone who's satisfied filing one bug at a time. You'll run deep security assessments of framework internals (routing, middleware, caching, server actions, the build pipeline), find the systemic patterns that produce entire families of b…"
-    },
-    {
-      "report_number": 2,
-      "job_key": "9e8e071b253d6d6eb5ba",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 69,
-      "raw_score": 73,
+      "score": 62,
+      "raw_score": 62,
       "score_cap": 69,
       "score_cap_reasons": [
         "Senior title is above the profile's current 2+ years",
         "At least one explicitly mandatory skill has exposure only"
       ],
       "score_label": "REVIEW",
-      "title": "Senior Security Software Engineer, v0",
-      "company": "Vercel",
+      "title": "Senior Cloud Security Engineer (m,f,x)",
+      "company": "HelloFresh",
       "location": "Berlin, Germany",
       "location_analysis": {
         "category": "eligible_berlin",
@@ -198,13 +63,14 @@
       "location_scope": "Berlin",
       "working_model": "Hybrid",
       "role_family": {
-        "id": "product_security",
-        "label": "Product Security",
-        "priority": 1,
-        "confidence": "medium",
+        "id": "cloud_devsecops",
+        "label": "Cloud Security / DevSecOps",
+        "priority": 2,
+        "confidence": "high",
         "evidence": [
-          "product security",
-          "threat model"
+          "cloud security",
+          "cloud security",
+          "devsecops"
         ]
       },
       "seniority": {
@@ -212,11 +78,12 @@
         "label": "Senior",
         "evidence": "senior"
       },
-      "url": "https://job-boards.greenhouse.io/vercel/jobs/6117209004",
-      "apply_url": "https://job-boards.greenhouse.io/vercel/jobs/6117209004",
-      "canonical_url": "https://job-boards.greenhouse.io/vercel/jobs/6117209004",
+      "url": "https://careers.hellofresh.com/global/en/job/8095941?gh_jid=8095941",
+      "apply_url": "https://careers.hellofresh.com/global/en/job/8095941?gh_jid=8095941",
+      "canonical_url": "https://careers.hellofresh.com/global/en/job/8095941?gh_jid=8095941",
       "source": "Greenhouse",
       "sources": [
+        "Arbeitnow",
         "Greenhouse"
       ],
       "ats": "greenhouse",
@@ -224,422 +91,81 @@
       "lead_type": "",
       "post_author": "",
       "feed_name": "",
-      "published_at": "2026-09-24T17:54:46Z",
-      "posting_age_days": 0,
+      "published_at": "2026-09-11T14:18:45Z",
+      "posting_age_days": 15,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 0,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
+        "age_days": 15,
+        "category": "current",
+        "label": "OPEN FOR REVIEW"
       },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-08-15T04:18:44Z",
+      "urgency": "OPEN FOR REVIEW",
+      "first_seen": "2026-08-16T21:45:22Z",
       "experience_required": null,
-      "german_requirement": "No German requirement detected",
+      "german_requirement": "German requested; level/strictness unclear",
       "skill_matches": {
-        "match": [
-          "application security"
-        ],
+        "match": [],
         "partial": [
-          "javascript",
-          "product security",
-          "software development"
-        ],
-        "missing": [
-          "bug bounty",
-          "go",
-          "rust"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "product security",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Partner with central Product Security: Share threat models, incident learnings, and SDLC tooling with the broader security team, while making the final call on v0-specific tradeoffs since you have the deepest context on the product."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "bug bounty",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Relevant security certifications (OSCP, OSWE) or notable bug bounty / CTF history."
-        },
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Willing to build with v0, not just secure it: You're happy to actually go use v0 to build things and understand how our products work end to end, not just read the code from the outside."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 20,
-        "skills": 11,
-        "experience": 10,
-        "location": 15,
-        "language": 10,
-        "seniority": 4,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Product Security.",
-        "Berlin hybrid role.",
-        "Evidenced matches include application security."
-      ],
-      "warnings": [
-        "Mandatory gaps: product security",
-        "Potential gaps: bug bounty, go, rust",
-        "Exposure only; do not claim deep expertise: javascript, product security, software development",
-        "Senior title is above the profile's current 2+ years",
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "About Vercel: Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience. Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. About the role v0 turns natural language into working, deployed applications. An agent writes code, executes it, and ships it on a user's behalf. That makes v0 one of the most interesting and highest-stakes security surfaces at Vercel: sandboxed code execution, multi-tenant isolation, permission boundaries between what a user asked for and what the agent actually did, and resistance to prompt injection and tool misuse. We're looking for a Senior (IC4) software engineer with a strong security background to sit fully embedded inside the v0 team, not as a rotating auditor who reviews designs and files tickets, but as a peer engineer who owns security end to end for everything v0 ships. That means finding and fixing vulnerabilities yourself, building security featur…"
-    },
-    {
-      "report_number": 3,
-      "job_key": "c1ab5b22feaa0afc7ed6",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 69,
-      "raw_score": 83,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "score_label": "REVIEW",
-      "title": "Product Security Engineer",
-      "company": "Vercel",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin hybrid role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "Hybrid"
-      },
-      "location_scope": "Berlin",
-      "working_model": "Hybrid",
-      "role_family": {
-        "id": "product_security",
-        "label": "Product Security",
-        "priority": 1,
-        "confidence": "high",
-        "evidence": [
-          "product security",
-          "product security",
-          "threat model"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://job-boards.greenhouse.io/vercel/jobs/6102343004",
-      "apply_url": "https://job-boards.greenhouse.io/vercel/jobs/6102343004",
-      "canonical_url": "https://job-boards.greenhouse.io/vercel/jobs/6102343004",
-      "source": "Greenhouse",
-      "sources": [
-        "Greenhouse"
-      ],
-      "ats": "greenhouse",
-      "priority_employer": true,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-09-24T17:27:58Z",
-      "posting_age_days": 0,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 0,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-08-15T04:18:44Z",
-      "experience_required": null,
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "frida",
-          "penetration testing",
-          "security automation",
-          "security testing",
-          "threat modeling",
-          "vulnerability triage"
-        ],
-        "partial": [
-          "javascript",
-          "product security",
-          "software development"
-        ],
-        "missing": [
-          "bug bounty",
-          "go",
-          "rust",
-          "vulnerability disclosure program"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "javascript",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Web tech stack proficiency: Strong familiarity with JavaScript/TypeScript and Node.js runtime security, and modern web frameworks (ideally Next.js or React and Node-based frameworks), so you can read and validate the code your tooling is analyzing."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "bug bounty",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Traditional product security teams work one report at a time: a person triages a bug bounty submission, validates it, reproduces it, and hands it off for a fix."
-        },
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "And we want to go beyond triage."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide."
-        },
-        {
-          "skill": "vulnerability disclosure program",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Have experience running or triaging a bug bounty / vulnerability disclosure program."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 20,
-        "skills": 15,
-        "experience": 10,
-        "location": 15,
-        "language": 10,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Product Security.",
-        "Berlin hybrid role.",
-        "Evidenced matches include frida, penetration testing, security automation, security testing, threat modeling."
-      ],
-      "warnings": [
-        "Mandatory gaps: javascript",
-        "Potential gaps: bug bounty, go, rust, vulnerability disclosure program",
-        "Exposure only; do not claim deep expertise: javascript, product security, software development",
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "About Vercel: Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience. Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. About the Role: Traditional product security teams work one report at a time: a person triages a bug bounty submission, validates it, reproduces it, and hands it off for a fix. That doesn't scale past a certain volume, and Vercel is well past it. Adding more triagers doesn't close that gap. Building the systems that triage at that scale does. This role is about building that system. Your core focus is tooling that triages and validates bug bounty and other externally reported security findings at scale, reasoning about validity, severity, and reproducibility the way a human triager would, but continuously and at volume. And we want to go beyond triage. The real leverage is in connecting a validated finding to its root cause and driving the fix, ideally with the…"
-    },
-    {
-      "report_number": 4,
-      "job_key": "59039a1f42a8c045cc25",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 59,
-      "raw_score": 77,
-      "score_cap": 59,
-      "score_cap_reasons": [
-        "Multiple explicitly mandatory skills are not evidenced"
-      ],
-      "score_label": "STRETCH",
-      "title": "Security Engineer, Detection Response",
-      "company": "Vercel",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin hybrid role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "Hybrid"
-      },
-      "location_scope": "Berlin",
-      "working_model": "Hybrid",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "security engineer",
-          "security controls"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://job-boards.greenhouse.io/vercel/jobs/6111332004",
-      "apply_url": "https://job-boards.greenhouse.io/vercel/jobs/6111332004",
-      "canonical_url": "https://job-boards.greenhouse.io/vercel/jobs/6111332004",
-      "source": "Greenhouse",
-      "sources": [
-        "Greenhouse"
-      ],
-      "ats": "greenhouse",
-      "priority_employer": true,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-09-24T21:18:47Z",
-      "posting_age_days": 0,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 0,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-08-15T04:18:44Z",
-      "experience_required": null,
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "frida",
-          "python",
-          "security automation"
-        ],
-        "partial": [
-          "aws",
+          "ci/cd",
           "cloud security",
-          "git",
-          "incident response",
-          "nist",
-          "security auditing",
-          "siem"
+          "devsecops",
+          "network security"
         ],
         "missing": [
-          "bash",
-          "detection engineering",
-          "edr",
-          "go",
-          "rust"
+          "infrastructure as code",
+          "kubernetes"
         ],
-        "nice_to_have": [
-          "api security (match)"
-        ]
+        "nice_to_have": []
       },
       "mandatory_gaps": [
         {
-          "skill": "aws",
+          "skill": "network security",
           "profile_status": "partial",
           "requirement": "mandatory",
-          "evidence": "Strong knowledge of AWS infrastructure and cloud security best practices."
-        },
-        {
-          "skill": "bash",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Proficiency in at least one scripting language (Python, Bash) and one compiled language (Rust, Go)."
-        },
-        {
-          "skill": "cloud security",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Strong knowledge of AWS infrastructure and cloud security best practices."
-        },
-        {
-          "skill": "detection engineering",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Extensive experience in security operations, including SIEM management, security logging, and detection engineering."
-        },
-        {
-          "skill": "git",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with GitHub administration and security controls."
-        },
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Proficiency in at least one scripting language (Python, Bash) and one compiled language (Rust, Go)."
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Hands-on experience with incident response, including detection, triage, and remediation."
-        },
-        {
-          "skill": "nist",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with GitHub administration and security controls."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Proficiency in at least one scripting language (Python, Bash) and one compiled language (Rust, Go)."
-        },
-        {
-          "skill": "siem",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Extensive experience in security operations, including SIEM management, security logging, and detection engineering."
+          "evidence": "Knowledge of security engineering, computer and network security, security protocols, and applied cryptography"
         }
       ],
       "potential_gaps": [
         {
-          "skill": "edr",
+          "skill": "infrastructure as code",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "Manage and enhance email security, endpoint security posture (EDR, configuration, and management), GitHub administration best practices, and internal security tooling to strengthen Vercel's overall security framework"
+          "evidence": "Understanding of modern cloud technology components and deployment patterns: CI/CD, virtual machines, containers, Kubernetes, serverless, infrastructure as code, etc"
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Understanding of modern cloud technology components and deployment patterns: CI/CD, virtual machines, containers, Kubernetes, serverless, infrastructure as code, etc"
         }
       ],
       "optional_gaps": [],
       "score_breakdown": {
         "role_alignment": 16,
-        "skills": 13,
+        "skills": 10,
         "experience": 10,
         "location": 15,
-        "language": 10,
-        "seniority": 10,
+        "language": 4,
+        "seniority": 4,
         "education": 3
       },
       "match_reasons": [
-        "Role family: Security Engineering.",
-        "Berlin hybrid role.",
-        "Evidenced matches include frida, python, security automation."
+        "Role family: Cloud Security / DevSecOps.",
+        "Berlin hybrid role."
       ],
       "warnings": [
-        "Mandatory gaps: aws, bash, cloud security, detection engineering, git, go",
-        "Potential gaps: edr",
-        "Exposure only; do not claim deep expertise: aws, cloud security, git, incident response, nist, security auditing",
-        "Multiple explicitly mandatory skills are not evidenced"
+        "German requested; level/strictness unclear",
+        "Mandatory gaps: network security",
+        "Potential gaps: infrastructure as code, kubernetes",
+        "Exposure only; do not claim deep expertise: ci/cd, cloud security, devsecops, network security",
+        "Senior title is above the profile's current 2+ years",
+        "At least one explicitly mandatory skill has exposure only"
       ],
-      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "About Vercel: Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience. Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. About the Role: We are looking for a Security Engineer to join our Detection Response team. In this role, you will be responsible for managing Vercel’s internal Corporate Security (CorpSec) posture, monitoring for security anomalies, building additional detections and visibility mechanisms, and ensuring the overall security of our internal systems. You will work closely with various teams to support audits, optimize visibility, and handle security incidents as they arise. If you’re based within a pre-determined commuting distance of one of our offices (SF, NY, London, or Berlin), the role includes in-office anchor days on Monday, Tuesday, and Friday. If you're located beyond that distance, the role is fully remote. For location-specific details, please connect w…"
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "The role HelloFresh is the world leader in meal-kits and one of Germany's biggest and fastest growing publicly traded companies. Join the Hellofresh security team to help to maintain the highest security standards within the industry. In this role you will join the Cloud Security Team, which is responsible for providing infrastructure security solutions at scale through automation. Above all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you. What you’ll do Enhance the security posture of HelloFresh’s cloud infrastructure and services, hardening them against abuse and nefarious activities Secure containers, CI/CD pipelines and implement guardrails for the developers aligned with the DevSecOps principles Automate procedures and develop products to improve the Security posture of HelloFresh’s infrastructure Design and operate scalable processes to provision cloud access and maintain least-privilege Mentor and train your peers on the best practices in security…"
     },
     {
-      "report_number": 5,
+      "report_number": 2,
       "job_key": "32c54022816bcac2a151",
       "status": "NEW",
       "application_status": "NEW",
@@ -825,7 +351,7 @@
       "description_excerpt": "About Kestra Kestra is the universal orchestration platform: open source, declarative, and designed to orchestrate data pipelines, IT automation, business workflows, and AI/agentic systems. Trusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale. The open-source project has close to 30,000 GitHub stars, hundreds of contributors, and a fast-growing global community. About the role Kestra runs arbitrary, user-defined code at scale. Our users write workflows that execute scripts, containers, and queries against their own production systems, through hundreds of community-built plugins, on a platform whose entire source code is public. That is an unusually rich attack surface, and securing it is a genuinely hard engineering problem rather than a checklist exercise. You would be our first dedicated security hire. We're looking for a Senior Security Engineer to own and elevate the end-to-end security posture of our platform, infrastructure, and open-source ecosystem. This is a unique, hybrid role for someone who excels at both sides of security: actively breaking systems to fin…"
     },
     {
-      "report_number": 6,
+      "report_number": 3,
       "job_key": "49da14a46b0c8770f5f3",
       "status": "NEW",
       "application_status": "NEW",
@@ -1005,7 +531,7 @@
       "description_excerpt": "Zentso builds and operates CloudToolz, a revenue-critical SaaS platform layered on top of iMIS RiSE association management software, serving clients across the UK, Europe, United States, and Asia Pacific. The platform encompasses workflow automation, form building, CRM, CMS, and payment processing capabilities delivered to organisations in multiple sectors. We are seeking a motivated IT Infrastructure and Security Engineer to support the global infrastructure and security posture underpinning CloudToolz and Zentso's internal systems. This is a hands-on, junior-to-mid-level role working closely with the IT Infrastructure and Security Lead and the CTO, assisting with day-to-day operations, security tasks, and the ongoing migration toward a containerised, Kubernetes-based deployment model. The successful candidate will be comfortable working across a distributed, multi-region environment, contributing directly to uptime, security, and compliance outcomes for a production platform. A key part of this role is supporting Zentso's transition to Kubernetes and helping build out an observability practice around Grafana OSS, alongside contributing scripts and small applications that automat…"
     },
     {
-      "report_number": 7,
+      "report_number": 4,
       "job_key": "6e733992a361e341e6e6",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1151,7 +677,7 @@
       "description_excerpt": "Distribusion is the world’s leading ground transportation marketplace and gives travellers seamless access to ground transportation online, from search to ticket purchase. We have built a cutting-edge B2B technology platform that connects bus, rail and ferry operators in 70+ countries with the biggest online retailers including Google Maps and Booking.com. We are shaping the future of travel and building the largest global network of transport providers and retailers. We are one of the fastest growing startups in travel, backed by leading venture capital investors including TQ Ventures, Lightrock, Creandum, and Northzone, and are headquartered in Berlin, Germany. Following our recent $80m Series C funding, we are ready to push beyond. We are looking for our first dedicated Application Security Engineer to build our AppSec practice from the ground up. This is a greenfield opportunity with a real attack surface: public partner-facing APIs, payment flows, and active bug bounties. You will own secure development, define what gets reviewed, implement security gates, build the \"paved road\" for ~150 engineers, and see the impact of your work in production within weeks. What you will do:…"
     },
     {
-      "report_number": 8,
+      "report_number": 5,
       "job_key": "57712ed3d56671484e37",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1266,7 +792,7 @@
       "description_excerpt": "We are MOTOR Ai. Our mission is to make Level 4 autonomous driving a reality in Germany and beyond. By combining state-of-the-art AI with the expertise of our multidisciplinary team, we are poised to introduce the first solution of its kind in Germany that is eligible for certification on European roads. Since 2017, we have been steadfastly pursuing a single goal: to shape a future that is already in motion. Tasks Plan, design, and structure our corporate network end-to-end - hardware and software alike Monitor, maintain, and support the network infrastructure to ensure high availability across the company Implement and continuously monitor security measures to protect the network against unauthorized access Monitor system performance and network integrity, spotting bottlenecks and issues before they become problems Manage user accounts, permissions, and access rights Analyze and resolve network issues, including hands-on troubleshooting and performance tuning Own regular maintenance, patching, and system hygiene Create and maintain clear documentation of network configurations Prepare and maintain documentation relevant to certifications and compliance frameworks such as NIS2 and…"
     },
     {
-      "report_number": 9,
+      "report_number": 6,
       "job_key": "cc78a757c373716678d7",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1427,6 +953,424 @@
       "description_excerpt": "YGO.ai is a VC-funded AI tourism platform. We are hiring a Cloud Security Engineer to own the security of our cloud platform, the APIs our enterprise clients run on and the company itself. 🛡️ About this role. The role carries two things at once. You own security engineering directly and hands-on. You build the security function around it as we grow. At YGO a pod lead is a squad leader and a spokesperson, close to the work and close to the client, rather than a full-time manager. You will not stop being an engineer. The work is broad. You might review source code in the morning, investigate an endpoint alert after lunch and help design a new authentication flow the next day. You identify the highest-risk problems, decide what happens first and execute. We serve major travel enterprises and we have enterprise commitments going live from the start of 2027. Security is a condition of that business, not a layer added afterwards. 🧑‍💻 What you'll own Application security. Hands-on code and architecture review across our APIs, backend services and internal tooling. Targeted penetration testing to validate issues yourself. Working with engineers on root causes and practical fixes rather th…"
     },
     {
+      "report_number": 7,
+      "job_key": "8284e91e3afc1425ab11",
+      "status": "SEEN_BEFORE",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 72,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "Mandatory experience requirement is 4+ years",
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "score_label": "REVIEW",
+      "title": "Security Software Engineer, Open Source Frameworks",
+      "company": "Vercel",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin hybrid role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Hybrid"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Hybrid",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "medium",
+        "evidence": [
+          "security engineering",
+          "vulnerability"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6117204004",
+      "apply_url": "https://job-boards.greenhouse.io/vercel/jobs/6117204004",
+      "canonical_url": "https://job-boards.greenhouse.io/vercel/jobs/6117204004",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "ats": "greenhouse",
+      "priority_employer": true,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-09-24T18:14:50Z",
+      "posting_age_days": 2,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 2,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": "4+ years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "vulnerability assessment"
+        ],
+        "partial": [
+          "javascript"
+        ],
+        "missing": [
+          "bug bounty",
+          "rust",
+          "vulnerability disclosure program"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "javascript",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "You can read framework internals, not just application code: Strong JavaScript/TypeScript fundamentals and genuine familiarity with how modern meta-frameworks work under the hood (routing, SSR/RSC, middleware, bundling/build systems)."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "bug bounty",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "This includes hands-on ownership of Vercel's open source bug bounty program for these projects: triaging incoming reports, validating and reproducing findings, and driving fixes with the right maintainers."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide."
+        },
+        {
+          "skill": "vulnerability disclosure program",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Own vulnerability disclosure and CVEs: Triage security reports from the community and researchers across Turborepo, Nuxt, Svelte/SvelteKit, SWR, Workflow, Nitro, and other maintained OSS projects."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 10,
+        "experience": 8,
+        "location": 15,
+        "language": 10,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "Berlin hybrid role.",
+        "Evidenced matches include vulnerability assessment."
+      ],
+      "warnings": [
+        "Requests 4+ years versus approximately 2.1 years in the profile.",
+        "Mandatory gaps: javascript",
+        "Potential gaps: bug bounty, rust, vulnerability disclosure program",
+        "Exposure only; do not claim deep expertise: javascript",
+        "Mandatory experience requirement is 4+ years",
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "About Vercel: Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience. Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. About The Role: Vercel builds and maintains a broad portfolio of open source projects that power the modern web, running in millions of applications. Your primary focus will be Turborepo, Nuxt, Svelte/SvelteKit, SWR, Workflow, and Nitro. A single structural fix at the framework level protects every one of those applications at once, which makes this one of the highest-leverage security roles at the company. We're looking for a security engineer who loves finding a whole class of vulnerability and eliminating it in one move, not someone who's satisfied filing one bug at a time. You'll run deep security assessments of framework internals (routing, middleware, caching, server actions, the build pipeline), find the systemic patterns that produce entire families of b…"
+    },
+    {
+      "report_number": 8,
+      "job_key": "9e8e071b253d6d6eb5ba",
+      "status": "SEEN_BEFORE",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 73,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "Senior title is above the profile's current 2+ years",
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "score_label": "REVIEW",
+      "title": "Senior Security Software Engineer, v0",
+      "company": "Vercel",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin hybrid role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Hybrid"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Hybrid",
+      "role_family": {
+        "id": "product_security",
+        "label": "Product Security",
+        "priority": 1,
+        "confidence": "medium",
+        "evidence": [
+          "product security",
+          "threat model"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6117209004",
+      "apply_url": "https://job-boards.greenhouse.io/vercel/jobs/6117209004",
+      "canonical_url": "https://job-boards.greenhouse.io/vercel/jobs/6117209004",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "ats": "greenhouse",
+      "priority_employer": true,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-09-24T17:54:46Z",
+      "posting_age_days": 2,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 2,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "application security"
+        ],
+        "partial": [
+          "javascript",
+          "product security",
+          "software development"
+        ],
+        "missing": [
+          "bug bounty",
+          "go",
+          "rust"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "product security",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Partner with central Product Security: Share threat models, incident learnings, and SDLC tooling with the broader security team, while making the final call on v0-specific tradeoffs since you have the deepest context on the product."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "bug bounty",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Relevant security certifications (OSCP, OSWE) or notable bug bounty / CTF history."
+        },
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Willing to build with v0, not just secure it: You're happy to actually go use v0 to build things and understand how our products work end to end, not just read the code from the outside."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 20,
+        "skills": 11,
+        "experience": 10,
+        "location": 15,
+        "language": 10,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Product Security.",
+        "Berlin hybrid role.",
+        "Evidenced matches include application security."
+      ],
+      "warnings": [
+        "Mandatory gaps: product security",
+        "Potential gaps: bug bounty, go, rust",
+        "Exposure only; do not claim deep expertise: javascript, product security, software development",
+        "Senior title is above the profile's current 2+ years",
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "About Vercel: Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience. Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. About the role v0 turns natural language into working, deployed applications. An agent writes code, executes it, and ships it on a user's behalf. That makes v0 one of the most interesting and highest-stakes security surfaces at Vercel: sandboxed code execution, multi-tenant isolation, permission boundaries between what a user asked for and what the agent actually did, and resistance to prompt injection and tool misuse. We're looking for a Senior (IC4) software engineer with a strong security background to sit fully embedded inside the v0 team, not as a rotating auditor who reviews designs and files tickets, but as a peer engineer who owns security end to end for everything v0 ships. That means finding and fixing vulnerabilities yourself, building security featur…"
+    },
+    {
+      "report_number": 9,
+      "job_key": "c1ab5b22feaa0afc7ed6",
+      "status": "SEEN_BEFORE",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 83,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "score_label": "REVIEW",
+      "title": "Product Security Engineer",
+      "company": "Vercel",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin hybrid role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Hybrid"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Hybrid",
+      "role_family": {
+        "id": "product_security",
+        "label": "Product Security",
+        "priority": 1,
+        "confidence": "high",
+        "evidence": [
+          "product security",
+          "product security",
+          "threat model"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6102343004",
+      "apply_url": "https://job-boards.greenhouse.io/vercel/jobs/6102343004",
+      "canonical_url": "https://job-boards.greenhouse.io/vercel/jobs/6102343004",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "ats": "greenhouse",
+      "priority_employer": true,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-09-24T17:27:58Z",
+      "posting_age_days": 2,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 2,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "frida",
+          "penetration testing",
+          "security automation",
+          "security testing",
+          "threat modeling",
+          "vulnerability triage"
+        ],
+        "partial": [
+          "javascript",
+          "product security",
+          "software development"
+        ],
+        "missing": [
+          "bug bounty",
+          "go",
+          "rust",
+          "vulnerability disclosure program"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "javascript",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Web tech stack proficiency: Strong familiarity with JavaScript/TypeScript and Node.js runtime security, and modern web frameworks (ideally Next.js or React and Node-based frameworks), so you can read and validate the code your tooling is analyzing."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "bug bounty",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Traditional product security teams work one report at a time: a person triages a bug bounty submission, validates it, reproduces it, and hands it off for a fix."
+        },
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "And we want to go beyond triage."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide."
+        },
+        {
+          "skill": "vulnerability disclosure program",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Have experience running or triaging a bug bounty / vulnerability disclosure program."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 20,
+        "skills": 15,
+        "experience": 10,
+        "location": 15,
+        "language": 10,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Product Security.",
+        "Berlin hybrid role.",
+        "Evidenced matches include frida, penetration testing, security automation, security testing, threat modeling."
+      ],
+      "warnings": [
+        "Mandatory gaps: javascript",
+        "Potential gaps: bug bounty, go, rust, vulnerability disclosure program",
+        "Exposure only; do not claim deep expertise: javascript, product security, software development",
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "About Vercel: Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience. Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. About the Role: Traditional product security teams work one report at a time: a person triages a bug bounty submission, validates it, reproduces it, and hands it off for a fix. That doesn't scale past a certain volume, and Vercel is well past it. Adding more triagers doesn't close that gap. Building the systems that triage at that scale does. This role is about building that system. Your core focus is tooling that triages and validates bug bounty and other externally reported security findings at scale, reasoning about validity, severity, and reproducibility the way a human triager would, but continuously and at volume. And we want to go beyond triage. The real leverage is in connecting a validated finding to its root cause and driving the fix, ideally with the…"
+    },
+    {
       "report_number": 10,
       "job_key": "521c71dc83dfa3787db3",
       "status": "SEEN_BEFORE",
@@ -1481,14 +1425,14 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-18T10:05:38Z",
-      "posting_age_days": 7,
+      "posting_age_days": 9,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 7,
-        "category": "recent",
-        "label": "RECENT"
+        "age_days": 9,
+        "category": "current",
+        "label": "OPEN FOR REVIEW"
       },
-      "urgency": "RECENT",
+      "urgency": "OPEN FOR REVIEW",
       "first_seen": "2026-08-15T04:18:44Z",
       "experience_required": null,
       "german_requirement": "German is preferred/nice-to-have",
@@ -1633,10 +1577,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-11T10:13:09Z",
-      "posting_age_days": 14,
+      "posting_age_days": 16,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 14,
+        "age_days": 16,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1761,10 +1705,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-08T13:42:17Z",
-      "posting_age_days": 16,
+      "posting_age_days": 18,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 16,
+        "age_days": 18,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2049,10 +1993,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-02T08:33:39Z",
-      "posting_age_days": 23,
+      "posting_age_days": 25,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 23,
+        "age_days": 25,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2995,10 +2939,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-08T13:42:15Z",
-      "posting_age_days": 16,
+      "posting_age_days": 18,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 16,
+        "age_days": 18,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -3158,19 +3102,18 @@
     },
     {
       "report_number": 23,
-      "job_key": "61f504a1b399ea41dd23",
+      "job_key": "59039a1f42a8c045cc25",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
-      "score": 62,
-      "raw_score": 62,
-      "score_cap": 69,
+      "score": 59,
+      "raw_score": 77,
+      "score_cap": 59,
       "score_cap_reasons": [
-        "Senior title is above the profile's current 2+ years",
-        "At least one explicitly mandatory skill has exposure only"
+        "Multiple explicitly mandatory skills are not evidenced"
       ],
-      "score_label": "REVIEW",
-      "title": "Senior Cloud Security Engineer (m,f,x)",
-      "company": "HelloFresh",
+      "score_label": "STRETCH",
+      "title": "Security Engineer, Detection Response",
+      "company": "Vercel",
       "location": "Berlin, Germany",
       "location_analysis": {
         "category": "eligible_berlin",
@@ -3185,24 +3128,23 @@
       "location_scope": "Berlin",
       "working_model": "Hybrid",
       "role_family": {
-        "id": "cloud_devsecops",
-        "label": "Cloud Security / DevSecOps",
+        "id": "security_engineering",
+        "label": "Security Engineering",
         "priority": 2,
         "confidence": "high",
         "evidence": [
-          "cloud security",
-          "cloud security",
-          "devsecops"
+          "security engineer",
+          "security controls"
         ]
       },
       "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
       },
-      "url": "https://careers.hellofresh.com/global/en/job/8095941?gh_jid=8095941",
-      "apply_url": "https://careers.hellofresh.com/global/en/job/8095941?gh_jid=8095941",
-      "canonical_url": "https://careers.hellofresh.com/global/en/job/8095941?gh_jid=8095941",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6111332004",
+      "apply_url": "https://job-boards.greenhouse.io/vercel/jobs/6111332004",
+      "canonical_url": "https://job-boards.greenhouse.io/vercel/jobs/6111332004",
       "source": "Greenhouse",
       "sources": [
         "Greenhouse"
@@ -3212,78 +3154,137 @@
       "lead_type": "",
       "post_author": "",
       "feed_name": "",
-      "published_at": "2026-09-11T14:18:45Z",
-      "posting_age_days": 13,
+      "published_at": "2026-09-24T21:18:47Z",
+      "posting_age_days": 2,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 13,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
+        "age_days": 2,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
       },
-      "urgency": "OPEN FOR REVIEW",
-      "first_seen": "2026-08-16T21:45:22Z",
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-08-15T04:18:44Z",
       "experience_required": null,
-      "german_requirement": "German requested; level/strictness unclear",
+      "german_requirement": "No German requirement detected",
       "skill_matches": {
-        "match": [],
+        "match": [
+          "frida",
+          "python",
+          "security automation"
+        ],
         "partial": [
-          "ci/cd",
+          "aws",
           "cloud security",
-          "devsecops",
-          "network security"
+          "git",
+          "incident response",
+          "nist",
+          "security auditing",
+          "siem"
         ],
         "missing": [
-          "infrastructure as code",
-          "kubernetes"
+          "bash",
+          "detection engineering",
+          "edr",
+          "go",
+          "rust"
         ],
-        "nice_to_have": []
+        "nice_to_have": [
+          "api security (match)"
+        ]
       },
       "mandatory_gaps": [
         {
-          "skill": "network security",
+          "skill": "aws",
           "profile_status": "partial",
           "requirement": "mandatory",
-          "evidence": "Knowledge of security engineering, computer and network security, security protocols, and applied cryptography"
+          "evidence": "Strong knowledge of AWS infrastructure and cloud security best practices."
+        },
+        {
+          "skill": "bash",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Proficiency in at least one scripting language (Python, Bash) and one compiled language (Rust, Go)."
+        },
+        {
+          "skill": "cloud security",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Strong knowledge of AWS infrastructure and cloud security best practices."
+        },
+        {
+          "skill": "detection engineering",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Extensive experience in security operations, including SIEM management, security logging, and detection engineering."
+        },
+        {
+          "skill": "git",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Experience with GitHub administration and security controls."
+        },
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Proficiency in at least one scripting language (Python, Bash) and one compiled language (Rust, Go)."
+        },
+        {
+          "skill": "incident response",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Hands-on experience with incident response, including detection, triage, and remediation."
+        },
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Experience with GitHub administration and security controls."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Proficiency in at least one scripting language (Python, Bash) and one compiled language (Rust, Go)."
+        },
+        {
+          "skill": "siem",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Extensive experience in security operations, including SIEM management, security logging, and detection engineering."
         }
       ],
       "potential_gaps": [
         {
-          "skill": "infrastructure as code",
+          "skill": "edr",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "Understanding of modern cloud technology components and deployment patterns: CI/CD, virtual machines, containers, Kubernetes, serverless, infrastructure as code, etc"
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Understanding of modern cloud technology components and deployment patterns: CI/CD, virtual machines, containers, Kubernetes, serverless, infrastructure as code, etc"
+          "evidence": "Manage and enhance email security, endpoint security posture (EDR, configuration, and management), GitHub administration best practices, and internal security tooling to strengthen Vercel's overall security framework"
         }
       ],
       "optional_gaps": [],
       "score_breakdown": {
         "role_alignment": 16,
-        "skills": 10,
+        "skills": 13,
         "experience": 10,
         "location": 15,
-        "language": 4,
-        "seniority": 4,
+        "language": 10,
+        "seniority": 10,
         "education": 3
       },
       "match_reasons": [
-        "Role family: Cloud Security / DevSecOps.",
-        "Berlin hybrid role."
+        "Role family: Security Engineering.",
+        "Berlin hybrid role.",
+        "Evidenced matches include frida, python, security automation."
       ],
       "warnings": [
-        "German requested; level/strictness unclear",
-        "Mandatory gaps: network security",
-        "Potential gaps: infrastructure as code, kubernetes",
-        "Exposure only; do not claim deep expertise: ci/cd, cloud security, devsecops, network security",
-        "Senior title is above the profile's current 2+ years",
-        "At least one explicitly mandatory skill has exposure only"
+        "Mandatory gaps: aws, bash, cloud security, detection engineering, git, go",
+        "Potential gaps: edr",
+        "Exposure only; do not claim deep expertise: aws, cloud security, git, incident response, nist, security auditing",
+        "Multiple explicitly mandatory skills are not evidenced"
       ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "The role HelloFresh is the world leader in meal-kits and one of Germany's biggest and fastest growing publicly traded companies. Join the Hellofresh security team to help to maintain the highest security standards within the industry. In this role you will join the Cloud Security Team, which is responsible for providing infrastructure security solutions at scale through automation. Above all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you. What you’ll do Enhance the security posture of HelloFresh’s cloud infrastructure and services, hardening them against abuse and nefarious activities Secure containers, CI/CD pipelines and implement guardrails for the developers aligned with the DevSecOps principles Automate procedures and develop products to improve the Security posture of HelloFresh’s infrastructure Design and operate scalable processes to provision cloud access and maintain least-privilege Mentor and train your peers on the best practices in security…"
+      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
+      "description_excerpt": "About Vercel: Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience. Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. About the Role: We are looking for a Security Engineer to join our Detection Response team. In this role, you will be responsible for managing Vercel’s internal Corporate Security (CorpSec) posture, monitoring for security anomalies, building additional detections and visibility mechanisms, and ensuring the overall security of our internal systems. You will work closely with various teams to support audits, optimize visibility, and handle security incidents as they arise. If you’re based within a pre-determined commuting distance of one of our offices (SF, NY, London, or Berlin), the role includes in-office anchor days on Monday, Tuesday, and Friday. If you're located beyond that distance, the role is fully remote. For location-specific details, please connect w…"
     },
     {
       "report_number": 24,
@@ -3340,10 +3341,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-08T13:42:17Z",
-      "posting_age_days": 16,
+      "posting_age_days": 18,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 16,
+        "age_days": 18,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -3505,10 +3506,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-02T12:52:21Z",
-      "posting_age_days": 22,
+      "posting_age_days": 24,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 22,
+        "age_days": 24,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -3850,10 +3851,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-05T12:52:42Z",
-      "posting_age_days": 50,
+      "posting_age_days": 52,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 50,
+        "age_days": 52,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -4522,10 +4523,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-21T13:37:09Z",
-      "posting_age_days": 33,
+      "posting_age_days": 36,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 33,
+        "age_days": 36,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -4649,7 +4650,7 @@
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 1100,
+      "jobs": 1250,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -4657,7 +4658,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 19,
+      "jobs": 18,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -4673,182 +4674,74 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 5940,
-      "requests": 60,
+      "jobs": 21206,
+      "requests": 167,
       "errors": [],
       "error": "",
-      "companies_checked": 60,
-      "companies_successful": 60,
+      "companies_checked": 167,
+      "companies_successful": 167,
       "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 206,
-      "requests": 9,
+      "jobs": 415,
+      "requests": 13,
       "errors": [],
       "error": "",
-      "companies_checked": 9,
-      "companies_successful": 9,
+      "companies_checked": 13,
+      "companies_successful": 13,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 78,
+      "jobs": 1199,
+      "requests": 6,
+      "errors": [],
+      "error": "",
+      "companies_checked": 6,
+      "companies_successful": 6,
+      "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 196,
+      "requests": 7,
+      "errors": [],
+      "error": "",
+      "companies_checked": 7,
+      "companies_successful": 7,
+      "companies_failed": 0
+    },
+    "recruitee": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 5,
       "requests": 2,
       "errors": [],
       "error": "",
       "companies_checked": 2,
       "companies_successful": 2,
       "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 166,
-      "requests": 3,
-      "errors": [],
-      "error": "",
-      "companies_checked": 3,
-      "companies_successful": 3,
-      "companies_failed": 0
-    },
-    "recruitee": {
-      "status": "idle",
-      "ok": true,
-      "jobs": 0,
-      "requests": 0,
-      "errors": [],
-      "error": "",
-      "companies_checked": 0,
-      "companies_successful": 0,
-      "companies_failed": 0
     }
   },
   "all_sources_failed": false,
   "employer_scan": {
-    "mode": "daily",
-    "generated_at": "2026-09-25T10:25:16Z",
+    "mode": "full",
+    "generated_at": "2026-09-27T11:08:18Z",
     "sources": {
       "greenhouse": {
         "source": "greenhouse",
-        "mode": "daily",
-        "batch_index": 4,
+        "mode": "full",
+        "batch_index": null,
         "configured_enabled": 172,
         "priority_configured": 34,
-        "selected": 60,
-        "skipped_by_rotation": 107,
+        "selected": 167,
+        "skipped_by_rotation": 0,
         "skipped_by_cooldown": 5,
-        "rotation_skip_keys": [
-          "greenhouse:abnormalsecurity",
-          "greenhouse:adahealth",
-          "greenhouse:affirm",
-          "greenhouse:airbnb",
-          "greenhouse:airspace",
-          "greenhouse:airtable",
-          "greenhouse:algolia",
-          "greenhouse:amplitude",
-          "greenhouse:anthropic",
-          "greenhouse:applovin",
-          "greenhouse:bitgo",
-          "greenhouse:bitpanda",
-          "greenhouse:block",
-          "greenhouse:brex",
-          "greenhouse:bridgebio",
-          "greenhouse:bugcrowd",
-          "greenhouse:calm",
-          "greenhouse:carta",
-          "greenhouse:chainguard",
-          "greenhouse:charterup",
-          "greenhouse:chime",
-          "greenhouse:circleci",
-          "greenhouse:civicnation",
-          "greenhouse:cloudflare",
-          "greenhouse:cockroachlabs",
-          "greenhouse:coinbase",
-          "greenhouse:cultureamp",
-          "greenhouse:databricks",
-          "greenhouse:datadog",
-          "greenhouse:dialpad",
-          "greenhouse:discord",
-          "greenhouse:dropbox",
-          "greenhouse:duolingo",
-          "greenhouse:elastic",
-          "greenhouse:epicgames",
-          "greenhouse:faire",
-          "greenhouse:fastly",
-          "greenhouse:figma",
-          "greenhouse:fireblocks",
-          "greenhouse:fivetran",
-          "greenhouse:flatironhealth",
-          "greenhouse:gemini",
-          "greenhouse:gleanwork",
-          "greenhouse:grafanalabs",
-          "greenhouse:greenhouse",
-          "greenhouse:gusto",
-          "greenhouse:huntress",
-          "greenhouse:imply",
-          "greenhouse:instacart",
-          "greenhouse:intercom",
-          "greenhouse:justworks",
-          "greenhouse:khanacademy",
-          "greenhouse:klanggames",
-          "greenhouse:lattice",
-          "greenhouse:locusrobotics",
-          "greenhouse:lookoutinc",
-          "greenhouse:lucidsoftware",
-          "greenhouse:lyft",
-          "greenhouse:mavenclinic",
-          "greenhouse:melio",
-          "greenhouse:mercury",
-          "greenhouse:mongodb",
-          "greenhouse:newrelic",
-          "greenhouse:nuro",
-          "greenhouse:oscar",
-          "greenhouse:peloton",
-          "greenhouse:pinterest",
-          "greenhouse:planetscale",
-          "greenhouse:precisionmedicinegroup",
-          "greenhouse:pulley",
-          "greenhouse:raisin",
-          "greenhouse:recursionpharmaceuticals",
-          "greenhouse:reddit",
-          "greenhouse:remotecom",
-          "greenhouse:riotgames",
-          "greenhouse:ripple",
-          "greenhouse:robinhood",
-          "greenhouse:roblox",
-          "greenhouse:salesloft",
-          "greenhouse:samsara",
-          "greenhouse:scaleai",
-          "greenhouse:scopely",
-          "greenhouse:singlestore",
-          "greenhouse:sixgeninc",
-          "greenhouse:sofi",
-          "greenhouse:spacex",
-          "greenhouse:squarespace",
-          "greenhouse:stabilityai",
-          "greenhouse:starburst",
-          "greenhouse:stripe",
-          "greenhouse:stubhubinc",
-          "greenhouse:sweetgreen",
-          "greenhouse:tanium",
-          "greenhouse:thirdbridge",
-          "greenhouse:togetherai",
-          "greenhouse:twitch",
-          "greenhouse:upstart",
-          "greenhouse:veeamsoftware",
-          "greenhouse:verkada",
-          "greenhouse:waymo",
-          "greenhouse:wizinc",
-          "greenhouse:wolt",
-          "greenhouse:wooga",
-          "greenhouse:xai",
-          "greenhouse:yugabyte",
-          "greenhouse:zetaglobal",
-          "greenhouse:zoominfo"
-        ],
+        "rotation_skip_keys": [],
         "cooldown_skip_keys": [
           "greenhouse:clickhouse",
           "greenhouse:solarisbank",
@@ -4859,103 +4752,102 @@
       },
       "ashby": {
         "source": "ashby",
-        "mode": "daily",
-        "batch_index": 4,
+        "mode": "full",
+        "batch_index": null,
         "configured_enabled": 13,
         "priority_configured": 8,
-        "selected": 9,
-        "skipped_by_rotation": 4,
+        "selected": 13,
+        "skipped_by_rotation": 0,
         "skipped_by_cooldown": 0,
-        "rotation_skip_keys": [
-          "ashby:choco",
-          "ashby:enpal",
-          "ashby:langdock",
-          "ashby:n8n"
-        ],
+        "rotation_skip_keys": [],
         "cooldown_skip_keys": []
       },
       "lever": {
         "source": "lever",
-        "mode": "daily",
-        "batch_index": 4,
+        "mode": "full",
+        "batch_index": null,
         "configured_enabled": 6,
         "priority_configured": 2,
-        "selected": 2,
-        "skipped_by_rotation": 4,
+        "selected": 6,
+        "skipped_by_rotation": 0,
         "skipped_by_cooldown": 0,
-        "rotation_skip_keys": [
-          "lever:olx",
-          "lever:saviynt",
-          "lever:veeva",
-          "lever:westernacher"
-        ],
+        "rotation_skip_keys": [],
         "cooldown_skip_keys": []
       },
       "personio": {
         "source": "personio",
-        "mode": "daily",
-        "batch_index": 4,
+        "mode": "full",
+        "batch_index": null,
         "configured_enabled": 7,
         "priority_configured": 3,
-        "selected": 3,
-        "skipped_by_rotation": 4,
+        "selected": 7,
+        "skipped_by_rotation": 0,
         "skipped_by_cooldown": 0,
-        "rotation_skip_keys": [
-          "personio:dnsnet",
-          "personio:liveeo-gmbh",
-          "personio:perseus",
-          "personio:syseleven"
-        ],
+        "rotation_skip_keys": [],
         "cooldown_skip_keys": []
       },
       "recruitee": {
         "source": "recruitee",
-        "mode": "daily",
-        "batch_index": 4,
+        "mode": "full",
+        "batch_index": null,
         "configured_enabled": 2,
         "priority_configured": 0,
-        "selected": 0,
-        "skipped_by_rotation": 2,
+        "selected": 2,
+        "skipped_by_rotation": 0,
         "skipped_by_cooldown": 0,
-        "rotation_skip_keys": [
-          "recruitee:cygridgmbh",
-          "recruitee:dransay"
-        ],
+        "rotation_skip_keys": [],
         "cooldown_skip_keys": []
       }
     }
   },
   "rejection_summary": {
-    "The vacancy has an explicit location outside Berlin/Germany-remote/Europe-remote/worldwide-remote scope": 104,
-    "Excluded seniority in title: Staff/Principal": 26,
-    "Excluded seniority in title: Management": 22,
-    "Germany role is on-site/hybrid outside Berlin; only Germany-remote roles are allowed": 13,
-    "Advanced/fluent German required": 12,
-    "Mandatory experience is too senior: 8+ years": 11,
-    "On-site role is not located in Berlin": 6,
-    "German C1 required": 6,
-    "Mandatory experience is too senior: 10+ years": 6,
-    "Excluded seniority in title: Executive": 6,
-    "Excluded seniority in title: Lead/Architect": 5,
-    "Hybrid role is not located in Berlin": 4,
+    "The vacancy has an explicit location outside Berlin/Germany-remote/Europe-remote/worldwide-remote scope": 509,
+    "Excluded seniority in title: Management": 108,
+    "Excluded seniority in title: Staff/Principal": 86,
+    "Mandatory experience is too senior: 8+ years": 57,
+    "On-site role is not located in Berlin": 51,
+    "Mandatory experience is too senior: 10+ years": 45,
+    "Excluded seniority in title: Lead/Architect": 33,
+    "Excluded seniority in title: Executive": 27,
+    "Hybrid role is not located in Berlin": 19,
+    "Advanced/fluent German required": 17,
+    "Germany role is on-site/hybrid outside Berlin; only Germany-remote roles are allowed": 12,
+    "Mandatory experience is too senior: 15+ years": 9,
+    "Mandatory experience is too senior: 12+ years": 4,
     "German C2 required": 4,
-    "Mandatory experience is too senior: 15+ years": 2,
+    "Excluded seniority/employment type in title: working student": 2,
+    "Student/internship-only employment type": 2,
     "Excluded seniority/employment type in title: chief information security officer": 2,
-    "Posting is too old: 364 days (maximum 120)": 2,
+    "Mandatory experience is too senior: 8-12 years": 2,
+    "Posting is too old: 135 days (maximum 120)": 2,
+    "Excluded seniority/employment type in title: security intern": 2,
+    "Posting is too old: 366 days (maximum 120)": 2,
+    "Vacancy text is predominantly German; the radar is limited to English-speaking roles": 1,
+    "German C1 required": 1,
+    "Insufficient cybersecurity relevance": 1,
+    "Mandatory experience is too senior: 8-15 years": 1,
+    "Mandatory experience is too senior: 8-10 years": 1,
+    "Posting is too old: 137 days (maximum 120)": 1,
     "Remote region is unclear; Germany, Europe/EU/EMEA, or worldwide eligibility is not explicit": 1,
-    "Excluded seniority/employment type in title: working student": 1,
-    "Mandatory experience is too senior: 12+ years": 1,
-    "Posting is too old: 170 days (maximum 120)": 1,
+    "Posting is too old: 373 days (maximum 120)": 1,
+    "Mandatory experience is too senior: 8-11 years": 1,
+    "Posting is too old: 172 days (maximum 120)": 1,
     "German proficiency required (level not stated)": 1,
-    "Posting is too old: 140 days (maximum 120)": 1,
     "Posting is too old: 142 days (maximum 120)": 1,
     "Posting is too old: 144 days (maximum 120)": 1,
-    "Posting is too old: 157 days (maximum 120)": 1,
-    "Posting is too old: 317 days (maximum 120)": 1,
-    "Posting is too old: 498 days (maximum 120)": 1,
-    "Posting is too old: 570 days (maximum 120)": 1,
-    "Posting is too old: 734 days (maximum 120)": 1,
-    "Posting is too old: 485 days (maximum 120)": 1,
-    "Posting is too old: 486 days (maximum 120)": 1
+    "Posting is too old: 146 days (maximum 120)": 1,
+    "Posting is too old: 191 days (maximum 120)": 1,
+    "Posting is too old: 206 days (maximum 120)": 1,
+    "Posting is too old: 198 days (maximum 120)": 1,
+    "Mandatory experience is too senior: 14+ years": 1,
+    "Posting is too old: 1361 days (maximum 120)": 1,
+    "Posting is too old: 159 days (maximum 120)": 1,
+    "Posting is too old: 319 days (maximum 120)": 1,
+    "Posting is too old: 500 days (maximum 120)": 1,
+    "Posting is too old: 573 days (maximum 120)": 1,
+    "Posting is too old: 736 days (maximum 120)": 1,
+    "Posting is too old: 487 days (maximum 120)": 1,
+    "Posting is too old: 488 days (maximum 120)": 1,
+    "Posting is too old: 195 days (maximum 120)": 1
   }
 }

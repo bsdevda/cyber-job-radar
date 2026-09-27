@@ -1291,26 +1291,26 @@
     },
     {
       "week_start": "2026-09-21",
-      "generated_at": "2026-09-25T10:25:16Z",
-      "active_relevant_jobs": 13,
+      "generated_at": "2026-09-27T11:08:18Z",
+      "active_relevant_jobs": 14,
       "role_family_counts": {
-        "Security Engineering": 8,
+        "Security Engineering": 9,
         "Product Security": 4,
         "Cloud Security / DevSecOps": 1
       },
       "score_bands": {
         "60-69 review": 9,
-        "50-59 stretch": 4
+        "50-59 stretch": 5
       },
       "skill_gaps": {
         "mandatory": [
           {
             "skill": "go",
-            "jobs": 5
+            "jobs": 6
           },
           {
             "skill": "aws",
-            "jobs": 4
+            "jobs": 5
           },
           {
             "skill": "incident response",
@@ -1333,6 +1333,10 @@
             "jobs": 2
           },
           {
+            "skill": "cloud security",
+            "jobs": 2
+          },
+          {
             "skill": "git",
             "jobs": 2
           },
@@ -1341,22 +1345,18 @@
             "jobs": 2
           },
           {
-            "skill": "splunk",
-            "jobs": 1
+            "skill": "docker",
+            "jobs": 2
           },
           {
-            "skill": "network security",
-            "jobs": 1
-          },
-          {
-            "skill": "software development",
-            "jobs": 1
+            "skill": "kubernetes",
+            "jobs": 2
           }
         ],
         "potential": [
           {
             "skill": "rust",
-            "jobs": 7
+            "jobs": 8
           },
           {
             "skill": "edr",
@@ -1432,15 +1432,23 @@
           },
           {
             "skill": "aws",
-            "jobs": 5
+            "jobs": 6
+          },
+          {
+            "skill": "software development",
+            "jobs": 6
           },
           {
             "skill": "product security",
             "jobs": 5
           },
           {
-            "skill": "software development",
-            "jobs": 5
+            "skill": "ci/cd",
+            "jobs": 4
+          },
+          {
+            "skill": "cloud security",
+            "jobs": 4
           },
           {
             "skill": "siem",
@@ -1451,12 +1459,8 @@
             "jobs": 4
           },
           {
-            "skill": "ci/cd",
-            "jobs": 3
-          },
-          {
-            "skill": "cloud security",
-            "jobs": 3
+            "skill": "network security",
+            "jobs": 2
           },
           {
             "skill": "nist",
@@ -1464,10 +1468,6 @@
           },
           {
             "skill": "splunk",
-            "jobs": 2
-          },
-          {
-            "skill": "network security",
             "jobs": 2
           },
           {
