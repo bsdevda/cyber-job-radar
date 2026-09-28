@@ -1,14 +1,14 @@
 # Weekly Job Radar Analytics
 
-**Week starting:** 2026-09-21
-**Generated:** 2026-09-27T11:08:18Z
+**Week starting:** 2026-09-28
+**Generated:** 2026-09-28T11:53:18Z
 **Active relevant jobs:** 14
 
 ## Role-family demand
 
-- **Security Engineering:** 9
+- **Security Engineering:** 8
 - **Product Security:** 4
-- **Cloud Security / DevSecOps:** 1
+- **Cloud Security / DevSecOps:** 2
 
 ## Skill-gap signals
 
@@ -20,16 +20,16 @@
 - **siem:** 4 job(s)
 - **nist:** 2 job(s)
 - **detection engineering:** 2 job(s)
-- **javascript:** 2 job(s)
+- **bash:** 2 job(s)
+- **ci/cd:** 2 job(s)
 - **cloud security:** 2 job(s)
-- **git:** 2 job(s)
-- **rust:** 2 job(s)
-- **docker:** 2 job(s)
 - **kubernetes:** 2 job(s)
+- **javascript:** 2 job(s)
+- **git:** 2 job(s)
 
 ### Potential gaps
 
-- **rust:** 8 job(s)
+- **rust:** 7 job(s)
 - **edr:** 4 job(s)
 - **bug bounty:** 4 job(s)
 - **vulnerability disclosure program:** 4 job(s)
@@ -52,10 +52,10 @@
 
 ### Exposure-only skills
 
-- **incident response:** 7 job(s)
+- **incident response:** 8 job(s)
 - **aws:** 6 job(s)
-- **software development:** 6 job(s)
 - **product security:** 5 job(s)
+- **software development:** 5 job(s)
 - **ci/cd:** 4 job(s)
 - **cloud security:** 4 job(s)
 - **siem:** 4 job(s)
