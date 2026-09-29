@@ -1492,34 +1492,43 @@
     },
     {
       "week_start": "2026-09-28",
-      "generated_at": "2026-09-28T11:53:18Z",
-      "active_relevant_jobs": 14,
+      "generated_at": "2026-09-29T11:29:05Z",
+      "active_relevant_jobs": 16,
       "role_family_counts": {
-        "Security Engineering": 8,
+        "Security Engineering": 9,
         "Product Security": 4,
-        "Cloud Security / DevSecOps": 2
+        "Cloud Security / DevSecOps": 2,
+        "SOC / Detection and Response": 1
       },
       "score_bands": {
-        "60-69 review": 9,
-        "50-59 stretch": 5
+        "60-69 review": 10,
+        "50-59 stretch": 6
       },
       "skill_gaps": {
         "mandatory": [
+          {
+            "skill": "aws",
+            "jobs": 6
+          },
           {
             "skill": "go",
             "jobs": 6
           },
           {
-            "skill": "aws",
+            "skill": "incident response",
             "jobs": 5
           },
           {
-            "skill": "incident response",
-            "jobs": 4
+            "skill": "siem",
+            "jobs": 5
           },
           {
-            "skill": "siem",
-            "jobs": 4
+            "skill": "ci/cd",
+            "jobs": 3
+          },
+          {
+            "skill": "software development",
+            "jobs": 2
           },
           {
             "skill": "nist",
@@ -1534,10 +1543,6 @@
             "jobs": 2
           },
           {
-            "skill": "ci/cd",
-            "jobs": 2
-          },
-          {
             "skill": "cloud security",
             "jobs": 2
           },
@@ -1548,16 +1553,12 @@
           {
             "skill": "javascript",
             "jobs": 2
-          },
-          {
-            "skill": "git",
-            "jobs": 2
           }
         ],
         "potential": [
           {
             "skill": "rust",
-            "jobs": 7
+            "jobs": 8
           },
           {
             "skill": "edr",
@@ -1629,30 +1630,30 @@
         "partial_exposure": [
           {
             "skill": "incident response",
-            "jobs": 8
+            "jobs": 9
           },
           {
             "skill": "aws",
+            "jobs": 7
+          },
+          {
+            "skill": "software development",
             "jobs": 6
+          },
+          {
+            "skill": "siem",
+            "jobs": 5
+          },
+          {
+            "skill": "ci/cd",
+            "jobs": 5
           },
           {
             "skill": "product security",
             "jobs": 5
           },
           {
-            "skill": "software development",
-            "jobs": 5
-          },
-          {
-            "skill": "ci/cd",
-            "jobs": 4
-          },
-          {
             "skill": "cloud security",
-            "jobs": 4
-          },
-          {
-            "skill": "siem",
             "jobs": 4
           },
           {
