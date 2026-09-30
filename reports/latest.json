@@ -1,196 +1,41 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-29T11:29:05Z",
+  "generated_at": "2026-09-30T11:17:18Z",
   "summary": {
-    "generated_at": "2026-09-29T11:29:05Z",
+    "generated_at": "2026-09-30T11:17:18Z",
     "scoring_version": 2.2,
-    "jobs_collected": 6368,
-    "security_title_candidates": 194,
-    "prefiltered_non_security_jobs": 6174,
-    "unique_jobs_after_deduplication": 158,
-    "duplicates_removed": 36,
-    "jobs_rejected_or_below_threshold": 6316,
+    "jobs_collected": 8986,
+    "security_title_candidates": 312,
+    "prefiltered_non_security_jobs": 8674,
+    "unique_jobs_after_deduplication": 238,
+    "duplicates_removed": 74,
+    "jobs_rejected_or_below_threshold": 8896,
     "relevant_jobs_in_current_run": 16,
     "new_jobs": 2,
-    "updated_jobs": 4,
+    "updated_jobs": 1,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
     "sources_partial": 1,
-    "report_jobs": 33,
+    "report_jobs": 35,
     "jobs_by_source": {
       "arbeitnow": 1251,
       "remotive": 16,
       "linkedin_posts": 0,
-      "greenhouse": 4568,
-      "ashby": 203,
-      "lever": 160,
-      "personio": 170,
-      "recruitee": 0
+      "greenhouse": 6271,
+      "ashby": 224,
+      "lever": 1053,
+      "personio": 169,
+      "recruitee": 2
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 31.0
+    "workflow_duration_seconds": 33.7
   },
   "jobs": [
     {
       "report_number": 1,
-      "job_key": "57609de858cd85e028d6",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 69,
-      "raw_score": 74,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "score_label": "REVIEW",
-      "title": "Security Engineer (SOC) (m,f,x)",
-      "company": "HelloFresh",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin hybrid role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "Hybrid"
-      },
-      "location_scope": "Berlin",
-      "working_model": "Hybrid",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "security engineer",
-          "security controls"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://careers.hellofresh.com/global/en/job/8146740?gh_jid=8146740",
-      "apply_url": "https://careers.hellofresh.com/global/en/job/8146740?gh_jid=8146740",
-      "canonical_url": "https://careers.hellofresh.com/global/en/job/8146740?gh_jid=8146740",
-      "source": "Greenhouse",
-      "sources": [
-        "Greenhouse"
-      ],
-      "ats": "greenhouse",
-      "priority_employer": true,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-09-28T13:58:16Z",
-      "posting_age_days": 0,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 0,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-08-26T05:59:57Z",
-      "experience_required": "2+ years",
-      "german_requirement": "German requested; level/strictness unclear",
-      "skill_matches": {
-        "match": [
-          "security automation"
-        ],
-        "partial": [
-          "aws",
-          "incident response",
-          "siem",
-          "splunk"
-        ],
-        "missing": [
-          "edr",
-          "infrastructure as code",
-          "rust"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Security monitoring and incident response experience in public cloud environments such as AWS"
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Security monitoring and incident response experience in public cloud environments such as AWS"
-        },
-        {
-          "skill": "siem",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with cloud SIEM & SOAR platforms, DDoS mitigation and preventing tools and Layer-7 Web-based perimeter security controls"
-        },
-        {
-          "skill": "splunk",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with log analysis stacks like ElasticSearch, Splunk/SumoLogic"
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "edr",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Automate, optimize, automate and operate modern security solutions like EDR/EPPs and conventional Firewalls, IDS/IPS, Email Security, VPN, and MDM tools"
-        },
-        {
-          "skill": "infrastructure as code",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Decent programming skills to enable data processing, IaC and security automations"
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 11,
-        "experience": 15,
-        "location": 15,
-        "language": 4,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Security Engineering.",
-        "Berlin hybrid role.",
-        "Evidenced matches include security automation.",
-        "The detected experience requirement is within or close to the 2+ year profile."
-      ],
-      "warnings": [
-        "German requested; level/strictness unclear",
-        "Mandatory gaps: aws, incident response, siem, splunk",
-        "Potential gaps: edr, infrastructure as code, rust",
-        "Exposure only; do not claim deep expertise: aws, incident response, siem, splunk",
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "About the role: What's in the Box We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges. Security Engineers work in a variety of ways to constantly iterate and improve HelloFresh’s security posture. This role aims to improve the HelloFresh Security Logging & Monitoring Program by maturing the tools, processes and playbooks to reduce dwell time (indicators of which would be lowered MTTD&R). Above all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you. What You’ll Do: The Recipe Responsible for SOC monitoring, use-case building, triage and advisory using cloud-native SIEM platforms Conduct initial triage of security events and incidents and document progress throughout the Incident Response Lifecycle Automate, optimize, automate and operate modern security solutions like EDR/EPPs and conventional Firewalls, IDS/IPS, Email Security, VPN, and MDM tool…"
-    },
-    {
-      "report_number": 2,
       "job_key": "97e10fb205544ff97e76",
       "status": "NEW",
       "application_status": "NEW",
@@ -313,60 +158,61 @@
       "description_excerpt": "Who we are At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work, and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. . Hiring and how we work We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions! Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. . See yourself at Twilio Join the team as Twilio’s next Security Engineer, Incident Response About the job The Security Incident Response Team (SIRT) is looking for a Security Engineer who is passionate about solving Twi…"
     },
     {
-      "report_number": 3,
-      "job_key": "4afa9462370d50b6650c",
-      "status": "UPDATED",
+      "report_number": 2,
+      "job_key": "3d69b8086319e3c5d304",
+      "status": "NEW",
       "application_status": "NEW",
-      "score": 64,
-      "raw_score": 64,
-      "score_cap": 69,
+      "score": 59,
+      "raw_score": 70,
+      "score_cap": 59,
       "score_cap_reasons": [
-        "At least one explicitly mandatory skill has exposure only"
+        "Multiple explicitly mandatory skills are not evidenced"
       ],
-      "score_label": "REVIEW",
-      "title": "Security Engineer (ITSec) (m,f,x)",
-      "company": "HelloFresh",
-      "location": "Berlin, Germany",
+      "score_label": "STRETCH",
+      "title": "Senior Software Engineer (Product Security)",
+      "company": "vCluster Labs",
+      "location": "Remote | Canada | EMEA",
       "location_analysis": {
-        "category": "eligible_berlin",
+        "category": "eligible_europe_remote",
         "eligible": true,
-        "score": 15,
-        "reason": "Berlin hybrid role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "Hybrid"
+        "score": 13,
+        "reason": "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
+        "verification_required": true,
+        "score_cap": 89,
+        "scope": "Europe remote",
+        "work_model": "Remote"
       },
-      "location_scope": "Berlin",
-      "working_model": "Hybrid",
+      "location_scope": "Europe remote",
+      "working_model": "Remote",
       "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
+        "id": "product_security",
+        "label": "Product Security",
+        "priority": 1,
         "confidence": "high",
         "evidence": [
-          "security engineer",
-          "vulnerability"
+          "product security",
+          "product security",
+          "threat model"
         ]
       },
       "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
       },
-      "url": "https://careers.hellofresh.com/global/en/job/8146732?gh_jid=8146732",
-      "apply_url": "https://careers.hellofresh.com/global/en/job/8146732?gh_jid=8146732",
-      "canonical_url": "https://careers.hellofresh.com/global/en/job/8146732?gh_jid=8146732",
-      "source": "Greenhouse",
+      "url": "https://jobs.ashbyhq.com/vClusterLabs/3dc34e16-8854-4a09-b829-f8c97328e636",
+      "apply_url": "https://jobs.ashbyhq.com/vClusterLabs/3dc34e16-8854-4a09-b829-f8c97328e636/application",
+      "canonical_url": "https://jobs.ashbyhq.com/vClusterLabs/3dc34e16-8854-4a09-b829-f8c97328e636",
+      "source": "Ashby",
       "sources": [
-        "Greenhouse"
+        "Ashby"
       ],
-      "ats": "greenhouse",
+      "ats": "ashby",
       "priority_employer": true,
       "lead_type": "",
       "post_author": "",
       "feed_name": "",
-      "published_at": "2026-09-28T13:59:47Z",
+      "published_at": "2026-09-29T19:41:40Z",
       "posting_age_days": 0,
       "posting_age_analysis": {
         "known": true,
@@ -375,110 +221,105 @@
         "label": "NEW - APPLY QUICKLY"
       },
       "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-08-27T16:38:50Z",
+      "first_seen": "2026-09-30T11:17:18Z",
       "experience_required": null,
-      "german_requirement": "German requested; level/strictness unclear",
+      "german_requirement": "No German requirement detected",
       "skill_matches": {
-        "match": [],
+        "match": [
+          "threat modeling"
+        ],
         "partial": [
-          "nist"
+          "git",
+          "product security"
         ],
         "missing": [
-          "dlp",
-          "edr",
+          "go",
+          "kubernetes",
           "rust"
         ],
         "nice_to_have": []
       },
       "mandatory_gaps": [
         {
-          "skill": "nist",
-          "profile_status": "partial",
+          "skill": "go",
+          "profile_status": "missing",
           "requirement": "mandatory",
-          "evidence": "Hands-on experience hardening workstations, network equipment, servers, IAM platforms through using CIS/NIST frameworks"
+          "evidence": "- Kubernetes internals depth: Working knowledge of the API server, admission control, RBAC, controllers, and the kubelet, ideally from building controllers or operators with controller-runtime, Kubebuilder, or client-go."
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "- Kubernetes internals depth: Working knowledge of the API server, admission control, RBAC, controllers, and the kubelet, ideally from building controllers or operators with controller-runtime, Kubebuilder, or client-go."
         }
       ],
       "potential_gaps": [
         {
-          "skill": "dlp",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Deploy, optimize and operate modern security solutions like EDR, Zero-Trust, SSE/CASB, DLP, and Patch Management tools"
-        },
-        {
-          "skill": "edr",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Implement secure configurations and policies for IAM, EDR, VPN, Firewalls, Email Security, Slack and MDM tools"
-        },
-        {
           "skill": "rust",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges."
+          "evidence": "We're the #1 platform for AI infrastructure, trusted by the world's fastest-growing AI cloud builders."
         }
       ],
       "optional_gaps": [],
       "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 6,
+        "role_alignment": 20,
+        "skills": 10,
         "experience": 10,
-        "location": 15,
-        "language": 4,
-        "seniority": 10,
+        "location": 13,
+        "language": 10,
+        "seniority": 4,
         "education": 3
       },
       "match_reasons": [
-        "Role family: Security Engineering.",
-        "Berlin hybrid role."
+        "Role family: Product Security.",
+        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country.",
+        "Evidenced matches include threat modeling."
       ],
       "warnings": [
-        "German requested; level/strictness unclear",
-        "Mandatory gaps: nist",
-        "Potential gaps: dlp, edr, rust",
-        "Exposure only; do not claim deep expertise: nist",
-        "At least one explicitly mandatory skill has exposure only"
+        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
+        "Mandatory gaps: go, kubernetes",
+        "Potential gaps: rust",
+        "Exposure only; do not claim deep expertise: git, product security",
+        "Multiple explicitly mandatory skills are not evidenced"
       ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "About the role: What's in the Box We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges. Security Engineers work in a variety of ways to constantly iterate and improve HelloFresh’s security posture. You will be the first port of call for responding to any of HelloFresh’s security related questions and concerns. You will also develop and deliver tools and processes to enable colleagues to achieve their goals and objectives. Above all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you. What You’ll Do: The Recipe Enhance the security posture of the enterprise IT infrastructure, services, and tools by hardening them against abuse and nefarious activity Implement secure configurations and policies for IAM, EDR, VPN, Firewalls, Email Security, Slack and MDM tools Responsible for security hardening and posture of enterprise IT assets Adapt to modern AI a…"
+      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
+      "description_excerpt": "vCluster Labs is looking for a Senior Software Engineer focused on Product Security to help us build secure infrastructure software from the ground up. You'll design, build, and maintain production features alongside the rest of the engineering team, while bringing a security perspective to the broader product by reviewing security-sensitive designs, threat modeling new features, investigating vulnerabilities, and helping teams make sound security decisions as the platform evolves. Operating security tooling and compliance are not the primary goals; we need an experienced engineer who can work deeply in our codebase and architecture, build security into the product itself, and serve as the security expert for our product. As a Senior Software Engineer (Product Security), your role will include: - Building production features: Design, build, and maintain production features alongside the rest of the engineering team. When there's no security work in the queue, you work on roadmap features. - Owning vulnerability response: Triage, prioritize, and fix security issues in our code and dependencies through to a patched release. - Threat modeling new features: Review security-sensitive d…"
     },
     {
-      "report_number": 4,
-      "job_key": "61f504a1b399ea41dd23",
-      "status": "UPDATED",
+      "report_number": 3,
+      "job_key": "240800e330239220c3d1",
+      "status": "NEW",
       "application_status": "NEW",
-      "score": 62,
+      "score": 59,
       "raw_score": 62,
-      "score_cap": 69,
+      "score_cap": 59,
       "score_cap_reasons": [
-        "Senior title is above the profile's current 2+ years",
-        "At least one explicitly mandatory skill has exposure only"
+        "Mandatory experience requirement is 5+ years"
       ],
-      "score_label": "REVIEW",
-      "title": "Senior Cloud Security Engineer (m,f,x)",
-      "company": "HelloFresh",
-      "location": "Berlin, Germany",
+      "score_label": "STRETCH",
+      "title": "Senior Security Engineer - SecOps",
+      "company": "Mozilla",
+      "location": "Remote Germany",
       "location_analysis": {
-        "category": "eligible_berlin",
+        "category": "eligible_germany_remote",
         "eligible": true,
         "score": 15,
-        "reason": "Berlin hybrid role",
+        "reason": "Remote work from Germany is explicitly available",
         "verification_required": false,
         "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "Hybrid"
+        "scope": "Germany remote",
+        "work_model": "Remote"
       },
-      "location_scope": "Berlin",
-      "working_model": "Hybrid",
+      "location_scope": "Germany remote",
+      "working_model": "Remote",
       "role_family": {
-        "id": "cloud_devsecops",
-        "label": "Cloud Security / DevSecOps",
+        "id": "security_engineering",
+        "label": "Security Engineering",
         "priority": 2,
         "confidence": "high",
         "evidence": [
-          "cloud security",
-          "cloud security",
-          "devsecops"
+          "security engineer"
         ]
       },
       "seniority": {
@@ -486,9 +327,9 @@
         "label": "Senior",
         "evidence": "senior"
       },
-      "url": "https://careers.hellofresh.com/global/en/job/8095941?gh_jid=8095941",
-      "apply_url": "https://careers.hellofresh.com/global/en/job/8095941?gh_jid=8095941",
-      "canonical_url": "https://careers.hellofresh.com/global/en/job/8095941?gh_jid=8095941",
+      "url": "https://job-boards.greenhouse.io/mozilla/jobs/8191473",
+      "apply_url": "https://job-boards.greenhouse.io/mozilla/jobs/8191473",
+      "canonical_url": "https://job-boards.greenhouse.io/mozilla/jobs/8191473",
       "source": "Greenhouse",
       "sources": [
         "Arbeitnow",
@@ -499,7 +340,7 @@
       "lead_type": "",
       "post_author": "",
       "feed_name": "",
-      "published_at": "2026-09-28T14:00:38Z",
+      "published_at": "2026-09-29T14:19:25Z",
       "posting_age_days": 0,
       "posting_age_analysis": {
         "known": true,
@@ -508,236 +349,88 @@
         "label": "NEW - APPLY QUICKLY"
       },
       "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-08-16T21:45:22Z",
-      "experience_required": null,
-      "german_requirement": "German requested; level/strictness unclear",
+      "first_seen": "2026-09-30T11:17:18Z",
+      "experience_required": "5+ years",
+      "german_requirement": "No German requirement detected",
       "skill_matches": {
         "match": [],
         "partial": [
-          "ci/cd",
-          "cloud security",
-          "devsecops",
-          "network security"
-        ],
-        "missing": [
-          "infrastructure as code",
-          "kubernetes"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "network security",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Knowledge of security engineering, computer and network security, security protocols, and applied cryptography"
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "infrastructure as code",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Understanding of modern cloud technology components and deployment patterns: CI/CD, virtual machines, containers, Kubernetes, serverless, infrastructure as code, etc"
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Understanding of modern cloud technology components and deployment patterns: CI/CD, virtual machines, containers, Kubernetes, serverless, infrastructure as code, etc"
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 10,
-        "experience": 10,
-        "location": 15,
-        "language": 4,
-        "seniority": 4,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Cloud Security / DevSecOps.",
-        "Berlin hybrid role."
-      ],
-      "warnings": [
-        "German requested; level/strictness unclear",
-        "Mandatory gaps: network security",
-        "Potential gaps: infrastructure as code, kubernetes",
-        "Exposure only; do not claim deep expertise: ci/cd, cloud security, devsecops, network security",
-        "Senior title is above the profile's current 2+ years",
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "About the role: What's in the Box HelloFresh is the world leader in meal-kits and one of Germany's biggest and fastest growing publicly traded companies. Join the Hellofresh security team to help to maintain the highest security standards within the industry. In this role you will join the Cloud Security Team, which is responsible for providing infrastructure security solutions at scale through automation. Above all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you. What You’ll Do: The Recipe Enhance the security posture of HelloFresh’s cloud infrastructure and services, hardening them against abuse and nefarious activities Secure containers, CI/CD pipelines and implement guardrails for the developers aligned with the DevSecOps principles Automate procedures and develop products to improve the Security posture of HelloFresh’s infrastructure Design and operate scalable processes to provision cloud access and maintain least-privilege Mentor and train your pe…"
-    },
-    {
-      "report_number": 5,
-      "job_key": "a2044c24720686ed5a7d",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 59,
-      "raw_score": 62,
-      "score_cap": 59,
-      "score_cap_reasons": [
-        "Multiple explicitly mandatory skills are not evidenced"
-      ],
-      "score_label": "STRETCH",
-      "title": "Senior Security Engineer (SOC) (m,f,x)",
-      "company": "HelloFresh",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin on-site role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "On-site"
-      },
-      "location_scope": "Berlin",
-      "working_model": "On-site",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "security engineer",
-          "security controls"
-        ]
-      },
-      "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
-      },
-      "url": "https://careers.hellofresh.com/global/en/job/8158808?gh_jid=8158808",
-      "apply_url": "https://careers.hellofresh.com/global/en/job/8158808?gh_jid=8158808",
-      "canonical_url": "https://careers.hellofresh.com/global/en/job/8158808?gh_jid=8158808",
-      "source": "Greenhouse",
-      "sources": [
-        "Greenhouse"
-      ],
-      "ats": "greenhouse",
-      "priority_employer": true,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-09-28T13:58:50Z",
-      "posting_age_days": 0,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 0,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-08-27T16:38:50Z",
-      "experience_required": null,
-      "german_requirement": "German requested; level/strictness unclear",
-      "skill_matches": {
-        "match": [
-          "python",
-          "security automation"
-        ],
-        "partial": [
           "aws",
           "incident response",
+          "product security",
           "siem",
+          "software development",
           "splunk"
         ],
         "missing": [
-          "detection engineering",
+          "azure",
           "edr",
-          "go",
-          "infrastructure as code",
-          "kubernetes",
           "rust"
         ],
         "nice_to_have": []
       },
       "mandatory_gaps": [
         {
-          "skill": "detection engineering",
+          "skill": "edr",
           "profile_status": "missing",
           "requirement": "mandatory",
-          "evidence": "Detection Logic: Proficiency in writing detection rules (Sigma, KQL) with the assistance of AI tools to optimize query performance and coverage."
+          "evidence": "Hands-on experience with leading EDR tools and demonstrated ability to leverage endpoint telemetry to find root cause."
         },
         {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Excellent programming (automation) skill with Python / Go"
-        },
-        {
-          "skill": "incident response",
+          "skill": "software development",
           "profile_status": "partial",
           "requirement": "mandatory",
-          "evidence": "Proven security monitoring and incident response experience in public cloud environments"
-        },
-        {
-          "skill": "siem",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with cloud SIEM & SOAR platforms, DDoS mitigation and preventing tools and Layer-7 Web-based perimeter security controls"
+          "evidence": "Real-world experience in software development and/or engineering operations for consumer products and services"
         }
       ],
       "potential_gaps": [
         {
-          "skill": "edr",
+          "skill": "azure",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "Conduct threat hunts against file-less malware and APTs by leveraging EDR, OS and network telemetry acquired through specialized open-source tool set like Sysmon, Osquery, RITA and Zeek"
-        },
-        {
-          "skill": "infrastructure as code",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Responsible for maturing logging and monitoring of Cloud, IT and Application workloads through automation and IaC"
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Filter, ingest and optimize security-specific events from large log streams such as App logs, Kubernetes logs, CloudTrail, CloudFlare and ELB logs etc."
+          "evidence": "Google Cloud Platform, Amazon Web Services, Heroku, Microsoft Azure, etc.)."
         },
         {
           "skill": "rust",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges."
+          "evidence": "You’ll be someone Mozillians across the company depend on and trust to respond quickly and effectively in a crunch, with the outstanding communication and collaboration skills needed to work in partnership with diverse stakeholders."
         }
       ],
-      "optional_gaps": [],
+      "optional_gaps": [
+        {
+          "skill": "splunk",
+          "profile_status": "partial",
+          "requirement": "optional",
+          "evidence": "Splunk proficiency is preferred."
+        }
+      ],
       "score_breakdown": {
         "role_alignment": 16,
         "skills": 10,
-        "experience": 10,
+        "experience": 4,
         "location": 15,
-        "language": 4,
+        "language": 10,
         "seniority": 4,
         "education": 3
       },
       "match_reasons": [
         "Role family: Security Engineering.",
-        "Berlin on-site role.",
-        "Evidenced matches include python, security automation."
+        "Remote work from Germany is explicitly available."
       ],
       "warnings": [
-        "German requested; level/strictness unclear",
-        "Mandatory gaps: detection engineering, go, incident response, siem",
-        "Potential gaps: edr, infrastructure as code, kubernetes, rust",
-        "Exposure only; do not claim deep expertise: aws, incident response, siem, splunk",
-        "Multiple explicitly mandatory skills are not evidenced"
+        "Requests 5+ years versus approximately 2.1 years in the profile.",
+        "Mandatory gaps: edr, software development",
+        "Potential gaps: azure, rust",
+        "Optional gaps: splunk",
+        "Exposure only; do not claim deep expertise: aws, incident response, product security, siem, software development, splunk",
+        "Mandatory experience requirement is 5+ years"
       ],
       "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "About the role: What's in the Box We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges. Security Engineers work in a variety of ways to constantly iterate and improve HelloFresh’s security posture. As an Experienced SOC Analyst at HelloFresh, you’ll bring advanced expertise to our SOC team in Manila. Working in a flat team structure, you’ll act as a Senior Engineer handling escalations from junior analysts, driving complex investigations, and ensuring accurate incident reporting. You’ll be the point of contact for Berlin SOC leadership during major incidents, mentor junior colleagues, and help refine SOC processes. This is a hands-on technical role with strong responsibility, requiring both depth in incident response and leadership qualities to keep the operations effective Above all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you. What You’ll…"
+      "description_excerpt": "To learn the Hiring Ranges for this position, please select your location from the Apply Now dropdown menu. To learn more about our Hiring Range System, please click this link. Why Mozilla? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. The Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. About this team and role: Mozilla is looking for…"
     },
     {
-      "report_number": 6,
+      "report_number": 4,
       "job_key": "32c54022816bcac2a151",
       "status": "NEW",
       "application_status": "NEW",
@@ -923,7 +616,7 @@
       "description_excerpt": "About Kestra Kestra is the universal orchestration platform: open source, declarative, and designed to orchestrate data pipelines, IT automation, business workflows, and AI/agentic systems. Trusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale. The open-source project has close to 30,000 GitHub stars, hundreds of contributors, and a fast-growing global community. About the role Kestra runs arbitrary, user-defined code at scale. Our users write workflows that execute scripts, containers, and queries against their own production systems, through hundreds of community-built plugins, on a platform whose entire source code is public. That is an unusually rich attack surface, and securing it is a genuinely hard engineering problem rather than a checklist exercise. You would be our first dedicated security hire. We're looking for a Senior Security Engineer to own and elevate the end-to-end security posture of our platform, infrastructure, and open-source ecosystem. This is a unique, hybrid role for someone who excels at both sides of security: actively breaking systems to fin…"
     },
     {
-      "report_number": 7,
+      "report_number": 5,
       "job_key": "49da14a46b0c8770f5f3",
       "status": "NEW",
       "application_status": "NEW",
@@ -1103,7 +796,7 @@
       "description_excerpt": "Zentso builds and operates CloudToolz, a revenue-critical SaaS platform layered on top of iMIS RiSE association management software, serving clients across the UK, Europe, United States, and Asia Pacific. The platform encompasses workflow automation, form building, CRM, CMS, and payment processing capabilities delivered to organisations in multiple sectors. We are seeking a motivated IT Infrastructure and Security Engineer to support the global infrastructure and security posture underpinning CloudToolz and Zentso's internal systems. This is a hands-on, junior-to-mid-level role working closely with the IT Infrastructure and Security Lead and the CTO, assisting with day-to-day operations, security tasks, and the ongoing migration toward a containerised, Kubernetes-based deployment model. The successful candidate will be comfortable working across a distributed, multi-region environment, contributing directly to uptime, security, and compliance outcomes for a production platform. A key part of this role is supporting Zentso's transition to Kubernetes and helping build out an observability practice around Grafana OSS, alongside contributing scripts and small applications that automat…"
     },
     {
-      "report_number": 8,
+      "report_number": 6,
       "job_key": "6e733992a361e341e6e6",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1249,9 +942,9 @@
       "description_excerpt": "Distribusion is the world’s leading ground transportation marketplace and gives travellers seamless access to ground transportation online, from search to ticket purchase. We have built a cutting-edge B2B technology platform that connects bus, rail and ferry operators in 70+ countries with the biggest online retailers including Google Maps and Booking.com. We are shaping the future of travel and building the largest global network of transport providers and retailers. We are one of the fastest growing startups in travel, backed by leading venture capital investors including TQ Ventures, Lightrock, Creandum, and Northzone, and are headquartered in Berlin, Germany. Following our recent $80m Series C funding, we are ready to push beyond. We are looking for our first dedicated Application Security Engineer to build our AppSec practice from the ground up. This is a greenfield opportunity with a real attack surface: public partner-facing APIs, payment flows, and active bug bounties. You will own secure development, define what gets reviewed, implement security gates, build the \"paved road\" for ~150 engineers, and see the impact of your work in production within weeks. What you will do:…"
     },
     {
-      "report_number": 9,
+      "report_number": 7,
       "job_key": "18fce630f607ed88a661",
-      "status": "NEW",
+      "status": "UPDATED",
       "application_status": "NEW",
       "score": 56,
       "raw_score": 56,
@@ -1302,10 +995,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-28T20:55:04Z",
-      "posting_age_days": 0,
+      "posting_age_days": 1,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 0,
+        "age_days": 1,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
@@ -1372,7 +1065,7 @@
       "description_excerpt": "Awarded 2022’s Best Connectivity Solution, EMnify does more than link the world's most cutting-edge devices. It is a place where curiosity is rewarded, collaboration is abundant, and encouraging others is a way of life. We look for innovative human beings who own the process and love people. Just like IoT, we’re all connected. Learn more about us by visiting www.emnify.com. Why EMnify? EMnify is a vibrant, diverse, and upbeat team. We are largely remote, yet we are united by compassion and expansion. We share the desire to maintain our path to revolutionizing the IoT industry now and for the future. We trust you to structure your day in a way that suits your style of representing us. Your Position EMnify’s development team is growing, and we need your help to shape this growth! With your excellent knowledge of people and interactions as well as processes and tools, we’re betting on you to increase our agility to even higher levels. We don’t just say “flat hierarchies,” we mean it. You’ll work together with a great team of Scrum Masters and Agile Coaches as well as the VPs of Product and Engineering*, and the CTO* (*former Scrum Masters) to help your team achieve its goals and shor…"
     },
     {
-      "report_number": 10,
+      "report_number": 8,
       "job_key": "57712ed3d56671484e37",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1487,7 +1180,7 @@
       "description_excerpt": "We are MOTOR Ai. Our mission is to make Level 4 autonomous driving a reality in Germany and beyond. By combining state-of-the-art AI with the expertise of our multidisciplinary team, we are poised to introduce the first solution of its kind in Germany that is eligible for certification on European roads. Since 2017, we have been steadfastly pursuing a single goal: to shape a future that is already in motion. Tasks Plan, design, and structure our corporate network end-to-end - hardware and software alike Monitor, maintain, and support the network infrastructure to ensure high availability across the company Implement and continuously monitor security measures to protect the network against unauthorized access Monitor system performance and network integrity, spotting bottlenecks and issues before they become problems Manage user accounts, permissions, and access rights Analyze and resolve network issues, including hands-on troubleshooting and performance tuning Own regular maintenance, patching, and system hygiene Create and maintain clear documentation of network configurations Prepare and maintain documentation relevant to certifications and compliance frameworks such as NIS2 and…"
     },
     {
-      "report_number": 11,
+      "report_number": 9,
       "job_key": "cc78a757c373716678d7",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1648,7 +1341,162 @@
       "description_excerpt": "YGO.ai is a VC-funded AI tourism platform. We are hiring a Cloud Security Engineer to own the security of our cloud platform, the APIs our enterprise clients run on and the company itself. 🛡️ About this role. The role carries two things at once. You own security engineering directly and hands-on. You build the security function around it as we grow. At YGO a pod lead is a squad leader and a spokesperson, close to the work and close to the client, rather than a full-time manager. You will not stop being an engineer. The work is broad. You might review source code in the morning, investigate an endpoint alert after lunch and help design a new authentication flow the next day. You identify the highest-risk problems, decide what happens first and execute. We serve major travel enterprises and we have enterprise commitments going live from the start of 2027. Security is a condition of that business, not a layer added afterwards. 🧑‍💻 What you'll own Application security. Hands-on code and architecture review across our APIs, backend services and internal tooling. Targeted penetration testing to validate issues yourself. Working with engineers on root causes and practical fixes rather th…"
     },
     {
-      "report_number": 12,
+      "report_number": 10,
+      "job_key": "57609de858cd85e028d6",
+      "status": "SEEN_BEFORE",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 74,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "score_label": "REVIEW",
+      "title": "Security Engineer (SOC) (m,f,x)",
+      "company": "HelloFresh",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin hybrid role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Hybrid"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Hybrid",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer",
+          "security controls"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://careers.hellofresh.com/global/en/job/8146740?gh_jid=8146740",
+      "apply_url": "https://careers.hellofresh.com/global/en/job/8146740?gh_jid=8146740",
+      "canonical_url": "https://careers.hellofresh.com/global/en/job/8146740?gh_jid=8146740",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "ats": "greenhouse",
+      "priority_employer": true,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-09-28T13:58:16Z",
+      "posting_age_days": 1,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 1,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-08-26T05:59:57Z",
+      "experience_required": "2+ years",
+      "german_requirement": "German requested; level/strictness unclear",
+      "skill_matches": {
+        "match": [
+          "security automation"
+        ],
+        "partial": [
+          "aws",
+          "incident response",
+          "siem",
+          "splunk"
+        ],
+        "missing": [
+          "edr",
+          "infrastructure as code",
+          "rust"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Security monitoring and incident response experience in public cloud environments such as AWS"
+        },
+        {
+          "skill": "incident response",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Security monitoring and incident response experience in public cloud environments such as AWS"
+        },
+        {
+          "skill": "siem",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Experience with cloud SIEM & SOAR platforms, DDoS mitigation and preventing tools and Layer-7 Web-based perimeter security controls"
+        },
+        {
+          "skill": "splunk",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Experience with log analysis stacks like ElasticSearch, Splunk/SumoLogic"
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "edr",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Automate, optimize, automate and operate modern security solutions like EDR/EPPs and conventional Firewalls, IDS/IPS, Email Security, VPN, and MDM tools"
+        },
+        {
+          "skill": "infrastructure as code",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Decent programming skills to enable data processing, IaC and security automations"
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 11,
+        "experience": 15,
+        "location": 15,
+        "language": 4,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "Berlin hybrid role.",
+        "Evidenced matches include security automation.",
+        "The detected experience requirement is within or close to the 2+ year profile."
+      ],
+      "warnings": [
+        "German requested; level/strictness unclear",
+        "Mandatory gaps: aws, incident response, siem, splunk",
+        "Potential gaps: edr, infrastructure as code, rust",
+        "Exposure only; do not claim deep expertise: aws, incident response, siem, splunk",
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "About the role: What's in the Box We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges. Security Engineers work in a variety of ways to constantly iterate and improve HelloFresh’s security posture. This role aims to improve the HelloFresh Security Logging & Monitoring Program by maturing the tools, processes and playbooks to reduce dwell time (indicators of which would be lowered MTTD&R). Above all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you. What You’ll Do: The Recipe Responsible for SOC monitoring, use-case building, triage and advisory using cloud-native SIEM platforms Conduct initial triage of security events and incidents and document progress throughout the Incident Response Lifecycle Automate, optimize, automate and operate modern security solutions like EDR/EPPs and conventional Firewalls, IDS/IPS, Email Security, VPN, and MDM tool…"
+    },
+    {
+      "report_number": 11,
       "job_key": "8284e91e3afc1425ab11",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1703,10 +1551,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-24T18:14:50Z",
-      "posting_age_days": 4,
+      "posting_age_days": 5,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 4,
+        "age_days": 5,
         "category": "recent",
         "label": "RECENT"
       },
@@ -1783,7 +1631,7 @@
       "description_excerpt": "About Vercel: Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience. Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. About The Role: Vercel builds and maintains a broad portfolio of open source projects that power the modern web, running in millions of applications. Your primary focus will be Turborepo, Nuxt, Svelte/SvelteKit, SWR, Workflow, and Nitro. A single structural fix at the framework level protects every one of those applications at once, which makes this one of the highest-leverage security roles at the company. We're looking for a security engineer who loves finding a whole class of vulnerability and eliminating it in one move, not someone who's satisfied filing one bug at a time. You'll run deep security assessments of framework internals (routing, middleware, caching, server actions, the build pipeline), find the systemic patterns that produce entire families of b…"
     },
     {
-      "report_number": 13,
+      "report_number": 12,
       "job_key": "9e8e071b253d6d6eb5ba",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1838,10 +1686,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-24T17:54:46Z",
-      "posting_age_days": 4,
+      "posting_age_days": 5,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 4,
+        "age_days": 5,
         "category": "recent",
         "label": "RECENT"
       },
@@ -1919,7 +1767,7 @@
       "description_excerpt": "About Vercel: Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience. Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. About the role v0 turns natural language into working, deployed applications. An agent writes code, executes it, and ships it on a user's behalf. That makes v0 one of the most interesting and highest-stakes security surfaces at Vercel: sandboxed code execution, multi-tenant isolation, permission boundaries between what a user asked for and what the agent actually did, and resistance to prompt injection and tool misuse. We're looking for a Senior (IC4) software engineer with a strong security background to sit fully embedded inside the v0 team, not as a rotating auditor who reviews designs and files tickets, but as a peer engineer who owns security end to end for everything v0 ships. That means finding and fixing vulnerabilities yourself, building security featur…"
     },
     {
-      "report_number": 14,
+      "report_number": 13,
       "job_key": "c1ab5b22feaa0afc7ed6",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1974,10 +1822,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-24T17:27:58Z",
-      "posting_age_days": 4,
+      "posting_age_days": 5,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 4,
+        "age_days": 5,
         "category": "recent",
         "label": "RECENT"
       },
@@ -2066,7 +1914,7 @@
       "description_excerpt": "About Vercel: Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience. Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. About the Role: Traditional product security teams work one report at a time: a person triages a bug bounty submission, validates it, reproduces it, and hands it off for a fix. That doesn't scale past a certain volume, and Vercel is well past it. Adding more triagers doesn't close that gap. Building the systems that triage at that scale does. This role is about building that system. Your core focus is tooling that triages and validates bug bounty and other externally reported security findings at scale, reasoning about validity, severity, and reproducibility the way a human triager would, but continuously and at volume. And we want to go beyond triage. The real leverage is in connecting a validated finding to its root cause and driving the fix, ideally with the…"
     },
     {
-      "report_number": 15,
+      "report_number": 14,
       "job_key": "521c71dc83dfa3787db3",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -2120,10 +1968,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-18T10:05:38Z",
-      "posting_age_days": 11,
+      "posting_age_days": 12,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 11,
+        "age_days": 12,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2216,7 +2064,7 @@
       "description_excerpt": "About Staffbase We inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees. Headquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience. We are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication. At Staffbase, security is at the heart of everything we build. Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company. We believe the best security work happens when people bring their authentic selves and diverse perspectives to the table and we’…"
     },
     {
-      "report_number": 16,
+      "report_number": 15,
       "job_key": "9ba7cf301be480a6ff9f",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -2272,10 +2120,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-11T10:13:09Z",
-      "posting_age_days": 18,
+      "posting_age_days": 19,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 18,
+        "age_days": 19,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2346,7 +2194,7 @@
       "description_excerpt": "THE OPPORTUNITY Join our Global IT Infrastructure team and take ownership of security operations that protect NavVis worldwide. You’ll lead detection and incident response across corporate IT and SaaS environments, working hand-in-hand with Service Delivery, Cloud Infrastructure Engineering, and our Cloud Infrastructure Engineer. This is an hands-on role where you’ll make real impact—investigating threats, driving improvements, and shaping security processes. No ticket forwarding, no passive coordination—just meaningful responsibility and the chance to build a security posture you can be proud of. If you thrive on solving complex problems, love staying ahead of emerging threats, and want to safeguard technology that powers the future of spatial intelligence, we want to hear from you! HOW YOU WILL MAKE AN IMPACT Lead security incident response and drive continuous improvements. Own Microsoft Defender, email security, and phishing protection. Strengthen network security with IT Ops: firewalls, VPNs, segmentation. Manage vulnerability scanning, remediation, and risk reporting. Govern access reviews and enforce least privileges. Run ISO 27001 & SOC 2 audits and coordinate via Vanta. S…"
     },
     {
-      "report_number": 17,
+      "report_number": 16,
       "job_key": "c9a4882b15b462f012a3",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -2476,7 +2324,7 @@
       "description_excerpt": "The role HelloFresh is the world leader in meal-kits and one of Germany's biggest and fastest growing publicly traded companies. Join the Hellofresh security team to help to maintain the highest security standards within the industry. In this role you will join the Cloud Security Team, which is responsible for providing infrastructure security solutions at scale through automation. Above all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you. What you’ll do Enhance the security posture of HelloFresh’s cloud infrastructure and services, hardening them against abuse and nefarious activities Secure containers, CI/CD pipelines and implement guardrails for the developers aligned with the DevSecOps principles Automate procedures and develop products to improve the Security posture of HelloFresh’s infrastructure Design and operate scalable processes to provision cloud access and maintain least-privilege Mentor and train your peers on the best practices in security…"
     },
     {
-      "report_number": 18,
+      "report_number": 17,
       "job_key": "ba170f4eb78d3dff47c8",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -2533,10 +2381,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-02T08:33:39Z",
-      "posting_age_days": 27,
+      "posting_age_days": 28,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 27,
+        "age_days": 28,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2606,7 +2454,7 @@
       "description_excerpt": "About the opportunity We are seeking a Senior Product Security Engineer to drive the product security strategy and empower our engineering teams to design and build secure software across our diverse product portfolio. This role involves leading the integration of advanced security practices into cutting-edge technologies - such as Generative AI (GenAI), Large Language Models (LLM), and data governance systems - while also ensuring the security of our microservice architecture and mobile application. You will be independently responsible for delivering robust security for every feature and service we provide to our customers. The Product Security team is part of N26’s Security Engineering Segment. In this role, you will serve as a key mentor and contributor, actively promoting N26’s security standards by integrating security practices throughout the product lifecycle. You will provide guidance and support to other engineers, sharing your expertise and helping to elevate the overall security posture of our products. As we embrace emerging technologies like GenAI and LLMs, this role will independently lead efforts to safeguard sensitive data, align with data governance principles, a…"
     },
     {
-      "report_number": 19,
+      "report_number": 18,
       "job_key": "86705e70d7803af16172",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -2761,7 +2609,7 @@
       "description_excerpt": "To learn the Hiring Ranges for this position, please select your location from the Apply Now dropdown menu. To learn more about our Hiring Range System, please click this link. Why Mozilla? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. The Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. About this team and role: At Mozilla, we believe…"
     },
     {
-      "report_number": 20,
+      "report_number": 19,
       "job_key": "ca9ca2de50791397491c",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -2898,7 +2746,7 @@
       "description_excerpt": "Health can’t wait. Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t. Alan exists to end the wait. Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way. So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience. We are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR. Prevention as the new norm. That's what we're building with our team of 800+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond. Alan operates at the intersection of health insurance, prevention, and reg…"
     },
     {
-      "report_number": 21,
+      "report_number": 20,
       "job_key": "b3d25546d338bae16a36",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -3053,7 +2901,7 @@
       "description_excerpt": "Purpose of Position Your role is to establish and lead an AppSec program within the Product and Technology department, acting as an evangelist for AppSec, trusted by engineers and managers alike. As a member of the core security team, you will engage in assessing application design proposals, to identify improvements to enable our engineers to create secure products. You will own the existing training program, redesign it to better equip engineers with the knowledge needed to develop secure applications, and create a Security Champions program to scale and embed a DevSecOps mindset across P&T. What you'll be responsible for Secure the SDLC: Integrate security tooling (e.g. SAST, DAST, dependency scanning) into CI/CD pipelines and IDEs. Automate and optimise checks so teams can identify and fix issues early and efficiently. Threat modelling & secure design: Collaborate with product and engineering teams during the design phase to conduct threat modelling sessions and pre-implementation security reviews. Code & architecture reviews: Guide developers on secure coding practices, perform targeted code reviews, and help resolve vulnerabilities with actionable remediation support. Vulner…"
     },
     {
-      "report_number": 22,
+      "report_number": 21,
       "job_key": "d84c944e049e1a080116",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -3183,7 +3031,7 @@
       "description_excerpt": "We are building a new capability that turns fragmented, noisy security logs into explainable, AI-powered threat analysis, delivered inside the RedMimicry platform. As a Software Developer at RedMimicry, you will take a leading role in developing a new security analytics capability within our platform. You will build Go backend components and the application layer. Experience with web frontend frameworks is welcome, but not required for this role. This is a fixed term contract, running until 2027-10-31. Tasks Build the Analysis Backend: Implement the services that receive security telemetry, run analysis workflows, and store results and evidence. Design APIs: Define stable, versioned interfaces for ingestion, analysis, and reporting. Design Domain Models: Define maintainable data models for security events, analysis results, and supporting evidence. Handle Long-Running Jobs: Implement asynchronous processing, progress reporting, retries, cancellation, and useful failure states. Work at Volume: Move and process large telemetry sets with predictable memory, throughput, and backpressure behaviour. Integrate Model Inference: Build the interfaces between our services and our AI/ML compo…"
     },
     {
-      "report_number": 23,
+      "report_number": 22,
       "job_key": "029b986949e1ae352ed4",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -3311,7 +3159,7 @@
       "description_excerpt": "About ClickHouse Recognized on the 2025 Forbes Cloud 100 list, ClickHouse is one of the most innovative and fast-growing private cloud companies. With more than 4,000 customers and ARR that has grown over 250 percent year over year, ClickHouse leads the market in real-time analytics, data warehousing, observability, and AI workloads. The company’s sustained, accelerating momentum was recently validated by a $400M Series D financing round. Over the past three months, customers including Capital One, Lovable, Decagon, Polymarket, and Airwallex have adopted the platform or expanded existing deployments. These customers join an established base of AI innovators and global brands such as Meta, Cursor, Sony, and Tesla. We’re on a mission to transform how companies use data. Come be a part of our journey! As ClickHouse moves further into financial services, healthcare, telco, and the public sector across EMEA, more of our deals now turn on a specific set of questions: where the data lives, who can reach it, how it's encrypted, and what the auditor needs to see. We're looking for a Security Specialist to own those conversations, a specialist overlay within our EMEA Solutions Architecture…"
     },
     {
-      "report_number": 24,
+      "report_number": 23,
       "job_key": "b420e12f1f07d8e20c57",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -3425,6 +3273,136 @@
       "description_excerpt": "Why Mozilla? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. The Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. What you’ll do: Advance Firefox's security architecture and cryptography stack: Contribute to improvements in Firefox's core security systems, with a focus on cryptographic protocols, WebPKI, and security-sensitive web APIs. H…"
     },
     {
+      "report_number": 24,
+      "job_key": "4afa9462370d50b6650c",
+      "status": "SEEN_BEFORE",
+      "application_status": "NEW",
+      "score": 64,
+      "raw_score": 64,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "score_label": "REVIEW",
+      "title": "Security Engineer (ITSec) (m,f,x)",
+      "company": "HelloFresh",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin hybrid role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Hybrid"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Hybrid",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer",
+          "vulnerability"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://careers.hellofresh.com/global/en/job/8146732?gh_jid=8146732",
+      "apply_url": "https://careers.hellofresh.com/global/en/job/8146732?gh_jid=8146732",
+      "canonical_url": "https://careers.hellofresh.com/global/en/job/8146732?gh_jid=8146732",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "ats": "greenhouse",
+      "priority_employer": true,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-09-28T13:59:47Z",
+      "posting_age_days": 1,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 1,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-08-27T16:38:50Z",
+      "experience_required": null,
+      "german_requirement": "German requested; level/strictness unclear",
+      "skill_matches": {
+        "match": [],
+        "partial": [
+          "nist"
+        ],
+        "missing": [
+          "dlp",
+          "edr",
+          "rust"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Hands-on experience hardening workstations, network equipment, servers, IAM platforms through using CIS/NIST frameworks"
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "dlp",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Deploy, optimize and operate modern security solutions like EDR, Zero-Trust, SSE/CASB, DLP, and Patch Management tools"
+        },
+        {
+          "skill": "edr",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Implement secure configurations and policies for IAM, EDR, VPN, Firewalls, Email Security, Slack and MDM tools"
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 6,
+        "experience": 10,
+        "location": 15,
+        "language": 4,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "Berlin hybrid role."
+      ],
+      "warnings": [
+        "German requested; level/strictness unclear",
+        "Mandatory gaps: nist",
+        "Potential gaps: dlp, edr, rust",
+        "Exposure only; do not claim deep expertise: nist",
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "About the role: What's in the Box We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges. Security Engineers work in a variety of ways to constantly iterate and improve HelloFresh’s security posture. You will be the first port of call for responding to any of HelloFresh’s security related questions and concerns. You will also develop and deliver tools and processes to enable colleagues to achieve their goals and objectives. Above all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you. What You’ll Do: The Recipe Enhance the security posture of the enterprise IT infrastructure, services, and tools by hardening them against abuse and nefarious activity Implement secure configurations and policies for IAM, EDR, VPN, Firewalls, Email Security, Slack and MDM tools Responsible for security hardening and posture of enterprise IT assets Adapt to modern AI a…"
+    },
+    {
       "report_number": 25,
       "job_key": "a418151dcfecc6e96393",
       "status": "SEEN_BEFORE",
@@ -3512,6 +3490,299 @@
     },
     {
       "report_number": 26,
+      "job_key": "61f504a1b399ea41dd23",
+      "status": "SEEN_BEFORE",
+      "application_status": "NEW",
+      "score": 62,
+      "raw_score": 62,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "Senior title is above the profile's current 2+ years",
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "score_label": "REVIEW",
+      "title": "Senior Cloud Security Engineer (m,f,x)",
+      "company": "HelloFresh",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin hybrid role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Hybrid"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Hybrid",
+      "role_family": {
+        "id": "cloud_devsecops",
+        "label": "Cloud Security / DevSecOps",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "cloud security",
+          "cloud security",
+          "devsecops"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://careers.hellofresh.com/global/en/job/8095941?gh_jid=8095941",
+      "apply_url": "https://careers.hellofresh.com/global/en/job/8095941?gh_jid=8095941",
+      "canonical_url": "https://careers.hellofresh.com/global/en/job/8095941?gh_jid=8095941",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "ats": "greenhouse",
+      "priority_employer": true,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-09-28T14:00:38Z",
+      "posting_age_days": 1,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 1,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-08-16T21:45:22Z",
+      "experience_required": null,
+      "german_requirement": "German requested; level/strictness unclear",
+      "skill_matches": {
+        "match": [],
+        "partial": [
+          "ci/cd",
+          "cloud security",
+          "devsecops",
+          "network security"
+        ],
+        "missing": [
+          "infrastructure as code",
+          "kubernetes"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "network security",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Knowledge of security engineering, computer and network security, security protocols, and applied cryptography"
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "infrastructure as code",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Understanding of modern cloud technology components and deployment patterns: CI/CD, virtual machines, containers, Kubernetes, serverless, infrastructure as code, etc"
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Understanding of modern cloud technology components and deployment patterns: CI/CD, virtual machines, containers, Kubernetes, serverless, infrastructure as code, etc"
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 10,
+        "experience": 10,
+        "location": 15,
+        "language": 4,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Cloud Security / DevSecOps.",
+        "Berlin hybrid role."
+      ],
+      "warnings": [
+        "German requested; level/strictness unclear",
+        "Mandatory gaps: network security",
+        "Potential gaps: infrastructure as code, kubernetes",
+        "Exposure only; do not claim deep expertise: ci/cd, cloud security, devsecops, network security",
+        "Senior title is above the profile's current 2+ years",
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "About the role: What's in the Box HelloFresh is the world leader in meal-kits and one of Germany's biggest and fastest growing publicly traded companies. Join the Hellofresh security team to help to maintain the highest security standards within the industry. In this role you will join the Cloud Security Team, which is responsible for providing infrastructure security solutions at scale through automation. Above all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you. What You’ll Do: The Recipe Enhance the security posture of HelloFresh’s cloud infrastructure and services, hardening them against abuse and nefarious activities Secure containers, CI/CD pipelines and implement guardrails for the developers aligned with the DevSecOps principles Automate procedures and develop products to improve the Security posture of HelloFresh’s infrastructure Design and operate scalable processes to provision cloud access and maintain least-privilege Mentor and train your pe…"
+    },
+    {
+      "report_number": 27,
+      "job_key": "a2044c24720686ed5a7d",
+      "status": "SEEN_BEFORE",
+      "application_status": "NEW",
+      "score": 59,
+      "raw_score": 62,
+      "score_cap": 59,
+      "score_cap_reasons": [
+        "Multiple explicitly mandatory skills are not evidenced"
+      ],
+      "score_label": "STRETCH",
+      "title": "Senior Security Engineer (SOC) (m,f,x)",
+      "company": "HelloFresh",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin on-site role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "On-site"
+      },
+      "location_scope": "Berlin",
+      "working_model": "On-site",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer",
+          "security controls"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://careers.hellofresh.com/global/en/job/8158808?gh_jid=8158808",
+      "apply_url": "https://careers.hellofresh.com/global/en/job/8158808?gh_jid=8158808",
+      "canonical_url": "https://careers.hellofresh.com/global/en/job/8158808?gh_jid=8158808",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "ats": "greenhouse",
+      "priority_employer": true,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-09-28T13:58:50Z",
+      "posting_age_days": 1,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 1,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-08-27T16:38:50Z",
+      "experience_required": null,
+      "german_requirement": "German requested; level/strictness unclear",
+      "skill_matches": {
+        "match": [
+          "python",
+          "security automation"
+        ],
+        "partial": [
+          "aws",
+          "incident response",
+          "siem",
+          "splunk"
+        ],
+        "missing": [
+          "detection engineering",
+          "edr",
+          "go",
+          "infrastructure as code",
+          "kubernetes",
+          "rust"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "detection engineering",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Detection Logic: Proficiency in writing detection rules (Sigma, KQL) with the assistance of AI tools to optimize query performance and coverage."
+        },
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Excellent programming (automation) skill with Python / Go"
+        },
+        {
+          "skill": "incident response",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Proven security monitoring and incident response experience in public cloud environments"
+        },
+        {
+          "skill": "siem",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Experience with cloud SIEM & SOAR platforms, DDoS mitigation and preventing tools and Layer-7 Web-based perimeter security controls"
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "edr",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Conduct threat hunts against file-less malware and APTs by leveraging EDR, OS and network telemetry acquired through specialized open-source tool set like Sysmon, Osquery, RITA and Zeek"
+        },
+        {
+          "skill": "infrastructure as code",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Responsible for maturing logging and monitoring of Cloud, IT and Application workloads through automation and IaC"
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Filter, ingest and optimize security-specific events from large log streams such as App logs, Kubernetes logs, CloudTrail, CloudFlare and ELB logs etc."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 10,
+        "experience": 10,
+        "location": 15,
+        "language": 4,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "Berlin on-site role.",
+        "Evidenced matches include python, security automation."
+      ],
+      "warnings": [
+        "German requested; level/strictness unclear",
+        "Mandatory gaps: detection engineering, go, incident response, siem",
+        "Potential gaps: edr, infrastructure as code, kubernetes, rust",
+        "Exposure only; do not claim deep expertise: aws, incident response, siem, splunk",
+        "Multiple explicitly mandatory skills are not evidenced"
+      ],
+      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
+      "description_excerpt": "About the role: What's in the Box We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges. Security Engineers work in a variety of ways to constantly iterate and improve HelloFresh’s security posture. As an Experienced SOC Analyst at HelloFresh, you’ll bring advanced expertise to our SOC team in Manila. Working in a flat team structure, you’ll act as a Senior Engineer handling escalations from junior analysts, driving complex investigations, and ensuring accurate incident reporting. You’ll be the point of contact for Berlin SOC leadership during major incidents, mentor junior colleagues, and help refine SOC processes. This is a hands-on technical role with strong responsibility, requiring both depth in incident response and leadership qualities to keep the operations effective Above all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you. What You’ll…"
+    },
+    {
+      "report_number": 28,
       "job_key": "1f74892653c6467e49ca",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -3565,10 +3836,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-28T08:49:07Z",
-      "posting_age_days": 1,
+      "posting_age_days": 2,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 1,
+        "age_days": 2,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
@@ -3675,7 +3946,7 @@
       "description_excerpt": "About the opportunity Are you passionate about cybersecurity and eager to make a real impact in a dynamic environment? Look no further! We are on the lookout for a Senior Cloud Security Engineer who is ready to take the lead in proactively identifying and mitigating security threats and safeguarding our sensitive data. Join forces with our Platform and Data teams and be at the forefront of safeguarding our customer and our organisation. At N26, our Infrastructure Security team is on a mission to detect and remediate IT and cloud infrastructure security threats. We're dedicated to providing efficient and effective services that empower our N26 tech teams to thrive. Once here you will Drive the Cloud Infrastructure Security function roadmap in alignment with the Product Manager, Tech Lead, and Engineering Manager. Own, define and drive initiatives, solutions, processes and frameworks to proactively identify and mitigate security threats within our AWS infrastructure which leads to an overall improvement of our security maturity. Design, deploy and maintain state-of-the-art cloud-native security solutions, incorporating end-to-end data protection, advanced threat detection, automated…"
     },
     {
-      "report_number": 27,
+      "report_number": 29,
       "job_key": "59039a1f42a8c045cc25",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -3729,10 +4000,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-24T21:18:47Z",
-      "posting_age_days": 4,
+      "posting_age_days": 5,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 4,
+        "age_days": 5,
         "category": "recent",
         "label": "RECENT"
       },
@@ -3861,7 +4132,7 @@
       "description_excerpt": "About Vercel: Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience. Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. About the Role: We are looking for a Security Engineer to join our Detection Response team. In this role, you will be responsible for managing Vercel’s internal Corporate Security (CorpSec) posture, monitoring for security anomalies, building additional detections and visibility mechanisms, and ensuring the overall security of our internal systems. You will work closely with various teams to support audits, optimize visibility, and handle security incidents as they arise. If you’re based within a pre-determined commuting distance of one of our offices (SF, NY, London, or Berlin), the role includes in-office anchor days on Monday, Tuesday, and Friday. If you're located beyond that distance, the role is fully remote. For location-specific details, please connect w…"
     },
     {
-      "report_number": 28,
+      "report_number": 30,
       "job_key": "39a4143cefceeb7bc131",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -4028,7 +4299,7 @@
       "description_excerpt": "ABOUT EYE SECURITY Eye Security provides cybersecurity with embedded cyber insurance solutions for organizations across Europe. Headquartered in the Netherlands, we are already over 190 FTEs and continue to grow internationally, having secured our Series C funding of 60 million euros. We combine cutting-edge technology with hands-on expertise to detect, respond to, and recover from cyber threats in real time. Our team brings together talent from intelligence, military, tech, and consulting backgrounds, all united by a shared mission: to make enterprise-grade cybersecurity accessible to every business, particularly SMEs, not just the big players. At Eye, you will work on projects with an international footprint, helping ourselves to meet ISO 27001:2022 and EU NIS2 obligations while building a safer digital future. ABOUT THIS ROLE We are looking for a Technical Information Security Officer to lead the design and implementation of our IT security architecture, monitoring infrastructure, and technical controls. In this role, you will translate compliance requirements from our CISO office into robust technical solutions, design and deploy security architecture components, manage our lo…"
     },
     {
-      "report_number": 29,
+      "report_number": 31,
       "job_key": "f24ae651382ec38ce5f1",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -4205,7 +4476,7 @@
       "description_excerpt": "Think like an attacker. Build like a defender. As a security engineer for platform security at Gallup, you'll protect the cloud and infrastructure that power our global business while helping Gallup stay ahead of an ever-changing threat landscape. In this role, you'll strengthen security by design, assist with incident response support and partner across engineering teams to build resilient platforms that enable innovation. You'll have the autonomy to shape how Gallup builds, strengthens and continuously improves platform security. What You’ll Do Advise infrastructure and engineering teams on secure design for cloud platforms, enterprise infrastructure and endpoint environments Design, implement and continuously improve security controls across Gallup's cloud and infrastructure environments Conduct cloud security posture management (CSPM) reviews and infrastructure vulnerability assessments across network, system and cloud environments Administer, optimize and tune Splunk SIEM and endpoint detection and response (EDR) platforms to improve visibility, detection and response capabilities Embed security controls, metrics and best practices early in infrastructure initiatives through…"
     },
     {
-      "report_number": 30,
+      "report_number": 32,
       "job_key": "adf40ac5904cb1b075ac",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -4261,10 +4532,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-05T12:52:42Z",
-      "posting_age_days": 54,
+      "posting_age_days": 55,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 54,
+        "age_days": 55,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -4398,7 +4669,7 @@
       "description_excerpt": "Qdrant is an open-source vector search engine powering the next generation of AI applications, from semantic search and retrieval-augmented generation (RAG) to AI agents and real-time recommendations. Trusted by global leaders like Canva, HubSpot, Tripadvisor, Bosch, and Deutsche Telekom, we’re building the retrieval infrastructure layer for modern AI. Recently raising $50M in Series B funding, we are growing rapidly and committed to transforming how AI understands and interacts with data. As a remote-first company, we believe diverse backgrounds, perspectives, and experiences fuel innovation. Here, you’ll own meaningful work, tackle challenges, and grow alongside passionate individuals dedicated to shaping the future of AI. We are looking for a Mid-Level Security Engineer to own the hands-on engineering and operational work within our security program. You will be embedded in the Cloud Engineering team, report into the Security Officer, and work closely together to identify risks, set priorities, and drive security issues through remediation. You will act as a security enabler across all Product & Engineering. WHAT YOU WILL OWN - Run our public bug bounty program: triage reports,…"
     },
     {
-      "report_number": 31,
+      "report_number": 33,
       "job_key": "b8cd59fa1a90fef70e9e",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -4526,7 +4797,7 @@
       "description_excerpt": "Superhuman offers a dynamic hybrid working model for this role. This flexible approach gives team members the best of both worlds: plenty of focus time along with in-person collaboration that helps foster trust, innovation, and a strong team culture. About Superhuman Grammarly is now part of Superhuman, the AI productivity platform on a mission to unlock the superhuman potential in everyone. The Superhuman suite of apps and agents brings AI wherever people work, integrating with over 1 million applications and websites. The company’s products include Grammarly’s writing assistance, Superhuman Docs’ collaborative workspaces, Mail’s inbox management, and Go, the proactive AI assistant that understands context and delivers help automatically. Founded in 2009, Superhuman empowers over 40 million people, 50,000 organizations, and 3,000 educational institutions worldwide to eliminate busywork and focus on what matters. Learn more at superhuman.com. The Opportunity Superhuman is on a mission to build the fastest, most delightful productivity experiences powered by AI. As we scale rapidly, our internal technology operations must evolve to match our ambition. We’re looking for a Security E…"
     },
     {
-      "report_number": 32,
+      "report_number": 34,
       "job_key": "a03342dd76095c14515c",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -4712,7 +4983,7 @@
       "description_excerpt": "Redefine the future of live entertainment tech Welcome to vivenu, the global leader in event ticketing tech and one of the world’s fastest-growing live entertainment tech firms. We are transforming event ticketing for global leaders like the Grammys, the Golden Globes, Stanford University and the Hockenheimring turning what was once a simple transaction into a strategic business advantage. Backed by over $65 million in funding, our platform empowers event organizers to own their brand experience, unlock deep data insights, and seamlessly integrate ticketing into their digital infrastructure. With six offices worldwide and growing, we deliver a customizable, intuitive solution and industry-leading support that simplify even the most complex ticketing challenges – helping organizers deliver exceptional experiences and drive real growth. Join us and build the future of live entertainment. With over 10 million end users and usage quadrupling annually, our infrastructure now handles over 1 billion requests per month — and counting. Our API-first platform solves complex system challenges at scale — delivering performance, flexibility, and reliability for the world’s leading live enterta…"
     },
     {
-      "report_number": 33,
+      "report_number": 35,
       "job_key": "b0c87693b777ab13ba5f",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -4920,49 +5191,62 @@
     "greenhouse": {
       "status": "partial",
       "ok": true,
-      "jobs": 4568,
-      "requests": 61,
+      "jobs": 6271,
+      "requests": 68,
       "errors": [
         {
           "source": "greenhouse",
-          "company": "Contentful",
+          "company": "Blacklane",
           "http_status": null,
           "exception_type": "RuntimeError",
-          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/contentful/jobs?content=true: The read operation timed out",
-          "message": "Greenhouse | Contentful | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/contentful/jobs?content=true: The read operation timed out"
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/blacklane/jobs?content=true: The read operation timed out",
+          "message": "Greenhouse | Blacklane | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/blacklane/jobs?content=true: The read operation timed out"
+        },
+        {
+          "source": "greenhouse",
+          "company": "Parloa",
+          "http_status": null,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/parloa/jobs?content=true: The read operation timed out",
+          "message": "Greenhouse | Parloa | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/parloa/jobs?content=true: The read operation timed out"
+        },
+        {
+          "source": "greenhouse",
+          "company": "Superchat",
+          "http_status": null,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/superchat/jobs?content=true: The read operation timed out",
+          "message": "Greenhouse | Superchat | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/superchat/jobs?content=true: The read operation timed out"
+        },
+        {
+          "source": "greenhouse",
+          "company": "Amplitude",
+          "http_status": 404,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/amplitude/jobs?content=true: HTTP Error 404: Not Found",
+          "message": "Greenhouse | Amplitude | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/amplitude/jobs?content=true: HTTP Error 404: Not Found"
         }
       ],
-      "error": "Greenhouse | Contentful | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/contentful/jobs?content=true: The read operation timed out",
-      "companies_checked": 61,
-      "companies_successful": 60,
-      "companies_failed": 1
+      "error": "Greenhouse | Blacklane | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/blacklane/jobs?content=true: The read operation timed out",
+      "companies_checked": 68,
+      "companies_successful": 64,
+      "companies_failed": 4
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 203,
-      "requests": 8,
+      "jobs": 224,
+      "requests": 9,
       "errors": [],
       "error": "",
-      "companies_checked": 8,
-      "companies_successful": 8,
+      "companies_checked": 9,
+      "companies_successful": 9,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 160,
-      "requests": 3,
-      "errors": [],
-      "error": "",
-      "companies_checked": 3,
-      "companies_successful": 3,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 170,
+      "jobs": 1053,
       "requests": 4,
       "errors": [],
       "error": "",
@@ -4970,95 +5254,101 @@
       "companies_successful": 4,
       "companies_failed": 0
     },
-    "recruitee": {
-      "status": "idle",
+    "personio": {
+      "status": "ok",
       "ok": true,
-      "jobs": 0,
-      "requests": 0,
+      "jobs": 169,
+      "requests": 3,
       "errors": [],
       "error": "",
-      "companies_checked": 0,
-      "companies_successful": 0,
+      "companies_checked": 3,
+      "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "recruitee": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 2,
+      "requests": 1,
+      "errors": [],
+      "error": "",
+      "companies_checked": 1,
+      "companies_successful": 1,
       "companies_failed": 0
     }
   },
   "all_sources_failed": false,
   "employer_scan": {
     "mode": "daily",
-    "generated_at": "2026-09-29T11:29:05Z",
+    "generated_at": "2026-09-30T11:17:18Z",
     "sources": {
       "greenhouse": {
         "source": "greenhouse",
         "mode": "daily",
-        "batch_index": 1,
+        "batch_index": 2,
         "configured_enabled": 172,
         "priority_configured": 34,
-        "selected": 61,
-        "skipped_by_rotation": 106,
-        "skipped_by_cooldown": 5,
+        "selected": 68,
+        "skipped_by_rotation": 98,
+        "skipped_by_cooldown": 6,
         "rotation_skip_keys": [
           "greenhouse:abnormalsecurity",
           "greenhouse:adahealth",
           "greenhouse:affirm",
           "greenhouse:airbnb",
-          "greenhouse:algolia",
-          "greenhouse:amplitude",
+          "greenhouse:airspace",
+          "greenhouse:airtable",
           "greenhouse:andurilindustries",
-          "greenhouse:anthropic",
-          "greenhouse:bitpanda",
-          "greenhouse:block",
+          "greenhouse:applovin",
+          "greenhouse:bitgo",
           "greenhouse:brex",
-          "greenhouse:bridgebio",
-          "greenhouse:bugcrowd",
           "greenhouse:calm",
           "greenhouse:carta",
-          "greenhouse:chainguard",
-          "greenhouse:charterup",
           "greenhouse:checkr",
           "greenhouse:chime",
+          "greenhouse:circleci",
+          "greenhouse:civicnation",
+          "greenhouse:cloudflare",
+          "greenhouse:cockroachlabs",
           "greenhouse:coinbase",
           "greenhouse:coursera",
           "greenhouse:cribl",
+          "greenhouse:cultureamp",
+          "greenhouse:databricks",
           "greenhouse:datadog",
           "greenhouse:dialpad",
-          "greenhouse:discord",
           "greenhouse:dropbox",
+          "greenhouse:duolingo",
           "greenhouse:elastic",
-          "greenhouse:faire",
+          "greenhouse:epicgames",
           "greenhouse:fastly",
-          "greenhouse:figma",
           "greenhouse:fireblocks",
-          "greenhouse:fivetran",
-          "greenhouse:flatironhealth",
           "greenhouse:flexport",
           "greenhouse:freenow",
-          "greenhouse:gemini",
           "greenhouse:gitlab",
           "greenhouse:gleanwork",
           "greenhouse:grafanalabs",
+          "greenhouse:greenhouse",
           "greenhouse:guardsquare",
+          "greenhouse:gusto",
           "greenhouse:honeycomb",
-          "greenhouse:huntress",
-          "greenhouse:instacart",
+          "greenhouse:imply",
           "greenhouse:instawork",
-          "greenhouse:intercom",
           "greenhouse:isaraerospace",
           "greenhouse:jetbrains",
           "greenhouse:justworks",
           "greenhouse:khanacademy",
+          "greenhouse:klanggames",
           "greenhouse:knowbe4",
+          "greenhouse:lattice",
           "greenhouse:launchdarkly",
-          "greenhouse:locusrobotics",
           "greenhouse:lookoutinc",
-          "greenhouse:lucidsoftware",
           "greenhouse:lyft",
           "greenhouse:mavenclinic",
-          "greenhouse:melio",
           "greenhouse:mercari",
+          "greenhouse:mercury",
           "greenhouse:mixpanel",
-          "greenhouse:mongodb",
           "greenhouse:newrelic",
-          "greenhouse:nuro",
           "greenhouse:okta",
           "greenhouse:orcasecurity",
           "greenhouse:oscar",
@@ -5066,46 +5356,44 @@
           "greenhouse:pandadoc",
           "greenhouse:peloton",
           "greenhouse:pinterest",
+          "greenhouse:planetscale",
           "greenhouse:poshmark",
-          "greenhouse:precisionmedicinegroup",
-          "greenhouse:pulley",
-          "greenhouse:raisin",
-          "greenhouse:recursionpharmaceuticals",
           "greenhouse:reddit",
-          "greenhouse:remotecom",
+          "greenhouse:riotgames",
+          "greenhouse:ripple",
           "greenhouse:robinhood",
           "greenhouse:roblox",
           "greenhouse:salesloft",
-          "greenhouse:samsara",
-          "greenhouse:scaleai",
-          "greenhouse:scopely",
           "greenhouse:scoutai",
           "greenhouse:seatgeek",
           "greenhouse:singlestore",
           "greenhouse:sixgeninc",
+          "greenhouse:sofi",
           "greenhouse:spacex",
           "greenhouse:squarespace",
-          "greenhouse:stabilityai",
+          "greenhouse:starburst",
           "greenhouse:stockx",
-          "greenhouse:stripe",
+          "greenhouse:stubhubinc",
           "greenhouse:sumologic",
+          "greenhouse:sweetgreen",
           "greenhouse:tailscale",
           "greenhouse:tanium",
           "greenhouse:thirdbridge",
+          "greenhouse:togetherai",
           "greenhouse:twilio",
-          "greenhouse:twitch",
-          "greenhouse:upstart",
           "greenhouse:veeamsoftware",
           "greenhouse:verkada",
           "greenhouse:waymo",
           "greenhouse:webflow",
           "greenhouse:wizinc",
-          "greenhouse:xai",
-          "greenhouse:yugabyte",
-          "greenhouse:zetaglobal"
+          "greenhouse:wolt",
+          "greenhouse:wooga",
+          "greenhouse:zetaglobal",
+          "greenhouse:zoominfo"
         ],
         "cooldown_skip_keys": [
           "greenhouse:clickhouse",
+          "greenhouse:contentful",
           "greenhouse:solarisbank",
           "greenhouse:magicleap",
           "greenhouse:marqeta",
@@ -5115,16 +5403,15 @@
       "ashby": {
         "source": "ashby",
         "mode": "daily",
-        "batch_index": 1,
+        "batch_index": 2,
         "configured_enabled": 13,
         "priority_configured": 8,
-        "selected": 8,
-        "skipped_by_rotation": 5,
+        "selected": 9,
+        "skipped_by_rotation": 4,
         "skipped_by_cooldown": 0,
         "rotation_skip_keys": [
           "ashby:choco",
           "ashby:enpal",
-          "ashby:langdock",
           "ashby:leapsome",
           "ashby:n8n"
         ],
@@ -5133,46 +5420,45 @@
       "lever": {
         "source": "lever",
         "mode": "daily",
-        "batch_index": 1,
+        "batch_index": 2,
         "configured_enabled": 6,
         "priority_configured": 2,
-        "selected": 3,
-        "skipped_by_rotation": 3,
+        "selected": 4,
+        "skipped_by_rotation": 2,
         "skipped_by_cooldown": 0,
         "rotation_skip_keys": [
-          "lever:olx",
           "lever:saviynt",
-          "lever:veeva"
+          "lever:westernacher"
         ],
         "cooldown_skip_keys": []
       },
       "personio": {
         "source": "personio",
         "mode": "daily",
-        "batch_index": 1,
+        "batch_index": 2,
         "configured_enabled": 7,
         "priority_configured": 3,
-        "selected": 4,
-        "skipped_by_rotation": 3,
+        "selected": 3,
+        "skipped_by_rotation": 4,
         "skipped_by_cooldown": 0,
         "rotation_skip_keys": [
           "personio:dnsnet",
           "personio:liveeo-gmbh",
-          "personio:perseus"
+          "personio:perseus",
+          "personio:syseleven"
         ],
         "cooldown_skip_keys": []
       },
       "recruitee": {
         "source": "recruitee",
         "mode": "daily",
-        "batch_index": 1,
+        "batch_index": 2,
         "configured_enabled": 2,
         "priority_configured": 0,
-        "selected": 0,
-        "skipped_by_rotation": 2,
+        "selected": 1,
+        "skipped_by_rotation": 1,
         "skipped_by_cooldown": 0,
         "rotation_skip_keys": [
-          "recruitee:cygridgmbh",
           "recruitee:dransay"
         ],
         "cooldown_skip_keys": []
@@ -5180,37 +5466,41 @@
     }
   },
   "rejection_summary": {
-    "The vacancy has an explicit location outside Berlin/Germany-remote/Europe-remote/worldwide-remote scope": 73,
-    "Excluded seniority in title: Staff/Principal": 28,
-    "On-site role is not located in Berlin": 23,
-    "Excluded seniority in title: Management": 20,
-    "Hybrid role is not located in Berlin": 15,
-    "Advanced/fluent German required": 14,
-    "Mandatory experience is too senior: 10+ years": 11,
-    "Mandatory experience is too senior: 8+ years": 8,
-    "Excluded seniority in title: Lead/Architect": 6,
-    "Germany role is on-site/hybrid outside Berlin; only Germany-remote roles are allowed": 6,
-    "Excluded seniority in title: Executive": 5,
-    "German C2 required": 4,
-    "Mandatory experience is too senior: 15+ years": 3,
-    "Vacancy text is predominantly German; the radar is limited to English-speaking roles": 2,
-    "Posting is too old: 368 days (maximum 120)": 2,
+    "The vacancy has an explicit location outside Berlin/Germany-remote/Europe-remote/worldwide-remote scope": 156,
+    "Excluded seniority in title: Management": 37,
+    "Excluded seniority in title: Staff/Principal": 30,
+    "On-site role is not located in Berlin": 22,
+    "Mandatory experience is too senior: 8+ years": 17,
+    "Mandatory experience is too senior: 10+ years": 16,
+    "Advanced/fluent German required": 15,
+    "Germany role is on-site/hybrid outside Berlin; only Germany-remote roles are allowed": 14,
+    "Excluded seniority in title: Lead/Architect": 12,
+    "Vacancy text is predominantly German; the radar is limited to English-speaking roles": 6,
+    "Hybrid role is not located in Berlin": 6,
+    "Excluded seniority in title: Executive": 6,
+    "German C2 required": 5,
+    "German C1 required": 2,
+    "Posting is too old: 369 days (maximum 120)": 2,
     "Remote region is unclear; Germany, Europe/EU/EMEA, or worldwide eligibility is not explicit": 1,
     "Excluded seniority/employment type in title: working student": 1,
     "Excluded seniority/employment type in title: chief information security officer": 1,
-    "German C1 required": 1,
+    "Mandatory experience is too senior: 15+ years": 1,
     "Mandatory experience is too senior: 12+ years": 1,
-    "Posting is too old: 174 days (maximum 120)": 1,
-    "German proficiency required (level not stated)": 1,
-    "Posting is too old: 144 days (maximum 120)": 1,
-    "Posting is too old: 146 days (maximum 120)": 1,
-    "Posting is too old: 148 days (maximum 120)": 1,
-    "Posting is too old: 161 days (maximum 120)": 1,
-    "Posting is too old: 321 days (maximum 120)": 1,
-    "Posting is too old: 502 days (maximum 120)": 1,
-    "Posting is too old: 575 days (maximum 120)": 1,
-    "Posting is too old: 738 days (maximum 120)": 1,
-    "Posting is too old: 489 days (maximum 120)": 1,
-    "Posting is too old: 490 days (maximum 120)": 1
+    "Insufficient cybersecurity relevance": 1,
+    "Mandatory experience is too senior: 8-15 years": 1,
+    "Mandatory experience is too senior: 8-12 years": 1,
+    "Mandatory experience is too senior: 8-10 years": 1,
+    "Mandatory experience is too senior: 8-11 years": 1,
+    "Posting is too old: 175 days (maximum 120)": 1,
+    "Posting is too old: 147 days (maximum 120)": 1,
+    "Posting is too old: 149 days (maximum 120)": 1,
+    "Posting is too old: 1364 days (maximum 120)": 1,
+    "Posting is too old: 162 days (maximum 120)": 1,
+    "Posting is too old: 322 days (maximum 120)": 1,
+    "Posting is too old: 503 days (maximum 120)": 1,
+    "Posting is too old: 576 days (maximum 120)": 1,
+    "Posting is too old: 739 days (maximum 120)": 1,
+    "Posting is too old: 490 days (maximum 120)": 1,
+    "Posting is too old: 491 days (maximum 120)": 1
   }
 }
