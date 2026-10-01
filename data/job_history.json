@@ -5717,6 +5717,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-10-01T11:44:36Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 7378,
+      "security_title_candidates": 318,
+      "prefiltered_non_security_jobs": 7060,
+      "unique_jobs_after_deduplication": 233,
+      "duplicates_removed": 85,
+      "jobs_rejected_or_below_threshold": 7273,
+      "relevant_jobs_in_current_run": 20,
+      "new_jobs": 3,
+      "updated_jobs": 2,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 36,
+      "jobs_by_source": {
+        "arbeitnow": 1251,
+        "remotive": 16,
+        "linkedin_posts": 0,
+        "greenhouse": 5532,
+        "ashby": 229,
+        "lever": 155,
+        "personio": 190,
+        "recruitee": 5
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 28.6,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1251,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 16,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 5532,
+          "requests": 57,
+          "errors": [],
+          "error": "",
+          "companies_checked": 57,
+          "companies_successful": 57,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 229,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 155,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 190,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 5,
+          "requests": 1,
+          "errors": [],
+          "error": "",
+          "companies_checked": 1,
+          "companies_successful": 1,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -12242,6 +12355,67 @@
       "company": "vCluster Labs",
       "title": "Senior Software Engineer (Product Security)",
       "score": 59
+    },
+    {
+      "at": "2026-10-01T11:44:36Z",
+      "job_key": "ca9ca2de50791397491c",
+      "event": "UPDATED",
+      "company": "Alan",
+      "title": "Security Engineer - GRC",
+      "score": 69
+    },
+    {
+      "at": "2026-10-01T11:44:36Z",
+      "job_key": "aeed9275b0fec6f82691",
+      "event": "NEW",
+      "company": "sumup",
+      "title": "Senior Security Assurance Specialist",
+      "score": 61
+    },
+    {
+      "at": "2026-10-01T11:44:36Z",
+      "job_key": "1ab23c76c3e03c898472",
+      "event": "NEW",
+      "company": "jetbrains",
+      "title": "Senior Product/Cloud Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-10-01T11:44:36Z",
+      "job_key": "240800e330239220c3d1",
+      "event": "UPDATED",
+      "company": "Mozilla",
+      "title": "Senior Security Engineer - SecOps",
+      "score": 59
+    },
+    {
+      "at": "2026-10-01T11:44:36Z",
+      "job_key": "729a044bba71f5b2b24a",
+      "event": "NEW",
+      "company": "N26",
+      "title": "IT Audit Manger / ICT Service Auditor",
+      "score": 76
+    },
+    {
+      "at": "2026-10-01T11:44:36Z",
+      "job_key": "029b986949e1ae352ed4",
+      "event": "REMOVED",
+      "company": "ClickHouse",
+      "title": "Security Specialist - EMEA (location flexible)"
+    },
+    {
+      "at": "2026-10-01T11:44:36Z",
+      "job_key": "f24ae651382ec38ce5f1",
+      "event": "REMOVED",
+      "company": "Gallup",
+      "title": "Security Engineer — Platform Security"
+    },
+    {
+      "at": "2026-10-01T11:44:36Z",
+      "job_key": "9b9a510f2c4a28ff264e",
+      "event": "REMOVED",
+      "company": "Capmo",
+      "title": "Senior Security Engineer (all genders)"
     }
   ]
 }
