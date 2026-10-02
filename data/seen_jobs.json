@@ -208,7 +208,7 @@
   },
   "521c71dc83dfa3787db3": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-01T11:44:36Z",
+    "last_seen": "2026-10-02T11:14:34Z",
     "content_hash": "2c040214033ea8916a3acfc5d53099f7b45d4e07ed4a37d2804853d325041e92",
     "status": "SEEN_BEFORE",
     "company": "Staffbase",
@@ -361,7 +361,7 @@
   },
   "c1ab5b22feaa0afc7ed6": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-01T11:44:36Z",
+    "last_seen": "2026-10-02T11:14:34Z",
     "content_hash": "874303b038e294d58092401ad8f58ade3b445aa58d8b66da2393fb9640237967",
     "status": "SEEN_BEFORE",
     "company": "Vercel",
@@ -370,7 +370,7 @@
   },
   "59039a1f42a8c045cc25": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-01T11:44:36Z",
+    "last_seen": "2026-10-02T11:14:34Z",
     "content_hash": "61593bb32c639a13dc67c5644a5b373f39d7128e9f17f1d1ef0c90597db5d024",
     "status": "SEEN_BEFORE",
     "company": "Vercel",
@@ -388,7 +388,7 @@
   },
   "8284e91e3afc1425ab11": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-01T11:44:36Z",
+    "last_seen": "2026-10-02T11:14:34Z",
     "content_hash": "be060e66a635c68b81a1743a8fcaea5b856abb2d7312f7e003e037a1e6f0a671",
     "status": "SEEN_BEFORE",
     "company": "Vercel",
@@ -397,7 +397,7 @@
   },
   "9e8e071b253d6d6eb5ba": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-01T11:44:36Z",
+    "last_seen": "2026-10-02T11:14:34Z",
     "content_hash": "e849489d8bc6de82d589ef3c26a83e01d14cbb71c4614f4dadc515312c94c7fe",
     "status": "SEEN_BEFORE",
     "company": "Vercel",
@@ -460,7 +460,7 @@
   },
   "9ba7cf301be480a6ff9f": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-01T11:44:36Z",
+    "last_seen": "2026-10-02T11:14:34Z",
     "content_hash": "695565afccbc0ea27aed88980573bdd4151d8c3a3fd8cfff9885244f400ab84b",
     "status": "SEEN_BEFORE",
     "company": "NavVis",
@@ -2469,7 +2469,7 @@
     "first_seen": "2026-08-15T04:18:44Z",
     "last_seen": "2026-09-02T09:49:06Z",
     "content_hash": "f21711f2517a73d91327b94018f4f7e16a646534091ec62077aecf6301e791f1",
-    "status": "SEEN_BEFORE",
+    "status": "REMOVED",
     "company": "Samsara",
     "title": "Sr. Security Engineer - Enterprise Security",
     "url": "https://www.samsara.com/company/careers/roles/7834975?gh_jid=7834975"
@@ -3214,7 +3214,7 @@
   },
   "adf40ac5904cb1b075ac": {
     "first_seen": "2026-08-15T17:01:09Z",
-    "last_seen": "2026-10-01T11:44:36Z",
+    "last_seen": "2026-10-02T11:14:34Z",
     "content_hash": "b5d79684c158dd21a22b161caeb7fc7ce838b589f10eb85b95807e2a1ac10691",
     "status": "SEEN_BEFORE",
     "company": "Qdrant",
@@ -3412,7 +3412,7 @@
   },
   "61f504a1b399ea41dd23": {
     "first_seen": "2026-08-16T21:45:22Z",
-    "last_seen": "2026-10-01T11:44:36Z",
+    "last_seen": "2026-10-02T11:14:34Z",
     "content_hash": "9f3572bda9934e254b1d7e5f2593cfdbaeeddb92efe364cc6d966199b9f2a8bf",
     "status": "SEEN_BEFORE",
     "company": "HelloFresh",
@@ -3421,7 +3421,7 @@
   },
   "1f74892653c6467e49ca": {
     "first_seen": "2026-08-16T21:45:22Z",
-    "last_seen": "2026-10-01T11:44:36Z",
+    "last_seen": "2026-10-02T11:14:34Z",
     "content_hash": "fad2549be74af53a6045a50e41f26d99a64250d8c199fbd448c5cf1d8498fece",
     "status": "SEEN_BEFORE",
     "company": "N26",
@@ -3430,7 +3430,7 @@
   },
   "ba170f4eb78d3dff47c8": {
     "first_seen": "2026-08-16T21:45:22Z",
-    "last_seen": "2026-10-01T11:44:36Z",
+    "last_seen": "2026-10-02T11:14:34Z",
     "content_hash": "fd3dbdfd32e0e79b830856a08e42dc758465b83b194d5cdfc0d915e4d14efa1c",
     "status": "SEEN_BEFORE",
     "company": "N26",
@@ -3592,7 +3592,7 @@
   },
   "57609de858cd85e028d6": {
     "first_seen": "2026-08-26T05:59:57Z",
-    "last_seen": "2026-10-01T11:44:36Z",
+    "last_seen": "2026-10-02T11:14:34Z",
     "content_hash": "110bb0c9af8630cc98cdc2756cb988d9b169ef811c44d4df5e628623ace7df72",
     "status": "SEEN_BEFORE",
     "company": "HelloFresh",
@@ -3601,7 +3601,7 @@
   },
   "a2044c24720686ed5a7d": {
     "first_seen": "2026-08-27T16:38:50Z",
-    "last_seen": "2026-10-01T11:44:36Z",
+    "last_seen": "2026-10-02T11:14:34Z",
     "content_hash": "8ccbc39658d4d054dc72a603df04ae00aba946444c4e6fa41598e646f7cb404d",
     "status": "SEEN_BEFORE",
     "company": "HelloFresh",
@@ -3619,7 +3619,7 @@
   },
   "4afa9462370d50b6650c": {
     "first_seen": "2026-08-27T16:38:50Z",
-    "last_seen": "2026-10-01T11:44:36Z",
+    "last_seen": "2026-10-02T11:14:34Z",
     "content_hash": "e388309e9ce8f7c4e88a62d85ab323578b783bd32ce2aceec8fdeb7c53eeb25f",
     "status": "SEEN_BEFORE",
     "company": "HelloFresh",
@@ -3772,8 +3772,8 @@
   },
   "240800e330239220c3d1": {
     "first_seen": "2026-09-30T11:17:18Z",
-    "last_seen": "2026-10-01T11:44:36Z",
-    "content_hash": "0021db474e6f80ea6565d2889a6b533e53df995089a0a24e0ac54cb46c64b126",
+    "last_seen": "2026-10-02T11:14:34Z",
+    "content_hash": "672bd2297c6ada31659e90387c64a92c5fc9cad62f7620c07ec8b9a0b86dccd4",
     "status": "UPDATED",
     "company": "Mozilla",
     "title": "Senior Security Engineer - SecOps",
@@ -3790,29 +3790,38 @@
   },
   "aeed9275b0fec6f82691": {
     "first_seen": "2026-10-01T11:44:36Z",
-    "last_seen": "2026-10-01T11:44:36Z",
-    "content_hash": "fa73259f97d8208087fd5b1d3b7725143ad3c05c860435e35fa164123ba4df62",
-    "status": "NEW",
+    "last_seen": "2026-10-02T11:14:34Z",
+    "content_hash": "57828e375f7be3d868e9c37b7a664e08560085dc0c1df1ab2709e7cab1b31b00",
+    "status": "UPDATED",
     "company": "sumup",
     "title": "Senior Security Assurance Specialist",
     "url": "https://www.arbeitnow.com/jobs/companies/sumup/senior-security-assurance-specialist-berlin-298521"
   },
   "1ab23c76c3e03c898472": {
     "first_seen": "2026-10-01T11:44:36Z",
-    "last_seen": "2026-10-01T11:44:36Z",
+    "last_seen": "2026-10-02T11:14:34Z",
     "content_hash": "fd390f1aa8c2adc826fb7fef41e390586ad94542e9fb04d7746bb0add3953e36",
-    "status": "NEW",
+    "status": "SEEN_BEFORE",
     "company": "jetbrains",
     "title": "Senior Product/Cloud Security Engineer",
     "url": "https://www.arbeitnow.com/jobs/companies/jetbrains/remote-senior-product-cloud-security-engineer-55184"
   },
   "729a044bba71f5b2b24a": {
     "first_seen": "2026-10-01T11:44:36Z",
-    "last_seen": "2026-10-01T11:44:36Z",
+    "last_seen": "2026-10-02T11:14:34Z",
     "content_hash": "b53f439b644e8b2c0cf34ef5a6c4f5e60ce03f57dc30ce5e2ed7e74f78e75c3d",
-    "status": "NEW",
+    "status": "SEEN_BEFORE",
     "company": "N26",
     "title": "IT Audit Manger / ICT Service Auditor",
     "url": "https://n26.com/en-eu/careers/positions/8239610?gh_jid=8239610"
+  },
+  "bd7fecbd96a07cd67c3d": {
+    "first_seen": "2026-10-02T11:14:34Z",
+    "last_seen": "2026-10-02T11:14:34Z",
+    "content_hash": "161db896c6affa88a77812d0d4fbfe18d09b12f3e5d0fc8e77901164be05a982",
+    "status": "NEW",
+    "company": "KAYAK",
+    "title": "Security Engineer",
+    "url": "https://jobs.ashbyhq.com/kayak/7be95bc8-eb9d-4231-a14f-c06ea97a4d23"
   }
 }

@@ -1,48 +1,45 @@
 # Weekly Job Radar Analytics
 
 **Week starting:** 2026-09-28
-**Generated:** 2026-10-01T11:44:36Z
-**Active relevant jobs:** 20
+**Generated:** 2026-10-02T11:14:34Z
+**Active relevant jobs:** 18
 
 ## Role-family demand
 
 - **Security Engineering:** 10
 - **Product Security:** 4
-- **IT Audit / GRC:** 3
+- **IT Audit / GRC:** 2
 - **Cloud Security / DevSecOps:** 2
-- **Application Security:** 1
 
 ## Skill-gap signals
 
 ### Explicit mandatory gaps
 
-- **aws:** 7 job(s)
-- **go:** 7 job(s)
+- **aws:** 6 job(s)
+- **go:** 6 job(s)
+- **incident response:** 5 job(s)
 - **nist:** 4 job(s)
-- **cloud security:** 4 job(s)
-- **incident response:** 4 job(s)
-- **terraform:** 3 job(s)
+- **cloud security:** 3 job(s)
 - **siem:** 3 job(s)
-- **kubernetes:** 3 job(s)
 - **software development:** 2 job(s)
 - **detection engineering:** 2 job(s)
 - **bash:** 2 job(s)
 - **ci/cd:** 2 job(s)
+- **kubernetes:** 2 job(s)
+- **javascript:** 2 job(s)
 
 ### Potential gaps
 
-- **rust:** 12 job(s)
-- **bug bounty:** 5 job(s)
-- **edr:** 4 job(s)
+- **rust:** 9 job(s)
+- **edr:** 5 job(s)
+- **bug bounty:** 4 job(s)
 - **infrastructure as code:** 3 job(s)
 - **vulnerability disclosure program:** 3 job(s)
-- **iso 27001:** 2 job(s)
 - **kubernetes:** 2 job(s)
 - **go:** 2 job(s)
-- **secrets management:** 1 job(s)
 - **azure:** 1 job(s)
-- **software composition analysis:** 1 job(s)
 - **dlp:** 1 job(s)
+- **iso 27001:** 1 job(s)
 
 ### Optional gaps
 
@@ -61,17 +58,17 @@
 ### Exposure-only skills
 
 - **incident response:** 10 job(s)
-- **aws:** 9 job(s)
-- **product security:** 8 job(s)
-- **software development:** 7 job(s)
+- **aws:** 8 job(s)
+- **product security:** 7 job(s)
 - **cloud security:** 6 job(s)
-- **ci/cd:** 6 job(s)
+- **software development:** 6 job(s)
+- **siem:** 5 job(s)
 - **nist:** 4 job(s)
-- **siem:** 4 job(s)
+- **ci/cd:** 4 job(s)
 - **javascript:** 4 job(s)
 - **splunk:** 3 job(s)
-- **security auditing:** 2 job(s)
 - **network security:** 2 job(s)
+- **git:** 2 job(s)
 
 ## Application funnel
 

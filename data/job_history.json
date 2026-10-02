@@ -5830,6 +5830,137 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-10-02T11:14:34Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 7782,
+      "security_title_candidates": 230,
+      "prefiltered_non_security_jobs": 7552,
+      "unique_jobs_after_deduplication": 172,
+      "duplicates_removed": 58,
+      "jobs_rejected_or_below_threshold": 7706,
+      "relevant_jobs_in_current_run": 18,
+      "new_jobs": 1,
+      "updated_jobs": 2,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 2,
+      "report_jobs": 37,
+      "jobs_by_source": {
+        "arbeitnow": 1251,
+        "remotive": 17,
+        "linkedin_posts": 0,
+        "greenhouse": 6073,
+        "ashby": 194,
+        "lever": 77,
+        "personio": 170,
+        "recruitee": 0
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 28.3,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1251,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 17,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 6073,
+          "requests": 61,
+          "errors": [
+            {
+              "source": "greenhouse",
+              "company": "ClickHouse",
+              "http_status": 404,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found",
+              "message": "Greenhouse | ClickHouse | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found"
+            }
+          ],
+          "error": "Greenhouse | ClickHouse | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found",
+          "companies_checked": 61,
+          "companies_successful": 60,
+          "companies_failed": 1
+        },
+        "ashby": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 194,
+          "requests": 9,
+          "errors": [
+            {
+              "source": "ashby",
+              "company": "Leapsome",
+              "http_status": 404,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://api.ashbyhq.com/posting-api/job-board/leapsome?includeCompensation=true: HTTP Error 404: Not Found",
+              "message": "Ashby | Leapsome | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://api.ashbyhq.com/posting-api/job-board/leapsome?includeCompensation=true: HTTP Error 404: Not Found"
+            }
+          ],
+          "error": "Ashby | Leapsome | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://api.ashbyhq.com/posting-api/job-board/leapsome?includeCompensation=true: HTTP Error 404: Not Found",
+          "companies_checked": 9,
+          "companies_successful": 8,
+          "companies_failed": 1
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 77,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 170,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "idle",
+          "ok": true,
+          "jobs": 0,
+          "requests": 0,
+          "errors": [],
+          "error": "",
+          "companies_checked": 0,
+          "companies_successful": 0,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -12416,6 +12547,37 @@
       "event": "REMOVED",
       "company": "Capmo",
       "title": "Senior Security Engineer (all genders)"
+    },
+    {
+      "at": "2026-10-02T11:14:34Z",
+      "job_key": "aeed9275b0fec6f82691",
+      "event": "UPDATED",
+      "company": "sumup",
+      "title": "Senior Security Assurance Specialist",
+      "score": 61
+    },
+    {
+      "at": "2026-10-02T11:14:34Z",
+      "job_key": "240800e330239220c3d1",
+      "event": "UPDATED",
+      "company": "Mozilla",
+      "title": "Senior Security Engineer - SecOps",
+      "score": 59
+    },
+    {
+      "at": "2026-10-02T11:14:34Z",
+      "job_key": "bd7fecbd96a07cd67c3d",
+      "event": "NEW",
+      "company": "KAYAK",
+      "title": "Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-10-02T11:14:34Z",
+      "job_key": "d2c07a0f7d680fcd4fd3",
+      "event": "REMOVED",
+      "company": "Samsara",
+      "title": "Sr. Security Engineer - Enterprise Security"
     }
   ]
 }
