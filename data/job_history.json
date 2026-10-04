@@ -5961,6 +5961,128 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-10-04T11:36:53Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 24252,
+      "security_title_candidates": 822,
+      "prefiltered_non_security_jobs": 23430,
+      "unique_jobs_after_deduplication": 635,
+      "duplicates_removed": 187,
+      "jobs_rejected_or_below_threshold": 24053,
+      "relevant_jobs_in_current_run": 12,
+      "new_jobs": 1,
+      "updated_jobs": 1,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 1,
+      "report_jobs": 37,
+      "jobs_by_source": {
+        "arbeitnow": 1250,
+        "remotive": 18,
+        "linkedin_posts": 0,
+        "greenhouse": 21171,
+        "ashby": 401,
+        "lever": 1210,
+        "personio": 195,
+        "recruitee": 7
+      },
+      "employer_mode": "full",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 42.1,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1250,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 18,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 21171,
+          "requests": 168,
+          "errors": [
+            {
+              "source": "greenhouse",
+              "company": "Marqeta",
+              "http_status": 404,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/marqeta/jobs?content=true: HTTP Error 404: Not Found",
+              "message": "Greenhouse | Marqeta | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/marqeta/jobs?content=true: HTTP Error 404: Not Found"
+            }
+          ],
+          "error": "Greenhouse | Marqeta | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/marqeta/jobs?content=true: HTTP Error 404: Not Found",
+          "companies_checked": 168,
+          "companies_successful": 167,
+          "companies_failed": 1
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 401,
+          "requests": 12,
+          "errors": [],
+          "error": "",
+          "companies_checked": 12,
+          "companies_successful": 12,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1210,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 195,
+          "requests": 7,
+          "errors": [],
+          "error": "",
+          "companies_checked": 7,
+          "companies_successful": 7,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 7,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -12578,6 +12700,50 @@
       "event": "REMOVED",
       "company": "Samsara",
       "title": "Sr. Security Engineer - Enterprise Security"
+    },
+    {
+      "at": "2026-10-04T11:36:53Z",
+      "job_key": "465abfb3dbed7cffd989",
+      "event": "NEW",
+      "company": "Augustus",
+      "title": "Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-10-04T11:36:53Z",
+      "job_key": "240800e330239220c3d1",
+      "event": "UPDATED",
+      "company": "Mozilla",
+      "title": "Senior Security Engineer - SecOps",
+      "score": 59
+    },
+    {
+      "at": "2026-10-04T11:36:53Z",
+      "job_key": "c67151850142311e2df0",
+      "event": "REMOVED",
+      "company": "SIXGEN",
+      "title": "Senior Web Application Penetration Tester"
+    },
+    {
+      "at": "2026-10-04T11:36:53Z",
+      "job_key": "b420e12f1f07d8e20c57",
+      "event": "REMOVED",
+      "company": "Mozilla",
+      "title": "Senior Software Engineer, Firefox Security"
+    },
+    {
+      "at": "2026-10-04T11:36:53Z",
+      "job_key": "fdf1a1089997184e9463",
+      "event": "REMOVED",
+      "company": "Glean",
+      "title": "Platform Security Engineer"
+    },
+    {
+      "at": "2026-10-04T11:36:53Z",
+      "job_key": "7e3939e01a6374569a72",
+      "event": "REMOVED",
+      "company": "Parity",
+      "title": "Senior Security Engineer - Remote"
     }
   ]
 }

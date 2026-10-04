@@ -1,19 +1,19 @@
 # Employer Watchlist Health
 
-**Generated:** 2026-10-02T11:14:34Z
-**Scan mode:** Daily
+**Generated:** 2026-10-04T11:36:53Z
+**Scan mode:** Full
 **Configured employers:** 200
-**Healthy after a completed check:** 193
+**Healthy after a completed check:** 194
 **Cooling down:** 6
-**Invalid identifiers:** 7
+**Invalid identifiers:** 6
 
 ## Scan coverage
 
-- **Greenhouse:** 61/172 selected; 107 scheduled for another batch; 4 cooling down
-- **Ashby:** 9/13 selected; 4 scheduled for another batch; 0 cooling down
-- **Lever:** 2/6 selected; 4 scheduled for another batch; 0 cooling down
-- **Personio:** 3/7 selected; 4 scheduled for another batch; 0 cooling down
-- **Recruitee:** 0/2 selected; 2 scheduled for another batch; 0 cooling down
+- **Greenhouse:** 168/172 selected; 0 scheduled for another batch; 4 cooling down
+- **Ashby:** 12/13 selected; 0 scheduled for another batch; 1 cooling down
+- **Lever:** 6/6 selected; 0 scheduled for another batch; 0 cooling down
+- **Personio:** 7/7 selected; 0 scheduled for another batch; 0 cooling down
+- **Recruitee:** 2/2 selected; 0 scheduled for another batch; 0 cooling down
 
 ## Verified security hiring watch
 
@@ -38,6 +38,5 @@
 - **ClickHouse (greenhouse):** invalid_identifier; next retry 2026-11-01T11:14:34Z; Greenhouse | ClickHouse | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found
 - **Leapsome (ashby):** invalid_identifier; next retry 2026-11-01T11:14:34Z; Ashby | Leapsome | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://api.ashbyhq.com/posting-api/job-board/leapsome?includeCompensation=true: HTTP Error 404: Not Found
 - **Magic Leap (greenhouse):** invalid_identifier; next retry 2026-10-06T10:01:28Z; Greenhouse | Magic Leap | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found
-- **Marqeta (greenhouse):** invalid_identifier; next retry 2026-10-01T10:20:37Z; Greenhouse | Marqeta | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/marqeta/jobs?content=true: HTTP Error 404: Not Found
+- **Marqeta (greenhouse):** invalid_identifier; next retry 2026-11-03T11:36:53Z; Greenhouse | Marqeta | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/marqeta/jobs?content=true: HTTP Error 404: Not Found
 - **Postman (greenhouse):** invalid_identifier; next retry 2026-10-20T10:22:50Z; Greenhouse | Postman | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found
-- **Solaris SE (greenhouse):** invalid_identifier; next retry 2026-10-04T04:05:07Z; Greenhouse | Solaris SE | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/solarisbank/jobs?content=true: HTTP Error 404: Not Found

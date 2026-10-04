@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T11:14:34Z",
+  "generated_at": "2026-10-04T11:36:53Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,42 +171,42 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-10-02T11:14:34Z",
+    "generated_at": "2026-10-04T11:36:53Z",
     "scoring_version": 2.2,
-    "jobs_collected": 7782,
-    "security_title_candidates": 230,
-    "prefiltered_non_security_jobs": 7552,
-    "unique_jobs_after_deduplication": 172,
-    "duplicates_removed": 58,
-    "jobs_rejected_or_below_threshold": 7706,
-    "relevant_jobs_in_current_run": 18,
+    "jobs_collected": 24252,
+    "security_title_candidates": 822,
+    "prefiltered_non_security_jobs": 23430,
+    "unique_jobs_after_deduplication": 635,
+    "duplicates_removed": 187,
+    "jobs_rejected_or_below_threshold": 24053,
+    "relevant_jobs_in_current_run": 12,
     "new_jobs": 1,
-    "updated_jobs": 2,
+    "updated_jobs": 1,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
-    "sources_partial": 2,
+    "sources_partial": 1,
     "report_jobs": 37,
     "jobs_by_source": {
-      "arbeitnow": 1251,
-      "remotive": 17,
+      "arbeitnow": 1250,
+      "remotive": 18,
       "linkedin_posts": 0,
-      "greenhouse": 6073,
-      "ashby": 194,
-      "lever": 77,
-      "personio": 170,
-      "recruitee": 0
+      "greenhouse": 21171,
+      "ashby": 401,
+      "lever": 1210,
+      "personio": 195,
+      "recruitee": 7
     },
-    "employer_mode": "daily",
+    "employer_mode": "full",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 28.3
+    "workflow_duration_seconds": 42.1
   },
   "source_status": {
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 1251,
+      "jobs": 1250,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 17,
+      "jobs": 18,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -230,105 +230,96 @@
     "greenhouse": {
       "status": "partial",
       "ok": true,
-      "jobs": 6073,
-      "requests": 61,
+      "jobs": 21171,
+      "requests": 168,
       "errors": [
         {
           "source": "greenhouse",
-          "company": "ClickHouse",
+          "company": "Marqeta",
           "http_status": 404,
           "exception_type": "RuntimeError",
-          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found",
-          "message": "Greenhouse | ClickHouse | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found"
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/marqeta/jobs?content=true: HTTP Error 404: Not Found",
+          "message": "Greenhouse | Marqeta | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/marqeta/jobs?content=true: HTTP Error 404: Not Found"
         }
       ],
-      "error": "Greenhouse | ClickHouse | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found",
-      "companies_checked": 61,
-      "companies_successful": 60,
+      "error": "Greenhouse | Marqeta | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/marqeta/jobs?content=true: HTTP Error 404: Not Found",
+      "companies_checked": 168,
+      "companies_successful": 167,
       "companies_failed": 1
     },
     "ashby": {
-      "status": "partial",
+      "status": "ok",
       "ok": true,
-      "jobs": 194,
-      "requests": 9,
-      "errors": [
-        {
-          "source": "ashby",
-          "company": "Leapsome",
-          "http_status": 404,
-          "exception_type": "RuntimeError",
-          "description": "Request failed after 1 attempt(s): https://api.ashbyhq.com/posting-api/job-board/leapsome?includeCompensation=true: HTTP Error 404: Not Found",
-          "message": "Ashby | Leapsome | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://api.ashbyhq.com/posting-api/job-board/leapsome?includeCompensation=true: HTTP Error 404: Not Found"
-        }
-      ],
-      "error": "Ashby | Leapsome | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://api.ashbyhq.com/posting-api/job-board/leapsome?includeCompensation=true: HTTP Error 404: Not Found",
-      "companies_checked": 9,
-      "companies_successful": 8,
-      "companies_failed": 1
+      "jobs": 401,
+      "requests": 12,
+      "errors": [],
+      "error": "",
+      "companies_checked": 12,
+      "companies_successful": 12,
+      "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 77,
+      "jobs": 1210,
+      "requests": 6,
+      "errors": [],
+      "error": "",
+      "companies_checked": 6,
+      "companies_successful": 6,
+      "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 195,
+      "requests": 7,
+      "errors": [],
+      "error": "",
+      "companies_checked": 7,
+      "companies_successful": 7,
+      "companies_failed": 0
+    },
+    "recruitee": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 7,
       "requests": 2,
       "errors": [],
       "error": "",
       "companies_checked": 2,
       "companies_successful": 2,
       "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 170,
-      "requests": 3,
-      "errors": [],
-      "error": "",
-      "companies_checked": 3,
-      "companies_successful": 3,
-      "companies_failed": 0
-    },
-    "recruitee": {
-      "status": "idle",
-      "ok": true,
-      "jobs": 0,
-      "requests": 0,
-      "errors": [],
-      "error": "",
-      "companies_checked": 0,
-      "companies_successful": 0,
-      "companies_failed": 0
     }
   },
   "jobs": [
     {
       "report_number": 1,
-      "job_key": "bd7fecbd96a07cd67c3d",
+      "job_key": "465abfb3dbed7cffd989",
       "status": "NEW",
       "application_status": "NEW",
       "score": 69,
-      "raw_score": 81,
+      "raw_score": 78,
       "score_cap": 69,
       "score_cap_reasons": [
         "At least one explicitly mandatory skill has exposure only"
       ],
       "score_label": "REVIEW",
       "title": "Security Engineer",
-      "company": "KAYAK",
+      "company": "Augustus",
       "location": "Berlin, Germany",
       "location_analysis": {
         "category": "eligible_berlin",
         "eligible": true,
         "score": 15,
-        "reason": "Berlin hybrid role",
+        "reason": "Berlin on-site role",
         "verification_required": false,
         "score_cap": null,
         "scope": "Berlin",
-        "work_model": "Hybrid"
+        "work_model": "On-site"
       },
       "location_scope": "Berlin",
-      "working_model": "Hybrid",
+      "working_model": "On-site",
       "role_family": {
         "id": "security_engineering",
         "label": "Security Engineering",
@@ -336,7 +327,8 @@
         "confidence": "high",
         "evidence": [
           "security engineer",
-          "vulnerability"
+          "security engineering",
+          "security controls"
         ]
       },
       "seniority": {
@@ -344,89 +336,86 @@
         "label": "Mid-level or unspecified",
         "evidence": "No explicit seniority marker in title"
       },
-      "url": "https://jobs.ashbyhq.com/kayak/7be95bc8-eb9d-4231-a14f-c06ea97a4d23",
-      "apply_url": "https://jobs.ashbyhq.com/kayak/7be95bc8-eb9d-4231-a14f-c06ea97a4d23/application",
-      "canonical_url": "https://jobs.ashbyhq.com/kayak/7be95bc8-eb9d-4231-a14f-c06ea97a4d23",
-      "source": "Ashby",
+      "url": "https://www.arbeitnow.com/jobs/companies/augustus/security-engineer-berlin-379416",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/augustus/security-engineer-berlin-379416",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/augustus/security-engineer-berlin-379416",
+      "source": "Arbeitnow",
       "sources": [
-        "Ashby"
+        "Arbeitnow"
       ],
-      "ats": "ashby",
-      "priority_employer": true,
+      "ats": "",
+      "priority_employer": false,
       "lead_type": "",
       "post_author": "",
       "feed_name": "",
-      "published_at": "2026-10-02T09:11:35Z",
-      "posting_age_days": 0,
+      "published_at": "2026-10-03T05:40:03Z",
+      "posting_age_days": 1,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 0,
+        "age_days": 1,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
       "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-10-02T11:14:34Z",
+      "first_seen": "2026-10-04T11:36:53Z",
       "experience_required": null,
       "german_requirement": "No German requirement detected",
       "skill_matches": {
         "match": [
-          "application security",
-          "frida",
-          "python",
           "security automation",
-          "vulnerability management"
+          "threat modeling"
         ],
         "partial": [
-          "aws",
+          "ci/cd",
           "cloud security",
-          "docker",
           "incident response",
-          "nist",
+          "product security",
           "siem"
         ],
         "missing": [
-          "edr"
+          "infrastructure as code",
+          "secrets management"
         ],
         "nice_to_have": []
       },
       "mandatory_gaps": [
         {
-          "skill": "aws",
+          "skill": "cloud security",
           "profile_status": "partial",
           "requirement": "mandatory",
-          "evidence": "- Experience with cloud environments (AWS or GCP) or container security."
+          "evidence": "Extensive experience in hands-on security engineering, product security, cloud security, or detection/response engineering in production environments"
         },
         {
-          "skill": "docker",
+          "skill": "product security",
           "profile_status": "partial",
           "requirement": "mandatory",
-          "evidence": "- Experience with cloud environments (AWS or GCP) or container security."
+          "evidence": "You have strong product security fundamentals and can improve secure-by-default patterns in fast-moving engineering teams."
         },
         {
-          "skill": "incident response",
+          "skill": "siem",
           "profile_status": "partial",
           "requirement": "mandatory",
-          "evidence": "- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management."
-        },
-        {
-          "skill": "nist",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "- Familiarity with the NIST Cybersecurity Framework or similar security frameworks."
+          "evidence": "Experience with modern security tooling, especially SIEM/SOAR and cloud security platforms"
         }
       ],
       "potential_gaps": [
         {
-          "skill": "edr",
+          "skill": "infrastructure as code",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "- Experience working with security tooling (e.g., vulnerability scanners, endpoint detection and response platforms, SIEM systems, or similar)"
+          "evidence": "Months 3-4: Stand up an AI-native product-security review pipeline that auto-triages code/dependency/IaC findings by service criticality, proposes fixes in pull requests, and routes owner-tagged remediation tasks and reduces non-actionable security alerts."
+        },
+        {
+          "skill": "secrets management",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Months 5-6: Expand baseline coverage to >=85% of Tier-1 services for workload identity hardening, secret management standards, runtime audit logging, and high-severity dependency monitoring"
         }
       ],
       "optional_gaps": [],
       "score_breakdown": {
         "role_alignment": 16,
-        "skills": 17,
+        "skills": 14,
         "experience": 10,
         "location": 15,
         "language": 10,
@@ -435,90 +424,72 @@
       },
       "match_reasons": [
         "Role family: Security Engineering.",
-        "Berlin hybrid role.",
-        "Evidenced matches include application security, frida, python, security automation, vulnerability management."
+        "Berlin on-site role.",
+        "Evidenced matches include security automation, threat modeling."
       ],
       "warnings": [
-        "Mandatory gaps: aws, docker, incident response, nist",
-        "Potential gaps: edr",
-        "Exposure only; do not claim deep expertise: aws, cloud security, docker, incident response, nist, siem",
+        "Mandatory gaps: cloud security, product security, siem",
+        "Potential gaps: infrastructure as code, secrets management",
+        "Exposure only; do not claim deep expertise: ci/cd, cloud security, incident response, product security, siem",
         "At least one explicitly mandatory skill has exposure only"
       ],
       "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "KAYAK, part of Booking Holdings (NASDAQ: BKNG), is a leading travel search engine. With billions of queries across our platforms, we help people find their perfect flight, stay, rental car and vacation package. We're also transforming business travel with a new corporate travel solution, KAYAK for Business. As an employee of KAYAK, you will be part of a travel company that operates a portfolio of global metasearch brands including momondo, Cheapflights and HotelsCombined, among others. From start-up to industry leader, innovation is in our DNA and every employee has an opportunity to make their mark. Our focus is on building the best travel search engine to make it easier for everyone to experience the world. Security at KAYAK is a team effort — we protect the people, systems, and data that power travel for millions of users worldwide, and we do it by working closely with engineering, operations, and product teams. As a Security Engineer, you will help to drive our vulnerability management program while contributing across multiple security domains in a collaborative, globally distributed environment. You can find more information about our security program at https://www.kayak.co…",
-      "full_description": "KAYAK, part of Booking Holdings (NASDAQ: BKNG), is a leading travel search engine. With billions of queries across our platforms, we help people find their perfect flight, stay, rental car and vacation package. We're also transforming business travel with a new corporate travel solution, KAYAK for Business.\n\nAs an employee of KAYAK, you will be part of a travel company that operates a portfolio of global metasearch brands including momondo, Cheapflights and HotelsCombined, among others. From start-up to industry leader, innovation is in our DNA and every employee has an opportunity to make their mark. Our focus is on building the best travel search engine to make it easier for everyone to experience the world.\n\nSecurity at KAYAK is a team effort — we protect the people, systems, and data that power travel for millions of users worldwide, and we do it by working closely with engineering, operations, and product teams. As a Security Engineer, you will help to drive our vulnerability management program while contributing across multiple security domains in a collaborative, globally distributed environment. You can find more information about our security program at https://www.kayak.com/security.\n\nThis role is required to work from our Berlin, Germany office 3 days per week.\n\nIN THIS ROLE, YOU WILL:\n\n- Support and continuously improve the vulnerability management program — defining processes for identifying, prioritizing, tracking, and driving remediation of security findings across infrastructure and applications. This includes working closely with engineering, operations, and IT teams to ensure findings are understood, assigned, and resolved in a timely manner, and reporting on program health and trends to security leadership.\n\n- Participate in incident response activities, including triage, investigation, containment, and post-incident documentation.\n\n- Support application security initiatives, including automated code scanning, dependency analysis, and working with engineering teams to address security findings early in the development process.\n\n- Help configure, monitor, and improve security tooling across areas such as endpoint protection, email security, identity and access management, and cloud security posture.\n\n- Contribute to security automation and orchestration workflows that reduce manual effort and improve response times.\n\n- Collaborate with engineering, operations, and compliance teams to embed security thinking into development workflows and infrastructure changes.\n\n- Document processes, runbooks, and findings to support team knowledge sharing and continuity.\n\n- Participate in access reviews and support identity and access management processes in line with established policies.\n\n- Stay current with the evolving threat landscape and contribute ideas for improving the team's detection and response capabilities.\n\nPLEASE APPLY IF YOU HAVE:\n\n- A solid understanding of cybersecurity fundamentals — including networking, operating systems (Linux, macOS, or Windows), and cloud environments — gained through any combination of formal education, self-study, bootcamps, or professional experience.\n\n- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management.\n\n- Experience working with security tooling (e.g., vulnerability scanners, endpoint detection and response platforms, SIEM systems, or similar); familiarity with specific tools is a plus, but willingness to learn our stack matters more than exact tool experience.\n\n- Familiarity with AI tools and how they can be applied in a security context — whether for automating workflows, triaging alerts, or improving detection and response. Experience working with AI models or building AI-assisted workflows is a plus.\n\n- The ability to communicate clearly in writing and in conversation — our team is globally distributed and works primarily in English (professional working proficiency is sufficient; native fluency is not required).\n\n- A collaborative approach to problem-solving — you ask questions, share what you learn, and support your teammates.\n\n- Comfort working with some degree of autonomy on assigned tasks and projects, while knowing when to ask for input.\n\nBONUS POINTS IF YOU HAVE:\n\n- Familiarity with the NIST Cybersecurity Framework or similar security frameworks.\n\n- Experience with cloud environments (AWS or GCP) or container security.\n\n- Exposure to security automation or scripting (e.g., Python, workflow automation tools).\n\n- Experience working in a regulated environment (e.g., SOC 2, PCI).\n\nBENEFITS AND PERKS\n\n- Work from (almost) anywhere for up to 20 days per year\n\n- Focus on mental health and well-being:\n\n- Company-paid therapy sessions through SpringHealth\n\n- Company-paid subscription to HeadSpace\n\n- Company-wide week off a year - the whole team fully recharges (and returns without a pile-up of work!)\n\n- No meeting Fridays\n\n- Paid parental leave\n\n- Generous paid vacation + time off for your birthday\n\n- Paid volunteer time\n\n- Focus on your career growth:\n\n- Development Dollars\n\n- Leadership development\n\n- Access to thousands of on-demand e-learnings\n\n- Travel Discounts\n\n- Employee Resource Groups\n\n- 6 weeks paid vacation\n\n- Free lunch 2 days per week\n\n- Pension plan contributions\n\n- Public transportation subsidies\n\n- Bike leasing program\n\n- Monthly social events, Thursday happy hours, sports teams\n\n- An awesome office in Friedrichshain, Berlin\n\nINCLUSION\n\nAt KAYAK, we want everyone to have the space to grow, share ideas and do great work. That’s why we’re focused on hiring the best talent from all walks of life and experiences, supporting them well and making sure no one feels like they have to fit a mold to belong here.\n\nNeed any adjustments for the interview, application or on the job? No problem - just give us a heads-up. We’ve got you.\n\n#LI-AS1",
+      "description_excerpt": "Few people get to build a bank from scratch. Even fewer get to build one at a moment when banking itself is being reinvented. The Dollar is the best product in the history of the world - there is infinite global demand. But International Fintechs and non-US banks are left with two unsatisfying options to access it: Either they build on legacy clearing banks that are slow and unreliable, or they interface with middleware providers that don’t move and hold the dollars directly, but themselves rely on underlying legacy banks. Augustus collapses this stack by combining two things: A real, national bank charter (in organization), and Marble, our proprietary core banking system, built around intelligence, made of code. We are a group of operators, unicorn early employees, ex-founders and people who walked away from degrees because they believe this is an industry and career defining opportunity. We are backed with more than $200M from Peter Thiel's Valar Ventures, Tiger Global, Hummingbird, QED, Creandum, and the founders of Nubank, Ramp, Deel, Circle, Fluidstack, Fuse, and n8n. We are regulated in Europe and live with Euro and Stablecoin clearing today. Now, we are building the US team…",
+      "full_description": "Few people get to build a bank from scratch. Even fewer get to build one at a moment when banking itself is being reinvented.\n\nThe Dollar is the best product in the history of the world - there is infinite global demand. But International Fintechs and non-US banks are left with two unsatisfying options to access it: Either they build on legacy clearing banks that are slow and unreliable, or they interface with middleware providers that don’t move and hold the dollars directly, but themselves rely on underlying legacy banks. Augustus collapses this stack by combining two things: A real, national bank charter (in organization), and Marble, our proprietary core banking system, built around intelligence, made of code.\n\nWe are a group of operators, unicorn early employees, ex-founders and people who walked away from degrees because they believe this is an industry and career defining opportunity. We are backed with more than $200M from Peter Thiel's Valar Ventures, Tiger Global, Hummingbird, QED, Creandum, and the founders of Nubank, Ramp, Deel, Circle, Fluidstack, Fuse, and n8n.\n\nWe are regulated in Europe and live with Euro and Stablecoin clearing today. Now, we are building the US team from the ground up, while continuing to grow rapidly in Europe.\n\nThe Role\n\nYou will own security engineering end-to-end across application, infrastructure, and incident response: partnering with product and platform teams during design, writing and shipping security automation in production, and leading high-quality response when something breaks. Day to day, you will help define security in a greenfield modern bank, moving beyond threat modeling, harden cloud and CI/CD paths, build detection and response workflows, and drive remediation to closure with clear risk tradeoffs. This role reports to the CISO. What matters most is measurable risk reduction that keeps product velocity high.\n\nYour First Six Months\n\nUnderstand the foundations and increase your ownership rapidly.\n\nMonths 1-2: Enforce an SSDLC that codifies existing security goals across EU-live payment/ledger services and US launch-critical services into required design, build, and release checkpoints (ownership, control evidence, and exception handling), with 100% of net-new Tier-1 changes following the workflow.\n\nMonths 3-4: Stand up an AI-native product-security review pipeline that auto-triages code/dependency/IaC findings by service criticality, proposes fixes in pull requests, and routes owner-tagged remediation tasks and reduces non-actionable security alerts.\n\nMonths 5-6: Expand baseline coverage to >=85% of Tier-1 services for workload identity hardening, secret management standards, runtime audit logging, and high-severity dependency monitoring; start monthly control-evidence reporting to Security & Compliance.\n\nWho Will Thrive At Augustus\n\nWe believe that throwing smart people with high agency at big problems produces the best outcomes. The people who succeed here share the following traits:\n\nRelentless: You can't leave something broken. You don't stop because it got hard or because no one is watching.\n\nSet The Bar: You're harder on yourself than anyone else would be. You don't need external accountability to care about quality.\n\nShape The Game: You don't wait for a playbook and you don't need one. You walk into genuinely new territory and figure it out. You move before anyone asked you to.\n\nSystems First: You don't solve problems by adding people or effort. You build systems that make the problem smaller. Your first instinct is to automate, not to handle it manually.\n\nThis role is for you if:\n\nYou can point to security automation you personally built that replaced recurring manual review work.\n\nYou have strong product security fundamentals and can improve secure-by-default patterns in fast-moving engineering teams.\n\nYou have led end-to-end rollout of security controls in production, from design and implementation through adoption and evidence.\n\nYou regularly influence architecture decisions before launch through fast, lightweight risk reviews and pragmatic controls.\n\nYou are comfortable writing production-grade code or infrastructure changes, not only policy or tickets.\n\nYou use AI tooling to accelerate security reviews and remediation planning without lowering quality or signal.\n\nYou push ambiguous work forward without waiting for a complete playbook, and you bring stakeholders with you.\n\nThis is not for you if:\n\nYou prefer advisory-only security roles and do not want direct implementation ownership.\n\nYou need tightly scoped tickets to make progress and are uncomfortable defining the plan yourself.\n\nYou avoid ownership of production systems and control implementation work.\n\nYou optimize for stability over change and are not excited by early-stage ambiguity.\n\nHard Requirements\n\nExtensive experience in hands-on security engineering, product security, cloud security, or detection/response engineering in production environments\n\nDemonstrated expertise securing cloud-based systems (IAM, networking, logging, key management, workload isolation) and CI/CD pipelines\n\nProven experience building at least one security automation or detection capability that is actively used in production\n\nExperience in fintech, payments, banking, or another regulated environment with audit and control evidence requirements\n\nExperience with modern security tooling, especially SIEM/SOAR and cloud security platforms\n\nLocated in (or willing to relocate to) Berlin and able to work in-office 3 days/week\n\nPay transparency\n\nCompensation packages at Augustus include base salary, equity, and benefits. New hire offers are made based on a candidate's experience, expertise and geographic location. The annual base salary range for this role is €100,000-€150,000 + equity.\n\nWhat We Offer\n\nCareer Growth: You will be given more responsibility and pushed to grow faster than ever before.\n\nNetwork: Your peers are brilliant, highly motivated people. These people will be foundational in your future opportunities.\n\nReal Participation: Employees are shareholders. You will think and act like an owner.\n\nPerks & Benefits: Relocation support, visa support, the latest Apple gear (MacBook + AirPods), lunch benefit, gym benefit, a beautiful office in the heart of the city, 4x on-/offsites per year, and an annual development budget.\n\nAdditional to the global benefits above, we offer localized benefits such as comprehensive medical, dental, and vision insurance and a 401(k) retirement plan for our US team.\n\nAugustus is committed to creating an inclusive environment where people from all backgrounds can thrive and where different viewpoints and experiences are valued and respected. Augustus will consider all applications for employment without regard to race, ethnicity, national origin, religious beliefs, gender identity or expression, sexual orientation, neurodiversity, disability, age, parental or veteran status.\n\nCompensation: €100K – €150K • Offers Equity\n\n• €100K – €150K • Offers Equity\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
       "skill_requirements": [
-        {
-          "skill": "application security",
-          "profile_status": "match",
-          "requirement": "mandatory",
-          "evidence": "- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management."
-        },
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "- Experience with cloud environments (AWS or GCP) or container security."
-        },
-        {
-          "skill": "docker",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "- Experience with cloud environments (AWS or GCP) or container security."
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management."
-        },
-        {
-          "skill": "nist",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "- Familiarity with the NIST Cybersecurity Framework or similar security frameworks."
-        },
-        {
-          "skill": "vulnerability management",
-          "profile_status": "match",
-          "requirement": "mandatory",
-          "evidence": "- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management."
-        },
         {
           "skill": "cloud security",
           "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "- Help configure, monitor, and improve security tooling across areas such as endpoint protection, email security, identity and access management, and cloud security posture."
+          "requirement": "mandatory",
+          "evidence": "Extensive experience in hands-on security engineering, product security, cloud security, or detection/response engineering in production environments"
         },
         {
-          "skill": "edr",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "- Experience working with security tooling (e.g., vulnerability scanners, endpoint detection and response platforms, SIEM systems, or similar)"
-        },
-        {
-          "skill": "frida",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "- No meeting Fridays"
-        },
-        {
-          "skill": "python",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "- Exposure to security automation or scripting (e.g., Python, workflow automation tools)."
+          "skill": "product security",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "You have strong product security fundamentals and can improve secure-by-default patterns in fast-moving engineering teams."
         },
         {
           "skill": "security automation",
           "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "- Contribute to security automation and orchestration workflows that reduce manual effort and improve response times."
+          "requirement": "mandatory",
+          "evidence": "You can point to security automation you personally built that replaced recurring manual review work."
         },
         {
           "skill": "siem",
           "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Experience with modern security tooling, especially SIEM/SOAR and cloud security platforms"
+        },
+        {
+          "skill": "ci/cd",
+          "profile_status": "partial",
           "requirement": "mentioned",
-          "evidence": "- Experience working with security tooling (e.g., vulnerability scanners, endpoint detection and response platforms, SIEM systems, or similar)"
+          "evidence": "Day to day, you will help define security in a greenfield modern bank, moving beyond threat modeling, harden cloud and CI/CD paths, build detection and response workflows, and drive remediation to closure with clear risk tradeoffs."
+        },
+        {
+          "skill": "incident response",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "You will own security engineering end-to-end across application, infrastructure, and incident response: partnering with product and platform teams during design, writing and shipping security automation in production, and leading high-quality response when som"
+        },
+        {
+          "skill": "infrastructure as code",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Months 3-4: Stand up an AI-native product-security review pipeline that auto-triages code/dependency/IaC findings by service criticality, proposes fixes in pull requests, and routes owner-tagged remediation tasks and reduces non-actionable security alerts."
+        },
+        {
+          "skill": "secrets management",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Months 5-6: Expand baseline coverage to >=85% of Tier-1 services for workload identity hardening, secret management standards, runtime audit logging, and high-severity dependency monitoring"
+        },
+        {
+          "skill": "threat modeling",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Day to day, you will help define security in a greenfield modern bank, moving beyond threat modeling, harden cloud and CI/CD paths, build detection and response workflows, and drive remediation to closure with clear risk tradeoffs."
         }
       ],
       "german_analysis": {
@@ -1258,7 +1229,6 @@
       "canonical_url": "https://job-boards.greenhouse.io/mozilla/jobs/8191473",
       "source": "Greenhouse",
       "sources": [
-        "Arbeitnow",
         "Greenhouse"
       ],
       "ats": "greenhouse",
@@ -1267,14 +1237,14 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-29T14:19:25Z",
-      "posting_age_days": 2,
+      "posting_age_days": 4,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 2,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
+        "age_days": 4,
+        "category": "recent",
+        "label": "RECENT"
       },
-      "urgency": "NEW - APPLY QUICKLY",
+      "urgency": "RECENT",
       "first_seen": "2026-09-30T11:17:18Z",
       "experience_required": "5+ years",
       "german_requirement": "No German requirement detected",
@@ -1353,8 +1323,8 @@
         "Mandatory experience requirement is 5+ years"
       ],
       "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "Why Mozilla? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. The Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. About this team and role: Mozilla is looking for an Incident Responder to monitor and mitigate attacks across Mozilla’s products and services. In this position, you will be a part of a flexible team responsible for handling se…",
-      "full_description": "Why Mozilla?\n\nMozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. \n\nThe Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. \n\nAbout this team and role:\n\nMozilla is looking for an Incident Responder to monitor and mitigate attacks across Mozilla’s products and services. In this position, you will be a part of a flexible team responsible for handling security incidents. As such, you’ll need to have years of practical security experience and knowledge of the state of the art for detecting and responding to attacks. You’ll be someone Mozillians across the company depend on and trust to respond quickly and effectively in a crunch, with the outstanding communication and collaboration skills needed to work in partnership with diverse stakeholders. Most importantly, you will become a critical member of the team responsible for ensuring the integrity of Mozilla’s products and for keeping Mozilla’s users safe, within a company dedicated to building a more secure internet.\n\nWhat you'll do:\n\nIdentify and respond to security incidents on a global scale.\n\nAct as an incident commander to drive incidents through the entire response lifecycle.\n\nDesign and maintain a portfolio of security alerts, automated actions, playbooks and escalation workflows in support of a high-performing 24/7 incident response capability.\n\nConduct threat hunting activities, anticipate future threats, and maintain forward-thinking strategies for tools/technology/processes that combat sophisticated threat actors.\n\nResearch threat intelligence reports, triage and manage resulting workflows.\n\nPartner with key stakeholders and communicate effectively to maintain a continuously improving feedback loop of preparation, identification, analysis, containment, and post mortem activities.\n\nParticipate in on-call rotation.\n\nWhat you'll bring:\n\n5+ years of demonstrated ability managing security incidents at a global scale and/or experience working in Security Operations Centers (SOC), Product Security Incident Response Teams (PSIRT), and Computer Security Incident Response Teams (CSIRT).\n\nExpertise with security information and event management (SIEM) systems (eg. ELK, Google BigQuery, Splunk, etc.). Splunk proficiency is preferred.\n\nExpertise with endpoint detection and investigation. Hands-on experience with leading EDR tools and demonstrated ability to leverage endpoint telemetry to find root cause.\n\nExpertise with security orchestration and automation (SOAR) platforms such as Tines or Splunk SOAR.\n\nSuperb communication and leadership capacity; ability to partner effectively with diverse company stakeholders.\n\nReal-world experience in software development and/or engineering operations for consumer products and services; B.S. in a technology-focused field is helpful.\n\nPractical experience working with cloud technologies (eg. Google Cloud Platform, Amazon Web Services, Heroku, Microsoft Azure, etc.).\n\nCompetencies:\n\nOwnership and Accountability\n\nAutonomy\n\nHigh Level of Integrity\n\nClear Communication\n\nCreative Problem Solver\n\nPassionate about Security\n\nWhat you’ll get:\n\nGenerous performance-based bonus plans to all eligible employees - we share in our success as one team\n\nRich medical, dental, and vision coverage\n\nGenerous retirement contributions with 100% immediate vesting (regardless of whether you contribute)\n\nQuarterly all-company wellness days where everyone takes a pause together\n\nCountry specific holidays plus a day off for your birthday\n\nOne-time home office stipend\n\nAnnual professional development budget\n\nQuarterly well-being stipend\n\nConsiderable paid parental leave\n\nEmployee referral bonus program\n\nOther benefits (life/AD&D, disability, EAP, etc. - varies by country)\n\nAbout Mozilla \n\nMozilla exists to build the Internet as a public resource accessible to all because we believe that open and free is better than closed and controlled. When you work at Mozilla, you give yourself a chance to make a difference in the lives of Web users everywhere. And you give us a chance to make a difference in your life every single day. Join us to work on the Web as the platform and help create more opportunity and innovation for everyone online.\n\nCommitment to diversity, equity, inclusion, and belonging\n\nMozilla understands that valuing diverse creative practices and forms of knowledge are crucial to and enrich the company’s core mission. We encourage applications from everyone, including members of all equity-seeking communities, such as (but certainly not limited to) women, racialized and Indigenous persons, persons with disabilities, persons of all sexual orientations, gender identities, and expressions.\n\nWe will ensure that qualified individuals with disabilities are provided reasonable accommodations to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment, as appropriate. Please contact us at hiringaccommodation@mozilla.com to request accommodation.\n\nWe are an equal opportunity employer. We do not discriminate on the basis of race (including hairstyle and texture), religion (including religious grooming and dress practices), gender, gender identity, gender expression, color, national origin, pregnancy, ancestry, domestic partner status, disability, sexual orientation, age, genetic predisposition, medical condition, marital status, citizenship status, military or veteran status, or any other basis covered by applicable laws. Mozilla will not tolerate discrimination or harassment based on any of these characteristics or any other unlawful behavior, conduct, or purpose.\n\nGroup: D\n\n#LI-REMOTE\n\nReq ID: R3224\n\nHiring Ranges:\n\nRemote Sweden\n\n512 925 kr—683 900 kr SEK",
+      "description_excerpt": "To learn the Hiring Ranges for this position, please select your location from the Apply Now dropdown menu. To learn more about our Hiring Range System, please click this link. Why Mozilla? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. The Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. About this team and role: Mozilla is looking for…",
+      "full_description": "To learn the Hiring Ranges for this position, please select your location from the Apply Now dropdown menu.\n\nTo learn more about our Hiring Range System, please click this link.\n\nWhy Mozilla?\n\nMozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. \n\nThe Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. \n\nAbout this team and role:\n\nMozilla is looking for an Incident Responder to monitor and mitigate attacks across Mozilla’s products and services. In this position, you will be a part of a flexible team responsible for handling security incidents. As such, you’ll need to have years of practical security experience and knowledge of the state of the art for detecting and responding to attacks. You’ll be someone Mozillians across the company depend on and trust to respond quickly and effectively in a crunch, with the outstanding communication and collaboration skills needed to work in partnership with diverse stakeholders. Most importantly, you will become a critical member of the team responsible for ensuring the integrity of Mozilla’s products and for keeping Mozilla’s users safe, within a company dedicated to building a more secure internet.\n\nWhat you'll do:\n\nIdentify and respond to security incidents on a global scale.\n\nAct as an incident commander to drive incidents through the entire response lifecycle.\n\nDesign and maintain a portfolio of security alerts, automated actions, playbooks and escalation workflows in support of a high-performing 24/7 incident response capability.\n\nConduct threat hunting activities, anticipate future threats, and maintain forward-thinking strategies for tools/technology/processes that combat sophisticated threat actors.\n\nResearch threat intelligence reports, triage and manage resulting workflows.\n\nPartner with key stakeholders and communicate effectively to maintain a continuously improving feedback loop of preparation, identification, analysis, containment, and post mortem activities.\n\nParticipate in on-call rotation.\n\nWhat you'll bring:\n\n5+ years of demonstrated ability managing security incidents at a global scale and/or experience working in Security Operations Centers (SOC), Product Security Incident Response Teams (PSIRT), and Computer Security Incident Response Teams (CSIRT).\n\nExpertise with security information and event management (SIEM) systems (eg. ELK, Google BigQuery, Splunk, etc.). Splunk proficiency is preferred.\n\nExpertise with endpoint detection and investigation. Hands-on experience with leading EDR tools and demonstrated ability to leverage endpoint telemetry to find root cause.\n\nExpertise with security orchestration and automation (SOAR) platforms such as Tines or Splunk SOAR.\n\nSuperb communication and leadership capacity; ability to partner effectively with diverse company stakeholders.\n\nReal-world experience in software development and/or engineering operations for consumer products and services; B.S. in a technology-focused field is helpful.\n\nPractical experience working with cloud technologies (eg. Google Cloud Platform, Amazon Web Services, Heroku, Microsoft Azure, etc.).\n\nCompetencies:\n\nOwnership and Accountability\n\nAutonomy\n\nHigh Level of Integrity\n\nClear Communication\n\nCreative Problem Solver\n\nPassionate about Security\n\nWhat you’ll get:\n\nGenerous performance-based bonus plans to all eligible employees - we share in our success as one team\n\nRich medical, dental, and vision coverage\n\nGenerous retirement contributions with 100% immediate vesting (regardless of whether you contribute)\n\nQuarterly all-company wellness days where everyone takes a pause together\n\nCountry specific holidays plus a day off for your birthday\n\nOne-time home office stipend\n\nAnnual professional development budget\n\nQuarterly well-being stipend\n\nConsiderable paid parental leave\n\nEmployee referral bonus program\n\nOther benefits (life/AD&D, disability, EAP, etc. - varies by country)\n\nAbout Mozilla \n\nMozilla exists to build the Internet as a public resource accessible to all because we believe that open and free is better than closed and controlled. When you work at Mozilla, you give yourself a chance to make a difference in the lives of Web users everywhere. And you give us a chance to make a difference in your life every single day. Join us to work on the Web as the platform and help create more opportunity and innovation for everyone online.\n\nCommitment to diversity, equity, inclusion, and belonging\n\nMozilla understands that valuing diverse creative practices and forms of knowledge are crucial to and enrich the company’s core mission. We encourage applications from everyone, including members of all equity-seeking communities, such as (but certainly not limited to) women, racialized and Indigenous persons, persons with disabilities, persons of all sexual orientations, gender identities, and expressions.\n\nWe will ensure that qualified individuals with disabilities are provided reasonable accommodations to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment, as appropriate. Please contact us at hiringaccommodation@mozilla.com to request accommodation.\n\nWe are an equal opportunity employer. We do not discriminate on the basis of race (including hairstyle and texture), religion (including religious grooming and dress practices), gender, gender identity, gender expression, color, national origin, pregnancy, ancestry, domestic partner status, disability, sexual orientation, age, genetic predisposition, medical condition, marital status, citizenship status, military or veteran status, or any other basis covered by applicable laws. Mozilla will not tolerate discrimination or harassment based on any of these characteristics or any other unlawful behavior, conduct, or purpose.\n\nGroup: D\n\n#LI-DNI\n\nReq ID: R3224",
       "skill_requirements": [
         {
           "skill": "edr",
