@@ -208,7 +208,7 @@
   },
   "521c71dc83dfa3787db3": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-04T11:36:53Z",
+    "last_seen": "2026-10-05T12:30:00Z",
     "content_hash": "2c040214033ea8916a3acfc5d53099f7b45d4e07ed4a37d2804853d325041e92",
     "status": "SEEN_BEFORE",
     "company": "Staffbase",
@@ -460,7 +460,7 @@
   },
   "9ba7cf301be480a6ff9f": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-04T11:36:53Z",
+    "last_seen": "2026-10-05T12:30:00Z",
     "content_hash": "695565afccbc0ea27aed88980573bdd4151d8c3a3fd8cfff9885244f400ab84b",
     "status": "SEEN_BEFORE",
     "company": "NavVis",
@@ -3214,7 +3214,7 @@
   },
   "adf40ac5904cb1b075ac": {
     "first_seen": "2026-08-15T17:01:09Z",
-    "last_seen": "2026-10-04T11:36:53Z",
+    "last_seen": "2026-10-05T12:30:00Z",
     "content_hash": "b5d79684c158dd21a22b161caeb7fc7ce838b589f10eb85b95807e2a1ac10691",
     "status": "SEEN_BEFORE",
     "company": "Qdrant",
@@ -3421,7 +3421,7 @@
   },
   "1f74892653c6467e49ca": {
     "first_seen": "2026-08-16T21:45:22Z",
-    "last_seen": "2026-10-04T11:36:53Z",
+    "last_seen": "2026-10-05T12:30:00Z",
     "content_hash": "fad2549be74af53a6045a50e41f26d99a64250d8c199fbd448c5cf1d8498fece",
     "status": "SEEN_BEFORE",
     "company": "N26",
@@ -3430,7 +3430,7 @@
   },
   "ba170f4eb78d3dff47c8": {
     "first_seen": "2026-08-16T21:45:22Z",
-    "last_seen": "2026-10-04T11:36:53Z",
+    "last_seen": "2026-10-05T12:30:00Z",
     "content_hash": "fd3dbdfd32e0e79b830856a08e42dc758465b83b194d5cdfc0d915e4d14efa1c",
     "status": "SEEN_BEFORE",
     "company": "N26",
@@ -3772,9 +3772,9 @@
   },
   "240800e330239220c3d1": {
     "first_seen": "2026-09-30T11:17:18Z",
-    "last_seen": "2026-10-04T11:36:53Z",
+    "last_seen": "2026-10-05T12:30:00Z",
     "content_hash": "022807eaf926d00eae9ae0004e465698cedacb61e07b2d976bc8185a02f43884",
-    "status": "UPDATED",
+    "status": "SEEN_BEFORE",
     "company": "Mozilla",
     "title": "Senior Security Engineer - SecOps",
     "url": "https://job-boards.greenhouse.io/mozilla/jobs/8191473"
@@ -3808,7 +3808,7 @@
   },
   "729a044bba71f5b2b24a": {
     "first_seen": "2026-10-01T11:44:36Z",
-    "last_seen": "2026-10-04T11:36:53Z",
+    "last_seen": "2026-10-05T12:30:00Z",
     "content_hash": "b53f439b644e8b2c0cf34ef5a6c4f5e60ce03f57dc30ce5e2ed7e74f78e75c3d",
     "status": "SEEN_BEFORE",
     "company": "N26",
@@ -3817,7 +3817,7 @@
   },
   "bd7fecbd96a07cd67c3d": {
     "first_seen": "2026-10-02T11:14:34Z",
-    "last_seen": "2026-10-04T11:36:53Z",
+    "last_seen": "2026-10-05T12:30:00Z",
     "content_hash": "161db896c6affa88a77812d0d4fbfe18d09b12f3e5d0fc8e77901164be05a982",
     "status": "SEEN_BEFORE",
     "company": "KAYAK",
@@ -3826,11 +3826,20 @@
   },
   "465abfb3dbed7cffd989": {
     "first_seen": "2026-10-04T11:36:53Z",
-    "last_seen": "2026-10-04T11:36:53Z",
+    "last_seen": "2026-10-05T12:30:00Z",
     "content_hash": "132a09bebe437619aee1911b1da8f3062da3f98db7486c089a3f69c2b6235c3f",
-    "status": "NEW",
+    "status": "SEEN_BEFORE",
     "company": "Augustus",
     "title": "Security Engineer",
     "url": "https://www.arbeitnow.com/jobs/companies/augustus/security-engineer-berlin-379416"
+  },
+  "86d0e27ef416b6621d0d": {
+    "first_seen": "2026-10-05T12:30:00Z",
+    "last_seen": "2026-10-05T12:30:00Z",
+    "content_hash": "b58b4567a97b4caac780990421d178f9a752e5c139c8bedf31246f5dd2d8dd17",
+    "status": "NEW",
+    "company": "Vivid",
+    "title": "Security Engineer (Hybrid or Remote)",
+    "url": "https://www.arbeitnow.fr/jobs/companies/vivid/security-engineer-hybrid-or-remote-470182"
   }
 }

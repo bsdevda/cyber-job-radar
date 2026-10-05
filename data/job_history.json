@@ -6083,6 +6083,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-10-05T12:30:00Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 7899,
+      "security_title_candidates": 264,
+      "prefiltered_non_security_jobs": 7635,
+      "unique_jobs_after_deduplication": 196,
+      "duplicates_removed": 68,
+      "jobs_rejected_or_below_threshold": 7821,
+      "relevant_jobs_in_current_run": 10,
+      "new_jobs": 1,
+      "updated_jobs": 0,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 38,
+      "jobs_by_source": {
+        "arbeitnow": 1250,
+        "remotive": 17,
+        "linkedin_posts": 0,
+        "greenhouse": 6046,
+        "ashby": 344,
+        "lever": 82,
+        "personio": 160,
+        "recruitee": 0
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 23.0,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1250,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 17,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 6046,
+          "requests": 49,
+          "errors": [],
+          "error": "",
+          "companies_checked": 49,
+          "companies_successful": 49,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 344,
+          "requests": 10,
+          "errors": [],
+          "error": "",
+          "companies_checked": 10,
+          "companies_successful": 10,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 82,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 160,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "idle",
+          "ok": true,
+          "jobs": 0,
+          "requests": 0,
+          "errors": [],
+          "error": "",
+          "companies_checked": 0,
+          "companies_successful": 0,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -12744,6 +12857,14 @@
       "event": "REMOVED",
       "company": "Parity",
       "title": "Senior Security Engineer - Remote"
+    },
+    {
+      "at": "2026-10-05T12:30:00Z",
+      "job_key": "86d0e27ef416b6621d0d",
+      "event": "NEW",
+      "company": "Vivid",
+      "title": "Security Engineer (Hybrid or Remote)",
+      "score": 69
     }
   ]
 }
