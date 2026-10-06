@@ -1691,16 +1691,16 @@
     },
     {
       "week_start": "2026-10-05",
-      "generated_at": "2026-10-05T12:30:00Z",
-      "active_relevant_jobs": 10,
+      "generated_at": "2026-10-06T12:09:28Z",
+      "active_relevant_jobs": 9,
       "role_family_counts": {
-        "Security Engineering": 6,
+        "Security Engineering": 5,
         "Product Security": 2,
         "IT Audit / GRC": 1,
         "Cloud Security / DevSecOps": 1
       },
       "score_bands": {
-        "60-69 review": 6,
+        "60-69 review": 5,
         "50-59 stretch": 3,
         "70-79 good": 1
       },
@@ -1716,10 +1716,6 @@
           },
           {
             "skill": "edr",
-            "jobs": 2
-          },
-          {
-            "skill": "cloud security",
             "jobs": 2
           },
           {
@@ -1743,15 +1739,19 @@
             "jobs": 2
           },
           {
-            "skill": "product security",
-            "jobs": 1
-          },
-          {
-            "skill": "siem",
-            "jobs": 1
-          },
-          {
             "skill": "bash",
+            "jobs": 1
+          },
+          {
+            "skill": "cloud security",
+            "jobs": 1
+          },
+          {
+            "skill": "infrastructure as code",
+            "jobs": 1
+          },
+          {
+            "skill": "terraform",
             "jobs": 1
           }
         ],
@@ -1766,14 +1766,6 @@
           },
           {
             "skill": "dlp",
-            "jobs": 1
-          },
-          {
-            "skill": "infrastructure as code",
-            "jobs": 1
-          },
-          {
-            "skill": "secrets management",
             "jobs": 1
           },
           {
@@ -1830,7 +1822,7 @@
         "partial_exposure": [
           {
             "skill": "incident response",
-            "jobs": 8
+            "jobs": 7
           },
           {
             "skill": "aws",
@@ -1838,22 +1830,22 @@
           },
           {
             "skill": "product security",
-            "jobs": 5
+            "jobs": 4
           },
           {
             "skill": "siem",
-            "jobs": 4
-          },
-          {
-            "skill": "ci/cd",
-            "jobs": 4
-          },
-          {
-            "skill": "cloud security",
-            "jobs": 4
+            "jobs": 3
           },
           {
             "skill": "software development",
+            "jobs": 3
+          },
+          {
+            "skill": "ci/cd",
+            "jobs": 3
+          },
+          {
+            "skill": "cloud security",
             "jobs": 3
           },
           {

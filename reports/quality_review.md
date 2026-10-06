@@ -2,21 +2,21 @@
 
 **Status:** READY FOR EVIDENCE REVIEW
 **Daily runs:** 14/14
-**Period:** 2026-09-16 to 2026-10-05
-**Generated:** 2026-10-05T12:30:00Z
+**Period:** 2026-09-17 to 2026-10-06
+**Generated:** 2026-10-06T12:09:28Z
 
 ## Quality and operations
 
 | Metric | Result |
 | --- | ---: |
-| Relevant job observations | 220 |
-| New relevant jobs found | 10 |
+| Relevant job observations | 211 |
+| New relevant jobs found | 9 |
 | Manually reviewed jobs | 0 |
 | False positives | 0 (0.0%) |
 | Missed suitable jobs logged | 0 |
-| Duplicates removed | 873 (23.7%) |
-| Source failures | 0/104 (0.0%) |
-| Average workflow duration | 26.6 seconds |
+| Duplicates removed | 856 (24.0%) |
+| Source failures | 0/103 (0.0%) |
+| Average workflow duration | 26.2 seconds |
 | Applications submitted | 0 |
 | Interviews received during period | 0 |
 | Applications from period reaching interview | 0 (0.0%) |
