@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-06T12:09:28Z",
+  "generated_at": "2026-10-07T11:55:14Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,16 +171,16 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-10-06T12:09:28Z",
+    "generated_at": "2026-10-07T11:55:14Z",
     "scoring_version": 2.2,
-    "jobs_collected": 6410,
-    "security_title_candidates": 174,
-    "prefiltered_non_security_jobs": 6236,
-    "unique_jobs_after_deduplication": 132,
-    "duplicates_removed": 42,
-    "jobs_rejected_or_below_threshold": 6359,
-    "relevant_jobs_in_current_run": 9,
-    "new_jobs": 0,
+    "jobs_collected": 9076,
+    "security_title_candidates": 286,
+    "prefiltered_non_security_jobs": 8790,
+    "unique_jobs_after_deduplication": 219,
+    "duplicates_removed": 67,
+    "jobs_rejected_or_below_threshold": 9001,
+    "relevant_jobs_in_current_run": 8,
+    "new_jobs": 2,
     "updated_jobs": 0,
     "strong_matches": 0,
     "sources_checked": 8,
@@ -188,25 +188,25 @@
     "sources_partial": 0,
     "report_jobs": 38,
     "jobs_by_source": {
-      "arbeitnow": 1236,
-      "remotive": 18,
+      "arbeitnow": 1250,
+      "remotive": 17,
       "linkedin_posts": 0,
-      "greenhouse": 4633,
-      "ashby": 195,
-      "lever": 165,
-      "personio": 163,
-      "recruitee": 0
+      "greenhouse": 6343,
+      "ashby": 239,
+      "lever": 1070,
+      "personio": 155,
+      "recruitee": 2
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 20.7
+    "workflow_duration_seconds": 23.0
   },
   "source_status": {
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 1236,
+      "jobs": 1250,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 18,
+      "jobs": 17,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -230,40 +230,29 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 4633,
-      "requests": 62,
+      "jobs": 6343,
+      "requests": 69,
       "errors": [],
       "error": "",
-      "companies_checked": 62,
-      "companies_successful": 62,
+      "companies_checked": 69,
+      "companies_successful": 69,
       "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 195,
-      "requests": 8,
+      "jobs": 239,
+      "requests": 9,
       "errors": [],
       "error": "",
-      "companies_checked": 8,
-      "companies_successful": 8,
+      "companies_checked": 9,
+      "companies_successful": 9,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 165,
-      "requests": 3,
-      "errors": [],
-      "error": "",
-      "companies_checked": 3,
-      "companies_successful": 3,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 163,
+      "jobs": 1070,
       "requests": 4,
       "errors": [],
       "error": "",
@@ -271,21 +260,379 @@
       "companies_successful": 4,
       "companies_failed": 0
     },
-    "recruitee": {
-      "status": "idle",
+    "personio": {
+      "status": "ok",
       "ok": true,
-      "jobs": 0,
-      "requests": 0,
+      "jobs": 155,
+      "requests": 3,
       "errors": [],
       "error": "",
-      "companies_checked": 0,
-      "companies_successful": 0,
+      "companies_checked": 3,
+      "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "recruitee": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 2,
+      "requests": 1,
+      "errors": [],
+      "error": "",
+      "companies_checked": 1,
+      "companies_successful": 1,
       "companies_failed": 0
     }
   },
   "jobs": [
     {
       "report_number": 1,
+      "job_key": "1d8705aa550b912143d8",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 81,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "score_label": "REVIEW",
+      "title": "Associate Security Engineer",
+      "company": "KAYAK",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin hybrid role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Hybrid"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Hybrid",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer",
+          "vulnerability"
+        ]
+      },
+      "seniority": {
+        "level": "junior",
+        "label": "Junior/Entry level",
+        "evidence": "associate"
+      },
+      "url": "https://jobs.ashbyhq.com/kayak/7be95bc8-eb9d-4231-a14f-c06ea97a4d23",
+      "apply_url": "https://jobs.ashbyhq.com/kayak/7be95bc8-eb9d-4231-a14f-c06ea97a4d23/application",
+      "canonical_url": "https://jobs.ashbyhq.com/kayak/7be95bc8-eb9d-4231-a14f-c06ea97a4d23",
+      "source": "Ashby",
+      "sources": [
+        "Ashby"
+      ],
+      "ats": "ashby",
+      "priority_employer": true,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-10-02T09:11:35Z",
+      "posting_age_days": 5,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 5,
+        "category": "recent",
+        "label": "RECENT"
+      },
+      "urgency": "RECENT",
+      "first_seen": "2026-10-07T11:55:14Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "application security",
+          "frida",
+          "python",
+          "security automation",
+          "vulnerability management"
+        ],
+        "partial": [
+          "aws",
+          "cloud security",
+          "docker",
+          "incident response",
+          "nist",
+          "siem"
+        ],
+        "missing": [
+          "edr"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "- Experience with cloud environments (AWS or GCP) or container security."
+        },
+        {
+          "skill": "docker",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "- Experience with cloud environments (AWS or GCP) or container security."
+        },
+        {
+          "skill": "incident response",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management."
+        },
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "- Familiarity with the NIST Cybersecurity Framework or similar security frameworks."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "edr",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- Experience working with security tooling (e.g., vulnerability scanners, endpoint detection and response platforms, SIEM systems, or similar)"
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 17,
+        "experience": 10,
+        "location": 15,
+        "language": 10,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "Berlin hybrid role.",
+        "Evidenced matches include application security, frida, python, security automation, vulnerability management."
+      ],
+      "warnings": [
+        "Mandatory gaps: aws, docker, incident response, nist",
+        "Potential gaps: edr",
+        "Exposure only; do not claim deep expertise: aws, cloud security, docker, incident response, nist, siem",
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "KAYAK, part of Booking Holdings (NASDAQ: BKNG), is a leading travel search engine. With billions of queries across our platforms, we help people find their perfect flight, stay, rental car and vacation package. We're also transforming business travel with a new corporate travel solution, KAYAK for Business. As an employee of KAYAK, you will be part of a travel company that operates a portfolio of global metasearch brands including momondo, Cheapflights and HotelsCombined, among others. From start-up to industry leader, innovation is in our DNA and every employee has an opportunity to make their mark. Our focus is on building the best travel search engine to make it easier for everyone to experience the world. Security at KAYAK is a team effort — we protect the people, systems, and data that power travel for millions of users worldwide, and we do it by working closely with engineering, operations, and product teams. As an Associate Security Engineer, you will help to drive our vulnerability management program while contributing across multiple security domains in a collaborative, globally distributed environment. You can find more information about our security program at https://w…",
+      "full_description": "KAYAK, part of Booking Holdings (NASDAQ: BKNG), is a leading travel search engine. With billions of queries across our platforms, we help people find their perfect flight, stay, rental car and vacation package. We're also transforming business travel with a new corporate travel solution, KAYAK for Business.\n\nAs an employee of KAYAK, you will be part of a travel company that operates a portfolio of global metasearch brands including momondo, Cheapflights and HotelsCombined, among others. From start-up to industry leader, innovation is in our DNA and every employee has an opportunity to make their mark. Our focus is on building the best travel search engine to make it easier for everyone to experience the world.\n\nSecurity at KAYAK is a team effort — we protect the people, systems, and data that power travel for millions of users worldwide, and we do it by working closely with engineering, operations, and product teams. As an Associate Security Engineer, you will help to drive our vulnerability management program while contributing across multiple security domains in a collaborative, globally distributed environment. You can find more information about our security program at https://www.kayak.com/security.\n\nThis role is required to work from our Berlin, Germany office 3 days per week.\n\nIN THIS ROLE, YOU WILL:\n\n- Support and continuously improve the vulnerability management program — defining processes for identifying, prioritizing, tracking, and driving remediation of security findings across infrastructure and applications. This includes working closely with engineering, operations, and IT teams to ensure findings are understood, assigned, and resolved in a timely manner, and reporting on program health and trends to security leadership.\n\n- Participate in incident response activities, including triage, investigation, containment, and post-incident documentation.\n\n- Support application security initiatives, including automated code scanning, dependency analysis, and working with engineering teams to address security findings early in the development process.\n\n- Help configure, monitor, and improve security tooling across areas such as endpoint protection, email security, identity and access management, and cloud security posture.\n\n- Contribute to security automation and orchestration workflows that reduce manual effort and improve response times.\n\n- Collaborate with engineering, operations, and compliance teams to embed security thinking into development workflows and infrastructure changes.\n\n- Document processes, runbooks, and findings to support team knowledge sharing and continuity.\n\n- Participate in access reviews and support identity and access management processes in line with established policies.\n\n- Stay current with the evolving threat landscape and contribute ideas for improving the team's detection and response capabilities.\n\nPLEASE APPLY IF YOU HAVE:\n\n- A solid understanding of cybersecurity fundamentals — including networking, operating systems (Linux, macOS, or Windows), and cloud environments — gained through any combination of formal education, self-study, bootcamps, or professional experience.\n\n- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management.\n\n- Experience working with security tooling (e.g., vulnerability scanners, endpoint detection and response platforms, SIEM systems, or similar); familiarity with specific tools is a plus, but willingness to learn our stack matters more than exact tool experience.\n\n- Familiarity with AI tools and how they can be applied in a security context — whether for automating workflows, triaging alerts, or improving detection and response. Experience working with AI models or building AI-assisted workflows is a plus.\n\n- The ability to communicate clearly in writing and in conversation — our team is globally distributed and works primarily in English (professional working proficiency is sufficient; native fluency is not required).\n\n- A collaborative approach to problem-solving — you ask questions, share what you learn, and support your teammates.\n\n- Comfort working with some degree of autonomy on assigned tasks and projects, while knowing when to ask for input.\n\nBONUS POINTS IF YOU HAVE:\n\n- Familiarity with the NIST Cybersecurity Framework or similar security frameworks.\n\n- Experience with cloud environments (AWS or GCP) or container security.\n\n- Exposure to security automation or scripting (e.g., Python, workflow automation tools).\n\n- Experience working in a regulated environment (e.g., SOC 2, PCI).\n\nBENEFITS AND PERKS\n\n- Work from (almost) anywhere for up to 20 days per year\n\n- Focus on mental health and well-being:\n\n- Company-paid therapy sessions through SpringHealth\n\n- Company-paid subscription to HeadSpace\n\n- Company-wide week off a year - the whole team fully recharges (and returns without a pile-up of work!)\n\n- No meeting Fridays\n\n- Paid parental leave\n\n- Generous paid vacation + time off for your birthday\n\n- Paid volunteer time\n\n- Focus on your career growth:\n\n- Development Dollars\n\n- Leadership development\n\n- Access to thousands of on-demand e-learnings\n\n- Travel Discounts\n\n- Employee Resource Groups\n\n- 6 weeks paid vacation\n\n- Free lunch 2 days per week\n\n- Pension plan contributions\n\n- Public transportation subsidies\n\n- Bike leasing program\n\n- Monthly social events, Thursday happy hours, sports teams\n\n- An awesome office in Friedrichshain, Berlin\n\nINCLUSION\n\nAt KAYAK, we want everyone to have the space to grow, share ideas and do great work. That’s why we’re focused on hiring the best talent from all walks of life and experiences, supporting them well and making sure no one feels like they have to fit a mold to belong here.\n\nNeed any adjustments for the interview, application or on the job? No problem - just give us a heads-up. We’ve got you.\n\n#LI-AS1",
+      "skill_requirements": [
+        {
+          "skill": "application security",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management."
+        },
+        {
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "- Experience with cloud environments (AWS or GCP) or container security."
+        },
+        {
+          "skill": "docker",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "- Experience with cloud environments (AWS or GCP) or container security."
+        },
+        {
+          "skill": "incident response",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management."
+        },
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "- Familiarity with the NIST Cybersecurity Framework or similar security frameworks."
+        },
+        {
+          "skill": "vulnerability management",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management."
+        },
+        {
+          "skill": "cloud security",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "- Help configure, monitor, and improve security tooling across areas such as endpoint protection, email security, identity and access management, and cloud security posture."
+        },
+        {
+          "skill": "edr",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- Experience working with security tooling (e.g., vulnerability scanners, endpoint detection and response platforms, SIEM systems, or similar)"
+        },
+        {
+          "skill": "frida",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "- No meeting Fridays"
+        },
+        {
+          "skill": "python",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "- Exposure to security automation or scripting (e.g., Python, workflow automation tools)."
+        },
+        {
+          "skill": "security automation",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "- Contribute to security automation and orchestration workflows that reduce manual effort and improve response times."
+        },
+        {
+          "skill": "siem",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "- Experience working with security tooling (e.g., vulnerability scanners, endpoint detection and response platforms, SIEM systems, or similar)"
+        }
+      ],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 2,
+      "job_key": "0bc28b416edb95f3b45f",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 70,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "Senior title is above the profile's current 2+ years"
+      ],
+      "score_label": "REVIEW",
+      "title": "Senior Oracle Fusion HCM Security Specialist (Freelance)",
+      "company": "Sidekick Network GmbH & Co. KG",
+      "location": "Bonn, Germany",
+      "location_analysis": {
+        "category": "eligible_germany_remote",
+        "eligible": true,
+        "score": 15,
+        "reason": "Remote work from Germany is explicitly available",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Germany remote",
+        "work_model": "Remote"
+      },
+      "location_scope": "Germany remote",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "other_security",
+        "label": "Other Security",
+        "priority": 3,
+        "confidence": "low",
+        "evidence": []
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://www.arbeitnow.com/jobs/companies/sidekick-network-gmbh-co-kg/senior-oracle-fusion-hcm-security-specialist-freelance-bonn-192936",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/sidekick-network-gmbh-co-kg/senior-oracle-fusion-hcm-security-specialist-freelance-bonn-192936",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/sidekick-network-gmbh-co-kg/senior-oracle-fusion-hcm-security-specialist-freelance-bonn-192936",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-10-06T16:31:36Z",
+      "posting_age_days": 0,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-10-07T11:55:14Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "vulnerability assessment"
+        ],
+        "partial": [
+          "security auditing"
+        ],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 10,
+        "skills": 18,
+        "experience": 10,
+        "location": 15,
+        "language": 10,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Remote work from Germany is explicitly available.",
+        "Evidenced matches include vulnerability assessment."
+      ],
+      "warnings": [
+        "Exposure only; do not claim deep expertise: security auditing",
+        "Senior title is above the profile's current 2+ years"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "Sidekick Network is looking for a highly experienced Oracle Fusion Cloud HCM Security Specialist for a focused security assessment and remediation engagement within an international HR environment. The current landscape contains numerous custom roles copied from seeded roles, with limited transparency over role inheritance, access permissions and underlying business requirements. Your task is to assess the existing setup and define a clear, maintainable security model. Duration: Approx. 1 month Workload: Full-time Start: asap Location / remote arrangement: remote Tasks Audit the HCM security configuration across Development, Test and Production. Analyse role hierarchies, inheritance, privileges and relationships between seeded and custom roles. Identify excessive access, redundant roles, inconsistencies and security risks. Review custom roles derived from seeded roles and recommend how to simplify and maintain them. Translate business access requirements into a structured target role model. Develop a practical Segregation of Duties (SoD) concept, including relevant conflicts, controls and exceptions. Analyse Areas of Responsibility (AORs) and HCM Data Security Profiles, identifyin…",
+      "full_description": "Sidekick Network is looking for a highly experienced Oracle Fusion Cloud HCM Security Specialist for a focused security assessment and remediation engagement within an international HR environment.\n\nThe current landscape contains numerous custom roles copied from seeded roles, with limited transparency over role inheritance, access permissions and underlying business requirements. Your task is to assess the existing setup and define a clear, maintainable security model.\n\nDuration: Approx. 1 month\n\nWorkload: Full-time\n\nStart: asap\n\nLocation / remote arrangement: remote\n\nTasks\n\nAudit the HCM security configuration across Development, Test and Production.\n\nAnalyse role hierarchies, inheritance, privileges and relationships between seeded and custom roles.\n\nIdentify excessive access, redundant roles, inconsistencies and security risks.\n\nReview custom roles derived from seeded roles and recommend how to simplify and maintain them.\n\nTranslate business access requirements into a structured target role model.\n\nDevelop a practical Segregation of Duties (SoD) concept, including relevant conflicts, controls and exceptions.\n\nAnalyse Areas of Responsibility (AORs) and HCM Data Security Profiles, identifying inappropriate scope, overlaps and cleanup needs.\n\nAssess access to sensitive HR, compensation and future payroll data.\n\nWork confidently within the Oracle Security Console to investigate and validate the configuration.\n\nSupport agreed remediation activities and transfer knowledge to the internal team.\n\nExpected deliverables:\n\nSecurity assessment covering all three environments, with prioritised findings.\n\nRole inventory and overview of inheritance, dependencies and relevant access permissions.\n\nTarget role model and recommendations for streamlining seeded and custom roles.\n\nSoD concept with a proposed conflict matrix and handling of exceptions.\n\nAOR and Data Security Profile cleanup recommendations.\n\nPrioritised remediation roadmap, including validation steps and implementation dependencies.\n\nHandover documentation and a walkthrough with the internal team.\n\nRequirements\n\nExtensive practical experience with Oracle Fusion Cloud HCM Security in productive environments.\n\nStrong understanding of job roles, abstract roles, duty roles, data roles, privileges and role inheritance.\n\nProven experience with seeded roles, custom roles and the Oracle Security Console.\n\nDeep knowledge of AORs and HCM Data Security Profiles.\n\nExperience conducting security audits and redesigning complex HCM role landscapes.\n\nPractical expertise in SoD and access to sensitive HR and payroll data.\n\nExperience across several relevant HCM modules, ideally including Core HR, Talent, Learning, Recruiting, Helpdesk and Compensation.\n\nAbility to turn an unclear existing configuration into actionable recommendations and clear documentation.\n\nStrong English communication skills and confidence working with international HR and IT stakeholders.\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "security auditing",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Experience conducting security audits and redesigning complex HCM role landscapes."
+        },
+        {
+          "skill": "vulnerability assessment",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Sidekick Network is looking for a highly experienced Oracle Fusion Cloud HCM Security Specialist for a focused security assessment and remediation engagement within an international HR environment."
+        }
+      ],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 3,
       "job_key": "ca9ca2de50791397491c",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -481,7 +828,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 2,
+      "report_number": 4,
       "job_key": "97e10fb205544ff97e76",
       "status": "NEW",
       "application_status": "NEW",
@@ -639,7 +986,7 @@
       }
     },
     {
-      "report_number": 3,
+      "report_number": 5,
       "job_key": "aeed9275b0fec6f82691",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -791,7 +1138,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 4,
+      "report_number": 6,
       "job_key": "3d69b8086319e3c5d304",
       "status": "NEW",
       "application_status": "NEW",
@@ -967,7 +1314,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 5,
+      "report_number": 7,
       "job_key": "32c54022816bcac2a151",
       "status": "NEW",
       "application_status": "NEW",
@@ -1290,7 +1637,7 @@
       }
     },
     {
-      "report_number": 6,
+      "report_number": 8,
       "job_key": "49da14a46b0c8770f5f3",
       "status": "NEW",
       "application_status": "NEW",
@@ -1583,7 +1930,7 @@
       }
     },
     {
-      "report_number": 7,
+      "report_number": 9,
       "job_key": "6e733992a361e341e6e6",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1830,7 +2177,7 @@
       }
     },
     {
-      "report_number": 8,
+      "report_number": 10,
       "job_key": "18fce630f607ed88a661",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1985,284 +2332,6 @@
         "optional": false,
         "display": "5+ years",
         "evidence": "Experience as a Scrum Master for at least 5 years in different software development teams"
-      }
-    },
-    {
-      "report_number": 9,
-      "job_key": "57712ed3d56671484e37",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 54,
-      "raw_score": 54,
-      "score_cap": 59,
-      "score_cap_reasons": [
-        "Mandatory experience requirement is 7+ years"
-      ],
-      "score_label": "STRETCH",
-      "title": "Senior IT Systems Administrator (m/f/d) Network & Security",
-      "company": "MOTOR Ai",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin on-site role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "On-site"
-      },
-      "location_scope": "Berlin",
-      "working_model": "On-site",
-      "role_family": {
-        "id": "it_audit_grc",
-        "label": "IT Audit / GRC",
-        "priority": 3,
-        "confidence": "medium",
-        "evidence": [
-          "iso 27001",
-          "compliance"
-        ]
-      },
-      "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
-      },
-      "url": "https://www.arbeitnow.com/jobs/companies/motor-ai/senior-it-systems-administrator-network-security-berlin-230604",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/motor-ai/senior-it-systems-administrator-network-security-berlin-230604",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/motor-ai/senior-it-systems-administrator-network-security-berlin-230604",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-09-09T09:00:39Z",
-      "posting_age_days": 2,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 2,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-09-09T09:59:35Z",
-      "experience_required": "7+ years",
-      "german_requirement": "German B2 is preferred/nice-to-have",
-      "skill_matches": {
-        "match": [],
-        "partial": [
-          "nist"
-        ],
-        "missing": [
-          "iso 27001"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "nist",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "A degree in IT/Computer Science, completed vocational training as a System Administrator, or equivalent hands-on experience"
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Prepare and maintain documentation relevant to certifications and compliance frameworks such as NIS2 and ISO 27001"
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 12,
-        "skills": 9,
-        "experience": 0,
-        "location": 15,
-        "language": 9,
-        "seniority": 4,
-        "education": 5
-      },
-      "match_reasons": [
-        "Berlin on-site role."
-      ],
-      "warnings": [
-        "Requests 7+ years versus approximately 2.1 years in the profile.",
-        "Mandatory gaps: nist",
-        "Potential gaps: iso 27001",
-        "Exposure only; do not claim deep expertise: nist",
-        "Mandatory experience requirement is 7+ years"
-      ],
-      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "We are MOTOR Ai. Our mission is to make Level 4 autonomous driving a reality in Germany and beyond. By combining state-of-the-art AI with the expertise of our multidisciplinary team, we are poised to introduce the first solution of its kind in Germany that is eligible for certification on European roads. Since 2017, we have been steadfastly pursuing a single goal: to shape a future that is already in motion. Tasks Plan, design, and structure our corporate network end-to-end - hardware and software alike Monitor, maintain, and support the network infrastructure to ensure high availability across the company Implement and continuously monitor security measures to protect the network against unauthorized access Monitor system performance and network integrity, spotting bottlenecks and issues before they become problems Manage user accounts, permissions, and access rights Analyze and resolve network issues, including hands-on troubleshooting and performance tuning Own regular maintenance, patching, and system hygiene Create and maintain clear documentation of network configurations Prepare and maintain documentation relevant to certifications and compliance frameworks such as NIS2 and…",
-      "full_description": "We are MOTOR Ai. Our mission is to make Level 4 autonomous driving a reality in Germany and beyond. By combining state-of-the-art AI with the expertise of our multidisciplinary team, we are poised to introduce the first solution of its kind in Germany that is eligible for certification on European roads. Since 2017, we have been steadfastly pursuing a single goal: to shape a future that is already in motion.\n\nTasks\n\nPlan, design, and structure our corporate network end-to-end - hardware and software alike\n\nMonitor, maintain, and support the network infrastructure to ensure high availability across the company\n\nImplement and continuously monitor security measures to protect the network against unauthorized access\n\nMonitor system performance and network integrity, spotting bottlenecks and issues before they become problems\n\nManage user accounts, permissions, and access rights\n\nAnalyze and resolve network issues, including hands-on troubleshooting and performance tuning\n\nOwn regular maintenance, patching, and system hygiene\n\nCreate and maintain clear documentation of network configurations\n\nPrepare and maintain documentation relevant to certifications and compliance frameworks such as NIS2 and ISO 27001\n\nRequirements\n\nA degree in IT/Computer Science, completed vocational training as a System Administrator, or equivalent hands-on experience\n\nStrong knowledge of network technologies, network architecture, and network design\n\nConfident, hands-on experience with routing & switching and network monitoring toolsExperience integrating and implementing VLANs\n\nA track record in troubleshooting, performance tuning, and regular maintenance/patching\n\nAt least 7 years of relevant experience, with the confidence to work independently\n\nFluent English (C1) is required; German (B2/C1) is a plus\n\nFirst hands-on experience with UniFi devices is a plus\n\nA stress-resistant, solution-oriented mindset, real hands-on energy, and genuine enthusiasm for building something from scratch and seeing it work in the real world\n\nBenefits\n\nGenuine team spirit: working in teams that drive change forward - no matter how complex and extensive the projects are\n\nFlexible working hours - with room for the realities of life (parenthood, caregiving responsibilities, voluntary work, etc.)\n\nWhether it's fashion, beauty, travel or culture - you'll receive numerous discounts through our partner Corporate Benefits\n\nSocial relevance: We work on solutions that have game-changing qualities\n\nSubsidy for public transport tickets\n\nYour professional development is important to us - that's why we cover the costs of further education and training\n\nExcellent transport links: attractive location in Wedding with very good public transport connections\n\nFocus on people: Our strength lies in our diversity. We respect each other for who we are\n\nExcited about our vision and ideas? Do you see real value in autonomous driving for everyone? Then apply to MOTOR Ai and become an active part of a safe, explainable future of mobility.\n\nWe particularly welcome applications from women and explicitly encourage them to apply for this position.\n\nAt our new premises, we place great importance on getting to know one another and working together to drive our vision forward. Our international team is growing and working together on this exciting mission. Face-to-face collaboration is the key to success, which is why we have decided not to become a fully remote company.\n\nWe ask recruitment consultancies and agencies not to submit candidate profiles without our prior express request. Any candidate profiles submitted without a prior written placement agreement signed by both parties shall be deemed to have been submitted unsolicited. No entitlement to placement fees or other charges shall arise from their use or from the subsequent recruitment of the candidate.\n\nFind Jobs in Germany on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "nist",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "A degree in IT/Computer Science, completed vocational training as a System Administrator, or equivalent hands-on experience"
-        },
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Prepare and maintain documentation relevant to certifications and compliance frameworks such as NIS2 and ISO 27001"
-        }
-      ],
-      "german_analysis": {
-        "category": "nice",
-        "level": "B2",
-        "mandatory": false,
-        "label": "German B2 is preferred/nice-to-have",
-        "evidence": "German (B2/C1) is a plus"
-      },
-      "experience_analysis": {
-        "min_years": 7,
-        "max_years": null,
-        "optional": false,
-        "display": "7+ years",
-        "evidence": "At least 7 years of relevant experience, with the confidence to work independently"
-      }
-    },
-    {
-      "report_number": 10,
-      "job_key": "729a044bba71f5b2b24a",
-      "status": "SEEN_BEFORE",
-      "application_status": "NEW",
-      "score": 76,
-      "raw_score": 76,
-      "score_cap": null,
-      "score_cap_reasons": [],
-      "score_label": "GOOD",
-      "title": "IT Audit Manger / ICT Service Auditor",
-      "company": "N26",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin remote role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "Remote"
-      },
-      "location_scope": "Berlin",
-      "working_model": "Remote",
-      "role_family": {
-        "id": "it_audit_grc",
-        "label": "IT Audit / GRC",
-        "priority": 3,
-        "confidence": "medium",
-        "evidence": [
-          "iso 27001",
-          "internal audit",
-          "compliance"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://n26.com/en-eu/careers/positions/8239610?gh_jid=8239610",
-      "apply_url": "https://n26.com/en-eu/careers/positions/8239610?gh_jid=8239610",
-      "canonical_url": "https://n26.com/en-eu/careers/positions/8239610?gh_jid=8239610",
-      "source": "Greenhouse",
-      "sources": [
-        "Greenhouse"
-      ],
-      "ats": "greenhouse",
-      "priority_employer": true,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-10-01T13:10:42Z",
-      "posting_age_days": 4,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 4,
-        "category": "recent",
-        "label": "RECENT"
-      },
-      "urgency": "RECENT",
-      "first_seen": "2026-10-01T11:44:36Z",
-      "experience_required": "6+ years preferred",
-      "german_requirement": "German is preferred/nice-to-have",
-      "skill_matches": {
-        "match": [
-          "stakeholder communication"
-        ],
-        "partial": [],
-        "missing": [],
-        "nice_to_have": [
-          "iso 27001 (missing)"
-        ]
-      },
-      "mandatory_gaps": [],
-      "potential_gaps": [],
-      "optional_gaps": [
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Holding professional certifications such as Certified Information Systems Auditor (CISA), ISO 27001 Lead Auditor, CISSP, or comparable qualifications, are a plus."
-        }
-      ],
-      "score_breakdown": {
-        "role_alignment": 12,
-        "skills": 23,
-        "experience": 4,
-        "location": 15,
-        "language": 9,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Berlin remote role.",
-        "Evidenced matches include stakeholder communication."
-      ],
-      "warnings": [
-        "Requests 6+ years preferred versus approximately 2.1 years in the profile.",
-        "Optional gaps: iso 27001"
-      ],
-      "recommendation": "REVIEW - verify mandatory requirements before applying",
-      "description_excerpt": "About the opportunity We are seeking an Internal IT Auditor to conduct the full IT audit cycle, ensuring operational effectiveness, reliability, and regulatory compliance across our internal IT environments and critical ICT third-party ecosystems. Our Internal Audit team provides independent assurance over risk and control management, and follows proactive risk mitigation and robust governance to safeguard our digital banking environment. This is a unique opportunity to play a pivotal role in shaping our IT resilience, where you will engage directly with internal architecture teams and critical external vendors to navigate the evolving landscape of digital banking and European financial regulations. In this role, you will: Execute the full audit cycle: Perform comprehensive risk and control management over IT operations to ensure effectiveness, reliability, and adherence to established professional and regulatory standards. Audit critical ICT services & vendors: Lead audits of third-party vendors, outsourced service providers, and cloud infrastructures, evaluating their control environments and how internal processes govern these external services. Analyze data and IT processes: O…",
-      "full_description": "About the opportunity\n\nWe are seeking an Internal IT Auditor to conduct the full IT audit cycle, ensuring operational effectiveness, reliability, and regulatory compliance across our internal IT environments and critical ICT third-party ecosystems. \nOur Internal Audit team provides independent assurance over risk and control management, and follows proactive risk mitigation and robust governance to safeguard our digital banking environment.\nThis is a unique opportunity to play a pivotal role in shaping our IT resilience, where you will engage directly with internal architecture teams and critical external vendors to navigate the evolving landscape of digital banking and European financial regulations.\n\nIn this role, you will:\n\nExecute the full audit cycle: Perform comprehensive risk and control management over IT operations to ensure effectiveness, reliability, and adherence to established professional and regulatory standards.\n\nAudit critical ICT services & vendors: Lead audits of third-party vendors, outsourced service providers, and cloud infrastructures, evaluating their control environments and how internal processes govern these external services.\n\nAnalyze data and IT processes: Obtain and evaluate documentation, flowcharts, and data using data-driven audit approaches for system development, IT security, and vendor management.\n\nDeliver impactful reporting: Prepare detailed Internal Audit reports that translate complex technical findings into business-relevant insights and actionable recommendations for senior management.\n\nDrive continuous improvement: Continuously monitor the IT and ICT vendor risk landscape, facilitate alignment discussions, and advise management on best practices and risk remediation actions.\n\nWhat you need to be successful:\n\n6 years of significant experience functioning as an Internal IT Auditor at an international company within a regulated environment (preferably a bank, financial institution, fintech, or an audit/consulting firm).\n\nHolding professional certifications such as Certified Information Systems Auditor (CISA), ISO 27001 Lead Auditor, CISSP, or comparable qualifications, are a plus.\n\nDeep understanding of IT General Controls (ITGC), modern IT/cloud architectures, operational resilience frameworks, and ICT Third-Party Risk Management (TPRM).\n\nSolid understanding of European financial regulatory frameworks relevant to IT and outsourcing, particularly DORA, and MaRisk.\n\nExperience in data-driven audit approaches, including large-scale data evaluation, and proficiency in modern audit tools and platforms.\n\nStrong ability to engage effectively with cross-functional internal teams and external ICT service providers, including reviewing third-party assurance attestations (e.g. SOC 1/SOC 2, ISO, ISAE 3402).\n\nHigh level of integrity and professional skepticism, combined with excellent interpersonal skills to influence both technical and non-technical stakeholders\n\nFluency in English is required (verbal and written). German is a plus.\n\nWhat’s in it for you:\n\nAccelerate your career growth by joining one of Europe’s most talked about disruptors 🚀.\n\nEmployee benefits that range from a competitive personal development budget, work from home budget, discounts to fitness & wellness memberships, language apps and public transportation. \n\nAs an N26 employee you will have access to a Premium subscription on your personal N26 bank account. As well as subscriptions for friends and family members. \n\nAdditional day of annual leave for each year of service. \n\nA high degree of autonomy and access to cutting edge technologies - all while working with a friendly team of peers of diverse nationalities, experiences, and backgrounds. \n\nA relocation package with visa support for those who need it.\n\nWho we are\n\nN26 has reimagined banking for today’s digital world. Technology and design empower everything we do and it’s how we are building the global banking platform the world loves to use.\n\nWe've eliminated physical branches, paperwork, and hidden fees for an elegant digital experience and supreme savings. Giving people the power to live and bank their way is what gets us out of bed in the morning and inspires the work that we do. \n\nWe are headquartered in Berlin with offices in multiple cities across Europe, including Vienna and Barcelona, and a 1,500-strong team of more than 80 nationalities. \n\nDo you see yourself thriving in this role? We’d love to see your application even if you don’t meet 100% of the criteria. You may just be the right fit for this or other roles!\n\nEqual opportunities for all\n\nAt N26, we believe our strength lies in our people and the varied perspectives they bring. We strive to build diverse teams that drive innovation and business success. We actively seek talent from all backgrounds and welcome applications from all genders, cultures, sexual orientations, abilities, neurodiversities, and ages.\n\nWe are committed to providing an excellent and accessible candidate experience. If you require any accommodations to make this process work for you, please let us know. We’re here to support you!\n\nDiscover more about Diversity & Inclusion at N26: https://n26.com/en-eu/diversity-and-inclusion",
-      "skill_requirements": [
-        {
-          "skill": "stakeholder communication",
-          "profile_status": "match",
-          "requirement": "mandatory",
-          "evidence": "High level of integrity and professional skepticism, combined with excellent interpersonal skills to influence both technical and non-technical stakeholders"
-        },
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Holding professional certifications such as Certified Information Systems Auditor (CISA), ISO 27001 Lead Auditor, CISSP, or comparable qualifications, are a plus."
-        }
-      ],
-      "german_analysis": {
-        "category": "nice",
-        "level": "unspecified",
-        "mandatory": false,
-        "label": "German is preferred/nice-to-have",
-        "evidence": "German is a plus."
-      },
-      "experience_analysis": {
-        "min_years": 6,
-        "max_years": null,
-        "optional": true,
-        "display": "6+ years preferred",
-        "evidence": "6 years of significant experience functioning as an Internal IT Auditor at an international company within a regulated environment (preferably a bank, financial institution, fintech, or an audit/consulting firm)."
       }
     }
   ],

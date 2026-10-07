@@ -1691,36 +1691,29 @@
     },
     {
       "week_start": "2026-10-05",
-      "generated_at": "2026-10-06T12:09:28Z",
-      "active_relevant_jobs": 9,
+      "generated_at": "2026-10-07T11:55:14Z",
+      "active_relevant_jobs": 8,
       "role_family_counts": {
-        "Security Engineering": 5,
-        "Product Security": 2,
+        "Security Engineering": 4,
+        "Other Security": 1,
         "IT Audit / GRC": 1,
-        "Cloud Security / DevSecOps": 1
+        "Cloud Security / DevSecOps": 1,
+        "Product Security": 1
       },
       "score_bands": {
-        "60-69 review": 5,
+        "60-69 review": 4,
         "50-59 stretch": 3,
         "70-79 good": 1
       },
       "skill_gaps": {
         "mandatory": [
           {
-            "skill": "go",
-            "jobs": 4
-          },
-          {
             "skill": "aws",
             "jobs": 3
           },
           {
-            "skill": "edr",
-            "jobs": 2
-          },
-          {
-            "skill": "software development",
-            "jobs": 2
+            "skill": "go",
+            "jobs": 3
           },
           {
             "skill": "ci/cd",
@@ -1737,6 +1730,14 @@
           {
             "skill": "docker",
             "jobs": 2
+          },
+          {
+            "skill": "edr",
+            "jobs": 1
+          },
+          {
+            "skill": "software development",
+            "jobs": 1
           },
           {
             "skill": "bash",
@@ -1758,15 +1759,7 @@
         "potential": [
           {
             "skill": "rust",
-            "jobs": 3
-          },
-          {
-            "skill": "detection engineering",
-            "jobs": 1
-          },
-          {
-            "skill": "dlp",
-            "jobs": 1
+            "jobs": 2
           },
           {
             "skill": "azure",
@@ -1822,22 +1815,14 @@
         "partial_exposure": [
           {
             "skill": "incident response",
-            "jobs": 7
-          },
-          {
-            "skill": "aws",
             "jobs": 5
           },
           {
-            "skill": "product security",
+            "skill": "aws",
             "jobs": 4
           },
           {
-            "skill": "siem",
-            "jobs": 3
-          },
-          {
-            "skill": "software development",
+            "skill": "product security",
             "jobs": 3
           },
           {
@@ -1849,15 +1834,11 @@
             "jobs": 3
           },
           {
-            "skill": "git",
+            "skill": "siem",
             "jobs": 2
           },
           {
-            "skill": "nist",
-            "jobs": 2
-          },
-          {
-            "skill": "splunk",
+            "skill": "software development",
             "jobs": 2
           },
           {
@@ -1865,7 +1846,19 @@
             "jobs": 2
           },
           {
+            "skill": "security auditing",
+            "jobs": 1
+          },
+          {
+            "skill": "splunk",
+            "jobs": 1
+          },
+          {
             "skill": "network security",
+            "jobs": 1
+          },
+          {
+            "skill": "javascript",
             "jobs": 1
           }
         ]

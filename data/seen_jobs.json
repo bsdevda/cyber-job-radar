@@ -208,7 +208,7 @@
   },
   "521c71dc83dfa3787db3": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-06T12:09:28Z",
+    "last_seen": "2026-10-07T11:55:14Z",
     "content_hash": "2c040214033ea8916a3acfc5d53099f7b45d4e07ed4a37d2804853d325041e92",
     "status": "SEEN_BEFORE",
     "company": "Staffbase",
@@ -460,7 +460,7 @@
   },
   "9ba7cf301be480a6ff9f": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-06T12:09:28Z",
+    "last_seen": "2026-10-07T11:55:14Z",
     "content_hash": "695565afccbc0ea27aed88980573bdd4151d8c3a3fd8cfff9885244f400ab84b",
     "status": "SEEN_BEFORE",
     "company": "NavVis",
@@ -3214,7 +3214,7 @@
   },
   "adf40ac5904cb1b075ac": {
     "first_seen": "2026-08-15T17:01:09Z",
-    "last_seen": "2026-10-06T12:09:28Z",
+    "last_seen": "2026-10-07T11:55:14Z",
     "content_hash": "b5d79684c158dd21a22b161caeb7fc7ce838b589f10eb85b95807e2a1ac10691",
     "status": "SEEN_BEFORE",
     "company": "Qdrant",
@@ -3421,7 +3421,7 @@
   },
   "1f74892653c6467e49ca": {
     "first_seen": "2026-08-16T21:45:22Z",
-    "last_seen": "2026-10-06T12:09:28Z",
+    "last_seen": "2026-10-07T11:55:14Z",
     "content_hash": "fad2549be74af53a6045a50e41f26d99a64250d8c199fbd448c5cf1d8498fece",
     "status": "SEEN_BEFORE",
     "company": "N26",
@@ -3657,7 +3657,7 @@
     "first_seen": "2026-09-06T10:01:28Z",
     "last_seen": "2026-09-07T10:37:07Z",
     "content_hash": "ff7cf77e41cf248ae4b88726bbbf2a37eed55b6546ba371da63c616cf499b727",
-    "status": "SEEN_BEFORE",
+    "status": "REMOVED",
     "company": "Ygo",
     "title": "Cloud Security Engineer",
     "url": "https://www.arbeitnow.com/jobs/companies/ygo/remote-cloud-security-engineer-220555"
@@ -3666,7 +3666,7 @@
     "first_seen": "2026-09-06T10:01:28Z",
     "last_seen": "2026-09-07T10:37:07Z",
     "content_hash": "1f09b2489ccd65252b3cc43672e06f2bcdcec749bbcd09626537448d4a79bbd5",
-    "status": "SEEN_BEFORE",
+    "status": "REMOVED",
     "company": "Vivenu",
     "title": "Senior Security Engineer - AppSec (d/f/m)",
     "url": "https://www.arbeitnow.com/jobs/companies/vivenu/remote-senior-security-engineer-appsec-404043"
@@ -3772,7 +3772,7 @@
   },
   "240800e330239220c3d1": {
     "first_seen": "2026-09-30T11:17:18Z",
-    "last_seen": "2026-10-06T12:09:28Z",
+    "last_seen": "2026-10-07T11:55:14Z",
     "content_hash": "022807eaf926d00eae9ae0004e465698cedacb61e07b2d976bc8185a02f43884",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3808,7 +3808,7 @@
   },
   "729a044bba71f5b2b24a": {
     "first_seen": "2026-10-01T11:44:36Z",
-    "last_seen": "2026-10-06T12:09:28Z",
+    "last_seen": "2026-10-07T11:55:14Z",
     "content_hash": "b53f439b644e8b2c0cf34ef5a6c4f5e60ce03f57dc30ce5e2ed7e74f78e75c3d",
     "status": "SEEN_BEFORE",
     "company": "N26",
@@ -3841,5 +3841,23 @@
     "company": "Vivid",
     "title": "Security Engineer (Hybrid or Remote)",
     "url": "https://www.arbeitnow.fr/jobs/companies/vivid/security-engineer-hybrid-or-remote-470182"
+  },
+  "0bc28b416edb95f3b45f": {
+    "first_seen": "2026-10-07T11:55:14Z",
+    "last_seen": "2026-10-07T11:55:14Z",
+    "content_hash": "d05b981586ca12aa020d79133e0e815dc695330fbe935f5b687f5f287359c53e",
+    "status": "NEW",
+    "company": "Sidekick Network GmbH & Co. KG",
+    "title": "Senior Oracle Fusion HCM Security Specialist (Freelance)",
+    "url": "https://www.arbeitnow.com/jobs/companies/sidekick-network-gmbh-co-kg/senior-oracle-fusion-hcm-security-specialist-freelance-bonn-192936"
+  },
+  "1d8705aa550b912143d8": {
+    "first_seen": "2026-10-07T11:55:14Z",
+    "last_seen": "2026-10-07T11:55:14Z",
+    "content_hash": "3aa41d70911562622ed6770353b4e0684fa21f01fd13607cd0cc36fea54351b3",
+    "status": "NEW",
+    "company": "KAYAK",
+    "title": "Associate Security Engineer",
+    "url": "https://jobs.ashbyhq.com/kayak/7be95bc8-eb9d-4231-a14f-c06ea97a4d23"
   }
 }

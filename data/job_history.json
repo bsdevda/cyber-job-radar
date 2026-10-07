@@ -6309,6 +6309,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-10-07T11:55:14Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 9076,
+      "security_title_candidates": 286,
+      "prefiltered_non_security_jobs": 8790,
+      "unique_jobs_after_deduplication": 219,
+      "duplicates_removed": 67,
+      "jobs_rejected_or_below_threshold": 9001,
+      "relevant_jobs_in_current_run": 8,
+      "new_jobs": 2,
+      "updated_jobs": 0,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 38,
+      "jobs_by_source": {
+        "arbeitnow": 1250,
+        "remotive": 17,
+        "linkedin_posts": 0,
+        "greenhouse": 6343,
+        "ashby": 239,
+        "lever": 1070,
+        "personio": 155,
+        "recruitee": 2
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 23.0,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1250,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 17,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 6343,
+          "requests": 69,
+          "errors": [],
+          "error": "",
+          "companies_checked": 69,
+          "companies_successful": 69,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 239,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1070,
+          "requests": 4,
+          "errors": [],
+          "error": "",
+          "companies_checked": 4,
+          "companies_successful": 4,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 155,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2,
+          "requests": 1,
+          "errors": [],
+          "error": "",
+          "companies_checked": 1,
+          "companies_successful": 1,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -12978,6 +13091,36 @@
       "company": "Vivid",
       "title": "Security Engineer (Hybrid or Remote)",
       "score": 69
+    },
+    {
+      "at": "2026-10-07T11:55:14Z",
+      "job_key": "0bc28b416edb95f3b45f",
+      "event": "NEW",
+      "company": "Sidekick Network GmbH & Co. KG",
+      "title": "Senior Oracle Fusion HCM Security Specialist (Freelance)",
+      "score": 69
+    },
+    {
+      "at": "2026-10-07T11:55:14Z",
+      "job_key": "1d8705aa550b912143d8",
+      "event": "NEW",
+      "company": "KAYAK",
+      "title": "Associate Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-10-07T11:55:14Z",
+      "job_key": "cc78a757c373716678d7",
+      "event": "REMOVED",
+      "company": "Ygo",
+      "title": "Cloud Security Engineer"
+    },
+    {
+      "at": "2026-10-07T11:55:14Z",
+      "job_key": "a03342dd76095c14515c",
+      "event": "REMOVED",
+      "company": "Vivenu",
+      "title": "Senior Security Engineer - AppSec (d/f/m)"
     }
   ]
 }
