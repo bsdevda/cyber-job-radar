@@ -1,19 +1,19 @@
 # Employer Watchlist Health
 
-**Generated:** 2026-10-08T12:10:07Z
+**Generated:** 2026-10-09T12:01:24Z
 **Scan mode:** Daily
 **Configured employers:** 200
-**Healthy after a completed check:** 194
-**Cooling down:** 5
+**Healthy after a completed check:** 192
+**Cooling down:** 7
 **Invalid identifiers:** 6
 
 ## Scan coverage
 
-- **Greenhouse:** 58/172 selected; 110 scheduled for another batch; 4 cooling down
-- **Ashby:** 9/13 selected; 3 scheduled for another batch; 1 cooling down
-- **Lever:** 3/6 selected; 3 scheduled for another batch; 0 cooling down
-- **Personio:** 6/7 selected; 1 scheduled for another batch; 0 cooling down
-- **Recruitee:** 1/2 selected; 1 scheduled for another batch; 0 cooling down
+- **Greenhouse:** 61/172 selected; 107 scheduled for another batch; 4 cooling down
+- **Ashby:** 8/13 selected; 4 scheduled for another batch; 1 cooling down
+- **Lever:** 2/6 selected; 4 scheduled for another batch; 0 cooling down
+- **Personio:** 3/7 selected; 4 scheduled for another batch; 0 cooling down
+- **Recruitee:** 0/2 selected; 2 scheduled for another batch; 0 cooling down
 
 ## Verified security hiring watch
 
@@ -36,6 +36,8 @@
 
 - **Amplitude (greenhouse):** invalid_identifier; next retry 2026-10-30T11:17:18Z; Greenhouse | Amplitude | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/amplitude/jobs?content=true: HTTP Error 404: Not Found
 - **ClickHouse (greenhouse):** invalid_identifier; next retry 2026-11-01T11:14:34Z; Greenhouse | ClickHouse | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found
+- **Crypto.com (lever):** temporarily_failed; next retry 2026-10-10T12:01:24Z; Lever | Crypto.com | RuntimeError | Request failed after 1 attempt(s): https://api.lever.co/v0/postings/crypto?mode=json: The read operation timed out
+- **GetYourGuide (greenhouse):** temporarily_failed; next retry 2026-10-10T12:01:24Z; Greenhouse | GetYourGuide | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/getyourguide/jobs?content=true: The read operation timed out
 - **Leapsome (ashby):** invalid_identifier; next retry 2026-11-01T11:14:34Z; Ashby | Leapsome | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://api.ashbyhq.com/posting-api/job-board/leapsome?includeCompensation=true: HTTP Error 404: Not Found
 - **Magic Leap (greenhouse):** invalid_identifier; next retry 2026-10-06T10:01:28Z; Greenhouse | Magic Leap | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found
 - **Marqeta (greenhouse):** invalid_identifier; next retry 2026-11-03T11:36:53Z; Greenhouse | Marqeta | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/marqeta/jobs?content=true: HTTP Error 404: Not Found

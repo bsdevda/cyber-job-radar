@@ -6535,6 +6535,137 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-10-09T12:01:24Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 7734,
+      "security_title_candidates": 216,
+      "prefiltered_non_security_jobs": 7518,
+      "unique_jobs_after_deduplication": 160,
+      "duplicates_removed": 56,
+      "jobs_rejected_or_below_threshold": 7669,
+      "relevant_jobs_in_current_run": 9,
+      "new_jobs": 0,
+      "updated_jobs": 2,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 2,
+      "report_jobs": 37,
+      "jobs_by_source": {
+        "arbeitnow": 1250,
+        "remotive": 17,
+        "linkedin_posts": 0,
+        "greenhouse": 6084,
+        "ashby": 214,
+        "lever": 8,
+        "personio": 161,
+        "recruitee": 0
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 37.0,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1250,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 17,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 6084,
+          "requests": 61,
+          "errors": [
+            {
+              "source": "greenhouse",
+              "company": "GetYourGuide",
+              "http_status": null,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/getyourguide/jobs?content=true: The read operation timed out",
+              "message": "Greenhouse | GetYourGuide | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/getyourguide/jobs?content=true: The read operation timed out"
+            }
+          ],
+          "error": "Greenhouse | GetYourGuide | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/getyourguide/jobs?content=true: The read operation timed out",
+          "companies_checked": 61,
+          "companies_successful": 60,
+          "companies_failed": 1
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 214,
+          "requests": 8,
+          "errors": [],
+          "error": "",
+          "companies_checked": 8,
+          "companies_successful": 8,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 8,
+          "requests": 2,
+          "errors": [
+            {
+              "source": "lever",
+              "company": "Crypto.com",
+              "http_status": null,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://api.lever.co/v0/postings/crypto?mode=json: The read operation timed out",
+              "message": "Lever | Crypto.com | RuntimeError | Request failed after 1 attempt(s): https://api.lever.co/v0/postings/crypto?mode=json: The read operation timed out"
+            }
+          ],
+          "error": "Lever | Crypto.com | RuntimeError | Request failed after 1 attempt(s): https://api.lever.co/v0/postings/crypto?mode=json: The read operation timed out",
+          "companies_checked": 2,
+          "companies_successful": 1,
+          "companies_failed": 1
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 161,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "idle",
+          "ok": true,
+          "jobs": 0,
+          "requests": 0,
+          "errors": [],
+          "error": "",
+          "companies_checked": 0,
+          "companies_successful": 0,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -13241,6 +13372,29 @@
       "event": "REMOVED",
       "company": "RedMimicry GmbH",
       "title": "Software Developer (Go) - Security Analytics"
+    },
+    {
+      "at": "2026-10-09T12:01:24Z",
+      "job_key": "de5ca6344fea6fa934d6",
+      "event": "UPDATED",
+      "company": "Linro",
+      "title": "Security & Compliance Engineer (all genders) - Remote Germany",
+      "score": 67
+    },
+    {
+      "at": "2026-10-09T12:01:24Z",
+      "job_key": "521c71dc83dfa3787db3",
+      "event": "UPDATED",
+      "company": "Staffbase",
+      "title": "Senior Product Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-10-09T12:01:24Z",
+      "job_key": "6e733992a361e341e6e6",
+      "event": "REMOVED",
+      "company": "Distribusion Technologies",
+      "title": "Senior Application Security Engineer (all genders)"
     }
   ]
 }

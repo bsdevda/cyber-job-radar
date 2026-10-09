@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T12:10:07Z",
+  "generated_at": "2026-10-09T12:01:24Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,36 +171,36 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-10-08T12:10:07Z",
+    "generated_at": "2026-10-09T12:01:24Z",
     "scoring_version": 2.2,
-    "jobs_collected": 7481,
-    "security_title_candidates": 303,
-    "prefiltered_non_security_jobs": 7178,
-    "unique_jobs_after_deduplication": 225,
-    "duplicates_removed": 78,
-    "jobs_rejected_or_below_threshold": 7395,
-    "relevant_jobs_in_current_run": 8,
+    "jobs_collected": 7734,
+    "security_title_candidates": 216,
+    "prefiltered_non_security_jobs": 7518,
+    "unique_jobs_after_deduplication": 160,
+    "duplicates_removed": 56,
+    "jobs_rejected_or_below_threshold": 7669,
+    "relevant_jobs_in_current_run": 9,
     "new_jobs": 0,
-    "updated_jobs": 0,
+    "updated_jobs": 2,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
-    "sources_partial": 0,
+    "sources_partial": 2,
     "report_jobs": 37,
     "jobs_by_source": {
       "arbeitnow": 1250,
-      "remotive": 19,
+      "remotive": 17,
       "linkedin_posts": 0,
-      "greenhouse": 5620,
-      "ashby": 252,
-      "lever": 156,
-      "personio": 179,
-      "recruitee": 5
+      "greenhouse": 6084,
+      "ashby": 214,
+      "lever": 8,
+      "personio": 161,
+      "recruitee": 0
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 22.1
+    "workflow_duration_seconds": 37.0
   },
   "source_status": {
     "arbeitnow": {
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 19,
+      "jobs": 17,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -228,31 +228,60 @@
       "error": ""
     },
     "greenhouse": {
-      "status": "ok",
+      "status": "partial",
       "ok": true,
-      "jobs": 5620,
-      "requests": 58,
-      "errors": [],
-      "error": "",
-      "companies_checked": 58,
-      "companies_successful": 58,
-      "companies_failed": 0
+      "jobs": 6084,
+      "requests": 61,
+      "errors": [
+        {
+          "source": "greenhouse",
+          "company": "GetYourGuide",
+          "http_status": null,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/getyourguide/jobs?content=true: The read operation timed out",
+          "message": "Greenhouse | GetYourGuide | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/getyourguide/jobs?content=true: The read operation timed out"
+        }
+      ],
+      "error": "Greenhouse | GetYourGuide | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/getyourguide/jobs?content=true: The read operation timed out",
+      "companies_checked": 61,
+      "companies_successful": 60,
+      "companies_failed": 1
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 252,
-      "requests": 9,
+      "jobs": 214,
+      "requests": 8,
       "errors": [],
       "error": "",
-      "companies_checked": 9,
-      "companies_successful": 9,
+      "companies_checked": 8,
+      "companies_successful": 8,
       "companies_failed": 0
     },
     "lever": {
+      "status": "partial",
+      "ok": true,
+      "jobs": 8,
+      "requests": 2,
+      "errors": [
+        {
+          "source": "lever",
+          "company": "Crypto.com",
+          "http_status": null,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://api.lever.co/v0/postings/crypto?mode=json: The read operation timed out",
+          "message": "Lever | Crypto.com | RuntimeError | Request failed after 1 attempt(s): https://api.lever.co/v0/postings/crypto?mode=json: The read operation timed out"
+        }
+      ],
+      "error": "Lever | Crypto.com | RuntimeError | Request failed after 1 attempt(s): https://api.lever.co/v0/postings/crypto?mode=json: The read operation timed out",
+      "companies_checked": 2,
+      "companies_successful": 1,
+      "companies_failed": 1
+    },
+    "personio": {
       "status": "ok",
       "ok": true,
-      "jobs": 156,
+      "jobs": 161,
       "requests": 3,
       "errors": [],
       "error": "",
@@ -260,32 +289,279 @@
       "companies_successful": 3,
       "companies_failed": 0
     },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 179,
-      "requests": 6,
-      "errors": [],
-      "error": "",
-      "companies_checked": 6,
-      "companies_successful": 6,
-      "companies_failed": 0
-    },
     "recruitee": {
-      "status": "ok",
+      "status": "idle",
       "ok": true,
-      "jobs": 5,
-      "requests": 1,
+      "jobs": 0,
+      "requests": 0,
       "errors": [],
       "error": "",
-      "companies_checked": 1,
-      "companies_successful": 1,
+      "companies_checked": 0,
+      "companies_successful": 0,
       "companies_failed": 0
     }
   },
   "jobs": [
     {
       "report_number": 1,
+      "job_key": "521c71dc83dfa3787db3",
+      "status": "UPDATED",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 81,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "Senior title is above the profile's current 2+ years"
+      ],
+      "score_label": "REVIEW",
+      "title": "Senior Product Security Engineer",
+      "company": "Staffbase",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin remote role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Remote"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "product_security",
+        "label": "Product Security",
+        "priority": 1,
+        "confidence": "high",
+        "evidence": [
+          "product security",
+          "product security"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://job-boards.greenhouse.io/staffbase/jobs/8729143002",
+      "apply_url": "https://job-boards.greenhouse.io/staffbase/jobs/8729143002",
+      "canonical_url": "https://job-boards.greenhouse.io/staffbase/jobs/8729143002",
+      "source": "Greenhouse",
+      "sources": [
+        "Arbeitnow",
+        "Greenhouse"
+      ],
+      "ats": "greenhouse",
+      "priority_employer": true,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-09-18T10:05:38Z",
+      "posting_age_days": 21,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 21,
+        "category": "current",
+        "label": "OPEN FOR REVIEW"
+      },
+      "urgency": "OPEN FOR REVIEW",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": null,
+      "german_requirement": "German is preferred/nice-to-have",
+      "skill_matches": {
+        "match": [
+          "dast",
+          "frida",
+          "penetration testing",
+          "sast",
+          "secure sdlc",
+          "security automation",
+          "vulnerability management"
+        ],
+        "partial": [
+          "ci/cd",
+          "javascript",
+          "product security",
+          "software development"
+        ],
+        "missing": [
+          "kubernetes",
+          "rust"
+        ],
+        "nice_to_have": [
+          "go (missing)",
+          "python (match)",
+          "terraform (missing)"
+        ]
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "We see security not as a blocker but as a trusted partner that is the foundation for better products."
+        }
+      ],
+      "optional_gaps": [
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Strong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python"
+        },
+        {
+          "skill": "javascript",
+          "profile_status": "partial",
+          "requirement": "optional",
+          "evidence": "Strong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python"
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Practical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize"
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Practical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize"
+        }
+      ],
+      "score_breakdown": {
+        "role_alignment": 20,
+        "skills": 20,
+        "experience": 10,
+        "location": 15,
+        "language": 9,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Product Security.",
+        "Berlin remote role.",
+        "Evidenced matches include dast, frida, penetration testing, sast, secure sdlc."
+      ],
+      "warnings": [
+        "Potential gaps: rust",
+        "Optional gaps: go, javascript, kubernetes, terraform",
+        "Exposure only; do not claim deep expertise: ci/cd, javascript, product security, software development",
+        "Senior title is above the profile's current 2+ years"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "About Staffbase We inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees. Headquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience. We are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication. At Staffbase, security is at the heart of everything we build. Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company. We believe the best security work happens when people bring their authentic selves and diverse perspectives to the table and we’…",
+      "full_description": "About Staffbase\n\nWe inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees.\n\nHeadquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience.\nWe are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication.\n\nAt Staffbase, security is at the heart of everything we build. Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company. We believe the best security work happens when people bring their authentic selves and diverse perspectives to the table and we’re proud of the unique mix of talents and backgrounds in our team.\n\nAs an enablement team, we provide tools, guidance, and insights that allow developers to integrate security early in the development process. We see security not as a blocker but as a trusted partner that is the foundation for better products. With us, you’ll get hands-on experience with modern security practices, mentorship from experienced engineers, and the chance to make a visible impact in a global SaaS environment.\n\nWe work together with curiosity, humility, and a growth mindset, supporting each other, taking ownership of our contributions, and celebrating progress along the way. Here, your ideas matter, your work will shape how we build secure products, and you’ll have space to grow into new challenges.\n\nWhat you’ll be doing \n\nTake ownership of tasks that improve our security automation and strengthen our product security pipelines\n\nProactively explore the use of AI for vulnerability detection and remediation\n\nContinuously learn and share knowledge about how vulnerabilities apply in our specific product context\n\nSupport the team by enhancing our services with software engineering solutions\n\nCollaborate closely with stakeholders across the product department and gain broad exposure to how a growing SaaS company operates\n\nMaintain our outbound e-mail security by regularly reviewing the related metrics\n\nMaintain our Web Application Firewall ruleset\n\nKubernetes security\n\nCI/CD pipelines security\n\nMaintain our central HTML sanitization service written in TypeScript\n\nWhat you need to be successful \n\nPractical knowledge of security topics (e.g. penetration testing, secure software development, vulnerability management, SAST, DAST)\n\nStrong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python\n\nPractical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize\n\nStrong communication skills in English (German is a plus)\n\nWhat you'll get \n\nCompetitive Compensation - we offer attractive salary packages including LTIP (unit-based Long Term Incentive Plan)\n\nFlexibility - we offer flexible working time models and the option of hybrid work, and support this with a yearly flex work allowance of €1560\n\nRecharge - with 31 vacation days annually (incl. one floating holiday), plus pro rata fully paid Fridays off during August\n\nSupport - we’re offering a company pension scheme\n\nVolunteers Day - you’ll get one day off per year for supporting a social project\n\nFind Jobs in Germany on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "ci/cd",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "CI/CD pipelines security"
+        },
+        {
+          "skill": "dast",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "penetration testing, secure software development, vulnerability management, SAST, DAST)"
+        },
+        {
+          "skill": "frida",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "one floating holiday), plus pro rata fully paid Fridays off during August"
+        },
+        {
+          "skill": "penetration testing",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "penetration testing, secure software development, vulnerability management, SAST, DAST)"
+        },
+        {
+          "skill": "product security",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "We see security not as a blocker but as a trusted partner that is the foundation for better products."
+        },
+        {
+          "skill": "sast",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "penetration testing, secure software development, vulnerability management, SAST, DAST)"
+        },
+        {
+          "skill": "secure sdlc",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "penetration testing, secure software development, vulnerability management, SAST, DAST)"
+        },
+        {
+          "skill": "security automation",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Take ownership of tasks that improve our security automation and strengthen our product security pipelines"
+        },
+        {
+          "skill": "software development",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Support the team by enhancing our services with software engineering solutions"
+        },
+        {
+          "skill": "vulnerability management",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "penetration testing, secure software development, vulnerability management, SAST, DAST)"
+        },
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Strong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python"
+        },
+        {
+          "skill": "javascript",
+          "profile_status": "partial",
+          "requirement": "optional",
+          "evidence": "Strong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python"
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Practical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize"
+        },
+        {
+          "skill": "python",
+          "profile_status": "match",
+          "requirement": "optional",
+          "evidence": "Strong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python"
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Practical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize"
+        }
+      ],
+      "german_analysis": {
+        "category": "nice",
+        "level": "unspecified",
+        "mandatory": false,
+        "label": "German is preferred/nice-to-have",
+        "evidence": "Strong communication skills in English (German is a plus)"
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 2,
       "job_key": "0bc28b416edb95f3b45f",
       "status": "NEW",
       "application_status": "NEW",
@@ -404,7 +680,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 2,
+      "report_number": 3,
       "job_key": "ca9ca2de50791397491c",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -600,7 +876,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 3,
+      "report_number": 4,
       "job_key": "97e10fb205544ff97e76",
       "status": "NEW",
       "application_status": "NEW",
@@ -758,7 +1034,232 @@
       }
     },
     {
-      "report_number": 4,
+      "report_number": 5,
+      "job_key": "de5ca6344fea6fa934d6",
+      "status": "UPDATED",
+      "application_status": "NEW",
+      "score": 67,
+      "raw_score": 67,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "score_label": "REVIEW",
+      "title": "Security & Compliance Engineer (all genders) - Remote Germany",
+      "company": "Linro",
+      "location": "Germany",
+      "location_analysis": {
+        "category": "eligible_germany_remote",
+        "eligible": true,
+        "score": 15,
+        "reason": "Remote work from Germany is explicitly available",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Germany remote",
+        "work_model": "Remote"
+      },
+      "location_scope": "Germany remote",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "it_audit_grc",
+        "label": "IT Audit / GRC",
+        "priority": 3,
+        "confidence": "medium",
+        "evidence": [
+          "iso 27001",
+          "compliance"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://www.arbeitnow.com/jobs/companies/linro/security-compliance-engineer-all-genders-remote-germany-32354",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/linro/security-compliance-engineer-all-genders-remote-germany-32354",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/linro/security-compliance-engineer-all-genders-remote-germany-32354",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-10-09T08:40:04Z",
+      "posting_age_days": 0,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-08-20T05:56:43Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [],
+        "partial": [
+          "aws",
+          "cloud security"
+        ],
+        "missing": [
+          "infrastructure as code",
+          "iso 27001",
+          "rust",
+          "terraform"
+        ],
+        "nice_to_have": [
+          "azure (missing)",
+          "go (missing)",
+          "software development (partial)"
+        ]
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Hands-on experience with at least one of SOC 2, ISO 27001, or ISO 42001: you have run a gap analysis, built and mapped evidence, and taken a program through an actual audit, not just studied the framework."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "infrastructure as code",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Automate compliance instead of just babysitting it: build checks and guardrails so we stay continuously compliant, and help ensure our multi-cloud infrastructure (AWS and beyond) is managed as Infrastructure-as-Code with Terraform."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Careful, structured, and trustworthy."
+        }
+      ],
+      "optional_gaps": [
+        {
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "optional",
+          "evidence": "Hands-on Terraform, and experience with AWS, GCP, and/or Azure."
+        },
+        {
+          "skill": "azure",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Hands-on Terraform, and experience with AWS, GCP, and/or Azure."
+        },
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Prior general software engineering experience, ideally in the stacks we use day to day (Go, SQL, and cloud infrastructure)"
+        },
+        {
+          "skill": "software development",
+          "profile_status": "partial",
+          "requirement": "optional",
+          "evidence": "Prior general software engineering experience, ideally in the stacks we use day to day (Go, SQL, and cloud infrastructure)"
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Hands-on Terraform, and experience with AWS, GCP, and/or Azure."
+        }
+      ],
+      "score_breakdown": {
+        "role_alignment": 12,
+        "skills": 7,
+        "experience": 10,
+        "location": 15,
+        "language": 10,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Remote work from Germany is explicitly available."
+      ],
+      "warnings": [
+        "Mandatory gaps: iso 27001",
+        "Potential gaps: infrastructure as code, rust",
+        "Optional gaps: aws, azure, go, software development, terraform",
+        "Exposure only; do not claim deep expertise: aws, cloud security",
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "About Linro Linro is a cloud security company building a real-time, agentic cloud-security platform. Teams ship with AI. AI ships with Linro. Cloud infrastructure changes constantly, and increasingly it's AI agents making those changes, not people. Most security tools only catch problems after the fact. Linro works differently. We enforce what's allowed at every stage, from commit to production. We stop bad changes before they ship, and fix problems in real time once they're live. We have each been on the receiving end of this problem: running cloud security at scale, building the platforms underneath it, and shipping in regulated systems where a wrong change isn't an option. Founded in Berlin in 2026 and built fully remote across Europe, Linro has a platform that's real and working, with plenty still to shape. The role You will own Linro's security and compliance program end to end, starting from a blank page. Your job is to build that from scratch: figure out where we actually stand, find the gaps, and close them across a multi-cloud environment. Automate what can be automated instead of redoing the same work by hand every quarter. What you will do Take SOC2, ISO 27001 and 42001…",
+      "full_description": "About Linro\n\nLinro is a cloud security company building a real-time, agentic cloud-security platform. Teams ship with AI. AI ships with Linro.\n\nCloud infrastructure changes constantly, and increasingly it's AI agents making those changes, not people. Most security tools only catch problems after the fact. Linro works differently. We enforce what's allowed at every stage, from commit to production. We stop bad changes before they ship, and fix problems in real time once they're live.\n\nWe have each been on the receiving end of this problem: running cloud security at scale, building the platforms underneath it, and shipping in regulated systems where a wrong change isn't an option. Founded in Berlin in 2026 and built fully remote across Europe, Linro has a platform that's real and working, with plenty still to shape.\n\nThe role\n\nYou will own Linro's security and compliance program end to end, starting from a blank page. Your job is to build that from scratch: figure out where we actually stand, find the gaps, and close them across a multi-cloud environment. Automate what can be automated instead of redoing the same work by hand every quarter.\n\nWhat you will do\n\nTake SOC2, ISO 27001 and 42001 from a blank page to audit-ready. Run the gap analysis, document controls and policies, gather and map evidence, track remediation to done, and get us through audit.\n\nAutomate compliance instead of just babysitting it: build checks and guardrails so we stay continuously compliant, and help ensure our multi-cloud infrastructure (AWS and beyond) is managed as Infrastructure-as-Code with Terraform.\n\nOwn our compliance evidence end to end: keep it current, mapped, and audit-ready across whatever tooling we run.\n\nSupport security operations: monitoring, alert triage, and documenting findings.\n\nStay close to how the product is actually built. Our compliance checks run on the same engine we sell customers, so you are testing the product, not filling out paperwork off to the side.\n\nWhat we are looking for\n\nHands-on experience with at least one of SOC 2, ISO 27001, or ISO 42001: you have run a gap analysis, built and mapped evidence, and taken a program through an actual audit, not just studied the framework. Experience across more than one is a plus.\n\nGenuine interest in cloud and information security, governance, and compliance, and the drive to own outcomes, not just tasks.\n\nComfort reading cloud configurations and IaC across multiple providers. Ability to automate scales with level.\n\nCareful, structured, and trustworthy. You will handle sensitive material.\n\nNice to have\n\nHands-on Terraform, and experience with AWS, GCP, and/or Azure.\n\nExposure to a compliance automation platform.\n\nPrior general software engineering experience, ideally in the stacks we use day to day (Go, SQL, and cloud infrastructure)\n\nHow we work\n\nWe are remote across Europe and hire anywhere within roughly two hours of Central European Time (CEST). We get the whole team together in person somewhere in Europe once a quarter for a few days. We work async by default, write things down, and protect people's focus time.\n\nWhat we offer\n\nReal ownership of the security and compliance program from the ground up.\n\nMeaningful equity. You are an early employee, and your stake reflects it.\n\nCompetitive salary, benchmarked to the market.\n\nA quarterly European offsite, and a team that takes both the mission and each other’s time seriously.\n\nThe honest version\n\nThis is early, we are literally at the start today. You would start from a blank page, not maintain someone else's polished program. That is the appeal if you want to build a security and compliance function from scratch and carry it all the way to real certifications. It is daunting if you are looking for a mature program to step into. We hire at multiple levels, so this can be a first serious role or a senior mandate. Either way, you will own real outcomes fast.\n\nCompensation: €55K – €85K • Offers Equity • Multiple Ranges\n\nProfessional (T4) • €55K – €68K • Offers Equity\n\nSenior (T5) • €72K – €85K • Offers Equity\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Hands-on experience with at least one of SOC 2, ISO 27001, or ISO 42001: you have run a gap analysis, built and mapped evidence, and taken a program through an actual audit, not just studied the framework."
+        },
+        {
+          "skill": "cloud security",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Linro is a cloud security company building a real-time, agentic cloud-security platform."
+        },
+        {
+          "skill": "infrastructure as code",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Automate compliance instead of just babysitting it: build checks and guardrails so we stay continuously compliant, and help ensure our multi-cloud infrastructure (AWS and beyond) is managed as Infrastructure-as-Code with Terraform."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Careful, structured, and trustworthy."
+        },
+        {
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "optional",
+          "evidence": "Hands-on Terraform, and experience with AWS, GCP, and/or Azure."
+        },
+        {
+          "skill": "azure",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Hands-on Terraform, and experience with AWS, GCP, and/or Azure."
+        },
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Prior general software engineering experience, ideally in the stacks we use day to day (Go, SQL, and cloud infrastructure)"
+        },
+        {
+          "skill": "software development",
+          "profile_status": "partial",
+          "requirement": "optional",
+          "evidence": "Prior general software engineering experience, ideally in the stacks we use day to day (Go, SQL, and cloud infrastructure)"
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Hands-on Terraform, and experience with AWS, GCP, and/or Azure."
+        }
+      ],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 6,
       "job_key": "aeed9275b0fec6f82691",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -910,7 +1411,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 5,
+      "report_number": 7,
       "job_key": "3d69b8086319e3c5d304",
       "status": "NEW",
       "application_status": "NEW",
@@ -1086,7 +1587,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 6,
+      "report_number": 8,
       "job_key": "32c54022816bcac2a151",
       "status": "NEW",
       "application_status": "NEW",
@@ -1409,7 +1910,7 @@
       }
     },
     {
-      "report_number": 7,
+      "report_number": 9,
       "job_key": "49da14a46b0c8770f5f3",
       "status": "NEW",
       "application_status": "NEW",
@@ -1702,254 +2203,7 @@
       }
     },
     {
-      "report_number": 8,
-      "job_key": "6e733992a361e341e6e6",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 59,
-      "raw_score": 73,
-      "score_cap": 59,
-      "score_cap_reasons": [
-        "Mandatory experience requirement is 5+ years"
-      ],
-      "score_label": "STRETCH",
-      "title": "Senior Application Security Engineer (all genders)",
-      "company": "Distribusion Technologies",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin remote role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "Remote"
-      },
-      "location_scope": "Berlin",
-      "working_model": "Remote",
-      "role_family": {
-        "id": "application_security",
-        "label": "Application Security",
-        "priority": 1,
-        "confidence": "high",
-        "evidence": [
-          "application security",
-          "sast",
-          "dast"
-        ]
-      },
-      "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
-      },
-      "url": "https://www.arbeitnow.com/jobs/companies/distribusion-technologies/senior-application-security-engineer-all-genders-berlin-47116",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/distribusion-technologies/senior-application-security-engineer-all-genders-berlin-47116",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/distribusion-technologies/senior-application-security-engineer-all-genders-berlin-47116",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-09-07T15:20:16Z",
-      "posting_age_days": 1,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 1,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-09-08T09:57:55Z",
-      "experience_required": "5+ years",
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "api security",
-          "application security",
-          "dast",
-          "penetration testing",
-          "python",
-          "sast",
-          "threat modeling"
-        ],
-        "partial": [
-          "ci/cd",
-          "git",
-          "javascript",
-          "software development"
-        ],
-        "missing": [
-          "go",
-          "kubernetes"
-        ],
-        "nice_to_have": [
-          "cloud security (partial)"
-        ]
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "software development",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "You bring 5+ years in AppSec (or 3+ years plus a strong software engineering/web-pentesting background), with a track record of true ownership."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "You read and write production code (Python, Go, TypeScript, Ruby, etc.) and deeply understand web frameworks, CI/CD, and Kubernetes."
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "You read and write production code (Python, Go, TypeScript, Ruby, etc.) and deeply understand web frameworks, CI/CD, and Kubernetes."
-        }
-      ],
-      "optional_gaps": [
-        {
-          "skill": "cloud security",
-          "profile_status": "partial",
-          "requirement": "optional",
-          "evidence": "You have strong cloud security fundamentals (GCP preferred), specifically regarding public exposure, secrets hygiene, and WAF rules."
-        }
-      ],
-      "score_breakdown": {
-        "role_alignment": 20,
-        "skills": 17,
-        "experience": 4,
-        "location": 15,
-        "language": 10,
-        "seniority": 4,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Application Security.",
-        "Berlin remote role.",
-        "Evidenced matches include api security, application security, dast, penetration testing, python."
-      ],
-      "warnings": [
-        "Requests 5+ years versus approximately 2.1 years in the profile.",
-        "Mandatory gaps: software development",
-        "Potential gaps: go, kubernetes",
-        "Optional gaps: cloud security",
-        "Exposure only; do not claim deep expertise: ci/cd, git, javascript, software development",
-        "Mandatory experience requirement is 5+ years"
-      ],
-      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "Distribusion is the world’s leading ground transportation marketplace and gives travellers seamless access to ground transportation online, from search to ticket purchase. We have built a cutting-edge B2B technology platform that connects bus, rail and ferry operators in 70+ countries with the biggest online retailers including Google Maps and Booking.com. We are shaping the future of travel and building the largest global network of transport providers and retailers. We are one of the fastest growing startups in travel, backed by leading venture capital investors including TQ Ventures, Lightrock, Creandum, and Northzone, and are headquartered in Berlin, Germany. Following our recent $80m Series C funding, we are ready to push beyond. We are looking for our first dedicated Application Security Engineer to build our AppSec practice from the ground up. This is a greenfield opportunity with a real attack surface: public partner-facing APIs, payment flows, and active bug bounties. You will own secure development, define what gets reviewed, implement security gates, build the \"paved road\" for ~150 engineers, and see the impact of your work in production within weeks. What you will do:…",
-      "full_description": "Distribusion is the world’s leading ground transportation marketplace and gives travellers seamless access to ground transportation online, from search to ticket purchase. We have built a cutting-edge B2B technology platform that connects bus, rail and ferry operators in 70+ countries with the biggest online retailers including Google Maps and Booking.com.\n\nWe are shaping the future of travel and building the largest global network of transport providers and retailers. We are one of the fastest growing startups in travel, backed by leading venture capital investors including TQ Ventures, Lightrock, Creandum, and Northzone, and are headquartered in Berlin, Germany. Following our recent $80m Series C funding, we are ready to push beyond.\n\nWe are looking for our first dedicated Application Security Engineer to build our AppSec practice from the ground up. This is a greenfield opportunity with a real attack surface: public partner-facing APIs, payment flows, and active bug bounties. You will own secure development, define what gets reviewed, implement security gates, build the \"paved road\" for ~150 engineers, and see the impact of your work in production within weeks.\n\nWhat you will do:\n\nLead threat modeling and secure design reviews for high-risk changes, partner integrations, and payment flows.\n\nImplement, tune, and enforce security gates in GitLab CI/CD (SAST, SCA, secrets scanning, and DAST) while minimizing developer friction.\n\nAct as the primary technical owner for triaging, reproducing, and prioritizing findings from bug bounties, partner pentests, and automated scanners.\n\nWork hands-on with the DevOps team to implement GCP organizational policies, IAM least-privilege architectures, and Cloud Armor (WAF/rate limiting).\n\nEstablish a security-champions network across engineering squads and leverage automation/AI-assisted tooling to scale code reviews effectively.\n\nWorkplace:\n\nWe are a remote-first company with teams located around the Globe.\n\nAlso, the HQ office is in Berlin, where the team often meets.\n\nWho you are:\n\nYou bring 5+ years in AppSec (or 3+ years plus a strong software engineering/web-pentesting background), with a track record of true ownership.\n\nYou read and write production code (Python, Go, TypeScript, Ruby, etc.) and deeply understand web frameworks, CI/CD, and Kubernetes.\n\nYou have deep knowledge of web and API security, specifically authentication/authorization models (OAuth2, JWT), rate limiting, tenant isolation, IDOR, and XSS.\n\nYou have strong cloud security fundamentals (GCP preferred), specifically regarding public exposure, secrets hygiene, and WAF rules.\n\nYou prioritize by real-world risk, propose trade-offs rather than demanding perfection, and communicate complex risks plainly to engineers and leadership.\n\nBonus Points: You have experience securing high-volume, multi-tenant B2B APIs and utilizing AI tooling to accelerate triage and review.\n\nWhat you can expect:\n\nYou will join a fast-paced travel tech company with a flat organizational structure.\n\nYou will have exciting opportunities, ownership, and responsibility and contribute directly to the success of the company.\n\nYou will join an international team of talented and driven people with a clear mission. Expect your colleagues to inspire, support and challenge you every day!\n\nWe have a flexible work policy with the option of working remotely and international opportunities arising as we continue to expand our global footprint – Our heart is in Berlin, but you’ll find us across the globe.\n\nYou will get a competitive salary.\n\nOur hiring team for this role:\n\nYour Talent Partner (TP) and point of contact is Lorena Rebenciuc, and the Hiring Manager (HM) is Ilya Isakov.\n\nFor any queries, contact your Talent Partner at \n\nDo you want to work on a product that is used by millions of people daily with a high load, availability and scalability, and most advanced technology? Come join us!\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "api security",
-          "profile_status": "match",
-          "requirement": "mandatory",
-          "evidence": "You have deep knowledge of web and API security, specifically authentication/authorization models (OAuth2, JWT), rate limiting, tenant isolation, IDOR, and XSS."
-        },
-        {
-          "skill": "application security",
-          "profile_status": "match",
-          "requirement": "mandatory",
-          "evidence": "You bring 5+ years in AppSec (or 3+ years plus a strong software engineering/web-pentesting background), with a track record of true ownership."
-        },
-        {
-          "skill": "penetration testing",
-          "profile_status": "match",
-          "requirement": "mandatory",
-          "evidence": "You bring 5+ years in AppSec (or 3+ years plus a strong software engineering/web-pentesting background), with a track record of true ownership."
-        },
-        {
-          "skill": "software development",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "You bring 5+ years in AppSec (or 3+ years plus a strong software engineering/web-pentesting background), with a track record of true ownership."
-        },
-        {
-          "skill": "ci/cd",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Implement, tune, and enforce security gates in GitLab CI/CD (SAST, SCA, secrets scanning, and DAST) while minimizing developer friction."
-        },
-        {
-          "skill": "dast",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Implement, tune, and enforce security gates in GitLab CI/CD (SAST, SCA, secrets scanning, and DAST) while minimizing developer friction."
-        },
-        {
-          "skill": "git",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Implement, tune, and enforce security gates in GitLab CI/CD (SAST, SCA, secrets scanning, and DAST) while minimizing developer friction."
-        },
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "You read and write production code (Python, Go, TypeScript, Ruby, etc.) and deeply understand web frameworks, CI/CD, and Kubernetes."
-        },
-        {
-          "skill": "javascript",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "You read and write production code (Python, Go, TypeScript, Ruby, etc.) and deeply understand web frameworks, CI/CD, and Kubernetes."
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "You read and write production code (Python, Go, TypeScript, Ruby, etc.) and deeply understand web frameworks, CI/CD, and Kubernetes."
-        },
-        {
-          "skill": "python",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "You read and write production code (Python, Go, TypeScript, Ruby, etc.) and deeply understand web frameworks, CI/CD, and Kubernetes."
-        },
-        {
-          "skill": "sast",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Implement, tune, and enforce security gates in GitLab CI/CD (SAST, SCA, secrets scanning, and DAST) while minimizing developer friction."
-        },
-        {
-          "skill": "threat modeling",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Lead threat modeling and secure design reviews for high-risk changes, partner integrations, and payment flows."
-        },
-        {
-          "skill": "cloud security",
-          "profile_status": "partial",
-          "requirement": "optional",
-          "evidence": "You have strong cloud security fundamentals (GCP preferred), specifically regarding public exposure, secrets hygiene, and WAF rules."
-        }
-      ],
-      "german_analysis": {
-        "category": "none",
-        "level": "none",
-        "mandatory": false,
-        "label": "No German requirement detected",
-        "evidence": ""
-      },
-      "experience_analysis": {
-        "min_years": 5,
-        "max_years": null,
-        "optional": false,
-        "display": "5+ years",
-        "evidence": "You bring 5+ years in AppSec (or 3+ years plus a strong software engineering/web-pentesting background), with a track record of true ownership."
-      }
-    },
-    {
-      "report_number": 9,
+      "report_number": 10,
       "job_key": "18fce630f607ed88a661",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -2104,150 +2358,6 @@
         "optional": false,
         "display": "5+ years",
         "evidence": "Experience as a Scrum Master for at least 5 years in different software development teams"
-      }
-    },
-    {
-      "report_number": 10,
-      "job_key": "57712ed3d56671484e37",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 54,
-      "raw_score": 54,
-      "score_cap": 59,
-      "score_cap_reasons": [
-        "Mandatory experience requirement is 7+ years"
-      ],
-      "score_label": "STRETCH",
-      "title": "Senior IT Systems Administrator (m/f/d) Network & Security",
-      "company": "MOTOR Ai",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin on-site role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "On-site"
-      },
-      "location_scope": "Berlin",
-      "working_model": "On-site",
-      "role_family": {
-        "id": "it_audit_grc",
-        "label": "IT Audit / GRC",
-        "priority": 3,
-        "confidence": "medium",
-        "evidence": [
-          "iso 27001",
-          "compliance"
-        ]
-      },
-      "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
-      },
-      "url": "https://www.arbeitnow.com/jobs/companies/motor-ai/senior-it-systems-administrator-network-security-berlin-230604",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/motor-ai/senior-it-systems-administrator-network-security-berlin-230604",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/motor-ai/senior-it-systems-administrator-network-security-berlin-230604",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-09-09T09:00:39Z",
-      "posting_age_days": 2,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 2,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-09-09T09:59:35Z",
-      "experience_required": "7+ years",
-      "german_requirement": "German B2 is preferred/nice-to-have",
-      "skill_matches": {
-        "match": [],
-        "partial": [
-          "nist"
-        ],
-        "missing": [
-          "iso 27001"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "nist",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "A degree in IT/Computer Science, completed vocational training as a System Administrator, or equivalent hands-on experience"
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Prepare and maintain documentation relevant to certifications and compliance frameworks such as NIS2 and ISO 27001"
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 12,
-        "skills": 9,
-        "experience": 0,
-        "location": 15,
-        "language": 9,
-        "seniority": 4,
-        "education": 5
-      },
-      "match_reasons": [
-        "Berlin on-site role."
-      ],
-      "warnings": [
-        "Requests 7+ years versus approximately 2.1 years in the profile.",
-        "Mandatory gaps: nist",
-        "Potential gaps: iso 27001",
-        "Exposure only; do not claim deep expertise: nist",
-        "Mandatory experience requirement is 7+ years"
-      ],
-      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "We are MOTOR Ai. Our mission is to make Level 4 autonomous driving a reality in Germany and beyond. By combining state-of-the-art AI with the expertise of our multidisciplinary team, we are poised to introduce the first solution of its kind in Germany that is eligible for certification on European roads. Since 2017, we have been steadfastly pursuing a single goal: to shape a future that is already in motion. Tasks Plan, design, and structure our corporate network end-to-end - hardware and software alike Monitor, maintain, and support the network infrastructure to ensure high availability across the company Implement and continuously monitor security measures to protect the network against unauthorized access Monitor system performance and network integrity, spotting bottlenecks and issues before they become problems Manage user accounts, permissions, and access rights Analyze and resolve network issues, including hands-on troubleshooting and performance tuning Own regular maintenance, patching, and system hygiene Create and maintain clear documentation of network configurations Prepare and maintain documentation relevant to certifications and compliance frameworks such as NIS2 and…",
-      "full_description": "We are MOTOR Ai. Our mission is to make Level 4 autonomous driving a reality in Germany and beyond. By combining state-of-the-art AI with the expertise of our multidisciplinary team, we are poised to introduce the first solution of its kind in Germany that is eligible for certification on European roads. Since 2017, we have been steadfastly pursuing a single goal: to shape a future that is already in motion.\n\nTasks\n\nPlan, design, and structure our corporate network end-to-end - hardware and software alike\n\nMonitor, maintain, and support the network infrastructure to ensure high availability across the company\n\nImplement and continuously monitor security measures to protect the network against unauthorized access\n\nMonitor system performance and network integrity, spotting bottlenecks and issues before they become problems\n\nManage user accounts, permissions, and access rights\n\nAnalyze and resolve network issues, including hands-on troubleshooting and performance tuning\n\nOwn regular maintenance, patching, and system hygiene\n\nCreate and maintain clear documentation of network configurations\n\nPrepare and maintain documentation relevant to certifications and compliance frameworks such as NIS2 and ISO 27001\n\nRequirements\n\nA degree in IT/Computer Science, completed vocational training as a System Administrator, or equivalent hands-on experience\n\nStrong knowledge of network technologies, network architecture, and network design\n\nConfident, hands-on experience with routing & switching and network monitoring toolsExperience integrating and implementing VLANs\n\nA track record in troubleshooting, performance tuning, and regular maintenance/patching\n\nAt least 7 years of relevant experience, with the confidence to work independently\n\nFluent English (C1) is required; German (B2/C1) is a plus\n\nFirst hands-on experience with UniFi devices is a plus\n\nA stress-resistant, solution-oriented mindset, real hands-on energy, and genuine enthusiasm for building something from scratch and seeing it work in the real world\n\nBenefits\n\nGenuine team spirit: working in teams that drive change forward - no matter how complex and extensive the projects are\n\nFlexible working hours - with room for the realities of life (parenthood, caregiving responsibilities, voluntary work, etc.)\n\nWhether it's fashion, beauty, travel or culture - you'll receive numerous discounts through our partner Corporate Benefits\n\nSocial relevance: We work on solutions that have game-changing qualities\n\nSubsidy for public transport tickets\n\nYour professional development is important to us - that's why we cover the costs of further education and training\n\nExcellent transport links: attractive location in Wedding with very good public transport connections\n\nFocus on people: Our strength lies in our diversity. We respect each other for who we are\n\nExcited about our vision and ideas? Do you see real value in autonomous driving for everyone? Then apply to MOTOR Ai and become an active part of a safe, explainable future of mobility.\n\nWe particularly welcome applications from women and explicitly encourage them to apply for this position.\n\nAt our new premises, we place great importance on getting to know one another and working together to drive our vision forward. Our international team is growing and working together on this exciting mission. Face-to-face collaboration is the key to success, which is why we have decided not to become a fully remote company.\n\nWe ask recruitment consultancies and agencies not to submit candidate profiles without our prior express request. Any candidate profiles submitted without a prior written placement agreement signed by both parties shall be deemed to have been submitted unsolicited. No entitlement to placement fees or other charges shall arise from their use or from the subsequent recruitment of the candidate.\n\nFind Jobs in Germany on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "nist",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "A degree in IT/Computer Science, completed vocational training as a System Administrator, or equivalent hands-on experience"
-        },
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Prepare and maintain documentation relevant to certifications and compliance frameworks such as NIS2 and ISO 27001"
-        }
-      ],
-      "german_analysis": {
-        "category": "nice",
-        "level": "B2",
-        "mandatory": false,
-        "label": "German B2 is preferred/nice-to-have",
-        "evidence": "German (B2/C1) is a plus"
-      },
-      "experience_analysis": {
-        "min_years": 7,
-        "max_years": null,
-        "optional": false,
-        "display": "7+ years",
-        "evidence": "At least 7 years of relevant experience, with the confidence to work independently"
       }
     }
   ],
