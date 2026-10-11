@@ -6666,6 +6666,128 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-10-11T11:54:14Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 24522,
+      "security_title_candidates": 821,
+      "prefiltered_non_security_jobs": 23701,
+      "unique_jobs_after_deduplication": 635,
+      "duplicates_removed": 186,
+      "jobs_rejected_or_below_threshold": 24325,
+      "relevant_jobs_in_current_run": 11,
+      "new_jobs": 0,
+      "updated_jobs": 1,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 1,
+      "report_jobs": 36,
+      "jobs_by_source": {
+        "arbeitnow": 1250,
+        "remotive": 18,
+        "linkedin_posts": 0,
+        "greenhouse": 21411,
+        "ashby": 424,
+        "lever": 1224,
+        "personio": 187,
+        "recruitee": 8
+      },
+      "employer_mode": "full",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 40.9,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1250,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 18,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 21411,
+          "requests": 168,
+          "errors": [
+            {
+              "source": "greenhouse",
+              "company": "Magic Leap",
+              "http_status": 404,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found",
+              "message": "Greenhouse | Magic Leap | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found"
+            }
+          ],
+          "error": "Greenhouse | Magic Leap | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found",
+          "companies_checked": 168,
+          "companies_successful": 167,
+          "companies_failed": 1
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 424,
+          "requests": 12,
+          "errors": [],
+          "error": "",
+          "companies_checked": 12,
+          "companies_successful": 12,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1224,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 187,
+          "requests": 7,
+          "errors": [],
+          "error": "",
+          "companies_checked": 7,
+          "companies_successful": 7,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 8,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -13395,6 +13517,21 @@
       "event": "REMOVED",
       "company": "Distribusion Technologies",
       "title": "Senior Application Security Engineer (all genders)"
+    },
+    {
+      "at": "2026-10-11T11:54:14Z",
+      "job_key": "521c71dc83dfa3787db3",
+      "event": "UPDATED",
+      "company": "Staffbase",
+      "title": "Senior Product Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-10-11T11:54:14Z",
+      "job_key": "57712ed3d56671484e37",
+      "event": "REMOVED",
+      "company": "MOTOR Ai",
+      "title": "Senior IT Systems Administrator (m/f/d) Network & Security"
     }
   ]
 }
