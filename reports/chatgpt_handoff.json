@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T11:54:14Z",
+  "generated_at": "2026-10-12T13:24:20Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,36 +171,36 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-10-11T11:54:14Z",
+    "generated_at": "2026-10-12T13:24:20Z",
     "scoring_version": 2.2,
-    "jobs_collected": 24522,
-    "security_title_candidates": 821,
-    "prefiltered_non_security_jobs": 23701,
-    "unique_jobs_after_deduplication": 635,
-    "duplicates_removed": 186,
-    "jobs_rejected_or_below_threshold": 24325,
-    "relevant_jobs_in_current_run": 11,
+    "jobs_collected": 7982,
+    "security_title_candidates": 261,
+    "prefiltered_non_security_jobs": 7721,
+    "unique_jobs_after_deduplication": 196,
+    "duplicates_removed": 65,
+    "jobs_rejected_or_below_threshold": 7908,
+    "relevant_jobs_in_current_run": 9,
     "new_jobs": 0,
     "updated_jobs": 1,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
-    "sources_partial": 1,
+    "sources_partial": 0,
     "report_jobs": 36,
     "jobs_by_source": {
       "arbeitnow": 1250,
-      "remotive": 18,
+      "remotive": 15,
       "linkedin_posts": 0,
-      "greenhouse": 21411,
-      "ashby": 424,
-      "lever": 1224,
-      "personio": 187,
-      "recruitee": 8
+      "greenhouse": 6097,
+      "ashby": 367,
+      "lever": 93,
+      "personio": 160,
+      "recruitee": 0
     },
-    "employer_mode": "full",
+    "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 40.9
+    "workflow_duration_seconds": 26.2
   },
   "source_status": {
     "arbeitnow": {
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 18,
+      "jobs": 15,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -228,325 +228,266 @@
       "error": ""
     },
     "greenhouse": {
-      "status": "partial",
+      "status": "ok",
       "ok": true,
-      "jobs": 21411,
-      "requests": 168,
-      "errors": [
-        {
-          "source": "greenhouse",
-          "company": "Magic Leap",
-          "http_status": 404,
-          "exception_type": "RuntimeError",
-          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found",
-          "message": "Greenhouse | Magic Leap | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found"
-        }
-      ],
-      "error": "Greenhouse | Magic Leap | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found",
-      "companies_checked": 168,
-      "companies_successful": 167,
-      "companies_failed": 1
+      "jobs": 6097,
+      "requests": 49,
+      "errors": [],
+      "error": "",
+      "companies_checked": 49,
+      "companies_successful": 49,
+      "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 424,
-      "requests": 12,
+      "jobs": 367,
+      "requests": 10,
       "errors": [],
       "error": "",
-      "companies_checked": 12,
-      "companies_successful": 12,
+      "companies_checked": 10,
+      "companies_successful": 10,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 1224,
-      "requests": 6,
-      "errors": [],
-      "error": "",
-      "companies_checked": 6,
-      "companies_successful": 6,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 187,
-      "requests": 7,
-      "errors": [],
-      "error": "",
-      "companies_checked": 7,
-      "companies_successful": 7,
-      "companies_failed": 0
-    },
-    "recruitee": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 8,
+      "jobs": 93,
       "requests": 2,
       "errors": [],
       "error": "",
       "companies_checked": 2,
       "companies_successful": 2,
       "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 160,
+      "requests": 3,
+      "errors": [],
+      "error": "",
+      "companies_checked": 3,
+      "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "recruitee": {
+      "status": "idle",
+      "ok": true,
+      "jobs": 0,
+      "requests": 0,
+      "errors": [],
+      "error": "",
+      "companies_checked": 0,
+      "companies_successful": 0,
+      "companies_failed": 0
     }
   },
   "jobs": [
     {
       "report_number": 1,
-      "job_key": "521c71dc83dfa3787db3",
+      "job_key": "86d0e27ef416b6621d0d",
       "status": "UPDATED",
       "application_status": "NEW",
       "score": 69,
-      "raw_score": 81,
+      "raw_score": 72,
       "score_cap": 69,
       "score_cap_reasons": [
-        "Senior title is above the profile's current 2+ years"
+        "One explicitly mandatory skill is not evidenced"
       ],
       "score_label": "REVIEW",
-      "title": "Senior Product Security Engineer",
-      "company": "Staffbase",
-      "location": "Berlin, Germany",
+      "title": "Security Engineer (Hybrid or Remote)",
+      "company": "Vivid",
+      "location": "Remote",
       "location_analysis": {
-        "category": "eligible_berlin",
+        "category": "eligible_europe_remote",
         "eligible": true,
-        "score": 15,
-        "reason": "Berlin remote role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
+        "score": 13,
+        "reason": "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
+        "verification_required": true,
+        "score_cap": 89,
+        "scope": "Europe remote",
         "work_model": "Remote"
       },
-      "location_scope": "Berlin",
+      "location_scope": "Europe remote",
       "working_model": "Remote",
       "role_family": {
-        "id": "product_security",
-        "label": "Product Security",
-        "priority": 1,
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
         "confidence": "high",
         "evidence": [
-          "product security",
-          "product security"
+          "security engineer",
+          "security architecture"
         ]
       },
       "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
       },
-      "url": "https://job-boards.greenhouse.io/staffbase/jobs/8729143002",
-      "apply_url": "https://job-boards.greenhouse.io/staffbase/jobs/8729143002",
-      "canonical_url": "https://job-boards.greenhouse.io/staffbase/jobs/8729143002",
-      "source": "Greenhouse",
+      "url": "https://www.arbeitnow.fr/jobs/companies/vivid/security-engineer-hybrid-or-remote-102404",
+      "apply_url": "https://www.arbeitnow.fr/jobs/companies/vivid/security-engineer-hybrid-or-remote-102404",
+      "canonical_url": "https://www.arbeitnow.fr/jobs/companies/vivid/security-engineer-hybrid-or-remote-102404",
+      "source": "Arbeitnow",
       "sources": [
-        "Greenhouse"
+        "Arbeitnow"
       ],
-      "ats": "greenhouse",
-      "priority_employer": true,
+      "ats": "",
+      "priority_employer": false,
       "lead_type": "",
       "post_author": "",
       "feed_name": "",
-      "published_at": "2026-09-18T10:05:38Z",
-      "posting_age_days": 23,
+      "published_at": "2026-10-09T13:09:36Z",
+      "posting_age_days": 3,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 23,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
+        "age_days": 3,
+        "category": "recent",
+        "label": "RECENT"
       },
-      "urgency": "OPEN FOR REVIEW",
-      "first_seen": "2026-08-15T04:18:44Z",
+      "urgency": "RECENT",
+      "first_seen": "2026-10-05T12:30:00Z",
       "experience_required": null,
-      "german_requirement": "German is preferred/nice-to-have",
+      "german_requirement": "No German requirement detected",
       "skill_matches": {
-        "match": [
-          "dast",
-          "frida",
-          "penetration testing",
-          "sast",
-          "secure sdlc",
-          "security automation",
-          "vulnerability management"
-        ],
+        "match": [],
         "partial": [
-          "ci/cd",
-          "javascript",
-          "product security",
-          "software development"
+          "aws",
+          "git",
+          "incident response",
+          "nist",
+          "siem",
+          "splunk"
         ],
         "missing": [
-          "kubernetes",
+          "detection engineering",
+          "dlp",
+          "edr",
           "rust"
         ],
-        "nice_to_have": [
-          "go (missing)",
-          "python (match)",
-          "terraform (missing)"
-        ]
+        "nice_to_have": []
       },
-      "mandatory_gaps": [],
+      "mandatory_gaps": [
+        {
+          "skill": "edr",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Working knowledge of endpoint security (MDM, XDR/EDR/AV) and email / phishing defense."
+        }
+      ],
       "potential_gaps": [
+        {
+          "skill": "detection engineering",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "write and tune detection rules"
+        },
+        {
+          "skill": "dlp",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Improve SaaS security posture (Google/Microsoft, Slack, GitHub, others) and apply DLP controls to limit data leakage."
+        },
         {
           "skill": "rust",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "We see security not as a blocker but as a trusted partner that is the foundation for better products."
+          "evidence": "Since then, we've expanded rapidly across Europe, earning the trust of over 500,000 customers — and with over €200 million raised and a valuation of €775 million, we're just getting started."
         }
       ],
-      "optional_gaps": [
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Strong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python"
-        },
-        {
-          "skill": "javascript",
-          "profile_status": "partial",
-          "requirement": "optional",
-          "evidence": "Strong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python"
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Practical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize"
-        },
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Practical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize"
-        }
-      ],
+      "optional_gaps": [],
       "score_breakdown": {
-        "role_alignment": 20,
-        "skills": 20,
+        "role_alignment": 16,
+        "skills": 10,
         "experience": 10,
-        "location": 15,
-        "language": 9,
-        "seniority": 4,
+        "location": 13,
+        "language": 10,
+        "seniority": 10,
         "education": 3
       },
       "match_reasons": [
-        "Role family: Product Security.",
-        "Berlin remote role.",
-        "Evidenced matches include dast, frida, penetration testing, sast, secure sdlc."
+        "Role family: Security Engineering.",
+        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country."
       ],
       "warnings": [
-        "Potential gaps: rust",
-        "Optional gaps: go, javascript, kubernetes, terraform",
-        "Exposure only; do not claim deep expertise: ci/cd, javascript, product security, software development",
-        "Senior title is above the profile's current 2+ years"
+        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
+        "Mandatory gaps: edr",
+        "Potential gaps: detection engineering, dlp, rust",
+        "Exposure only; do not claim deep expertise: aws, git, incident response, nist, siem, splunk",
+        "One explicitly mandatory skill is not evidenced"
       ],
       "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "About Staffbase We inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees. Headquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience. We are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication. At Staffbase, security is at the heart of everything we build. Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company. We believe the best security work happens when people bring their authentic selves and diverse perspectives to the table and we’…",
-      "full_description": "About Staffbase\n\nWe inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees.\n\nHeadquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience.\nWe are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication.\n\nAt Staffbase, security is at the heart of everything we build. Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company. We believe the best security work happens when people bring their authentic selves and diverse perspectives to the table and we’re proud of the unique mix of talents and backgrounds in our team.\n\nAs an enablement team, we provide tools, guidance, and insights that allow developers to integrate security early in the development process. We see security not as a blocker but as a trusted partner that is the foundation for better products. With us, you’ll get hands-on experience with modern security practices, mentorship from experienced engineers, and the chance to make a visible impact in a global SaaS environment.\n\nWe work together with curiosity, humility, and a growth mindset, supporting each other, taking ownership of our contributions, and celebrating progress along the way. Here, your ideas matter, your work will shape how we build secure products, and you’ll have space to grow into new challenges.\n\nWhat you’ll be doing \n\nTake ownership of tasks that improve our security automation and strengthen our product security pipelines\n\nProactively explore the use of AI for vulnerability detection and remediation\n\nContinuously learn and share knowledge about how vulnerabilities apply in our specific product context\n\nSupport the team by enhancing our services with software engineering solutions\n\nCollaborate closely with stakeholders across the product department and gain broad exposure to how a growing SaaS company operates\n\nMaintain our outbound e-mail security by regularly reviewing the related metrics\n\nMaintain our Web Application Firewall ruleset\n\nKubernetes security\n\nCI/CD pipelines security\n\nMaintain our central HTML sanitization service written in TypeScript\n\nWhat you need to be successful \n\nPractical knowledge of security topics (e.g. penetration testing, secure software development, vulnerability management, SAST, DAST)\n\nStrong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python\n\nPractical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize\n\nStrong communication skills in English (German is a plus)\n\nWhat you'll get \n\nCompetitive Compensation - we offer attractive salary packages including LTIP (unit-based Long Term Incentive Plan)\n\nFlexibility - we offer flexible working time models and the option of hybrid work, and support this with a yearly flex work allowance of €1560\n\nRecharge - with 31 vacation days annually (incl. one floating holiday), plus pro rata fully paid Fridays off during August\n\nSupport - we’re offering a company pension scheme\n\nVolunteers Day - you’ll get one day off per year for supporting a social project",
+      "description_excerpt": "About The Role We’re looking for a Security Engineer to own and improve the security of our internal environment — the identities, SaaS apps, endpoints, AI tooling, and networks our employees use every day. This is a hands-on senior role: we expect you to design controls, find the gaps, and drive the changes that close them — and to build the automation that makes it scale. We’re an EMI-licensed fintech in a fully cloud-native AWS environment, we use AI heavily, and we’re growing fast. We need someone who can lead technical initiatives independently, influence our security architecture, challenge approaches that no longer fit, and explain it clearly to engineers and leadership. Your Mission Detection & Response (SIEM) — our top priority Own SIEM alerting end-to-end: ship logs from endpoints, IdP, VPN, SaaS, and cloud; write and tune detection rules; cut false positives. Act as first responder for security incidents — investigate, contain, drive to closure with clear runbooks — and feed recurring issues back into preventive controls. Identity, Access & SaaS Administer the IdP (SSO via SAML/OIDC, MFA, conditional access) and run access recertification end-to-end across IdP, SaaS, AW…",
+      "full_description": "About The Role\n\nWe’re looking for a Security Engineer to own and improve the security of our internal environment — the identities, SaaS apps, endpoints, AI tooling, and networks our employees use every day. This is a hands-on senior role: we expect you to design controls, find the gaps, and drive the changes that close them — and to build the automation that makes it scale.\n\nWe’re an EMI-licensed fintech in a fully cloud-native AWS environment, we use AI heavily, and we’re growing fast. We need someone who can lead technical initiatives independently, influence our security architecture, challenge approaches that no longer fit, and explain it clearly to engineers and leadership.\n\nYour Mission\nDetection & Response (SIEM) — our top priority\n\nOwn SIEM alerting end-to-end: ship logs from endpoints, IdP, VPN, SaaS, and cloud; write and tune detection rules; cut false positives.\n\nAct as first responder for security incidents — investigate, contain, drive to closure with clear runbooks — and feed recurring issues back into preventive controls.\n\nIdentity, Access & SaaS\n\nAdminister the IdP (SSO via SAML/OIDC, MFA, conditional access) and run access recertification end-to-end across IdP, SaaS, AWS, and internal tools — scope, evidence, follow-through on revocations.\n\nHunt down over-permissive and stale access, enforce least privilege and PAM, catch SoD gaps, and make JML and third-party access work in practice.\n\nImprove SaaS security posture (Google/Microsoft, Slack, GitHub, others) and apply DLP controls to limit data leakage.\n\nEndpoint, Email & Phishing Defense\n\nKeep the endpoint stack healthy and well-tuned — MDM, XDR/AV, device-compliance checks for VPN/ZTNA — and define posture requirements (disk encryption, EDR present, OS version) with automated remediation.\n\nDefend against phishing and spoofing — secure email gateway rules, DMARC/SPF/DKIM — and run phishing simulations and security awareness, acting on the results.\n\nAutomation & Ownership\n\nBuild internal tooling and automate repetitive operations — reduce manual work, don't just operate it.\n\nOwn the roadmap for your areas: identify gaps, lead initiatives independently, and raise the bar rather than just maintain it.\n\nYour Profile\n\n5+ years in security operations, corporate/IT security, or endpoint engineering.\n\nStrong with a SIEM (Splunk, Elastic, Panther, Sumo Logic) — detection engineering and incident response — plus an identity provider (Okta, Entra ID, Google Workspace), access recertification, and least-privilege / PAM.\n\nWorking knowledge of endpoint security (MDM, XDR/EDR/AV) and email / phishing defense.\n\nPractical experience securing how a company uses AI internally: shadow AI discovery, DLP for AI tools, controls for AI assistants and agents, and a working risk framework for adopting new ones. You've done this for real, not from a vendor pitch deck.\n\nStrong scripting and automation skills — you build tooling against APIs, not just configure consoles.\n\nTrack record of driving improvements end-to-end and leading initiatives with little oversight. \n\nСlear written and spoken English for engineers and leadership.\n\nWhy Join Vivid?\n\nWe have a hybrid model in our Limassol office, or fully remote outside office locations. \n\nWe support relocation to Cyprus (visa, package) when needed.\n\nLearning & development budget to support your professional growth. \n\nFully paid vacation and sick leave. \n\nSports compensation. \n\nReal growth prospects, significant responsibility, and the ability to make an immediate impact from day one. \n\nEnhance your expertise and shape the future of FinTech. Join Vivid's talented team and help us revolutionize how businesses think about their finances!\n\nCompensation range\nFinal compensation is determined individually, based on your experience, skills and the scope of the role, assessed against objective, gender-neutral criteria.\n\nAbout Vivid\nAt Vivid, we're on a mission to change how businesses and individuals manage their money across Europe. For businesses, we build tools that actually make a difference: multi-IBAN accounts, high-yield savings, business cashback, team cards, and accounting integrations that save real time — all in one place. And for individuals, we offer a simple way to manage and grow your wealth: access to global stocks, ETFs and 150+ cryptocurrencies, cashback, and personalised financial insights.\n\nOur mission? Your success. Everyone deserves the chance to see their finances flourish, and we're dedicated to empowering our customers to make this a reality.\n\nFounded in 2019 in Berlin by Alexander Emeshev and Artem Iamanov, Vivid has quickly grown into one of Germany's top financial platforms for SMEs and private accounts. Since then, we've expanded rapidly across Europe, earning the trust of over 500,000 customers — and with over €200 million raised and a valuation of €775 million, we're just getting started. \n\nWe're building Vivid as an AI-native organization — across every function, from product to compliance to operations. Automation handles a growing share of day-to-day execution. For us, this means our teams can focus on architecture, strategy, and high-impact decision-making. This changes how we work: less manual execution, more ownership in building systems that scale. We want to help define what AI-native looks like in a regulated financial environment — and we're looking for people who want to build that future with us.\n\nFind Jobs in France on Arbeitnow",
       "skill_requirements": [
         {
-          "skill": "ci/cd",
+          "skill": "edr",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Working knowledge of endpoint security (MDM, XDR/EDR/AV) and email / phishing defense."
+        },
+        {
+          "skill": "aws",
           "profile_status": "partial",
           "requirement": "mentioned",
-          "evidence": "CI/CD pipelines security"
+          "evidence": "We’re an EMI-licensed fintech in a fully cloud-native AWS environment, we use AI heavily, and we’re growing fast."
         },
         {
-          "skill": "dast",
-          "profile_status": "match",
+          "skill": "detection engineering",
+          "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "penetration testing, secure software development, vulnerability management, SAST, DAST)"
+          "evidence": "write and tune detection rules"
         },
         {
-          "skill": "frida",
-          "profile_status": "match",
+          "skill": "dlp",
+          "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "one floating holiday), plus pro rata fully paid Fridays off during August"
+          "evidence": "Improve SaaS security posture (Google/Microsoft, Slack, GitHub, others) and apply DLP controls to limit data leakage."
         },
         {
-          "skill": "penetration testing",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "penetration testing, secure software development, vulnerability management, SAST, DAST)"
-        },
-        {
-          "skill": "product security",
+          "skill": "git",
           "profile_status": "partial",
           "requirement": "mentioned",
-          "evidence": "Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company."
+          "evidence": "Improve SaaS security posture (Google/Microsoft, Slack, GitHub, others) and apply DLP controls to limit data leakage."
+        },
+        {
+          "skill": "incident response",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Strong with a SIEM (Splunk, Elastic, Panther, Sumo Logic) — detection engineering and incident response — plus an identity provider (Okta, Entra ID, Google Workspace), access recertification, and least-privilege / PAM."
+        },
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Administer the IdP (SSO via SAML/OIDC, MFA, conditional access) and run access recertification end-to-end across IdP, SaaS, AWS, and internal tools — scope, evidence, follow-through on revocations."
         },
         {
           "skill": "rust",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "We see security not as a blocker but as a trusted partner that is the foundation for better products."
+          "evidence": "Since then, we've expanded rapidly across Europe, earning the trust of over 500,000 customers — and with over €200 million raised and a valuation of €775 million, we're just getting started."
         },
         {
-          "skill": "sast",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "penetration testing, secure software development, vulnerability management, SAST, DAST)"
-        },
-        {
-          "skill": "secure sdlc",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "penetration testing, secure software development, vulnerability management, SAST, DAST)"
-        },
-        {
-          "skill": "security automation",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Take ownership of tasks that improve our security automation and strengthen our product security pipelines"
-        },
-        {
-          "skill": "software development",
+          "skill": "siem",
           "profile_status": "partial",
           "requirement": "mentioned",
-          "evidence": "Support the team by enhancing our services with software engineering solutions"
+          "evidence": "Detection & Response (SIEM) — our top priority"
         },
         {
-          "skill": "vulnerability management",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "penetration testing, secure software development, vulnerability management, SAST, DAST)"
-        },
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Strong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python"
-        },
-        {
-          "skill": "javascript",
+          "skill": "splunk",
           "profile_status": "partial",
-          "requirement": "optional",
-          "evidence": "Strong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python"
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Practical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize"
-        },
-        {
-          "skill": "python",
-          "profile_status": "match",
-          "requirement": "optional",
-          "evidence": "Strong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python"
-        },
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Practical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize"
+          "requirement": "mentioned",
+          "evidence": "Strong with a SIEM (Splunk, Elastic, Panther, Sumo Logic) — detection engineering and incident response — plus an identity provider (Okta, Entra ID, Google Workspace), access recertification, and least-privilege / PAM."
         }
       ],
       "german_analysis": {
-        "category": "nice",
-        "level": "unspecified",
+        "category": "none",
+        "level": "none",
         "mandatory": false,
-        "label": "German is preferred/nice-to-have",
-        "evidence": "Strong communication skills in English (German is a plus)"
+        "label": "No German requirement detected",
+        "evidence": ""
       },
       "experience_analysis": null
     },
@@ -2179,10 +2120,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-01T13:10:42Z",
-      "posting_age_days": 9,
+      "posting_age_days": 11,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 9,
+        "age_days": 11,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },

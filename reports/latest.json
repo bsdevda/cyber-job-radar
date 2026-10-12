@@ -1,188 +1,174 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-11T11:54:14Z",
+  "generated_at": "2026-10-12T13:24:20Z",
   "summary": {
-    "generated_at": "2026-10-11T11:54:14Z",
+    "generated_at": "2026-10-12T13:24:20Z",
     "scoring_version": 2.2,
-    "jobs_collected": 24522,
-    "security_title_candidates": 821,
-    "prefiltered_non_security_jobs": 23701,
-    "unique_jobs_after_deduplication": 635,
-    "duplicates_removed": 186,
-    "jobs_rejected_or_below_threshold": 24325,
-    "relevant_jobs_in_current_run": 11,
+    "jobs_collected": 7982,
+    "security_title_candidates": 261,
+    "prefiltered_non_security_jobs": 7721,
+    "unique_jobs_after_deduplication": 196,
+    "duplicates_removed": 65,
+    "jobs_rejected_or_below_threshold": 7908,
+    "relevant_jobs_in_current_run": 9,
     "new_jobs": 0,
     "updated_jobs": 1,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
-    "sources_partial": 1,
+    "sources_partial": 0,
     "report_jobs": 36,
     "jobs_by_source": {
       "arbeitnow": 1250,
-      "remotive": 18,
+      "remotive": 15,
       "linkedin_posts": 0,
-      "greenhouse": 21411,
-      "ashby": 424,
-      "lever": 1224,
-      "personio": 187,
-      "recruitee": 8
+      "greenhouse": 6097,
+      "ashby": 367,
+      "lever": 93,
+      "personio": 160,
+      "recruitee": 0
     },
-    "employer_mode": "full",
+    "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 40.9
+    "workflow_duration_seconds": 26.2
   },
   "jobs": [
     {
       "report_number": 1,
-      "job_key": "521c71dc83dfa3787db3",
+      "job_key": "86d0e27ef416b6621d0d",
       "status": "UPDATED",
       "application_status": "NEW",
       "score": 69,
-      "raw_score": 81,
+      "raw_score": 72,
       "score_cap": 69,
       "score_cap_reasons": [
-        "Senior title is above the profile's current 2+ years"
+        "One explicitly mandatory skill is not evidenced"
       ],
       "score_label": "REVIEW",
-      "title": "Senior Product Security Engineer",
-      "company": "Staffbase",
-      "location": "Berlin, Germany",
+      "title": "Security Engineer (Hybrid or Remote)",
+      "company": "Vivid",
+      "location": "Remote",
       "location_analysis": {
-        "category": "eligible_berlin",
+        "category": "eligible_europe_remote",
         "eligible": true,
-        "score": 15,
-        "reason": "Berlin remote role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
+        "score": 13,
+        "reason": "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
+        "verification_required": true,
+        "score_cap": 89,
+        "scope": "Europe remote",
         "work_model": "Remote"
       },
-      "location_scope": "Berlin",
+      "location_scope": "Europe remote",
       "working_model": "Remote",
       "role_family": {
-        "id": "product_security",
-        "label": "Product Security",
-        "priority": 1,
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
         "confidence": "high",
         "evidence": [
-          "product security",
-          "product security"
+          "security engineer",
+          "security architecture"
         ]
       },
       "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
       },
-      "url": "https://job-boards.greenhouse.io/staffbase/jobs/8729143002",
-      "apply_url": "https://job-boards.greenhouse.io/staffbase/jobs/8729143002",
-      "canonical_url": "https://job-boards.greenhouse.io/staffbase/jobs/8729143002",
-      "source": "Greenhouse",
+      "url": "https://www.arbeitnow.fr/jobs/companies/vivid/security-engineer-hybrid-or-remote-102404",
+      "apply_url": "https://www.arbeitnow.fr/jobs/companies/vivid/security-engineer-hybrid-or-remote-102404",
+      "canonical_url": "https://www.arbeitnow.fr/jobs/companies/vivid/security-engineer-hybrid-or-remote-102404",
+      "source": "Arbeitnow",
       "sources": [
-        "Greenhouse"
+        "Arbeitnow"
       ],
-      "ats": "greenhouse",
-      "priority_employer": true,
+      "ats": "",
+      "priority_employer": false,
       "lead_type": "",
       "post_author": "",
       "feed_name": "",
-      "published_at": "2026-09-18T10:05:38Z",
-      "posting_age_days": 23,
+      "published_at": "2026-10-09T13:09:36Z",
+      "posting_age_days": 3,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 23,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
+        "age_days": 3,
+        "category": "recent",
+        "label": "RECENT"
       },
-      "urgency": "OPEN FOR REVIEW",
-      "first_seen": "2026-08-15T04:18:44Z",
+      "urgency": "RECENT",
+      "first_seen": "2026-10-05T12:30:00Z",
       "experience_required": null,
-      "german_requirement": "German is preferred/nice-to-have",
+      "german_requirement": "No German requirement detected",
       "skill_matches": {
-        "match": [
-          "dast",
-          "frida",
-          "penetration testing",
-          "sast",
-          "secure sdlc",
-          "security automation",
-          "vulnerability management"
-        ],
+        "match": [],
         "partial": [
-          "ci/cd",
-          "javascript",
-          "product security",
-          "software development"
+          "aws",
+          "git",
+          "incident response",
+          "nist",
+          "siem",
+          "splunk"
         ],
         "missing": [
-          "kubernetes",
+          "detection engineering",
+          "dlp",
+          "edr",
           "rust"
         ],
-        "nice_to_have": [
-          "go (missing)",
-          "python (match)",
-          "terraform (missing)"
-        ]
+        "nice_to_have": []
       },
-      "mandatory_gaps": [],
+      "mandatory_gaps": [
+        {
+          "skill": "edr",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Working knowledge of endpoint security (MDM, XDR/EDR/AV) and email / phishing defense."
+        }
+      ],
       "potential_gaps": [
+        {
+          "skill": "detection engineering",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "write and tune detection rules"
+        },
+        {
+          "skill": "dlp",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Improve SaaS security posture (Google/Microsoft, Slack, GitHub, others) and apply DLP controls to limit data leakage."
+        },
         {
           "skill": "rust",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "We see security not as a blocker but as a trusted partner that is the foundation for better products."
+          "evidence": "Since then, we've expanded rapidly across Europe, earning the trust of over 500,000 customers — and with over €200 million raised and a valuation of €775 million, we're just getting started."
         }
       ],
-      "optional_gaps": [
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Strong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python"
-        },
-        {
-          "skill": "javascript",
-          "profile_status": "partial",
-          "requirement": "optional",
-          "evidence": "Strong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python"
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Practical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize"
-        },
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Practical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize"
-        }
-      ],
+      "optional_gaps": [],
       "score_breakdown": {
-        "role_alignment": 20,
-        "skills": 20,
+        "role_alignment": 16,
+        "skills": 10,
         "experience": 10,
-        "location": 15,
-        "language": 9,
-        "seniority": 4,
+        "location": 13,
+        "language": 10,
+        "seniority": 10,
         "education": 3
       },
       "match_reasons": [
-        "Role family: Product Security.",
-        "Berlin remote role.",
-        "Evidenced matches include dast, frida, penetration testing, sast, secure sdlc."
+        "Role family: Security Engineering.",
+        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country."
       ],
       "warnings": [
-        "Potential gaps: rust",
-        "Optional gaps: go, javascript, kubernetes, terraform",
-        "Exposure only; do not claim deep expertise: ci/cd, javascript, product security, software development",
-        "Senior title is above the profile's current 2+ years"
+        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
+        "Mandatory gaps: edr",
+        "Potential gaps: detection engineering, dlp, rust",
+        "Exposure only; do not claim deep expertise: aws, git, incident response, nist, siem, splunk",
+        "One explicitly mandatory skill is not evidenced"
       ],
       "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "About Staffbase We inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees. Headquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience. We are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication. At Staffbase, security is at the heart of everything we build. Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company. We believe the best security work happens when people bring their authentic selves and diverse perspectives to the table and we’…"
+      "description_excerpt": "About The Role We’re looking for a Security Engineer to own and improve the security of our internal environment — the identities, SaaS apps, endpoints, AI tooling, and networks our employees use every day. This is a hands-on senior role: we expect you to design controls, find the gaps, and drive the changes that close them — and to build the automation that makes it scale. We’re an EMI-licensed fintech in a fully cloud-native AWS environment, we use AI heavily, and we’re growing fast. We need someone who can lead technical initiatives independently, influence our security architecture, challenge approaches that no longer fit, and explain it clearly to engineers and leadership. Your Mission Detection & Response (SIEM) — our top priority Own SIEM alerting end-to-end: ship logs from endpoints, IdP, VPN, SaaS, and cloud; write and tune detection rules; cut false positives. Act as first responder for security incidents — investigate, contain, drive to closure with clear runbooks — and feed recurring issues back into preventive controls. Identity, Access & SaaS Administer the IdP (SSO via SAML/OIDC, MFA, conditional access) and run access recertification end-to-end across IdP, SaaS, AW…"
     },
     {
       "report_number": 2,
@@ -1335,10 +1321,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-01T13:10:42Z",
-      "posting_age_days": 9,
+      "posting_age_days": 11,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 9,
+        "age_days": 11,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1741,10 +1727,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-02T09:11:35Z",
-      "posting_age_days": 9,
+      "posting_age_days": 10,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 9,
+        "age_days": 10,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2381,6 +2367,156 @@
     },
     {
       "report_number": 18,
+      "job_key": "521c71dc83dfa3787db3",
+      "status": "SEEN_BEFORE",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 81,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "Senior title is above the profile's current 2+ years"
+      ],
+      "score_label": "REVIEW",
+      "title": "Senior Product Security Engineer",
+      "company": "Staffbase",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin remote role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Remote"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "product_security",
+        "label": "Product Security",
+        "priority": 1,
+        "confidence": "high",
+        "evidence": [
+          "product security",
+          "product security"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://job-boards.greenhouse.io/staffbase/jobs/8729143002",
+      "apply_url": "https://job-boards.greenhouse.io/staffbase/jobs/8729143002",
+      "canonical_url": "https://job-boards.greenhouse.io/staffbase/jobs/8729143002",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "ats": "greenhouse",
+      "priority_employer": true,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-09-18T10:05:38Z",
+      "posting_age_days": 24,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 24,
+        "category": "current",
+        "label": "OPEN FOR REVIEW"
+      },
+      "urgency": "OPEN FOR REVIEW",
+      "first_seen": "2026-08-15T04:18:44Z",
+      "experience_required": null,
+      "german_requirement": "German is preferred/nice-to-have",
+      "skill_matches": {
+        "match": [
+          "dast",
+          "frida",
+          "penetration testing",
+          "sast",
+          "secure sdlc",
+          "security automation",
+          "vulnerability management"
+        ],
+        "partial": [
+          "ci/cd",
+          "javascript",
+          "product security",
+          "software development"
+        ],
+        "missing": [
+          "kubernetes",
+          "rust"
+        ],
+        "nice_to_have": [
+          "go (missing)",
+          "python (match)",
+          "terraform (missing)"
+        ]
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "We see security not as a blocker but as a trusted partner that is the foundation for better products."
+        }
+      ],
+      "optional_gaps": [
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Strong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python"
+        },
+        {
+          "skill": "javascript",
+          "profile_status": "partial",
+          "requirement": "optional",
+          "evidence": "Strong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python"
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Practical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize"
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Practical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize"
+        }
+      ],
+      "score_breakdown": {
+        "role_alignment": 20,
+        "skills": 20,
+        "experience": 10,
+        "location": 15,
+        "language": 9,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Product Security.",
+        "Berlin remote role.",
+        "Evidenced matches include dast, frida, penetration testing, sast, secure sdlc."
+      ],
+      "warnings": [
+        "Potential gaps: rust",
+        "Optional gaps: go, javascript, kubernetes, terraform",
+        "Exposure only; do not claim deep expertise: ci/cd, javascript, product security, software development",
+        "Senior title is above the profile's current 2+ years"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "About Staffbase We inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees. Headquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience. We are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication. At Staffbase, security is at the heart of everything we build. Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company. We believe the best security work happens when people bring their authentic selves and diverse perspectives to the table and we’…"
+    },
+    {
+      "report_number": 19,
       "job_key": "9ba7cf301be480a6ff9f",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -2436,14 +2572,14 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-11T10:13:09Z",
-      "posting_age_days": 30,
+      "posting_age_days": 31,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 30,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
+        "age_days": 31,
+        "category": "older",
+        "label": "OLDER POSTING - VERIFY ACTIVE"
       },
-      "urgency": "OPEN FOR REVIEW",
+      "urgency": "OLDER POSTING - VERIFY ACTIVE",
       "first_seen": "2026-08-15T04:18:44Z",
       "experience_required": null,
       "german_requirement": "No German requirement detected",
@@ -2510,7 +2646,7 @@
       "description_excerpt": "THE OPPORTUNITY Join our Global IT Infrastructure team and take ownership of security operations that protect NavVis worldwide. You’ll lead detection and incident response across corporate IT and SaaS environments, working hand-in-hand with Service Delivery, Cloud Infrastructure Engineering, and our Cloud Infrastructure Engineer. This is an hands-on role where you’ll make real impact—investigating threats, driving improvements, and shaping security processes. No ticket forwarding, no passive coordination—just meaningful responsibility and the chance to build a security posture you can be proud of. If you thrive on solving complex problems, love staying ahead of emerging threats, and want to safeguard technology that powers the future of spatial intelligence, we want to hear from you! HOW YOU WILL MAKE AN IMPACT Lead security incident response and drive continuous improvements. Own Microsoft Defender, email security, and phishing protection. Strengthen network security with IT Ops: firewalls, VPNs, segmentation. Manage vulnerability scanning, remediation, and risk reporting. Govern access reviews and enforce least privileges. Run ISO 27001 & SOC 2 audits and coordinate via Vanta. S…"
     },
     {
-      "report_number": 19,
+      "report_number": 20,
       "job_key": "c9a4882b15b462f012a3",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -2640,7 +2776,7 @@
       "description_excerpt": "The role HelloFresh is the world leader in meal-kits and one of Germany's biggest and fastest growing publicly traded companies. Join the Hellofresh security team to help to maintain the highest security standards within the industry. In this role you will join the Cloud Security Team, which is responsible for providing infrastructure security solutions at scale through automation. Above all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you. What you’ll do Enhance the security posture of HelloFresh’s cloud infrastructure and services, hardening them against abuse and nefarious activities Secure containers, CI/CD pipelines and implement guardrails for the developers aligned with the DevSecOps principles Automate procedures and develop products to improve the Security posture of HelloFresh’s infrastructure Design and operate scalable processes to provision cloud access and maintain least-privilege Mentor and train your peers on the best practices in security…"
     },
     {
-      "report_number": 20,
+      "report_number": 21,
       "job_key": "86705e70d7803af16172",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -2793,142 +2929,6 @@
       ],
       "recommendation": "REVIEW - material seniority, language, or skill risk",
       "description_excerpt": "To learn the Hiring Ranges for this position, please select your location from the Apply Now dropdown menu. To learn more about our Hiring Range System, please click this link. Why Mozilla? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. The Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. About this team and role: At Mozilla, we believe…"
-    },
-    {
-      "report_number": 21,
-      "job_key": "86d0e27ef416b6621d0d",
-      "status": "SEEN_BEFORE",
-      "application_status": "NEW",
-      "score": 69,
-      "raw_score": 72,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "score_label": "REVIEW",
-      "title": "Security Engineer (Hybrid or Remote)",
-      "company": "Vivid",
-      "location": "Remote",
-      "location_analysis": {
-        "category": "eligible_europe_remote",
-        "eligible": true,
-        "score": 13,
-        "reason": "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
-        "verification_required": true,
-        "score_cap": 89,
-        "scope": "Europe remote",
-        "work_model": "Remote"
-      },
-      "location_scope": "Europe remote",
-      "working_model": "Remote",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "security engineer",
-          "security architecture"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://www.arbeitnow.fr/jobs/companies/vivid/security-engineer-hybrid-or-remote-102404",
-      "apply_url": "https://www.arbeitnow.fr/jobs/companies/vivid/security-engineer-hybrid-or-remote-102404",
-      "canonical_url": "https://www.arbeitnow.fr/jobs/companies/vivid/security-engineer-hybrid-or-remote-102404",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-10-09T13:09:36Z",
-      "posting_age_days": 1,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 1,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-10-05T12:30:00Z",
-      "experience_required": null,
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [],
-        "partial": [
-          "aws",
-          "git",
-          "incident response",
-          "nist",
-          "siem",
-          "splunk"
-        ],
-        "missing": [
-          "detection engineering",
-          "dlp",
-          "edr",
-          "rust"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "edr",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Working knowledge of endpoint security (MDM, XDR/EDR/AV) and email / phishing defense."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "detection engineering",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "write and tune detection rules"
-        },
-        {
-          "skill": "dlp",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Improve SaaS security posture (Google/Microsoft, Slack, GitHub, others) and apply DLP controls to limit data leakage."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Since then, we've expanded rapidly across Europe, earning the trust of over 500,000 customers — and with over €200 million raised and a valuation of €775 million, we're just getting started."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 10,
-        "experience": 10,
-        "location": 13,
-        "language": 10,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Security Engineering.",
-        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country."
-      ],
-      "warnings": [
-        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
-        "Mandatory gaps: edr",
-        "Potential gaps: detection engineering, dlp, rust",
-        "Exposure only; do not claim deep expertise: aws, git, incident response, nist, siem, splunk",
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "About The Role We’re looking for a Security Engineer to own and improve the security of our internal environment — the identities, SaaS apps, endpoints, AI tooling, and networks our employees use every day. This is a hands-on senior role: we expect you to design controls, find the gaps, and drive the changes that close them — and to build the automation that makes it scale. We’re an EMI-licensed fintech in a fully cloud-native AWS environment, we use AI heavily, and we’re growing fast. We need someone who can lead technical initiatives independently, influence our security architecture, challenge approaches that no longer fit, and explain it clearly to engineers and leadership. Your Mission Detection & Response (SIEM) — our top priority Own SIEM alerting end-to-end: ship logs from endpoints, IdP, VPN, SaaS, and cloud; write and tune detection rules; cut false positives. Act as first responder for security incidents — investigate, contain, drive to closure with clear runbooks — and feed recurring issues back into preventive controls. Identity, Access & SaaS Administer the IdP (SSO via SAML/OIDC, MFA, conditional access) and run access recertification end-to-end across IdP, SaaS, AW…"
     },
     {
       "report_number": 22,
@@ -3628,14 +3628,14 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-08T14:34:38Z",
-      "posting_age_days": 2,
+      "posting_age_days": 3,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 2,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
+        "age_days": 3,
+        "category": "recent",
+        "label": "RECENT"
       },
-      "urgency": "NEW - APPLY QUICKLY",
+      "urgency": "RECENT",
       "first_seen": "2026-08-27T16:38:50Z",
       "experience_required": null,
       "german_requirement": "German requested; level/strictness unclear",
@@ -3972,10 +3972,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-06T19:17:43Z",
-      "posting_age_days": 4,
+      "posting_age_days": 5,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 4,
+        "age_days": 5,
         "category": "recent",
         "label": "RECENT"
       },
@@ -4279,10 +4279,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-01T13:10:42Z",
-      "posting_age_days": 9,
+      "posting_age_days": 11,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 9,
+        "age_days": 11,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -4798,10 +4798,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-05T12:52:42Z",
-      "posting_age_days": 66,
+      "posting_age_days": 68,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 66,
+        "age_days": 68,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -5255,7 +5255,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 18,
+      "jobs": 15,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -5269,191 +5269,306 @@
       "error": ""
     },
     "greenhouse": {
-      "status": "partial",
+      "status": "ok",
       "ok": true,
-      "jobs": 21411,
-      "requests": 168,
-      "errors": [
-        {
-          "source": "greenhouse",
-          "company": "Magic Leap",
-          "http_status": 404,
-          "exception_type": "RuntimeError",
-          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found",
-          "message": "Greenhouse | Magic Leap | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found"
-        }
-      ],
-      "error": "Greenhouse | Magic Leap | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found",
-      "companies_checked": 168,
-      "companies_successful": 167,
-      "companies_failed": 1
+      "jobs": 6097,
+      "requests": 49,
+      "errors": [],
+      "error": "",
+      "companies_checked": 49,
+      "companies_successful": 49,
+      "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 424,
-      "requests": 12,
+      "jobs": 367,
+      "requests": 10,
       "errors": [],
       "error": "",
-      "companies_checked": 12,
-      "companies_successful": 12,
+      "companies_checked": 10,
+      "companies_successful": 10,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 1224,
-      "requests": 6,
-      "errors": [],
-      "error": "",
-      "companies_checked": 6,
-      "companies_successful": 6,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 187,
-      "requests": 7,
-      "errors": [],
-      "error": "",
-      "companies_checked": 7,
-      "companies_successful": 7,
-      "companies_failed": 0
-    },
-    "recruitee": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 8,
+      "jobs": 93,
       "requests": 2,
       "errors": [],
       "error": "",
       "companies_checked": 2,
       "companies_successful": 2,
       "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 160,
+      "requests": 3,
+      "errors": [],
+      "error": "",
+      "companies_checked": 3,
+      "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "recruitee": {
+      "status": "idle",
+      "ok": true,
+      "jobs": 0,
+      "requests": 0,
+      "errors": [],
+      "error": "",
+      "companies_checked": 0,
+      "companies_successful": 0,
+      "companies_failed": 0
     }
   },
   "all_sources_failed": false,
   "employer_scan": {
-    "mode": "full",
-    "generated_at": "2026-10-11T11:54:14Z",
+    "mode": "daily",
+    "generated_at": "2026-10-12T13:24:20Z",
     "sources": {
       "greenhouse": {
         "source": "greenhouse",
-        "mode": "full",
-        "batch_index": null,
+        "mode": "daily",
+        "batch_index": 0,
         "configured_enabled": 172,
         "priority_configured": 34,
-        "selected": 168,
-        "skipped_by_rotation": 0,
-        "skipped_by_cooldown": 4,
-        "rotation_skip_keys": [],
+        "selected": 49,
+        "skipped_by_rotation": 118,
+        "skipped_by_cooldown": 5,
+        "rotation_skip_keys": [
+          "greenhouse:affirm",
+          "greenhouse:airbnb",
+          "greenhouse:airspace",
+          "greenhouse:airtable",
+          "greenhouse:algolia",
+          "greenhouse:andurilindustries",
+          "greenhouse:anthropic",
+          "greenhouse:applovin",
+          "greenhouse:bitgo",
+          "greenhouse:bitpanda",
+          "greenhouse:block",
+          "greenhouse:bridgebio",
+          "greenhouse:bugcrowd",
+          "greenhouse:carta",
+          "greenhouse:chainguard",
+          "greenhouse:charterup",
+          "greenhouse:checkr",
+          "greenhouse:circleci",
+          "greenhouse:civicnation",
+          "greenhouse:cloudflare",
+          "greenhouse:cockroachlabs",
+          "greenhouse:coinbase",
+          "greenhouse:coursera",
+          "greenhouse:cribl",
+          "greenhouse:cultureamp",
+          "greenhouse:databricks",
+          "greenhouse:datadog",
+          "greenhouse:discord",
+          "greenhouse:dropbox",
+          "greenhouse:duolingo",
+          "greenhouse:elastic",
+          "greenhouse:epicgames",
+          "greenhouse:faire",
+          "greenhouse:fastly",
+          "greenhouse:figma",
+          "greenhouse:fivetran",
+          "greenhouse:flatironhealth",
+          "greenhouse:flexport",
+          "greenhouse:freenow",
+          "greenhouse:gemini",
+          "greenhouse:gitlab",
+          "greenhouse:gleanwork",
+          "greenhouse:greenhouse",
+          "greenhouse:guardsquare",
+          "greenhouse:gusto",
+          "greenhouse:honeycomb",
+          "greenhouse:huntress",
+          "greenhouse:imply",
+          "greenhouse:instacart",
+          "greenhouse:instawork",
+          "greenhouse:intercom",
+          "greenhouse:isaraerospace",
+          "greenhouse:jetbrains",
+          "greenhouse:justworks",
+          "greenhouse:khanacademy",
+          "greenhouse:klanggames",
+          "greenhouse:knowbe4",
+          "greenhouse:lattice",
+          "greenhouse:launchdarkly",
+          "greenhouse:locusrobotics",
+          "greenhouse:lookoutinc",
+          "greenhouse:lucidsoftware",
+          "greenhouse:lyft",
+          "greenhouse:melio",
+          "greenhouse:mercari",
+          "greenhouse:mercury",
+          "greenhouse:mixpanel",
+          "greenhouse:mongodb",
+          "greenhouse:newrelic",
+          "greenhouse:nuro",
+          "greenhouse:okta",
+          "greenhouse:orcasecurity",
+          "greenhouse:oscar",
+          "greenhouse:pagerduty",
+          "greenhouse:pandadoc",
+          "greenhouse:pinterest",
+          "greenhouse:planetscale",
+          "greenhouse:poshmark",
+          "greenhouse:precisionmedicinegroup",
+          "greenhouse:pulley",
+          "greenhouse:raisin",
+          "greenhouse:recursionpharmaceuticals",
+          "greenhouse:remotecom",
+          "greenhouse:riotgames",
+          "greenhouse:ripple",
+          "greenhouse:roblox",
+          "greenhouse:salesloft",
+          "greenhouse:samsara",
+          "greenhouse:scaleai",
+          "greenhouse:scopely",
+          "greenhouse:scoutai",
+          "greenhouse:seatgeek",
+          "greenhouse:singlestore",
+          "greenhouse:sixgeninc",
+          "greenhouse:sofi",
+          "greenhouse:squarespace",
+          "greenhouse:stabilityai",
+          "greenhouse:starburst",
+          "greenhouse:stockx",
+          "greenhouse:stripe",
+          "greenhouse:stubhubinc",
+          "greenhouse:sumologic",
+          "greenhouse:sweetgreen",
+          "greenhouse:tailscale",
+          "greenhouse:togetherai",
+          "greenhouse:twilio",
+          "greenhouse:twitch",
+          "greenhouse:upstart",
+          "greenhouse:veeamsoftware",
+          "greenhouse:waymo",
+          "greenhouse:webflow",
+          "greenhouse:wizinc",
+          "greenhouse:wolt",
+          "greenhouse:wooga",
+          "greenhouse:xai",
+          "greenhouse:yugabyte",
+          "greenhouse:zetaglobal",
+          "greenhouse:zoominfo"
+        ],
         "cooldown_skip_keys": [
           "greenhouse:clickhouse",
           "greenhouse:amplitude",
+          "greenhouse:magicleap",
           "greenhouse:marqeta",
           "greenhouse:postman"
         ]
       },
       "ashby": {
         "source": "ashby",
-        "mode": "full",
-        "batch_index": null,
+        "mode": "daily",
+        "batch_index": 0,
         "configured_enabled": 13,
         "priority_configured": 8,
-        "selected": 12,
-        "skipped_by_rotation": 0,
+        "selected": 10,
+        "skipped_by_rotation": 2,
         "skipped_by_cooldown": 1,
-        "rotation_skip_keys": [],
+        "rotation_skip_keys": [
+          "ashby:langdock",
+          "ashby:n8n"
+        ],
         "cooldown_skip_keys": [
           "ashby:leapsome"
         ]
       },
       "lever": {
         "source": "lever",
-        "mode": "full",
-        "batch_index": null,
+        "mode": "daily",
+        "batch_index": 0,
         "configured_enabled": 6,
         "priority_configured": 2,
-        "selected": 6,
-        "skipped_by_rotation": 0,
+        "selected": 2,
+        "skipped_by_rotation": 4,
         "skipped_by_cooldown": 0,
-        "rotation_skip_keys": [],
+        "rotation_skip_keys": [
+          "lever:olx",
+          "lever:saviynt",
+          "lever:veeva",
+          "lever:westernacher"
+        ],
         "cooldown_skip_keys": []
       },
       "personio": {
         "source": "personio",
-        "mode": "full",
-        "batch_index": null,
+        "mode": "daily",
+        "batch_index": 0,
         "configured_enabled": 7,
         "priority_configured": 3,
-        "selected": 7,
-        "skipped_by_rotation": 0,
+        "selected": 3,
+        "skipped_by_rotation": 4,
         "skipped_by_cooldown": 0,
-        "rotation_skip_keys": [],
+        "rotation_skip_keys": [
+          "personio:dnsnet",
+          "personio:liveeo-gmbh",
+          "personio:perseus",
+          "personio:syseleven"
+        ],
         "cooldown_skip_keys": []
       },
       "recruitee": {
         "source": "recruitee",
-        "mode": "full",
-        "batch_index": null,
+        "mode": "daily",
+        "batch_index": 0,
         "configured_enabled": 2,
         "priority_configured": 0,
-        "selected": 2,
-        "skipped_by_rotation": 0,
+        "selected": 0,
+        "skipped_by_rotation": 2,
         "skipped_by_cooldown": 0,
-        "rotation_skip_keys": [],
+        "rotation_skip_keys": [
+          "recruitee:cygridgmbh",
+          "recruitee:dransay"
+        ],
         "cooldown_skip_keys": []
       }
     }
   },
   "rejection_summary": {
-    "The vacancy has an explicit location outside Berlin/Germany-remote/Europe-remote/worldwide-remote scope": 508,
-    "Excluded seniority in title: Staff/Principal": 97,
-    "Excluded seniority in title: Management": 97,
-    "Mandatory experience is too senior: 8+ years": 59,
-    "On-site role is not located in Berlin": 52,
-    "Mandatory experience is too senior: 10+ years": 41,
-    "Excluded seniority in title: Lead/Architect": 28,
-    "Excluded seniority in title: Executive": 24,
-    "Hybrid role is not located in Berlin": 23,
-    "Advanced/fluent German required": 15,
-    "Mandatory experience is too senior: 15+ years": 12,
-    "Germany role is on-site/hybrid outside Berlin; only Germany-remote roles are allowed": 10,
+    "The vacancy has an explicit location outside Berlin/Germany-remote/Europe-remote/worldwide-remote scope": 123,
+    "Excluded seniority in title: Staff/Principal": 29,
+    "On-site role is not located in Berlin": 24,
+    "Excluded seniority in title: Management": 20,
+    "Mandatory experience is too senior: 8+ years": 13,
+    "Advanced/fluent German required": 12,
+    "Germany role is on-site/hybrid outside Berlin; only Germany-remote roles are allowed": 11,
+    "Mandatory experience is too senior: 10+ years": 7,
+    "German C1 required": 5,
+    "Excluded seniority in title: Executive": 5,
     "German C2 required": 5,
-    "Mandatory experience is too senior: 12+ years": 5,
-    "Vacancy text is predominantly German; the radar is limited to English-speaking roles": 3,
-    "Excluded seniority/employment type in title: chief information security officer": 2,
-    "Mandatory experience is too senior: 8-12 years": 2,
-    "Posting is too old: 149 days (maximum 120)": 2,
-    "Posting is too old: 380 days (maximum 120)": 2,
+    "Vacancy text is predominantly German; the radar is limited to English-speaking roles": 4,
+    "Hybrid role is not located in Berlin": 3,
+    "Excluded seniority in title: Lead/Architect": 3,
+    "Remote region is unclear; Germany, Europe/EU/EMEA, or worldwide eligibility is not explicit": 2,
+    "Mandatory experience is too senior: 15+ years": 2,
+    "Mandatory experience is too senior: 12+ years": 2,
+    "Posting is too old: 381 days (maximum 120)": 2,
+    "Excluded seniority/employment type in title: ciso": 1,
     "Excluded seniority/employment type in title: working student": 1,
-    "German C1 required": 1,
+    "Excluded seniority/employment type in title: chief information security officer": 1,
     "Excluded seniority/employment type in title: director of security": 1,
-    "Insufficient cybersecurity relevance": 1,
-    "Mandatory experience is too senior: 8-15 years": 1,
-    "Mandatory experience is too senior: 8-10 years": 1,
-    "Posting is too old: 151 days (maximum 120)": 1,
-    "Posting is too old: 128 days (maximum 120)": 1,
-    "Excluded seniority/employment type in title: internship": 1,
-    "Remote region is unclear; Germany, Europe/EU/EMEA, or worldwide eligibility is not explicit": 1,
     "Excluded seniority/employment type in title: security intern": 1,
     "Student/internship-only employment type": 1,
-    "Mandatory experience is too senior: 8-11 years": 1,
-    "Posting is too old: 186 days (maximum 120)": 1,
-    "Posting is too old: 124 days (maximum 120)": 1,
-    "Posting is too old: 158 days (maximum 120)": 1,
-    "Posting is too old: 160 days (maximum 120)": 1,
-    "Posting is too old: 205 days (maximum 120)": 1,
-    "Posting is too old: 221 days (maximum 120)": 1,
-    "Posting is too old: 129 days (maximum 120)": 1,
-    "Posting is too old: 173 days (maximum 120)": 1,
-    "Posting is too old: 333 days (maximum 120)": 1,
-    "Posting is too old: 514 days (maximum 120)": 1,
-    "Posting is too old: 587 days (maximum 120)": 1,
-    "Posting is too old: 750 days (maximum 120)": 1,
-    "Posting is too old: 501 days (maximum 120)": 1,
+    "Posting is too old: 188 days (maximum 120)": 1,
+    "Posting is too old: 125 days (maximum 120)": 1,
+    "Posting is too old: 159 days (maximum 120)": 1,
+    "Posting is too old: 161 days (maximum 120)": 1,
+    "Posting is too old: 174 days (maximum 120)": 1,
+    "Posting is too old: 334 days (maximum 120)": 1,
+    "Posting is too old: 515 days (maximum 120)": 1,
+    "Posting is too old: 588 days (maximum 120)": 1,
+    "Posting is too old: 751 days (maximum 120)": 1,
     "Posting is too old: 502 days (maximum 120)": 1,
-    "Posting is too old: 209 days (maximum 120)": 1
+    "Posting is too old: 503 days (maximum 120)": 1
   }
 }

@@ -1,18 +1,18 @@
 # Cybersecurity Job Radar
 
-**Date:** 2026-10-11
+**Date:** 2026-10-12
 **Scoring model:** v2.2
-**Raw postings collected:** 24522
-**Security-title candidates:** 821
-**Non-security titles skipped early:** 23701
-**Unique jobs after deduplication:** 635
+**Raw postings collected:** 7982
+**Security-title candidates:** 261
+**Non-security titles skipped early:** 7721
+**Unique jobs after deduplication:** 196
 **New jobs:** 0
 **Updated jobs:** 1
-**Relevant jobs:** 11
+**Relevant jobs:** 9
 **Strong matches:** 0
 **Sources checked:** 8
 **Sources failed:** 0
-**Sources partially successful:** 1
+**Sources partially successful:** 0
 **Stored jobs excluded by current policy:** 360
 
 > **Strict scope:** Berlin on-site/hybrid/remote; Germany remote; Europe/EU/EMEA remote; worldwide/anywhere remote from Germany English-speaking roles only; German may be optional or require no more than verified A2.
@@ -22,22 +22,22 @@
 ## Jobs Collected by Source
 
 - **Arbeitnow:** 1250
-- **Remotive:** 18
+- **Remotive:** 15
 - **Linkedin_Posts:** 0
-- **Greenhouse:** 21411
-- **Ashby:** 424
-- **Lever:** 1224
-- **Personio:** 187
-- **Recruitee:** 8
+- **Greenhouse:** 6097
+- **Ashby:** 367
+- **Lever:** 93
+- **Personio:** 160
+- **Recruitee:** 0
 
 ## Employer Watchlist Scan
 
-- **Mode:** Full
-- **Greenhouse:** 168/172 selected; 0 rotating; 4 cooling down
-- **Ashby:** 12/13 selected; 0 rotating; 1 cooling down
-- **Lever:** 6/6 selected; 0 rotating; 0 cooling down
-- **Personio:** 7/7 selected; 0 rotating; 0 cooling down
-- **Recruitee:** 2/2 selected; 0 rotating; 0 cooling down
+- **Mode:** Daily
+- **Greenhouse:** 49/172 selected; 118 rotating; 5 cooling down
+- **Ashby:** 10/13 selected; 2 rotating; 1 cooling down
+- **Lever:** 2/6 selected; 4 rotating; 0 cooling down
+- **Personio:** 3/7 selected; 4 rotating; 0 cooling down
+- **Recruitee:** 0/2 selected; 2 rotating; 0 cooling down
 
 ## Application Tracker
 
@@ -86,43 +86,43 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 
 ## 🟡 REVIEW / STRETCH QUEUE
 
-### 1. Senior Product Security Engineer
+### 1. Security Engineer (Hybrid or Remote)
 
-- **Company:** Staffbase
-- **Location:** Berlin, Germany
-- **Location eligibility:** Berlin remote role
+- **Company:** Vivid
+- **Location:** Remote
+- **Location eligibility:** Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country
 - **Working model:** Remote
-- **Role family:** Product Security
-- **Seniority:** Senior
-- **Source / ATS:** Greenhouse / Greenhouse
-- **Priority employer:** YES
-- **Posted:** 2026-09-18 (OPEN FOR REVIEW)
-- **First seen:** 2026-08-15
+- **Role family:** Security Engineering
+- **Seniority:** Mid-level or unspecified
+- **Source / ATS:** Arbeitnow / Not Identified
+- **Priority employer:** NO
+- **Posted:** 2026-10-09 (RECENT)
+- **First seen:** 2026-10-05
 - **Radar / application status:** UPDATED / NEW
-- **Job key:** `521c71dc83dfa3787db3`
+- **Job key:** `86d0e27ef416b6621d0d`
 - **Match score:** **69/100 - REVIEW**
-- **Direct job URL:** [Staffbase](https://job-boards.greenhouse.io/staffbase/jobs/8729143002)
+- **Direct job URL:** [Vivid](https://www.arbeitnow.fr/jobs/companies/vivid/security-engineer-hybrid-or-remote-102404)
 
-**Strong matches:** dast, frida, penetration testing, sast, secure sdlc, security automation, vulnerability management
+**Strong matches:** None detected
 
-**Partial matches:** ci/cd, javascript, product security, software development
+**Partial matches:** aws, git, incident response, nist, siem, splunk
 
-**Mandatory gaps:** None explicitly detected
+**Mandatory gaps:** edr
 
-**Potential gaps:** rust
+**Potential gaps:** detection engineering, dlp, rust
 
-**Optional gaps:** go, javascript, kubernetes, terraform
+**Optional gaps:** None detected
 
 **Experience:** No explicit years detected
 
-**German:** German is preferred/nice-to-have
+**German:** No German requirement detected
 
-**Why relevant:** Role family: Product Security. Berlin remote role. Evidenced matches include dast, frida, penetration testing, sast, secure sdlc.
+**Why relevant:** Role family: Security Engineering. Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country.
 
-**Warnings:** Potential gaps: rust Optional gaps: go, javascript, kubernetes, terraform Exposure only; do not claim deep expertise: ci/cd, javascript, product security, software development Senior title is above the profile's current 2+ years
+**Warnings:** Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country Mandatory gaps: edr Potential gaps: detection engineering, dlp, rust Exposure only; do not claim deep expertise: aws, git, incident response, nist, siem, splunk One explicitly mandatory skill is not evidenced
 
 **Recommendation:** REVIEW - material seniority, language, or skill risk
-**Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `521c71dc83dfa3787db3`.
+**Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `86d0e27ef416b6621d0d`.
 
 
 ### 2. Senior Oracle Fusion HCM Security Specialist (Freelance)
@@ -710,7 +710,46 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `c1ab5b22feaa0afc7ed6`.
 
 
-### 18. Senior Security Engineer (F/M/D)
+### 18. Senior Product Security Engineer
+
+- **Company:** Staffbase
+- **Location:** Berlin, Germany
+- **Location eligibility:** Berlin remote role
+- **Working model:** Remote
+- **Role family:** Product Security
+- **Seniority:** Senior
+- **Source / ATS:** Greenhouse / Greenhouse
+- **Priority employer:** YES
+- **Posted:** 2026-09-18 (OPEN FOR REVIEW)
+- **First seen:** 2026-08-15
+- **Radar / application status:** SEEN_BEFORE / NEW
+- **Job key:** `521c71dc83dfa3787db3`
+- **Match score:** **69/100 - REVIEW**
+- **Direct job URL:** [Staffbase](https://job-boards.greenhouse.io/staffbase/jobs/8729143002)
+
+**Strong matches:** dast, frida, penetration testing, sast, secure sdlc, security automation, vulnerability management
+
+**Partial matches:** ci/cd, javascript, product security, software development
+
+**Mandatory gaps:** None explicitly detected
+
+**Potential gaps:** rust
+
+**Optional gaps:** go, javascript, kubernetes, terraform
+
+**Experience:** No explicit years detected
+
+**German:** German is preferred/nice-to-have
+
+**Why relevant:** Role family: Product Security. Berlin remote role. Evidenced matches include dast, frida, penetration testing, sast, secure sdlc.
+
+**Warnings:** Potential gaps: rust Optional gaps: go, javascript, kubernetes, terraform Exposure only; do not claim deep expertise: ci/cd, javascript, product security, software development Senior title is above the profile's current 2+ years
+
+**Recommendation:** REVIEW - material seniority, language, or skill risk
+**Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `521c71dc83dfa3787db3`.
+
+
+### 19. Senior Security Engineer (F/M/D)
 
 - **Company:** NavVis
 - **Location:** Munich Hybrid (NavVis GmbH), Germany
@@ -720,7 +759,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 - **Seniority:** Senior
 - **Source / ATS:** Greenhouse / Greenhouse
 - **Priority employer:** YES
-- **Posted:** 2026-09-11 (OPEN FOR REVIEW)
+- **Posted:** 2026-09-11 (OLDER POSTING - VERIFY ACTIVE)
 - **First seen:** 2026-08-15
 - **Radar / application status:** SEEN_BEFORE / NEW
 - **Job key:** `9ba7cf301be480a6ff9f`
@@ -749,7 +788,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `9ba7cf301be480a6ff9f`.
 
 
-### 19. Cloud Security Engineer (m,f,x)
+### 20. Cloud Security Engineer (m,f,x)
 
 - **Company:** HelloFresh
 - **Location:** Berlin, Germany
@@ -788,7 +827,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `c9a4882b15b462f012a3`.
 
 
-### 20. Senior Security Engineer, Bug Bounty
+### 21. Senior Security Engineer, Bug Bounty
 
 - **Company:** Mozilla
 - **Location:** Remote Germany
@@ -825,45 +864,6 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 
 **Recommendation:** REVIEW - material seniority, language, or skill risk
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `86705e70d7803af16172`.
-
-
-### 21. Security Engineer (Hybrid or Remote)
-
-- **Company:** Vivid
-- **Location:** Remote
-- **Location eligibility:** Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country
-- **Working model:** Remote
-- **Role family:** Security Engineering
-- **Seniority:** Mid-level or unspecified
-- **Source / ATS:** Arbeitnow / Not Identified
-- **Priority employer:** NO
-- **Posted:** 2026-10-09 (NEW - APPLY QUICKLY)
-- **First seen:** 2026-10-05
-- **Radar / application status:** SEEN_BEFORE / NEW
-- **Job key:** `86d0e27ef416b6621d0d`
-- **Match score:** **69/100 - REVIEW**
-- **Direct job URL:** [Vivid](https://www.arbeitnow.fr/jobs/companies/vivid/security-engineer-hybrid-or-remote-102404)
-
-**Strong matches:** None detected
-
-**Partial matches:** aws, git, incident response, nist, siem, splunk
-
-**Mandatory gaps:** edr
-
-**Potential gaps:** detection engineering, dlp, rust
-
-**Optional gaps:** None detected
-
-**Experience:** No explicit years detected
-
-**German:** No German requirement detected
-
-**Why relevant:** Role family: Security Engineering. Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country.
-
-**Warnings:** Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country Mandatory gaps: edr Potential gaps: detection engineering, dlp, rust Exposure only; do not claim deep expertise: aws, git, incident response, nist, siem, splunk One explicitly mandatory skill is not evidenced
-
-**Recommendation:** REVIEW - material seniority, language, or skill risk
-**Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `86d0e27ef416b6621d0d`.
 
 
 ### 22. Security Engineer
@@ -1032,7 +1032,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 - **Seniority:** Mid-level or unspecified
 - **Source / ATS:** Greenhouse / Greenhouse
 - **Priority employer:** YES
-- **Posted:** 2026-10-08 (NEW - APPLY QUICKLY)
+- **Posted:** 2026-10-08 (RECENT)
 - **First seen:** 2026-08-27
 - **Radar / application status:** SEEN_BEFORE / NEW
 - **Job key:** `4afa9462370d50b6650c`
@@ -1459,14 +1459,13 @@ Displayed **36** ranked active jobs in this page (configured maximum: 50).
 ## Source Health
 
 - ✅ **Arbeitnow** — 1250 jobs
-- ✅ **Remotive** — 18 jobs
+- ✅ **Remotive** — 15 jobs
 - ✅ **Linkedin_Posts** — 0 jobs
-- ⚠️ **Greenhouse** — 167/168 companies successful, 21411 jobs
-  - Greenhouse \| Magic Leap \| RuntimeError \| HTTP 404 \| Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found
-- ✅ **Ashby** — 12/12 companies successful, 424 jobs
-- ✅ **Lever** — 6/6 companies successful, 1224 jobs
-- ✅ **Personio** — 7/7 companies successful, 187 jobs
-- ✅ **Recruitee** — 2/2 companies successful, 8 jobs
+- ✅ **Greenhouse** — 49/49 companies successful, 6097 jobs
+- ✅ **Ashby** — 10/10 companies successful, 367 jobs
+- ✅ **Lever** — 2/2 companies successful, 93 jobs
+- ✅ **Personio** — 3/3 companies successful, 160 jobs
+- ◻️ **Recruitee** — no enabled companies
 
 ## ChatGPT Handoff
 
