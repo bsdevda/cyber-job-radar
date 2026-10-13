@@ -1902,12 +1902,11 @@
     },
     {
       "week_start": "2026-10-12",
-      "generated_at": "2026-10-12T13:24:20Z",
+      "generated_at": "2026-10-13T12:52:26Z",
       "active_relevant_jobs": 9,
       "role_family_counts": {
-        "Security Engineering": 6,
+        "Security Engineering": 7,
         "IT Audit / GRC": 1,
-        "Cloud Security / DevSecOps": 1,
         "Product Security": 1
       },
       "score_bands": {
@@ -1918,27 +1917,19 @@
       "skill_gaps": {
         "mandatory": [
           {
+            "skill": "edr",
+            "jobs": 3
+          },
+          {
             "skill": "aws",
             "jobs": 3
-          },
-          {
-            "skill": "go",
-            "jobs": 3
-          },
-          {
-            "skill": "edr",
-            "jobs": 2
           },
           {
             "skill": "nist",
             "jobs": 2
           },
           {
-            "skill": "ci/cd",
-            "jobs": 2
-          },
-          {
-            "skill": "kubernetes",
+            "skill": "go",
             "jobs": 2
           },
           {
@@ -1950,26 +1941,34 @@
             "jobs": 2
           },
           {
+            "skill": "azure",
+            "jobs": 1
+          },
+          {
+            "skill": "siem",
+            "jobs": 1
+          },
+          {
             "skill": "software development",
             "jobs": 1
           },
           {
-            "skill": "bash",
+            "skill": "ci/cd",
             "jobs": 1
           },
           {
-            "skill": "cloud security",
+            "skill": "git",
             "jobs": 1
           },
           {
-            "skill": "infrastructure as code",
+            "skill": "github security",
             "jobs": 1
           }
         ],
         "potential": [
           {
             "skill": "rust",
-            "jobs": 4
+            "jobs": 5
           },
           {
             "skill": "dlp",
@@ -2001,6 +2000,10 @@
           }
         ],
         "optional": [
+          {
+            "skill": "active directory",
+            "jobs": 1
+          },
           {
             "skill": "splunk",
             "jobs": 1
@@ -2040,23 +2043,15 @@
             "jobs": 5
           },
           {
+            "skill": "siem",
+            "jobs": 4
+          },
+          {
             "skill": "nist",
             "jobs": 3
           },
           {
-            "skill": "siem",
-            "jobs": 3
-          },
-          {
             "skill": "product security",
-            "jobs": 3
-          },
-          {
-            "skill": "ci/cd",
-            "jobs": 3
-          },
-          {
-            "skill": "cloud security",
             "jobs": 3
           },
           {
@@ -2069,6 +2064,14 @@
           },
           {
             "skill": "software development",
+            "jobs": 2
+          },
+          {
+            "skill": "ci/cd",
+            "jobs": 2
+          },
+          {
+            "skill": "cloud security",
             "jobs": 2
           },
           {
