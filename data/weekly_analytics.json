@@ -1902,15 +1902,15 @@
     },
     {
       "week_start": "2026-10-12",
-      "generated_at": "2026-10-13T12:52:26Z",
-      "active_relevant_jobs": 9,
+      "generated_at": "2026-10-14T10:27:05Z",
+      "active_relevant_jobs": 10,
       "role_family_counts": {
-        "Security Engineering": 7,
+        "Security Engineering": 8,
         "IT Audit / GRC": 1,
         "Product Security": 1
       },
       "score_bands": {
-        "60-69 review": 5,
+        "60-69 review": 6,
         "50-59 stretch": 3,
         "70-79 good": 1
       },
@@ -1918,14 +1918,18 @@
         "mandatory": [
           {
             "skill": "edr",
-            "jobs": 3
-          },
-          {
-            "skill": "aws",
-            "jobs": 3
+            "jobs": 2
           },
           {
             "skill": "nist",
+            "jobs": 2
+          },
+          {
+            "skill": "software development",
+            "jobs": 2
+          },
+          {
+            "skill": "rust",
             "jobs": 2
           },
           {
@@ -1937,31 +1941,27 @@
             "jobs": 2
           },
           {
+            "skill": "aws",
+            "jobs": 2
+          },
+          {
             "skill": "docker",
             "jobs": 2
           },
           {
-            "skill": "azure",
+            "skill": "gdpr",
             "jobs": 1
           },
           {
-            "skill": "siem",
+            "skill": "iso 27001",
             "jobs": 1
           },
           {
-            "skill": "software development",
+            "skill": "security auditing",
             "jobs": 1
           },
           {
-            "skill": "ci/cd",
-            "jobs": 1
-          },
-          {
-            "skill": "git",
-            "jobs": 1
-          },
-          {
-            "skill": "github security",
+            "skill": "javascript",
             "jobs": 1
           }
         ],
@@ -1983,6 +1983,18 @@
             "jobs": 1
           },
           {
+            "skill": "infrastructure as code",
+            "jobs": 1
+          },
+          {
+            "skill": "secrets management",
+            "jobs": 1
+          },
+          {
+            "skill": "terraform",
+            "jobs": 1
+          },
+          {
             "skill": "azure",
             "jobs": 1
           },
@@ -2000,10 +2012,6 @@
           }
         ],
         "optional": [
-          {
-            "skill": "active directory",
-            "jobs": 1
-          },
           {
             "skill": "splunk",
             "jobs": 1
@@ -2040,10 +2048,6 @@
           },
           {
             "skill": "aws",
-            "jobs": 5
-          },
-          {
-            "skill": "siem",
             "jobs": 4
           },
           {
@@ -2051,7 +2055,15 @@
             "jobs": 3
           },
           {
+            "skill": "siem",
+            "jobs": 3
+          },
+          {
             "skill": "product security",
+            "jobs": 3
+          },
+          {
+            "skill": "software development",
             "jobs": 3
           },
           {
@@ -2063,7 +2075,7 @@
             "jobs": 2
           },
           {
-            "skill": "software development",
+            "skill": "javascript",
             "jobs": 2
           },
           {
@@ -2077,10 +2089,6 @@
           {
             "skill": "docker",
             "jobs": 2
-          },
-          {
-            "skill": "network security",
-            "jobs": 1
           }
         ]
       },

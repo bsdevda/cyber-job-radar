@@ -1,12 +1,12 @@
 # Weekly Job Radar Analytics
 
 **Week starting:** 2026-10-12
-**Generated:** 2026-10-13T12:52:26Z
-**Active relevant jobs:** 9
+**Generated:** 2026-10-14T10:27:05Z
+**Active relevant jobs:** 10
 
 ## Role-family demand
 
-- **Security Engineering:** 7
+- **Security Engineering:** 8
 - **IT Audit / GRC:** 1
 - **Product Security:** 1
 
@@ -14,18 +14,18 @@
 
 ### Explicit mandatory gaps
 
-- **edr:** 3 job(s)
-- **aws:** 3 job(s)
+- **edr:** 2 job(s)
 - **nist:** 2 job(s)
+- **software development:** 2 job(s)
+- **rust:** 2 job(s)
 - **go:** 2 job(s)
 - **incident response:** 2 job(s)
+- **aws:** 2 job(s)
 - **docker:** 2 job(s)
-- **azure:** 1 job(s)
-- **siem:** 1 job(s)
-- **software development:** 1 job(s)
-- **ci/cd:** 1 job(s)
-- **git:** 1 job(s)
-- **github security:** 1 job(s)
+- **gdpr:** 1 job(s)
+- **iso 27001:** 1 job(s)
+- **security auditing:** 1 job(s)
+- **javascript:** 1 job(s)
 
 ### Potential gaps
 
@@ -33,6 +33,9 @@
 - **dlp:** 2 job(s)
 - **edr:** 2 job(s)
 - **detection engineering:** 1 job(s)
+- **infrastructure as code:** 1 job(s)
+- **secrets management:** 1 job(s)
+- **terraform:** 1 job(s)
 - **azure:** 1 job(s)
 - **iso 27001:** 1 job(s)
 - **bug bounty:** 1 job(s)
@@ -40,7 +43,6 @@
 
 ### Optional gaps
 
-- **active directory:** 1 job(s)
 - **splunk:** 1 job(s)
 - **iso 27001:** 1 job(s)
 - **go:** 1 job(s)
@@ -52,17 +54,17 @@
 ### Exposure-only skills
 
 - **incident response:** 6 job(s)
-- **aws:** 5 job(s)
-- **siem:** 4 job(s)
+- **aws:** 4 job(s)
 - **nist:** 3 job(s)
+- **siem:** 3 job(s)
 - **product security:** 3 job(s)
+- **software development:** 3 job(s)
 - **git:** 2 job(s)
 - **splunk:** 2 job(s)
-- **software development:** 2 job(s)
+- **javascript:** 2 job(s)
 - **ci/cd:** 2 job(s)
 - **cloud security:** 2 job(s)
 - **docker:** 2 job(s)
-- **network security:** 1 job(s)
 
 ## Application funnel
 

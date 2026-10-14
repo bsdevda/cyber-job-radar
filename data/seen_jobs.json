@@ -208,7 +208,7 @@
   },
   "521c71dc83dfa3787db3": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-13T12:52:26Z",
+    "last_seen": "2026-10-14T10:27:05Z",
     "content_hash": "2c040214033ea8916a3acfc5d53099f7b45d4e07ed4a37d2804853d325041e92",
     "status": "SEEN_BEFORE",
     "company": "Staffbase",
@@ -460,7 +460,7 @@
   },
   "9ba7cf301be480a6ff9f": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-13T12:52:26Z",
+    "last_seen": "2026-10-14T10:27:05Z",
     "content_hash": "695565afccbc0ea27aed88980573bdd4151d8c3a3fd8cfff9885244f400ab84b",
     "status": "SEEN_BEFORE",
     "company": "NavVis",
@@ -3214,7 +3214,7 @@
   },
   "adf40ac5904cb1b075ac": {
     "first_seen": "2026-08-15T17:01:09Z",
-    "last_seen": "2026-10-13T12:52:26Z",
+    "last_seen": "2026-10-14T10:27:05Z",
     "content_hash": "b5d79684c158dd21a22b161caeb7fc7ce838b589f10eb85b95807e2a1ac10691",
     "status": "SEEN_BEFORE",
     "company": "Qdrant",
@@ -3385,12 +3385,12 @@
   },
   "b420e12f1f07d8e20c57": {
     "first_seen": "2026-08-16T17:17:56Z",
-    "last_seen": "2026-09-03T10:00:48Z",
-    "content_hash": "9dda02a34f6e93154b6a916a70218da610d414b0a1b5a092eb1fe44a4e12aeef",
-    "status": "REMOVED",
+    "last_seen": "2026-10-14T10:27:05Z",
+    "content_hash": "16100e046d48aa342c77c833fcbe913d94ef566b4dc42bb6e570275071efd850",
+    "status": "UPDATED",
     "company": "Mozilla",
     "title": "Senior Software Engineer, Firefox Security",
-    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8016848"
+    "url": "https://job-boards.greenhouse.io/mozilla/jobs/8259797"
   },
   "caa220d352ded536fb49": {
     "first_seen": "2026-08-16T17:17:56Z",
@@ -3619,7 +3619,7 @@
   },
   "4afa9462370d50b6650c": {
     "first_seen": "2026-08-27T16:38:50Z",
-    "last_seen": "2026-10-13T12:52:26Z",
+    "last_seen": "2026-10-14T10:27:05Z",
     "content_hash": "e388309e9ce8f7c4e88a62d85ab323578b783bd32ce2aceec8fdeb7c53eeb25f",
     "status": "SEEN_BEFORE",
     "company": "HelloFresh",
@@ -3772,7 +3772,7 @@
   },
   "240800e330239220c3d1": {
     "first_seen": "2026-09-30T11:17:18Z",
-    "last_seen": "2026-10-13T12:52:26Z",
+    "last_seen": "2026-10-14T10:27:05Z",
     "content_hash": "022807eaf926d00eae9ae0004e465698cedacb61e07b2d976bc8185a02f43884",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3808,7 +3808,7 @@
   },
   "729a044bba71f5b2b24a": {
     "first_seen": "2026-10-01T11:44:36Z",
-    "last_seen": "2026-10-13T12:52:26Z",
+    "last_seen": "2026-10-14T10:27:05Z",
     "content_hash": "b53f439b644e8b2c0cf34ef5a6c4f5e60ce03f57dc30ce5e2ed7e74f78e75c3d",
     "status": "SEEN_BEFORE",
     "company": "N26",
@@ -3835,12 +3835,12 @@
   },
   "86d0e27ef416b6621d0d": {
     "first_seen": "2026-10-05T12:30:00Z",
-    "last_seen": "2026-10-13T12:52:26Z",
+    "last_seen": "2026-10-14T10:27:05Z",
     "content_hash": "b58b4567a97b4caac780990421d178f9a752e5c139c8bedf31246f5dd2d8dd17",
-    "status": "UPDATED",
+    "status": "SEEN_BEFORE",
     "company": "Vivid",
     "title": "Security Engineer (Hybrid or Remote)",
-    "url": "https://www.arbeitnow.fr/jobs/companies/vivid/security-engineer-hybrid-or-remote-102404"
+    "url": "https://www.arbeitnow.fr/jobs/companies/vivid/security-engineer-hybrid-or-remote-487067"
   },
   "0bc28b416edb95f3b45f": {
     "first_seen": "2026-10-07T11:55:14Z",
@@ -3853,7 +3853,7 @@
   },
   "1d8705aa550b912143d8": {
     "first_seen": "2026-10-07T11:55:14Z",
-    "last_seen": "2026-10-13T12:52:26Z",
+    "last_seen": "2026-10-14T10:27:05Z",
     "content_hash": "3aa41d70911562622ed6770353b4e0684fa21f01fd13607cd0cc36fea54351b3",
     "status": "SEEN_BEFORE",
     "company": "KAYAK",
@@ -3868,5 +3868,14 @@
     "company": "Vectranetworks",
     "title": "Security Engineer, Pre-Sales",
     "url": "https://www.arbeitnow.nl/jobs/companies/vectranetworks/security-engineer-pre-sales-449259"
+  },
+  "d262fcc8afaadd54451b": {
+    "first_seen": "2026-10-14T10:27:05Z",
+    "last_seen": "2026-10-14T10:27:05Z",
+    "content_hash": "e8217976adea246c9afefe6f513e142aaecb5a1d5b87575fc4d6b40a2f855358",
+    "status": "NEW",
+    "company": "MILES Mobility",
+    "title": "Senior Network & Security Engineer (w/m/x/d)",
+    "url": "https://www.arbeitnow.com/jobs/companies/miles-mobility/senior-network-security-engineer-d-berlin-111274"
   }
 }
