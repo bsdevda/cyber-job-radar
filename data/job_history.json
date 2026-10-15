@@ -7127,6 +7127,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-10-15T10:10:57Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 8302,
+      "security_title_candidates": 302,
+      "prefiltered_non_security_jobs": 8000,
+      "unique_jobs_after_deduplication": 224,
+      "duplicates_removed": 78,
+      "jobs_rejected_or_below_threshold": 8210,
+      "relevant_jobs_in_current_run": 14,
+      "new_jobs": 3,
+      "updated_jobs": 3,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 41,
+      "jobs_by_source": {
+        "arbeitnow": 2194,
+        "remotive": 15,
+        "linkedin_posts": 0,
+        "greenhouse": 5493,
+        "ashby": 256,
+        "lever": 168,
+        "personio": 170,
+        "recruitee": 6
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 31.8,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2194,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 15,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 5493,
+          "requests": 58,
+          "errors": [],
+          "error": "",
+          "companies_checked": 58,
+          "companies_successful": 58,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 256,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 168,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 170,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 6,
+          "requests": 1,
+          "errors": [],
+          "error": "",
+          "companies_checked": 1,
+          "companies_successful": 1,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -13911,6 +14024,61 @@
       "company": "Mozilla",
       "title": "Senior Software Engineer, Firefox Security",
       "score": 69
+    },
+    {
+      "at": "2026-10-15T10:10:57Z",
+      "job_key": "6118ade6193514055a1c",
+      "event": "NEW",
+      "company": "n8n",
+      "title": "Sr Security Engineer | Remote | Europe",
+      "score": 66
+    },
+    {
+      "at": "2026-10-15T10:10:57Z",
+      "job_key": "b420e12f1f07d8e20c57",
+      "event": "UPDATED",
+      "company": "Mozilla",
+      "title": "Senior Software Engineer, Firefox Security",
+      "score": 69
+    },
+    {
+      "at": "2026-10-15T10:10:57Z",
+      "job_key": "433bfc7aba2524337972",
+      "event": "NEW",
+      "company": "Agilerobotsse",
+      "title": "Senior IT Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-10-15T10:10:57Z",
+      "job_key": "58864d81f2b8da556449",
+      "event": "NEW",
+      "company": "prefix.dev GmbH",
+      "title": "Software engineer, AI model supply chain and package security",
+      "score": 68
+    },
+    {
+      "at": "2026-10-15T10:10:57Z",
+      "job_key": "86d0e27ef416b6621d0d",
+      "event": "UPDATED",
+      "company": "Vivid",
+      "title": "Security Engineer (Hybrid or Remote)",
+      "score": 69
+    },
+    {
+      "at": "2026-10-15T10:10:57Z",
+      "job_key": "d262fcc8afaadd54451b",
+      "event": "UPDATED",
+      "company": "MILES Mobility",
+      "title": "Senior Network & Security Engineer (w/m/x/d)",
+      "score": 59
+    },
+    {
+      "at": "2026-10-15T10:10:57Z",
+      "job_key": "b8cd59fa1a90fef70e9e",
+      "event": "REMOVED",
+      "company": "Superhuman",
+      "title": "Corporate Security Engineer"
     }
   ]
 }

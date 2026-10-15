@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T10:27:05Z",
+  "generated_at": "2026-10-15T10:10:57Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,42 +171,42 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-10-14T10:27:05Z",
+    "generated_at": "2026-10-15T10:10:57Z",
     "scoring_version": 2.2,
-    "jobs_collected": 10009,
-    "security_title_candidates": 314,
-    "prefiltered_non_security_jobs": 9695,
-    "unique_jobs_after_deduplication": 246,
-    "duplicates_removed": 68,
-    "jobs_rejected_or_below_threshold": 9931,
-    "relevant_jobs_in_current_run": 10,
-    "new_jobs": 1,
-    "updated_jobs": 1,
+    "jobs_collected": 8302,
+    "security_title_candidates": 302,
+    "prefiltered_non_security_jobs": 8000,
+    "unique_jobs_after_deduplication": 224,
+    "duplicates_removed": 78,
+    "jobs_rejected_or_below_threshold": 8210,
+    "relevant_jobs_in_current_run": 14,
+    "new_jobs": 3,
+    "updated_jobs": 3,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
     "sources_partial": 0,
-    "report_jobs": 39,
+    "report_jobs": 41,
     "jobs_by_source": {
-      "arbeitnow": 2178,
-      "remotive": 16,
+      "arbeitnow": 2194,
+      "remotive": 15,
       "linkedin_posts": 0,
-      "greenhouse": 6341,
-      "ashby": 236,
-      "lever": 1088,
-      "personio": 148,
-      "recruitee": 2
+      "greenhouse": 5493,
+      "ashby": 256,
+      "lever": 168,
+      "personio": 170,
+      "recruitee": 6
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 28.2
+    "workflow_duration_seconds": 31.8
   },
   "source_status": {
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 2178,
+      "jobs": 2194,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 16,
+      "jobs": 15,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -230,18 +230,18 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 6341,
-      "requests": 69,
+      "jobs": 5493,
+      "requests": 58,
       "errors": [],
       "error": "",
-      "companies_checked": 69,
-      "companies_successful": 69,
+      "companies_checked": 58,
+      "companies_successful": 58,
       "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 236,
+      "jobs": 256,
       "requests": 9,
       "errors": [],
       "error": "",
@@ -252,18 +252,7 @@
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 1088,
-      "requests": 4,
-      "errors": [],
-      "error": "",
-      "companies_checked": 4,
-      "companies_successful": 4,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 148,
+      "jobs": 168,
       "requests": 3,
       "errors": [],
       "error": "",
@@ -271,10 +260,21 @@
       "companies_successful": 3,
       "companies_failed": 0
     },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 170,
+      "requests": 6,
+      "errors": [],
+      "error": "",
+      "companies_checked": 6,
+      "companies_successful": 6,
+      "companies_failed": 0
+    },
     "recruitee": {
       "status": "ok",
       "ok": true,
-      "jobs": 2,
+      "jobs": 6,
       "requests": 1,
       "errors": [],
       "error": "",
@@ -331,6 +331,7 @@
       "canonical_url": "https://job-boards.greenhouse.io/mozilla/jobs/8259797",
       "source": "Greenhouse",
       "sources": [
+        "Arbeitnow",
         "Greenhouse"
       ],
       "ats": "greenhouse",
@@ -339,10 +340,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-14T03:11:31Z",
-      "posting_age_days": 0,
+      "posting_age_days": 1,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 0,
+        "age_days": 1,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
@@ -406,7 +407,7 @@
       ],
       "recommendation": "REVIEW - material seniority, language, or skill risk",
       "description_excerpt": "Why Mozilla? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. The Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. What you’ll do: Design, build and implement security and hardening features for enterprise users: Design, implement, test, and ship cutting-edge security features that strengthen Firefox’s security posture. Advance Firefox’s s…",
-      "full_description": "Why Mozilla?\n\nMozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. \n\nThe Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. \n\nWhat you’ll do:\n\nDesign, build and implement security and hardening features for enterprise users: Design, implement, test, and ship cutting-edge security features that strengthen Firefox’s security posture.\n\nAdvance Firefox’s security architecture across multiple operating systems: Contribute to and drive cutting-edge improvements to Firefox’s core security posture, by building privilege isolation and moving trust boundaries or Strengthen Firefox’s security architecture: Improve Firefox’s core security mechanisms including cryptographic protocols, WebPKI, and security-sensitive web APIs.\n\nContribute to our security initiatives: Work across teams to investigate security issues, identify root causes, and deliver robust, maintainable fixes.\n\nImprove browser reliability and performance: Diagnose and resolve issues affecting stability, correctness, performance, and memory usage in a complex, multithreaded environment.\n\nWhat you’ll bring:\n\nSystems programming experience and security knowledge: 3+ years of experience in low-level software engineering, strong proficiency in C and/or C++, and a solid understanding of security fundamentals.\n\nDebugging and problem-solving skills: Experience diagnosing and resolving issues in multithreaded, cross-platform native applications, including memory and performance challenges.\n\nWeb platform and modern systems experience: Familiarity with web technologies (HTML, CSS, JavaScript) and interest or experience in Rust; ability to work effectively within large, complex, multi-language codebases.\n\nEffective collaboration and communication: Experience working with distributed teams and communicating technical ideas clearly in writing and conversation.\n\nWhat you’ll get:\n\nGenerous performance-based bonus plans to all eligible employees - we share in our success as one team\n\nGenerous retirement contributions with 100% immediate vesting (regardless of whether you contribute)\n\nQuarterly all-company wellness days where everyone takes a pause together\n\nCountry specific holidays plus a day off for your birthday\n\nOne-time home office stipend\n\nAnnual professional development budget\n\nQuarterly well-being stipend\n\nConsiderable paid parental leave\n\nEmployee referral bonus program\n\nOther benefits (life/AD&D, disability, EAP, etc. - varies by country)\n\nAbout Mozilla \n\nMozilla exists to build the Internet as a public resource accessible to all because we believe that open and free is better than closed and controlled. When you work at Mozilla, you give yourself a chance to make a difference in the lives of Web users everywhere. And you give us a chance to make a difference in your life every single day. Join us to work on the Web as the platform and help create more opportunity and innovation for everyone online.\n\nCommitment to diversity, equity, inclusion, and belonging\n\nMozilla understands that valuing diverse creative practices and forms of knowledge are crucial to and enrich the company’s core mission. We encourage applications from everyone, including members of all equity-seeking communities, such as (but certainly not limited to) women, racialized and Indigenous persons, persons with disabilities, persons of all sexual orientations, gender identities, and expressions.\n\nWe will ensure that qualified individuals with disabilities are provided reasonable accommodations to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment, as appropriate. Please contact us at hiringaccommodation@mozilla.com to request accommodation.\n\nWe are an equal opportunity employer. We do not discriminate on the basis of race (including hairstyle and texture), religion (including religious grooming and dress practices), gender, gender identity, gender expression, color, national origin, pregnancy, ancestry, domestic partner status, disability, sexual orientation, age, genetic predisposition, medical condition, marital status, citizenship status, military or veteran status, or any other basis covered by applicable laws. Mozilla will not tolerate discrimination or harassment based on any of these characteristics or any other unlawful behavior, conduct, or purpose.\n\nGroup: D\n\n#LI-REMOTE\n\nReq ID: R3247\n\nHiring Ranges:\n\nRemote Germany\n\n€68.000—€91.000 EUR",
+      "full_description": "Why Mozilla?\n\nMozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. \n\nThe Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. \n\nWhat you’ll do:\n\nDesign, build and implement security and hardening features for enterprise users: Design, implement, test, and ship cutting-edge security features that strengthen Firefox’s security posture.\n\nAdvance Firefox’s security architecture across multiple operating systems: Contribute to and drive cutting-edge improvements to Firefox’s core security posture, by building privilege isolation and moving trust boundaries or Strengthen Firefox’s security architecture: Improve Firefox’s core security mechanisms including cryptographic protocols, WebPKI, and security-sensitive web APIs.\n\nContribute to our security initiatives: Work across teams to investigate security issues, identify root causes, and deliver robust, maintainable fixes.\n\nImprove browser reliability and performance: Diagnose and resolve issues affecting stability, correctness, performance, and memory usage in a complex, multithreaded environment.\n\nWhat you’ll bring:\n\nSystems programming experience and security knowledge: 3+ years of experience in low-level software engineering, strong proficiency in C and/or C++, and a solid understanding of security fundamentals.\n\nDebugging and problem-solving skills: Experience diagnosing and resolving issues in multithreaded, cross-platform native applications, including memory and performance challenges.\n\nWeb platform and modern systems experience: Familiarity with web technologies (HTML, CSS, JavaScript) and interest or experience in Rust; ability to work effectively within large, complex, multi-language codebases.\n\nEffective collaboration and communication: Experience working with distributed teams and communicating technical ideas clearly in writing and conversation.\n\nWhat you’ll get:\n\nGenerous performance-based bonus plans to all eligible employees - we share in our success as one team\n\nGenerous retirement contributions with 100% immediate vesting (regardless of whether you contribute)\n\nQuarterly all-company wellness days where everyone takes a pause together\n\nCountry specific holidays plus a day off for your birthday\n\nOne-time home office stipend\n\nAnnual professional development budget\n\nQuarterly well-being stipend\n\nConsiderable paid parental leave\n\nEmployee referral bonus program\n\nOther benefits (life/AD&D, disability, EAP, etc. - varies by country)\n\nAbout Mozilla \n\nMozilla exists to build the Internet as a public resource accessible to all because we believe that open and free is better than closed and controlled. When you work at Mozilla, you give yourself a chance to make a difference in the lives of Web users everywhere. And you give us a chance to make a difference in your life every single day. Join us to work on the Web as the platform and help create more opportunity and innovation for everyone online.\n\nCommitment to diversity, equity, inclusion, and belonging\n\nMozilla understands that valuing diverse creative practices and forms of knowledge are crucial to and enrich the company’s core mission. We encourage applications from everyone, including members of all equity-seeking communities, such as (but certainly not limited to) women, racialized and Indigenous persons, persons with disabilities, persons of all sexual orientations, gender identities, and expressions.\n\nWe will ensure that qualified individuals with disabilities are provided reasonable accommodations to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment, as appropriate. Please contact us at hiringaccommodation@mozilla.com to request accommodation.\n\nWe are an equal opportunity employer. We do not discriminate on the basis of race (including hairstyle and texture), religion (including religious grooming and dress practices), gender, gender identity, gender expression, color, national origin, pregnancy, ancestry, domestic partner status, disability, sexual orientation, age, genetic predisposition, medical condition, marital status, citizenship status, military or veteran status, or any other basis covered by applicable laws. Mozilla will not tolerate discrimination or harassment based on any of these characteristics or any other unlawful behavior, conduct, or purpose.\n\nGroup: D\n\n#LI-REMOTE\n\nReq ID: R3247\n\nHiring Ranges:\n\nRemote Sweden\n\n513 000 kr—684 000 kr SEK",
       "skill_requirements": [
         {
           "skill": "javascript",
@@ -444,6 +445,392 @@
     },
     {
       "report_number": 2,
+      "job_key": "433bfc7aba2524337972",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 71,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "Senior title is above the profile's current 2+ years"
+      ],
+      "score_label": "REVIEW",
+      "title": "Senior IT Security Engineer",
+      "company": "Agilerobotsse",
+      "location": "Munich, Bavaria, Germany",
+      "location_analysis": {
+        "category": "eligible_germany_remote",
+        "eligible": true,
+        "score": 15,
+        "reason": "Remote work from Germany is explicitly available",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Germany remote",
+        "work_model": "Remote"
+      },
+      "location_scope": "Germany remote",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://www.arbeitnow.com/jobs/companies/agilerobotsse/senior-it-security-engineer-munich-bavaria-31849",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/agilerobotsse/senior-it-security-engineer-munich-bavaria-31849",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/agilerobotsse/senior-it-security-engineer-munich-bavaria-31849",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-10-14T14:55:52Z",
+      "posting_age_days": 0,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-10-15T10:10:57Z",
+      "experience_required": "3+ years",
+      "german_requirement": "German is preferred/nice-to-have",
+      "skill_matches": {
+        "match": [
+          "python",
+          "security automation"
+        ],
+        "partial": [
+          "nist"
+        ],
+        "missing": [
+          "bash",
+          "edr",
+          "powershell"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [
+        {
+          "skill": "bash",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Scripting skills (Python, PowerShell, or Bash)"
+        },
+        {
+          "skill": "edr",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Knowledge with endpoint protection platforms (EDR/XDR)"
+        },
+        {
+          "skill": "powershell",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Scripting skills (Python, PowerShell, or Bash)"
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 12,
+        "experience": 12,
+        "location": 15,
+        "language": 9,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "Remote work from Germany is explicitly available.",
+        "Evidenced matches include python, security automation.",
+        "The detected experience requirement is within or close to the 2+ year profile."
+      ],
+      "warnings": [
+        "Requests 3+ years versus approximately 2.1 years in the profile.",
+        "Potential gaps: bash, edr, powershell",
+        "Exposure only; do not claim deep expertise: nist",
+        "Senior title is above the profile's current 2+ years"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "About the Position: We are looking for a Security Engineer to support, automate and continuously improve the secure configuration of our enterprise assets. In this role, you will be the central point of contact for hardening standards, access controls, and the protection of our IT infrastructure against common attack vectors. You will work closely with various teams and locations to implement security requirements in a practical and sustainable way. Your Responsibilities: Configuration Standards: Develop, maintain, and harden the security configuration standards for end-user devices, servers, network components, and software (on-prem/SAAS) Identity and Access Management: Manage and oversee centralized Identity and Access Management throughout the account and employee lifecycles, including account provisioning, modification, and deprovisioning during onboarding, role changes, and onboarding Compliance Monitoring & Audits: Conduct recurring control reviews to verify that approved security processes, technical specifications, configurations, account management practices, and access controls are implemented and operating effectively across the organization Security Automation: Automat…",
+      "full_description": "About the Position:\n\nWe are looking for a Security Engineer to support, automate and continuously improve the secure configuration of our enterprise assets. In this role, you will be the central point of contact for hardening standards, access controls, and the protection of our IT infrastructure against common attack vectors. You will work closely with various teams and locations to implement security requirements in a practical and sustainable way.\n\nYour Responsibilities:\n\nConfiguration Standards: Develop, maintain, and harden the security configuration standards for end-user devices, servers, network components, and software (on-prem/SAAS) \n\nIdentity and Access Management: Manage and oversee centralized Identity and Access Management throughout the account and employee lifecycles, including account provisioning, modification, and deprovisioning during onboarding, role changes, and onboarding\n\nCompliance Monitoring & Audits: Conduct recurring control reviews to verify that approved security processes, technical specifications, configurations, account management practices, and access controls are implemented and operating effectively across the organization\n\nSecurity Automation: Automate configuration validation and remediation, and integrate security-baseline checks into infrastructure provisioning and deployment workflows\n\nCollaboration: Work closely with various teams and locations to implement and oversee the above security measures in practice\n\nYour Profile:\n\n5+ years of expertise in IT security with relevant exposure to configuration and hardening\n\n2+ years of practical experience implementing security frameworks and standards, such as CIS Controls and Benchmarks, NIST guidance, and ISO/IEC 27001\n\nSolid knowledge and practical experience of hardening operating systems (Windows/Linux/Mac) and network components\n\n3+ years of experience with Identity & Access Management concepts (roles, permissions, recertification) Page 2 of 3\n\nFamiliarity with configuration management or compliance tools \n\nAnalytical and strategic thinking\n\nIndependent working style and initiative\n\nStrong communication skills\n\nFluent English and German would be beneficial\n\nBeneficial skills:\n\nScripting skills (Python, PowerShell, or Bash)\n\nKnowledge with endpoint protection platforms (EDR/XDR)\n\nSecurity Monitoring, Investigation, and Threat Detection\n\nExperience integrating automated configuration, hardening, and compliance checks into infrastructure provisioning and deployment pipelines\n\nAny Relevant Certifications\n\nWhat we offer\n\nA dynamic high-tech company, combined with financial soundness and world-class investors.\n\nJoin an interdisciplinary, international team with 60+ different nationalities in a collaborative work environment.\n\nLots of development opportunities as we continue to grow.\n\nChallenging tasks and impactful projects alongside experts that enable professional and personal growth.\n\nCorporate Benefits Program covering health, mobility, and learning for 100€ net per month.\n\nModern office facilities with a rooftop terrace overlooking Munich, free drinks & fruits, and regular company events contribute to a good working environment\n\nAbout us\n\nAgile Robots SE is an international high-tech company based in Munich, Germany with a production site in Kaufbeuren and more than 3500 employees worldwide. Our mission is to bridge the gap between artificial intelligence and robotics by developing systems that combine state-of-the-art force-moment-sensing and world-leading image-processing technology. This unique combination of technologies allows us to provide user-friendly and affordable robotic solutions that enable intelligent precision assembly. \n\nThis is made possible by our employees, who bring out the best in each and every day with creativity and enthusiasm. Become part of this team and shape the future of robotics with us!\n\nWe are proud of our diversity and welcome your application regardless of gender and sexual identity, nationality, ethnicity, religion, age, or disability.\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "bash",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Scripting skills (Python, PowerShell, or Bash)"
+        },
+        {
+          "skill": "edr",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Knowledge with endpoint protection platforms (EDR/XDR)"
+        },
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "2+ years of practical experience implementing security frameworks and standards, such as CIS Controls and Benchmarks, NIST guidance, and ISO/IEC 27001"
+        },
+        {
+          "skill": "powershell",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Scripting skills (Python, PowerShell, or Bash)"
+        },
+        {
+          "skill": "python",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Scripting skills (Python, PowerShell, or Bash)"
+        },
+        {
+          "skill": "security automation",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Security Automation: Automate configuration validation and remediation, and integrate security-baseline checks into infrastructure provisioning and deployment workflows"
+        }
+      ],
+      "german_analysis": {
+        "category": "nice",
+        "level": "unspecified",
+        "mandatory": false,
+        "label": "German is preferred/nice-to-have",
+        "evidence": "Fluent English and German would be beneficial"
+      },
+      "experience_analysis": {
+        "min_years": 3,
+        "max_years": null,
+        "optional": false,
+        "display": "3+ years",
+        "evidence": "3+ years of experience with Identity & Access Management concepts (roles, permissions, recertification) Page 2 of 3"
+      }
+    },
+    {
+      "report_number": 3,
+      "job_key": "86d0e27ef416b6621d0d",
+      "status": "UPDATED",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 72,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "score_label": "REVIEW",
+      "title": "Security Engineer (Hybrid or Remote)",
+      "company": "Vivid",
+      "location": "Remote",
+      "location_analysis": {
+        "category": "eligible_europe_remote",
+        "eligible": true,
+        "score": 13,
+        "reason": "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
+        "verification_required": true,
+        "score_cap": 89,
+        "scope": "Europe remote",
+        "work_model": "Remote"
+      },
+      "location_scope": "Europe remote",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer",
+          "security architecture"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://www.arbeitnow.fr/jobs/companies/vivid/security-engineer-hybrid-or-remote-487067",
+      "apply_url": "https://www.arbeitnow.fr/jobs/companies/vivid/security-engineer-hybrid-or-remote-487067",
+      "canonical_url": "https://www.arbeitnow.fr/jobs/companies/vivid/security-engineer-hybrid-or-remote-487067",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-10-13T19:09:32Z",
+      "posting_age_days": 1,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 1,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-10-05T12:30:00Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [],
+        "partial": [
+          "aws",
+          "git",
+          "incident response",
+          "nist",
+          "siem",
+          "splunk"
+        ],
+        "missing": [
+          "detection engineering",
+          "dlp",
+          "edr",
+          "rust"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "edr",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Working knowledge of endpoint security (MDM, XDR/EDR/AV) and email / phishing defense."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "detection engineering",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "write and tune detection rules"
+        },
+        {
+          "skill": "dlp",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Improve SaaS security posture (Google/Microsoft, Slack, GitHub, others) and apply DLP controls to limit data leakage."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Since then, we've expanded rapidly across Europe, earning the trust of over 500,000 customers — and with over €200 million raised and a valuation of €775 million, we're just getting started."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 10,
+        "experience": 10,
+        "location": 13,
+        "language": 10,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country."
+      ],
+      "warnings": [
+        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
+        "Mandatory gaps: edr",
+        "Potential gaps: detection engineering, dlp, rust",
+        "Exposure only; do not claim deep expertise: aws, git, incident response, nist, siem, splunk",
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "About The Role We’re looking for a Security Engineer to own and improve the security of our internal environment — the identities, SaaS apps, endpoints, AI tooling, and networks our employees use every day. This is a hands-on senior role: we expect you to design controls, find the gaps, and drive the changes that close them — and to build the automation that makes it scale. We’re an EMI-licensed fintech in a fully cloud-native AWS environment, we use AI heavily, and we’re growing fast. We need someone who can lead technical initiatives independently, influence our security architecture, challenge approaches that no longer fit, and explain it clearly to engineers and leadership. Your Mission Detection & Response (SIEM) — our top priority Own SIEM alerting end-to-end: ship logs from endpoints, IdP, VPN, SaaS, and cloud; write and tune detection rules; cut false positives. Act as first responder for security incidents — investigate, contain, drive to closure with clear runbooks — and feed recurring issues back into preventive controls. Identity, Access & SaaS Administer the IdP (SSO via SAML/OIDC, MFA, conditional access) and run access recertification end-to-end across IdP, SaaS, AW…",
+      "full_description": "About The Role\n\nWe’re looking for a Security Engineer to own and improve the security of our internal environment — the identities, SaaS apps, endpoints, AI tooling, and networks our employees use every day. This is a hands-on senior role: we expect you to design controls, find the gaps, and drive the changes that close them — and to build the automation that makes it scale.\n\nWe’re an EMI-licensed fintech in a fully cloud-native AWS environment, we use AI heavily, and we’re growing fast. We need someone who can lead technical initiatives independently, influence our security architecture, challenge approaches that no longer fit, and explain it clearly to engineers and leadership.\n\nYour Mission\nDetection & Response (SIEM) — our top priority\n\nOwn SIEM alerting end-to-end: ship logs from endpoints, IdP, VPN, SaaS, and cloud; write and tune detection rules; cut false positives.\n\nAct as first responder for security incidents — investigate, contain, drive to closure with clear runbooks — and feed recurring issues back into preventive controls.\n\nIdentity, Access & SaaS\n\nAdminister the IdP (SSO via SAML/OIDC, MFA, conditional access) and run access recertification end-to-end across IdP, SaaS, AWS, and internal tools — scope, evidence, follow-through on revocations.\n\nHunt down over-permissive and stale access, enforce least privilege and PAM, catch SoD gaps, and make JML and third-party access work in practice.\n\nImprove SaaS security posture (Google/Microsoft, Slack, GitHub, others) and apply DLP controls to limit data leakage.\n\nEndpoint, Email & Phishing Defense\n\nKeep the endpoint stack healthy and well-tuned — MDM, XDR/AV, device-compliance checks for VPN/ZTNA — and define posture requirements (disk encryption, EDR present, OS version) with automated remediation.\n\nDefend against phishing and spoofing — secure email gateway rules, DMARC/SPF/DKIM — and run phishing simulations and security awareness, acting on the results.\n\nAutomation & Ownership\n\nBuild internal tooling and automate repetitive operations — reduce manual work, don't just operate it.\n\nOwn the roadmap for your areas: identify gaps, lead initiatives independently, and raise the bar rather than just maintain it.\n\nYour Profile\n\n5+ years in security operations, corporate/IT security, or endpoint engineering.\n\nStrong with a SIEM (Splunk, Elastic, Panther, Sumo Logic) — detection engineering and incident response — plus an identity provider (Okta, Entra ID, Google Workspace), access recertification, and least-privilege / PAM.\n\nWorking knowledge of endpoint security (MDM, XDR/EDR/AV) and email / phishing defense.\n\nPractical experience securing how a company uses AI internally: shadow AI discovery, DLP for AI tools, controls for AI assistants and agents, and a working risk framework for adopting new ones. You've done this for real, not from a vendor pitch deck.\n\nStrong scripting and automation skills — you build tooling against APIs, not just configure consoles.\n\nTrack record of driving improvements end-to-end and leading initiatives with little oversight. \n\nСlear written and spoken English for engineers and leadership.\n\nWhy Join Vivid?\n\nWe have a hybrid model in our Limassol office, or fully remote outside office locations. \n\nWe support relocation to Cyprus (visa, package) when needed.\n\nLearning & development budget to support your professional growth. \n\nFully paid vacation and sick leave. \n\nSports compensation. \n\nReal growth prospects, significant responsibility, and the ability to make an immediate impact from day one. \n\nEnhance your expertise and shape the future of FinTech. Join Vivid's talented team and help us revolutionize how businesses think about their finances!\n\nCompensation range\nFinal compensation is determined individually, based on your experience, skills and the scope of the role, assessed against objective, gender-neutral criteria.\n\nAbout Vivid\nAt Vivid, we're on a mission to change how businesses and individuals manage their money across Europe. For businesses, we build tools that actually make a difference: multi-IBAN accounts, high-yield savings, business cashback, team cards, and accounting integrations that save real time — all in one place. And for individuals, we offer a simple way to manage and grow your wealth: access to global stocks, ETFs and 150+ cryptocurrencies, cashback, and personalised financial insights.\n\nOur mission? Your success. Everyone deserves the chance to see their finances flourish, and we're dedicated to empowering our customers to make this a reality.\n\nFounded in 2019 in Berlin by Alexander Emeshev and Artem Iamanov, Vivid has quickly grown into one of Germany's top financial platforms for SMEs and private accounts. Since then, we've expanded rapidly across Europe, earning the trust of over 500,000 customers — and with over €200 million raised and a valuation of €775 million, we're just getting started. \n\nWe're building Vivid as an AI-native organization — across every function, from product to compliance to operations. Automation handles a growing share of day-to-day execution. For us, this means our teams can focus on architecture, strategy, and high-impact decision-making. This changes how we work: less manual execution, more ownership in building systems that scale. We want to help define what AI-native looks like in a regulated financial environment — and we're looking for people who want to build that future with us.\n\nFind Jobs in France on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "edr",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Working knowledge of endpoint security (MDM, XDR/EDR/AV) and email / phishing defense."
+        },
+        {
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "We’re an EMI-licensed fintech in a fully cloud-native AWS environment, we use AI heavily, and we’re growing fast."
+        },
+        {
+          "skill": "detection engineering",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "write and tune detection rules"
+        },
+        {
+          "skill": "dlp",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Improve SaaS security posture (Google/Microsoft, Slack, GitHub, others) and apply DLP controls to limit data leakage."
+        },
+        {
+          "skill": "git",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Improve SaaS security posture (Google/Microsoft, Slack, GitHub, others) and apply DLP controls to limit data leakage."
+        },
+        {
+          "skill": "incident response",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Strong with a SIEM (Splunk, Elastic, Panther, Sumo Logic) — detection engineering and incident response — plus an identity provider (Okta, Entra ID, Google Workspace), access recertification, and least-privilege / PAM."
+        },
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Administer the IdP (SSO via SAML/OIDC, MFA, conditional access) and run access recertification end-to-end across IdP, SaaS, AWS, and internal tools — scope, evidence, follow-through on revocations."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Since then, we've expanded rapidly across Europe, earning the trust of over 500,000 customers — and with over €200 million raised and a valuation of €775 million, we're just getting started."
+        },
+        {
+          "skill": "siem",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Detection & Response (SIEM) — our top priority"
+        },
+        {
+          "skill": "splunk",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Strong with a SIEM (Splunk, Elastic, Panther, Sumo Logic) — detection engineering and incident response — plus an identity provider (Okta, Entra ID, Google Workspace), access recertification, and least-privilege / PAM."
+        }
+      ],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 4,
       "job_key": "0bc28b416edb95f3b45f",
       "status": "NEW",
       "application_status": "NEW",
@@ -562,7 +949,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 3,
+      "report_number": 5,
       "job_key": "ca9ca2de50791397491c",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -758,7 +1145,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 4,
+      "report_number": 6,
       "job_key": "97e10fb205544ff97e76",
       "status": "NEW",
       "application_status": "NEW",
@@ -916,7 +1303,416 @@
       }
     },
     {
-      "report_number": 5,
+      "report_number": 7,
+      "job_key": "58864d81f2b8da556449",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 68,
+      "raw_score": 68,
+      "score_cap": null,
+      "score_cap_reasons": [],
+      "score_label": "REVIEW",
+      "title": "Software engineer, AI model supply chain and package security",
+      "company": "prefix.dev GmbH",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin remote role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Remote"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "other_security",
+        "label": "Other Security",
+        "priority": 3,
+        "confidence": "low",
+        "evidence": []
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://www.arbeitnow.com/jobs/companies/prefixdev-gmbh/software-engineer-ai-model-supply-chain-and-package-security-berlin-467200",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/prefixdev-gmbh/software-engineer-ai-model-supply-chain-and-package-security-berlin-467200",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/prefixdev-gmbh/software-engineer-ai-model-supply-chain-and-package-security-berlin-467200",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-10-14T16:47:42Z",
+      "posting_age_days": 0,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-10-15T10:10:57Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "python"
+        ],
+        "partial": [],
+        "missing": [
+          "go",
+          "rust"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Rust, or a strong background in C++, Go or Python and the wish to switch"
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "We build fast, modern developer tools in Rust, and a surprising amount of serious software runs on them."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 10,
+        "skills": 10,
+        "experience": 10,
+        "location": 15,
+        "language": 10,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Berlin remote role.",
+        "Evidenced matches include python."
+      ],
+      "warnings": [
+        "Potential gaps: go, rust"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "We build fast, modern developer tools in Rust, and a surprising amount of serious software runs on them. Pixi, rattler and rattler-build are open source and used by hundreds of thousands of developers: quant teams in finance, physicists at CERN, biotech labs, and humanoid robot companies you've probably seen videos of. We are also core maintainers of conda-forge, one of the largest open source package ecosystems, and we maintain RoboStack, which gets ROS running on any OS from a single lockfile. When that much software flows through your tools, security stops being optional. Every package that ends up on a laptop, a server or a robot should be traceable back to the source and build that produced it. We're building that for conda today, and we want to extend it to AI models. The engineering team is spread across Europe (Netherlands, Germany, UK, Moldova). This work is based in Berlin, and so is this role. The work Robots increasingly run learned models: vision transformers, RL policies, LLMs. Today those models are usually copied onto machines as large opaque files, with little record of where they came from or what changed. We think models should be shipped like packages: versione…",
+      "full_description": "We build fast, modern developer tools in Rust, and a surprising amount of serious software runs on them. Pixi, rattler and rattler-build are open source and used by hundreds of thousands of developers: quant teams in finance, physicists at CERN, biotech labs, and humanoid robot companies you've probably seen videos of. We are also core maintainers of conda-forge, one of the largest open source package ecosystems, and we maintain RoboStack, which gets ROS running on any OS from a single lockfile.\n\nWhen that much software flows through your tools, security stops being optional. Every package that ends up on a laptop, a server or a robot should be traceable back to the source and build that produced it. We're building that for conda today, and we want to extend it to AI models.\n\nThe engineering team is spread across Europe (Netherlands, Germany, UK, Moldova). This work is based in Berlin, and so is this role.\n\nThe work\n\nRobots increasingly run learned models: vision transformers, RL policies, LLMs. Today those models are usually copied onto machines as large opaque files, with little record of where they came from or what changed. We think models should be shipped like packages: versioned, signed, verifiable, and updated efficiently.\n\nYou'll work on two related areas.\n\nPackage security. Signing and verification for conda packages with Sigstore, provenance from source to build to install, SBOMs, and mapping known vulnerabilities onto the packages people actually use. This work goes into Pixi, rattler and conda-forge, and is used by a lot of people.\n\nAI models as packages. Taking the same ideas to model artifacts. That includes:\n\nA provenance chain from training through packaging to deployment, with signatures that can be verified offline on air-gapped robots\n\nA model SBOM format, building on CycloneDX's ML-BOM\n\nDelta updates between model versions (full models, fine-tunes, LoRA adapters, quantized variants), so robots don't download gigabytes for a small change\n\nCompression that combines model techniques (quantization, pruning, distillation) with what package managers already do well (zstd, content-addressable storage), tuned to the target hardware and network\n\nManaging models that get fine-tuned on the robot itself: tracking where those variants came from, validating them, and syncing them back\n\nTesting the whole pipeline end to end on real models and real hardware, and measuring latency, bandwidth and model quality\n\nA lot of this is new. Part of the job is figuring out which approaches work, measuring them honestly, and writing up what you found.\n\nWhat we're looking for\n\nYou don't need years of experience. You do need solid fundamentals, curiosity, and the patience to get security details right.\n\nRust, or a strong background in C++, Go or Python and the wish to switch\n\nInterest in software supply chain security. Bonus if you've worked with Sigstore (Cosign, Rekor, Fulcio), TUF, in-toto, SLSA or SBOM formats\n\nFamiliarity with ML in practice: you've trained or fine-tuned a model, know what a LoRA adapter or a quantized model is, and have used PyTorch or similar\n\nBasic understanding of cryptography as an engineer: signatures, hashes, certificates, and what they do and don't guarantee\n\nYou like measuring things and are honest about results that don't work out\n\nYou live in Berlin or are willing to move here\n\nIt's a plus if you know package managers from the inside, have worked on model compression or edge inference, have robotics experience, or have contributed to open source. None of this is required.\n\nWhat we offer\n\nYou'll work on problems few people have solved yet, together with the people who created Mamba, Pixi, rattler and RoboStack. Most of your work will be open source and used by a large community from day one. We pay a competitive Berlin salary, with 30 days of vacation, the hardware you want, a conference budget, and time for upstream open source work. We help with relocation within the EU.\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Rust, or a strong background in C++, Go or Python and the wish to switch"
+        },
+        {
+          "skill": "python",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Rust, or a strong background in C++, Go or Python and the wish to switch"
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "We build fast, modern developer tools in Rust, and a surprising amount of serious software runs on them."
+        }
+      ],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 8,
+      "job_key": "6118ade6193514055a1c",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 66,
+      "raw_score": 66,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "Senior title is above the profile's current 2+ years",
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "score_label": "REVIEW",
+      "title": "Sr Security Engineer | Remote | Europe",
+      "company": "n8n",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin remote role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Remote"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer",
+          "security engineering",
+          "vulnerability"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "sr"
+      },
+      "url": "https://jobs.ashbyhq.com/n8n/49e569f0-503e-4e42-a1ba-7e63684e90d3",
+      "apply_url": "https://jobs.ashbyhq.com/n8n/49e569f0-503e-4e42-a1ba-7e63684e90d3/application",
+      "canonical_url": "https://jobs.ashbyhq.com/n8n/49e569f0-503e-4e42-a1ba-7e63684e90d3",
+      "source": "Ashby",
+      "sources": [
+        "Arbeitnow",
+        "Ashby"
+      ],
+      "ats": "ashby",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-10-13T13:48:21Z",
+      "posting_age_days": 1,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 1,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-10-15T10:10:57Z",
+      "experience_required": null,
+      "german_requirement": "German requested; level/strictness unclear",
+      "skill_matches": {
+        "match": [
+          "application security",
+          "penetration testing",
+          "security reporting",
+          "stakeholder communication",
+          "threat modeling",
+          "vulnerability assessment",
+          "vulnerability management"
+        ],
+        "partial": [
+          "git",
+          "incident response"
+        ],
+        "missing": [
+          "azure",
+          "bug bounty",
+          "github security",
+          "iso 27001",
+          "kubernetes",
+          "rust",
+          "vulnerability disclosure program"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "- ☁️ Platform Security: You have experience securing a major cloud provider and Kubernetes environments, including areas such as sandboxing, multi-tenancy, or identity."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "azure",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- 🏢 Corporate IT Tooling: You're familiar with platforms such as Okta, Azure, or Drata and their role in securing corporate systems and supporting compliance."
+        },
+        {
+          "skill": "bug bounty",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories."
+        },
+        {
+          "skill": "github security",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories."
+        },
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- 📋 Security Assurance & Compliance: You've supported SOC 2 or ISO 27001 from an engineering perspective, including implementing technical controls or automating compliance evidence collection."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "You'll join our growing security team at a pivotal stage, acting as a trusted security partner to teams across the business."
+        },
+        {
+          "skill": "vulnerability disclosure program",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 14,
+        "experience": 10,
+        "location": 15,
+        "language": 4,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "Berlin remote role.",
+        "Evidenced matches include application security, penetration testing, security reporting, stakeholder communication, threat modeling."
+      ],
+      "warnings": [
+        "German requested; level/strictness unclear",
+        "Mandatory gaps: kubernetes",
+        "Potential gaps: azure, bug bounty, github security, iso 27001, rust, vulnerability disclosure program",
+        "Exposure only; do not claim deep expertise: git, incident response",
+        "Senior title is above the profile's current 2+ years",
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "The AI orchestration of your wildest imagination. n8n is the open workflow orchestration platform built for the new era of AI. We give technical teams the freedom of code with the speed of no-code, so they can automate faster, smarter, and without limits. Backed by a fiercely inventive community and 500+ builder-approved integrations, we’re changing the way people bring systems together and scale ideas for impact. Since our founding in 2019, we’ve grown into a diverse team of over 260 - working across Europe and the US, connected by a shared builder spirit and with our centre of gravity in Berlin. Along the way, we’ve: - Cultivated a community of more than 650,000 active developers and builders - Earned 190K+ GitHub stars, making us one of the world’s Top 40 most popular projects - Backed by top investors, from Sequoia’s first German seed to our SAP's recent strategic investment - bringing us to a $5.2bn valuation That’s the company we’ve built. Now we’d love to see what you can build. If you’re applying, try n8n out - whether you’re technical or not - and share a screenshot of your first workflow with us. The easiest place to start is here: app.n8n.cloud/register http://app.n8n.c…",
+      "full_description": "The AI orchestration of your wildest imagination.\n\nn8n is the open workflow orchestration platform built for the new era of AI. We give technical teams the freedom of code with the speed of no-code, so they can automate faster, smarter, and without limits. Backed by a fiercely inventive community and 500+ builder-approved integrations, we’re changing the way people bring systems together and scale ideas for impact.\n\nSince our founding in 2019, we’ve grown into a diverse team of over 260 - working across Europe and the US, connected by a shared builder spirit and with our centre of gravity in Berlin. Along the way, we’ve:\n\n- Cultivated a community of more than 650,000 active developers and builders\n\n- Earned 190K+ GitHub stars, making us one of the world’s Top 40 most popular projects\n\n- Backed by top investors, from Sequoia’s first German seed to our SAP's recent strategic investment - bringing us to a $5.2bn valuation\n\nThat’s the company we’ve built. Now we’d love to see what you can build. If you’re applying, try n8n out - whether you’re technical or not - and share a screenshot of your first workflow with us. The easiest place to start is here: app.n8n.cloud/register http://app.n8n.cloud/register.\n\nWe’re in a defining moment of an incredible journey. Come and build with us.\n\n🎯 Your main goal will be to identify and reduce security risks across n8n's product and internal systems, using threat modelling, hands-on security expertise, and cross-functional collaboration to help teams design, build, and operate more secure systems.\n\nYou'll join our growing security team at a pivotal stage, acting as a trusted security partner to teams across the business. You'll help us build a move from reactive security management to a proactive, scalable security practice.\n\nHere's what you'll be driving:\n\nTHREAT MODELLING, RISK ASSESSMENT & SECURITY DESIGN\n\n- Conduct threat modelling and risk assessments across product features, AI agents, cloud infrastructure, corporate IT, internal applications, and data systems, identifying vulnerabilities and recommending practical mitigations.\n\n- Partner with Engineering, Cloud, IT, and Data teams to review security designs, define actionable security requirements, and influence the implementation of appropriate controls.\n\n- Help teams embed security into their development processes through secure coding guidance, design reviews, documentation, and security tooling that enables them to identify and address risks independently.\n\nVULNERABILITY MANAGEMENT & COORDINATED DISCLOSURE\n\n- Participate in the security triage rotation, assessing incoming vulnerability reports, validating findings, and prioritising remediation based on severity and business impact.\n\n- Collaborate with engineering teams to coordinate vulnerability remediation, verify fixes, and support secure patch and release processes.\n\n- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories.\n\nSECURITY OPERATIONS & INCIDENT READINESS\n\n- Help establish and improve logging, detection, and protective monitoring capabilities across our infrastructure, corporate systems, and internal applications.\n\n- Develop and improve incident response processes, runbooks, and exercises to strengthen our ability to detect, investigate, and respond to security incidents.\n\n- Work closely with system owners to identify security gaps, prioritise remediation, and verify that implemented controls effectively reduce risk.\n\nCUSTOMER TRUST & COMPLIANCE ENGINEERING\n\n- Support SOC 2 compliance by helping establish continuous control monitoring, automated evidence collection, and processes that make security assurance part of everyday operations.\n\n- Collaborate with Sales, Solutions Engineering, and Customer Success to respond to customer security assessments and build reusable resources that streamline future requests.\n\n- Partner with Legal, Finance, IT, and other stakeholders to assess security risks, improve security policies and controls, and strengthen trust with enterprise customers.\n\nWe're hiring two Security Engineers with complementary strengths, so you don't need to be an expert in every security domain. \n\nREQUIREMENTS\n\nMUST-HAVES\n\n- 🔍 Threat Modelling & Risk Assessment: You have hands-on experience assessing real-world systems, identifying security risks, determining defensible severity levels, and recommending practical controls that teams can implement.\n\n- 🛠️ Technical Security Expertise: You can validate security findings, reproduce vulnerabilities, develop proof-of-concepts, and write code or automation when needed to demonstrate risks or improve security processes.\n\n- 🔐 Security Engineering Experience: You've worked hands-on in infrastructure, product, or application security within a product-focused organisation, with a strong understanding of how modern systems are designed and secured.\n\n- 🤝 Cross-functional Influence: You're comfortable acting as an internal security consultant, advising teams, challenging technical decisions constructively, and influencing stakeholders without direct authority.\n\n- 🎯 Risk Remediation & Ownership: You've helped secure systems you don't directly own, translating security findings into actionable requirements and working with responsible teams to ensure effective remediation.\n\n- 🤖 AI & LLM Fluency: You're comfortable using LLM-assisted tooling and understand its limitations, security implications, and potential failure modes.\n\n- ✍️ Clear Communication: You can explain complex security risks, document technical findings, and provide practical guidance that engineers and non-technical stakeholders can confidently act on.\n\nYou also bring deep expertise in at least two of the following areas:\n\n- 💻 Application Security: You've developed security checks, engineering guardrails, tooling, or guidance that helps product teams build and ship secure software.\n\n- ☁️ Platform Security: You have experience securing a major cloud provider and Kubernetes environments, including areas such as sandboxing, multi-tenancy, or identity.\n\n- 🔑 Corporate Security: You've worked on identity and access management, endpoint security, employee access lifecycles, or data access controls across corporate environments.\n\n- 🚨 Security Monitoring: You've implemented logging, protective monitoring, or security detection capabilities that support effective investigation and incident response.\n\n- 📋 Security Assurance & Compliance: You've supported SOC 2 or ISO 27001 from an engineering perspective, including implementing technical controls or automating compliance evidence collection.\n\nNICE-TO-HAVES\n\n- 🐛 Vulnerability Disclosure: You've helped operate bug bounty or coordinated vulnerability disclosure programmes, including publishing security advisories such as GHSAs or CVEs.\n\n- 🧠 AI & Agent Security: You have experience assessing or securing LLM-powered applications and AI agents, including risks related to permissions, tool access, prompt injection, or sensitive data.\n\n- 🏢 Corporate IT Tooling: You're familiar with platforms such as Okta, Azure, or Drata and their role in securing corporate systems and supporting compliance.\n\n- 🌍 Open-source Ecosystems: You've worked with open-source or source-available products, contributed to security communities, or are already familiar with n8n.\n\n- 🎯 Penetration Testing: You have practical penetration testing experience and can independently identify, demonstrate, and help remediate security vulnerabilities.\n\n- 🌱 Early-stage Security Experience: You've been an early security hire or helped establish security practices in a startup or rapidly scaling organisation.\n\nWhy join us?\n\nAt n8n, you'll help shape security at a defining stage of our growth. We're building a security practice that goes beyond reacting to vulnerabilities, and you'll play a key role in how we identify risks, influence engineering decisions, and establish security practices that scale with the business.\n\nYou'll work across a broad range of challenges, from securing AI-powered product features and our source-available automation platform to improving corporate security, strengthening incident readiness, and making compliance more automated. You'll have direct exposure to teams across the company, the opportunity to influence important technical decisions, and the autonomy to turn your expertise into measurable security improvements.\n\nSound like a challenge you're excited to take on?\n\nApply now — and help us build the future of secure automation.\n\nn8n is an equal opportunity employer and does not discriminate on the basis of race, religion, colour, national origin, gender, sexual orientation, gender identity, age, marital status, veteran status, or disability status.\n\nWe can sponsor visas to Germany; for any other country, you need to have existing right to work.\n\nOur company language is English.\n\nYou care about diversity and inclusion? We do too! Check out our Diversity, Inclusion and Belonging initiatives at n8n https://www.notion.so/Diversity-inclusion-and-belonging-n8n-c1bec2fff536422d868b1a438d990e35?pvs=21 (https://www.notion.so/n8n/Diversity-inclusion-and-belonging-n8n-c1bec2fff536422d868b1a438d990e35).\n\nLocation disclaimer: If you see multiple job postings for the same role, it is most likely because we're hiring remotely for this role and posting in different locations to make sure every potential candidate can see the role. Please apply to the location you're the most likely to work from in the future. \n\nBENEFITS \n\n- Competitive compensation 💸 – We offer fair and attractive pay.\n\n- Ownership 💪 – Our core value is to “empower others,” and we mean it—you’ll get a slice of n8n with equity.\n\n- Work/life balance 🏖️ – We work hard but ensure you have time to recharge:\n\n- Europe: 30 days of vacation, plus public holidays wherever you are.\n\n- US: 20 vacation days, 8 sick days, plus public holidays wherever you are.\n\n- Health & wellness 🩺 –\n\n- Europe: We provide benefits according to local country norms.*\n\n- US: Multiple low-premium, low-deductible medical plans with coverage for individuals and families—plus a no-cost premium HDHP option with a pre-seeded HSA—along with dental and vision coverage.\n\n- Future planning 💰 –\n\n- Europe: We provide pension contributions according to local country norms.*\n\n- US: 401(k) retirement plan with a 4% employer match.\n\n- Financial security 🛡️ –\n\n- Europe: We provide benefits according to local country norms.*\n\n- US: Company-paid short-term and long-term disability insurance, plus life insurance to support you and your loved ones.\n\n- Career growth 📈 – We hire rising stars who grow with us! You’ll get €1K (or equivalent) per year to spend on courses, books, events, or coaching to level up your skills.\n\n- A passionate team 🤩 – We love our product, and we prove it with regular hackathons where we see who can build the coolest thing with it!\n\n- Remote-first 🌏 – Our team works remotely across Europe, with regular off-sites for team bonding. Some roles, like sales in the US, are hybrid—please check the job description.\n\n- Giving back 🤝 – We're big fans of open source, and you'll get $100 per month to support projects you care about.\n\n- Transparency 🙏 – We all know what everyone’s working on, how the company is doing—the whole shebang.\n\n*Country and/or State specific details provided in your employment agreement.",
+      "skill_requirements": [
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "- ☁️ Platform Security: You have experience securing a major cloud provider and Kubernetes environments, including areas such as sandboxing, multi-tenancy, or identity."
+        },
+        {
+          "skill": "penetration testing",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "- 🎯 Penetration Testing: You have practical penetration testing experience and can independently identify, demonstrate, and help remediate security vulnerabilities."
+        },
+        {
+          "skill": "stakeholder communication",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "- ✍️ Clear Communication: You can explain complex security risks, document technical findings, and provide practical guidance that engineers and non-technical stakeholders can confidently act on."
+        },
+        {
+          "skill": "threat modeling",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "- 🔍 Threat Modelling & Risk Assessment: You have hands-on experience assessing real-world systems, identifying security risks, determining defensible severity levels, and recommending practical controls that teams can implement."
+        },
+        {
+          "skill": "application security",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "- 🔐 Security Engineering Experience: You've worked hands-on in infrastructure, product, or application security within a product-focused organisation, with a strong understanding of how modern systems are designed and secured."
+        },
+        {
+          "skill": "azure",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- 🏢 Corporate IT Tooling: You're familiar with platforms such as Okta, Azure, or Drata and their role in securing corporate systems and supporting compliance."
+        },
+        {
+          "skill": "bug bounty",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories."
+        },
+        {
+          "skill": "git",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "- Earned 190K+ GitHub stars, making us one of the world’s Top 40 most popular projects"
+        },
+        {
+          "skill": "github security",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories."
+        },
+        {
+          "skill": "incident response",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "- Develop and improve incident response processes, runbooks, and exercises to strengthen our ability to detect, investigate, and respond to security incidents."
+        },
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- 📋 Security Assurance & Compliance: You've supported SOC 2 or ISO 27001 from an engineering perspective, including implementing technical controls or automating compliance evidence collection."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "You'll join our growing security team at a pivotal stage, acting as a trusted security partner to teams across the business."
+        },
+        {
+          "skill": "security reporting",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "- Participate in the security triage rotation, assessing incoming vulnerability reports, validating findings, and prioritising remediation based on severity and business impact."
+        },
+        {
+          "skill": "vulnerability assessment",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "- Collaborate with Sales, Solutions Engineering, and Customer Success to respond to customer security assessments and build reusable resources that streamline future requests."
+        },
+        {
+          "skill": "vulnerability disclosure program",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories."
+        },
+        {
+          "skill": "vulnerability management",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "VULNERABILITY MANAGEMENT & COORDINATED DISCLOSURE"
+        }
+      ],
+      "german_analysis": {
+        "category": "unspecified",
+        "level": "unspecified",
+        "mandatory": false,
+        "label": "German requested; level/strictness unclear",
+        "evidence": "- Backed by top investors, from Sequoia’s first German seed to our SAP's recent strategic investment - bringing us to a $5.2bn valuation"
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 9,
       "job_key": "aeed9275b0fec6f82691",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1068,7 +1864,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 6,
+      "report_number": 10,
       "job_key": "3d69b8086319e3c5d304",
       "status": "NEW",
       "application_status": "NEW",
@@ -1242,1070 +2038,6 @@
         "evidence": ""
       },
       "experience_analysis": null
-    },
-    {
-      "report_number": 7,
-      "job_key": "d262fcc8afaadd54451b",
-      "status": "NEW",
-      "application_status": "NEW",
-      "score": 59,
-      "raw_score": 60,
-      "score_cap": 59,
-      "score_cap_reasons": [
-        "Mandatory experience requirement is 5+ years",
-        "Multiple explicitly mandatory skills are not evidenced"
-      ],
-      "score_label": "STRETCH",
-      "title": "Senior Network & Security Engineer (w/m/x/d)",
-      "company": "MILES Mobility",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin on-site role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "On-site"
-      },
-      "location_scope": "Berlin",
-      "working_model": "On-site",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "security engineer",
-          "vulnerability"
-        ]
-      },
-      "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
-      },
-      "url": "https://www.arbeitnow.com/jobs/companies/miles-mobility/senior-network-security-engineer-d-berlin-111274",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/miles-mobility/senior-network-security-engineer-d-berlin-111274",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/miles-mobility/senior-network-security-engineer-d-berlin-111274",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-10-13T13:30:57Z",
-      "posting_age_days": 0,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 0,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-10-14T10:27:05Z",
-      "experience_required": "5+ years",
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "vulnerability management"
-        ],
-        "partial": [
-          "incident response",
-          "security auditing"
-        ],
-        "missing": [
-          "gdpr",
-          "infrastructure as code",
-          "iso 27001",
-          "rust",
-          "secrets management",
-          "terraform"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "gdpr",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Working knowledge of GDPR and of what a security audit such as ISO 27001 asks for"
-        },
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Working knowledge of GDPR and of what a security audit such as ISO 27001 asks for"
-        },
-        {
-          "skill": "security auditing",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Working knowledge of GDPR and of what a security audit such as ISO 27001 asks for"
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "infrastructure as code",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Hands-on with one major cloud provider's networking and IAM, and with infrastructure as code such as Terraform or OpenTofu"
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Design, build and run our cloud networks: VPCs, routing, DNS, load balancing, private connectivity and zero-trust access for staff and services"
-        },
-        {
-          "skill": "secrets management",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Harden the platform: firewall and WAF policy, TLS and certificate lifecycle, secrets management, host and container baselines"
-        },
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Hands-on with one major cloud provider's networking and IAM, and with infrastructure as code such as Terraform or OpenTofu"
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 8,
-        "experience": 4,
-        "location": 15,
-        "language": 10,
-        "seniority": 4,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Security Engineering.",
-        "Berlin on-site role.",
-        "Evidenced matches include vulnerability management."
-      ],
-      "warnings": [
-        "Requests 5+ years versus approximately 2.1 years in the profile.",
-        "Mandatory gaps: gdpr, iso 27001, security auditing",
-        "Potential gaps: infrastructure as code, rust, secrets management, terraform",
-        "Exposure only; do not claim deep expertise: incident response, security auditing",
-        "Mandatory experience requirement is 5+ years",
-        "Multiple explicitly mandatory skills are not evidenced"
-      ],
-      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "Join the ride! You own the network and security posture of our platform end to end: the cloud environments our services run in, the connections between vehicles, offices (VPN), back-office systems (Admin-Tools), and the controls that keep customer and payment data safe. Our product runs on the street around the clock. Your work keeps it reachable, keeps the wrong people out, and makes every change to the network reviewable and reversible. Your Responsibility Design, build and run our cloud networks: VPCs, routing, DNS, load balancing, private connectivity and zero-trust access for staff and services Own identity and access: single sign-on, multi-factor authentication, roles and least-privilege access across cloud, tools and application systems Harden the platform: firewall and WAF policy, TLS and certificate lifecycle, secrets management, host and container baselines Run vulnerability management from scan to fix, and lead security incident response with clear write-ups Keep all network and security configuration as code, reviewed and deployed through CI Monitor for abuse and outages, and set alerting that wakes people only when it should Support audits and customer security questi…",
-      "full_description": "Join the ride!\n\nYou own the network and security posture of our platform end to end: the cloud\nenvironments our services run in, the connections between vehicles, offices (VPN),\nback-office systems (Admin-Tools), and the controls that keep customer and payment\ndata safe.\nOur product runs on the street around the clock. Your work keeps it reachable, keeps the\nwrong people out, and makes every change to the network reviewable and reversible. \n\nYour Responsibility\n\nDesign, build and run our cloud networks: VPCs, routing, DNS, load balancing, private connectivity and zero-trust access for staff and services\n\nOwn identity and access: single sign-on, multi-factor authentication, roles and least-privilege access across cloud, tools and application systems\n\nHarden the platform: firewall and WAF policy, TLS and certificate lifecycle, secrets management, host and container baselines\n\nRun vulnerability management from scan to fix, and lead security incident response with clear write-ups\n\nKeep all network and security configuration as code, reviewed and deployed through CI\n\nMonitor for abuse and outages, and set alerting that wakes people only when it should\n\nSupport audits and customer security questionnaires with evidence that already exists\n\nEffectively deploy and use AI agents\n\nYour Experience\n\n5+ years running production networks and security for an online service, with on-call experience\n\nDeep networking fundamentals: TCP/IP, DNS, TLS, routing, VPN and firewalls, on a public cloud and on physical office networks\n\nHands-on with one major cloud provider's networking and IAM, and with infrastructure as code such as Terraform or OpenTofu\n\nIdentity engineering in practice: OIDC and SAML single sign-on, MFA rollout, role design and access reviews\n\nSecurity operations: vulnerability scanning, log analysis, incident handling and clear post-incident write-ups\n\nComfortable with Linux, containers and CI pipelines, and able to read code in at least one language\n\nWorking knowledge of GDPR and of what a security audit such as ISO 27001 asks for\n\nFluent English, and eligible to work in Germany\n\nHighly desired \n\nExperience in mobility, logistics, IoT or another product with devices in the field talking to a backend\n\nZero-trust access tooling and web application firewalls in front of public services\n\nSecrets management and workload identity between CI and cloud, with no long-lived keys\n\nSecuring payment flows and card data, and the compliance work that comes with them\n\nDaily use of AI coding agents, reviewing their output like any pull request\n\nNice to have \n\nA valid driving licence (EU category B or equivalent). Testing the product includes trips on the road.\n\nDon't tick every box? Get in touch anyway. Your drive to learn and grow matters a lot to us. \n\nBenefits\n\nMobility: Choose between monthly MILES credits or the Deutschlandticket.\n\nFitness: Enjoy a subsidized Urban Sports Club membership for your physical and mental well-being.\n\nDiscounts: Access 1,500+ providers for discounts on sneakers, theater visits, and more.\n\nHome Office: Enjoy the flexibility of working from our office in Berlin and from home.\n\nRetirement: Secure your financial future with our attractive pension plan.\n\nGrowth: We prioritize personal development through knowledge sharing and training opportunities (with the support from our HR Team and the Team Leads).\n\nSocial Impact: We dedicate a portion of our revenue to support regional social projects, actively contributing to the well-being of society and the environment. #milescharity\n\nFind Jobs in Germany on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "gdpr",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Working knowledge of GDPR and of what a security audit such as ISO 27001 asks for"
-        },
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Working knowledge of GDPR and of what a security audit such as ISO 27001 asks for"
-        },
-        {
-          "skill": "security auditing",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Working knowledge of GDPR and of what a security audit such as ISO 27001 asks for"
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Run vulnerability management from scan to fix, and lead security incident response with clear write-ups"
-        },
-        {
-          "skill": "infrastructure as code",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Hands-on with one major cloud provider's networking and IAM, and with infrastructure as code such as Terraform or OpenTofu"
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Design, build and run our cloud networks: VPCs, routing, DNS, load balancing, private connectivity and zero-trust access for staff and services"
-        },
-        {
-          "skill": "secrets management",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Harden the platform: firewall and WAF policy, TLS and certificate lifecycle, secrets management, host and container baselines"
-        },
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Hands-on with one major cloud provider's networking and IAM, and with infrastructure as code such as Terraform or OpenTofu"
-        },
-        {
-          "skill": "vulnerability management",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Run vulnerability management from scan to fix, and lead security incident response with clear write-ups"
-        }
-      ],
-      "german_analysis": {
-        "category": "none",
-        "level": "none",
-        "mandatory": false,
-        "label": "No German requirement detected",
-        "evidence": ""
-      },
-      "experience_analysis": {
-        "min_years": 5,
-        "max_years": null,
-        "optional": false,
-        "display": "5+ years",
-        "evidence": "5+ years running production networks and security for an online service, with on-call experience"
-      }
-    },
-    {
-      "report_number": 8,
-      "job_key": "40b19b438b26cecdea1f",
-      "status": "NEW",
-      "application_status": "NEW",
-      "score": 59,
-      "raw_score": 65,
-      "score_cap": 59,
-      "score_cap_reasons": [
-        "Mandatory experience requirement is 5+ years",
-        "Multiple explicitly mandatory skills are not evidenced"
-      ],
-      "score_label": "STRETCH",
-      "title": "Security Engineer, Pre-Sales",
-      "company": "Vectranetworks",
-      "location": "Unspecified",
-      "location_analysis": {
-        "category": "eligible_worldwide_remote",
-        "eligible": true,
-        "score": 11,
-        "reason": "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
-        "verification_required": true,
-        "score_cap": 89,
-        "scope": "Worldwide remote",
-        "work_model": "Remote"
-      },
-      "location_scope": "Worldwide remote",
-      "working_model": "Remote",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "security engineer",
-          "security engineering",
-          "security architecture"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://www.arbeitnow.nl/jobs/companies/vectranetworks/security-engineer-pre-sales-449259",
-      "apply_url": "https://www.arbeitnow.nl/jobs/companies/vectranetworks/security-engineer-pre-sales-449259",
-      "canonical_url": "https://www.arbeitnow.nl/jobs/companies/vectranetworks/security-engineer-pre-sales-449259",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-10-12T09:55:04Z",
-      "posting_age_days": 1,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 1,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-10-13T12:52:26Z",
-      "experience_required": "5+ years",
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "penetration testing"
-        ],
-        "partial": [
-          "aws",
-          "incident response",
-          "siem"
-        ],
-        "missing": [
-          "azure",
-          "edr",
-          "rust"
-        ],
-        "nice_to_have": [
-          "active directory (missing)"
-        ]
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with cloud and hybrid security architectures, including AWS, Microsoft Azure, and Google Cloud Platform."
-        },
-        {
-          "skill": "azure",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Experience with cloud and hybrid security architectures, including AWS, Microsoft Azure, and Google Cloud Platform."
-        },
-        {
-          "skill": "edr",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Experience integrating security platforms with SIEM, SOAR, EDR, XDR, ticketing systems, and other security technologies."
-        },
-        {
-          "skill": "siem",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience integrating security platforms with SIEM, SOAR, EDR, XDR, ticketing systems, and other security technologies."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Working closely with Regional Sales Managers, you will serve as a trusted technical advisor throughout the sales cycle, partnering with customers, channel partners, and distributors to solve complex cybersecurity challenges."
-        }
-      ],
-      "optional_gaps": [
-        {
-          "skill": "active directory",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Understanding of identity technologies such as Microsoft Entra ID, Active Directory, or Okta is highly desirable."
-        }
-      ],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 11,
-        "experience": 4,
-        "location": 11,
-        "language": 10,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Security Engineering.",
-        "Worldwide/anywhere remote eligibility detected; verify employment from Germany.",
-        "Evidenced matches include penetration testing."
-      ],
-      "warnings": [
-        "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
-        "Requests 5+ years versus approximately 2.1 years in the profile.",
-        "Mandatory gaps: aws, azure, edr, siem",
-        "Potential gaps: rust",
-        "Optional gaps: active directory",
-        "Exposure only; do not claim deep expertise: aws, incident response, siem",
-        "Mandatory experience requirement is 5+ years",
-        "Multiple explicitly mandatory skills are not evidenced"
-      ],
-      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "Vectra® is the leader in AI-driven threat detection and response for hybrid and multi-cloud enterprises. The Vectra AI Platform delivers integrated signal across public cloud, SaaS, identity, and data center networks in a single platform. Powered by patented Attack Signal Intelligence, it empowers security teams to rapidly prioritize, investigate and respond to the most advanced cyber-attacks. With 35 patents in AI-driven threat detection and the most vendor references in MITRE D3FEND, organizations worldwide rely on the Vectra AI to move at the speed and scale of hybrid attackers. For more information, visit www.vectra.ai. Security Engineer (Pre-Sales) Company Summary Vectra AI delivers a new class of advanced threat defense that delivers real-time detection and analysis of active intrusions. Vectra technology picks up where perimeter security leaves off by providing deep, continuous analysis of both internal and Internet-facing network traffic to automatically detect all phases of a breach as attackers attempt to spy, spread, and steal within your network. Vectra AI directly analyzes network meta-data in real time using a patented combination of data science, machine learning, a…",
-      "full_description": "Vectra® is the leader in AI-driven threat detection and response for hybrid and multi-cloud enterprises.\n\nThe Vectra AI Platform delivers integrated signal across public cloud, SaaS, identity, and data center networks in a single platform. Powered by patented Attack Signal Intelligence, it empowers security teams to rapidly prioritize, investigate and respond to the most advanced cyber-attacks. With 35 patents in AI-driven threat detection and the most vendor references in MITRE D3FEND, organizations worldwide rely on the Vectra AI to move at the speed and scale of hybrid attackers. For more information, visit www.vectra.ai. \n\nSecurity Engineer (Pre-Sales) \n\nCompany Summary  \n\nVectra AI delivers a new class of advanced threat defense that delivers real-time detection and analysis of active intrusions. Vectra technology picks up where perimeter security leaves off by providing deep, continuous analysis of both internal and Internet-facing network traffic to automatically detect all phases of a breach as attackers attempt to spy, spread, and steal within your network.  \n  \nVectra AI directly analyzes network meta-data in real time using a patented combination of data science, machine learning, and behavioral analysis to detect attacker behaviors and user anomalies in the network. All detections are correlated and prioritized to show an attack in context. Meta-data extracted by the network of sensors are sent to data-lakes in order to perform Incident Response and forensic reconstruction.  \n\nPosition Overview \n\nAs a Security Engineer (Pre-Sales) at Vectra AI, you will combine technical expertise with consultative selling to help customers understand, evaluate, and adopt the Vectra AI Platform. \n\nWorking closely with Regional Sales Managers, you will serve as a trusted technical advisor throughout the sales cycle, partnering with customers, channel partners, and distributors to solve complex cybersecurity challenges. You will deliver technical presentations, demonstrations, proof-of-value engagements, and architectural guidance while helping customers understand how Vectra enables them to detect, investigate, and respond to modern hybrid attacks. \n\nResponsibilities \n\nPartner closely with Regional Sales Managers throughout the sales cycle as the trusted technical advisor. \n\nLead technical discovery sessions to understand customer requirements, security challenges, and desired business outcomes. \n\nDeliver compelling technical presentations, product demonstrations, workshops, and Proof of Value (PoV) engagements. \n\nDesign and recommend solution architectures that align with customer environments and security objectives. \n\nTranslate technical capabilities into measurable customer value and business outcomes. \n\nBuild and maintain trusted technical relationships with customers, channel partners, and distributors. \n\nSupport partner-led opportunities by enabling channel partners and distributors through technical coaching, demonstrations, and best practices. \n\nAdvise customers on integrating the Vectra AI Platform with their existing security ecosystem, including SIEM, SOAR, XDR, EDR, cloud, and identity platforms. \n\nPresent technical concepts confidently to audiences ranging from SOC analysts and security architects to CISOs and executive stakeholders. \n\nCollaborate with Product Management, Engineering, Customer Success, Marketing, and Sales to provide customer feedback and improve customer outcomes. \n\nMaintain expertise in the Vectra AI Platform, emerging cybersecurity threats, attack techniques, and competitive technologies. \n\nParticipate in account strategy, opportunity planning, forecast, and business review meetings. \n\nRepresent Vectra AI at customer events, partner enablement sessions, industry conferences, and technical workshops. \n\nMentor peers by sharing technical knowledge, best practices, and field feedback across the Security Engineering organization. \n\nTravel within the assigned region as required. \n\nExperience & Soft Skills \n\n5+ years of experience as a Security Engineer, Sales Engineer, Solutions Engineer, or in a similar customer-facing technical role. \n\nExperience supporting enterprise and strategic customer engagements. \n\nStrong consultative and customer-first mindset with excellent presentation and communication skills. \n\nAbility to communicate effectively with technical practitioners, security leadership, and executive stakeholders. \n\nComfortable leading technical discussions with customers from initial discovery through successful technical validation. \n\nComfortable working in a fast-paced, high-growth environment with a proactive, solution-oriented mindset. \n\nProven ability to build strong partnerships with Regional Sales Managers and cross-functional teams. \n\nExperience working with channel partners, distributors, and partner-led sales engagements is a strong plus. \n\nTechnical Qualification \n\nStrong understanding of modern cybersecurity technologies such as Network Detection and Response (NDR), Extended Detection and Response (XDR), Endpoint Detection and Response (EDR), SIEM, Identity Security, CASB, or Digital Forensics. \n\nStrong networking knowledge with the ability to understand and troubleshoot technologies across OSI Layers 3–7. \n\nExperience with cloud and hybrid security architectures, including AWS, Microsoft Azure, and Google Cloud Platform. \n\nUnderstanding of identity technologies such as Microsoft Entra ID, Active Directory, or Okta is highly desirable. \n\nExperience integrating security platforms with SIEM, SOAR, EDR, XDR, ticketing systems, and other security technologies. \n\nFamiliarity with modern security frameworks such as MITRE ATT&CK and the Cyber Kill Chain. \n\nStrong written communication skills, including RFP/RFI responses, and excellent verbal presentation skills. \n\nUnderstanding of attacker tactics, techniques, and procedures (Red Team/Penetration Testing). Certifications such as CEH, OSCP, or OSCE are a plus. \n\nUnderstanding of Incident Response and Blue Team methodologies. Certifications such as GCIH, GCFA, or GNFA are a plus. \n\nUnderstanding of security governance and industry best practices. Certifications such as CISSP are a plus. \n\nVectra provides a comprehensive total rewards package that supports the financial, physical, mental and overall health of our employees and their families. Compensation includes competitive base pay, incentive plan eligibility, and participation in the employee equity plan (stock options). Specific benefits offered varies by location, but commonly include health care insurance, income protection / life insurance, access to retirement savings plans, behavioral & emotional wellness services, generous time away from work, and a comprehensive employee recognition program. \n\nVectra is committed to creating a diverse environment and is proud to be an equal opportunity employer. \n\nWe are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. \n\nFind more English Speaking Jobs in Netherlands on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with cloud and hybrid security architectures, including AWS, Microsoft Azure, and Google Cloud Platform."
-        },
-        {
-          "skill": "azure",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Experience with cloud and hybrid security architectures, including AWS, Microsoft Azure, and Google Cloud Platform."
-        },
-        {
-          "skill": "edr",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Experience integrating security platforms with SIEM, SOAR, EDR, XDR, ticketing systems, and other security technologies."
-        },
-        {
-          "skill": "siem",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience integrating security platforms with SIEM, SOAR, EDR, XDR, ticketing systems, and other security technologies."
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Meta-data extracted by the network of sensors are sent to data-lakes in order to perform Incident Response and forensic reconstruction."
-        },
-        {
-          "skill": "penetration testing",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Understanding of attacker tactics, techniques, and procedures (Red Team/Penetration Testing)."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Working closely with Regional Sales Managers, you will serve as a trusted technical advisor throughout the sales cycle, partnering with customers, channel partners, and distributors to solve complex cybersecurity challenges."
-        },
-        {
-          "skill": "active directory",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Understanding of identity technologies such as Microsoft Entra ID, Active Directory, or Okta is highly desirable."
-        }
-      ],
-      "german_analysis": {
-        "category": "none",
-        "level": "none",
-        "mandatory": false,
-        "label": "No German requirement detected",
-        "evidence": ""
-      },
-      "experience_analysis": {
-        "min_years": 5,
-        "max_years": null,
-        "optional": false,
-        "display": "5+ years",
-        "evidence": "5+ years of experience as a Security Engineer, Sales Engineer, Solutions Engineer, or in a similar customer-facing technical role."
-      }
-    },
-    {
-      "report_number": 9,
-      "job_key": "32c54022816bcac2a151",
-      "status": "NEW",
-      "application_status": "NEW",
-      "score": 59,
-      "raw_score": 64,
-      "score_cap": 59,
-      "score_cap_reasons": [
-        "Mandatory experience requirement is 5+ years"
-      ],
-      "score_label": "STRETCH",
-      "title": "Senior Security Engineer",
-      "company": "Kestra Technologies",
-      "location": "Europe",
-      "location_analysis": {
-        "category": "eligible_europe_remote",
-        "eligible": true,
-        "score": 13,
-        "reason": "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
-        "verification_required": true,
-        "score_cap": 89,
-        "scope": "Europe remote",
-        "work_model": "Remote"
-      },
-      "location_scope": "Europe remote",
-      "working_model": "Remote",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "security engineer",
-          "security engineering",
-          "vulnerability"
-        ]
-      },
-      "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
-      },
-      "url": "https://www.arbeitnow.fr/jobs/companies/kestra-technologies/senior-security-engineer-villeneuve-dascq-8214",
-      "apply_url": "https://www.arbeitnow.fr/jobs/companies/kestra-technologies/senior-security-engineer-villeneuve-dascq-8214",
-      "canonical_url": "https://www.arbeitnow.fr/jobs/companies/kestra-technologies/senior-security-engineer-villeneuve-dascq-8214",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-09-20T01:40:09Z",
-      "posting_age_days": 0,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 0,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-09-20T10:22:50Z",
-      "experience_required": "5+ years",
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "dast",
-          "penetration testing",
-          "sast",
-          "secure code review",
-          "threat modeling"
-        ],
-        "partial": [
-          "aws",
-          "ci/cd",
-          "cloud security",
-          "devsecops",
-          "docker",
-          "git",
-          "github actions",
-          "incident response",
-          "javascript",
-          "product security"
-        ],
-        "missing": [
-          "github security",
-          "kubernetes",
-          "rust",
-          "terraform",
-          "vulnerability disclosure program"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
-        },
-        {
-          "skill": "cloud security",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
-        },
-        {
-          "skill": "devsecops",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role."
-        },
-        {
-          "skill": "docker",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
-        },
-        {
-          "skill": "product security",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "github security",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Security & Vulnerability Tools: Trivy, GitHub Security / Dependabot, Elastic Security"
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Trusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale."
-        },
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Infrastructure: Docker, Kubernetes, Terraform"
-        },
-        {
-          "skill": "vulnerability disclosure program",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Own our public security posture as an open-source project: vulnerability disclosure process, CVE handling, security advisories, and the trust model of our plugin ecosystem."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 14,
-        "experience": 4,
-        "location": 13,
-        "language": 10,
-        "seniority": 4,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Security Engineering.",
-        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country.",
-        "Evidenced matches include dast, penetration testing, sast, secure code review, threat modeling."
-      ],
-      "warnings": [
-        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
-        "Requests 5+ years versus approximately 2.1 years in the profile.",
-        "Mandatory gaps: aws, cloud security, devsecops, docker, kubernetes, product security",
-        "Potential gaps: github security, rust, terraform, vulnerability disclosure program",
-        "Exposure only; do not claim deep expertise: aws, ci/cd, cloud security, devsecops, docker, git",
-        "Mandatory experience requirement is 5+ years"
-      ],
-      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "About Kestra Kestra is the universal orchestration platform: open source, declarative, and designed to orchestrate data pipelines, IT automation, business workflows, and AI/agentic systems. Trusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale. The open-source project has close to 30,000 GitHub stars, hundreds of contributors, and a fast-growing global community. About the role Kestra runs arbitrary, user-defined code at scale. Our users write workflows that execute scripts, containers, and queries against their own production systems, through hundreds of community-built plugins, on a platform whose entire source code is public. That is an unusually rich attack surface, and securing it is a genuinely hard engineering problem rather than a checklist exercise. You would be our first dedicated security hire. We're looking for a Senior Security Engineer to own and elevate the end-to-end security posture of our platform, infrastructure, and open-source ecosystem. This is a unique, hybrid role for someone who excels at both sides of security: actively breaking systems to fin…",
-      "full_description": "About Kestra\n\nKestra is the universal orchestration platform: open source, declarative, and designed to orchestrate data pipelines, IT automation, business workflows, and AI/agentic systems.\n\nTrusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale. The open-source project has close to 30,000 GitHub stars, hundreds of contributors, and a fast-growing global community.\n\nAbout the role\n\nKestra runs arbitrary, user-defined code at scale. Our users write workflows that execute scripts, containers, and queries against their own production systems, through hundreds of community-built plugins, on a platform whose entire source code is public. That is an unusually rich attack surface, and securing it is a genuinely hard engineering problem rather than a checklist exercise.\n\nYou would be our first dedicated security hire. We're looking for a Senior Security Engineer to own and elevate the end-to-end security posture of our platform, infrastructure, and open-source ecosystem.\n\nThis is a unique, hybrid role for someone who excels at both sides of security: actively breaking systems to find vulnerabilities (hands-on penetration testing) and actively fixing them (opening PRs, patching infrastructure, and managing supply chain risks). If you want to build a world-class security foundation for a fast-growing open-source and SaaS platform, this role is for you.\n\nThis is a hands-on engineering role, not a GRC or compliance one.\n\nWhat you would do\n\nYour first six months would focus on the first three points below. The rest is where the role grows.\n\nConduct hands-on penetration testing and threat modeling across our web application, APIs, control plane, and cloud environments.\n\nManage end-to-end vulnerability tracking across our codebases, software dependencies (SCA), container images, and cloud infrastructure.\n\nProactively fix security flaws by writing patches, submitting Pull Requests (PRs), or collaborating directly with product teams to guide remediation.\n\nAudit and harden our cloud infrastructure (GCP, Kubernetes clusters, and networking configurations) against external and internal threats.\n\nAutomate security tooling into our CI/CD pipelines (SAST, DAST, dependency scanners) to catch CVEs before code reaches production.\n\nPerform security code reviews and evaluate third-party dependencies, open-source integrations, and supply-chain risks.\n\nLead incident response efforts and establish continuous monitoring, detection, and mitigation strategies.\n\nOwn our public security posture as an open-source project: vulnerability disclosure process, CVE handling, security advisories, and the trust model of our plugin ecosystem.\n\nOur Tech Stack\n\nSecurity & Vulnerability Tools: Trivy, GitHub Security / Dependabot, Elastic Security \n\nInfrastructure: Docker, Kubernetes, Terraform\n\nCloud: GCP\n\nProgramming language: Java, Typescript, Javascript\n\nDatastore: PostgreSQL, Elasticsearch\n\nQueuing: Redis, Kafka, AMQP\n\nMonitoring & Logs: ELK, Prometheus, Grafana\n\nDeployment & Repository: GitHub Actions, ArgoCD\n\nWhat we are looking for\n\n5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role.\n\nStrong hands-on penetration testing background, with proven ability to discover application, API, and network-level vulnerabilities.\n\nA builder/fixer mindset: You don't just export scanner PDFs; you can read code, understand exploits, write fixes, or provide clear remediation steps to engineers.\n\nDeep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker).\n\nExperience with dependency and supply-chain security (CVE management, open-source licensing, SCA tools).\n\nFluent in English and comfortable working autonomously in a fully remote environment.\n\nAdaptability to a fast-paced open-source startup environment where pragmatism and execution speed matter.\n\nPerks & Benefits\n\nWork from anywhere: We’re a remote-first company, so you can work from wherever feels like home. Plus, you’ll have access to coworking spaces worldwide if you ever need a change of scenery.\n\nHealth coverage: From medical support, dental, and vision, we've got you covered.\n\nHome office setup on us: We’ll provide all the equipment you need to work comfortably.\n\nOur Hiring Process\n\nWe aim to move quickly (2-3 weeks), but we can adjust the timeline if needed.\n\nIntro call with the hiring manager (30 min)\n\nTechnical scenario / Practical assessment (2 hours, asynchronous homework focusing on threat assessment and remediation)\n\nTeam chat with one of your future colleagues (30 min)\n\nFinal discussion with one of our co-founders (30 min)\n\nFind Jobs in France on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
-        },
-        {
-          "skill": "cloud security",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
-        },
-        {
-          "skill": "devsecops",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role."
-        },
-        {
-          "skill": "docker",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
-        },
-        {
-          "skill": "product security",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role."
-        },
-        {
-          "skill": "ci/cd",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Automate security tooling into our CI/CD pipelines (SAST, DAST, dependency scanners) to catch CVEs before code reaches production."
-        },
-        {
-          "skill": "dast",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Automate security tooling into our CI/CD pipelines (SAST, DAST, dependency scanners) to catch CVEs before code reaches production."
-        },
-        {
-          "skill": "git",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "The open-source project has close to 30,000 GitHub stars, hundreds of contributors, and a fast-growing global community."
-        },
-        {
-          "skill": "github actions",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Deployment & Repository: GitHub Actions, ArgoCD"
-        },
-        {
-          "skill": "github security",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Security & Vulnerability Tools: Trivy, GitHub Security / Dependabot, Elastic Security"
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Lead incident response efforts and establish continuous monitoring, detection, and mitigation strategies."
-        },
-        {
-          "skill": "javascript",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Programming language: Java, Typescript, Javascript"
-        },
-        {
-          "skill": "penetration testing",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "This is a unique, hybrid role for someone who excels at both sides of security: actively breaking systems to find vulnerabilities (hands-on penetration testing) and actively fixing them (opening PRs, patching infrastructure, and managing supply chain risks)."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Trusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale."
-        },
-        {
-          "skill": "sast",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Automate security tooling into our CI/CD pipelines (SAST, DAST, dependency scanners) to catch CVEs before code reaches production."
-        },
-        {
-          "skill": "secure code review",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Perform security code reviews and evaluate third-party dependencies, open-source integrations, and supply-chain risks."
-        },
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Infrastructure: Docker, Kubernetes, Terraform"
-        },
-        {
-          "skill": "threat modeling",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Conduct hands-on penetration testing and threat modeling across our web application, APIs, control plane, and cloud environments."
-        },
-        {
-          "skill": "vulnerability disclosure program",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Own our public security posture as an open-source project: vulnerability disclosure process, CVE handling, security advisories, and the trust model of our plugin ecosystem."
-        }
-      ],
-      "german_analysis": {
-        "category": "none",
-        "level": "none",
-        "mandatory": false,
-        "label": "No German requirement detected",
-        "evidence": ""
-      },
-      "experience_analysis": {
-        "min_years": 5,
-        "max_years": null,
-        "optional": false,
-        "display": "5+ years",
-        "evidence": "5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role."
-      }
-    },
-    {
-      "report_number": 10,
-      "job_key": "49da14a46b0c8770f5f3",
-      "status": "NEW",
-      "application_status": "NEW",
-      "score": 59,
-      "raw_score": 80,
-      "score_cap": 59,
-      "score_cap_reasons": [
-        "Multiple explicitly mandatory skills are not evidenced"
-      ],
-      "score_label": "STRETCH",
-      "title": "IT Infrastructure and Security Engineer",
-      "company": "Zentso S GmbH",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin on-site role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "On-site"
-      },
-      "location_scope": "Berlin",
-      "working_model": "On-site",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "security engineer",
-          "vulnerability"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://www.arbeitnow.com/jobs/companies/zentso-s-gmbh/it-infrastructure-and-security-engineer-berlin-315887",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/zentso-s-gmbh/it-infrastructure-and-security-engineer-berlin-315887",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/zentso-s-gmbh/it-infrastructure-and-security-engineer-berlin-315887",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-09-14T18:10:03Z",
-      "posting_age_days": 0,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 0,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-09-15T10:17:59Z",
-      "experience_required": "2+ years",
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "python",
-          "sast",
-          "vulnerability management"
-        ],
-        "partial": [
-          "ci/cd",
-          "docker",
-          "incident response",
-          "javascript",
-          "nist"
-        ],
-        "missing": [
-          "gdpr",
-          "go",
-          "infrastructure as code",
-          "iso 27001",
-          "kubernetes",
-          "powershell",
-          "system administration",
-          "terraform"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "docker",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Familiarity with Docker, containerd, Helm, and kubectl."
-        },
-        {
-          "skill": "gdpr",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Working knowledge of GDPR and experience supporting compliance controls."
-        },
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Familiarity with ISO 27001 audit/certification processes."
-        },
-        {
-          "skill": "nist",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "2+ years of experience in IT infrastructure, cloud operations, systems administration, or DevOps."
-        },
-        {
-          "skill": "system administration",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "2+ years of experience in IT infrastructure, cloud operations, systems administration, or DevOps."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Python, Go, C#, JavaScript/TypeScript), with willingness to build small infrastructure-related applications and tools."
-        },
-        {
-          "skill": "infrastructure as code",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Support infrastructure-as-code adoption and automate routine operations using PowerShell, shell scripting, and other languages."
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "This is a hands-on, junior-to-mid-level role working closely with the IT Infrastructure and Security Lead and the CTO, assisting with day-to-day operations, security tasks, and the ongoing migration toward a containerised, Kubernetes-based deployment model."
-        },
-        {
-          "skill": "powershell",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Support infrastructure-as-code adoption and automate routine operations using PowerShell, shell scripting, and other languages."
-        },
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Exposure to Terraform, Pulumi, Ansible, CI/CD, or GitOps."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 11,
-        "experience": 15,
-        "location": 15,
-        "language": 10,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Security Engineering.",
-        "Berlin on-site role.",
-        "Evidenced matches include python, sast, vulnerability management.",
-        "The detected experience requirement is within or close to the 2+ year profile."
-      ],
-      "warnings": [
-        "Mandatory gaps: docker, gdpr, iso 27001, nist, system administration",
-        "Potential gaps: go, infrastructure as code, kubernetes, powershell, terraform",
-        "Exposure only; do not claim deep expertise: ci/cd, docker, incident response, javascript, nist",
-        "Multiple explicitly mandatory skills are not evidenced"
-      ],
-      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "Zentso builds and operates CloudToolz, a revenue-critical SaaS platform layered on top of iMIS RiSE association management software, serving clients across the UK, Europe, United States, and Asia Pacific. The platform encompasses workflow automation, form building, CRM, CMS, and payment processing capabilities delivered to organisations in multiple sectors. We are seeking a motivated IT Infrastructure and Security Engineer to support the global infrastructure and security posture underpinning CloudToolz and Zentso's internal systems. This is a hands-on, junior-to-mid-level role working closely with the IT Infrastructure and Security Lead and the CTO, assisting with day-to-day operations, security tasks, and the ongoing migration toward a containerised, Kubernetes-based deployment model. The successful candidate will be comfortable working across a distributed, multi-region environment, contributing directly to uptime, security, and compliance outcomes for a production platform. A key part of this role is supporting Zentso's transition to Kubernetes and helping build out an observability practice around Grafana OSS, alongside contributing scripts and small applications that automat…",
-      "full_description": "Zentso builds and operates CloudToolz, a revenue-critical SaaS platform layered on top of iMIS RiSE association management software, serving clients across the UK, Europe, United States, and Asia Pacific. The platform encompasses workflow automation, form building, CRM, CMS, and payment processing capabilities delivered to organisations in multiple sectors.\n\nWe are seeking a motivated IT Infrastructure and Security Engineer to support the global infrastructure and security posture underpinning CloudToolz and Zentso's internal systems. This is a hands-on, junior-to-mid-level role working closely with the IT Infrastructure and Security Lead and the CTO, assisting with day-to-day operations, security tasks, and the ongoing migration toward a containerised, Kubernetes-based deployment model. The successful candidate will be comfortable working across a distributed, multi-region environment, contributing directly to uptime, security, and compliance outcomes for a production platform.\n\nA key part of this role is supporting Zentso's transition to Kubernetes and helping build out an observability practice around Grafana OSS, alongside contributing scripts and small applications that automate and support infrastructure operations.\n\nTasks\n\nInfrastructure and Platform Operations\n\nHelp manage global infrastructure spanning Windows Server 2022, SQL Server, MongoDB, Redis, and Cloudflare across four regions, supporting the availability, performance, and scalability of the revenue-critical CloudToolz platform.\n\nSupport deployments of new CloudToolz releases (ASP.NET Core, integrating with Dynamics, iMIS, Salesforce, and native CRM/CMS) and contribute to the Kubernetes migration, including cluster operations such as deployments, scaling, network policies, and RBAC.\n\nHelp build and maintain a Grafana OSS observability stack — dashboards, alerting, and integration with metrics, logs, and traces.Assist with DNS, CDN, WAF, and DDoS protection via Cloudflare; monitor system performance and participate in incident response and recovery.\n\nMaintain documentation, runbooks, and disaster recovery procedures.\n\nWrite shell scripts and small infrastructure-related applications (automation tools, monitoring utilities, internal dashboards) in coordination with the Infrastructure Lead.\n\nSecurity Operations\n\nSupport identity and access management, endpoint protection, and vulnerability management.\n\nHelp administer policies across Microsoft 365, Bitwarden, Bitdefender GravityZone, and KnowBe4.\n\nContribute to GDPR/ISO 27001-aligned data protection policies, security awareness training, phishing simulations, and threat monitoring/response.\n\nIT Systems Administration\n\nSupport Microsoft 365 administration (Exchange Online, SharePoint, Teams, Entra ID) and Salesforce administration within scope.\n\nShare responsibility for endpoint security and password management configuration.\n\nStrategy and Continuous Improvement\n\nProvide input on infrastructure scaling, architecture decisions, and the containerisation roadmap.\n\nSupport infrastructure-as-code adoption and automate routine operations using PowerShell, shell scripting, and other languages.\n\nContribute to sprint planning for environment-level requirements and participate in on-call rotation.\n\nRequirements\n\nEssential\n\n2+ years of experience in IT infrastructure, cloud operations, systems administration, or DevOps.\n\nHands-on experience with Windows Server 2022, SQL Server, MongoDB, and Redis in operational contexts.Practical Cloudflare experience (DNS, WAF, CDN, security features).\n\nWorking proficiency in Microsoft 365 administration, including Entra ID, Exchange Online, and SharePoint.\n\nHands-on Kubernetes experience: workload deployment, basic cluster operations, networking (ingress, network policies), and RBAC.\n\nSolid understanding of networking fundamentals (firewalls, VPNs, DNS, access control).\n\nWorking knowledge of GDPR and experience supporting compliance controls.\n\nAbility to write shell scripts and program in at least one modern language (e.g. Python, Go, C#, JavaScript/TypeScript), with willingness to build small infrastructure-related applications and tools.\n\nStrong communication skills and ability to work independently within a distributed, multi-time-zone team.\n\nPreferred\n\nExperience with Grafana OSS, Prometheus, and Loki.\n\nFamiliarity with Docker, containerd, Helm, and kubectl.\n\nCertifications such as MCSA, CompTIA Security+, CKA, or equivalent.\n\nFamiliarity with ISO 27001 audit/certification processes.\n\nPowerShell scripting for automation and reporting.\n\nExposure to Terraform, Pulumi, Ansible, CI/CD, or GitOps.\n\nSalesforce administration experience.\n\nBenefits\n\nThis is a full-time, permanent position based in Berlin, Germany, offered on a remote-first basis. The CloudToolz platform operates continuously across multiple regions; the role includes on-call and out-of-hours escalation responsibilities.\n\nSalary range: €55,000 – €75,000 per year\n\nPerformance bonus: Discretionary, based on individual and company performance\n\nPension: Employer contribution in line with local requirements\n\nFlexible working: Remote-first; flexible hours with availability for global coordination\n\nProbation: 6 months\n\nCompensation is commensurate with demonstrable experience and the scope of the role. The range reflects a small-business context while remaining competitive for the Berlin IT market for this level of responsibility.\n\nAbout Zentso\n\nZentso is a software company specialising in association management technology. We build and maintain the CloudToolz platform, which extends iMIS RiSE with advanced workflow automation, forms, analytics, CRM, CMS, and payment processing capabilities. Our clients include national professional associations, peak bodies, and member-based organisations across Australia, the UK, and the Asia Pacific region.\n\nWe operate as a small, distributed team with a strong emphasis on technical ownership, direct communication, and pragmatic decision-making. The right person for this role will be someone who takes genuine satisfaction in keeping complex systems running reliably and securely, and who can operate with a high degree of autonomy.\n\nNote: Please include a cover letter with your CV explaining why you believe your qualifications and experience make you a strong fit for this position.\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "docker",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Familiarity with Docker, containerd, Helm, and kubectl."
-        },
-        {
-          "skill": "gdpr",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Working knowledge of GDPR and experience supporting compliance controls."
-        },
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Familiarity with ISO 27001 audit/certification processes."
-        },
-        {
-          "skill": "nist",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "2+ years of experience in IT infrastructure, cloud operations, systems administration, or DevOps."
-        },
-        {
-          "skill": "system administration",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "2+ years of experience in IT infrastructure, cloud operations, systems administration, or DevOps."
-        },
-        {
-          "skill": "ci/cd",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Exposure to Terraform, Pulumi, Ansible, CI/CD, or GitOps."
-        },
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Python, Go, C#, JavaScript/TypeScript), with willingness to build small infrastructure-related applications and tools."
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "monitor system performance and participate in incident response and recovery."
-        },
-        {
-          "skill": "infrastructure as code",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Support infrastructure-as-code adoption and automate routine operations using PowerShell, shell scripting, and other languages."
-        },
-        {
-          "skill": "javascript",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Python, Go, C#, JavaScript/TypeScript), with willingness to build small infrastructure-related applications and tools."
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "This is a hands-on, junior-to-mid-level role working closely with the IT Infrastructure and Security Lead and the CTO, assisting with day-to-day operations, security tasks, and the ongoing migration toward a containerised, Kubernetes-based deployment model."
-        },
-        {
-          "skill": "powershell",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Support infrastructure-as-code adoption and automate routine operations using PowerShell, shell scripting, and other languages."
-        },
-        {
-          "skill": "python",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Python, Go, C#, JavaScript/TypeScript), with willingness to build small infrastructure-related applications and tools."
-        },
-        {
-          "skill": "sast",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Maintain documentation, runbooks, and disaster recovery procedures."
-        },
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Exposure to Terraform, Pulumi, Ansible, CI/CD, or GitOps."
-        },
-        {
-          "skill": "vulnerability management",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Support identity and access management, endpoint protection, and vulnerability management."
-        }
-      ],
-      "german_analysis": {
-        "category": "none",
-        "level": "none",
-        "mandatory": false,
-        "label": "No German requirement detected",
-        "evidence": ""
-      },
-      "experience_analysis": {
-        "min_years": 2,
-        "max_years": null,
-        "optional": false,
-        "display": "2+ years",
-        "evidence": "2+ years of experience in IT infrastructure, cloud operations, systems administration, or DevOps."
-      }
     }
   ],
   "analysis_request": {
