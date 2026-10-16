@@ -7240,6 +7240,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-10-16T10:02:11Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 8860,
+      "security_title_candidates": 270,
+      "prefiltered_non_security_jobs": 8590,
+      "unique_jobs_after_deduplication": 202,
+      "duplicates_removed": 68,
+      "jobs_rejected_or_below_threshold": 8777,
+      "relevant_jobs_in_current_run": 15,
+      "new_jobs": 3,
+      "updated_jobs": 2,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 43,
+      "jobs_by_source": {
+        "arbeitnow": 2170,
+        "remotive": 15,
+        "linkedin_posts": 0,
+        "greenhouse": 6202,
+        "ashby": 218,
+        "lever": 98,
+        "personio": 157,
+        "recruitee": 0
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 27.1,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2170,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 15,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 6202,
+          "requests": 61,
+          "errors": [],
+          "error": "",
+          "companies_checked": 61,
+          "companies_successful": 61,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 218,
+          "requests": 8,
+          "errors": [],
+          "error": "",
+          "companies_checked": 8,
+          "companies_successful": 8,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 98,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 157,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "idle",
+          "ok": true,
+          "jobs": 0,
+          "requests": 0,
+          "errors": [],
+          "error": "",
+          "companies_checked": 0,
+          "companies_successful": 0,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -14079,6 +14192,53 @@
       "event": "REMOVED",
       "company": "Superhuman",
       "title": "Corporate Security Engineer"
+    },
+    {
+      "at": "2026-10-16T10:02:11Z",
+      "job_key": "86d0e27ef416b6621d0d",
+      "event": "UPDATED",
+      "company": "Vivid",
+      "title": "Security Engineer (Hybrid or Remote)",
+      "score": 69
+    },
+    {
+      "at": "2026-10-16T10:02:11Z",
+      "job_key": "6118ade6193514055a1c",
+      "event": "UPDATED",
+      "company": "N8N",
+      "title": "Sr Security Engineer | Remote | Europe",
+      "score": 66
+    },
+    {
+      "at": "2026-10-16T10:02:11Z",
+      "job_key": "3256d24bfeb9b7759cfb",
+      "event": "NEW",
+      "company": "HelloFresh",
+      "title": "Security Engineer, SOC (all genders)",
+      "score": 69
+    },
+    {
+      "at": "2026-10-16T10:02:11Z",
+      "job_key": "697670f71dcd9793a00c",
+      "event": "NEW",
+      "company": "Mozilla",
+      "title": "Senior Security GRC Engineer",
+      "score": 52
+    },
+    {
+      "at": "2026-10-16T10:02:11Z",
+      "job_key": "db8aaa804d8c25ef23c4",
+      "event": "NEW",
+      "company": "Wire Germany GmbH",
+      "title": "Senior Security Engineer (f/m/d)",
+      "score": 59
+    },
+    {
+      "at": "2026-10-16T10:02:11Z",
+      "job_key": "49da14a46b0c8770f5f3",
+      "event": "REMOVED",
+      "company": "Zentso S GmbH",
+      "title": "IT Infrastructure and Security Engineer"
     }
   ]
 }
