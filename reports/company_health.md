@@ -1,19 +1,19 @@
 # Employer Watchlist Health
 
-**Generated:** 2026-10-16T10:02:11Z
-**Scan mode:** Daily
+**Generated:** 2026-10-18T10:10:22Z
+**Scan mode:** Full
 **Configured employers:** 200
-**Healthy after a completed check:** 194
-**Cooling down:** 6
-**Invalid identifiers:** 6
+**Healthy after a completed check:** 192
+**Cooling down:** 8
+**Invalid identifiers:** 7
 
 ## Scan coverage
 
-- **Greenhouse:** 61/172 selected; 106 scheduled for another batch; 5 cooling down
-- **Ashby:** 8/13 selected; 4 scheduled for another batch; 1 cooling down
-- **Lever:** 2/6 selected; 4 scheduled for another batch; 0 cooling down
-- **Personio:** 3/7 selected; 4 scheduled for another batch; 0 cooling down
-- **Recruitee:** 0/2 selected; 2 scheduled for another batch; 0 cooling down
+- **Greenhouse:** 167/172 selected; 0 scheduled for another batch; 5 cooling down
+- **Ashby:** 12/13 selected; 0 scheduled for another batch; 1 cooling down
+- **Lever:** 6/6 selected; 0 scheduled for another batch; 0 cooling down
+- **Personio:** 7/7 selected; 0 scheduled for another batch; 0 cooling down
+- **Recruitee:** 2/2 selected; 0 scheduled for another batch; 0 cooling down
 
 ## Verified security hiring watch
 
@@ -40,3 +40,5 @@
 - **Magic Leap (greenhouse):** invalid_identifier; next retry 2026-11-10T11:54:14Z; Greenhouse | Magic Leap | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found
 - **Marqeta (greenhouse):** invalid_identifier; next retry 2026-11-03T11:36:53Z; Greenhouse | Marqeta | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/marqeta/jobs?content=true: HTTP Error 404: Not Found
 - **Postman (greenhouse):** invalid_identifier; next retry 2026-10-20T10:22:50Z; Greenhouse | Postman | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found
+- **Remote (greenhouse):** invalid_identifier; next retry 2026-11-17T10:10:22Z; Greenhouse | Remote | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/remotecom/jobs?content=true: HTTP Error 404: Not Found
+- **Saviynt (lever):** temporarily_failed; next retry 2026-10-19T10:10:22Z; Lever | Saviynt | RuntimeError | Request failed after 1 attempt(s): https://api.lever.co/v0/postings/saviynt?mode=json: The read operation timed out

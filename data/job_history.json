@@ -7353,6 +7353,137 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-10-18T10:10:22Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 25406,
+      "security_title_candidates": 858,
+      "prefiltered_non_security_jobs": 24548,
+      "unique_jobs_after_deduplication": 665,
+      "duplicates_removed": 193,
+      "jobs_rejected_or_below_threshold": 25198,
+      "relevant_jobs_in_current_run": 15,
+      "new_jobs": 1,
+      "updated_jobs": 5,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 2,
+      "report_jobs": 43,
+      "jobs_by_source": {
+        "arbeitnow": 2165,
+        "remotive": 12,
+        "linkedin_posts": 0,
+        "greenhouse": 21433,
+        "ashby": 432,
+        "lever": 1174,
+        "personio": 184,
+        "recruitee": 6
+      },
+      "employer_mode": "full",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 49.2,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2165,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 12,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 21433,
+          "requests": 167,
+          "errors": [
+            {
+              "source": "greenhouse",
+              "company": "Remote",
+              "http_status": 404,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/remotecom/jobs?content=true: HTTP Error 404: Not Found",
+              "message": "Greenhouse | Remote | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/remotecom/jobs?content=true: HTTP Error 404: Not Found"
+            }
+          ],
+          "error": "Greenhouse | Remote | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/remotecom/jobs?content=true: HTTP Error 404: Not Found",
+          "companies_checked": 167,
+          "companies_successful": 166,
+          "companies_failed": 1
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 432,
+          "requests": 12,
+          "errors": [],
+          "error": "",
+          "companies_checked": 12,
+          "companies_successful": 12,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 1174,
+          "requests": 6,
+          "errors": [
+            {
+              "source": "lever",
+              "company": "Saviynt",
+              "http_status": null,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://api.lever.co/v0/postings/saviynt?mode=json: The read operation timed out",
+              "message": "Lever | Saviynt | RuntimeError | Request failed after 1 attempt(s): https://api.lever.co/v0/postings/saviynt?mode=json: The read operation timed out"
+            }
+          ],
+          "error": "Lever | Saviynt | RuntimeError | Request failed after 1 attempt(s): https://api.lever.co/v0/postings/saviynt?mode=json: The read operation timed out",
+          "companies_checked": 6,
+          "companies_successful": 5,
+          "companies_failed": 1
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 184,
+          "requests": 7,
+          "errors": [],
+          "error": "",
+          "companies_checked": 7,
+          "companies_successful": 7,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 6,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -14239,6 +14370,61 @@
       "event": "REMOVED",
       "company": "Zentso S GmbH",
       "title": "IT Infrastructure and Security Engineer"
+    },
+    {
+      "at": "2026-10-18T10:10:22Z",
+      "job_key": "d262fcc8afaadd54451b",
+      "event": "UPDATED",
+      "company": "MILES Mobility GmbH",
+      "title": "Senior Network & Security Engineer (w/m/x/d)",
+      "score": 59
+    },
+    {
+      "at": "2026-10-18T10:10:22Z",
+      "job_key": "171bfc75c1783e9c88e5",
+      "event": "NEW",
+      "company": "Wire 1",
+      "title": "Senior Security Engineer (f/m/d)",
+      "score": 59
+    },
+    {
+      "at": "2026-10-18T10:10:22Z",
+      "job_key": "3256d24bfeb9b7759cfb",
+      "event": "UPDATED",
+      "company": "HelloFresh",
+      "title": "Security Engineer, SOC (all genders)",
+      "score": 69
+    },
+    {
+      "at": "2026-10-18T10:10:22Z",
+      "job_key": "4afa9462370d50b6650c",
+      "event": "UPDATED",
+      "company": "HelloFresh",
+      "title": "Security Engineer (ITSec) (m,f,x)",
+      "score": 64
+    },
+    {
+      "at": "2026-10-18T10:10:22Z",
+      "job_key": "697670f71dcd9793a00c",
+      "event": "UPDATED",
+      "company": "Mozilla",
+      "title": "Senior Security GRC Engineer",
+      "score": 59
+    },
+    {
+      "at": "2026-10-18T10:10:22Z",
+      "job_key": "6118ade6193514055a1c",
+      "event": "UPDATED",
+      "company": "n8n",
+      "title": "Sr Security Engineer | Remote | Europe",
+      "score": 66
+    },
+    {
+      "at": "2026-10-18T10:10:22Z",
+      "job_key": "a418151dcfecc6e96393",
+      "event": "REMOVED",
+      "company": "Eye Security",
+      "title": "Future opportunities - Women4Cyber"
     }
   ]
 }

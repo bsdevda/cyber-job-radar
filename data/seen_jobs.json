@@ -208,7 +208,7 @@
   },
   "521c71dc83dfa3787db3": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-16T10:02:11Z",
+    "last_seen": "2026-10-18T10:10:22Z",
     "content_hash": "2c040214033ea8916a3acfc5d53099f7b45d4e07ed4a37d2804853d325041e92",
     "status": "SEEN_BEFORE",
     "company": "Staffbase",
@@ -460,7 +460,7 @@
   },
   "9ba7cf301be480a6ff9f": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-16T10:02:11Z",
+    "last_seen": "2026-10-18T10:10:22Z",
     "content_hash": "695565afccbc0ea27aed88980573bdd4151d8c3a3fd8cfff9885244f400ab84b",
     "status": "SEEN_BEFORE",
     "company": "NavVis",
@@ -3214,7 +3214,7 @@
   },
   "adf40ac5904cb1b075ac": {
     "first_seen": "2026-08-15T17:01:09Z",
-    "last_seen": "2026-10-16T10:02:11Z",
+    "last_seen": "2026-10-18T10:10:22Z",
     "content_hash": "b5d79684c158dd21a22b161caeb7fc7ce838b589f10eb85b95807e2a1ac10691",
     "status": "SEEN_BEFORE",
     "company": "Qdrant",
@@ -3385,7 +3385,7 @@
   },
   "b420e12f1f07d8e20c57": {
     "first_seen": "2026-08-16T17:17:56Z",
-    "last_seen": "2026-10-16T10:02:11Z",
+    "last_seen": "2026-10-18T10:10:22Z",
     "content_hash": "c1d53540907aed6663126b5ecb81087605b40a04545b613152414e913fa65582",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3529,7 +3529,7 @@
   },
   "b0c87693b777ab13ba5f": {
     "first_seen": "2026-08-23T06:28:18Z",
-    "last_seen": "2026-10-15T10:10:57Z",
+    "last_seen": "2026-10-18T10:10:22Z",
     "content_hash": "6d97a01237d331410ffd7ca9817d8e7480fed185a9095d263a459cd4ddbf1841",
     "status": "SEEN_BEFORE",
     "company": "Wiz",
@@ -3619,9 +3619,9 @@
   },
   "4afa9462370d50b6650c": {
     "first_seen": "2026-08-27T16:38:50Z",
-    "last_seen": "2026-10-16T10:02:11Z",
-    "content_hash": "e388309e9ce8f7c4e88a62d85ab323578b783bd32ce2aceec8fdeb7c53eeb25f",
-    "status": "SEEN_BEFORE",
+    "last_seen": "2026-10-18T10:10:22Z",
+    "content_hash": "bfee420941f7c992f0d542a3214dd98dec18900b0055b2d3a890de801c44e422",
+    "status": "UPDATED",
     "company": "HelloFresh",
     "title": "Security Engineer (ITSec) (m,f,x)",
     "url": "https://careers.hellofresh.com/global/en/job/8146732?gh_jid=8146732"
@@ -3729,7 +3729,7 @@
     "first_seen": "2026-09-15T10:17:59Z",
     "last_seen": "2026-09-18T09:58:20Z",
     "content_hash": "39a97db6e5f1d91091d0abcf5c246b18204de1af218235066bff841be85c5233",
-    "status": "SEEN_BEFORE",
+    "status": "REMOVED",
     "company": "Eye Security",
     "title": "Future opportunities - Women4Cyber",
     "url": "https://jobs.ashbyhq.com/eye-security/20488c23-3818-41a0-a593-26f79f404f38"
@@ -3772,7 +3772,7 @@
   },
   "240800e330239220c3d1": {
     "first_seen": "2026-09-30T11:17:18Z",
-    "last_seen": "2026-10-16T10:02:11Z",
+    "last_seen": "2026-10-18T10:10:22Z",
     "content_hash": "022807eaf926d00eae9ae0004e465698cedacb61e07b2d976bc8185a02f43884",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3808,7 +3808,7 @@
   },
   "729a044bba71f5b2b24a": {
     "first_seen": "2026-10-01T11:44:36Z",
-    "last_seen": "2026-10-16T10:02:11Z",
+    "last_seen": "2026-10-18T10:10:22Z",
     "content_hash": "b53f439b644e8b2c0cf34ef5a6c4f5e60ce03f57dc30ce5e2ed7e74f78e75c3d",
     "status": "SEEN_BEFORE",
     "company": "N26",
@@ -3853,7 +3853,7 @@
   },
   "1d8705aa550b912143d8": {
     "first_seen": "2026-10-07T11:55:14Z",
-    "last_seen": "2026-10-16T10:02:11Z",
+    "last_seen": "2026-10-18T10:10:22Z",
     "content_hash": "3aa41d70911562622ed6770353b4e0684fa21f01fd13607cd0cc36fea54351b3",
     "status": "SEEN_BEFORE",
     "company": "KAYAK",
@@ -3871,21 +3871,21 @@
   },
   "d262fcc8afaadd54451b": {
     "first_seen": "2026-10-14T10:27:05Z",
-    "last_seen": "2026-10-15T10:10:57Z",
-    "content_hash": "248c608e24ae3c5bd41c75ca92a5052c358cdd3ee4ca715f3b7aa6b3044a9cad",
+    "last_seen": "2026-10-18T10:10:22Z",
+    "content_hash": "519a1289970c808d9ec2b6dc1e3087bc520867faa9a9763e295556945fadfc16",
     "status": "UPDATED",
-    "company": "MILES Mobility",
+    "company": "MILES Mobility GmbH",
     "title": "Senior Network & Security Engineer (w/m/x/d)",
-    "url": "https://www.arbeitnow.com/jobs/companies/miles-mobility/senior-network-security-engineer-d-berlin-111274"
+    "url": "https://www.arbeitnow.com/jobs/companies/miles-mobility-gmbh/senior-network-security-engineer-d-berlin-56929"
   },
   "6118ade6193514055a1c": {
     "first_seen": "2026-10-15T10:10:57Z",
-    "last_seen": "2026-10-16T10:02:11Z",
-    "content_hash": "7c7fa2f2edddb8aea286858bd90ec0049faf5313ce73306fc3ba245faff6009f",
+    "last_seen": "2026-10-18T10:10:22Z",
+    "content_hash": "e416241bcfb596cddb1a6c281456d0626a209ad6ecbd014a7114887bb7c85ffb",
     "status": "UPDATED",
-    "company": "N8N",
+    "company": "n8n",
     "title": "Sr Security Engineer | Remote | Europe",
-    "url": "https://www.arbeitnow.com/jobs/companies/n8n/sr-security-engineer-remote-europe-berlin-198654"
+    "url": "https://jobs.ashbyhq.com/n8n/49e569f0-503e-4e42-a1ba-7e63684e90d3"
   },
   "433bfc7aba2524337972": {
     "first_seen": "2026-10-15T10:10:57Z",
@@ -3907,29 +3907,38 @@
   },
   "3256d24bfeb9b7759cfb": {
     "first_seen": "2026-10-16T10:02:11Z",
-    "last_seen": "2026-10-16T10:02:11Z",
-    "content_hash": "16945b5e3d079de067fb296f154a059975423fa18b63963f597dd9e263f15ac6",
-    "status": "NEW",
+    "last_seen": "2026-10-18T10:10:22Z",
+    "content_hash": "4b1a3e6454580c28933ad42688300c547151cb7f958544847649ca36dc0a8e38",
+    "status": "UPDATED",
     "company": "HelloFresh",
     "title": "Security Engineer, SOC (all genders)",
     "url": "https://careers.hellofresh.com/global/en/job/8281022?gh_jid=8281022"
   },
   "697670f71dcd9793a00c": {
     "first_seen": "2026-10-16T10:02:11Z",
-    "last_seen": "2026-10-16T10:02:11Z",
-    "content_hash": "9c8865dd3218153f837cb517ff732c2afd112e8e9ee02593888b77c6e58e5e78",
-    "status": "NEW",
+    "last_seen": "2026-10-18T10:10:22Z",
+    "content_hash": "20adbe249f6cf83cac6756f8fd8e788adf50f213937c49552518f9419a9d0961",
+    "status": "UPDATED",
     "company": "Mozilla",
     "title": "Senior Security GRC Engineer",
     "url": "https://job-boards.greenhouse.io/mozilla/jobs/8122100"
   },
   "db8aaa804d8c25ef23c4": {
     "first_seen": "2026-10-16T10:02:11Z",
-    "last_seen": "2026-10-16T10:02:11Z",
+    "last_seen": "2026-10-18T10:10:22Z",
     "content_hash": "3e71a8ab268a9796bc9323b34da7a569b87196aa93f499cf6078cd0fc2deba00",
-    "status": "NEW",
+    "status": "SEEN_BEFORE",
     "company": "Wire Germany GmbH",
     "title": "Senior Security Engineer (f/m/d)",
     "url": "https://wire-1.jobs.personio.de/job/2840727?language=en"
+  },
+  "171bfc75c1783e9c88e5": {
+    "first_seen": "2026-10-18T10:10:22Z",
+    "last_seen": "2026-10-18T10:10:22Z",
+    "content_hash": "a5e549e2111fe85242819806f29d802540d91dd8432f244a5f1e489362474034",
+    "status": "NEW",
+    "company": "Wire 1",
+    "title": "Senior Security Engineer (f/m/d)",
+    "url": "https://www.arbeitnow.com/jobs/companies/wire-1/senior-security-engineer-berlin-247112"
   }
 }
