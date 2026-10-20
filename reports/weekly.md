@@ -1,13 +1,13 @@
 # Weekly Job Radar Analytics
 
 **Week starting:** 2026-10-19
-**Generated:** 2026-10-19T11:04:26Z
-**Active relevant jobs:** 15
+**Generated:** 2026-10-20T10:17:39Z
+**Active relevant jobs:** 16
 
 ## Role-family demand
 
 - **Security Engineering:** 11
-- **IT Audit / GRC:** 2
+- **IT Audit / GRC:** 3
 - **Product Security:** 1
 - **SOC / Detection and Response:** 1
 
@@ -16,10 +16,10 @@
 ### Explicit mandatory gaps
 
 - **aws:** 5 job(s)
+- **nist:** 4 job(s)
 - **rust:** 3 job(s)
 - **kubernetes:** 3 job(s)
 - **incident response:** 3 job(s)
-- **nist:** 3 job(s)
 - **software development:** 2 job(s)
 - **iso 27001:** 2 job(s)
 - **cloud security:** 2 job(s)
@@ -61,11 +61,11 @@
 - **aws:** 6 job(s)
 - **siem:** 5 job(s)
 - **product security:** 5 job(s)
+- **nist:** 4 job(s)
 - **cloud security:** 4 job(s)
 - **javascript:** 3 job(s)
 - **security auditing:** 3 job(s)
 - **git:** 3 job(s)
-- **nist:** 3 job(s)
 - **splunk:** 2 job(s)
 - **ci/cd:** 2 job(s)
 

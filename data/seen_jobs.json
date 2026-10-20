@@ -208,7 +208,7 @@
   },
   "521c71dc83dfa3787db3": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-19T11:04:26Z",
+    "last_seen": "2026-10-20T10:17:39Z",
     "content_hash": "2c040214033ea8916a3acfc5d53099f7b45d4e07ed4a37d2804853d325041e92",
     "status": "SEEN_BEFORE",
     "company": "Staffbase",
@@ -460,7 +460,7 @@
   },
   "9ba7cf301be480a6ff9f": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-19T11:04:26Z",
+    "last_seen": "2026-10-20T10:17:39Z",
     "content_hash": "695565afccbc0ea27aed88980573bdd4151d8c3a3fd8cfff9885244f400ab84b",
     "status": "SEEN_BEFORE",
     "company": "NavVis",
@@ -3214,7 +3214,7 @@
   },
   "adf40ac5904cb1b075ac": {
     "first_seen": "2026-08-15T17:01:09Z",
-    "last_seen": "2026-10-19T11:04:26Z",
+    "last_seen": "2026-10-20T10:17:39Z",
     "content_hash": "b5d79684c158dd21a22b161caeb7fc7ce838b589f10eb85b95807e2a1ac10691",
     "status": "SEEN_BEFORE",
     "company": "Qdrant",
@@ -3385,9 +3385,9 @@
   },
   "b420e12f1f07d8e20c57": {
     "first_seen": "2026-08-16T17:17:56Z",
-    "last_seen": "2026-10-19T11:04:26Z",
+    "last_seen": "2026-10-20T10:17:39Z",
     "content_hash": "3c111a040ba232739fbe1eaa732d0f792164e29972adefad39a2444c69f7da1b",
-    "status": "UPDATED",
+    "status": "SEEN_BEFORE",
     "company": "Mozilla",
     "title": "Senior Software Engineer, Firefox Security",
     "url": "https://job-boards.greenhouse.io/mozilla/jobs/8259797"
@@ -3619,8 +3619,8 @@
   },
   "4afa9462370d50b6650c": {
     "first_seen": "2026-08-27T16:38:50Z",
-    "last_seen": "2026-10-19T11:04:26Z",
-    "content_hash": "1f34234a1f57842f7dd537ee03c68a3aafa2d1e982c53a063081a58b1fe15ae4",
+    "last_seen": "2026-10-20T10:17:39Z",
+    "content_hash": "e388309e9ce8f7c4e88a62d85ab323578b783bd32ce2aceec8fdeb7c53eeb25f",
     "status": "UPDATED",
     "company": "HelloFresh",
     "title": "Security Engineer (ITSec) (m,f,x)",
@@ -3772,7 +3772,7 @@
   },
   "240800e330239220c3d1": {
     "first_seen": "2026-09-30T11:17:18Z",
-    "last_seen": "2026-10-19T11:04:26Z",
+    "last_seen": "2026-10-20T10:17:39Z",
     "content_hash": "022807eaf926d00eae9ae0004e465698cedacb61e07b2d976bc8185a02f43884",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3808,7 +3808,7 @@
   },
   "729a044bba71f5b2b24a": {
     "first_seen": "2026-10-01T11:44:36Z",
-    "last_seen": "2026-10-19T11:04:26Z",
+    "last_seen": "2026-10-20T10:17:39Z",
     "content_hash": "b53f439b644e8b2c0cf34ef5a6c4f5e60ce03f57dc30ce5e2ed7e74f78e75c3d",
     "status": "SEEN_BEFORE",
     "company": "N26",
@@ -3853,7 +3853,7 @@
   },
   "1d8705aa550b912143d8": {
     "first_seen": "2026-10-07T11:55:14Z",
-    "last_seen": "2026-10-19T11:04:26Z",
+    "last_seen": "2026-10-20T10:17:39Z",
     "content_hash": "3aa41d70911562622ed6770353b4e0684fa21f01fd13607cd0cc36fea54351b3",
     "status": "SEEN_BEFORE",
     "company": "KAYAK",
@@ -3871,9 +3871,9 @@
   },
   "d262fcc8afaadd54451b": {
     "first_seen": "2026-10-14T10:27:05Z",
-    "last_seen": "2026-10-19T11:04:26Z",
-    "content_hash": "519a1289970c808d9ec2b6dc1e3087bc520867faa9a9763e295556945fadfc16",
-    "status": "SEEN_BEFORE",
+    "last_seen": "2026-10-20T10:17:39Z",
+    "content_hash": "70e86324756de547862a8e0d01a519cd3aa89e1c58d1914c43bd8a34fc018747",
+    "status": "UPDATED",
     "company": "MILES Mobility GmbH",
     "title": "Senior Network & Security Engineer (w/m/x/d)",
     "url": "https://www.arbeitnow.com/jobs/companies/miles-mobility-gmbh/senior-network-security-engineer-d-berlin-56929"
@@ -3907,8 +3907,8 @@
   },
   "3256d24bfeb9b7759cfb": {
     "first_seen": "2026-10-16T10:02:11Z",
-    "last_seen": "2026-10-19T11:04:26Z",
-    "content_hash": "4e5b98b01010751d27674b567563a3605b36d20b2fbacc070769daeabe768f00",
+    "last_seen": "2026-10-20T10:17:39Z",
+    "content_hash": "16945b5e3d079de067fb296f154a059975423fa18b63963f597dd9e263f15ac6",
     "status": "UPDATED",
     "company": "HelloFresh",
     "title": "Security Engineer, SOC (all genders)",
@@ -3916,7 +3916,7 @@
   },
   "697670f71dcd9793a00c": {
     "first_seen": "2026-10-16T10:02:11Z",
-    "last_seen": "2026-10-19T11:04:26Z",
+    "last_seen": "2026-10-20T10:17:39Z",
     "content_hash": "20adbe249f6cf83cac6756f8fd8e788adf50f213937c49552518f9419a9d0961",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3925,7 +3925,7 @@
   },
   "db8aaa804d8c25ef23c4": {
     "first_seen": "2026-10-16T10:02:11Z",
-    "last_seen": "2026-10-19T11:04:26Z",
+    "last_seen": "2026-10-20T10:17:39Z",
     "content_hash": "3e71a8ab268a9796bc9323b34da7a569b87196aa93f499cf6078cd0fc2deba00",
     "status": "SEEN_BEFORE",
     "company": "Wire Germany GmbH",
@@ -3934,29 +3934,38 @@
   },
   "171bfc75c1783e9c88e5": {
     "first_seen": "2026-10-18T10:10:22Z",
-    "last_seen": "2026-10-19T11:04:26Z",
-    "content_hash": "a5e549e2111fe85242819806f29d802540d91dd8432f244a5f1e489362474034",
-    "status": "SEEN_BEFORE",
+    "last_seen": "2026-10-20T10:17:39Z",
+    "content_hash": "c56c46373a4e19292cc591e1dc82c532c69ab7ac9452635a2264bbd193709fad",
+    "status": "UPDATED",
     "company": "Wire 1",
     "title": "Senior Security Engineer (f/m/d)",
     "url": "https://www.arbeitnow.com/jobs/companies/wire-1/senior-security-engineer-berlin-247112"
   },
   "0d590abec071f857eb28": {
     "first_seen": "2026-10-19T11:04:26Z",
-    "last_seen": "2026-10-19T11:04:26Z",
-    "content_hash": "3e385d5b2b069208bad2c53c9d2894d1d8c267541173e6946246b7c10c7caf05",
-    "status": "NEW",
+    "last_seen": "2026-10-20T10:17:39Z",
+    "content_hash": "52bec352df974a5859a852018ee5902dba50fdd9831ead70ce89598c20271a35",
+    "status": "UPDATED",
     "company": "Wavemm1",
     "title": "Senior Security Engineer",
     "url": "https://www.arbeitnow.co.uk/jobs/companies/wavemm1/senior-security-engineer-239708"
   },
   "f1e7ab2db758d14bd8de": {
     "first_seen": "2026-10-19T11:04:26Z",
-    "last_seen": "2026-10-19T11:04:26Z",
+    "last_seen": "2026-10-20T10:17:39Z",
     "content_hash": "c979e2bf58b0549855a8ca3b24d7f18a2ff1665bd40217a335e7003ef9000fc8",
-    "status": "NEW",
+    "status": "SEEN_BEFORE",
     "company": "Eye Security",
     "title": "Senior SOC Analyst",
     "url": "https://jobs.ashbyhq.com/eye-security/8bebcae1-faf9-433a-a56c-c312dc770e29"
+  },
+  "ad5a9fea931d31fc704c": {
+    "first_seen": "2026-10-20T10:17:39Z",
+    "last_seen": "2026-10-20T10:17:39Z",
+    "content_hash": "92a88698aaf3abbb8d958e80ba701532f092db90fa6ecd98eb5dde8e2cf100c4",
+    "status": "NEW",
+    "company": "Cypher Consulting Europe",
+    "title": "SAP Security & Authorizations Consultant",
+    "url": "https://www.arbeitnow.com/jobs/companies/cypher-consulting-europe/sap-security-authorizations-consultant-berlin-417832"
   }
 }

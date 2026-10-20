@@ -7597,6 +7597,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-10-20T10:17:39Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 7606,
+      "security_title_candidates": 229,
+      "prefiltered_non_security_jobs": 7377,
+      "unique_jobs_after_deduplication": 179,
+      "duplicates_removed": 50,
+      "jobs_rejected_or_below_threshold": 7540,
+      "relevant_jobs_in_current_run": 16,
+      "new_jobs": 1,
+      "updated_jobs": 5,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 46,
+      "jobs_by_source": {
+        "arbeitnow": 2400,
+        "remotive": 10,
+        "linkedin_posts": 0,
+        "greenhouse": 4633,
+        "ashby": 225,
+        "lever": 179,
+        "personio": 159,
+        "recruitee": 0
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 22.3,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2400,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 10,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 4633,
+          "requests": 62,
+          "errors": [],
+          "error": "",
+          "companies_checked": 62,
+          "companies_successful": 62,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 225,
+          "requests": 8,
+          "errors": [],
+          "error": "",
+          "companies_checked": 8,
+          "companies_successful": 8,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 179,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 159,
+          "requests": 4,
+          "errors": [],
+          "error": "",
+          "companies_checked": 4,
+          "companies_successful": 4,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "idle",
+          "ok": true,
+          "jobs": 0,
+          "requests": 0,
+          "errors": [],
+          "error": "",
+          "companies_checked": 0,
+          "companies_successful": 0,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -14578,6 +14691,54 @@
       "company": "Eye Security",
       "title": "Senior SOC Analyst",
       "score": 64
+    },
+    {
+      "at": "2026-10-20T10:17:39Z",
+      "job_key": "ad5a9fea931d31fc704c",
+      "event": "NEW",
+      "company": "Cypher Consulting Europe",
+      "title": "SAP Security & Authorizations Consultant",
+      "score": 69
+    },
+    {
+      "at": "2026-10-20T10:17:39Z",
+      "job_key": "0d590abec071f857eb28",
+      "event": "UPDATED",
+      "company": "Wavemm1",
+      "title": "Senior Security Engineer",
+      "score": 58
+    },
+    {
+      "at": "2026-10-20T10:17:39Z",
+      "job_key": "d262fcc8afaadd54451b",
+      "event": "UPDATED",
+      "company": "MILES Mobility GmbH",
+      "title": "Senior Network & Security Engineer (w/m/x/d)",
+      "score": 59
+    },
+    {
+      "at": "2026-10-20T10:17:39Z",
+      "job_key": "171bfc75c1783e9c88e5",
+      "event": "UPDATED",
+      "company": "Wire 1",
+      "title": "Senior Security Engineer (f/m/d)",
+      "score": 59
+    },
+    {
+      "at": "2026-10-20T10:17:39Z",
+      "job_key": "4afa9462370d50b6650c",
+      "event": "UPDATED",
+      "company": "HelloFresh",
+      "title": "Security Engineer (ITSec) (m,f,x)",
+      "score": 64
+    },
+    {
+      "at": "2026-10-20T10:17:39Z",
+      "job_key": "3256d24bfeb9b7759cfb",
+      "event": "UPDATED",
+      "company": "HelloFresh",
+      "title": "Security Engineer, SOC (all genders)",
+      "score": 69
     }
   ]
 }
