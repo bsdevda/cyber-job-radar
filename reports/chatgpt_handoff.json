@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T10:17:39Z",
+  "generated_at": "2026-10-21T10:26:52Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,36 +171,36 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-10-20T10:17:39Z",
+    "generated_at": "2026-10-21T10:26:52Z",
     "scoring_version": 2.2,
-    "jobs_collected": 7606,
-    "security_title_candidates": 229,
-    "prefiltered_non_security_jobs": 7377,
-    "unique_jobs_after_deduplication": 179,
-    "duplicates_removed": 50,
-    "jobs_rejected_or_below_threshold": 7540,
+    "jobs_collected": 10240,
+    "security_title_candidates": 345,
+    "prefiltered_non_security_jobs": 9895,
+    "unique_jobs_after_deduplication": 264,
+    "duplicates_removed": 81,
+    "jobs_rejected_or_below_threshold": 10143,
     "relevant_jobs_in_current_run": 16,
-    "new_jobs": 1,
-    "updated_jobs": 5,
+    "new_jobs": 3,
+    "updated_jobs": 1,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
     "sources_partial": 0,
-    "report_jobs": 46,
+    "report_jobs": 48,
     "jobs_by_source": {
       "arbeitnow": 2400,
       "remotive": 10,
       "linkedin_posts": 0,
-      "greenhouse": 4633,
-      "ashby": 225,
-      "lever": 179,
-      "personio": 159,
-      "recruitee": 0
+      "greenhouse": 6349,
+      "ashby": 238,
+      "lever": 1087,
+      "personio": 150,
+      "recruitee": 6
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 22.3
+    "workflow_duration_seconds": 30.0
   },
   "source_status": {
     "arbeitnow": {
@@ -230,40 +230,29 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 4633,
-      "requests": 62,
+      "jobs": 6349,
+      "requests": 68,
       "errors": [],
       "error": "",
-      "companies_checked": 62,
-      "companies_successful": 62,
+      "companies_checked": 68,
+      "companies_successful": 68,
       "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 225,
-      "requests": 8,
+      "jobs": 238,
+      "requests": 9,
       "errors": [],
       "error": "",
-      "companies_checked": 8,
-      "companies_successful": 8,
+      "companies_checked": 9,
+      "companies_successful": 9,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 179,
-      "requests": 3,
-      "errors": [],
-      "error": "",
-      "companies_checked": 3,
-      "companies_successful": 3,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 159,
+      "jobs": 1087,
       "requests": 4,
       "errors": [],
       "error": "",
@@ -271,284 +260,77 @@
       "companies_successful": 4,
       "companies_failed": 0
     },
-    "recruitee": {
-      "status": "idle",
+    "personio": {
+      "status": "ok",
       "ok": true,
-      "jobs": 0,
-      "requests": 0,
+      "jobs": 150,
+      "requests": 3,
       "errors": [],
       "error": "",
-      "companies_checked": 0,
-      "companies_successful": 0,
+      "companies_checked": 3,
+      "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "recruitee": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 6,
+      "requests": 1,
+      "errors": [],
+      "error": "",
+      "companies_checked": 1,
+      "companies_successful": 1,
       "companies_failed": 0
     }
   },
   "jobs": [
     {
       "report_number": 1,
-      "job_key": "3256d24bfeb9b7759cfb",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 69,
-      "raw_score": 71,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "score_label": "REVIEW",
-      "title": "Security Engineer, SOC (all genders)",
-      "company": "HelloFresh",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin on-site role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "On-site"
-      },
-      "location_scope": "Berlin",
-      "working_model": "On-site",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "security engineer",
-          "security controls"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://careers.hellofresh.com/global/en/job/8281022?gh_jid=8281022",
-      "apply_url": "https://careers.hellofresh.com/global/en/job/8281022?gh_jid=8281022",
-      "canonical_url": "https://careers.hellofresh.com/global/en/job/8281022?gh_jid=8281022",
-      "source": "Greenhouse",
-      "sources": [
-        "Greenhouse"
-      ],
-      "ats": "greenhouse",
-      "priority_employer": true,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-10-19T12:58:16Z",
-      "posting_age_days": 0,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 0,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-10-16T10:02:11Z",
-      "experience_required": "3+ years",
-      "german_requirement": "German requested; level/strictness unclear",
-      "skill_matches": {
-        "match": [
-          "security automation"
-        ],
-        "partial": [
-          "aws",
-          "incident response",
-          "siem",
-          "splunk"
-        ],
-        "missing": [
-          "edr",
-          "infrastructure as code",
-          "rust"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Security monitoring and incident response experience in AWS."
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Security monitoring and incident response experience in AWS."
-        },
-        {
-          "skill": "siem",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with cloud SIEM & SOAR platforms, DDoS mitigation and preventing tools and Layer-7 Web-based perimeter security controls"
-        },
-        {
-          "skill": "splunk",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with log analysis stacks like ElasticSearch, Splunk/SumoLogic"
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "edr",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Automate, optimize, automate and operate modern security solutions like EDR/EPPs and conventional Firewalls, IDS/IPS, Email Security, VPN, and MDM tools"
-        },
-        {
-          "skill": "infrastructure as code",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Decent programming skills to enable data processing, IaC and security automations"
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 11,
-        "experience": 12,
-        "location": 15,
-        "language": 4,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Security Engineering.",
-        "Berlin on-site role.",
-        "Evidenced matches include security automation.",
-        "The detected experience requirement is within or close to the 2+ year profile."
-      ],
-      "warnings": [
-        "German requested; level/strictness unclear",
-        "Requests 3+ years versus approximately 2.1 years in the profile.",
-        "Mandatory gaps: aws, incident response, siem, splunk",
-        "Potential gaps: edr, infrastructure as code, rust",
-        "Exposure only; do not claim deep expertise: aws, incident response, siem, splunk",
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "The role We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges. Security Engineers work in a variety of ways to constantly iterate and improve HelloFresh’s security posture. This role aims to improve the HelloFresh Security Logging & Monitoring Program by maturing the tools, processes and playbooks to reduce dwell time (indicators of which would be lowered MTTD&R). Above all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you. What you’ll do Responsible for SOC monitoring, use-case building, triage and advisory using cloud-native SIEM platforms Conduct initial triage of security events and incidents and document progress throughout the Incident Response Lifecycle Automate, optimize, automate and operate modern security solutions like EDR/EPPs and conventional Firewalls, IDS/IPS, Email Security, VPN, and MDM tools Leverage premium and open-source th…",
-      "full_description": "The role\n\nWe’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges. Security Engineers work in a variety of ways to constantly iterate and improve HelloFresh’s security posture. \n\nThis role aims to improve the HelloFresh Security Logging & Monitoring Program by maturing the tools, processes and playbooks to reduce dwell time (indicators of which would be lowered MTTD&R).\n\nAbove all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you.\n\nWhat you’ll do\n\nResponsible for SOC monitoring, use-case building, triage and advisory using cloud-native SIEM platforms\n\nConduct initial triage of security events and incidents and document progress throughout the Incident Response Lifecycle\n\nAutomate, optimize, automate and operate modern security solutions like EDR/EPPs and conventional Firewalls, IDS/IPS, Email Security, VPN, and MDM tools\n\nLeverage premium and open-source threat intel feeds to regularly sweep environments against rising APT campaigns\n\nPrepare status reports and follow up with the stakeholders through Jira and Incident Mgmt. Platform to close the remediation loop \n\nFacilitate efficient Incident Detection and Response in AWS cloud and enterprise IT environments \n\nWhat you’ll bring\n\nA minimum of 3 years of experience working in mature SOC environments\n\nSecurity monitoring and incident response experience in AWS.\n\nExperience with cloud SIEM & SOAR platforms, DDoS mitigation and preventing tools and Layer-7 Web-based perimeter security controls\n\nUnderstanding of network intrusion methods, network containment, segregation techniques and technologies such as Sandboxes and Intrusion Detection/Prevention Systems (ID/PS)\n\nAbility to operate EDR, EPP and Device Management solutions as per best security practices\n\nDecent programming skills to enable data processing, IaC and security automations\n\nGood communication and reporting skills\n\nExperience with log analysis stacks like ElasticSearch, Splunk/SumoLogic\n\nOpen to working on-call in rotational shifts\n\nInteracting with front-end developers, designers, product managers and our teams around the world is very much part of our day-to-day, so communication skills are vital. We are looking for strong problem-solvers who can apply their engineering skills to a wide range of platforms and environments, while also acting as an ambassador to coach team members and stakeholders.\n\nWhat we offer\n\nElevate your lifestyle! Join one of Europe's fastest-growing tech powerhouses in a dynamic phase of expansion.\n\nImmerse yourself in a diverse global community of 90+ nationalities.\n\nEnjoy a competitive compensation package that goes beyond the norm, with perks like a HelloFresh- subsidized Pension Scheme and a Hybrid working model.\n\nElevate your lifestyle with exclusive discounts on your weekly HelloFresh box and office meals.\n\nInvest in your growth with a German language learning budget, and access to the HelloFresh Academy.\n\nPlus, we've got your well-being covered with mental health support, transportation perks, and working-parent-friendly benefits. From our 24/7 gym access,wellbeing platforms like Headspace and Spill, to sabbatical leave options, HelloFresh is not just a workplace; it's a lifestyle of perks and possibilities!",
-      "skill_requirements": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Security monitoring and incident response experience in AWS."
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Security monitoring and incident response experience in AWS."
-        },
-        {
-          "skill": "siem",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with cloud SIEM & SOAR platforms, DDoS mitigation and preventing tools and Layer-7 Web-based perimeter security controls"
-        },
-        {
-          "skill": "splunk",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with log analysis stacks like ElasticSearch, Splunk/SumoLogic"
-        },
-        {
-          "skill": "edr",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Automate, optimize, automate and operate modern security solutions like EDR/EPPs and conventional Firewalls, IDS/IPS, Email Security, VPN, and MDM tools"
-        },
-        {
-          "skill": "infrastructure as code",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Decent programming skills to enable data processing, IaC and security automations"
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges."
-        },
-        {
-          "skill": "security automation",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Decent programming skills to enable data processing, IaC and security automations"
-        }
-      ],
-      "german_analysis": {
-        "category": "unspecified",
-        "level": "unspecified",
-        "mandatory": false,
-        "label": "German requested; level/strictness unclear",
-        "evidence": "Invest in your growth with a German language learning budget, and access to the HelloFresh Academy."
-      },
-      "experience_analysis": {
-        "min_years": 3,
-        "max_years": null,
-        "optional": false,
-        "display": "3+ years",
-        "evidence": "A minimum of 3 years of experience working in mature SOC environments"
-      }
-    },
-    {
-      "report_number": 2,
-      "job_key": "ad5a9fea931d31fc704c",
+      "job_key": "fcd3d88612c00e3423ee",
       "status": "NEW",
       "application_status": "NEW",
       "score": 69,
-      "raw_score": 74,
-      "score_cap": 69,
+      "raw_score": 69,
+      "score_cap": 89,
       "score_cap_reasons": [
-        "At least one explicitly mandatory skill has exposure only"
+        "Worldwide/anywhere remote eligibility detected; verify employment from Germany"
       ],
       "score_label": "REVIEW",
-      "title": "SAP Security & Authorizations Consultant",
-      "company": "Cypher Consulting Europe",
-      "location": "Berlin, Germany",
+      "title": "Security Engineer Junior - GRC",
+      "company": "Alan",
+      "location": "Anywhere in France",
       "location_analysis": {
-        "category": "eligible_berlin",
+        "category": "eligible_worldwide_remote",
         "eligible": true,
-        "score": 15,
-        "reason": "Berlin remote role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
+        "score": 11,
+        "reason": "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
+        "verification_required": true,
+        "score_cap": 89,
+        "scope": "Worldwide remote",
         "work_model": "Remote"
       },
-      "location_scope": "Berlin",
+      "location_scope": "Worldwide remote",
       "working_model": "Remote",
       "role_family": {
         "id": "it_audit_grc",
         "label": "IT Audit / GRC",
         "priority": 3,
-        "confidence": "medium",
+        "confidence": "high",
         "evidence": [
-          "compliance"
+          "grc",
+          "iso 27001",
+          "gdpr",
+          "internal audit"
         ]
       },
       "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
+        "level": "junior",
+        "label": "Junior/Entry level",
+        "evidence": "junior"
       },
-      "url": "https://www.arbeitnow.com/jobs/companies/cypher-consulting-europe/sap-security-authorizations-consultant-berlin-417832",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/cypher-consulting-europe/sap-security-authorizations-consultant-berlin-417832",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/cypher-consulting-europe/sap-security-authorizations-consultant-berlin-417832",
+      "url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-junior-grc-anywhere-in-france-76041",
+      "apply_url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-junior-grc-anywhere-in-france-76041",
+      "canonical_url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-junior-grc-anywhere-in-france-76041",
       "source": "Arbeitnow",
       "sources": [
         "Arbeitnow"
@@ -558,7 +340,7 @@
       "lead_type": "",
       "post_author": "",
       "feed_name": "",
-      "published_at": "2026-10-19T11:31:12Z",
+      "published_at": "2026-10-21T02:40:14Z",
       "posting_age_days": 0,
       "posting_age_analysis": {
         "known": true,
@@ -567,53 +349,101 @@
         "label": "NEW - APPLY QUICKLY"
       },
       "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-10-20T10:17:39Z",
-      "experience_required": null,
+      "first_seen": "2026-10-21T10:26:52Z",
+      "experience_required": "2+ years",
       "german_requirement": "No German requirement detected",
       "skill_matches": {
-        "match": [],
-        "partial": [
-          "nist"
+        "match": [
+          "sast"
         ],
-        "missing": [],
+        "partial": [],
+        "missing": [
+          "gdpr",
+          "go",
+          "iso 27001",
+          "rust"
+        ],
         "nice_to_have": []
       },
-      "mandatory_gaps": [
+      "mandatory_gaps": [],
+      "potential_gaps": [
         {
-          "skill": "nist",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "You bring deep technical knowledge of SAP security frameworks, role maintenance, and user administration."
+          "skill": "gdpr",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "With Legal and the DPO, you help translate requirements like DORA, HDS, and GDPR into clear tasks for the teams, and track that they get done."
+        },
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "You learn fast, ask for feedback, and go into the details when it matters."
+        },
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "You'll join Alan's security team to help run our compliance and risk work across ISO 27001, HDS and DORA, across a growing number of countries and regulators."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "This one is about earning our members' trust: every day, they share their diagnoses, their claims and their care with us."
         }
       ],
-      "potential_gaps": [],
       "optional_gaps": [],
       "score_breakdown": {
         "role_alignment": 12,
-        "skills": 14,
-        "experience": 10,
-        "location": 15,
+        "skills": 8,
+        "experience": 15,
+        "location": 11,
         "language": 10,
         "seniority": 10,
         "education": 3
       },
       "match_reasons": [
-        "Berlin remote role."
+        "Worldwide/anywhere remote eligibility detected; verify employment from Germany.",
+        "Evidenced matches include sast.",
+        "The detected experience requirement is within or close to the 2+ year profile."
       ],
       "warnings": [
-        "Mandatory gaps: nist",
-        "Exposure only; do not claim deep expertise: nist",
-        "At least one explicitly mandatory skill has exposure only"
+        "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
+        "Potential gaps: gdpr, go, iso 27001, rust"
       ],
       "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "About Cypher Consulting Europe Cypher Consulting Europe delivers expert consultants across a wide spectrum of technologies and industry sectors. As an independent contractor working 40 hours per week on a 12-month contract remotely across the European Union, you will provide specialized expertise as an SAP Security & Authorizations Consultant. Your responsibilities Configure and maintain SAP business roles, permissions, and access authorizations. Manage user access and security settings within SAP Public Cloud. Ensure appropriate access controls and compliance with security policies. Collaborate with technical and functional teams to resolve authorization issues. Requirements: Experience with SAP S/4HANA Public Cloud and security/authorizations. Knowledge of business roles, business catalogs, and access restrictions. Strong understanding of SAP Identity and Access Management (IAM). Experience with SAP BTP is an advantage.What we look for You bring deep technical knowledge of SAP security frameworks, role maintenance, and user administration. Candidates who match most of these requirements should apply even if they do not meet every single point. Find Jobs in Germany on Arbeitnow",
-      "full_description": "About Cypher Consulting Europe\n\nCypher Consulting Europe delivers expert consultants across a wide spectrum of technologies and industry sectors. As an independent contractor working 40 hours per week on a 12-month contract remotely across the European Union, you will provide specialized expertise as an SAP Security & Authorizations Consultant.\n\nYour responsibilities\n\nConfigure and maintain SAP business roles, permissions, and access authorizations.\n\nManage user access and security settings within SAP Public Cloud.\n\nEnsure appropriate access controls and compliance with security policies.\n\nCollaborate with technical and functional teams to resolve authorization issues.\n\nRequirements:\n\nExperience with SAP S/4HANA Public Cloud and security/authorizations.\n\nKnowledge of business roles, business catalogs, and access restrictions.\n\nStrong understanding of SAP Identity and Access Management (IAM).\n\nExperience with SAP BTP is an advantage.What we look for\n\nYou bring deep technical knowledge of SAP security frameworks, role maintenance, and user administration. Candidates who match most of these requirements should apply even if they do not meet every single point. \n\nFind Jobs in Germany on Arbeitnow",
+      "description_excerpt": "Health can’t wait. Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t. Alan exists to end the wait. Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way. So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience. We are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR. Prevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond. 🛡️ The role Most GRC roles are about keeping auditors happy. This one is…",
+      "full_description": "Health can’t wait. \n\nNot for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t.\n\nAlan exists to end the wait.\n\nHealth is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way.\n\nSo we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience.\n\nWe are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR.\n\nPrevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond.\n\n🛡️ The role\n\nMost GRC roles are about keeping auditors happy. This one is about earning our members' trust: every day, they share their diagnoses, their claims and their care with us.\n\nYou'll join Alan's security team to help run our compliance and risk work across ISO 27001, HDS and DORA, across a growing number of countries and regulators. We just earned our HDS certification, and there's much more to build, including how we govern AI across our products: assessing AI risks, setting the controls, and keeping up with the AI Act.\n\nYou'll learn alongside experienced security engineers, with a dedicated coach from day one. You'll take on real ownership early, and your scope grows as we scale from 1M to many millions of members. And you'll learn how we work at Alan: teams own their risks and controls, we automate wherever we can, and we focus on real outcomes, not paperwork.\n\n🚀 What you'll do\n\nKeep our certifications on track. You run the day-to-day of the ISO 27001 and HDS audit cycles: collecting evidence, preparing internal audits, and following up on corrective actions until they're closed.\n\nTurn regulations into practical actions. With Legal and the DPO, you help translate requirements like DORA, HDS, and GDPR into clear tasks for the teams, and track that they get done.\n\nLearn the health sector rules. You build your knowledge of health-specific frameworks (ANS, HDS) and help apply them to how we handle health data.\n\nContribute to risk management. You help build and update our risk mapping, including AI risks, and follow up on the treatment plans with the teams who own them.\n\nSupport the teams who own the controls. You keep the controls framework up to date, answer teams' questions, and help explain security clearly to every stakeholder, from engineers to managers.\n\nSupport incident governance. You help classify and document incidents, keep Business continuity and Disaster recovery plans up to date, and prepare inputs for DORA incident reports.\n\nAutomate what slows us down. You spot repetitive compliance tasks and automate them with scripts, tools or AI.\n\n🏗️ What you'll help build\n\nOne compliance backbone: A single control system for several regulators in several countries, so Alan can scale without rebuilding compliance each time.\n\nAn automated evidence engine: evidence collected straight from engineering systems with scripts and AI, so audits run continuously instead of as a quarterly rush.\n\nYou'll work closely with Legal, the DPO, Internal Audit and Risk, and day to day with engineering and operations teams.\n\n⭐ What we're looking for\n\nYou want to do the work yourself and grow with it: a permanent, hands-on role where you build things for the long run.\n\n2+ years in security, GRC or compliance (an audit background is fine if you want to move into building).\n\nYou've played a key part in a certification or audit cycle (ISO 27001, HDS, SOC 2 or similar).\n\nYou're curious about how things work technically, and you've automated at least one manual task (a script, a tool, an AI workflow).\n\nYou're fluent in French and English, and comfortable presenting in both.\n\nYou learn fast, ask for feedback, and go into the details when it matters.\n\n🌍 How we work\n\nLocation: You must be legally eligible to work from France, Belgium or Spain.\n\nRemote work: We offer remote work flexibility.\n\n🎯 Important note: we hire people, not roles.\n\nIf you're excited about this opportunity but don't check every box, we'd love to hear from you. Everyone, no matter how underrepresented, should feel free to apply, as it can only bring learnings or success.\n\n🔖 Check out our About Alan and Career pages, as well as our Medium, blog and Glassdoor page for more info.\n\nYou want to know more about Alan?\n\n🙌 Perks & Benefits: Alaners are provided with a stimulating environment and perks ensuring they are happy, efficient and spend only high-quality time with co-workers.\n\n🤘A strong culture: People joining Alan are often surprised and delighted by our innovative working method. We have a set of cultural values that guide our approach to work\n\nCompensation: €61K – €70K\n\nLevel C0 to C1 • €61K – €70K\n\nFind more English Speaking Jobs in France on Arbeitnow",
       "skill_requirements": [
         {
-          "skill": "nist",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "You bring deep technical knowledge of SAP security frameworks, role maintenance, and user administration."
+          "skill": "gdpr",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "With Legal and the DPO, you help translate requirements like DORA, HDS, and GDPR into clear tasks for the teams, and track that they get done."
+        },
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "You learn fast, ask for feedback, and go into the details when it matters."
+        },
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "You'll join Alan's security team to help run our compliance and risk work across ISO 27001, HDS and DORA, across a growing number of countries and regulators."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "This one is about earning our members' trust: every day, they share their diagnoses, their claims and their care with us."
+        },
+        {
+          "skill": "sast",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "You help classify and document incidents, keep Business continuity and Disaster recovery plans up to date, and prepare inputs for DORA incident reports."
         }
       ],
       "german_analysis": {
@@ -623,10 +453,16 @@
         "label": "No German requirement detected",
         "evidence": ""
       },
-      "experience_analysis": null
+      "experience_analysis": {
+        "min_years": 2,
+        "max_years": null,
+        "optional": false,
+        "display": "2+ years",
+        "evidence": "2+ years in security, GRC or compliance (an audit background is fine if you want to move into building)."
+      }
     },
     {
-      "report_number": 3,
+      "report_number": 2,
       "job_key": "86d0e27ef416b6621d0d",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -833,7 +669,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 4,
+      "report_number": 3,
       "job_key": "0bc28b416edb95f3b45f",
       "status": "NEW",
       "application_status": "NEW",
@@ -952,7 +788,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 5,
+      "report_number": 4,
       "job_key": "ca9ca2de50791397491c",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1148,7 +984,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 6,
+      "report_number": 5,
       "job_key": "97e10fb205544ff97e76",
       "status": "NEW",
       "application_status": "NEW",
@@ -1304,6 +1140,190 @@
         "display": "3+ years",
         "evidence": "Proven experience: 3+ years of security incident response in a production-cloud environment"
       }
+    },
+    {
+      "report_number": 6,
+      "job_key": "022b02e42c40ff735dbc",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 72,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "Senior title is above the profile's current 2+ years",
+        "One explicitly mandatory skill is not evidenced",
+        "Posting is 89 days old; verify that it is active"
+      ],
+      "score_label": "REVIEW",
+      "title": "(Senior) Security Engineer - m/f/d",
+      "company": "Langdock",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin on-site role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "On-site"
+      },
+      "location_scope": "Berlin",
+      "working_model": "On-site",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer",
+          "security controls",
+          "vulnerability"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://jobs.ashbyhq.com/langdock/8662e63f-63fe-47f1-92c3-a402d3d24486",
+      "apply_url": "https://jobs.ashbyhq.com/langdock/8662e63f-63fe-47f1-92c3-a402d3d24486/application",
+      "canonical_url": "https://jobs.ashbyhq.com/langdock/8662e63f-63fe-47f1-92c3-a402d3d24486",
+      "source": "Ashby",
+      "sources": [
+        "Ashby"
+      ],
+      "ats": "ashby",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-07-24T08:50:53Z",
+      "posting_age_days": 89,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 89,
+        "category": "older",
+        "label": "OLDER POSTING - VERIFY ACTIVE"
+      },
+      "urgency": "OLDER POSTING - VERIFY ACTIVE",
+      "first_seen": "2026-10-21T10:26:52Z",
+      "experience_required": null,
+      "german_requirement": "German is preferred/nice-to-have",
+      "skill_matches": {
+        "match": [
+          "application security",
+          "penetration testing",
+          "security reporting",
+          "vulnerability assessment"
+        ],
+        "partial": [],
+        "missing": [
+          "go",
+          "iso 27001",
+          "vulnerability disclosure program"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Experience with ISO 27001, SOC 2, and customer security assessments is valuable."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "We run, go to the gym, and take care of ourselves."
+        },
+        {
+          "skill": "vulnerability disclosure program",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "You’ve worked with penetration testers or vulnerability disclosure programs and helped teams turn reports into verified fixes."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 15,
+        "experience": 10,
+        "location": 15,
+        "language": 9,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "Berlin on-site role.",
+        "Evidenced matches include application security, penetration testing, security reporting, vulnerability assessment."
+      ],
+      "warnings": [
+        "Mandatory gaps: iso 27001",
+        "Potential gaps: go, vulnerability disclosure program",
+        "Senior title is above the profile's current 2+ years",
+        "One explicitly mandatory skill is not evidenced",
+        "Posting is 89 days old; verify that it is active"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "HELP US CHANGE THE WAY THE WORLD WORKS BUILD SOMETHING THAT MATTERS. Langdock exists to change the way the world works, bridging the gap between what technology can do and what people actually do with it. We bring all leading AI models into one secure, model-agnostic platform and make them usable across entire organizations. Over 10,000 companies use our platform every day, from fast-growing startups to some of Europe's largest enterprises. Their employees open Langdock to draft strategies, analyze documents, or automate workflows - helping them to work smarter, think more creatively, and reach their full potential. ABOUT THE ROLE We’re hiring a hands-on (Senior) Security Engineer to strengthen the security of Langdock’s product, infrastructure, and internal systems. Your primary focus will be application and infrastructure security. You’ll work closely with our CTO and engineering teams to identify risks, assess our defenses, and drive practical improvements. You’ll coordinate penetration tests, triage incoming vulnerability reports, and make sure findings turn into lasting fixes. You should be comfortable getting into technical details, challenging assumptions, and helping engin…",
+      "full_description": "HELP US CHANGE THE WAY THE WORLD WORKS\n\nBUILD SOMETHING THAT MATTERS.\n\nLangdock exists to change the way the world works, bridging the gap between what technology can do and what people actually do with it. We bring all leading AI models into one secure, model-agnostic platform and make them usable across entire organizations. Over 10,000 companies use our platform every day, from fast-growing startups to some of Europe's largest enterprises. Their employees open Langdock to draft strategies, analyze documents, or automate workflows - helping them to work smarter, think more creatively, and reach their full potential.\n\nABOUT THE ROLE\n\nWe’re hiring a hands-on (Senior) Security Engineer to strengthen the security of Langdock’s product, infrastructure, and internal systems.\n\nYour primary focus will be application and infrastructure security. You’ll work closely with our CTO and engineering teams to identify risks, assess our defenses, and drive practical improvements. You’ll coordinate penetration tests, triage incoming vulnerability reports, and make sure findings turn into lasting fixes. You should be comfortable getting into technical details, challenging assumptions, and helping engineers choose the right controls.\n\nYou’ll also own the security of our internal IT environment, including identity, access, and device security. We’re looking for someone who builds reliable, automated processes and can judge whether our protections are effective.\n\nAlongside this technical work, you’ll help explain our security posture to customers and support our compliance efforts. The foundation of this role is making Langdock secure; audits and customer assessments should reflect that work.\n\nWHAT YOU WILL DO\n\nThe role's responsibility will span over multiple fields, which are:\n\nAPPLICATION SECURITY\n\n- Coordinate penetration tests end to end. Define scope with engineering and external testing partners, support testing, assess findings, and follow remediation through to verification.\n\n- Own vulnerability intake and triage. Monitor our security inbox and responsible disclosure program, assess reported issues, and work with engineering to prioritize and resolve them.\n\n- Help engineering build securely. Review security-sensitive designs and changes, identify weaknesses in areas such as authentication, authorization, and data isolation, and recommend practical improvements.\n\nINFRASTRUCTURE SECURITY\n\n- Assess and improve our security posture. Work with engineering to evaluate how our production infrastructure and internal systems are protected, identify gaps, and drive improvements.\n\n- Strengthen network and access controls. Review network separation, service exposure, privileged access, and permissions so systems and data are accessible only where needed.\n\n- Verify that controls work in practice. Look beyond configuration checklists to understand how systems could be compromised and whether our protections would prevent or detect it.\n\nINTERNAL SECURITY AND AUTOMATION\n\n- Own identity and device security. Ensure we have effective MFA, appropriate access policies, and properly managed, encrypted, and patched devices.\n\n- Automate the employee lifecycle. Build dependable processes for account provisioning, access changes, offboarding, and access reviews across Entra ID and our internal tools.\n\n- Keep recurring work manageable. Use scripts, integrations, and AI tooling to automate security operations and surface issues that need attention.\n\nCUSTOMER ASSURANCE AND COMPLIANCE\n\n- Support customer security assessments. Help answer questionnaires and join customer conversations that require a clear, technically credible explanation of our security controls.\n\n- Contribute to our compliance programs. Support our ISO 27001 and SOC 2 Type II work through effective controls, current evidence, and technical input into audits and risk assessments.\n\nYOU MIGHT BE A FIT IF…\n\n- Hands-on application and infrastructure security experience. You understand how modern SaaS applications and cloud environments are built, where they can fail, and how to protect them.\n\n- Technical depth and sound judgment. You can investigate a vulnerability, assess its practical impact, discuss remediation with engineers, and distinguish urgent risks from lower-priority findings.\n\n- Experience taking findings through to resolution. You’ve worked with penetration testers or vulnerability disclosure programs and helped teams turn reports into verified fixes.\n\n- Confidence with identity and endpoint security. You’re comfortable configuring identity providers, MFA, access policies, and device management, and automating the processes around them.\n\n- An automation mindset. You build scripts, workflows, and integrations to reduce recurring work, and use AI tooling thoughtfully to increase your effectiveness.\n\n- Clear communication. You can explain technical risks and controls to engineers, colleagues, and customers. German is a plus, but not a requirement.\n\n- Pragmatism. You prioritize meaningful risk reduction and choose controls that teams can realistically implement and maintain.\n\nExperience with ISO 27001, SOC 2, and customer security assessments is valuable. Your strongest skill set should be in technical security.\n\nTHE ENVIRONMENT\n\nWe work from our office in Berlin, Greifswalder Strasse 212. Everyone works together in person because the hardest problems get solved faster at a whiteboard than in a Slack thread. Conversations happen faster, problems get solved quicker, and we actually know each other.\n\nDays start at 8:30. Lunch & dinner are together. We run, go to the gym, and take care of ourselves. Health is not separate from work here, it is part of how we work well.\n\nThe vibe is calm but intense. No one is yelling or panicking. But everyone is working hard on things that matter.\n\nCOMPENSATION\n\nSalaries are transparent and tied to levels, not negotiation. All roles include equity.\n\nWe will figure out the right level together based on your experience and scope. Levels are about the work you own, not your title or years of experience. We narrow down the expected salary range early in the process.\n\nNEXT STEPS\n\nWe move fast. Most processes complete within two weeks.\n\nIf this sounds like your kind of work, we would like to meet you.",
+      "skill_requirements": [
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Experience with ISO 27001, SOC 2, and customer security assessments is valuable."
+        },
+        {
+          "skill": "vulnerability assessment",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "Experience with ISO 27001, SOC 2, and customer security assessments is valuable."
+        },
+        {
+          "skill": "application security",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "APPLICATION SECURITY"
+        },
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "We run, go to the gym, and take care of ourselves."
+        },
+        {
+          "skill": "penetration testing",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "You’ll coordinate penetration tests, triage incoming vulnerability reports, and make sure findings turn into lasting fixes."
+        },
+        {
+          "skill": "security reporting",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "You’ll coordinate penetration tests, triage incoming vulnerability reports, and make sure findings turn into lasting fixes."
+        },
+        {
+          "skill": "vulnerability disclosure program",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "You’ve worked with penetration testers or vulnerability disclosure programs and helped teams turn reports into verified fixes."
+        }
+      ],
+      "german_analysis": {
+        "category": "nice",
+        "level": "unspecified",
+        "mandatory": false,
+        "label": "German is preferred/nice-to-have",
+        "evidence": "German is a plus, but not a requirement."
+      },
+      "experience_analysis": null
     },
     {
       "report_number": 7,
@@ -1579,171 +1599,6 @@
     },
     {
       "report_number": 8,
-      "job_key": "4afa9462370d50b6650c",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 64,
-      "raw_score": 64,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "score_label": "REVIEW",
-      "title": "Security Engineer (ITSec) (m,f,x)",
-      "company": "HelloFresh",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin hybrid role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "Hybrid"
-      },
-      "location_scope": "Berlin",
-      "working_model": "Hybrid",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "security engineer",
-          "vulnerability"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://careers.hellofresh.com/global/en/job/8146732?gh_jid=8146732",
-      "apply_url": "https://careers.hellofresh.com/global/en/job/8146732?gh_jid=8146732",
-      "canonical_url": "https://careers.hellofresh.com/global/en/job/8146732?gh_jid=8146732",
-      "source": "Greenhouse",
-      "sources": [
-        "Greenhouse"
-      ],
-      "ats": "greenhouse",
-      "priority_employer": true,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-10-15T14:25:08Z",
-      "posting_age_days": 4,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 4,
-        "category": "recent",
-        "label": "RECENT"
-      },
-      "urgency": "RECENT",
-      "first_seen": "2026-08-27T16:38:50Z",
-      "experience_required": null,
-      "german_requirement": "German requested; level/strictness unclear",
-      "skill_matches": {
-        "match": [],
-        "partial": [
-          "nist"
-        ],
-        "missing": [
-          "dlp",
-          "edr",
-          "rust"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "nist",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Hands-on experience hardening workstations, network equipment, servers, IAM platforms through using CIS/NIST frameworks"
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "dlp",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Deploy, optimize and operate modern security solutions like EDR, Zero-Trust, SSE/CASB, DLP, and Patch Management tools"
-        },
-        {
-          "skill": "edr",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Implement secure configurations and policies for IAM, EDR, VPN, Firewalls, Email Security, Slack and MDM tools"
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 6,
-        "experience": 10,
-        "location": 15,
-        "language": 4,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Security Engineering.",
-        "Berlin hybrid role."
-      ],
-      "warnings": [
-        "German requested; level/strictness unclear",
-        "Mandatory gaps: nist",
-        "Potential gaps: dlp, edr, rust",
-        "Exposure only; do not claim deep expertise: nist",
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "About the role: What's in the Box We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges. Security Engineers work in a variety of ways to constantly iterate and improve HelloFresh’s security posture. You will be the first port of call for responding to any of HelloFresh’s security related questions and concerns. You will also develop and deliver tools and processes to enable colleagues to achieve their goals and objectives. Above all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you. What You’ll Do: The Recipe Enhance the security posture of the enterprise IT infrastructure, services, and tools by hardening them against abuse and nefarious activity Implement secure configurations and policies for IAM, EDR, VPN, Firewalls, Email Security, Slack and MDM tools Responsible for security hardening and posture of enterprise IT assets Adapt to modern AI a…",
-      "full_description": "About the role: What's in the Box\n\nWe’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges. Security Engineers work in a variety of ways to constantly iterate and improve HelloFresh’s security posture. \n\nYou will be the first port of call for responding to any of HelloFresh’s security related questions and concerns. You will also develop and deliver tools and processes to enable colleagues to achieve their goals and objectives.\n\nAbove all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you.\n\nWhat You’ll Do: The Recipe\n\nEnhance the security posture of the enterprise IT infrastructure, services, and tools by hardening them against abuse and nefarious activity\n\nImplement secure configurations and policies for IAM, EDR, VPN, Firewalls, Email Security, Slack and MDM tools\n\nResponsible for security hardening and posture of enterprise IT assets\n\nAdapt to modern AI adoption strategy through implementing and mitigating AI controls in a variety of methods including Shadow AI, MCP integrations, and protecting against AI-based risks\n\nDeploy, optimize and operate modern security solutions like EDR, Zero-Trust, SSE/CASB, DLP, and Patch Management tools\n\nAssist in company-wide security awareness campaigns and vulnerability patching\n\nPerform comparative technical and commercial analysis for various security products/tools prior to procurement\n\nWhat You’ll Bring: The Ingredients\n\nHands-on experience hardening workstations, network equipment, servers, IAM platforms through using CIS/NIST frameworks\n\nUnderstanding and usage of Generative AI from a corporate perspective, including LLM guardrails, MCP connections/gateways, and risks stemming from its usage such as prompt injections\n\nAbility to perform malware analysis on Windows, MacOS, and Linux machines\n\nUnderstanding of modern-day social engineering attacks and how to prevent them through technical controls and training\n\nIn-depth understanding of common TCP/IP protocols and modern-day security threats on each network layer and protecting against them\n\nGood communication and reporting skills\n\nWhat we Offer: The Toppings\n\nElevate your lifestyle! Join one of Europe's fastest-growing tech powerhouses in a dynamic phase of expansion.\n\nImmerse yourself in a diverse global community of 90+ nationalities.\n\nEnjoy a competitive compensation package that goes beyond the norm, with perks like a HelloFresh- subsidized Pension Scheme and a Hybrid working model.\n\nElevate your lifestyle with exclusive discounts on your weekly HelloFresh box and office meals.\n\nInvest in your growth with a German language learning budget, and access to the HelloFresh Academy.\n\nPlus, we've got your well-being covered with mental health support, transportation perks, and working-parent-friendly benefits. From our 24/7 gym access,wellbeing platforms like Headspace and Spill, to sabbatical leave options, HelloFresh is not just a workplace; it's a lifestyle of perks and possibilities!",
-      "skill_requirements": [
-        {
-          "skill": "nist",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Hands-on experience hardening workstations, network equipment, servers, IAM platforms through using CIS/NIST frameworks"
-        },
-        {
-          "skill": "dlp",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Deploy, optimize and operate modern security solutions like EDR, Zero-Trust, SSE/CASB, DLP, and Patch Management tools"
-        },
-        {
-          "skill": "edr",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Implement secure configurations and policies for IAM, EDR, VPN, Firewalls, Email Security, Slack and MDM tools"
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges."
-        }
-      ],
-      "german_analysis": {
-        "category": "unspecified",
-        "level": "unspecified",
-        "mandatory": false,
-        "label": "German requested; level/strictness unclear",
-        "evidence": "Invest in your growth with a German language learning budget, and access to the HelloFresh Academy."
-      },
-      "experience_analysis": null
-    },
-    {
-      "report_number": 9,
       "job_key": "aeed9275b0fec6f82691",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1883,6 +1738,151 @@
           "profile_status": "missing",
           "requirement": "mentioned",
           "evidence": "Our security assurance team keeps SumUp's information security programme credible, both to regulators and to the millions of merchants who trust us with their business."
+        }
+      ],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 9,
+      "job_key": "cd5cfcf928703cec5837",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 60,
+      "raw_score": 60,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "Senior title is above the profile's current 2+ years"
+      ],
+      "score_label": "REVIEW",
+      "title": "Security Engineer Senior - GRC",
+      "company": "Alan",
+      "location": "Anywhere in France",
+      "location_analysis": {
+        "category": "eligible_worldwide_remote",
+        "eligible": true,
+        "score": 11,
+        "reason": "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
+        "verification_required": true,
+        "score_cap": 89,
+        "scope": "Worldwide remote",
+        "work_model": "Remote"
+      },
+      "location_scope": "Worldwide remote",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "it_audit_grc",
+        "label": "IT Audit / GRC",
+        "priority": 3,
+        "confidence": "high",
+        "evidence": [
+          "grc",
+          "iso 27001",
+          "internal audit",
+          "compliance"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-senior-grc-anywhere-in-france-113298",
+      "apply_url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-senior-grc-anywhere-in-france-113298",
+      "canonical_url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-senior-grc-anywhere-in-france-113298",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-10-21T02:40:14Z",
+      "posting_age_days": 0,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-10-21T10:26:52Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "sast"
+        ],
+        "partial": [],
+        "missing": [
+          "iso 27001",
+          "rust"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "You own the full certification cycle (ISO 27001, HDS and those to come), and turn it into something teams use every day to prioritise, not a binder for auditors."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "This one is about earning our members' trust: every day, they share their diagnoses, their claims and their care with us."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 12,
+        "skills": 10,
+        "experience": 10,
+        "location": 11,
+        "language": 10,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Worldwide/anywhere remote eligibility detected; verify employment from Germany.",
+        "Evidenced matches include sast."
+      ],
+      "warnings": [
+        "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
+        "Potential gaps: iso 27001, rust",
+        "Senior title is above the profile's current 2+ years"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "Health can’t wait. Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t. Alan exists to end the wait. Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way. So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience. We are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR. Prevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond. 🛡️ The role Most GRC roles are about keeping auditors happy. This one is…",
+      "full_description": "Health can’t wait. \n\nNot for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t.\n\nAlan exists to end the wait.\n\nHealth is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way.\n\nSo we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience.\n\nWe are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR.\n\nPrevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond.\n\n🛡️ The role\n\nMost GRC roles are about keeping auditors happy. This one is about earning our members' trust: every day, they share their diagnoses, their claims and their care with us.\n\nYou'll own security governance and risk at Alan end to end. That means one clear framework across our certifications and regulations, which the whole company uses to decide what matters most. You set the direction, make the calls on risk, and help every team own its part.\n\nWe just earned our HDS certification, and there's much more to build as we grow from 1M to many millions of members, across more countries and regulators. That includes how we govern AI, which Alan uses across its products and operations.\n\nThis is a hands-on senior role. You do the work yourself, mentor the junior GRC engineer we're hiring alongside you, and grow the team over time.\n\n🚀 What you'll do\n\nMake our security framework a tool for the whole company. You own the full certification cycle (ISO 27001, HDS and those to come), and turn it into something teams use every day to prioritise, not a binder for auditors.\n\nBring the security view on regulation. Legal and Risk own the regulatory relationships. You bring the security answer: what the rules mean for how we protect data, and which controls make it work in practice.\n\nRun risk as an ongoing programme. You map and prioritise security risks, including AI risks, turn them into clear treatment plans, and feed them into company-wide risk decisions with the Risk team.\n\nHelp every team own its risks. You define the controls framework and the standards, while the teams who build and run our systems own the controls. You brief the board and audit committee, and you know which findings need an urgent call and which can wait for the quarterly report.\n\nOwn incident governance. You triage and escalate incidents, own business continuity and disaster recovery, and shape the security side of our regulatory incident reports.\n\nBe a credible partner to engineering. You work with engineering teams early on new designs and spot control gaps (access, encryption, logging) before they ship. You don't need to be an architect, but you can hold the conversation.\n\n🏗️ What you'll build\n\nOne governance model: clear ownership of risks and controls across teams, so security decisions don't bottleneck on one person.\n\nA living risk map: prioritised risks that actually drive company and engineering decisions.\n\nOne compliance backbone: a single control system across our countries and regulators, built to scale.\n\nAn automated evidence engine: evidence collected straight from engineering systems, so audits run continuously instead of as a quarterly rush.\n\nYou'll work closely with Legal, the Data Protection Officer, Internal Audit and Risk, and day to day with engineering and operations teams.\n\n⭐ What we're looking for\n\nYour team\n\nYou'll join Alan's Corporate team, which brings together our control functions: Risk, Corporate Governance & Internal Control, Legal, Compliance and Security. They share one mission: building what lets Alan operate at scale, safely and responsibly. Within that group, you carry the security governance and risk dimension, working hand in hand with the security engineers who run our infrastructure and platform security, and with a junior GRC engineer we're hiring alongside you. You'll be hands-on every day, building and owning the work yourself. Along the way, you'll mentor the junior engineer and help shape how GRC grows at Alan.\n\nWhat you bring\n\nYou want to build and own things yourself, and you enjoy helping someone else grow while you do it.\n\n6+ years in security, with real GRC ownership.\n\nYou've run a GRC roadmap in a certified or strongly regulated environment (ISO 27001, HDS, SOC 2, or regulated sectors like health, insurance or finance). You're comfortable working with certification auditors, and you can explain what a framework requires and why it makes sense for business teams.\n\nYou take a stand on risks, and you'd rather close one real risk than write ten policies.\n\nYou're fluent in French and English.\n\nA big plus\n\nYou've driven a certification or audit cycle end to end yourself.\n\nYou've automated compliance work, or you're eager to, and you have a view on where AI can help.\n\nYou've presented risk to senior leaders or a board.\n\nYou've mentored or onboarded someone before.\n\n🌍 How we work\n\nLocation: You must be legally eligible to work from France, Belgium or Spain.\n\nRemote work: We offer remote work flexibility.\n\n🎯 Important note: we hire people, not roles.\n\nIf you're excited about this opportunity but don't check every box, we'd love to hear from you. Everyone, no matter how underrepresented, should feel free to apply, as it can only bring learnings or success.\n\nRemember, this is just a guide, not a checklist. We'll be thrilled to receive your application!\n\n🔖 Check out our About Alan and Career pages, as well as our Medium, blog and Glassdoor page for more info.\n\nYou want to know more about Alan?\n\n🙌 Perks & Benefits: Alaners are provided with a stimulating environment and perks ensuring they are happy, efficient and spend only high-quality time with co-workers.\n\n🤘A strong culture: People joining Alan are often surprised and delighted by our innovative working method. We have a set of cultural values that guide our approach to work\n\nCompensation: €83K – €100K\n\nLevel D to E • €83K – €100K\n\nFind Jobs in France on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "You own the full certification cycle (ISO 27001, HDS and those to come), and turn it into something teams use every day to prioritise, not a binder for auditors."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "This one is about earning our members' trust: every day, they share their diagnoses, their claims and their care with us."
+        },
+        {
+          "skill": "sast",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "You triage and escalate incidents, own business continuity and disaster recovery, and shape the security side of our regulatory incident reports."
         }
       ],
       "german_analysis": {

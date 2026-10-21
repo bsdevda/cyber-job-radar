@@ -208,7 +208,7 @@
   },
   "521c71dc83dfa3787db3": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-20T10:17:39Z",
+    "last_seen": "2026-10-21T10:26:52Z",
     "content_hash": "2c040214033ea8916a3acfc5d53099f7b45d4e07ed4a37d2804853d325041e92",
     "status": "SEEN_BEFORE",
     "company": "Staffbase",
@@ -460,7 +460,7 @@
   },
   "9ba7cf301be480a6ff9f": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-20T10:17:39Z",
+    "last_seen": "2026-10-21T10:26:52Z",
     "content_hash": "695565afccbc0ea27aed88980573bdd4151d8c3a3fd8cfff9885244f400ab84b",
     "status": "SEEN_BEFORE",
     "company": "NavVis",
@@ -3214,7 +3214,7 @@
   },
   "adf40ac5904cb1b075ac": {
     "first_seen": "2026-08-15T17:01:09Z",
-    "last_seen": "2026-10-20T10:17:39Z",
+    "last_seen": "2026-10-21T10:26:52Z",
     "content_hash": "b5d79684c158dd21a22b161caeb7fc7ce838b589f10eb85b95807e2a1ac10691",
     "status": "SEEN_BEFORE",
     "company": "Qdrant",
@@ -3385,7 +3385,7 @@
   },
   "b420e12f1f07d8e20c57": {
     "first_seen": "2026-08-16T17:17:56Z",
-    "last_seen": "2026-10-20T10:17:39Z",
+    "last_seen": "2026-10-21T10:26:52Z",
     "content_hash": "3c111a040ba232739fbe1eaa732d0f792164e29972adefad39a2444c69f7da1b",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3619,9 +3619,9 @@
   },
   "4afa9462370d50b6650c": {
     "first_seen": "2026-08-27T16:38:50Z",
-    "last_seen": "2026-10-20T10:17:39Z",
+    "last_seen": "2026-10-21T10:26:52Z",
     "content_hash": "e388309e9ce8f7c4e88a62d85ab323578b783bd32ce2aceec8fdeb7c53eeb25f",
-    "status": "UPDATED",
+    "status": "SEEN_BEFORE",
     "company": "HelloFresh",
     "title": "Security Engineer (ITSec) (m,f,x)",
     "url": "https://careers.hellofresh.com/global/en/job/8146732?gh_jid=8146732"
@@ -3747,7 +3747,7 @@
     "first_seen": "2026-09-20T10:22:50Z",
     "last_seen": "2026-09-20T10:22:50Z",
     "content_hash": "eb4f8868e62f7e2e76bc63a6f62493f56d7ed900c044760d63115de5344c3e53",
-    "status": "NEW",
+    "status": "REMOVED",
     "company": "Kestra Technologies",
     "title": "Senior Security Engineer",
     "url": "https://www.arbeitnow.fr/jobs/companies/kestra-technologies/senior-security-engineer-villeneuve-dascq-8214"
@@ -3772,7 +3772,7 @@
   },
   "240800e330239220c3d1": {
     "first_seen": "2026-09-30T11:17:18Z",
-    "last_seen": "2026-10-20T10:17:39Z",
+    "last_seen": "2026-10-21T10:26:52Z",
     "content_hash": "022807eaf926d00eae9ae0004e465698cedacb61e07b2d976bc8185a02f43884",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3808,7 +3808,7 @@
   },
   "729a044bba71f5b2b24a": {
     "first_seen": "2026-10-01T11:44:36Z",
-    "last_seen": "2026-10-20T10:17:39Z",
+    "last_seen": "2026-10-21T10:26:52Z",
     "content_hash": "b53f439b644e8b2c0cf34ef5a6c4f5e60ce03f57dc30ce5e2ed7e74f78e75c3d",
     "status": "SEEN_BEFORE",
     "company": "N26",
@@ -3853,7 +3853,7 @@
   },
   "1d8705aa550b912143d8": {
     "first_seen": "2026-10-07T11:55:14Z",
-    "last_seen": "2026-10-20T10:17:39Z",
+    "last_seen": "2026-10-21T10:26:52Z",
     "content_hash": "3aa41d70911562622ed6770353b4e0684fa21f01fd13607cd0cc36fea54351b3",
     "status": "SEEN_BEFORE",
     "company": "KAYAK",
@@ -3907,16 +3907,16 @@
   },
   "3256d24bfeb9b7759cfb": {
     "first_seen": "2026-10-16T10:02:11Z",
-    "last_seen": "2026-10-20T10:17:39Z",
+    "last_seen": "2026-10-21T10:26:52Z",
     "content_hash": "16945b5e3d079de067fb296f154a059975423fa18b63963f597dd9e263f15ac6",
-    "status": "UPDATED",
+    "status": "SEEN_BEFORE",
     "company": "HelloFresh",
     "title": "Security Engineer, SOC (all genders)",
     "url": "https://careers.hellofresh.com/global/en/job/8281022?gh_jid=8281022"
   },
   "697670f71dcd9793a00c": {
     "first_seen": "2026-10-16T10:02:11Z",
-    "last_seen": "2026-10-20T10:17:39Z",
+    "last_seen": "2026-10-21T10:26:52Z",
     "content_hash": "20adbe249f6cf83cac6756f8fd8e788adf50f213937c49552518f9419a9d0961",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3925,9 +3925,9 @@
   },
   "db8aaa804d8c25ef23c4": {
     "first_seen": "2026-10-16T10:02:11Z",
-    "last_seen": "2026-10-20T10:17:39Z",
-    "content_hash": "3e71a8ab268a9796bc9323b34da7a569b87196aa93f499cf6078cd0fc2deba00",
-    "status": "SEEN_BEFORE",
+    "last_seen": "2026-10-21T10:26:52Z",
+    "content_hash": "d8ea1fcba423d1e85388836b1245131ca42482fc93192f6181a7062b9373392b",
+    "status": "UPDATED",
     "company": "Wire Germany GmbH",
     "title": "Senior Security Engineer (f/m/d)",
     "url": "https://wire-1.jobs.personio.de/job/2840727?language=en"
@@ -3952,7 +3952,7 @@
   },
   "f1e7ab2db758d14bd8de": {
     "first_seen": "2026-10-19T11:04:26Z",
-    "last_seen": "2026-10-20T10:17:39Z",
+    "last_seen": "2026-10-21T10:26:52Z",
     "content_hash": "c979e2bf58b0549855a8ca3b24d7f18a2ff1665bd40217a335e7003ef9000fc8",
     "status": "SEEN_BEFORE",
     "company": "Eye Security",
@@ -3961,11 +3961,38 @@
   },
   "ad5a9fea931d31fc704c": {
     "first_seen": "2026-10-20T10:17:39Z",
-    "last_seen": "2026-10-20T10:17:39Z",
+    "last_seen": "2026-10-21T10:26:52Z",
     "content_hash": "92a88698aaf3abbb8d958e80ba701532f092db90fa6ecd98eb5dde8e2cf100c4",
-    "status": "NEW",
+    "status": "SEEN_BEFORE",
     "company": "Cypher Consulting Europe",
     "title": "SAP Security & Authorizations Consultant",
     "url": "https://www.arbeitnow.com/jobs/companies/cypher-consulting-europe/sap-security-authorizations-consultant-berlin-417832"
+  },
+  "fcd3d88612c00e3423ee": {
+    "first_seen": "2026-10-21T10:26:52Z",
+    "last_seen": "2026-10-21T10:26:52Z",
+    "content_hash": "12e6cc5cdd7b9f065381b4d649bae87a1511c2547600881ecd4172b948265c18",
+    "status": "NEW",
+    "company": "Alan",
+    "title": "Security Engineer Junior - GRC",
+    "url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-junior-grc-anywhere-in-france-76041"
+  },
+  "cd5cfcf928703cec5837": {
+    "first_seen": "2026-10-21T10:26:52Z",
+    "last_seen": "2026-10-21T10:26:52Z",
+    "content_hash": "fe8745122c3c6817a8d1b78f2226b72c998828d30e952636e4ffeb3d042b3e4d",
+    "status": "NEW",
+    "company": "Alan",
+    "title": "Security Engineer Senior - GRC",
+    "url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-senior-grc-anywhere-in-france-113298"
+  },
+  "022b02e42c40ff735dbc": {
+    "first_seen": "2026-10-21T10:26:52Z",
+    "last_seen": "2026-10-21T10:26:52Z",
+    "content_hash": "7368659fc6d90ff0391d9b49730a85681d07a7b90259c0d88bc975f4f1deffc5",
+    "status": "NEW",
+    "company": "Langdock",
+    "title": "(Senior) Security Engineer - m/f/d",
+    "url": "https://jobs.ashbyhq.com/langdock/8662e63f-63fe-47f1-92c3-a402d3d24486"
   }
 }

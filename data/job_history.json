@@ -7710,6 +7710,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-10-21T10:26:52Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 10240,
+      "security_title_candidates": 345,
+      "prefiltered_non_security_jobs": 9895,
+      "unique_jobs_after_deduplication": 264,
+      "duplicates_removed": 81,
+      "jobs_rejected_or_below_threshold": 10143,
+      "relevant_jobs_in_current_run": 16,
+      "new_jobs": 3,
+      "updated_jobs": 1,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 48,
+      "jobs_by_source": {
+        "arbeitnow": 2400,
+        "remotive": 10,
+        "linkedin_posts": 0,
+        "greenhouse": 6349,
+        "ashby": 238,
+        "lever": 1087,
+        "personio": 150,
+        "recruitee": 6
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 30.0,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2400,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 10,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 6349,
+          "requests": 68,
+          "errors": [],
+          "error": "",
+          "companies_checked": 68,
+          "companies_successful": 68,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 238,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1087,
+          "requests": 4,
+          "errors": [],
+          "error": "",
+          "companies_checked": 4,
+          "companies_successful": 4,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 150,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 6,
+          "requests": 1,
+          "errors": [],
+          "error": "",
+          "companies_checked": 1,
+          "companies_successful": 1,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -14739,6 +14852,45 @@
       "company": "HelloFresh",
       "title": "Security Engineer, SOC (all genders)",
       "score": 69
+    },
+    {
+      "at": "2026-10-21T10:26:52Z",
+      "job_key": "fcd3d88612c00e3423ee",
+      "event": "NEW",
+      "company": "Alan",
+      "title": "Security Engineer Junior - GRC",
+      "score": 69
+    },
+    {
+      "at": "2026-10-21T10:26:52Z",
+      "job_key": "cd5cfcf928703cec5837",
+      "event": "NEW",
+      "company": "Alan",
+      "title": "Security Engineer Senior - GRC",
+      "score": 60
+    },
+    {
+      "at": "2026-10-21T10:26:52Z",
+      "job_key": "022b02e42c40ff735dbc",
+      "event": "NEW",
+      "company": "Langdock",
+      "title": "(Senior) Security Engineer - m/f/d",
+      "score": 69
+    },
+    {
+      "at": "2026-10-21T10:26:52Z",
+      "job_key": "db8aaa804d8c25ef23c4",
+      "event": "UPDATED",
+      "company": "Wire Germany GmbH",
+      "title": "Senior Security Engineer (f/m/d)",
+      "score": 59
+    },
+    {
+      "at": "2026-10-21T10:26:52Z",
+      "job_key": "32c54022816bcac2a151",
+      "event": "REMOVED",
+      "company": "Kestra Technologies",
+      "title": "Senior Security Engineer"
     }
   ]
 }
