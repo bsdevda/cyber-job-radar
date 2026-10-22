@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T10:26:52Z",
+  "generated_at": "2026-10-22T10:26:14Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,42 +171,42 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-10-21T10:26:52Z",
+    "generated_at": "2026-10-22T10:26:14Z",
     "scoring_version": 2.2,
-    "jobs_collected": 10240,
-    "security_title_candidates": 345,
-    "prefiltered_non_security_jobs": 9895,
-    "unique_jobs_after_deduplication": 264,
-    "duplicates_removed": 81,
-    "jobs_rejected_or_below_threshold": 10143,
-    "relevant_jobs_in_current_run": 16,
-    "new_jobs": 3,
-    "updated_jobs": 1,
+    "jobs_collected": 8426,
+    "security_title_candidates": 303,
+    "prefiltered_non_security_jobs": 8123,
+    "unique_jobs_after_deduplication": 229,
+    "duplicates_removed": 74,
+    "jobs_rejected_or_below_threshold": 8334,
+    "relevant_jobs_in_current_run": 18,
+    "new_jobs": 1,
+    "updated_jobs": 2,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
     "sources_partial": 0,
     "report_jobs": 48,
     "jobs_by_source": {
-      "arbeitnow": 2400,
+      "arbeitnow": 2241,
       "remotive": 10,
       "linkedin_posts": 0,
-      "greenhouse": 6349,
-      "ashby": 238,
-      "lever": 1087,
-      "personio": 150,
-      "recruitee": 6
+      "greenhouse": 5561,
+      "ashby": 268,
+      "lever": 163,
+      "personio": 179,
+      "recruitee": 4
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 30.0
+    "workflow_duration_seconds": 24.3
   },
   "source_status": {
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 2400,
+      "jobs": 2241,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -230,18 +230,18 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 6349,
-      "requests": 68,
+      "jobs": 5561,
+      "requests": 58,
       "errors": [],
       "error": "",
-      "companies_checked": 68,
-      "companies_successful": 68,
+      "companies_checked": 58,
+      "companies_successful": 58,
       "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 238,
+      "jobs": 268,
       "requests": 9,
       "errors": [],
       "error": "",
@@ -252,18 +252,7 @@
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 1087,
-      "requests": 4,
-      "errors": [],
-      "error": "",
-      "companies_checked": 4,
-      "companies_successful": 4,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 150,
+      "jobs": 163,
       "requests": 3,
       "errors": [],
       "error": "",
@@ -271,10 +260,21 @@
       "companies_successful": 3,
       "companies_failed": 0
     },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 179,
+      "requests": 6,
+      "errors": [],
+      "error": "",
+      "companies_checked": 6,
+      "companies_successful": 6,
+      "companies_failed": 0
+    },
     "recruitee": {
       "status": "ok",
       "ok": true,
-      "jobs": 6,
+      "jobs": 4,
       "requests": 1,
       "errors": [],
       "error": "",
@@ -286,8 +286,203 @@
   "jobs": [
     {
       "report_number": 1,
-      "job_key": "fcd3d88612c00e3423ee",
+      "job_key": "3183e2eb626e74bd4b92",
       "status": "NEW",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 78,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "score_label": "REVIEW",
+      "title": "Cybersecurity Researcher",
+      "company": "Cygrid GmbH",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin hybrid role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Hybrid"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Hybrid",
+      "role_family": {
+        "id": "penetration_testing",
+        "label": "Penetration Testing / VAPT",
+        "priority": 1,
+        "confidence": "medium",
+        "evidence": [
+          "offensive security"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://www.arbeitnow.com/jobs/companies/cygrid-gmbh/cybersecurity-researcher-berlin-467857",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/cygrid-gmbh/cybersecurity-researcher-berlin-467857",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/cygrid-gmbh/cybersecurity-researcher-berlin-467857",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-10-21T11:20:13Z",
+      "posting_age_days": 0,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-10-22T10:26:14Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "python"
+        ],
+        "partial": [
+          "aws"
+        ],
+        "missing": [
+          "azure",
+          "detection engineering",
+          "rust"
+        ],
+        "nice_to_have": [
+          "active directory (missing)",
+          "penetration testing (match)"
+        ]
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Hands-on experience with SaaS and cloud platforms such as Microsoft 365 / Entra ID, Google Workspace, Okta, Salesforce, AWS, Azure, or GCP, including their identity and permission models"
+        },
+        {
+          "skill": "azure",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Hands-on experience with SaaS and cloud platforms such as Microsoft 365 / Entra ID, Google Workspace, Okta, Salesforce, AWS, Azure, or GCP, including their identity and permission models"
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "detection engineering",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Turn research into detection logic and rule content that ships in the product"
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Our goal is to turn complex identity and security data into clear, actionable risk insights that CISOs and CTOs can trust."
+        }
+      ],
+      "optional_gaps": [
+        {
+          "skill": "active directory",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Active Directory and hybrid identity"
+        }
+      ],
+      "score_breakdown": {
+        "role_alignment": 20,
+        "skills": 10,
+        "experience": 10,
+        "location": 15,
+        "language": 10,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Penetration Testing / VAPT.",
+        "Berlin hybrid role.",
+        "Evidenced matches include python."
+      ],
+      "warnings": [
+        "Mandatory gaps: aws, azure",
+        "Potential gaps: detection engineering, rust",
+        "Optional gaps: active directory",
+        "Exposure only; do not claim deep expertise: aws",
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "Berlin • Cybersecurity & AI Startup • Recently Funded A newly funded cybersecurity startup in Berlin is looking for a Cybersecurity Researcher to join as a team member and help design the core security, identity, and enforcement foundations of a next-generation AI-powered security risk management platform. We are an early-stage startup founded by experienced cybersecurity leaders with backgrounds in Israeli Intelligence units. We are looking for a hands-on Cybersecurity Researcher. If you are passionate about cybersecurity and AI tech, thrive in fast-paced startup environments, and enjoy building complex platforms from the ground up, this is an opportunity to make a real impact. We’re building a next-generation cyber enforcement platform that helps enterprises understand, measure, and reduce identity risk at scale. Our goal is to turn complex identity and security data into clear, actionable risk insights that CISOs and CTOs can trust. You will work from scratch on core platform components from day one, shaping how modern enterprises manage and reason about risk using cloud-native systems and AI-driven analysis and automated enforcement through AI Agents. Key Responsibilities Rese…",
+      "full_description": "Berlin • Cybersecurity & AI Startup • Recently Funded\n\nA newly funded cybersecurity startup in Berlin is looking for a Cybersecurity Researcher to join as a team member and help design the core security, identity, and enforcement foundations of a next-generation AI-powered security risk management platform.\n\nWe are an early-stage startup founded by experienced cybersecurity leaders with backgrounds in Israeli Intelligence units. We are looking for a hands-on Cybersecurity Researcher. If you are passionate about cybersecurity and AI tech, thrive in fast-paced startup environments, and enjoy building complex platforms from the ground up, this is an opportunity to make a real impact.\n\nWe’re building a next-generation cyber enforcement platform that helps enterprises understand, measure, and reduce identity risk at scale. Our goal is to turn complex identity and security data into clear, actionable risk insights that CISOs and CTOs can trust. You will work from scratch on core platform components from day one, shaping how modern enterprises manage and reason about risk using cloud-native systems and AI-driven analysis and automated enforcement through AI Agents.\n\nKey Responsibilities\n\nResearch how identity works across platforms: discovery, permission schemes, hidden attack paths, and the behavior vendors don’t document\n\nConnect the dots across environments: attack paths that span SaaS, cloud, and on-prem\n\nTurn research into detection logic and rule content that ships in the product\n\nWork directly with the founders, product, and engineering to shape what we build next\n\nBuild the research tooling you need, and share your research through open-source tools and write-ups\n\nMust have\n\n4+ years in security research, detection engineering, or a closely related role\n\nHands-on experience with SaaS and cloud platforms such as Microsoft 365 / Entra ID, Google Workspace, Okta, Salesforce, AWS, Azure, or GCP, including their identity and permission models\n\nExperience reverse engineering APIs: intercepting traffic, finding undocumented endpoints, and testing behavior against what vendor docs claim\n\nStrong Python, written so others can read, run, and maintain it\n\nSolid understanding of identity and access concepts: OAuth, SAML, SSO, service accounts, API tokens, delegated permissions\n\nAbility to turn research findings into concrete detection logic\n\nBased in Berlin or willing to relocate\n\nComfortable operating under ambiguity in an early-stage startup\n\nKnowledge of agent related Identity landscape and attack vectors\n\nNice to have\n\nOffensive security experience: red team, pentesting, or offensive research\n\nActive Directory and hybrid identity\n\nPublished research, conference talks, CVEs, or open-source tools\n\nDetection-as-code experience, such as Sigma or KQL\n\nGraph-based attack path analysis, for example with Neo4j\n\nYou have a CVE, or a story about why you didn’t get one\n\nBenefits\n\nTeam Member Equity — ESOPs in a cybersecurity company.\n\nCompetitive Compensation — salary aligned with market, flexible early-stage arrangements possible.\n\nFresh Funding Secured — immediate runway to build, hire, and execute fast.\n\nSecurity Contribution — contribute to security architecture across identity, AI agents, and enforcement.\n\nHigh Autonomy — freedom to design and build without corporate overhead.\n\nWork with a Technical CEO — fast iteration, strong alignment, clear direction.\n\nCutting-Edge Domain — identity security, SaaS-to-SaaS access, AI agent governance.\n\nMassive Learning Curve — quickly gain depth in cybersecurity, identity, and AI systems.\n\nFast Career Path — opportunity evolve into leadership as we scale the team\n\nBerlin Location — top-tier tech environment with strong cybersecurity and AI ecosystems.\n\nDirect Impact — your architecture and code become the foundation of the entire platform.\n\nBest Equipment and Tools - High quality equipment and modern tools to help you do your best work from day one.\n\nTeam Offsites - Regular team offsites designed to build strong connections, alignment, and shared momentum.\n\nFind Jobs in Germany on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Hands-on experience with SaaS and cloud platforms such as Microsoft 365 / Entra ID, Google Workspace, Okta, Salesforce, AWS, Azure, or GCP, including their identity and permission models"
+        },
+        {
+          "skill": "azure",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Hands-on experience with SaaS and cloud platforms such as Microsoft 365 / Entra ID, Google Workspace, Okta, Salesforce, AWS, Azure, or GCP, including their identity and permission models"
+        },
+        {
+          "skill": "detection engineering",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Turn research into detection logic and rule content that ships in the product"
+        },
+        {
+          "skill": "python",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Strong Python, written so others can read, run, and maintain it"
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Our goal is to turn complex identity and security data into clear, actionable risk insights that CISOs and CTOs can trust."
+        },
+        {
+          "skill": "active directory",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Active Directory and hybrid identity"
+        },
+        {
+          "skill": "penetration testing",
+          "profile_status": "match",
+          "requirement": "optional",
+          "evidence": "Offensive security experience: red team, pentesting, or offensive research"
+        }
+      ],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 2,
+      "job_key": "fcd3d88612c00e3423ee",
+      "status": "UPDATED",
       "application_status": "NEW",
       "score": 69,
       "raw_score": 69,
@@ -341,10 +536,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-21T02:40:14Z",
-      "posting_age_days": 0,
+      "posting_age_days": 1,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 0,
+        "age_days": 1,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
@@ -413,7 +608,7 @@
       ],
       "recommendation": "REVIEW - material seniority, language, or skill risk",
       "description_excerpt": "Health can’t wait. Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t. Alan exists to end the wait. Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way. So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience. We are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR. Prevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond. 🛡️ The role Most GRC roles are about keeping auditors happy. This one is…",
-      "full_description": "Health can’t wait. \n\nNot for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t.\n\nAlan exists to end the wait.\n\nHealth is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way.\n\nSo we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience.\n\nWe are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR.\n\nPrevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond.\n\n🛡️ The role\n\nMost GRC roles are about keeping auditors happy. This one is about earning our members' trust: every day, they share their diagnoses, their claims and their care with us.\n\nYou'll join Alan's security team to help run our compliance and risk work across ISO 27001, HDS and DORA, across a growing number of countries and regulators. We just earned our HDS certification, and there's much more to build, including how we govern AI across our products: assessing AI risks, setting the controls, and keeping up with the AI Act.\n\nYou'll learn alongside experienced security engineers, with a dedicated coach from day one. You'll take on real ownership early, and your scope grows as we scale from 1M to many millions of members. And you'll learn how we work at Alan: teams own their risks and controls, we automate wherever we can, and we focus on real outcomes, not paperwork.\n\n🚀 What you'll do\n\nKeep our certifications on track. You run the day-to-day of the ISO 27001 and HDS audit cycles: collecting evidence, preparing internal audits, and following up on corrective actions until they're closed.\n\nTurn regulations into practical actions. With Legal and the DPO, you help translate requirements like DORA, HDS, and GDPR into clear tasks for the teams, and track that they get done.\n\nLearn the health sector rules. You build your knowledge of health-specific frameworks (ANS, HDS) and help apply them to how we handle health data.\n\nContribute to risk management. You help build and update our risk mapping, including AI risks, and follow up on the treatment plans with the teams who own them.\n\nSupport the teams who own the controls. You keep the controls framework up to date, answer teams' questions, and help explain security clearly to every stakeholder, from engineers to managers.\n\nSupport incident governance. You help classify and document incidents, keep Business continuity and Disaster recovery plans up to date, and prepare inputs for DORA incident reports.\n\nAutomate what slows us down. You spot repetitive compliance tasks and automate them with scripts, tools or AI.\n\n🏗️ What you'll help build\n\nOne compliance backbone: A single control system for several regulators in several countries, so Alan can scale without rebuilding compliance each time.\n\nAn automated evidence engine: evidence collected straight from engineering systems with scripts and AI, so audits run continuously instead of as a quarterly rush.\n\nYou'll work closely with Legal, the DPO, Internal Audit and Risk, and day to day with engineering and operations teams.\n\n⭐ What we're looking for\n\nYou want to do the work yourself and grow with it: a permanent, hands-on role where you build things for the long run.\n\n2+ years in security, GRC or compliance (an audit background is fine if you want to move into building).\n\nYou've played a key part in a certification or audit cycle (ISO 27001, HDS, SOC 2 or similar).\n\nYou're curious about how things work technically, and you've automated at least one manual task (a script, a tool, an AI workflow).\n\nYou're fluent in French and English, and comfortable presenting in both.\n\nYou learn fast, ask for feedback, and go into the details when it matters.\n\n🌍 How we work\n\nLocation: You must be legally eligible to work from France, Belgium or Spain.\n\nRemote work: We offer remote work flexibility.\n\n🎯 Important note: we hire people, not roles.\n\nIf you're excited about this opportunity but don't check every box, we'd love to hear from you. Everyone, no matter how underrepresented, should feel free to apply, as it can only bring learnings or success.\n\n🔖 Check out our About Alan and Career pages, as well as our Medium, blog and Glassdoor page for more info.\n\nYou want to know more about Alan?\n\n🙌 Perks & Benefits: Alaners are provided with a stimulating environment and perks ensuring they are happy, efficient and spend only high-quality time with co-workers.\n\n🤘A strong culture: People joining Alan are often surprised and delighted by our innovative working method. We have a set of cultural values that guide our approach to work\n\nCompensation: €61K – €70K\n\nLevel C0 to C1 • €61K – €70K\n\nFind more English Speaking Jobs in France on Arbeitnow",
+      "full_description": "Health can’t wait. \n\nNot for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t.\n\nAlan exists to end the wait.\n\nHealth is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way.\n\nSo we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience.\n\nWe are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR.\n\nPrevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond.\n\n🛡️ The role\n\nMost GRC roles are about keeping auditors happy. This one is about earning our members' trust: every day, they share their diagnoses, their claims and their care with us.\n\nYou'll join Alan's security team to help run our compliance and risk work across ISO 27001, HDS and DORA, across a growing number of countries and regulators. We just earned our HDS certification, and there's much more to build, including how we govern AI across our products: assessing AI risks, setting the controls, and keeping up with the AI Act.\n\nYou'll learn alongside experienced security engineers, with a dedicated coach from day one. You'll take on real ownership early, and your scope grows as we scale from 1M to many millions of members. And you'll learn how we work at Alan: teams own their risks and controls, we automate wherever we can, and we focus on real outcomes, not paperwork.\n\n🚀 What you'll do\n\nKeep our certifications on track. You run the day-to-day of the ISO 27001 and HDS audit cycles: collecting evidence, preparing internal audits, and following up on corrective actions until they're closed.\n\nTurn regulations into practical actions. With Legal and the DPO, you help translate requirements like DORA, HDS, and GDPR into clear tasks for the teams, and track that they get done.\n\nLearn the health sector rules. You build your knowledge of health-specific frameworks (ANS, HDS) and help apply them to how we handle health data.\n\nContribute to risk management. You help build and update our risk mapping, including AI risks, and follow up on the treatment plans with the teams who own them.\n\nSupport the teams who own the controls. You keep the controls framework up to date, answer teams' questions, and help explain security clearly to every stakeholder, from engineers to managers.\n\nSupport incident governance. You help classify and document incidents, keep Business continuity and Disaster recovery plans up to date, and prepare inputs for DORA incident reports.\n\nAutomate what slows us down. You spot repetitive compliance tasks and automate them with scripts, tools or AI.\n\n🏗️ What you'll help build\n\nOne compliance backbone: A single control system for several regulators in several countries, so Alan can scale without rebuilding compliance each time.\n\nAn automated evidence engine: evidence collected straight from engineering systems with scripts and AI, so audits run continuously instead of as a quarterly rush.\n\nYou'll work closely with Legal, the DPO, Internal Audit and Risk, and day to day with engineering and operations teams.\n\n⭐ What we're looking for\n\nYou want to do the work yourself and grow with it: a permanent, hands-on role where you build things for the long run.\n\n2+ years in security, GRC or compliance (an audit background is fine if you want to move into building).\n\nYou've played a key part in a certification or audit cycle (ISO 27001, HDS, SOC 2 or similar).\n\nYou're curious about how things work technically, and you've automated at least one manual task (a script, a tool, an AI workflow).\n\nYou're fluent in French and English, and comfortable presenting in both.\n\nYou learn fast, ask for feedback, and go into the details when it matters.\n\n🌍 How we work\n\nLocation: You must be legally eligible to work from France, Belgium or Spain.\n\nRemote work: We offer remote work flexibility.\n\n🎯 Important note: we hire people, not roles.\n\nIf you're excited about this opportunity but don't check every box, we'd love to hear from you. Everyone, no matter how underrepresented, should feel free to apply, as it can only bring learnings or success.\n\n🔖 Check out our About Alan and Career pages, as well as our Medium, blog and Glassdoor page for more info.\n\nYou want to know more about Alan?\n\n🙌 Perks & Benefits: Alaners are provided with a stimulating environment and perks ensuring they are happy, efficient and spend only high-quality time with co-workers.\n\n🤘A strong culture: People joining Alan are often surprised and delighted by our innovative working method. We have a set of cultural values that guide our approach to work\n\nCompensation: €61K – €70K\n\nLevel C0 to C1 • €61K – €70K\n\nFind Jobs in France on Arbeitnow",
       "skill_requirements": [
         {
           "skill": "gdpr",
@@ -462,7 +657,127 @@
       }
     },
     {
-      "report_number": 2,
+      "report_number": 3,
+      "job_key": "ad5a9fea931d31fc704c",
+      "status": "UPDATED",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 74,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "score_label": "REVIEW",
+      "title": "SAP Security & Authorizations Consultant",
+      "company": "Cypher Consulting Europe",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin remote role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Remote"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "it_audit_grc",
+        "label": "IT Audit / GRC",
+        "priority": 3,
+        "confidence": "medium",
+        "evidence": [
+          "compliance"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://www.arbeitnow.com/jobs/companies/cypher-consulting-europe/sap-security-authorizations-consultant-berlin-417832",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/cypher-consulting-europe/sap-security-authorizations-consultant-berlin-417832",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/cypher-consulting-europe/sap-security-authorizations-consultant-berlin-417832",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-10-19T11:31:12Z",
+      "posting_age_days": 2,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 2,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-10-20T10:17:39Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [],
+        "partial": [
+          "nist"
+        ],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "You bring deep technical knowledge of SAP security frameworks, role maintenance, and user administration."
+        }
+      ],
+      "potential_gaps": [],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 12,
+        "skills": 14,
+        "experience": 10,
+        "location": 15,
+        "language": 10,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Berlin remote role."
+      ],
+      "warnings": [
+        "Mandatory gaps: nist",
+        "Exposure only; do not claim deep expertise: nist",
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "About Cypher Consulting Europe Cypher Consulting Europe delivers expert consultants across a wide spectrum of technologies and industry sectors. As an independent contractor working 40 hours per week on a 12-month contract remotely across the European Union, you will provide specialized expertise as an SAP Security & Authorizations Consultant. Your responsibilities Configure and maintain SAP business roles, permissions, and access authorizations. Manage user access and security settings within SAP Public Cloud. Ensure appropriate access controls and compliance with security policies. Collaborate with technical and functional teams to resolve authorization issues. Requirements: Experience with SAP S/4HANA Public Cloud and security/authorizations. Knowledge of business roles, business catalogs, and access restrictions. Strong understanding of SAP Identity and Access Management (IAM). Experience with SAP BTP is an advantage.What we look for You bring deep technical knowledge of SAP security frameworks, role maintenance, and user administration. Candidates who match most of these requirements should apply even if they do not meet every single point. Find more English Speaking Jobs in…",
+      "full_description": "About Cypher Consulting Europe\n\nCypher Consulting Europe delivers expert consultants across a wide spectrum of technologies and industry sectors. As an independent contractor working 40 hours per week on a 12-month contract remotely across the European Union, you will provide specialized expertise as an SAP Security & Authorizations Consultant.\n\nYour responsibilities\n\nConfigure and maintain SAP business roles, permissions, and access authorizations.\n\nManage user access and security settings within SAP Public Cloud.\n\nEnsure appropriate access controls and compliance with security policies.\n\nCollaborate with technical and functional teams to resolve authorization issues.\n\nRequirements:\n\nExperience with SAP S/4HANA Public Cloud and security/authorizations.\n\nKnowledge of business roles, business catalogs, and access restrictions.\n\nStrong understanding of SAP Identity and Access Management (IAM).\n\nExperience with SAP BTP is an advantage.What we look for\n\nYou bring deep technical knowledge of SAP security frameworks, role maintenance, and user administration. Candidates who match most of these requirements should apply even if they do not meet every single point. \n\nFind more English Speaking Jobs in Germany on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "You bring deep technical knowledge of SAP security frameworks, role maintenance, and user administration."
+        }
+      ],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 4,
       "job_key": "86d0e27ef416b6621d0d",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -669,7 +984,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 3,
+      "report_number": 5,
       "job_key": "0bc28b416edb95f3b45f",
       "status": "NEW",
       "application_status": "NEW",
@@ -788,7 +1103,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 4,
+      "report_number": 6,
       "job_key": "ca9ca2de50791397491c",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -984,7 +1299,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 5,
+      "report_number": 7,
       "job_key": "97e10fb205544ff97e76",
       "status": "NEW",
       "application_status": "NEW",
@@ -1142,7 +1457,7 @@
       }
     },
     {
-      "report_number": 6,
+      "report_number": 8,
       "job_key": "022b02e42c40ff735dbc",
       "status": "NEW",
       "application_status": "NEW",
@@ -1326,279 +1641,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 7,
-      "job_key": "6118ade6193514055a1c",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 66,
-      "raw_score": 66,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "Senior title is above the profile's current 2+ years",
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "score_label": "REVIEW",
-      "title": "Sr Security Engineer | Remote | Europe",
-      "company": "n8n",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin remote role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "Remote"
-      },
-      "location_scope": "Berlin",
-      "working_model": "Remote",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "security engineer",
-          "security engineering",
-          "vulnerability"
-        ]
-      },
-      "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "sr"
-      },
-      "url": "https://jobs.ashbyhq.com/n8n/49e569f0-503e-4e42-a1ba-7e63684e90d3",
-      "apply_url": "https://jobs.ashbyhq.com/n8n/49e569f0-503e-4e42-a1ba-7e63684e90d3/application",
-      "canonical_url": "https://jobs.ashbyhq.com/n8n/49e569f0-503e-4e42-a1ba-7e63684e90d3",
-      "source": "Ashby",
-      "sources": [
-        "Ashby"
-      ],
-      "ats": "ashby",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-10-13T13:48:21Z",
-      "posting_age_days": 4,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 4,
-        "category": "recent",
-        "label": "RECENT"
-      },
-      "urgency": "RECENT",
-      "first_seen": "2026-10-15T10:10:57Z",
-      "experience_required": null,
-      "german_requirement": "German requested; level/strictness unclear",
-      "skill_matches": {
-        "match": [
-          "application security",
-          "penetration testing",
-          "security reporting",
-          "stakeholder communication",
-          "threat modeling",
-          "vulnerability assessment",
-          "vulnerability management"
-        ],
-        "partial": [
-          "git",
-          "incident response"
-        ],
-        "missing": [
-          "azure",
-          "bug bounty",
-          "github security",
-          "iso 27001",
-          "kubernetes",
-          "rust",
-          "vulnerability disclosure program"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "- ☁️ Platform Security: You have experience securing a major cloud provider and Kubernetes environments, including areas such as sandboxing, multi-tenancy, or identity."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "azure",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "- 🏢 Corporate IT Tooling: You're familiar with platforms such as Okta, Azure, or Drata and their role in securing corporate systems and supporting compliance."
-        },
-        {
-          "skill": "bug bounty",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories."
-        },
-        {
-          "skill": "github security",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories."
-        },
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "- 📋 Security Assurance & Compliance: You've supported SOC 2 or ISO 27001 from an engineering perspective, including implementing technical controls or automating compliance evidence collection."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "You'll join our growing security team at a pivotal stage, acting as a trusted security partner to teams across the business."
-        },
-        {
-          "skill": "vulnerability disclosure program",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 14,
-        "experience": 10,
-        "location": 15,
-        "language": 4,
-        "seniority": 4,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Security Engineering.",
-        "Berlin remote role.",
-        "Evidenced matches include application security, penetration testing, security reporting, stakeholder communication, threat modeling."
-      ],
-      "warnings": [
-        "German requested; level/strictness unclear",
-        "Mandatory gaps: kubernetes",
-        "Potential gaps: azure, bug bounty, github security, iso 27001, rust, vulnerability disclosure program",
-        "Exposure only; do not claim deep expertise: git, incident response",
-        "Senior title is above the profile's current 2+ years",
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "The AI orchestration of your wildest imagination. n8n is the open workflow orchestration platform built for the new era of AI. We give technical teams the freedom of code with the speed of no-code, so they can automate faster, smarter, and without limits. Backed by a fiercely inventive community and 500+ builder-approved integrations, we’re changing the way people bring systems together and scale ideas for impact. Since our founding in 2019, we’ve grown into a diverse team of over 260 - working across Europe and the US, connected by a shared builder spirit and with our centre of gravity in Berlin. Along the way, we’ve: - Cultivated a community of more than 650,000 active developers and builders - Earned 190K+ GitHub stars, making us one of the world’s Top 40 most popular projects - Backed by top investors, from Sequoia’s first German seed to our SAP's recent strategic investment - bringing us to a $5.2bn valuation That’s the company we’ve built. Now we’d love to see what you can build. If you’re applying, try n8n out - whether you’re technical or not - and share a screenshot of your first workflow with us. The easiest place to start is here: app.n8n.cloud/register http://app.n8n.c…",
-      "full_description": "The AI orchestration of your wildest imagination.\n\nn8n is the open workflow orchestration platform built for the new era of AI. We give technical teams the freedom of code with the speed of no-code, so they can automate faster, smarter, and without limits. Backed by a fiercely inventive community and 500+ builder-approved integrations, we’re changing the way people bring systems together and scale ideas for impact.\n\nSince our founding in 2019, we’ve grown into a diverse team of over 260 - working across Europe and the US, connected by a shared builder spirit and with our centre of gravity in Berlin. Along the way, we’ve:\n\n- Cultivated a community of more than 650,000 active developers and builders\n\n- Earned 190K+ GitHub stars, making us one of the world’s Top 40 most popular projects\n\n- Backed by top investors, from Sequoia’s first German seed to our SAP's recent strategic investment - bringing us to a $5.2bn valuation\n\nThat’s the company we’ve built. Now we’d love to see what you can build. If you’re applying, try n8n out - whether you’re technical or not - and share a screenshot of your first workflow with us. The easiest place to start is here: app.n8n.cloud/register http://app.n8n.cloud/register.\n\nWe’re in a defining moment of an incredible journey. Come and build with us.\n\n🎯 Your main goal will be to identify and reduce security risks across n8n's product and internal systems, using threat modelling, hands-on security expertise, and cross-functional collaboration to help teams design, build, and operate more secure systems.\n\nYou'll join our growing security team at a pivotal stage, acting as a trusted security partner to teams across the business. You'll help us build a move from reactive security management to a proactive, scalable security practice.\n\nHere's what you'll be driving:\n\nTHREAT MODELLING, RISK ASSESSMENT & SECURITY DESIGN\n\n- Conduct threat modelling and risk assessments across product features, AI agents, cloud infrastructure, corporate IT, internal applications, and data systems, identifying vulnerabilities and recommending practical mitigations.\n\n- Partner with Engineering, Cloud, IT, and Data teams to review security designs, define actionable security requirements, and influence the implementation of appropriate controls.\n\n- Help teams embed security into their development processes through secure coding guidance, design reviews, documentation, and security tooling that enables them to identify and address risks independently.\n\nVULNERABILITY MANAGEMENT & COORDINATED DISCLOSURE\n\n- Participate in the security triage rotation, assessing incoming vulnerability reports, validating findings, and prioritising remediation based on severity and business impact.\n\n- Collaborate with engineering teams to coordinate vulnerability remediation, verify fixes, and support secure patch and release processes.\n\n- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories.\n\nSECURITY OPERATIONS & INCIDENT READINESS\n\n- Help establish and improve logging, detection, and protective monitoring capabilities across our infrastructure, corporate systems, and internal applications.\n\n- Develop and improve incident response processes, runbooks, and exercises to strengthen our ability to detect, investigate, and respond to security incidents.\n\n- Work closely with system owners to identify security gaps, prioritise remediation, and verify that implemented controls effectively reduce risk.\n\nCUSTOMER TRUST & COMPLIANCE ENGINEERING\n\n- Support SOC 2 compliance by helping establish continuous control monitoring, automated evidence collection, and processes that make security assurance part of everyday operations.\n\n- Collaborate with Sales, Solutions Engineering, and Customer Success to respond to customer security assessments and build reusable resources that streamline future requests.\n\n- Partner with Legal, Finance, IT, and other stakeholders to assess security risks, improve security policies and controls, and strengthen trust with enterprise customers.\n\nWe're hiring two Security Engineers with complementary strengths, so you don't need to be an expert in every security domain. \n\nREQUIREMENTS\n\nMUST-HAVES\n\n- 🔍 Threat Modelling & Risk Assessment: You have hands-on experience assessing real-world systems, identifying security risks, determining defensible severity levels, and recommending practical controls that teams can implement.\n\n- 🛠️ Technical Security Expertise: You can validate security findings, reproduce vulnerabilities, develop proof-of-concepts, and write code or automation when needed to demonstrate risks or improve security processes.\n\n- 🔐 Security Engineering Experience: You've worked hands-on in infrastructure, product, or application security within a product-focused organisation, with a strong understanding of how modern systems are designed and secured.\n\n- 🤝 Cross-functional Influence: You're comfortable acting as an internal security consultant, advising teams, challenging technical decisions constructively, and influencing stakeholders without direct authority.\n\n- 🎯 Risk Remediation & Ownership: You've helped secure systems you don't directly own, translating security findings into actionable requirements and working with responsible teams to ensure effective remediation.\n\n- 🤖 AI & LLM Fluency: You're comfortable using LLM-assisted tooling and understand its limitations, security implications, and potential failure modes.\n\n- ✍️ Clear Communication: You can explain complex security risks, document technical findings, and provide practical guidance that engineers and non-technical stakeholders can confidently act on.\n\nYou also bring deep expertise in at least two of the following areas:\n\n- 💻 Application Security: You've developed security checks, engineering guardrails, tooling, or guidance that helps product teams build and ship secure software.\n\n- ☁️ Platform Security: You have experience securing a major cloud provider and Kubernetes environments, including areas such as sandboxing, multi-tenancy, or identity.\n\n- 🔑 Corporate Security: You've worked on identity and access management, endpoint security, employee access lifecycles, or data access controls across corporate environments.\n\n- 🚨 Security Monitoring: You've implemented logging, protective monitoring, or security detection capabilities that support effective investigation and incident response.\n\n- 📋 Security Assurance & Compliance: You've supported SOC 2 or ISO 27001 from an engineering perspective, including implementing technical controls or automating compliance evidence collection.\n\nNICE-TO-HAVES\n\n- 🐛 Vulnerability Disclosure: You've helped operate bug bounty or coordinated vulnerability disclosure programmes, including publishing security advisories such as GHSAs or CVEs.\n\n- 🧠 AI & Agent Security: You have experience assessing or securing LLM-powered applications and AI agents, including risks related to permissions, tool access, prompt injection, or sensitive data.\n\n- 🏢 Corporate IT Tooling: You're familiar with platforms such as Okta, Azure, or Drata and their role in securing corporate systems and supporting compliance.\n\n- 🌍 Open-source Ecosystems: You've worked with open-source or source-available products, contributed to security communities, or are already familiar with n8n.\n\n- 🎯 Penetration Testing: You have practical penetration testing experience and can independently identify, demonstrate, and help remediate security vulnerabilities.\n\n- 🌱 Early-stage Security Experience: You've been an early security hire or helped establish security practices in a startup or rapidly scaling organisation.\n\nWhy join us?\n\nAt n8n, you'll help shape security at a defining stage of our growth. We're building a security practice that goes beyond reacting to vulnerabilities, and you'll play a key role in how we identify risks, influence engineering decisions, and establish security practices that scale with the business.\n\nYou'll work across a broad range of challenges, from securing AI-powered product features and our source-available automation platform to improving corporate security, strengthening incident readiness, and making compliance more automated. You'll have direct exposure to teams across the company, the opportunity to influence important technical decisions, and the autonomy to turn your expertise into measurable security improvements.\n\nSound like a challenge you're excited to take on?\n\nApply now — and help us build the future of secure automation.\n\nn8n is an equal opportunity employer and does not discriminate on the basis of race, religion, colour, national origin, gender, sexual orientation, gender identity, age, marital status, veteran status, or disability status.\n\nWe can sponsor visas to Germany; for any other country, you need to have existing right to work.\n\nOur company language is English.\n\nYou care about diversity and inclusion? We do too! Check out our Diversity, Inclusion and Belonging initiatives at n8n https://www.notion.so/Diversity-inclusion-and-belonging-n8n-c1bec2fff536422d868b1a438d990e35?pvs=21 (https://www.notion.so/n8n/Diversity-inclusion-and-belonging-n8n-c1bec2fff536422d868b1a438d990e35).\n\nLocation disclaimer: If you see multiple job postings for the same role, it is most likely because we're hiring remotely for this role and posting in different locations to make sure every potential candidate can see the role. Please apply to the location you're the most likely to work from in the future. \n\nBENEFITS \n\n- Competitive compensation 💸 – We offer fair and attractive pay.\n\n- Ownership 💪 – Our core value is to “empower others,” and we mean it—you’ll get a slice of n8n with equity.\n\n- Work/life balance 🏖️ – We work hard but ensure you have time to recharge:\n\n- Europe: 30 days of vacation, plus public holidays wherever you are.\n\n- US: 20 vacation days, 8 sick days, plus public holidays wherever you are.\n\n- Health & wellness 🩺 –\n\n- Europe: We provide benefits according to local country norms.*\n\n- US: Multiple low-premium, low-deductible medical plans with coverage for individuals and families—plus a no-cost premium HDHP option with a pre-seeded HSA—along with dental and vision coverage.\n\n- Future planning 💰 –\n\n- Europe: We provide pension contributions according to local country norms.*\n\n- US: 401(k) retirement plan with a 4% employer match.\n\n- Financial security 🛡️ –\n\n- Europe: We provide benefits according to local country norms.*\n\n- US: Company-paid short-term and long-term disability insurance, plus life insurance to support you and your loved ones.\n\n- Career growth 📈 – We hire rising stars who grow with us! You’ll get €1K (or equivalent) per year to spend on courses, books, events, or coaching to level up your skills.\n\n- A passionate team 🤩 – We love our product, and we prove it with regular hackathons where we see who can build the coolest thing with it!\n\n- Remote-first 🌏 – Our team works remotely across Europe, with regular off-sites for team bonding. Some roles, like sales in the US, are hybrid—please check the job description.\n\n- Giving back 🤝 – We're big fans of open source, and you'll get $100 per month to support projects you care about.\n\n- Transparency 🙏 – We all know what everyone’s working on, how the company is doing—the whole shebang.\n\n*Country and/or State specific details provided in your employment agreement.",
-      "skill_requirements": [
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "- ☁️ Platform Security: You have experience securing a major cloud provider and Kubernetes environments, including areas such as sandboxing, multi-tenancy, or identity."
-        },
-        {
-          "skill": "penetration testing",
-          "profile_status": "match",
-          "requirement": "mandatory",
-          "evidence": "- 🎯 Penetration Testing: You have practical penetration testing experience and can independently identify, demonstrate, and help remediate security vulnerabilities."
-        },
-        {
-          "skill": "stakeholder communication",
-          "profile_status": "match",
-          "requirement": "mandatory",
-          "evidence": "- ✍️ Clear Communication: You can explain complex security risks, document technical findings, and provide practical guidance that engineers and non-technical stakeholders can confidently act on."
-        },
-        {
-          "skill": "threat modeling",
-          "profile_status": "match",
-          "requirement": "mandatory",
-          "evidence": "- 🔍 Threat Modelling & Risk Assessment: You have hands-on experience assessing real-world systems, identifying security risks, determining defensible severity levels, and recommending practical controls that teams can implement."
-        },
-        {
-          "skill": "application security",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "- 🔐 Security Engineering Experience: You've worked hands-on in infrastructure, product, or application security within a product-focused organisation, with a strong understanding of how modern systems are designed and secured."
-        },
-        {
-          "skill": "azure",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "- 🏢 Corporate IT Tooling: You're familiar with platforms such as Okta, Azure, or Drata and their role in securing corporate systems and supporting compliance."
-        },
-        {
-          "skill": "bug bounty",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories."
-        },
-        {
-          "skill": "git",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "- Earned 190K+ GitHub stars, making us one of the world’s Top 40 most popular projects"
-        },
-        {
-          "skill": "github security",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories."
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "- Develop and improve incident response processes, runbooks, and exercises to strengthen our ability to detect, investigate, and respond to security incidents."
-        },
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "- 📋 Security Assurance & Compliance: You've supported SOC 2 or ISO 27001 from an engineering perspective, including implementing technical controls or automating compliance evidence collection."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "You'll join our growing security team at a pivotal stage, acting as a trusted security partner to teams across the business."
-        },
-        {
-          "skill": "security reporting",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "- Participate in the security triage rotation, assessing incoming vulnerability reports, validating findings, and prioritising remediation based on severity and business impact."
-        },
-        {
-          "skill": "vulnerability assessment",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "- Collaborate with Sales, Solutions Engineering, and Customer Success to respond to customer security assessments and build reusable resources that streamline future requests."
-        },
-        {
-          "skill": "vulnerability disclosure program",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories."
-        },
-        {
-          "skill": "vulnerability management",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "VULNERABILITY MANAGEMENT & COORDINATED DISCLOSURE"
-        }
-      ],
-      "german_analysis": {
-        "category": "unspecified",
-        "level": "unspecified",
-        "mandatory": false,
-        "label": "German requested; level/strictness unclear",
-        "evidence": "- Backed by top investors, from Sequoia’s first German seed to our SAP's recent strategic investment - bringing us to a $5.2bn valuation"
-      },
-      "experience_analysis": null
-    },
-    {
-      "report_number": 8,
+      "report_number": 9,
       "job_key": "aeed9275b0fec6f82691",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1738,151 +1781,6 @@
           "profile_status": "missing",
           "requirement": "mentioned",
           "evidence": "Our security assurance team keeps SumUp's information security programme credible, both to regulators and to the millions of merchants who trust us with their business."
-        }
-      ],
-      "german_analysis": {
-        "category": "none",
-        "level": "none",
-        "mandatory": false,
-        "label": "No German requirement detected",
-        "evidence": ""
-      },
-      "experience_analysis": null
-    },
-    {
-      "report_number": 9,
-      "job_key": "cd5cfcf928703cec5837",
-      "status": "NEW",
-      "application_status": "NEW",
-      "score": 60,
-      "raw_score": 60,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "Senior title is above the profile's current 2+ years"
-      ],
-      "score_label": "REVIEW",
-      "title": "Security Engineer Senior - GRC",
-      "company": "Alan",
-      "location": "Anywhere in France",
-      "location_analysis": {
-        "category": "eligible_worldwide_remote",
-        "eligible": true,
-        "score": 11,
-        "reason": "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
-        "verification_required": true,
-        "score_cap": 89,
-        "scope": "Worldwide remote",
-        "work_model": "Remote"
-      },
-      "location_scope": "Worldwide remote",
-      "working_model": "Remote",
-      "role_family": {
-        "id": "it_audit_grc",
-        "label": "IT Audit / GRC",
-        "priority": 3,
-        "confidence": "high",
-        "evidence": [
-          "grc",
-          "iso 27001",
-          "internal audit",
-          "compliance"
-        ]
-      },
-      "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
-      },
-      "url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-senior-grc-anywhere-in-france-113298",
-      "apply_url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-senior-grc-anywhere-in-france-113298",
-      "canonical_url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-senior-grc-anywhere-in-france-113298",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-10-21T02:40:14Z",
-      "posting_age_days": 0,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 0,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-10-21T10:26:52Z",
-      "experience_required": null,
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "sast"
-        ],
-        "partial": [],
-        "missing": [
-          "iso 27001",
-          "rust"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [],
-      "potential_gaps": [
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "You own the full certification cycle (ISO 27001, HDS and those to come), and turn it into something teams use every day to prioritise, not a binder for auditors."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "This one is about earning our members' trust: every day, they share their diagnoses, their claims and their care with us."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 12,
-        "skills": 10,
-        "experience": 10,
-        "location": 11,
-        "language": 10,
-        "seniority": 4,
-        "education": 3
-      },
-      "match_reasons": [
-        "Worldwide/anywhere remote eligibility detected; verify employment from Germany.",
-        "Evidenced matches include sast."
-      ],
-      "warnings": [
-        "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
-        "Potential gaps: iso 27001, rust",
-        "Senior title is above the profile's current 2+ years"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "Health can’t wait. Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t. Alan exists to end the wait. Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way. So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience. We are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR. Prevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond. 🛡️ The role Most GRC roles are about keeping auditors happy. This one is…",
-      "full_description": "Health can’t wait. \n\nNot for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t.\n\nAlan exists to end the wait.\n\nHealth is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way.\n\nSo we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience.\n\nWe are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR.\n\nPrevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond.\n\n🛡️ The role\n\nMost GRC roles are about keeping auditors happy. This one is about earning our members' trust: every day, they share their diagnoses, their claims and their care with us.\n\nYou'll own security governance and risk at Alan end to end. That means one clear framework across our certifications and regulations, which the whole company uses to decide what matters most. You set the direction, make the calls on risk, and help every team own its part.\n\nWe just earned our HDS certification, and there's much more to build as we grow from 1M to many millions of members, across more countries and regulators. That includes how we govern AI, which Alan uses across its products and operations.\n\nThis is a hands-on senior role. You do the work yourself, mentor the junior GRC engineer we're hiring alongside you, and grow the team over time.\n\n🚀 What you'll do\n\nMake our security framework a tool for the whole company. You own the full certification cycle (ISO 27001, HDS and those to come), and turn it into something teams use every day to prioritise, not a binder for auditors.\n\nBring the security view on regulation. Legal and Risk own the regulatory relationships. You bring the security answer: what the rules mean for how we protect data, and which controls make it work in practice.\n\nRun risk as an ongoing programme. You map and prioritise security risks, including AI risks, turn them into clear treatment plans, and feed them into company-wide risk decisions with the Risk team.\n\nHelp every team own its risks. You define the controls framework and the standards, while the teams who build and run our systems own the controls. You brief the board and audit committee, and you know which findings need an urgent call and which can wait for the quarterly report.\n\nOwn incident governance. You triage and escalate incidents, own business continuity and disaster recovery, and shape the security side of our regulatory incident reports.\n\nBe a credible partner to engineering. You work with engineering teams early on new designs and spot control gaps (access, encryption, logging) before they ship. You don't need to be an architect, but you can hold the conversation.\n\n🏗️ What you'll build\n\nOne governance model: clear ownership of risks and controls across teams, so security decisions don't bottleneck on one person.\n\nA living risk map: prioritised risks that actually drive company and engineering decisions.\n\nOne compliance backbone: a single control system across our countries and regulators, built to scale.\n\nAn automated evidence engine: evidence collected straight from engineering systems, so audits run continuously instead of as a quarterly rush.\n\nYou'll work closely with Legal, the Data Protection Officer, Internal Audit and Risk, and day to day with engineering and operations teams.\n\n⭐ What we're looking for\n\nYour team\n\nYou'll join Alan's Corporate team, which brings together our control functions: Risk, Corporate Governance & Internal Control, Legal, Compliance and Security. They share one mission: building what lets Alan operate at scale, safely and responsibly. Within that group, you carry the security governance and risk dimension, working hand in hand with the security engineers who run our infrastructure and platform security, and with a junior GRC engineer we're hiring alongside you. You'll be hands-on every day, building and owning the work yourself. Along the way, you'll mentor the junior engineer and help shape how GRC grows at Alan.\n\nWhat you bring\n\nYou want to build and own things yourself, and you enjoy helping someone else grow while you do it.\n\n6+ years in security, with real GRC ownership.\n\nYou've run a GRC roadmap in a certified or strongly regulated environment (ISO 27001, HDS, SOC 2, or regulated sectors like health, insurance or finance). You're comfortable working with certification auditors, and you can explain what a framework requires and why it makes sense for business teams.\n\nYou take a stand on risks, and you'd rather close one real risk than write ten policies.\n\nYou're fluent in French and English.\n\nA big plus\n\nYou've driven a certification or audit cycle end to end yourself.\n\nYou've automated compliance work, or you're eager to, and you have a view on where AI can help.\n\nYou've presented risk to senior leaders or a board.\n\nYou've mentored or onboarded someone before.\n\n🌍 How we work\n\nLocation: You must be legally eligible to work from France, Belgium or Spain.\n\nRemote work: We offer remote work flexibility.\n\n🎯 Important note: we hire people, not roles.\n\nIf you're excited about this opportunity but don't check every box, we'd love to hear from you. Everyone, no matter how underrepresented, should feel free to apply, as it can only bring learnings or success.\n\nRemember, this is just a guide, not a checklist. We'll be thrilled to receive your application!\n\n🔖 Check out our About Alan and Career pages, as well as our Medium, blog and Glassdoor page for more info.\n\nYou want to know more about Alan?\n\n🙌 Perks & Benefits: Alaners are provided with a stimulating environment and perks ensuring they are happy, efficient and spend only high-quality time with co-workers.\n\n🤘A strong culture: People joining Alan are often surprised and delighted by our innovative working method. We have a set of cultural values that guide our approach to work\n\nCompensation: €83K – €100K\n\nLevel D to E • €83K – €100K\n\nFind Jobs in France on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "You own the full certification cycle (ISO 27001, HDS and those to come), and turn it into something teams use every day to prioritise, not a binder for auditors."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "This one is about earning our members' trust: every day, they share their diagnoses, their claims and their care with us."
-        },
-        {
-          "skill": "sast",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "You triage and escalate incidents, own business continuity and disaster recovery, and shape the security side of our regulatory incident reports."
         }
       ],
       "german_analysis": {

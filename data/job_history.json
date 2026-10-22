@@ -7823,6 +7823,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-10-22T10:26:14Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 8426,
+      "security_title_candidates": 303,
+      "prefiltered_non_security_jobs": 8123,
+      "unique_jobs_after_deduplication": 229,
+      "duplicates_removed": 74,
+      "jobs_rejected_or_below_threshold": 8334,
+      "relevant_jobs_in_current_run": 18,
+      "new_jobs": 1,
+      "updated_jobs": 2,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 48,
+      "jobs_by_source": {
+        "arbeitnow": 2241,
+        "remotive": 10,
+        "linkedin_posts": 0,
+        "greenhouse": 5561,
+        "ashby": 268,
+        "lever": 163,
+        "personio": 179,
+        "recruitee": 4
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 24.3,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2241,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 10,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 5561,
+          "requests": 58,
+          "errors": [],
+          "error": "",
+          "companies_checked": 58,
+          "companies_successful": 58,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 268,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 163,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 179,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 4,
+          "requests": 1,
+          "errors": [],
+          "error": "",
+          "companies_checked": 1,
+          "companies_successful": 1,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -14891,6 +15004,37 @@
       "event": "REMOVED",
       "company": "Kestra Technologies",
       "title": "Senior Security Engineer"
+    },
+    {
+      "at": "2026-10-22T10:26:14Z",
+      "job_key": "3183e2eb626e74bd4b92",
+      "event": "NEW",
+      "company": "Cygrid GmbH",
+      "title": "Cybersecurity Researcher",
+      "score": 69
+    },
+    {
+      "at": "2026-10-22T10:26:14Z",
+      "job_key": "fcd3d88612c00e3423ee",
+      "event": "UPDATED",
+      "company": "Alan",
+      "title": "Security Engineer Junior - GRC",
+      "score": 69
+    },
+    {
+      "at": "2026-10-22T10:26:14Z",
+      "job_key": "ad5a9fea931d31fc704c",
+      "event": "UPDATED",
+      "company": "Cypher Consulting Europe",
+      "title": "SAP Security & Authorizations Consultant",
+      "score": 69
+    },
+    {
+      "at": "2026-10-22T10:26:14Z",
+      "job_key": "c9a4882b15b462f012a3",
+      "event": "REMOVED",
+      "company": "HelloFresh",
+      "title": "Cloud Security Engineer (m,f,x)"
     }
   ]
 }
