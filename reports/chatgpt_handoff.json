@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T10:26:14Z",
+  "generated_at": "2026-10-23T10:23:39Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,42 +171,42 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-10-22T10:26:14Z",
+    "generated_at": "2026-10-23T10:23:39Z",
     "scoring_version": 2.2,
-    "jobs_collected": 8426,
-    "security_title_candidates": 303,
-    "prefiltered_non_security_jobs": 8123,
-    "unique_jobs_after_deduplication": 229,
-    "duplicates_removed": 74,
-    "jobs_rejected_or_below_threshold": 8334,
-    "relevant_jobs_in_current_run": 18,
+    "jobs_collected": 9033,
+    "security_title_candidates": 266,
+    "prefiltered_non_security_jobs": 8767,
+    "unique_jobs_after_deduplication": 205,
+    "duplicates_removed": 61,
+    "jobs_rejected_or_below_threshold": 8956,
+    "relevant_jobs_in_current_run": 16,
     "new_jobs": 1,
     "updated_jobs": 2,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
-    "sources_partial": 0,
-    "report_jobs": 48,
+    "sources_partial": 1,
+    "report_jobs": 49,
     "jobs_by_source": {
-      "arbeitnow": 2241,
-      "remotive": 10,
+      "arbeitnow": 2400,
+      "remotive": 9,
       "linkedin_posts": 0,
-      "greenhouse": 5561,
-      "ashby": 268,
-      "lever": 163,
-      "personio": 179,
-      "recruitee": 4
+      "greenhouse": 6153,
+      "ashby": 226,
+      "lever": 98,
+      "personio": 147,
+      "recruitee": 0
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 24.3
+    "workflow_duration_seconds": 22.3
   },
   "source_status": {
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 2241,
+      "jobs": 2400,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 10,
+      "jobs": 9,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -228,31 +228,51 @@
       "error": ""
     },
     "greenhouse": {
-      "status": "ok",
+      "status": "partial",
       "ok": true,
-      "jobs": 5561,
-      "requests": 58,
-      "errors": [],
-      "error": "",
-      "companies_checked": 58,
-      "companies_successful": 58,
-      "companies_failed": 0
+      "jobs": 6153,
+      "requests": 61,
+      "errors": [
+        {
+          "source": "greenhouse",
+          "company": "Scout AI",
+          "http_status": 404,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/scoutai/jobs?content=true: HTTP Error 404: Not Found",
+          "message": "Greenhouse | Scout AI | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/scoutai/jobs?content=true: HTTP Error 404: Not Found"
+        }
+      ],
+      "error": "Greenhouse | Scout AI | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/scoutai/jobs?content=true: HTTP Error 404: Not Found",
+      "companies_checked": 61,
+      "companies_successful": 60,
+      "companies_failed": 1
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 268,
-      "requests": 9,
+      "jobs": 226,
+      "requests": 8,
       "errors": [],
       "error": "",
-      "companies_checked": 9,
-      "companies_successful": 9,
+      "companies_checked": 8,
+      "companies_successful": 8,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 163,
+      "jobs": 98,
+      "requests": 2,
+      "errors": [],
+      "error": "",
+      "companies_checked": 2,
+      "companies_successful": 2,
+      "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 147,
       "requests": 3,
       "errors": [],
       "error": "",
@@ -260,385 +280,160 @@
       "companies_successful": 3,
       "companies_failed": 0
     },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 179,
-      "requests": 6,
-      "errors": [],
-      "error": "",
-      "companies_checked": 6,
-      "companies_successful": 6,
-      "companies_failed": 0
-    },
     "recruitee": {
-      "status": "ok",
+      "status": "idle",
       "ok": true,
-      "jobs": 4,
-      "requests": 1,
+      "jobs": 0,
+      "requests": 0,
       "errors": [],
       "error": "",
-      "companies_checked": 1,
-      "companies_successful": 1,
+      "companies_checked": 0,
+      "companies_successful": 0,
       "companies_failed": 0
     }
   },
   "jobs": [
     {
       "report_number": 1,
-      "job_key": "3183e2eb626e74bd4b92",
-      "status": "NEW",
-      "application_status": "NEW",
-      "score": 69,
-      "raw_score": 78,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "score_label": "REVIEW",
-      "title": "Cybersecurity Researcher",
-      "company": "Cygrid GmbH",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin hybrid role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "Hybrid"
-      },
-      "location_scope": "Berlin",
-      "working_model": "Hybrid",
-      "role_family": {
-        "id": "penetration_testing",
-        "label": "Penetration Testing / VAPT",
-        "priority": 1,
-        "confidence": "medium",
-        "evidence": [
-          "offensive security"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://www.arbeitnow.com/jobs/companies/cygrid-gmbh/cybersecurity-researcher-berlin-467857",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/cygrid-gmbh/cybersecurity-researcher-berlin-467857",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/cygrid-gmbh/cybersecurity-researcher-berlin-467857",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-10-21T11:20:13Z",
-      "posting_age_days": 0,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 0,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-10-22T10:26:14Z",
-      "experience_required": null,
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "python"
-        ],
-        "partial": [
-          "aws"
-        ],
-        "missing": [
-          "azure",
-          "detection engineering",
-          "rust"
-        ],
-        "nice_to_have": [
-          "active directory (missing)",
-          "penetration testing (match)"
-        ]
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Hands-on experience with SaaS and cloud platforms such as Microsoft 365 / Entra ID, Google Workspace, Okta, Salesforce, AWS, Azure, or GCP, including their identity and permission models"
-        },
-        {
-          "skill": "azure",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Hands-on experience with SaaS and cloud platforms such as Microsoft 365 / Entra ID, Google Workspace, Okta, Salesforce, AWS, Azure, or GCP, including their identity and permission models"
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "detection engineering",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Turn research into detection logic and rule content that ships in the product"
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Our goal is to turn complex identity and security data into clear, actionable risk insights that CISOs and CTOs can trust."
-        }
-      ],
-      "optional_gaps": [
-        {
-          "skill": "active directory",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Active Directory and hybrid identity"
-        }
-      ],
-      "score_breakdown": {
-        "role_alignment": 20,
-        "skills": 10,
-        "experience": 10,
-        "location": 15,
-        "language": 10,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Penetration Testing / VAPT.",
-        "Berlin hybrid role.",
-        "Evidenced matches include python."
-      ],
-      "warnings": [
-        "Mandatory gaps: aws, azure",
-        "Potential gaps: detection engineering, rust",
-        "Optional gaps: active directory",
-        "Exposure only; do not claim deep expertise: aws",
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "Berlin • Cybersecurity & AI Startup • Recently Funded A newly funded cybersecurity startup in Berlin is looking for a Cybersecurity Researcher to join as a team member and help design the core security, identity, and enforcement foundations of a next-generation AI-powered security risk management platform. We are an early-stage startup founded by experienced cybersecurity leaders with backgrounds in Israeli Intelligence units. We are looking for a hands-on Cybersecurity Researcher. If you are passionate about cybersecurity and AI tech, thrive in fast-paced startup environments, and enjoy building complex platforms from the ground up, this is an opportunity to make a real impact. We’re building a next-generation cyber enforcement platform that helps enterprises understand, measure, and reduce identity risk at scale. Our goal is to turn complex identity and security data into clear, actionable risk insights that CISOs and CTOs can trust. You will work from scratch on core platform components from day one, shaping how modern enterprises manage and reason about risk using cloud-native systems and AI-driven analysis and automated enforcement through AI Agents. Key Responsibilities Rese…",
-      "full_description": "Berlin • Cybersecurity & AI Startup • Recently Funded\n\nA newly funded cybersecurity startup in Berlin is looking for a Cybersecurity Researcher to join as a team member and help design the core security, identity, and enforcement foundations of a next-generation AI-powered security risk management platform.\n\nWe are an early-stage startup founded by experienced cybersecurity leaders with backgrounds in Israeli Intelligence units. We are looking for a hands-on Cybersecurity Researcher. If you are passionate about cybersecurity and AI tech, thrive in fast-paced startup environments, and enjoy building complex platforms from the ground up, this is an opportunity to make a real impact.\n\nWe’re building a next-generation cyber enforcement platform that helps enterprises understand, measure, and reduce identity risk at scale. Our goal is to turn complex identity and security data into clear, actionable risk insights that CISOs and CTOs can trust. You will work from scratch on core platform components from day one, shaping how modern enterprises manage and reason about risk using cloud-native systems and AI-driven analysis and automated enforcement through AI Agents.\n\nKey Responsibilities\n\nResearch how identity works across platforms: discovery, permission schemes, hidden attack paths, and the behavior vendors don’t document\n\nConnect the dots across environments: attack paths that span SaaS, cloud, and on-prem\n\nTurn research into detection logic and rule content that ships in the product\n\nWork directly with the founders, product, and engineering to shape what we build next\n\nBuild the research tooling you need, and share your research through open-source tools and write-ups\n\nMust have\n\n4+ years in security research, detection engineering, or a closely related role\n\nHands-on experience with SaaS and cloud platforms such as Microsoft 365 / Entra ID, Google Workspace, Okta, Salesforce, AWS, Azure, or GCP, including their identity and permission models\n\nExperience reverse engineering APIs: intercepting traffic, finding undocumented endpoints, and testing behavior against what vendor docs claim\n\nStrong Python, written so others can read, run, and maintain it\n\nSolid understanding of identity and access concepts: OAuth, SAML, SSO, service accounts, API tokens, delegated permissions\n\nAbility to turn research findings into concrete detection logic\n\nBased in Berlin or willing to relocate\n\nComfortable operating under ambiguity in an early-stage startup\n\nKnowledge of agent related Identity landscape and attack vectors\n\nNice to have\n\nOffensive security experience: red team, pentesting, or offensive research\n\nActive Directory and hybrid identity\n\nPublished research, conference talks, CVEs, or open-source tools\n\nDetection-as-code experience, such as Sigma or KQL\n\nGraph-based attack path analysis, for example with Neo4j\n\nYou have a CVE, or a story about why you didn’t get one\n\nBenefits\n\nTeam Member Equity — ESOPs in a cybersecurity company.\n\nCompetitive Compensation — salary aligned with market, flexible early-stage arrangements possible.\n\nFresh Funding Secured — immediate runway to build, hire, and execute fast.\n\nSecurity Contribution — contribute to security architecture across identity, AI agents, and enforcement.\n\nHigh Autonomy — freedom to design and build without corporate overhead.\n\nWork with a Technical CEO — fast iteration, strong alignment, clear direction.\n\nCutting-Edge Domain — identity security, SaaS-to-SaaS access, AI agent governance.\n\nMassive Learning Curve — quickly gain depth in cybersecurity, identity, and AI systems.\n\nFast Career Path — opportunity evolve into leadership as we scale the team\n\nBerlin Location — top-tier tech environment with strong cybersecurity and AI ecosystems.\n\nDirect Impact — your architecture and code become the foundation of the entire platform.\n\nBest Equipment and Tools - High quality equipment and modern tools to help you do your best work from day one.\n\nTeam Offsites - Regular team offsites designed to build strong connections, alignment, and shared momentum.\n\nFind Jobs in Germany on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Hands-on experience with SaaS and cloud platforms such as Microsoft 365 / Entra ID, Google Workspace, Okta, Salesforce, AWS, Azure, or GCP, including their identity and permission models"
-        },
-        {
-          "skill": "azure",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Hands-on experience with SaaS and cloud platforms such as Microsoft 365 / Entra ID, Google Workspace, Okta, Salesforce, AWS, Azure, or GCP, including their identity and permission models"
-        },
-        {
-          "skill": "detection engineering",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Turn research into detection logic and rule content that ships in the product"
-        },
-        {
-          "skill": "python",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Strong Python, written so others can read, run, and maintain it"
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Our goal is to turn complex identity and security data into clear, actionable risk insights that CISOs and CTOs can trust."
-        },
-        {
-          "skill": "active directory",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Active Directory and hybrid identity"
-        },
-        {
-          "skill": "penetration testing",
-          "profile_status": "match",
-          "requirement": "optional",
-          "evidence": "Offensive security experience: red team, pentesting, or offensive research"
-        }
-      ],
-      "german_analysis": {
-        "category": "none",
-        "level": "none",
-        "mandatory": false,
-        "label": "No German requirement detected",
-        "evidence": ""
-      },
-      "experience_analysis": null
-    },
-    {
-      "report_number": 2,
-      "job_key": "fcd3d88612c00e3423ee",
+      "job_key": "b420e12f1f07d8e20c57",
       "status": "UPDATED",
       "application_status": "NEW",
       "score": 69,
-      "raw_score": 69,
-      "score_cap": 89,
+      "raw_score": 70,
+      "score_cap": 69,
       "score_cap_reasons": [
-        "Worldwide/anywhere remote eligibility detected; verify employment from Germany"
+        "Senior title is above the profile's current 2+ years",
+        "One explicitly mandatory skill is not evidenced"
       ],
       "score_label": "REVIEW",
-      "title": "Security Engineer Junior - GRC",
-      "company": "Alan",
-      "location": "Anywhere in France",
+      "title": "Senior Software Engineer, Firefox Security",
+      "company": "Mozilla",
+      "location": "Remote Germany",
       "location_analysis": {
-        "category": "eligible_worldwide_remote",
+        "category": "eligible_germany_remote",
         "eligible": true,
-        "score": 11,
-        "reason": "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
-        "verification_required": true,
-        "score_cap": 89,
-        "scope": "Worldwide remote",
+        "score": 15,
+        "reason": "Remote work from Germany is explicitly available",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Germany remote",
         "work_model": "Remote"
       },
-      "location_scope": "Worldwide remote",
+      "location_scope": "Germany remote",
       "working_model": "Remote",
       "role_family": {
-        "id": "it_audit_grc",
-        "label": "IT Audit / GRC",
-        "priority": 3,
-        "confidence": "high",
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "medium",
         "evidence": [
-          "grc",
-          "iso 27001",
-          "gdpr",
-          "internal audit"
+          "security architecture"
         ]
       },
       "seniority": {
-        "level": "junior",
-        "label": "Junior/Entry level",
-        "evidence": "junior"
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
       },
-      "url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-junior-grc-anywhere-in-france-76041",
-      "apply_url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-junior-grc-anywhere-in-france-76041",
-      "canonical_url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-junior-grc-anywhere-in-france-76041",
-      "source": "Arbeitnow",
+      "url": "https://job-boards.greenhouse.io/mozilla/jobs/8259797",
+      "apply_url": "https://job-boards.greenhouse.io/mozilla/jobs/8259797",
+      "canonical_url": "https://job-boards.greenhouse.io/mozilla/jobs/8259797",
+      "source": "Greenhouse",
       "sources": [
-        "Arbeitnow"
+        "Greenhouse"
       ],
-      "ats": "",
-      "priority_employer": false,
+      "ats": "greenhouse",
+      "priority_employer": true,
       "lead_type": "",
       "post_author": "",
       "feed_name": "",
-      "published_at": "2026-10-21T02:40:14Z",
-      "posting_age_days": 1,
+      "published_at": "2026-10-14T03:11:31Z",
+      "posting_age_days": 9,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 1,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
+        "age_days": 9,
+        "category": "current",
+        "label": "OPEN FOR REVIEW"
       },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-10-21T10:26:52Z",
-      "experience_required": "2+ years",
+      "urgency": "OPEN FOR REVIEW",
+      "first_seen": "2026-08-16T17:17:56Z",
+      "experience_required": "3+ years",
       "german_requirement": "No German requirement detected",
       "skill_matches": {
-        "match": [
-          "sast"
+        "match": [],
+        "partial": [
+          "javascript",
+          "software development"
         ],
-        "partial": [],
         "missing": [
-          "gdpr",
-          "go",
-          "iso 27001",
           "rust"
         ],
         "nice_to_have": []
       },
-      "mandatory_gaps": [],
-      "potential_gaps": [
+      "mandatory_gaps": [
         {
-          "skill": "gdpr",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "With Legal and the DPO, you help translate requirements like DORA, HDS, and GDPR into clear tasks for the teams, and track that they get done."
-        },
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "You learn fast, ask for feedback, and go into the details when it matters."
-        },
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "You'll join Alan's security team to help run our compliance and risk work across ISO 27001, HDS and DORA, across a growing number of countries and regulators."
+          "skill": "javascript",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Web platform and modern systems experience: Familiarity with web technologies (HTML, CSS, JavaScript) and interest or experience in Rust"
         },
         {
           "skill": "rust",
           "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "This one is about earning our members' trust: every day, they share their diagnoses, their claims and their care with us."
+          "requirement": "mandatory",
+          "evidence": "Web platform and modern systems experience: Familiarity with web technologies (HTML, CSS, JavaScript) and interest or experience in Rust"
+        },
+        {
+          "skill": "software development",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Systems programming experience and security knowledge: 3+ years of experience in low-level software engineering, strong proficiency in C and/or C++, and a solid understanding of security fundamentals."
         }
       ],
+      "potential_gaps": [],
       "optional_gaps": [],
       "score_breakdown": {
-        "role_alignment": 12,
-        "skills": 8,
-        "experience": 15,
-        "location": 11,
+        "role_alignment": 16,
+        "skills": 10,
+        "experience": 12,
+        "location": 15,
         "language": 10,
-        "seniority": 10,
+        "seniority": 4,
         "education": 3
       },
       "match_reasons": [
-        "Worldwide/anywhere remote eligibility detected; verify employment from Germany.",
-        "Evidenced matches include sast.",
+        "Role family: Security Engineering.",
+        "Remote work from Germany is explicitly available.",
         "The detected experience requirement is within or close to the 2+ year profile."
       ],
       "warnings": [
-        "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
-        "Potential gaps: gdpr, go, iso 27001, rust"
+        "Requests 3+ years versus approximately 2.1 years in the profile.",
+        "Mandatory gaps: javascript, rust, software development",
+        "Exposure only; do not claim deep expertise: javascript, software development",
+        "Senior title is above the profile's current 2+ years",
+        "One explicitly mandatory skill is not evidenced"
       ],
       "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "Health can’t wait. Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t. Alan exists to end the wait. Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way. So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience. We are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR. Prevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond. 🛡️ The role Most GRC roles are about keeping auditors happy. This one is…",
-      "full_description": "Health can’t wait. \n\nNot for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t.\n\nAlan exists to end the wait.\n\nHealth is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way.\n\nSo we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience.\n\nWe are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR.\n\nPrevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond.\n\n🛡️ The role\n\nMost GRC roles are about keeping auditors happy. This one is about earning our members' trust: every day, they share their diagnoses, their claims and their care with us.\n\nYou'll join Alan's security team to help run our compliance and risk work across ISO 27001, HDS and DORA, across a growing number of countries and regulators. We just earned our HDS certification, and there's much more to build, including how we govern AI across our products: assessing AI risks, setting the controls, and keeping up with the AI Act.\n\nYou'll learn alongside experienced security engineers, with a dedicated coach from day one. You'll take on real ownership early, and your scope grows as we scale from 1M to many millions of members. And you'll learn how we work at Alan: teams own their risks and controls, we automate wherever we can, and we focus on real outcomes, not paperwork.\n\n🚀 What you'll do\n\nKeep our certifications on track. You run the day-to-day of the ISO 27001 and HDS audit cycles: collecting evidence, preparing internal audits, and following up on corrective actions until they're closed.\n\nTurn regulations into practical actions. With Legal and the DPO, you help translate requirements like DORA, HDS, and GDPR into clear tasks for the teams, and track that they get done.\n\nLearn the health sector rules. You build your knowledge of health-specific frameworks (ANS, HDS) and help apply them to how we handle health data.\n\nContribute to risk management. You help build and update our risk mapping, including AI risks, and follow up on the treatment plans with the teams who own them.\n\nSupport the teams who own the controls. You keep the controls framework up to date, answer teams' questions, and help explain security clearly to every stakeholder, from engineers to managers.\n\nSupport incident governance. You help classify and document incidents, keep Business continuity and Disaster recovery plans up to date, and prepare inputs for DORA incident reports.\n\nAutomate what slows us down. You spot repetitive compliance tasks and automate them with scripts, tools or AI.\n\n🏗️ What you'll help build\n\nOne compliance backbone: A single control system for several regulators in several countries, so Alan can scale without rebuilding compliance each time.\n\nAn automated evidence engine: evidence collected straight from engineering systems with scripts and AI, so audits run continuously instead of as a quarterly rush.\n\nYou'll work closely with Legal, the DPO, Internal Audit and Risk, and day to day with engineering and operations teams.\n\n⭐ What we're looking for\n\nYou want to do the work yourself and grow with it: a permanent, hands-on role where you build things for the long run.\n\n2+ years in security, GRC or compliance (an audit background is fine if you want to move into building).\n\nYou've played a key part in a certification or audit cycle (ISO 27001, HDS, SOC 2 or similar).\n\nYou're curious about how things work technically, and you've automated at least one manual task (a script, a tool, an AI workflow).\n\nYou're fluent in French and English, and comfortable presenting in both.\n\nYou learn fast, ask for feedback, and go into the details when it matters.\n\n🌍 How we work\n\nLocation: You must be legally eligible to work from France, Belgium or Spain.\n\nRemote work: We offer remote work flexibility.\n\n🎯 Important note: we hire people, not roles.\n\nIf you're excited about this opportunity but don't check every box, we'd love to hear from you. Everyone, no matter how underrepresented, should feel free to apply, as it can only bring learnings or success.\n\n🔖 Check out our About Alan and Career pages, as well as our Medium, blog and Glassdoor page for more info.\n\nYou want to know more about Alan?\n\n🙌 Perks & Benefits: Alaners are provided with a stimulating environment and perks ensuring they are happy, efficient and spend only high-quality time with co-workers.\n\n🤘A strong culture: People joining Alan are often surprised and delighted by our innovative working method. We have a set of cultural values that guide our approach to work\n\nCompensation: €61K – €70K\n\nLevel C0 to C1 • €61K – €70K\n\nFind Jobs in France on Arbeitnow",
+      "description_excerpt": "Why Mozilla? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. The Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. What you’ll do: Design, build and implement security and hardening features for enterprise users: Design, implement, test, and ship cutting-edge security features that strengthen Firefox’s security posture. Advance Firefox’s s…",
+      "full_description": "Why Mozilla?\n\nMozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. \n\nThe Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. \n\nWhat you’ll do:\n\nDesign, build and implement security and hardening features for enterprise users: Design, implement, test, and ship cutting-edge security features that strengthen Firefox’s security posture.\n\nAdvance Firefox’s security architecture across multiple operating systems: Contribute to and drive cutting-edge improvements to Firefox’s core security posture, by building privilege isolation and moving trust boundaries or Strengthen Firefox’s security architecture: Improve Firefox’s core security mechanisms including cryptographic protocols, WebPKI, and security-sensitive web APIs.\n\nContribute to our security initiatives: Work across teams to investigate security issues, identify root causes, and deliver robust, maintainable fixes.\n\nImprove browser reliability and performance: Diagnose and resolve issues affecting stability, correctness, performance, and memory usage in a complex, multithreaded environment.\n\nWhat you’ll bring:\n\nSystems programming experience and security knowledge: 3+ years of experience in low-level software engineering, strong proficiency in C and/or C++, and a solid understanding of security fundamentals.\n\nDebugging and problem-solving skills: Experience diagnosing and resolving issues in multithreaded, cross-platform native applications, including memory and performance challenges.\n\nWeb platform and modern systems experience: Familiarity with web technologies (HTML, CSS, JavaScript) and interest or experience in Rust; ability to work effectively within large, complex, multi-language codebases.\n\nEffective collaboration and communication: Experience working with distributed teams and communicating technical ideas clearly in writing and conversation.\n\nWhat you’ll get:\n\nGenerous performance-based bonus plans to all eligible employees - we share in our success as one team\n\nGenerous retirement contributions with 100% immediate vesting (regardless of whether you contribute)\n\nQuarterly all-company wellness days where everyone takes a pause together\n\nCountry specific holidays plus a day off for your birthday\n\nOne-time home office stipend\n\nAnnual professional development budget\n\nQuarterly well-being stipend\n\nConsiderable paid parental leave\n\nEmployee referral bonus program\n\nOther benefits (life/AD&D, disability, EAP, etc. - varies by country)\n\nAbout Mozilla \n\nMozilla exists to build the Internet as a public resource accessible to all because we believe that open and free is better than closed and controlled. When you work at Mozilla, you give yourself a chance to make a difference in the lives of Web users everywhere. And you give us a chance to make a difference in your life every single day. Join us to work on the Web as the platform and help create more opportunity and innovation for everyone online.\n\nCommitment to diversity, equity, inclusion, and belonging\n\nMozilla understands that valuing diverse creative practices and forms of knowledge are crucial to and enrich the company’s core mission. We encourage applications from everyone, including members of all equity-seeking communities, such as (but certainly not limited to) women, racialized and Indigenous persons, persons with disabilities, persons of all sexual orientations, gender identities, and expressions.\n\nWe will ensure that qualified individuals with disabilities are provided reasonable accommodations to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment, as appropriate. Please contact us at hiringaccommodation@mozilla.com to request accommodation.\n\nWe are an equal opportunity employer. We do not discriminate on the basis of race (including hairstyle and texture), religion (including religious grooming and dress practices), gender, gender identity, gender expression, color, national origin, pregnancy, ancestry, domestic partner status, disability, sexual orientation, age, genetic predisposition, medical condition, marital status, citizenship status, military or veteran status, or any other basis covered by applicable laws. Mozilla will not tolerate discrimination or harassment based on any of these characteristics or any other unlawful behavior, conduct, or purpose.\n\nGroup: D\n\n#LI-REMOTE\n\nReq ID: R3247\n\nHiring Ranges:\n\nRemote Sweden\n\n513 000 kr—684 000 kr SEK",
       "skill_requirements": [
         {
-          "skill": "gdpr",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "With Legal and the DPO, you help translate requirements like DORA, HDS, and GDPR into clear tasks for the teams, and track that they get done."
-        },
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "You learn fast, ask for feedback, and go into the details when it matters."
-        },
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "You'll join Alan's security team to help run our compliance and risk work across ISO 27001, HDS and DORA, across a growing number of countries and regulators."
+          "skill": "javascript",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Web platform and modern systems experience: Familiarity with web technologies (HTML, CSS, JavaScript) and interest or experience in Rust"
         },
         {
           "skill": "rust",
           "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "This one is about earning our members' trust: every day, they share their diagnoses, their claims and their care with us."
+          "requirement": "mandatory",
+          "evidence": "Web platform and modern systems experience: Familiarity with web technologies (HTML, CSS, JavaScript) and interest or experience in Rust"
         },
         {
-          "skill": "sast",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "You help classify and document incidents, keep Business continuity and Disaster recovery plans up to date, and prepare inputs for DORA incident reports."
+          "skill": "software development",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Systems programming experience and security knowledge: 3+ years of experience in low-level software engineering, strong proficiency in C and/or C++, and a solid understanding of security fundamentals."
         }
       ],
       "german_analysis": {
@@ -649,15 +444,15 @@
         "evidence": ""
       },
       "experience_analysis": {
-        "min_years": 2,
+        "min_years": 3,
         "max_years": null,
         "optional": false,
-        "display": "2+ years",
-        "evidence": "2+ years in security, GRC or compliance (an audit background is fine if you want to move into building)."
+        "display": "3+ years",
+        "evidence": "Systems programming experience and security knowledge: 3+ years of experience in low-level software engineering, strong proficiency in C and/or C++, and a solid understanding of security fundamentals."
       }
     },
     {
-      "report_number": 3,
+      "report_number": 2,
       "job_key": "ad5a9fea931d31fc704c",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -777,7 +572,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 4,
+      "report_number": 3,
       "job_key": "86d0e27ef416b6621d0d",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -984,7 +779,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 5,
+      "report_number": 4,
       "job_key": "0bc28b416edb95f3b45f",
       "status": "NEW",
       "application_status": "NEW",
@@ -1103,7 +898,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 6,
+      "report_number": 5,
       "job_key": "ca9ca2de50791397491c",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1299,7 +1094,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 7,
+      "report_number": 6,
       "job_key": "97e10fb205544ff97e76",
       "status": "NEW",
       "application_status": "NEW",
@@ -1457,7 +1252,7 @@
       }
     },
     {
-      "report_number": 8,
+      "report_number": 7,
       "job_key": "022b02e42c40ff735dbc",
       "status": "NEW",
       "application_status": "NEW",
@@ -1641,7 +1436,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 9,
+      "report_number": 8,
       "job_key": "aeed9275b0fec6f82691",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1793,7 +1588,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 10,
+      "report_number": 9,
       "job_key": "3d69b8086319e3c5d304",
       "status": "NEW",
       "application_status": "NEW",
@@ -1957,6 +1752,248 @@
           "profile_status": "match",
           "requirement": "mentioned",
           "evidence": "You'll design, build, and maintain production features alongside the rest of the engineering team, while bringing a security perspective to the broader product by reviewing security-sensitive designs, threat modeling new features, investigating vulnerabilities"
+        }
+      ],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 10,
+      "job_key": "2e0bc4a58933748effd2",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 59,
+      "raw_score": 77,
+      "score_cap": 59,
+      "score_cap_reasons": [
+        "Multiple explicitly mandatory skills are not evidenced"
+      ],
+      "score_label": "STRETCH",
+      "title": "IT Security Engineer (all genders)",
+      "company": "Getolo",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin hybrid role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Hybrid"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Hybrid",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer",
+          "vulnerability",
+          "security architecture"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://www.arbeitnow.com/jobs/companies/getolo/it-security-engineer-all-genders-berlin-378309",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/getolo/it-security-engineer-all-genders-berlin-378309",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/getolo/it-security-engineer-all-genders-berlin-378309",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-10-23T05:20:19Z",
+      "posting_age_days": 0,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-10-23T10:23:39Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "penetration testing",
+          "python",
+          "vulnerability assessment",
+          "vulnerability management"
+        ],
+        "partial": [
+          "aws",
+          "incident response",
+          "nist",
+          "siem"
+        ],
+        "missing": [
+          "detection engineering",
+          "edr",
+          "iso 27001",
+          "powershell",
+          "rust"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "edr",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Solid experience with EDR and MDM-managed endpoint fleets (macOS and Windows)"
+        },
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Working knowledge of ISO 27001 or comparable frameworks (Grundschutz, NIST CSF, CIS Controls, DORA) and how controls map to daily operations"
+        },
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Working knowledge of ISO 27001 or comparable frameworks (Grundschutz, NIST CSF, CIS Controls, DORA) and how controls map to daily operations"
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "detection engineering",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Run and continuously improve our SIEM: log source onboarding, detection rules, tuning, alert quality"
+        },
+        {
+          "skill": "powershell",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Scripting for automation (Python, PowerShell, Unix shell)"
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "#caring: We treat each other with respect, build trust, and create an environment where everyone can thrive"
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 13,
+        "experience": 10,
+        "location": 15,
+        "language": 10,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "Berlin hybrid role.",
+        "Evidenced matches include penetration testing, python, vulnerability assessment, vulnerability management."
+      ],
+      "warnings": [
+        "Mandatory gaps: edr, iso 27001, nist",
+        "Potential gaps: detection engineering, powershell, rust",
+        "Exposure only; do not claim deep expertise: aws, incident response, nist, siem",
+        "Multiple explicitly mandatory skills are not evidenced"
+      ],
+      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
+      "description_excerpt": "Support us in designing the insurance experience of the future. As an IT Security Engineer you own IT Security Operations at getolo end to end: running our detection and response capability day to day, keeping endpoints and infrastructure hardened, and driving incidents, vulnerabilities and findings to closure. Security operations is the core of this role. Beyond it, you bring an operator's perspective into how we design systems and into our governance work, to ensure control effectiveness. This is a full-time hybrid role, with 1–2 days per week working from our Berlin office. Requirements Your Mission Security Operations - your primary function Run and continuously improve our SIEM: log source onboarding, detection rules, tuning, alert quality Automate orchestration and response with SOAR Operate endpoint protection across our fleet Triage and manage alerts, driving them to closure or escalation Lead incident management from detection through containment, recovery and post-incident review Detect and remediate configuration drift against hardening baselines; run technical audits Oversee vulnerability management: scanning, prioritisation, and remediation tracking with IT and engine…",
+      "full_description": "Support us in designing the insurance experience of the future. As an IT Security Engineer you own IT Security Operations at getolo end to end: running our detection and response capability day to day, keeping endpoints and infrastructure hardened, and driving incidents, vulnerabilities and findings to closure. Security operations is the core of this role. Beyond it, you bring an operator's perspective into how we design systems and into our governance work, to ensure control effectiveness.\n\nThis is a full-time hybrid role, with 1–2 days per week working from our Berlin office.\n\nRequirements\n\nYour Mission\n\nSecurity Operations - your primary function\n\nRun and continuously improve our SIEM: log source onboarding, detection rules, tuning, alert quality\n\nAutomate orchestration and response with SOAR\n\nOperate endpoint protection across our fleet\n\nTriage and manage alerts, driving them to closure or escalation\n\nLead incident management from detection through containment, recovery and post-incident review\n\nDetect and remediate configuration drift against hardening baselines; run technical audits\n\nOversee vulnerability management: scanning, prioritisation, and remediation tracking with IT and engineering\n\nPlan and coordinate penetration tests (internal and with external providers) and drive remediation\n\nSecurity Architecture - supporting\n\nContribute to security best practices and standards for infrastructure, endpoints, identity and SaaS\n\nBring security design input into new systems and projects early\n\nAct as a security advisor to IT, engineering and the wider business\n\nSecurity GRC - supporting\n\nFeed operational reality into security policies, the risk register and control design\n\nSupport internal and external audits with evidence collection and remediation of findings\n\nContribute to security awareness trainings\n\nSupport third-party and vendor security assessments\n\nDeliver operational input for management reporting on security posture, KPIs and incidents\n\nWhat You Will Need to Succeed\n\n4+ years in security operations, SOC, blue team or a comparable hands-on security role\n\nHands-on SIEM experience: onboarding sources, writing and tuning detections, running investigations\n\nKnowledge of orchestration and response with SOAR\n\nSolid experience with EDR and MDM-managed endpoint fleets (macOS and Windows)\n\nPractical incident response experience and the composure to lead an incident\n\nVulnerability management from scanning through remediation, including pentest coordination\n\nWorking knowledge of ISO 27001 or comparable frameworks (Grundschutz, NIST CSF, CIS Controls, DORA) and how controls map to daily operations\n\nScripting for automation (Python, PowerShell, Unix shell)\n\nClear communicator who can explain risk to non-security stakeholders and write for management\n\nExperience with cloud first tech stacks running on SaaS and PaaS\n\nFluent English\n\nWhat Would Make You Stand Out\n\nCertifications such as GCIH, GCIA, CISSP or Security+\n\nCloud and identity security experience (e.g. Microsoft 365 / Entra ID, AWS or GCP)\n\nDetection engineering or threat hunting background\n\nPrior involvement in audits (ISO 27001, SOC2 or similar)\n\nBenefits\n\nWhy getolo?\n\n🌴 Salary & Vacation\n\nAttractive fixed salary\n\nStart with 28 vacation days, with an increase every two years (capped at 30 days). Holidays on December 24th and 31st.\n\n🧑‍💻 Mobility & Flexibility\n\nChoose between a free Swapfiets bike, or a Berlin/Brandenburg ticket (“VBB - Jobticket”) or BVG “Deutschlandticket” subsidized by us\n\nWork hybrid - from your home office or in our office in Berlin-Mitte\n\nWork abroad in the EU for up to 60 days\n\n🧘 Health\n\nBenefit from free coaching sessions with nilo.health, our mental health tool\n\nTest our products yourself! Choose between dentolo, petolo or vitolo\n\n📚 Development\n\nLearning Budget starting from 750 € per year\n\nRegular (360 degree) feedback\n\n🌍 Berlin Based, International Mindset\n\nWe communicate, collaborate, and celebrate in English to ensure everyone is included\n\nOur diverse team spans from 33 different countries\n\n🧬 Values\n\nOur values are not buzzwords, but actions that are a part of our individual and collective DNA:\n\n#fast: We simplify, move with urgency, and focus on outcomes\n\n#brave: We take bold decisions, challenge the status quo, and act with conviction\n\n#accountable: We deliver end-to-end, reduce dependencies, and own our decisions\n\n#caring: We treat each other with respect, build trust, and create an environment where everyone can thrive\n\n🙌 And much more…\n\nLegendary summer and winter parties \n\nRegular team events\n\nMany discounts on the corporate Benefits Platform\n\nTwo Community Days per calendar year\n\nPet friendly office\n\nSounds like the perfect job for you? We look forward to receiving your application and getting to know you!\n\nAbout getolo\n\nFounded in 2015, getolo GmbH is an innovative and award-winning InsurTech company that offers comprehensive supplementary insurance plans in the areas of dental, pet health and liability, as well as health add-on coverage. Under the brands dentolo, petolo, patolo and vitolo, we serve over 265,000 customers across Germany, France and Spain, providing digital and hassle-free protection that seamlessly integrates into their daily lives.\nWe believe that prevention is always better than cure—which is why we focus on preventive care, customer-centric service, and financial security to protect our customers and their loved ones from unexpected costs. Thanks to the close collaboration of our team of market specialists and insurance experts, we continuously monitor industry developments to offer practical solutions for current challenges.\ngetolo's company culture is built on collaboration, innovation, and agility—always with a strong focus on the needs of our customers. With a team of around 300 employees, getolo is led by Daniel Gadea (CEO) and Laura Wulff (CGO). getolo is a partner of DA Direkt and part of the Zurich Group Germany.\n\ngetolo is an equal opportunity and diversity employer. We strive to create a friendly, safe, and welcoming environment for all our team members, regardless of ethnicity, gender, gender identity and expression, sexual orientation, limitations and talents of any kind, physical appearance, social background, marital status, age, or religion (or lack thereof).\n\nWhen you apply, we focus solely on your experience and motivation. You decide what additional information you want to disclose (photo, marital status, religion, gender, nationality, etc.). We value and treat all applications equally.\n\nContact:\n\ngetolo Recruiting -----\nFind more English Speaking Jobs in Germany on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "edr",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Solid experience with EDR and MDM-managed endpoint fleets (macOS and Windows)"
+        },
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Working knowledge of ISO 27001 or comparable frameworks (Grundschutz, NIST CSF, CIS Controls, DORA) and how controls map to daily operations"
+        },
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Working knowledge of ISO 27001 or comparable frameworks (Grundschutz, NIST CSF, CIS Controls, DORA) and how controls map to daily operations"
+        },
+        {
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Microsoft 365 / Entra ID, AWS or GCP)"
+        },
+        {
+          "skill": "detection engineering",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Run and continuously improve our SIEM: log source onboarding, detection rules, tuning, alert quality"
+        },
+        {
+          "skill": "incident response",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Practical incident response experience and the composure to lead an incident"
+        },
+        {
+          "skill": "penetration testing",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Plan and coordinate penetration tests (internal and with external providers) and drive remediation"
+        },
+        {
+          "skill": "powershell",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Scripting for automation (Python, PowerShell, Unix shell)"
+        },
+        {
+          "skill": "python",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Scripting for automation (Python, PowerShell, Unix shell)"
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "#caring: We treat each other with respect, build trust, and create an environment where everyone can thrive"
+        },
+        {
+          "skill": "siem",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Run and continuously improve our SIEM: log source onboarding, detection rules, tuning, alert quality"
+        },
+        {
+          "skill": "vulnerability assessment",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Support third-party and vendor security assessments"
+        },
+        {
+          "skill": "vulnerability management",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Oversee vulnerability management: scanning, prioritisation, and remediation tracking with IT and engineering"
         }
       ],
       "german_analysis": {

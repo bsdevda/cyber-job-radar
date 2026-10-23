@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T10:26:14Z",
+  "generated_at": "2026-10-23T10:23:39Z",
   "window": {
     "target_daily_runs": 14,
     "completed_daily_runs": 14,
     "minimum_runs_before_tuning": 14,
     "ready_for_tuning": true,
-    "period_start": "2026-10-05",
-    "period_end": "2026-10-22"
+    "period_start": "2026-10-06",
+    "period_end": "2026-10-23"
   },
   "metrics": {
-    "relevant_job_observations": 166,
+    "relevant_job_observations": 172,
     "new_relevant_jobs_found": 18,
     "reviewed_jobs": 0,
     "suitable_jobs_confirmed": 0,
@@ -18,12 +18,12 @@
     "false_positive_rate_percent": 0.0,
     "false_positive_rate_is_reliable": false,
     "missed_suitable_jobs": 0,
-    "raw_jobs_collected": 116600,
-    "duplicates_removed": 915,
-    "duplicate_rate_percent": 24.1,
+    "raw_jobs_collected": 117734,
+    "duplicates_removed": 908,
+    "duplicate_rate_percent": 23.9,
     "source_checks": 104,
     "source_failures": 0,
-    "source_partials": 2,
+    "source_partials": 3,
     "source_failure_rate_percent": 0.0,
     "average_workflow_duration_seconds": 26.4,
     "workflow_duration_coverage_runs": 14,
