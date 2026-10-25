@@ -8058,6 +8058,128 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-10-25T12:15:06Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 25755,
+      "security_title_candidates": 888,
+      "prefiltered_non_security_jobs": 24867,
+      "unique_jobs_after_deduplication": 684,
+      "duplicates_removed": 204,
+      "jobs_rejected_or_below_threshold": 25531,
+      "relevant_jobs_in_current_run": 20,
+      "new_jobs": 1,
+      "updated_jobs": 5,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 1,
+      "report_jobs": 50,
+      "jobs_by_source": {
+        "arbeitnow": 2400,
+        "remotive": 10,
+        "linkedin_posts": 0,
+        "greenhouse": 21495,
+        "ashby": 438,
+        "lever": 1217,
+        "personio": 185,
+        "recruitee": 10
+      },
+      "employer_mode": "full",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 47.2,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2400,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 10,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 21495,
+          "requests": 166,
+          "errors": [
+            {
+              "source": "greenhouse",
+              "company": "Postman",
+              "http_status": 404,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found",
+              "message": "Greenhouse | Postman | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found"
+            }
+          ],
+          "error": "Greenhouse | Postman | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found",
+          "companies_checked": 166,
+          "companies_successful": 165,
+          "companies_failed": 1
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 438,
+          "requests": 12,
+          "errors": [],
+          "error": "",
+          "companies_checked": 12,
+          "companies_successful": 12,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1217,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 185,
+          "requests": 7,
+          "errors": [],
+          "error": "",
+          "companies_checked": 7,
+          "companies_successful": 7,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 10,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -15181,6 +15303,61 @@
       "company": "Wire Germany GmbH",
       "title": "Senior Security Engineer (f/m/d)",
       "score": 59
+    },
+    {
+      "at": "2026-10-25T12:15:06Z",
+      "job_key": "cc78a757c373716678d7",
+      "event": "UPDATED",
+      "company": "Ygo",
+      "title": "Cloud Security Engineer",
+      "score": 71
+    },
+    {
+      "at": "2026-10-25T12:15:06Z",
+      "job_key": "a03342dd76095c14515c",
+      "event": "UPDATED",
+      "company": "Vivenu",
+      "title": "Senior Security Engineer - AppSec (d/f/m)",
+      "score": 59
+    },
+    {
+      "at": "2026-10-25T12:15:06Z",
+      "job_key": "fcd3d88612c00e3423ee",
+      "event": "UPDATED",
+      "company": "Alan",
+      "title": "Security Engineer Junior - GRC",
+      "score": 69
+    },
+    {
+      "at": "2026-10-25T12:15:06Z",
+      "job_key": "cd5cfcf928703cec5837",
+      "event": "UPDATED",
+      "company": "Alan",
+      "title": "Security Engineer Senior - GRC",
+      "score": 60
+    },
+    {
+      "at": "2026-10-25T12:15:06Z",
+      "job_key": "04a3d5752b4e49f488ab",
+      "event": "NEW",
+      "company": "Grafana Labs",
+      "title": "Senior Software Engineer, Security Assurance | Germany | Remote",
+      "score": 59
+    },
+    {
+      "at": "2026-10-25T12:15:06Z",
+      "job_key": "3183e2eb626e74bd4b92",
+      "event": "UPDATED",
+      "company": "Cygrid",
+      "title": "Cybersecurity Researcher",
+      "score": 69
+    },
+    {
+      "at": "2026-10-25T12:15:06Z",
+      "job_key": "86705e70d7803af16172",
+      "event": "REMOVED",
+      "company": "Mozilla",
+      "title": "Senior Security Engineer, Bug Bounty"
     }
   ]
 }
