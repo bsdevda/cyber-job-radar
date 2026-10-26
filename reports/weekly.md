@@ -1,49 +1,48 @@
 # Weekly Job Radar Analytics
 
-**Week starting:** 2026-10-19
-**Generated:** 2026-10-25T12:15:06Z
-**Active relevant jobs:** 20
+**Week starting:** 2026-10-26
+**Generated:** 2026-10-26T13:26:31Z
+**Active relevant jobs:** 16
 
 ## Role-family demand
 
-- **Security Engineering:** 11
-- **IT Audit / GRC:** 5
+- **Security Engineering:** 9
+- **IT Audit / GRC:** 4
 - **Application Security:** 1
 - **Product Security:** 1
 - **SOC / Detection and Response:** 1
-- **Penetration Testing / VAPT:** 1
 
 ## Skill-gap signals
 
 ### Explicit mandatory gaps
 
-- **aws:** 5 job(s)
-- **nist:** 4 job(s)
-- **kubernetes:** 4 job(s)
+- **aws:** 4 job(s)
 - **go:** 3 job(s)
-- **edr:** 3 job(s)
+- **nist:** 3 job(s)
 - **incident response:** 3 job(s)
 - **rust:** 3 job(s)
+- **kubernetes:** 3 job(s)
+- **gdpr:** 2 job(s)
 - **ci/cd:** 2 job(s)
 - **git:** 2 job(s)
 - **javascript:** 2 job(s)
 - **terraform:** 2 job(s)
-- **iso 27001:** 2 job(s)
+- **siem:** 2 job(s)
 
 ### Potential gaps
 
-- **rust:** 11 job(s)
-- **iso 27001:** 7 job(s)
-- **azure:** 3 job(s)
-- **detection engineering:** 3 job(s)
+- **rust:** 6 job(s)
+- **iso 27001:** 4 job(s)
 - **edr:** 3 job(s)
-- **github security:** 2 job(s)
-- **gdpr:** 2 job(s)
-- **go:** 2 job(s)
-- **bug bounty:** 2 job(s)
-- **vulnerability disclosure program:** 2 job(s)
+- **azure:** 2 job(s)
 - **ot security:** 1 job(s)
 - **secrets management:** 1 job(s)
+- **github security:** 1 job(s)
+- **kubernetes:** 1 job(s)
+- **dlp:** 1 job(s)
+- **infrastructure as code:** 1 job(s)
+- **go:** 1 job(s)
+- **detection engineering:** 1 job(s)
 
 ### Optional gaps
 
@@ -57,20 +56,19 @@
 - **kubernetes:** 1 job(s)
 - **terraform:** 1 job(s)
 - **incident response:** 1 job(s)
-- **active directory:** 1 job(s)
 
 ### Exposure-only skills
 
-- **aws:** 8 job(s)
-- **incident response:** 8 job(s)
+- **aws:** 6 job(s)
+- **incident response:** 6 job(s)
 - **software development:** 6 job(s)
-- **nist:** 5 job(s)
-- **siem:** 5 job(s)
 - **ci/cd:** 4 job(s)
 - **cloud security:** 4 job(s)
-- **git:** 4 job(s)
 - **javascript:** 4 job(s)
+- **nist:** 4 job(s)
+- **siem:** 4 job(s)
 - **product security:** 4 job(s)
+- **git:** 3 job(s)
 - **splunk:** 2 job(s)
 - **docker:** 2 job(s)
 

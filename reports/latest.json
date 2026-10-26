@@ -1,37 +1,37 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-25T12:15:06Z",
+  "generated_at": "2026-10-26T13:26:31Z",
   "summary": {
-    "generated_at": "2026-10-25T12:15:06Z",
+    "generated_at": "2026-10-26T13:26:31Z",
     "scoring_version": 2.2,
-    "jobs_collected": 25755,
-    "security_title_candidates": 888,
-    "prefiltered_non_security_jobs": 24867,
-    "unique_jobs_after_deduplication": 684,
-    "duplicates_removed": 204,
-    "jobs_rejected_or_below_threshold": 25531,
-    "relevant_jobs_in_current_run": 20,
+    "jobs_collected": 9164,
+    "security_title_candidates": 317,
+    "prefiltered_non_security_jobs": 8847,
+    "unique_jobs_after_deduplication": 228,
+    "duplicates_removed": 89,
+    "jobs_rejected_or_below_threshold": 9059,
+    "relevant_jobs_in_current_run": 16,
     "new_jobs": 1,
-    "updated_jobs": 5,
+    "updated_jobs": 2,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
-    "sources_partial": 1,
+    "sources_partial": 0,
     "report_jobs": 50,
     "jobs_by_source": {
-      "arbeitnow": 2400,
+      "arbeitnow": 2264,
       "remotive": 10,
       "linkedin_posts": 0,
-      "greenhouse": 21495,
-      "ashby": 438,
-      "lever": 1217,
-      "personio": 185,
-      "recruitee": 10
+      "greenhouse": 6246,
+      "ashby": 391,
+      "lever": 105,
+      "personio": 148,
+      "recruitee": 0
     },
-    "employer_mode": "full",
+    "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 47.2
+    "workflow_duration_seconds": 30.0
   },
   "jobs": [
     {
@@ -90,10 +90,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-25T03:40:11Z",
-      "posting_age_days": 0,
+      "posting_age_days": 1,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 0,
+        "age_days": 1,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
@@ -1195,6 +1195,111 @@
     },
     {
       "report_number": 10,
+      "job_key": "eb01fcc2c3328f8c9e07",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 65,
+      "raw_score": 65,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "score_label": "REVIEW",
+      "title": "🌐 Security & Legal Specialist - Customer Care",
+      "company": "Alan",
+      "location": "Anywhere in France",
+      "location_analysis": {
+        "category": "eligible_worldwide_remote",
+        "eligible": true,
+        "score": 11,
+        "reason": "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
+        "verification_required": true,
+        "score_cap": 89,
+        "scope": "Worldwide remote",
+        "work_model": "Remote"
+      },
+      "location_scope": "Worldwide remote",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "it_audit_grc",
+        "label": "IT Audit / GRC",
+        "priority": 3,
+        "confidence": "medium",
+        "evidence": [
+          "gdpr",
+          "compliance"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://www.arbeitnow.fr/jobs/companies/alan/security-legal-specialist-customer-care-anywhere-in-france-255516",
+      "apply_url": "https://www.arbeitnow.fr/jobs/companies/alan/security-legal-specialist-customer-care-anywhere-in-france-255516",
+      "canonical_url": "https://www.arbeitnow.fr/jobs/companies/alan/security-legal-specialist-customer-care-anywhere-in-france-255516",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-10-26T03:40:15Z",
+      "posting_age_days": 0,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-10-26T13:26:31Z",
+      "experience_required": "1-2 years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [],
+        "partial": [],
+        "missing": [
+          "gdpr"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "gdpr",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Have at least 1-2 years of experience in one of the following: GDPR / privacy operations, legal complaints handling in a regulated sector, or compliance ops in fintech, insurtech, or health"
+        }
+      ],
+      "potential_gaps": [],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 12,
+        "skills": 4,
+        "experience": 15,
+        "location": 11,
+        "language": 10,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Worldwide/anywhere remote eligibility detected; verify employment from Germany.",
+        "The detected experience requirement is within or close to the 2+ year profile."
+      ],
+      "warnings": [
+        "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
+        "Mandatory gaps: gdpr",
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "Health can’t wait. Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t. Alan exists to end the wait. Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way. So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience. We are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR. Prevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond. 🚀 The Challenge Alan is a leading European health insurer with over 1 mil…"
+    },
+    {
+      "report_number": 11,
       "job_key": "aeed9275b0fec6f82691",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1317,7 +1422,7 @@
       "description_excerpt": "Location: Office First - Berlin Team description Our security assurance team keeps SumUp's information security programme credible, both to regulators and to the millions of merchants who trust us with their business. As part of a small global team spanning Europe, Brazil and Chile, you'll help translate frameworks like ISO 27001, PCI DSS and NIST into practical controls that hold up under real audits and real third-party scrutiny. This is a chance to shape how a fast-growing fintech proves its security maturity across multiple regulatory environments at once, with real ownership over the areas you improve. What you'll do Review information security controls, audit findings and risk mitigation plans, working with other teams to put the right fixes in place Run third-party due diligence, supplier reviews and contract assessments as part of the third-party risk management process Partner with stakeholders across the business to promote strong security practices and help embed security principles into their day-to-day processes Support external and internal audits and due diligence requests, responding directly to auditors, clients and partners Track relevant laws, regulations and se…"
     },
     {
-      "report_number": 11,
+      "report_number": 12,
       "job_key": "cd5cfcf928703cec5837",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1433,7 +1538,7 @@
       "description_excerpt": "Health can’t wait. Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t. Alan exists to end the wait. Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way. So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience. We are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR. Prevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond. 🛡️ The role Most GRC roles are about keeping auditors happy. This one is…"
     },
     {
-      "report_number": 12,
+      "report_number": 13,
       "job_key": "3d69b8086319e3c5d304",
       "status": "NEW",
       "application_status": "NEW",
@@ -1562,7 +1667,7 @@
       "description_excerpt": "vCluster Labs is looking for a Senior Software Engineer focused on Product Security to help us build secure infrastructure software from the ground up. You'll design, build, and maintain production features alongside the rest of the engineering team, while bringing a security perspective to the broader product by reviewing security-sensitive designs, threat modeling new features, investigating vulnerabilities, and helping teams make sound security decisions as the platform evolves. Operating security tooling and compliance are not the primary goals; we need an experienced engineer who can work deeply in our codebase and architecture, build security into the product itself, and serve as the security expert for our product. As a Senior Software Engineer (Product Security), your role will include: - Building production features: Design, build, and maintain production features alongside the rest of the engineering team. When there's no security work in the queue, you work on roadmap features. - Owning vulnerability response: Triage, prioritize, and fix security issues in our code and dependencies through to a patched release. - Threat modeling new features: Review security-sensitive d…"
     },
     {
-      "report_number": 13,
+      "report_number": 14,
       "job_key": "a03342dd76095c14515c",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1618,10 +1723,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-25T03:07:28Z",
-      "posting_age_days": 0,
+      "posting_age_days": 1,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 0,
+        "age_days": 1,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
@@ -1746,148 +1851,6 @@
       ],
       "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
       "description_excerpt": "Redefine the future of live entertainment tech Welcome to vivenu, the global leader in event ticketing tech and one of the world’s fastest-growing live entertainment tech firms. We are transforming event ticketing for global leaders like the Grammys, the Golden Globes, Stanford University and the Hockenheimring turning what was once a simple transaction into a strategic business advantage. Backed by over $65 million in funding, our platform empowers event organizers to own their brand experience, unlock deep data insights, and seamlessly integrate ticketing into their digital infrastructure. With six offices worldwide and growing, we deliver a customizable, intuitive solution and industry-leading support that simplify even the most complex ticketing challenges – helping organizers deliver exceptional experiences and drive real growth. Join us and build the future of live entertainment. With over 10 million end users and usage quadrupling annually, our infrastructure now handles over 1 billion requests per month — and counting. Our API-first platform solves complex system challenges at scale — delivering performance, flexibility, and reliability for the world’s leading live enterta…"
-    },
-    {
-      "report_number": 14,
-      "job_key": "04a3d5752b4e49f488ab",
-      "status": "NEW",
-      "application_status": "NEW",
-      "score": 59,
-      "raw_score": 65,
-      "score_cap": 59,
-      "score_cap_reasons": [
-        "Multiple explicitly mandatory skills are not evidenced"
-      ],
-      "score_label": "STRETCH",
-      "title": "Senior Software Engineer, Security Assurance | Germany | Remote",
-      "company": "Grafana Labs",
-      "location": "Germany (Remote)",
-      "location_analysis": {
-        "category": "eligible_germany_remote",
-        "eligible": true,
-        "score": 15,
-        "reason": "Remote work from Germany is explicitly available",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Germany remote",
-        "work_model": "Remote"
-      },
-      "location_scope": "Germany remote",
-      "working_model": "Remote",
-      "role_family": {
-        "id": "it_audit_grc",
-        "label": "IT Audit / GRC",
-        "priority": 3,
-        "confidence": "medium",
-        "evidence": [
-          "iso 27001",
-          "gdpr",
-          "compliance"
-        ]
-      },
-      "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
-      },
-      "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6228511004",
-      "apply_url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6228511004",
-      "canonical_url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6228511004",
-      "source": "Greenhouse",
-      "sources": [
-        "Greenhouse"
-      ],
-      "ats": "greenhouse",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-10-19T18:26:06Z",
-      "posting_age_days": 5,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 5,
-        "category": "recent",
-        "label": "RECENT"
-      },
-      "urgency": "RECENT",
-      "first_seen": "2026-10-25T12:15:06Z",
-      "experience_required": null,
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "python"
-        ],
-        "partial": [
-          "javascript",
-          "nist",
-          "software development"
-        ],
-        "missing": [
-          "gdpr",
-          "go",
-          "iso 27001",
-          "kubernetes",
-          "rust"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "gdpr",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Knowledge of security standards and frameworks (ISO, FedRAMP, PCI-DSS, GDPR, etc) is useful, but the disposition to quickly learn new things is more important than rote knowledge."
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Knowledge of using and securing containerized, cloud-native applications, ideally with Kubernetes."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "We primarily use Go, TypeScript, and Python but most languages translate well."
-        },
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Develop, implement, and maintain highly automated security assurance programs to ensure compliance with organizational and regulatory requirements (e.g., ISO 27001, SOC 2, GDPR, NIST, PCI-DSS, TISAX, whatever else our customers eventually throw at us)"
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents faster, and optimize telemetry at scale."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 12,
-        "skills": 9,
-        "experience": 10,
-        "location": 15,
-        "language": 10,
-        "seniority": 4,
-        "education": 5
-      },
-      "match_reasons": [
-        "Remote work from Germany is explicitly available.",
-        "Evidenced matches include python."
-      ],
-      "warnings": [
-        "Mandatory gaps: gdpr, kubernetes",
-        "Potential gaps: go, iso 27001, rust",
-        "Exposure only; do not claim deep expertise: javascript, nist, software development",
-        "Multiple explicitly mandatory skills are not evidenced"
-      ],
-      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents faster, and optimize telemetry at scale. Built on open source and open standards and designed for interoperability across any stack, Grafana Cloud brings AI to observability and observability to AI, giving teams (and their agents) unified visibility so they can see, understand, and act on all their disparate data, wherever it lives, and move at the speed of their ambitions. Customers, including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce, rely on Grafana Labs. We are a 100% remote company with team members across 40+ countries, backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at grafana.com and follow us on LinkedIn and X. We’re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an innovation-driven environment where transparency, autonomy, and trust fuel everything we do. You may…"
     },
     {
       "report_number": 15,
@@ -2694,10 +2657,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-01T13:10:42Z",
-      "posting_age_days": 23,
+      "posting_age_days": 25,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 23,
+        "age_days": 25,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2800,10 +2763,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-21T08:33:20Z",
-      "posting_age_days": 4,
+      "posting_age_days": 5,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 4,
+        "age_days": 5,
         "category": "recent",
         "label": "RECENT"
       },
@@ -2956,10 +2919,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-16T09:23:08Z",
-      "posting_age_days": 9,
+      "posting_age_days": 10,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 9,
+        "age_days": 10,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -3106,10 +3069,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-14T03:11:31Z",
-      "posting_age_days": 11,
+      "posting_age_days": 12,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 11,
+        "age_days": 12,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -3529,10 +3492,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-02T09:11:35Z",
-      "posting_age_days": 23,
+      "posting_age_days": 24,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 23,
+        "age_days": 24,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -4224,10 +4187,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-11T10:13:09Z",
-      "posting_age_days": 44,
+      "posting_age_days": 45,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 44,
+        "age_days": 45,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -5397,10 +5360,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-19T08:41:49Z",
-      "posting_age_days": 6,
+      "posting_age_days": 7,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 6,
+        "age_days": 7,
         "category": "recent",
         "label": "RECENT"
       },
@@ -5523,10 +5486,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-15T14:25:08Z",
-      "posting_age_days": 9,
+      "posting_age_days": 10,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 9,
+        "age_days": 10,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -5780,15 +5743,15 @@
       "lead_type": "",
       "post_author": "",
       "feed_name": "",
-      "published_at": "2026-10-17T09:03:16Z",
-      "posting_age_days": 8,
+      "published_at": "2026-10-26T07:19:44Z",
+      "posting_age_days": 0,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 8,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
       },
-      "urgency": "OPEN FOR REVIEW",
+      "urgency": "NEW - APPLY QUICKLY",
       "first_seen": "2026-09-30T11:17:18Z",
       "experience_required": "5+ years",
       "german_requirement": "No German requirement detected",
@@ -5926,10 +5889,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-16T19:50:56Z",
-      "posting_age_days": 8,
+      "posting_age_days": 9,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 8,
+        "age_days": 9,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -6738,10 +6701,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-08-05T12:52:42Z",
-      "posting_age_days": 80,
+      "posting_age_days": 82,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 80,
+        "age_days": 82,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -7029,42 +6992,40 @@
     },
     {
       "report_number": 50,
-      "job_key": "db8aaa804d8c25ef23c4",
+      "job_key": "04a3d5752b4e49f488ab",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
       "score": 59,
-      "raw_score": 62,
+      "raw_score": 65,
       "score_cap": 59,
       "score_cap_reasons": [
-        "Mandatory experience requirement is 5-7 years",
         "Multiple explicitly mandatory skills are not evidenced"
       ],
       "score_label": "STRETCH",
-      "title": "Senior Security Engineer (f/m/d)",
-      "company": "Wire Germany GmbH",
-      "location": "Berlin, Germany",
+      "title": "Senior Software Engineer, Security Assurance | Germany | Remote",
+      "company": "Grafana Labs",
+      "location": "Germany (Remote)",
       "location_analysis": {
-        "category": "eligible_berlin",
+        "category": "eligible_germany_remote",
         "eligible": true,
         "score": 15,
-        "reason": "Berlin remote role",
+        "reason": "Remote work from Germany is explicitly available",
         "verification_required": false,
         "score_cap": null,
-        "scope": "Berlin",
+        "scope": "Germany remote",
         "work_model": "Remote"
       },
-      "location_scope": "Berlin",
+      "location_scope": "Germany remote",
       "working_model": "Remote",
       "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
+        "id": "it_audit_grc",
+        "label": "IT Audit / GRC",
+        "priority": 3,
+        "confidence": "medium",
         "evidence": [
-          "security engineer",
-          "security controls",
-          "vulnerability",
-          "security architecture"
+          "iso 27001",
+          "gdpr",
+          "compliance"
         ]
       },
       "seniority": {
@@ -7072,147 +7033,111 @@
         "label": "Senior",
         "evidence": "senior"
       },
-      "url": "https://wire-1.jobs.personio.de/job/2840727?language=en",
-      "apply_url": "https://wire-1.jobs.personio.de/job/2840727?language=en",
-      "canonical_url": "https://wire-1.jobs.personio.de/job/2840727?language=en",
-      "source": "Personio",
+      "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6228511004",
+      "apply_url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6228511004",
+      "canonical_url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6228511004",
+      "source": "Greenhouse",
       "sources": [
-        "Personio"
+        "Greenhouse"
       ],
-      "ats": "personio",
+      "ats": "greenhouse",
       "priority_employer": false,
       "lead_type": "",
       "post_author": "",
       "feed_name": "",
-      "published_at": "2026-10-13T14:32:45Z",
-      "posting_age_days": 11,
+      "published_at": "2026-10-19T18:26:06Z",
+      "posting_age_days": 6,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 11,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
+        "age_days": 6,
+        "category": "recent",
+        "label": "RECENT"
       },
-      "urgency": "OPEN FOR REVIEW",
-      "first_seen": "2026-10-16T10:02:11Z",
-      "experience_required": "5-7 years",
-      "german_requirement": "German requested; level/strictness unclear",
+      "urgency": "RECENT",
+      "first_seen": "2026-10-25T12:15:06Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
       "skill_matches": {
         "match": [
-          "application security",
-          "cvss",
-          "owasp",
-          "secure code review",
-          "secure sdlc",
-          "stakeholder communication",
-          "threat modeling",
-          "vulnerability management"
+          "python"
         ],
         "partial": [
-          "aws",
-          "cloud security",
-          "git",
-          "product security",
-          "security auditing",
+          "javascript",
+          "nist",
           "software development"
         ],
         "missing": [
           "gdpr",
+          "go",
           "iso 27001",
           "kubernetes",
-          "rust",
-          "terraform"
+          "rust"
         ],
-        "nice_to_have": [
-          "javascript (partial)"
-        ]
+        "nice_to_have": []
       },
       "mandatory_gaps": [
         {
-          "skill": "aws",
-          "profile_status": "partial",
+          "skill": "gdpr",
+          "profile_status": "missing",
           "requirement": "mandatory",
-          "evidence": "Working knowledge of cloud security fundamentals (e.g., AWS) and common infrastructure tools (Kubernetes, Terraform, Helm)."
-        },
-        {
-          "skill": "cloud security",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Working knowledge of cloud security fundamentals (e.g., AWS) and common infrastructure tools (Kubernetes, Terraform, Helm)."
+          "evidence": "Knowledge of security standards and frameworks (ISO, FedRAMP, PCI-DSS, GDPR, etc) is useful, but the disposition to quickly learn new things is more important than rote knowledge."
         },
         {
           "skill": "kubernetes",
           "profile_status": "missing",
           "requirement": "mandatory",
-          "evidence": "Working knowledge of cloud security fundamentals (e.g., AWS) and common infrastructure tools (Kubernetes, Terraform, Helm)."
-        },
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Working knowledge of cloud security fundamentals (e.g., AWS) and common infrastructure tools (Kubernetes, Terraform, Helm)."
+          "evidence": "Knowledge of using and securing containerized, cloud-native applications, ideally with Kubernetes."
         }
       ],
       "potential_gaps": [
         {
-          "skill": "gdpr",
+          "skill": "go",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "Experience supporting security certifications/compliance frameworks (e.g., ISO 27001, GDPR)."
+          "evidence": "We primarily use Go, TypeScript, and Python but most languages translate well."
         },
         {
           "skill": "iso 27001",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "Experience supporting security certifications/compliance frameworks (e.g., ISO 27001, GDPR)."
-        }
-      ],
-      "optional_gaps": [
-        {
-          "skill": "javascript",
-          "profile_status": "partial",
-          "requirement": "optional",
-          "evidence": "You have programming experience, preferably with one or more of JavaScript, TypeScript, Swift, Kotlin, Java, Rust and Haskell."
+          "evidence": "Develop, implement, and maintain highly automated security assurance programs to ensure compliance with organizational and regulatory requirements (e.g., ISO 27001, SOC 2, GDPR, NIST, PCI-DSS, TISAX, whatever else our customers eventually throw at us)"
         },
         {
           "skill": "rust",
           "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "You have programming experience, preferably with one or more of JavaScript, TypeScript, Swift, Kotlin, Java, Rust and Haskell."
+          "requirement": "mentioned",
+          "evidence": "Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents faster, and optimize telemetry at scale."
         }
       ],
+      "optional_gaps": [],
       "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 16,
-        "experience": 4,
+        "role_alignment": 12,
+        "skills": 9,
+        "experience": 10,
         "location": 15,
-        "language": 4,
+        "language": 10,
         "seniority": 4,
-        "education": 3
+        "education": 5
       },
       "match_reasons": [
-        "Role family: Security Engineering.",
-        "Berlin remote role.",
-        "Evidenced matches include application security, cvss, owasp, secure code review, secure sdlc."
+        "Remote work from Germany is explicitly available.",
+        "Evidenced matches include python."
       ],
       "warnings": [
-        "German requested; level/strictness unclear",
-        "Requests 5-7 years versus approximately 2.1 years in the profile.",
-        "Mandatory gaps: aws, cloud security, kubernetes, terraform",
-        "Potential gaps: gdpr, iso 27001",
-        "Optional gaps: javascript, rust",
-        "Exposure only; do not claim deep expertise: aws, cloud security, git, product security, security auditing, software development",
-        "Mandatory experience requirement is 5-7 years",
+        "Mandatory gaps: gdpr, kubernetes",
+        "Potential gaps: go, iso 27001, rust",
+        "Exposure only; do not claim deep expertise: javascript, nist, software development",
         "Multiple explicitly mandatory skills are not evidenced"
       ],
       "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "WHO WE ARE We prioritise privacy as a fundamental right, delivering the most secure communication experience across various industries. Our cutting-edge encryption technology and robust security measures have made us a trusted partner in the technology, finance, healthcare, and government sectors. If you are passionate about redefining secure communication and want to be part of an innovative team, join us as a Senior Security Engineer in our Security organisation. Together, let us build a world where privacy and security shape the future of communication. GENERAL INFORMATION Employment Type: 12-month contract with the possibility of extension Previous working experience: 5-7 years in Product Security Working hours: 40hrs/week Working Location: Remote EU / Berlin Desired start date: As soon as possible YOUR CHALLENGE AT WIRE Be ready to play an essential role by joining our Information Security Team. You will become a pioneer in transforming how organisations and governments communicate securely. You will work closely with the Director of Information Security and interact with the engineering, product, and other teams regularly. Your areas of work are: Product Security You review…"
+      "description_excerpt": "Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents faster, and optimize telemetry at scale. Built on open source and open standards and designed for interoperability across any stack, Grafana Cloud brings AI to observability and observability to AI, giving teams (and their agents) unified visibility so they can see, understand, and act on all their disparate data, wherever it lives, and move at the speed of their ambitions. Customers, including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce, rely on Grafana Labs. We are a 100% remote company with team members across 40+ countries, backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at grafana.com and follow us on LinkedIn and X. We’re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an innovation-driven environment where transparency, autonomy, and trust fuel everything we do. You may…"
     }
   ],
   "source_status": {
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 2400,
+      "jobs": 2264,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -7234,192 +7159,307 @@
       "error": ""
     },
     "greenhouse": {
-      "status": "partial",
+      "status": "ok",
       "ok": true,
-      "jobs": 21495,
-      "requests": 166,
-      "errors": [
-        {
-          "source": "greenhouse",
-          "company": "Postman",
-          "http_status": 404,
-          "exception_type": "RuntimeError",
-          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found",
-          "message": "Greenhouse | Postman | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found"
-        }
-      ],
-      "error": "Greenhouse | Postman | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found",
-      "companies_checked": 166,
-      "companies_successful": 165,
-      "companies_failed": 1
+      "jobs": 6246,
+      "requests": 49,
+      "errors": [],
+      "error": "",
+      "companies_checked": 49,
+      "companies_successful": 49,
+      "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 438,
-      "requests": 12,
+      "jobs": 391,
+      "requests": 10,
       "errors": [],
       "error": "",
-      "companies_checked": 12,
-      "companies_successful": 12,
+      "companies_checked": 10,
+      "companies_successful": 10,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 1217,
-      "requests": 6,
-      "errors": [],
-      "error": "",
-      "companies_checked": 6,
-      "companies_successful": 6,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 185,
-      "requests": 7,
-      "errors": [],
-      "error": "",
-      "companies_checked": 7,
-      "companies_successful": 7,
-      "companies_failed": 0
-    },
-    "recruitee": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 10,
+      "jobs": 105,
       "requests": 2,
       "errors": [],
       "error": "",
       "companies_checked": 2,
       "companies_successful": 2,
       "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 148,
+      "requests": 3,
+      "errors": [],
+      "error": "",
+      "companies_checked": 3,
+      "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "recruitee": {
+      "status": "idle",
+      "ok": true,
+      "jobs": 0,
+      "requests": 0,
+      "errors": [],
+      "error": "",
+      "companies_checked": 0,
+      "companies_successful": 0,
+      "companies_failed": 0
     }
   },
   "all_sources_failed": false,
   "employer_scan": {
-    "mode": "full",
-    "generated_at": "2026-10-25T12:15:06Z",
+    "mode": "daily",
+    "generated_at": "2026-10-26T13:26:31Z",
     "sources": {
       "greenhouse": {
         "source": "greenhouse",
-        "mode": "full",
-        "batch_index": null,
+        "mode": "daily",
+        "batch_index": 0,
         "configured_enabled": 172,
         "priority_configured": 34,
-        "selected": 166,
-        "skipped_by_rotation": 0,
-        "skipped_by_cooldown": 6,
-        "rotation_skip_keys": [],
+        "selected": 49,
+        "skipped_by_rotation": 116,
+        "skipped_by_cooldown": 7,
+        "rotation_skip_keys": [
+          "greenhouse:affirm",
+          "greenhouse:airbnb",
+          "greenhouse:airspace",
+          "greenhouse:airtable",
+          "greenhouse:algolia",
+          "greenhouse:andurilindustries",
+          "greenhouse:anthropic",
+          "greenhouse:applovin",
+          "greenhouse:bitgo",
+          "greenhouse:bitpanda",
+          "greenhouse:block",
+          "greenhouse:bridgebio",
+          "greenhouse:bugcrowd",
+          "greenhouse:carta",
+          "greenhouse:chainguard",
+          "greenhouse:charterup",
+          "greenhouse:checkr",
+          "greenhouse:circleci",
+          "greenhouse:civicnation",
+          "greenhouse:cloudflare",
+          "greenhouse:cockroachlabs",
+          "greenhouse:coinbase",
+          "greenhouse:coursera",
+          "greenhouse:cribl",
+          "greenhouse:cultureamp",
+          "greenhouse:databricks",
+          "greenhouse:datadog",
+          "greenhouse:discord",
+          "greenhouse:dropbox",
+          "greenhouse:duolingo",
+          "greenhouse:elastic",
+          "greenhouse:epicgames",
+          "greenhouse:faire",
+          "greenhouse:fastly",
+          "greenhouse:figma",
+          "greenhouse:fivetran",
+          "greenhouse:flatironhealth",
+          "greenhouse:flexport",
+          "greenhouse:freenow",
+          "greenhouse:gemini",
+          "greenhouse:gitlab",
+          "greenhouse:gleanwork",
+          "greenhouse:greenhouse",
+          "greenhouse:guardsquare",
+          "greenhouse:gusto",
+          "greenhouse:honeycomb",
+          "greenhouse:huntress",
+          "greenhouse:imply",
+          "greenhouse:instacart",
+          "greenhouse:instawork",
+          "greenhouse:intercom",
+          "greenhouse:isaraerospace",
+          "greenhouse:jetbrains",
+          "greenhouse:justworks",
+          "greenhouse:khanacademy",
+          "greenhouse:klanggames",
+          "greenhouse:knowbe4",
+          "greenhouse:lattice",
+          "greenhouse:launchdarkly",
+          "greenhouse:locusrobotics",
+          "greenhouse:lookoutinc",
+          "greenhouse:lucidsoftware",
+          "greenhouse:lyft",
+          "greenhouse:melio",
+          "greenhouse:mercari",
+          "greenhouse:mercury",
+          "greenhouse:mixpanel",
+          "greenhouse:mongodb",
+          "greenhouse:newrelic",
+          "greenhouse:nuro",
+          "greenhouse:okta",
+          "greenhouse:orcasecurity",
+          "greenhouse:oscar",
+          "greenhouse:pagerduty",
+          "greenhouse:pandadoc",
+          "greenhouse:pinterest",
+          "greenhouse:planetscale",
+          "greenhouse:poshmark",
+          "greenhouse:precisionmedicinegroup",
+          "greenhouse:pulley",
+          "greenhouse:raisin",
+          "greenhouse:recursionpharmaceuticals",
+          "greenhouse:riotgames",
+          "greenhouse:ripple",
+          "greenhouse:roblox",
+          "greenhouse:salesloft",
+          "greenhouse:samsara",
+          "greenhouse:scaleai",
+          "greenhouse:scopely",
+          "greenhouse:seatgeek",
+          "greenhouse:singlestore",
+          "greenhouse:sixgeninc",
+          "greenhouse:sofi",
+          "greenhouse:squarespace",
+          "greenhouse:stabilityai",
+          "greenhouse:starburst",
+          "greenhouse:stockx",
+          "greenhouse:stripe",
+          "greenhouse:stubhubinc",
+          "greenhouse:sumologic",
+          "greenhouse:sweetgreen",
+          "greenhouse:tailscale",
+          "greenhouse:togetherai",
+          "greenhouse:twilio",
+          "greenhouse:twitch",
+          "greenhouse:upstart",
+          "greenhouse:veeamsoftware",
+          "greenhouse:waymo",
+          "greenhouse:webflow",
+          "greenhouse:wizinc",
+          "greenhouse:wolt",
+          "greenhouse:wooga",
+          "greenhouse:xai",
+          "greenhouse:yugabyte",
+          "greenhouse:zetaglobal",
+          "greenhouse:zoominfo"
+        ],
         "cooldown_skip_keys": [
           "greenhouse:clickhouse",
           "greenhouse:amplitude",
           "greenhouse:magicleap",
           "greenhouse:marqeta",
+          "greenhouse:postman",
           "greenhouse:remotecom",
           "greenhouse:scoutai"
         ]
       },
       "ashby": {
         "source": "ashby",
-        "mode": "full",
-        "batch_index": null,
+        "mode": "daily",
+        "batch_index": 0,
         "configured_enabled": 13,
         "priority_configured": 8,
-        "selected": 12,
-        "skipped_by_rotation": 0,
+        "selected": 10,
+        "skipped_by_rotation": 2,
         "skipped_by_cooldown": 1,
-        "rotation_skip_keys": [],
+        "rotation_skip_keys": [
+          "ashby:langdock",
+          "ashby:n8n"
+        ],
         "cooldown_skip_keys": [
           "ashby:leapsome"
         ]
       },
       "lever": {
         "source": "lever",
-        "mode": "full",
-        "batch_index": null,
+        "mode": "daily",
+        "batch_index": 0,
         "configured_enabled": 6,
         "priority_configured": 2,
-        "selected": 6,
-        "skipped_by_rotation": 0,
+        "selected": 2,
+        "skipped_by_rotation": 4,
         "skipped_by_cooldown": 0,
-        "rotation_skip_keys": [],
+        "rotation_skip_keys": [
+          "lever:olx",
+          "lever:saviynt",
+          "lever:veeva",
+          "lever:westernacher"
+        ],
         "cooldown_skip_keys": []
       },
       "personio": {
         "source": "personio",
-        "mode": "full",
-        "batch_index": null,
+        "mode": "daily",
+        "batch_index": 0,
         "configured_enabled": 7,
         "priority_configured": 3,
-        "selected": 7,
-        "skipped_by_rotation": 0,
+        "selected": 3,
+        "skipped_by_rotation": 4,
         "skipped_by_cooldown": 0,
-        "rotation_skip_keys": [],
+        "rotation_skip_keys": [
+          "personio:dnsnet",
+          "personio:liveeo-gmbh",
+          "personio:perseus",
+          "personio:syseleven"
+        ],
         "cooldown_skip_keys": []
       },
       "recruitee": {
         "source": "recruitee",
-        "mode": "full",
-        "batch_index": null,
+        "mode": "daily",
+        "batch_index": 0,
         "configured_enabled": 2,
         "priority_configured": 0,
-        "selected": 2,
-        "skipped_by_rotation": 0,
+        "selected": 0,
+        "skipped_by_rotation": 2,
         "skipped_by_cooldown": 0,
-        "rotation_skip_keys": [],
+        "rotation_skip_keys": [
+          "recruitee:cygridgmbh",
+          "recruitee:dransay"
+        ],
         "cooldown_skip_keys": []
       }
     }
   },
   "rejection_summary": {
-    "The vacancy has an explicit location outside Berlin/Germany-remote/Europe-remote/worldwide-remote scope": 534,
-    "Excluded seniority in title: Staff/Principal": 106,
-    "Excluded seniority in title: Management": 87,
-    "Mandatory experience is too senior: 8+ years": 59,
-    "On-site role is not located in Berlin": 53,
-    "Mandatory experience is too senior: 10+ years": 42,
-    "Excluded seniority in title: Executive": 29,
-    "Hybrid role is not located in Berlin": 27,
-    "Excluded seniority in title: Lead/Architect": 26,
-    "Advanced/fluent German required": 24,
-    "Germany role is on-site/hybrid outside Berlin; only Germany-remote roles are allowed": 16,
-    "Mandatory experience is too senior: 15+ years": 11,
-    "Mandatory experience is too senior: 12+ years": 9,
-    "Vacancy text is predominantly German; the radar is limited to English-speaking roles": 7,
-    "German C2 required": 3,
-    "Excluded seniority/employment type in title: chief information security officer": 2,
-    "Excluded seniority/employment type in title: internship": 2,
+    "The vacancy has an explicit location outside Berlin/Germany-remote/Europe-remote/worldwide-remote scope": 135,
+    "Excluded seniority in title: Staff/Principal": 34,
+    "On-site role is not located in Berlin": 33,
+    "Advanced/fluent German required": 16,
+    "Mandatory experience is too senior: 8+ years": 16,
+    "Excluded seniority in title: Management": 15,
+    "Hybrid role is not located in Berlin": 10,
+    "Mandatory experience is too senior: 10+ years": 8,
+    "Excluded seniority in title: Executive": 8,
+    "Excluded seniority in title: Lead/Architect": 7,
+    "Germany role is on-site/hybrid outside Berlin; only Germany-remote roles are allowed": 6,
+    "Vacancy text is predominantly German; the radar is limited to English-speaking roles": 5,
+    "German C2 required": 4,
     "German C1 required": 2,
-    "Mandatory experience is too senior: 8-12 years": 2,
     "Student/internship-only employment type": 2,
-    "Posting is too old: 394 days (maximum 120)": 2,
+    "Posting is too old: 395 days (maximum 120)": 2,
+    "Excluded seniority/employment type in title: chief information security officer": 1,
     "Mandatory experience is too senior: 8-15 years": 1,
+    "Excluded seniority/employment type in title: internship": 1,
     "Mandatory experience is too senior: 20+ years": 1,
     "Excluded seniority/employment type in title: working student": 1,
+    "Mandatory experience is too senior: 15+ years": 1,
     "Excluded seniority/employment type in title: director of security": 1,
-    "Insufficient cybersecurity relevance": 1,
-    "Mandatory experience is too senior: 8-10 years": 1,
-    "Excluded seniority/employment type in title: vp security": 1,
-    "Posting is too old: 127 days (maximum 120)": 1,
-    "Remote region is unclear; Germany, Europe/EU/EMEA, or worldwide eligibility is not explicit": 1,
+    "Posting is too old: 128 days (maximum 120)": 1,
+    "Mandatory experience is too senior: 12+ years": 1,
     "Excluded seniority/employment type in title: security intern": 1,
-    "Posting is too old: 172 days (maximum 120)": 1,
-    "Posting is too old: 174 days (maximum 120)": 1,
-    "Posting is too old: 219 days (maximum 120)": 1,
-    "Posting is too old: 235 days (maximum 120)": 1,
-    "Posting is too old: 143 days (maximum 120)": 1,
-    "Posting is too old: 187 days (maximum 120)": 1,
-    "Posting is too old: 347 days (maximum 120)": 1,
-    "Posting is too old: 528 days (maximum 120)": 1,
-    "Posting is too old: 601 days (maximum 120)": 1,
-    "Posting is too old: 764 days (maximum 120)": 1,
-    "Posting is too old: 515 days (maximum 120)": 1,
+    "Posting is too old: 173 days (maximum 120)": 1,
+    "Posting is too old: 175 days (maximum 120)": 1,
+    "Posting is too old: 188 days (maximum 120)": 1,
+    "Posting is too old: 348 days (maximum 120)": 1,
+    "Posting is too old: 529 days (maximum 120)": 1,
+    "Posting is too old: 602 days (maximum 120)": 1,
+    "Posting is too old: 765 days (maximum 120)": 1,
     "Posting is too old: 516 days (maximum 120)": 1,
-    "Excluded seniority/employment type in title: werkstudent": 1,
-    "Posting is too old: 223 days (maximum 120)": 1,
-    "Posting is too old: 151 days (maximum 120)": 1
+    "Posting is too old: 517 days (maximum 120)": 1,
+    "Excluded seniority/employment type in title: werkstudent": 1
   }
 }
