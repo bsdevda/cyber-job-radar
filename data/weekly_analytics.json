@@ -2345,18 +2345,19 @@
     },
     {
       "week_start": "2026-10-26",
-      "generated_at": "2026-10-26T13:26:31Z",
+      "generated_at": "2026-10-27T12:33:40Z",
       "active_relevant_jobs": 16,
       "role_family_counts": {
         "Security Engineering": 9,
-        "IT Audit / GRC": 4,
+        "IT Audit / GRC": 3,
+        "Other Security": 1,
         "Application Security": 1,
         "Product Security": 1,
         "SOC / Detection and Response": 1
       },
       "score_bands": {
-        "60-69 review": 8,
-        "50-59 stretch": 6,
+        "60-69 review": 9,
+        "50-59 stretch": 5,
         "70-79 good": 2
       },
       "skill_gaps": {
@@ -2382,14 +2383,6 @@
             "jobs": 3
           },
           {
-            "skill": "kubernetes",
-            "jobs": 3
-          },
-          {
-            "skill": "gdpr",
-            "jobs": 2
-          },
-          {
             "skill": "ci/cd",
             "jobs": 2
           },
@@ -2408,16 +2401,24 @@
           {
             "skill": "siem",
             "jobs": 2
+          },
+          {
+            "skill": "edr",
+            "jobs": 2
+          },
+          {
+            "skill": "software development",
+            "jobs": 2
           }
         ],
         "potential": [
           {
             "skill": "rust",
-            "jobs": 6
+            "jobs": 5
           },
           {
             "skill": "iso 27001",
-            "jobs": 4
+            "jobs": 3
           },
           {
             "skill": "edr",
@@ -2452,11 +2453,11 @@
             "jobs": 1
           },
           {
-            "skill": "go",
+            "skill": "detection engineering",
             "jobs": 1
           },
           {
-            "skill": "detection engineering",
+            "skill": "bug bounty",
             "jobs": 1
           }
         ],
@@ -2513,7 +2514,7 @@
           },
           {
             "skill": "software development",
-            "jobs": 6
+            "jobs": 5
           },
           {
             "skill": "ci/cd",
@@ -2521,14 +2522,6 @@
           },
           {
             "skill": "cloud security",
-            "jobs": 4
-          },
-          {
-            "skill": "javascript",
-            "jobs": 4
-          },
-          {
-            "skill": "nist",
             "jobs": 4
           },
           {
@@ -2541,6 +2534,14 @@
           },
           {
             "skill": "git",
+            "jobs": 3
+          },
+          {
+            "skill": "javascript",
+            "jobs": 3
+          },
+          {
+            "skill": "nist",
             "jobs": 3
           },
           {
