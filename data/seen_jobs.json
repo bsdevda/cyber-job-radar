@@ -208,7 +208,7 @@
   },
   "521c71dc83dfa3787db3": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "content_hash": "2c040214033ea8916a3acfc5d53099f7b45d4e07ed4a37d2804853d325041e92",
     "status": "SEEN_BEFORE",
     "company": "Staffbase",
@@ -460,7 +460,7 @@
   },
   "9ba7cf301be480a6ff9f": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "content_hash": "695565afccbc0ea27aed88980573bdd4151d8c3a3fd8cfff9885244f400ab84b",
     "status": "SEEN_BEFORE",
     "company": "NavVis",
@@ -3214,7 +3214,7 @@
   },
   "adf40ac5904cb1b075ac": {
     "first_seen": "2026-08-15T17:01:09Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "content_hash": "b5d79684c158dd21a22b161caeb7fc7ce838b589f10eb85b95807e2a1ac10691",
     "status": "SEEN_BEFORE",
     "company": "Qdrant",
@@ -3385,7 +3385,7 @@
   },
   "b420e12f1f07d8e20c57": {
     "first_seen": "2026-08-16T17:17:56Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "content_hash": "c1d53540907aed6663126b5ecb81087605b40a04545b613152414e913fa65582",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3619,7 +3619,7 @@
   },
   "4afa9462370d50b6650c": {
     "first_seen": "2026-08-27T16:38:50Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "content_hash": "e388309e9ce8f7c4e88a62d85ab323578b783bd32ce2aceec8fdeb7c53eeb25f",
     "status": "SEEN_BEFORE",
     "company": "HelloFresh",
@@ -3655,18 +3655,18 @@
   },
   "cc78a757c373716678d7": {
     "first_seen": "2026-09-06T10:01:28Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "content_hash": "902009c5e1cd44d3b5c595e5e3253fbb2f955e47d1f70282e55836ef7fe3e638",
-    "status": "UPDATED",
+    "status": "SEEN_BEFORE",
     "company": "Ygo",
     "title": "Cloud Security Engineer",
     "url": "https://www.arbeitnow.com/jobs/companies/ygo/remote-cloud-security-engineer-291881"
   },
   "a03342dd76095c14515c": {
     "first_seen": "2026-09-06T10:01:28Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "content_hash": "f5635fe7a195c21b6f3060845168be0763a861a95fa9c4444ca88a67de6e69a1",
-    "status": "UPDATED",
+    "status": "SEEN_BEFORE",
     "company": "Vivenu",
     "title": "Senior Security Engineer - AppSec (d/f/m)",
     "url": "https://www.arbeitnow.com/jobs/companies/vivenu/remote-senior-security-engineer-appsec-5689"
@@ -3772,7 +3772,7 @@
   },
   "240800e330239220c3d1": {
     "first_seen": "2026-09-30T11:17:18Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "content_hash": "022807eaf926d00eae9ae0004e465698cedacb61e07b2d976bc8185a02f43884",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3808,7 +3808,7 @@
   },
   "729a044bba71f5b2b24a": {
     "first_seen": "2026-10-01T11:44:36Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "content_hash": "b53f439b644e8b2c0cf34ef5a6c4f5e60ce03f57dc30ce5e2ed7e74f78e75c3d",
     "status": "SEEN_BEFORE",
     "company": "N26",
@@ -3853,7 +3853,7 @@
   },
   "1d8705aa550b912143d8": {
     "first_seen": "2026-10-07T11:55:14Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "content_hash": "3aa41d70911562622ed6770353b4e0684fa21f01fd13607cd0cc36fea54351b3",
     "status": "SEEN_BEFORE",
     "company": "KAYAK",
@@ -3916,7 +3916,7 @@
   },
   "697670f71dcd9793a00c": {
     "first_seen": "2026-10-16T10:02:11Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "content_hash": "20adbe249f6cf83cac6756f8fd8e788adf50f213937c49552518f9419a9d0961",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3925,7 +3925,7 @@
   },
   "db8aaa804d8c25ef23c4": {
     "first_seen": "2026-10-16T10:02:11Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "content_hash": "a2eb4277d02f7692efaa5e8a9ebbb54c8177d3c61e91cbeb51974657e1f9fd89",
     "status": "SEEN_BEFORE",
     "company": "Wire Germany GmbH",
@@ -3952,7 +3952,7 @@
   },
   "f1e7ab2db758d14bd8de": {
     "first_seen": "2026-10-19T11:04:26Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "content_hash": "c979e2bf58b0549855a8ca3b24d7f18a2ff1665bd40217a335e7003ef9000fc8",
     "status": "SEEN_BEFORE",
     "company": "Eye Security",
@@ -3997,9 +3997,9 @@
   },
   "3183e2eb626e74bd4b92": {
     "first_seen": "2026-10-22T10:26:14Z",
-    "last_seen": "2026-10-25T12:15:06Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "content_hash": "5b55a1f1761009330b7f8eb3fc0d90ce83c9b8de698631f55e364db67471e3ca",
-    "status": "UPDATED",
+    "status": "SEEN_BEFORE",
     "company": "Cygrid",
     "title": "Cybersecurity Researcher",
     "url": "https://careers.cygrid.io/o/cybersecurity-researcher"
@@ -4024,20 +4024,29 @@
   },
   "eb01fcc2c3328f8c9e07": {
     "first_seen": "2026-10-26T13:26:31Z",
-    "last_seen": "2026-10-27T12:33:40Z",
-    "content_hash": "63fe9d6573f424f1924c578fc663ed96572d4b0e22b58377f97711bd0749e203",
-    "status": "SEEN_BEFORE",
+    "last_seen": "2026-10-28T13:21:27Z",
+    "content_hash": "7bc877411e9e27e5c9d265c91c0d6d9b28f04711437ca0b053f45034d74953f9",
+    "status": "UPDATED",
     "company": "Alan",
     "title": "🌐 Security & Legal Specialist - Customer Care",
     "url": "https://www.arbeitnow.fr/jobs/companies/alan/security-legal-specialist-customer-care-anywhere-in-france-255516"
   },
   "bd1b3b1bbb48fe52ce64": {
     "first_seen": "2026-10-27T12:33:40Z",
-    "last_seen": "2026-10-27T12:33:40Z",
-    "content_hash": "115d7215e7a7b3f4c3ff8fd356bbad1dd42b74efb8fa12753f0e598b4f9d93b4",
-    "status": "NEW",
+    "last_seen": "2026-10-28T13:21:27Z",
+    "content_hash": "341927d5988295f36a4b220a744ecf4c12cc5a8bdfd347dfcdaf53a81bc09bde",
+    "status": "UPDATED",
     "company": "Market Cloud",
     "title": "SAP Concur Consultant – Module Security",
     "url": "https://www.arbeitnow.com/jobs/companies/market-cloud/sap-concur-consultant-module-security-berlin-72072"
+  },
+  "565e052ce84fc91a01cc": {
+    "first_seen": "2026-10-28T13:21:27Z",
+    "last_seen": "2026-10-28T13:21:27Z",
+    "content_hash": "92b1e23692f96cd57022aa650194eb40a8c7ced562405543195ef778a0ec9964",
+    "status": "NEW",
+    "company": "Clariness GmbH",
+    "title": "Senior AI Security Engineer",
+    "url": "https://www.arbeitnow.com/jobs/companies/clariness-gmbh/senior-ai-security-engineer-berlin-425179"
   }
 }

@@ -30,7 +30,7 @@
     "ats": "greenhouse",
     "published_at": "2026-10-01T13:10:42Z",
     "first_seen": "2026-10-01T11:44:36Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "description": "About the opportunity\n\nWe are seeking an Internal IT Auditor to conduct the full IT audit cycle, ensuring operational effectiveness, reliability, and regulatory compliance across our internal IT environments and critical ICT third-party ecosystems. \nOur Internal Audit team provides independent assurance over risk and control management, and follows proactive risk mitigation and robust governance to safeguard our digital banking environment.\nThis is a unique opportunity to play a pivotal role in shaping our IT resilience, where you will engage directly with internal architecture teams and critical external vendors to navigate the evolving landscape of digital banking and European financial regulations.\n\nIn this role, you will:\n\nExecute the full audit cycle: Perform comprehensive risk and control management over IT operations to ensure effectiveness, reliability, and adherence to established professional and regulatory standards.\n\nAudit critical ICT services & vendors: Lead audits of third-party vendors, outsourced service providers, and cloud infrastructures, evaluating their control environments and how internal processes govern these external services.\n\nAnalyze data and IT processes: Obtain and evaluate documentation, flowcharts, and data using data-driven audit approaches for system development, IT security, and vendor management.\n\nDeliver impactful reporting: Prepare detailed Internal Audit reports that translate complex technical findings into business-relevant insights and actionable recommendations for senior management.\n\nDrive continuous improvement: Continuously monitor the IT and ICT vendor risk landscape, facilitate alignment discussions, and advise management on best practices and risk remediation actions.\n\nWhat you need to be successful:\n\n6 years of significant experience functioning as an Internal IT Auditor at an international company within a regulated environment (preferably a bank, financial institution, fintech, or an audit/consulting firm).\n\nHolding professional certifications such as Certified Information Systems Auditor (CISA), ISO 27001 Lead Auditor, CISSP, or comparable qualifications, are a plus.\n\nDeep understanding of IT General Controls (ITGC), modern IT/cloud architectures, operational resilience frameworks, and ICT Third-Party Risk Management (TPRM).\n\nSolid understanding of European financial regulatory frameworks relevant to IT and outsourcing, particularly DORA, and MaRisk.\n\nExperience in data-driven audit approaches, including large-scale data evaluation, and proficiency in modern audit tools and platforms.\n\nStrong ability to engage effectively with cross-functional internal teams and external ICT service providers, including reviewing third-party assurance attestations (e.g. SOC 1/SOC 2, ISO, ISAE 3402).\n\nHigh level of integrity and professional skepticism, combined with excellent interpersonal skills to influence both technical and non-technical stakeholders\n\nFluency in English is required (verbal and written). German is a plus.\n\nWhat’s in it for you:\n\nAccelerate your career growth by joining one of Europe’s most talked about disruptors 🚀.\n\nEmployee benefits that range from a competitive personal development budget, work from home budget, discounts to fitness & wellness memberships, language apps and public transportation. \n\nAs an N26 employee you will have access to a Premium subscription on your personal N26 bank account. As well as subscriptions for friends and family members. \n\nAdditional day of annual leave for each year of service. \n\nA high degree of autonomy and access to cutting edge technologies - all while working with a friendly team of peers of diverse nationalities, experiences, and backgrounds. \n\nA relocation package with visa support for those who need it.\n\nWho we are\n\nN26 has reimagined banking for today’s digital world. Technology and design empower everything we do and it’s how we are building the global banking platform the world loves to use.\n\nWe've eliminated physical branches, paperwork, and hidden fees for an elegant digital experience and supreme savings. Giving people the power to live and bank their way is what gets us out of bed in the morning and inspires the work that we do. \n\nWe are headquartered in Berlin with offices in multiple cities across Europe, including Vienna and Barcelona, and a 1,500-strong team of more than 80 nationalities. \n\nDo you see yourself thriving in this role? We’d love to see your application even if you don’t meet 100% of the criteria. You may just be the right fit for this or other roles!\n\nEqual opportunities for all\n\nAt N26, we believe our strength lies in our people and the varied perspectives they bring. We strive to build diverse teams that drive innovation and business success. We actively seek talent from all backgrounds and welcome applications from all genders, cultures, sexual orientations, abilities, neurodiversities, and ages.\n\nWe are committed to providing an excellent and accessible candidate experience. If you require any accommodations to make this process work for you, please let us know. We’re here to support you!\n\nDiscover more about Diversity & Inclusion at N26: https://n26.com/en-eu/diversity-and-inclusion",
     "salary": "",
     "employment_type": "",
@@ -95,7 +95,7 @@
     },
     "posting_age_analysis": {
       "known": true,
-      "age_days": 25,
+      "age_days": 27,
       "category": "current",
       "label": "OPEN FOR REVIEW"
     },
@@ -187,7 +187,7 @@
     "ats": "",
     "published_at": "2026-10-25T03:40:11Z",
     "first_seen": "2026-09-06T10:01:28Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "description": "YGO.ai is a VC-funded AI tourism platform. We are hiring a Cloud Security Engineer to own the security of our cloud platform, the APIs our enterprise clients run on and the company itself.\n\n🛡️ About this role. The role carries two things at once. You own security engineering directly and hands-on. You build the security function around it as we grow. At YGO a pod lead is a squad leader and a spokesperson, close to the work and close to the client, rather than a full-time manager. You will not stop being an engineer.\n\nThe work is broad. You might review source code in the morning, investigate an endpoint alert after lunch and help design a new authentication flow the next day. You identify the highest-risk problems, decide what happens first and execute.\n\nWe serve major travel enterprises and we have enterprise commitments going live from the start of 2027. Security is a condition of that business, not a layer added afterwards.\n\n🧑‍💻 What you'll own\n\nApplication security. Hands-on code and architecture review across our APIs, backend services and internal tooling. Targeted penetration testing to validate issues yourself. Working with engineers on root causes and practical fixes rather than handing over reports. Vulnerability management and the external penetration tests we commission\n\nDetection and response. Knowing we are under attack while it is happening and what happens next. Alerting, intrusion detection, incident process and the on-call path\n\nCloud and platform hardening. Access control, network boundaries, secrets management, containers and the deployment pipeline. Security through the SDLC: CI/CD, repositories and dependencies\n\nThe security of our APIs. Authentication and authorization, tenant isolation, token scoping and lifecycle, abuse prevention, enterprise SSO and the audit trail our clients and our own accountability depend on\n\nThe security of our AI systems. Prompt injection, tool and agent permissions, our MCP server, retrieval and data ingestion. The data-residency rules we are held to contractually\n\nIdentity and company security. SSO, MFA and privileged access for employees, onboarding and offboarding, access reviews, MDM, endpoint security and SaaS access. The practical IT security a company our size needs done, not discussed\n\nSecure design across the pods. Threat modelling and design review that enables engineers rather than gatekeeping them and raises the standard of what they ship\n\nThe security function itself. Set the priorities and the roadmap from actual risk, not security theatre. Decide what we build, buy, automate or leave for later. Grow the team and hire into it, represent security to enterprise clients and carry our SOC 2 programme on Drata. Compliance is part of the job and it is not the centre of it\n\n🚢 What you'll secure\n\nAn AI search and recommendation engine for major travel enterprises: enterprise integration, SSO, client security reviews, GDS integrations\n\nA content enrichment API sold as SaaS: high scale, public facing, data and AI heavy\n\nThe platform underneath: a client console with organisations, projects and API tokens, supplier and business-client integrations, data ingestion, an MCP server, and several LLM providers behind a single internal library\n\n📚 Our stack\n\nBackend: Go monorepo (no framework, 3+ services)\n\nData: PostgreSQL, Redis, Redis Asynq queue\n\nHosting: PaaS-managed containers, Cloudflare in front\n\nObservability: Jaeger tracing, BetterStack for logging, alerting and on-call\n\nCompliance: Drata, SOC 2 in progress\n\nAI tooling: Claude Code, used across the whole team\n\n✅ You must have\n\n5+ years of hands-on security work spanning more than one discipline. Not five years of engineering with some security in it. This role sets the standard for the company, so it needs someone who has seen enough to have judgement rather than opinions\n\nApplication security depth. You know how modern web applications and APIs are attacked. You can validate an issue yourself through code review or a targeted penetration test and work with the engineer on the fix\n\nA strong grasp of authentication and authorization. OAuth and OIDC, sessions, token handling, access control and the failure modes behind most API breaches\n\nCloud security fundamentals, properly. Identity, network, workload and pipeline security on a modern cloud platform, applied to production systems you were responsible for\n\nDefensive experience alongside the offensive. You have investigated real incidents. You have built or improved the detection and alerting that catches them\n\nThreat modelling and secure architecture for cloud, container and API systems\n\nAn engineering background. You are comfortable in a codebase, you can review what our engineers and our AI tools produce and you can build what you need yourself. Our backend is Go. Prior Go experience is a plus and not a requirement\n\nComfort in resource-constrained environments. Startups, small security teams or consultancies taught you to prioritize on risk, business impact and available resources and to execute yourself\n\nThe appetite to build a team. You want to grow this function and eventually lead it. Prior leadership experience is a plus and not a requirement. We would rather have depth and develop the leadership than the reverse\n\nWorking proficiency with Claude Code. Share specific examples\n\nJudgement about pace. You secure a company that ships daily without becoming the reason it stops. Guardrails over gates\n\nExperience of SOC 2, ISO 27001 or demanding enterprise security reviews\n\nExcellent spoken and written English. You will talk to auditors, client security teams and our own engineers, often in the same week\n\n⚠️ European or African time zones (±3 hours from CET)\n\nAvailable full-time (40 hours per week)\n\n🌟 Nice to have\n\nAI and LLM security: prompt injection, agent and tool permissions, model security, retrieval pipelines. Very few security roles let you both use AI as your main tool and secure it as your subject. This one does\n\nEarly security hire experience. You have been the first or one of the first security hires at a startup or scale-up\n\nExperience leading or mentoring security engineers\n\nGo\n\nSecurity tooling or automation you built yourself\n\nMDM, endpoint protection and identity provider administration (Google Workspace or similar)\n\nCompliance automation tooling (Drata, Vanta, Secureframe or similar)\n\nSecurity certifications. Valued as a signal, never required\n\nGDPR depth. Travel or GDS exposure\n\nGerman\n\n❤️ You are a great fit if you\n\nSee security as an engineering discipline. You ship fixes and guardrails, not slide decks\n\nCan explain a vulnerability to an engineer and its business risk to a client's security lead in the same afternoon\n\nHave done offensive work as a penetration tester or consultant and wanted broader ownership than producing reports\n\nWant to build something and own it, rather than advise on someone else's\n\nAre comfortable challenging unnecessary security bureaucracy and genuinely risky engineering decisions alike\n\nGet frustrated when a security fix takes weeks instead of days\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
     "salary": "",
     "employment_type": "Full Time",
@@ -254,7 +254,7 @@
       "Optional gaps: gdpr, go, nist, rust",
       "Exposure only; do not claim deep expertise: ci/cd, cloud security"
     ],
-    "status": "UPDATED",
+    "status": "SEEN_BEFORE",
     "priority_employer": false,
     "tags": [
       "Product Engineering"
@@ -273,9 +273,9 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 2,
-      "category": "new",
-      "label": "NEW - APPLY QUICKLY"
+      "age_days": 3,
+      "category": "recent",
+      "label": "RECENT"
     },
     "seniority_analysis": {
       "level": "mid_unspecified",
@@ -1600,6 +1600,244 @@
     "application_status": "NEW"
   },
   {
+    "job_key": "565e052ce84fc91a01cc",
+    "source": "Arbeitnow",
+    "sources": [
+      "Arbeitnow"
+    ],
+    "source_urls": {
+      "Arbeitnow": "https://www.arbeitnow.com/jobs/companies/clariness-gmbh/senior-ai-security-engineer-berlin-425179"
+    },
+    "source_id": "senior-ai-security-engineer-berlin-425179",
+    "source_job_id": "senior-ai-security-engineer-berlin-425179",
+    "source_job_ids": {
+      "Arbeitnow": "senior-ai-security-engineer-berlin-425179"
+    },
+    "company": "Clariness GmbH",
+    "company_normalized": "clariness",
+    "title": "Senior AI Security Engineer",
+    "normalized_title": "senior ai security engineer",
+    "title_normalized": "senior ai security engineer",
+    "location": "Berlin, Germany",
+    "location_normalized": "berlin germany",
+    "country": "Germany",
+    "remote": false,
+    "hybrid": false,
+    "onsite": true,
+    "url": "https://www.arbeitnow.com/jobs/companies/clariness-gmbh/senior-ai-security-engineer-berlin-425179",
+    "apply_url": "https://www.arbeitnow.com/jobs/companies/clariness-gmbh/senior-ai-security-engineer-berlin-425179",
+    "canonical_url": "https://www.arbeitnow.com/jobs/companies/clariness-gmbh/senior-ai-security-engineer-berlin-425179",
+    "ats": "",
+    "published_at": "2026-10-27T11:31:02Z",
+    "first_seen": "2026-10-28T13:21:27Z",
+    "last_seen": "2026-10-28T13:21:27Z",
+    "description": "Clariness is looking for a Senior AI Security Engineer (f/m/d) based Germany, UK, SA, or Serbia.\n- Full-time; unlimited -\n\nAbout the role:\n\nThis role is about building, operating and continuously improving Clariness’ security capabilities across applications, cloud infrastructure and AI systems. As our founding-level security hire, you will establish the security engineering function, define its priorities and work directly with engineering teams to embed effective security controls throughout our technology environment.\n\nAs a Senior AI Security Engineer, you would be responsible for:\n\nDefining Clariness’ security engineering strategy and roadmap, and building and operating the security function across application security, cloud security, AI and LLM security, vulnerability management and supporting security tooling.\n\nWorking directly with engineering teams on secure system design, threat modelling, penetration testing and vulnerability remediation, while embedding appropriate security controls into development processes and CI/CD pipelines.\n\nOwning AI security and governance across LLM-powered features, RAG systems and agentic pipelines, including assessing and mitigating risks covered by the OWASP Top 10 for LLM Applications.\n\nDesigning and validating safeguards for AI agents, including sandboxing, privilege and access controls, secure tool use and adversarial red teaming of AI systems.\n\nEvaluating, deploying and continuously improving AI-powered security automation, including autonomous vulnerability triage, LLM-powered alert analysis, compliance evidence gathering and AI-assisted threat intelligence.\n\nAssessing commercial and open-source security tools based on effectiveness, operational fit and cost, and developing custom solutions where existing tooling does not meet Clariness’ requirements.\n\nManaging Clariness’ IT security compliance programme—including SOC 2 Type II, applicable EU AI Act high-risk obligations, GDPR Article 32 technical measures and GxP IT security controls—while maintaining audit-ready documentation and acting as the primary security liaison for external auditors, regulators, Legal and Compliance.\n\nWe would like you to have: \n\nAt least five years of hands-on experience in security engineering, application security or information security, with strong technical depth beyond advisory or governance responsibilities.\n\nProven experience building or significantly developing a security programme within a product engineering environment, ideally as an early or founding security hire.\n\nStrong practical experience across application security, cloud security, secure software development, threat modelling, penetration testing, vulnerability management and security controls within CI/CD pipelines.\n\nExperience assessing, testing or implementing security controls for LLM-powered applications, RAG systems or agentic pipelines.\n\nHands-on experience with AI agents, either building them for security automation or securing them through adversarial testing, sandboxing and privilege controls.\n\nDemonstrable compliance experience involving at least one SOC 2 audit cycle, GDPR programme ownership or implementation of EU AI Act requirements, including the ability to produce audit-ready documentation and work with external auditors.\n\nExperience in a regulated industry such as clinical research, pharmaceuticals, healthtech or fintech, with knowledge of GxP or comparable regulated data-handling requirements considered a strong advantage, alongside strong English communication skills at C1 level.\n\nYou may ask now, why should I work for you? Let us give you a few reasons – and you'll learn more during the process.\n\nA varied and exciting job with a lot of personal responsibility in an international company, where you can develop and expand your skills.\n\nProfessional and personal development opportunities - incl. personal development budget.\n\nFlexible working hours and mobile working.\n\nRegular team events and open feedback culture.\n\nA versatile field of activity and challenging projects.\n\nA supportive and open company culture, providing the opportunity to collaborate with a diverse and professional team.\n\nImpact healthcare by accelerating medical innovation through improved access to clinical trials, potentially bringing needed treatments to patients faster.\n\nHow to apply & what to expect:\n\nApply via link (CV only; no cover letter required).\n\nIntroductory call (30 min) → Technical interview → Senior Leadership Interview → Demo Day → Decision.\n\nWe aim to move promptly and keep you updated at every step.\n\nAt Clariness, we are proud to be an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees, regardless of race, religion, gender, sexual orientation, national origin, disability or age.\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
+    "salary": "",
+    "employment_type": "Permanent employment (unbefristeter arbeitsvertrag), professional / experienced",
+    "experience_required": null,
+    "german_requirement": "No German requirement detected",
+    "skills_detected": [
+      "application security",
+      "ci/cd",
+      "cloud security",
+      "gdpr",
+      "owasp",
+      "penetration testing",
+      "secure sdlc",
+      "security automation",
+      "software development",
+      "threat modeling",
+      "vulnerability management",
+      "vulnerability triage"
+    ],
+    "skill_matches": {
+      "match": [
+        "application security",
+        "owasp",
+        "penetration testing",
+        "secure sdlc",
+        "security automation",
+        "threat modeling",
+        "vulnerability management",
+        "vulnerability triage"
+      ],
+      "partial": [
+        "ci/cd",
+        "cloud security",
+        "software development"
+      ],
+      "missing": [
+        "gdpr"
+      ],
+      "nice_to_have": []
+    },
+    "score": 69,
+    "score_label": "REVIEW",
+    "score_breakdown": {
+      "role_alignment": 16,
+      "skills": 19,
+      "experience": 10,
+      "location": 15,
+      "language": 10,
+      "seniority": 4,
+      "education": 3
+    },
+    "match_reasons": [
+      "Role family: Security Engineering.",
+      "Berlin on-site role.",
+      "Evidenced matches include application security, owasp, penetration testing, secure sdlc, security automation."
+    ],
+    "warnings": [
+      "Mandatory gaps: gdpr",
+      "Exposure only; do not claim deep expertise: ci/cd, cloud security, software development",
+      "Senior title is above the profile's current 2+ years",
+      "One explicitly mandatory skill is not evidenced"
+    ],
+    "status": "NEW",
+    "priority_employer": false,
+    "tags": [
+      "IT Security"
+    ],
+    "lead_type": "",
+    "post_author": "",
+    "feed_name": "",
+    "content_hash": "92b1e23692f96cd57022aa650194eb40a8c7ced562405543195ef778a0ec9964",
+    "german_analysis": {
+      "category": "none",
+      "level": "none",
+      "mandatory": false,
+      "label": "No German requirement detected",
+      "evidence": ""
+    },
+    "experience_analysis": null,
+    "posting_age_analysis": {
+      "known": true,
+      "age_days": 1,
+      "category": "new",
+      "label": "NEW - APPLY QUICKLY"
+    },
+    "seniority_analysis": {
+      "level": "senior",
+      "label": "Senior",
+      "evidence": "senior"
+    },
+    "location_analysis": {
+      "category": "eligible_berlin",
+      "eligible": true,
+      "score": 15,
+      "reason": "Berlin on-site role",
+      "verification_required": false,
+      "score_cap": null,
+      "scope": "Berlin",
+      "work_model": "On-site"
+    },
+    "skill_requirements": [
+      {
+        "skill": "application security",
+        "profile_status": "match",
+        "requirement": "mandatory",
+        "evidence": "At least five years of hands-on experience in security engineering, application security or information security, with strong technical depth beyond advisory or governance responsibilities."
+      },
+      {
+        "skill": "gdpr",
+        "profile_status": "missing",
+        "requirement": "mandatory",
+        "evidence": "Demonstrable compliance experience involving at least one SOC 2 audit cycle, GDPR programme ownership or implementation of EU AI Act requirements, including the ability to produce audit-ready documentation and work with external auditors."
+      },
+      {
+        "skill": "security automation",
+        "profile_status": "match",
+        "requirement": "mandatory",
+        "evidence": "Hands-on experience with AI agents, either building them for security automation or securing them through adversarial testing, sandboxing and privilege controls."
+      },
+      {
+        "skill": "ci/cd",
+        "profile_status": "partial",
+        "requirement": "mentioned",
+        "evidence": "Working directly with engineering teams on secure system design, threat modelling, penetration testing and vulnerability remediation, while embedding appropriate security controls into development processes and CI/CD pipelines."
+      },
+      {
+        "skill": "cloud security",
+        "profile_status": "partial",
+        "requirement": "mentioned",
+        "evidence": "Defining Clariness’ security engineering strategy and roadmap, and building and operating the security function across application security, cloud security, AI and LLM security, vulnerability management and supporting security tooling."
+      },
+      {
+        "skill": "owasp",
+        "profile_status": "match",
+        "requirement": "mentioned",
+        "evidence": "Owning AI security and governance across LLM-powered features, RAG systems and agentic pipelines, including assessing and mitigating risks covered by the OWASP Top 10 for LLM Applications."
+      },
+      {
+        "skill": "penetration testing",
+        "profile_status": "match",
+        "requirement": "mentioned",
+        "evidence": "Working directly with engineering teams on secure system design, threat modelling, penetration testing and vulnerability remediation, while embedding appropriate security controls into development processes and CI/CD pipelines."
+      },
+      {
+        "skill": "secure sdlc",
+        "profile_status": "match",
+        "requirement": "mentioned",
+        "evidence": "Strong practical experience across application security, cloud security, secure software development, threat modelling, penetration testing, vulnerability management and security controls within CI/CD pipelines."
+      },
+      {
+        "skill": "software development",
+        "profile_status": "partial",
+        "requirement": "mentioned",
+        "evidence": "Strong practical experience across application security, cloud security, secure software development, threat modelling, penetration testing, vulnerability management and security controls within CI/CD pipelines."
+      },
+      {
+        "skill": "threat modeling",
+        "profile_status": "match",
+        "requirement": "mentioned",
+        "evidence": "Working directly with engineering teams on secure system design, threat modelling, penetration testing and vulnerability remediation, while embedding appropriate security controls into development processes and CI/CD pipelines."
+      },
+      {
+        "skill": "vulnerability management",
+        "profile_status": "match",
+        "requirement": "mentioned",
+        "evidence": "Defining Clariness’ security engineering strategy and roadmap, and building and operating the security function across application security, cloud security, AI and LLM security, vulnerability management and supporting security tooling."
+      },
+      {
+        "skill": "vulnerability triage",
+        "profile_status": "match",
+        "requirement": "mentioned",
+        "evidence": "Evaluating, deploying and continuously improving AI-powered security automation, including autonomous vulnerability triage, LLM-powered alert analysis, compliance evidence gathering and AI-assisted threat intelligence."
+      }
+    ],
+    "mandatory_gaps": [
+      {
+        "skill": "gdpr",
+        "profile_status": "missing",
+        "requirement": "mandatory",
+        "evidence": "Demonstrable compliance experience involving at least one SOC 2 audit cycle, GDPR programme ownership or implementation of EU AI Act requirements, including the ability to produce audit-ready documentation and work with external auditors."
+      }
+    ],
+    "potential_gaps": [],
+    "optional_gaps": [],
+    "role_family": {
+      "id": "security_engineering",
+      "label": "Security Engineering",
+      "priority": 2,
+      "confidence": "high",
+      "evidence": [
+        "security engineer",
+        "security engineering",
+        "security controls",
+        "vulnerability"
+      ]
+    },
+    "raw_score": 77,
+    "score_cap": 69,
+    "score_cap_reasons": [
+      "Senior title is above the profile's current 2+ years",
+      "One explicitly mandatory skill is not evidenced"
+    ],
+    "policy_excluded": false,
+    "policy_exclusion_reasons": [],
+    "application_status": "NEW"
+  },
+  {
     "job_key": "3183e2eb626e74bd4b92",
     "source": "Recruitee",
     "sources": [
@@ -1630,7 +1868,7 @@
     "ats": "recruitee",
     "published_at": "2026-10-21 10:48:45 UTC",
     "first_seen": "2026-10-22T10:26:14Z",
-    "last_seen": "2026-10-25T12:15:06Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "description": "Berlin • Cybersecurity & AI Startup • Recently Funded\n\nA newly funded cybersecurity startup in Berlin is looking for a Cybersecurity Researcher to join as a team member and help design the core security, identity, and enforcement foundations of a next-generation AI-powered security risk management platform.\n\nWe are an early-stage startup founded by experienced cybersecurity leaders with backgrounds in Israeli Intelligence units. We are looking for a hands-on Cybersecurity Researcher. If you are passionate about cybersecurity and AI tech, thrive in fast-paced startup environments, and enjoy building complex platforms from the ground up, this is an opportunity to make a real impact.\n\nWe’re building a next-generation cyber enforcement platform that helps enterprises understand, measure, and reduce identity risk at scale. Our goal is to turn complex identity and security data into clear, actionable risk insights that CISOs and CTOs can trust. You will work from scratch on core platform components from day one, shaping how modern enterprises manage and reason about risk using cloud-native systems and AI-driven analysis and automated enforcement through AI Agents.\n\nKey Responsibilities\n\nResearch how identity works across platforms: discovery, permission schemes, hidden attack paths, and the behavior vendors don’t document\n\nConnect the dots across environments: attack paths that span SaaS, cloud, and on-prem\n\nTurn research into detection logic and rule content that ships in the product\n\nWork directly with the founders, product, and engineering to shape what we build next\n\nBuild the research tooling you need, and share your research through open-source tools and write-ups\n\nMust have\n\n4+ years in security research, detection engineering, or a closely related role\n\nHands-on experience with SaaS and cloud platforms such as Microsoft 365 / Entra ID, Google Workspace, Okta, Salesforce, AWS, Azure, or GCP, including their identity and permission models\n\nExperience reverse engineering APIs: intercepting traffic, finding undocumented endpoints, and testing behavior against what vendor docs claim\n\nStrong Python, written so others can read, run, and maintain it\n\nSolid understanding of identity and access concepts: OAuth, SAML, SSO, service accounts, API tokens, delegated permissions\n\nAbility to turn research findings into concrete detection logic\n\nBased in Berlin or willing to relocate\n\nComfortable operating under ambiguity in an early-stage startup\n\nKnowledge of agent related Identity landscape and attack vectors\n\nNice to have\n\nOffensive security experience: red team, pentesting, or offensive research\n\nActive Directory and hybrid identity\n\nPublished research, conference talks, CVEs, or open-source tools\n\nDetection-as-code experience, such as Sigma or KQL\n\nGraph-based attack path analysis, for example with Neo4j\n\nYou have a CVE, or a story about why you didn’t get one\n\nBenefits\n\nTeam Member Equity — ESOPs in a cybersecurity company.\n\nCompetitive Compensation — salary aligned with market, flexible early-stage arrangements possible.\n\nFresh Funding Secured — immediate runway to build, hire, and execute fast.\n\nSecurity Contribution — contribute to security architecture across identity, AI agents, and enforcement.\n\nHigh Autonomy — freedom to design and build without corporate overhead.\n\nWork with a Technical CEO — fast iteration, strong alignment, clear direction.\n\nCutting-Edge Domain — identity security, SaaS-to-SaaS access, AI agent governance.\n\nMassive Learning Curve — quickly gain depth in cybersecurity, identity, and AI systems.\n\nFast Career Path — opportunity evolve into leadership as we scale the team\n\nBerlin Location — top-tier tech environment with strong cybersecurity and AI ecosystems.\n\nDirect Impact — your architecture and code become the foundation of the entire platform.\n\nBest Equipment and Tools - High quality equipment and modern tools to help you do your best work from day one.\n\nTeam Offsites - Regular team offsites designed to build strong connections, alignment, and shared momentum.",
     "salary": "",
     "employment_type": "fulltime_permanent",
@@ -1685,7 +1923,7 @@
       "Exposure only; do not claim deep expertise: aws",
       "One explicitly mandatory skill is not evidenced"
     ],
-    "status": "UPDATED",
+    "status": "SEEN_BEFORE",
     "priority_employer": false,
     "tags": [
       "Cybersecurity",
@@ -2757,7 +2995,7 @@
     "ats": "ashby",
     "published_at": "2026-10-02T09:11:35Z",
     "first_seen": "2026-10-07T11:55:14Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "description": "KAYAK, part of Booking Holdings (NASDAQ: BKNG), is a leading travel search engine. With billions of queries across our platforms, we help people find their perfect flight, stay, rental car and vacation package. We're also transforming business travel with a new corporate travel solution, KAYAK for Business.\n\nAs an employee of KAYAK, you will be part of a travel company that operates a portfolio of global metasearch brands including momondo, Cheapflights and HotelsCombined, among others. From start-up to industry leader, innovation is in our DNA and every employee has an opportunity to make their mark. Our focus is on building the best travel search engine to make it easier for everyone to experience the world.\n\nSecurity at KAYAK is a team effort — we protect the people, systems, and data that power travel for millions of users worldwide, and we do it by working closely with engineering, operations, and product teams. As an Associate Security Engineer, you will help to drive our vulnerability management program while contributing across multiple security domains in a collaborative, globally distributed environment. You can find more information about our security program at https://www.kayak.com/security.\n\nThis role is required to work from our Berlin, Germany office 3 days per week.\n\nIN THIS ROLE, YOU WILL:\n\n- Support and continuously improve the vulnerability management program — defining processes for identifying, prioritizing, tracking, and driving remediation of security findings across infrastructure and applications. This includes working closely with engineering, operations, and IT teams to ensure findings are understood, assigned, and resolved in a timely manner, and reporting on program health and trends to security leadership.\n\n- Participate in incident response activities, including triage, investigation, containment, and post-incident documentation.\n\n- Support application security initiatives, including automated code scanning, dependency analysis, and working with engineering teams to address security findings early in the development process.\n\n- Help configure, monitor, and improve security tooling across areas such as endpoint protection, email security, identity and access management, and cloud security posture.\n\n- Contribute to security automation and orchestration workflows that reduce manual effort and improve response times.\n\n- Collaborate with engineering, operations, and compliance teams to embed security thinking into development workflows and infrastructure changes.\n\n- Document processes, runbooks, and findings to support team knowledge sharing and continuity.\n\n- Participate in access reviews and support identity and access management processes in line with established policies.\n\n- Stay current with the evolving threat landscape and contribute ideas for improving the team's detection and response capabilities.\n\nPLEASE APPLY IF YOU HAVE:\n\n- A solid understanding of cybersecurity fundamentals — including networking, operating systems (Linux, macOS, or Windows), and cloud environments — gained through any combination of formal education, self-study, bootcamps, or professional experience.\n\n- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management.\n\n- Experience working with security tooling (e.g., vulnerability scanners, endpoint detection and response platforms, SIEM systems, or similar); familiarity with specific tools is a plus, but willingness to learn our stack matters more than exact tool experience.\n\n- Familiarity with AI tools and how they can be applied in a security context — whether for automating workflows, triaging alerts, or improving detection and response. Experience working with AI models or building AI-assisted workflows is a plus.\n\n- The ability to communicate clearly in writing and in conversation — our team is globally distributed and works primarily in English (professional working proficiency is sufficient; native fluency is not required).\n\n- A collaborative approach to problem-solving — you ask questions, share what you learn, and support your teammates.\n\n- Comfort working with some degree of autonomy on assigned tasks and projects, while knowing when to ask for input.\n\nBONUS POINTS IF YOU HAVE:\n\n- Familiarity with the NIST Cybersecurity Framework or similar security frameworks.\n\n- Experience with cloud environments (AWS or GCP) or container security.\n\n- Exposure to security automation or scripting (e.g., Python, workflow automation tools).\n\n- Experience working in a regulated environment (e.g., SOC 2, PCI).\n\nBENEFITS AND PERKS\n\n- Work from (almost) anywhere for up to 20 days per year\n\n- Focus on mental health and well-being:\n\n- Company-paid therapy sessions through SpringHealth\n\n- Company-paid subscription to HeadSpace\n\n- Company-wide week off a year - the whole team fully recharges (and returns without a pile-up of work!)\n\n- No meeting Fridays\n\n- Paid parental leave\n\n- Generous paid vacation + time off for your birthday\n\n- Paid volunteer time\n\n- Focus on your career growth:\n\n- Development Dollars\n\n- Leadership development\n\n- Access to thousands of on-demand e-learnings\n\n- Travel Discounts\n\n- Employee Resource Groups\n\n- 6 weeks paid vacation\n\n- Free lunch 2 days per week\n\n- Pension plan contributions\n\n- Public transportation subsidies\n\n- Bike leasing program\n\n- Monthly social events, Thursday happy hours, sports teams\n\n- An awesome office in Friedrichshain, Berlin\n\nINCLUSION\n\nAt KAYAK, we want everyone to have the space to grow, share ideas and do great work. That’s why we’re focused on hiring the best talent from all walks of life and experiences, supporting them well and making sure no one feels like they have to fit a mold to belong here.\n\nNeed any adjustments for the interview, application or on the job? No problem - just give us a heads-up. We’ve got you.\n\n#LI-AS1",
     "salary": "",
     "employment_type": "FullTime",
@@ -2840,7 +3078,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 25,
+      "age_days": 26,
       "category": "current",
       "label": "OPEN FOR REVIEW"
     },
@@ -3206,12 +3444,12 @@
       "Greenhouse"
     ],
     "source_urls": {
-      "Greenhouse": "https://job-boards.greenhouse.io/mozilla/jobs/8282243"
+      "Greenhouse": "https://job-boards.greenhouse.io/mozilla/jobs/8282259"
     },
     "source_id": "8259797",
     "source_job_id": "8259797",
     "source_job_ids": {
-      "Greenhouse": "8282243"
+      "Greenhouse": "8282259"
     },
     "company": "Mozilla",
     "company_normalized": "mozilla",
@@ -3230,7 +3468,7 @@
     "ats": "greenhouse",
     "published_at": "2026-10-14T03:11:31Z",
     "first_seen": "2026-08-16T17:17:56Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "description": "Why Mozilla?\n\nMozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. \n\nThe Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. \n\nWhat you’ll do:\n\nDesign, build and implement security and hardening features for enterprise users: Design, implement, test, and ship cutting-edge security features that strengthen Firefox’s security posture.\n\nAdvance Firefox’s security architecture across multiple operating systems: Contribute to and drive cutting-edge improvements to Firefox’s core security posture, by building privilege isolation and moving trust boundaries or Strengthen Firefox’s security architecture: Improve Firefox’s core security mechanisms including cryptographic protocols, WebPKI, and security-sensitive web APIs.\n\nContribute to our security initiatives: Work across teams to investigate security issues, identify root causes, and deliver robust, maintainable fixes.\n\nImprove browser reliability and performance: Diagnose and resolve issues affecting stability, correctness, performance, and memory usage in a complex, multithreaded environment.\n\nWhat you’ll bring:\n\nSystems programming experience and security knowledge: 3+ years of experience in low-level software engineering, strong proficiency in C and/or C++, and a solid understanding of security fundamentals.\n\nDebugging and problem-solving skills: Experience diagnosing and resolving issues in multithreaded, cross-platform native applications, including memory and performance challenges.\n\nWeb platform and modern systems experience: Familiarity with web technologies (HTML, CSS, JavaScript) and interest or experience in Rust; ability to work effectively within large, complex, multi-language codebases.\n\nEffective collaboration and communication: Experience working with distributed teams and communicating technical ideas clearly in writing and conversation.\n\nWhat you’ll get:\n\nGenerous performance-based bonus plans to all eligible employees - we share in our success as one team\n\nGenerous retirement contributions with 100% immediate vesting (regardless of whether you contribute)\n\nQuarterly all-company wellness days where everyone takes a pause together\n\nCountry specific holidays plus a day off for your birthday\n\nOne-time home office stipend\n\nAnnual professional development budget\n\nQuarterly well-being stipend\n\nConsiderable paid parental leave\n\nEmployee referral bonus program\n\nOther benefits (life/AD&D, disability, EAP, etc. - varies by country)\n\nAbout Mozilla \n\nMozilla exists to build the Internet as a public resource accessible to all because we believe that open and free is better than closed and controlled. When you work at Mozilla, you give yourself a chance to make a difference in the lives of Web users everywhere. And you give us a chance to make a difference in your life every single day. Join us to work on the Web as the platform and help create more opportunity and innovation for everyone online.\n\nCommitment to diversity, equity, inclusion, and belonging\n\nMozilla understands that valuing diverse creative practices and forms of knowledge are crucial to and enrich the company’s core mission. We encourage applications from everyone, including members of all equity-seeking communities, such as (but certainly not limited to) women, racialized and Indigenous persons, persons with disabilities, persons of all sexual orientations, gender identities, and expressions.\n\nWe will ensure that qualified individuals with disabilities are provided reasonable accommodations to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment, as appropriate. Please contact us at hiringaccommodation@mozilla.com to request accommodation.\n\nWe are an equal opportunity employer. We do not discriminate on the basis of race (including hairstyle and texture), religion (including religious grooming and dress practices), gender, gender identity, gender expression, color, national origin, pregnancy, ancestry, domestic partner status, disability, sexual orientation, age, genetic predisposition, medical condition, marital status, citizenship status, military or veteran status, or any other basis covered by applicable laws. Mozilla will not tolerate discrimination or harassment based on any of these characteristics or any other unlawful behavior, conduct, or purpose.\n\nGroup: D\n\n#LI-REMOTE\n\nReq ID: R3247\n\nHiring Ranges:\n\nRemote Sweden\n\n513 000 kr—684 000 kr SEK",
     "salary": "",
     "employment_type": "",
@@ -3301,7 +3539,7 @@
     },
     "posting_age_analysis": {
       "known": true,
-      "age_days": 13,
+      "age_days": 14,
       "category": "current",
       "label": "OPEN FOR REVIEW"
     },
@@ -3665,7 +3903,7 @@
     "ats": "greenhouse",
     "published_at": "2026-09-11T10:13:09Z",
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "description": "THE OPPORTUNITY\n\nJoin our Global IT Infrastructure team and take ownership of security operations that protect NavVis worldwide. You’ll lead detection and incident response across corporate IT and SaaS environments, working hand-in-hand with Service Delivery, Cloud Infrastructure Engineering, and our Cloud Infrastructure Engineer. \n\nThis is an hands-on role where you’ll make real impact—investigating threats, driving improvements, and shaping security processes. No ticket forwarding, no passive coordination—just meaningful responsibility and the chance to build a security posture you can be proud of. \n\nIf you thrive on solving complex problems, love staying ahead of emerging threats, and want to safeguard technology that powers the future of spatial intelligence, we want to hear from you! \n\nHOW YOU WILL MAKE AN IMPACT\n\nLead security incident response and drive continuous improvements. \n\nOwn Microsoft Defender, email security, and phishing protection. \n\nStrengthen network security with IT Ops: firewalls, VPNs, segmentation. \n\nManage vulnerability scanning, remediation, and risk reporting. \n\nGovern access reviews and enforce least privileges. \n\nRun ISO 27001 & SOC 2 audits and coordinate via Vanta. \n\nSupport business continuity and disaster recovery planning. \n\nAssess vendor security and monitor SaaS risk. \n\nResearch emerging threats and refine security playbooks. \n\nWHAT WILL HELP YOU SUCCEED IN THE ROLE\n\nYou have strong, hands-on experience across security operations, incident response, and forensic analysis in SaaS and hybrid IT environments. \n\nYou bring deep practical knowledge of Microsoft Defender, Entra ID, email security, identity-related incidents, and endpoint protection. \n\nYou are comfortable managing security topics from start to finish with minimal oversight. \n\nYou are a strong communicator who can break down complex security topics in simple actionable terms to both technical and non-technical stakeholders. \n\nYou are experienced working with infrastructure teams to operate network and vulnerability security controls. \n\nYou demonstrate a proven ability to drive ISO 27001 OR SOC 2 audits end-to-end. \n\nYou bring pragmatic approaches to improving processes with a bias towards automation over manual work. \n\nHOW WE WILL KNOW WE ARE A PERFECT MATCH\n\nYour recruiting partner for this role is Sylvie (she/her). You can expect to go through a screening call, and/or up to 4 rounds of interviews, where we would love to discover your passion and interests, introduce you to who we are and what drives us, and finally understand how we can potentially add value to each other's growth.\n\nHOW WE WILL KEEP YOU SMILING\n\nIt's important to take a break from work! We offer 30 days of paid time off per year\n\nAffordable access to a vast network of fitness and wellness facilities through EGYM Wellpass subsidy\n\nDeutschlandticket subsidy to support sustainable travel using public transport\n\nWe offer flexible working hours and a hybrid work setup, enabling you to plan your work around your life, and not your life around work!\n\nWe offer full visa and relocation support for international candidates\n\nAn attractive bike leasing model through JobRad, in line with our commitment towards sustainable mobility\n\nA competitive compensation package that values the skills and experience you bring\n\nUp to 4000 EUR employee referral bonus \n\nFinancial support for local language classes to help you in your journey of integrating into the culture!\n\nWe derive our strength from our diversity.\n\nNavVis’ unwavering commitment to fostering an inclusive and diverse workplace has laid the foundation for our incredible growth. We thrive on the collective strength of our people who come from diverse backgrounds. We respect and value every experience associated with race, gender identity, sexual orientation, nationality, religion and disability. We do not discriminate on the basis of any of these, or other identities, and strongly encourage everyone to apply.\n\nTogether with you, we build NavVis!\n\nIf you need assistance at any stage of the recruiting process due to a disability, please reach out to your recruiting partner(s) for this position.",
     "salary": "",
     "employment_type": "Full or Part-time",
@@ -3737,7 +3975,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 46,
+      "age_days": 47,
       "category": "older",
       "label": "OLDER POSTING - VERIFY ACTIVE"
     },
@@ -4011,7 +4249,7 @@
     "ats": "greenhouse",
     "published_at": "2026-10-16T09:23:08Z",
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "description": "About Staffbase\n\nWe inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees.\n\nHeadquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience.\nWe are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication.\n\nAt Staffbase, security is at the heart of everything we build. Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company. We believe the best security work happens when people bring their authentic selves and diverse perspectives to the table and we’re proud of the unique mix of talents and backgrounds in our team.\n\nAs an enablement team, we provide tools, guidance, and insights that allow developers to integrate security early in the development process. We see security not as a blocker but as a trusted partner that is the foundation for better products. With us, you’ll get hands-on experience with modern security practices, mentorship from experienced engineers, and the chance to make a visible impact in a global SaaS environment.\n\nWe work together with curiosity, humility, and a growth mindset, supporting each other, taking ownership of our contributions, and celebrating progress along the way. Here, your ideas matter, your work will shape how we build secure products, and you’ll have space to grow into new challenges.\n\nWhat you’ll be doing \n\nTake ownership of tasks that improve our security automation and strengthen our product security pipelines\n\nProactively explore the use of AI for vulnerability detection and remediation\n\nContinuously learn and share knowledge about how vulnerabilities apply in our specific product context\n\nSupport the team by enhancing our services with software engineering solutions\n\nCollaborate closely with stakeholders across the product department and gain broad exposure to how a growing SaaS company operates\n\nMaintain our outbound e-mail security by regularly reviewing the related metrics\n\nMaintain our Web Application Firewall ruleset\n\nKubernetes security\n\nCI/CD pipelines security\n\nMaintain our central HTML sanitization service written in TypeScript\n\nWhat you need to be successful \n\nPractical knowledge of security topics (e.g. penetration testing, secure software development, vulnerability management, SAST, DAST)\n\nStrong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python\n\nPractical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize\n\nStrong communication skills in English (German is a plus)\n\nWhat you'll get \n\nCompetitive Compensation - we offer attractive salary packages including LTIP (unit-based Long Term Incentive Plan)\n\nFlexibility - we offer flexible working time models and the option of hybrid work, and support this with a yearly flex work allowance of €1560\n\nRecharge - with 31 vacation days annually (incl. one floating holiday), plus pro rata fully paid Fridays off during August\n\nSupport - we’re offering a company pension scheme\n\nVolunteers Day - you’ll get one day off per year for supporting a social project",
     "salary": "",
     "employment_type": "",
@@ -4106,7 +4344,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 11,
+      "age_days": 12,
       "category": "current",
       "label": "OPEN FOR REVIEW"
     },
@@ -6484,8 +6722,8 @@
     "ats": "",
     "published_at": "2026-10-26T03:40:15Z",
     "first_seen": "2026-10-26T13:26:31Z",
-    "last_seen": "2026-10-27T12:33:40Z",
-    "description": "Health can’t wait. \n\nNot for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t.\n\nAlan exists to end the wait.\n\nHealth is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way.\n\nSo we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience.\n\nWe are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR.\n\nPrevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond.\n\n🚀 The Challenge\n\nAlan is a leading European health insurer with over 1 million members across 4 countries (France, Belgium, Spain, Canada). At its core, Alan is a tech company that believes exceptional member experience is a competitive advantage: fast, empathetic, and reliable service at scale. As of Q1 2026, 40% of conversations are handled automatically.\n\nAt the intersection of Care, Legal, Security, and Data Protection sits a set of topics that are as operationally complex as they are strategically critical: data breaches, GDPR rights requests, security incidents, legal complaints, regulatory reporting.\n\nWe are looking for a Care Legal & Security Specialist to own these topics end-to-end: handling complex cases in close collaboration with Alan's Legal and DPO teams, building the processes and training that allow our ~300 Care agents to manage them with confidence, and identifying where AI and automation can reduce manual load. As Alan accelerates across four countries, what you build in France gets replicated in Spain, Belgium, and Canada: your work doesn't stay local.\n\nThis is not a pure legal role, and it is not a pure ops role. You handle regulatory cases, improve the processes that prevent them from recurring, and scale what works across countries. You will be embedded within our Operational Excellence team, working in close collaboration with Care Ops and the Corporate Unit.\n\n👨‍🚀 Missions\n\n1/ Operational run (60%)\n\nHandle complex security incidents, GDPR cases, and legal complaints escalated from Care agents, including CNIL notifications (drafted in close collaboration with Legal and DPO, within the 72-hour regulatory deadline), account takeover situations, Level 2 and Level 3 complaints, and incoming legal mail\n\nManage interactions with external stakeholders (CNIL, Insurance Ombudsman, Signal Conso) with precision and within regulatory deadlines\n\nOwn KPI monitoring and reporting for legal and security matters; organize yearly complaints reporting for Alan's Board; identify trends and escalate systemic issues to Product teams early\n\n2/ Scalability: process, tools, and training (20%)\n\nDesign and continuously improve workflows, escalation paths, macros, and help center content so Care agents can handle legal and security cases autonomously at L1 and L2\n\nIdentify simplification and automation opportunities across legal and security operations, then collaborate with Care Ops and Product crews to deploy them, rather than solving each case manually\n\nBuild and maintain training materials (case studies, Q&As, simulations), so Care Experts develop real judgment, not just process familiarity\n\nEnsure regulatory training completion across the team\n\n3/ Globalization (20%)\n\nTranslate processes, frameworks, and training materials built for France into resources that Care and Legal/Compliance teams in other countries can adopt\n\nCoordinate actively with counterparts in other countries to share learnings, align on best practices, and anticipate regulatory divergences\n\nBuild shared resources so that when a new country goes live, the Care Legal & Security function isn't starting from scratch\n\nTo deliver on those missions, you will:\n\nSupport Care Experts participating in the Legal & Security taskforce: build their judgment on complex and ambiguous cases, be the primary escalation reference for Care agents facing difficult legal or security situations\n\nCollaborate with the Corporate Unit Lead and Care Ops to shape the Care roadmap on legal and security topics; translate regulatory constraints into executable processes and surface operational insights that should inform policy or product decisions\n\n⭐ You'll excel in this role if you:\n\nDeliver reliably on high-stakes, deadline-driven cases with a real member-centric mindset\n\nHave at least 1-2 years of experience in one of the following: GDPR / privacy operations, legal complaints handling in a regulated sector, or compliance ops in fintech, insurtech, or health\n\nCommunicate with precision and adapt to your audience, whether you're briefing a legal expert, aligning with a product team, or coaching a front-line agent. You get buy-in from agents and managers who didn't ask for a new process, and that's as important as designing the process itself\n\nSpot simplification opportunities and know how to turn them into projects: you identify what should be automated or redesigned, then drive the collaboration with Care Ops and Product to make it happen\n\nAre comfortable navigating regulatory frameworks (GDPR, complaint handling, CNIL) without being a lawyer; you know when to escalate and when to own it, and you're backed by Legal and DPO experts at Alan\n\nAre comfortable making judgment calls in ambiguous situations and moving forward without waiting for all the answers.\n\nAre fluent in French (C1+ written and spoken, essential for CNIL notifications, ombudsman responses, and legal correspondence) and proficient in English for internal Alan collaboration\n\nNo prior legal qualification is required but a background in law is a genuine plus. We are looking for operational rigor, strong communication, and the appetite to build something that scales.\n\nFor this opportunity, we are aiming to hire within the B-C level range.\n\n🌍 How we work\n\nLocation: You must be legally eligible to work from France.\n\nRemote work: We offer remote work flexibility, but we value in-person collaboration.\n\n🎯 Important note: we hire people, not roles.\n\nIf you're excited about this opportunity but don't check every box, we'd love to hear from you. Everyone, no matter how underrepresented, should feel free to apply, as it can only bring learnings or success.\n\nIf you identify yourself as a woman: Did you know that research shows women often apply only when meeting 100% of requirements?\n\nRemember, this is just a guide, not a checklist. We'll be thrilled to receive your application!\n\n🔖 Check out our About Alan and Career pages, as well as our Medium, blog and Glassdoor page for more info.\n\nYou want to know more about Alan?\n\n🙌 Perks & Benefits: Alaners are provided with a stimulating environment and perks ensuring they are happy, efficient and spend only high-quality time with co-workers.\n\n🤘A strong culture: People joining Alan are often surprised and delighted by our innovative working method. We have a set of cultural values that guide our approach to work\n\nFind more English Speaking Jobs in France on Arbeitnow",
+    "last_seen": "2026-10-28T13:21:27Z",
+    "description": "Health can’t wait. \n\nNot for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t.\n\nAlan exists to end the wait.\n\nHealth is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way.\n\nSo we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience.\n\nWe are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR.\n\nPrevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond.\n\n🚀 The Challenge\n\nAlan is a leading European health insurer with over 1 million members across 4 countries (France, Belgium, Spain, Canada). At its core, Alan is a tech company that believes exceptional member experience is a competitive advantage: fast, empathetic, and reliable service at scale. As of Q1 2026, 40% of conversations are handled automatically.\n\nAt the intersection of Care, Legal, Security, and Data Protection sits a set of topics that are as operationally complex as they are strategically critical: data breaches, GDPR rights requests, security incidents, legal complaints, regulatory reporting.\n\nWe are looking for a Care Legal & Security Specialist to own these topics end-to-end: handling complex cases in close collaboration with Alan's Legal and DPO teams, building the processes and training that allow our ~300 Care agents to manage them with confidence, and identifying where AI and automation can reduce manual load. As Alan accelerates across four countries, what you build in France gets replicated in Spain, Belgium, and Canada: your work doesn't stay local.\n\nThis is not a pure legal role, and it is not a pure ops role. You handle regulatory cases, improve the processes that prevent them from recurring, and scale what works across countries. You will be embedded within our Operational Excellence team, working in close collaboration with Care Ops and the Corporate Unit.\n\n👨‍🚀 Missions\n\n1/ Operational run (60%)\n\nHandle complex security incidents, GDPR cases, and legal complaints escalated from Care agents, including CNIL notifications (drafted in close collaboration with Legal and DPO, within the 72-hour regulatory deadline), account takeover situations, Level 2 and Level 3 complaints, and incoming legal mail\n\nManage interactions with external stakeholders (CNIL, Insurance Ombudsman, Signal Conso) with precision and within regulatory deadlines\n\nOwn KPI monitoring and reporting for legal and security matters; organize yearly complaints reporting for Alan's Board; identify trends and escalate systemic issues to Product teams early\n\n2/ Scalability: process, tools, and training (20%)\n\nDesign and continuously improve workflows, escalation paths, macros, and help center content so Care agents can handle legal and security cases autonomously at L1 and L2\n\nIdentify simplification and automation opportunities across legal and security operations, then collaborate with Care Ops and Product crews to deploy them, rather than solving each case manually\n\nBuild and maintain training materials (case studies, Q&As, simulations), so Care Experts develop real judgment, not just process familiarity\n\nEnsure regulatory training completion across the team\n\n3/ Globalization (20%)\n\nTranslate processes, frameworks, and training materials built for France into resources that Care and Legal/Compliance teams in other countries can adopt\n\nCoordinate actively with counterparts in other countries to share learnings, align on best practices, and anticipate regulatory divergences\n\nBuild shared resources so that when a new country goes live, the Care Legal & Security function isn't starting from scratch\n\nTo deliver on those missions, you will:\n\nSupport Care Experts participating in the Legal & Security taskforce: build their judgment on complex and ambiguous cases, be the primary escalation reference for Care agents facing difficult legal or security situations\n\nCollaborate with the Corporate Unit Lead and Care Ops to shape the Care roadmap on legal and security topics; translate regulatory constraints into executable processes and surface operational insights that should inform policy or product decisions\n\n⭐ You'll excel in this role if you:\n\nDeliver reliably on high-stakes, deadline-driven cases with a real member-centric mindset\n\nHave at least 1-2 years of experience in one of the following: GDPR / privacy operations, legal complaints handling in a regulated sector, or compliance ops in fintech, insurtech, or health\n\nCommunicate with precision and adapt to your audience, whether you're briefing a legal expert, aligning with a product team, or coaching a front-line agent. You get buy-in from agents and managers who didn't ask for a new process, and that's as important as designing the process itself\n\nSpot simplification opportunities and know how to turn them into projects: you identify what should be automated or redesigned, then drive the collaboration with Care Ops and Product to make it happen\n\nAre comfortable navigating regulatory frameworks (GDPR, complaint handling, CNIL) without being a lawyer; you know when to escalate and when to own it, and you're backed by Legal and DPO experts at Alan\n\nAre comfortable making judgment calls in ambiguous situations and moving forward without waiting for all the answers.\n\nAre fluent in French (C1+ written and spoken, essential for CNIL notifications, ombudsman responses, and legal correspondence) and proficient in English for internal Alan collaboration\n\nNo prior legal qualification is required but a background in law is a genuine plus. We are looking for operational rigor, strong communication, and the appetite to build something that scales.\n\nFor this opportunity, we are aiming to hire within the B-C level range.\n\n🌍 How we work\n\nLocation: You must be legally eligible to work from France.\n\nRemote work: We offer remote work flexibility, but we value in-person collaboration.\n\n🎯 Important note: we hire people, not roles.\n\nIf you're excited about this opportunity but don't check every box, we'd love to hear from you. Everyone, no matter how underrepresented, should feel free to apply, as it can only bring learnings or success.\n\nIf you identify yourself as a woman: Did you know that research shows women often apply only when meeting 100% of requirements?\n\nRemember, this is just a guide, not a checklist. We'll be thrilled to receive your application!\n\n🔖 Check out our About Alan and Career pages, as well as our Medium, blog and Glassdoor page for more info.\n\nYou want to know more about Alan?\n\n🙌 Perks & Benefits: Alaners are provided with a stimulating environment and perks ensuring they are happy, efficient and spend only high-quality time with co-workers.\n\n🤘A strong culture: People joining Alan are often surprised and delighted by our innovative working method. We have a set of cultural values that guide our approach to work\n\nFind Jobs in France on Arbeitnow",
     "salary": "",
     "employment_type": "Full Time",
     "experience_required": "1-2 years",
@@ -6521,7 +6759,7 @@
       "Mandatory gaps: gdpr",
       "One explicitly mandatory skill is not evidenced"
     ],
-    "status": "SEEN_BEFORE",
+    "status": "UPDATED",
     "priority_employer": false,
     "tags": [
       "Care"
@@ -6529,7 +6767,7 @@
     "lead_type": "",
     "post_author": "",
     "feed_name": "",
-    "content_hash": "63fe9d6573f424f1924c578fc663ed96572d4b0e22b58377f97711bd0749e203",
+    "content_hash": "7bc877411e9e27e5c9d265c91c0d6d9b28f04711437ca0b053f45034d74953f9",
     "german_analysis": {
       "category": "none",
       "level": "none",
@@ -6546,7 +6784,7 @@
     },
     "posting_age_analysis": {
       "known": true,
-      "age_days": 1,
+      "age_days": 2,
       "category": "new",
       "label": "NEW - APPLY QUICKLY"
     },
@@ -6633,7 +6871,7 @@
     "ats": "ashby",
     "published_at": "2026-10-19T08:41:49Z",
     "first_seen": "2026-10-19T11:04:26Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "description": "SCOPE OF IMPACT\n\nActively participates with other seniors in SOC activities by providing knowledge and insight on more complex client cases. Provides ideas and concrete input for process and efficiency improvements. Actively participates in overall team- and workflow-improvement projects.\n\nEXPERTISE\n\nIn-depth knowledge of the operational use of security monitoring tools (SIEM, EDR). Ability to assess complex logs, recognise patterns, and derive actionable insights. Actively develops both technical and soft skills, and stays current with changes in the field. A credible voice and source of knowledge in the department.\n\nAUTONOMY AND CONTRIBUTION STYLE\n\nFull autonomy during complex SOC escalations. Skills and confidence to coordinate the team’s response. Collaborates with, and gives guidance to, the team on arising issues. Once fully onboarded, demonstrates the ability to handle Tier 3 shifts.\n\nCOMPLEXITY\n\nHigh complexity: oversees entire projects and influences cross-functional teams; decisions impact the department and adjacent areas. Creates clear, structured, reproducible documentation that informs stakeholders of risks, findings, and recommended actions. Recognises higher-level security issues and resolves them independently; supports junior members in resolving theirs.\n\nLEADERSHIP\n\nNo formal leadership responsibilities. Actively coaches more junior team members to share knowledge and grow as a team.\n\nRESPONSIBILITIES\n\n- Monitor security alerts and perform initial triage; classify (false positive, true positive, uncertain) and close out confirmed false positives correctly\n\n- Take full ownership of escalated and the most complex alerts: root-cause analysis, log correlation, validating assessments, determining next steps\n\n- Own client communication for assigned alerts, including difficult or high-risk escalations from more junior analysts, to a consistent quality standard\n\n- Independently execute containment actions across impact levels; approve escalations from more junior analysts\n\n- Own the team’s overall workload and service-level adherence day to day; pull in support or escalate when targets are at risk\n\n- Answer cross-department questions on security operations; improve documentation and working instructions for junior levels\n\n- Mentor junior and mid-level colleagues\n\n- Identify patterns across multiple cases and escalations that point to systemic detection gaps or false-positive sources, and turn them into structured input for the detection content owners — not one-off flags\n\n- Contribute to team projects and process/efficiency improvements\n\nNOT IN SCOPE AT THIS LEVEL, OR EVER, ON THIS TRACK\n\n- Incident response casework — a separate specialisation\n\n- Detection rule ownership, detection engineering, and threat hunting — owned by a separate team\n\nREQUIREMENTS\n\n- 4+ years hands-on SOC/security operations experience\n\n- Proven ability to own and drive the team’s SLA/workload independently\n\n- Strong client communication in high-risk situations\n\n- Track record mentoring junior colleagues\n\n- Solid log analysis and EDR platform experience; familiarity with major cloud platforms\n\n- Language fluency matching the client base supported; English internally; Dutch and/or German required or strongly preferred depending on client-facing exposure\n\nGROWTH PATH\n\nFrom here, the role forks: an individual-contributor track (Staff-level, then an optional cross-functional Principal role), or a people-leadership track (Team Lead).\n\nABOUT EYE SECURITY\n\nEye Security provides cybersecurity with embedded cyber insurance solutions for organisations across Europe. Headquartered in the Netherlands, 200+ FTEs and growing internationally. We combine 24/7 detection and response with hands-on incident response to keep SMEs protected.",
     "salary": "",
     "employment_type": "FullTime",
@@ -6707,7 +6945,7 @@
     },
     "posting_age_analysis": {
       "known": true,
-      "age_days": 8,
+      "age_days": 9,
       "category": "current",
       "label": "OPEN FOR REVIEW"
     },
@@ -6829,7 +7067,7 @@
     "ats": "greenhouse",
     "published_at": "2026-10-15T14:25:08Z",
     "first_seen": "2026-08-27T16:38:50Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "description": "About the role: What's in the Box\n\nWe’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges. Security Engineers work in a variety of ways to constantly iterate and improve HelloFresh’s security posture. \n\nYou will be the first port of call for responding to any of HelloFresh’s security related questions and concerns. You will also develop and deliver tools and processes to enable colleagues to achieve their goals and objectives.\n\nAbove all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you.\n\nWhat You’ll Do: The Recipe\n\nEnhance the security posture of the enterprise IT infrastructure, services, and tools by hardening them against abuse and nefarious activity\n\nImplement secure configurations and policies for IAM, EDR, VPN, Firewalls, Email Security, Slack and MDM tools\n\nResponsible for security hardening and posture of enterprise IT assets\n\nAdapt to modern AI adoption strategy through implementing and mitigating AI controls in a variety of methods including Shadow AI, MCP integrations, and protecting against AI-based risks\n\nDeploy, optimize and operate modern security solutions like EDR, Zero-Trust, SSE/CASB, DLP, and Patch Management tools\n\nAssist in company-wide security awareness campaigns and vulnerability patching\n\nPerform comparative technical and commercial analysis for various security products/tools prior to procurement\n\nWhat You’ll Bring: The Ingredients\n\nHands-on experience hardening workstations, network equipment, servers, IAM platforms through using CIS/NIST frameworks\n\nUnderstanding and usage of Generative AI from a corporate perspective, including LLM guardrails, MCP connections/gateways, and risks stemming from its usage such as prompt injections\n\nAbility to perform malware analysis on Windows, MacOS, and Linux machines\n\nUnderstanding of modern-day social engineering attacks and how to prevent them through technical controls and training\n\nIn-depth understanding of common TCP/IP protocols and modern-day security threats on each network layer and protecting against them\n\nGood communication and reporting skills\n\nWhat we Offer: The Toppings\n\nElevate your lifestyle! Join one of Europe's fastest-growing tech powerhouses in a dynamic phase of expansion.\n\nImmerse yourself in a diverse global community of 90+ nationalities.\n\nEnjoy a competitive compensation package that goes beyond the norm, with perks like a HelloFresh- subsidized Pension Scheme and a Hybrid working model.\n\nElevate your lifestyle with exclusive discounts on your weekly HelloFresh box and office meals.\n\nInvest in your growth with a German language learning budget, and access to the HelloFresh Academy.\n\nPlus, we've got your well-being covered with mental health support, transportation perks, and working-parent-friendly benefits. From our 24/7 gym access,wellbeing platforms like Headspace and Spill, to sabbatical leave options, HelloFresh is not just a workplace; it's a lifestyle of perks and possibilities!",
     "salary": "",
     "employment_type": "",
@@ -6895,7 +7133,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 11,
+      "age_days": 12,
       "category": "current",
       "label": "OPEN FOR REVIEW"
     },
@@ -7019,8 +7257,8 @@
     "ats": "",
     "published_at": "2026-10-27T07:30:40Z",
     "first_seen": "2026-10-27T12:33:40Z",
-    "last_seen": "2026-10-27T12:33:40Z",
-    "description": "Your role at Market Cloud\n\nMarket Cloud delivers IT services and consulting across the European Economic Area, supporting clients with specialized enterprise software expertise. This fixed-term contract role focuses entirely on SAP Concur Module Security, where you will manage, configure, and secure Concur environments for clients on a remote basis.\n\nWhat you will do\n\nConfigure and maintain SAP Concur security profiles, user roles, and authorization concepts.\n\nCollaborate with clients to translate access requirements into secure, functional Concur configurations.\n\nTroubleshoot and resolve security-related incidents and audit findings within SAP Concur.\n\nSupport deployment activities and continuous improvement initiatives for module security enhancements.\n\nWhat we are looking for\n\nProven experience in SAP Concur consulting with a primary focus on module security.\n\nStrong understanding of authorization concepts, role design, and access governance within enterprise environments.\n\nAbility to communicate technical security requirements clearly to business users and stakeholders.\n\nWorking with us\n\nYou will receive 24 vacation days per year across your 40-hour work week on this 12-month contract.\n\nYour first months at Market Cloud\n\nDuring your initial months, you will take on active client security configurations, resolve incoming access incidents, and ship module enhancements across remote project teams. If you meet most of these requirements and are ready to support specialized SAP Concur implementations, we encourage you to apply.\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
+    "last_seen": "2026-10-28T13:21:27Z",
+    "description": "Your role at Market Cloud\n\nMarket Cloud delivers IT services and consulting across the European Economic Area, supporting clients with specialized enterprise software expertise. This fixed-term contract role focuses entirely on SAP Concur Module Security, where you will manage, configure, and secure Concur environments for clients on a remote basis.\n\nWhat you will do\n\nConfigure and maintain SAP Concur security profiles, user roles, and authorization concepts.\n\nCollaborate with clients to translate access requirements into secure, functional Concur configurations.\n\nTroubleshoot and resolve security-related incidents and audit findings within SAP Concur.\n\nSupport deployment activities and continuous improvement initiatives for module security enhancements.\n\nWhat we are looking for\n\nProven experience in SAP Concur consulting with a primary focus on module security.\n\nStrong understanding of authorization concepts, role design, and access governance within enterprise environments.\n\nAbility to communicate technical security requirements clearly to business users and stakeholders.\n\nWorking with us\n\nYou will receive 24 vacation days per year across your 40-hour work week on this 12-month contract.\n\nYour first months at Market Cloud\n\nDuring your initial months, you will take on active client security configurations, resolve incoming access incidents, and ship module enhancements across remote project teams. If you meet most of these requirements and are ready to support specialized SAP Concur implementations, we encourage you to apply.\n\nFind Jobs in Germany on Arbeitnow",
     "salary": "",
     "employment_type": "Fixed-term contract, contract, professional / experienced",
     "experience_required": null,
@@ -7047,7 +7285,7 @@
       "Berlin remote role."
     ],
     "warnings": [],
-    "status": "NEW",
+    "status": "UPDATED",
     "priority_employer": false,
     "tags": [
       "Development",
@@ -7057,7 +7295,7 @@
     "lead_type": "",
     "post_author": "",
     "feed_name": "",
-    "content_hash": "115d7215e7a7b3f4c3ff8fd356bbad1dd42b74efb8fa12753f0e598b4f9d93b4",
+    "content_hash": "341927d5988295f36a4b220a744ecf4c12cc5a8bdfd347dfcdaf53a81bc09bde",
     "german_analysis": {
       "category": "none",
       "level": "none",
@@ -7068,7 +7306,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 0,
+      "age_days": 1,
       "category": "new",
       "label": "NEW - APPLY QUICKLY"
     },
@@ -8998,12 +9236,12 @@
       "Greenhouse"
     ],
     "source_urls": {
-      "Greenhouse": "https://job-boards.greenhouse.io/mozilla/jobs/8191473"
+      "Greenhouse": "https://job-boards.greenhouse.io/mozilla/jobs/8237810"
     },
     "source_id": "8191473",
     "source_job_id": "8191473",
     "source_job_ids": {
-      "Greenhouse": "8191473"
+      "Greenhouse": "8237810"
     },
     "company": "Mozilla",
     "company_normalized": "mozilla",
@@ -9020,9 +9258,9 @@
     "apply_url": "https://job-boards.greenhouse.io/mozilla/jobs/8191473",
     "canonical_url": "https://job-boards.greenhouse.io/mozilla/jobs/8191473",
     "ats": "greenhouse",
-    "published_at": "2026-10-26T07:19:44Z",
+    "published_at": "2026-10-27T16:52:08Z",
     "first_seen": "2026-09-30T11:17:18Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "description": "To learn the Hiring Ranges for this position, please select your location from the Apply Now dropdown menu.\n\nTo learn more about our Hiring Range System, please click this link.\n\nWhy Mozilla?\n\nMozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. \n\nThe Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. \n\nAbout this team and role:\n\nMozilla is looking for an Incident Responder to monitor and mitigate attacks across Mozilla’s products and services. In this position, you will be a part of a flexible team responsible for handling security incidents. As such, you’ll need to have years of practical security experience and knowledge of the state of the art for detecting and responding to attacks. You’ll be someone Mozillians across the company depend on and trust to respond quickly and effectively in a crunch, with the outstanding communication and collaboration skills needed to work in partnership with diverse stakeholders. Most importantly, you will become a critical member of the team responsible for ensuring the integrity of Mozilla’s products and for keeping Mozilla’s users safe, within a company dedicated to building a more secure internet.\n\nWhat you'll do:\n\nIdentify and respond to security incidents on a global scale.\n\nAct as an incident commander to drive incidents through the entire response lifecycle.\n\nDesign and maintain a portfolio of security alerts, automated actions, playbooks and escalation workflows in support of a high-performing 24/7 incident response capability.\n\nConduct threat hunting activities, anticipate future threats, and maintain forward-thinking strategies for tools/technology/processes that combat sophisticated threat actors.\n\nResearch threat intelligence reports, triage and manage resulting workflows.\n\nPartner with key stakeholders and communicate effectively to maintain a continuously improving feedback loop of preparation, identification, analysis, containment, and post mortem activities.\n\nParticipate in on-call rotation.\n\nWhat you'll bring:\n\n5+ years of demonstrated ability managing security incidents at a global scale and/or experience working in Security Operations Centers (SOC), Product Security Incident Response Teams (PSIRT), and Computer Security Incident Response Teams (CSIRT).\n\nExpertise with security information and event management (SIEM) systems (eg. ELK, Google BigQuery, Splunk, etc.). Splunk proficiency is preferred.\n\nExpertise with endpoint detection and investigation. Hands-on experience with leading EDR tools and demonstrated ability to leverage endpoint telemetry to find root cause.\n\nExpertise with security orchestration and automation (SOAR) platforms such as Tines or Splunk SOAR.\n\nSuperb communication and leadership capacity; ability to partner effectively with diverse company stakeholders.\n\nReal-world experience in software development and/or engineering operations for consumer products and services; B.S. in a technology-focused field is helpful.\n\nPractical experience working with cloud technologies (eg. Google Cloud Platform, Amazon Web Services, Heroku, Microsoft Azure, etc.).\n\nCompetencies:\n\nOwnership and Accountability\n\nAutonomy\n\nHigh Level of Integrity\n\nClear Communication\n\nCreative Problem Solver\n\nPassionate about Security\n\nWhat you’ll get:\n\nGenerous performance-based bonus plans to all eligible employees - we share in our success as one team\n\nRich medical, dental, and vision coverage\n\nGenerous retirement contributions with 100% immediate vesting (regardless of whether you contribute)\n\nQuarterly all-company wellness days where everyone takes a pause together\n\nCountry specific holidays plus a day off for your birthday\n\nOne-time home office stipend\n\nAnnual professional development budget\n\nQuarterly well-being stipend\n\nConsiderable paid parental leave\n\nEmployee referral bonus program\n\nOther benefits (life/AD&D, disability, EAP, etc. - varies by country)\n\nAbout Mozilla \n\nMozilla exists to build the Internet as a public resource accessible to all because we believe that open and free is better than closed and controlled. When you work at Mozilla, you give yourself a chance to make a difference in the lives of Web users everywhere. And you give us a chance to make a difference in your life every single day. Join us to work on the Web as the platform and help create more opportunity and innovation for everyone online.\n\nCommitment to diversity, equity, inclusion, and belonging\n\nMozilla understands that valuing diverse creative practices and forms of knowledge are crucial to and enrich the company’s core mission. We encourage applications from everyone, including members of all equity-seeking communities, such as (but certainly not limited to) women, racialized and Indigenous persons, persons with disabilities, persons of all sexual orientations, gender identities, and expressions.\n\nWe will ensure that qualified individuals with disabilities are provided reasonable accommodations to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment, as appropriate. Please contact us at hiringaccommodation@mozilla.com to request accommodation.\n\nWe are an equal opportunity employer. We do not discriminate on the basis of race (including hairstyle and texture), religion (including religious grooming and dress practices), gender, gender identity, gender expression, color, national origin, pregnancy, ancestry, domestic partner status, disability, sexual orientation, age, genetic predisposition, medical condition, marital status, citizenship status, military or veteran status, or any other basis covered by applicable laws. Mozilla will not tolerate discrimination or harassment based on any of these characteristics or any other unlawful behavior, conduct, or purpose.\n\nGroup: D\n\n#LI-DNI\n\nReq ID: R3224",
     "salary": "",
     "employment_type": "",
@@ -9105,7 +9343,7 @@
     },
     "posting_age_analysis": {
       "known": true,
-      "age_days": 1,
+      "age_days": 0,
       "category": "new",
       "label": "NEW - APPLY QUICKLY"
     },
@@ -9241,12 +9479,12 @@
       "Greenhouse"
     ],
     "source_urls": {
-      "Greenhouse": "https://job-boards.greenhouse.io/mozilla/jobs/8122100"
+      "Greenhouse": "https://job-boards.greenhouse.io/mozilla/jobs/8103947"
     },
     "source_id": "8122100",
     "source_job_id": "8122100",
     "source_job_ids": {
-      "Greenhouse": "8122100"
+      "Greenhouse": "8103947"
     },
     "company": "Mozilla",
     "company_normalized": "mozilla",
@@ -9265,7 +9503,7 @@
     "ats": "greenhouse",
     "published_at": "2026-10-16T19:50:56Z",
     "first_seen": "2026-10-16T10:02:11Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "description": "To learn the Hiring Ranges for this position, please select your location from the Apply Now dropdown menu.\n\nTo learn more about our Hiring Range System, please click this link.\n\nWhy Mozilla?\n\nMozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we're shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we're doing this while never losing our focus on our core mission – to make the internet better for people.\n\nThe Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren't beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms.\n\nAbout this team and role:\n\nThe role is part of the Security Function within the broader Mozilla Infrastructure team. The Security team supports Product, Enterprise and GRC functions across the organization aligned with the mission to build a safe & secure internet. This role is responsible for defining, developing and helping implement a Governance, Risk and Compliance framework for both Enterprise and Product verticals. The ideal candidate will be responsible to deliver an integrated framework that aligns security, privacy, regulatory, and risk management initiatives across the organization. This is an ideal role for someone early in their GRC or security career who is curious, organized, and eager to take on a wide range of work. You’ll get broad exposure across risk, audit, and a growing set of security programs.\n\nWhat you'll do:\n\nRisk Management\n\nPerform risk assessments and process incoming risk questions and intake requests\n\nMaintain the risk register, keeping entries accurate, current, and well documented\n\nTrack risk treatment plans and follow up with owners on progress\n\nManage the exceptions and issues tracking process, including intake, documentation, expiration follow-up, and reporting\n\nSupport third-party risk activities, such as vendor assessments, questionnaire review, and tracking remediation\n\nCompliance and Audit\n\nCoordinate evidence collection from control owners and chase outstanding requests\n\nHelp prepare control owners and stakeholders for audit interviews\n\nKeep the SOC 2 system description, ISMS documentation, and Statement of Applicability (SoA) up to date\n\nTrack audit gaps and findings and drive remediation to closure with control owners\n\nSecurity Program Support\n\nHelp GRC and partner teams run governance for the Secure Software Development Lifecycle (SSDLC), including tracking adoption, gathering evidence, and maintaining supporting standards\n\nSupport data classification and data governance efforts by maintaining documentation, tracking adoption, and coordinating with data owners\n\nAssist with business impact analysis (BIA) and business continuity/disaster recovery (BC/DR) activities, including plan maintenance, exercise coordination, and follow-up on gaps\n\nTrack vulnerability management metrics and remediation status, and follow up with system owners on overdue items\n\nHelp coordinate penetration testing engagements, from scoping and scheduling through findings tracking and remediation follow-up\n\nGRC Operations and Tooling\n\nServe as an administrator for our GRC platform, including users, workflows, integrations, and reporting\n\nIdentify opportunities to streamline processes and automate repetitive GRC work\n\nHelp maintain policies, standards, and supporting documentation\n\nWhat you'll bring:\n\nExperience in cybersecurity, GRC, IT audit, or a related field (typically 2-4 years)\n\nWorking knowledge of security and compliance frameworks such as SOC 2, ISO 27001, or NIST\n\nFamiliarity with risk assessment concepts and the risk management lifecycle\n\nStrong organization and follow-through, with the ability to juggle many workstreams and deadlines at once\n\nClear written and verbal communication, and comfort working with technical and non-technical stakeholders\n\nA collaborative, curious mindset and a genuine desire to learn and take on new challenges\n\nHands-on experience with a GRC platform (e.g., Vanta, Drata, OneTrust, ServiceNow GRC, or similar)\n\nExperience supporting an audit (SOC 2, ISO 27001, or similar)\n\nExposure to any of: vulnerability management, third-party risk, BC/DR, secure development practices, or penetration test coordination\n\nScripting or automation skills (e.g., Python, SQL, or workflow tools) to improve GRC processes\n\nA relevant certification or one in progress (e.g., Security+, CISA, CISM, CISSP)\n\nWhat you'll get:\n\nGenerous performance-based bonus plans to all eligible employees—we share in our success as one team.\n\nRich medical, dental, and vision coverage.\n\nGenerous retirement contributions with 100% immediate vesting (regardless of whether you contribute).\n\nQuarterly all-company wellness days where everyone takes a pause together.\n\nCountry-specific holidays plus a day off for your birthday.\n\nOne-time home office stipend.\n\nAnnual professional development budget.\n\nQuarterly well-being stipend.\n\nConsiderable paid parental leave.\n\nEmployee referral bonus program.\n\nOther benefits (life/AD&D, disability, EAP, etc.—varies by country).\n\nAbout Mozilla \n\nMozilla exists to build the Internet as a public resource accessible to all because we believe that open and free is better than closed and controlled. When you work at Mozilla, you give yourself a chance to make a difference in the lives of Web users everywhere. And you give us a chance to make a difference in your life every single day. Join us to work on the Web as the platform and help create more opportunity and innovation for everyone online.\n\nCommitment to diversity, equity, inclusion, and belonging\n\nMozilla understands that valuing diverse creative practices and forms of knowledge are crucial to and enrich the company’s core mission. We encourage applications from everyone, including members of all equity-seeking communities, such as (but certainly not limited to) women, racialized and Indigenous persons, persons with disabilities, persons of all sexual orientations, gender identities, and expressions.\n\nWe will ensure that qualified individuals with disabilities are provided reasonable accommodations to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment, as appropriate. Please contact us at hiringaccommodation@mozilla.com to request accommodation.\n\nWe are an equal opportunity employer. We do not discriminate on the basis of race (including hairstyle and texture), religion (including religious grooming and dress practices), gender, gender identity, gender expression, color, national origin, pregnancy, ancestry, domestic partner status, disability, sexual orientation, age, genetic predisposition, medical condition, marital status, citizenship status, military or veteran status, or any other basis covered by applicable laws. Mozilla will not tolerate discrimination or harassment based on any of these characteristics or any other unlawful behavior, conduct, or purpose.\n\nGroup: C\n\n#LI-DNI\n\nReq ID: R3197",
     "salary": "",
     "employment_type": "",
@@ -9349,7 +9587,7 @@
     },
     "posting_age_analysis": {
       "known": true,
-      "age_days": 10,
+      "age_days": 11,
       "category": "current",
       "label": "OPEN FOR REVIEW"
     },
@@ -9805,7 +10043,7 @@
     "ats": "ashby",
     "published_at": "2026-08-05T12:52:42Z",
     "first_seen": "2026-08-15T17:01:09Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "description": "Qdrant is an open-source vector search engine powering the next generation of AI applications, from semantic search and retrieval-augmented generation (RAG) to AI agents and real-time recommendations.\n\nTrusted by global leaders like Canva, HubSpot, Tripadvisor, Bosch, and Deutsche Telekom, we’re building the retrieval infrastructure layer for modern AI. Recently raising $50M in Series B funding, we are growing rapidly and committed to transforming how AI understands and interacts with data.\n\nAs a remote-first company, we believe diverse backgrounds, perspectives, and experiences fuel innovation. Here, you’ll own meaningful work, tackle challenges, and grow alongside passionate individuals dedicated to shaping the future of AI.\n\nWe are looking for a Mid-Level Security Engineer to own the hands-on engineering and operational work within our security program. You will be embedded in the Cloud Engineering team, report into the Security Officer, and work closely together to identify risks, set priorities, and drive security issues through remediation. You will act as a security enabler across all Product & Engineering.\n\nWHAT YOU WILL OWN\n\n- Run our public bug bounty program: triage reports, reproduce and validate findings, communicate clearly with security researchers, and drive remediation through to closure.\n\n- Investigate reported vulnerabilities at the code level, including our Rust core, Go and Python tooling.\n\n- Enable engineers to build secure systems: provide tooling, paved-road defaults, documentation, and practical guidance so security is the easy path, not a checkpoint.\n\n- Partner with engineering teams to design, review, and verify fixes, and set clear security requirements on changes where the risk warrants it.\n\n- Harden and maintain our GitHub organization’s security posture, including secret scanning, push protection, branch protection and rulesets, dependency alerts, and code scanning, in partnership with the engineering teams that use these repositories daily.\n\n- Monitor, investigate, and respond to security alerts across AWS, Kubernetes, CI/CD, and related infrastructure.\n\n- Track and report security metrics (vulnerability remediation SLAs, MTTR, patch latency, critical findings) and keep reporting current for the Security Officer.\n\n- Implement, configure, and maintain security tooling across our development and cloud environments.\n\n- Support security incident response, including investigation, containment, remediation, and follow-up.\n\n- Maintain clear, complete, and auditable records of vulnerability and incident work in our tracking systems.\n\n- Build security automation and guardrails that scale across the development lifecycle: CI/CD security checks, policy-as-code, GitHub automation, and automated cloud security controls, so secure defaults are enforced by tooling rather than review.\n\n- Participate in threat modeling and architecture reviews for new services and major changes.\n\nWe are also building out our ISMS, which creates opportunities to contribute to security-tooling evaluations, technical vendor assessments, and proof-of-concept work. Formal compliance ownership, vendor risk assessments, and customer security questionnaires remain with the Security Officer.\n\nThis is a hands-on technical role focused on security engineering, vulnerability management, and incident response. The Security Officer owns compliance, formal third-party risk assessments, and customer security questionnaires, allowing you to focus primarily on engineering work. On-call expectations are low: there is no formal rotation, though occasional availability for high-severity incidents is expected.\n\nWHO YOU ARE\n\n- You can read and navigate an unfamiliar codebase (Rust, Go, Python) well enough to validate a vulnerability report, trace its impact, and judge whether a proposed fix actually closes it.\n\n- You write and maintain automation and security tooling comfortably, and can hold a credible technical conversation in code review.\n\n- Experience triaging vulnerability reports or working with a bug bounty program, vulnerability disclosure program, product security team, or similar function.\n\n- Practical knowledge of cloud and container security, particularly AWS and Kubernetes.\n\n- Familiarity with GitHub security features and securing CI/CD pipelines.\n\n- The ability to investigate alerts and vulnerabilities methodically, distinguish genuine risk from noise, and recommend proportionate remediation.\n\n- Clear written communication skills for working with external researchers and internal engineering teams.\n\n- A self-directed approach and comfort independently managing a security queue.\n\n- 3+ years in a hands-on security engineering, product security, or vulnerability management role.\n\nNice to have\n\n- An offensive security background, such as penetration testing, CTF participation, vulnerability research, or exploit analysis.\n\n- Experience working in an open-source company or contributing security improvements to open-source projects.\n\n- Familiarity with cloud-native incident response.\n\nWHY JOIN US\n\n- A remote-first, international team working on cutting-edge AI infrastructure.\n\n- A competitive salary with additional perks.\n\n- Flexible working hours and async-friendly culture.\n\n- High ownership and real impact.\n\n- Open-source, engineering-driven culture.\n\n- Choose your own laptop equipment.\n\nFor US-based full-time employees, we also offer a comprehensive benefits package including 401k match, health, dental, and vision insurance, plus flexible PTO policy.\n\nQdrant is an equal-opportunity employer. We believe the best ideas come from diverse teams, and we actively welcome applicants from all backgrounds. If this role excites you but you don't check every single box, we'd still love to hear from you! We don't want to miss out on great people because of a checklist.\n\nCome build with us!\n\nFOR INFORMATION ON HOW WE HANDLE YOUR PERSONAL DATA, PLEASE REFER TO OUR RECRUITMENT PRIVACY POLICY https://qdrant.tech/legal/recruitment-privacy-policy/\n\n#LI-REMOTE",
     "salary": "",
     "employment_type": "FullTime",
@@ -9903,7 +10141,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 82,
+      "age_days": 84,
       "category": "older",
       "label": "OLDER POSTING - VERIFY ACTIVE"
     },
@@ -10740,7 +10978,7 @@
     "ats": "",
     "published_at": "2026-10-25T03:07:28Z",
     "first_seen": "2026-09-06T10:01:28Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "description": "Redefine the future of live entertainment tech\n\nWelcome to vivenu, the global leader in event ticketing tech and one of the world’s fastest-growing live entertainment tech firms. We are transforming event ticketing for global leaders like the Grammys, the Golden Globes, Stanford University and the Hockenheimring turning what was once a simple transaction into a strategic business advantage. Backed by over $65 million in funding, our platform empowers event organizers to own their brand experience, unlock deep data insights, and seamlessly integrate ticketing into their digital infrastructure.\n\nWith six offices worldwide and growing, we deliver a customizable, intuitive solution and industry-leading support that simplify even the most complex ticketing challenges – helping organizers deliver exceptional experiences and drive real growth.\n\nJoin us and build the future of live entertainment.\n\nWith over 10 million end users and usage quadrupling annually, our infrastructure now handles over 1 billion requests per month — and counting. Our API-first platform solves complex system challenges at scale — delivering performance, flexibility, and reliability for the world’s leading live entertainment brands.\n\nThis isn't just a maintenance role – it is a blank canvas to build, scale, and architect a state-of-the-art AppSec program from the ground up. We are currently operating at a fraction of our ultimate potential, which means you have an immense, blank-canvas opportunity to fundamentally shape our security culture, processes, and tooling across the entire global engineering organization.\n\nYou will drive the entire AppSec lifecycle: from offensive red teaming and threat modeling to risk-based vulnerability management and pioneering a true shift-left culture.\n\nWhat Makes This Role Challenging and Engaging:\n\nHigh-Impact Technical Environment: You won't just follow blueprints; you will holistically influence a shift-left architecture across both application and platform layers.\n\nModern Technology Stack: Dive into securing a massive TypeScript monolith alongside Go supporting services, giving you hands-on experience in modern language security and advanced GitHub CI/CD pipeline hardening.\n\nWeb and API: secure the application of the vivenu platform which provides customers with an out-of-the-box ticketing software as well as the underlying API structure\n\nComplex Multi-Cloud Architecture: Challenge your skills against a sophisticated multi-tenant, multi-region environment spanning k8s, GCP (our primary compute) and and separate database services\n\nCutting-Edge Deployment: Secure a next-gen Kubernetes \"satellite architecture\" utilizing hardened private compute nodes, VPC peering, and Argo CD for GitOps—a true, modern cloud-native security mandate.\n\nAs a Senior Security Engineer - AppSec (d/f/m) your responsibilities will include:\n\nBe a Trusted Advisor: Partner closely with engineering teams to champion security-by-design and elevate our overall security posture.\n\nOffensive & Defensive Testing: Coordinate and execute threat modeling and advanced security tests across our product and underlying infrastructure.\n\nLead Next-Gen Vulnerability Management: Drive triage and remediation using modern, risk-based principles like EPSS, while leveraging AI technologies to accelerate security testing at scale.\n\nPioneer Security-as-Code: Design, implement, and automate security checks and guardrails (SAST, DAST, and secret scanning) directly into CI/CD pipelines.\n\nReview & Refine: Perform deep-dive code and configuration reviews, advocating for secure coding practices that support a proactive shift-left strategy.\n\nWhat you will need to succeed in this role:\n\nExperience: 5+ years of dedicated Security Engineering experience, ideally within a high-growth SaaS, E-commerce, or Fintech environment.\n\nSaaS Deep-Dive: The ability to dive deep into the business logic of a complex SaaS application to uncover and verify elusive attack vectors.\n\nWeb and API Security Mastery: a deep understanding of web/API attack vectors and scalable best practices and how to run workloads securely in a cloud environment (k8s, AWS/GCP/Azure)\n\nOwnership: A proven track record of autonomously driving security initiatives from conception to completion.\n\nAutomation Mindset: Proficiency in at least one programming language for scripting and security tool development (bonus points for automating GRC evidence collection).\n\nEducation: A Bachelor’s or Master’s degree in Computer Science, Cybersecurity, IT, or a related technical field (or equivalent practical experience).\n\nPreferred:\n\nExperience navigating PCI DSS script security.\n\nA background in Red/Purple Team operations and advanced penetration testing, paired with the empathy and collaboration skills needed to help dev teams fix software vulnerabilities.\n\nHands-on experience with Terraform for securing infrastructure-as-code and integrating security testing.\n\nFamiliarity with our modern tech stack: GCP, Golang, and TypeScript.\n\nWhy join vivenu?\n\nLive Entertainment Tech\n\nPlay a mission-critical role for global brands, redefining fan experiences from festivals to major sports events. Here, you’re part of the business of fun — powered by cutting-edge technology that brings moments to life for millions.\n\nSustainable Growth\n\nWe scale sustainably on a profitable, VC-backed foundation with true product-market fit. This means continuous investment in our people, products, and long-term vision.\n\nTop-tier Team\n\nCollaborate with over 160 dedicated professionals, including leaders from Google, Slack, and Salesforce. Together, we’re shaping the future of live entertainment technology, one decision at a time.\n\nGlobal DNA\n\nWe’re a diverse, merit-driven team spread across six global offices. Talent and impact are what matter here — not hierarchy or background.\n\nFast Growing, in All Aspects\n\nSifted consistently ranks us among the fastest-growing scale-ups in Europe. We’re driven by daily learning, shared wins, and collective growth.\n\nNext-Gen Leaders & Insights\n\nWork alongside some of tech’s brightest minds — from Forbes 30 Under 30 founders to Executive of the Year award winners. At vivenu, you’ll help set the standard for the ticketing industry’s future.\n\nvivenu Inclusion Statement\n\nAt vivenu, we believe our people define our success – and that we win with bold, diverse minds. The strongest teams are built on different perspectives, experiences, and voices. We’re committed to creating a workplace where everyone feels empowered to contribute, grow, and thrive to shape the future of live entertainment globally.\n\nCheck out our mission statement and corporate values here.\n\nFind Jobs in Germany on Arbeitnow",
     "salary": "",
     "employment_type": "Full time",
@@ -10819,7 +11057,7 @@
       "Mandatory experience requirement is 5+ years",
       "Multiple explicitly mandatory skills are not evidenced"
     ],
-    "status": "UPDATED",
+    "status": "SEEN_BEFORE",
     "priority_employer": false,
     "tags": [
       "Product & Development"
@@ -10844,9 +11082,9 @@
     },
     "posting_age_analysis": {
       "known": true,
-      "age_days": 2,
-      "category": "new",
-      "label": "NEW - APPLY QUICKLY"
+      "age_days": 3,
+      "category": "recent",
+      "label": "RECENT"
     },
     "seniority_analysis": {
       "level": "senior",
@@ -11460,7 +11698,7 @@
     "ats": "personio",
     "published_at": "2026-10-13T14:32:45Z",
     "first_seen": "2026-10-16T10:02:11Z",
-    "last_seen": "2026-10-27T12:33:40Z",
+    "last_seen": "2026-10-28T13:21:27Z",
     "description": "WHO WE ARE\nWe prioritise privacy as a fundamental right, delivering the most secure communication experience across various industries. Our cutting-edge encryption technology and robust security measures have made us a trusted partner in the technology, finance, healthcare, and government sectors. If you are passionate about redefining secure communication and want to be part of an innovative team, join us as a Senior Security Engineer in our Security organisation. Together, let us build a world where privacy and security shape the future of communication.\n\nGENERAL INFORMATION\n\nEmployment Type: 12-month contract with the possibility of extension\n\nPrevious working experience: 5-7 years in Product Security\n\nWorking hours: 40hrs/week\n\nWorking Location: Remote EU / Berlin\n\nDesired start date: As soon as possible\n\nYOUR CHALLENGE AT WIRE\n\nBe ready to play an essential role by joining our Information Security Team. You will become a pioneer in transforming how organisations and governments communicate securely. You will work closely with the Director of Information Security and interact with the engineering, product, and other teams regularly. Your areas of work are:\n\nProduct Security\n\nYou review security- or privacy-critical changes and implement or propose solutions to potential issues\n\nYou help to maintain security documentation of the product with focus on product certifications\n\nYou communicate with internal and external stakeholders regarding product security topics\n\nYou support new feature development from a security point of view to identify possible security or privacy pitfalls early in the process\n\nYou contribute to internal security audits, risk assessments and threat modelling workshops\n\nYou conduct security awareness trainings regarding your field of responsibility\n\nPlatform Security\n\nYou are responsible for our Platform Security controls\n\nYou support technical due diligence to ensure compliance with information security and data protection requirements \n\nYou oversee the incident management process and team members involved in resolving the incident\n\nYou help to maintain documentation of security- and privacy-related processes\n\nYou support Wire’s identity and access management\n\nYou drive the implementation and maintenance of SecOps measures for our Platform\n\nYOUR PROFILE\n\nEssential requirements\n\nProficient understanding of secure software development practices, including threat modelling and security architecture review for products.\n\nHands-on experience assessing security and privacy risks in product features (e.g., authentication, encryption, data handling, APIs).\n\nWorking knowledge of cloud security fundamentals (e.g., AWS) and common infrastructure tools (Kubernetes, Terraform, Helm).\n\nExperience supporting security certifications/compliance frameworks (e.g., ISO 27001, GDPR).\n\nStrong communication skills and experience engaging both technical and non-technical stakeholders on security and privacy topics.\n\nStrong plus\n\nIdeally, you have relevant security and/or DevOps certifications, such as CKS, etc.\n\nYou are familiar with GitHub, Jira and Confluence.\n\nFurther qualifications and skills\n\nYou are a good communicator and you like to work in a team.\n\nYou are interested in and keep up with trends and news from the InfoSec world.\n\nYou are self-motivated to identify security problems and engage with teams to find solutions.\n\nYou like to do in-depth research on your own and present the results to the team.\n\nYou have programming experience, preferably with one or more of JavaScript, TypeScript, Swift, Kotlin, Java, Rust and Haskell.\n\nYou have a thorough understanding of security code reviews, bug triage based on common metrics like CVSS, and vulnerability management.\n\nYou have a practical, working understanding of basic cryptographic ciphers/algorithms and understand protocols or concepts like Elliptic Curve, TLS, Public Key Infrastructure and Messaging Layer Security.\n\nYou have a strong understanding of application security frameworks like OWASP Top 10.\n\nYou bring thorough knowledge of OAuth, SSO, Identity and Access Management systems.\n\nYou are willing to subject yourself to the S2 security check of the German Government.\n\nThis role can be performed remotely from Germany or another EU country. Regular travel to our Berlin office for workshops, and selected in-person collaboration sessions is expected.\n\nWHY WIRE?\n\nJoin a market-proven company with more than 1,000 customers and help Wire become the trusted secure communications partner for organisations that care deeply about security and privacy.\n\nParticipate in Wire’s long-term success through VSOPs.\n\n30 days of vacation entitlement, allowing you to take well-deserved time off and maintain a healthy work-life balance.\n\nWith an Urban Sports Club subscription, stay balanced and mentally and physically healthy.\n\nInvestment in professional development with an annual education budget of €1,000 and access to top-notch learning resources.\n\nWork from a beautiful office in the heart of Berlin or choose a mix of working from anywhere vs. spending selected days together in our office to connect on a personal level.\n\nEnjoy fresh breakfast in the office, daily fruits, snacks, free soft drinks, and a nice Barista coffee machine.\n\nWire is an equal opportunities employer and does not discriminate on the grounds of gender, civil status, family status, sexual orientation, religion, age, disability or race.\n\nCONTACT\nJoin us in shaping the future of secure communication. Click Apply now to submit your CV - we look forward to meeting you!\n\nIMPORTANT NOTE ON RECRUITMENT FRAUD\n\nAll Wire vacancies are published on our official careers page, and every application for this position runs through Personio, our official application portal. For this role we do not work with external recruitment agencies. At no point in the process will Wire, or any partner working on our behalf, ask you for payments, fees or bank details, and we never extend an offer without at least one live conversation with people from Wire. If someone contacts you claiming to represent Wire and you are unsure whether it is genuine, please get in touch with us via the support page on wire.com before you reply or share any personal data. We will check whether the contact is genuine.\n\n5-7 years of experience",
     "salary": "",
     "employment_type": "temporary / full-time",
@@ -11572,7 +11810,7 @@
     },
     "posting_age_analysis": {
       "known": true,
-      "age_days": 13,
+      "age_days": 14,
       "category": "current",
       "label": "OPEN FOR REVIEW"
     },

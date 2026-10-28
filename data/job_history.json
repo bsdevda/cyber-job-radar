@@ -8406,6 +8406,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-10-28T13:21:27Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 10005,
+      "security_title_candidates": 340,
+      "prefiltered_non_security_jobs": 9665,
+      "unique_jobs_after_deduplication": 254,
+      "duplicates_removed": 86,
+      "jobs_rejected_or_below_threshold": 9902,
+      "relevant_jobs_in_current_run": 17,
+      "new_jobs": 1,
+      "updated_jobs": 2,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 50,
+      "jobs_by_source": {
+        "arbeitnow": 2224,
+        "remotive": 11,
+        "linkedin_posts": 0,
+        "greenhouse": 6306,
+        "ashby": 237,
+        "lever": 1069,
+        "personio": 152,
+        "recruitee": 6
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 28.7,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2224,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 11,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 6306,
+          "requests": 68,
+          "errors": [],
+          "error": "",
+          "companies_checked": 68,
+          "companies_successful": 68,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 237,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1069,
+          "requests": 4,
+          "errors": [],
+          "error": "",
+          "companies_checked": 4,
+          "companies_successful": 4,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 152,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 6,
+          "requests": 1,
+          "errors": [],
+          "error": "",
+          "companies_checked": 1,
+          "companies_successful": 1,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -15632,6 +15745,30 @@
       "company": "Vivenu",
       "title": "Senior Security Engineer - AppSec (d/f/m)",
       "score": 59
+    },
+    {
+      "at": "2026-10-28T13:21:27Z",
+      "job_key": "565e052ce84fc91a01cc",
+      "event": "NEW",
+      "company": "Clariness GmbH",
+      "title": "Senior AI Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-10-28T13:21:27Z",
+      "job_key": "bd1b3b1bbb48fe52ce64",
+      "event": "UPDATED",
+      "company": "Market Cloud",
+      "title": "SAP Concur Consultant – Module Security",
+      "score": 63
+    },
+    {
+      "at": "2026-10-28T13:21:27Z",
+      "job_key": "eb01fcc2c3328f8c9e07",
+      "event": "UPDATED",
+      "company": "Alan",
+      "title": "🌐 Security & Legal Specialist - Customer Care",
+      "score": 65
     }
   ]
 }
