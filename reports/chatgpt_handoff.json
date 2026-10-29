@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T13:21:27Z",
+  "generated_at": "2026-10-29T13:30:59Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,42 +171,42 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-10-28T13:21:27Z",
+    "generated_at": "2026-10-29T13:30:59Z",
     "scoring_version": 2.2,
-    "jobs_collected": 10005,
-    "security_title_candidates": 340,
-    "prefiltered_non_security_jobs": 9665,
-    "unique_jobs_after_deduplication": 254,
-    "duplicates_removed": 86,
-    "jobs_rejected_or_below_threshold": 9902,
-    "relevant_jobs_in_current_run": 17,
-    "new_jobs": 1,
+    "jobs_collected": 8323,
+    "security_title_candidates": 305,
+    "prefiltered_non_security_jobs": 8018,
+    "unique_jobs_after_deduplication": 229,
+    "duplicates_removed": 76,
+    "jobs_rejected_or_below_threshold": 8232,
+    "relevant_jobs_in_current_run": 15,
+    "new_jobs": 0,
     "updated_jobs": 2,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
-    "sources_partial": 0,
+    "sources_partial": 1,
     "report_jobs": 50,
     "jobs_by_source": {
-      "arbeitnow": 2224,
-      "remotive": 11,
+      "arbeitnow": 2161,
+      "remotive": 12,
       "linkedin_posts": 0,
-      "greenhouse": 6306,
-      "ashby": 237,
-      "lever": 1069,
-      "personio": 152,
-      "recruitee": 6
+      "greenhouse": 5524,
+      "ashby": 270,
+      "lever": 168,
+      "personio": 184,
+      "recruitee": 4
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 28.7
+    "workflow_duration_seconds": 34.6
   },
   "source_status": {
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 2224,
+      "jobs": 2161,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 11,
+      "jobs": 12,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -230,18 +230,18 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 6306,
-      "requests": 68,
+      "jobs": 5524,
+      "requests": 58,
       "errors": [],
       "error": "",
-      "companies_checked": 68,
-      "companies_successful": 68,
+      "companies_checked": 58,
+      "companies_successful": 58,
       "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 237,
+      "jobs": 270,
       "requests": 9,
       "errors": [],
       "error": "",
@@ -250,31 +250,40 @@
       "companies_failed": 0
     },
     "lever": {
-      "status": "ok",
+      "status": "partial",
       "ok": true,
-      "jobs": 1069,
-      "requests": 4,
-      "errors": [],
-      "error": "",
-      "companies_checked": 4,
-      "companies_successful": 4,
-      "companies_failed": 0
+      "jobs": 168,
+      "requests": 3,
+      "errors": [
+        {
+          "source": "lever",
+          "company": "Pipedrive",
+          "http_status": null,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://api.lever.co/v0/postings/pipedrive?mode=json: The read operation timed out",
+          "message": "Lever | Pipedrive | RuntimeError | Request failed after 1 attempt(s): https://api.lever.co/v0/postings/pipedrive?mode=json: The read operation timed out"
+        }
+      ],
+      "error": "Lever | Pipedrive | RuntimeError | Request failed after 1 attempt(s): https://api.lever.co/v0/postings/pipedrive?mode=json: The read operation timed out",
+      "companies_checked": 3,
+      "companies_successful": 2,
+      "companies_failed": 1
     },
     "personio": {
       "status": "ok",
       "ok": true,
-      "jobs": 152,
-      "requests": 3,
+      "jobs": 184,
+      "requests": 6,
       "errors": [],
       "error": "",
-      "companies_checked": 3,
-      "companies_successful": 3,
+      "companies_checked": 6,
+      "companies_successful": 6,
       "companies_failed": 0
     },
     "recruitee": {
       "status": "ok",
       "ok": true,
-      "jobs": 6,
+      "jobs": 4,
       "requests": 1,
       "errors": [],
       "error": "",
@@ -287,7 +296,7 @@
     {
       "report_number": 1,
       "job_key": "565e052ce84fc91a01cc",
-      "status": "NEW",
+      "status": "UPDATED",
       "application_status": "NEW",
       "score": 69,
       "raw_score": 77,
@@ -342,10 +351,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-27T11:31:02Z",
-      "posting_age_days": 1,
+      "posting_age_days": 2,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 1,
+        "age_days": 2,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
@@ -406,7 +415,7 @@
       ],
       "recommendation": "REVIEW - material seniority, language, or skill risk",
       "description_excerpt": "Clariness is looking for a Senior AI Security Engineer (f/m/d) based Germany, UK, SA, or Serbia. - Full-time; unlimited - About the role: This role is about building, operating and continuously improving Clariness’ security capabilities across applications, cloud infrastructure and AI systems. As our founding-level security hire, you will establish the security engineering function, define its priorities and work directly with engineering teams to embed effective security controls throughout our technology environment. As a Senior AI Security Engineer, you would be responsible for: Defining Clariness’ security engineering strategy and roadmap, and building and operating the security function across application security, cloud security, AI and LLM security, vulnerability management and supporting security tooling. Working directly with engineering teams on secure system design, threat modelling, penetration testing and vulnerability remediation, while embedding appropriate security controls into development processes and CI/CD pipelines. Owning AI security and governance across LLM-powered features, RAG systems and agentic pipelines, including assessing and mitigating risks covered…",
-      "full_description": "Clariness is looking for a Senior AI Security Engineer (f/m/d) based Germany, UK, SA, or Serbia.\n- Full-time; unlimited -\n\nAbout the role:\n\nThis role is about building, operating and continuously improving Clariness’ security capabilities across applications, cloud infrastructure and AI systems. As our founding-level security hire, you will establish the security engineering function, define its priorities and work directly with engineering teams to embed effective security controls throughout our technology environment.\n\nAs a Senior AI Security Engineer, you would be responsible for:\n\nDefining Clariness’ security engineering strategy and roadmap, and building and operating the security function across application security, cloud security, AI and LLM security, vulnerability management and supporting security tooling.\n\nWorking directly with engineering teams on secure system design, threat modelling, penetration testing and vulnerability remediation, while embedding appropriate security controls into development processes and CI/CD pipelines.\n\nOwning AI security and governance across LLM-powered features, RAG systems and agentic pipelines, including assessing and mitigating risks covered by the OWASP Top 10 for LLM Applications.\n\nDesigning and validating safeguards for AI agents, including sandboxing, privilege and access controls, secure tool use and adversarial red teaming of AI systems.\n\nEvaluating, deploying and continuously improving AI-powered security automation, including autonomous vulnerability triage, LLM-powered alert analysis, compliance evidence gathering and AI-assisted threat intelligence.\n\nAssessing commercial and open-source security tools based on effectiveness, operational fit and cost, and developing custom solutions where existing tooling does not meet Clariness’ requirements.\n\nManaging Clariness’ IT security compliance programme—including SOC 2 Type II, applicable EU AI Act high-risk obligations, GDPR Article 32 technical measures and GxP IT security controls—while maintaining audit-ready documentation and acting as the primary security liaison for external auditors, regulators, Legal and Compliance.\n\nWe would like you to have: \n\nAt least five years of hands-on experience in security engineering, application security or information security, with strong technical depth beyond advisory or governance responsibilities.\n\nProven experience building or significantly developing a security programme within a product engineering environment, ideally as an early or founding security hire.\n\nStrong practical experience across application security, cloud security, secure software development, threat modelling, penetration testing, vulnerability management and security controls within CI/CD pipelines.\n\nExperience assessing, testing or implementing security controls for LLM-powered applications, RAG systems or agentic pipelines.\n\nHands-on experience with AI agents, either building them for security automation or securing them through adversarial testing, sandboxing and privilege controls.\n\nDemonstrable compliance experience involving at least one SOC 2 audit cycle, GDPR programme ownership or implementation of EU AI Act requirements, including the ability to produce audit-ready documentation and work with external auditors.\n\nExperience in a regulated industry such as clinical research, pharmaceuticals, healthtech or fintech, with knowledge of GxP or comparable regulated data-handling requirements considered a strong advantage, alongside strong English communication skills at C1 level.\n\nYou may ask now, why should I work for you? Let us give you a few reasons – and you'll learn more during the process.\n\nA varied and exciting job with a lot of personal responsibility in an international company, where you can develop and expand your skills.\n\nProfessional and personal development opportunities - incl. personal development budget.\n\nFlexible working hours and mobile working.\n\nRegular team events and open feedback culture.\n\nA versatile field of activity and challenging projects.\n\nA supportive and open company culture, providing the opportunity to collaborate with a diverse and professional team.\n\nImpact healthcare by accelerating medical innovation through improved access to clinical trials, potentially bringing needed treatments to patients faster.\n\nHow to apply & what to expect:\n\nApply via link (CV only; no cover letter required).\n\nIntroductory call (30 min) → Technical interview → Senior Leadership Interview → Demo Day → Decision.\n\nWe aim to move promptly and keep you updated at every step.\n\nAt Clariness, we are proud to be an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees, regardless of race, religion, gender, sexual orientation, national origin, disability or age.\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
+      "full_description": "Clariness is looking for a Senior AI Security Engineer (f/m/d) based Germany, UK, SA, or Serbia.\n- Full-time; unlimited -\n\nAbout the role:\n\nThis role is about building, operating and continuously improving Clariness’ security capabilities across applications, cloud infrastructure and AI systems. As our founding-level security hire, you will establish the security engineering function, define its priorities and work directly with engineering teams to embed effective security controls throughout our technology environment.\n\nAs a Senior AI Security Engineer, you would be responsible for:\n\nDefining Clariness’ security engineering strategy and roadmap, and building and operating the security function across application security, cloud security, AI and LLM security, vulnerability management and supporting security tooling.\n\nWorking directly with engineering teams on secure system design, threat modelling, penetration testing and vulnerability remediation, while embedding appropriate security controls into development processes and CI/CD pipelines.\n\nOwning AI security and governance across LLM-powered features, RAG systems and agentic pipelines, including assessing and mitigating risks covered by the OWASP Top 10 for LLM Applications.\n\nDesigning and validating safeguards for AI agents, including sandboxing, privilege and access controls, secure tool use and adversarial red teaming of AI systems.\n\nEvaluating, deploying and continuously improving AI-powered security automation, including autonomous vulnerability triage, LLM-powered alert analysis, compliance evidence gathering and AI-assisted threat intelligence.\n\nAssessing commercial and open-source security tools based on effectiveness, operational fit and cost, and developing custom solutions where existing tooling does not meet Clariness’ requirements.\n\nManaging Clariness’ IT security compliance programme—including SOC 2 Type II, applicable EU AI Act high-risk obligations, GDPR Article 32 technical measures and GxP IT security controls—while maintaining audit-ready documentation and acting as the primary security liaison for external auditors, regulators, Legal and Compliance.\n\nWe would like you to have: \n\nAt least five years of hands-on experience in security engineering, application security or information security, with strong technical depth beyond advisory or governance responsibilities.\n\nProven experience building or significantly developing a security programme within a product engineering environment, ideally as an early or founding security hire.\n\nStrong practical experience across application security, cloud security, secure software development, threat modelling, penetration testing, vulnerability management and security controls within CI/CD pipelines.\n\nExperience assessing, testing or implementing security controls for LLM-powered applications, RAG systems or agentic pipelines.\n\nHands-on experience with AI agents, either building them for security automation or securing them through adversarial testing, sandboxing and privilege controls.\n\nDemonstrable compliance experience involving at least one SOC 2 audit cycle, GDPR programme ownership or implementation of EU AI Act requirements, including the ability to produce audit-ready documentation and work with external auditors.\n\nExperience in a regulated industry such as clinical research, pharmaceuticals, healthtech or fintech, with knowledge of GxP or comparable regulated data-handling requirements considered a strong advantage, alongside strong English communication skills at C1 level.\n\nYou may ask now, why should I work for you? Let us give you a few reasons – and you'll learn more during the process.\n\nA varied and exciting job with a lot of personal responsibility in an international company, where you can develop and expand your skills.\n\nProfessional and personal development opportunities - incl. personal development budget.\n\nFlexible working hours and mobile working.\n\nRegular team events and open feedback culture.\n\nA versatile field of activity and challenging projects.\n\nA supportive and open company culture, providing the opportunity to collaborate with a diverse and professional team.\n\nImpact healthcare by accelerating medical innovation through improved access to clinical trials, potentially bringing needed treatments to patients faster.\n\nHow to apply & what to expect:\n\nApply via link (CV only; no cover letter required).\n\nIntroductory call (30 min) → Technical interview → Senior Leadership Interview → Demo Day → Decision.\n\nWe aim to move promptly and keep you updated at every step.\n\nAt Clariness, we are proud to be an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees, regardless of race, religion, gender, sexual orientation, national origin, disability or age.\n\nFind Jobs in Germany on Arbeitnow",
       "skill_requirements": [
         {
           "skill": "application security",
@@ -1311,164 +1320,6 @@
     },
     {
       "report_number": 7,
-      "job_key": "97e10fb205544ff97e76",
-      "status": "NEW",
-      "application_status": "NEW",
-      "score": 69,
-      "raw_score": 76,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "score_label": "REVIEW",
-      "title": "Security Engineer, Incident Response",
-      "company": "Twilio",
-      "location": "Unspecified",
-      "location_analysis": {
-        "category": "eligible_worldwide_remote",
-        "eligible": true,
-        "score": 11,
-        "reason": "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
-        "verification_required": true,
-        "score_cap": 89,
-        "scope": "Worldwide remote",
-        "work_model": "Remote"
-      },
-      "location_scope": "Worldwide remote",
-      "working_model": "Remote",
-      "role_family": {
-        "id": "soc_detection",
-        "label": "SOC / Detection and Response",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "incident response",
-          "siem",
-          "incident response"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/twilio/security-engineer-incident-response-23554",
-      "apply_url": "https://www.arbeitnow.co.uk/jobs/companies/twilio/security-engineer-incident-response-23554",
-      "canonical_url": "https://www.arbeitnow.co.uk/jobs/companies/twilio/security-engineer-incident-response-23554",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-09-29T00:55:08Z",
-      "posting_age_days": 0,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 0,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-09-29T11:29:05Z",
-      "experience_required": "3+ years",
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [],
-        "partial": [
-          "aws",
-          "incident response",
-          "siem"
-        ],
-        "missing": [],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience in either AWS, GCP, or other large cloud platform"
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Proven experience: 3+ years of security incident response in a production-cloud environment"
-        },
-        {
-          "skill": "siem",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with SIEM platforms and the ability to extend their functionality"
-        }
-      ],
-      "potential_gaps": [],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 14,
-        "experience": 12,
-        "location": 11,
-        "language": 10,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: SOC / Detection and Response.",
-        "Worldwide/anywhere remote eligibility detected; verify employment from Germany.",
-        "The detected experience requirement is within or close to the 2+ year profile."
-      ],
-      "warnings": [
-        "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
-        "Requests 3+ years versus approximately 2.1 years in the profile.",
-        "Mandatory gaps: aws, incident response, siem",
-        "Exposure only; do not claim deep expertise: aws, incident response, siem",
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "Who we are At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work, and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. . Hiring and how we work We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions! Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. . See yourself at Twilio Join the team as Twilio’s next Security Engineer, Incident Response About the job The Security Incident Response Team (SIRT) is looking for a Security Engineer who is passionate about solving Twi…",
-      "full_description": "Who we are \n\nAt Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experiences.\n\nOur dedication to remote-first work, and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands.\n.\n\nHiring and how we work\n\nWe use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions! \n\nAlso, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. \n.\n\nSee yourself at Twilio\n\nJoin the team as Twilio’s next Security Engineer, Incident Response\n\nAbout the job\n\nThe Security Incident Response Team (SIRT) is looking for a Security Engineer who is passionate about solving Twilio’s mission of security and reliability by working across the organization to lead the technical response to security events and incidents across Twilio’s global infrastructure, services and applications by effectively conducting triage, containment, remediation and driving post-incident betterments. You will work within a team that partners with R&D Engineering and R&D Business teams to develop scalable processes and technical solutions. \n\nYou will be a valued member of a team of deeply technical Security Engineers to focus on creating bespoke and standard Security response processes, enhancing our capabilities for threat mitigation and incident response, and then automating as much as you possibly can (and more)! You will help us to grow our global, scaled team and program.\n\nResponsibilities\n\nIn this role, you’ll:\n\nLead and support the response to all security events and incidents across Twilio’s complex global infrastructure, services and applications.\n\nBe responsible for documentation of incidents and projects you work on and craft best practices as runbooks and standard operating procedures to share knowledge across teams.\n\nWork cross-collaboratively to understand and help solve challenges related to a broad spectrum of threat actors and activity.\n\nWork to improve Twilio’s security and reliability posture by driving identified betterments from security events and incidents.\n\nRapidly acquire new technical skills and knowledge in a fast-paced, highly disruptive industry environment.\n\nOwn the security incident lifecycle, respond to incidents and participate in on-call rotation and participate in RCAs for security incidents.\n\nBuild, cultivate, and maintain positive relationships with internal customers to identify and facilitate solutions to increase the impact of the team’s work.\n\nProvide mentorship, support, and care for the team in a way that enables long-term career development, happiness, and success at scale.\n\nQualifications \n\nTwilio values diverse experiences from all kinds of industries, and we encourage everyone who meets the required qualifications to apply. If your career is just starting or hasn't followed a traditional path, don't let that stop you from considering Twilio. We are always looking for people who will bring something new to the table!\n\nRequired:\n\nProven experience: 3+ years of security incident response in a production-cloud environment \n\nSubject-matter expert on security issues and technologies\n\nAbility to utilize AI for comprehensive, complex security incident response activities delivering high fidelity detections\n\nAdvanced knowledge of service-oriented architectures, as well as experience with security tools and technologies fit for a cloud environment\n\nExperience working across a technology stack on difficult security challenges and initiatives\n\nExperience with SIEM platforms and the ability to extend their functionality\n\nExperience with SOAR tools and automating manual security processes\n\nExperience in either AWS, GCP, or other large cloud platform\n\nExcellent written and verbal communication skills\n\nAbility to influence and build effective working relationships with every level of the organization.\n\nDesired:\n\nAI Model Security & Posture Management: Support Implementation of controls and safeguards to prevent AI vulnerabilities, such as prompt injections, model evasion, and data poisoning\n\nAI-Driven Threat Response: Utilize GenAI and LLM-based security use cases to rapidly interpret alerts, reduce false positives, and contextualize threat data\n\nArtifact & Evidence Triage: Collects intrusion artifacts and forensically sound images to analyze malware, trojans, and source code.\n\nThreat Intelligence Integration: Monitors external vendor data and threat intelligence to analyze trends and proactively defend against emerging risks.\n\nLocation\n\nThis role will be remote, and based in Ireland or U.K.\n\nTravel \n\nWe prioritize connection and opportunities to build relationships with our customers and each other. For this role, you may be required to travel occasionally to participate in project or team in-person meetings.\n\nWhat We Offer\n\nWorking at Twilio offers many benefits, including competitive pay, generous time off, ample parental and wellness leave, healthcare, a retirement savings program, and much more. Offerings vary by location.\n\nTwilio thinks big. Do you?\n\nWe like to solve problems, take initiative, pitch in when needed, and are always up for trying new things. That's why we seek out colleagues who embody our values — something we call Twilio Magic. Additionally, we empower employees to build positive change in their communities by supporting their volunteering and donation efforts.\n\nSo, if you're ready to unleash your full potential, do your best work, and be the best version of yourself, apply now! If this role isn't what you're looking for, please consider other open positions.\n\n.\n\nStay alert to recruitment fraud\n\nWe care about your safety. Scammers sometimes impersonate Twilio recruiters through fake job postings, emails, websites, or messages. Please ensure you are engaging with an official @twilio.com email address. We will never ask for payment, gift cards, cryptocurrency, or banking information during the recruiting process. We do not make job offers without a formal interview process or conduct interviews exclusively through text-based messaging apps.\n\n. \n\nTwilio is proud to be an equal opportunity employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, reproductive health decisions, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, genetic information, political views or activity, or other applicable legally protected characteristics. We also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law. Qualified applicants with arrest or conviction records will be considered for employment in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act. Additionally, Twilio participates in the E-Verify program in certain locations, as required by law.\n\nFind more English Speaking Jobs in United Kingdom on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience in either AWS, GCP, or other large cloud platform"
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Proven experience: 3+ years of security incident response in a production-cloud environment"
-        },
-        {
-          "skill": "siem",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with SIEM platforms and the ability to extend their functionality"
-        }
-      ],
-      "german_analysis": {
-        "category": "none",
-        "level": "none",
-        "mandatory": false,
-        "label": "No German requirement detected",
-        "evidence": ""
-      },
-      "experience_analysis": {
-        "min_years": 3,
-        "max_years": null,
-        "optional": false,
-        "display": "3+ years",
-        "evidence": "Proven experience: 3+ years of security incident response in a production-cloud environment"
-      }
-    },
-    {
-      "report_number": 8,
       "job_key": "022b02e42c40ff735dbc",
       "status": "NEW",
       "application_status": "NEW",
@@ -1652,135 +1503,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 9,
-      "job_key": "eb01fcc2c3328f8c9e07",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 65,
-      "raw_score": 65,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "score_label": "REVIEW",
-      "title": "🌐 Security & Legal Specialist - Customer Care",
-      "company": "Alan",
-      "location": "Anywhere in France",
-      "location_analysis": {
-        "category": "eligible_worldwide_remote",
-        "eligible": true,
-        "score": 11,
-        "reason": "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
-        "verification_required": true,
-        "score_cap": 89,
-        "scope": "Worldwide remote",
-        "work_model": "Remote"
-      },
-      "location_scope": "Worldwide remote",
-      "working_model": "Remote",
-      "role_family": {
-        "id": "it_audit_grc",
-        "label": "IT Audit / GRC",
-        "priority": 3,
-        "confidence": "medium",
-        "evidence": [
-          "gdpr",
-          "compliance"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://www.arbeitnow.fr/jobs/companies/alan/security-legal-specialist-customer-care-anywhere-in-france-255516",
-      "apply_url": "https://www.arbeitnow.fr/jobs/companies/alan/security-legal-specialist-customer-care-anywhere-in-france-255516",
-      "canonical_url": "https://www.arbeitnow.fr/jobs/companies/alan/security-legal-specialist-customer-care-anywhere-in-france-255516",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-10-26T03:40:15Z",
-      "posting_age_days": 2,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 2,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-10-26T13:26:31Z",
-      "experience_required": "1-2 years",
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [],
-        "partial": [],
-        "missing": [
-          "gdpr"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "gdpr",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Have at least 1-2 years of experience in one of the following: GDPR / privacy operations, legal complaints handling in a regulated sector, or compliance ops in fintech, insurtech, or health"
-        }
-      ],
-      "potential_gaps": [],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 12,
-        "skills": 4,
-        "experience": 15,
-        "location": 11,
-        "language": 10,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Worldwide/anywhere remote eligibility detected; verify employment from Germany.",
-        "The detected experience requirement is within or close to the 2+ year profile."
-      ],
-      "warnings": [
-        "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
-        "Mandatory gaps: gdpr",
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "Health can’t wait. Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t. Alan exists to end the wait. Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way. So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience. We are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR. Prevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond. 🚀 The Challenge Alan is a leading European health insurer with over 1 mil…",
-      "full_description": "Health can’t wait. \n\nNot for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t.\n\nAlan exists to end the wait.\n\nHealth is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way.\n\nSo we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience.\n\nWe are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR.\n\nPrevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond.\n\n🚀 The Challenge\n\nAlan is a leading European health insurer with over 1 million members across 4 countries (France, Belgium, Spain, Canada). At its core, Alan is a tech company that believes exceptional member experience is a competitive advantage: fast, empathetic, and reliable service at scale. As of Q1 2026, 40% of conversations are handled automatically.\n\nAt the intersection of Care, Legal, Security, and Data Protection sits a set of topics that are as operationally complex as they are strategically critical: data breaches, GDPR rights requests, security incidents, legal complaints, regulatory reporting.\n\nWe are looking for a Care Legal & Security Specialist to own these topics end-to-end: handling complex cases in close collaboration with Alan's Legal and DPO teams, building the processes and training that allow our ~300 Care agents to manage them with confidence, and identifying where AI and automation can reduce manual load. As Alan accelerates across four countries, what you build in France gets replicated in Spain, Belgium, and Canada: your work doesn't stay local.\n\nThis is not a pure legal role, and it is not a pure ops role. You handle regulatory cases, improve the processes that prevent them from recurring, and scale what works across countries. You will be embedded within our Operational Excellence team, working in close collaboration with Care Ops and the Corporate Unit.\n\n👨‍🚀 Missions\n\n1/ Operational run (60%)\n\nHandle complex security incidents, GDPR cases, and legal complaints escalated from Care agents, including CNIL notifications (drafted in close collaboration with Legal and DPO, within the 72-hour regulatory deadline), account takeover situations, Level 2 and Level 3 complaints, and incoming legal mail\n\nManage interactions with external stakeholders (CNIL, Insurance Ombudsman, Signal Conso) with precision and within regulatory deadlines\n\nOwn KPI monitoring and reporting for legal and security matters; organize yearly complaints reporting for Alan's Board; identify trends and escalate systemic issues to Product teams early\n\n2/ Scalability: process, tools, and training (20%)\n\nDesign and continuously improve workflows, escalation paths, macros, and help center content so Care agents can handle legal and security cases autonomously at L1 and L2\n\nIdentify simplification and automation opportunities across legal and security operations, then collaborate with Care Ops and Product crews to deploy them, rather than solving each case manually\n\nBuild and maintain training materials (case studies, Q&As, simulations), so Care Experts develop real judgment, not just process familiarity\n\nEnsure regulatory training completion across the team\n\n3/ Globalization (20%)\n\nTranslate processes, frameworks, and training materials built for France into resources that Care and Legal/Compliance teams in other countries can adopt\n\nCoordinate actively with counterparts in other countries to share learnings, align on best practices, and anticipate regulatory divergences\n\nBuild shared resources so that when a new country goes live, the Care Legal & Security function isn't starting from scratch\n\nTo deliver on those missions, you will:\n\nSupport Care Experts participating in the Legal & Security taskforce: build their judgment on complex and ambiguous cases, be the primary escalation reference for Care agents facing difficult legal or security situations\n\nCollaborate with the Corporate Unit Lead and Care Ops to shape the Care roadmap on legal and security topics; translate regulatory constraints into executable processes and surface operational insights that should inform policy or product decisions\n\n⭐ You'll excel in this role if you:\n\nDeliver reliably on high-stakes, deadline-driven cases with a real member-centric mindset\n\nHave at least 1-2 years of experience in one of the following: GDPR / privacy operations, legal complaints handling in a regulated sector, or compliance ops in fintech, insurtech, or health\n\nCommunicate with precision and adapt to your audience, whether you're briefing a legal expert, aligning with a product team, or coaching a front-line agent. You get buy-in from agents and managers who didn't ask for a new process, and that's as important as designing the process itself\n\nSpot simplification opportunities and know how to turn them into projects: you identify what should be automated or redesigned, then drive the collaboration with Care Ops and Product to make it happen\n\nAre comfortable navigating regulatory frameworks (GDPR, complaint handling, CNIL) without being a lawyer; you know when to escalate and when to own it, and you're backed by Legal and DPO experts at Alan\n\nAre comfortable making judgment calls in ambiguous situations and moving forward without waiting for all the answers.\n\nAre fluent in French (C1+ written and spoken, essential for CNIL notifications, ombudsman responses, and legal correspondence) and proficient in English for internal Alan collaboration\n\nNo prior legal qualification is required but a background in law is a genuine plus. We are looking for operational rigor, strong communication, and the appetite to build something that scales.\n\nFor this opportunity, we are aiming to hire within the B-C level range.\n\n🌍 How we work\n\nLocation: You must be legally eligible to work from France.\n\nRemote work: We offer remote work flexibility, but we value in-person collaboration.\n\n🎯 Important note: we hire people, not roles.\n\nIf you're excited about this opportunity but don't check every box, we'd love to hear from you. Everyone, no matter how underrepresented, should feel free to apply, as it can only bring learnings or success.\n\nIf you identify yourself as a woman: Did you know that research shows women often apply only when meeting 100% of requirements?\n\nRemember, this is just a guide, not a checklist. We'll be thrilled to receive your application!\n\n🔖 Check out our About Alan and Career pages, as well as our Medium, blog and Glassdoor page for more info.\n\nYou want to know more about Alan?\n\n🙌 Perks & Benefits: Alaners are provided with a stimulating environment and perks ensuring they are happy, efficient and spend only high-quality time with co-workers.\n\n🤘A strong culture: People joining Alan are often surprised and delighted by our innovative working method. We have a set of cultural values that guide our approach to work\n\nFind Jobs in France on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "gdpr",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Have at least 1-2 years of experience in one of the following: GDPR / privacy operations, legal complaints handling in a regulated sector, or compliance ops in fintech, insurtech, or health"
-        }
-      ],
-      "german_analysis": {
-        "category": "none",
-        "level": "none",
-        "mandatory": false,
-        "label": "No German requirement detected",
-        "evidence": ""
-      },
-      "experience_analysis": {
-        "min_years": 1,
-        "max_years": 2,
-        "optional": false,
-        "display": "1-2 years",
-        "evidence": "Have at least 1-2 years of experience in one of the following: GDPR / privacy operations, legal complaints handling in a regulated sector, or compliance ops in fintech, insurtech, or health"
-      }
-    },
-    {
-      "report_number": 10,
+      "report_number": 8,
       "job_key": "bd1b3b1bbb48fe52ce64",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1829,10 +1552,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-27T07:30:40Z",
-      "posting_age_days": 1,
+      "posting_age_days": 2,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 1,
+        "age_days": 2,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
@@ -1864,8 +1587,305 @@
       "warnings": [],
       "recommendation": "REVIEW - material seniority, language, or skill risk",
       "description_excerpt": "Your role at Market Cloud Market Cloud delivers IT services and consulting across the European Economic Area, supporting clients with specialized enterprise software expertise. This fixed-term contract role focuses entirely on SAP Concur Module Security, where you will manage, configure, and secure Concur environments for clients on a remote basis. What you will do Configure and maintain SAP Concur security profiles, user roles, and authorization concepts. Collaborate with clients to translate access requirements into secure, functional Concur configurations. Troubleshoot and resolve security-related incidents and audit findings within SAP Concur. Support deployment activities and continuous improvement initiatives for module security enhancements. What we are looking for Proven experience in SAP Concur consulting with a primary focus on module security. Strong understanding of authorization concepts, role design, and access governance within enterprise environments. Ability to communicate technical security requirements clearly to business users and stakeholders. Working with us You will receive 24 vacation days per year across your 40-hour work week on this 12-month contract. Yo…",
-      "full_description": "Your role at Market Cloud\n\nMarket Cloud delivers IT services and consulting across the European Economic Area, supporting clients with specialized enterprise software expertise. This fixed-term contract role focuses entirely on SAP Concur Module Security, where you will manage, configure, and secure Concur environments for clients on a remote basis.\n\nWhat you will do\n\nConfigure and maintain SAP Concur security profiles, user roles, and authorization concepts.\n\nCollaborate with clients to translate access requirements into secure, functional Concur configurations.\n\nTroubleshoot and resolve security-related incidents and audit findings within SAP Concur.\n\nSupport deployment activities and continuous improvement initiatives for module security enhancements.\n\nWhat we are looking for\n\nProven experience in SAP Concur consulting with a primary focus on module security.\n\nStrong understanding of authorization concepts, role design, and access governance within enterprise environments.\n\nAbility to communicate technical security requirements clearly to business users and stakeholders.\n\nWorking with us\n\nYou will receive 24 vacation days per year across your 40-hour work week on this 12-month contract.\n\nYour first months at Market Cloud\n\nDuring your initial months, you will take on active client security configurations, resolve incoming access incidents, and ship module enhancements across remote project teams. If you meet most of these requirements and are ready to support specialized SAP Concur implementations, we encourage you to apply.\n\nFind Jobs in Germany on Arbeitnow",
+      "full_description": "Your role at Market Cloud\n\nMarket Cloud delivers IT services and consulting across the European Economic Area, supporting clients with specialized enterprise software expertise. This fixed-term contract role focuses entirely on SAP Concur Module Security, where you will manage, configure, and secure Concur environments for clients on a remote basis.\n\nWhat you will do\n\nConfigure and maintain SAP Concur security profiles, user roles, and authorization concepts.\n\nCollaborate with clients to translate access requirements into secure, functional Concur configurations.\n\nTroubleshoot and resolve security-related incidents and audit findings within SAP Concur.\n\nSupport deployment activities and continuous improvement initiatives for module security enhancements.\n\nWhat we are looking for\n\nProven experience in SAP Concur consulting with a primary focus on module security.\n\nStrong understanding of authorization concepts, role design, and access governance within enterprise environments.\n\nAbility to communicate technical security requirements clearly to business users and stakeholders.\n\nWorking with us\n\nYou will receive 24 vacation days per year across your 40-hour work week on this 12-month contract.\n\nYour first months at Market Cloud\n\nDuring your initial months, you will take on active client security configurations, resolve incoming access incidents, and ship module enhancements across remote project teams. If you meet most of these requirements and are ready to support specialized SAP Concur implementations, we encourage you to apply.\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
       "skill_requirements": [],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 9,
+      "job_key": "aeed9275b0fec6f82691",
+      "status": "UPDATED",
+      "application_status": "NEW",
+      "score": 61,
+      "raw_score": 61,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "Senior title is above the profile's current 2+ years",
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "score_label": "REVIEW",
+      "title": "Senior Security Assurance Specialist",
+      "company": "sumup",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin remote role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Remote"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "it_audit_grc",
+        "label": "IT Audit / GRC",
+        "priority": 3,
+        "confidence": "medium",
+        "evidence": [
+          "iso 27001",
+          "internal audit"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://www.arbeitnow.com/jobs/companies/sumup/senior-security-assurance-specialist-berlin-298521",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/sumup/senior-security-assurance-specialist-berlin-298521",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/sumup/senior-security-assurance-specialist-berlin-298521",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-09-30T23:55:18Z",
+      "posting_age_days": 1,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 1,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-10-01T11:44:36Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [],
+        "partial": [
+          "nist"
+        ],
+        "missing": [
+          "iso 27001",
+          "rust"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Strong knowledge of information security standards such as ISO 27001 and NIST, plus payment security standards like PCI DSS"
+        },
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Strong knowledge of information security standards such as ISO 27001 and NIST, plus payment security standards like PCI DSS"
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Our security assurance team keeps SumUp's information security programme credible, both to regulators and to the millions of merchants who trust us with their business."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 12,
+        "skills": 7,
+        "experience": 10,
+        "location": 15,
+        "language": 10,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Berlin remote role."
+      ],
+      "warnings": [
+        "Mandatory gaps: iso 27001, nist",
+        "Potential gaps: rust",
+        "Exposure only; do not claim deep expertise: nist",
+        "Senior title is above the profile's current 2+ years",
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "Location: Office First - Berlin Team description Our security assurance team keeps SumUp's information security programme credible, both to regulators and to the millions of merchants who trust us with their business. As part of a small global team spanning Europe, Brazil and Chile, you'll help translate frameworks like ISO 27001, PCI DSS and NIST into practical controls that hold up under real audits and real third-party scrutiny. This is a chance to shape how a fast-growing fintech proves its security maturity across multiple regulatory environments at once, with real ownership over the areas you improve. What you'll do Review information security controls, audit findings and risk mitigation plans, working with other teams to put the right fixes in place Run third-party due diligence, supplier reviews and contract assessments as part of the third-party risk management process Partner with stakeholders across the business to promote strong security practices and help embed security principles into their day-to-day processes Support external and internal audits and due diligence requests, responding directly to auditors, clients and partners Track relevant laws, regulations and se…",
+      "full_description": "Location: Office First - Berlin\n\nTeam description\n\nOur security assurance team keeps SumUp's information security programme credible, both to regulators and to the millions of merchants who trust us with their business. As part of a small global team spanning Europe, Brazil and Chile, you'll help translate frameworks like ISO 27001, PCI DSS and NIST into practical controls that hold up under real audits and real third-party scrutiny. This is a chance to shape how a fast-growing fintech proves its security maturity across multiple regulatory environments at once, with real ownership over the areas you improve.\n\nWhat you'll do\n\nReview information security controls, audit findings and risk mitigation plans, working with other teams to put the right fixes in place\n\nRun third-party due diligence, supplier reviews and contract assessments as part of the third-party risk management process\n\nPartner with stakeholders across the business to promote strong security practices and help embed security principles into their day-to-day processes\n\nSupport external and internal audits and due diligence requests, responding directly to auditors, clients and partners\n\nTrack relevant laws, regulations and security standards, flagging gaps against SumUp's existing controls\n\nHelp maintain and improve the team's security maturity picture, identifying priority areas and leading or supporting initiatives to close them\n\nYou'll be great for this role if...\n\nExperience reviewing and improving information security controls in a similar assurance or GRC-focused role\n\nStrong knowledge of information security standards such as ISO 27001 and NIST, plus payment security standards like PCI DSS\n\nComfort working with third party risk management and audit procedures, including supplier and contract reviews\n\nAbility to prioritise and simplify complex, sometimes ambiguous requests across different regulatory environments\n\nStrong communication skills and confidence engaging stakeholders at all levels, from engineering teams to external auditors\n\nWhy you should join SumUp\n\n🌎 Opportunity to work with SumUppers globally on large-scale fintech products used by millions of businesses worldwide, from our Berlin office. This involves an office-first setup \n\n🌈 Commitment to Diversity and Inclusion: be part of a workplace that values and promotes diversity, fostering an inclusive environment where everyone's perspectives are respected and embraced \n\n🚀 Enrolment onto our Virtual Stock Option programme: you will own a stake in SumUp's future success \n\n📚 A dedicated annual L&D budget of €2000 for your individual development, which can be used to attend conferences and/or advance your career through further education \n\n💶 A corporate pension scheme where we match up to 20% of your contributions\n\n🏖 Generous time off: enjoy 28 days of paid leave plus public holidays and special leave days \n\n🩺 Numerous other benefits such as Urban Sports Club subsidy, Kita placement assistance, subsidised office lunches \n\n🌴 Break4me: 1-month sabbatical after 3 years of service \n\n🔗 Referral Bonus: earn additional rewards by referring talented individuals to join the SumUp team\n\nAbout SumUp\n\nBe empowered to do more that matters.\n\nAt SumUp, we're on a mission to empower small businesses worldwide with simple, affordable tools that help them thrive. Today, over 4 million businesses in 38 markets rely on SumUp as their financial partner to manage payments, finance, and customer relationships.\n\nOur commitment to small businesses is reflected in our diverse team of over 3,000 SumUppers from over 90 nationalities, united by global collaboration and an innovative mindset. Our core values lay the foundation for who we are and what we stand for, shaping our work culture and driving our success. We foster inclusivity and a culture of continuous learning, providing a safe space for personal and professional growth. Our differences make us unique and strong as we strive to create an environment where everyone belongs and feels supported, no matter how they identify.\n\nSumUp is proud to be an Equal Employment Opportunity employer, actively seeking and embracing diversity in our workforce. We don't make hiring or employment decisions based on race, colour, religion or religious belief, ethnic or national origin, nationality, sex, gender, gender identity, sexual orientation, disability, age or any other basis protected by applicable laws or prohibited by company policy. Our commitment extends beyond recruitment to creating a safe and respectful workplace where harassment of any form is strictly prohibited. Discover more about our culture and opportunities on our careers website, and follow our journey on LinkedIn, Instagram, and TikTok.\n\nJob Application Tip\n\nWe recognise that candidates feel they need to meet 100% of the job criteria in order to apply for a job. Please note that this is only a guide. If you don’t tick every box, it’s ok too because it means you have room to learn and develop your career at SumUp.\n\nFind Jobs in Germany on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Strong knowledge of information security standards such as ISO 27001 and NIST, plus payment security standards like PCI DSS"
+        },
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Strong knowledge of information security standards such as ISO 27001 and NIST, plus payment security standards like PCI DSS"
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Our security assurance team keeps SumUp's information security programme credible, both to regulators and to the millions of merchants who trust us with their business."
+        }
+      ],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 10,
+      "job_key": "cd5cfcf928703cec5837",
+      "status": "UPDATED",
+      "application_status": "NEW",
+      "score": 60,
+      "raw_score": 60,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "Senior title is above the profile's current 2+ years"
+      ],
+      "score_label": "REVIEW",
+      "title": "Security Engineer Senior - GRC",
+      "company": "Alan",
+      "location": "Anywhere in France",
+      "location_analysis": {
+        "category": "eligible_worldwide_remote",
+        "eligible": true,
+        "score": 11,
+        "reason": "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
+        "verification_required": true,
+        "score_cap": 89,
+        "scope": "Worldwide remote",
+        "work_model": "Remote"
+      },
+      "location_scope": "Worldwide remote",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "it_audit_grc",
+        "label": "IT Audit / GRC",
+        "priority": 3,
+        "confidence": "high",
+        "evidence": [
+          "grc",
+          "iso 27001",
+          "internal audit",
+          "compliance"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-senior-grc-anywhere-in-france-113298",
+      "apply_url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-senior-grc-anywhere-in-france-113298",
+      "canonical_url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-senior-grc-anywhere-in-france-113298",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-10-21T02:40:14Z",
+      "posting_age_days": 4,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 4,
+        "category": "recent",
+        "label": "RECENT"
+      },
+      "urgency": "RECENT",
+      "first_seen": "2026-10-21T10:26:52Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "sast"
+        ],
+        "partial": [],
+        "missing": [
+          "iso 27001",
+          "rust"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "You own the full certification cycle (ISO 27001, HDS and those to come), and turn it into something teams use every day to prioritise, not a binder for auditors."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "This one is about earning our members' trust: every day, they share their diagnoses, their claims and their care with us."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 12,
+        "skills": 10,
+        "experience": 10,
+        "location": 11,
+        "language": 10,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Worldwide/anywhere remote eligibility detected; verify employment from Germany.",
+        "Evidenced matches include sast."
+      ],
+      "warnings": [
+        "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
+        "Potential gaps: iso 27001, rust",
+        "Senior title is above the profile's current 2+ years"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "Health can’t wait. Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t. Alan exists to end the wait. Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way. So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience. We are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR. Prevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond. 🛡️ The role Most GRC roles are about keeping auditors happy. This one is…",
+      "full_description": "Health can’t wait. \n\nNot for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t.\n\nAlan exists to end the wait.\n\nHealth is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way.\n\nSo we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience.\n\nWe are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR.\n\nPrevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond.\n\n🛡️ The role\n\nMost GRC roles are about keeping auditors happy. This one is about earning our members' trust: every day, they share their diagnoses, their claims and their care with us.\n\nYou'll own security governance and risk at Alan end to end. That means one clear framework across our certifications and regulations, which the whole company uses to decide what matters most. You set the direction, make the calls on risk, and help every team own its part.\n\nWe just earned our HDS certification, and there's much more to build as we grow from 1M to many millions of members, across more countries and regulators. That includes how we govern AI, which Alan uses across its products and operations.\n\nThis is a hands-on senior role. You do the work yourself, mentor the junior GRC engineer we're hiring alongside you, and grow the team over time.\n\n🚀 What you'll do\n\nMake our security framework a tool for the whole company. You own the full certification cycle (ISO 27001, HDS and those to come), and turn it into something teams use every day to prioritise, not a binder for auditors.\n\nBring the security view on regulation. Legal and Risk own the regulatory relationships. You bring the security answer: what the rules mean for how we protect data, and which controls make it work in practice.\n\nRun risk as an ongoing programme. You map and prioritise security risks, including AI risks, turn them into clear treatment plans, and feed them into company-wide risk decisions with the Risk team.\n\nHelp every team own its risks. You define the controls framework and the standards, while the teams who build and run our systems own the controls. You brief the board and audit committee, and you know which findings need an urgent call and which can wait for the quarterly report.\n\nOwn incident governance. You triage and escalate incidents, own business continuity and disaster recovery, and shape the security side of our regulatory incident reports.\n\nBe a credible partner to engineering. You work with engineering teams early on new designs and spot control gaps (access, encryption, logging) before they ship. You don't need to be an architect, but you can hold the conversation.\n\n🏗️ What you'll build\n\nOne governance model: clear ownership of risks and controls across teams, so security decisions don't bottleneck on one person.\n\nA living risk map: prioritised risks that actually drive company and engineering decisions.\n\nOne compliance backbone: a single control system across our countries and regulators, built to scale.\n\nAn automated evidence engine: evidence collected straight from engineering systems, so audits run continuously instead of as a quarterly rush.\n\nYou'll work closely with Legal, the Data Protection Officer, Internal Audit and Risk, and day to day with engineering and operations teams.\n\n⭐ What we're looking for\n\nYour team\n\nYou'll join Alan's Corporate team, which brings together our control functions: Risk, Corporate Governance & Internal Control, Legal, Compliance and Security. They share one mission: building what lets Alan operate at scale, safely and responsibly. Within that group, you carry the security governance and risk dimension, working hand in hand with the security engineers who run our infrastructure and platform security, and with a junior GRC engineer we're hiring alongside you. You'll be hands-on every day, building and owning the work yourself. Along the way, you'll mentor the junior engineer and help shape how GRC grows at Alan.\n\nWhat you bring\n\nYou want to build and own things yourself, and you enjoy helping someone else grow while you do it.\n\n6+ years in security, with real GRC ownership.\n\nYou've run a GRC roadmap in a certified or strongly regulated environment (ISO 27001, HDS, SOC 2, or regulated sectors like health, insurance or finance). You're comfortable working with certification auditors, and you can explain what a framework requires and why it makes sense for business teams.\n\nYou take a stand on risks, and you'd rather close one real risk than write ten policies.\n\nYou're fluent in French and English.\n\nA big plus\n\nYou've driven a certification or audit cycle end to end yourself.\n\nYou've automated compliance work, or you're eager to, and you have a view on where AI can help.\n\nYou've presented risk to senior leaders or a board.\n\nYou've mentored or onboarded someone before.\n\n🌍 How we work\n\nLocation: You must be legally eligible to work from France, Belgium or Spain.\n\nRemote work: We offer remote work flexibility.\n\n🎯 Important note: we hire people, not roles.\n\nIf you're excited about this opportunity but don't check every box, we'd love to hear from you. Everyone, no matter how underrepresented, should feel free to apply, as it can only bring learnings or success.\n\nRemember, this is just a guide, not a checklist. We'll be thrilled to receive your application!\n\n🔖 Check out our About Alan and Career pages, as well as our Medium, blog and Glassdoor page for more info.\n\nYou want to know more about Alan?\n\n🙌 Perks & Benefits: Alaners are provided with a stimulating environment and perks ensuring they are happy, efficient and spend only high-quality time with co-workers.\n\n🤘A strong culture: People joining Alan are often surprised and delighted by our innovative working method. We have a set of cultural values that guide our approach to work\n\nCompensation: €83K – €100K\n\nLevel D to E • €83K – €100K\n\nFind more English Speaking Jobs in France on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "You own the full certification cycle (ISO 27001, HDS and those to come), and turn it into something teams use every day to prioritise, not a binder for auditors."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "This one is about earning our members' trust: every day, they share their diagnoses, their claims and their care with us."
+        },
+        {
+          "skill": "sast",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "You triage and escalate incidents, own business continuity and disaster recovery, and shape the security side of our regulatory incident reports."
+        }
+      ],
       "german_analysis": {
         "category": "none",
         "level": "none",

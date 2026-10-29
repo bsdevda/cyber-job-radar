@@ -8519,6 +8519,128 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-10-29T13:30:59Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 8323,
+      "security_title_candidates": 305,
+      "prefiltered_non_security_jobs": 8018,
+      "unique_jobs_after_deduplication": 229,
+      "duplicates_removed": 76,
+      "jobs_rejected_or_below_threshold": 8232,
+      "relevant_jobs_in_current_run": 15,
+      "new_jobs": 0,
+      "updated_jobs": 2,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 1,
+      "report_jobs": 50,
+      "jobs_by_source": {
+        "arbeitnow": 2161,
+        "remotive": 12,
+        "linkedin_posts": 0,
+        "greenhouse": 5524,
+        "ashby": 270,
+        "lever": 168,
+        "personio": 184,
+        "recruitee": 4
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 34.6,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2161,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 12,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 5524,
+          "requests": 58,
+          "errors": [],
+          "error": "",
+          "companies_checked": 58,
+          "companies_successful": 58,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 270,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 168,
+          "requests": 3,
+          "errors": [
+            {
+              "source": "lever",
+              "company": "Pipedrive",
+              "http_status": null,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://api.lever.co/v0/postings/pipedrive?mode=json: The read operation timed out",
+              "message": "Lever | Pipedrive | RuntimeError | Request failed after 1 attempt(s): https://api.lever.co/v0/postings/pipedrive?mode=json: The read operation timed out"
+            }
+          ],
+          "error": "Lever | Pipedrive | RuntimeError | Request failed after 1 attempt(s): https://api.lever.co/v0/postings/pipedrive?mode=json: The read operation timed out",
+          "companies_checked": 3,
+          "companies_successful": 2,
+          "companies_failed": 1
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 184,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 4,
+          "requests": 1,
+          "errors": [],
+          "error": "",
+          "companies_checked": 1,
+          "companies_successful": 1,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -15769,6 +15891,36 @@
       "company": "Alan",
       "title": "🌐 Security & Legal Specialist - Customer Care",
       "score": 65
+    },
+    {
+      "at": "2026-10-29T13:30:59Z",
+      "job_key": "565e052ce84fc91a01cc",
+      "event": "UPDATED",
+      "company": "Clariness GmbH",
+      "title": "Senior AI Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-10-29T13:30:59Z",
+      "job_key": "bd1b3b1bbb48fe52ce64",
+      "event": "UPDATED",
+      "company": "Market Cloud",
+      "title": "SAP Concur Consultant – Module Security",
+      "score": 63
+    },
+    {
+      "at": "2026-10-29T13:30:59Z",
+      "job_key": "39a4143cefceeb7bc131",
+      "event": "REMOVED",
+      "company": "Eye Security",
+      "title": "Technical Information Security Officer (ISO)"
+    },
+    {
+      "at": "2026-10-29T13:30:59Z",
+      "job_key": "97e10fb205544ff97e76",
+      "event": "REMOVED",
+      "company": "Twilio",
+      "title": "Security Engineer, Incident Response"
     }
   ]
 }
