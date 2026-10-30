@@ -1,19 +1,19 @@
 # Employer Watchlist Health
 
-**Generated:** 2026-10-29T13:30:59Z
+**Generated:** 2026-10-30T13:19:58Z
 **Scan mode:** Daily
 **Configured employers:** 200
 **Healthy after a completed check:** 191
-**Cooling down:** 9
+**Cooling down:** 8
 **Invalid identifiers:** 8
 
 ## Scan coverage
 
-- **Greenhouse:** 58/172 selected; 107 scheduled for another batch; 7 cooling down
-- **Ashby:** 9/13 selected; 3 scheduled for another batch; 1 cooling down
-- **Lever:** 3/6 selected; 3 scheduled for another batch; 0 cooling down
-- **Personio:** 6/7 selected; 1 scheduled for another batch; 0 cooling down
-- **Recruitee:** 1/2 selected; 1 scheduled for another batch; 0 cooling down
+- **Greenhouse:** 60/172 selected; 106 scheduled for another batch; 6 cooling down
+- **Ashby:** 8/13 selected; 4 scheduled for another batch; 1 cooling down
+- **Lever:** 1/6 selected; 4 scheduled for another batch; 1 cooling down
+- **Personio:** 3/7 selected; 4 scheduled for another batch; 0 cooling down
+- **Recruitee:** 0/2 selected; 2 scheduled for another batch; 0 cooling down
 
 ## Verified security hiring watch
 

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T13:30:59Z",
+  "generated_at": "2026-10-30T13:19:58Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,42 +171,42 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-10-29T13:30:59Z",
+    "generated_at": "2026-10-30T13:19:58Z",
     "scoring_version": 2.2,
-    "jobs_collected": 8323,
-    "security_title_candidates": 305,
-    "prefiltered_non_security_jobs": 8018,
-    "unique_jobs_after_deduplication": 229,
-    "duplicates_removed": 76,
-    "jobs_rejected_or_below_threshold": 8232,
-    "relevant_jobs_in_current_run": 15,
+    "jobs_collected": 8860,
+    "security_title_candidates": 245,
+    "prefiltered_non_security_jobs": 8615,
+    "unique_jobs_after_deduplication": 189,
+    "duplicates_removed": 56,
+    "jobs_rejected_or_below_threshold": 8793,
+    "relevant_jobs_in_current_run": 11,
     "new_jobs": 0,
-    "updated_jobs": 2,
+    "updated_jobs": 0,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
-    "sources_partial": 1,
+    "sources_partial": 0,
     "report_jobs": 50,
     "jobs_by_source": {
-      "arbeitnow": 2161,
+      "arbeitnow": 2208,
       "remotive": 12,
       "linkedin_posts": 0,
-      "greenhouse": 5524,
-      "ashby": 270,
-      "lever": 168,
-      "personio": 184,
-      "recruitee": 4
+      "greenhouse": 6170,
+      "ashby": 234,
+      "lever": 103,
+      "personio": 133,
+      "recruitee": 0
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 34.6
+    "workflow_duration_seconds": 29.1
   },
   "source_status": {
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 2161,
+      "jobs": 2208,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -230,65 +230,56 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 5524,
-      "requests": 58,
+      "jobs": 6170,
+      "requests": 60,
       "errors": [],
       "error": "",
-      "companies_checked": 58,
-      "companies_successful": 58,
+      "companies_checked": 60,
+      "companies_successful": 60,
       "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 270,
-      "requests": 9,
+      "jobs": 234,
+      "requests": 8,
       "errors": [],
       "error": "",
-      "companies_checked": 9,
-      "companies_successful": 9,
+      "companies_checked": 8,
+      "companies_successful": 8,
       "companies_failed": 0
     },
     "lever": {
-      "status": "partial",
-      "ok": true,
-      "jobs": 168,
-      "requests": 3,
-      "errors": [
-        {
-          "source": "lever",
-          "company": "Pipedrive",
-          "http_status": null,
-          "exception_type": "RuntimeError",
-          "description": "Request failed after 1 attempt(s): https://api.lever.co/v0/postings/pipedrive?mode=json: The read operation timed out",
-          "message": "Lever | Pipedrive | RuntimeError | Request failed after 1 attempt(s): https://api.lever.co/v0/postings/pipedrive?mode=json: The read operation timed out"
-        }
-      ],
-      "error": "Lever | Pipedrive | RuntimeError | Request failed after 1 attempt(s): https://api.lever.co/v0/postings/pipedrive?mode=json: The read operation timed out",
-      "companies_checked": 3,
-      "companies_successful": 2,
-      "companies_failed": 1
-    },
-    "personio": {
       "status": "ok",
       "ok": true,
-      "jobs": 184,
-      "requests": 6,
-      "errors": [],
-      "error": "",
-      "companies_checked": 6,
-      "companies_successful": 6,
-      "companies_failed": 0
-    },
-    "recruitee": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 4,
+      "jobs": 103,
       "requests": 1,
       "errors": [],
       "error": "",
       "companies_checked": 1,
       "companies_successful": 1,
+      "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 133,
+      "requests": 3,
+      "errors": [],
+      "error": "",
+      "companies_checked": 3,
+      "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "recruitee": {
+      "status": "idle",
+      "ok": true,
+      "jobs": 0,
+      "requests": 0,
+      "errors": [],
+      "error": "",
+      "companies_checked": 0,
+      "companies_successful": 0,
       "companies_failed": 0
     }
   },
