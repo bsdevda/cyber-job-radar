@@ -1,18 +1,18 @@
 # Cybersecurity Job Radar
 
-**Date:** 2026-10-30
+**Date:** 2026-11-01
 **Scoring model:** v2.2
-**Raw postings collected:** 8860
-**Security-title candidates:** 245
-**Non-security titles skipped early:** 8615
-**Unique jobs after deduplication:** 189
-**New jobs:** 0
+**Raw postings collected:** 25440
+**Security-title candidates:** 877
+**Non-security titles skipped early:** 24563
+**Unique jobs after deduplication:** 673
+**New jobs:** 1
 **Updated jobs:** 0
-**Relevant jobs:** 11
+**Relevant jobs:** 15
 **Strong matches:** 0
 **Sources checked:** 8
 **Sources failed:** 0
-**Sources partially successful:** 0
+**Sources partially successful:** 2
 **Stored jobs excluded by current policy:** 360
 
 > **Strict scope:** Berlin on-site/hybrid/remote; Germany remote; Europe/EU/EMEA remote; worldwide/anywhere remote from Germany English-speaking roles only; German may be optional or require no more than verified A2.
@@ -21,23 +21,23 @@
 
 ## Jobs Collected by Source
 
-- **Arbeitnow:** 2208
+- **Arbeitnow:** 2039
 - **Remotive:** 12
 - **Linkedin_Posts:** 0
-- **Greenhouse:** 6170
-- **Ashby:** 234
-- **Lever:** 103
-- **Personio:** 133
-- **Recruitee:** 0
+- **Greenhouse:** 21546
+- **Ashby:** 462
+- **Lever:** 1201
+- **Personio:** 170
+- **Recruitee:** 10
 
 ## Employer Watchlist Scan
 
-- **Mode:** Daily
-- **Greenhouse:** 60/172 selected; 106 rotating; 6 cooling down
-- **Ashby:** 8/13 selected; 4 rotating; 1 cooling down
-- **Lever:** 1/6 selected; 4 rotating; 1 cooling down
-- **Personio:** 3/7 selected; 4 rotating; 0 cooling down
-- **Recruitee:** 0/2 selected; 2 rotating; 0 cooling down
+- **Mode:** Full
+- **Greenhouse:** 167/172 selected; 0 rotating; 5 cooling down
+- **Ashby:** 13/13 selected; 0 rotating; 0 cooling down
+- **Lever:** 6/6 selected; 0 rotating; 0 cooling down
+- **Personio:** 7/7 selected; 0 rotating; 0 cooling down
+- **Recruitee:** 2/2 selected; 0 rotating; 0 cooling down
 
 ## Application Tracker
 
@@ -45,7 +45,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 
 ## 🔥 TOP MATCHES
 
-### 15. IT Audit Manger / ICT Service Auditor
+### 14. IT Audit Manger / ICT Service Auditor
 
 - **Company:** N26
 - **Location:** Berlin, Germany
@@ -281,46 +281,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `0bc28b416edb95f3b45f`.
 
 
-### 6. Security Engineer - GRC
-
-- **Company:** Alan
-- **Location:** Anywhere in France
-- **Location eligibility:** Worldwide/anywhere remote eligibility detected; verify employment from Germany
-- **Working model:** Remote
-- **Role family:** IT Audit / GRC
-- **Seniority:** Mid-level or unspecified
-- **Source / ATS:** Arbeitnow / Not Identified
-- **Priority employer:** NO
-- **Posted:** 2026-09-30 (NEW - APPLY QUICKLY)
-- **First seen:** 2026-09-16
-- **Radar / application status:** UPDATED / NEW
-- **Job key:** `ca9ca2de50791397491c`
-- **Match score:** **69/100 - REVIEW**
-- **Direct job URL:** [Alan](https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-grc-anywhere-in-france-2281)
-
-**Strong matches:** cvss, python, vulnerability assessment
-
-**Partial matches:** nist, security auditing
-
-**Mandatory gaps:** nist
-
-**Potential gaps:** iso 27001, rust, secrets management
-
-**Optional gaps:** None detected
-
-**Experience:** No explicit years detected
-
-**German:** No German requirement detected
-
-**Why relevant:** Worldwide/anywhere remote eligibility detected; verify employment from Germany. Evidenced matches include cvss, python, vulnerability assessment.
-
-**Warnings:** Worldwide/anywhere remote eligibility detected; verify employment from Germany Mandatory gaps: nist Potential gaps: iso 27001, rust, secrets management Exposure only; do not claim deep expertise: nist, security auditing At least one explicitly mandatory skill has exposure only
-
-**Recommendation:** REVIEW - material seniority, language, or skill risk
-**Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `ca9ca2de50791397491c`.
-
-
-### 7. (Senior) Security Engineer - m/f/d
+### 6. (Senior) Security Engineer - m/f/d
 
 - **Company:** Langdock
 - **Location:** Berlin, Germany
@@ -359,7 +320,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `022b02e42c40ff735dbc`.
 
 
-### 8. SAP Concur Consultant – Module Security
+### 7. SAP Concur Consultant – Module Security
 
 - **Company:** Market Cloud
 - **Location:** Berlin, Germany
@@ -398,46 +359,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `bd1b3b1bbb48fe52ce64`.
 
 
-### 9. Senior Security Assurance Specialist
-
-- **Company:** sumup
-- **Location:** Berlin, Germany
-- **Location eligibility:** Berlin remote role
-- **Working model:** Remote
-- **Role family:** IT Audit / GRC
-- **Seniority:** Senior
-- **Source / ATS:** Arbeitnow / Not Identified
-- **Priority employer:** NO
-- **Posted:** 2026-09-30 (NEW - APPLY QUICKLY)
-- **First seen:** 2026-10-01
-- **Radar / application status:** UPDATED / NEW
-- **Job key:** `aeed9275b0fec6f82691`
-- **Match score:** **61/100 - REVIEW**
-- **Direct job URL:** [sumup](https://www.arbeitnow.com/jobs/companies/sumup/senior-security-assurance-specialist-berlin-298521)
-
-**Strong matches:** None detected
-
-**Partial matches:** nist
-
-**Mandatory gaps:** iso 27001, nist
-
-**Potential gaps:** rust
-
-**Optional gaps:** None detected
-
-**Experience:** No explicit years detected
-
-**German:** No German requirement detected
-
-**Why relevant:** Berlin remote role.
-
-**Warnings:** Mandatory gaps: iso 27001, nist Potential gaps: rust Exposure only; do not claim deep expertise: nist Senior title is above the profile's current 2+ years One explicitly mandatory skill is not evidenced
-
-**Recommendation:** REVIEW - material seniority, language, or skill risk
-**Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `aeed9275b0fec6f82691`.
-
-
-### 10. Security Engineer Senior - GRC
+### 8. Security Engineer Senior - GRC
 
 - **Company:** Alan
 - **Location:** Anywhere in France
@@ -476,7 +398,46 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `cd5cfcf928703cec5837`.
 
 
-### 11. Senior Network & Security Engineer (w/m/x/d)
+### 9. AI Security Engineer
+
+- **Company:** Menlosecurity
+- **Location:** EMEA - U.K.
+- **Location eligibility:** Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country
+- **Working model:** Remote
+- **Role family:** Security Engineering
+- **Seniority:** Mid-level or unspecified
+- **Source / ATS:** Arbeitnow / Not Identified
+- **Priority employer:** NO
+- **Posted:** 2026-10-30 (NEW - APPLY QUICKLY)
+- **First seen:** 2026-11-01
+- **Radar / application status:** NEW / NEW
+- **Job key:** `6943ccc7ff70c247e0a3`
+- **Match score:** **59/100 - STRETCH**
+- **Direct job URL:** [Menlosecurity](https://www.arbeitnow.co.uk/jobs/companies/menlosecurity/ai-security-engineer-bracknell-300427)
+
+**Strong matches:** python
+
+**Partial matches:** aws, docker, software development
+
+**Mandatory gaps:** aws, docker, kubernetes, software development, terraform
+
+**Potential gaps:** dlp, rust
+
+**Optional gaps:** None detected
+
+**Experience:** 2-4 years
+
+**German:** No German requirement detected
+
+**Why relevant:** Role family: Security Engineering. Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country. Evidenced matches include python. The detected experience requirement is within or close to the 2+ year profile.
+
+**Warnings:** Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country Mandatory gaps: aws, docker, kubernetes, software development, terraform Potential gaps: dlp, rust Exposure only; do not claim deep expertise: aws, docker, software development Multiple explicitly mandatory skills are not evidenced
+
+**Recommendation:** STRETCH - apply only after manually resolving the flagged risks
+**Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `6943ccc7ff70c247e0a3`.
+
+
+### 10. Senior Network & Security Engineer (w/m/x/d)
 
 - **Company:** MILES Mobility GmbH
 - **Location:** Berlin, Germany
@@ -515,7 +476,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `d262fcc8afaadd54451b`.
 
 
-### 12. Senior Security Engineer (f/m/d)
+### 11. Senior Security Engineer (f/m/d)
 
 - **Company:** Wire 1
 - **Location:** Berlin, Germany
@@ -554,7 +515,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `171bfc75c1783e9c88e5`.
 
 
-### 13. Security Engineer, Pre-Sales
+### 12. Security Engineer, Pre-Sales
 
 - **Company:** Vectranetworks
 - **Location:** Unspecified
@@ -593,7 +554,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `40b19b438b26cecdea1f`.
 
 
-### 14. Senior Security Engineer
+### 13. Senior Security Engineer
 
 - **Company:** Wavemm1
 - **Location:** Unspecified
@@ -632,7 +593,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `0d590abec071f857eb28`.
 
 
-### 16. Cloud Security Engineer
+### 15. Cloud Security Engineer
 
 - **Company:** Ygo
 - **Location:** Remote EU
@@ -671,7 +632,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `cc78a757c373716678d7`.
 
 
-### 17. Senior Software Engineer, Firefox Security
+### 16. Senior Software Engineer, Firefox Security
 
 - **Company:** Mozilla
 - **Location:** Remote Germany
@@ -710,7 +671,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `b420e12f1f07d8e20c57`.
 
 
-### 18. Security Engineer, SOC (all genders)
+### 17. Security Engineer, SOC (all genders)
 
 - **Company:** HelloFresh
 - **Location:** Berlin, Germany
@@ -749,7 +710,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `3256d24bfeb9b7759cfb`.
 
 
-### 19. Senior Product Security Engineer
+### 18. Senior Product Security Engineer
 
 - **Company:** Staffbase
 - **Location:** Berlin, Germany
@@ -788,7 +749,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `521c71dc83dfa3787db3`.
 
 
-### 20. Security Engineer (SOC) (m,f,x)
+### 19. Security Engineer (SOC) (m,f,x)
 
 - **Company:** HelloFresh
 - **Location:** Berlin, Germany
@@ -827,7 +788,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `57609de858cd85e028d6`.
 
 
-### 21. Security Engineer
+### 20. Security Engineer
 
 - **Company:** KAYAK
 - **Location:** Berlin, Germany
@@ -866,7 +827,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `bd7fecbd96a07cd67c3d`.
 
 
-### 22. Associate Security Engineer
+### 21. Associate Security Engineer
 
 - **Company:** KAYAK
 - **Location:** Berlin, Germany
@@ -905,7 +866,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `1d8705aa550b912143d8`.
 
 
-### 23. Senior Product Security Engineer
+### 22. Senior Product Security Engineer
 
 - **Company:** N26
 - **Location:** Berlin, Germany
@@ -944,124 +905,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `ba170f4eb78d3dff47c8`.
 
 
-### 24. Security Software Engineer, Open Source Frameworks
-
-- **Company:** Vercel
-- **Location:** Berlin, Germany
-- **Location eligibility:** Berlin hybrid role
-- **Working model:** Hybrid
-- **Role family:** Security Engineering
-- **Seniority:** Mid-level or unspecified
-- **Source / ATS:** Greenhouse / Greenhouse
-- **Priority employer:** YES
-- **Posted:** 2026-09-24 (RECENT)
-- **First seen:** 2026-08-15
-- **Radar / application status:** SEEN_BEFORE / NEW
-- **Job key:** `8284e91e3afc1425ab11`
-- **Match score:** **69/100 - REVIEW**
-- **Direct job URL:** [Vercel](https://job-boards.greenhouse.io/vercel/jobs/6117204004)
-
-**Strong matches:** vulnerability assessment
-
-**Partial matches:** javascript
-
-**Mandatory gaps:** javascript
-
-**Potential gaps:** bug bounty, rust, vulnerability disclosure program
-
-**Optional gaps:** None detected
-
-**Experience:** 4+ years
-
-**German:** No German requirement detected
-
-**Why relevant:** Role family: Security Engineering. Berlin hybrid role. Evidenced matches include vulnerability assessment.
-
-**Warnings:** Requests 4+ years versus approximately 2.1 years in the profile. Mandatory gaps: javascript Potential gaps: bug bounty, rust, vulnerability disclosure program Exposure only; do not claim deep expertise: javascript Mandatory experience requirement is 4+ years At least one explicitly mandatory skill has exposure only
-
-**Recommendation:** REVIEW - material seniority, language, or skill risk
-**Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `8284e91e3afc1425ab11`.
-
-
-### 25. Senior Security Software Engineer, v0
-
-- **Company:** Vercel
-- **Location:** Berlin, Germany
-- **Location eligibility:** Berlin hybrid role
-- **Working model:** Hybrid
-- **Role family:** Product Security
-- **Seniority:** Senior
-- **Source / ATS:** Greenhouse / Greenhouse
-- **Priority employer:** YES
-- **Posted:** 2026-09-24 (RECENT)
-- **First seen:** 2026-08-15
-- **Radar / application status:** SEEN_BEFORE / NEW
-- **Job key:** `9e8e071b253d6d6eb5ba`
-- **Match score:** **69/100 - REVIEW**
-- **Direct job URL:** [Vercel](https://job-boards.greenhouse.io/vercel/jobs/6117209004)
-
-**Strong matches:** application security
-
-**Partial matches:** javascript, product security, software development
-
-**Mandatory gaps:** product security
-
-**Potential gaps:** bug bounty, go, rust
-
-**Optional gaps:** None detected
-
-**Experience:** No explicit years detected
-
-**German:** No German requirement detected
-
-**Why relevant:** Role family: Product Security. Berlin hybrid role. Evidenced matches include application security.
-
-**Warnings:** Mandatory gaps: product security Potential gaps: bug bounty, go, rust Exposure only; do not claim deep expertise: javascript, product security, software development Senior title is above the profile's current 2+ years At least one explicitly mandatory skill has exposure only
-
-**Recommendation:** REVIEW - material seniority, language, or skill risk
-**Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `9e8e071b253d6d6eb5ba`.
-
-
-### 26. Product Security Engineer
-
-- **Company:** Vercel
-- **Location:** Berlin, Germany
-- **Location eligibility:** Berlin hybrid role
-- **Working model:** Hybrid
-- **Role family:** Product Security
-- **Seniority:** Mid-level or unspecified
-- **Source / ATS:** Greenhouse / Greenhouse
-- **Priority employer:** YES
-- **Posted:** 2026-09-24 (RECENT)
-- **First seen:** 2026-08-15
-- **Radar / application status:** SEEN_BEFORE / NEW
-- **Job key:** `c1ab5b22feaa0afc7ed6`
-- **Match score:** **69/100 - REVIEW**
-- **Direct job URL:** [Vercel](https://job-boards.greenhouse.io/vercel/jobs/6102343004)
-
-**Strong matches:** frida, penetration testing, security automation, security testing, threat modeling, vulnerability triage
-
-**Partial matches:** javascript, product security, software development
-
-**Mandatory gaps:** javascript
-
-**Potential gaps:** bug bounty, go, rust, vulnerability disclosure program
-
-**Optional gaps:** None detected
-
-**Experience:** No explicit years detected
-
-**German:** No German requirement detected
-
-**Why relevant:** Role family: Product Security. Berlin hybrid role. Evidenced matches include frida, penetration testing, security automation, security testing, threat modeling.
-
-**Warnings:** Mandatory gaps: javascript Potential gaps: bug bounty, go, rust, vulnerability disclosure program Exposure only; do not claim deep expertise: javascript, product security, software development At least one explicitly mandatory skill has exposure only
-
-**Recommendation:** REVIEW - material seniority, language, or skill risk
-**Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `c1ab5b22feaa0afc7ed6`.
-
-
-### 27. Senior Security Engineer (F/M/D)
+### 23. Senior Security Engineer (F/M/D)
 
 - **Company:** NavVis
 - **Location:** Munich Hybrid (NavVis GmbH), Germany
@@ -1100,7 +944,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `9ba7cf301be480a6ff9f`.
 
 
-### 28. Cybersecurity Researcher
+### 24. Cybersecurity Researcher
 
 - **Company:** Cygrid
 - **Location:** Berlin, Germany
@@ -1139,7 +983,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `3183e2eb626e74bd4b92`.
 
 
-### 29. Senior IT Security Engineer
+### 25. Senior IT Security Engineer
 
 - **Company:** Agilerobotsse
 - **Location:** Munich, Bavaria, Germany
@@ -1178,7 +1022,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `433bfc7aba2524337972`.
 
 
-### 30. Security Engineer
+### 26. Security Engineer
 
 - **Company:** Augustus
 - **Location:** Berlin, Germany
@@ -1217,85 +1061,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `465abfb3dbed7cffd989`.
 
 
-### 31. Senior Product/Cloud Security Engineer
-
-- **Company:** jetbrains
-- **Location:** Berlin, Germany
-- **Location eligibility:** Berlin remote role
-- **Working model:** Remote
-- **Role family:** Security Engineering
-- **Seniority:** Senior
-- **Source / ATS:** Arbeitnow / Not Identified
-- **Priority employer:** NO
-- **Posted:** 2026-09-30 (NEW - APPLY QUICKLY)
-- **First seen:** 2026-10-01
-- **Radar / application status:** SEEN_BEFORE / NEW
-- **Job key:** `1ab23c76c3e03c898472`
-- **Match score:** **69/100 - REVIEW**
-- **Direct job URL:** [jetbrains](https://www.arbeitnow.com/jobs/companies/jetbrains/remote-senior-product-cloud-security-engineer-55184)
-
-**Strong matches:** security automation, threat modeling, vulnerability management
-
-**Partial matches:** aws, cloud security, incident response, product security, software development
-
-**Mandatory gaps:** aws, cloud security
-
-**Potential gaps:** None detected
-
-**Optional gaps:** ci/cd, detection engineering, go, infrastructure as code, iso 27001, kubernetes, rust, terraform
-
-**Experience:** No explicit years detected
-
-**German:** No German requirement detected
-
-**Why relevant:** Role family: Security Engineering. Berlin remote role. Evidenced matches include security automation, threat modeling, vulnerability management.
-
-**Warnings:** Mandatory gaps: aws, cloud security Optional gaps: ci/cd, detection engineering, go, infrastructure as code, iso 27001, kubernetes Exposure only; do not claim deep expertise: aws, cloud security, incident response, product security, software development Senior title is above the profile's current 2+ years At least one explicitly mandatory skill has exposure only
-
-**Recommendation:** REVIEW - material seniority, language, or skill risk
-**Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `1ab23c76c3e03c898472`.
-
-
-### 32. Application Security Engineer (f/m/d)
-
-- **Company:** Awin
-- **Location:** Berlin, Germany
-- **Location eligibility:** Berlin on-site role
-- **Working model:** On-site
-- **Role family:** Application Security
-- **Seniority:** Mid-level or unspecified
-- **Source / ATS:** Arbeitnow / Not Identified
-- **Priority employer:** NO
-- **Posted:** 2026-09-30 (NEW - APPLY QUICKLY)
-- **First seen:** 2026-09-10
-- **Radar / application status:** SEEN_BEFORE / NEW
-- **Job key:** `b3d25546d338bae16a36`
-- **Match score:** **69/100 - REVIEW**
-- **Direct job URL:** [Awin](https://www.arbeitnow.com/jobs/companies/awin/application-security-engineer-berlin-berlin-436324)
-
-**Strong matches:** application security, dast, python, sast, threat modeling, vulnerability management
-
-**Partial matches:** aws, ci/cd, incident response, php, product security
-
-**Mandatory gaps:** aws, php, terraform
-
-**Potential gaps:** bug bounty, rust, software composition analysis
-
-**Optional gaps:** None detected
-
-**Experience:** No explicit years detected
-
-**German:** No German requirement detected
-
-**Why relevant:** Role family: Application Security. Berlin on-site role. Evidenced matches include application security, dast, python, sast, threat modeling.
-
-**Warnings:** Mandatory gaps: aws, php, terraform Potential gaps: bug bounty, rust, software composition analysis Exposure only; do not claim deep expertise: aws, ci/cd, incident response, php, product security One explicitly mandatory skill is not evidenced
-
-**Recommendation:** REVIEW - material seniority, language, or skill risk
-**Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `b3d25546d338bae16a36`.
-
-
-### 33. Software engineer, AI model supply chain and package security
+### 27. Software engineer, AI model supply chain and package security
 
 - **Company:** prefix.dev GmbH
 - **Location:** Berlin, Germany
@@ -1334,7 +1100,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `58864d81f2b8da556449`.
 
 
-### 34. Security & Compliance Engineer (all genders) - Remote Germany
+### 28. Security & Compliance Engineer (all genders) - Remote Germany
 
 - **Company:** Linro
 - **Location:** Germany
@@ -1373,7 +1139,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `de5ca6344fea6fa934d6`.
 
 
-### 35. Sr Security Engineer \| Remote \| Europe
+### 29. Sr Security Engineer \| Remote \| Europe
 
 - **Company:** n8n
 - **Location:** Berlin, Germany
@@ -1412,7 +1178,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `6118ade6193514055a1c`.
 
 
-### 36. 🌐 Security & Legal Specialist - Customer Care
+### 30. 🌐 Security & Legal Specialist - Customer Care
 
 - **Company:** Alan
 - **Location:** Anywhere in France
@@ -1451,7 +1217,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `eb01fcc2c3328f8c9e07`.
 
 
-### 37. Senior SOC Analyst
+### 31. Senior SOC Analyst
 
 - **Company:** Eye Security
 - **Location:** Netherlands \| Germany
@@ -1490,7 +1256,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `f1e7ab2db758d14bd8de`.
 
 
-### 38. Security Engineer (ITSec) (m,f,x)
+### 32. Security Engineer (ITSec) (m,f,x)
 
 - **Company:** HelloFresh
 - **Location:** Berlin, Germany
@@ -1529,46 +1295,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `4afa9462370d50b6650c`.
 
 
-### 39. Senior Cloud Security Engineer (m,f,x)
-
-- **Company:** HelloFresh
-- **Location:** Berlin, Germany
-- **Location eligibility:** Berlin hybrid role
-- **Working model:** Hybrid
-- **Role family:** Cloud Security / DevSecOps
-- **Seniority:** Senior
-- **Source / ATS:** Greenhouse / Greenhouse
-- **Priority employer:** YES
-- **Posted:** 2026-09-28 (RECENT)
-- **First seen:** 2026-08-16
-- **Radar / application status:** SEEN_BEFORE / NEW
-- **Job key:** `61f504a1b399ea41dd23`
-- **Match score:** **62/100 - REVIEW**
-- **Direct job URL:** [HelloFresh](https://careers.hellofresh.com/global/en/job/8095941?gh_jid=8095941)
-
-**Strong matches:** None detected
-
-**Partial matches:** ci/cd, cloud security, devsecops, network security
-
-**Mandatory gaps:** network security
-
-**Potential gaps:** infrastructure as code, kubernetes
-
-**Optional gaps:** None detected
-
-**Experience:** No explicit years detected
-
-**German:** German requested; level/strictness unclear
-
-**Why relevant:** Role family: Cloud Security / DevSecOps. Berlin hybrid role.
-
-**Warnings:** German requested; level/strictness unclear Mandatory gaps: network security Potential gaps: infrastructure as code, kubernetes Exposure only; do not claim deep expertise: ci/cd, cloud security, devsecops, network security Senior title is above the profile's current 2+ years At least one explicitly mandatory skill has exposure only
-
-**Recommendation:** REVIEW - material seniority, language, or skill risk
-**Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `61f504a1b399ea41dd23`.
-
-
-### 40. Senior Security Engineer - SecOps
+### 33. Senior Security Engineer - SecOps
 
 - **Company:** Mozilla
 - **Location:** Remote Germany
@@ -1607,7 +1334,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `240800e330239220c3d1`.
 
 
-### 41. Senior Security GRC Engineer
+### 34. Senior Security GRC Engineer
 
 - **Company:** Mozilla
 - **Location:** Remote Germany
@@ -1646,7 +1373,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `697670f71dcd9793a00c`.
 
 
-### 42. Senior Security Engineer (SOC) (m,f,x)
+### 35. Senior Security Engineer (SOC) (m,f,x)
 
 - **Company:** HelloFresh
 - **Location:** Berlin, Germany
@@ -1685,7 +1412,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `a2044c24720686ed5a7d`.
 
 
-### 43. Senior Cloud Security Engineer
+### 36. Senior Cloud Security Engineer
 
 - **Company:** N26
 - **Location:** Berlin, Germany
@@ -1724,46 +1451,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `1f74892653c6467e49ca`.
 
 
-### 44. Security Engineer, Detection Response
-
-- **Company:** Vercel
-- **Location:** Berlin, Germany
-- **Location eligibility:** Berlin hybrid role
-- **Working model:** Hybrid
-- **Role family:** Security Engineering
-- **Seniority:** Mid-level or unspecified
-- **Source / ATS:** Greenhouse / Greenhouse
-- **Priority employer:** YES
-- **Posted:** 2026-09-24 (RECENT)
-- **First seen:** 2026-08-15
-- **Radar / application status:** SEEN_BEFORE / NEW
-- **Job key:** `59039a1f42a8c045cc25`
-- **Match score:** **59/100 - STRETCH**
-- **Direct job URL:** [Vercel](https://job-boards.greenhouse.io/vercel/jobs/6111332004)
-
-**Strong matches:** frida, python, security automation
-
-**Partial matches:** aws, cloud security, git, incident response, nist, security auditing, siem
-
-**Mandatory gaps:** aws, bash, cloud security, detection engineering, git, go, incident response, nist, rust, siem
-
-**Potential gaps:** edr
-
-**Optional gaps:** None detected
-
-**Experience:** No explicit years detected
-
-**German:** No German requirement detected
-
-**Why relevant:** Role family: Security Engineering. Berlin hybrid role. Evidenced matches include frida, python, security automation.
-
-**Warnings:** Mandatory gaps: aws, bash, cloud security, detection engineering, git, go Potential gaps: edr Exposure only; do not claim deep expertise: aws, cloud security, git, incident response, nist, security auditing Multiple explicitly mandatory skills are not evidenced
-
-**Recommendation:** STRETCH - apply only after manually resolving the flagged risks
-**Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `59039a1f42a8c045cc25`.
-
-
-### 45. Security Engineer
+### 37. Security Engineer
 
 - **Company:** Qdrant
 - **Location:** Germany \| France \| Netherlands \| Spain
@@ -1802,7 +1490,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `adf40ac5904cb1b075ac`.
 
 
-### 46. Senior Security Engineer - AppSec (d/f/m)
+### 38. Senior Security Engineer - AppSec (d/f/m)
 
 - **Company:** Vivenu
 - **Location:** Remote Germany
@@ -1841,7 +1529,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `a03342dd76095c14515c`.
 
 
-### 47. IT Security Engineer (all genders)
+### 39. IT Security Engineer (all genders)
 
 - **Company:** Getolo
 - **Location:** Berlin, Germany
@@ -1880,7 +1568,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `2e0bc4a58933748effd2`.
 
 
-### 48. Senior Software Engineer, Security Assurance \| Germany \| Remote
+### 40. Senior Software Engineer, Security Assurance \| Germany \| Remote
 
 - **Company:** Grafana Labs
 - **Location:** Germany (Remote)
@@ -1890,7 +1578,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 - **Seniority:** Senior
 - **Source / ATS:** Greenhouse / Greenhouse
 - **Priority employer:** NO
-- **Posted:** 2026-10-19 (RECENT)
+- **Posted:** 2026-10-19 (OPEN FOR REVIEW)
 - **First seen:** 2026-10-25
 - **Radar / application status:** SEEN_BEFORE / NEW
 - **Job key:** `04a3d5752b4e49f488ab`
@@ -1919,7 +1607,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `04a3d5752b4e49f488ab`.
 
 
-### 49. Senior Security Engineer (f/m/d)
+### 41. Senior Security Engineer (f/m/d)
 
 - **Company:** Wire Germany GmbH
 - **Location:** Berlin, Germany
@@ -1958,7 +1646,7 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 **Tracker:** [Open the automatic update form](https://github.com/bsdevda/cyber-job-radar/actions/workflows/update-application.yml) and paste job key `db8aaa804d8c25ef23c4`.
 
 
-### 50. Security Engineer - Product
+### 42. Security Engineer - Product
 
 - **Company:** Wiz
 - **Location:** Berlin, Germany
@@ -1999,19 +1687,22 @@ Use the [Update Application Tracker form](https://github.com/bsdevda/cyber-job-r
 
 ## Queue coverage
 
-Displayed **50** ranked active jobs in this page (configured maximum: 50).
+Displayed **42** ranked active jobs in this page (configured maximum: 50).
 0 additional ranked jobs are available in `reports/latest.json`. If fewer than 50 are displayed, the radar currently has fewer than 50 active jobs that passed the relevance and eligibility filters; it never pads the report with irrelevant roles.
 
 ## Source Health
 
-- ✅ **Arbeitnow** — 2208 jobs
+- ✅ **Arbeitnow** — 2039 jobs
 - ✅ **Remotive** — 12 jobs
 - ✅ **Linkedin_Posts** — 0 jobs
-- ✅ **Greenhouse** — 60/60 companies successful, 6170 jobs
-- ✅ **Ashby** — 8/8 companies successful, 234 jobs
-- ✅ **Lever** — 1/1 companies successful, 103 jobs
-- ✅ **Personio** — 3/3 companies successful, 133 jobs
-- ◻️ **Recruitee** — no enabled companies
+- ⚠️ **Greenhouse** — 165/167 companies successful, 21546 jobs
+  - Greenhouse \| ClickHouse \| RuntimeError \| HTTP 404 \| Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found
+  - Greenhouse \| Amplitude \| RuntimeError \| HTTP 404 \| Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/amplitude/jobs?content=true: HTTP Error 404: Not Found
+- ⚠️ **Ashby** — 12/13 companies successful, 462 jobs
+  - Ashby \| Leapsome \| RuntimeError \| HTTP 404 \| Request failed after 1 attempt(s): https://api.ashbyhq.com/posting-api/job-board/leapsome?includeCompensation=true: HTTP Error 404: Not Found
+- ✅ **Lever** — 6/6 companies successful, 1201 jobs
+- ✅ **Personio** — 7/7 companies successful, 170 jobs
+- ✅ **Recruitee** — 2/2 companies successful, 10 jobs
 
 ## ChatGPT Handoff
 

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T13:19:58Z",
+  "generated_at": "2026-11-01T13:56:58Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,42 +171,42 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-10-30T13:19:58Z",
+    "generated_at": "2026-11-01T13:56:58Z",
     "scoring_version": 2.2,
-    "jobs_collected": 8860,
-    "security_title_candidates": 245,
-    "prefiltered_non_security_jobs": 8615,
-    "unique_jobs_after_deduplication": 189,
-    "duplicates_removed": 56,
-    "jobs_rejected_or_below_threshold": 8793,
-    "relevant_jobs_in_current_run": 11,
-    "new_jobs": 0,
+    "jobs_collected": 25440,
+    "security_title_candidates": 877,
+    "prefiltered_non_security_jobs": 24563,
+    "unique_jobs_after_deduplication": 673,
+    "duplicates_removed": 204,
+    "jobs_rejected_or_below_threshold": 25221,
+    "relevant_jobs_in_current_run": 15,
+    "new_jobs": 1,
     "updated_jobs": 0,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
-    "sources_partial": 0,
-    "report_jobs": 50,
+    "sources_partial": 2,
+    "report_jobs": 42,
     "jobs_by_source": {
-      "arbeitnow": 2208,
+      "arbeitnow": 2039,
       "remotive": 12,
       "linkedin_posts": 0,
-      "greenhouse": 6170,
-      "ashby": 234,
-      "lever": 103,
-      "personio": 133,
-      "recruitee": 0
+      "greenhouse": 21546,
+      "ashby": 462,
+      "lever": 1201,
+      "personio": 170,
+      "recruitee": 10
     },
-    "employer_mode": "daily",
+    "employer_mode": "full",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 29.1
+    "workflow_duration_seconds": 41.9
   },
   "source_status": {
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 2208,
+      "jobs": 2039,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -228,58 +228,84 @@
       "error": ""
     },
     "greenhouse": {
-      "status": "ok",
+      "status": "partial",
       "ok": true,
-      "jobs": 6170,
-      "requests": 60,
-      "errors": [],
-      "error": "",
-      "companies_checked": 60,
-      "companies_successful": 60,
-      "companies_failed": 0
+      "jobs": 21546,
+      "requests": 167,
+      "errors": [
+        {
+          "source": "greenhouse",
+          "company": "ClickHouse",
+          "http_status": 404,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found",
+          "message": "Greenhouse | ClickHouse | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found"
+        },
+        {
+          "source": "greenhouse",
+          "company": "Amplitude",
+          "http_status": 404,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/amplitude/jobs?content=true: HTTP Error 404: Not Found",
+          "message": "Greenhouse | Amplitude | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/amplitude/jobs?content=true: HTTP Error 404: Not Found"
+        }
+      ],
+      "error": "Greenhouse | ClickHouse | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found",
+      "companies_checked": 167,
+      "companies_successful": 165,
+      "companies_failed": 2
     },
     "ashby": {
-      "status": "ok",
+      "status": "partial",
       "ok": true,
-      "jobs": 234,
-      "requests": 8,
-      "errors": [],
-      "error": "",
-      "companies_checked": 8,
-      "companies_successful": 8,
-      "companies_failed": 0
+      "jobs": 462,
+      "requests": 13,
+      "errors": [
+        {
+          "source": "ashby",
+          "company": "Leapsome",
+          "http_status": 404,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://api.ashbyhq.com/posting-api/job-board/leapsome?includeCompensation=true: HTTP Error 404: Not Found",
+          "message": "Ashby | Leapsome | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://api.ashbyhq.com/posting-api/job-board/leapsome?includeCompensation=true: HTTP Error 404: Not Found"
+        }
+      ],
+      "error": "Ashby | Leapsome | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://api.ashbyhq.com/posting-api/job-board/leapsome?includeCompensation=true: HTTP Error 404: Not Found",
+      "companies_checked": 13,
+      "companies_successful": 12,
+      "companies_failed": 1
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 103,
-      "requests": 1,
+      "jobs": 1201,
+      "requests": 6,
       "errors": [],
       "error": "",
-      "companies_checked": 1,
-      "companies_successful": 1,
+      "companies_checked": 6,
+      "companies_successful": 6,
       "companies_failed": 0
     },
     "personio": {
       "status": "ok",
       "ok": true,
-      "jobs": 133,
-      "requests": 3,
+      "jobs": 170,
+      "requests": 7,
       "errors": [],
       "error": "",
-      "companies_checked": 3,
-      "companies_successful": 3,
+      "companies_checked": 7,
+      "companies_successful": 7,
       "companies_failed": 0
     },
     "recruitee": {
-      "status": "idle",
+      "status": "ok",
       "ok": true,
-      "jobs": 0,
-      "requests": 0,
+      "jobs": 10,
+      "requests": 2,
       "errors": [],
       "error": "",
-      "companies_checked": 0,
-      "companies_successful": 0,
+      "companies_checked": 2,
+      "companies_successful": 2,
       "companies_failed": 0
     }
   },
@@ -1115,202 +1141,6 @@
     },
     {
       "report_number": 6,
-      "job_key": "ca9ca2de50791397491c",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 69,
-      "raw_score": 70,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "score_label": "REVIEW",
-      "title": "Security Engineer - GRC",
-      "company": "Alan",
-      "location": "Anywhere in France",
-      "location_analysis": {
-        "category": "eligible_worldwide_remote",
-        "eligible": true,
-        "score": 11,
-        "reason": "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
-        "verification_required": true,
-        "score_cap": 89,
-        "scope": "Worldwide remote",
-        "work_model": "Remote"
-      },
-      "location_scope": "Worldwide remote",
-      "working_model": "Remote",
-      "role_family": {
-        "id": "it_audit_grc",
-        "label": "IT Audit / GRC",
-        "priority": 3,
-        "confidence": "high",
-        "evidence": [
-          "grc",
-          "iso 27001",
-          "internal audit",
-          "compliance"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-grc-anywhere-in-france-2281",
-      "apply_url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-grc-anywhere-in-france-2281",
-      "canonical_url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-grc-anywhere-in-france-2281",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-09-30T16:40:11Z",
-      "posting_age_days": 0,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 0,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-09-16T10:11:22Z",
-      "experience_required": null,
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "cvss",
-          "python",
-          "vulnerability assessment"
-        ],
-        "partial": [
-          "nist",
-          "security auditing"
-        ],
-        "missing": [
-          "iso 27001",
-          "rust",
-          "secrets management"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "nist",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "You can administer platforms like CISO Assistant, ServiceNow GRC, or Archer, designing workflows, building dashboards, and making them genuinely useful for the teams that feed them data."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Own and operate the ISO 27001 ISMS."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Direct Impact: You own the trust foundation that lets Alan handle health data for 1M+ members and operate in highly regulated markets."
-        },
-        {
-          "skill": "secrets management",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "You work closely with Infrastructure, Platform, and Engineering to ensure foundational building blocks (identity, network, secrets management, logging) are designed with security requirements built in from the start."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 12,
-        "skills": 14,
-        "experience": 10,
-        "location": 11,
-        "language": 10,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Worldwide/anywhere remote eligibility detected; verify employment from Germany.",
-        "Evidenced matches include cvss, python, vulnerability assessment."
-      ],
-      "warnings": [
-        "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
-        "Mandatory gaps: nist",
-        "Potential gaps: iso 27001, rust, secrets management",
-        "Exposure only; do not claim deep expertise: nist, security auditing",
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "Health can’t wait. Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t. Alan exists to end the wait. Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way. So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience. We are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR. Prevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond. Alan operates at the intersection of health insurance, prevention, and re…",
-      "full_description": "Health can’t wait. \n\nNot for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t.\n\nAlan exists to end the wait.\n\nHealth is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way.\n\nSo we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience.\n\nWe are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR.\n\nPrevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond.\n\nAlan operates at the intersection of health insurance, prevention, and regulated data. The person in this role owns the security governance and risk posture of a company that handles sensitive health data for 1M+ members, operates under DORA and HDS certification requirements, and is regulated by the ACPR. They work in close partnership with Legal, Internal Audit, and the broader Risk function. It's a highly collaborative role.\n\n🛡️ Your mission: Governance, risk & compliance\n\nOwn and operate the ISO 27001 ISMS. You are the accountable owner of the Information Security Management System: scope definition, Statement of Applicability, internal audit programme, and management review. You've led at least one full certification or recertification cycle and know what breaks down in the months between audits.\n\nBe the security expert on regulatory and privacy matters. Legal leads on DORA, HDS, RGPD, PGSSI-S, and regulatory relationships. Your role is to bring the technical and operational security substance: translating regulatory requirements into controls, flagging implementation gaps, and making sure the security programme is solid when the regulatory team negotiates with the ACPR or ANS.\n\nRun risk as an ongoing programme, in partnership with the broader risk function. You lead security risk cartography using EBIOS RM and ensure it feeds into, and is informed by, the company-wide risk framework. You facilitate risk workshops, produce treatment plans, and bring the security lens to forums where non-security risks are also on the table. You know when a security risk is really a business risk.\n\nOwn the controls framework, but distribute ownership of controls themselves. You define the framework, set the standards, and track coverage, but the controls live with the teams who build and run the things they protect. You work closely with Infrastructure, Platform, and Engineering to ensure foundational building blocks (identity, network, secrets management, logging) are designed with security requirements built in from the start. You work alongside those teams as a partner.\n\nRun audit cycles with rigour, in close partnership with Internal Audit. You manage the security audit programme and coordinate with certification bodies. You work with Internal Audit to align scopes, avoid duplication, and present a coherent picture of control effectiveness to the board. You've sat in joint audit planning sessions and know how to make that relationship work well.\n\nManage third-party risk. You run vendor security assessments and define contractual security requirements (security annexes, DPAs). You partner with our Risk team, which oversees third-party risk, and own the security dimension.\n\nBring the health sector context. You understand the ANS framework, CERT Santé requirements, and what it means to handle sensitive health data in day-to-day operations. You're a useful partner to Legal when the question is \"what does this regulation actually require us to do technically?\"\n\nOwn incident governance and support DORA reporting. You classify and escalate ICT incidents internally, own BCP and DRP governance, and provide the security substance for DORA incident reports.\n\n🚀 What you'll build and who you'll work with\n\nCompliance Framework: ISO 27001, DORA, HDS, NIS2. Multiple regulators, multiple countries, one coherent governance backbone. Build the system that lets Alan scale from 1M to many millions of members without rebuilding compliance every time.\n\nAutomated Audit & Evidence Engine: Replace manual evidence collection with scripted pipelines plugged directly into engineering systems. Turn audit cycles into a continuous capability instead of a quarterly rush.\n\nRisk Cartography: Risk treated as an operational signal that feeds directly into business and engineering decisions, with EBIOS RM at the core.\n\nYou'll work closely with Legal, DPO, Internal Audit, and the broader Risk function, and partner day-to-day with Infrastructure, Platform, Engineering, Product, and Operations. You're the bridge between regulatory complexity and operational simplicity.\n\n⚡ Why this role is special\n\nDirect Impact: You own the trust foundation that lets Alan handle health data for 1M+ members and operate in highly regulated markets. Your work is the precondition for everything else Alan does.\n\nComplex Problems: 4 regulators across 4 countries, sensitive health data, and a regulatory landscape that keeps shifting (DORA, NIS2, AI Act), all to be modeled into a single, coherent control system.\n\nOwnership & Growth: Board and executive exposure, real influence on company-wide risk decisions, and the autonomy to shape Alan's security culture across 800+ people.\n\n🤝 What you will also do: Technical enablement\n\nAutomate compliance work wherever possible. You script evidence collection, automate control testing, and connect GRC tooling to engineering pipelines. You've used Python or similar to reduce the manual work of an audit cycle, and you actively look for the next process to streamline.\n\nConfigure and own GRC tooling. You can administer platforms like CISO Assistant, ServiceNow GRC, or Archer, designing workflows, building dashboards, and making them genuinely useful for the teams that feed them data.\n\nSpeak cloud governance fluently. You understand shared responsibility in HDS-qualified environments, know what CSPM tools surface and what they miss, and can reason about policy-as-code (OPA, SCP) without needing an engineer to translate.\n\nRead architecture well enough to challenge it. You can review a proposed architecture, identify control gaps in identity, network segmentation, encryption, or logging, and push back credibly with engineers even though you're not one.\n\nInterpret vulnerability data and drive prioritisation. You read scan outputs, work with engineering teams to prioritise remediation by business impact over CVSS score alone, and track resolution KPIs over time.\n\n⭐️ Qualifications, mindset and soft skills\n\nYou translate risk into business language. You can brief a board or an audit committee and leave them genuinely informed. You know the difference between a finding that requires an emergency board call and one that belongs in a quarterly report.\n\nYou influence without authority. You align Legal, DPO, Risk, Engineering, Product, and Operations on security requirements without creating blockers or adversarial dynamics. People come to you early because you make their work easier.\n\nYou manage programmes with audit-grade rigor. You run structured, traceable roadmaps. You know where every commitment is, who owns it, and when it's due. You escalate proactively and don't let dependencies surprise you.\n\nYou build a genuine security culture. Your awareness programmes land because they're relevant to the people who take them. You foster proportionate risk ownership across the company, so teams make better day-to-day decisions.\n\nYou think in principles when frameworks shift. DORA is live. NIS2 transposition pace varies. The AI Act is arriving. When the regulatory landscape moves, you reason from first principles and adapt without waiting to be told what to do.\n\n🌍 How we work\n\nLocation: You must be legally eligible to work from France, Belgium or Spain.\n\nRemote work: We offer remote work flexibility, but we value in-person collaboration\n\n🎯 Important note: we hire people, not roles.\n\nIf you're excited about this opportunity but don't check every box, we'd love to hear from you. Everyone, no matter how underrepresented, should feel free to apply, as it can only bring learnings or success.\n\nIf you identify yourself as a woman: Did you know that research shows women often apply only when meeting 100% of requirements?\n\nRemember, this is just a guide, not a checklist. We'll be thrilled to receive your application!\n\n🔖 Check out our About Alan and Career pages, as well as our Medium, blog and Glassdoor page for more info.\n\nYou want to know more about Alan?\n\n🙌 Perks & Benefits: Alaners are provided with a stimulating environment and perks ensuring they are happy, efficient and spend only high-quality time with co-workers.\n\n🤘A strong culture: People joining Alan are often surprised and delighted by our innovative working method. We have a set of cultural values that guide our approach to work\n\nCompensation: €83K – €100K\n\nLevel D to E • €83K – €100K\n\nFind Jobs in France on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "nist",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "You can administer platforms like CISO Assistant, ServiceNow GRC, or Archer, designing workflows, building dashboards, and making them genuinely useful for the teams that feed them data."
-        },
-        {
-          "skill": "cvss",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "You read scan outputs, work with engineering teams to prioritise remediation by business impact over CVSS score alone, and track resolution KPIs over time."
-        },
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Own and operate the ISO 27001 ISMS."
-        },
-        {
-          "skill": "python",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "You've used Python or similar to reduce the manual work of an audit cycle, and you actively look for the next process to streamline."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Direct Impact: You own the trust foundation that lets Alan handle health data for 1M+ members and operate in highly regulated markets."
-        },
-        {
-          "skill": "secrets management",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "You work closely with Infrastructure, Platform, and Engineering to ensure foundational building blocks (identity, network, secrets management, logging) are designed with security requirements built in from the start."
-        },
-        {
-          "skill": "security auditing",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "You manage the security audit programme and coordinate with certification bodies."
-        },
-        {
-          "skill": "vulnerability assessment",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "You run vendor security assessments and define contractual security requirements (security annexes, DPAs)."
-        }
-      ],
-      "german_analysis": {
-        "category": "none",
-        "level": "none",
-        "mandatory": false,
-        "label": "No German requirement detected",
-        "evidence": ""
-      },
-      "experience_analysis": null
-    },
-    {
-      "report_number": 7,
       "job_key": "022b02e42c40ff735dbc",
       "status": "NEW",
       "application_status": "NEW",
@@ -1494,7 +1324,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 8,
+      "report_number": 7,
       "job_key": "bd1b3b1bbb48fe52ce64",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1590,159 +1420,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 9,
-      "job_key": "aeed9275b0fec6f82691",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 61,
-      "raw_score": 61,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "Senior title is above the profile's current 2+ years",
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "score_label": "REVIEW",
-      "title": "Senior Security Assurance Specialist",
-      "company": "sumup",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin remote role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "Remote"
-      },
-      "location_scope": "Berlin",
-      "working_model": "Remote",
-      "role_family": {
-        "id": "it_audit_grc",
-        "label": "IT Audit / GRC",
-        "priority": 3,
-        "confidence": "medium",
-        "evidence": [
-          "iso 27001",
-          "internal audit"
-        ]
-      },
-      "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
-      },
-      "url": "https://www.arbeitnow.com/jobs/companies/sumup/senior-security-assurance-specialist-berlin-298521",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/sumup/senior-security-assurance-specialist-berlin-298521",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/sumup/senior-security-assurance-specialist-berlin-298521",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-09-30T23:55:18Z",
-      "posting_age_days": 1,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 1,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-10-01T11:44:36Z",
-      "experience_required": null,
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [],
-        "partial": [
-          "nist"
-        ],
-        "missing": [
-          "iso 27001",
-          "rust"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Strong knowledge of information security standards such as ISO 27001 and NIST, plus payment security standards like PCI DSS"
-        },
-        {
-          "skill": "nist",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Strong knowledge of information security standards such as ISO 27001 and NIST, plus payment security standards like PCI DSS"
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Our security assurance team keeps SumUp's information security programme credible, both to regulators and to the millions of merchants who trust us with their business."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 12,
-        "skills": 7,
-        "experience": 10,
-        "location": 15,
-        "language": 10,
-        "seniority": 4,
-        "education": 3
-      },
-      "match_reasons": [
-        "Berlin remote role."
-      ],
-      "warnings": [
-        "Mandatory gaps: iso 27001, nist",
-        "Potential gaps: rust",
-        "Exposure only; do not claim deep expertise: nist",
-        "Senior title is above the profile's current 2+ years",
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "Location: Office First - Berlin Team description Our security assurance team keeps SumUp's information security programme credible, both to regulators and to the millions of merchants who trust us with their business. As part of a small global team spanning Europe, Brazil and Chile, you'll help translate frameworks like ISO 27001, PCI DSS and NIST into practical controls that hold up under real audits and real third-party scrutiny. This is a chance to shape how a fast-growing fintech proves its security maturity across multiple regulatory environments at once, with real ownership over the areas you improve. What you'll do Review information security controls, audit findings and risk mitigation plans, working with other teams to put the right fixes in place Run third-party due diligence, supplier reviews and contract assessments as part of the third-party risk management process Partner with stakeholders across the business to promote strong security practices and help embed security principles into their day-to-day processes Support external and internal audits and due diligence requests, responding directly to auditors, clients and partners Track relevant laws, regulations and se…",
-      "full_description": "Location: Office First - Berlin\n\nTeam description\n\nOur security assurance team keeps SumUp's information security programme credible, both to regulators and to the millions of merchants who trust us with their business. As part of a small global team spanning Europe, Brazil and Chile, you'll help translate frameworks like ISO 27001, PCI DSS and NIST into practical controls that hold up under real audits and real third-party scrutiny. This is a chance to shape how a fast-growing fintech proves its security maturity across multiple regulatory environments at once, with real ownership over the areas you improve.\n\nWhat you'll do\n\nReview information security controls, audit findings and risk mitigation plans, working with other teams to put the right fixes in place\n\nRun third-party due diligence, supplier reviews and contract assessments as part of the third-party risk management process\n\nPartner with stakeholders across the business to promote strong security practices and help embed security principles into their day-to-day processes\n\nSupport external and internal audits and due diligence requests, responding directly to auditors, clients and partners\n\nTrack relevant laws, regulations and security standards, flagging gaps against SumUp's existing controls\n\nHelp maintain and improve the team's security maturity picture, identifying priority areas and leading or supporting initiatives to close them\n\nYou'll be great for this role if...\n\nExperience reviewing and improving information security controls in a similar assurance or GRC-focused role\n\nStrong knowledge of information security standards such as ISO 27001 and NIST, plus payment security standards like PCI DSS\n\nComfort working with third party risk management and audit procedures, including supplier and contract reviews\n\nAbility to prioritise and simplify complex, sometimes ambiguous requests across different regulatory environments\n\nStrong communication skills and confidence engaging stakeholders at all levels, from engineering teams to external auditors\n\nWhy you should join SumUp\n\n🌎 Opportunity to work with SumUppers globally on large-scale fintech products used by millions of businesses worldwide, from our Berlin office. This involves an office-first setup \n\n🌈 Commitment to Diversity and Inclusion: be part of a workplace that values and promotes diversity, fostering an inclusive environment where everyone's perspectives are respected and embraced \n\n🚀 Enrolment onto our Virtual Stock Option programme: you will own a stake in SumUp's future success \n\n📚 A dedicated annual L&D budget of €2000 for your individual development, which can be used to attend conferences and/or advance your career through further education \n\n💶 A corporate pension scheme where we match up to 20% of your contributions\n\n🏖 Generous time off: enjoy 28 days of paid leave plus public holidays and special leave days \n\n🩺 Numerous other benefits such as Urban Sports Club subsidy, Kita placement assistance, subsidised office lunches \n\n🌴 Break4me: 1-month sabbatical after 3 years of service \n\n🔗 Referral Bonus: earn additional rewards by referring talented individuals to join the SumUp team\n\nAbout SumUp\n\nBe empowered to do more that matters.\n\nAt SumUp, we're on a mission to empower small businesses worldwide with simple, affordable tools that help them thrive. Today, over 4 million businesses in 38 markets rely on SumUp as their financial partner to manage payments, finance, and customer relationships.\n\nOur commitment to small businesses is reflected in our diverse team of over 3,000 SumUppers from over 90 nationalities, united by global collaboration and an innovative mindset. Our core values lay the foundation for who we are and what we stand for, shaping our work culture and driving our success. We foster inclusivity and a culture of continuous learning, providing a safe space for personal and professional growth. Our differences make us unique and strong as we strive to create an environment where everyone belongs and feels supported, no matter how they identify.\n\nSumUp is proud to be an Equal Employment Opportunity employer, actively seeking and embracing diversity in our workforce. We don't make hiring or employment decisions based on race, colour, religion or religious belief, ethnic or national origin, nationality, sex, gender, gender identity, sexual orientation, disability, age or any other basis protected by applicable laws or prohibited by company policy. Our commitment extends beyond recruitment to creating a safe and respectful workplace where harassment of any form is strictly prohibited. Discover more about our culture and opportunities on our careers website, and follow our journey on LinkedIn, Instagram, and TikTok.\n\nJob Application Tip\n\nWe recognise that candidates feel they need to meet 100% of the job criteria in order to apply for a job. Please note that this is only a guide. If you don’t tick every box, it’s ok too because it means you have room to learn and develop your career at SumUp.\n\nFind Jobs in Germany on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Strong knowledge of information security standards such as ISO 27001 and NIST, plus payment security standards like PCI DSS"
-        },
-        {
-          "skill": "nist",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Strong knowledge of information security standards such as ISO 27001 and NIST, plus payment security standards like PCI DSS"
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Our security assurance team keeps SumUp's information security programme credible, both to regulators and to the millions of merchants who trust us with their business."
-        }
-      ],
-      "german_analysis": {
-        "category": "none",
-        "level": "none",
-        "mandatory": false,
-        "label": "No German requirement detected",
-        "evidence": ""
-      },
-      "experience_analysis": null
-    },
-    {
-      "report_number": 10,
+      "report_number": 8,
       "job_key": "cd5cfcf928703cec5837",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1885,6 +1563,453 @@
         "evidence": ""
       },
       "experience_analysis": null
+    },
+    {
+      "report_number": 9,
+      "job_key": "6943ccc7ff70c247e0a3",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 59,
+      "raw_score": 77,
+      "score_cap": 59,
+      "score_cap_reasons": [
+        "Multiple explicitly mandatory skills are not evidenced"
+      ],
+      "score_label": "STRETCH",
+      "title": "AI Security Engineer",
+      "company": "Menlosecurity",
+      "location": "EMEA - U.K.",
+      "location_analysis": {
+        "category": "eligible_europe_remote",
+        "eligible": true,
+        "score": 13,
+        "reason": "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
+        "verification_required": true,
+        "score_cap": 89,
+        "scope": "Europe remote",
+        "work_model": "Remote"
+      },
+      "location_scope": "Europe remote",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/menlosecurity/ai-security-engineer-bracknell-300427",
+      "apply_url": "https://www.arbeitnow.co.uk/jobs/companies/menlosecurity/ai-security-engineer-bracknell-300427",
+      "canonical_url": "https://www.arbeitnow.co.uk/jobs/companies/menlosecurity/ai-security-engineer-bracknell-300427",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-10-30T21:40:22Z",
+      "posting_age_days": 1,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 1,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-11-01T13:56:58Z",
+      "experience_required": "2-4 years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "python"
+        ],
+        "partial": [
+          "aws",
+          "docker",
+          "software development"
+        ],
+        "missing": [
+          "dlp",
+          "kubernetes",
+          "rust",
+          "terraform"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Experience with AWS, GCP, Terraform, Kubernetes, and Linux."
+        },
+        {
+          "skill": "docker",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Basic experience with cloud storage, object stores, and basic containerization (Docker)."
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Experience with AWS, GCP, Terraform, Kubernetes, and Linux."
+        },
+        {
+          "skill": "software development",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "2–4 years of experience in software engineering, data engineering, or automated QA/evaluation roles."
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Experience with AWS, GCP, Terraform, Kubernetes, and Linux."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "dlp",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Understanding of cybersecurity concepts (Prompt Injection, Malicious Macros, DLP/PII)."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Menlo Security is trusted by major global businesses, including Fortune 500 companies and government agencies, to protect their most valuable asset, their data, and is backed by top-tier investors."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 10,
+        "experience": 15,
+        "location": 13,
+        "language": 10,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country.",
+        "Evidenced matches include python.",
+        "The detected experience requirement is within or close to the 2+ year profile."
+      ],
+      "warnings": [
+        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
+        "Mandatory gaps: aws, docker, kubernetes, software development, terraform",
+        "Potential gaps: dlp, rust",
+        "Exposure only; do not claim deep expertise: aws, docker, software development",
+        "Multiple explicitly mandatory skills are not evidenced"
+      ],
+      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
+      "description_excerpt": "Menlo Security is the leader in Browser Security for human and agentic workforces. Our mission is to enable humans and agents to connect, communicate, and collaborate securely, without compromise. The Menlo Browser Security Platform protects organizations from cyberattacks by stopping threats across the web, documents, and email before they reach the user. With Menlo Agent Runtime Security (MARS), that protection now extends to the AI agents working alongside every employee. Menlo Security is trusted by major global businesses, including Fortune 500 companies and government agencies, to protect their most valuable asset, their data, and is backed by top-tier investors. We are looking for a Data & AI / ML Evaluation Engineer to own the data collection, mining, curation and continuous evaluation foundation for our various AI security products. High-quality models require high-quality datasets and ongoing enrichment and retraining. In this role, you will build automated data ingestion pipelines from surrogate web traffic and open sources, manage dataset curation, labeling workflows, model training and operate our benchmark and evaluation harnesses. This is a data and AI / ML software…",
+      "full_description": "Menlo Security is the leader in Browser Security for human and agentic workforces. Our mission is to enable humans and agents to connect, communicate, and collaborate securely, without compromise. The Menlo Browser Security Platform protects organizations from cyberattacks by stopping threats across the web, documents, and email before they reach the user. With Menlo Agent Runtime Security (MARS), that protection now extends to the AI agents working alongside every employee. Menlo Security is trusted by major global businesses, including Fortune 500 companies and government agencies, to protect their most valuable asset, their data, and is backed by top-tier investors.\n\nWe are looking for a Data & AI / ML Evaluation Engineer to own the data collection, mining, curation and continuous evaluation foundation for our various AI security products. High-quality models require high-quality datasets and ongoing enrichment and retraining. In this role, you will build automated data ingestion pipelines from surrogate web traffic and open sources, manage dataset curation, labeling workflows, model training and operate our benchmark and evaluation harnesses. This is a data and AI / ML software engineering role focused on building the data infrastructure that trains our proprietary Prompt Injection SLMs, Shadow-AI detection models, Malicious Macro classifiers, PII, Content Classification engines and more. \n\nOutcomes & KPIs Key Outcome(s) Owned: \n\nAutomated, continuous generation and curation of training, evaluation, and false-positive (FP) datasets across web, file, and macro threat surfaces. \n\nStandardized, reproducible evaluation benchmarks that guide model improvements before deployment. \n\nAutomated data pipeline uptime and ingestion throughput from web/file sources. \n\nSize, diversity, and labeling accuracy of threat dataset repositories (PI, Shadow-AI, PII, Macros). \n\nMean time to ingest live false-positive/false-negative feedback into training evaluation loops.\n\nAccuracy and benchmark coverage across historical vs. newly trained SLMs. \n\nWhat You'll Do \n\nDesign and operate automated data collection, mining, and web-scraping pipelines to gather threat samples from surrogate traffic and web sources.\n\nBuild data processing, annotation, and dataset curation workflows, training and re-training various models, e.g. Prompt Injection (PI) SLMs, Shadow-AI detection models, Malicious Macro classifiers, and PII detection. \n\nBuild mechanisms to capture false-positive (FP) samples from live user/DDR flows and represent / integrate them into model retraining pipelines. \n\nDevelop automated benchmarking and evaluation harnesses to continuously test model detection quality, runtime performance, and accuracy against baseline models (e.g., Vertex AI). \n\nBuild automated pipelines for model training for various models. \n\nWork closely with research and software engineering teams to turn raw detection telemetry into ongoing actionable model improvements.\n\nRequired: \n\n2–4 years of experience in software engineering, data engineering, or automated QA/evaluation roles. \n\nStrong programming proficiency in Python. Adv: C++, SQL. \n\nExperience in model training and various ML, AI algorithms. \n\nExperience building data pipelines, web scrapers, or automated data processing systems. \n\nFamiliarity with data structures, storage formats, and database configurations. \n\nMethodical approach to dataset labeling, validation, bug logging, and metric tracking. \n\nPreferred / Nice to Have: \n\nHands-on experience with ML evaluation frameworks, dataset curation, or annotation tools.\n\nFamiliarity with text extraction, NLP preprocessing, or document parsing techniques.\n\nUnderstanding of cybersecurity concepts (Prompt Injection, Malicious Macros, DLP/PII). \n\nBasic experience with cloud storage, object stores, and basic containerization (Docker). \n\nExperience with AWS, GCP, Terraform, Kubernetes, and Linux.\n\nFollow us on LinkedIn!\n\nWhy Menlo?\n\nAt Menlo, we don't settle for the status quo — in our technology or our culture. How we think and act is just as important as what we build. Our culture is defined by five core mindsets: Proactive Leadership, Straight Talk, United Impact, Elevated Talent, and Customer-Compelled. We take ownership and drive outcomes without waiting to be told. We communicate directly and seek hard truths. We break down silos and win together. We hold a high bar for ourselves and the people around us. And we treat every customer interaction as mission-critical. If you're someone who sees it, owns it, solves it, and does it — you'll thrive here.\n\nAll qualified applicants will receive consideration for employment without regard to race, sex, color, religion, sexual orientation, gender identity, national origin, protected veteran status, or on the basis of disability.\n\nTO ALL AGENCIES: Please, no phone calls or emails to any employee of Menlo Security outside of the Talent organization. Menlo Security’s policy is to only accept resumes from agencies via Ashby (ATS). Agencies must have a valid services agreement executed and must have been assigned by the Talent team to a specific requisition. Any resume submitted outside of this process will be deemed the sole property of Menlo Security. In the event a candidate submitted outside of this policy is hired, no fee or payment will be paid.\n\nFind more English Speaking Jobs in United Kingdom on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Experience with AWS, GCP, Terraform, Kubernetes, and Linux."
+        },
+        {
+          "skill": "docker",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Basic experience with cloud storage, object stores, and basic containerization (Docker)."
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Experience with AWS, GCP, Terraform, Kubernetes, and Linux."
+        },
+        {
+          "skill": "python",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "Strong programming proficiency in Python."
+        },
+        {
+          "skill": "software development",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "2–4 years of experience in software engineering, data engineering, or automated QA/evaluation roles."
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Experience with AWS, GCP, Terraform, Kubernetes, and Linux."
+        },
+        {
+          "skill": "dlp",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Understanding of cybersecurity concepts (Prompt Injection, Malicious Macros, DLP/PII)."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Menlo Security is trusted by major global businesses, including Fortune 500 companies and government agencies, to protect their most valuable asset, their data, and is backed by top-tier investors."
+        }
+      ],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": {
+        "min_years": 2,
+        "max_years": 4,
+        "optional": false,
+        "display": "2-4 years",
+        "evidence": "2–4 years of experience in software engineering, data engineering, or automated QA/evaluation roles."
+      }
+    },
+    {
+      "report_number": 10,
+      "job_key": "d262fcc8afaadd54451b",
+      "status": "UPDATED",
+      "application_status": "NEW",
+      "score": 59,
+      "raw_score": 60,
+      "score_cap": 59,
+      "score_cap_reasons": [
+        "Mandatory experience requirement is 5+ years",
+        "Multiple explicitly mandatory skills are not evidenced"
+      ],
+      "score_label": "STRETCH",
+      "title": "Senior Network & Security Engineer (w/m/x/d)",
+      "company": "MILES Mobility GmbH",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin on-site role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "On-site"
+      },
+      "location_scope": "Berlin",
+      "working_model": "On-site",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer",
+          "vulnerability"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://www.arbeitnow.com/jobs/companies/miles-mobility-gmbh/senior-network-security-engineer-d-berlin-56929",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/miles-mobility-gmbh/senior-network-security-engineer-d-berlin-56929",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/miles-mobility-gmbh/senior-network-security-engineer-d-berlin-56929",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-10-18T05:13:14Z",
+      "posting_age_days": 2,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 2,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-10-14T10:27:05Z",
+      "experience_required": "5+ years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "vulnerability management"
+        ],
+        "partial": [
+          "incident response",
+          "security auditing"
+        ],
+        "missing": [
+          "gdpr",
+          "infrastructure as code",
+          "iso 27001",
+          "rust",
+          "secrets management",
+          "terraform"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "gdpr",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Working knowledge of GDPR and of what a security audit such as ISO 27001 asks for"
+        },
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Working knowledge of GDPR and of what a security audit such as ISO 27001 asks for"
+        },
+        {
+          "skill": "security auditing",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Working knowledge of GDPR and of what a security audit such as ISO 27001 asks for"
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "infrastructure as code",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Hands-on with one major cloud provider's networking and IAM, and with infrastructure as code such as Terraform or OpenTofu"
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Design, build and run our cloud networks: VPCs, routing, DNS, load balancing, private connectivity and zero-trust access for staff and services"
+        },
+        {
+          "skill": "secrets management",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Harden the platform: firewall and WAF policy, TLS and certificate lifecycle, secrets management, host and container baselines"
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Hands-on with one major cloud provider's networking and IAM, and with infrastructure as code such as Terraform or OpenTofu"
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 8,
+        "experience": 4,
+        "location": 15,
+        "language": 10,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "Berlin on-site role.",
+        "Evidenced matches include vulnerability management."
+      ],
+      "warnings": [
+        "Requests 5+ years versus approximately 2.1 years in the profile.",
+        "Mandatory gaps: gdpr, iso 27001, security auditing",
+        "Potential gaps: infrastructure as code, rust, secrets management, terraform",
+        "Exposure only; do not claim deep expertise: incident response, security auditing",
+        "Mandatory experience requirement is 5+ years",
+        "Multiple explicitly mandatory skills are not evidenced"
+      ],
+      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
+      "description_excerpt": "Join the ride! You own the network and security posture of our platform end to end: the cloud environments our services run in, the connections between vehicles, offices (VPN), back-office systems (Admin-Tools), and the controls that keep customer and payment data safe. Our product runs on the street around the clock. Your work keeps it reachable, keeps the wrong people out, and makes every change to the network reviewable and reversible. This position is Berlin based. Your Responsibility Design, build and run our cloud networks: VPCs, routing, DNS, load balancing, private connectivity and zero-trust access for staff and services Own identity and access: single sign-on, multi-factor authentication, roles and least-privilege access across cloud, tools and application systems Harden the platform: firewall and WAF policy, TLS and certificate lifecycle, secrets management, host and container baselines Run vulnerability management from scan to fix, and lead security incident response with clear write-ups Keep all network and security configuration as code, reviewed and deployed through CI Monitor for abuse and outages, and set alerting that wakes people only when it should Support audi…",
+      "full_description": "Join the ride!\nYou own the network and security posture of our platform end to end: the cloud\nenvironments our services run in, the connections between vehicles, offices (VPN),\nback-office systems (Admin-Tools), and the controls that keep customer and payment\ndata safe.\nOur product runs on the street around the clock. Your work keeps it reachable, keeps the\nwrong people out, and makes every change to the network reviewable and reversible.\n\nThis position is Berlin based.\n\nYour Responsibility\n\nDesign, build and run our cloud networks: VPCs, routing, DNS, load balancing, private connectivity and zero-trust access for staff and services\n\nOwn identity and access: single sign-on, multi-factor authentication, roles and least-privilege access across cloud, tools and application systems\n\nHarden the platform: firewall and WAF policy, TLS and certificate lifecycle, secrets management, host and container baselines\n\nRun vulnerability management from scan to fix, and lead security incident response with clear write-ups\n\nKeep all network and security configuration as code, reviewed and deployed through CI\n\nMonitor for abuse and outages, and set alerting that wakes people only when it should\n\nSupport audits and customer security questionnaires with evidence that already exists\n\nEffectively deploy and use AI agents\n\nYour Experience\n\n5+ years running production networks and security for an online service, with on-call experience\n\nDeep networking fundamentals: TCP/IP, DNS, TLS, routing, VPN and firewalls, on a public cloud and on physical office networks\n\nHands-on with one major cloud provider's networking and IAM, and with infrastructure as code such as Terraform or OpenTofu\n\nIdentity engineering in practice: OIDC and SAML single sign-on, MFA rollout, role design and access reviews\n\nSecurity operations: vulnerability scanning, log analysis, incident handling and clear post-incident write-ups\n\nComfortable with Linux, containers and CI pipelines, and able to read code in at least one language\n\nWorking knowledge of GDPR and of what a security audit such as ISO 27001 asks for\n\nFluent English, and eligible to work in Germany\n\nHighly desired\n\nExperience in mobility, logistics, IoT or another product with devices in the field talking to a backend\n\nZero-trust access tooling and web application firewalls in front of public services\n\nSecrets management and workload identity between CI and cloud, with no long-lived keys\n\nSecuring payment flows and card data, and the compliance work that comes with them\n\nDaily use of AI coding agents, reviewing their output like any pull request\n\nNice to have\n\nA valid driving licence (EU category B or equivalent). Testing the product includes trips on the road.\n\nDon't tick every box? Get in touch anyway. Your drive to learn and grow matters a lot to us.\n\nBenefits\n\nMobility: Choose between monthly MILES credits or the Deutschlandticket. \n\nFitness: Enjoy a subsidized Urban Sports Club membership for your physical and mental well-being.\n\nDiscounts: Access 1,500+ providers for discounts on sneakers, theater visits, and more. \n\nHome Office: Enjoy the flexibility of working from our office in Berlin and from home.\n\nRetirement: Secure your financial future with our attractive pension plan.\n\nGrowth: We prioritize personal development through knowledge sharing and training opportunities (with the support from our HR Team and the Team Leads). \n\nSocial Impact: We dedicate a portion of our revenue to support regional social projects, actively contributing to the well-being of society and the environment. #milescharity\n\nFind Jobs in Germany on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "gdpr",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Working knowledge of GDPR and of what a security audit such as ISO 27001 asks for"
+        },
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Working knowledge of GDPR and of what a security audit such as ISO 27001 asks for"
+        },
+        {
+          "skill": "security auditing",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Working knowledge of GDPR and of what a security audit such as ISO 27001 asks for"
+        },
+        {
+          "skill": "incident response",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Run vulnerability management from scan to fix, and lead security incident response with clear write-ups"
+        },
+        {
+          "skill": "infrastructure as code",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Hands-on with one major cloud provider's networking and IAM, and with infrastructure as code such as Terraform or OpenTofu"
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Design, build and run our cloud networks: VPCs, routing, DNS, load balancing, private connectivity and zero-trust access for staff and services"
+        },
+        {
+          "skill": "secrets management",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Harden the platform: firewall and WAF policy, TLS and certificate lifecycle, secrets management, host and container baselines"
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Hands-on with one major cloud provider's networking and IAM, and with infrastructure as code such as Terraform or OpenTofu"
+        },
+        {
+          "skill": "vulnerability management",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Run vulnerability management from scan to fix, and lead security incident response with clear write-ups"
+        }
+      ],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": {
+        "min_years": 5,
+        "max_years": null,
+        "optional": false,
+        "display": "5+ years",
+        "evidence": "5+ years running production networks and security for an online service, with on-call experience"
+      }
     }
   ],
   "analysis_request": {

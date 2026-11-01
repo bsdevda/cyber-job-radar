@@ -8754,6 +8754,145 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-11-01T13:56:58Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 25440,
+      "security_title_candidates": 877,
+      "prefiltered_non_security_jobs": 24563,
+      "unique_jobs_after_deduplication": 673,
+      "duplicates_removed": 204,
+      "jobs_rejected_or_below_threshold": 25221,
+      "relevant_jobs_in_current_run": 15,
+      "new_jobs": 1,
+      "updated_jobs": 0,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 2,
+      "report_jobs": 42,
+      "jobs_by_source": {
+        "arbeitnow": 2039,
+        "remotive": 12,
+        "linkedin_posts": 0,
+        "greenhouse": 21546,
+        "ashby": 462,
+        "lever": 1201,
+        "personio": 170,
+        "recruitee": 10
+      },
+      "employer_mode": "full",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 41.9,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2039,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 12,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 21546,
+          "requests": 167,
+          "errors": [
+            {
+              "source": "greenhouse",
+              "company": "ClickHouse",
+              "http_status": 404,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found",
+              "message": "Greenhouse | ClickHouse | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found"
+            },
+            {
+              "source": "greenhouse",
+              "company": "Amplitude",
+              "http_status": 404,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/amplitude/jobs?content=true: HTTP Error 404: Not Found",
+              "message": "Greenhouse | Amplitude | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/amplitude/jobs?content=true: HTTP Error 404: Not Found"
+            }
+          ],
+          "error": "Greenhouse | ClickHouse | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true: HTTP Error 404: Not Found",
+          "companies_checked": 167,
+          "companies_successful": 165,
+          "companies_failed": 2
+        },
+        "ashby": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 462,
+          "requests": 13,
+          "errors": [
+            {
+              "source": "ashby",
+              "company": "Leapsome",
+              "http_status": 404,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://api.ashbyhq.com/posting-api/job-board/leapsome?includeCompensation=true: HTTP Error 404: Not Found",
+              "message": "Ashby | Leapsome | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://api.ashbyhq.com/posting-api/job-board/leapsome?includeCompensation=true: HTTP Error 404: Not Found"
+            }
+          ],
+          "error": "Ashby | Leapsome | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://api.ashbyhq.com/posting-api/job-board/leapsome?includeCompensation=true: HTTP Error 404: Not Found",
+          "companies_checked": 13,
+          "companies_successful": 12,
+          "companies_failed": 1
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1201,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 170,
+          "requests": 7,
+          "errors": [],
+          "error": "",
+          "companies_checked": 7,
+          "companies_successful": 7,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 10,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -16048,6 +16187,77 @@
       "event": "REMOVED",
       "company": "vCluster Labs",
       "title": "Senior Software Engineer (Product Security)"
+    },
+    {
+      "at": "2026-11-01T13:56:58Z",
+      "job_key": "6943ccc7ff70c247e0a3",
+      "event": "NEW",
+      "company": "Menlosecurity",
+      "title": "AI Security Engineer",
+      "score": 59
+    },
+    {
+      "at": "2026-11-01T13:56:58Z",
+      "job_key": "c1ab5b22feaa0afc7ed6",
+      "event": "REMOVED",
+      "company": "Vercel",
+      "title": "Product Security Engineer"
+    },
+    {
+      "at": "2026-11-01T13:56:58Z",
+      "job_key": "59039a1f42a8c045cc25",
+      "event": "REMOVED",
+      "company": "Vercel",
+      "title": "Security Engineer, Detection Response"
+    },
+    {
+      "at": "2026-11-01T13:56:58Z",
+      "job_key": "8284e91e3afc1425ab11",
+      "event": "REMOVED",
+      "company": "Vercel",
+      "title": "Security Software Engineer, Open Source Frameworks"
+    },
+    {
+      "at": "2026-11-01T13:56:58Z",
+      "job_key": "9e8e071b253d6d6eb5ba",
+      "event": "REMOVED",
+      "company": "Vercel",
+      "title": "Senior Security Software Engineer, v0"
+    },
+    {
+      "at": "2026-11-01T13:56:58Z",
+      "job_key": "61f504a1b399ea41dd23",
+      "event": "REMOVED",
+      "company": "HelloFresh",
+      "title": "Senior Cloud Security Engineer (m,f,x)"
+    },
+    {
+      "at": "2026-11-01T13:56:58Z",
+      "job_key": "b3d25546d338bae16a36",
+      "event": "REMOVED",
+      "company": "Awin",
+      "title": "Application Security Engineer (f/m/d)"
+    },
+    {
+      "at": "2026-11-01T13:56:58Z",
+      "job_key": "ca9ca2de50791397491c",
+      "event": "REMOVED",
+      "company": "Alan",
+      "title": "Security Engineer - GRC"
+    },
+    {
+      "at": "2026-11-01T13:56:58Z",
+      "job_key": "aeed9275b0fec6f82691",
+      "event": "REMOVED",
+      "company": "sumup",
+      "title": "Senior Security Assurance Specialist"
+    },
+    {
+      "at": "2026-11-01T13:56:58Z",
+      "job_key": "1ab23c76c3e03c898472",
+      "event": "REMOVED",
+      "company": "jetbrains",
+      "title": "Senior Product/Cloud Security Engineer"
     }
   ]
 }
