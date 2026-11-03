@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T16:25:46Z",
+  "generated_at": "2026-11-03T14:31:48Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,42 +171,42 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-11-02T16:25:46Z",
+    "generated_at": "2026-11-03T14:31:48Z",
     "scoring_version": 2.2,
-    "jobs_collected": 8945,
-    "security_title_candidates": 311,
-    "prefiltered_non_security_jobs": 8634,
-    "unique_jobs_after_deduplication": 213,
-    "duplicates_removed": 98,
-    "jobs_rejected_or_below_threshold": 8833,
+    "jobs_collected": 7283,
+    "security_title_candidates": 201,
+    "prefiltered_non_security_jobs": 7082,
+    "unique_jobs_after_deduplication": 149,
+    "duplicates_removed": 52,
+    "jobs_rejected_or_below_threshold": 7217,
     "relevant_jobs_in_current_run": 14,
-    "new_jobs": 0,
-    "updated_jobs": 3,
+    "new_jobs": 2,
+    "updated_jobs": 2,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
-    "sources_partial": 0,
+    "sources_partial": 1,
     "report_jobs": 43,
     "jobs_by_source": {
-      "arbeitnow": 2042,
-      "remotive": 12,
+      "arbeitnow": 2022,
+      "remotive": 10,
       "linkedin_posts": 0,
-      "greenhouse": 6256,
-      "ashby": 403,
-      "lever": 99,
-      "personio": 133,
+      "greenhouse": 4688,
+      "ashby": 240,
+      "lever": 185,
+      "personio": 138,
       "recruitee": 0
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 20.3
+    "workflow_duration_seconds": 27.0
   },
   "source_status": {
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 2042,
+      "jobs": 2022,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 12,
+      "jobs": 10,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -228,47 +228,56 @@
       "error": ""
     },
     "greenhouse": {
-      "status": "ok",
+      "status": "partial",
       "ok": true,
-      "jobs": 6256,
-      "requests": 49,
-      "errors": [],
-      "error": "",
-      "companies_checked": 49,
-      "companies_successful": 49,
-      "companies_failed": 0
+      "jobs": 4688,
+      "requests": 63,
+      "errors": [
+        {
+          "source": "greenhouse",
+          "company": "Marqeta",
+          "http_status": 404,
+          "exception_type": "RuntimeError",
+          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/marqeta/jobs?content=true: HTTP Error 404: Not Found",
+          "message": "Greenhouse | Marqeta | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/marqeta/jobs?content=true: HTTP Error 404: Not Found"
+        }
+      ],
+      "error": "Greenhouse | Marqeta | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/marqeta/jobs?content=true: HTTP Error 404: Not Found",
+      "companies_checked": 63,
+      "companies_successful": 62,
+      "companies_failed": 1
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 403,
-      "requests": 10,
+      "jobs": 240,
+      "requests": 8,
       "errors": [],
       "error": "",
-      "companies_checked": 10,
-      "companies_successful": 10,
+      "companies_checked": 8,
+      "companies_successful": 8,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 99,
-      "requests": 2,
-      "errors": [],
-      "error": "",
-      "companies_checked": 2,
-      "companies_successful": 2,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 133,
+      "jobs": 185,
       "requests": 3,
       "errors": [],
       "error": "",
       "companies_checked": 3,
       "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 138,
+      "requests": 4,
+      "errors": [],
+      "error": "",
+      "companies_checked": 4,
+      "companies_successful": 4,
       "companies_failed": 0
     },
     "recruitee": {
@@ -340,10 +349,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-16T09:23:08Z",
-      "posting_age_days": 17,
+      "posting_age_days": 18,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 17,
+        "age_days": 18,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -434,7 +443,7 @@
       ],
       "recommendation": "REVIEW - material seniority, language, or skill risk",
       "description_excerpt": "About Staffbase We inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees. Headquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience. We are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication. At Staffbase, security is at the heart of everything we build. Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company. We believe the best security work happens when people bring their authentic selves and diverse perspectives to the table and we’…",
-      "full_description": "About Staffbase\n\nWe inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees.\n\nHeadquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience.\nWe are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication.\n\nAt Staffbase, security is at the heart of everything we build. Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company. We believe the best security work happens when people bring their authentic selves and diverse perspectives to the table and we’re proud of the unique mix of talents and backgrounds in our team.\n\nAs an enablement team, we provide tools, guidance, and insights that allow developers to integrate security early in the development process. We see security not as a blocker but as a trusted partner that is the foundation for better products. With us, you’ll get hands-on experience with modern security practices, mentorship from experienced engineers, and the chance to make a visible impact in a global SaaS environment.\n\nWe work together with curiosity, humility, and a growth mindset, supporting each other, taking ownership of our contributions, and celebrating progress along the way. Here, your ideas matter, your work will shape how we build secure products, and you’ll have space to grow into new challenges.\n\nWhat you’ll be doing \n\nTake ownership of tasks that improve our security automation and strengthen our product security pipelines\n\nProactively explore the use of AI for vulnerability detection and remediation\n\nContinuously learn and share knowledge about how vulnerabilities apply in our specific product context\n\nSupport the team by enhancing our services with software engineering solutions\n\nCollaborate closely with stakeholders across the product department and gain broad exposure to how a growing SaaS company operates\n\nMaintain our outbound e-mail security by regularly reviewing the related metrics\n\nMaintain our Web Application Firewall ruleset\n\nKubernetes security\n\nCI/CD pipelines security\n\nMaintain our central HTML sanitization service written in TypeScript\n\nWhat you need to be successful \n\nPractical knowledge of security topics (e.g. penetration testing, secure software development, vulnerability management, SAST, DAST)\n\nStrong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python\n\nPractical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize\n\nStrong communication skills in English (German is a plus)\n\nWhat you'll get \n\nCompetitive Compensation - we offer attractive salary packages including LTIP (unit-based Long Term Incentive Plan)\n\nFlexibility - we offer flexible working time models and the option of hybrid work, and support this with a yearly flex work allowance of €1560\n\nRecharge - with 31 vacation days annually (incl. one floating holiday), plus pro rata fully paid Fridays off during August\n\nSupport - we’re offering a company pension scheme\n\nVolunteers Day - you’ll get one day off per year for supporting a social project\n\nFind Jobs in Germany on Arbeitnow",
+      "full_description": "About Staffbase\n\nWe inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees.\n\nHeadquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience.\nWe are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication.\n\nAt Staffbase, security is at the heart of everything we build. Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company. We believe the best security work happens when people bring their authentic selves and diverse perspectives to the table and we’re proud of the unique mix of talents and backgrounds in our team.\n\nAs an enablement team, we provide tools, guidance, and insights that allow developers to integrate security early in the development process. We see security not as a blocker but as a trusted partner that is the foundation for better products. With us, you’ll get hands-on experience with modern security practices, mentorship from experienced engineers, and the chance to make a visible impact in a global SaaS environment.\n\nWe work together with curiosity, humility, and a growth mindset, supporting each other, taking ownership of our contributions, and celebrating progress along the way. Here, your ideas matter, your work will shape how we build secure products, and you’ll have space to grow into new challenges.\n\nWhat you’ll be doing \n\nTake ownership of tasks that improve our security automation and strengthen our product security pipelines\n\nProactively explore the use of AI for vulnerability detection and remediation\n\nContinuously learn and share knowledge about how vulnerabilities apply in our specific product context\n\nSupport the team by enhancing our services with software engineering solutions\n\nCollaborate closely with stakeholders across the product department and gain broad exposure to how a growing SaaS company operates\n\nMaintain our outbound e-mail security by regularly reviewing the related metrics\n\nMaintain our Web Application Firewall ruleset\n\nKubernetes security\n\nCI/CD pipelines security\n\nMaintain our central HTML sanitization service written in TypeScript\n\nWhat you need to be successful \n\nPractical knowledge of security topics (e.g. penetration testing, secure software development, vulnerability management, SAST, DAST)\n\nStrong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python\n\nPractical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize\n\nStrong communication skills in English (German is a plus)\n\nWhat you'll get \n\nCompetitive Compensation - we offer attractive salary packages including LTIP (unit-based Long Term Incentive Plan)\n\nFlexibility - we offer flexible working time models and the option of hybrid work, and support this with a yearly flex work allowance of €1560\n\nRecharge - with 31 vacation days annually (incl. one floating holiday), plus pro rata fully paid Fridays off during August\n\nSupport - we’re offering a company pension scheme\n\nVolunteers Day - you’ll get one day off per year for supporting a social project\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
       "skill_requirements": [
         {
           "skill": "ci/cd",
@@ -544,6 +553,183 @@
     },
     {
       "report_number": 2,
+      "job_key": "855f35dfe9f06890eb91",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 74,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "score_label": "REVIEW",
+      "title": "Automation, IT Systems & Security Specialist (m/f/d)",
+      "company": "RobCo",
+      "location": "Munich, Germany",
+      "location_analysis": {
+        "category": "eligible_germany_remote",
+        "eligible": true,
+        "score": 15,
+        "reason": "Remote work from Germany is explicitly available",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Germany remote",
+        "work_model": "Remote"
+      },
+      "location_scope": "Germany remote",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "medium",
+        "evidence": [
+          "security architecture"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://www.arbeitnow.com/jobs/companies/robco/automation-it-systems-security-specialist-munich-215510",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/robco/automation-it-systems-security-specialist-munich-215510",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/robco/automation-it-systems-security-specialist-munich-215510",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-11-02T18:40:13Z",
+      "posting_age_days": 0,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-11-03T14:31:48Z",
+      "experience_required": null,
+      "german_requirement": "German is preferred/nice-to-have",
+      "skill_matches": {
+        "match": [],
+        "partial": [
+          "aws",
+          "network security",
+          "nist"
+        ],
+        "missing": [
+          "rust",
+          "secrets management",
+          "system administration"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Several years of experience in system administration, network architecture, or IT security in cloud environments"
+        },
+        {
+          "skill": "system administration",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Several years of experience in system administration, network architecture, or IT security in cloud environments"
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "AWS, Zero Trust principles)"
+        },
+        {
+          "skill": "secrets management",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Ensuring highest standards in Identity & Access Management (IAM), SSO, and secrets management"
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 9,
+        "experience": 10,
+        "location": 15,
+        "language": 9,
+        "seniority": 10,
+        "education": 5
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "Remote work from Germany is explicitly available."
+      ],
+      "warnings": [
+        "Mandatory gaps: nist, system administration",
+        "Potential gaps: rust, secrets management",
+        "Exposure only; do not claim deep expertise: aws, network security, nist",
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "About the Role at RobCo RobCo is building the category of Autonomous Industrial Robotics and we're doing it fast. We believe that automating the ordinary frees humans to do the extraordinary, and we're building the end-to-end robotics infrastructure to make that possible - hardware, software, and AI in one stack that just works. At RobCo, we automate the ordinary, so humans can do the extraordinary. To achieve this, we are looking for an ambitious Automation, IT Systems & Security Specialist (m/f/d) to help us establish RobCo as leading provider of automation solutions. In this key role, you act as the architect and guardian of our internal IT infrastructure. Your focus is not on maintaining the status quo, but on building a highly secure, automated, and scalable system landscape. You eliminate manual effort through intelligent IT automation and ensure that our network and security architecture keeps pace with our global growth. Your Responsibilities Design and implementation of a secure, cloud-aligned IT and network landscape (e.g. AWS, Zero Trust principles) Ensuring highest standards in Identity & Access Management (IAM), SSO, and secrets management Protection of endpoints and…",
+      "full_description": "About the Role at RobCo\n\nRobCo is building the category of Autonomous Industrial Robotics and we're doing it fast. We believe that automating the ordinary frees humans to do the extraordinary, and we're building the end-to-end robotics infrastructure to make that possible - hardware, software, and AI in one stack that just works. \n\nAt RobCo, we automate the ordinary, so humans can do the extraordinary. To achieve this, we are looking for an ambitious Automation, IT Systems & Security Specialist (m/f/d) to help us establish RobCo as leading provider of automation solutions.\n\nIn this key role, you act as the architect and guardian of our internal IT infrastructure. Your focus is not on maintaining the status quo, but on building a highly secure, automated, and scalable system landscape. You eliminate manual effort through intelligent IT automation and ensure that our network and security architecture keeps pace with our global growth.\n\nYour Responsibilities\n\nDesign and implementation of a secure, cloud-aligned IT and network landscape (e.g. AWS, Zero Trust principles)\n\nEnsuring highest standards in Identity & Access Management (IAM), SSO, and secrets management\n\nProtection of endpoints and continuous monitoring of system integrity across all teams\n\nIdentification and automation of repetitive IT processes (e.g. automated onboarding/offboarding, asset management)\n\nSelection and integration of tools that connect and streamline internal workflows across Finance, HR, and Engineering\n\nActive use of modern automation tools, including AI-supported solutions, to sustainably reduce manual support effort\n\nOwnership of global device and lifecycle management, including rollout processes\n\nActing as a technical lead for complex first- and second-level support topics\n\nClose collaboration with Engineering and Cloud teams on infrastructure, security, and automation topics\n\nWe're looking for someone who has:\n\nCompleted vocational training or a degree in Computer Science, IT Systems, Security or a comparable field\n\nSeveral years of experience in system administration, network architecture, or IT security in cloud environments\n\nStrong ownership mindset: you take responsibility, proactively identify gaps, and close them independently\n\nA strong automation mindset: you are driven by the principle of not doing things twice manually and actively use scripting or tools to improve processes\n\nDeep understanding of cloud architectures, modern identity models, and network security concepts\n\nA structured and pragmatic working style, combined with a strong ownership mindset and focus on scalable systems\n\nVery good English skills (German is a plus)\n\nWhy join RobCo?\n\nDevelop modular, software-defined robotics solutions with us that set new standards in automation.\n\nHelp us build robots equipped with state-of-the-art AI that perceive their environment, analyze data, and make intelligent decisions in real time.\n\nAs part of a very dynamic and fast-growing scale-up, you will take on responsibility from day one, drive your own projects, and see the direct impact of your work.\n\nFlat hierarchies, open communication, and regular 360° feedback enable fast decisions and support your professional and personal development.\n\nWork out across Germany in over 7,200 studios with our subsidized Wellpass membership.\n\nFlexible working hours, a modern office, and—depending on the role—the option to work from home.\n\nRegular team events—from relaxed beer & pizza nights on the rooftop terrace to shared experiences on ski trips or at Oktoberfest.\n\nAbout RobCo\n\nFounded in Munich in 2020, RobCo leads the transition toward fully Autonomous Industrial Robotics. Our mission is to deploy RobCo in every factory - solving the industrial labor shortage through end-to-end robotics that just works. Powered by Physical AI, our solutions combine a scalable modular hardware architecture with intelligent software that continuously learns and improves, requiring zero upfront investment through our Robotics-as-a-Service (RaaS) model.\n\nWe solve our customers' most pressing pain points - labor shortage, cost pressure, workplace safety, and national reshoring - across the full spectrum of Autonomous Industrial Robotics. In October 2026, RobCo reached unicorn status with a valuation exceeding one billion US dollars, with its valuation doubling in less than nine months. With $200M raised from investors including Sequoia, Lightspeed, Lingotto, Kindred, Cherry Ventures, and the European Tech Collective, 225+ people globally, and 3.5M+ operating hours in the field, we are deploying robots in factories across Europe and the United States - with our US operations headquartered in Austin, TX, and our Bay Area Lab in San Francisco.\n\nDon’t meet every single requirement? If you’re excited about this role but your past experience doesn’t align perfectly with every qualification in the job description, we encourage you to apply anyway. You may be just the right candidate for this or other roles.\n\nAt RobCo, applicants are selected regardless of ethnic origin, religion, gender, age, disability, or sexual orientation. All decisions throughout the recruitment process are based solely on applicants’ qualifications, skills, knowledge, and experience, as well as relevant business requirements.\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Several years of experience in system administration, network architecture, or IT security in cloud environments"
+        },
+        {
+          "skill": "system administration",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Several years of experience in system administration, network architecture, or IT security in cloud environments"
+        },
+        {
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "AWS, Zero Trust principles)"
+        },
+        {
+          "skill": "network security",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Deep understanding of cloud architectures, modern identity models, and network security concepts"
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "AWS, Zero Trust principles)"
+        },
+        {
+          "skill": "secrets management",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Ensuring highest standards in Identity & Access Management (IAM), SSO, and secrets management"
+        }
+      ],
+      "german_analysis": {
+        "category": "nice",
+        "level": "unspecified",
+        "mandatory": false,
+        "label": "German is preferred/nice-to-have",
+        "evidence": "Very good English skills (German is a plus)"
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 3,
       "job_key": "565e052ce84fc91a01cc",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -749,7 +935,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 3,
+      "report_number": 4,
       "job_key": "fcd3d88612c00e3423ee",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -926,7 +1112,7 @@
       }
     },
     {
-      "report_number": 4,
+      "report_number": 5,
       "job_key": "ad5a9fea931d31fc704c",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1046,7 +1232,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 5,
+      "report_number": 6,
       "job_key": "86d0e27ef416b6621d0d",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1253,7 +1439,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 6,
+      "report_number": 7,
       "job_key": "0bc28b416edb95f3b45f",
       "status": "NEW",
       "application_status": "NEW",
@@ -1372,7 +1558,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 7,
+      "report_number": 8,
       "job_key": "022b02e42c40ff735dbc",
       "status": "NEW",
       "application_status": "NEW",
@@ -1556,7 +1742,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 8,
+      "report_number": 9,
       "job_key": "bd1b3b1bbb48fe52ce64",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1652,7 +1838,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 9,
+      "report_number": 10,
       "job_key": "cd5cfcf928703cec5837",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1795,181 +1981,6 @@
         "evidence": ""
       },
       "experience_analysis": null
-    },
-    {
-      "report_number": 10,
-      "job_key": "b8cd59fa1a90fef70e9e",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 59,
-      "raw_score": 64,
-      "score_cap": 59,
-      "score_cap_reasons": [
-        "Mandatory experience requirement is 6+ years"
-      ],
-      "score_label": "STRETCH",
-      "title": "Corporate Security Engineer",
-      "company": "Superhuman",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin hybrid role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "Hybrid"
-      },
-      "location_scope": "Berlin",
-      "working_model": "Hybrid",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "security engineer",
-          "security controls",
-          "vulnerability"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://www.arbeitnow.com/jobs/companies/superhuman/corporate-security-engineer-berlin-168490",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/superhuman/corporate-security-engineer-berlin-168490",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/superhuman/corporate-security-engineer-berlin-168490",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-11-01T18:40:13Z",
-      "posting_age_days": 0,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 0,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-09-13T10:52:39Z",
-      "experience_required": "6+ years",
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "vulnerability management"
-        ],
-        "partial": [
-          "network security"
-        ],
-        "missing": [
-          "dlp",
-          "go",
-          "rust"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "dlp",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Strong experience with data protection technologies (DSPM, discovery, masking, access controls, DLP, backup)."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "The company’s products include Grammarly’s writing assistance, Superhuman Docs’ collaborative workspaces, Mail’s inbox management, and Go, the proactive AI assistant that understands context and delivers help automatically."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "This flexible approach gives team members the best of both worlds: plenty of focus time along with in-person collaboration that helps foster trust, innovation, and a strong team culture."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 10,
-        "experience": 0,
-        "location": 15,
-        "language": 10,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Security Engineering.",
-        "Berlin hybrid role.",
-        "Evidenced matches include vulnerability management."
-      ],
-      "warnings": [
-        "Requests 6+ years versus approximately 2.1 years in the profile.",
-        "Mandatory gaps: dlp",
-        "Potential gaps: go, rust",
-        "Exposure only; do not claim deep expertise: network security",
-        "Mandatory experience requirement is 6+ years"
-      ],
-      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "Superhuman offers a dynamic hybrid working model for this role. This flexible approach gives team members the best of both worlds: plenty of focus time along with in-person collaboration that helps foster trust, innovation, and a strong team culture. About Superhuman Grammarly is now part of Superhuman, the AI productivity platform on a mission to unlock the superhuman potential in everyone. The Superhuman suite of apps and agents brings AI wherever people work, integrating with over 1 million applications and websites. The company’s products include Grammarly’s writing assistance, Superhuman Docs’ collaborative workspaces, Mail’s inbox management, and Go, the proactive AI assistant that understands context and delivers help automatically. Founded in 2009, Superhuman empowers over 40 million people, 50,000 organizations, and 3,000 educational institutions worldwide to eliminate busywork and focus on what matters. Learn more at superhuman.com. The Opportunity Superhuman is on a mission to build the fastest, most delightful productivity experiences powered by AI. As we scale rapidly, our internal technology operations must evolve to match our ambition. We’re looking for a Security E…",
-      "full_description": "Superhuman offers a dynamic hybrid working model for this role. This flexible approach gives team members the best of both worlds: plenty of focus time along with in-person collaboration that helps foster trust, innovation, and a strong team culture.\n\nAbout Superhuman\n\nGrammarly is now part of Superhuman, the AI productivity platform on a mission to unlock the superhuman potential in everyone. The Superhuman suite of apps and agents brings AI wherever people work, integrating with over 1 million applications and websites. The company’s products include Grammarly’s writing assistance, Superhuman Docs’ collaborative workspaces, Mail’s inbox management, and Go, the proactive AI assistant that understands context and delivers help automatically. Founded in 2009, Superhuman empowers over 40 million people, 50,000 organizations, and 3,000 educational institutions worldwide to eliminate busywork and focus on what matters. Learn more at superhuman.com.\n\nThe Opportunity\n\nSuperhuman is on a mission to build the fastest, most delightful productivity experiences powered by AI. As we scale rapidly, our internal technology operations must evolve to match our ambition.\n\nWe’re looking for a Security Engineer to join our Corporate Technology team. Our commitment to user trust is unwavering, and this new team member will play a crucial role in protecting Superhuman’s corporate environment and the infrastructure that millions of users depend on. Working closely with the Corporate Infrastructure team, you will harden and secure the systems our employees rely on every day, Identity and Access Management, Endpoint Management, SaaS platforms, and Networking, while ensuring that security enables speed rather than slowing it down.\n\nThis is an opportunity to build and maintain critical security programs, including Insider Risk, Threat and Vulnerability Management, and Third-Party Risk. You’ll leverage AI to build smarter security controls and processes, and help define how AI itself is secured across our corporate infrastructure. Your work will empower employees to move fast while maintaining a high bar for corporate security.\n\nIn this role, you will:\n\nDesign, build, and maintain corporate security controls that enable employees to move fast with confidence, making the secure path the easiest path.\n\nDevelop security standards, guidelines, and policies in collaboration with the Governance, Risk, and Compliance (GRC) team.\n\nLeverage AI to build and scale security controls, automate security processes, and accelerate threat detection and response across our corporate infrastructure.\n\nDefine and implement AI security standards for the corporate environment, ensuring employees can safely adopt AI-powered tools and workflows.\n\nPerform risk assessments and security assurance on systems that support Superhuman’s business operations: IdP, operating systems, desktop applications, SaaS solutions, and network infrastructure (ZTNA, CASB, VPN).\n\nLead the design and execution of a corporate Zero Trust architecture, working across identity, endpoint, and network security.\n\nDrive the remediation of security vulnerabilities identified through assessments.\n\nEvaluate and implement cutting-edge enterprise security technology to continuously strengthen our security posture.\n\nQualifications\n\nHas 6+ years of experience working on a Security team in corporate security, enterprise security, or a related domain for a SaaS company.\n\nExpert-level understanding and experience in at least two corporate security domains: Identity and Access Management, Endpoint Management, SaaS platforms, and Networking.\n\nStrong experience with data protection technologies (DSPM, discovery, masking, access controls, DLP, backup).\n\nStrong experience with assessing the configuration of common SaaS applications (SSPM), such as Salesforce, Workday, and Coupa.\n\nStrong experience with both macOS and Windows endpoint security.\n\nFamiliarity with AI security principles and practical knowledge of how to secure AI adoption in a corporate environment.\n\nDemonstrated experience using AI to build security controls, automate security processes, or scale security operations.\n\nAbility to assess risk in ambiguous situations and make balanced security decisions that consider both offensive and defensive perspectives.\n\nStrong communication skills with the ability to influence stakeholders and manage up effectively.\n\nA mindset that security should enable speed, experience designing controls that protect without creating unnecessary friction.\n\nHas a demonstrated ability to work independently with minimal guidance, proactively manages tasks and priorities across multiple projects, analyzes and executes work efficiently, collaborates effectively with cross-functional teams, and thrives in fast-paced, results-driven environments.\n\nCompensation and Benefits\n\nProfessional Growth: We believe that autonomy and trust are key to empowering our team members to do their best, most innovative work in a way that aligns with their interests, talents, and well-being\n\nA connected team: Superhuman builds a product that helps people connect, and we apply this mindset to our own team. Our remote-first, hybrid model enables a highly collaborative culture rooted in our values. We work to foster belonging among team members in a variety of ways. This includes our team member resource groups, Superhuman Circles, which promote connection among those with shared identities including BIPOC and LGBTQIA+ team members, women, and parents. We also celebrate our colleagues and accomplishments with global, local, and team-specific programs.\n\nComprehensive benefits for candidates based in Germany: Superhuman offers all team members competitive pay along with a benefits package encompassing life care (including mental health care and risk benefits) and ample and defined time off. We also offer support to set up a home office, wellness and pet care stipends, learning and development opportunities, and more.\n\nRelocation Support: Superhuman provides relocation support to make your move to Berlin seamless. Our package includes visa assistance, destination services to help you and your family settle in comfortably, and a relocation bonus to cover additional expenses, such as temporary housing.\n\nWe encourage you to apply\n\nAt Superhuman, we value our differences, and we encourage all—especially those whose identities are traditionally underrepresented in tech organizations—to apply. Superhuman is an equal opportunity company. We do not discriminate on the basis of race or ethnic origin, religion or belief, color, gender expression or identity, sexual orientation, sexual identity, national origin, citizenship, age, marital status, veteran status, disability status, criminal prosecution, judgment in a criminal case, or any other characteristic protected by law.\n\nFor more details about the personal data Superhuman collects during the recruitment process, for what purposes, and how you can address your rights, please see the Superhuman Data Privacy Notice for Candidates here.\n\nCompensation: €100K – €140K\n\n• €100K – €140K\n\nFind Jobs in Germany on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "dlp",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Strong experience with data protection technologies (DSPM, discovery, masking, access controls, DLP, backup)."
-        },
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "The company’s products include Grammarly’s writing assistance, Superhuman Docs’ collaborative workspaces, Mail’s inbox management, and Go, the proactive AI assistant that understands context and delivers help automatically."
-        },
-        {
-          "skill": "network security",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Lead the design and execution of a corporate Zero Trust architecture, working across identity, endpoint, and network security."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "This flexible approach gives team members the best of both worlds: plenty of focus time along with in-person collaboration that helps foster trust, innovation, and a strong team culture."
-        },
-        {
-          "skill": "vulnerability management",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "This is an opportunity to build and maintain critical security programs, including Insider Risk, Threat and Vulnerability Management, and Third-Party Risk."
-        }
-      ],
-      "german_analysis": {
-        "category": "none",
-        "level": "none",
-        "mandatory": false,
-        "label": "No German requirement detected",
-        "evidence": ""
-      },
-      "experience_analysis": {
-        "min_years": 6,
-        "max_years": null,
-        "optional": false,
-        "display": "6+ years",
-        "evidence": "Has 6+ years of experience working on a Security team in corporate security, enterprise security, or a related domain for a SaaS company."
-      }
     }
   ],
   "analysis_request": {

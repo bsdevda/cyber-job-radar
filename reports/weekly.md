@@ -1,7 +1,7 @@
 # Weekly Job Radar Analytics
 
 **Week starting:** 2026-11-02
-**Generated:** 2026-11-02T16:25:46Z
+**Generated:** 2026-11-03T14:31:48Z
 **Active relevant jobs:** 14
 
 ## Role-family demand
@@ -15,26 +15,27 @@
 
 ### Explicit mandatory gaps
 
-- **aws:** 4 job(s)
-- **kubernetes:** 4 job(s)
-- **docker:** 3 job(s)
-- **software development:** 3 job(s)
-- **nist:** 3 job(s)
+- **nist:** 5 job(s)
 - **rust:** 3 job(s)
-- **terraform:** 2 job(s)
+- **aws:** 3 job(s)
+- **iso 27001:** 2 job(s)
 - **edr:** 2 job(s)
+- **software development:** 2 job(s)
 - **go:** 2 job(s)
 - **incident response:** 2 job(s)
+- **docker:** 2 job(s)
+- **kubernetes:** 2 job(s)
+- **system administration:** 1 job(s)
 - **dlp:** 1 job(s)
-- **iso 27001:** 1 job(s)
 
 ### Potential gaps
 
 - **rust:** 6 job(s)
-- **iso 27001:** 3 job(s)
 - **go:** 2 job(s)
-- **dlp:** 2 job(s)
 - **edr:** 2 job(s)
+- **iso 27001:** 2 job(s)
+- **secrets management:** 1 job(s)
+- **dlp:** 1 job(s)
 - **azure:** 1 job(s)
 - **detection engineering:** 1 job(s)
 - **bug bounty:** 1 job(s)
@@ -54,17 +55,17 @@
 
 ### Exposure-only skills
 
-- **software development:** 7 job(s)
+- **nist:** 5 job(s)
 - **aws:** 5 job(s)
+- **software development:** 5 job(s)
 - **incident response:** 5 job(s)
 - **product security:** 4 job(s)
-- **nist:** 4 job(s)
-- **javascript:** 3 job(s)
-- **docker:** 3 job(s)
+- **network security:** 3 job(s)
 - **siem:** 3 job(s)
 - **cloud security:** 3 job(s)
 - **ci/cd:** 2 job(s)
-- **network security:** 2 job(s)
+- **javascript:** 2 job(s)
+- **docker:** 2 job(s)
 - **git:** 2 job(s)
 
 ## Application funnel

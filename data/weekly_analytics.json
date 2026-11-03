@@ -2561,7 +2561,7 @@
     },
     {
       "week_start": "2026-11-02",
-      "generated_at": "2026-11-02T16:25:46Z",
+      "generated_at": "2026-11-03T14:31:48Z",
       "active_relevant_jobs": 14,
       "role_family_counts": {
         "Security Engineering": 9,
@@ -2570,42 +2570,34 @@
         "SOC / Detection and Response": 1
       },
       "score_bands": {
-        "50-59 stretch": 7,
-        "60-69 review": 6,
+        "60-69 review": 7,
+        "50-59 stretch": 6,
         "70-79 good": 1
       },
       "skill_gaps": {
         "mandatory": [
           {
-            "skill": "aws",
-            "jobs": 4
-          },
-          {
-            "skill": "kubernetes",
-            "jobs": 4
-          },
-          {
-            "skill": "docker",
-            "jobs": 3
-          },
-          {
-            "skill": "software development",
-            "jobs": 3
-          },
-          {
             "skill": "nist",
-            "jobs": 3
+            "jobs": 5
           },
           {
             "skill": "rust",
             "jobs": 3
           },
           {
-            "skill": "terraform",
+            "skill": "aws",
+            "jobs": 3
+          },
+          {
+            "skill": "iso 27001",
             "jobs": 2
           },
           {
             "skill": "edr",
+            "jobs": 2
+          },
+          {
+            "skill": "software development",
             "jobs": 2
           },
           {
@@ -2617,11 +2609,19 @@
             "jobs": 2
           },
           {
-            "skill": "dlp",
+            "skill": "docker",
+            "jobs": 2
+          },
+          {
+            "skill": "kubernetes",
+            "jobs": 2
+          },
+          {
+            "skill": "system administration",
             "jobs": 1
           },
           {
-            "skill": "iso 27001",
+            "skill": "dlp",
             "jobs": 1
           }
         ],
@@ -2631,20 +2631,24 @@
             "jobs": 6
           },
           {
-            "skill": "iso 27001",
-            "jobs": 3
-          },
-          {
             "skill": "go",
-            "jobs": 2
-          },
-          {
-            "skill": "dlp",
             "jobs": 2
           },
           {
             "skill": "edr",
             "jobs": 2
+          },
+          {
+            "skill": "iso 27001",
+            "jobs": 2
+          },
+          {
+            "skill": "secrets management",
+            "jobs": 1
+          },
+          {
+            "skill": "dlp",
+            "jobs": 1
           },
           {
             "skill": "azure",
@@ -2703,11 +2707,15 @@
         ],
         "partial_exposure": [
           {
-            "skill": "software development",
-            "jobs": 7
+            "skill": "nist",
+            "jobs": 5
           },
           {
             "skill": "aws",
+            "jobs": 5
+          },
+          {
+            "skill": "software development",
             "jobs": 5
           },
           {
@@ -2719,15 +2727,7 @@
             "jobs": 4
           },
           {
-            "skill": "nist",
-            "jobs": 4
-          },
-          {
-            "skill": "javascript",
-            "jobs": 3
-          },
-          {
-            "skill": "docker",
+            "skill": "network security",
             "jobs": 3
           },
           {
@@ -2743,7 +2743,11 @@
             "jobs": 2
           },
           {
-            "skill": "network security",
+            "skill": "javascript",
+            "jobs": 2
+          },
+          {
+            "skill": "docker",
             "jobs": 2
           },
           {
