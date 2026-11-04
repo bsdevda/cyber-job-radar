@@ -2561,16 +2561,17 @@
     },
     {
       "week_start": "2026-11-02",
-      "generated_at": "2026-11-03T14:31:48Z",
-      "active_relevant_jobs": 14,
+      "generated_at": "2026-11-04T14:46:52Z",
+      "active_relevant_jobs": 15,
       "role_family_counts": {
-        "Security Engineering": 9,
-        "IT Audit / GRC": 3,
+        "Security Engineering": 8,
+        "IT Audit / GRC": 4,
         "Product Security": 1,
-        "SOC / Detection and Response": 1
+        "SOC / Detection and Response": 1,
+        "Penetration Testing / VAPT": 1
       },
       "score_bands": {
-        "60-69 review": 7,
+        "60-69 review": 8,
         "50-59 stretch": 6,
         "70-79 good": 1
       },
@@ -2581,23 +2582,23 @@
             "jobs": 5
           },
           {
+            "skill": "iso 27001",
+            "jobs": 4
+          },
+          {
+            "skill": "aws",
+            "jobs": 4
+          },
+          {
+            "skill": "software development",
+            "jobs": 3
+          },
+          {
             "skill": "rust",
             "jobs": 3
           },
           {
-            "skill": "aws",
-            "jobs": 3
-          },
-          {
-            "skill": "iso 27001",
-            "jobs": 2
-          },
-          {
             "skill": "edr",
-            "jobs": 2
-          },
-          {
-            "skill": "software development",
             "jobs": 2
           },
           {
@@ -2617,22 +2618,22 @@
             "jobs": 2
           },
           {
-            "skill": "system administration",
+            "skill": "javascript",
             "jobs": 1
           },
           {
-            "skill": "dlp",
+            "skill": "siem",
             "jobs": 1
           }
         ],
         "potential": [
           {
             "skill": "rust",
-            "jobs": 6
+            "jobs": 7
           },
           {
             "skill": "go",
-            "jobs": 2
+            "jobs": 3
           },
           {
             "skill": "edr",
@@ -2643,8 +2644,8 @@
             "jobs": 2
           },
           {
-            "skill": "secrets management",
-            "jobs": 1
+            "skill": "detection engineering",
+            "jobs": 2
           },
           {
             "skill": "dlp",
@@ -2652,10 +2653,6 @@
           },
           {
             "skill": "azure",
-            "jobs": 1
-          },
-          {
-            "skill": "detection engineering",
             "jobs": 1
           },
           {
@@ -2703,9 +2700,17 @@
           {
             "skill": "rust",
             "jobs": 1
+          },
+          {
+            "skill": "active directory",
+            "jobs": 1
           }
         ],
         "partial_exposure": [
+          {
+            "skill": "software development",
+            "jobs": 6
+          },
           {
             "skill": "nist",
             "jobs": 5
@@ -2715,20 +2720,12 @@
             "jobs": 5
           },
           {
-            "skill": "software development",
-            "jobs": 5
-          },
-          {
             "skill": "incident response",
             "jobs": 5
           },
           {
             "skill": "product security",
             "jobs": 4
-          },
-          {
-            "skill": "network security",
-            "jobs": 3
           },
           {
             "skill": "siem",
@@ -2753,6 +2750,10 @@
           {
             "skill": "git",
             "jobs": 2
+          },
+          {
+            "skill": "splunk",
+            "jobs": 1
           }
         ]
       },
