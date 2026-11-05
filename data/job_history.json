@@ -9241,6 +9241,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-11-05T14:51:46Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 8203,
+      "security_title_candidates": 327,
+      "prefiltered_non_security_jobs": 7876,
+      "unique_jobs_after_deduplication": 253,
+      "duplicates_removed": 74,
+      "jobs_rejected_or_below_threshold": 8114,
+      "relevant_jobs_in_current_run": 15,
+      "new_jobs": 1,
+      "updated_jobs": 3,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 43,
+      "jobs_by_source": {
+        "arbeitnow": 2056,
+        "remotive": 10,
+        "linkedin_posts": 0,
+        "greenhouse": 5511,
+        "ashby": 296,
+        "lever": 163,
+        "personio": 163,
+        "recruitee": 4
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 30.1,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2056,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 10,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 5511,
+          "requests": 58,
+          "errors": [],
+          "error": "",
+          "companies_checked": 58,
+          "companies_successful": 58,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 296,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 163,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 163,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 4,
+          "requests": 1,
+          "errors": [],
+          "error": "",
+          "companies_checked": 1,
+          "companies_successful": 1,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -16706,6 +16819,52 @@
       "job_key": "465abfb3dbed7cffd989",
       "event": "REMOVED",
       "company": "Augustus",
+      "title": "Security Engineer"
+    },
+    {
+      "at": "2026-11-05T14:51:46Z",
+      "job_key": "f1489c63de612c3b7228",
+      "event": "NEW",
+      "company": "Distribusion Technologies",
+      "title": "Senior Penetration Tester API, Web & Cloud – 6 Months Contract (all genders)",
+      "score": 69
+    },
+    {
+      "at": "2026-11-05T14:51:46Z",
+      "job_key": "9e41fd168e09c19854b6",
+      "event": "UPDATED",
+      "company": "bitpanda",
+      "title": "Senior Specialist, Information Security",
+      "score": 54
+    },
+    {
+      "at": "2026-11-05T14:51:46Z",
+      "job_key": "855f35dfe9f06890eb91",
+      "event": "UPDATED",
+      "company": "RobCo",
+      "title": "Automation, IT Systems & Security Specialist (m/f/d)",
+      "score": 69
+    },
+    {
+      "at": "2026-11-05T14:51:46Z",
+      "job_key": "521c71dc83dfa3787db3",
+      "event": "UPDATED",
+      "company": "Staffbase",
+      "title": "Senior Product Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-11-05T14:51:46Z",
+      "job_key": "ba170f4eb78d3dff47c8",
+      "event": "REMOVED",
+      "company": "N26",
+      "title": "Senior Product Security Engineer"
+    },
+    {
+      "at": "2026-11-05T14:51:46Z",
+      "job_key": "bd7fecbd96a07cd67c3d",
+      "event": "REMOVED",
+      "company": "KAYAK",
       "title": "Security Engineer"
     }
   ]

@@ -30,7 +30,7 @@
     "ats": "greenhouse",
     "published_at": "2026-10-30T12:54:06Z",
     "first_seen": "2026-10-01T11:44:36Z",
-    "last_seen": "2026-11-04T14:46:52Z",
+    "last_seen": "2026-11-05T14:51:46Z",
     "description": "About the opportunity\n\nWe are seeking an Internal IT Auditor to conduct the full IT audit cycle, ensuring operational effectiveness, reliability, and regulatory compliance across our internal IT environments and critical ICT third-party ecosystems. \nOur Internal Audit team provides independent assurance over risk and control management, and follows proactive risk mitigation and robust governance to safeguard our digital banking environment.\nThis is a unique opportunity to play a pivotal role in shaping our IT resilience, where you will engage directly with internal architecture teams and critical external vendors to navigate the evolving landscape of digital banking and European financial regulations.\n\nIn this role, you will:\n\nExecute the full audit cycle: Perform comprehensive risk and control management over IT operations to ensure effectiveness, reliability, and adherence to established professional and regulatory standards.\n\nAudit critical ICT services & vendors: Lead audits of third-party vendors, outsourced service providers, and cloud infrastructures, evaluating their control environments and how internal processes govern these external services.\n\nAnalyze data and IT processes: Obtain and evaluate documentation, flowcharts, and data using data-driven audit approaches for system development, IT security, and vendor management.\n\nDeliver impactful reporting: Prepare detailed Internal Audit reports that translate complex technical findings into business-relevant insights and actionable recommendations for senior management.\n\nDrive continuous improvement: Continuously monitor the IT and ICT vendor risk landscape, facilitate alignment discussions, and advise management on best practices and risk remediation actions.\n\nWhat you need to be successful:\n\n6 years of significant experience functioning as an Internal IT Auditor at an international company within a regulated environment (preferably a bank, financial institution, fintech, or an audit/consulting firm).\n\nHolding professional certifications such as Certified Information Systems Auditor (CISA), ISO 27001 Lead Auditor, CISSP, or comparable qualifications, are a plus.\n\nDeep understanding of IT General Controls (ITGC), modern IT/cloud architectures, operational resilience frameworks, and ICT Third-Party Risk Management (TPRM).\n\nSolid understanding of European financial regulatory frameworks relevant to IT and outsourcing, particularly DORA, and MaRisk.\n\nExperience in data-driven audit approaches, including large-scale data evaluation, and proficiency in modern audit tools and platforms.\n\nStrong ability to engage effectively with cross-functional internal teams and external ICT service providers, including reviewing third-party assurance attestations (e.g. SOC 1/SOC 2, ISO, ISAE 3402).\n\nHigh level of integrity and professional skepticism, combined with excellent interpersonal skills to influence both technical and non-technical stakeholders\n\nFluency in English is required (verbal and written). German is a plus.\n\nWhat’s in it for you:\n\nAccelerate your career growth by joining one of Europe’s most talked about disruptors 🚀.\n\nEmployee benefits that range from a competitive personal development budget, work from home budget, discounts to fitness & wellness memberships, language apps and public transportation. \n\nAs an N26 employee you will have access to a Premium subscription on your personal N26 bank account. As well as subscriptions for friends and family members. \n\nAdditional day of annual leave for each year of service. \n\nA high degree of autonomy and access to cutting edge technologies - all while working with a friendly team of peers of diverse nationalities, experiences, and backgrounds. \n\nA relocation package with visa support for those who need it.\n\nWho we are\n\nN26 has reimagined banking for today’s digital world. Technology and design empower everything we do and it’s how we are building the global banking platform the world loves to use.\n\nWe've eliminated physical branches, paperwork, and hidden fees for an elegant digital experience and supreme savings. Giving people the power to live and bank their way is what gets us out of bed in the morning and inspires the work that we do. \n\nWe are headquartered in Berlin with offices in multiple cities across Europe, including Vienna and Barcelona, and a 1,500-strong team of more than 80 nationalities. \n\nDo you see yourself thriving in this role? We’d love to see your application even if you don’t meet 100% of the criteria. You may just be the right fit for this or other roles!\n\nEqual opportunities for all\n\nAt N26, we believe our strength lies in our people and the varied perspectives they bring. We strive to build diverse teams that drive innovation and business success. We actively seek talent from all backgrounds and welcome applications from all genders, cultures, sexual orientations, abilities, neurodiversities, and ages.\n\nWe are committed to providing an excellent and accessible candidate experience. If you require any accommodations to make this process work for you, please let us know. We’re here to support you!\n\nDiscover more about Diversity & Inclusion at N26: https://n26.com/en-eu/diversity-and-inclusion",
     "salary": "",
     "employment_type": "",
@@ -95,7 +95,7 @@
     },
     "posting_age_analysis": {
       "known": true,
-      "age_days": 5,
+      "age_days": 6,
       "category": "recent",
       "label": "RECENT"
     },
@@ -1452,6 +1452,250 @@
     "application_status": "NEW"
   },
   {
+    "job_key": "f1489c63de612c3b7228",
+    "source": "Arbeitnow",
+    "sources": [
+      "Arbeitnow"
+    ],
+    "source_urls": {
+      "Arbeitnow": "https://www.arbeitnow.com/jobs/companies/distribusion-technologies/senior-penetration-tester-api-web-cloud-6-months-contract-all-genders-berlin-394866"
+    },
+    "source_id": "senior-penetration-tester-api-web-cloud-6-months-contract-all-genders-berlin-394866",
+    "source_job_id": "senior-penetration-tester-api-web-cloud-6-months-contract-all-genders-berlin-394866",
+    "source_job_ids": {
+      "Arbeitnow": "senior-penetration-tester-api-web-cloud-6-months-contract-all-genders-berlin-394866"
+    },
+    "company": "Distribusion Technologies",
+    "company_normalized": "distribusion technologies",
+    "title": "Senior Penetration Tester API, Web & Cloud – 6 Months Contract (all genders)",
+    "normalized_title": "senior penetration tester api web and cloud 6 months contract",
+    "title_normalized": "senior penetration tester api web and cloud 6 months contract",
+    "location": "Berlin, Germany",
+    "location_normalized": "berlin germany",
+    "country": "Germany",
+    "remote": false,
+    "hybrid": false,
+    "onsite": true,
+    "url": "https://www.arbeitnow.com/jobs/companies/distribusion-technologies/senior-penetration-tester-api-web-cloud-6-months-contract-all-genders-berlin-394866",
+    "apply_url": "https://www.arbeitnow.com/jobs/companies/distribusion-technologies/senior-penetration-tester-api-web-cloud-6-months-contract-all-genders-berlin-394866",
+    "canonical_url": "https://www.arbeitnow.com/jobs/companies/distribusion-technologies/senior-penetration-tester-api-web-cloud-6-months-contract-all-genders-berlin-394866",
+    "ats": "",
+    "published_at": "2026-11-05T12:20:12Z",
+    "first_seen": "2026-11-05T14:51:46Z",
+    "last_seen": "2026-11-05T14:51:46Z",
+    "description": "Distribusion is the world’s leading ground transportation marketplace and gives travellers seamless access to ground transportation online, from search to ticket purchase. We have built a cutting-edge B2B technology platform that connects bus, rail and ferry operators in 70+ countries with the biggest online retailers including Google Maps and Booking.com.\n\nWe are shaping the future of travel and building the largest global network of transport providers and retailers. We are one of the fastest growing startups in travel, backed by leading venture capital investors including TQ Ventures, Lightrock, Creandum, and Northzone, and are headquartered in Berlin, Germany. Following our recent $80m Series C funding, we are ready to push beyond.\n\nWe are looking for an experienced Senior Penetration Tester to join us on a 6-month contract, and start as soon as possible. You will run hands-on, authenticated security testing across a real attack surface: public partner-facing booking APIs, payment flows, web and mobile apps used by millions of travellers, and the cloud infrastructure behind them. You’ll plan and run your own testing, work directly with our engineering squads to get findings fixed, and see your impact in production within weeks.\n\nWhat you will do:\n\nTest our partner-facing booking APIs against the OWASP API Security Top 10, with a focus on object- and function-level authorization, tenant isolation, mass assignment, data exposure and rate limiting.\n\nAssess API authentication and integrity end to end, including OAuth 2.0/OIDC, API keys, JWTs, webhooks and request signing.\n\nHunt for business-logic abuse in booking, checkout, payment and refund flows, including race conditions and pricing manipulation.\n\nRun authenticated tests of traveller-, partner- and operator-facing web and mobile apps following OWASP WSTG and ASVS, including how passenger personal data is stored, shown and exported.\n\nReview cloud, Kubernetes and CI/CD configurations and secrets handling for attack paths that could be chained from an application bug.\n\nMap and regularly test our internet-facing attack surface.\n\nRed-team our AI features (assistants, agents, support bots) against the OWASP Top 10 for LLM Applications.\n\nWrite clear, reproducible, risk-rated findings with practical remediation guidance, walk engineers through fixes and verify them with retests.\n\nWorkplace: \n\nWe are a remote-first company with teams located around the Globe and a HQ in Berlin. \n\nWho you are:\n\nYou bring 5+ years of hands-on penetration testing, mainly of web applications and APIs, and can point to recent engagements you’ve led end to end.\n\nYou have deep, practical knowledge of the OWASP API Security Top 10, WSTG and ASVS, including authentication/authorization models (OAuth2/OIDC, JWT), IDOR/BOLA, mass assignment, SSRF, injection and XSS.\n\nYou have found business-logic and race-condition vulnerabilities in transactional systems such as booking, e-commerce, payments or fintech.\n\nYou are fluent with Burp Suite Pro (or similar) and write your own scripts and tooling (Python, Go or similar).\n\nYou are comfortable assessing cloud and container environments (GCP preferred, Kubernetes) and CI/CD pipelines.\n\nYou work independently: you scope, prioritise, test and report with minimal guidance, and you explain complex risks plainly to engineers and leadership.\n\nYou are available to start at short notice.\n\nBonus Points: OSCP, OSWE, BSCP or similar certifications; experience red-teaming LLM applications or AI agents; testing in PCI-DSS environments.\n\nWhat you can expect:\n\nYou will join a fast-paced travel tech company with a flat organizational structure.\n\nYou will have exciting opportunities, ownership, and responsibility and contribute directly to the success of the company.\n\nYou will join an international team of talented and driven people with a clear mission. Expect your colleagues to inspire, support and challenge you every day!\n\nWe have a flexible work policy with the option of working remotely and international opportunities arising as we continue to expand our global footprint – Our heart is in Berlin, but you’ll find us across the globe.\n\nYou will get a competitive salary.\n\nOur hiring team for this role:\n\nYour Talent Partner (TP) and point of contact is Lorena Rebenciuc, and the Hiring Manager (HM) is Ilya Isakov.\n\nFor any queries, contact your Talent Partner at \n\nDo you want to work on a product that is used by millions of people daily with a high load, availability and scalability, and most advanced technology? Come join us!\n\nFind Jobs in Germany on Arbeitnow",
+    "salary": "",
+    "employment_type": "Temporary, experienced",
+    "experience_required": null,
+    "german_requirement": "No German requirement detected",
+    "skills_detected": [
+      "api security",
+      "burp suite",
+      "ci/cd",
+      "go",
+      "kubernetes",
+      "owasp",
+      "owasp api security",
+      "penetration testing",
+      "python",
+      "remediation guidance",
+      "security testing"
+    ],
+    "skill_matches": {
+      "match": [
+        "api security",
+        "burp suite",
+        "owasp",
+        "owasp api security",
+        "penetration testing",
+        "python",
+        "remediation guidance",
+        "security testing"
+      ],
+      "partial": [
+        "ci/cd"
+      ],
+      "missing": [
+        "go",
+        "kubernetes"
+      ],
+      "nice_to_have": []
+    },
+    "score": 69,
+    "score_label": "REVIEW",
+    "score_breakdown": {
+      "role_alignment": 20,
+      "skills": 21,
+      "experience": 10,
+      "location": 15,
+      "language": 10,
+      "seniority": 4,
+      "education": 3
+    },
+    "match_reasons": [
+      "Role family: Penetration Testing / VAPT.",
+      "Berlin on-site role.",
+      "Evidenced matches include api security, burp suite, owasp, owasp api security, penetration testing."
+    ],
+    "warnings": [
+      "Mandatory gaps: go",
+      "Optional gaps: ci/cd, kubernetes",
+      "Exposure only; do not claim deep expertise: ci/cd",
+      "Senior title is above the profile's current 2+ years",
+      "One explicitly mandatory skill is not evidenced"
+    ],
+    "status": "NEW",
+    "priority_employer": false,
+    "tags": [
+      "Information technology",
+      "bachelor's degree"
+    ],
+    "lead_type": "",
+    "post_author": "",
+    "feed_name": "",
+    "content_hash": "4d97dfd79c054c20a1a693329e4332f3df6299ebf341077797f10d4780c1db04",
+    "german_analysis": {
+      "category": "none",
+      "level": "none",
+      "mandatory": false,
+      "label": "No German requirement detected",
+      "evidence": ""
+    },
+    "experience_analysis": null,
+    "posting_age_analysis": {
+      "known": true,
+      "age_days": 0,
+      "category": "new",
+      "label": "NEW - APPLY QUICKLY"
+    },
+    "seniority_analysis": {
+      "level": "senior",
+      "label": "Senior",
+      "evidence": "senior"
+    },
+    "location_analysis": {
+      "category": "eligible_berlin",
+      "eligible": true,
+      "score": 15,
+      "reason": "Berlin on-site role",
+      "verification_required": false,
+      "score_cap": null,
+      "scope": "Berlin",
+      "work_model": "On-site"
+    },
+    "skill_requirements": [
+      {
+        "skill": "api security",
+        "profile_status": "match",
+        "requirement": "mandatory",
+        "evidence": "You have deep, practical knowledge of the OWASP API Security Top 10, WSTG and ASVS, including authentication/authorization models (OAuth2/OIDC, JWT), IDOR/BOLA, mass assignment, SSRF, injection and XSS."
+      },
+      {
+        "skill": "burp suite",
+        "profile_status": "match",
+        "requirement": "mandatory",
+        "evidence": "You are fluent with Burp Suite Pro (or similar) and write your own scripts and tooling (Python, Go or similar)."
+      },
+      {
+        "skill": "go",
+        "profile_status": "missing",
+        "requirement": "mandatory",
+        "evidence": "You are fluent with Burp Suite Pro (or similar) and write your own scripts and tooling (Python, Go or similar)."
+      },
+      {
+        "skill": "owasp",
+        "profile_status": "match",
+        "requirement": "mandatory",
+        "evidence": "You have deep, practical knowledge of the OWASP API Security Top 10, WSTG and ASVS, including authentication/authorization models (OAuth2/OIDC, JWT), IDOR/BOLA, mass assignment, SSRF, injection and XSS."
+      },
+      {
+        "skill": "owasp api security",
+        "profile_status": "match",
+        "requirement": "mandatory",
+        "evidence": "You have deep, practical knowledge of the OWASP API Security Top 10, WSTG and ASVS, including authentication/authorization models (OAuth2/OIDC, JWT), IDOR/BOLA, mass assignment, SSRF, injection and XSS."
+      },
+      {
+        "skill": "penetration testing",
+        "profile_status": "match",
+        "requirement": "mandatory",
+        "evidence": "You bring 5+ years of hands-on penetration testing, mainly of web applications and APIs, and can point to recent engagements you’ve led end to end."
+      },
+      {
+        "skill": "python",
+        "profile_status": "match",
+        "requirement": "mandatory",
+        "evidence": "You are fluent with Burp Suite Pro (or similar) and write your own scripts and tooling (Python, Go or similar)."
+      },
+      {
+        "skill": "remediation guidance",
+        "profile_status": "match",
+        "requirement": "mentioned",
+        "evidence": "Write clear, reproducible, risk-rated findings with practical remediation guidance, walk engineers through fixes and verify them with retests."
+      },
+      {
+        "skill": "security testing",
+        "profile_status": "match",
+        "requirement": "mentioned",
+        "evidence": "You will run hands-on, authenticated security testing across a real attack surface: public partner-facing booking APIs, payment flows, web and mobile apps used by millions of travellers, and the cloud infrastructure behind them."
+      },
+      {
+        "skill": "ci/cd",
+        "profile_status": "partial",
+        "requirement": "optional",
+        "evidence": "You are comfortable assessing cloud and container environments (GCP preferred, Kubernetes) and CI/CD pipelines."
+      },
+      {
+        "skill": "kubernetes",
+        "profile_status": "missing",
+        "requirement": "optional",
+        "evidence": "You are comfortable assessing cloud and container environments (GCP preferred, Kubernetes) and CI/CD pipelines."
+      }
+    ],
+    "mandatory_gaps": [
+      {
+        "skill": "go",
+        "profile_status": "missing",
+        "requirement": "mandatory",
+        "evidence": "You are fluent with Burp Suite Pro (or similar) and write your own scripts and tooling (Python, Go or similar)."
+      }
+    ],
+    "potential_gaps": [],
+    "optional_gaps": [
+      {
+        "skill": "ci/cd",
+        "profile_status": "partial",
+        "requirement": "optional",
+        "evidence": "You are comfortable assessing cloud and container environments (GCP preferred, Kubernetes) and CI/CD pipelines."
+      },
+      {
+        "skill": "kubernetes",
+        "profile_status": "missing",
+        "requirement": "optional",
+        "evidence": "You are comfortable assessing cloud and container environments (GCP preferred, Kubernetes) and CI/CD pipelines."
+      }
+    ],
+    "role_family": {
+      "id": "penetration_testing",
+      "label": "Penetration Testing / VAPT",
+      "priority": 1,
+      "confidence": "high",
+      "evidence": [
+        "penetration tester",
+        "penetration test",
+        "burp suite"
+      ]
+    },
+    "raw_score": 83,
+    "score_cap": 69,
+    "score_cap_reasons": [
+      "Senior title is above the profile's current 2+ years",
+      "One explicitly mandatory skill is not evidenced"
+    ],
+    "policy_excluded": false,
+    "policy_exclusion_reasons": [],
+    "application_status": "NEW"
+  },
+  {
     "job_key": "3256d24bfeb9b7759cfb",
     "source": "Greenhouse",
     "sources": [
@@ -1702,267 +1946,6 @@
     "application_status": "NEW"
   },
   {
-    "job_key": "bd7fecbd96a07cd67c3d",
-    "source": "Ashby",
-    "sources": [
-      "Ashby"
-    ],
-    "source_urls": {
-      "Ashby": "https://jobs.ashbyhq.com/kayak/7be95bc8-eb9d-4231-a14f-c06ea97a4d23"
-    },
-    "source_id": "7be95bc8-eb9d-4231-a14f-c06ea97a4d23",
-    "source_job_id": "7be95bc8-eb9d-4231-a14f-c06ea97a4d23",
-    "source_job_ids": {
-      "Ashby": "7be95bc8-eb9d-4231-a14f-c06ea97a4d23"
-    },
-    "company": "KAYAK",
-    "company_normalized": "kayak",
-    "title": "Security Engineer",
-    "normalized_title": "security engineer",
-    "title_normalized": "security engineer",
-    "location": "Berlin, Germany",
-    "location_normalized": "berlin germany",
-    "country": "Germany",
-    "remote": true,
-    "hybrid": true,
-    "onsite": false,
-    "url": "https://jobs.ashbyhq.com/kayak/7be95bc8-eb9d-4231-a14f-c06ea97a4d23",
-    "apply_url": "https://jobs.ashbyhq.com/kayak/7be95bc8-eb9d-4231-a14f-c06ea97a4d23/application",
-    "canonical_url": "https://jobs.ashbyhq.com/kayak/7be95bc8-eb9d-4231-a14f-c06ea97a4d23",
-    "ats": "ashby",
-    "published_at": "2026-10-02T09:11:35Z",
-    "first_seen": "2026-10-02T11:14:34Z",
-    "last_seen": "2026-10-06T12:09:28Z",
-    "description": "KAYAK, part of Booking Holdings (NASDAQ: BKNG), is a leading travel search engine. With billions of queries across our platforms, we help people find their perfect flight, stay, rental car and vacation package. We're also transforming business travel with a new corporate travel solution, KAYAK for Business.\n\nAs an employee of KAYAK, you will be part of a travel company that operates a portfolio of global metasearch brands including momondo, Cheapflights and HotelsCombined, among others. From start-up to industry leader, innovation is in our DNA and every employee has an opportunity to make their mark. Our focus is on building the best travel search engine to make it easier for everyone to experience the world.\n\nSecurity at KAYAK is a team effort — we protect the people, systems, and data that power travel for millions of users worldwide, and we do it by working closely with engineering, operations, and product teams. As a Security Engineer, you will help to drive our vulnerability management program while contributing across multiple security domains in a collaborative, globally distributed environment. You can find more information about our security program at https://www.kayak.com/security.\n\nThis role is required to work from our Berlin, Germany office 3 days per week.\n\nIN THIS ROLE, YOU WILL:\n\n- Support and continuously improve the vulnerability management program — defining processes for identifying, prioritizing, tracking, and driving remediation of security findings across infrastructure and applications. This includes working closely with engineering, operations, and IT teams to ensure findings are understood, assigned, and resolved in a timely manner, and reporting on program health and trends to security leadership.\n\n- Participate in incident response activities, including triage, investigation, containment, and post-incident documentation.\n\n- Support application security initiatives, including automated code scanning, dependency analysis, and working with engineering teams to address security findings early in the development process.\n\n- Help configure, monitor, and improve security tooling across areas such as endpoint protection, email security, identity and access management, and cloud security posture.\n\n- Contribute to security automation and orchestration workflows that reduce manual effort and improve response times.\n\n- Collaborate with engineering, operations, and compliance teams to embed security thinking into development workflows and infrastructure changes.\n\n- Document processes, runbooks, and findings to support team knowledge sharing and continuity.\n\n- Participate in access reviews and support identity and access management processes in line with established policies.\n\n- Stay current with the evolving threat landscape and contribute ideas for improving the team's detection and response capabilities.\n\nPLEASE APPLY IF YOU HAVE:\n\n- A solid understanding of cybersecurity fundamentals — including networking, operating systems (Linux, macOS, or Windows), and cloud environments — gained through any combination of formal education, self-study, bootcamps, or professional experience.\n\n- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management.\n\n- Experience working with security tooling (e.g., vulnerability scanners, endpoint detection and response platforms, SIEM systems, or similar); familiarity with specific tools is a plus, but willingness to learn our stack matters more than exact tool experience.\n\n- Familiarity with AI tools and how they can be applied in a security context — whether for automating workflows, triaging alerts, or improving detection and response. Experience working with AI models or building AI-assisted workflows is a plus.\n\n- The ability to communicate clearly in writing and in conversation — our team is globally distributed and works primarily in English (professional working proficiency is sufficient; native fluency is not required).\n\n- A collaborative approach to problem-solving — you ask questions, share what you learn, and support your teammates.\n\n- Comfort working with some degree of autonomy on assigned tasks and projects, while knowing when to ask for input.\n\nBONUS POINTS IF YOU HAVE:\n\n- Familiarity with the NIST Cybersecurity Framework or similar security frameworks.\n\n- Experience with cloud environments (AWS or GCP) or container security.\n\n- Exposure to security automation or scripting (e.g., Python, workflow automation tools).\n\n- Experience working in a regulated environment (e.g., SOC 2, PCI).\n\nBENEFITS AND PERKS\n\n- Work from (almost) anywhere for up to 20 days per year\n\n- Focus on mental health and well-being:\n\n- Company-paid therapy sessions through SpringHealth\n\n- Company-paid subscription to HeadSpace\n\n- Company-wide week off a year - the whole team fully recharges (and returns without a pile-up of work!)\n\n- No meeting Fridays\n\n- Paid parental leave\n\n- Generous paid vacation + time off for your birthday\n\n- Paid volunteer time\n\n- Focus on your career growth:\n\n- Development Dollars\n\n- Leadership development\n\n- Access to thousands of on-demand e-learnings\n\n- Travel Discounts\n\n- Employee Resource Groups\n\n- 6 weeks paid vacation\n\n- Free lunch 2 days per week\n\n- Pension plan contributions\n\n- Public transportation subsidies\n\n- Bike leasing program\n\n- Monthly social events, Thursday happy hours, sports teams\n\n- An awesome office in Friedrichshain, Berlin\n\nINCLUSION\n\nAt KAYAK, we want everyone to have the space to grow, share ideas and do great work. That’s why we’re focused on hiring the best talent from all walks of life and experiences, supporting them well and making sure no one feels like they have to fit a mold to belong here.\n\nNeed any adjustments for the interview, application or on the job? No problem - just give us a heads-up. We’ve got you.\n\n#LI-AS1",
-    "salary": "",
-    "employment_type": "FullTime",
-    "experience_required": null,
-    "german_requirement": "No German requirement detected",
-    "skills_detected": [
-      "application security",
-      "aws",
-      "cloud security",
-      "docker",
-      "edr",
-      "frida",
-      "incident response",
-      "nist",
-      "python",
-      "security automation",
-      "siem",
-      "vulnerability management"
-    ],
-    "skill_matches": {
-      "match": [
-        "application security",
-        "frida",
-        "python",
-        "security automation",
-        "vulnerability management"
-      ],
-      "partial": [
-        "aws",
-        "cloud security",
-        "docker",
-        "incident response",
-        "nist",
-        "siem"
-      ],
-      "missing": [
-        "edr"
-      ],
-      "nice_to_have": []
-    },
-    "score": 69,
-    "score_label": "REVIEW",
-    "score_breakdown": {
-      "role_alignment": 16,
-      "skills": 17,
-      "experience": 10,
-      "location": 15,
-      "language": 10,
-      "seniority": 10,
-      "education": 3
-    },
-    "match_reasons": [
-      "Role family: Security Engineering.",
-      "Berlin hybrid role.",
-      "Evidenced matches include application security, frida, python, security automation, vulnerability management."
-    ],
-    "warnings": [
-      "Mandatory gaps: aws, docker, incident response, nist",
-      "Potential gaps: edr",
-      "Exposure only; do not claim deep expertise: aws, cloud security, docker, incident response, nist, siem",
-      "At least one explicitly mandatory skill has exposure only"
-    ],
-    "status": "SEEN_BEFORE",
-    "priority_employer": true,
-    "tags": [
-      "Cost Centers",
-      "IT and Security"
-    ],
-    "lead_type": "",
-    "post_author": "",
-    "feed_name": "",
-    "content_hash": "161db896c6affa88a77812d0d4fbfe18d09b12f3e5d0fc8e77901164be05a982",
-    "german_analysis": {
-      "category": "none",
-      "level": "none",
-      "mandatory": false,
-      "label": "No German requirement detected",
-      "evidence": ""
-    },
-    "experience_analysis": null,
-    "posting_age_analysis": {
-      "known": true,
-      "age_days": 4,
-      "category": "recent",
-      "label": "RECENT"
-    },
-    "seniority_analysis": {
-      "level": "mid_unspecified",
-      "label": "Mid-level or unspecified",
-      "evidence": "No explicit seniority marker in title"
-    },
-    "location_analysis": {
-      "category": "eligible_berlin",
-      "eligible": true,
-      "score": 15,
-      "reason": "Berlin hybrid role",
-      "verification_required": false,
-      "score_cap": null,
-      "scope": "Berlin",
-      "work_model": "Hybrid"
-    },
-    "skill_requirements": [
-      {
-        "skill": "application security",
-        "profile_status": "match",
-        "requirement": "mandatory",
-        "evidence": "- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management."
-      },
-      {
-        "skill": "aws",
-        "profile_status": "partial",
-        "requirement": "mandatory",
-        "evidence": "- Experience with cloud environments (AWS or GCP) or container security."
-      },
-      {
-        "skill": "docker",
-        "profile_status": "partial",
-        "requirement": "mandatory",
-        "evidence": "- Experience with cloud environments (AWS or GCP) or container security."
-      },
-      {
-        "skill": "incident response",
-        "profile_status": "partial",
-        "requirement": "mandatory",
-        "evidence": "- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management."
-      },
-      {
-        "skill": "nist",
-        "profile_status": "partial",
-        "requirement": "mandatory",
-        "evidence": "- Familiarity with the NIST Cybersecurity Framework or similar security frameworks."
-      },
-      {
-        "skill": "vulnerability management",
-        "profile_status": "match",
-        "requirement": "mandatory",
-        "evidence": "- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management."
-      },
-      {
-        "skill": "cloud security",
-        "profile_status": "partial",
-        "requirement": "mentioned",
-        "evidence": "- Help configure, monitor, and improve security tooling across areas such as endpoint protection, email security, identity and access management, and cloud security posture."
-      },
-      {
-        "skill": "edr",
-        "profile_status": "missing",
-        "requirement": "mentioned",
-        "evidence": "- Experience working with security tooling (e.g., vulnerability scanners, endpoint detection and response platforms, SIEM systems, or similar)"
-      },
-      {
-        "skill": "frida",
-        "profile_status": "match",
-        "requirement": "mentioned",
-        "evidence": "- No meeting Fridays"
-      },
-      {
-        "skill": "python",
-        "profile_status": "match",
-        "requirement": "mentioned",
-        "evidence": "- Exposure to security automation or scripting (e.g., Python, workflow automation tools)."
-      },
-      {
-        "skill": "security automation",
-        "profile_status": "match",
-        "requirement": "mentioned",
-        "evidence": "- Contribute to security automation and orchestration workflows that reduce manual effort and improve response times."
-      },
-      {
-        "skill": "siem",
-        "profile_status": "partial",
-        "requirement": "mentioned",
-        "evidence": "- Experience working with security tooling (e.g., vulnerability scanners, endpoint detection and response platforms, SIEM systems, or similar)"
-      }
-    ],
-    "mandatory_gaps": [
-      {
-        "skill": "aws",
-        "profile_status": "partial",
-        "requirement": "mandatory",
-        "evidence": "- Experience with cloud environments (AWS or GCP) or container security."
-      },
-      {
-        "skill": "docker",
-        "profile_status": "partial",
-        "requirement": "mandatory",
-        "evidence": "- Experience with cloud environments (AWS or GCP) or container security."
-      },
-      {
-        "skill": "incident response",
-        "profile_status": "partial",
-        "requirement": "mandatory",
-        "evidence": "- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management."
-      },
-      {
-        "skill": "nist",
-        "profile_status": "partial",
-        "requirement": "mandatory",
-        "evidence": "- Familiarity with the NIST Cybersecurity Framework or similar security frameworks."
-      }
-    ],
-    "potential_gaps": [
-      {
-        "skill": "edr",
-        "profile_status": "missing",
-        "requirement": "mentioned",
-        "evidence": "- Experience working with security tooling (e.g., vulnerability scanners, endpoint detection and response platforms, SIEM systems, or similar)"
-      }
-    ],
-    "optional_gaps": [],
-    "role_family": {
-      "id": "security_engineering",
-      "label": "Security Engineering",
-      "priority": 2,
-      "confidence": "high",
-      "evidence": [
-        "security engineer",
-        "vulnerability"
-      ]
-    },
-    "raw_score": 81,
-    "score_cap": 69,
-    "score_cap_reasons": [
-      "At least one explicitly mandatory skill has exposure only"
-    ],
-    "policy_excluded": false,
-    "policy_exclusion_reasons": [],
-    "application_status": "NEW"
-  },
-  {
     "job_key": "1d8705aa550b912143d8",
     "source": "Ashby",
     "sources": [
@@ -1993,7 +1976,7 @@
     "ats": "ashby",
     "published_at": "2026-10-02T09:11:35Z",
     "first_seen": "2026-10-07T11:55:14Z",
-    "last_seen": "2026-11-04T14:46:52Z",
+    "last_seen": "2026-11-05T14:51:46Z",
     "description": "KAYAK, part of Booking Holdings (NASDAQ: BKNG), is a leading travel search engine. With billions of queries across our platforms, we help people find their perfect flight, stay, rental car and vacation package. We're also transforming business travel with a new corporate travel solution, KAYAK for Business.\n\nAs an employee of KAYAK, you will be part of a travel company that operates a portfolio of global metasearch brands including momondo, Cheapflights and HotelsCombined, among others. From start-up to industry leader, innovation is in our DNA and every employee has an opportunity to make their mark. Our focus is on building the best travel search engine to make it easier for everyone to experience the world.\n\nSecurity at KAYAK is a team effort — we protect the people, systems, and data that power travel for millions of users worldwide, and we do it by working closely with engineering, operations, and product teams. As an Associate Security Engineer, you will help to drive our vulnerability management program while contributing across multiple security domains in a collaborative, globally distributed environment. You can find more information about our security program at https://www.kayak.com/security.\n\nThis role is required to work from our Berlin, Germany office 3 days per week.\n\nIN THIS ROLE, YOU WILL:\n\n- Support and continuously improve the vulnerability management program — defining processes for identifying, prioritizing, tracking, and driving remediation of security findings across infrastructure and applications. This includes working closely with engineering, operations, and IT teams to ensure findings are understood, assigned, and resolved in a timely manner, and reporting on program health and trends to security leadership.\n\n- Participate in incident response activities, including triage, investigation, containment, and post-incident documentation.\n\n- Support application security initiatives, including automated code scanning, dependency analysis, and working with engineering teams to address security findings early in the development process.\n\n- Help configure, monitor, and improve security tooling across areas such as endpoint protection, email security, identity and access management, and cloud security posture.\n\n- Contribute to security automation and orchestration workflows that reduce manual effort and improve response times.\n\n- Collaborate with engineering, operations, and compliance teams to embed security thinking into development workflows and infrastructure changes.\n\n- Document processes, runbooks, and findings to support team knowledge sharing and continuity.\n\n- Participate in access reviews and support identity and access management processes in line with established policies.\n\n- Stay current with the evolving threat landscape and contribute ideas for improving the team's detection and response capabilities.\n\nPLEASE APPLY IF YOU HAVE:\n\n- A solid understanding of cybersecurity fundamentals — including networking, operating systems (Linux, macOS, or Windows), and cloud environments — gained through any combination of formal education, self-study, bootcamps, or professional experience.\n\n- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management.\n\n- Experience working with security tooling (e.g., vulnerability scanners, endpoint detection and response platforms, SIEM systems, or similar); familiarity with specific tools is a plus, but willingness to learn our stack matters more than exact tool experience.\n\n- Familiarity with AI tools and how they can be applied in a security context — whether for automating workflows, triaging alerts, or improving detection and response. Experience working with AI models or building AI-assisted workflows is a plus.\n\n- The ability to communicate clearly in writing and in conversation — our team is globally distributed and works primarily in English (professional working proficiency is sufficient; native fluency is not required).\n\n- A collaborative approach to problem-solving — you ask questions, share what you learn, and support your teammates.\n\n- Comfort working with some degree of autonomy on assigned tasks and projects, while knowing when to ask for input.\n\nBONUS POINTS IF YOU HAVE:\n\n- Familiarity with the NIST Cybersecurity Framework or similar security frameworks.\n\n- Experience with cloud environments (AWS or GCP) or container security.\n\n- Exposure to security automation or scripting (e.g., Python, workflow automation tools).\n\n- Experience working in a regulated environment (e.g., SOC 2, PCI).\n\nBENEFITS AND PERKS\n\n- Work from (almost) anywhere for up to 20 days per year\n\n- Focus on mental health and well-being:\n\n- Company-paid therapy sessions through SpringHealth\n\n- Company-paid subscription to HeadSpace\n\n- Company-wide week off a year - the whole team fully recharges (and returns without a pile-up of work!)\n\n- No meeting Fridays\n\n- Paid parental leave\n\n- Generous paid vacation + time off for your birthday\n\n- Paid volunteer time\n\n- Focus on your career growth:\n\n- Development Dollars\n\n- Leadership development\n\n- Access to thousands of on-demand e-learnings\n\n- Travel Discounts\n\n- Employee Resource Groups\n\n- 6 weeks paid vacation\n\n- Free lunch 2 days per week\n\n- Pension plan contributions\n\n- Public transportation subsidies\n\n- Bike leasing program\n\n- Monthly social events, Thursday happy hours, sports teams\n\n- An awesome office in Friedrichshain, Berlin\n\nINCLUSION\n\nAt KAYAK, we want everyone to have the space to grow, share ideas and do great work. That’s why we’re focused on hiring the best talent from all walks of life and experiences, supporting them well and making sure no one feels like they have to fit a mold to belong here.\n\nNeed any adjustments for the interview, application or on the job? No problem - just give us a heads-up. We’ve got you.\n\n#LI-AS1",
     "salary": "",
     "employment_type": "FullTime",
@@ -2076,7 +2059,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 33,
+      "age_days": 34,
       "category": "older",
       "label": "OLDER POSTING - VERIFY ACTIVE"
     },
@@ -2442,12 +2425,12 @@
       "Greenhouse"
     ],
     "source_urls": {
-      "Greenhouse": "https://job-boards.greenhouse.io/mozilla/jobs/8282248"
+      "Greenhouse": "https://job-boards.greenhouse.io/mozilla/jobs/8282264"
     },
     "source_id": "8259797",
     "source_job_id": "8259797",
     "source_job_ids": {
-      "Greenhouse": "8282248"
+      "Greenhouse": "8282264"
     },
     "company": "Mozilla",
     "company_normalized": "mozilla",
@@ -2466,7 +2449,7 @@
     "ats": "greenhouse",
     "published_at": "2026-10-30T13:09:26Z",
     "first_seen": "2026-08-16T17:17:56Z",
-    "last_seen": "2026-11-04T14:46:52Z",
+    "last_seen": "2026-11-05T14:51:46Z",
     "description": "Why Mozilla?\n\nMozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. \n\nThe Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. \n\nWhat you’ll do:\n\nDesign, build and implement security and hardening features for enterprise users: Design, implement, test, and ship cutting-edge security features that strengthen Firefox’s security posture.\n\nAdvance Firefox’s security architecture across multiple operating systems: Contribute to and drive cutting-edge improvements to Firefox’s core security posture, by building privilege isolation and moving trust boundaries or Strengthen Firefox’s security architecture: Improve Firefox’s core security mechanisms including cryptographic protocols, WebPKI, and security-sensitive web APIs.\n\nContribute to our security initiatives: Work across teams to investigate security issues, identify root causes, and deliver robust, maintainable fixes.\n\nImprove browser reliability and performance: Diagnose and resolve issues affecting stability, correctness, performance, and memory usage in a complex, multithreaded environment.\n\nWhat you’ll bring:\n\nSystems programming experience and security knowledge: 3+ years of experience in low-level software engineering, strong proficiency in C and/or C++, and a solid understanding of security fundamentals.\n\nDebugging and problem-solving skills: Experience diagnosing and resolving issues in multithreaded, cross-platform native applications, including memory and performance challenges.\n\nWeb platform and modern systems experience: Familiarity with web technologies (HTML, CSS, JavaScript) and interest or experience in Rust; ability to work effectively within large, complex, multi-language codebases.\n\nEffective collaboration and communication: Experience working with distributed teams and communicating technical ideas clearly in writing and conversation.\n\nWhat you’ll get:\n\nGenerous performance-based bonus plans to all eligible employees - we share in our success as one team\n\nGenerous retirement contributions with 100% immediate vesting (regardless of whether you contribute)\n\nQuarterly all-company wellness days where everyone takes a pause together\n\nCountry specific holidays plus a day off for your birthday\n\nOne-time home office stipend\n\nAnnual professional development budget\n\nQuarterly well-being stipend\n\nConsiderable paid parental leave\n\nEmployee referral bonus program\n\nOther benefits (life/AD&D, disability, EAP, etc. - varies by country)\n\nAbout Mozilla \n\nMozilla exists to build the Internet as a public resource accessible to all because we believe that open and free is better than closed and controlled. When you work at Mozilla, you give yourself a chance to make a difference in the lives of Web users everywhere. And you give us a chance to make a difference in your life every single day. Join us to work on the Web as the platform and help create more opportunity and innovation for everyone online.\n\nCommitment to diversity, equity, inclusion, and belonging\n\nMozilla understands that valuing diverse creative practices and forms of knowledge are crucial to and enrich the company’s core mission. We encourage applications from everyone, including members of all equity-seeking communities, such as (but certainly not limited to) women, racialized and Indigenous persons, persons with disabilities, persons of all sexual orientations, gender identities, and expressions.\n\nWe will ensure that qualified individuals with disabilities are provided reasonable accommodations to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment, as appropriate. Please contact us at hiringaccommodation@mozilla.com to request accommodation.\n\nWe are an equal opportunity employer. We do not discriminate on the basis of race (including hairstyle and texture), religion (including religious grooming and dress practices), gender, gender identity, gender expression, color, national origin, pregnancy, ancestry, domestic partner status, disability, sexual orientation, age, genetic predisposition, medical condition, marital status, citizenship status, military or veteran status, or any other basis covered by applicable laws. Mozilla will not tolerate discrimination or harassment based on any of these characteristics or any other unlawful behavior, conduct, or purpose.\n\nGroup: D\n\n#LI-REMOTE\n\nReq ID: R3247\n\nHiring Ranges:\n\nRemote Sweden\n\n513 000 kr—684 000 kr SEK",
     "salary": "",
     "employment_type": "",
@@ -2537,7 +2520,7 @@
     },
     "posting_age_analysis": {
       "known": true,
-      "age_days": 5,
+      "age_days": 6,
       "category": "recent",
       "label": "RECENT"
     },
@@ -2618,259 +2601,6 @@
     "application_status": "NEW"
   },
   {
-    "job_key": "ba170f4eb78d3dff47c8",
-    "source": "Greenhouse",
-    "sources": [
-      "Greenhouse"
-    ],
-    "source_urls": {
-      "Greenhouse": "https://n26.com/en-eu/careers/positions/8113987?gh_jid=8113987"
-    },
-    "source_id": "8110812",
-    "source_job_id": "8110812",
-    "source_job_ids": {
-      "Greenhouse": "8113987"
-    },
-    "company": "N26",
-    "company_normalized": "n26",
-    "title": "Senior Product Security Engineer",
-    "normalized_title": "senior product security engineer",
-    "title_normalized": "senior product security engineer",
-    "location": "Berlin, Germany",
-    "location_normalized": "berlin germany",
-    "country": "Germany",
-    "remote": false,
-    "hybrid": false,
-    "onsite": true,
-    "url": "https://n26.com/en-eu/careers/positions/8110812?gh_jid=8110812",
-    "apply_url": "https://n26.com/en-eu/careers/positions/8110812?gh_jid=8110812",
-    "canonical_url": "https://n26.com/en-eu/careers/positions/8110812?gh_jid=8110812",
-    "ats": "greenhouse",
-    "published_at": "2026-10-01T13:10:42Z",
-    "first_seen": "2026-08-16T21:45:22Z",
-    "last_seen": "2026-10-06T12:09:28Z",
-    "description": "About the opportunity\n\nWe are seeking a Senior Product Security Engineer to drive the product security strategy and empower our engineering teams to design and build secure software across our diverse product portfolio. This role involves leading the integration of advanced security practices into cutting-edge technologies - such as Generative AI (GenAI), Large Language Models (LLM), and data governance systems - while also ensuring the security of our microservice architecture and mobile application. You will be independently responsible for delivering robust security for every feature and service we provide to our customers.\n\nThe Product Security team is part of N26’s Security Engineering Segment. In this role, you will serve as a key mentor and contributor, actively promoting N26’s security standards by integrating security practices throughout the product lifecycle. You will provide guidance and support to other engineers, sharing your expertise and helping to elevate the overall security posture of our products.\n\nAs we embrace emerging technologies like GenAI and LLMs, this role will independently lead efforts to safeguard sensitive data, align with data governance principles, and address risks unique to AI-driven products. You will also ensure our broader product ecosystem remains secure, scalable, and resilient. Additionally, you will proactively drive the enhancement of our Product Security Program, providing strategic guidance to engineering teams to anticipate and counter evolving threats.\n\nIn this role, you will:\n\nIndependently apply advanced knowledge of security architecture to guide software engineers in building secure products and services across a diverse technology stack, including microservices, mobile applications, and cutting-edge AI-driven solutions.\n\nServe as a technical leader and mentor, collaborating closely with engineering teams to understand and address their complex application security needs, including those related to emerging technologies like Generative AI (GenAI) and Large Language Models (LLM).\n\nPerform application security design reviews, threat modeling, and code reviews, ensuring security principles are embedded in every stage of the development lifecycle.\n\nUtilize expert penetration testing skills to assess and strengthen the security of internal and external applications and services, including AI-powered features and traditional systems.\n\nIndependently develop advanced tooling to support the Secure Software Development Lifecycle (SSDLC) and other security initiatives across diverse product environments.\n\nBuild automation frameworks to enable engineering teams to deliver secure features efficiently, whether for AI solutions or traditional applications.\n\nMentor and educate engineering teams and security champions on secure coding and development practices, including security considerations unique to AI and data governance.\n\nEmpower engineering teams to independently identify and remediate vulnerabilities before they reach production, with a focus on both general application security and AI-specific risks.\n\nLead reactive incident response if a security event occurs.\n\nConduct proactive and in-depth research to detect new attack vectors, including those targeting AI technologies, data pipelines, and LLM-based systems.\n\nWhat you need to be successful (Background and Skills): \n\nExpertise in software engineering with one or more general-purpose programming languages (e.g., Python, Go, or similar).\n\nExtensive experience with threat modeling, security testing, and analyzing applications, including those involving emerging technologies like Generative AI (GenAI) and Large Language Models (LLM).\n\nPrior experience in building automation to support the Secure Software Development Lifecycle (SSDLC).\n\nProven ability to lead and mentor engineering teams, supporting them throughout the Software Development Lifecycle (SDLC).\n\nA passion for information security and an interest in staying ahead of evolving threats, particularly those targeting AI systems.\n\nDeep technical knowledge in multiple areas:\n\nCloud and networking security\n\nWeb application security\n\nMobile security\n\nSecurity challenges unique to AI-driven products and data governance.\n\nStrong understanding of microservice architectures and working with scalable software in the cloud.\n\nA highly developed ability to identify flaws in software and effectively communicate and implement practical solutions.\n\nExpertise in static/dynamic code analysis, fuzzing, and other techniques to identify security vulnerabilities.\n\nSolid knowledge of secure coding best practices and security standards, including the OWASP Top 10.\n\nThe ability to strategically balance security risks with the need for product innovation and advancement.\n\nWhat’s in it for you:\n\nAccelerate your career growth by joining one of Europe’s most talked about disruptors.\n\nEmployee benefits that range from a competitive personal development budget, work from home budget, discounts to fitness & wellness memberships, language apps and public transportation. \n\nCome together with your team in the office for a dedicated day of teamwork each week, plus another day of your choice, and enjoy the flexibility of remote work the rest of the time. Some roles may require additional in-office presence.\n\nAs an N26 employee you will have access to a Premium subscription on your personal N26 bank account. As well as subscriptions for friends and family members. \n\nAdditional day of annual leave for each year of service. \n\nA high degree of autonomy and access to cutting edge technologies - all while working with a friendly team of peers of diverse nationalities, life experiences and backgrounds. \n\nA relocation package with visa support for those who need it.\n\nWho we are\n\nN26 has reimagined banking for today’s digital world. Technology and design empower everything we do and it’s how we are building the global banking platform the world loves to use.\n\nWe've eliminated physical branches, paperwork, and hidden fees for an elegant digital experience and supreme savings. Giving people the power to live and bank their way is what gets us out of bed in the morning and inspires the work that we do. \n\nWe are headquartered in Berlin with offices in multiple cities across Europe, including Vienna and Barcelona, and a 1,500-strong team of more than 80 nationalities.\n\nSounds good? Apply now for this position.\n\nEqual Opportunities:\n\nWe recognize that our strength lies in our people and the varied perspectives they bring to our workforce. We strive to build talented and diverse teams to drive our business success and empower our people to reach their full potential.\n\nWe genuinely welcome and encourage applications from people of all backgrounds, cultures, genders, sexual orientations, abilities, neurodiversities, and ages. We're committed to creating an inclusive workspace where everyone feels valued and respected, free from harassment and discrimination. If there's anything you need to make the application process work for you, please let us know by reaching out to candidate.exp@n26.com. \n\nVisit our website to learn more about Diversity, Equity, & Inclusion at N26.",
-    "salary": "",
-    "employment_type": "",
-    "experience_required": null,
-    "german_requirement": "No German requirement detected",
-    "skills_detected": [
-      "application security",
-      "go",
-      "incident response",
-      "mobile security",
-      "owasp",
-      "penetration testing",
-      "product security",
-      "python",
-      "secure sdlc",
-      "security testing",
-      "software development",
-      "threat modeling",
-      "web security"
-    ],
-    "skill_matches": {
-      "match": [
-        "application security",
-        "mobile security",
-        "owasp",
-        "penetration testing",
-        "python",
-        "secure sdlc",
-        "security testing",
-        "threat modeling",
-        "web security"
-      ],
-      "partial": [
-        "incident response",
-        "product security",
-        "software development"
-      ],
-      "missing": [
-        "go"
-      ],
-      "nice_to_have": []
-    },
-    "score": 69,
-    "score_label": "REVIEW",
-    "score_breakdown": {
-      "role_alignment": 20,
-      "skills": 19,
-      "experience": 10,
-      "location": 15,
-      "language": 10,
-      "seniority": 4,
-      "education": 3
-    },
-    "match_reasons": [
-      "Role family: Product Security.",
-      "Berlin on-site role.",
-      "Evidenced matches include application security, mobile security, owasp, penetration testing, python."
-    ],
-    "warnings": [
-      "Mandatory gaps: go, software development",
-      "Exposure only; do not claim deep expertise: incident response, product security, software development",
-      "Senior title is above the profile's current 2+ years",
-      "One explicitly mandatory skill is not evidenced"
-    ],
-    "status": "SEEN_BEFORE",
-    "priority_employer": true,
-    "tags": [
-      "Berlin",
-      "Tech - Security Engineering"
-    ],
-    "lead_type": "",
-    "post_author": "",
-    "feed_name": "",
-    "content_hash": "fd3dbdfd32e0e79b830856a08e42dc758465b83b194d5cdfc0d915e4d14efa1c",
-    "german_analysis": {
-      "category": "none",
-      "level": "none",
-      "mandatory": false,
-      "label": "No German requirement detected",
-      "evidence": ""
-    },
-    "experience_analysis": null,
-    "posting_age_analysis": {
-      "known": true,
-      "age_days": 4,
-      "category": "recent",
-      "label": "RECENT"
-    },
-    "seniority_analysis": {
-      "level": "senior",
-      "label": "Senior",
-      "evidence": "senior"
-    },
-    "location_analysis": {
-      "category": "eligible_berlin",
-      "eligible": true,
-      "score": 15,
-      "reason": "Berlin on-site role",
-      "verification_required": false,
-      "score_cap": null,
-      "scope": "Berlin",
-      "work_model": "On-site"
-    },
-    "skill_requirements": [
-      {
-        "skill": "go",
-        "profile_status": "missing",
-        "requirement": "mandatory",
-        "evidence": "Expertise in software engineering with one or more general-purpose programming languages (e.g., Python, Go, or similar)."
-      },
-      {
-        "skill": "owasp",
-        "profile_status": "match",
-        "requirement": "mandatory",
-        "evidence": "Solid knowledge of secure coding best practices and security standards, including the OWASP Top 10."
-      },
-      {
-        "skill": "python",
-        "profile_status": "match",
-        "requirement": "mandatory",
-        "evidence": "Expertise in software engineering with one or more general-purpose programming languages (e.g., Python, Go, or similar)."
-      },
-      {
-        "skill": "secure sdlc",
-        "profile_status": "match",
-        "requirement": "mandatory",
-        "evidence": "Prior experience in building automation to support the Secure Software Development Lifecycle (SSDLC)."
-      },
-      {
-        "skill": "security testing",
-        "profile_status": "match",
-        "requirement": "mandatory",
-        "evidence": "Extensive experience with threat modeling, security testing, and analyzing applications, including those involving emerging technologies like Generative AI (GenAI) and Large Language Models (LLM)."
-      },
-      {
-        "skill": "software development",
-        "profile_status": "partial",
-        "requirement": "mandatory",
-        "evidence": "Expertise in software engineering with one or more general-purpose programming languages (e.g., Python, Go, or similar)."
-      },
-      {
-        "skill": "threat modeling",
-        "profile_status": "match",
-        "requirement": "mandatory",
-        "evidence": "Extensive experience with threat modeling, security testing, and analyzing applications, including those involving emerging technologies like Generative AI (GenAI) and Large Language Models (LLM)."
-      },
-      {
-        "skill": "application security",
-        "profile_status": "match",
-        "requirement": "mentioned",
-        "evidence": "Serve as a technical leader and mentor, collaborating closely with engineering teams to understand and address their complex application security needs, including those related to emerging technologies like Generative AI (GenAI) and Large Language Models (LLM)"
-      },
-      {
-        "skill": "incident response",
-        "profile_status": "partial",
-        "requirement": "mentioned",
-        "evidence": "Lead reactive incident response if a security event occurs."
-      },
-      {
-        "skill": "mobile security",
-        "profile_status": "match",
-        "requirement": "mentioned",
-        "evidence": "Mobile security"
-      },
-      {
-        "skill": "penetration testing",
-        "profile_status": "match",
-        "requirement": "mentioned",
-        "evidence": "Utilize expert penetration testing skills to assess and strengthen the security of internal and external applications and services, including AI-powered features and traditional systems."
-      },
-      {
-        "skill": "product security",
-        "profile_status": "partial",
-        "requirement": "mentioned",
-        "evidence": "We are seeking a Senior Product Security Engineer to drive the product security strategy and empower our engineering teams to design and build secure software across our diverse product portfolio."
-      },
-      {
-        "skill": "web security",
-        "profile_status": "match",
-        "requirement": "mentioned",
-        "evidence": "Web application security"
-      }
-    ],
-    "mandatory_gaps": [
-      {
-        "skill": "go",
-        "profile_status": "missing",
-        "requirement": "mandatory",
-        "evidence": "Expertise in software engineering with one or more general-purpose programming languages (e.g., Python, Go, or similar)."
-      },
-      {
-        "skill": "software development",
-        "profile_status": "partial",
-        "requirement": "mandatory",
-        "evidence": "Expertise in software engineering with one or more general-purpose programming languages (e.g., Python, Go, or similar)."
-      }
-    ],
-    "potential_gaps": [],
-    "optional_gaps": [],
-    "role_family": {
-      "id": "product_security",
-      "label": "Product Security",
-      "priority": 1,
-      "confidence": "high",
-      "evidence": [
-        "product security",
-        "product security",
-        "security design review",
-        "threat model"
-      ]
-    },
-    "raw_score": 81,
-    "score_cap": 69,
-    "score_cap_reasons": [
-      "Senior title is above the profile's current 2+ years",
-      "One explicitly mandatory skill is not evidenced"
-    ],
-    "policy_excluded": false,
-    "policy_exclusion_reasons": [],
-    "application_status": "NEW"
-  },
-  {
     "job_key": "9ba7cf301be480a6ff9f",
     "source": "Greenhouse",
     "sources": [
@@ -2901,7 +2631,7 @@
     "ats": "greenhouse",
     "published_at": "2026-09-11T10:13:09Z",
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-11-04T14:46:52Z",
+    "last_seen": "2026-11-05T14:51:46Z",
     "description": "THE OPPORTUNITY\n\nJoin our Global IT Infrastructure team and take ownership of security operations that protect NavVis worldwide. You’ll lead detection and incident response across corporate IT and SaaS environments, working hand-in-hand with Service Delivery, Cloud Infrastructure Engineering, and our Cloud Infrastructure Engineer. \n\nThis is an hands-on role where you’ll make real impact—investigating threats, driving improvements, and shaping security processes. No ticket forwarding, no passive coordination—just meaningful responsibility and the chance to build a security posture you can be proud of. \n\nIf you thrive on solving complex problems, love staying ahead of emerging threats, and want to safeguard technology that powers the future of spatial intelligence, we want to hear from you! \n\nHOW YOU WILL MAKE AN IMPACT\n\nLead security incident response and drive continuous improvements. \n\nOwn Microsoft Defender, email security, and phishing protection. \n\nStrengthen network security with IT Ops: firewalls, VPNs, segmentation. \n\nManage vulnerability scanning, remediation, and risk reporting. \n\nGovern access reviews and enforce least privileges. \n\nRun ISO 27001 & SOC 2 audits and coordinate via Vanta. \n\nSupport business continuity and disaster recovery planning. \n\nAssess vendor security and monitor SaaS risk. \n\nResearch emerging threats and refine security playbooks. \n\nWHAT WILL HELP YOU SUCCEED IN THE ROLE\n\nYou have strong, hands-on experience across security operations, incident response, and forensic analysis in SaaS and hybrid IT environments. \n\nYou bring deep practical knowledge of Microsoft Defender, Entra ID, email security, identity-related incidents, and endpoint protection. \n\nYou are comfortable managing security topics from start to finish with minimal oversight. \n\nYou are a strong communicator who can break down complex security topics in simple actionable terms to both technical and non-technical stakeholders. \n\nYou are experienced working with infrastructure teams to operate network and vulnerability security controls. \n\nYou demonstrate a proven ability to drive ISO 27001 OR SOC 2 audits end-to-end. \n\nYou bring pragmatic approaches to improving processes with a bias towards automation over manual work. \n\nHOW WE WILL KNOW WE ARE A PERFECT MATCH\n\nYour recruiting partner for this role is Sylvie (she/her). You can expect to go through a screening call, and/or up to 4 rounds of interviews, where we would love to discover your passion and interests, introduce you to who we are and what drives us, and finally understand how we can potentially add value to each other's growth.\n\nHOW WE WILL KEEP YOU SMILING\n\nIt's important to take a break from work! We offer 30 days of paid time off per year\n\nAffordable access to a vast network of fitness and wellness facilities through EGYM Wellpass subsidy\n\nDeutschlandticket subsidy to support sustainable travel using public transport\n\nWe offer flexible working hours and a hybrid work setup, enabling you to plan your work around your life, and not your life around work!\n\nWe offer full visa and relocation support for international candidates\n\nAn attractive bike leasing model through JobRad, in line with our commitment towards sustainable mobility\n\nA competitive compensation package that values the skills and experience you bring\n\nUp to 4000 EUR employee referral bonus \n\nFinancial support for local language classes to help you in your journey of integrating into the culture!\n\nWe derive our strength from our diversity.\n\nNavVis’ unwavering commitment to fostering an inclusive and diverse workplace has laid the foundation for our incredible growth. We thrive on the collective strength of our people who come from diverse backgrounds. We respect and value every experience associated with race, gender identity, sexual orientation, nationality, religion and disability. We do not discriminate on the basis of any of these, or other identities, and strongly encourage everyone to apply.\n\nTogether with you, we build NavVis!\n\nIf you need assistance at any stage of the recruiting process due to a disability, please reach out to your recruiting partner(s) for this position.",
     "salary": "",
     "employment_type": "Full or Part-time",
@@ -2973,7 +2703,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 54,
+      "age_days": 55,
       "category": "older",
       "label": "OLDER POSTING - VERIFY ACTIVE"
     },
@@ -3105,8 +2835,8 @@
     "ats": "",
     "published_at": "2026-11-02T18:40:13Z",
     "first_seen": "2026-11-03T14:31:48Z",
-    "last_seen": "2026-11-03T14:31:48Z",
-    "description": "About the Role at RobCo\n\nRobCo is building the category of Autonomous Industrial Robotics and we're doing it fast. We believe that automating the ordinary frees humans to do the extraordinary, and we're building the end-to-end robotics infrastructure to make that possible - hardware, software, and AI in one stack that just works. \n\nAt RobCo, we automate the ordinary, so humans can do the extraordinary. To achieve this, we are looking for an ambitious Automation, IT Systems & Security Specialist (m/f/d) to help us establish RobCo as leading provider of automation solutions.\n\nIn this key role, you act as the architect and guardian of our internal IT infrastructure. Your focus is not on maintaining the status quo, but on building a highly secure, automated, and scalable system landscape. You eliminate manual effort through intelligent IT automation and ensure that our network and security architecture keeps pace with our global growth.\n\nYour Responsibilities\n\nDesign and implementation of a secure, cloud-aligned IT and network landscape (e.g. AWS, Zero Trust principles)\n\nEnsuring highest standards in Identity & Access Management (IAM), SSO, and secrets management\n\nProtection of endpoints and continuous monitoring of system integrity across all teams\n\nIdentification and automation of repetitive IT processes (e.g. automated onboarding/offboarding, asset management)\n\nSelection and integration of tools that connect and streamline internal workflows across Finance, HR, and Engineering\n\nActive use of modern automation tools, including AI-supported solutions, to sustainably reduce manual support effort\n\nOwnership of global device and lifecycle management, including rollout processes\n\nActing as a technical lead for complex first- and second-level support topics\n\nClose collaboration with Engineering and Cloud teams on infrastructure, security, and automation topics\n\nWe're looking for someone who has:\n\nCompleted vocational training or a degree in Computer Science, IT Systems, Security or a comparable field\n\nSeveral years of experience in system administration, network architecture, or IT security in cloud environments\n\nStrong ownership mindset: you take responsibility, proactively identify gaps, and close them independently\n\nA strong automation mindset: you are driven by the principle of not doing things twice manually and actively use scripting or tools to improve processes\n\nDeep understanding of cloud architectures, modern identity models, and network security concepts\n\nA structured and pragmatic working style, combined with a strong ownership mindset and focus on scalable systems\n\nVery good English skills (German is a plus)\n\nWhy join RobCo?\n\nDevelop modular, software-defined robotics solutions with us that set new standards in automation.\n\nHelp us build robots equipped with state-of-the-art AI that perceive their environment, analyze data, and make intelligent decisions in real time.\n\nAs part of a very dynamic and fast-growing scale-up, you will take on responsibility from day one, drive your own projects, and see the direct impact of your work.\n\nFlat hierarchies, open communication, and regular 360° feedback enable fast decisions and support your professional and personal development.\n\nWork out across Germany in over 7,200 studios with our subsidized Wellpass membership.\n\nFlexible working hours, a modern office, and—depending on the role—the option to work from home.\n\nRegular team events—from relaxed beer & pizza nights on the rooftop terrace to shared experiences on ski trips or at Oktoberfest.\n\nAbout RobCo\n\nFounded in Munich in 2020, RobCo leads the transition toward fully Autonomous Industrial Robotics. Our mission is to deploy RobCo in every factory - solving the industrial labor shortage through end-to-end robotics that just works. Powered by Physical AI, our solutions combine a scalable modular hardware architecture with intelligent software that continuously learns and improves, requiring zero upfront investment through our Robotics-as-a-Service (RaaS) model.\n\nWe solve our customers' most pressing pain points - labor shortage, cost pressure, workplace safety, and national reshoring - across the full spectrum of Autonomous Industrial Robotics. In October 2026, RobCo reached unicorn status with a valuation exceeding one billion US dollars, with its valuation doubling in less than nine months. With $200M raised from investors including Sequoia, Lightspeed, Lingotto, Kindred, Cherry Ventures, and the European Tech Collective, 225+ people globally, and 3.5M+ operating hours in the field, we are deploying robots in factories across Europe and the United States - with our US operations headquartered in Austin, TX, and our Bay Area Lab in San Francisco.\n\nDon’t meet every single requirement? If you’re excited about this role but your past experience doesn’t align perfectly with every qualification in the job description, we encourage you to apply anyway. You may be just the right candidate for this or other roles.\n\nAt RobCo, applicants are selected regardless of ethnic origin, religion, gender, age, disability, or sexual orientation. All decisions throughout the recruitment process are based solely on applicants’ qualifications, skills, knowledge, and experience, as well as relevant business requirements.\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
+    "last_seen": "2026-11-05T14:51:46Z",
+    "description": "About the Role at RobCo\n\nRobCo is building the category of Autonomous Industrial Robotics and we're doing it fast. We believe that automating the ordinary frees humans to do the extraordinary, and we're building the end-to-end robotics infrastructure to make that possible - hardware, software, and AI in one stack that just works. \n\nAt RobCo, we automate the ordinary, so humans can do the extraordinary. To achieve this, we are looking for an ambitious Automation, IT Systems & Security Specialist (m/f/d) to help us establish RobCo as leading provider of automation solutions.\n\nIn this key role, you act as the architect and guardian of our internal IT infrastructure. Your focus is not on maintaining the status quo, but on building a highly secure, automated, and scalable system landscape. You eliminate manual effort through intelligent IT automation and ensure that our network and security architecture keeps pace with our global growth.\n\nYour Responsibilities\n\nDesign and implementation of a secure, cloud-aligned IT and network landscape (e.g. AWS, Zero Trust principles)\n\nEnsuring highest standards in Identity & Access Management (IAM), SSO, and secrets management\n\nProtection of endpoints and continuous monitoring of system integrity across all teams\n\nIdentification and automation of repetitive IT processes (e.g. automated onboarding/offboarding, asset management)\n\nSelection and integration of tools that connect and streamline internal workflows across Finance, HR, and Engineering\n\nActive use of modern automation tools, including AI-supported solutions, to sustainably reduce manual support effort\n\nOwnership of global device and lifecycle management, including rollout processes\n\nActing as a technical lead for complex first- and second-level support topics\n\nClose collaboration with Engineering and Cloud teams on infrastructure, security, and automation topics\n\nWe're looking for someone who has:\n\nCompleted vocational training or a degree in Computer Science, IT Systems, Security or a comparable field\n\nSeveral years of experience in system administration, network architecture, or IT security in cloud environments\n\nStrong ownership mindset: you take responsibility, proactively identify gaps, and close them independently\n\nA strong automation mindset: you are driven by the principle of not doing things twice manually and actively use scripting or tools to improve processes\n\nDeep understanding of cloud architectures, modern identity models, and network security concepts\n\nA structured and pragmatic working style, combined with a strong ownership mindset and focus on scalable systems\n\nVery good English skills (German is a plus)\n\nWhy join RobCo?\n\nDevelop modular, software-defined robotics solutions with us that set new standards in automation.\n\nHelp us build robots equipped with state-of-the-art AI that perceive their environment, analyze data, and make intelligent decisions in real time.\n\nAs part of a very dynamic and fast-growing scale-up, you will take on responsibility from day one, drive your own projects, and see the direct impact of your work.\n\nFlat hierarchies, open communication, and regular 360° feedback enable fast decisions and support your professional and personal development.\n\nWork out across Germany in over 7,200 studios with our subsidized Wellpass membership.\n\nFlexible working hours, a modern office, and—depending on the role—the option to work from home.\n\nRegular team events—from relaxed beer & pizza nights on the rooftop terrace to shared experiences on ski trips or at Oktoberfest.\n\nAbout RobCo\n\nFounded in Munich in 2020, RobCo leads the transition toward fully Autonomous Industrial Robotics. Our mission is to deploy RobCo in every factory - solving the industrial labor shortage through end-to-end robotics that just works. Powered by Physical AI, our solutions combine a scalable modular hardware architecture with intelligent software that continuously learns and improves, requiring zero upfront investment through our Robotics-as-a-Service (RaaS) model.\n\nWe solve our customers' most pressing pain points - labor shortage, cost pressure, workplace safety, and national reshoring - across the full spectrum of Autonomous Industrial Robotics. In October 2026, RobCo reached unicorn status with a valuation exceeding one billion US dollars, with its valuation doubling in less than nine months. With $200M raised from investors including Sequoia, Lightspeed, Lingotto, Kindred, Cherry Ventures, and the European Tech Collective, 225+ people globally, and 3.5M+ operating hours in the field, we are deploying robots in factories across Europe and the United States - with our US operations headquartered in Austin, TX, and our Bay Area Lab in San Francisco.\n\nDon’t meet every single requirement? If you’re excited about this role but your past experience doesn’t align perfectly with every qualification in the job description, we encourage you to apply anyway. You may be just the right candidate for this or other roles.\n\nAt RobCo, applicants are selected regardless of ethnic origin, religion, gender, age, disability, or sexual orientation. All decisions throughout the recruitment process are based solely on applicants’ qualifications, skills, knowledge, and experience, as well as relevant business requirements.\n\nFind Jobs in Germany on Arbeitnow",
     "salary": "",
     "employment_type": "Full Time",
     "experience_required": null,
@@ -3154,7 +2884,7 @@
       "Exposure only; do not claim deep expertise: aws, network security, nist",
       "One explicitly mandatory skill is not evidenced"
     ],
-    "status": "NEW",
+    "status": "UPDATED",
     "priority_employer": false,
     "tags": [
       "Finance"
@@ -3162,7 +2892,7 @@
     "lead_type": "",
     "post_author": "",
     "feed_name": "",
-    "content_hash": "50299d9b38ad8ecbe56478d6311a8f39502ce6bf8794ff128e259fb5e8fa2899",
+    "content_hash": "b2ab48ac1dc3642c658daff519c8aed464dcf12975c184f4d7227784e62818c4",
     "german_analysis": {
       "category": "nice",
       "level": "unspecified",
@@ -3173,7 +2903,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 0,
+      "age_days": 2,
       "category": "new",
       "label": "NEW - APPLY QUICKLY"
     },
@@ -3423,17 +3153,14 @@
     "job_key": "521c71dc83dfa3787db3",
     "source": "Greenhouse",
     "sources": [
-      "Arbeitnow",
       "Greenhouse"
     ],
     "source_urls": {
-      "Arbeitnow": "https://www.arbeitnow.com/jobs/companies/staffbase/senior-product-security-engineer-remote-working-within-germany-89783",
       "Greenhouse": "https://job-boards.greenhouse.io/staffbase/jobs/8795021002"
     },
     "source_id": "8729143002",
     "source_job_id": "8729143002",
     "source_job_ids": {
-      "Arbeitnow": "senior-product-security-engineer-remote-working-within-germany-89783",
       "Greenhouse": "8795021002"
     },
     "company": "Staffbase",
@@ -3453,8 +3180,8 @@
     "ats": "greenhouse",
     "published_at": "2026-10-16T09:23:08Z",
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-11-04T14:46:52Z",
-    "description": "About Staffbase\n\nWe inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees.\n\nHeadquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience.\nWe are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication.\n\nAt Staffbase, security is at the heart of everything we build. Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company. We believe the best security work happens when people bring their authentic selves and diverse perspectives to the table and we’re proud of the unique mix of talents and backgrounds in our team.\n\nAs an enablement team, we provide tools, guidance, and insights that allow developers to integrate security early in the development process. We see security not as a blocker but as a trusted partner that is the foundation for better products. With us, you’ll get hands-on experience with modern security practices, mentorship from experienced engineers, and the chance to make a visible impact in a global SaaS environment.\n\nWe work together with curiosity, humility, and a growth mindset, supporting each other, taking ownership of our contributions, and celebrating progress along the way. Here, your ideas matter, your work will shape how we build secure products, and you’ll have space to grow into new challenges.\n\nWhat you’ll be doing \n\nTake ownership of tasks that improve our security automation and strengthen our product security pipelines\n\nProactively explore the use of AI for vulnerability detection and remediation\n\nContinuously learn and share knowledge about how vulnerabilities apply in our specific product context\n\nSupport the team by enhancing our services with software engineering solutions\n\nCollaborate closely with stakeholders across the product department and gain broad exposure to how a growing SaaS company operates\n\nMaintain our outbound e-mail security by regularly reviewing the related metrics\n\nMaintain our Web Application Firewall ruleset\n\nKubernetes security\n\nCI/CD pipelines security\n\nMaintain our central HTML sanitization service written in TypeScript\n\nWhat you need to be successful \n\nPractical knowledge of security topics (e.g. penetration testing, secure software development, vulnerability management, SAST, DAST)\n\nStrong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python\n\nPractical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize\n\nStrong communication skills in English (German is a plus)\n\nWhat you'll get \n\nCompetitive Compensation - we offer attractive salary packages including LTIP (unit-based Long Term Incentive Plan)\n\nFlexibility - we offer flexible working time models and the option of hybrid work, and support this with a yearly flex work allowance of €1560\n\nRecharge - with 31 vacation days annually (incl. one floating holiday), plus pro rata fully paid Fridays off during August\n\nSupport - we’re offering a company pension scheme\n\nVolunteers Day - you’ll get one day off per year for supporting a social project\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
+    "last_seen": "2026-11-05T14:51:46Z",
+    "description": "About Staffbase\n\nWe inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees.\n\nHeadquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience.\nWe are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication.\n\nAt Staffbase, security is at the heart of everything we build. Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company. We believe the best security work happens when people bring their authentic selves and diverse perspectives to the table and we’re proud of the unique mix of talents and backgrounds in our team.\n\nAs an enablement team, we provide tools, guidance, and insights that allow developers to integrate security early in the development process. We see security not as a blocker but as a trusted partner that is the foundation for better products. With us, you’ll get hands-on experience with modern security practices, mentorship from experienced engineers, and the chance to make a visible impact in a global SaaS environment.\n\nWe work together with curiosity, humility, and a growth mindset, supporting each other, taking ownership of our contributions, and celebrating progress along the way. Here, your ideas matter, your work will shape how we build secure products, and you’ll have space to grow into new challenges.\n\nWhat you’ll be doing \n\nTake ownership of tasks that improve our security automation and strengthen our product security pipelines\n\nProactively explore the use of AI for vulnerability detection and remediation\n\nContinuously learn and share knowledge about how vulnerabilities apply in our specific product context\n\nSupport the team by enhancing our services with software engineering solutions\n\nCollaborate closely with stakeholders across the product department and gain broad exposure to how a growing SaaS company operates\n\nMaintain our outbound e-mail security by regularly reviewing the related metrics\n\nMaintain our Web Application Firewall ruleset\n\nKubernetes security\n\nCI/CD pipelines security\n\nMaintain our central HTML sanitization service written in TypeScript\n\nWhat you need to be successful \n\nPractical knowledge of security topics (e.g. penetration testing, secure software development, vulnerability management, SAST, DAST)\n\nStrong programming skills, preferably one of the following: TypeScript, JavaScript, Kotlin, Java, Go, or Python\n\nPractical knowledge of Unix and Kubernetes infrastructure, preferably managed via Terraform and Kustomize\n\nStrong communication skills in English (German is a plus)\n\nWhat you'll get \n\nCompetitive Compensation - we offer attractive salary packages including LTIP (unit-based Long Term Incentive Plan)\n\nFlexibility - we offer flexible working time models and the option of hybrid work, and support this with a yearly flex work allowance of €1560\n\nRecharge - with 31 vacation days annually (incl. one floating holiday), plus pro rata fully paid Fridays off during August\n\nSupport - we’re offering a company pension scheme\n\nVolunteers Day - you’ll get one day off per year for supporting a social project",
     "salary": "",
     "employment_type": "",
     "experience_required": null,
@@ -3525,7 +3252,7 @@
       "Exposure only; do not claim deep expertise: ci/cd, javascript, product security, software development",
       "Senior title is above the profile's current 2+ years"
     ],
-    "status": "SEEN_BEFORE",
+    "status": "UPDATED",
     "priority_employer": true,
     "tags": [
       "Engineering",
@@ -3537,7 +3264,7 @@
     "lead_type": "",
     "post_author": "",
     "feed_name": "",
-    "content_hash": "50aa72a7b2f630e51b7218ec455344681fd62ef73192d1b69ec7858dde88f362",
+    "content_hash": "2c040214033ea8916a3acfc5d53099f7b45d4e07ed4a37d2804853d325041e92",
     "german_analysis": {
       "category": "nice",
       "level": "unspecified",
@@ -3548,7 +3275,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 19,
+      "age_days": 20,
       "category": "current",
       "label": "OPEN FOR REVIEW"
     },
@@ -4598,7 +4325,7 @@
     "ats": "ashby",
     "published_at": "2026-10-13T13:48:21Z",
     "first_seen": "2026-10-15T10:10:57Z",
-    "last_seen": "2026-11-01T13:56:58Z",
+    "last_seen": "2026-11-05T14:51:46Z",
     "description": "The AI orchestration of your wildest imagination.\n\nn8n is the open workflow orchestration platform built for the new era of AI. We give technical teams the freedom of code with the speed of no-code, so they can automate faster, smarter, and without limits. Backed by a fiercely inventive community and 500+ builder-approved integrations, we’re changing the way people bring systems together and scale ideas for impact.\n\nSince our founding in 2019, we’ve grown into a diverse team of over 260 - working across Europe and the US, connected by a shared builder spirit and with our centre of gravity in Berlin. Along the way, we’ve:\n\n- Cultivated a community of more than 650,000 active developers and builders\n\n- Earned 190K+ GitHub stars, making us one of the world’s Top 40 most popular projects\n\n- Backed by top investors, from Sequoia’s first German seed to our SAP's recent strategic investment - bringing us to a $5.2bn valuation\n\nThat’s the company we’ve built. Now we’d love to see what you can build. If you’re applying, try n8n out - whether you’re technical or not - and share a screenshot of your first workflow with us. The easiest place to start is here: app.n8n.cloud/register http://app.n8n.cloud/register.\n\nWe’re in a defining moment of an incredible journey. Come and build with us.\n\n🎯 Your main goal will be to identify and reduce security risks across n8n's product and internal systems, using threat modelling, hands-on security expertise, and cross-functional collaboration to help teams design, build, and operate more secure systems.\n\nYou'll join our growing security team at a pivotal stage, acting as a trusted security partner to teams across the business. You'll help us build a move from reactive security management to a proactive, scalable security practice.\n\nHere's what you'll be driving:\n\nTHREAT MODELLING, RISK ASSESSMENT & SECURITY DESIGN\n\n- Conduct threat modelling and risk assessments across product features, AI agents, cloud infrastructure, corporate IT, internal applications, and data systems, identifying vulnerabilities and recommending practical mitigations.\n\n- Partner with Engineering, Cloud, IT, and Data teams to review security designs, define actionable security requirements, and influence the implementation of appropriate controls.\n\n- Help teams embed security into their development processes through secure coding guidance, design reviews, documentation, and security tooling that enables them to identify and address risks independently.\n\nVULNERABILITY MANAGEMENT & COORDINATED DISCLOSURE\n\n- Participate in the security triage rotation, assessing incoming vulnerability reports, validating findings, and prioritising remediation based on severity and business impact.\n\n- Collaborate with engineering teams to coordinate vulnerability remediation, verify fixes, and support secure patch and release processes.\n\n- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories.\n\nSECURITY OPERATIONS & INCIDENT READINESS\n\n- Help establish and improve logging, detection, and protective monitoring capabilities across our infrastructure, corporate systems, and internal applications.\n\n- Develop and improve incident response processes, runbooks, and exercises to strengthen our ability to detect, investigate, and respond to security incidents.\n\n- Work closely with system owners to identify security gaps, prioritise remediation, and verify that implemented controls effectively reduce risk.\n\nCUSTOMER TRUST & COMPLIANCE ENGINEERING\n\n- Support SOC 2 compliance by helping establish continuous control monitoring, automated evidence collection, and processes that make security assurance part of everyday operations.\n\n- Collaborate with Sales, Solutions Engineering, and Customer Success to respond to customer security assessments and build reusable resources that streamline future requests.\n\n- Partner with Legal, Finance, IT, and other stakeholders to assess security risks, improve security policies and controls, and strengthen trust with enterprise customers.\n\nWe're hiring two Security Engineers with complementary strengths, so you don't need to be an expert in every security domain. \n\nREQUIREMENTS\n\nMUST-HAVES\n\n- 🔍 Threat Modelling & Risk Assessment: You have hands-on experience assessing real-world systems, identifying security risks, determining defensible severity levels, and recommending practical controls that teams can implement.\n\n- 🛠️ Technical Security Expertise: You can validate security findings, reproduce vulnerabilities, develop proof-of-concepts, and write code or automation when needed to demonstrate risks or improve security processes.\n\n- 🔐 Security Engineering Experience: You've worked hands-on in infrastructure, product, or application security within a product-focused organisation, with a strong understanding of how modern systems are designed and secured.\n\n- 🤝 Cross-functional Influence: You're comfortable acting as an internal security consultant, advising teams, challenging technical decisions constructively, and influencing stakeholders without direct authority.\n\n- 🎯 Risk Remediation & Ownership: You've helped secure systems you don't directly own, translating security findings into actionable requirements and working with responsible teams to ensure effective remediation.\n\n- 🤖 AI & LLM Fluency: You're comfortable using LLM-assisted tooling and understand its limitations, security implications, and potential failure modes.\n\n- ✍️ Clear Communication: You can explain complex security risks, document technical findings, and provide practical guidance that engineers and non-technical stakeholders can confidently act on.\n\nYou also bring deep expertise in at least two of the following areas:\n\n- 💻 Application Security: You've developed security checks, engineering guardrails, tooling, or guidance that helps product teams build and ship secure software.\n\n- ☁️ Platform Security: You have experience securing a major cloud provider and Kubernetes environments, including areas such as sandboxing, multi-tenancy, or identity.\n\n- 🔑 Corporate Security: You've worked on identity and access management, endpoint security, employee access lifecycles, or data access controls across corporate environments.\n\n- 🚨 Security Monitoring: You've implemented logging, protective monitoring, or security detection capabilities that support effective investigation and incident response.\n\n- 📋 Security Assurance & Compliance: You've supported SOC 2 or ISO 27001 from an engineering perspective, including implementing technical controls or automating compliance evidence collection.\n\nNICE-TO-HAVES\n\n- 🐛 Vulnerability Disclosure: You've helped operate bug bounty or coordinated vulnerability disclosure programmes, including publishing security advisories such as GHSAs or CVEs.\n\n- 🧠 AI & Agent Security: You have experience assessing or securing LLM-powered applications and AI agents, including risks related to permissions, tool access, prompt injection, or sensitive data.\n\n- 🏢 Corporate IT Tooling: You're familiar with platforms such as Okta, Azure, or Drata and their role in securing corporate systems and supporting compliance.\n\n- 🌍 Open-source Ecosystems: You've worked with open-source or source-available products, contributed to security communities, or are already familiar with n8n.\n\n- 🎯 Penetration Testing: You have practical penetration testing experience and can independently identify, demonstrate, and help remediate security vulnerabilities.\n\n- 🌱 Early-stage Security Experience: You've been an early security hire or helped establish security practices in a startup or rapidly scaling organisation.\n\nWhy join us?\n\nAt n8n, you'll help shape security at a defining stage of our growth. We're building a security practice that goes beyond reacting to vulnerabilities, and you'll play a key role in how we identify risks, influence engineering decisions, and establish security practices that scale with the business.\n\nYou'll work across a broad range of challenges, from securing AI-powered product features and our source-available automation platform to improving corporate security, strengthening incident readiness, and making compliance more automated. You'll have direct exposure to teams across the company, the opportunity to influence important technical decisions, and the autonomy to turn your expertise into measurable security improvements.\n\nSound like a challenge you're excited to take on?\n\nApply now — and help us build the future of secure automation.\n\nn8n is an equal opportunity employer and does not discriminate on the basis of race, religion, colour, national origin, gender, sexual orientation, gender identity, age, marital status, veteran status, or disability status.\n\nWe can sponsor visas to Germany; for any other country, you need to have existing right to work.\n\nOur company language is English.\n\nYou care about diversity and inclusion? We do too! Check out our Diversity, Inclusion and Belonging initiatives at n8n https://www.notion.so/Diversity-inclusion-and-belonging-n8n-c1bec2fff536422d868b1a438d990e35?pvs=21 (https://www.notion.so/n8n/Diversity-inclusion-and-belonging-n8n-c1bec2fff536422d868b1a438d990e35).\n\nLocation disclaimer: If you see multiple job postings for the same role, it is most likely because we're hiring remotely for this role and posting in different locations to make sure every potential candidate can see the role. Please apply to the location you're the most likely to work from in the future. \n\nBENEFITS \n\n- Competitive compensation 💸 – We offer fair and attractive pay.\n\n- Ownership 💪 – Our core value is to “empower others,” and we mean it—you’ll get a slice of n8n with equity.\n\n- Work/life balance 🏖️ – We work hard but ensure you have time to recharge:\n\n- Europe: 30 days of vacation, plus public holidays wherever you are.\n\n- US: 20 vacation days, 8 sick days, plus public holidays wherever you are.\n\n- Health & wellness 🩺 –\n\n- Europe: We provide benefits according to local country norms.*\n\n- US: Multiple low-premium, low-deductible medical plans with coverage for individuals and families—plus a no-cost premium HDHP option with a pre-seeded HSA—along with dental and vision coverage.\n\n- Future planning 💰 –\n\n- Europe: We provide pension contributions according to local country norms.*\n\n- US: 401(k) retirement plan with a 4% employer match.\n\n- Financial security 🛡️ –\n\n- Europe: We provide benefits according to local country norms.*\n\n- US: Company-paid short-term and long-term disability insurance, plus life insurance to support you and your loved ones.\n\n- Career growth 📈 – We hire rising stars who grow with us! You’ll get €1K (or equivalent) per year to spend on courses, books, events, or coaching to level up your skills.\n\n- A passionate team 🤩 – We love our product, and we prove it with regular hackathons where we see who can build the coolest thing with it!\n\n- Remote-first 🌏 – Our team works remotely across Europe, with regular off-sites for team bonding. Some roles, like sales in the US, are hybrid—please check the job description.\n\n- Giving back 🤝 – We're big fans of open source, and you'll get $100 per month to support projects you care about.\n\n- Transparency 🙏 – We all know what everyone’s working on, how the company is doing—the whole shebang.\n\n*Country and/or State specific details provided in your employment agreement.",
     "salary": "",
     "employment_type": "FullTime",
@@ -4691,7 +4418,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 19,
+      "age_days": 23,
       "category": "current",
       "label": "OPEN FOR REVIEW"
     },
@@ -5056,7 +4783,7 @@
     "ats": "ashby",
     "published_at": "2026-10-19T08:41:49Z",
     "first_seen": "2026-10-19T11:04:26Z",
-    "last_seen": "2026-11-04T14:46:52Z",
+    "last_seen": "2026-11-05T14:51:46Z",
     "description": "SCOPE OF IMPACT\n\nActively participates with other seniors in SOC activities by providing knowledge and insight on more complex client cases. Provides ideas and concrete input for process and efficiency improvements. Actively participates in overall team- and workflow-improvement projects.\n\nEXPERTISE\n\nIn-depth knowledge of the operational use of security monitoring tools (SIEM, EDR). Ability to assess complex logs, recognise patterns, and derive actionable insights. Actively develops both technical and soft skills, and stays current with changes in the field. A credible voice and source of knowledge in the department.\n\nAUTONOMY AND CONTRIBUTION STYLE\n\nFull autonomy during complex SOC escalations. Skills and confidence to coordinate the team’s response. Collaborates with, and gives guidance to, the team on arising issues. Once fully onboarded, demonstrates the ability to handle Tier 3 shifts.\n\nCOMPLEXITY\n\nHigh complexity: oversees entire projects and influences cross-functional teams; decisions impact the department and adjacent areas. Creates clear, structured, reproducible documentation that informs stakeholders of risks, findings, and recommended actions. Recognises higher-level security issues and resolves them independently; supports junior members in resolving theirs.\n\nLEADERSHIP\n\nNo formal leadership responsibilities. Actively coaches more junior team members to share knowledge and grow as a team.\n\nRESPONSIBILITIES\n\n- Monitor security alerts and perform initial triage; classify (false positive, true positive, uncertain) and close out confirmed false positives correctly\n\n- Take full ownership of escalated and the most complex alerts: root-cause analysis, log correlation, validating assessments, determining next steps\n\n- Own client communication for assigned alerts, including difficult or high-risk escalations from more junior analysts, to a consistent quality standard\n\n- Independently execute containment actions across impact levels; approve escalations from more junior analysts\n\n- Own the team’s overall workload and service-level adherence day to day; pull in support or escalate when targets are at risk\n\n- Answer cross-department questions on security operations; improve documentation and working instructions for junior levels\n\n- Mentor junior and mid-level colleagues\n\n- Identify patterns across multiple cases and escalations that point to systemic detection gaps or false-positive sources, and turn them into structured input for the detection content owners — not one-off flags\n\n- Contribute to team projects and process/efficiency improvements\n\nNOT IN SCOPE AT THIS LEVEL, OR EVER, ON THIS TRACK\n\n- Incident response casework — a separate specialisation\n\n- Detection rule ownership, detection engineering, and threat hunting — owned by a separate team\n\nREQUIREMENTS\n\n- 4+ years hands-on SOC/security operations experience\n\n- Proven ability to own and drive the team’s SLA/workload independently\n\n- Strong client communication in high-risk situations\n\n- Track record mentoring junior colleagues\n\n- Solid log analysis and EDR platform experience; familiarity with major cloud platforms\n\n- Language fluency matching the client base supported; English internally; Dutch and/or German required or strongly preferred depending on client-facing exposure\n\nGROWTH PATH\n\nFrom here, the role forks: an individual-contributor track (Staff-level, then an optional cross-functional Principal role), or a people-leadership track (Team Lead).\n\nABOUT EYE SECURITY\n\nEye Security provides cybersecurity with embedded cyber insurance solutions for organisations across Europe. Headquartered in the Netherlands, 200+ FTEs and growing internationally. We combine 24/7 detection and response with hands-on incident response to keep SMEs protected.",
     "salary": "",
     "employment_type": "FullTime",
@@ -5130,7 +4857,7 @@
     },
     "posting_age_analysis": {
       "known": true,
-      "age_days": 16,
+      "age_days": 17,
       "category": "current",
       "label": "OPEN FOR REVIEW"
     },
@@ -5252,7 +4979,7 @@
     "ats": "greenhouse",
     "published_at": "2026-11-02T09:16:59Z",
     "first_seen": "2026-08-27T16:38:50Z",
-    "last_seen": "2026-11-04T14:46:52Z",
+    "last_seen": "2026-11-05T14:51:46Z",
     "description": "About the role: What's in the Box\n\nWe’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges. Security Engineers work in a variety of ways to constantly iterate and improve HelloFresh’s security posture. \n\nYou will be the first port of call for responding to any of HelloFresh’s security related questions and concerns. You will also develop and deliver tools and processes to enable colleagues to achieve their goals and objectives.\n\nAbove all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you.\n\nWhat You’ll Do: The Recipe\n\nEnhance the security posture of the enterprise IT infrastructure, services, and tools by hardening them against abuse and nefarious activity\n\nImplement secure configurations and policies for IAM, EDR, VPN, Firewalls, Email Security, Slack and MDM tools\n\nResponsible for security hardening and posture of enterprise IT assets\n\nAdapt to modern AI adoption strategy through implementing and mitigating AI controls in a variety of methods including Shadow AI, MCP integrations, and protecting against AI-based risks\n\nDeploy, optimize and operate modern security solutions like EDR, Zero-Trust, SSE/CASB, DLP, and Patch Management tools\n\nAssist in company-wide security awareness campaigns and vulnerability patching\n\nPerform comparative technical and commercial analysis for various security products/tools prior to procurement\n\nWhat You’ll Bring: The Ingredients\n\nHands-on experience hardening workstations, network equipment, servers, IAM platforms through using CIS/NIST frameworks\n\nUnderstanding and usage of Generative AI from a corporate perspective, including LLM guardrails, MCP connections/gateways, and risks stemming from its usage such as prompt injections\n\nAbility to perform malware analysis on Windows, MacOS, and Linux machines\n\nUnderstanding of modern-day social engineering attacks and how to prevent them through technical controls and training\n\nIn-depth understanding of common TCP/IP protocols and modern-day security threats on each network layer and protecting against them\n\nGood communication and reporting skills\n\nWhat we Offer: The Toppings\n\nElevate your lifestyle! Join one of Europe's fastest-growing tech powerhouses in a dynamic phase of expansion.\n\nImmerse yourself in a diverse global community of 90+ nationalities.\n\nEnjoy a competitive compensation package that goes beyond the norm, with perks like a HelloFresh- subsidized Pension Scheme and a Hybrid working model.\n\nElevate your lifestyle with exclusive discounts on your weekly HelloFresh box and office meals.\n\nInvest in your growth with a German language learning budget, and access to the HelloFresh Academy.\n\nPlus, we've got your well-being covered with mental health support, transportation perks, and working-parent-friendly benefits. From our 24/7 gym access,wellbeing platforms like Headspace and Spill, to sabbatical leave options, HelloFresh is not just a workplace; it's a lifestyle of perks and possibilities!",
     "salary": "",
     "employment_type": "",
@@ -5318,9 +5045,9 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 2,
-      "category": "new",
-      "label": "NEW - APPLY QUICKLY"
+      "age_days": 3,
+      "category": "recent",
+      "label": "RECENT"
     },
     "seniority_analysis": {
       "level": "mid_unspecified",
@@ -6975,7 +6702,7 @@
     "ats": "greenhouse",
     "published_at": "2026-11-02T18:44:15Z",
     "first_seen": "2026-09-30T11:17:18Z",
-    "last_seen": "2026-11-04T14:46:52Z",
+    "last_seen": "2026-11-05T14:51:46Z",
     "description": "Why Mozilla?\n\nMozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. \n\nThe Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. \n\nAbout this team and role:\n\nMozilla is looking for an Incident Responder to monitor and mitigate attacks across Mozilla’s products and services. In this position, you will be a part of a flexible team responsible for handling security incidents. As such, you’ll need to have years of practical security experience and knowledge of the state of the art for detecting and responding to attacks. You’ll be someone Mozillians across the company depend on and trust to respond quickly and effectively in a crunch, with the outstanding communication and collaboration skills needed to work in partnership with diverse stakeholders. Most importantly, you will become a critical member of the team responsible for ensuring the integrity of Mozilla’s products and for keeping Mozilla’s users safe, within a company dedicated to building a more secure internet.\n\nWhat you'll do:\n\nIdentify and respond to security incidents on a global scale.\n\nAct as an incident commander to drive incidents through the entire response lifecycle.\n\nDesign and maintain a portfolio of security alerts, automated actions, playbooks and escalation workflows in support of a high-performing 24/7 incident response capability.\n\nConduct threat hunting activities, anticipate future threats, and maintain forward-thinking strategies for tools/technology/processes that combat sophisticated threat actors.\n\nResearch threat intelligence reports, triage and manage resulting workflows.\n\nPartner with key stakeholders and communicate effectively to maintain a continuously improving feedback loop of preparation, identification, analysis, containment, and post mortem activities.\n\nParticipate in on-call rotation.\n\nWhat you'll bring:\n\n5+ years of demonstrated ability managing security incidents at a global scale and/or experience working in Security Operations Centers (SOC), Product Security Incident Response Teams (PSIRT), and Computer Security Incident Response Teams (CSIRT).\n\nExpertise with security information and event management (SIEM) systems (eg. ELK, Google BigQuery, Splunk, etc.). Splunk proficiency is preferred.\n\nExpertise with endpoint detection and investigation. Hands-on experience with leading EDR tools and demonstrated ability to leverage endpoint telemetry to find root cause.\n\nExpertise with security orchestration and automation (SOAR) platforms such as Tines or Splunk SOAR.\n\nSuperb communication and leadership capacity; ability to partner effectively with diverse company stakeholders.\n\nReal-world experience in software development and/or engineering operations for consumer products and services; B.S. in a technology-focused field is helpful.\n\nPractical experience working with cloud technologies (eg. Google Cloud Platform, Amazon Web Services, Heroku, Microsoft Azure, etc.).\n\nCompetencies:\n\nOwnership and Accountability\n\nAutonomy\n\nHigh Level of Integrity\n\nClear Communication\n\nCreative Problem Solver\n\nPassionate about Security\n\nWhat you’ll get:\n\nGenerous performance-based bonus plans to all eligible employees - we share in our success as one team\n\nRich medical, dental, and vision coverage\n\nGenerous retirement contributions with 100% immediate vesting (regardless of whether you contribute)\n\nQuarterly all-company wellness days where everyone takes a pause together\n\nCountry specific holidays plus a day off for your birthday\n\nOne-time home office stipend\n\nAnnual professional development budget\n\nQuarterly well-being stipend\n\nConsiderable paid parental leave\n\nEmployee referral bonus program\n\nOther benefits (life/AD&D, disability, EAP, etc. - varies by country)\n\nAbout Mozilla \n\nMozilla exists to build the Internet as a public resource accessible to all because we believe that open and free is better than closed and controlled. When you work at Mozilla, you give yourself a chance to make a difference in the lives of Web users everywhere. And you give us a chance to make a difference in your life every single day. Join us to work on the Web as the platform and help create more opportunity and innovation for everyone online.\n\nCommitment to diversity, equity, inclusion, and belonging\n\nMozilla understands that valuing diverse creative practices and forms of knowledge are crucial to and enrich the company’s core mission. We encourage applications from everyone, including members of all equity-seeking communities, such as (but certainly not limited to) women, racialized and Indigenous persons, persons with disabilities, persons of all sexual orientations, gender identities, and expressions.\n\nWe will ensure that qualified individuals with disabilities are provided reasonable accommodations to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment, as appropriate. Please contact us at hiringaccommodation@mozilla.com to request accommodation.\n\nWe are an equal opportunity employer. We do not discriminate on the basis of race (including hairstyle and texture), religion (including religious grooming and dress practices), gender, gender identity, gender expression, color, national origin, pregnancy, ancestry, domestic partner status, disability, sexual orientation, age, genetic predisposition, medical condition, marital status, citizenship status, military or veteran status, or any other basis covered by applicable laws. Mozilla will not tolerate discrimination or harassment based on any of these characteristics or any other unlawful behavior, conduct, or purpose.\n\nGroup: D\n\n#LI-REMOTE\n\nReq ID: R3224\n\nHiring Ranges:\n\nRemote Sweden\n\n512 925 kr—683 900 kr SEK",
     "salary": "",
     "employment_type": "",
@@ -7058,7 +6785,7 @@
     },
     "posting_age_analysis": {
       "known": true,
-      "age_days": 1,
+      "age_days": 2,
       "category": "new",
       "label": "NEW - APPLY QUICKLY"
     },
@@ -7194,12 +6921,12 @@
       "Greenhouse"
     ],
     "source_urls": {
-      "Greenhouse": "https://job-boards.greenhouse.io/mozilla/jobs/8107442"
+      "Greenhouse": "https://job-boards.greenhouse.io/mozilla/jobs/8122100"
     },
     "source_id": "8122100",
     "source_job_id": "8122100",
     "source_job_ids": {
-      "Greenhouse": "8107442"
+      "Greenhouse": "8122100"
     },
     "company": "Mozilla",
     "company_normalized": "mozilla",
@@ -7218,7 +6945,7 @@
     "ats": "greenhouse",
     "published_at": "2026-10-30T12:41:53Z",
     "first_seen": "2026-10-16T10:02:11Z",
-    "last_seen": "2026-11-04T14:46:52Z",
+    "last_seen": "2026-11-05T14:51:46Z",
     "description": "To learn the Hiring Ranges for this position, please select your location from the Apply Now dropdown menu.\n\nTo learn more about our Hiring Range System, please click this link.\n\nWhy Mozilla?\n\nMozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we're shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we're doing this while never losing our focus on our core mission – to make the internet better for people.\n\nThe Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren't beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms.\n\nAbout this team and role:\n\nThe role is part of the Security Function within the broader Mozilla Infrastructure team. The Security team supports Product, Enterprise and GRC functions across the organization aligned with the mission to build a safe & secure internet. This role is responsible for defining, developing and helping implement a Governance, Risk and Compliance framework for both Enterprise and Product verticals. The ideal candidate will be responsible to deliver an integrated framework that aligns security, privacy, regulatory, and risk management initiatives across the organization. This is an ideal role for someone early in their GRC or security career who is curious, organized, and eager to take on a wide range of work. You’ll get broad exposure across risk, audit, and a growing set of security programs.\n\nWhat you'll do:\n\nRisk Management\n\nPerform risk assessments and process incoming risk questions and intake requests\n\nMaintain the risk register, keeping entries accurate, current, and well documented\n\nTrack risk treatment plans and follow up with owners on progress\n\nManage the exceptions and issues tracking process, including intake, documentation, expiration follow-up, and reporting\n\nSupport third-party risk activities, such as vendor assessments, questionnaire review, and tracking remediation\n\nCompliance and Audit\n\nCoordinate evidence collection from control owners and chase outstanding requests\n\nHelp prepare control owners and stakeholders for audit interviews\n\nKeep the SOC 2 system description, ISMS documentation, and Statement of Applicability (SoA) up to date\n\nTrack audit gaps and findings and drive remediation to closure with control owners\n\nSecurity Program Support\n\nHelp GRC and partner teams run governance for the Secure Software Development Lifecycle (SSDLC), including tracking adoption, gathering evidence, and maintaining supporting standards\n\nSupport data classification and data governance efforts by maintaining documentation, tracking adoption, and coordinating with data owners\n\nAssist with business impact analysis (BIA) and business continuity/disaster recovery (BC/DR) activities, including plan maintenance, exercise coordination, and follow-up on gaps\n\nTrack vulnerability management metrics and remediation status, and follow up with system owners on overdue items\n\nHelp coordinate penetration testing engagements, from scoping and scheduling through findings tracking and remediation follow-up\n\nGRC Operations and Tooling\n\nServe as an administrator for our GRC platform, including users, workflows, integrations, and reporting\n\nIdentify opportunities to streamline processes and automate repetitive GRC work\n\nHelp maintain policies, standards, and supporting documentation\n\nWhat you'll bring:\n\nExperience in cybersecurity, GRC, IT audit, or a related field (typically 2-4 years)\n\nWorking knowledge of security and compliance frameworks such as SOC 2, ISO 27001, or NIST\n\nFamiliarity with risk assessment concepts and the risk management lifecycle\n\nStrong organization and follow-through, with the ability to juggle many workstreams and deadlines at once\n\nClear written and verbal communication, and comfort working with technical and non-technical stakeholders\n\nA collaborative, curious mindset and a genuine desire to learn and take on new challenges\n\nHands-on experience with a GRC platform (e.g., Vanta, Drata, OneTrust, ServiceNow GRC, or similar)\n\nExperience supporting an audit (SOC 2, ISO 27001, or similar)\n\nExposure to any of: vulnerability management, third-party risk, BC/DR, secure development practices, or penetration test coordination\n\nScripting or automation skills (e.g., Python, SQL, or workflow tools) to improve GRC processes\n\nA relevant certification or one in progress (e.g., Security+, CISA, CISM, CISSP)\n\nWhat you'll get:\n\nGenerous performance-based bonus plans to all eligible employees—we share in our success as one team.\n\nRich medical, dental, and vision coverage.\n\nGenerous retirement contributions with 100% immediate vesting (regardless of whether you contribute).\n\nQuarterly all-company wellness days where everyone takes a pause together.\n\nCountry-specific holidays plus a day off for your birthday.\n\nOne-time home office stipend.\n\nAnnual professional development budget.\n\nQuarterly well-being stipend.\n\nConsiderable paid parental leave.\n\nEmployee referral bonus program.\n\nOther benefits (life/AD&D, disability, EAP, etc.—varies by country).\n\nAbout Mozilla \n\nMozilla exists to build the Internet as a public resource accessible to all because we believe that open and free is better than closed and controlled. When you work at Mozilla, you give yourself a chance to make a difference in the lives of Web users everywhere. And you give us a chance to make a difference in your life every single day. Join us to work on the Web as the platform and help create more opportunity and innovation for everyone online.\n\nCommitment to diversity, equity, inclusion, and belonging\n\nMozilla understands that valuing diverse creative practices and forms of knowledge are crucial to and enrich the company’s core mission. We encourage applications from everyone, including members of all equity-seeking communities, such as (but certainly not limited to) women, racialized and Indigenous persons, persons with disabilities, persons of all sexual orientations, gender identities, and expressions.\n\nWe will ensure that qualified individuals with disabilities are provided reasonable accommodations to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment, as appropriate. Please contact us at hiringaccommodation@mozilla.com to request accommodation.\n\nWe are an equal opportunity employer. We do not discriminate on the basis of race (including hairstyle and texture), religion (including religious grooming and dress practices), gender, gender identity, gender expression, color, national origin, pregnancy, ancestry, domestic partner status, disability, sexual orientation, age, genetic predisposition, medical condition, marital status, citizenship status, military or veteran status, or any other basis covered by applicable laws. Mozilla will not tolerate discrimination or harassment based on any of these characteristics or any other unlawful behavior, conduct, or purpose.\n\nGroup: C\n\n#LI-DNI\n\nReq ID: R3197",
     "salary": "",
     "employment_type": "",
@@ -7302,7 +7029,7 @@
     },
     "posting_age_analysis": {
       "known": true,
-      "age_days": 5,
+      "age_days": 6,
       "category": "recent",
       "label": "RECENT"
     },
@@ -7758,7 +7485,7 @@
     "ats": "ashby",
     "published_at": "2026-08-05T12:52:42Z",
     "first_seen": "2026-08-15T17:01:09Z",
-    "last_seen": "2026-11-04T14:46:52Z",
+    "last_seen": "2026-11-05T14:51:46Z",
     "description": "Qdrant is an open-source vector search engine powering the next generation of AI applications, from semantic search and retrieval-augmented generation (RAG) to AI agents and real-time recommendations.\n\nTrusted by global leaders like Canva, HubSpot, Tripadvisor, Bosch, and Deutsche Telekom, we’re building the retrieval infrastructure layer for modern AI. Recently raising $50M in Series B funding, we are growing rapidly and committed to transforming how AI understands and interacts with data.\n\nAs a remote-first company, we believe diverse backgrounds, perspectives, and experiences fuel innovation. Here, you’ll own meaningful work, tackle challenges, and grow alongside passionate individuals dedicated to shaping the future of AI.\n\nWe are looking for a Mid-Level Security Engineer to own the hands-on engineering and operational work within our security program. You will be embedded in the Cloud Engineering team, report into the Security Officer, and work closely together to identify risks, set priorities, and drive security issues through remediation. You will act as a security enabler across all Product & Engineering.\n\nWHAT YOU WILL OWN\n\n- Run our public bug bounty program: triage reports, reproduce and validate findings, communicate clearly with security researchers, and drive remediation through to closure.\n\n- Investigate reported vulnerabilities at the code level, including our Rust core, Go and Python tooling.\n\n- Enable engineers to build secure systems: provide tooling, paved-road defaults, documentation, and practical guidance so security is the easy path, not a checkpoint.\n\n- Partner with engineering teams to design, review, and verify fixes, and set clear security requirements on changes where the risk warrants it.\n\n- Harden and maintain our GitHub organization’s security posture, including secret scanning, push protection, branch protection and rulesets, dependency alerts, and code scanning, in partnership with the engineering teams that use these repositories daily.\n\n- Monitor, investigate, and respond to security alerts across AWS, Kubernetes, CI/CD, and related infrastructure.\n\n- Track and report security metrics (vulnerability remediation SLAs, MTTR, patch latency, critical findings) and keep reporting current for the Security Officer.\n\n- Implement, configure, and maintain security tooling across our development and cloud environments.\n\n- Support security incident response, including investigation, containment, remediation, and follow-up.\n\n- Maintain clear, complete, and auditable records of vulnerability and incident work in our tracking systems.\n\n- Build security automation and guardrails that scale across the development lifecycle: CI/CD security checks, policy-as-code, GitHub automation, and automated cloud security controls, so secure defaults are enforced by tooling rather than review.\n\n- Participate in threat modeling and architecture reviews for new services and major changes.\n\nWe are also building out our ISMS, which creates opportunities to contribute to security-tooling evaluations, technical vendor assessments, and proof-of-concept work. Formal compliance ownership, vendor risk assessments, and customer security questionnaires remain with the Security Officer.\n\nThis is a hands-on technical role focused on security engineering, vulnerability management, and incident response. The Security Officer owns compliance, formal third-party risk assessments, and customer security questionnaires, allowing you to focus primarily on engineering work. On-call expectations are low: there is no formal rotation, though occasional availability for high-severity incidents is expected.\n\nWHO YOU ARE\n\n- You can read and navigate an unfamiliar codebase (Rust, Go, Python) well enough to validate a vulnerability report, trace its impact, and judge whether a proposed fix actually closes it.\n\n- You write and maintain automation and security tooling comfortably, and can hold a credible technical conversation in code review.\n\n- Experience triaging vulnerability reports or working with a bug bounty program, vulnerability disclosure program, product security team, or similar function.\n\n- Practical knowledge of cloud and container security, particularly AWS and Kubernetes.\n\n- Familiarity with GitHub security features and securing CI/CD pipelines.\n\n- The ability to investigate alerts and vulnerabilities methodically, distinguish genuine risk from noise, and recommend proportionate remediation.\n\n- Clear written communication skills for working with external researchers and internal engineering teams.\n\n- A self-directed approach and comfort independently managing a security queue.\n\n- 3+ years in a hands-on security engineering, product security, or vulnerability management role.\n\nNice to have\n\n- An offensive security background, such as penetration testing, CTF participation, vulnerability research, or exploit analysis.\n\n- Experience working in an open-source company or contributing security improvements to open-source projects.\n\n- Familiarity with cloud-native incident response.\n\nWHY JOIN US\n\n- A remote-first, international team working on cutting-edge AI infrastructure.\n\n- A competitive salary with additional perks.\n\n- Flexible working hours and async-friendly culture.\n\n- High ownership and real impact.\n\n- Open-source, engineering-driven culture.\n\n- Choose your own laptop equipment.\n\nFor US-based full-time employees, we also offer a comprehensive benefits package including 401k match, health, dental, and vision insurance, plus flexible PTO policy.\n\nQdrant is an equal-opportunity employer. We believe the best ideas come from diverse teams, and we actively welcome applicants from all backgrounds. If this role excites you but you don't check every single box, we'd still love to hear from you! We don't want to miss out on great people because of a checklist.\n\nCome build with us!\n\nFOR INFORMATION ON HOW WE HANDLE YOUR PERSONAL DATA, PLEASE REFER TO OUR RECRUITMENT PRIVACY POLICY https://qdrant.tech/legal/recruitment-privacy-policy/\n\n#LI-REMOTE",
     "salary": "",
     "employment_type": "FullTime",
@@ -7856,7 +7583,7 @@
     "experience_analysis": null,
     "posting_age_analysis": {
       "known": true,
-      "age_days": 91,
+      "age_days": 92,
       "category": "older",
       "label": "OLDER POSTING - VERIFY ACTIVE"
     },
@@ -9286,7 +9013,7 @@
     "ats": "personio",
     "published_at": "2026-10-13T14:32:45Z",
     "first_seen": "2026-10-16T10:02:11Z",
-    "last_seen": "2026-11-04T14:46:52Z",
+    "last_seen": "2026-11-05T14:51:46Z",
     "description": "WHO WE ARE\nWe prioritise privacy as a fundamental right, delivering the most secure communication experience across various industries. Our cutting-edge encryption technology and robust security measures have made us a trusted partner in the technology, finance, healthcare, and government sectors. If you are passionate about redefining secure communication and want to be part of an innovative team, join us as a Senior Security Engineer in our Security organisation. Together, let us build a world where privacy and security shape the future of communication.\n\nGENERAL INFORMATION\n\nEmployment Type: 12-month contract with the possibility of extension\n\nPrevious working experience: 5-7 years in Product Security\n\nWorking hours: 40hrs/week\n\nWorking Location: Remote EU / Berlin\n\nDesired start date: As soon as possible\n\nYOUR CHALLENGE AT WIRE\n\nBe ready to play an essential role by joining our Information Security Team. You will become a pioneer in transforming how organisations and governments communicate securely. You will work closely with the Director of Information Security and interact with the engineering, product, and other teams regularly. Your areas of work are:\n\nProduct Security\n\nYou review security- or privacy-critical changes and implement or propose solutions to potential issues\n\nYou help to maintain security documentation of the product with focus on product certifications\n\nYou communicate with internal and external stakeholders regarding product security topics\n\nYou support new feature development from a security point of view to identify possible security or privacy pitfalls early in the process\n\nYou contribute to internal security audits, risk assessments and threat modelling workshops\n\nYou conduct security awareness trainings regarding your field of responsibility\n\nPlatform Security\n\nYou are responsible for our Platform Security controls\n\nYou support technical due diligence to ensure compliance with information security and data protection requirements \n\nYou oversee the incident management process and team members involved in resolving the incident\n\nYou help to maintain documentation of security- and privacy-related processes\n\nYou support Wire’s identity and access management\n\nYou drive the implementation and maintenance of SecOps measures for our Platform\n\nYOUR PROFILE\n\nEssential requirements\n\nProficient understanding of secure software development practices, including threat modelling and security architecture review for products.\n\nHands-on experience assessing security and privacy risks in product features (e.g., authentication, encryption, data handling, APIs).\n\nWorking knowledge of cloud security fundamentals (e.g., AWS) and common infrastructure tools (Kubernetes, Terraform, Helm).\n\nExperience supporting security certifications/compliance frameworks (e.g., ISO 27001, GDPR).\n\nStrong communication skills and experience engaging both technical and non-technical stakeholders on security and privacy topics.\n\nStrong plus\n\nIdeally, you have relevant security and/or DevOps certifications, such as CKS, etc.\n\nYou are familiar with GitHub, Jira and Confluence.\n\nFurther qualifications and skills\n\nYou are a good communicator and you like to work in a team.\n\nYou are interested in and keep up with trends and news from the InfoSec world.\n\nYou are self-motivated to identify security problems and engage with teams to find solutions.\n\nYou like to do in-depth research on your own and present the results to the team.\n\nYou have programming experience, preferably with one or more of JavaScript, TypeScript, Swift, Kotlin, Java, Rust and Haskell.\n\nYou have a thorough understanding of security code reviews, bug triage based on common metrics like CVSS, and vulnerability management.\n\nYou have a practical, working understanding of basic cryptographic ciphers/algorithms and understand protocols or concepts like Elliptic Curve, TLS, Public Key Infrastructure and Messaging Layer Security.\n\nYou have a strong understanding of application security frameworks like OWASP Top 10.\n\nYou bring thorough knowledge of OAuth, SSO, Identity and Access Management systems.\n\nYou are willing to subject yourself to the S2 security check of the German Government.\n\nThis role can be performed remotely from Germany or another EU country. Regular travel to our Berlin office for workshops, and selected in-person collaboration sessions is expected.\n\nWHY WIRE?\n\nJoin a market-proven company with more than 1,000 customers and help Wire become the trusted secure communications partner for organisations that care deeply about security and privacy.\n\nParticipate in Wire’s long-term success through VSOPs.\n\n30 days of vacation entitlement, allowing you to take well-deserved time off and maintain a healthy work-life balance.\n\nWith an Urban Sports Club subscription, stay balanced and mentally and physically healthy.\n\nInvestment in professional development with an annual education budget of €1,000 and access to top-notch learning resources.\n\nWork from a beautiful office in the heart of Berlin or choose a mix of working from anywhere vs. spending selected days together in our office to connect on a personal level.\n\nEnjoy fresh breakfast in the office, daily fruits, snacks, free soft drinks, and a nice Barista coffee machine.\n\nWire is an equal opportunities employer and does not discriminate on the grounds of gender, civil status, family status, sexual orientation, religion, age, disability or race.\n\nCONTACT\nJoin us in shaping the future of secure communication. Click Apply now to submit your CV - we look forward to meeting you!\n\nIMPORTANT NOTE ON RECRUITMENT FRAUD\n\nAll Wire vacancies are published on our official careers page, and every application for this position runs through Personio, our official application portal. For this role we do not work with external recruitment agencies. At no point in the process will Wire, or any partner working on our behalf, ask you for payments, fees or bank details, and we never extend an offer without at least one live conversation with people from Wire. If someone contacts you claiming to represent Wire and you are unsure whether it is genuine, please get in touch with us via the support page on wire.com before you reply or share any personal data. We will check whether the contact is genuine.\n\n5-7 years of experience",
     "salary": "",
     "employment_type": "temporary / full-time",
@@ -9398,7 +9125,7 @@
     },
     "posting_age_analysis": {
       "known": true,
-      "age_days": 22,
+      "age_days": 23,
       "category": "current",
       "label": "OPEN FOR REVIEW"
     },
@@ -10204,22 +9931,19 @@
   },
   {
     "job_key": "9e41fd168e09c19854b6",
-    "source": "Greenhouse",
+    "source": "Arbeitnow",
     "sources": [
-      "Arbeitnow",
-      "Greenhouse"
+      "Arbeitnow"
     ],
     "source_urls": {
-      "Arbeitnow": "https://www.arbeitnow.com/jobs/companies/bitpanda/senior-specialist-information-security-berlin-berlin-255507",
-      "Greenhouse": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5003324101"
+      "Arbeitnow": "https://www.arbeitnow.com/jobs/companies/bitpanda/senior-specialist-information-security-berlin-berlin-255507"
     },
-    "source_id": "5003324101",
-    "source_job_id": "5003324101",
+    "source_id": "senior-specialist-information-security-berlin-berlin-255507",
+    "source_job_id": "senior-specialist-information-security-berlin-berlin-255507",
     "source_job_ids": {
-      "Arbeitnow": "senior-specialist-information-security-berlin-berlin-255507",
-      "Greenhouse": "5003324101"
+      "Arbeitnow": "senior-specialist-information-security-berlin-berlin-255507"
     },
-    "company": "Bitpanda",
+    "company": "bitpanda",
     "company_normalized": "bitpanda",
     "title": "Senior Specialist, Information Security",
     "normalized_title": "senior specialist information security",
@@ -10230,14 +9954,14 @@
     "remote": false,
     "hybrid": false,
     "onsite": true,
-    "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5003324101",
-    "apply_url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5003324101",
-    "canonical_url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5003324101",
-    "ats": "greenhouse",
-    "published_at": "2026-11-03T08:49:49Z",
+    "url": "https://www.arbeitnow.com/jobs/companies/bitpanda/senior-specialist-information-security-berlin-berlin-255507",
+    "apply_url": "https://www.arbeitnow.com/jobs/companies/bitpanda/senior-specialist-information-security-berlin-berlin-255507",
+    "canonical_url": "https://www.arbeitnow.com/jobs/companies/bitpanda/senior-specialist-information-security-berlin-berlin-255507",
+    "ats": "",
+    "published_at": "2026-11-03T00:55:20Z",
     "first_seen": "2026-11-03T14:31:48Z",
-    "last_seen": "2026-11-04T14:46:52Z",
-    "description": "Who we are \n\nWe simplify wealth creation. Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future. Our user-friendly, trade-everything platform empowers both first-time investors and seasoned experts to invest in the cryptocurrencies, crypto indices, stocks*, precious metals and commodities* they want — with any sized budget, 24/7. Our global team works across different cultures and time zones, bringing our products to more than 7 million customers, making us one of Europe’s safest and most secure platforms that powers modern investing.\n\nHeadquartered in Austria but operating across Europe, our products are built by fast-moving, talented, “roll-up-your-sleeves-and-make-it-happen” kind of people. It’s these diverse perspectives and innovative minds operating as ONE TEAM that keep Bitpanda at the cutting edge of our industry. So if you’re someone who thinks big, moves fast and wants to make an impact right from day one, then get ready to join our industry-changing team. Let’s go!\n\nYour mission\n\nAs an Information Security Senior Specialist, you will lead and scale major elements of our security governance in a regulated fintech environment. You’ll own complex, cross-functional GRC domains (e.g., ISMS/ISO 27001 at scale, regulatory readiness, enterprise technology risk, third-party risk for critical vendors, compliance in key partnerships), drive measurable improvement in control effectiveness, and act as a trusted advisor to senior stakeholders.\n\nWhat you’ll do \n\nInformation Security Operating Model & GRC Ownership: Own and evolve one or more GRC domains end-to-end (e.g., ISMS operations, BCM, risk governance), including strategy, annual plan, cadences, and success metrics. Drive control rationalization and proportionality: tighten controls for critical/regulated assets and streamline low-risk areas to ensure an efficient, risk-aligned posture.\n\nRisk Management & Strategic Decision Support: Facilitate and challenge high-impact risk assessments (new products, major architectural changes, critical vendors), ensuring consistency and defensible rationale. Drive risk treatment at scale: align owners, negotiate timelines, track commitments, and escalate where residual risk remains above appetite.\n\nAudit, Assurance & Continuous Control Testing: Lead complex audits and assessments end-to-end (multi-entity, regulator-facing), including readiness, walkthroughs, and remediation. Design and run a risk-based control testing program to identify weaknesses and drive durable remediation (process fixes, automation, tooling) while translating regulatory requirements into structured internal work programs.\n\nThird-Party Risk & Critical Supplier Oversight: Set due diligence depth and ongoing monitoring requirements for critical suppliers (e.g., cloud, payments, identity, SaaS); partner with Procurement/Legal on security contract requirements to ensure enforceable obligations and measurable oversight across the supply chain.\n\nEnablement & Leadership through Others: Mentor Specialists, Associates, and Senior Associates; set quality standards for documentation, evidence, and stakeholder engagement. Act as a “GRC translator” for engineering and operations teams, helping them implement requirements efficiently and consistently across the organization.\n\nWho you are \n\nTypically 6–10 years of experience in information security GRC, audit/assurance, risk management, compliance, or adjacent security roles.\n\nProven track record leading audits/assessments and driving remediation across multiple teams and systems.\n\nStrong working knowledge of ISO 27001 and DORA (and/or SOC 2 / PCI DSS / NIST) with ability to design controls, define evidence, and test effectiveness.\n\nStrong understanding of technology risk across cloud, IAM, SDLC governance, incident management, vulnerability management, logging/monitoring, and third-party risk.\n\nExcellent written and verbal communication; able to produce executive-ready materials and auditor-facing narratives.\n\nWhat’s in it for you\n\nFlexibility to work where you thrive – Enjoy the freedom of our Hybrid working model, combining onsite collaboration and remote work, with an additional 25 days per year to work from a city or country of your choice.\n\nReward for your impact – Receive a competitive total compensation package aligned with Bitpanda’s pay-for-impact policy, including participation in our stock option plan.\n\nSupport for your mental wellbeing – Access confidential coaching, counselling, and mental health resources whenever you need them through OpenUP.\n\nTime to recharge – On top of your standard annual leave, prioritise your wellbeing in 2027 with 3 additional days of paid time off to rest, reset, and recharge, available once you’ve been with us for 6 months.\n\nContinuous learning and growth – Grow your skills and stay ahead in your career with unlimited access to Udemy’s library of online courses at your own pace.\n\nExclusive perks and rewards – Enjoy discounts, rewards, and perks from partners worldwide across lifestyle, wellness, tech, and travel.\n\nSupport during life milestones – Take advantage of up to 8 additional weeks of gender-neutral new parent leave to welcome and bond with your new addition to the family.\n\nFuel and focus on-site – Pandas in Vienna, Bucharest, Barcelona, and Berlin can enjoy free onsite dining, with freshly prepared lunches and snacks to keep you fueled and focused all day long.\n\nRecognition for your contributions – Celebrate milestones and achievements with recognition and rewards for your Tenure at Bitpanda.\n\nShow your Bitpanda pride – Access exclusive Bitpanda-branded merchandise and gear to represent.\n\nConnect and celebrate with your team – Join unforgettable company events, from our Winter Party in Vienna to gatherings worldwide, fostering fun, connection, and celebration\n\n.…and even more location-specific benefits designed to make life at Bitpanda even more rewarding wherever you are.\n\nAbove all, you will have the opportunity to learn and grow as part of Bitpanda’s incredible journey towards being Europe’s future #1 investment platform.\n\nBitpanda is committed to fostering a fair and equal environment based on trust and mutual respect. We believe that a diverse and inclusive workplace is paramount to our success and we are committed to building a team that represents a wide variety of backgrounds, perspectives, and skills.\n* These benefits may be adjusted at Bitpanda’s discretion and do not apply to our internships and exceptions to our Hybrid Working policy apply to teams with shift schedules or for folks whose roles require them to be in-office (think: Workplaces team or IT).\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
+    "last_seen": "2026-11-05T14:51:46Z",
+    "description": "Who we are \n\nWe simplify wealth creation. Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future. Our user-friendly, trade-everything platform empowers both first-time investors and seasoned experts to invest in the cryptocurrencies, crypto indices, stocks*, precious metals and commodities* they want — with any sized budget, 24/7. Our global team works across different cultures and time zones, bringing our products to more than 7 million customers, making us one of Europe’s safest and most secure platforms that powers modern investing.\n\nHeadquartered in Austria but operating across Europe, our products are built by fast-moving, talented, “roll-up-your-sleeves-and-make-it-happen” kind of people. It’s these diverse perspectives and innovative minds operating as ONE TEAM that keep Bitpanda at the cutting edge of our industry. So if you’re someone who thinks big, moves fast and wants to make an impact right from day one, then get ready to join our industry-changing team. Let’s go!\n\nYour mission\n\nAs an Information Security Senior Specialist, you will lead and scale major elements of our security governance in a regulated fintech environment. You’ll own complex, cross-functional GRC domains (e.g., ISMS/ISO 27001 at scale, regulatory readiness, enterprise technology risk, third-party risk for critical vendors, compliance in key partnerships), drive measurable improvement in control effectiveness, and act as a trusted advisor to senior stakeholders.\n\nWhat you’ll do \n\nInformation Security Operating Model & GRC Ownership: Own and evolve one or more GRC domains end-to-end (e.g., ISMS operations, BCM, risk governance), including strategy, annual plan, cadences, and success metrics. Drive control rationalization and proportionality: tighten controls for critical/regulated assets and streamline low-risk areas to ensure an efficient, risk-aligned posture.\n\nRisk Management & Strategic Decision Support: Facilitate and challenge high-impact risk assessments (new products, major architectural changes, critical vendors), ensuring consistency and defensible rationale. Drive risk treatment at scale: align owners, negotiate timelines, track commitments, and escalate where residual risk remains above appetite.\n\nAudit, Assurance & Continuous Control Testing: Lead complex audits and assessments end-to-end (multi-entity, regulator-facing), including readiness, walkthroughs, and remediation. Design and run a risk-based control testing program to identify weaknesses and drive durable remediation (process fixes, automation, tooling) while translating regulatory requirements into structured internal work programs.\n\nThird-Party Risk & Critical Supplier Oversight: Set due diligence depth and ongoing monitoring requirements for critical suppliers (e.g., cloud, payments, identity, SaaS); partner with Procurement/Legal on security contract requirements to ensure enforceable obligations and measurable oversight across the supply chain.\n\nEnablement & Leadership through Others: Mentor Specialists, Associates, and Senior Associates; set quality standards for documentation, evidence, and stakeholder engagement. Act as a “GRC translator” for engineering and operations teams, helping them implement requirements efficiently and consistently across the organization.\n\nWho you are \n\nTypically 6–10 years of experience in information security GRC, audit/assurance, risk management, compliance, or adjacent security roles.\n\nProven track record leading audits/assessments and driving remediation across multiple teams and systems.\n\nStrong working knowledge of ISO 27001 and DORA (and/or SOC 2 / PCI DSS / NIST) with ability to design controls, define evidence, and test effectiveness.\n\nStrong understanding of technology risk across cloud, IAM, SDLC governance, incident management, vulnerability management, logging/monitoring, and third-party risk.\n\nExcellent written and verbal communication; able to produce executive-ready materials and auditor-facing narratives.\n\nWhat’s in it for you\n\nFlexibility to work where you thrive – Enjoy the freedom of our Hybrid working model, combining onsite collaboration and remote work, with an additional 25 days per year to work from a city or country of your choice.\n\nReward for your impact – Receive a competitive total compensation package aligned with Bitpanda’s pay-for-impact policy, including participation in our stock option plan.\n\nSupport for your mental wellbeing – Access confidential coaching, counselling, and mental health resources whenever you need them through OpenUP.\n\nTime to recharge – On top of your standard annual leave, prioritise your wellbeing in 2027 with 3 additional days of paid time off to rest, reset, and recharge, available once you’ve been with us for 6 months.\n\nContinuous learning and growth – Grow your skills and stay ahead in your career with unlimited access to Udemy’s library of online courses at your own pace.\n\nExclusive perks and rewards – Enjoy discounts, rewards, and perks from partners worldwide across lifestyle, wellness, tech, and travel.\n\nSupport during life milestones – Take advantage of up to 8 additional weeks of gender-neutral new parent leave to welcome and bond with your new addition to the family.\n\nFuel and focus on-site – Pandas in Vienna, Bucharest, Barcelona, and Berlin can enjoy free onsite dining, with freshly prepared lunches and snacks to keep you fueled and focused all day long.\n\nRecognition for your contributions – Celebrate milestones and achievements with recognition and rewards for your Tenure at Bitpanda.\n\nShow your Bitpanda pride – Access exclusive Bitpanda-branded merchandise and gear to represent.\n\nConnect and celebrate with your team – Join unforgettable company events, from our Winter Party in Vienna to gatherings worldwide, fostering fun, connection, and celebration\n\n.…and even more location-specific benefits designed to make life at Bitpanda even more rewarding wherever you are.\n\nAbove all, you will have the opportunity to learn and grow as part of Bitpanda’s incredible journey towards being Europe’s future #1 investment platform.\n\nBitpanda is committed to fostering a fair and equal environment based on trust and mutual respect. We believe that a diverse and inclusive workplace is paramount to our success and we are committed to building a team that represents a wide variety of backgrounds, perspectives, and skills.\n* These benefits may be adjusted at Bitpanda’s discretion and do not apply to our internships and exceptions to our Hybrid Working policy apply to teams with shift schedules or for folks whose roles require them to be in-office (think: Workplaces team or IT).\n\nFind Jobs in Germany on Arbeitnow",
     "salary": "",
     "employment_type": "",
     "experience_required": "6-10 years",
@@ -10288,16 +10012,12 @@
     "status": "UPDATED",
     "priority_employer": false,
     "tags": [
-      "Barcelona",
-      "Berlin",
-      "Bucharest",
-      "Legal & Compliance & Risk",
-      "Vienna"
+      "Legal & Compliance & Risk"
     ],
     "lead_type": "",
     "post_author": "",
     "feed_name": "",
-    "content_hash": "4519e24acc62008b3ca9b098651edb2927ea073946c5b2bd13c31dbf52a73065",
+    "content_hash": "f3e92931edf09ef100257d91e01e5b135d025aeb0be36829c2053154ad8dbefe",
     "german_analysis": {
       "category": "none",
       "level": "none",
@@ -10314,7 +10034,7 @@
     },
     "posting_age_analysis": {
       "known": true,
-      "age_days": 1,
+      "age_days": 2,
       "category": "new",
       "label": "NEW - APPLY QUICKLY"
     },
@@ -28765,6 +28485,267 @@
     "application_status": "NEW"
   },
   {
+    "job_key": "bd7fecbd96a07cd67c3d",
+    "source": "Ashby",
+    "sources": [
+      "Ashby"
+    ],
+    "source_urls": {
+      "Ashby": "https://jobs.ashbyhq.com/kayak/7be95bc8-eb9d-4231-a14f-c06ea97a4d23"
+    },
+    "source_id": "7be95bc8-eb9d-4231-a14f-c06ea97a4d23",
+    "source_job_id": "7be95bc8-eb9d-4231-a14f-c06ea97a4d23",
+    "source_job_ids": {
+      "Ashby": "7be95bc8-eb9d-4231-a14f-c06ea97a4d23"
+    },
+    "company": "KAYAK",
+    "company_normalized": "kayak",
+    "title": "Security Engineer",
+    "normalized_title": "security engineer",
+    "title_normalized": "security engineer",
+    "location": "Berlin, Germany",
+    "location_normalized": "berlin germany",
+    "country": "Germany",
+    "remote": true,
+    "hybrid": true,
+    "onsite": false,
+    "url": "https://jobs.ashbyhq.com/kayak/7be95bc8-eb9d-4231-a14f-c06ea97a4d23",
+    "apply_url": "https://jobs.ashbyhq.com/kayak/7be95bc8-eb9d-4231-a14f-c06ea97a4d23/application",
+    "canonical_url": "https://jobs.ashbyhq.com/kayak/7be95bc8-eb9d-4231-a14f-c06ea97a4d23",
+    "ats": "ashby",
+    "published_at": "2026-10-02T09:11:35Z",
+    "first_seen": "2026-10-02T11:14:34Z",
+    "last_seen": "2026-10-06T12:09:28Z",
+    "description": "KAYAK, part of Booking Holdings (NASDAQ: BKNG), is a leading travel search engine. With billions of queries across our platforms, we help people find their perfect flight, stay, rental car and vacation package. We're also transforming business travel with a new corporate travel solution, KAYAK for Business.\n\nAs an employee of KAYAK, you will be part of a travel company that operates a portfolio of global metasearch brands including momondo, Cheapflights and HotelsCombined, among others. From start-up to industry leader, innovation is in our DNA and every employee has an opportunity to make their mark. Our focus is on building the best travel search engine to make it easier for everyone to experience the world.\n\nSecurity at KAYAK is a team effort — we protect the people, systems, and data that power travel for millions of users worldwide, and we do it by working closely with engineering, operations, and product teams. As a Security Engineer, you will help to drive our vulnerability management program while contributing across multiple security domains in a collaborative, globally distributed environment. You can find more information about our security program at https://www.kayak.com/security.\n\nThis role is required to work from our Berlin, Germany office 3 days per week.\n\nIN THIS ROLE, YOU WILL:\n\n- Support and continuously improve the vulnerability management program — defining processes for identifying, prioritizing, tracking, and driving remediation of security findings across infrastructure and applications. This includes working closely with engineering, operations, and IT teams to ensure findings are understood, assigned, and resolved in a timely manner, and reporting on program health and trends to security leadership.\n\n- Participate in incident response activities, including triage, investigation, containment, and post-incident documentation.\n\n- Support application security initiatives, including automated code scanning, dependency analysis, and working with engineering teams to address security findings early in the development process.\n\n- Help configure, monitor, and improve security tooling across areas such as endpoint protection, email security, identity and access management, and cloud security posture.\n\n- Contribute to security automation and orchestration workflows that reduce manual effort and improve response times.\n\n- Collaborate with engineering, operations, and compliance teams to embed security thinking into development workflows and infrastructure changes.\n\n- Document processes, runbooks, and findings to support team knowledge sharing and continuity.\n\n- Participate in access reviews and support identity and access management processes in line with established policies.\n\n- Stay current with the evolving threat landscape and contribute ideas for improving the team's detection and response capabilities.\n\nPLEASE APPLY IF YOU HAVE:\n\n- A solid understanding of cybersecurity fundamentals — including networking, operating systems (Linux, macOS, or Windows), and cloud environments — gained through any combination of formal education, self-study, bootcamps, or professional experience.\n\n- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management.\n\n- Experience working with security tooling (e.g., vulnerability scanners, endpoint detection and response platforms, SIEM systems, or similar); familiarity with specific tools is a plus, but willingness to learn our stack matters more than exact tool experience.\n\n- Familiarity with AI tools and how they can be applied in a security context — whether for automating workflows, triaging alerts, or improving detection and response. Experience working with AI models or building AI-assisted workflows is a plus.\n\n- The ability to communicate clearly in writing and in conversation — our team is globally distributed and works primarily in English (professional working proficiency is sufficient; native fluency is not required).\n\n- A collaborative approach to problem-solving — you ask questions, share what you learn, and support your teammates.\n\n- Comfort working with some degree of autonomy on assigned tasks and projects, while knowing when to ask for input.\n\nBONUS POINTS IF YOU HAVE:\n\n- Familiarity with the NIST Cybersecurity Framework or similar security frameworks.\n\n- Experience with cloud environments (AWS or GCP) or container security.\n\n- Exposure to security automation or scripting (e.g., Python, workflow automation tools).\n\n- Experience working in a regulated environment (e.g., SOC 2, PCI).\n\nBENEFITS AND PERKS\n\n- Work from (almost) anywhere for up to 20 days per year\n\n- Focus on mental health and well-being:\n\n- Company-paid therapy sessions through SpringHealth\n\n- Company-paid subscription to HeadSpace\n\n- Company-wide week off a year - the whole team fully recharges (and returns without a pile-up of work!)\n\n- No meeting Fridays\n\n- Paid parental leave\n\n- Generous paid vacation + time off for your birthday\n\n- Paid volunteer time\n\n- Focus on your career growth:\n\n- Development Dollars\n\n- Leadership development\n\n- Access to thousands of on-demand e-learnings\n\n- Travel Discounts\n\n- Employee Resource Groups\n\n- 6 weeks paid vacation\n\n- Free lunch 2 days per week\n\n- Pension plan contributions\n\n- Public transportation subsidies\n\n- Bike leasing program\n\n- Monthly social events, Thursday happy hours, sports teams\n\n- An awesome office in Friedrichshain, Berlin\n\nINCLUSION\n\nAt KAYAK, we want everyone to have the space to grow, share ideas and do great work. That’s why we’re focused on hiring the best talent from all walks of life and experiences, supporting them well and making sure no one feels like they have to fit a mold to belong here.\n\nNeed any adjustments for the interview, application or on the job? No problem - just give us a heads-up. We’ve got you.\n\n#LI-AS1",
+    "salary": "",
+    "employment_type": "FullTime",
+    "experience_required": null,
+    "german_requirement": "No German requirement detected",
+    "skills_detected": [
+      "application security",
+      "aws",
+      "cloud security",
+      "docker",
+      "edr",
+      "frida",
+      "incident response",
+      "nist",
+      "python",
+      "security automation",
+      "siem",
+      "vulnerability management"
+    ],
+    "skill_matches": {
+      "match": [
+        "application security",
+        "frida",
+        "python",
+        "security automation",
+        "vulnerability management"
+      ],
+      "partial": [
+        "aws",
+        "cloud security",
+        "docker",
+        "incident response",
+        "nist",
+        "siem"
+      ],
+      "missing": [
+        "edr"
+      ],
+      "nice_to_have": []
+    },
+    "score": 69,
+    "score_label": "REVIEW",
+    "score_breakdown": {
+      "role_alignment": 16,
+      "skills": 17,
+      "experience": 10,
+      "location": 15,
+      "language": 10,
+      "seniority": 10,
+      "education": 3
+    },
+    "match_reasons": [
+      "Role family: Security Engineering.",
+      "Berlin hybrid role.",
+      "Evidenced matches include application security, frida, python, security automation, vulnerability management."
+    ],
+    "warnings": [
+      "Mandatory gaps: aws, docker, incident response, nist",
+      "Potential gaps: edr",
+      "Exposure only; do not claim deep expertise: aws, cloud security, docker, incident response, nist, siem",
+      "At least one explicitly mandatory skill has exposure only"
+    ],
+    "status": "REMOVED",
+    "priority_employer": true,
+    "tags": [
+      "Cost Centers",
+      "IT and Security"
+    ],
+    "lead_type": "",
+    "post_author": "",
+    "feed_name": "",
+    "content_hash": "161db896c6affa88a77812d0d4fbfe18d09b12f3e5d0fc8e77901164be05a982",
+    "german_analysis": {
+      "category": "none",
+      "level": "none",
+      "mandatory": false,
+      "label": "No German requirement detected",
+      "evidence": ""
+    },
+    "experience_analysis": null,
+    "posting_age_analysis": {
+      "known": true,
+      "age_days": 4,
+      "category": "recent",
+      "label": "RECENT"
+    },
+    "seniority_analysis": {
+      "level": "mid_unspecified",
+      "label": "Mid-level or unspecified",
+      "evidence": "No explicit seniority marker in title"
+    },
+    "location_analysis": {
+      "category": "eligible_berlin",
+      "eligible": true,
+      "score": 15,
+      "reason": "Berlin hybrid role",
+      "verification_required": false,
+      "score_cap": null,
+      "scope": "Berlin",
+      "work_model": "Hybrid"
+    },
+    "skill_requirements": [
+      {
+        "skill": "application security",
+        "profile_status": "match",
+        "requirement": "mandatory",
+        "evidence": "- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management."
+      },
+      {
+        "skill": "aws",
+        "profile_status": "partial",
+        "requirement": "mandatory",
+        "evidence": "- Experience with cloud environments (AWS or GCP) or container security."
+      },
+      {
+        "skill": "docker",
+        "profile_status": "partial",
+        "requirement": "mandatory",
+        "evidence": "- Experience with cloud environments (AWS or GCP) or container security."
+      },
+      {
+        "skill": "incident response",
+        "profile_status": "partial",
+        "requirement": "mandatory",
+        "evidence": "- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management."
+      },
+      {
+        "skill": "nist",
+        "profile_status": "partial",
+        "requirement": "mandatory",
+        "evidence": "- Familiarity with the NIST Cybersecurity Framework or similar security frameworks."
+      },
+      {
+        "skill": "vulnerability management",
+        "profile_status": "match",
+        "requirement": "mandatory",
+        "evidence": "- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management."
+      },
+      {
+        "skill": "cloud security",
+        "profile_status": "partial",
+        "requirement": "mentioned",
+        "evidence": "- Help configure, monitor, and improve security tooling across areas such as endpoint protection, email security, identity and access management, and cloud security posture."
+      },
+      {
+        "skill": "edr",
+        "profile_status": "missing",
+        "requirement": "mentioned",
+        "evidence": "- Experience working with security tooling (e.g., vulnerability scanners, endpoint detection and response platforms, SIEM systems, or similar)"
+      },
+      {
+        "skill": "frida",
+        "profile_status": "match",
+        "requirement": "mentioned",
+        "evidence": "- No meeting Fridays"
+      },
+      {
+        "skill": "python",
+        "profile_status": "match",
+        "requirement": "mentioned",
+        "evidence": "- Exposure to security automation or scripting (e.g., Python, workflow automation tools)."
+      },
+      {
+        "skill": "security automation",
+        "profile_status": "match",
+        "requirement": "mentioned",
+        "evidence": "- Contribute to security automation and orchestration workflows that reduce manual effort and improve response times."
+      },
+      {
+        "skill": "siem",
+        "profile_status": "partial",
+        "requirement": "mentioned",
+        "evidence": "- Experience working with security tooling (e.g., vulnerability scanners, endpoint detection and response platforms, SIEM systems, or similar)"
+      }
+    ],
+    "mandatory_gaps": [
+      {
+        "skill": "aws",
+        "profile_status": "partial",
+        "requirement": "mandatory",
+        "evidence": "- Experience with cloud environments (AWS or GCP) or container security."
+      },
+      {
+        "skill": "docker",
+        "profile_status": "partial",
+        "requirement": "mandatory",
+        "evidence": "- Experience with cloud environments (AWS or GCP) or container security."
+      },
+      {
+        "skill": "incident response",
+        "profile_status": "partial",
+        "requirement": "mandatory",
+        "evidence": "- Hands-on experience in at least one security domain, such as vulnerability management, incident response, application security, endpoint security, or identity and access management."
+      },
+      {
+        "skill": "nist",
+        "profile_status": "partial",
+        "requirement": "mandatory",
+        "evidence": "- Familiarity with the NIST Cybersecurity Framework or similar security frameworks."
+      }
+    ],
+    "potential_gaps": [
+      {
+        "skill": "edr",
+        "profile_status": "missing",
+        "requirement": "mentioned",
+        "evidence": "- Experience working with security tooling (e.g., vulnerability scanners, endpoint detection and response platforms, SIEM systems, or similar)"
+      }
+    ],
+    "optional_gaps": [],
+    "role_family": {
+      "id": "security_engineering",
+      "label": "Security Engineering",
+      "priority": 2,
+      "confidence": "high",
+      "evidence": [
+        "security engineer",
+        "vulnerability"
+      ]
+    },
+    "raw_score": 81,
+    "score_cap": 69,
+    "score_cap_reasons": [
+      "At least one explicitly mandatory skill has exposure only"
+    ],
+    "policy_excluded": false,
+    "policy_exclusion_reasons": [],
+    "application_status": "NEW"
+  },
+  {
     "job_key": "56eecec8066af79a0fb0",
     "source": "Greenhouse",
     "sources": [
@@ -29624,6 +29605,259 @@
     "application_status": "NEW",
     "policy_excluded": false,
     "policy_exclusion_reasons": []
+  },
+  {
+    "job_key": "ba170f4eb78d3dff47c8",
+    "source": "Greenhouse",
+    "sources": [
+      "Greenhouse"
+    ],
+    "source_urls": {
+      "Greenhouse": "https://n26.com/en-eu/careers/positions/8113987?gh_jid=8113987"
+    },
+    "source_id": "8110812",
+    "source_job_id": "8110812",
+    "source_job_ids": {
+      "Greenhouse": "8113987"
+    },
+    "company": "N26",
+    "company_normalized": "n26",
+    "title": "Senior Product Security Engineer",
+    "normalized_title": "senior product security engineer",
+    "title_normalized": "senior product security engineer",
+    "location": "Berlin, Germany",
+    "location_normalized": "berlin germany",
+    "country": "Germany",
+    "remote": false,
+    "hybrid": false,
+    "onsite": true,
+    "url": "https://n26.com/en-eu/careers/positions/8110812?gh_jid=8110812",
+    "apply_url": "https://n26.com/en-eu/careers/positions/8110812?gh_jid=8110812",
+    "canonical_url": "https://n26.com/en-eu/careers/positions/8110812?gh_jid=8110812",
+    "ats": "greenhouse",
+    "published_at": "2026-10-01T13:10:42Z",
+    "first_seen": "2026-08-16T21:45:22Z",
+    "last_seen": "2026-10-06T12:09:28Z",
+    "description": "About the opportunity\n\nWe are seeking a Senior Product Security Engineer to drive the product security strategy and empower our engineering teams to design and build secure software across our diverse product portfolio. This role involves leading the integration of advanced security practices into cutting-edge technologies - such as Generative AI (GenAI), Large Language Models (LLM), and data governance systems - while also ensuring the security of our microservice architecture and mobile application. You will be independently responsible for delivering robust security for every feature and service we provide to our customers.\n\nThe Product Security team is part of N26’s Security Engineering Segment. In this role, you will serve as a key mentor and contributor, actively promoting N26’s security standards by integrating security practices throughout the product lifecycle. You will provide guidance and support to other engineers, sharing your expertise and helping to elevate the overall security posture of our products.\n\nAs we embrace emerging technologies like GenAI and LLMs, this role will independently lead efforts to safeguard sensitive data, align with data governance principles, and address risks unique to AI-driven products. You will also ensure our broader product ecosystem remains secure, scalable, and resilient. Additionally, you will proactively drive the enhancement of our Product Security Program, providing strategic guidance to engineering teams to anticipate and counter evolving threats.\n\nIn this role, you will:\n\nIndependently apply advanced knowledge of security architecture to guide software engineers in building secure products and services across a diverse technology stack, including microservices, mobile applications, and cutting-edge AI-driven solutions.\n\nServe as a technical leader and mentor, collaborating closely with engineering teams to understand and address their complex application security needs, including those related to emerging technologies like Generative AI (GenAI) and Large Language Models (LLM).\n\nPerform application security design reviews, threat modeling, and code reviews, ensuring security principles are embedded in every stage of the development lifecycle.\n\nUtilize expert penetration testing skills to assess and strengthen the security of internal and external applications and services, including AI-powered features and traditional systems.\n\nIndependently develop advanced tooling to support the Secure Software Development Lifecycle (SSDLC) and other security initiatives across diverse product environments.\n\nBuild automation frameworks to enable engineering teams to deliver secure features efficiently, whether for AI solutions or traditional applications.\n\nMentor and educate engineering teams and security champions on secure coding and development practices, including security considerations unique to AI and data governance.\n\nEmpower engineering teams to independently identify and remediate vulnerabilities before they reach production, with a focus on both general application security and AI-specific risks.\n\nLead reactive incident response if a security event occurs.\n\nConduct proactive and in-depth research to detect new attack vectors, including those targeting AI technologies, data pipelines, and LLM-based systems.\n\nWhat you need to be successful (Background and Skills): \n\nExpertise in software engineering with one or more general-purpose programming languages (e.g., Python, Go, or similar).\n\nExtensive experience with threat modeling, security testing, and analyzing applications, including those involving emerging technologies like Generative AI (GenAI) and Large Language Models (LLM).\n\nPrior experience in building automation to support the Secure Software Development Lifecycle (SSDLC).\n\nProven ability to lead and mentor engineering teams, supporting them throughout the Software Development Lifecycle (SDLC).\n\nA passion for information security and an interest in staying ahead of evolving threats, particularly those targeting AI systems.\n\nDeep technical knowledge in multiple areas:\n\nCloud and networking security\n\nWeb application security\n\nMobile security\n\nSecurity challenges unique to AI-driven products and data governance.\n\nStrong understanding of microservice architectures and working with scalable software in the cloud.\n\nA highly developed ability to identify flaws in software and effectively communicate and implement practical solutions.\n\nExpertise in static/dynamic code analysis, fuzzing, and other techniques to identify security vulnerabilities.\n\nSolid knowledge of secure coding best practices and security standards, including the OWASP Top 10.\n\nThe ability to strategically balance security risks with the need for product innovation and advancement.\n\nWhat’s in it for you:\n\nAccelerate your career growth by joining one of Europe’s most talked about disruptors.\n\nEmployee benefits that range from a competitive personal development budget, work from home budget, discounts to fitness & wellness memberships, language apps and public transportation. \n\nCome together with your team in the office for a dedicated day of teamwork each week, plus another day of your choice, and enjoy the flexibility of remote work the rest of the time. Some roles may require additional in-office presence.\n\nAs an N26 employee you will have access to a Premium subscription on your personal N26 bank account. As well as subscriptions for friends and family members. \n\nAdditional day of annual leave for each year of service. \n\nA high degree of autonomy and access to cutting edge technologies - all while working with a friendly team of peers of diverse nationalities, life experiences and backgrounds. \n\nA relocation package with visa support for those who need it.\n\nWho we are\n\nN26 has reimagined banking for today’s digital world. Technology and design empower everything we do and it’s how we are building the global banking platform the world loves to use.\n\nWe've eliminated physical branches, paperwork, and hidden fees for an elegant digital experience and supreme savings. Giving people the power to live and bank their way is what gets us out of bed in the morning and inspires the work that we do. \n\nWe are headquartered in Berlin with offices in multiple cities across Europe, including Vienna and Barcelona, and a 1,500-strong team of more than 80 nationalities.\n\nSounds good? Apply now for this position.\n\nEqual Opportunities:\n\nWe recognize that our strength lies in our people and the varied perspectives they bring to our workforce. We strive to build talented and diverse teams to drive our business success and empower our people to reach their full potential.\n\nWe genuinely welcome and encourage applications from people of all backgrounds, cultures, genders, sexual orientations, abilities, neurodiversities, and ages. We're committed to creating an inclusive workspace where everyone feels valued and respected, free from harassment and discrimination. If there's anything you need to make the application process work for you, please let us know by reaching out to candidate.exp@n26.com. \n\nVisit our website to learn more about Diversity, Equity, & Inclusion at N26.",
+    "salary": "",
+    "employment_type": "",
+    "experience_required": null,
+    "german_requirement": "No German requirement detected",
+    "skills_detected": [
+      "application security",
+      "go",
+      "incident response",
+      "mobile security",
+      "owasp",
+      "penetration testing",
+      "product security",
+      "python",
+      "secure sdlc",
+      "security testing",
+      "software development",
+      "threat modeling",
+      "web security"
+    ],
+    "skill_matches": {
+      "match": [
+        "application security",
+        "mobile security",
+        "owasp",
+        "penetration testing",
+        "python",
+        "secure sdlc",
+        "security testing",
+        "threat modeling",
+        "web security"
+      ],
+      "partial": [
+        "incident response",
+        "product security",
+        "software development"
+      ],
+      "missing": [
+        "go"
+      ],
+      "nice_to_have": []
+    },
+    "score": 69,
+    "score_label": "REVIEW",
+    "score_breakdown": {
+      "role_alignment": 20,
+      "skills": 19,
+      "experience": 10,
+      "location": 15,
+      "language": 10,
+      "seniority": 4,
+      "education": 3
+    },
+    "match_reasons": [
+      "Role family: Product Security.",
+      "Berlin on-site role.",
+      "Evidenced matches include application security, mobile security, owasp, penetration testing, python."
+    ],
+    "warnings": [
+      "Mandatory gaps: go, software development",
+      "Exposure only; do not claim deep expertise: incident response, product security, software development",
+      "Senior title is above the profile's current 2+ years",
+      "One explicitly mandatory skill is not evidenced"
+    ],
+    "status": "REMOVED",
+    "priority_employer": true,
+    "tags": [
+      "Berlin",
+      "Tech - Security Engineering"
+    ],
+    "lead_type": "",
+    "post_author": "",
+    "feed_name": "",
+    "content_hash": "fd3dbdfd32e0e79b830856a08e42dc758465b83b194d5cdfc0d915e4d14efa1c",
+    "german_analysis": {
+      "category": "none",
+      "level": "none",
+      "mandatory": false,
+      "label": "No German requirement detected",
+      "evidence": ""
+    },
+    "experience_analysis": null,
+    "posting_age_analysis": {
+      "known": true,
+      "age_days": 4,
+      "category": "recent",
+      "label": "RECENT"
+    },
+    "seniority_analysis": {
+      "level": "senior",
+      "label": "Senior",
+      "evidence": "senior"
+    },
+    "location_analysis": {
+      "category": "eligible_berlin",
+      "eligible": true,
+      "score": 15,
+      "reason": "Berlin on-site role",
+      "verification_required": false,
+      "score_cap": null,
+      "scope": "Berlin",
+      "work_model": "On-site"
+    },
+    "skill_requirements": [
+      {
+        "skill": "go",
+        "profile_status": "missing",
+        "requirement": "mandatory",
+        "evidence": "Expertise in software engineering with one or more general-purpose programming languages (e.g., Python, Go, or similar)."
+      },
+      {
+        "skill": "owasp",
+        "profile_status": "match",
+        "requirement": "mandatory",
+        "evidence": "Solid knowledge of secure coding best practices and security standards, including the OWASP Top 10."
+      },
+      {
+        "skill": "python",
+        "profile_status": "match",
+        "requirement": "mandatory",
+        "evidence": "Expertise in software engineering with one or more general-purpose programming languages (e.g., Python, Go, or similar)."
+      },
+      {
+        "skill": "secure sdlc",
+        "profile_status": "match",
+        "requirement": "mandatory",
+        "evidence": "Prior experience in building automation to support the Secure Software Development Lifecycle (SSDLC)."
+      },
+      {
+        "skill": "security testing",
+        "profile_status": "match",
+        "requirement": "mandatory",
+        "evidence": "Extensive experience with threat modeling, security testing, and analyzing applications, including those involving emerging technologies like Generative AI (GenAI) and Large Language Models (LLM)."
+      },
+      {
+        "skill": "software development",
+        "profile_status": "partial",
+        "requirement": "mandatory",
+        "evidence": "Expertise in software engineering with one or more general-purpose programming languages (e.g., Python, Go, or similar)."
+      },
+      {
+        "skill": "threat modeling",
+        "profile_status": "match",
+        "requirement": "mandatory",
+        "evidence": "Extensive experience with threat modeling, security testing, and analyzing applications, including those involving emerging technologies like Generative AI (GenAI) and Large Language Models (LLM)."
+      },
+      {
+        "skill": "application security",
+        "profile_status": "match",
+        "requirement": "mentioned",
+        "evidence": "Serve as a technical leader and mentor, collaborating closely with engineering teams to understand and address their complex application security needs, including those related to emerging technologies like Generative AI (GenAI) and Large Language Models (LLM)"
+      },
+      {
+        "skill": "incident response",
+        "profile_status": "partial",
+        "requirement": "mentioned",
+        "evidence": "Lead reactive incident response if a security event occurs."
+      },
+      {
+        "skill": "mobile security",
+        "profile_status": "match",
+        "requirement": "mentioned",
+        "evidence": "Mobile security"
+      },
+      {
+        "skill": "penetration testing",
+        "profile_status": "match",
+        "requirement": "mentioned",
+        "evidence": "Utilize expert penetration testing skills to assess and strengthen the security of internal and external applications and services, including AI-powered features and traditional systems."
+      },
+      {
+        "skill": "product security",
+        "profile_status": "partial",
+        "requirement": "mentioned",
+        "evidence": "We are seeking a Senior Product Security Engineer to drive the product security strategy and empower our engineering teams to design and build secure software across our diverse product portfolio."
+      },
+      {
+        "skill": "web security",
+        "profile_status": "match",
+        "requirement": "mentioned",
+        "evidence": "Web application security"
+      }
+    ],
+    "mandatory_gaps": [
+      {
+        "skill": "go",
+        "profile_status": "missing",
+        "requirement": "mandatory",
+        "evidence": "Expertise in software engineering with one or more general-purpose programming languages (e.g., Python, Go, or similar)."
+      },
+      {
+        "skill": "software development",
+        "profile_status": "partial",
+        "requirement": "mandatory",
+        "evidence": "Expertise in software engineering with one or more general-purpose programming languages (e.g., Python, Go, or similar)."
+      }
+    ],
+    "potential_gaps": [],
+    "optional_gaps": [],
+    "role_family": {
+      "id": "product_security",
+      "label": "Product Security",
+      "priority": 1,
+      "confidence": "high",
+      "evidence": [
+        "product security",
+        "product security",
+        "security design review",
+        "threat model"
+      ]
+    },
+    "raw_score": 81,
+    "score_cap": 69,
+    "score_cap_reasons": [
+      "Senior title is above the profile's current 2+ years",
+      "One explicitly mandatory skill is not evidenced"
+    ],
+    "policy_excluded": false,
+    "policy_exclusion_reasons": [],
+    "application_status": "NEW"
   },
   {
     "job_key": "85348bfab89f8cc75ef0",
