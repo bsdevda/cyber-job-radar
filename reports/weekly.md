@@ -1,72 +1,74 @@
 # Weekly Job Radar Analytics
 
 **Week starting:** 2026-11-02
-**Generated:** 2026-11-06T14:29:32Z
-**Active relevant jobs:** 12
+**Generated:** 2026-11-08T13:59:29Z
+**Active relevant jobs:** 17
 
 ## Role-family demand
 
-- **Security Engineering:** 7
-- **IT Audit / GRC:** 2
-- **Penetration Testing / VAPT:** 1
+- **Security Engineering:** 9
+- **IT Audit / GRC:** 5
 - **Product Security:** 1
 - **SOC / Detection and Response:** 1
+- **Penetration Testing / VAPT:** 1
 
 ## Skill-gap signals
 
 ### Explicit mandatory gaps
 
-- **go:** 3 job(s)
-- **nist:** 3 job(s)
-- **rust:** 3 job(s)
+- **nist:** 5 job(s)
+- **iso 27001:** 4 job(s)
+- **software development:** 3 job(s)
+- **kubernetes:** 3 job(s)
 - **aws:** 3 job(s)
+- **cloud security:** 2 job(s)
+- **siem:** 2 job(s)
 - **edr:** 2 job(s)
-- **software development:** 2 job(s)
+- **rust:** 2 job(s)
 - **incident response:** 2 job(s)
-- **docker:** 2 job(s)
-- **kubernetes:** 2 job(s)
-- **iso 27001:** 1 job(s)
+- **product security:** 1 job(s)
 - **javascript:** 1 job(s)
-- **siem:** 1 job(s)
 
 ### Potential gaps
 
-- **rust:** 3 job(s)
+- **rust:** 9 job(s)
+- **iso 27001:** 4 job(s)
+- **go:** 4 job(s)
 - **edr:** 2 job(s)
-- **iso 27001:** 2 job(s)
+- **azure:** 2 job(s)
+- **detection engineering:** 2 job(s)
+- **infrastructure as code:** 1 job(s)
+- **secrets management:** 1 job(s)
 - **dlp:** 1 job(s)
-- **azure:** 1 job(s)
-- **detection engineering:** 1 job(s)
 - **bug bounty:** 1 job(s)
+- **github security:** 1 job(s)
 - **vulnerability disclosure program:** 1 job(s)
-- **gdpr:** 1 job(s)
 
 ### Optional gaps
 
-- **kubernetes:** 2 job(s)
 - **javascript:** 2 job(s)
-- **ci/cd:** 1 job(s)
 - **splunk:** 1 job(s)
 - **iso 27001:** 1 job(s)
 - **go:** 1 job(s)
+- **kubernetes:** 1 job(s)
 - **terraform:** 1 job(s)
-- **incident response:** 1 job(s)
 - **rust:** 1 job(s)
+- **active directory:** 1 job(s)
 
 ### Exposure-only skills
 
-- **incident response:** 5 job(s)
-- **software development:** 5 job(s)
-- **aws:** 4 job(s)
+- **software development:** 7 job(s)
+- **incident response:** 6 job(s)
+- **nist:** 6 job(s)
 - **product security:** 4 job(s)
-- **ci/cd:** 3 job(s)
-- **nist:** 3 job(s)
-- **siem:** 3 job(s)
+- **siem:** 4 job(s)
+- **aws:** 4 job(s)
 - **cloud security:** 3 job(s)
-- **javascript:** 2 job(s)
-- **docker:** 2 job(s)
+- **javascript:** 3 job(s)
+- **ci/cd:** 2 job(s)
 - **git:** 2 job(s)
 - **splunk:** 1 job(s)
+- **network security:** 1 job(s)
 
 ## Application funnel
 

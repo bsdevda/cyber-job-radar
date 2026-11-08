@@ -9476,6 +9476,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-11-08T13:59:29Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 25446,
+      "security_title_candidates": 888,
+      "prefiltered_non_security_jobs": 24558,
+      "unique_jobs_after_deduplication": 689,
+      "duplicates_removed": 199,
+      "jobs_rejected_or_below_threshold": 25230,
+      "relevant_jobs_in_current_run": 17,
+      "new_jobs": 0,
+      "updated_jobs": 2,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 43,
+      "jobs_by_source": {
+        "arbeitnow": 2140,
+        "remotive": 13,
+        "linkedin_posts": 0,
+        "greenhouse": 21467,
+        "ashby": 473,
+        "lever": 1175,
+        "personio": 168,
+        "recruitee": 10
+      },
+      "employer_mode": "full",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 33.5,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2140,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 13,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 21467,
+          "requests": 164,
+          "errors": [],
+          "error": "",
+          "companies_checked": 164,
+          "companies_successful": 164,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 473,
+          "requests": 12,
+          "errors": [],
+          "error": "",
+          "companies_checked": 12,
+          "companies_successful": 12,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1175,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 168,
+          "requests": 7,
+          "errors": [],
+          "error": "",
+          "companies_checked": 7,
+          "companies_successful": 7,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 10,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -16995,6 +17108,22 @@
       "event": "REMOVED",
       "company": "Sidekick Network GmbH & Co. KG",
       "title": "Senior Oracle Fusion HCM Security Specialist (Freelance)"
+    },
+    {
+      "at": "2026-11-08T13:59:29Z",
+      "job_key": "465abfb3dbed7cffd989",
+      "event": "UPDATED",
+      "company": "Augustus",
+      "title": "Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-11-08T13:59:29Z",
+      "job_key": "9e41fd168e09c19854b6",
+      "event": "UPDATED",
+      "company": "Bitpanda",
+      "title": "Senior Specialist, Information Security",
+      "score": 54
     }
   ]
 }
