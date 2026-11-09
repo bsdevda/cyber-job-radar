@@ -9589,6 +9589,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-11-09T16:44:42Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 8913,
+      "security_title_candidates": 303,
+      "prefiltered_non_security_jobs": 8610,
+      "unique_jobs_after_deduplication": 218,
+      "duplicates_removed": 85,
+      "jobs_rejected_or_below_threshold": 8815,
+      "relevant_jobs_in_current_run": 13,
+      "new_jobs": 0,
+      "updated_jobs": 1,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 44,
+      "jobs_by_source": {
+        "arbeitnow": 2147,
+        "remotive": 12,
+        "linkedin_posts": 0,
+        "greenhouse": 6108,
+        "ashby": 416,
+        "lever": 97,
+        "personio": 133,
+        "recruitee": 0
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 27.0,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2147,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 12,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 6108,
+          "requests": 48,
+          "errors": [],
+          "error": "",
+          "companies_checked": 48,
+          "companies_successful": 48,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 416,
+          "requests": 10,
+          "errors": [],
+          "error": "",
+          "companies_checked": 10,
+          "companies_successful": 10,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 97,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 133,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "idle",
+          "ok": true,
+          "jobs": 0,
+          "requests": 0,
+          "errors": [],
+          "error": "",
+          "companies_checked": 0,
+          "companies_successful": 0,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -17124,6 +17237,14 @@
       "company": "Bitpanda",
       "title": "Senior Specialist, Information Security",
       "score": 54
+    },
+    {
+      "at": "2026-11-09T16:44:42Z",
+      "job_key": "32c54022816bcac2a151",
+      "event": "UPDATED",
+      "company": "Kestra Technologies",
+      "title": "Senior Security Engineer",
+      "score": 59
     }
   ]
 }
