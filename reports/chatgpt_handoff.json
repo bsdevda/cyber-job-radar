@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T16:44:42Z",
+  "generated_at": "2026-11-10T15:07:43Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,42 +171,42 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-11-09T16:44:42Z",
+    "generated_at": "2026-11-10T15:07:43Z",
     "scoring_version": 2.2,
-    "jobs_collected": 8913,
-    "security_title_candidates": 303,
-    "prefiltered_non_security_jobs": 8610,
-    "unique_jobs_after_deduplication": 218,
-    "duplicates_removed": 85,
-    "jobs_rejected_or_below_threshold": 8815,
-    "relevant_jobs_in_current_run": 13,
+    "jobs_collected": 7215,
+    "security_title_candidates": 216,
+    "prefiltered_non_security_jobs": 6999,
+    "unique_jobs_after_deduplication": 166,
+    "duplicates_removed": 50,
+    "jobs_rejected_or_below_threshold": 7154,
+    "relevant_jobs_in_current_run": 11,
     "new_jobs": 0,
     "updated_jobs": 1,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
     "sources_partial": 0,
-    "report_jobs": 44,
+    "report_jobs": 43,
     "jobs_by_source": {
-      "arbeitnow": 2147,
-      "remotive": 12,
+      "arbeitnow": 2142,
+      "remotive": 13,
       "linkedin_posts": 0,
-      "greenhouse": 6108,
-      "ashby": 416,
-      "lever": 97,
-      "personio": 133,
+      "greenhouse": 4498,
+      "ashby": 243,
+      "lever": 180,
+      "personio": 139,
       "recruitee": 0
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 27.0
+    "workflow_duration_seconds": 23.2
   },
   "source_status": {
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 2147,
+      "jobs": 2142,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 12,
+      "jobs": 13,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -230,45 +230,45 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 6108,
-      "requests": 48,
+      "jobs": 4498,
+      "requests": 61,
       "errors": [],
       "error": "",
-      "companies_checked": 48,
-      "companies_successful": 48,
+      "companies_checked": 61,
+      "companies_successful": 61,
       "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 416,
-      "requests": 10,
+      "jobs": 243,
+      "requests": 8,
       "errors": [],
       "error": "",
-      "companies_checked": 10,
-      "companies_successful": 10,
+      "companies_checked": 8,
+      "companies_successful": 8,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 97,
-      "requests": 2,
-      "errors": [],
-      "error": "",
-      "companies_checked": 2,
-      "companies_successful": 2,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 133,
+      "jobs": 180,
       "requests": 3,
       "errors": [],
       "error": "",
       "companies_checked": 3,
       "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 139,
+      "requests": 4,
+      "errors": [],
+      "error": "",
+      "companies_checked": 4,
+      "companies_successful": 4,
       "companies_failed": 0
     },
     "recruitee": {
@@ -1652,10 +1652,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-11-08T18:40:15Z",
-      "posting_age_days": 0,
+      "posting_age_days": 1,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 0,
+        "age_days": 1,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
@@ -1781,7 +1781,7 @@
       ],
       "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
       "description_excerpt": "About Kestra Kestra is the universal orchestration platform: open source, declarative, and designed to orchestrate data pipelines, IT automation, business workflows, and AI/agentic systems. Trusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale. The open-source project has close to 30,000 GitHub stars, hundreds of contributors, and a fast-growing global community. About the role Kestra runs arbitrary, user-defined code at scale. Our users write workflows that execute scripts, containers, and queries against their own production systems, through hundreds of community-built plugins, on a platform whose entire source code is public. That is an unusually rich attack surface, and securing it is a genuinely hard engineering problem rather than a checklist exercise. You would be our first dedicated security hire. We're looking for a Senior Security Engineer to own and elevate the end-to-end security posture of our platform, infrastructure, and open-source ecosystem. This is a unique, hybrid role for someone who excels at both sides of security: actively breaking systems to fin…",
-      "full_description": "About Kestra\n\nKestra is the universal orchestration platform: open source, declarative, and designed to orchestrate data pipelines, IT automation, business workflows, and AI/agentic systems.\n\nTrusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale. The open-source project has close to 30,000 GitHub stars, hundreds of contributors, and a fast-growing global community.\n\nAbout the role\n\nKestra runs arbitrary, user-defined code at scale. Our users write workflows that execute scripts, containers, and queries against their own production systems, through hundreds of community-built plugins, on a platform whose entire source code is public. That is an unusually rich attack surface, and securing it is a genuinely hard engineering problem rather than a checklist exercise.\n\nYou would be our first dedicated security hire. We're looking for a Senior Security Engineer to own and elevate the end-to-end security posture of our platform, infrastructure, and open-source ecosystem.\n\nThis is a unique, hybrid role for someone who excels at both sides of security: actively breaking systems to find vulnerabilities (hands-on penetration testing) and actively fixing them (opening PRs, patching infrastructure, and managing supply chain risks). If you want to build a world-class security foundation for a fast-growing open-source and SaaS platform, this role is for you.\n\nThis is a hands-on engineering role, not a GRC or compliance one.\n\nWhat you would do\n\nYour first six months would focus on the first three points below. The rest is where the role grows.\n\nConduct hands-on penetration testing and threat modeling across our web application, APIs, control plane, and cloud environments.\n\nManage end-to-end vulnerability tracking across our codebases, software dependencies (SCA), container images, and cloud infrastructure.\n\nProactively fix security flaws by writing patches, submitting Pull Requests (PRs), or collaborating directly with product teams to guide remediation.\n\nAudit and harden our cloud infrastructure (GCP, Kubernetes clusters, and networking configurations) against external and internal threats.\n\nAutomate security tooling into our CI/CD pipelines (SAST, DAST, dependency scanners) to catch CVEs before code reaches production.\n\nPerform security code reviews and evaluate third-party dependencies, open-source integrations, and supply-chain risks.\n\nLead incident response efforts and establish continuous monitoring, detection, and mitigation strategies.\n\nOwn our public security posture as an open-source project: vulnerability disclosure process, CVE handling, security advisories, and the trust model of our plugin ecosystem.\n\nOur Tech Stack\n\nSecurity & Vulnerability Tools: Trivy, GitHub Security / Dependabot, Elastic Security \n\nInfrastructure: Docker, Kubernetes, Terraform\n\nCloud: GCP\n\nProgramming language: Java, Typescript, Javascript\n\nDatastore: PostgreSQL, Elasticsearch\n\nQueuing: Redis, Kafka, AMQP\n\nMonitoring & Logs: ELK, Prometheus, Grafana\n\nDeployment & Repository: GitHub Actions, ArgoCD\n\nWhat we are looking for\n\n5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role.\n\nStrong hands-on penetration testing background, with proven ability to discover application, API, and network-level vulnerabilities.\n\nA builder/fixer mindset: You don't just export scanner PDFs; you can read code, understand exploits, write fixes, or provide clear remediation steps to engineers.\n\nDeep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker).\n\nExperience with dependency and supply-chain security (CVE management, open-source licensing, SCA tools).\n\nFluent in English and comfortable working autonomously in a fully remote environment.\n\nAdaptability to a fast-paced open-source startup environment where pragmatism and execution speed matter.\n\nPerks & Benefits\n\nWork from anywhere: We’re a remote-first company, so you can work from wherever feels like home. Plus, you’ll have access to coworking spaces worldwide if you ever need a change of scenery.\n\nHealth coverage: From medical support, dental, and vision, we've got you covered.\n\nHome office setup on us: We’ll provide all the equipment you need to work comfortably.\n\nOur Hiring Process\n\nWe aim to move quickly (2-3 weeks), but we can adjust the timeline if needed.\n\nIntro call with the hiring manager (30 min)\n\nTechnical scenario / Practical assessment (2 hours, asynchronous homework focusing on threat assessment and remediation)\n\nTeam chat with one of your future colleagues (30 min)\n\nFinal discussion with one of our co-founders (30 min)\n\nFind more English Speaking Jobs in France on Arbeitnow",
+      "full_description": "About Kestra\n\nKestra is the universal orchestration platform: open source, declarative, and designed to orchestrate data pipelines, IT automation, business workflows, and AI/agentic systems.\n\nTrusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale. The open-source project has close to 30,000 GitHub stars, hundreds of contributors, and a fast-growing global community.\n\nAbout the role\n\nKestra runs arbitrary, user-defined code at scale. Our users write workflows that execute scripts, containers, and queries against their own production systems, through hundreds of community-built plugins, on a platform whose entire source code is public. That is an unusually rich attack surface, and securing it is a genuinely hard engineering problem rather than a checklist exercise.\n\nYou would be our first dedicated security hire. We're looking for a Senior Security Engineer to own and elevate the end-to-end security posture of our platform, infrastructure, and open-source ecosystem.\n\nThis is a unique, hybrid role for someone who excels at both sides of security: actively breaking systems to find vulnerabilities (hands-on penetration testing) and actively fixing them (opening PRs, patching infrastructure, and managing supply chain risks). If you want to build a world-class security foundation for a fast-growing open-source and SaaS platform, this role is for you.\n\nThis is a hands-on engineering role, not a GRC or compliance one.\n\nWhat you would do\n\nYour first six months would focus on the first three points below. The rest is where the role grows.\n\nConduct hands-on penetration testing and threat modeling across our web application, APIs, control plane, and cloud environments.\n\nManage end-to-end vulnerability tracking across our codebases, software dependencies (SCA), container images, and cloud infrastructure.\n\nProactively fix security flaws by writing patches, submitting Pull Requests (PRs), or collaborating directly with product teams to guide remediation.\n\nAudit and harden our cloud infrastructure (GCP, Kubernetes clusters, and networking configurations) against external and internal threats.\n\nAutomate security tooling into our CI/CD pipelines (SAST, DAST, dependency scanners) to catch CVEs before code reaches production.\n\nPerform security code reviews and evaluate third-party dependencies, open-source integrations, and supply-chain risks.\n\nLead incident response efforts and establish continuous monitoring, detection, and mitigation strategies.\n\nOwn our public security posture as an open-source project: vulnerability disclosure process, CVE handling, security advisories, and the trust model of our plugin ecosystem.\n\nOur Tech Stack\n\nSecurity & Vulnerability Tools: Trivy, GitHub Security / Dependabot, Elastic Security \n\nInfrastructure: Docker, Kubernetes, Terraform\n\nCloud: GCP\n\nProgramming language: Java, Typescript, Javascript\n\nDatastore: PostgreSQL, Elasticsearch\n\nQueuing: Redis, Kafka, AMQP\n\nMonitoring & Logs: ELK, Prometheus, Grafana\n\nDeployment & Repository: GitHub Actions, ArgoCD\n\nWhat we are looking for\n\n5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role.\n\nStrong hands-on penetration testing background, with proven ability to discover application, API, and network-level vulnerabilities.\n\nA builder/fixer mindset: You don't just export scanner PDFs; you can read code, understand exploits, write fixes, or provide clear remediation steps to engineers.\n\nDeep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker).\n\nExperience with dependency and supply-chain security (CVE management, open-source licensing, SCA tools).\n\nFluent in English and comfortable working autonomously in a fully remote environment.\n\nAdaptability to a fast-paced open-source startup environment where pragmatism and execution speed matter.\n\nPerks & Benefits\n\nWork from anywhere: We’re a remote-first company, so you can work from wherever feels like home. Plus, you’ll have access to coworking spaces worldwide if you ever need a change of scenery.\n\nHealth coverage: From medical support, dental, and vision, we've got you covered.\n\nHome office setup on us: We’ll provide all the equipment you need to work comfortably.\n\nOur Hiring Process\n\nWe aim to move quickly (2-3 weeks), but we can adjust the timeline if needed.\n\nIntro call with the hiring manager (30 min)\n\nTechnical scenario / Practical assessment (2 hours, asynchronous homework focusing on threat assessment and remediation)\n\nTeam chat with one of your future colleagues (30 min)\n\nFinal discussion with one of our co-founders (30 min)\n\nFind Jobs in France on Arbeitnow",
       "skill_requirements": [
         {
           "skill": "aws",

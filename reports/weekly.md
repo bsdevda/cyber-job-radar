@@ -1,13 +1,13 @@
 # Weekly Job Radar Analytics
 
 **Week starting:** 2026-11-09
-**Generated:** 2026-11-09T16:44:42Z
-**Active relevant jobs:** 13
+**Generated:** 2026-11-10T15:07:43Z
+**Active relevant jobs:** 11
 
 ## Role-family demand
 
-- **Security Engineering:** 8
-- **IT Audit / GRC:** 3
+- **Security Engineering:** 7
+- **IT Audit / GRC:** 2
 - **Product Security:** 1
 - **SOC / Detection and Response:** 1
 
@@ -16,32 +16,30 @@
 ### Explicit mandatory gaps
 
 - **aws:** 3 job(s)
-- **cloud security:** 3 job(s)
-- **kubernetes:** 3 job(s)
 - **nist:** 3 job(s)
+- **cloud security:** 2 job(s)
 - **docker:** 2 job(s)
-- **product security:** 2 job(s)
-- **siem:** 2 job(s)
+- **kubernetes:** 2 job(s)
 - **edr:** 2 job(s)
 - **software development:** 2 job(s)
 - **rust:** 2 job(s)
 - **incident response:** 2 job(s)
 - **devsecops:** 1 job(s)
+- **product security:** 1 job(s)
+- **iso 27001:** 1 job(s)
 
 ### Potential gaps
 
-- **rust:** 5 job(s)
-- **iso 27001:** 3 job(s)
+- **rust:** 4 job(s)
 - **edr:** 2 job(s)
+- **iso 27001:** 2 job(s)
 - **github security:** 1 job(s)
 - **terraform:** 1 job(s)
 - **vulnerability disclosure program:** 1 job(s)
-- **infrastructure as code:** 1 job(s)
-- **secrets management:** 1 job(s)
 - **dlp:** 1 job(s)
 - **azure:** 1 job(s)
-- **go:** 1 job(s)
 - **detection engineering:** 1 job(s)
+- **gdpr:** 1 job(s)
 
 ### Optional gaps
 
@@ -55,15 +53,15 @@
 
 ### Exposure-only skills
 
-- **incident response:** 6 job(s)
-- **software development:** 6 job(s)
-- **product security:** 5 job(s)
+- **incident response:** 5 job(s)
+- **software development:** 5 job(s)
 - **aws:** 4 job(s)
-- **cloud security:** 4 job(s)
-- **javascript:** 4 job(s)
-- **siem:** 4 job(s)
-- **nist:** 4 job(s)
-- **ci/cd:** 3 job(s)
+- **product security:** 4 job(s)
+- **cloud security:** 3 job(s)
+- **javascript:** 3 job(s)
+- **nist:** 3 job(s)
+- **siem:** 3 job(s)
+- **ci/cd:** 2 job(s)
 - **docker:** 2 job(s)
 - **git:** 2 job(s)
 - **devsecops:** 1 job(s)

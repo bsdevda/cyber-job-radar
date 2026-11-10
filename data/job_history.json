@@ -9702,6 +9702,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-11-10T15:07:43Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 7215,
+      "security_title_candidates": 216,
+      "prefiltered_non_security_jobs": 6999,
+      "unique_jobs_after_deduplication": 166,
+      "duplicates_removed": 50,
+      "jobs_rejected_or_below_threshold": 7154,
+      "relevant_jobs_in_current_run": 11,
+      "new_jobs": 0,
+      "updated_jobs": 1,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 43,
+      "jobs_by_source": {
+        "arbeitnow": 2142,
+        "remotive": 13,
+        "linkedin_posts": 0,
+        "greenhouse": 4498,
+        "ashby": 243,
+        "lever": 180,
+        "personio": 139,
+        "recruitee": 0
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 23.2,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2142,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 13,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 4498,
+          "requests": 61,
+          "errors": [],
+          "error": "",
+          "companies_checked": 61,
+          "companies_successful": 61,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 243,
+          "requests": 8,
+          "errors": [],
+          "error": "",
+          "companies_checked": 8,
+          "companies_successful": 8,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 180,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 139,
+          "requests": 4,
+          "errors": [],
+          "error": "",
+          "companies_checked": 4,
+          "companies_successful": 4,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "idle",
+          "ok": true,
+          "jobs": 0,
+          "requests": 0,
+          "errors": [],
+          "error": "",
+          "companies_checked": 0,
+          "companies_successful": 0,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -17245,6 +17358,21 @@
       "company": "Kestra Technologies",
       "title": "Senior Security Engineer",
       "score": 59
+    },
+    {
+      "at": "2026-11-10T15:07:43Z",
+      "job_key": "32c54022816bcac2a151",
+      "event": "UPDATED",
+      "company": "Kestra Technologies",
+      "title": "Senior Security Engineer",
+      "score": 59
+    },
+    {
+      "at": "2026-11-10T15:07:43Z",
+      "job_key": "de5ca6344fea6fa934d6",
+      "event": "REMOVED",
+      "company": "Linro",
+      "title": "Security & Compliance Engineer (all genders) - Remote Germany"
     }
   ]
 }

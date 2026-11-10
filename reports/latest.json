@@ -1,37 +1,37 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-09T16:44:42Z",
+  "generated_at": "2026-11-10T15:07:43Z",
   "summary": {
-    "generated_at": "2026-11-09T16:44:42Z",
+    "generated_at": "2026-11-10T15:07:43Z",
     "scoring_version": 2.2,
-    "jobs_collected": 8913,
-    "security_title_candidates": 303,
-    "prefiltered_non_security_jobs": 8610,
-    "unique_jobs_after_deduplication": 218,
-    "duplicates_removed": 85,
-    "jobs_rejected_or_below_threshold": 8815,
-    "relevant_jobs_in_current_run": 13,
+    "jobs_collected": 7215,
+    "security_title_candidates": 216,
+    "prefiltered_non_security_jobs": 6999,
+    "unique_jobs_after_deduplication": 166,
+    "duplicates_removed": 50,
+    "jobs_rejected_or_below_threshold": 7154,
+    "relevant_jobs_in_current_run": 11,
     "new_jobs": 0,
     "updated_jobs": 1,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
     "sources_partial": 0,
-    "report_jobs": 44,
+    "report_jobs": 43,
     "jobs_by_source": {
-      "arbeitnow": 2147,
-      "remotive": 12,
+      "arbeitnow": 2142,
+      "remotive": 13,
       "linkedin_posts": 0,
-      "greenhouse": 6108,
-      "ashby": 416,
-      "lever": 97,
-      "personio": 133,
+      "greenhouse": 4498,
+      "ashby": 243,
+      "lever": 180,
+      "personio": 139,
       "recruitee": 0
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 27.0
+    "workflow_duration_seconds": 23.2
   },
   "jobs": [
     {
@@ -1045,10 +1045,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-11-08T18:40:15Z",
-      "posting_age_days": 0,
+      "posting_age_days": 1,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 0,
+        "age_days": 1,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
@@ -2144,10 +2144,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-30T12:54:06Z",
-      "posting_age_days": 10,
+      "posting_age_days": 11,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 10,
+        "age_days": 11,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2411,10 +2411,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-30T13:09:26Z",
-      "posting_age_days": 10,
+      "posting_age_days": 11,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 10,
+        "age_days": 11,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2690,10 +2690,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-16T09:23:08Z",
-      "posting_age_days": 24,
+      "posting_age_days": 25,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 24,
+        "age_days": 25,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2840,10 +2840,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-02T09:11:35Z",
-      "posting_age_days": 38,
+      "posting_age_days": 39,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 38,
+        "age_days": 39,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -2987,10 +2987,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-11T10:13:09Z",
-      "posting_age_days": 59,
+      "posting_age_days": 60,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 59,
+        "age_days": 60,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -3841,166 +3841,6 @@
     },
     {
       "report_number": 29,
-      "job_key": "de5ca6344fea6fa934d6",
-      "status": "SEEN_BEFORE",
-      "application_status": "NEW",
-      "score": 67,
-      "raw_score": 67,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "score_label": "REVIEW",
-      "title": "Security & Compliance Engineer (all genders) - Remote Germany",
-      "company": "Linro",
-      "location": "Germany",
-      "location_analysis": {
-        "category": "eligible_germany_remote",
-        "eligible": true,
-        "score": 15,
-        "reason": "Remote work from Germany is explicitly available",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Germany remote",
-        "work_model": "Remote"
-      },
-      "location_scope": "Germany remote",
-      "working_model": "Remote",
-      "role_family": {
-        "id": "it_audit_grc",
-        "label": "IT Audit / GRC",
-        "priority": 3,
-        "confidence": "medium",
-        "evidence": [
-          "iso 27001",
-          "compliance"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://www.arbeitnow.com/jobs/companies/linro/security-compliance-engineer-all-genders-remote-germany-32354",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/linro/security-compliance-engineer-all-genders-remote-germany-32354",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/linro/security-compliance-engineer-all-genders-remote-germany-32354",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-10-09T08:40:04Z",
-      "posting_age_days": 2,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 2,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-08-20T05:56:43Z",
-      "experience_required": null,
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [],
-        "partial": [
-          "aws",
-          "cloud security"
-        ],
-        "missing": [
-          "infrastructure as code",
-          "iso 27001",
-          "rust",
-          "terraform"
-        ],
-        "nice_to_have": [
-          "azure (missing)",
-          "go (missing)",
-          "software development (partial)"
-        ]
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Hands-on experience with at least one of SOC 2, ISO 27001, or ISO 42001: you have run a gap analysis, built and mapped evidence, and taken a program through an actual audit, not just studied the framework."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "infrastructure as code",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Automate compliance instead of just babysitting it: build checks and guardrails so we stay continuously compliant, and help ensure our multi-cloud infrastructure (AWS and beyond) is managed as Infrastructure-as-Code with Terraform."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Careful, structured, and trustworthy."
-        }
-      ],
-      "optional_gaps": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "optional",
-          "evidence": "Hands-on Terraform, and experience with AWS, GCP, and/or Azure."
-        },
-        {
-          "skill": "azure",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Hands-on Terraform, and experience with AWS, GCP, and/or Azure."
-        },
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Prior general software engineering experience, ideally in the stacks we use day to day (Go, SQL, and cloud infrastructure)"
-        },
-        {
-          "skill": "software development",
-          "profile_status": "partial",
-          "requirement": "optional",
-          "evidence": "Prior general software engineering experience, ideally in the stacks we use day to day (Go, SQL, and cloud infrastructure)"
-        },
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Hands-on Terraform, and experience with AWS, GCP, and/or Azure."
-        }
-      ],
-      "score_breakdown": {
-        "role_alignment": 12,
-        "skills": 7,
-        "experience": 10,
-        "location": 15,
-        "language": 10,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Remote work from Germany is explicitly available."
-      ],
-      "warnings": [
-        "Mandatory gaps: iso 27001",
-        "Potential gaps: infrastructure as code, rust",
-        "Optional gaps: aws, azure, go, software development, terraform",
-        "Exposure only; do not claim deep expertise: aws, cloud security",
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "About Linro Linro is a cloud security company building a real-time, agentic cloud-security platform. Teams ship with AI. AI ships with Linro. Cloud infrastructure changes constantly, and increasingly it's AI agents making those changes, not people. Most security tools only catch problems after the fact. Linro works differently. We enforce what's allowed at every stage, from commit to production. We stop bad changes before they ship, and fix problems in real time once they're live. We have each been on the receiving end of this problem: running cloud security at scale, building the platforms underneath it, and shipping in regulated systems where a wrong change isn't an option. Founded in Berlin in 2026 and built fully remote across Europe, Linro has a platform that's real and working, with plenty still to shape. The role You will own Linro's security and compliance program end to end, starting from a blank page. Your job is to build that from scratch: figure out where we actually stand, find the gaps, and close them across a multi-cloud environment. Automate what can be automated instead of redoing the same work by hand every quarter. What you will do Take SOC2, ISO 27001 and 42001…"
-    },
-    {
-      "report_number": 30,
       "job_key": "6118ade6193514055a1c",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -4165,7 +4005,7 @@
       "description_excerpt": "The AI orchestration of your wildest imagination. n8n is the open workflow orchestration platform built for the new era of AI. We give technical teams the freedom of code with the speed of no-code, so they can automate faster, smarter, and without limits. Backed by a fiercely inventive community and 500+ builder-approved integrations, we’re changing the way people bring systems together and scale ideas for impact. Since our founding in 2019, we’ve grown into a diverse team of over 260 - working across Europe and the US, connected by a shared builder spirit and with our centre of gravity in Berlin. Along the way, we’ve: - Cultivated a community of more than 650,000 active developers and builders - Earned 190K+ GitHub stars, making us one of the world’s Top 40 most popular projects - Backed by top investors, from Sequoia’s first German seed to our SAP's recent strategic investment - bringing us to a $5.2bn valuation That’s the company we’ve built. Now we’d love to see what you can build. If you’re applying, try n8n out - whether you’re technical or not - and share a screenshot of your first workflow with us. The easiest place to start is here: app.n8n.cloud/register http://app.n8n.c…"
     },
     {
-      "report_number": 31,
+      "report_number": 30,
       "job_key": "eb01fcc2c3328f8c9e07",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -4270,7 +4110,7 @@
       "description_excerpt": "Health can’t wait. Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t. Alan exists to end the wait. Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way. So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience. We are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR. Prevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond. 🚀 The Challenge Alan is a leading European health insurer with over 1 mil…"
     },
     {
-      "report_number": 32,
+      "report_number": 31,
       "job_key": "4afa9462370d50b6650c",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -4324,10 +4164,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-11-05T17:48:33Z",
-      "posting_age_days": 3,
+      "posting_age_days": 4,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 3,
+        "age_days": 4,
         "category": "recent",
         "label": "RECENT"
       },
@@ -4400,7 +4240,7 @@
       "description_excerpt": "About the role: What's in the Box We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges. Security Engineers work in a variety of ways to constantly iterate and improve HelloFresh’s security posture. You will be the first port of call for responding to any of HelloFresh’s security related questions and concerns. You will also develop and deliver tools and processes to enable colleagues to achieve their goals and objectives. Above all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you. What You’ll Do: The Recipe Enhance the security posture of the enterprise IT infrastructure, services, and tools by hardening them against abuse and nefarious activity Implement secure configurations and policies for IAM, EDR, VPN, Firewalls, Email Security, Slack and MDM tools Responsible for security hardening and posture of enterprise IT assets Adapt to modern AI a…"
     },
     {
-      "report_number": 33,
+      "report_number": 32,
       "job_key": "f1e7ab2db758d14bd8de",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -4458,10 +4298,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-19T08:41:49Z",
-      "posting_age_days": 21,
+      "posting_age_days": 22,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 21,
+        "age_days": 22,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -4530,7 +4370,7 @@
       "description_excerpt": "SCOPE OF IMPACT Actively participates with other seniors in SOC activities by providing knowledge and insight on more complex client cases. Provides ideas and concrete input for process and efficiency improvements. Actively participates in overall team- and workflow-improvement projects. EXPERTISE In-depth knowledge of the operational use of security monitoring tools (SIEM, EDR). Ability to assess complex logs, recognise patterns, and derive actionable insights. Actively develops both technical and soft skills, and stays current with changes in the field. A credible voice and source of knowledge in the department. AUTONOMY AND CONTRIBUTION STYLE Full autonomy during complex SOC escalations. Skills and confidence to coordinate the team’s response. Collaborates with, and gives guidance to, the team on arising issues. Once fully onboarded, demonstrates the ability to handle Tier 3 shifts. COMPLEXITY High complexity: oversees entire projects and influences cross-functional teams; decisions impact the department and adjacent areas. Creates clear, structured, reproducible documentation that informs stakeholders of risks, findings, and recommended actions. Recognises higher-level securit…"
     },
     {
-      "report_number": 34,
+      "report_number": 33,
       "job_key": "240800e330239220c3d1",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -4583,10 +4423,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-11-02T18:44:15Z",
-      "posting_age_days": 6,
+      "posting_age_days": 7,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 6,
+        "age_days": 7,
         "category": "recent",
         "label": "RECENT"
       },
@@ -4672,7 +4512,7 @@
       "description_excerpt": "Why Mozilla? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. The Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. About this team and role: Mozilla is looking for an Incident Responder to monitor and mitigate attacks across Mozilla’s products and services. In this position, you will be a part of a flexible team responsible for handling se…"
     },
     {
-      "report_number": 35,
+      "report_number": 34,
       "job_key": "697670f71dcd9793a00c",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -4728,10 +4568,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-30T12:41:53Z",
-      "posting_age_days": 10,
+      "posting_age_days": 11,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 10,
+        "age_days": 11,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -4803,7 +4643,7 @@
       "description_excerpt": "To learn the Hiring Ranges for this position, please select your location from the Apply Now dropdown menu. To learn more about our Hiring Range System, please click this link. Why Mozilla? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we're shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we're doing this while never losing our focus on our core mission – to make the internet better for people. The Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren't beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. About this team and role: The role is part of the…"
     },
     {
-      "report_number": 36,
+      "report_number": 35,
       "job_key": "1f74892653c6467e49ca",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -4967,7 +4807,7 @@
       "description_excerpt": "About the opportunity Are you passionate about cybersecurity and eager to make a real impact in a dynamic environment? Look no further! We are on the lookout for a Senior Cloud Security Engineer who is ready to take the lead in proactively identifying and mitigating security threats and safeguarding our sensitive data. Join forces with our Platform and Data teams and be at the forefront of safeguarding our customer and our organisation. At N26, our Infrastructure Security team is on a mission to detect and remediate IT and cloud infrastructure security threats. We're dedicated to providing efficient and effective services that empower our N26 tech teams to thrive. Once here you will Drive the Cloud Infrastructure Security function roadmap in alignment with the Product Manager, Tech Lead, and Engineering Manager. Own, define and drive initiatives, solutions, processes and frameworks to proactively identify and mitigate security threats within our AWS infrastructure which leads to an overall improvement of our security maturity. Design, deploy and maintain state-of-the-art cloud-native security solutions, incorporating end-to-end data protection, advanced threat detection, automated…"
     },
     {
-      "report_number": 37,
+      "report_number": 36,
       "job_key": "adf40ac5904cb1b075ac",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -5160,7 +5000,7 @@
       "description_excerpt": "Qdrant is an open-source vector search engine powering the next generation of AI applications, from semantic search and retrieval-augmented generation (RAG) to AI agents and real-time recommendations. Trusted by global leaders like Canva, HubSpot, Tripadvisor, Bosch, and Deutsche Telekom, we’re building the retrieval infrastructure layer for modern AI. Recently raising $50M in Series B funding, we are growing rapidly and committed to transforming how AI understands and interacts with data. As a remote-first company, we believe diverse backgrounds, perspectives, and experiences fuel innovation. Here, you’ll own meaningful work, tackle challenges, and grow alongside passionate individuals dedicated to shaping the future of AI. We are looking for a Mid-Level Security Engineer to own the hands-on engineering and operational work within our security program. You will be embedded in the Cloud Engineering team, report into the Security Officer, and work closely together to identify risks, set priorities, and drive security issues through remediation. You will act as a security enabler across all Product & Engineering. WHAT YOU WILL OWN - Run our public bug bounty program: triage reports,…"
     },
     {
-      "report_number": 38,
+      "report_number": 37,
       "job_key": "d50bd6edab70e0a144d3",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -5301,7 +5141,7 @@
       "description_excerpt": "Who we are We simplify wealth creation. Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future. Our user-friendly, trade-everything platform empowers both first-time investors and seasoned experts to invest in the cryptocurrencies, crypto indices, stocks*, precious metals and commodities* they want — with any sized budget, 24/7. Our global team works across different cultures and time zones, bringing our products to more than 7 million customers, making us one of Europe’s safest and most secure platforms that powers modern investing. Headquartered in Austria but operating across Europe, our products are built by fast-moving, talented, “roll-up-your-sleeves-and-make-it-happen” kind of people. It’s these diverse perspectives and innovative minds operating as ONE TEAM that keep Bitpanda at the cutting edge of our industry. So if you’re someone who thinks big, moves fast and wants to make an impact right from day one, then get ready to join our industry-changing team. Let’s go! Your mission As an Information Security Expert, you are a senior ind…"
     },
     {
-      "report_number": 39,
+      "report_number": 38,
       "job_key": "b8cd59fa1a90fef70e9e",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -5429,7 +5269,7 @@
       "description_excerpt": "Superhuman offers a dynamic hybrid working model for this role. This flexible approach gives team members the best of both worlds: plenty of focus time along with in-person collaboration that helps foster trust, innovation, and a strong team culture. About Superhuman Grammarly is now part of Superhuman, the AI productivity platform on a mission to unlock the superhuman potential in everyone. The Superhuman suite of apps and agents brings AI wherever people work, integrating with over 1 million applications and websites. The company’s products include Grammarly’s writing assistance, Superhuman Docs’ collaborative workspaces, Mail’s inbox management, and Go, the proactive AI assistant that understands context and delivers help automatically. Founded in 2009, Superhuman empowers over 40 million people, 50,000 organizations, and 3,000 educational institutions worldwide to eliminate busywork and focus on what matters. Learn more at superhuman.com. The Opportunity Superhuman is on a mission to build the fastest, most delightful productivity experiences powered by AI. As we scale rapidly, our internal technology operations must evolve to match our ambition. We’re looking for a Security E…"
     },
     {
-      "report_number": 40,
+      "report_number": 39,
       "job_key": "a03342dd76095c14515c",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -5615,7 +5455,7 @@
       "description_excerpt": "Redefine the future of live entertainment tech Welcome to vivenu, the global leader in event ticketing tech and one of the world’s fastest-growing live entertainment tech firms. We are transforming event ticketing for global leaders like the Grammys, the Golden Globes, Stanford University and the Hockenheimring turning what was once a simple transaction into a strategic business advantage. Backed by over $65 million in funding, our platform empowers event organizers to own their brand experience, unlock deep data insights, and seamlessly integrate ticketing into their digital infrastructure. With six offices worldwide and growing, we deliver a customizable, intuitive solution and industry-leading support that simplify even the most complex ticketing challenges – helping organizers deliver exceptional experiences and drive real growth. Join us and build the future of live entertainment. With over 10 million end users and usage quadrupling annually, our infrastructure now handles over 1 billion requests per month — and counting. Our API-first platform solves complex system challenges at scale — delivering performance, flexibility, and reliability for the world’s leading live enterta…"
     },
     {
-      "report_number": 41,
+      "report_number": 40,
       "job_key": "2e0bc4a58933748effd2",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -5768,7 +5608,7 @@
       "description_excerpt": "Support us in designing the insurance experience of the future. As an IT Security Engineer you own IT Security Operations at getolo end to end: running our detection and response capability day to day, keeping endpoints and infrastructure hardened, and driving incidents, vulnerabilities and findings to closure. Security operations is the core of this role. Beyond it, you bring an operator's perspective into how we design systems and into our governance work, to ensure control effectiveness. This is a full-time hybrid role, with 1–2 days per week working from our Berlin office. Requirements Your Mission Security Operations - your primary function Run and continuously improve our SIEM: log source onboarding, detection rules, tuning, alert quality Automate orchestration and response with SOAR Operate endpoint protection across our fleet Triage and manage alerts, driving them to closure or escalation Lead incident management from detection through containment, recovery and post-incident review Detect and remediate configuration drift against hardening baselines; run technical audits Oversee vulnerability management: scanning, prioritisation, and remediation tracking with IT and engine…"
     },
     {
-      "report_number": 42,
+      "report_number": 41,
       "job_key": "04a3d5752b4e49f488ab",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -5910,7 +5750,7 @@
       "description_excerpt": "Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents faster, and optimize telemetry at scale. Built on open source and open standards and designed for interoperability across any stack, Grafana Cloud brings AI to observability and observability to AI, giving teams (and their agents) unified visibility so they can see, understand, and act on all their disparate data, wherever it lives, and move at the speed of their ambitions. Customers, including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce, rely on Grafana Labs. We are a 100% remote company with team members across 40+ countries, backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at grafana.com and follow us on LinkedIn and X. We’re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an innovation-driven environment where transparency, autonomy, and trust fuel everything we do. You may…"
     },
     {
-      "report_number": 43,
+      "report_number": 42,
       "job_key": "db8aaa804d8c25ef23c4",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -5967,10 +5807,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-13T14:32:45Z",
-      "posting_age_days": 27,
+      "posting_age_days": 28,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 27,
+        "age_days": 28,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -6090,7 +5930,7 @@
       "description_excerpt": "WHO WE ARE We prioritise privacy as a fundamental right, delivering the most secure communication experience across various industries. Our cutting-edge encryption technology and robust security measures have made us a trusted partner in the technology, finance, healthcare, and government sectors. If you are passionate about redefining secure communication and want to be part of an innovative team, join us as a Senior Security Engineer in our Security organisation. Together, let us build a world where privacy and security shape the future of communication. GENERAL INFORMATION Employment Type: 12-month contract with the possibility of extension Previous working experience: 5-7 years in Product Security Working hours: 40hrs/week Working Location: Remote EU / Berlin Desired start date: As soon as possible YOUR CHALLENGE AT WIRE Be ready to play an essential role by joining our Information Security Team. You will become a pioneer in transforming how organisations and governments communicate securely. You will work closely with the Director of Information Security and interact with the engineering, product, and other teams regularly. Your areas of work are: Product Security You review…"
     },
     {
-      "report_number": 44,
+      "report_number": 43,
       "job_key": "b0c87693b777ab13ba5f",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -6274,7 +6114,7 @@
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 2147,
+      "jobs": 2142,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -6282,7 +6122,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 12,
+      "jobs": 13,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -6298,45 +6138,45 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 6108,
-      "requests": 48,
+      "jobs": 4498,
+      "requests": 61,
       "errors": [],
       "error": "",
-      "companies_checked": 48,
-      "companies_successful": 48,
+      "companies_checked": 61,
+      "companies_successful": 61,
       "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 416,
-      "requests": 10,
+      "jobs": 243,
+      "requests": 8,
       "errors": [],
       "error": "",
-      "companies_checked": 10,
-      "companies_successful": 10,
+      "companies_checked": 8,
+      "companies_successful": 8,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 97,
-      "requests": 2,
-      "errors": [],
-      "error": "",
-      "companies_checked": 2,
-      "companies_successful": 2,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 133,
+      "jobs": 180,
       "requests": 3,
       "errors": [],
       "error": "",
       "companies_checked": 3,
       "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 139,
+      "requests": 4,
+      "errors": [],
+      "error": "",
+      "companies_checked": 4,
+      "companies_successful": 4,
       "companies_failed": 0
     },
     "recruitee": {
@@ -6354,53 +6194,48 @@
   "all_sources_failed": false,
   "employer_scan": {
     "mode": "daily",
-    "generated_at": "2026-11-09T16:44:42Z",
+    "generated_at": "2026-11-10T15:07:43Z",
     "sources": {
       "greenhouse": {
         "source": "greenhouse",
         "mode": "daily",
-        "batch_index": 0,
+        "batch_index": 1,
         "configured_enabled": 172,
         "priority_configured": 34,
-        "selected": 48,
-        "skipped_by_rotation": 116,
-        "skipped_by_cooldown": 8,
+        "selected": 61,
+        "skipped_by_rotation": 104,
+        "skipped_by_cooldown": 7,
         "rotation_skip_keys": [
+          "greenhouse:abnormalsecurity",
+          "greenhouse:adahealth",
           "greenhouse:affirm",
           "greenhouse:airbnb",
-          "greenhouse:airspace",
-          "greenhouse:airtable",
           "greenhouse:algolia",
           "greenhouse:andurilindustries",
           "greenhouse:anthropic",
-          "greenhouse:applovin",
-          "greenhouse:bitgo",
           "greenhouse:bitpanda",
           "greenhouse:block",
+          "greenhouse:brex",
           "greenhouse:bridgebio",
           "greenhouse:bugcrowd",
+          "greenhouse:calm",
           "greenhouse:carta",
           "greenhouse:chainguard",
           "greenhouse:charterup",
           "greenhouse:checkr",
-          "greenhouse:circleci",
-          "greenhouse:civicnation",
-          "greenhouse:cloudflare",
-          "greenhouse:cockroachlabs",
+          "greenhouse:chime",
           "greenhouse:coinbase",
           "greenhouse:coursera",
           "greenhouse:cribl",
-          "greenhouse:cultureamp",
-          "greenhouse:databricks",
           "greenhouse:datadog",
+          "greenhouse:dialpad",
           "greenhouse:discord",
           "greenhouse:dropbox",
-          "greenhouse:duolingo",
           "greenhouse:elastic",
-          "greenhouse:epicgames",
           "greenhouse:faire",
           "greenhouse:fastly",
           "greenhouse:figma",
+          "greenhouse:fireblocks",
           "greenhouse:fivetran",
           "greenhouse:flatironhealth",
           "greenhouse:flexport",
@@ -6408,12 +6243,10 @@
           "greenhouse:gemini",
           "greenhouse:gitlab",
           "greenhouse:gleanwork",
-          "greenhouse:greenhouse",
+          "greenhouse:grafanalabs",
           "greenhouse:guardsquare",
-          "greenhouse:gusto",
           "greenhouse:honeycomb",
           "greenhouse:huntress",
-          "greenhouse:imply",
           "greenhouse:instacart",
           "greenhouse:instawork",
           "greenhouse:intercom",
@@ -6421,17 +6254,16 @@
           "greenhouse:jetbrains",
           "greenhouse:justworks",
           "greenhouse:khanacademy",
-          "greenhouse:klanggames",
           "greenhouse:knowbe4",
-          "greenhouse:lattice",
           "greenhouse:launchdarkly",
           "greenhouse:locusrobotics",
           "greenhouse:lookoutinc",
           "greenhouse:lucidsoftware",
           "greenhouse:lyft",
+          "greenhouse:magicleap",
+          "greenhouse:mavenclinic",
           "greenhouse:melio",
           "greenhouse:mercari",
-          "greenhouse:mercury",
           "greenhouse:mixpanel",
           "greenhouse:mongodb",
           "greenhouse:newrelic",
@@ -6441,15 +6273,15 @@
           "greenhouse:oscar",
           "greenhouse:pagerduty",
           "greenhouse:pandadoc",
+          "greenhouse:peloton",
           "greenhouse:pinterest",
-          "greenhouse:planetscale",
           "greenhouse:poshmark",
           "greenhouse:precisionmedicinegroup",
           "greenhouse:pulley",
           "greenhouse:raisin",
           "greenhouse:recursionpharmaceuticals",
-          "greenhouse:riotgames",
-          "greenhouse:ripple",
+          "greenhouse:reddit",
+          "greenhouse:robinhood",
           "greenhouse:roblox",
           "greenhouse:salesloft",
           "greenhouse:samsara",
@@ -6458,36 +6290,31 @@
           "greenhouse:seatgeek",
           "greenhouse:singlestore",
           "greenhouse:sixgeninc",
-          "greenhouse:sofi",
+          "greenhouse:spacex",
           "greenhouse:squarespace",
           "greenhouse:stabilityai",
-          "greenhouse:starburst",
           "greenhouse:stockx",
           "greenhouse:stripe",
-          "greenhouse:stubhubinc",
           "greenhouse:sumologic",
-          "greenhouse:sweetgreen",
           "greenhouse:tailscale",
-          "greenhouse:togetherai",
+          "greenhouse:tanium",
+          "greenhouse:thirdbridge",
           "greenhouse:twilio",
           "greenhouse:twitch",
           "greenhouse:upstart",
           "greenhouse:veeamsoftware",
+          "greenhouse:verkada",
           "greenhouse:waymo",
           "greenhouse:webflow",
           "greenhouse:wizinc",
-          "greenhouse:wolt",
-          "greenhouse:wooga",
           "greenhouse:xai",
           "greenhouse:yugabyte",
-          "greenhouse:zetaglobal",
-          "greenhouse:zoominfo"
+          "greenhouse:zetaglobal"
         ],
         "cooldown_skip_keys": [
           "greenhouse:clickhouse",
           "greenhouse:parloa",
           "greenhouse:amplitude",
-          "greenhouse:magicleap",
           "greenhouse:marqeta",
           "greenhouse:postman",
           "greenhouse:remotecom",
@@ -6497,13 +6324,15 @@
       "ashby": {
         "source": "ashby",
         "mode": "daily",
-        "batch_index": 0,
+        "batch_index": 1,
         "configured_enabled": 13,
         "priority_configured": 8,
-        "selected": 10,
-        "skipped_by_rotation": 2,
+        "selected": 8,
+        "skipped_by_rotation": 4,
         "skipped_by_cooldown": 1,
         "rotation_skip_keys": [
+          "ashby:choco",
+          "ashby:enpal",
           "ashby:langdock",
           "ashby:n8n"
         ],
@@ -6514,41 +6343,39 @@
       "lever": {
         "source": "lever",
         "mode": "daily",
-        "batch_index": 0,
+        "batch_index": 1,
         "configured_enabled": 6,
         "priority_configured": 2,
-        "selected": 2,
-        "skipped_by_rotation": 4,
+        "selected": 3,
+        "skipped_by_rotation": 3,
         "skipped_by_cooldown": 0,
         "rotation_skip_keys": [
           "lever:olx",
           "lever:saviynt",
-          "lever:veeva",
-          "lever:westernacher"
+          "lever:veeva"
         ],
         "cooldown_skip_keys": []
       },
       "personio": {
         "source": "personio",
         "mode": "daily",
-        "batch_index": 0,
+        "batch_index": 1,
         "configured_enabled": 7,
         "priority_configured": 3,
-        "selected": 3,
-        "skipped_by_rotation": 4,
+        "selected": 4,
+        "skipped_by_rotation": 3,
         "skipped_by_cooldown": 0,
         "rotation_skip_keys": [
           "personio:dnsnet",
           "personio:liveeo-gmbh",
-          "personio:perseus",
-          "personio:syseleven"
+          "personio:perseus"
         ],
         "cooldown_skip_keys": []
       },
       "recruitee": {
         "source": "recruitee",
         "mode": "daily",
-        "batch_index": 0,
+        "batch_index": 1,
         "configured_enabled": 2,
         "priority_configured": 0,
         "selected": 0,
@@ -6563,37 +6390,35 @@
     }
   },
   "rejection_summary": {
-    "The vacancy has an explicit location outside Berlin/Germany-remote/Europe-remote/worldwide-remote scope": 129,
-    "On-site role is not located in Berlin": 30,
-    "Excluded seniority in title: Staff/Principal": 24,
+    "The vacancy has an explicit location outside Berlin/Germany-remote/Europe-remote/worldwide-remote scope": 76,
+    "Excluded seniority in title: Staff/Principal": 25,
+    "On-site role is not located in Berlin": 20,
     "Advanced/fluent German required": 18,
-    "Excluded seniority in title: Management": 15,
-    "Mandatory experience is too senior: 8+ years": 15,
-    "Germany role is on-site/hybrid outside Berlin; only Germany-remote roles are allowed": 10,
-    "Hybrid role is not located in Berlin": 9,
+    "Hybrid role is not located in Berlin": 17,
+    "Germany role is on-site/hybrid outside Berlin; only Germany-remote roles are allowed": 14,
+    "Excluded seniority in title: Management": 13,
+    "Mandatory experience is too senior: 10+ years": 9,
+    "Excluded seniority in title: Lead/Architect": 8,
     "Vacancy text is predominantly German; the radar is limited to English-speaking roles": 8,
-    "Excluded seniority in title: Executive": 6,
-    "Mandatory experience is too senior: 10+ years": 6,
-    "Excluded seniority in title: Lead/Architect": 6,
+    "Excluded seniority in title: Executive": 7,
+    "Mandatory experience is too senior: 8+ years": 5,
     "German C1 required": 4,
     "German C2 required": 4,
-    "Student/internship-only employment type": 2,
-    "Posting is too old: 410 days (maximum 120)": 2,
+    "Mandatory experience is too senior: 15+ years": 2,
+    "Posting is too old: 411 days (maximum 120)": 2,
+    "Excluded seniority/employment type in title: security director": 1,
     "Excluded seniority/employment type in title: chief information security officer": 1,
     "Excluded seniority/employment type in title: internship": 1,
-    "Mandatory experience is too senior: 15+ years": 1,
     "Excluded seniority/employment type in title: werkstudent": 1,
-    "Excluded seniority/employment type in title: director of security": 1,
-    "Posting is too old: 143 days (maximum 120)": 1,
+    "Student/internship-only employment type": 1,
     "Mandatory experience is too senior: 12+ years": 1,
-    "Excluded seniority/employment type in title: security intern": 1,
-    "Posting is too old: 187 days (maximum 120)": 1,
+    "Posting is too old: 188 days (maximum 120)": 1,
     "Posting is too old: 203 days (maximum 120)": 1,
     "Posting is too old: 363 days (maximum 120)": 1,
-    "Posting is too old: 544 days (maximum 120)": 1,
-    "Posting is too old: 616 days (maximum 120)": 1,
-    "Posting is too old: 780 days (maximum 120)": 1,
-    "Posting is too old: 531 days (maximum 120)": 1,
-    "Posting is too old: 532 days (maximum 120)": 1
+    "Posting is too old: 545 days (maximum 120)": 1,
+    "Posting is too old: 617 days (maximum 120)": 1,
+    "Posting is too old: 781 days (maximum 120)": 1,
+    "Posting is too old: 532 days (maximum 120)": 1,
+    "Posting is too old: 533 days (maximum 120)": 1
   }
 }
