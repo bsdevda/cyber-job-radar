@@ -1,17 +1,17 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-10T15:07:43Z",
+  "generated_at": "2026-11-11T14:38:34Z",
   "summary": {
-    "generated_at": "2026-11-10T15:07:43Z",
+    "generated_at": "2026-11-11T14:38:34Z",
     "scoring_version": 2.2,
-    "jobs_collected": 7215,
-    "security_title_candidates": 216,
-    "prefiltered_non_security_jobs": 6999,
-    "unique_jobs_after_deduplication": 166,
-    "duplicates_removed": 50,
-    "jobs_rejected_or_below_threshold": 7154,
-    "relevant_jobs_in_current_run": 11,
-    "new_jobs": 0,
+    "jobs_collected": 9686,
+    "security_title_candidates": 355,
+    "prefiltered_non_security_jobs": 9331,
+    "unique_jobs_after_deduplication": 269,
+    "duplicates_removed": 86,
+    "jobs_rejected_or_below_threshold": 9584,
+    "relevant_jobs_in_current_run": 16,
+    "new_jobs": 1,
     "updated_jobs": 1,
     "strong_matches": 0,
     "sources_checked": 8,
@@ -19,19 +19,19 @@
     "sources_partial": 0,
     "report_jobs": 43,
     "jobs_by_source": {
-      "arbeitnow": 2142,
+      "arbeitnow": 2124,
       "remotive": 13,
       "linkedin_posts": 0,
-      "greenhouse": 4498,
-      "ashby": 243,
-      "lever": 180,
-      "personio": 139,
-      "recruitee": 0
+      "greenhouse": 6166,
+      "ashby": 254,
+      "lever": 991,
+      "personio": 132,
+      "recruitee": 6
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 23.2
+    "workflow_duration_seconds": 25.1
   },
   "jobs": [
     {
@@ -1045,10 +1045,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-11-08T18:40:15Z",
-      "posting_age_days": 1,
+      "posting_age_days": 2,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 1,
+        "age_days": 2,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
@@ -1959,18 +1959,18 @@
     },
     {
       "report_number": 15,
-      "job_key": "9e41fd168e09c19854b6",
-      "status": "UPDATED",
+      "job_key": "d5e70e0d1676f46b2fc2",
+      "status": "NEW",
       "application_status": "NEW",
-      "score": 54,
-      "raw_score": 54,
+      "score": 50,
+      "raw_score": 50,
       "score_cap": 59,
       "score_cap_reasons": [
-        "Mandatory experience requirement is 6-10 years"
+        "Mandatory experience requirement is 5+ years"
       ],
       "score_label": "STRETCH",
-      "title": "Senior Specialist, Information Security",
-      "company": "Bitpanda",
+      "title": "Senior Product Designer, Security",
+      "company": "Vinteden",
       "location": "Berlin, Germany",
       "location_analysis": {
         "category": "eligible_berlin",
@@ -1985,110 +1985,87 @@
       "location_scope": "Berlin",
       "working_model": "Remote",
       "role_family": {
-        "id": "it_audit_grc",
-        "label": "IT Audit / GRC",
+        "id": "other_security",
+        "label": "Other Security",
         "priority": 3,
-        "confidence": "medium",
-        "evidence": [
-          "iso 27001",
-          "risk assessment",
-          "compliance"
-        ]
+        "confidence": "low",
+        "evidence": []
       },
       "seniority": {
         "level": "senior",
         "label": "Senior",
         "evidence": "senior"
       },
-      "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5003324101",
-      "apply_url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5003324101",
-      "canonical_url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5003324101",
-      "source": "Greenhouse",
+      "url": "https://www.arbeitnow.com/jobs/companies/vinteden/senior-product-designer-security-berlin-146098",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/vinteden/senior-product-designer-security-berlin-146098",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/vinteden/senior-product-designer-security-berlin-146098",
+      "source": "Arbeitnow",
       "sources": [
-        "Greenhouse"
+        "Arbeitnow"
       ],
-      "ats": "greenhouse",
+      "ats": "",
       "priority_employer": false,
       "lead_type": "",
       "post_author": "",
       "feed_name": "",
-      "published_at": "2026-11-03T08:49:49Z",
-      "posting_age_days": 5,
+      "published_at": "2026-11-11T09:55:17Z",
+      "posting_age_days": 0,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 5,
-        "category": "recent",
-        "label": "RECENT"
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
       },
-      "urgency": "RECENT",
-      "first_seen": "2026-11-03T14:31:48Z",
-      "experience_required": "6-10 years",
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-11-11T14:38:34Z",
+      "experience_required": "5+ years",
       "german_requirement": "No German requirement detected",
       "skill_matches": {
-        "match": [
-          "vulnerability management"
-        ],
-        "partial": [
-          "nist"
-        ],
+        "match": [],
+        "partial": [],
         "missing": [
           "go",
-          "iso 27001",
           "rust"
         ],
         "nice_to_have": []
       },
       "mandatory_gaps": [
         {
-          "skill": "iso 27001",
+          "skill": "go",
           "profile_status": "missing",
           "requirement": "mandatory",
-          "evidence": "Strong working knowledge of ISO 27001 and DORA (and/or SOC 2 / PCI DSS / NIST) with ability to design controls, define evidence, and test effectiveness."
-        },
-        {
-          "skill": "nist",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Strong working knowledge of ISO 27001 and DORA (and/or SOC 2 / PCI DSS / NIST) with ability to design controls, define evidence, and test effectiveness."
+          "evidence": "Vinted Go enhances the shipping experience with a vast network of over 500,000 pick-up and drop-off points, partnering with more than 60 carriers across Europe, with added services like item verification for peace of mind on high-value pieces."
         }
       ],
       "potential_gaps": [
         {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Let’s go!"
-        },
-        {
           "skill": "rust",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future."
+          "evidence": "The team works to keep Vinted safe and trusted without compromising the member experience."
         }
       ],
       "optional_gaps": [],
       "score_breakdown": {
-        "role_alignment": 12,
-        "skills": 10,
-        "experience": 0,
+        "role_alignment": 10,
+        "skills": 4,
+        "experience": 4,
         "location": 15,
         "language": 10,
         "seniority": 4,
         "education": 3
       },
       "match_reasons": [
-        "Berlin remote role.",
-        "Evidenced matches include vulnerability management."
+        "Berlin remote role."
       ],
       "warnings": [
-        "Requests 6-10 years versus approximately 2.1 years in the profile.",
-        "Mandatory gaps: iso 27001, nist",
-        "Potential gaps: go, rust",
-        "Exposure only; do not claim deep expertise: nist",
-        "Mandatory experience requirement is 6-10 years"
+        "Requests 5+ years versus approximately 2.1 years in the profile.",
+        "Mandatory gaps: go",
+        "Potential gaps: rust",
+        "Mandatory experience requirement is 5+ years"
       ],
       "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "Who we are We simplify wealth creation. Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future. Our user-friendly, trade-everything platform empowers both first-time investors and seasoned experts to invest in the cryptocurrencies, crypto indices, stocks*, precious metals and commodities* they want — with any sized budget, 24/7. Our global team works across different cultures and time zones, bringing our products to more than 7 million customers, making us one of Europe’s safest and most secure platforms that powers modern investing. Headquartered in Austria but operating across Europe, our products are built by fast-moving, talented, “roll-up-your-sleeves-and-make-it-happen” kind of people. It’s these diverse perspectives and innovative minds operating as ONE TEAM that keep Bitpanda at the cutting edge of our industry. So if you’re someone who thinks big, moves fast and wants to make an impact right from day one, then get ready to join our industry-changing team. Let’s go! Your mission As an Information Security Senior Specialist, you will…"
+      "description_excerpt": "Brief info about Vinted Our mission is to make second-hand the first choice, and we're looking for people who want to help us get there. Every day, we work together to help our members buy and sell pre-loved clothing and lifestyle items, giving each piece a second life – or even a third. The Vinted Group is made up of three business units that support this mission: Vinted Marketplace is Europe’s leading platform for second-hand fashion and a go-to destination for all kinds of pre-loved items, with a growing range of categories. Our platform connects millions of members across 20+ markets, helping great items find a new life. Vinted Go enhances the shipping experience with a vast network of over 500,000 pick-up and drop-off points, partnering with more than 60 carriers across Europe, with added services like item verification for peace of mind on high-value pieces. Vinted Pay is the newest part of the Vinted Group, dedicated to bringing secure, reliable payments to buyers and sellers across Europe. Seamlessly integrated into the Vinted app, it helps keep every transaction safe, efficient, and easy for our members. Founded in 2008 in Lithuania, Vinted began as a way for friends to f…"
     },
     {
       "report_number": 16,
@@ -2144,10 +2121,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-30T12:54:06Z",
-      "posting_age_days": 11,
+      "posting_age_days": 12,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 11,
+        "age_days": 12,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2411,10 +2388,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-30T13:09:26Z",
-      "posting_age_days": 11,
+      "posting_age_days": 12,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 11,
+        "age_days": 12,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2690,10 +2667,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-16T09:23:08Z",
-      "posting_age_days": 25,
+      "posting_age_days": 26,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 25,
+        "age_days": 26,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -2840,10 +2817,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-02T09:11:35Z",
-      "posting_age_days": 39,
+      "posting_age_days": 40,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 39,
+        "age_days": 40,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -2940,7 +2917,8 @@
       "score_cap": 69,
       "score_cap_reasons": [
         "Senior title is above the profile's current 2+ years",
-        "One explicitly mandatory skill is not evidenced"
+        "One explicitly mandatory skill is not evidenced",
+        "Posting is 61 days old; verify that it is active"
       ],
       "score_label": "REVIEW",
       "title": "Senior Security Engineer (F/M/D)",
@@ -2987,10 +2965,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-11T10:13:09Z",
-      "posting_age_days": 60,
+      "posting_age_days": 61,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 60,
+        "age_days": 61,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -3055,7 +3033,8 @@
         "Potential gaps: iso 27001",
         "Exposure only; do not claim deep expertise: incident response, network security",
         "Senior title is above the profile's current 2+ years",
-        "One explicitly mandatory skill is not evidenced"
+        "One explicitly mandatory skill is not evidenced",
+        "Posting is 61 days old; verify that it is active"
       ],
       "recommendation": "REVIEW - material seniority, language, or skill risk",
       "description_excerpt": "THE OPPORTUNITY Join our Global IT Infrastructure team and take ownership of security operations that protect NavVis worldwide. You’ll lead detection and incident response across corporate IT and SaaS environments, working hand-in-hand with Service Delivery, Cloud Infrastructure Engineering, and our Cloud Infrastructure Engineer. This is an hands-on role where you’ll make real impact—investigating threats, driving improvements, and shaping security processes. No ticket forwarding, no passive coordination—just meaningful responsibility and the chance to build a security posture you can be proud of. If you thrive on solving complex problems, love staying ahead of emerging threats, and want to safeguard technology that powers the future of spatial intelligence, we want to hear from you! HOW YOU WILL MAKE AN IMPACT Lead security incident response and drive continuous improvements. Own Microsoft Defender, email security, and phishing protection. Strengthen network security with IT Ops: firewalls, VPNs, segmentation. Manage vulnerability scanning, remediation, and risk reporting. Govern access reviews and enforce least privileges. Run ISO 27001 & SOC 2 audits and coordinate via Vanta. S…"
@@ -3770,14 +3749,14 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-11-03T08:50:12Z",
-      "posting_age_days": 5,
+      "posting_age_days": 8,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 5,
-        "category": "recent",
-        "label": "RECENT"
+        "age_days": 8,
+        "category": "current",
+        "label": "OPEN FOR REVIEW"
       },
-      "urgency": "RECENT",
+      "urgency": "OPEN FOR REVIEW",
       "first_seen": "2026-11-04T14:46:52Z",
       "experience_required": "4-7 years",
       "german_requirement": "No German requirement detected",
@@ -4164,10 +4143,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-11-05T17:48:33Z",
-      "posting_age_days": 4,
+      "posting_age_days": 5,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 4,
+        "age_days": 5,
         "category": "recent",
         "label": "RECENT"
       },
@@ -4298,10 +4277,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-19T08:41:49Z",
-      "posting_age_days": 22,
+      "posting_age_days": 23,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 22,
+        "age_days": 23,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -4423,14 +4402,14 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-11-02T18:44:15Z",
-      "posting_age_days": 7,
+      "posting_age_days": 8,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 7,
-        "category": "recent",
-        "label": "RECENT"
+        "age_days": 8,
+        "category": "current",
+        "label": "OPEN FOR REVIEW"
       },
-      "urgency": "RECENT",
+      "urgency": "OPEN FOR REVIEW",
       "first_seen": "2026-09-30T11:17:18Z",
       "experience_required": "5+ years",
       "german_requirement": "No German requirement detected",
@@ -4568,10 +4547,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-30T12:41:53Z",
-      "posting_age_days": 11,
+      "posting_age_days": 12,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 11,
+        "age_days": 12,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -4644,170 +4623,6 @@
     },
     {
       "report_number": 35,
-      "job_key": "1f74892653c6467e49ca",
-      "status": "SEEN_BEFORE",
-      "application_status": "NEW",
-      "score": 59,
-      "raw_score": 74,
-      "score_cap": 59,
-      "score_cap_reasons": [
-        "Multiple explicitly mandatory skills are not evidenced"
-      ],
-      "score_label": "STRETCH",
-      "title": "Senior Cloud Security Engineer",
-      "company": "N26",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin on-site role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "On-site"
-      },
-      "location_scope": "Berlin",
-      "working_model": "On-site",
-      "role_family": {
-        "id": "cloud_devsecops",
-        "label": "Cloud Security / DevSecOps",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "cloud security",
-          "cloud security"
-        ]
-      },
-      "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
-      },
-      "url": "https://n26.com/en-eu/careers/positions/8076441?gh_jid=8076441",
-      "apply_url": "https://n26.com/en-eu/careers/positions/8076441?gh_jid=8076441",
-      "canonical_url": "https://n26.com/en-eu/careers/positions/8076441?gh_jid=8076441",
-      "source": "Greenhouse",
-      "sources": [
-        "Greenhouse"
-      ],
-      "ats": "greenhouse",
-      "priority_employer": true,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-10-01T13:10:42Z",
-      "posting_age_days": 11,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 11,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
-      },
-      "urgency": "OPEN FOR REVIEW",
-      "first_seen": "2026-08-16T21:45:22Z",
-      "experience_required": null,
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "owasp",
-          "penetration testing",
-          "python",
-          "security automation",
-          "security testing",
-          "threat modeling"
-        ],
-        "partial": [
-          "aws",
-          "ci/cd",
-          "cloud security",
-          "incident response"
-        ],
-        "missing": [
-          "bash",
-          "go",
-          "infrastructure as code",
-          "kubernetes",
-          "terraform"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Cloud Security: Competent understanding and experience of securing at minimum AWS cloud infrastructure environments, CI/CD pipelines, containerized environment and Linux systems."
-        },
-        {
-          "skill": "bash",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Scripting Skills: Proficiency in Python, Bash, or GO for scripting and automation."
-        },
-        {
-          "skill": "ci/cd",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Cloud Security: Competent understanding and experience of securing at minimum AWS cloud infrastructure environments, CI/CD pipelines, containerized environment and Linux systems."
-        },
-        {
-          "skill": "cloud security",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Cloud Security: Competent understanding and experience of securing at minimum AWS cloud infrastructure environments, CI/CD pipelines, containerized environment and Linux systems."
-        },
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Scripting Skills: Proficiency in Python, Bash, or GO for scripting and automation."
-        },
-        {
-          "skill": "infrastructure as code",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Cloud Deployment: Hands-on Experience with modern cloud technology components and deployment patterns: virtual machines, containers, Kubernetes, serverless, infrastructure as code, etc."
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Cloud Deployment: Hands-on Experience with modern cloud technology components and deployment patterns: virtual machines, containers, Kubernetes, serverless, infrastructure as code, etc."
-        },
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Automation Pro: Proficiency in using CI/CD pipelines (e.g., Terraform) for implementing automated security testing and change management."
-        }
-      ],
-      "potential_gaps": [],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 14,
-        "experience": 10,
-        "location": 15,
-        "language": 10,
-        "seniority": 4,
-        "education": 5
-      },
-      "match_reasons": [
-        "Role family: Cloud Security / DevSecOps.",
-        "Berlin on-site role.",
-        "Evidenced matches include owasp, penetration testing, python, security automation, security testing."
-      ],
-      "warnings": [
-        "Mandatory gaps: aws, bash, ci/cd, cloud security, go, infrastructure as code",
-        "Exposure only; do not claim deep expertise: aws, ci/cd, cloud security, incident response",
-        "Multiple explicitly mandatory skills are not evidenced"
-      ],
-      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "About the opportunity Are you passionate about cybersecurity and eager to make a real impact in a dynamic environment? Look no further! We are on the lookout for a Senior Cloud Security Engineer who is ready to take the lead in proactively identifying and mitigating security threats and safeguarding our sensitive data. Join forces with our Platform and Data teams and be at the forefront of safeguarding our customer and our organisation. At N26, our Infrastructure Security team is on a mission to detect and remediate IT and cloud infrastructure security threats. We're dedicated to providing efficient and effective services that empower our N26 tech teams to thrive. Once here you will Drive the Cloud Infrastructure Security function roadmap in alignment with the Product Manager, Tech Lead, and Engineering Manager. Own, define and drive initiatives, solutions, processes and frameworks to proactively identify and mitigate security threats within our AWS infrastructure which leads to an overall improvement of our security maturity. Design, deploy and maintain state-of-the-art cloud-native security solutions, incorporating end-to-end data protection, advanced threat detection, automated…"
-    },
-    {
-      "report_number": 36,
       "job_key": "adf40ac5904cb1b075ac",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -5000,7 +4815,7 @@
       "description_excerpt": "Qdrant is an open-source vector search engine powering the next generation of AI applications, from semantic search and retrieval-augmented generation (RAG) to AI agents and real-time recommendations. Trusted by global leaders like Canva, HubSpot, Tripadvisor, Bosch, and Deutsche Telekom, we’re building the retrieval infrastructure layer for modern AI. Recently raising $50M in Series B funding, we are growing rapidly and committed to transforming how AI understands and interacts with data. As a remote-first company, we believe diverse backgrounds, perspectives, and experiences fuel innovation. Here, you’ll own meaningful work, tackle challenges, and grow alongside passionate individuals dedicated to shaping the future of AI. We are looking for a Mid-Level Security Engineer to own the hands-on engineering and operational work within our security program. You will be embedded in the Cloud Engineering team, report into the Security Officer, and work closely together to identify risks, set priorities, and drive security issues through remediation. You will act as a security enabler across all Product & Engineering. WHAT YOU WILL OWN - Run our public bug bounty program: triage reports,…"
     },
     {
-      "report_number": 37,
+      "report_number": 36,
       "job_key": "d50bd6edab70e0a144d3",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -5055,10 +4870,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-11-04T18:57:33Z",
-      "posting_age_days": 3,
+      "posting_age_days": 6,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 3,
+        "age_days": 6,
         "category": "recent",
         "label": "RECENT"
       },
@@ -5141,7 +4956,7 @@
       "description_excerpt": "Who we are We simplify wealth creation. Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future. Our user-friendly, trade-everything platform empowers both first-time investors and seasoned experts to invest in the cryptocurrencies, crypto indices, stocks*, precious metals and commodities* they want — with any sized budget, 24/7. Our global team works across different cultures and time zones, bringing our products to more than 7 million customers, making us one of Europe’s safest and most secure platforms that powers modern investing. Headquartered in Austria but operating across Europe, our products are built by fast-moving, talented, “roll-up-your-sleeves-and-make-it-happen” kind of people. It’s these diverse perspectives and innovative minds operating as ONE TEAM that keep Bitpanda at the cutting edge of our industry. So if you’re someone who thinks big, moves fast and wants to make an impact right from day one, then get ready to join our industry-changing team. Let’s go! Your mission As an Information Security Expert, you are a senior ind…"
     },
     {
-      "report_number": 38,
+      "report_number": 37,
       "job_key": "b8cd59fa1a90fef70e9e",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -5269,7 +5084,7 @@
       "description_excerpt": "Superhuman offers a dynamic hybrid working model for this role. This flexible approach gives team members the best of both worlds: plenty of focus time along with in-person collaboration that helps foster trust, innovation, and a strong team culture. About Superhuman Grammarly is now part of Superhuman, the AI productivity platform on a mission to unlock the superhuman potential in everyone. The Superhuman suite of apps and agents brings AI wherever people work, integrating with over 1 million applications and websites. The company’s products include Grammarly’s writing assistance, Superhuman Docs’ collaborative workspaces, Mail’s inbox management, and Go, the proactive AI assistant that understands context and delivers help automatically. Founded in 2009, Superhuman empowers over 40 million people, 50,000 organizations, and 3,000 educational institutions worldwide to eliminate busywork and focus on what matters. Learn more at superhuman.com. The Opportunity Superhuman is on a mission to build the fastest, most delightful productivity experiences powered by AI. As we scale rapidly, our internal technology operations must evolve to match our ambition. We’re looking for a Security E…"
     },
     {
-      "report_number": 39,
+      "report_number": 38,
       "job_key": "a03342dd76095c14515c",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -5455,7 +5270,7 @@
       "description_excerpt": "Redefine the future of live entertainment tech Welcome to vivenu, the global leader in event ticketing tech and one of the world’s fastest-growing live entertainment tech firms. We are transforming event ticketing for global leaders like the Grammys, the Golden Globes, Stanford University and the Hockenheimring turning what was once a simple transaction into a strategic business advantage. Backed by over $65 million in funding, our platform empowers event organizers to own their brand experience, unlock deep data insights, and seamlessly integrate ticketing into their digital infrastructure. With six offices worldwide and growing, we deliver a customizable, intuitive solution and industry-leading support that simplify even the most complex ticketing challenges – helping organizers deliver exceptional experiences and drive real growth. Join us and build the future of live entertainment. With over 10 million end users and usage quadrupling annually, our infrastructure now handles over 1 billion requests per month — and counting. Our API-first platform solves complex system challenges at scale — delivering performance, flexibility, and reliability for the world’s leading live enterta…"
     },
     {
-      "report_number": 40,
+      "report_number": 39,
       "job_key": "2e0bc4a58933748effd2",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -5608,7 +5423,7 @@
       "description_excerpt": "Support us in designing the insurance experience of the future. As an IT Security Engineer you own IT Security Operations at getolo end to end: running our detection and response capability day to day, keeping endpoints and infrastructure hardened, and driving incidents, vulnerabilities and findings to closure. Security operations is the core of this role. Beyond it, you bring an operator's perspective into how we design systems and into our governance work, to ensure control effectiveness. This is a full-time hybrid role, with 1–2 days per week working from our Berlin office. Requirements Your Mission Security Operations - your primary function Run and continuously improve our SIEM: log source onboarding, detection rules, tuning, alert quality Automate orchestration and response with SOAR Operate endpoint protection across our fleet Triage and manage alerts, driving them to closure or escalation Lead incident management from detection through containment, recovery and post-incident review Detect and remediate configuration drift against hardening baselines; run technical audits Oversee vulnerability management: scanning, prioritisation, and remediation tracking with IT and engine…"
     },
     {
-      "report_number": 41,
+      "report_number": 40,
       "job_key": "04a3d5752b4e49f488ab",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -5750,7 +5565,7 @@
       "description_excerpt": "Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents faster, and optimize telemetry at scale. Built on open source and open standards and designed for interoperability across any stack, Grafana Cloud brings AI to observability and observability to AI, giving teams (and their agents) unified visibility so they can see, understand, and act on all their disparate data, wherever it lives, and move at the speed of their ambitions. Customers, including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce, rely on Grafana Labs. We are a 100% remote company with team members across 40+ countries, backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at grafana.com and follow us on LinkedIn and X. We’re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an innovation-driven environment where transparency, autonomy, and trust fuel everything we do. You may…"
     },
     {
-      "report_number": 42,
+      "report_number": 41,
       "job_key": "db8aaa804d8c25ef23c4",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -5807,10 +5622,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-13T14:32:45Z",
-      "posting_age_days": 28,
+      "posting_age_days": 29,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 28,
+        "age_days": 29,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -5930,7 +5745,7 @@
       "description_excerpt": "WHO WE ARE We prioritise privacy as a fundamental right, delivering the most secure communication experience across various industries. Our cutting-edge encryption technology and robust security measures have made us a trusted partner in the technology, finance, healthcare, and government sectors. If you are passionate about redefining secure communication and want to be part of an innovative team, join us as a Senior Security Engineer in our Security organisation. Together, let us build a world where privacy and security shape the future of communication. GENERAL INFORMATION Employment Type: 12-month contract with the possibility of extension Previous working experience: 5-7 years in Product Security Working hours: 40hrs/week Working Location: Remote EU / Berlin Desired start date: As soon as possible YOUR CHALLENGE AT WIRE Be ready to play an essential role by joining our Information Security Team. You will become a pioneer in transforming how organisations and governments communicate securely. You will work closely with the Director of Information Security and interact with the engineering, product, and other teams regularly. Your areas of work are: Product Security You review…"
     },
     {
-      "report_number": 43,
+      "report_number": 42,
       "job_key": "b0c87693b777ab13ba5f",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -6108,13 +5923,146 @@
       ],
       "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
       "description_excerpt": "Come join the organization that is redefining security for the AI era. As one of the fastest-growing startups ever, we enable teams to secure cloud and AI applications by connecting code, cloud, and runtime into a single shared context. Trusted by security teams all over the world, we have a proven track record of success and a culture that values world-class talent. Not to mention, we're now powered by Google, meaning we offer our customers an AI-powered platform that harnesses Google’s Threat Intelligence and Security Operations to better detect, prevent, and respond to threats across all environments, allowing for further innovation. Our Wizards from all over the globe work together to protect the infrastructure of our customers, including over 65% of the Fortune 100, who trust us to scan and secure over 230 billion files daily. We’re honored to be a leading player in a massive and growing market, and we continue to look for exceptional Wizards who are eager to make a significant impact on our team. At Wiz, you’ll have the freedom to think creatively, dream big, and use your full range of skills to contribute to our momentous growth. Come join our team and help us create secure…"
+    },
+    {
+      "report_number": 43,
+      "job_key": "9e41fd168e09c19854b6",
+      "status": "SEEN_BEFORE",
+      "application_status": "NEW",
+      "score": 54,
+      "raw_score": 54,
+      "score_cap": 59,
+      "score_cap_reasons": [
+        "Mandatory experience requirement is 6-10 years"
+      ],
+      "score_label": "STRETCH",
+      "title": "Senior Specialist, Information Security",
+      "company": "Bitpanda",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin remote role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Remote"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "it_audit_grc",
+        "label": "IT Audit / GRC",
+        "priority": 3,
+        "confidence": "medium",
+        "evidence": [
+          "iso 27001",
+          "risk assessment",
+          "compliance"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5003324101",
+      "apply_url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5003324101",
+      "canonical_url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5003324101",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "ats": "greenhouse",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-11-03T08:49:49Z",
+      "posting_age_days": 8,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 8,
+        "category": "current",
+        "label": "OPEN FOR REVIEW"
+      },
+      "urgency": "OPEN FOR REVIEW",
+      "first_seen": "2026-11-03T14:31:48Z",
+      "experience_required": "6-10 years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "vulnerability management"
+        ],
+        "partial": [
+          "nist"
+        ],
+        "missing": [
+          "go",
+          "iso 27001",
+          "rust"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Strong working knowledge of ISO 27001 and DORA (and/or SOC 2 / PCI DSS / NIST) with ability to design controls, define evidence, and test effectiveness."
+        },
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Strong working knowledge of ISO 27001 and DORA (and/or SOC 2 / PCI DSS / NIST) with ability to design controls, define evidence, and test effectiveness."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Let’s go!"
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 12,
+        "skills": 10,
+        "experience": 0,
+        "location": 15,
+        "language": 10,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Berlin remote role.",
+        "Evidenced matches include vulnerability management."
+      ],
+      "warnings": [
+        "Requests 6-10 years versus approximately 2.1 years in the profile.",
+        "Mandatory gaps: iso 27001, nist",
+        "Potential gaps: go, rust",
+        "Exposure only; do not claim deep expertise: nist",
+        "Mandatory experience requirement is 6-10 years"
+      ],
+      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
+      "description_excerpt": "Who we are We simplify wealth creation. Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future. Our user-friendly, trade-everything platform empowers both first-time investors and seasoned experts to invest in the cryptocurrencies, crypto indices, stocks*, precious metals and commodities* they want — with any sized budget, 24/7. Our global team works across different cultures and time zones, bringing our products to more than 7 million customers, making us one of Europe’s safest and most secure platforms that powers modern investing. Headquartered in Austria but operating across Europe, our products are built by fast-moving, talented, “roll-up-your-sleeves-and-make-it-happen” kind of people. It’s these diverse perspectives and innovative minds operating as ONE TEAM that keep Bitpanda at the cutting edge of our industry. So if you’re someone who thinks big, moves fast and wants to make an impact right from day one, then get ready to join our industry-changing team. Let’s go! Your mission As an Information Security Senior Specialist, you will…"
     }
   ],
   "source_status": {
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 2142,
+      "jobs": 2124,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -6138,40 +6086,29 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 4498,
-      "requests": 61,
+      "jobs": 6166,
+      "requests": 67,
       "errors": [],
       "error": "",
-      "companies_checked": 61,
-      "companies_successful": 61,
+      "companies_checked": 67,
+      "companies_successful": 67,
       "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 243,
-      "requests": 8,
+      "jobs": 254,
+      "requests": 9,
       "errors": [],
       "error": "",
-      "companies_checked": 8,
-      "companies_successful": 8,
+      "companies_checked": 9,
+      "companies_successful": 9,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 180,
-      "requests": 3,
-      "errors": [],
-      "error": "",
-      "companies_checked": 3,
-      "companies_successful": 3,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 139,
+      "jobs": 991,
       "requests": 4,
       "errors": [],
       "error": "",
@@ -6179,95 +6116,102 @@
       "companies_successful": 4,
       "companies_failed": 0
     },
-    "recruitee": {
-      "status": "idle",
+    "personio": {
+      "status": "ok",
       "ok": true,
-      "jobs": 0,
-      "requests": 0,
+      "jobs": 132,
+      "requests": 3,
       "errors": [],
       "error": "",
-      "companies_checked": 0,
-      "companies_successful": 0,
+      "companies_checked": 3,
+      "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "recruitee": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 6,
+      "requests": 1,
+      "errors": [],
+      "error": "",
+      "companies_checked": 1,
+      "companies_successful": 1,
       "companies_failed": 0
     }
   },
   "all_sources_failed": false,
   "employer_scan": {
     "mode": "daily",
-    "generated_at": "2026-11-10T15:07:43Z",
+    "generated_at": "2026-11-11T14:38:34Z",
     "sources": {
       "greenhouse": {
         "source": "greenhouse",
         "mode": "daily",
-        "batch_index": 1,
+        "batch_index": 2,
         "configured_enabled": 172,
         "priority_configured": 34,
-        "selected": 61,
-        "skipped_by_rotation": 104,
+        "selected": 67,
+        "skipped_by_rotation": 98,
         "skipped_by_cooldown": 7,
         "rotation_skip_keys": [
           "greenhouse:abnormalsecurity",
           "greenhouse:adahealth",
           "greenhouse:affirm",
           "greenhouse:airbnb",
-          "greenhouse:algolia",
+          "greenhouse:airspace",
+          "greenhouse:airtable",
           "greenhouse:andurilindustries",
-          "greenhouse:anthropic",
-          "greenhouse:bitpanda",
-          "greenhouse:block",
+          "greenhouse:applovin",
+          "greenhouse:bitgo",
           "greenhouse:brex",
-          "greenhouse:bridgebio",
-          "greenhouse:bugcrowd",
           "greenhouse:calm",
           "greenhouse:carta",
-          "greenhouse:chainguard",
-          "greenhouse:charterup",
           "greenhouse:checkr",
           "greenhouse:chime",
+          "greenhouse:circleci",
+          "greenhouse:civicnation",
+          "greenhouse:cloudflare",
+          "greenhouse:cockroachlabs",
           "greenhouse:coinbase",
           "greenhouse:coursera",
           "greenhouse:cribl",
+          "greenhouse:cultureamp",
+          "greenhouse:databricks",
           "greenhouse:datadog",
           "greenhouse:dialpad",
-          "greenhouse:discord",
           "greenhouse:dropbox",
+          "greenhouse:duolingo",
           "greenhouse:elastic",
-          "greenhouse:faire",
+          "greenhouse:epicgames",
           "greenhouse:fastly",
-          "greenhouse:figma",
           "greenhouse:fireblocks",
-          "greenhouse:fivetran",
-          "greenhouse:flatironhealth",
           "greenhouse:flexport",
           "greenhouse:freenow",
-          "greenhouse:gemini",
           "greenhouse:gitlab",
           "greenhouse:gleanwork",
           "greenhouse:grafanalabs",
+          "greenhouse:greenhouse",
           "greenhouse:guardsquare",
+          "greenhouse:gusto",
           "greenhouse:honeycomb",
-          "greenhouse:huntress",
-          "greenhouse:instacart",
+          "greenhouse:imply",
           "greenhouse:instawork",
-          "greenhouse:intercom",
           "greenhouse:isaraerospace",
           "greenhouse:jetbrains",
           "greenhouse:justworks",
           "greenhouse:khanacademy",
+          "greenhouse:klanggames",
           "greenhouse:knowbe4",
+          "greenhouse:lattice",
           "greenhouse:launchdarkly",
-          "greenhouse:locusrobotics",
           "greenhouse:lookoutinc",
-          "greenhouse:lucidsoftware",
           "greenhouse:lyft",
           "greenhouse:magicleap",
           "greenhouse:mavenclinic",
-          "greenhouse:melio",
           "greenhouse:mercari",
+          "greenhouse:mercury",
           "greenhouse:mixpanel",
-          "greenhouse:mongodb",
           "greenhouse:newrelic",
-          "greenhouse:nuro",
           "greenhouse:okta",
           "greenhouse:orcasecurity",
           "greenhouse:oscar",
@@ -6275,41 +6219,39 @@
           "greenhouse:pandadoc",
           "greenhouse:peloton",
           "greenhouse:pinterest",
+          "greenhouse:planetscale",
           "greenhouse:poshmark",
-          "greenhouse:precisionmedicinegroup",
-          "greenhouse:pulley",
-          "greenhouse:raisin",
-          "greenhouse:recursionpharmaceuticals",
           "greenhouse:reddit",
+          "greenhouse:riotgames",
+          "greenhouse:ripple",
           "greenhouse:robinhood",
           "greenhouse:roblox",
           "greenhouse:salesloft",
-          "greenhouse:samsara",
-          "greenhouse:scaleai",
-          "greenhouse:scopely",
           "greenhouse:seatgeek",
           "greenhouse:singlestore",
           "greenhouse:sixgeninc",
+          "greenhouse:sofi",
           "greenhouse:spacex",
           "greenhouse:squarespace",
-          "greenhouse:stabilityai",
+          "greenhouse:starburst",
           "greenhouse:stockx",
-          "greenhouse:stripe",
+          "greenhouse:stubhubinc",
           "greenhouse:sumologic",
+          "greenhouse:sweetgreen",
           "greenhouse:tailscale",
           "greenhouse:tanium",
           "greenhouse:thirdbridge",
+          "greenhouse:togetherai",
           "greenhouse:twilio",
-          "greenhouse:twitch",
-          "greenhouse:upstart",
           "greenhouse:veeamsoftware",
           "greenhouse:verkada",
           "greenhouse:waymo",
           "greenhouse:webflow",
           "greenhouse:wizinc",
-          "greenhouse:xai",
-          "greenhouse:yugabyte",
-          "greenhouse:zetaglobal"
+          "greenhouse:wolt",
+          "greenhouse:wooga",
+          "greenhouse:zetaglobal",
+          "greenhouse:zoominfo"
         ],
         "cooldown_skip_keys": [
           "greenhouse:clickhouse",
@@ -6324,16 +6266,15 @@
       "ashby": {
         "source": "ashby",
         "mode": "daily",
-        "batch_index": 1,
+        "batch_index": 2,
         "configured_enabled": 13,
         "priority_configured": 8,
-        "selected": 8,
-        "skipped_by_rotation": 4,
+        "selected": 9,
+        "skipped_by_rotation": 3,
         "skipped_by_cooldown": 1,
         "rotation_skip_keys": [
           "ashby:choco",
           "ashby:enpal",
-          "ashby:langdock",
           "ashby:n8n"
         ],
         "cooldown_skip_keys": [
@@ -6343,46 +6284,45 @@
       "lever": {
         "source": "lever",
         "mode": "daily",
-        "batch_index": 1,
+        "batch_index": 2,
         "configured_enabled": 6,
         "priority_configured": 2,
-        "selected": 3,
-        "skipped_by_rotation": 3,
+        "selected": 4,
+        "skipped_by_rotation": 2,
         "skipped_by_cooldown": 0,
         "rotation_skip_keys": [
-          "lever:olx",
           "lever:saviynt",
-          "lever:veeva"
+          "lever:westernacher"
         ],
         "cooldown_skip_keys": []
       },
       "personio": {
         "source": "personio",
         "mode": "daily",
-        "batch_index": 1,
+        "batch_index": 2,
         "configured_enabled": 7,
         "priority_configured": 3,
-        "selected": 4,
-        "skipped_by_rotation": 3,
+        "selected": 3,
+        "skipped_by_rotation": 4,
         "skipped_by_cooldown": 0,
         "rotation_skip_keys": [
           "personio:dnsnet",
           "personio:liveeo-gmbh",
-          "personio:perseus"
+          "personio:perseus",
+          "personio:syseleven"
         ],
         "cooldown_skip_keys": []
       },
       "recruitee": {
         "source": "recruitee",
         "mode": "daily",
-        "batch_index": 1,
+        "batch_index": 2,
         "configured_enabled": 2,
         "priority_configured": 0,
-        "selected": 0,
-        "skipped_by_rotation": 2,
+        "selected": 1,
+        "skipped_by_rotation": 1,
         "skipped_by_cooldown": 0,
         "rotation_skip_keys": [
-          "recruitee:cygridgmbh",
           "recruitee:dransay"
         ],
         "cooldown_skip_keys": []
@@ -6390,35 +6330,35 @@
     }
   },
   "rejection_summary": {
-    "The vacancy has an explicit location outside Berlin/Germany-remote/Europe-remote/worldwide-remote scope": 76,
-    "Excluded seniority in title: Staff/Principal": 25,
-    "On-site role is not located in Berlin": 20,
-    "Advanced/fluent German required": 18,
-    "Hybrid role is not located in Berlin": 17,
-    "Germany role is on-site/hybrid outside Berlin; only Germany-remote roles are allowed": 14,
-    "Excluded seniority in title: Management": 13,
-    "Mandatory experience is too senior: 10+ years": 9,
-    "Excluded seniority in title: Lead/Architect": 8,
-    "Vacancy text is predominantly German; the radar is limited to English-speaking roles": 8,
-    "Excluded seniority in title: Executive": 7,
-    "Mandatory experience is too senior: 8+ years": 5,
-    "German C1 required": 4,
+    "The vacancy has an explicit location outside Berlin/Germany-remote/Europe-remote/worldwide-remote scope": 187,
+    "Excluded seniority in title: Staff/Principal": 40,
+    "Excluded seniority in title: Management": 34,
+    "On-site role is not located in Berlin": 25,
+    "Advanced/fluent German required": 19,
+    "Mandatory experience is too senior: 8+ years": 16,
+    "Mandatory experience is too senior: 10+ years": 11,
+    "Germany role is on-site/hybrid outside Berlin; only Germany-remote roles are allowed": 11,
+    "Excluded seniority in title: Lead/Architect": 11,
+    "Excluded seniority in title: Executive": 9,
+    "Vacancy text is predominantly German; the radar is limited to English-speaking roles": 4,
     "German C2 required": 4,
-    "Mandatory experience is too senior: 15+ years": 2,
-    "Posting is too old: 411 days (maximum 120)": 2,
-    "Excluded seniority/employment type in title: security director": 1,
+    "Mandatory experience is too senior: 12+ years": 4,
+    "Mandatory experience is too senior: 15+ years": 3,
+    "German C1 required": 3,
+    "Hybrid role is not located in Berlin": 3,
+    "Mandatory experience is too senior: 8-12 years": 2,
+    "Posting is too old: 412 days (maximum 120)": 2,
     "Excluded seniority/employment type in title: chief information security officer": 1,
-    "Excluded seniority/employment type in title: internship": 1,
-    "Excluded seniority/employment type in title: werkstudent": 1,
-    "Student/internship-only employment type": 1,
-    "Mandatory experience is too senior: 12+ years": 1,
-    "Posting is too old: 188 days (maximum 120)": 1,
-    "Posting is too old: 203 days (maximum 120)": 1,
-    "Posting is too old: 363 days (maximum 120)": 1,
-    "Posting is too old: 545 days (maximum 120)": 1,
-    "Posting is too old: 617 days (maximum 120)": 1,
-    "Posting is too old: 781 days (maximum 120)": 1,
+    "Excluded seniority/employment type in title: security director": 1,
+    "Insufficient cybersecurity relevance": 1,
+    "Mandatory experience is too senior: 8-15 years": 1,
+    "Posting is too old: 189 days (maximum 120)": 1,
+    "Posting is too old: 204 days (maximum 120)": 1,
+    "Posting is too old: 364 days (maximum 120)": 1,
+    "Posting is too old: 546 days (maximum 120)": 1,
+    "Posting is too old: 618 days (maximum 120)": 1,
+    "Posting is too old: 782 days (maximum 120)": 1,
     "Posting is too old: 532 days (maximum 120)": 1,
-    "Posting is too old: 533 days (maximum 120)": 1
+    "Posting is too old: 534 days (maximum 120)": 1
   }
 }
