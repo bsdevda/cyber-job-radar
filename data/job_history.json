@@ -9928,6 +9928,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-11-12T15:29:54Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 8106,
+      "security_title_candidates": 329,
+      "prefiltered_non_security_jobs": 7777,
+      "unique_jobs_after_deduplication": 251,
+      "duplicates_removed": 78,
+      "jobs_rejected_or_below_threshold": 8015,
+      "relevant_jobs_in_current_run": 13,
+      "new_jobs": 1,
+      "updated_jobs": 2,
+      "strong_matches": 0,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 43,
+      "jobs_by_source": {
+        "arbeitnow": 2181,
+        "remotive": 14,
+        "linkedin_posts": 0,
+        "greenhouse": 5293,
+        "ashby": 296,
+        "lever": 153,
+        "personio": 165,
+        "recruitee": 4
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 26.4,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2181,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 14,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 5293,
+          "requests": 57,
+          "errors": [],
+          "error": "",
+          "companies_checked": 57,
+          "companies_successful": 57,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 296,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 153,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 165,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 4,
+          "requests": 1,
+          "errors": [],
+          "error": "",
+          "companies_checked": 1,
+          "companies_successful": 1,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -17509,6 +17622,37 @@
       "event": "REMOVED",
       "company": "N26",
       "title": "Senior Cloud Security Engineer"
+    },
+    {
+      "at": "2026-11-12T15:29:54Z",
+      "job_key": "d109d27448fdf0dc0ee1",
+      "event": "NEW",
+      "company": "Camunda",
+      "title": "Information Security Engineer - Application Security",
+      "score": 69
+    },
+    {
+      "at": "2026-11-12T15:29:54Z",
+      "job_key": "d5e70e0d1676f46b2fc2",
+      "event": "UPDATED",
+      "company": "Vinteden",
+      "title": "Senior Product Designer, Security",
+      "score": 50
+    },
+    {
+      "at": "2026-11-12T15:29:54Z",
+      "job_key": "729a044bba71f5b2b24a",
+      "event": "UPDATED",
+      "company": "N26",
+      "title": "IT Audit Manger / ICT Service Auditor",
+      "score": 76
+    },
+    {
+      "at": "2026-11-12T15:29:54Z",
+      "job_key": "40b19b438b26cecdea1f",
+      "event": "REMOVED",
+      "company": "Vectranetworks",
+      "title": "Security Engineer, Pre-Sales"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T14:38:34Z",
+  "generated_at": "2026-11-12T15:29:54Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,42 +171,42 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-11-11T14:38:34Z",
+    "generated_at": "2026-11-12T15:29:54Z",
     "scoring_version": 2.2,
-    "jobs_collected": 9686,
-    "security_title_candidates": 355,
-    "prefiltered_non_security_jobs": 9331,
-    "unique_jobs_after_deduplication": 269,
-    "duplicates_removed": 86,
-    "jobs_rejected_or_below_threshold": 9584,
-    "relevant_jobs_in_current_run": 16,
+    "jobs_collected": 8106,
+    "security_title_candidates": 329,
+    "prefiltered_non_security_jobs": 7777,
+    "unique_jobs_after_deduplication": 251,
+    "duplicates_removed": 78,
+    "jobs_rejected_or_below_threshold": 8015,
+    "relevant_jobs_in_current_run": 13,
     "new_jobs": 1,
-    "updated_jobs": 1,
+    "updated_jobs": 2,
     "strong_matches": 0,
     "sources_checked": 8,
     "sources_failed": 0,
     "sources_partial": 0,
     "report_jobs": 43,
     "jobs_by_source": {
-      "arbeitnow": 2124,
-      "remotive": 13,
+      "arbeitnow": 2181,
+      "remotive": 14,
       "linkedin_posts": 0,
-      "greenhouse": 6166,
-      "ashby": 254,
-      "lever": 991,
-      "personio": 132,
-      "recruitee": 6
+      "greenhouse": 5293,
+      "ashby": 296,
+      "lever": 153,
+      "personio": 165,
+      "recruitee": 4
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 25.1
+    "workflow_duration_seconds": 26.4
   },
   "source_status": {
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 2124,
+      "jobs": 2181,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 13,
+      "jobs": 14,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -230,18 +230,18 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 6166,
-      "requests": 67,
+      "jobs": 5293,
+      "requests": 57,
       "errors": [],
       "error": "",
-      "companies_checked": 67,
-      "companies_successful": 67,
+      "companies_checked": 57,
+      "companies_successful": 57,
       "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 254,
+      "jobs": 296,
       "requests": 9,
       "errors": [],
       "error": "",
@@ -252,18 +252,7 @@
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 991,
-      "requests": 4,
-      "errors": [],
-      "error": "",
-      "companies_checked": 4,
-      "companies_successful": 4,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 132,
+      "jobs": 153,
       "requests": 3,
       "errors": [],
       "error": "",
@@ -271,10 +260,21 @@
       "companies_successful": 3,
       "companies_failed": 0
     },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 165,
+      "requests": 6,
+      "errors": [],
+      "error": "",
+      "companies_checked": 6,
+      "companies_successful": 6,
+      "companies_failed": 0
+    },
     "recruitee": {
       "status": "ok",
       "ok": true,
-      "jobs": 6,
+      "jobs": 4,
       "requests": 1,
       "errors": [],
       "error": "",
@@ -286,6 +286,411 @@
   "jobs": [
     {
       "report_number": 1,
+      "job_key": "729a044bba71f5b2b24a",
+      "status": "UPDATED",
+      "application_status": "NEW",
+      "score": 76,
+      "raw_score": 76,
+      "score_cap": null,
+      "score_cap_reasons": [],
+      "score_label": "GOOD",
+      "title": "IT Audit Manger / ICT Service Auditor",
+      "company": "N26",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin remote role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Remote"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "it_audit_grc",
+        "label": "IT Audit / GRC",
+        "priority": 3,
+        "confidence": "medium",
+        "evidence": [
+          "iso 27001",
+          "internal audit",
+          "compliance"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://n26.com/en-eu/careers/positions/8239610?gh_jid=8239610",
+      "apply_url": "https://n26.com/en-eu/careers/positions/8239610?gh_jid=8239610",
+      "canonical_url": "https://n26.com/en-eu/careers/positions/8239610?gh_jid=8239610",
+      "source": "Greenhouse",
+      "sources": [
+        "Greenhouse"
+      ],
+      "ats": "greenhouse",
+      "priority_employer": true,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-11-11T15:36:36Z",
+      "posting_age_days": 0,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-10-01T11:44:36Z",
+      "experience_required": "6+ years preferred",
+      "german_requirement": "German is preferred/nice-to-have",
+      "skill_matches": {
+        "match": [
+          "stakeholder communication"
+        ],
+        "partial": [],
+        "missing": [],
+        "nice_to_have": [
+          "iso 27001 (missing)"
+        ]
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [],
+      "optional_gaps": [
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Holding professional certifications such as Certified Information Systems Auditor (CISA), ISO 27001 Lead Auditor, CISSP, or comparable qualifications, are a plus."
+        }
+      ],
+      "score_breakdown": {
+        "role_alignment": 12,
+        "skills": 23,
+        "experience": 4,
+        "location": 15,
+        "language": 9,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Berlin remote role.",
+        "Evidenced matches include stakeholder communication."
+      ],
+      "warnings": [
+        "Requests 6+ years preferred versus approximately 2.1 years in the profile.",
+        "Optional gaps: iso 27001"
+      ],
+      "recommendation": "REVIEW - verify mandatory requirements before applying",
+      "description_excerpt": "About the opportunity We are seeking an Internal IT Auditor to conduct the full IT audit cycle, ensuring operational effectiveness, reliability, and regulatory compliance across our internal IT environments and critical ICT third-party ecosystems. Our Internal Audit team provides independent assurance over risk and control management, and follows proactive risk mitigation and robust governance to safeguard our digital banking environment. This is a unique opportunity to play a pivotal role in shaping our IT resilience, where you will engage directly with internal architecture teams and critical external vendors to navigate the evolving landscape of digital banking and European financial regulations. In this role, you will: Execute the full audit cycle: Perform comprehensive risk and control management over IT operations to ensure effectiveness, reliability, and adherence to established professional and regulatory standards. Audit critical ICT services & vendors: Lead audits of third-party vendors, outsourced service providers, and cloud infrastructures, evaluating their control environments and how internal processes govern these external services. Analyze data and IT processes: O…",
+      "full_description": "About the opportunity\n\nWe are seeking an Internal IT Auditor to conduct the full IT audit cycle, ensuring operational effectiveness, reliability, and regulatory compliance across our internal IT environments and critical ICT third-party ecosystems. \nOur Internal Audit team provides independent assurance over risk and control management, and follows proactive risk mitigation and robust governance to safeguard our digital banking environment.\nThis is a unique opportunity to play a pivotal role in shaping our IT resilience, where you will engage directly with internal architecture teams and critical external vendors to navigate the evolving landscape of digital banking and European financial regulations.\n\nIn this role, you will:\n\nExecute the full audit cycle: Perform comprehensive risk and control management over IT operations to ensure effectiveness, reliability, and adherence to established professional and regulatory standards.\n\nAudit critical ICT services & vendors: Lead audits of third-party vendors, outsourced service providers, and cloud infrastructures, evaluating their control environments and how internal processes govern these external services.\n\nAnalyze data and IT processes: Obtain and evaluate documentation, flowcharts, and data using data-driven audit approaches for system development, IT security, and vendor management.\n\nDeliver impactful reporting: Prepare detailed Internal Audit reports that translate complex technical findings into business-relevant insights and actionable recommendations for senior management.\n\nDrive continuous improvement: Continuously monitor the IT and ICT vendor risk landscape, facilitate alignment discussions, and advise management on best practices and risk remediation actions.\n\nWhat you need to be successful:\n\n6 years of significant experience functioning as an Internal IT Auditor at an international company within a regulated environment (preferably a bank, financial institution, fintech, or an audit/consulting firm).\n\nHolding professional certifications such as Certified Information Systems Auditor (CISA), ISO 27001 Lead Auditor, CISSP, or comparable qualifications, are a plus.\n\nDeep understanding of IT General Controls (ITGC), modern IT/cloud architectures, operational resilience frameworks, and ICT Third-Party Risk Management (TPRM).\n\nSolid understanding of European financial regulatory frameworks relevant to IT and outsourcing, particularly DORA, and MaRisk.\n\nExperience in data-driven audit approaches, including large-scale data evaluation, and proficiency in modern audit tools and platforms.\n\nStrong ability to engage effectively with cross-functional internal teams and external ICT service providers, including reviewing third-party assurance attestations (e.g. SOC 1/SOC 2, ISO, ISAE 3402).\n\nHigh level of integrity and professional skepticism, combined with excellent interpersonal skills to influence both technical and non-technical stakeholders\n\nFluency in English is required (verbal and written). German is a plus.\n\nWhat’s in it for you:\n\nAccelerate your career growth by joining one of Europe’s most talked about disruptors 🚀.\n\nEmployee benefits that range from a competitive personal development budget, work from home budget, discounts to fitness & wellness memberships, language apps and public transportation. \n\nAs an N26 employee you will have access to a Premium subscription on your personal N26 bank account. As well as subscriptions for friends and family members. \n\nAdditional day of annual leave for each year of service. \n\nA high degree of autonomy and access to cutting edge technologies - all while working with a friendly team of peers of diverse nationalities, experiences, and backgrounds. \n\nA relocation package with visa support for those who need it.\n\nWho we are\n\nN26 has reimagined banking for today’s digital world. Technology and design empower everything we do and it’s how we are building the global banking platform the world loves to use.\n\nWe've eliminated physical branches, paperwork, and hidden fees for an elegant digital experience and supreme savings. Giving people the power to live and bank their way is what gets us out of bed in the morning and inspires the work that we do. \n\nWe are headquartered in Berlin with offices in multiple cities across Europe, including Madrid and Barcelona, and a 1,700-strong team of more than 80 nationalities. \n\nDo you see yourself thriving in this role? We’d love to see your application even if you don’t meet 100% of the criteria. You may just be the right fit for this or other roles!\n\nEqual opportunities for all\n\nAt N26, we believe our strength lies in our people and the varied perspectives they bring. We strive to build diverse teams that drive innovation and business success. We actively seek talent from all backgrounds and welcome applications from all genders, cultures, sexual orientations, abilities, neurodiversities, and ages.\n\nWe are committed to providing an excellent and accessible candidate experience. If you require any accommodations to make this process work for you, please let us know. We’re here to support you!\n\nDiscover more about Diversity & Inclusion at N26: https://n26.com/en-eu/diversity-and-inclusion",
+      "skill_requirements": [
+        {
+          "skill": "stakeholder communication",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "High level of integrity and professional skepticism, combined with excellent interpersonal skills to influence both technical and non-technical stakeholders"
+        },
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "Holding professional certifications such as Certified Information Systems Auditor (CISA), ISO 27001 Lead Auditor, CISSP, or comparable qualifications, are a plus."
+        }
+      ],
+      "german_analysis": {
+        "category": "nice",
+        "level": "unspecified",
+        "mandatory": false,
+        "label": "German is preferred/nice-to-have",
+        "evidence": "German is a plus."
+      },
+      "experience_analysis": {
+        "min_years": 6,
+        "max_years": null,
+        "optional": true,
+        "display": "6+ years preferred",
+        "evidence": "6 years of significant experience functioning as an Internal IT Auditor at an international company within a regulated environment (preferably a bank, financial institution, fintech, or an audit/consulting firm)."
+      }
+    },
+    {
+      "report_number": 2,
+      "job_key": "d109d27448fdf0dc0ee1",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 81,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "score_label": "REVIEW",
+      "title": "Information Security Engineer - Application Security",
+      "company": "Camunda",
+      "location": "Remote",
+      "location_analysis": {
+        "category": "eligible_worldwide_remote",
+        "eligible": true,
+        "score": 11,
+        "reason": "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
+        "verification_required": true,
+        "score_cap": 89,
+        "scope": "Worldwide remote",
+        "work_model": "Remote"
+      },
+      "location_scope": "Worldwide remote",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "application_security",
+        "label": "Application Security",
+        "priority": 1,
+        "confidence": "high",
+        "evidence": [
+          "application security",
+          "owasp"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://www.arbeitnow.com/jobs/companies/camunda/remote-information-security-engineer-application-security-333975",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/camunda/remote-information-security-engineer-application-security-333975",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/camunda/remote-information-security-engineer-application-security-333975",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-11-12T06:40:11Z",
+      "posting_age_days": 0,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-11-12T15:29:54Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "application security",
+          "cvss",
+          "owasp",
+          "penetration testing",
+          "python",
+          "security automation",
+          "security testing",
+          "threat modeling",
+          "vulnerability management",
+          "vulnerability triage"
+        ],
+        "partial": [
+          "ci/cd",
+          "incident response",
+          "javascript",
+          "product security",
+          "software development"
+        ],
+        "missing": [
+          "bug bounty",
+          "kubernetes",
+          "rust"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "product security",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Around 3+ years in security or software engineering, with at least 2 of them working on application or product security (AppSec, product security, pentesting, or a security-focused developer role all count)."
+        },
+        {
+          "skill": "software development",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Around 3+ years in security or software engineering, with at least 2 of them working on application or product security (AppSec, product security, pentesting, or a security-focused developer role all count)."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "bug bounty",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Exposure to security advisories, CVE disclosure or bug bounty programmes."
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Experience securing Kubernetes or container-based workloads, or open-source / B2B software."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Trusted by over 700 organizations worldwide, including 9 of top 10 US banks, Camunda helps enterprises boost operational efficiency, accelerate time-to-value, and deliver better customer experiences."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 20,
+        "skills": 17,
+        "experience": 10,
+        "location": 11,
+        "language": 10,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Application Security.",
+        "Worldwide/anywhere remote eligibility detected; verify employment from Germany.",
+        "Evidenced matches include application security, cvss, owasp, penetration testing, python."
+      ],
+      "warnings": [
+        "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
+        "Mandatory gaps: product security, software development",
+        "Potential gaps: bug bounty, kubernetes, rust",
+        "Exposure only; do not claim deep expertise: ci/cd, incident response, javascript, product security, software development",
+        "At least one explicitly mandatory skill has exposure only"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "Camunda is the enterprise platform for agentic orchestration, enabling organizations to coordinate AI agents, people, and systems across complex, end-to-end business processes. With built-in governance, auditability, and human oversight, Camunda gives enterprises the control they need to move AI from pilots to production — safely and at scale. Trusted by over 700 organizations worldwide, including 9 of top 10 US banks, Camunda helps enterprises boost operational efficiency, accelerate time-to-value, and deliver better customer experiences. Fully remote and global, we are in the middle of something bigger: transforming into an AI-first organisation, built on our own platform. We use Agentic AI to automate, orchestrate intelligent processes, and elevate human contribution across every team. Named GP Bullhound’s Top 100 Next Unicorn list, 2025 Great Place to Work certified. Visionary in 2025 Gartner® Magic Quadrant™ for Business Orchestration and Automation Technologies. ranked 3rd in Flexa's 2026 Most Flexible Companies, We’re growing fast and looking for top talent to join our team. If you want meaningful work, visible impact and put something genuinely rare on your CV, keep readin…",
+      "full_description": "Camunda is the enterprise platform for agentic orchestration, enabling organizations to coordinate AI agents, people, and systems across complex, end-to-end business processes. With built-in governance, auditability, and human oversight, Camunda gives enterprises the control they need to move AI from pilots to production — safely and at scale. Trusted by over 700 organizations worldwide, including 9 of top 10 US banks, Camunda helps enterprises boost operational efficiency, accelerate time-to-value, and deliver better customer experiences.\n\nFully remote and global, we are in the middle of something bigger: transforming into an AI-first organisation, built on our own platform. We use Agentic AI to automate, orchestrate intelligent processes, and elevate human contribution across every team.\n\nNamed GP Bullhound’s Top 100 Next Unicorn list, 2025 Great Place to Work certified. Visionary in 2025 Gartner® Magic Quadrant™ for Business Orchestration and Automation Technologies. ranked 3rd in Flexa's 2026 Most Flexible Companies, We’re growing fast and looking for top talent to join our team. If you want meaningful work, visible impact and put something genuinely rare on your CV, keep reading.\n\nAbout the Role:\n\nHi there! We're hiring an Information Security Engineer with a focus on Application Security to join our Information Security team at Camunda.\n\nWe are a team that takes security seriously without making it feel like a locked door. We work in a transparent, straightforward way, and we care about doing the work right rather than just checking a compliance box.\n\nYou will work side by side with our R&D engineers: reviewing designs, threat modeling new features, digging into code and helping teams make good, risk-based decisions about the vulnerabilities that come in. You'll also help build the internal tools that make this work scale, including our CVE registry and the LLM-assisted workflows we use to analyse code and triage findings.\n\nCamunda is an AI-first company, and InfoSec is no exception: AI agents are part of how we review code, assess vulnerabilities, and build our tools. You will help shape how that works.\n\nThis is a hands-on role for someone who already has solid AppSec foundations and wants to grow. We are a generalist team, so you will also take part in our on-call rotation and incident response, and get exposure to other areas of security. But most of your time will be spent with engineers and building and maintaining internal tools and processes.\n\nWhat You Will Do\n\nVulnerability management: triage findings from SCA, container and code scanning, external reports and internal security testing; assess whether Camunda is actually affected; agree fix / mitigate / accept with engineering and follow through to release.\n\nThreat modeling and security reviews: run threat modeling sessions and design reviews with R&D teams for new features and architecture changes, and turn the results into concrete, prioritised actions.\n\nCode analysis with LLMs: use and improve LLM-assisted tooling (agents, prompts, reusable skills) to review code, validate findings and reproduce issues, while applying your own judgement to know when the model is wrong.\n\nBuild internal security tooling: contribute to the CVE registry and related automation that connects scanners, engineering teams, and customer communication. Much of it is built on Camunda itself.\n\nHelp engineers do the secure thing by default: answer questions, review pull requests, improve guidelines and occasionally run a session or workshop.\n\nOn-call and incident response: share the InfoSec on-call rotation with the other engineers and help investigate and resolve security incidents.\n\nSupport the wider team: help write security advisories for our customers, answer customer security questions and support audits.\n\nWhat You Will Bring to the Role\n\nAround 3+ years in security or software engineering, with at least 2 of them working on application or product security (AppSec, product security, pentesting, or a security-focused developer role all count).\n\nExperience at a SaaS or software product company, working closely with engineering teams that ship often through modern CI/CD and cloud environments.\n\nHands-on vulnerability triage: you've worked with tools like Snyk, Trivy, Semgrep, CodeQL or similar, can tell a real issue from a false positive, and can explain how exploitable something actually is in context (CVSS, exploitability, configuration).\n\nThreat modeling and design review experience (e.g. STRIDE) on real systems, ideally web apps, APIs, or distributed services.\n\nYou read and write code. You're comfortable reading Java (Camunda is built on it) well enough to follow a data flow and spot a security bug. You can write scripts and small tools and contribute to an existing codebase with review.\n\nYou build with AI, not just chat with it. You use AI coding agents (Claude Code, Cursor, Copilot or similar) in your daily work to write tools, analyse code or automate tasks. And you know their output still needs a second look, especially when it comes to security.\n\nClear, friendly communication with engineers. You see yourself as an enabler, not a gatekeeper, and you can explain risk to people who aren't security specialists.\n\nNice to haves\n\nSome Python and/or JavaScript experience, or experience building internal tools.\n\nWillingness to learn and use Camunda, since we build a lot of our own security automation on it. Prior BPMN / workflow experience is a plus.\n\nExperience responding to security incidents or being part of an on-call rotation.\n\nExposure to security advisories, CVE disclosure or bug bounty programmes.\n\nKnowledge of AI/LLM security risks (OWASP Top 10 for LLMs / agentic apps, prompt injection, tool abuse).\n\nExperience securing Kubernetes or container-based workloads, or open-source / B2B software.\n\nThis role is an existing vacancy\n\n#LI-SG1 #LI-Remote #C1 #USEAST\n\nWhat We Have to Offer:\n\nCompensation\n\nWe offer competitive, fair, and transparent compensation. Salary ranges are location-based, with Standard and Major markets (global tech hubs) reflecting local competition.\n\nThe Annual Total Target Cash (base salary + 100% variable target, where applicable) shown below spans from the minimum in a Standard market to the maximum in a Major market. Final offers depend on skills, experience, and location, and we typically hire in the first half of the range to allow room for growth:\n\nUnited States: $119,900.00 to $193,200.00 \n\nUnited Kingdom: £75,300.00 to £123,800.00 \n\nSingapore: S$148,900.00 to S$223,300.00\n\nIf you’re based elsewhere, you’ll be hired via Remote.com (our global employer partner), and your Talent Acquisition Partner will provide a personalized Total Rewards Calculator after your first interview.\n\nEquity: We also offer equity (where applicable) through our Virtual Stock Option Plan (VSOP).\n\nBenefits & Perks\n\nWe invest in your wellbeing, growth, and ability to connect, along with perks that support you no matter where you’re based. Our benefits are globally designed and locally delivered where applicable.\n\nRemote & Flexible: Work from anywhere with the setup that suits you, home office budget, co-working space support, and flexible time off to recharge when you need it.\n\nIn Person Connection: We invest in meaningful face time through our Annual Kickoff (Vienna in 2025, Madrid in 2026!), team offsites, and Camundi Connection Budgets, including contributing to meetups while travelling,, and local gatherings with fellow Camundi.\n\nHealth & Wellbeing: Access locally tailored healthcare, Modern Health for global mental wellbeing, and our Live Well Lifestyle Spending Account (LSA), a flexible, global benefit that puts you in control of your whole life, not just work, from: staying active, to caring for family, exploring personal passions, meaningful experiences, and investing in your financial wellbeing. The Live Well program launches in 2026 and scales to €1,000 annually from 2027.\n\nFinancial Security: Retirement and pension plans (often with company contributions), plus life and disability insurance where relevant.\n\nProfessional Growth: Up to $/€/£1,000 per year for self-driven learning: courses, certifications, books, you decide!\n\nAI in our hiring process: Camunda may use AI tools to aid the screening of applications and during the interview process. You can learn more here\n\n”Everyone is welcome at Camunda” — it’s a celebrated component of our culture. We strive to create an inclusive environment that empowers our people. At Camunda, we honour diverse cultures and backgrounds and are proud to be an equal opportunity employer. All qualified applicants will receive consideration without regard to gender, race, ethnicity, religion, belief, sexual orientation, age, disability or any other protected characteristics under applicable law. We are looking forward to your application!\n\nCome join us and be part of Camunda’s incredible journey: Make an impact at a pivotal moment in our story!\n\nPlease be aware that scammers may impersonate Camunda by reaching out about job opportunities. Camunda will only contact candidates from an email address ending in @camunda.com or @talent.camunda.com. We will never ask candidates for bank account details, checks, payment, or other sensitive financial information as part of our hiring process. If you receive a suspicious message, please do not respond, click any links, or share personal information.\n\nNote for recruiting and placement agencies: Camunda does not accept unsolicited agency resumes. Please do not forward resumes to our careers site, employees, or any other Camunda contact unless we have specifically engaged your firm for that search. Camunda will not pay fees related to unsolicited resumes.\n\nFor information about how your personal data is processed, please refer to Camunda’s Applicant Privacy Policy. We note that phone numbers and SMS opt-in data are not shared, sold, or rented to third parties or affiliates for marketing or promotional purposes.\n\nBy opting in to SMS use, please be aware that:\n\nText message frequency may vary;\n\nStandard text message and data rates may apply; and\n\nBy opting in, you will be enrolled directly in ongoing recruiting text messages from Camunda.\n\nTo opt-out, simply select 'No' when prompted during your application. You can also change your preferences at any time by contacting ----- style=\"min-height:1.5em\">\n\nFind Jobs in Germany on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "application security",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "Around 3+ years in security or software engineering, with at least 2 of them working on application or product security (AppSec, product security, pentesting, or a security-focused developer role all count)."
+        },
+        {
+          "skill": "owasp",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "Knowledge of AI/LLM security risks (OWASP Top 10 for LLMs / agentic apps, prompt injection, tool abuse)."
+        },
+        {
+          "skill": "penetration testing",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "Around 3+ years in security or software engineering, with at least 2 of them working on application or product security (AppSec, product security, pentesting, or a security-focused developer role all count)."
+        },
+        {
+          "skill": "product security",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Around 3+ years in security or software engineering, with at least 2 of them working on application or product security (AppSec, product security, pentesting, or a security-focused developer role all count)."
+        },
+        {
+          "skill": "software development",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Around 3+ years in security or software engineering, with at least 2 of them working on application or product security (AppSec, product security, pentesting, or a security-focused developer role all count)."
+        },
+        {
+          "skill": "bug bounty",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Exposure to security advisories, CVE disclosure or bug bounty programmes."
+        },
+        {
+          "skill": "ci/cd",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Experience at a SaaS or software product company, working closely with engineering teams that ship often through modern CI/CD and cloud environments."
+        },
+        {
+          "skill": "cvss",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Hands-on vulnerability triage: you've worked with tools like Snyk, Trivy, Semgrep, CodeQL or similar, can tell a real issue from a false positive, and can explain how exploitable something actually is in context (CVSS, exploitability, configuration)."
+        },
+        {
+          "skill": "incident response",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "We are a generalist team, so you will also take part in our on-call rotation and incident response, and get exposure to other areas of security."
+        },
+        {
+          "skill": "javascript",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Some Python and/or JavaScript experience, or experience building internal tools."
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Experience securing Kubernetes or container-based workloads, or open-source / B2B software."
+        },
+        {
+          "skill": "python",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Some Python and/or JavaScript experience, or experience building internal tools."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Trusted by over 700 organizations worldwide, including 9 of top 10 US banks, Camunda helps enterprises boost operational efficiency, accelerate time-to-value, and deliver better customer experiences."
+        },
+        {
+          "skill": "security automation",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Willingness to learn and use Camunda, since we build a lot of our own security automation on it."
+        },
+        {
+          "skill": "security testing",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Vulnerability management: triage findings from SCA, container and code scanning, external reports and internal security testing"
+        },
+        {
+          "skill": "threat modeling",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "You will work side by side with our R&D engineers: reviewing designs, threat modeling new features, digging into code and helping teams make good, risk-based decisions about the vulnerabilities that come in."
+        },
+        {
+          "skill": "vulnerability management",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Vulnerability management: triage findings from SCA, container and code scanning, external reports and internal security testing"
+        },
+        {
+          "skill": "vulnerability triage",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Hands-on vulnerability triage: you've worked with tools like Snyk, Trivy, Semgrep, CodeQL or similar, can tell a real issue from a false positive, and can explain how exploitable something actually is in context (CVSS, exploitability, configuration)."
+        }
+      ],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 3,
       "job_key": "855f35dfe9f06890eb91",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -462,7 +867,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 2,
+      "report_number": 4,
       "job_key": "565e052ce84fc91a01cc",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -668,7 +1073,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 3,
+      "report_number": 5,
       "job_key": "fcd3d88612c00e3423ee",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -845,7 +1250,7 @@
       }
     },
     {
-      "report_number": 4,
+      "report_number": 6,
       "job_key": "ad5a9fea931d31fc704c",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -965,7 +1370,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 5,
+      "report_number": 7,
       "job_key": "86d0e27ef416b6621d0d",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1172,7 +1577,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 6,
+      "report_number": 8,
       "job_key": "022b02e42c40ff735dbc",
       "status": "NEW",
       "application_status": "NEW",
@@ -1356,7 +1761,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 7,
+      "report_number": 9,
       "job_key": "bd1b3b1bbb48fe52ce64",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1452,7 +1857,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 8,
+      "report_number": 10,
       "job_key": "cd5cfcf928703cec5837",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1595,548 +2000,6 @@
         "evidence": ""
       },
       "experience_analysis": null
-    },
-    {
-      "report_number": 9,
-      "job_key": "32c54022816bcac2a151",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 59,
-      "raw_score": 64,
-      "score_cap": 59,
-      "score_cap_reasons": [
-        "Mandatory experience requirement is 5+ years"
-      ],
-      "score_label": "STRETCH",
-      "title": "Senior Security Engineer",
-      "company": "Kestra Technologies",
-      "location": "Europe",
-      "location_analysis": {
-        "category": "eligible_europe_remote",
-        "eligible": true,
-        "score": 13,
-        "reason": "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
-        "verification_required": true,
-        "score_cap": 89,
-        "scope": "Europe remote",
-        "work_model": "Remote"
-      },
-      "location_scope": "Europe remote",
-      "working_model": "Remote",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "security engineer",
-          "security engineering",
-          "vulnerability"
-        ]
-      },
-      "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
-      },
-      "url": "https://www.arbeitnow.fr/jobs/companies/kestra-technologies/senior-security-engineer-villeneuve-dascq-452235",
-      "apply_url": "https://www.arbeitnow.fr/jobs/companies/kestra-technologies/senior-security-engineer-villeneuve-dascq-452235",
-      "canonical_url": "https://www.arbeitnow.fr/jobs/companies/kestra-technologies/senior-security-engineer-villeneuve-dascq-452235",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-11-08T18:40:15Z",
-      "posting_age_days": 2,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 2,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-09-20T10:22:50Z",
-      "experience_required": "5+ years",
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "dast",
-          "penetration testing",
-          "sast",
-          "secure code review",
-          "threat modeling"
-        ],
-        "partial": [
-          "aws",
-          "ci/cd",
-          "cloud security",
-          "devsecops",
-          "docker",
-          "git",
-          "github actions",
-          "incident response",
-          "javascript",
-          "product security"
-        ],
-        "missing": [
-          "github security",
-          "kubernetes",
-          "rust",
-          "terraform",
-          "vulnerability disclosure program"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
-        },
-        {
-          "skill": "cloud security",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
-        },
-        {
-          "skill": "devsecops",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role."
-        },
-        {
-          "skill": "docker",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
-        },
-        {
-          "skill": "product security",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "github security",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Security & Vulnerability Tools: Trivy, GitHub Security / Dependabot, Elastic Security"
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Trusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale."
-        },
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Infrastructure: Docker, Kubernetes, Terraform"
-        },
-        {
-          "skill": "vulnerability disclosure program",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Own our public security posture as an open-source project: vulnerability disclosure process, CVE handling, security advisories, and the trust model of our plugin ecosystem."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 14,
-        "experience": 4,
-        "location": 13,
-        "language": 10,
-        "seniority": 4,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Security Engineering.",
-        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country.",
-        "Evidenced matches include dast, penetration testing, sast, secure code review, threat modeling."
-      ],
-      "warnings": [
-        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
-        "Requests 5+ years versus approximately 2.1 years in the profile.",
-        "Mandatory gaps: aws, cloud security, devsecops, docker, kubernetes, product security",
-        "Potential gaps: github security, rust, terraform, vulnerability disclosure program",
-        "Exposure only; do not claim deep expertise: aws, ci/cd, cloud security, devsecops, docker, git",
-        "Mandatory experience requirement is 5+ years"
-      ],
-      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "About Kestra Kestra is the universal orchestration platform: open source, declarative, and designed to orchestrate data pipelines, IT automation, business workflows, and AI/agentic systems. Trusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale. The open-source project has close to 30,000 GitHub stars, hundreds of contributors, and a fast-growing global community. About the role Kestra runs arbitrary, user-defined code at scale. Our users write workflows that execute scripts, containers, and queries against their own production systems, through hundreds of community-built plugins, on a platform whose entire source code is public. That is an unusually rich attack surface, and securing it is a genuinely hard engineering problem rather than a checklist exercise. You would be our first dedicated security hire. We're looking for a Senior Security Engineer to own and elevate the end-to-end security posture of our platform, infrastructure, and open-source ecosystem. This is a unique, hybrid role for someone who excels at both sides of security: actively breaking systems to fin…",
-      "full_description": "About Kestra\n\nKestra is the universal orchestration platform: open source, declarative, and designed to orchestrate data pipelines, IT automation, business workflows, and AI/agentic systems.\n\nTrusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale. The open-source project has close to 30,000 GitHub stars, hundreds of contributors, and a fast-growing global community.\n\nAbout the role\n\nKestra runs arbitrary, user-defined code at scale. Our users write workflows that execute scripts, containers, and queries against their own production systems, through hundreds of community-built plugins, on a platform whose entire source code is public. That is an unusually rich attack surface, and securing it is a genuinely hard engineering problem rather than a checklist exercise.\n\nYou would be our first dedicated security hire. We're looking for a Senior Security Engineer to own and elevate the end-to-end security posture of our platform, infrastructure, and open-source ecosystem.\n\nThis is a unique, hybrid role for someone who excels at both sides of security: actively breaking systems to find vulnerabilities (hands-on penetration testing) and actively fixing them (opening PRs, patching infrastructure, and managing supply chain risks). If you want to build a world-class security foundation for a fast-growing open-source and SaaS platform, this role is for you.\n\nThis is a hands-on engineering role, not a GRC or compliance one.\n\nWhat you would do\n\nYour first six months would focus on the first three points below. The rest is where the role grows.\n\nConduct hands-on penetration testing and threat modeling across our web application, APIs, control plane, and cloud environments.\n\nManage end-to-end vulnerability tracking across our codebases, software dependencies (SCA), container images, and cloud infrastructure.\n\nProactively fix security flaws by writing patches, submitting Pull Requests (PRs), or collaborating directly with product teams to guide remediation.\n\nAudit and harden our cloud infrastructure (GCP, Kubernetes clusters, and networking configurations) against external and internal threats.\n\nAutomate security tooling into our CI/CD pipelines (SAST, DAST, dependency scanners) to catch CVEs before code reaches production.\n\nPerform security code reviews and evaluate third-party dependencies, open-source integrations, and supply-chain risks.\n\nLead incident response efforts and establish continuous monitoring, detection, and mitigation strategies.\n\nOwn our public security posture as an open-source project: vulnerability disclosure process, CVE handling, security advisories, and the trust model of our plugin ecosystem.\n\nOur Tech Stack\n\nSecurity & Vulnerability Tools: Trivy, GitHub Security / Dependabot, Elastic Security \n\nInfrastructure: Docker, Kubernetes, Terraform\n\nCloud: GCP\n\nProgramming language: Java, Typescript, Javascript\n\nDatastore: PostgreSQL, Elasticsearch\n\nQueuing: Redis, Kafka, AMQP\n\nMonitoring & Logs: ELK, Prometheus, Grafana\n\nDeployment & Repository: GitHub Actions, ArgoCD\n\nWhat we are looking for\n\n5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role.\n\nStrong hands-on penetration testing background, with proven ability to discover application, API, and network-level vulnerabilities.\n\nA builder/fixer mindset: You don't just export scanner PDFs; you can read code, understand exploits, write fixes, or provide clear remediation steps to engineers.\n\nDeep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker).\n\nExperience with dependency and supply-chain security (CVE management, open-source licensing, SCA tools).\n\nFluent in English and comfortable working autonomously in a fully remote environment.\n\nAdaptability to a fast-paced open-source startup environment where pragmatism and execution speed matter.\n\nPerks & Benefits\n\nWork from anywhere: We’re a remote-first company, so you can work from wherever feels like home. Plus, you’ll have access to coworking spaces worldwide if you ever need a change of scenery.\n\nHealth coverage: From medical support, dental, and vision, we've got you covered.\n\nHome office setup on us: We’ll provide all the equipment you need to work comfortably.\n\nOur Hiring Process\n\nWe aim to move quickly (2-3 weeks), but we can adjust the timeline if needed.\n\nIntro call with the hiring manager (30 min)\n\nTechnical scenario / Practical assessment (2 hours, asynchronous homework focusing on threat assessment and remediation)\n\nTeam chat with one of your future colleagues (30 min)\n\nFinal discussion with one of our co-founders (30 min)\n\nFind more English Speaking Jobs in France on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
-        },
-        {
-          "skill": "cloud security",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
-        },
-        {
-          "skill": "devsecops",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role."
-        },
-        {
-          "skill": "docker",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
-        },
-        {
-          "skill": "product security",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role."
-        },
-        {
-          "skill": "ci/cd",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Automate security tooling into our CI/CD pipelines (SAST, DAST, dependency scanners) to catch CVEs before code reaches production."
-        },
-        {
-          "skill": "dast",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Automate security tooling into our CI/CD pipelines (SAST, DAST, dependency scanners) to catch CVEs before code reaches production."
-        },
-        {
-          "skill": "git",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "The open-source project has close to 30,000 GitHub stars, hundreds of contributors, and a fast-growing global community."
-        },
-        {
-          "skill": "github actions",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Deployment & Repository: GitHub Actions, ArgoCD"
-        },
-        {
-          "skill": "github security",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Security & Vulnerability Tools: Trivy, GitHub Security / Dependabot, Elastic Security"
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Lead incident response efforts and establish continuous monitoring, detection, and mitigation strategies."
-        },
-        {
-          "skill": "javascript",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Programming language: Java, Typescript, Javascript"
-        },
-        {
-          "skill": "penetration testing",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "This is a unique, hybrid role for someone who excels at both sides of security: actively breaking systems to find vulnerabilities (hands-on penetration testing) and actively fixing them (opening PRs, patching infrastructure, and managing supply chain risks)."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Trusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale."
-        },
-        {
-          "skill": "sast",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Automate security tooling into our CI/CD pipelines (SAST, DAST, dependency scanners) to catch CVEs before code reaches production."
-        },
-        {
-          "skill": "secure code review",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Perform security code reviews and evaluate third-party dependencies, open-source integrations, and supply-chain risks."
-        },
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Infrastructure: Docker, Kubernetes, Terraform"
-        },
-        {
-          "skill": "threat modeling",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Conduct hands-on penetration testing and threat modeling across our web application, APIs, control plane, and cloud environments."
-        },
-        {
-          "skill": "vulnerability disclosure program",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Own our public security posture as an open-source project: vulnerability disclosure process, CVE handling, security advisories, and the trust model of our plugin ecosystem."
-        }
-      ],
-      "german_analysis": {
-        "category": "none",
-        "level": "none",
-        "mandatory": false,
-        "label": "No German requirement detected",
-        "evidence": ""
-      },
-      "experience_analysis": {
-        "min_years": 5,
-        "max_years": null,
-        "optional": false,
-        "display": "5+ years",
-        "evidence": "5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role."
-      }
-    },
-    {
-      "report_number": 10,
-      "job_key": "6943ccc7ff70c247e0a3",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 59,
-      "raw_score": 77,
-      "score_cap": 59,
-      "score_cap_reasons": [
-        "Multiple explicitly mandatory skills are not evidenced"
-      ],
-      "score_label": "STRETCH",
-      "title": "AI Security Engineer",
-      "company": "Menlosecurity",
-      "location": "EMEA - U.K.",
-      "location_analysis": {
-        "category": "eligible_europe_remote",
-        "eligible": true,
-        "score": 13,
-        "reason": "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
-        "verification_required": true,
-        "score_cap": 89,
-        "scope": "Europe remote",
-        "work_model": "Remote"
-      },
-      "location_scope": "Europe remote",
-      "working_model": "Remote",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "security engineer"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/menlosecurity/ai-security-engineer-bracknell-300427",
-      "apply_url": "https://www.arbeitnow.co.uk/jobs/companies/menlosecurity/ai-security-engineer-bracknell-300427",
-      "canonical_url": "https://www.arbeitnow.co.uk/jobs/companies/menlosecurity/ai-security-engineer-bracknell-300427",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-10-30T21:40:22Z",
-      "posting_age_days": 2,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 2,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-11-01T13:56:58Z",
-      "experience_required": "2-4 years",
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "python"
-        ],
-        "partial": [
-          "aws",
-          "docker",
-          "software development"
-        ],
-        "missing": [
-          "dlp",
-          "kubernetes",
-          "rust",
-          "terraform"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with AWS, GCP, Terraform, Kubernetes, and Linux."
-        },
-        {
-          "skill": "docker",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Basic experience with cloud storage, object stores, and basic containerization (Docker)."
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Experience with AWS, GCP, Terraform, Kubernetes, and Linux."
-        },
-        {
-          "skill": "software development",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "2–4 years of experience in software engineering, data engineering, or automated QA/evaluation roles."
-        },
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Experience with AWS, GCP, Terraform, Kubernetes, and Linux."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "dlp",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Understanding of cybersecurity concepts (Prompt Injection, Malicious Macros, DLP/PII)."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Menlo Security is trusted by major global businesses, including Fortune 500 companies and government agencies, to protect their most valuable asset, their data, and is backed by top-tier investors."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 10,
-        "experience": 15,
-        "location": 13,
-        "language": 10,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Security Engineering.",
-        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country.",
-        "Evidenced matches include python.",
-        "The detected experience requirement is within or close to the 2+ year profile."
-      ],
-      "warnings": [
-        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
-        "Mandatory gaps: aws, docker, kubernetes, software development, terraform",
-        "Potential gaps: dlp, rust",
-        "Exposure only; do not claim deep expertise: aws, docker, software development",
-        "Multiple explicitly mandatory skills are not evidenced"
-      ],
-      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "Menlo Security is the leader in Browser Security for human and agentic workforces. Our mission is to enable humans and agents to connect, communicate, and collaborate securely, without compromise. The Menlo Browser Security Platform protects organizations from cyberattacks by stopping threats across the web, documents, and email before they reach the user. With Menlo Agent Runtime Security (MARS), that protection now extends to the AI agents working alongside every employee. Menlo Security is trusted by major global businesses, including Fortune 500 companies and government agencies, to protect their most valuable asset, their data, and is backed by top-tier investors. We are looking for a Data & AI / ML Evaluation Engineer to own the data collection, mining, curation and continuous evaluation foundation for our various AI security products. High-quality models require high-quality datasets and ongoing enrichment and retraining. In this role, you will build automated data ingestion pipelines from surrogate web traffic and open sources, manage dataset curation, labeling workflows, model training and operate our benchmark and evaluation harnesses. This is a data and AI / ML software…",
-      "full_description": "Menlo Security is the leader in Browser Security for human and agentic workforces. Our mission is to enable humans and agents to connect, communicate, and collaborate securely, without compromise. The Menlo Browser Security Platform protects organizations from cyberattacks by stopping threats across the web, documents, and email before they reach the user. With Menlo Agent Runtime Security (MARS), that protection now extends to the AI agents working alongside every employee. Menlo Security is trusted by major global businesses, including Fortune 500 companies and government agencies, to protect their most valuable asset, their data, and is backed by top-tier investors.\n\nWe are looking for a Data & AI / ML Evaluation Engineer to own the data collection, mining, curation and continuous evaluation foundation for our various AI security products. High-quality models require high-quality datasets and ongoing enrichment and retraining. In this role, you will build automated data ingestion pipelines from surrogate web traffic and open sources, manage dataset curation, labeling workflows, model training and operate our benchmark and evaluation harnesses. This is a data and AI / ML software engineering role focused on building the data infrastructure that trains our proprietary Prompt Injection SLMs, Shadow-AI detection models, Malicious Macro classifiers, PII, Content Classification engines and more. \n\nOutcomes & KPIs Key Outcome(s) Owned: \n\nAutomated, continuous generation and curation of training, evaluation, and false-positive (FP) datasets across web, file, and macro threat surfaces. \n\nStandardized, reproducible evaluation benchmarks that guide model improvements before deployment. \n\nAutomated data pipeline uptime and ingestion throughput from web/file sources. \n\nSize, diversity, and labeling accuracy of threat dataset repositories (PI, Shadow-AI, PII, Macros). \n\nMean time to ingest live false-positive/false-negative feedback into training evaluation loops.\n\nAccuracy and benchmark coverage across historical vs. newly trained SLMs. \n\nWhat You'll Do \n\nDesign and operate automated data collection, mining, and web-scraping pipelines to gather threat samples from surrogate traffic and web sources.\n\nBuild data processing, annotation, and dataset curation workflows, training and re-training various models, e.g. Prompt Injection (PI) SLMs, Shadow-AI detection models, Malicious Macro classifiers, and PII detection. \n\nBuild mechanisms to capture false-positive (FP) samples from live user/DDR flows and represent / integrate them into model retraining pipelines. \n\nDevelop automated benchmarking and evaluation harnesses to continuously test model detection quality, runtime performance, and accuracy against baseline models (e.g., Vertex AI). \n\nBuild automated pipelines for model training for various models. \n\nWork closely with research and software engineering teams to turn raw detection telemetry into ongoing actionable model improvements.\n\nRequired: \n\n2–4 years of experience in software engineering, data engineering, or automated QA/evaluation roles. \n\nStrong programming proficiency in Python. Adv: C++, SQL. \n\nExperience in model training and various ML, AI algorithms. \n\nExperience building data pipelines, web scrapers, or automated data processing systems. \n\nFamiliarity with data structures, storage formats, and database configurations. \n\nMethodical approach to dataset labeling, validation, bug logging, and metric tracking. \n\nPreferred / Nice to Have: \n\nHands-on experience with ML evaluation frameworks, dataset curation, or annotation tools.\n\nFamiliarity with text extraction, NLP preprocessing, or document parsing techniques.\n\nUnderstanding of cybersecurity concepts (Prompt Injection, Malicious Macros, DLP/PII). \n\nBasic experience with cloud storage, object stores, and basic containerization (Docker). \n\nExperience with AWS, GCP, Terraform, Kubernetes, and Linux.\n\nFollow us on LinkedIn!\n\nWhy Menlo?\n\nAt Menlo, we don't settle for the status quo — in our technology or our culture. How we think and act is just as important as what we build. Our culture is defined by five core mindsets: Proactive Leadership, Straight Talk, United Impact, Elevated Talent, and Customer-Compelled. We take ownership and drive outcomes without waiting to be told. We communicate directly and seek hard truths. We break down silos and win together. We hold a high bar for ourselves and the people around us. And we treat every customer interaction as mission-critical. If you're someone who sees it, owns it, solves it, and does it — you'll thrive here.\n\nAll qualified applicants will receive consideration for employment without regard to race, sex, color, religion, sexual orientation, gender identity, national origin, protected veteran status, or on the basis of disability.\n\nTO ALL AGENCIES: Please, no phone calls or emails to any employee of Menlo Security outside of the Talent organization. Menlo Security’s policy is to only accept resumes from agencies via Ashby (ATS). Agencies must have a valid services agreement executed and must have been assigned by the Talent team to a specific requisition. Any resume submitted outside of this process will be deemed the sole property of Menlo Security. In the event a candidate submitted outside of this policy is hired, no fee or payment will be paid.\n\nFind Jobs in United Kingdom on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with AWS, GCP, Terraform, Kubernetes, and Linux."
-        },
-        {
-          "skill": "docker",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Basic experience with cloud storage, object stores, and basic containerization (Docker)."
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Experience with AWS, GCP, Terraform, Kubernetes, and Linux."
-        },
-        {
-          "skill": "python",
-          "profile_status": "match",
-          "requirement": "mandatory",
-          "evidence": "Strong programming proficiency in Python."
-        },
-        {
-          "skill": "software development",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "2–4 years of experience in software engineering, data engineering, or automated QA/evaluation roles."
-        },
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Experience with AWS, GCP, Terraform, Kubernetes, and Linux."
-        },
-        {
-          "skill": "dlp",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Understanding of cybersecurity concepts (Prompt Injection, Malicious Macros, DLP/PII)."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Menlo Security is trusted by major global businesses, including Fortune 500 companies and government agencies, to protect their most valuable asset, their data, and is backed by top-tier investors."
-        }
-      ],
-      "german_analysis": {
-        "category": "none",
-        "level": "none",
-        "mandatory": false,
-        "label": "No German requirement detected",
-        "evidence": ""
-      },
-      "experience_analysis": {
-        "min_years": 2,
-        "max_years": 4,
-        "optional": false,
-        "display": "2-4 years",
-        "evidence": "2–4 years of experience in software engineering, data engineering, or automated QA/evaluation roles."
-      }
     }
   ],
   "analysis_request": {
