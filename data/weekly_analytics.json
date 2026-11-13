@@ -2777,10 +2777,10 @@
     },
     {
       "week_start": "2026-11-09",
-      "generated_at": "2026-11-12T15:29:54Z",
-      "active_relevant_jobs": 13,
+      "generated_at": "2026-11-13T14:48:27Z",
+      "active_relevant_jobs": 12,
       "role_family_counts": {
-        "Security Engineering": 7,
+        "Security Engineering": 6,
         "IT Audit / GRC": 2,
         "Application Security": 1,
         "Other Security": 1,
@@ -2788,7 +2788,7 @@
         "SOC / Detection and Response": 1
       },
       "score_bands": {
-        "60-69 review": 8,
+        "60-69 review": 7,
         "50-59 stretch": 4,
         "70-79 good": 1
       },
@@ -2823,10 +2823,6 @@
             "jobs": 2
           },
           {
-            "skill": "kubernetes",
-            "jobs": 2
-          },
-          {
             "skill": "product security",
             "jobs": 1
           },
@@ -2841,28 +2837,28 @@
           {
             "skill": "siem",
             "jobs": 1
+          },
+          {
+            "skill": "docker",
+            "jobs": 1
           }
         ],
         "potential": [
           {
             "skill": "rust",
-            "jobs": 6
-          },
-          {
-            "skill": "iso 27001",
-            "jobs": 3
-          },
-          {
-            "skill": "bug bounty",
-            "jobs": 2
+            "jobs": 5
           },
           {
             "skill": "edr",
             "jobs": 2
           },
           {
-            "skill": "azure",
+            "skill": "iso 27001",
             "jobs": 2
+          },
+          {
+            "skill": "bug bounty",
+            "jobs": 1
           },
           {
             "skill": "kubernetes",
@@ -2873,15 +2869,11 @@
             "jobs": 1
           },
           {
+            "skill": "azure",
+            "jobs": 1
+          },
+          {
             "skill": "detection engineering",
-            "jobs": 1
-          },
-          {
-            "skill": "github security",
-            "jobs": 1
-          },
-          {
-            "skill": "vulnerability disclosure program",
             "jobs": 1
           },
           {
@@ -2921,12 +2913,12 @@
         ],
         "partial_exposure": [
           {
-            "skill": "incident response",
+            "skill": "software development",
             "jobs": 6
           },
           {
-            "skill": "software development",
-            "jobs": 6
+            "skill": "incident response",
+            "jobs": 5
           },
           {
             "skill": "product security",
@@ -2957,15 +2949,15 @@
             "jobs": 2
           },
           {
-            "skill": "git",
-            "jobs": 2
-          },
-          {
             "skill": "splunk",
             "jobs": 1
           },
           {
             "skill": "network security",
+            "jobs": 1
+          },
+          {
+            "skill": "docker",
             "jobs": 1
           }
         ]

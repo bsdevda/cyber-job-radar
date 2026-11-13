@@ -208,7 +208,7 @@
   },
   "521c71dc83dfa3787db3": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-11-12T15:29:54Z",
+    "last_seen": "2026-11-13T14:48:27Z",
     "content_hash": "2c040214033ea8916a3acfc5d53099f7b45d4e07ed4a37d2804853d325041e92",
     "status": "SEEN_BEFORE",
     "company": "Staffbase",
@@ -460,7 +460,7 @@
   },
   "9ba7cf301be480a6ff9f": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-11-12T15:29:54Z",
+    "last_seen": "2026-11-13T14:48:27Z",
     "content_hash": "695565afccbc0ea27aed88980573bdd4151d8c3a3fd8cfff9885244f400ab84b",
     "status": "SEEN_BEFORE",
     "company": "NavVis",
@@ -3385,7 +3385,7 @@
   },
   "b420e12f1f07d8e20c57": {
     "first_seen": "2026-08-16T17:17:56Z",
-    "last_seen": "2026-11-12T15:29:54Z",
+    "last_seen": "2026-11-13T14:48:27Z",
     "content_hash": "c1d53540907aed6663126b5ecb81087605b40a04545b613152414e913fa65582",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3619,7 +3619,7 @@
   },
   "4afa9462370d50b6650c": {
     "first_seen": "2026-08-27T16:38:50Z",
-    "last_seen": "2026-11-12T15:29:54Z",
+    "last_seen": "2026-11-13T14:48:27Z",
     "content_hash": "e388309e9ce8f7c4e88a62d85ab323578b783bd32ce2aceec8fdeb7c53eeb25f",
     "status": "SEEN_BEFORE",
     "company": "HelloFresh",
@@ -3772,7 +3772,7 @@
   },
   "240800e330239220c3d1": {
     "first_seen": "2026-09-30T11:17:18Z",
-    "last_seen": "2026-11-12T15:29:54Z",
+    "last_seen": "2026-11-13T14:48:27Z",
     "content_hash": "672bd2297c6ada31659e90387c64a92c5fc9cad62f7620c07ec8b9a0b86dccd4",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3808,9 +3808,9 @@
   },
   "729a044bba71f5b2b24a": {
     "first_seen": "2026-10-01T11:44:36Z",
-    "last_seen": "2026-11-12T15:29:54Z",
+    "last_seen": "2026-11-13T14:48:27Z",
     "content_hash": "4ac2f1d5bd8b8e9b3675f81beb268329c36e95fd551d623de030dabeb30007d4",
-    "status": "UPDATED",
+    "status": "SEEN_BEFORE",
     "company": "N26",
     "title": "IT Audit Manger / ICT Service Auditor",
     "url": "https://n26.com/en-eu/careers/positions/8239610?gh_jid=8239610"
@@ -3853,7 +3853,7 @@
   },
   "1d8705aa550b912143d8": {
     "first_seen": "2026-10-07T11:55:14Z",
-    "last_seen": "2026-11-12T15:29:54Z",
+    "last_seen": "2026-11-13T14:48:27Z",
     "content_hash": "3aa41d70911562622ed6770353b4e0684fa21f01fd13607cd0cc36fea54351b3",
     "status": "SEEN_BEFORE",
     "company": "KAYAK",
@@ -3916,7 +3916,7 @@
   },
   "697670f71dcd9793a00c": {
     "first_seen": "2026-10-16T10:02:11Z",
-    "last_seen": "2026-11-12T15:29:54Z",
+    "last_seen": "2026-11-13T14:48:27Z",
     "content_hash": "20adbe249f6cf83cac6756f8fd8e788adf50f213937c49552518f9419a9d0961",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3925,7 +3925,7 @@
   },
   "db8aaa804d8c25ef23c4": {
     "first_seen": "2026-10-16T10:02:11Z",
-    "last_seen": "2026-11-12T15:29:54Z",
+    "last_seen": "2026-11-13T14:48:27Z",
     "content_hash": "a2eb4277d02f7692efaa5e8a9ebbb54c8177d3c61e91cbeb51974657e1f9fd89",
     "status": "SEEN_BEFORE",
     "company": "Wire Germany GmbH",
@@ -3952,7 +3952,7 @@
   },
   "f1e7ab2db758d14bd8de": {
     "first_seen": "2026-10-19T11:04:26Z",
-    "last_seen": "2026-11-12T15:29:54Z",
+    "last_seen": "2026-11-13T14:48:27Z",
     "content_hash": "c979e2bf58b0549855a8ca3b24d7f18a2ff1665bd40217a335e7003ef9000fc8",
     "status": "SEEN_BEFORE",
     "company": "Eye Security",
@@ -4105,18 +4105,18 @@
   },
   "d5e70e0d1676f46b2fc2": {
     "first_seen": "2026-11-11T14:38:34Z",
-    "last_seen": "2026-11-12T15:29:54Z",
+    "last_seen": "2026-11-13T14:48:27Z",
     "content_hash": "8642d4a6f1f3f7c5907c80c4eb29d9e7ea61f81fb4cc99aa0e97f326a35f3dd2",
-    "status": "UPDATED",
+    "status": "SEEN_BEFORE",
     "company": "Vinteden",
     "title": "Senior Product Designer, Security",
     "url": "https://www.arbeitnow.com/jobs/companies/vinteden/senior-product-designer-security-berlin-146098"
   },
   "d109d27448fdf0dc0ee1": {
     "first_seen": "2026-11-12T15:29:54Z",
-    "last_seen": "2026-11-12T15:29:54Z",
-    "content_hash": "def19b2754e02b29e6bd359ca1ba47ef0b1a490bf209be886142a4f91805486d",
-    "status": "NEW",
+    "last_seen": "2026-11-13T14:48:27Z",
+    "content_hash": "f99ea5747969861fc13ba79207dbf94f5a1f59e577bfff3849f8b69b1dea6c74",
+    "status": "UPDATED",
     "company": "Camunda",
     "title": "Information Security Engineer - Application Security",
     "url": "https://www.arbeitnow.com/jobs/companies/camunda/remote-information-security-engineer-application-security-333975"
