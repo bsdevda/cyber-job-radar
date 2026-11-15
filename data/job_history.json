@@ -10154,6 +10154,128 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-11-15T14:26:43Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 25239,
+      "security_title_candidates": 878,
+      "prefiltered_non_security_jobs": 24361,
+      "unique_jobs_after_deduplication": 678,
+      "duplicates_removed": 200,
+      "jobs_rejected_or_below_threshold": 25019,
+      "relevant_jobs_in_current_run": 20,
+      "new_jobs": 4,
+      "updated_jobs": 1,
+      "strong_matches": 1,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 1,
+      "report_jobs": 44,
+      "jobs_by_source": {
+        "arbeitnow": 2116,
+        "remotive": 16,
+        "linkedin_posts": 0,
+        "greenhouse": 21292,
+        "ashby": 492,
+        "lever": 1143,
+        "personio": 170,
+        "recruitee": 10
+      },
+      "employer_mode": "full",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 40.7,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2116,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 16,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 21292,
+          "requests": 165,
+          "errors": [
+            {
+              "source": "greenhouse",
+              "company": "Magic Leap",
+              "http_status": 404,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found",
+              "message": "Greenhouse | Magic Leap | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found"
+            }
+          ],
+          "error": "Greenhouse | Magic Leap | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found",
+          "companies_checked": 165,
+          "companies_successful": 164,
+          "companies_failed": 1
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 492,
+          "requests": 12,
+          "errors": [],
+          "error": "",
+          "companies_checked": 12,
+          "companies_successful": 12,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1143,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 170,
+          "requests": 7,
+          "errors": [],
+          "error": "",
+          "companies_checked": 7,
+          "companies_successful": 7,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 10,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -17774,6 +17896,67 @@
       "company": "Camunda",
       "title": "Information Security Engineer - Application Security",
       "score": 69
+    },
+    {
+      "at": "2026-11-15T14:26:43Z",
+      "job_key": "0630fc42b3e6b7bdfda7",
+      "event": "NEW",
+      "company": "Superhuman",
+      "title": "Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-11-15T14:26:43Z",
+      "job_key": "a03342dd76095c14515c",
+      "event": "UPDATED",
+      "company": "Vivenu",
+      "title": "Senior Security Engineer - AppSec (d/f/m)",
+      "score": 59
+    },
+    {
+      "at": "2026-11-15T14:26:43Z",
+      "job_key": "1b23d725f32d2f811703",
+      "event": "NEW",
+      "company": "Wolt",
+      "title": "Senior Software Engineer, Proactive Security",
+      "score": 68
+    },
+    {
+      "at": "2026-11-15T14:26:43Z",
+      "job_key": "4bc13b238d5a17d93580",
+      "event": "NEW",
+      "company": "Eye Security",
+      "title": "Prevention Analyst - Pentesting",
+      "score": 82
+    },
+    {
+      "at": "2026-11-15T14:26:43Z",
+      "job_key": "d01b3b06e089068ed11f",
+      "event": "NEW",
+      "company": "Wolt - English",
+      "title": "Senior Software Engineer, Proactive Security",
+      "score": 68
+    },
+    {
+      "at": "2026-11-15T14:26:43Z",
+      "job_key": "86d0e27ef416b6621d0d",
+      "event": "REMOVED",
+      "company": "Vivid",
+      "title": "Security Engineer (Hybrid or Remote)"
+    },
+    {
+      "at": "2026-11-15T14:26:43Z",
+      "job_key": "433bfc7aba2524337972",
+      "event": "REMOVED",
+      "company": "Agilerobotsse",
+      "title": "Senior IT Security Engineer"
+    },
+    {
+      "at": "2026-11-15T14:26:43Z",
+      "job_key": "58864d81f2b8da556449",
+      "event": "REMOVED",
+      "company": "prefix.dev GmbH",
+      "title": "Software engineer, AI model supply chain and package security"
     }
   ]
 }
