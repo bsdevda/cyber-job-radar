@@ -1,35 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T14:26:43Z",
+  "generated_at": "2026-11-16T16:15:49Z",
   "enabled": true,
   "provider": "github_issue",
   "minimum_score": 80,
-  "has_alert": true,
-  "title": "[Job Radar] 1 new strong match - 2026-11-15 [dd7f693fb4]",
-  "deduplication_key": "dd7f693fb4",
-  "candidate_count": 1,
-  "included_count": 1,
+  "has_alert": false,
+  "title": "[Job Radar] 0 new strong matches - 2026-11-16 [e3b0c44298]",
+  "deduplication_key": "e3b0c44298",
+  "candidate_count": 0,
+  "included_count": 0,
   "truncated_count": 0,
-  "jobs": [
-    {
-      "job_key": "4bc13b238d5a17d93580",
-      "title": "Prevention Analyst - Pentesting",
-      "company": "Eye Security",
-      "location": "Berlin, Germany",
-      "score": 82,
-      "recommendation": "APPLY",
-      "role_family": "Penetration Testing / VAPT",
-      "published_at": "2026-11-13",
-      "url": "https://jobs.ashbyhq.com/eye-security/20cd9c92-38b5-4694-aec4-fc8b4f01d40b/application",
-      "match_reasons": [
-        "Role family: Penetration Testing / VAPT.",
-        "Berlin hybrid role.",
-        "Evidenced matches include penetration testing."
-      ],
-      "warnings": [
-        "Potential gaps: go",
-        "Optional gaps: bug bounty"
-      ]
-    }
-  ]
+  "jobs": []
 }

@@ -10276,6 +10276,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-11-16T16:15:49Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 8777,
+      "security_title_candidates": 298,
+      "prefiltered_non_security_jobs": 8479,
+      "unique_jobs_after_deduplication": 204,
+      "duplicates_removed": 94,
+      "jobs_rejected_or_below_threshold": 8669,
+      "relevant_jobs_in_current_run": 14,
+      "new_jobs": 0,
+      "updated_jobs": 2,
+      "strong_matches": 1,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 44,
+      "jobs_by_source": {
+        "arbeitnow": 2136,
+        "remotive": 17,
+        "linkedin_posts": 0,
+        "greenhouse": 5983,
+        "ashby": 424,
+        "lever": 87,
+        "personio": 130,
+        "recruitee": 0
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 26.6,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2136,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 17,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 5983,
+          "requests": 48,
+          "errors": [],
+          "error": "",
+          "companies_checked": 48,
+          "companies_successful": 48,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 424,
+          "requests": 10,
+          "errors": [],
+          "error": "",
+          "companies_checked": 10,
+          "companies_successful": 10,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 87,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 130,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "idle",
+          "ok": true,
+          "jobs": 0,
+          "requests": 0,
+          "errors": [],
+          "error": "",
+          "companies_checked": 0,
+          "companies_successful": 0,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -17957,6 +18070,22 @@
       "event": "REMOVED",
       "company": "prefix.dev GmbH",
       "title": "Software engineer, AI model supply chain and package security"
+    },
+    {
+      "at": "2026-11-16T16:15:49Z",
+      "job_key": "a03342dd76095c14515c",
+      "event": "UPDATED",
+      "company": "Vivenu",
+      "title": "Senior Security Engineer - AppSec (d/f/m)",
+      "score": 59
+    },
+    {
+      "at": "2026-11-16T16:15:49Z",
+      "job_key": "1b23d725f32d2f811703",
+      "event": "UPDATED",
+      "company": "wolt",
+      "title": "Senior Software Engineer, Proactive Security",
+      "score": 68
     }
   ]
 }

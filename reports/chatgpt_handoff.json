@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T14:26:43Z",
+  "generated_at": "2026-11-16T16:15:49Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,42 +171,42 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-11-15T14:26:43Z",
+    "generated_at": "2026-11-16T16:15:49Z",
     "scoring_version": 2.2,
-    "jobs_collected": 25239,
-    "security_title_candidates": 878,
-    "prefiltered_non_security_jobs": 24361,
-    "unique_jobs_after_deduplication": 678,
-    "duplicates_removed": 200,
-    "jobs_rejected_or_below_threshold": 25019,
-    "relevant_jobs_in_current_run": 20,
-    "new_jobs": 4,
-    "updated_jobs": 1,
+    "jobs_collected": 8777,
+    "security_title_candidates": 298,
+    "prefiltered_non_security_jobs": 8479,
+    "unique_jobs_after_deduplication": 204,
+    "duplicates_removed": 94,
+    "jobs_rejected_or_below_threshold": 8669,
+    "relevant_jobs_in_current_run": 14,
+    "new_jobs": 0,
+    "updated_jobs": 2,
     "strong_matches": 1,
     "sources_checked": 8,
     "sources_failed": 0,
-    "sources_partial": 1,
+    "sources_partial": 0,
     "report_jobs": 44,
     "jobs_by_source": {
-      "arbeitnow": 2116,
-      "remotive": 16,
+      "arbeitnow": 2136,
+      "remotive": 17,
       "linkedin_posts": 0,
-      "greenhouse": 21292,
-      "ashby": 492,
-      "lever": 1143,
-      "personio": 170,
-      "recruitee": 10
+      "greenhouse": 5983,
+      "ashby": 424,
+      "lever": 87,
+      "personio": 130,
+      "recruitee": 0
     },
-    "employer_mode": "full",
+    "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 40.7
+    "workflow_duration_seconds": 26.6
   },
   "source_status": {
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 2116,
+      "jobs": 2136,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 16,
+      "jobs": 17,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -228,449 +228,64 @@
       "error": ""
     },
     "greenhouse": {
-      "status": "partial",
+      "status": "ok",
       "ok": true,
-      "jobs": 21292,
-      "requests": 165,
-      "errors": [
-        {
-          "source": "greenhouse",
-          "company": "Magic Leap",
-          "http_status": 404,
-          "exception_type": "RuntimeError",
-          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found",
-          "message": "Greenhouse | Magic Leap | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found"
-        }
-      ],
-      "error": "Greenhouse | Magic Leap | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found",
-      "companies_checked": 165,
-      "companies_successful": 164,
-      "companies_failed": 1
+      "jobs": 5983,
+      "requests": 48,
+      "errors": [],
+      "error": "",
+      "companies_checked": 48,
+      "companies_successful": 48,
+      "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 492,
-      "requests": 12,
+      "jobs": 424,
+      "requests": 10,
       "errors": [],
       "error": "",
-      "companies_checked": 12,
-      "companies_successful": 12,
+      "companies_checked": 10,
+      "companies_successful": 10,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 1143,
-      "requests": 6,
-      "errors": [],
-      "error": "",
-      "companies_checked": 6,
-      "companies_successful": 6,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 170,
-      "requests": 7,
-      "errors": [],
-      "error": "",
-      "companies_checked": 7,
-      "companies_successful": 7,
-      "companies_failed": 0
-    },
-    "recruitee": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 10,
+      "jobs": 87,
       "requests": 2,
       "errors": [],
       "error": "",
       "companies_checked": 2,
       "companies_successful": 2,
       "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 130,
+      "requests": 3,
+      "errors": [],
+      "error": "",
+      "companies_checked": 3,
+      "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "recruitee": {
+      "status": "idle",
+      "ok": true,
+      "jobs": 0,
+      "requests": 0,
+      "errors": [],
+      "error": "",
+      "companies_checked": 0,
+      "companies_successful": 0,
+      "companies_failed": 0
     }
   },
   "jobs": [
     {
       "report_number": 1,
-      "job_key": "4bc13b238d5a17d93580",
-      "status": "NEW",
-      "application_status": "NEW",
-      "score": 82,
-      "raw_score": 82,
-      "score_cap": null,
-      "score_cap_reasons": [],
-      "score_label": "STRONG",
-      "title": "Prevention Analyst - Pentesting",
-      "company": "Eye Security",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin hybrid role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "Hybrid"
-      },
-      "location_scope": "Berlin",
-      "working_model": "Hybrid",
-      "role_family": {
-        "id": "penetration_testing",
-        "label": "Penetration Testing / VAPT",
-        "priority": 1,
-        "confidence": "high",
-        "evidence": [
-          "pentest",
-          "penetration test",
-          "offensive security"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://jobs.ashbyhq.com/eye-security/20cd9c92-38b5-4694-aec4-fc8b4f01d40b",
-      "apply_url": "https://jobs.ashbyhq.com/eye-security/20cd9c92-38b5-4694-aec4-fc8b4f01d40b/application",
-      "canonical_url": "https://jobs.ashbyhq.com/eye-security/20cd9c92-38b5-4694-aec4-fc8b4f01d40b",
-      "source": "Ashby",
-      "sources": [
-        "Arbeitnow",
-        "Ashby"
-      ],
-      "ats": "ashby",
-      "priority_employer": true,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-11-13T15:44:00Z",
-      "posting_age_days": 1,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 1,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-11-15T14:26:43Z",
-      "experience_required": null,
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "penetration testing"
-        ],
-        "partial": [],
-        "missing": [
-          "go"
-        ],
-        "nice_to_have": [
-          "bug bounty (missing)"
-        ]
-      },
-      "mandatory_gaps": [],
-      "potential_gaps": [
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "When you find a potential weak point, you dig into it technically to find out how far an attacker could actually go."
-        }
-      ],
-      "optional_gaps": [
-        {
-          "skill": "bug bounty",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "- A proven bug bounty track record or other real world offensive security experience."
-        }
-      ],
-      "score_breakdown": {
-        "role_alignment": 20,
-        "skills": 14,
-        "experience": 10,
-        "location": 15,
-        "language": 10,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Penetration Testing / VAPT.",
-        "Berlin hybrid role.",
-        "Evidenced matches include penetration testing."
-      ],
-      "warnings": [
-        "Potential gaps: go",
-        "Optional gaps: bug bounty"
-      ],
-      "recommendation": "APPLY - strong evidence-based match",
-      "description_excerpt": "PREVENTION ANALYST - PENTESTING About this role We are looking for a Prevention Analyst - Pentester, to join our Prevention track. An attacker does not look at one server in isolation. They look at everything a company exposes to the internet and work out where to start. You will do the same for our clients, taking the attacker’s view of their external attack surface, seeing what an attacker sees, and doing what an attacker would do next. That means reading the story behind an attack surface. A forgotten subdomain, an old login portal, and a misconfigured mail server may each look minor on their own. Together they can show how an organisation has grown, where its blind spots are, and where someone could get in. When you find a potential weak point, you dig into it technically to find out how far an attacker could actually go. This is not a classic penetration testing role. The deep dive draws on pentest methodology and expertise, but it is not a full pentest, and you will not spend your weeks writing long reports. We focus on finding the high impact vulnerabilities that need attention now and getting them to the client in a form they can act on. This is for someone with hands on p…",
-      "full_description": "PREVENTION ANALYST - PENTESTING\n\nAbout this role\n\nWe are looking for a Prevention Analyst - Pentester, to join our Prevention track. An attacker does not look at one server in isolation. They look at everything a company exposes to the internet and work out where to start. You will do the same for our clients, taking the attacker’s view of their external attack surface, seeing what an attacker sees, and doing what an attacker would do next.\n\nThat means reading the story behind an attack surface. A forgotten subdomain, an old login portal, and a misconfigured mail server may each look minor on their own. Together they can show how an organisation has grown, where its blind spots are, and where someone could get in. When you find a potential weak point, you dig into it technically to find out how far an attacker could actually go.\n\nThis is not a classic penetration testing role. The deep dive draws on pentest methodology and expertise, but it is not a full pentest, and you will not spend your weeks writing long reports. We focus on finding the high impact vulnerabilities that need attention now and getting them to the client in a form they can act on.\n\nThis is for someone with hands on pentesting experience who wants to work across many customer environments, sharpen their attacker mindset, and grow into owning complex prevention engagements end to end. \n\nWhat you will do\n\n- Assess clients’ external attack surface as a whole, from the attacker’s perspective.\n\n- Identify gaps and weaknesses across the surface, not just within a single asset, and work out how they connect.\n\n- Run technical deep dives into potential weak points to establish how far an attacker could get in practice.\n\n- Separate what needs fixing now from what does not, and focus on high and critical findings with immediate impact.\n\n- Turn technical findings into short, clear advice that clients can understand and act on.\n\n- Share what you learn with the team and actively pick up what others know. We work on problems together.\n\n- Contribute to improving our approach, sharing ideas that make assessments faster, clearer, and more useful for clients.\n\nWhat you will need\n\n- Hands on penetration testing experience and a solid grasp of pentest methodology, particularly for external infrastructure and web applications.\n\n- The ability to think like an attacker, to look at a set of exposed assets and see where you would start and why.\n\n- Good judgement about real world impact, so you can tell an interesting finding from an urgent one.\n\n- The ability to explain technical findings to non technical readers, briefly and without losing accuracy.\n\n- A collaborative way of working and a genuine interest in learning and growing with colleagues, not working as a solo player.\n\n- Comfortable working across multiple client environments in parallel.\n\n- Fluent English.\n\nNice-to-have\n\n- Certifications such as OSCP, BSCP, or CPTS.\n\n- A proven bug bounty track record or other real world offensive security experience.\n\n- Experience working with SMEs or mid market customers on security topics.\n\nWhat we offer \n\n- A meaningful mission, protecting organisations across Europe from real world cyber threats.\n\n- Work with top tier professionals from national CERTs, intelligence agencies, and leading tech backgrounds.\n\n- A remote friendly culture with quarterly meetups and annual company retreats, for example in Spain, Portugal, or Italy.\n\n- Thursday socials to stay connected.\n\n- A generous time off policy, including wellbeing and volunteering days.\n\nAbout Eye Security\n\nEye Security is providing cybersecurity with embedded cyber insurance solutions for organisations across Europe. Headquartered in the Netherlands, we are already over 190 FTEs and continue to grow internationally, having secured our Series C funding of 60 million.\n\nWe combine cutting edge technology with hands on expertise to detect, respond to, and recover from cyber threats in real time. Our team brings together talent from intelligence, military, tech, and consulting backgrounds, all united by a shared mission, to make enterprise grade cybersecurity accessible to every business, not just the big players.\n\nAt Eye, you will work on projects with an international footprint, solving real world challenges and helping to build a safer digital future for our clients.\n\nWe are an equal opportunity employer. We are committed to making our hiring process accessible to everyone. If you need a reasonable accommodation to apply or interview for this role, please inform the TA team.",
-      "skill_requirements": [
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "When you find a potential weak point, you dig into it technically to find out how far an attacker could actually go."
-        },
-        {
-          "skill": "penetration testing",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "PREVENTION ANALYST - PENTESTING"
-        },
-        {
-          "skill": "bug bounty",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "- A proven bug bounty track record or other real world offensive security experience."
-        }
-      ],
-      "german_analysis": {
-        "category": "none",
-        "level": "none",
-        "mandatory": false,
-        "label": "No German requirement detected",
-        "evidence": ""
-      },
-      "experience_analysis": null
-    },
-    {
-      "report_number": 2,
-      "job_key": "0630fc42b3e6b7bdfda7",
-      "status": "NEW",
-      "application_status": "NEW",
-      "score": 69,
-      "raw_score": 86,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "score_label": "REVIEW",
-      "title": "Security Engineer",
-      "company": "Superhuman",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin hybrid role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "Hybrid"
-      },
-      "location_scope": "Berlin",
-      "working_model": "Hybrid",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "security engineer",
-          "security engineering",
-          "security architecture"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://www.arbeitnow.com/jobs/companies/superhuman/security-engineer-berlin-205072",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/superhuman/security-engineer-berlin-205072",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/superhuman/security-engineer-berlin-205072",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-11-15T00:40:12Z",
-      "posting_age_days": 0,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 0,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-11-15T14:26:43Z",
-      "experience_required": "3+ years preferred",
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "python",
-          "security automation"
-        ],
-        "partial": [
-          "cloud security",
-          "incident response"
-        ],
-        "missing": [
-          "detection engineering",
-          "go",
-          "rust"
-        ],
-        "nice_to_have": [
-          "ci/cd (partial)",
-          "kubernetes (missing)"
-        ]
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "cloud security",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Knowledge of cloud security architecture."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "A recognized leader in productivity tools, Superhuman is the maker of popular products including Docs, Fathom, Go, GPTZero, Grammarly, and Mail."
-        }
-      ],
-      "optional_gaps": [
-        {
-          "skill": "ci/cd",
-          "profile_status": "partial",
-          "requirement": "optional",
-          "evidence": "Experience with CI/CD security integration, identity and access management concepts, and security orchestration."
-        },
-        {
-          "skill": "detection engineering",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Has 3+ years of relevant experience in security engineering, with expertise across multiple disciplines including incident response and detection engineering (threat intelligence, threat hunting experience is nice to have too)"
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "optional",
-          "evidence": "Has 3+ years of relevant experience in security engineering, with expertise across multiple disciplines including incident response and detection engineering (threat intelligence, threat hunting experience is nice to have too)"
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Experience with large-scale Kubernetes clusters."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Professional Growth: We believe that autonomy and trust are key to empowering our team members to do their best, most innovative work in a way that aligns with their interests, talents, and well-being"
-        }
-      ],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 17,
-        "experience": 15,
-        "location": 15,
-        "language": 10,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Security Engineering.",
-        "Berlin hybrid role.",
-        "Evidenced matches include python, security automation.",
-        "The detected experience requirement is within or close to the 2+ year profile."
-      ],
-      "warnings": [
-        "Requests 3+ years preferred versus approximately 2.1 years in the profile.",
-        "Mandatory gaps: cloud security",
-        "Potential gaps: go",
-        "Optional gaps: ci/cd, detection engineering, incident response, kubernetes, rust",
-        "Exposure only; do not claim deep expertise: cloud security, incident response",
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "Superhuman offers a dynamic hybrid working model for this role. This flexible approach gives team members the best of both worlds: plenty of focus time along with in-person collaboration that builds trust, sparks innovation, and strengthens team culture. About Superhuman Superhuman is an AI productivity suite that makes AI work for everyone. Over 40 million people rely on it daily to get work done. A recognized leader in productivity tools, Superhuman is the maker of popular products including Docs, Fathom, Go, GPTZero, Grammarly, and Mail. The newest product, Superhuman Go, builds on Grammarly’s ability to deliver help everywhere people work. It lets anyone build proactive agents that act as teammates across more than 1 million apps and websites, without changing how they work. Learn more at superhuman.com. The Opportunity We're looking for a Security Engineer to join our Detection & Response Team to achieve our ambitious goals. This role will contribute to our D&R team as hands-on practitioner across incident response, detection engineering, threat hunting, and threat intelligence. You'll plan, execute, and debrief complex security operations, leveraging those insights to enhanc…",
-      "full_description": "Superhuman offers a dynamic hybrid working model for this role. This flexible approach gives team members the best of both worlds: plenty of focus time along with in-person collaboration that builds trust, sparks innovation, and strengthens team culture.\n\nAbout Superhuman\n\nSuperhuman is an AI productivity suite that makes AI work for everyone. Over 40 million people rely on it daily to get work done. A recognized leader in productivity tools, Superhuman is the maker of popular products including Docs, Fathom, Go, GPTZero, Grammarly, and Mail. The newest product, Superhuman Go, builds on Grammarly’s ability to deliver help everywhere people work. It lets anyone build proactive agents that act as teammates across more than 1 million apps and websites, without changing how they work. Learn more at superhuman.com.\n\nThe Opportunity\n\nWe're looking for a Security Engineer to join our Detection & Response Team to achieve our ambitious goals. This role will contribute to our D&R team as hands-on practitioner across incident response, detection engineering, threat hunting, and threat intelligence. You'll plan, execute, and debrief complex security operations, leveraging those insights to enhance our threat mitigation capabilities and build robust, automated security tooling across all Superhuman environments.\n\nAdditionally, you'll own key workstreams in executing and advancing our security vision, translating strategic objectives into tactical implementations through strong technical execution and innovative solution building, with particular emphasis on automation and AI-powered security solutions. You'll conduct research across security domains and automation technologies, identifying opportunities to enhance our capabilities through cutting-edge approaches and intelligent automation. Finally, you'll bring an attacker mindset into Superhuman’s engineering and security culture, thinking like a threat actor to defend our systems in a way that is grounded in how real attacks happen.\n\nSuperhuman's engineers and researchers have the freedom to innovate and uncover breakthroughs—and, in turn, influence our product roadmap. The complexity of our technical challenges is growing rapidly as we scale our interfaces, algorithms, and infrastructure. Curious how we build and operate our AI agents? Check out our engineering blog, and explore our threat-hunting AI here.\n\nAs a Security Engineer, you will:\n\nOwn the IR strategy end-to-end, building, maintaining, and operating the systems and tooling that strengthen our ability to detect, contain, and recover from security incidents at scale\n\nBuild and maintain automated threat detection systems, AI-driven alert triage solutions, and security intelligence pipelines that scale with business growth\n\nConduct threat hunting and detection engineering, developing detection-as-code, hunting-as-code, and intelligence-as-code capabilities.\n\nResearch and develop cutting-edge security automation and AI-powered security solutions to deepen and scale our ability to identify threats, including autonomous security agents.\n\nOperate without traditional scope limitations, following attacker kill chains to uncover security gaps that scoped teams miss.\n\nLead complex security investigations, including insider threat scenarios and sophisticated attack campaigns.\n\nMaintain incident response capabilities and serve as part of the Incident Command on-call schedule.\n\nEmbed attacker mindset thinking throughout the organization through education and collaboration with engineering teams.\n\nQualifications\n\nHas 3+ years of relevant experience in security engineering, with expertise across multiple disciplines including incident response and detection engineering (threat intelligence, threat hunting experience is nice to have too)\n\nProven incident response leadership and complex security investigation experience.\n\nAutomation and development skills in Python, Go, or similar languages, with experience building production security tooling.\n\nKnowledge of cloud security architecture.\n\nResearch mindset with an ability to identify novel attack vectors and develop creative, pragmatic solutions.\n\nThrives in ambiguous environments and can deliver meaningful results at a rapid pace while managing multiple competing priorities.\n\nHas a demonstrated ability to work independently with minimal guidance, proactively manages tasks and priorities across multiple projects, analyzes and executes work efficiently, collaborates effectively with cross-functional teams, and thrives in fast-paced, results-driven environments.\n\nNice to have: \n\nExperience with CI/CD security integration, identity and access management concepts, and security orchestration.\n\nExperience with large-scale Kubernetes clusters.\n\nBackground in AI/ML applications for security, including experience with or interest in developing autonomous security systems.\n\nCompensation and Benefits\n\nProfessional Growth: We believe that autonomy and trust are key to empowering our team members to do their best, most innovative work in a way that aligns with their interests, talents, and well-being\n\nA connected team: Superhuman builds a product that helps people connect, and we apply this mindset to our own team. Our remote-first, hybrid model enables a highly collaborative culture rooted in our values. We work to foster belonging among team members in a variety of ways. This includes our team member resource groups, Superhuman Circles, which promote connection among those with shared identities including BIPOC and LGBTQIA+ team members, women, and parents. We also celebrate our colleagues and accomplishments with global, local, and team-specific programs.\n\nComprehensive benefits for candidates based in Germany: Superhuman offers all team members competitive pay along with a benefits package encompassing life care (including mental health care and risk benefits) and ample and defined time off. We also offer support to set up a home office, wellness and pet care stipends, learning and development opportunities, and more.\n\nRelocation Support: Superhuman provides relocation support to make your move to Berlin seamless. Our package includes visa assistance, destination services to help you and your family settle in comfortably, and a relocation bonus to cover additional expenses, such as temporary housing.\n\nWe encourage you to apply\n\nAt Superhuman, we value our differences, and we encourage all—especially those whose identities are traditionally underrepresented in tech organizations—to apply. Superhuman is an equal opportunity company. We do not discriminate on the basis of race or ethnic origin, religion or belief, color, gender expression or identity, sexual orientation, sexual identity, national origin, citizenship, age, marital status, veteran status, disability status, criminal prosecution, judgment in a criminal case, or any other characteristic protected by law.\n\nFor more details about the personal data Superhuman collects during the recruitment process, for what purposes, and how you can address your rights, please see the Superhuman Data Privacy Notice for Candidates here.\n\nCompensation: €80K – €150K\n\n• €80K – €150K\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "cloud security",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Knowledge of cloud security architecture."
-        },
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "A recognized leader in productivity tools, Superhuman is the maker of popular products including Docs, Fathom, Go, GPTZero, Grammarly, and Mail."
-        },
-        {
-          "skill": "python",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Automation and development skills in Python, Go, or similar languages, with experience building production security tooling."
-        },
-        {
-          "skill": "security automation",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Research and develop cutting-edge security automation and AI-powered security solutions to deepen and scale our ability to identify threats, including autonomous security agents."
-        },
-        {
-          "skill": "ci/cd",
-          "profile_status": "partial",
-          "requirement": "optional",
-          "evidence": "Experience with CI/CD security integration, identity and access management concepts, and security orchestration."
-        },
-        {
-          "skill": "detection engineering",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Has 3+ years of relevant experience in security engineering, with expertise across multiple disciplines including incident response and detection engineering (threat intelligence, threat hunting experience is nice to have too)"
-        },
-        {
-          "skill": "incident response",
-          "profile_status": "partial",
-          "requirement": "optional",
-          "evidence": "Has 3+ years of relevant experience in security engineering, with expertise across multiple disciplines including incident response and detection engineering (threat intelligence, threat hunting experience is nice to have too)"
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Experience with large-scale Kubernetes clusters."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "Professional Growth: We believe that autonomy and trust are key to empowering our team members to do their best, most innovative work in a way that aligns with their interests, talents, and well-being"
-        }
-      ],
-      "german_analysis": {
-        "category": "none",
-        "level": "none",
-        "mandatory": false,
-        "label": "No German requirement detected",
-        "evidence": ""
-      },
-      "experience_analysis": {
-        "min_years": 3,
-        "max_years": null,
-        "optional": true,
-        "display": "3+ years preferred",
-        "evidence": "Has 3+ years of relevant experience in security engineering, with expertise across multiple disciplines including incident response and detection engineering (threat intelligence, threat hunting experience is nice to have too)"
-      }
-    },
-    {
-      "report_number": 3,
       "job_key": "d109d27448fdf0dc0ee1",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -941,7 +556,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 4,
+      "report_number": 2,
       "job_key": "855f35dfe9f06890eb91",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1118,7 +733,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 5,
+      "report_number": 3,
       "job_key": "565e052ce84fc91a01cc",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1324,7 +939,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 6,
+      "report_number": 4,
       "job_key": "fcd3d88612c00e3423ee",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1501,7 +1116,7 @@
       }
     },
     {
-      "report_number": 7,
+      "report_number": 5,
       "job_key": "ad5a9fea931d31fc704c",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1621,7 +1236,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 8,
+      "report_number": 6,
       "job_key": "022b02e42c40ff735dbc",
       "status": "NEW",
       "application_status": "NEW",
@@ -1805,9 +1420,9 @@
       "experience_analysis": null
     },
     {
-      "report_number": 9,
-      "job_key": "d01b3b06e089068ed11f",
-      "status": "NEW",
+      "report_number": 7,
+      "job_key": "1b23d725f32d2f811703",
+      "status": "UPDATED",
       "application_status": "NEW",
       "score": 68,
       "raw_score": 68,
@@ -1818,7 +1433,7 @@
       ],
       "score_label": "REVIEW",
       "title": "Senior Software Engineer, Proactive Security",
-      "company": "Wolt - English",
+      "company": "wolt",
       "location": "Berlin, Germany",
       "location_analysis": {
         "category": "eligible_berlin",
@@ -1846,9 +1461,9 @@
         "label": "Senior",
         "evidence": "senior"
       },
-      "url": "https://www.arbeitnow.com/jobs/companies/wolt-english/senior-software-engineer-proactive-security-berlin-305358",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/wolt-english/senior-software-engineer-proactive-security-berlin-305358",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/wolt-english/senior-software-engineer-proactive-security-berlin-305358",
+      "url": "https://www.arbeitnow.com/jobs/companies/wolt/senior-software-engineer-proactive-security-berlin-19007",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/wolt/senior-software-engineer-proactive-security-berlin-19007",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/wolt/senior-software-engineer-proactive-security-berlin-19007",
       "source": "Arbeitnow",
       "sources": [
         "Arbeitnow"
@@ -1858,183 +1473,7 @@
       "lead_type": "",
       "post_author": "",
       "feed_name": "",
-      "published_at": "2026-11-13T14:45:31Z",
-      "posting_age_days": 1,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 1,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-11-15T14:26:43Z",
-      "experience_required": null,
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "python"
-        ],
-        "partial": [
-          "aws",
-          "software development"
-        ],
-        "missing": [
-          "go",
-          "secrets management",
-          "terraform"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Strong experience with infrastructure as a code tooling like Terraform."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Highly skilled in distributed systems and platforms development using program languages such as Java/Scala/Kotlin, Golang, or Python."
-        },
-        {
-          "skill": "secrets management",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Build and maintain core security products, including but not limited to Remote Access Management, Secrets Management, Tokenization, Encryption and Knowledge Graphs, Access Control at global scale."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 10,
-        "experience": 10,
-        "location": 15,
-        "language": 10,
-        "seniority": 4,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Security Engineering.",
-        "Berlin on-site role.",
-        "Evidenced matches include python."
-      ],
-      "warnings": [
-        "Mandatory gaps: terraform",
-        "Potential gaps: go, secrets management",
-        "Exposure only; do not claim deep expertise: aws, software development",
-        "Senior title is above the profile's current 2+ years",
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "About Wolt At Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we're building the delivery of (almost) everything and you'll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe. Working at Wolt isn't always easy, but it's definitely exciting. Here you'll learn more, build more, and ship more than in most other companies. You'll be challenged a lot, but also have a lot of fun on the way. So, if you're a self-starter with drive and entrepreneurial spirit, this could be the ride of your life. At Wolt, as a part of Doordash, we're building the industry's most scalable and reliable delivery platform to support our three-sided marketplace of consumers, merchants, and courier partners. What makes our team unique: Our global Security team aspires to be the world's most admired security team, with members across EU, UK and North America (operating as Wolt, Deliveroo and Doordash). We're shaping our next generation infrastructure that is hardened from the ground up. T…",
-      "full_description": "About Wolt\n\nAt Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we're building the delivery of (almost) everything and you'll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe.\n\nWorking at Wolt isn't always easy, but it's definitely exciting. Here you'll learn more, build more, and ship more than in most other companies. You'll be challenged a lot, but also have a lot of fun on the way. So, if you're a self-starter with drive and entrepreneurial spirit, this could be the ride of your life.\n\nAt Wolt, as a part of Doordash, we're building the industry's most scalable and reliable delivery platform to support our three-sided marketplace of consumers, merchants, and courier partners. \n\nWhat makes our team unique:\n\nOur global Security team aspires to be the world's most admired security team, with members across EU, UK and North America (operating as Wolt, Deliveroo and Doordash).\n\nWe're shaping our next generation infrastructure that is hardened from the ground up. This is a rare opportunity - no legacy tech or off-the-shelf product solutions. There is a lot to do around this new development as well as our \"classic\" platforms of the three companies.\n\nThe greater team is not just information security - we're more holistic, and also physical security and safety are a part of our global operations.\n\nThis position is open in our Wolt hubs in Berlin, Germany, or Helsinki, Finland, and will be a part of the Global Security Engineering team.\n\nDay-to-day in this role you'll:\n\nBuild and maintain core security products, including but not limited to Remote Access Management, Secrets Management, Tokenization, Encryption and Knowledge Graphs, Access Control at global scale.\n\nPartner cross-functionally with Core Infrastructure, Product Engineering, Legal, Security teams and Vendor Partners to build \"paved paths\" that provide actionable feedback to embed secure design practices into the product and infrastructure development process.\n\nLead the technical direction and roadmap for your assigned area of ownership.\n\nBuild and maintain high Operational Excellence (OE) to ensure we operate T0 services with excellence, rigor and durable standards to ensure minimal to no downtime.\n\nParticipate in on-call rotation and promptly respond to on-call events with urgency and rigor.\n\nManage the lifecycle of security product feature requests and improvements full life-cycle from triage, validation, design, testing, and implementation.\n\nInfluence and drive improvements to engineering standards, leverage advancements and LLMs to improve productivity and velocity.\n\nMentor and coach earlier career engineers, setting and enforcing high standards for Operational Excellence and Software Engineering.\n\nOver time, your role can evolve depending on your interests and skills. Our company is a large place and there's a lot to do!\n\nAs the Security team sometimes needs to address high-priority security issues as well as ensure the availability of the components we have built, this position includes an on-call duty. On-call compensation and terms will be agreed separately in accordance with the local employment law.\n\nOur humble expectations* \n\nAble to demonstrate a track record of driving improvements to a company's infrastructure security posture.\n\nBreadth of technical experience across various infrastructure and security areas running in large production environments.\n\nHighly skilled in distributed systems and platforms development using program languages such as Java/Scala/Kotlin, Golang, or Python.\n\nStrong experience with infrastructure as a code tooling like Terraform.\n\nExpertise with cloud infrastructure and management in AWS.\n\nExperience solving complex, systemic issues that require creative thinking and solutions.\n\nExceptional analytical and investigative abilities with hands-on experience leading root cause analysis.\n\nExcellent verbal and written communication skills to review design documents with respect to cloud infrastructure, security and engineering personnel.\n\nMust be comfortable regularly exercising discretion and independent judgment in performing job duties, including evaluating options, making informed decisions, and determining appropriate courses of action within the scope of assigned responsibilities with minimal oversight.\n\nNext steps\n\nThe position will be filled as soon as we find the right person, so make sure to apply as soon as you realize you really want to join us!\n\nOur Commitment to Diversity and Inclusion\n\nWe're committed to growing and empowering a more inclusive community within our company, industry, and cities. That's why we hire and cultivate diverse teams of people from all backgrounds, experiences, and perspectives. We believe that true innovation happens when everyone has room at the table and the tools, resources, and opportunity to excel.\n\nBeware of recruitment scams: DoorDash, Deliveroo, and Wolt will never ask you to pay money or share sensitive financial information during hiring — learn more about our legitimate recruiting process at Recruitment Scam Awareness - DoorDash .\n\nFind Jobs in Germany on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Strong experience with infrastructure as a code tooling like Terraform."
-        },
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Expertise with cloud infrastructure and management in AWS."
-        },
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Highly skilled in distributed systems and platforms development using program languages such as Java/Scala/Kotlin, Golang, or Python."
-        },
-        {
-          "skill": "python",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Highly skilled in distributed systems and platforms development using program languages such as Java/Scala/Kotlin, Golang, or Python."
-        },
-        {
-          "skill": "secrets management",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Build and maintain core security products, including but not limited to Remote Access Management, Secrets Management, Tokenization, Encryption and Knowledge Graphs, Access Control at global scale."
-        },
-        {
-          "skill": "software development",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Mentor and coach earlier career engineers, setting and enforcing high standards for Operational Excellence and Software Engineering."
-        }
-      ],
-      "german_analysis": {
-        "category": "none",
-        "level": "none",
-        "mandatory": false,
-        "label": "No German requirement detected",
-        "evidence": ""
-      },
-      "experience_analysis": null
-    },
-    {
-      "report_number": 10,
-      "job_key": "1b23d725f32d2f811703",
-      "status": "NEW",
-      "application_status": "NEW",
-      "score": 68,
-      "raw_score": 68,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "Senior title is above the profile's current 2+ years",
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "score_label": "REVIEW",
-      "title": "Senior Software Engineer, Proactive Security",
-      "company": "Wolt",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin on-site role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "On-site"
-      },
-      "location_scope": "Berlin",
-      "working_model": "On-site",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "medium",
-        "evidence": [
-          "security engineering"
-        ]
-      },
-      "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
-      },
-      "url": "https://job-boards.greenhouse.io/wolt/jobs/8385136",
-      "apply_url": "https://job-boards.greenhouse.io/wolt/jobs/8385136",
-      "canonical_url": "https://job-boards.greenhouse.io/wolt/jobs/8385136",
-      "source": "Greenhouse",
-      "sources": [
-        "Arbeitnow",
-        "Greenhouse"
-      ],
-      "ats": "greenhouse",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-11-13T09:02:09Z",
+      "published_at": "2026-11-14T00:55:24Z",
       "posting_age_days": 2,
       "posting_age_analysis": {
         "known": true,
@@ -2107,7 +1546,7 @@
       ],
       "recommendation": "REVIEW - material seniority, language, or skill risk",
       "description_excerpt": "About Wolt At Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we’re building the delivery of (almost) everything and you’ll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe. Working at Wolt isn’t always easy, but it’s definitely exciting. Here you’ll learn more, build more, and ship more than in most other companies. You’ll be challenged a lot, but also have a lot of fun on the way. So, if you’re a self-starter with drive and entrepreneurial spirit, this could be the ride of your life. At Wolt, as a part of Doordash, we’re building the industry’s most scalable and reliable delivery platform to support our three-sided marketplace of consumers, merchants, and courier partners. What makes our team unique: Our global Security team aspires to be the world’s most admired security team, with members across EU, UK and North America (operating as Wolt, Deliveroo and Doordash). We’re shaping our next generation infrastructure that is hardened from the ground up. T…",
-      "full_description": "About Wolt\n\nAt Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we’re building the delivery of (almost) everything and you’ll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe.\n\nWorking at Wolt isn’t always easy, but it’s definitely exciting. Here you’ll learn more, build more, and ship more than in most other companies. You’ll be challenged a lot, but also have a lot of fun on the way. So, if you’re a self-starter with drive and entrepreneurial spirit, this could be the ride of your life.\n\nAt Wolt, as a part of Doordash, we’re building the industry’s most scalable and reliable delivery platform to support our three-sided marketplace of consumers, merchants, and courier partners. \n\nWhat makes our team unique:\n\nOur global Security team aspires to be the world’s most admired security team, with members across EU, UK and North America (operating as Wolt, Deliveroo and Doordash).\n\nWe’re shaping our next generation infrastructure that is hardened from the ground up. This is a rare opportunity - no legacy tech or off-the-shelf product solutions. There is a lot to do around this new development as well as our “classic” platforms of the three companies.\n\nThe greater team is not just information security - we’re more holistic, and also physical security and safety are a part of our global operations.\n\nThis position is open in our Wolt hubs in Berlin, Germany, or Helsinki, Finland, and will be a part of the Global Security Engineering team.\n\nDay-to-day in this role you’ll:\n\nBuild and maintain core security products, including but not limited to Remote Access Management, Secrets Management, Tokenization, Encryption and Knowledge Graphs, Access Control at global scale.\n\nPartner cross-functionally with Core Infrastructure, Product Engineering, Legal, Security teams and Vendor Partners to build “paved paths” that provide actionable feedback to embed secure design practices into the product and infrastructure development process.\n\nLead the technical direction and roadmap for your assigned area of ownership.\n\nBuild and maintain high Operational Excellence (OE) to ensure we operate T0 services with excellence, rigor and durable standards to ensure minimal to no downtime.\n\nParticipate in on-call rotation and promptly respond to on-call events with urgency and rigor.\n\nManage the lifecycle of security product feature requests and improvements full life-cycle from triage, validation, design, testing, and implementation.\n\nInfluence and drive improvements to engineering standards, leverage advancements and LLMs to improve productivity and velocity.\n\nMentor and coach earlier career engineers, setting and enforcing high standards for Operational Excellence and Software Engineering.\n\nOver time, your role can evolve depending on your interests and skills. Our company is a large place and there’s a lot to do!\n\nAs the Security team sometimes needs to address high-priority security issues as well as ensure the availability of the components we have built, this position includes an on-call duty. On-call compensation and terms will be agreed separately in accordance with the local employment law.\n\nOur humble expectations* \n\nAble to demonstrate a track record of driving improvements to a company’s infrastructure security posture.\n\nBreadth of technical experience across various infrastructure and security areas running in large production environments.\n\nHighly skilled in distributed systems and platforms development using program languages such as Java/Scala/Kotlin, Golang, or Python.\n\nStrong experience with infrastructure as a code tooling like Terraform.\n\nExpertise with cloud infrastructure and management in AWS.\n\nExperience solving complex, systemic issues that require creative thinking and solutions.\n\nExceptional analytical and investigative abilities with hands-on experience leading root cause analysis.\n\nExcellent verbal and written communication skills to review design documents with respect to cloud infrastructure, security and engineering personnel.\n\nMust be comfortable regularly exercising discretion and independent judgment in performing job duties, including evaluating options, making informed decisions, and determining appropriate courses of action within the scope of assigned responsibilities with minimal oversight.\n\nNext steps\n\nThe position will be filled as soon as we find the right person, so make sure to apply as soon as you realize you really want to join us!\n\nOur Commitment to Diversity and Inclusion\n\nWe’re committed to growing and empowering a more inclusive community within our company, industry, and cities. That’s why we hire and cultivate diverse teams of people from all backgrounds, experiences, and perspectives. We believe that true innovation happens when everyone has room at the table and the tools, resources, and opportunity to excel.\n\nBeware of recruitment scams: DoorDash, Deliveroo, and Wolt will never ask you to pay money or share sensitive financial information during hiring — learn more about our legitimate recruiting process at Recruitment Scam Awareness - DoorDash .\n\nFind Jobs in Germany on Arbeitnow",
+      "full_description": "About Wolt\n\nAt Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we’re building the delivery of (almost) everything and you’ll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe.\n\nWorking at Wolt isn’t always easy, but it’s definitely exciting. Here you’ll learn more, build more, and ship more than in most other companies. You’ll be challenged a lot, but also have a lot of fun on the way. So, if you’re a self-starter with drive and entrepreneurial spirit, this could be the ride of your life.\n\nAt Wolt, as a part of Doordash, we’re building the industry’s most scalable and reliable delivery platform to support our three-sided marketplace of consumers, merchants, and courier partners. \n\nWhat makes our team unique:\n\nOur global Security team aspires to be the world’s most admired security team, with members across EU, UK and North America (operating as Wolt, Deliveroo and Doordash).\n\nWe’re shaping our next generation infrastructure that is hardened from the ground up. This is a rare opportunity - no legacy tech or off-the-shelf product solutions. There is a lot to do around this new development as well as our “classic” platforms of the three companies.\n\nThe greater team is not just information security - we’re more holistic, and also physical security and safety are a part of our global operations.\n\nThis position is open in our Wolt hubs in Berlin, Germany, or Helsinki, Finland, and will be a part of the Global Security Engineering team.\n\nDay-to-day in this role you’ll:\n\nBuild and maintain core security products, including but not limited to Remote Access Management, Secrets Management, Tokenization, Encryption and Knowledge Graphs, Access Control at global scale.\n\nPartner cross-functionally with Core Infrastructure, Product Engineering, Legal, Security teams and Vendor Partners to build “paved paths” that provide actionable feedback to embed secure design practices into the product and infrastructure development process.\n\nLead the technical direction and roadmap for your assigned area of ownership.\n\nBuild and maintain high Operational Excellence (OE) to ensure we operate T0 services with excellence, rigor and durable standards to ensure minimal to no downtime.\n\nParticipate in on-call rotation and promptly respond to on-call events with urgency and rigor.\n\nManage the lifecycle of security product feature requests and improvements full life-cycle from triage, validation, design, testing, and implementation.\n\nInfluence and drive improvements to engineering standards, leverage advancements and LLMs to improve productivity and velocity.\n\nMentor and coach earlier career engineers, setting and enforcing high standards for Operational Excellence and Software Engineering.\n\nOver time, your role can evolve depending on your interests and skills. Our company is a large place and there’s a lot to do!\n\nAs the Security team sometimes needs to address high-priority security issues as well as ensure the availability of the components we have built, this position includes an on-call duty. On-call compensation and terms will be agreed separately in accordance with the local employment law.\n\nOur humble expectations* \n\nAble to demonstrate a track record of driving improvements to a company’s infrastructure security posture.\n\nBreadth of technical experience across various infrastructure and security areas running in large production environments.\n\nHighly skilled in distributed systems and platforms development using program languages such as Java/Scala/Kotlin, Golang, or Python.\n\nStrong experience with infrastructure as a code tooling like Terraform.\n\nExpertise with cloud infrastructure and management in AWS.\n\nExperience solving complex, systemic issues that require creative thinking and solutions.\n\nExceptional analytical and investigative abilities with hands-on experience leading root cause analysis.\n\nExcellent verbal and written communication skills to review design documents with respect to cloud infrastructure, security and engineering personnel.\n\nMust be comfortable regularly exercising discretion and independent judgment in performing job duties, including evaluating options, making informed decisions, and determining appropriate courses of action within the scope of assigned responsibilities with minimal oversight.\n\nNext steps\n\nThe position will be filled as soon as we find the right person, so make sure to apply as soon as you realize you really want to join us!\n\nOur Commitment to Diversity and Inclusion\n\nWe’re committed to growing and empowering a more inclusive community within our company, industry, and cities. That’s why we hire and cultivate diverse teams of people from all backgrounds, experiences, and perspectives. We believe that true innovation happens when everyone has room at the table and the tools, resources, and opportunity to excel.\n\nBeware of recruitment scams: DoorDash, Deliveroo, and Wolt will never ask you to pay money or share sensitive financial information during hiring — learn more about our legitimate recruiting process at Recruitment Scam Awareness - DoorDash .\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
       "skill_requirements": [
         {
           "skill": "terraform",
@@ -2154,6 +1593,564 @@
         "evidence": ""
       },
       "experience_analysis": null
+    },
+    {
+      "report_number": 8,
+      "job_key": "bd1b3b1bbb48fe52ce64",
+      "status": "UPDATED",
+      "application_status": "NEW",
+      "score": 63,
+      "raw_score": 63,
+      "score_cap": null,
+      "score_cap_reasons": [],
+      "score_label": "REVIEW",
+      "title": "SAP Concur Consultant – Module Security",
+      "company": "Market Cloud",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin remote role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Remote"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "other_security",
+        "label": "Other Security",
+        "priority": 3,
+        "confidence": "low",
+        "evidence": []
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://www.arbeitnow.com/jobs/companies/market-cloud/sap-concur-consultant-module-security-berlin-72072",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/market-cloud/sap-concur-consultant-module-security-berlin-72072",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/market-cloud/sap-concur-consultant-module-security-berlin-72072",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-10-27T07:30:40Z",
+      "posting_age_days": 2,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 2,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-10-27T12:33:40Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [],
+        "partial": [],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 10,
+        "skills": 5,
+        "experience": 10,
+        "location": 15,
+        "language": 10,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Berlin remote role."
+      ],
+      "warnings": [],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "Your role at Market Cloud Market Cloud delivers IT services and consulting across the European Economic Area, supporting clients with specialized enterprise software expertise. This fixed-term contract role focuses entirely on SAP Concur Module Security, where you will manage, configure, and secure Concur environments for clients on a remote basis. What you will do Configure and maintain SAP Concur security profiles, user roles, and authorization concepts. Collaborate with clients to translate access requirements into secure, functional Concur configurations. Troubleshoot and resolve security-related incidents and audit findings within SAP Concur. Support deployment activities and continuous improvement initiatives for module security enhancements. What we are looking for Proven experience in SAP Concur consulting with a primary focus on module security. Strong understanding of authorization concepts, role design, and access governance within enterprise environments. Ability to communicate technical security requirements clearly to business users and stakeholders. Working with us You will receive 24 vacation days per year across your 40-hour work week on this 12-month contract. Yo…",
+      "full_description": "Your role at Market Cloud\n\nMarket Cloud delivers IT services and consulting across the European Economic Area, supporting clients with specialized enterprise software expertise. This fixed-term contract role focuses entirely on SAP Concur Module Security, where you will manage, configure, and secure Concur environments for clients on a remote basis.\n\nWhat you will do\n\nConfigure and maintain SAP Concur security profiles, user roles, and authorization concepts.\n\nCollaborate with clients to translate access requirements into secure, functional Concur configurations.\n\nTroubleshoot and resolve security-related incidents and audit findings within SAP Concur.\n\nSupport deployment activities and continuous improvement initiatives for module security enhancements.\n\nWhat we are looking for\n\nProven experience in SAP Concur consulting with a primary focus on module security.\n\nStrong understanding of authorization concepts, role design, and access governance within enterprise environments.\n\nAbility to communicate technical security requirements clearly to business users and stakeholders.\n\nWorking with us\n\nYou will receive 24 vacation days per year across your 40-hour work week on this 12-month contract.\n\nYour first months at Market Cloud\n\nDuring your initial months, you will take on active client security configurations, resolve incoming access incidents, and ship module enhancements across remote project teams. If you meet most of these requirements and are ready to support specialized SAP Concur implementations, we encourage you to apply.\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
+      "skill_requirements": [],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 9,
+      "job_key": "cd5cfcf928703cec5837",
+      "status": "UPDATED",
+      "application_status": "NEW",
+      "score": 60,
+      "raw_score": 60,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "Senior title is above the profile's current 2+ years"
+      ],
+      "score_label": "REVIEW",
+      "title": "Security Engineer Senior - GRC",
+      "company": "Alan",
+      "location": "Anywhere in France",
+      "location_analysis": {
+        "category": "eligible_worldwide_remote",
+        "eligible": true,
+        "score": 11,
+        "reason": "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
+        "verification_required": true,
+        "score_cap": 89,
+        "scope": "Worldwide remote",
+        "work_model": "Remote"
+      },
+      "location_scope": "Worldwide remote",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "it_audit_grc",
+        "label": "IT Audit / GRC",
+        "priority": 3,
+        "confidence": "high",
+        "evidence": [
+          "grc",
+          "iso 27001",
+          "internal audit",
+          "compliance"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-senior-grc-anywhere-in-france-113298",
+      "apply_url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-senior-grc-anywhere-in-france-113298",
+      "canonical_url": "https://www.arbeitnow.fr/jobs/companies/alan/security-engineer-senior-grc-anywhere-in-france-113298",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-10-21T02:40:14Z",
+      "posting_age_days": 4,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 4,
+        "category": "recent",
+        "label": "RECENT"
+      },
+      "urgency": "RECENT",
+      "first_seen": "2026-10-21T10:26:52Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "sast"
+        ],
+        "partial": [],
+        "missing": [
+          "iso 27001",
+          "rust"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "You own the full certification cycle (ISO 27001, HDS and those to come), and turn it into something teams use every day to prioritise, not a binder for auditors."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "This one is about earning our members' trust: every day, they share their diagnoses, their claims and their care with us."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 12,
+        "skills": 10,
+        "experience": 10,
+        "location": 11,
+        "language": 10,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Worldwide/anywhere remote eligibility detected; verify employment from Germany.",
+        "Evidenced matches include sast."
+      ],
+      "warnings": [
+        "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
+        "Potential gaps: iso 27001, rust",
+        "Senior title is above the profile's current 2+ years"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "Health can’t wait. Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t. Alan exists to end the wait. Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way. So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience. We are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR. Prevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond. 🛡️ The role Most GRC roles are about keeping auditors happy. This one is…",
+      "full_description": "Health can’t wait. \n\nNot for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t.\n\nAlan exists to end the wait.\n\nHealth is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way.\n\nSo we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience.\n\nWe are on an incredible journey to build a global leading company, with a unique culture. We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR.\n\nPrevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond.\n\n🛡️ The role\n\nMost GRC roles are about keeping auditors happy. This one is about earning our members' trust: every day, they share their diagnoses, their claims and their care with us.\n\nYou'll own security governance and risk at Alan end to end. That means one clear framework across our certifications and regulations, which the whole company uses to decide what matters most. You set the direction, make the calls on risk, and help every team own its part.\n\nWe just earned our HDS certification, and there's much more to build as we grow from 1M to many millions of members, across more countries and regulators. That includes how we govern AI, which Alan uses across its products and operations.\n\nThis is a hands-on senior role. You do the work yourself, mentor the junior GRC engineer we're hiring alongside you, and grow the team over time.\n\n🚀 What you'll do\n\nMake our security framework a tool for the whole company. You own the full certification cycle (ISO 27001, HDS and those to come), and turn it into something teams use every day to prioritise, not a binder for auditors.\n\nBring the security view on regulation. Legal and Risk own the regulatory relationships. You bring the security answer: what the rules mean for how we protect data, and which controls make it work in practice.\n\nRun risk as an ongoing programme. You map and prioritise security risks, including AI risks, turn them into clear treatment plans, and feed them into company-wide risk decisions with the Risk team.\n\nHelp every team own its risks. You define the controls framework and the standards, while the teams who build and run our systems own the controls. You brief the board and audit committee, and you know which findings need an urgent call and which can wait for the quarterly report.\n\nOwn incident governance. You triage and escalate incidents, own business continuity and disaster recovery, and shape the security side of our regulatory incident reports.\n\nBe a credible partner to engineering. You work with engineering teams early on new designs and spot control gaps (access, encryption, logging) before they ship. You don't need to be an architect, but you can hold the conversation.\n\n🏗️ What you'll build\n\nOne governance model: clear ownership of risks and controls across teams, so security decisions don't bottleneck on one person.\n\nA living risk map: prioritised risks that actually drive company and engineering decisions.\n\nOne compliance backbone: a single control system across our countries and regulators, built to scale.\n\nAn automated evidence engine: evidence collected straight from engineering systems, so audits run continuously instead of as a quarterly rush.\n\nYou'll work closely with Legal, the Data Protection Officer, Internal Audit and Risk, and day to day with engineering and operations teams.\n\n⭐ What we're looking for\n\nYour team\n\nYou'll join Alan's Corporate team, which brings together our control functions: Risk, Corporate Governance & Internal Control, Legal, Compliance and Security. They share one mission: building what lets Alan operate at scale, safely and responsibly. Within that group, you carry the security governance and risk dimension, working hand in hand with the security engineers who run our infrastructure and platform security, and with a junior GRC engineer we're hiring alongside you. You'll be hands-on every day, building and owning the work yourself. Along the way, you'll mentor the junior engineer and help shape how GRC grows at Alan.\n\nWhat you bring\n\nYou want to build and own things yourself, and you enjoy helping someone else grow while you do it.\n\n6+ years in security, with real GRC ownership.\n\nYou've run a GRC roadmap in a certified or strongly regulated environment (ISO 27001, HDS, SOC 2, or regulated sectors like health, insurance or finance). You're comfortable working with certification auditors, and you can explain what a framework requires and why it makes sense for business teams.\n\nYou take a stand on risks, and you'd rather close one real risk than write ten policies.\n\nYou're fluent in French and English.\n\nA big plus\n\nYou've driven a certification or audit cycle end to end yourself.\n\nYou've automated compliance work, or you're eager to, and you have a view on where AI can help.\n\nYou've presented risk to senior leaders or a board.\n\nYou've mentored or onboarded someone before.\n\n🌍 How we work\n\nLocation: You must be legally eligible to work from France, Belgium or Spain.\n\nRemote work: We offer remote work flexibility.\n\n🎯 Important note: we hire people, not roles.\n\nIf you're excited about this opportunity but don't check every box, we'd love to hear from you. Everyone, no matter how underrepresented, should feel free to apply, as it can only bring learnings or success.\n\nRemember, this is just a guide, not a checklist. We'll be thrilled to receive your application!\n\n🔖 Check out our About Alan and Career pages, as well as our Medium, blog and Glassdoor page for more info.\n\nYou want to know more about Alan?\n\n🙌 Perks & Benefits: Alaners are provided with a stimulating environment and perks ensuring they are happy, efficient and spend only high-quality time with co-workers.\n\n🤘A strong culture: People joining Alan are often surprised and delighted by our innovative working method. We have a set of cultural values that guide our approach to work\n\nCompensation: €83K – €100K\n\nLevel D to E • €83K – €100K\n\nFind more English Speaking Jobs in France on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "You own the full certification cycle (ISO 27001, HDS and those to come), and turn it into something teams use every day to prioritise, not a binder for auditors."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "This one is about earning our members' trust: every day, they share their diagnoses, their claims and their care with us."
+        },
+        {
+          "skill": "sast",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "You triage and escalate incidents, own business continuity and disaster recovery, and shape the security side of our regulatory incident reports."
+        }
+      ],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 10,
+      "job_key": "a03342dd76095c14515c",
+      "status": "UPDATED",
+      "application_status": "NEW",
+      "score": 59,
+      "raw_score": 72,
+      "score_cap": 59,
+      "score_cap_reasons": [
+        "Mandatory experience requirement is 5+ years",
+        "Multiple explicitly mandatory skills are not evidenced"
+      ],
+      "score_label": "STRETCH",
+      "title": "Senior Security Engineer - AppSec (d/f/m)",
+      "company": "Vivenu",
+      "location": "Remote Germany",
+      "location_analysis": {
+        "category": "eligible_germany_remote",
+        "eligible": true,
+        "score": 15,
+        "reason": "Remote work from Germany is explicitly available",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Germany remote",
+        "work_model": "Remote"
+      },
+      "location_scope": "Germany remote",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "application_security",
+        "label": "Application Security",
+        "priority": 1,
+        "confidence": "high",
+        "evidence": [
+          "appsec",
+          "sast",
+          "dast"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://www.arbeitnow.com/jobs/companies/vivenu/remote-senior-security-engineer-appsec-40606",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/vivenu/remote-senior-security-engineer-appsec-40606",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/vivenu/remote-senior-security-engineer-appsec-40606",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-11-14T21:26:38Z",
+      "posting_age_days": 1,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 1,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-09-06T10:01:28Z",
+      "experience_required": "5+ years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "api security",
+          "application security",
+          "dast",
+          "penetration testing",
+          "sast",
+          "security testing",
+          "threat modeling",
+          "vulnerability management"
+        ],
+        "partial": [
+          "aws",
+          "ci/cd",
+          "git",
+          "javascript"
+        ],
+        "missing": [
+          "azure",
+          "github security",
+          "go",
+          "infrastructure as code",
+          "kubernetes",
+          "rust",
+          "terraform"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "ci/cd",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Modern Technology Stack: Dive into securing a massive TypeScript monolith alongside Go supporting services, giving you hands-on experience in modern language security and advanced GitHub CI/CD pipeline hardening."
+        },
+        {
+          "skill": "git",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Modern Technology Stack: Dive into securing a massive TypeScript monolith alongside Go supporting services, giving you hands-on experience in modern language security and advanced GitHub CI/CD pipeline hardening."
+        },
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Modern Technology Stack: Dive into securing a massive TypeScript monolith alongside Go supporting services, giving you hands-on experience in modern language security and advanced GitHub CI/CD pipeline hardening."
+        },
+        {
+          "skill": "infrastructure as code",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Hands-on experience with Terraform for securing infrastructure-as-code and integrating security testing."
+        },
+        {
+          "skill": "javascript",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Modern Technology Stack: Dive into securing a massive TypeScript monolith alongside Go supporting services, giving you hands-on experience in modern language security and advanced GitHub CI/CD pipeline hardening."
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Hands-on experience with Terraform for securing infrastructure-as-code and integrating security testing."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "azure",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Web and API Security Mastery: a deep understanding of web/API attack vectors and scalable best practices and how to run workloads securely in a cloud environment (k8s, AWS/GCP/Azure)"
+        },
+        {
+          "skill": "github security",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Pioneer Security-as-Code: Design, implement, and automate security checks and guardrails (SAST, DAST, and secret scanning) directly into CI/CD pipelines."
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Complex Multi-Cloud Architecture: Challenge your skills against a sophisticated multi-tenant, multi-region environment spanning k8s, GCP (our primary compute) and and separate database services"
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Be a Trusted Advisor: Partner closely with engineering teams to champion security-by-design and elevate our overall security posture."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 20,
+        "skills": 14,
+        "experience": 4,
+        "location": 15,
+        "language": 10,
+        "seniority": 4,
+        "education": 5
+      },
+      "match_reasons": [
+        "Role family: Application Security.",
+        "Remote work from Germany is explicitly available.",
+        "Evidenced matches include api security, application security, dast, penetration testing, sast."
+      ],
+      "warnings": [
+        "Requests 5+ years versus approximately 2.1 years in the profile.",
+        "Mandatory gaps: ci/cd, git, go, infrastructure as code, javascript, terraform",
+        "Potential gaps: azure, github security, kubernetes, rust",
+        "Exposure only; do not claim deep expertise: aws, ci/cd, git, javascript",
+        "Mandatory experience requirement is 5+ years",
+        "Multiple explicitly mandatory skills are not evidenced"
+      ],
+      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
+      "description_excerpt": "Redefine the future of live entertainment tech Welcome to vivenu, the global leader in event ticketing tech and one of the world’s fastest-growing live entertainment tech firms. We are transforming event ticketing for global leaders like the Grammys, the Golden Globes, Stanford University and the Hockenheimring turning what was once a simple transaction into a strategic business advantage. Backed by over $65 million in funding, our platform empowers event organizers to own their brand experience, unlock deep data insights, and seamlessly integrate ticketing into their digital infrastructure. With six offices worldwide and growing, we deliver a customizable, intuitive solution and industry-leading support that simplify even the most complex ticketing challenges – helping organizers deliver exceptional experiences and drive real growth. Join us and build the future of live entertainment. With over 10 million end users and usage quadrupling annually, our infrastructure now handles over 1 billion requests per month — and counting. Our API-first platform solves complex system challenges at scale — delivering performance, flexibility, and reliability for the world’s leading live enterta…",
+      "full_description": "Redefine the future of live entertainment tech\n\nWelcome to vivenu, the global leader in event ticketing tech and one of the world’s fastest-growing live entertainment tech firms. We are transforming event ticketing for global leaders like the Grammys, the Golden Globes, Stanford University and the Hockenheimring turning what was once a simple transaction into a strategic business advantage. Backed by over $65 million in funding, our platform empowers event organizers to own their brand experience, unlock deep data insights, and seamlessly integrate ticketing into their digital infrastructure.\n\nWith six offices worldwide and growing, we deliver a customizable, intuitive solution and industry-leading support that simplify even the most complex ticketing challenges – helping organizers deliver exceptional experiences and drive real growth.\n\nJoin us and build the future of live entertainment.\n\nWith over 10 million end users and usage quadrupling annually, our infrastructure now handles over 1 billion requests per month — and counting. Our API-first platform solves complex system challenges at scale — delivering performance, flexibility, and reliability for the world’s leading live entertainment brands.\n\nThis isn't just a maintenance role – it is a blank canvas to build, scale, and architect a state-of-the-art AppSec program from the ground up. We are currently operating at a fraction of our ultimate potential, which means you have an immense, blank-canvas opportunity to fundamentally shape our security culture, processes, and tooling across the entire global engineering organization.\n\nYou will drive the entire AppSec lifecycle: from offensive red teaming and threat modeling to risk-based vulnerability management and pioneering a true shift-left culture.\n\nWhat Makes This Role Challenging and Engaging:\n\nHigh-Impact Technical Environment: You won't just follow blueprints; you will holistically influence a shift-left architecture across both application and platform layers.\n\nModern Technology Stack: Dive into securing a massive TypeScript monolith alongside Go supporting services, giving you hands-on experience in modern language security and advanced GitHub CI/CD pipeline hardening.\n\nWeb and API: secure the application of the vivenu platform which provides customers with an out-of-the-box ticketing software as well as the underlying API structure\n\nComplex Multi-Cloud Architecture: Challenge your skills against a sophisticated multi-tenant, multi-region environment spanning k8s, GCP (our primary compute) and and separate database services\n\nCutting-Edge Deployment: Secure a next-gen Kubernetes \"satellite architecture\" utilizing hardened private compute nodes, VPC peering, and Argo CD for GitOps—a true, modern cloud-native security mandate.\n\nAs a Senior Security Engineer - AppSec (d/f/m) your responsibilities will include:\n\nBe a Trusted Advisor: Partner closely with engineering teams to champion security-by-design and elevate our overall security posture.\n\nOffensive & Defensive Testing: Coordinate and execute threat modeling and advanced security tests across our product and underlying infrastructure.\n\nLead Next-Gen Vulnerability Management: Drive triage and remediation using modern, risk-based principles like EPSS, while leveraging AI technologies to accelerate security testing at scale.\n\nPioneer Security-as-Code: Design, implement, and automate security checks and guardrails (SAST, DAST, and secret scanning) directly into CI/CD pipelines.\n\nReview & Refine: Perform deep-dive code and configuration reviews, advocating for secure coding practices that support a proactive shift-left strategy.\n\nWhat you will need to succeed in this role:\n\nExperience: 5+ years of dedicated Security Engineering experience, ideally within a high-growth SaaS, E-commerce, or Fintech environment.\n\nSaaS Deep-Dive: The ability to dive deep into the business logic of a complex SaaS application to uncover and verify elusive attack vectors.\n\nWeb and API Security Mastery: a deep understanding of web/API attack vectors and scalable best practices and how to run workloads securely in a cloud environment (k8s, AWS/GCP/Azure)\n\nOwnership: A proven track record of autonomously driving security initiatives from conception to completion.\n\nAutomation Mindset: Proficiency in at least one programming language for scripting and security tool development (bonus points for automating GRC evidence collection).\n\nEducation: A Bachelor’s or Master’s degree in Computer Science, Cybersecurity, IT, or a related technical field (or equivalent practical experience).\n\nPreferred:\n\nExperience navigating PCI DSS script security.\n\nA background in Red/Purple Team operations and advanced penetration testing, paired with the empathy and collaboration skills needed to help dev teams fix software vulnerabilities.\n\nHands-on experience with Terraform for securing infrastructure-as-code and integrating security testing.\n\nFamiliarity with our modern tech stack: GCP, Golang, and TypeScript.\n\nWhy join vivenu?\n\nLive Entertainment Tech\n\nPlay a mission-critical role for global brands, redefining fan experiences from festivals to major sports events. Here, you’re part of the business of fun — powered by cutting-edge technology that brings moments to life for millions.\n\nSustainable Growth\n\nWe scale sustainably on a profitable, VC-backed foundation with true product-market fit. This means continuous investment in our people, products, and long-term vision.\n\nTop-tier Team\n\nCollaborate with over 160 dedicated professionals, including leaders from Google, Slack, and Salesforce. Together, we’re shaping the future of live entertainment technology, one decision at a time.\n\nGlobal DNA\n\nWe’re a diverse, merit-driven team spread across six global offices. Talent and impact are what matter here — not hierarchy or background.\n\nFast Growing, in All Aspects\n\nSifted consistently ranks us among the fastest-growing scale-ups in Europe. We’re driven by daily learning, shared wins, and collective growth.\n\nNext-Gen Leaders & Insights\n\nWork alongside some of tech’s brightest minds — from Forbes 30 Under 30 founders to Executive of the Year award winners. At vivenu, you’ll help set the standard for the ticketing industry’s future.\n\nvivenu Inclusion Statement\n\nAt vivenu, we believe our people define our success – and that we win with bold, diverse minds. The strongest teams are built on different perspectives, experiences, and voices. We’re committed to creating a workplace where everyone feels empowered to contribute, grow, and thrive to shape the future of live entertainment globally.\n\nCheck out our mission statement and corporate values here.\n\nFind Jobs in Germany on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "ci/cd",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Modern Technology Stack: Dive into securing a massive TypeScript monolith alongside Go supporting services, giving you hands-on experience in modern language security and advanced GitHub CI/CD pipeline hardening."
+        },
+        {
+          "skill": "git",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Modern Technology Stack: Dive into securing a massive TypeScript monolith alongside Go supporting services, giving you hands-on experience in modern language security and advanced GitHub CI/CD pipeline hardening."
+        },
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Modern Technology Stack: Dive into securing a massive TypeScript monolith alongside Go supporting services, giving you hands-on experience in modern language security and advanced GitHub CI/CD pipeline hardening."
+        },
+        {
+          "skill": "infrastructure as code",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Hands-on experience with Terraform for securing infrastructure-as-code and integrating security testing."
+        },
+        {
+          "skill": "javascript",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Modern Technology Stack: Dive into securing a massive TypeScript monolith alongside Go supporting services, giving you hands-on experience in modern language security and advanced GitHub CI/CD pipeline hardening."
+        },
+        {
+          "skill": "security testing",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "Hands-on experience with Terraform for securing infrastructure-as-code and integrating security testing."
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Hands-on experience with Terraform for securing infrastructure-as-code and integrating security testing."
+        },
+        {
+          "skill": "api security",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Web and API Security Mastery: a deep understanding of web/API attack vectors and scalable best practices and how to run workloads securely in a cloud environment (k8s, AWS/GCP/Azure)"
+        },
+        {
+          "skill": "application security",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "This isn't just a maintenance role – it is a blank canvas to build, scale, and architect a state-of-the-art AppSec program from the ground up."
+        },
+        {
+          "skill": "aws",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Web and API Security Mastery: a deep understanding of web/API attack vectors and scalable best practices and how to run workloads securely in a cloud environment (k8s, AWS/GCP/Azure)"
+        },
+        {
+          "skill": "azure",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Web and API Security Mastery: a deep understanding of web/API attack vectors and scalable best practices and how to run workloads securely in a cloud environment (k8s, AWS/GCP/Azure)"
+        },
+        {
+          "skill": "dast",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Pioneer Security-as-Code: Design, implement, and automate security checks and guardrails (SAST, DAST, and secret scanning) directly into CI/CD pipelines."
+        },
+        {
+          "skill": "github security",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Pioneer Security-as-Code: Design, implement, and automate security checks and guardrails (SAST, DAST, and secret scanning) directly into CI/CD pipelines."
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Complex Multi-Cloud Architecture: Challenge your skills against a sophisticated multi-tenant, multi-region environment spanning k8s, GCP (our primary compute) and and separate database services"
+        },
+        {
+          "skill": "penetration testing",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "A background in Red/Purple Team operations and advanced penetration testing, paired with the empathy and collaboration skills needed to help dev teams fix software vulnerabilities."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Be a Trusted Advisor: Partner closely with engineering teams to champion security-by-design and elevate our overall security posture."
+        },
+        {
+          "skill": "sast",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Pioneer Security-as-Code: Design, implement, and automate security checks and guardrails (SAST, DAST, and secret scanning) directly into CI/CD pipelines."
+        },
+        {
+          "skill": "threat modeling",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "You will drive the entire AppSec lifecycle: from offensive red teaming and threat modeling to risk-based vulnerability management and pioneering a true shift-left culture."
+        },
+        {
+          "skill": "vulnerability management",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "You will drive the entire AppSec lifecycle: from offensive red teaming and threat modeling to risk-based vulnerability management and pioneering a true shift-left culture."
+        }
+      ],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": {
+        "min_years": 5,
+        "max_years": null,
+        "optional": false,
+        "display": "5+ years",
+        "evidence": "Experience: 5+ years of dedicated Security Engineering experience, ideally within a high-growth SaaS, E-commerce, or Fintech environment."
+      }
     }
   ],
   "analysis_request": {
