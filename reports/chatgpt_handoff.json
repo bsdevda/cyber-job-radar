@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T16:15:49Z",
+  "generated_at": "2026-11-17T16:21:11Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,42 +171,42 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-11-16T16:15:49Z",
+    "generated_at": "2026-11-17T16:21:11Z",
     "scoring_version": 2.2,
-    "jobs_collected": 8777,
-    "security_title_candidates": 298,
-    "prefiltered_non_security_jobs": 8479,
-    "unique_jobs_after_deduplication": 204,
-    "duplicates_removed": 94,
-    "jobs_rejected_or_below_threshold": 8669,
-    "relevant_jobs_in_current_run": 14,
+    "jobs_collected": 7340,
+    "security_title_candidates": 202,
+    "prefiltered_non_security_jobs": 7138,
+    "unique_jobs_after_deduplication": 146,
+    "duplicates_removed": 56,
+    "jobs_rejected_or_below_threshold": 7273,
+    "relevant_jobs_in_current_run": 11,
     "new_jobs": 0,
-    "updated_jobs": 2,
+    "updated_jobs": 0,
     "strong_matches": 1,
     "sources_checked": 8,
     "sources_failed": 0,
     "sources_partial": 0,
     "report_jobs": 44,
     "jobs_by_source": {
-      "arbeitnow": 2136,
-      "remotive": 17,
+      "arbeitnow": 2248,
+      "remotive": 16,
       "linkedin_posts": 0,
-      "greenhouse": 5983,
-      "ashby": 424,
-      "lever": 87,
-      "personio": 130,
+      "greenhouse": 4506,
+      "ashby": 256,
+      "lever": 177,
+      "personio": 137,
       "recruitee": 0
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 26.6
+    "workflow_duration_seconds": 21.8
   },
   "source_status": {
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 2136,
+      "jobs": 2248,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 17,
+      "jobs": 16,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -230,45 +230,45 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 5983,
-      "requests": 48,
+      "jobs": 4506,
+      "requests": 61,
       "errors": [],
       "error": "",
-      "companies_checked": 48,
-      "companies_successful": 48,
+      "companies_checked": 61,
+      "companies_successful": 61,
       "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 424,
-      "requests": 10,
+      "jobs": 256,
+      "requests": 8,
       "errors": [],
       "error": "",
-      "companies_checked": 10,
-      "companies_successful": 10,
+      "companies_checked": 8,
+      "companies_successful": 8,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 87,
-      "requests": 2,
-      "errors": [],
-      "error": "",
-      "companies_checked": 2,
-      "companies_successful": 2,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 130,
+      "jobs": 177,
       "requests": 3,
       "errors": [],
       "error": "",
       "companies_checked": 3,
       "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 137,
+      "requests": 4,
+      "errors": [],
+      "error": "",
+      "companies_checked": 4,
+      "companies_successful": 4,
       "companies_failed": 0
     },
     "recruitee": {
@@ -1837,41 +1837,40 @@
     },
     {
       "report_number": 10,
-      "job_key": "a03342dd76095c14515c",
+      "job_key": "32c54022816bcac2a151",
       "status": "UPDATED",
       "application_status": "NEW",
       "score": 59,
-      "raw_score": 72,
+      "raw_score": 64,
       "score_cap": 59,
       "score_cap_reasons": [
-        "Mandatory experience requirement is 5+ years",
-        "Multiple explicitly mandatory skills are not evidenced"
+        "Mandatory experience requirement is 5+ years"
       ],
       "score_label": "STRETCH",
-      "title": "Senior Security Engineer - AppSec (d/f/m)",
-      "company": "Vivenu",
-      "location": "Remote Germany",
+      "title": "Senior Security Engineer",
+      "company": "Kestra Technologies",
+      "location": "Europe",
       "location_analysis": {
-        "category": "eligible_germany_remote",
+        "category": "eligible_europe_remote",
         "eligible": true,
-        "score": 15,
-        "reason": "Remote work from Germany is explicitly available",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Germany remote",
+        "score": 13,
+        "reason": "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
+        "verification_required": true,
+        "score_cap": 89,
+        "scope": "Europe remote",
         "work_model": "Remote"
       },
-      "location_scope": "Germany remote",
+      "location_scope": "Europe remote",
       "working_model": "Remote",
       "role_family": {
-        "id": "application_security",
-        "label": "Application Security",
-        "priority": 1,
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
         "confidence": "high",
         "evidence": [
-          "appsec",
-          "sast",
-          "dast"
+          "security engineer",
+          "security engineering",
+          "vulnerability"
         ]
       },
       "seniority": {
@@ -1879,9 +1878,9 @@
         "label": "Senior",
         "evidence": "senior"
       },
-      "url": "https://www.arbeitnow.com/jobs/companies/vivenu/remote-senior-security-engineer-appsec-40606",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/vivenu/remote-senior-security-engineer-appsec-40606",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/vivenu/remote-senior-security-engineer-appsec-40606",
+      "url": "https://www.arbeitnow.fr/jobs/companies/kestra-technologies/senior-security-engineer-villeneuve-dascq-452235",
+      "apply_url": "https://www.arbeitnow.fr/jobs/companies/kestra-technologies/senior-security-engineer-villeneuve-dascq-452235",
+      "canonical_url": "https://www.arbeitnow.fr/jobs/companies/kestra-technologies/senior-security-engineer-villeneuve-dascq-452235",
       "source": "Arbeitnow",
       "sources": [
         "Arbeitnow"
@@ -1891,250 +1890,257 @@
       "lead_type": "",
       "post_author": "",
       "feed_name": "",
-      "published_at": "2026-11-14T21:26:38Z",
-      "posting_age_days": 1,
+      "published_at": "2026-11-08T18:40:15Z",
+      "posting_age_days": 2,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 1,
+        "age_days": 2,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
       "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-09-06T10:01:28Z",
+      "first_seen": "2026-09-20T10:22:50Z",
       "experience_required": "5+ years",
       "german_requirement": "No German requirement detected",
       "skill_matches": {
         "match": [
-          "api security",
-          "application security",
           "dast",
           "penetration testing",
           "sast",
-          "security testing",
-          "threat modeling",
-          "vulnerability management"
+          "secure code review",
+          "threat modeling"
         ],
         "partial": [
           "aws",
           "ci/cd",
+          "cloud security",
+          "devsecops",
+          "docker",
           "git",
-          "javascript"
+          "github actions",
+          "incident response",
+          "javascript",
+          "product security"
         ],
         "missing": [
-          "azure",
           "github security",
-          "go",
-          "infrastructure as code",
           "kubernetes",
           "rust",
-          "terraform"
+          "terraform",
+          "vulnerability disclosure program"
         ],
         "nice_to_have": []
       },
       "mandatory_gaps": [
         {
-          "skill": "ci/cd",
+          "skill": "aws",
           "profile_status": "partial",
           "requirement": "mandatory",
-          "evidence": "Modern Technology Stack: Dive into securing a massive TypeScript monolith alongside Go supporting services, giving you hands-on experience in modern language security and advanced GitHub CI/CD pipeline hardening."
+          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
         },
         {
-          "skill": "git",
+          "skill": "cloud security",
           "profile_status": "partial",
           "requirement": "mandatory",
-          "evidence": "Modern Technology Stack: Dive into securing a massive TypeScript monolith alongside Go supporting services, giving you hands-on experience in modern language security and advanced GitHub CI/CD pipeline hardening."
+          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
         },
         {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Modern Technology Stack: Dive into securing a massive TypeScript monolith alongside Go supporting services, giving you hands-on experience in modern language security and advanced GitHub CI/CD pipeline hardening."
-        },
-        {
-          "skill": "infrastructure as code",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Hands-on experience with Terraform for securing infrastructure-as-code and integrating security testing."
-        },
-        {
-          "skill": "javascript",
+          "skill": "devsecops",
           "profile_status": "partial",
           "requirement": "mandatory",
-          "evidence": "Modern Technology Stack: Dive into securing a massive TypeScript monolith alongside Go supporting services, giving you hands-on experience in modern language security and advanced GitHub CI/CD pipeline hardening."
+          "evidence": "5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role."
         },
         {
-          "skill": "terraform",
-          "profile_status": "missing",
+          "skill": "docker",
+          "profile_status": "partial",
           "requirement": "mandatory",
-          "evidence": "Hands-on experience with Terraform for securing infrastructure-as-code and integrating security testing."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "azure",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Web and API Security Mastery: a deep understanding of web/API attack vectors and scalable best practices and how to run workloads securely in a cloud environment (k8s, AWS/GCP/Azure)"
-        },
-        {
-          "skill": "github security",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Pioneer Security-as-Code: Design, implement, and automate security checks and guardrails (SAST, DAST, and secret scanning) directly into CI/CD pipelines."
+          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
         },
         {
           "skill": "kubernetes",
           "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
+        },
+        {
+          "skill": "product security",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "github security",
+          "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "Complex Multi-Cloud Architecture: Challenge your skills against a sophisticated multi-tenant, multi-region environment spanning k8s, GCP (our primary compute) and and separate database services"
+          "evidence": "Security & Vulnerability Tools: Trivy, GitHub Security / Dependabot, Elastic Security"
         },
         {
           "skill": "rust",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "Be a Trusted Advisor: Partner closely with engineering teams to champion security-by-design and elevate our overall security posture."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 20,
-        "skills": 14,
-        "experience": 4,
-        "location": 15,
-        "language": 10,
-        "seniority": 4,
-        "education": 5
-      },
-      "match_reasons": [
-        "Role family: Application Security.",
-        "Remote work from Germany is explicitly available.",
-        "Evidenced matches include api security, application security, dast, penetration testing, sast."
-      ],
-      "warnings": [
-        "Requests 5+ years versus approximately 2.1 years in the profile.",
-        "Mandatory gaps: ci/cd, git, go, infrastructure as code, javascript, terraform",
-        "Potential gaps: azure, github security, kubernetes, rust",
-        "Exposure only; do not claim deep expertise: aws, ci/cd, git, javascript",
-        "Mandatory experience requirement is 5+ years",
-        "Multiple explicitly mandatory skills are not evidenced"
-      ],
-      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "Redefine the future of live entertainment tech Welcome to vivenu, the global leader in event ticketing tech and one of the world’s fastest-growing live entertainment tech firms. We are transforming event ticketing for global leaders like the Grammys, the Golden Globes, Stanford University and the Hockenheimring turning what was once a simple transaction into a strategic business advantage. Backed by over $65 million in funding, our platform empowers event organizers to own their brand experience, unlock deep data insights, and seamlessly integrate ticketing into their digital infrastructure. With six offices worldwide and growing, we deliver a customizable, intuitive solution and industry-leading support that simplify even the most complex ticketing challenges – helping organizers deliver exceptional experiences and drive real growth. Join us and build the future of live entertainment. With over 10 million end users and usage quadrupling annually, our infrastructure now handles over 1 billion requests per month — and counting. Our API-first platform solves complex system challenges at scale — delivering performance, flexibility, and reliability for the world’s leading live enterta…",
-      "full_description": "Redefine the future of live entertainment tech\n\nWelcome to vivenu, the global leader in event ticketing tech and one of the world’s fastest-growing live entertainment tech firms. We are transforming event ticketing for global leaders like the Grammys, the Golden Globes, Stanford University and the Hockenheimring turning what was once a simple transaction into a strategic business advantage. Backed by over $65 million in funding, our platform empowers event organizers to own their brand experience, unlock deep data insights, and seamlessly integrate ticketing into their digital infrastructure.\n\nWith six offices worldwide and growing, we deliver a customizable, intuitive solution and industry-leading support that simplify even the most complex ticketing challenges – helping organizers deliver exceptional experiences and drive real growth.\n\nJoin us and build the future of live entertainment.\n\nWith over 10 million end users and usage quadrupling annually, our infrastructure now handles over 1 billion requests per month — and counting. Our API-first platform solves complex system challenges at scale — delivering performance, flexibility, and reliability for the world’s leading live entertainment brands.\n\nThis isn't just a maintenance role – it is a blank canvas to build, scale, and architect a state-of-the-art AppSec program from the ground up. We are currently operating at a fraction of our ultimate potential, which means you have an immense, blank-canvas opportunity to fundamentally shape our security culture, processes, and tooling across the entire global engineering organization.\n\nYou will drive the entire AppSec lifecycle: from offensive red teaming and threat modeling to risk-based vulnerability management and pioneering a true shift-left culture.\n\nWhat Makes This Role Challenging and Engaging:\n\nHigh-Impact Technical Environment: You won't just follow blueprints; you will holistically influence a shift-left architecture across both application and platform layers.\n\nModern Technology Stack: Dive into securing a massive TypeScript monolith alongside Go supporting services, giving you hands-on experience in modern language security and advanced GitHub CI/CD pipeline hardening.\n\nWeb and API: secure the application of the vivenu platform which provides customers with an out-of-the-box ticketing software as well as the underlying API structure\n\nComplex Multi-Cloud Architecture: Challenge your skills against a sophisticated multi-tenant, multi-region environment spanning k8s, GCP (our primary compute) and and separate database services\n\nCutting-Edge Deployment: Secure a next-gen Kubernetes \"satellite architecture\" utilizing hardened private compute nodes, VPC peering, and Argo CD for GitOps—a true, modern cloud-native security mandate.\n\nAs a Senior Security Engineer - AppSec (d/f/m) your responsibilities will include:\n\nBe a Trusted Advisor: Partner closely with engineering teams to champion security-by-design and elevate our overall security posture.\n\nOffensive & Defensive Testing: Coordinate and execute threat modeling and advanced security tests across our product and underlying infrastructure.\n\nLead Next-Gen Vulnerability Management: Drive triage and remediation using modern, risk-based principles like EPSS, while leveraging AI technologies to accelerate security testing at scale.\n\nPioneer Security-as-Code: Design, implement, and automate security checks and guardrails (SAST, DAST, and secret scanning) directly into CI/CD pipelines.\n\nReview & Refine: Perform deep-dive code and configuration reviews, advocating for secure coding practices that support a proactive shift-left strategy.\n\nWhat you will need to succeed in this role:\n\nExperience: 5+ years of dedicated Security Engineering experience, ideally within a high-growth SaaS, E-commerce, or Fintech environment.\n\nSaaS Deep-Dive: The ability to dive deep into the business logic of a complex SaaS application to uncover and verify elusive attack vectors.\n\nWeb and API Security Mastery: a deep understanding of web/API attack vectors and scalable best practices and how to run workloads securely in a cloud environment (k8s, AWS/GCP/Azure)\n\nOwnership: A proven track record of autonomously driving security initiatives from conception to completion.\n\nAutomation Mindset: Proficiency in at least one programming language for scripting and security tool development (bonus points for automating GRC evidence collection).\n\nEducation: A Bachelor’s or Master’s degree in Computer Science, Cybersecurity, IT, or a related technical field (or equivalent practical experience).\n\nPreferred:\n\nExperience navigating PCI DSS script security.\n\nA background in Red/Purple Team operations and advanced penetration testing, paired with the empathy and collaboration skills needed to help dev teams fix software vulnerabilities.\n\nHands-on experience with Terraform for securing infrastructure-as-code and integrating security testing.\n\nFamiliarity with our modern tech stack: GCP, Golang, and TypeScript.\n\nWhy join vivenu?\n\nLive Entertainment Tech\n\nPlay a mission-critical role for global brands, redefining fan experiences from festivals to major sports events. Here, you’re part of the business of fun — powered by cutting-edge technology that brings moments to life for millions.\n\nSustainable Growth\n\nWe scale sustainably on a profitable, VC-backed foundation with true product-market fit. This means continuous investment in our people, products, and long-term vision.\n\nTop-tier Team\n\nCollaborate with over 160 dedicated professionals, including leaders from Google, Slack, and Salesforce. Together, we’re shaping the future of live entertainment technology, one decision at a time.\n\nGlobal DNA\n\nWe’re a diverse, merit-driven team spread across six global offices. Talent and impact are what matter here — not hierarchy or background.\n\nFast Growing, in All Aspects\n\nSifted consistently ranks us among the fastest-growing scale-ups in Europe. We’re driven by daily learning, shared wins, and collective growth.\n\nNext-Gen Leaders & Insights\n\nWork alongside some of tech’s brightest minds — from Forbes 30 Under 30 founders to Executive of the Year award winners. At vivenu, you’ll help set the standard for the ticketing industry’s future.\n\nvivenu Inclusion Statement\n\nAt vivenu, we believe our people define our success – and that we win with bold, diverse minds. The strongest teams are built on different perspectives, experiences, and voices. We’re committed to creating a workplace where everyone feels empowered to contribute, grow, and thrive to shape the future of live entertainment globally.\n\nCheck out our mission statement and corporate values here.\n\nFind Jobs in Germany on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "ci/cd",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Modern Technology Stack: Dive into securing a massive TypeScript monolith alongside Go supporting services, giving you hands-on experience in modern language security and advanced GitHub CI/CD pipeline hardening."
-        },
-        {
-          "skill": "git",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Modern Technology Stack: Dive into securing a massive TypeScript monolith alongside Go supporting services, giving you hands-on experience in modern language security and advanced GitHub CI/CD pipeline hardening."
-        },
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Modern Technology Stack: Dive into securing a massive TypeScript monolith alongside Go supporting services, giving you hands-on experience in modern language security and advanced GitHub CI/CD pipeline hardening."
-        },
-        {
-          "skill": "infrastructure as code",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Hands-on experience with Terraform for securing infrastructure-as-code and integrating security testing."
-        },
-        {
-          "skill": "javascript",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Modern Technology Stack: Dive into securing a massive TypeScript monolith alongside Go supporting services, giving you hands-on experience in modern language security and advanced GitHub CI/CD pipeline hardening."
-        },
-        {
-          "skill": "security testing",
-          "profile_status": "match",
-          "requirement": "mandatory",
-          "evidence": "Hands-on experience with Terraform for securing infrastructure-as-code and integrating security testing."
+          "evidence": "Trusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale."
         },
         {
           "skill": "terraform",
           "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Hands-on experience with Terraform for securing infrastructure-as-code and integrating security testing."
+          "requirement": "mentioned",
+          "evidence": "Infrastructure: Docker, Kubernetes, Terraform"
         },
         {
-          "skill": "api security",
-          "profile_status": "match",
+          "skill": "vulnerability disclosure program",
+          "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "Web and API Security Mastery: a deep understanding of web/API attack vectors and scalable best practices and how to run workloads securely in a cloud environment (k8s, AWS/GCP/Azure)"
-        },
-        {
-          "skill": "application security",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "This isn't just a maintenance role – it is a blank canvas to build, scale, and architect a state-of-the-art AppSec program from the ground up."
-        },
+          "evidence": "Own our public security posture as an open-source project: vulnerability disclosure process, CVE handling, security advisories, and the trust model of our plugin ecosystem."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 14,
+        "experience": 4,
+        "location": 13,
+        "language": 10,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country.",
+        "Evidenced matches include dast, penetration testing, sast, secure code review, threat modeling."
+      ],
+      "warnings": [
+        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
+        "Requests 5+ years versus approximately 2.1 years in the profile.",
+        "Mandatory gaps: aws, cloud security, devsecops, docker, kubernetes, product security",
+        "Potential gaps: github security, rust, terraform, vulnerability disclosure program",
+        "Exposure only; do not claim deep expertise: aws, ci/cd, cloud security, devsecops, docker, git",
+        "Mandatory experience requirement is 5+ years"
+      ],
+      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
+      "description_excerpt": "About Kestra Kestra is the universal orchestration platform: open source, declarative, and designed to orchestrate data pipelines, IT automation, business workflows, and AI/agentic systems. Trusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale. The open-source project has close to 30,000 GitHub stars, hundreds of contributors, and a fast-growing global community. About the role Kestra runs arbitrary, user-defined code at scale. Our users write workflows that execute scripts, containers, and queries against their own production systems, through hundreds of community-built plugins, on a platform whose entire source code is public. That is an unusually rich attack surface, and securing it is a genuinely hard engineering problem rather than a checklist exercise. You would be our first dedicated security hire. We're looking for a Senior Security Engineer to own and elevate the end-to-end security posture of our platform, infrastructure, and open-source ecosystem. This is a unique, hybrid role for someone who excels at both sides of security: actively breaking systems to fin…",
+      "full_description": "About Kestra\n\nKestra is the universal orchestration platform: open source, declarative, and designed to orchestrate data pipelines, IT automation, business workflows, and AI/agentic systems.\n\nTrusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale. The open-source project has close to 30,000 GitHub stars, hundreds of contributors, and a fast-growing global community.\n\nAbout the role\n\nKestra runs arbitrary, user-defined code at scale. Our users write workflows that execute scripts, containers, and queries against their own production systems, through hundreds of community-built plugins, on a platform whose entire source code is public. That is an unusually rich attack surface, and securing it is a genuinely hard engineering problem rather than a checklist exercise.\n\nYou would be our first dedicated security hire. We're looking for a Senior Security Engineer to own and elevate the end-to-end security posture of our platform, infrastructure, and open-source ecosystem.\n\nThis is a unique, hybrid role for someone who excels at both sides of security: actively breaking systems to find vulnerabilities (hands-on penetration testing) and actively fixing them (opening PRs, patching infrastructure, and managing supply chain risks). If you want to build a world-class security foundation for a fast-growing open-source and SaaS platform, this role is for you.\n\nThis is a hands-on engineering role, not a GRC or compliance one.\n\nWhat you would do\n\nYour first six months would focus on the first three points below. The rest is where the role grows.\n\nConduct hands-on penetration testing and threat modeling across our web application, APIs, control plane, and cloud environments.\n\nManage end-to-end vulnerability tracking across our codebases, software dependencies (SCA), container images, and cloud infrastructure.\n\nProactively fix security flaws by writing patches, submitting Pull Requests (PRs), or collaborating directly with product teams to guide remediation.\n\nAudit and harden our cloud infrastructure (GCP, Kubernetes clusters, and networking configurations) against external and internal threats.\n\nAutomate security tooling into our CI/CD pipelines (SAST, DAST, dependency scanners) to catch CVEs before code reaches production.\n\nPerform security code reviews and evaluate third-party dependencies, open-source integrations, and supply-chain risks.\n\nLead incident response efforts and establish continuous monitoring, detection, and mitigation strategies.\n\nOwn our public security posture as an open-source project: vulnerability disclosure process, CVE handling, security advisories, and the trust model of our plugin ecosystem.\n\nOur Tech Stack\n\nSecurity & Vulnerability Tools: Trivy, GitHub Security / Dependabot, Elastic Security \n\nInfrastructure: Docker, Kubernetes, Terraform\n\nCloud: GCP\n\nProgramming language: Java, Typescript, Javascript\n\nDatastore: PostgreSQL, Elasticsearch\n\nQueuing: Redis, Kafka, AMQP\n\nMonitoring & Logs: ELK, Prometheus, Grafana\n\nDeployment & Repository: GitHub Actions, ArgoCD\n\nWhat we are looking for\n\n5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role.\n\nStrong hands-on penetration testing background, with proven ability to discover application, API, and network-level vulnerabilities.\n\nA builder/fixer mindset: You don't just export scanner PDFs; you can read code, understand exploits, write fixes, or provide clear remediation steps to engineers.\n\nDeep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker).\n\nExperience with dependency and supply-chain security (CVE management, open-source licensing, SCA tools).\n\nFluent in English and comfortable working autonomously in a fully remote environment.\n\nAdaptability to a fast-paced open-source startup environment where pragmatism and execution speed matter.\n\nPerks & Benefits\n\nWork from anywhere: We’re a remote-first company, so you can work from wherever feels like home. Plus, you’ll have access to coworking spaces worldwide if you ever need a change of scenery.\n\nHealth coverage: From medical support, dental, and vision, we've got you covered.\n\nHome office setup on us: We’ll provide all the equipment you need to work comfortably.\n\nOur Hiring Process\n\nWe aim to move quickly (2-3 weeks), but we can adjust the timeline if needed.\n\nIntro call with the hiring manager (30 min)\n\nTechnical scenario / Practical assessment (2 hours, asynchronous homework focusing on threat assessment and remediation)\n\nTeam chat with one of your future colleagues (30 min)\n\nFinal discussion with one of our co-founders (30 min)\n\nFind more English Speaking Jobs in France on Arbeitnow",
+      "skill_requirements": [
         {
           "skill": "aws",
           "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "Web and API Security Mastery: a deep understanding of web/API attack vectors and scalable best practices and how to run workloads securely in a cloud environment (k8s, AWS/GCP/Azure)"
+          "requirement": "mandatory",
+          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
         },
         {
-          "skill": "azure",
+          "skill": "cloud security",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
+        },
+        {
+          "skill": "devsecops",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role."
+        },
+        {
+          "skill": "docker",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
+        },
+        {
+          "skill": "kubernetes",
           "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Deep familiarity with cloud security (AWS or GCP) and containerized environments (Kubernetes, Docker)."
+        },
+        {
+          "skill": "product security",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role."
+        },
+        {
+          "skill": "ci/cd",
+          "profile_status": "partial",
           "requirement": "mentioned",
-          "evidence": "Web and API Security Mastery: a deep understanding of web/API attack vectors and scalable best practices and how to run workloads securely in a cloud environment (k8s, AWS/GCP/Azure)"
+          "evidence": "Automate security tooling into our CI/CD pipelines (SAST, DAST, dependency scanners) to catch CVEs before code reaches production."
         },
         {
           "skill": "dast",
           "profile_status": "match",
           "requirement": "mentioned",
-          "evidence": "Pioneer Security-as-Code: Design, implement, and automate security checks and guardrails (SAST, DAST, and secret scanning) directly into CI/CD pipelines."
+          "evidence": "Automate security tooling into our CI/CD pipelines (SAST, DAST, dependency scanners) to catch CVEs before code reaches production."
+        },
+        {
+          "skill": "git",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "The open-source project has close to 30,000 GitHub stars, hundreds of contributors, and a fast-growing global community."
+        },
+        {
+          "skill": "github actions",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Deployment & Repository: GitHub Actions, ArgoCD"
         },
         {
           "skill": "github security",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "Pioneer Security-as-Code: Design, implement, and automate security checks and guardrails (SAST, DAST, and secret scanning) directly into CI/CD pipelines."
+          "evidence": "Security & Vulnerability Tools: Trivy, GitHub Security / Dependabot, Elastic Security"
         },
         {
-          "skill": "kubernetes",
-          "profile_status": "missing",
+          "skill": "incident response",
+          "profile_status": "partial",
           "requirement": "mentioned",
-          "evidence": "Complex Multi-Cloud Architecture: Challenge your skills against a sophisticated multi-tenant, multi-region environment spanning k8s, GCP (our primary compute) and and separate database services"
+          "evidence": "Lead incident response efforts and establish continuous monitoring, detection, and mitigation strategies."
+        },
+        {
+          "skill": "javascript",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Programming language: Java, Typescript, Javascript"
         },
         {
           "skill": "penetration testing",
           "profile_status": "match",
           "requirement": "mentioned",
-          "evidence": "A background in Red/Purple Team operations and advanced penetration testing, paired with the empathy and collaboration skills needed to help dev teams fix software vulnerabilities."
+          "evidence": "This is a unique, hybrid role for someone who excels at both sides of security: actively breaking systems to find vulnerabilities (hands-on penetration testing) and actively fixing them (opening PRs, patching infrastructure, and managing supply chain risks)."
         },
         {
           "skill": "rust",
           "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "Be a Trusted Advisor: Partner closely with engineering teams to champion security-by-design and elevate our overall security posture."
+          "evidence": "Trusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale."
         },
         {
           "skill": "sast",
           "profile_status": "match",
           "requirement": "mentioned",
-          "evidence": "Pioneer Security-as-Code: Design, implement, and automate security checks and guardrails (SAST, DAST, and secret scanning) directly into CI/CD pipelines."
+          "evidence": "Automate security tooling into our CI/CD pipelines (SAST, DAST, dependency scanners) to catch CVEs before code reaches production."
+        },
+        {
+          "skill": "secure code review",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Perform security code reviews and evaluate third-party dependencies, open-source integrations, and supply-chain risks."
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Infrastructure: Docker, Kubernetes, Terraform"
         },
         {
           "skill": "threat modeling",
           "profile_status": "match",
           "requirement": "mentioned",
-          "evidence": "You will drive the entire AppSec lifecycle: from offensive red teaming and threat modeling to risk-based vulnerability management and pioneering a true shift-left culture."
+          "evidence": "Conduct hands-on penetration testing and threat modeling across our web application, APIs, control plane, and cloud environments."
         },
         {
-          "skill": "vulnerability management",
-          "profile_status": "match",
+          "skill": "vulnerability disclosure program",
+          "profile_status": "missing",
           "requirement": "mentioned",
-          "evidence": "You will drive the entire AppSec lifecycle: from offensive red teaming and threat modeling to risk-based vulnerability management and pioneering a true shift-left culture."
+          "evidence": "Own our public security posture as an open-source project: vulnerability disclosure process, CVE handling, security advisories, and the trust model of our plugin ecosystem."
         }
       ],
       "german_analysis": {
@@ -2149,7 +2155,7 @@
         "max_years": null,
         "optional": false,
         "display": "5+ years",
-        "evidence": "Experience: 5+ years of dedicated Security Engineering experience, ideally within a high-growth SaaS, E-commerce, or Fintech environment."
+        "evidence": "5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role."
       }
     }
   ],
