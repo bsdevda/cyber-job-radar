@@ -10502,6 +10502,128 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-11-18T15:53:47Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 9877,
+      "security_title_candidates": 345,
+      "prefiltered_non_security_jobs": 9532,
+      "unique_jobs_after_deduplication": 261,
+      "duplicates_removed": 84,
+      "jobs_rejected_or_below_threshold": 9779,
+      "relevant_jobs_in_current_run": 14,
+      "new_jobs": 1,
+      "updated_jobs": 0,
+      "strong_matches": 1,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 1,
+      "report_jobs": 45,
+      "jobs_by_source": {
+        "arbeitnow": 2277,
+        "remotive": 16,
+        "linkedin_posts": 0,
+        "greenhouse": 6179,
+        "ashby": 265,
+        "lever": 1000,
+        "personio": 134,
+        "recruitee": 6
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 36.6,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2277,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 16,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 6179,
+          "requests": 68,
+          "errors": [],
+          "error": "",
+          "companies_checked": 68,
+          "companies_successful": 68,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 265,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 1000,
+          "requests": 4,
+          "errors": [
+            {
+              "source": "lever",
+              "company": "Pipedrive",
+              "http_status": null,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://api.lever.co/v0/postings/pipedrive?mode=json: The read operation timed out",
+              "message": "Lever | Pipedrive | RuntimeError | Request failed after 1 attempt(s): https://api.lever.co/v0/postings/pipedrive?mode=json: The read operation timed out"
+            }
+          ],
+          "error": "Lever | Pipedrive | RuntimeError | Request failed after 1 attempt(s): https://api.lever.co/v0/postings/pipedrive?mode=json: The read operation timed out",
+          "companies_checked": 4,
+          "companies_successful": 3,
+          "companies_failed": 1
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 134,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 6,
+          "requests": 1,
+          "errors": [],
+          "error": "",
+          "companies_checked": 1,
+          "companies_successful": 1,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -18199,6 +18321,14 @@
       "company": "wolt",
       "title": "Senior Software Engineer, Proactive Security",
       "score": 68
+    },
+    {
+      "at": "2026-11-18T15:53:47Z",
+      "job_key": "5905ac43fe0eb9144bfd",
+      "event": "NEW",
+      "company": "Prior Labs",
+      "title": "Security Engineer",
+      "score": 69
     }
   ]
 }
