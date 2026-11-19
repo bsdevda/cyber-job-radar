@@ -10624,6 +10624,128 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-11-19T15:57:48Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 8141,
+      "security_title_candidates": 304,
+      "prefiltered_non_security_jobs": 7837,
+      "unique_jobs_after_deduplication": 239,
+      "duplicates_removed": 65,
+      "jobs_rejected_or_below_threshold": 8062,
+      "relevant_jobs_in_current_run": 14,
+      "new_jobs": 1,
+      "updated_jobs": 3,
+      "strong_matches": 1,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 1,
+      "report_jobs": 44,
+      "jobs_by_source": {
+        "arbeitnow": 2283,
+        "remotive": 16,
+        "linkedin_posts": 0,
+        "greenhouse": 5208,
+        "ashby": 315,
+        "lever": 148,
+        "personio": 167,
+        "recruitee": 4
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 30.1,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2283,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 16,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 5208,
+          "requests": 57,
+          "errors": [
+            {
+              "source": "greenhouse",
+              "company": "Dropbox",
+              "http_status": null,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/dropbox/jobs?content=true: The read operation timed out",
+              "message": "Greenhouse | Dropbox | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/dropbox/jobs?content=true: The read operation timed out"
+            }
+          ],
+          "error": "Greenhouse | Dropbox | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/dropbox/jobs?content=true: The read operation timed out",
+          "companies_checked": 57,
+          "companies_successful": 56,
+          "companies_failed": 1
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 315,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 148,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 167,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 4,
+          "requests": 1,
+          "errors": [],
+          "error": "",
+          "companies_checked": 1,
+          "companies_successful": 1,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -18329,6 +18451,59 @@
       "company": "Prior Labs",
       "title": "Security Engineer",
       "score": 69
+    },
+    {
+      "at": "2026-11-19T15:57:48Z",
+      "job_key": "022b02e42c40ff735dbc",
+      "event": "UPDATED",
+      "company": "Langdock",
+      "title": "(Senior) Security Engineer - m/f/d",
+      "score": 69
+    },
+    {
+      "at": "2026-11-19T15:57:48Z",
+      "job_key": "20d0eaa3f9871a4e6032",
+      "event": "NEW",
+      "company": "Huzzle",
+      "title": "Business Development Representative - Cybersecurity",
+      "score": 69
+    },
+    {
+      "at": "2026-11-19T15:57:48Z",
+      "job_key": "97e10fb205544ff97e76",
+      "event": "UPDATED",
+      "company": "Twilio",
+      "title": "Security Engineer, Incident Response",
+      "score": 69
+    },
+    {
+      "at": "2026-11-19T15:57:48Z",
+      "job_key": "5905ac43fe0eb9144bfd",
+      "event": "UPDATED",
+      "company": "Prior Labs",
+      "title": "Security Engineer",
+      "score": 69
+    },
+    {
+      "at": "2026-11-19T15:57:48Z",
+      "job_key": "d262fcc8afaadd54451b",
+      "event": "REMOVED",
+      "company": "MILES Mobility GmbH",
+      "title": "Senior Network & Security Engineer (w/m/x/d)"
+    },
+    {
+      "at": "2026-11-19T15:57:48Z",
+      "job_key": "171bfc75c1783e9c88e5",
+      "event": "REMOVED",
+      "company": "Wire 1",
+      "title": "Senior Security Engineer (f/m/d)"
+    },
+    {
+      "at": "2026-11-19T15:57:48Z",
+      "job_key": "0d590abec071f857eb28",
+      "event": "REMOVED",
+      "company": "Wavemm1",
+      "title": "Senior Security Engineer"
     }
   ]
 }
