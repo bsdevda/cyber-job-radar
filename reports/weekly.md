@@ -1,47 +1,44 @@
 # Weekly Job Radar Analytics
 
 **Week starting:** 2026-11-16
-**Generated:** 2026-11-19T15:57:48Z
-**Active relevant jobs:** 14
+**Generated:** 2026-11-20T15:40:41Z
+**Active relevant jobs:** 12
 
 ## Role-family demand
 
-- **Security Engineering:** 7
-- **SOC / Detection and Response:** 2
-- **IT Audit / GRC:** 2
+- **Security Engineering:** 5
+- **IT Audit / GRC:** 3
 - **Cloud Security / DevSecOps:** 1
 - **Product Security:** 1
+- **SOC / Detection and Response:** 1
 - **Penetration Testing / VAPT:** 1
 
 ## Skill-gap signals
 
 ### Explicit mandatory gaps
 
-- **aws:** 3 job(s)
-- **incident response:** 3 job(s)
-- **iso 27001:** 2 job(s)
-- **siem:** 2 job(s)
 - **edr:** 2 job(s)
 - **software development:** 2 job(s)
+- **iso 27001:** 2 job(s)
 - **nist:** 2 job(s)
 - **rust:** 2 job(s)
+- **incident response:** 2 job(s)
 - **cloud security:** 1 job(s)
 - **network security:** 1 job(s)
-- **ci/cd:** 1 job(s)
 - **javascript:** 1 job(s)
+- **go:** 1 job(s)
+- **siem:** 1 job(s)
+- **aws:** 1 job(s)
 
 ### Potential gaps
 
-- **iso 27001:** 3 job(s)
-- **rust:** 3 job(s)
+- **rust:** 2 job(s)
 - **go:** 2 job(s)
-- **vulnerability disclosure program:** 2 job(s)
-- **azure:** 2 job(s)
-- **infrastructure as code:** 1 job(s)
+- **azure:** 1 job(s)
+- **vulnerability disclosure program:** 1 job(s)
+- **iso 27001:** 1 job(s)
 - **detection engineering:** 1 job(s)
 - **edr:** 1 job(s)
-- **bug bounty:** 1 job(s)
-- **github security:** 1 job(s)
 
 ### Optional gaps
 
@@ -55,18 +52,18 @@
 
 ### Exposure-only skills
 
-- **incident response:** 7 job(s)
-- **aws:** 4 job(s)
-- **siem:** 4 job(s)
+- **incident response:** 4 job(s)
 - **software development:** 4 job(s)
-- **product security:** 3 job(s)
+- **siem:** 3 job(s)
+- **network security:** 3 job(s)
+- **aws:** 2 job(s)
+- **product security:** 2 job(s)
 - **cloud security:** 2 job(s)
-- **network security:** 2 job(s)
-- **ci/cd:** 2 job(s)
-- **git:** 2 job(s)
 - **nist:** 2 job(s)
 - **javascript:** 2 job(s)
 - **splunk:** 1 job(s)
+- **ci/cd:** 1 job(s)
+- **docker:** 1 job(s)
 
 ## Application funnel
 

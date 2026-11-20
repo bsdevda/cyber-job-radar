@@ -10746,6 +10746,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-11-20T15:40:41Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 8898,
+      "security_title_candidates": 275,
+      "prefiltered_non_security_jobs": 8623,
+      "unique_jobs_after_deduplication": 217,
+      "duplicates_removed": 58,
+      "jobs_rejected_or_below_threshold": 8828,
+      "relevant_jobs_in_current_run": 12,
+      "new_jobs": 1,
+      "updated_jobs": 2,
+      "strong_matches": 1,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 45,
+      "jobs_by_source": {
+        "arbeitnow": 2333,
+        "remotive": 15,
+        "linkedin_posts": 0,
+        "greenhouse": 6074,
+        "ashby": 244,
+        "lever": 94,
+        "personio": 138,
+        "recruitee": 0
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 21.5,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2333,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 15,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 6074,
+          "requests": 59,
+          "errors": [],
+          "error": "",
+          "companies_checked": 59,
+          "companies_successful": 59,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 244,
+          "requests": 8,
+          "errors": [],
+          "error": "",
+          "companies_checked": 8,
+          "companies_successful": 8,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 94,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 138,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "idle",
+          "ok": true,
+          "jobs": 0,
+          "requests": 0,
+          "errors": [],
+          "error": "",
+          "companies_checked": 0,
+          "companies_successful": 0,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -18504,6 +18617,30 @@
       "event": "REMOVED",
       "company": "Wavemm1",
       "title": "Senior Security Engineer"
+    },
+    {
+      "at": "2026-11-20T15:40:41Z",
+      "job_key": "240800e330239220c3d1",
+      "event": "UPDATED",
+      "company": "Mozilla",
+      "title": "Senior Security Engineer - SecOps",
+      "score": 59
+    },
+    {
+      "at": "2026-11-20T15:40:41Z",
+      "job_key": "2f29ad78138db41e371d",
+      "event": "NEW",
+      "company": "Agilerobotsse",
+      "title": "Product Cybersecurity Compliance Engineer (m/f/d)",
+      "score": 79
+    },
+    {
+      "at": "2026-11-20T15:40:41Z",
+      "job_key": "022b02e42c40ff735dbc",
+      "event": "UPDATED",
+      "company": "Langdock",
+      "title": "(Senior) Security Engineer - m/f/d",
+      "score": 69
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T15:57:48Z",
+  "generated_at": "2026-11-20T15:40:41Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,42 +171,42 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-11-19T15:57:48Z",
+    "generated_at": "2026-11-20T15:40:41Z",
     "scoring_version": 2.2,
-    "jobs_collected": 8141,
-    "security_title_candidates": 304,
-    "prefiltered_non_security_jobs": 7837,
-    "unique_jobs_after_deduplication": 239,
-    "duplicates_removed": 65,
-    "jobs_rejected_or_below_threshold": 8062,
-    "relevant_jobs_in_current_run": 14,
+    "jobs_collected": 8898,
+    "security_title_candidates": 275,
+    "prefiltered_non_security_jobs": 8623,
+    "unique_jobs_after_deduplication": 217,
+    "duplicates_removed": 58,
+    "jobs_rejected_or_below_threshold": 8828,
+    "relevant_jobs_in_current_run": 12,
     "new_jobs": 1,
-    "updated_jobs": 3,
+    "updated_jobs": 2,
     "strong_matches": 1,
     "sources_checked": 8,
     "sources_failed": 0,
-    "sources_partial": 1,
-    "report_jobs": 44,
+    "sources_partial": 0,
+    "report_jobs": 45,
     "jobs_by_source": {
-      "arbeitnow": 2283,
-      "remotive": 16,
+      "arbeitnow": 2333,
+      "remotive": 15,
       "linkedin_posts": 0,
-      "greenhouse": 5208,
-      "ashby": 315,
-      "lever": 148,
-      "personio": 167,
-      "recruitee": 4
+      "greenhouse": 6074,
+      "ashby": 244,
+      "lever": 94,
+      "personio": 138,
+      "recruitee": 0
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 30.1
+    "workflow_duration_seconds": 21.5
   },
   "source_status": {
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 2283,
+      "jobs": 2333,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 16,
+      "jobs": 15,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -228,40 +228,42 @@
       "error": ""
     },
     "greenhouse": {
-      "status": "partial",
+      "status": "ok",
       "ok": true,
-      "jobs": 5208,
-      "requests": 57,
-      "errors": [
-        {
-          "source": "greenhouse",
-          "company": "Dropbox",
-          "http_status": null,
-          "exception_type": "RuntimeError",
-          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/dropbox/jobs?content=true: The read operation timed out",
-          "message": "Greenhouse | Dropbox | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/dropbox/jobs?content=true: The read operation timed out"
-        }
-      ],
-      "error": "Greenhouse | Dropbox | RuntimeError | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/dropbox/jobs?content=true: The read operation timed out",
-      "companies_checked": 57,
-      "companies_successful": 56,
-      "companies_failed": 1
+      "jobs": 6074,
+      "requests": 59,
+      "errors": [],
+      "error": "",
+      "companies_checked": 59,
+      "companies_successful": 59,
+      "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 315,
-      "requests": 9,
+      "jobs": 244,
+      "requests": 8,
       "errors": [],
       "error": "",
-      "companies_checked": 9,
-      "companies_successful": 9,
+      "companies_checked": 8,
+      "companies_successful": 8,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 148,
+      "jobs": 94,
+      "requests": 2,
+      "errors": [],
+      "error": "",
+      "companies_checked": 2,
+      "companies_successful": 2,
+      "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 138,
       "requests": 3,
       "errors": [],
       "error": "",
@@ -269,32 +271,149 @@
       "companies_successful": 3,
       "companies_failed": 0
     },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 167,
-      "requests": 6,
-      "errors": [],
-      "error": "",
-      "companies_checked": 6,
-      "companies_successful": 6,
-      "companies_failed": 0
-    },
     "recruitee": {
-      "status": "ok",
+      "status": "idle",
       "ok": true,
-      "jobs": 4,
-      "requests": 1,
+      "jobs": 0,
+      "requests": 0,
       "errors": [],
       "error": "",
-      "companies_checked": 1,
-      "companies_successful": 1,
+      "companies_checked": 0,
+      "companies_successful": 0,
       "companies_failed": 0
     }
   },
   "jobs": [
     {
       "report_number": 1,
+      "job_key": "2f29ad78138db41e371d",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 79,
+      "raw_score": 79,
+      "score_cap": null,
+      "score_cap_reasons": [],
+      "score_label": "GOOD",
+      "title": "Product Cybersecurity Compliance Engineer (m/f/d)",
+      "company": "Agilerobotsse",
+      "location": "Munich, Bavaria, Germany",
+      "location_analysis": {
+        "category": "eligible_germany_remote",
+        "eligible": true,
+        "score": 15,
+        "reason": "Remote work from Germany is explicitly available",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Germany remote",
+        "work_model": "Remote"
+      },
+      "location_scope": "Germany remote",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "it_audit_grc",
+        "label": "IT Audit / GRC",
+        "priority": 3,
+        "confidence": "high",
+        "evidence": [
+          "security compliance",
+          "risk assessment",
+          "compliance"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://www.arbeitnow.com/jobs/companies/agilerobotsse/product-cybersecurity-compliance-engineer-munich-bavaria-474592",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/agilerobotsse/product-cybersecurity-compliance-engineer-munich-bavaria-474592",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/agilerobotsse/product-cybersecurity-compliance-engineer-munich-bavaria-474592",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-11-19T21:55:29Z",
+      "posting_age_days": 0,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-11-20T15:40:41Z",
+      "experience_required": "2+ years",
+      "german_requirement": "German requested; level/strictness unclear",
+      "skill_matches": {
+        "match": [
+          "security testing"
+        ],
+        "partial": [
+          "network security"
+        ],
+        "missing": [],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 12,
+        "skills": 18,
+        "experience": 15,
+        "location": 15,
+        "language": 4,
+        "seniority": 10,
+        "education": 5
+      },
+      "match_reasons": [
+        "Remote work from Germany is explicitly available.",
+        "Evidenced matches include security testing.",
+        "The detected experience requirement is within or close to the 2+ year profile."
+      ],
+      "warnings": [
+        "German requested; level/strictness unclear",
+        "Exposure only; do not claim deep expertise: network security"
+      ],
+      "recommendation": "REVIEW - verify mandatory requirements before applying",
+      "description_excerpt": "Responsibilities Support EU cybersecurity compliance for robotic products, including CRA, RED, and applicable cybersecurity standards. Coordinate cybersecurity testing and conformity assessments with external laboratories and certification bodies. Work with R&D teams to assess cybersecurity risks, review test findings, and follow up on corrective actions. Prepare and maintain compliance documentation, risk assessments, and test reports, while tracking relevant regulatory updates. Qualifications Bachelor's degree in Computer Science, Cybersecurity, Electrical Engineering, Automation, or a related field. 2+ years of experience in product cybersecurity, security testing, compliance, or certification. Good understanding of network security, authentication, access control, and common cybersecurity vulnerabilities. Familiarity with embedded systems, IoT devices, or connected products and their security risks. Ability to interpret security test results and independently coordinate issue resolution with R&D teams and external partners. Business-fluent in English and Chinese, both spoken and written Preferred Qualifications Familiarity with EU cybersecurity regulations and standards, such…",
+      "full_description": "Responsibilities\n\nSupport EU cybersecurity compliance for robotic products, including CRA, RED, and applicable cybersecurity standards.\n\nCoordinate cybersecurity testing and conformity assessments with external laboratories and certification bodies.\n\nWork with R&D teams to assess cybersecurity risks, review test findings, and follow up on corrective actions.\n\nPrepare and maintain compliance documentation, risk assessments, and test reports, while tracking relevant regulatory updates.\n\nQualifications\n\nBachelor's degree in Computer Science, Cybersecurity, Electrical Engineering, Automation, or a related field.\n\n2+ years of experience in product cybersecurity, security testing, compliance, or certification.\n\nGood understanding of network security, authentication, access control, and common cybersecurity vulnerabilities.\n\nFamiliarity with embedded systems, IoT devices, or connected products and their security risks.\n\nAbility to interpret security test results and independently coordinate issue resolution with R&D teams and external partners.\n\nBusiness-fluent in English and Chinese, both spoken and written\n\nPreferred Qualifications\n\nFamiliarity with EU cybersecurity regulations and standards, such as CRA, RED, EN 18031.\n\nHands-on experience with product cybersecurity testing, risk assessments, or certification projects.\n\nWhat we offer\n\nA dynamic high-tech company, combined with financial soundness and world-class investors.\n\nJoin an interdisciplinary, international team with 60+ different nationalities in a collaborative work environment.\n\nLots of development opportunities as we continue to grow.\n\nChallenging tasks and impactful projects alongside experts that enable professional and personal growth.\n\nCorporate Benefits Program covering health, mobility, and learning for 100€ net per month.\n\nModern office facilities with a rooftop terrace overlooking Munich, free drinks & fruits, and regular company events contribute to a good working environment\n\nAbout us\n\nAgile Robots is a leading provider of AI-powered robotics solutions. By combining artificial intelligence and robotics, the company makes industries smarter, more flexible, and more efficient. \n\nFounded in Munich in 2018 by renowned robotics researchers from the German Aerospace Center (DLR), Agile Robots has experienced rapid global growth. Today, more than 3,500 highly skilled robotics and AI enthusiasts are employed worldwide. The company has one of the largest research and development teams in the AI and robotics industry. \n\nAgile Robots has built a unique portfolio; together with the subsidiaries BÄR Automation, Franka Robotics, idealworks, and Krause Automation, the company covers all areas of AI-driven robotics.\n\nFind out more at: https://www.agile-robots.com/en/\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "security testing",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "2+ years of experience in product cybersecurity, security testing, compliance, or certification."
+        },
+        {
+          "skill": "network security",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "Good understanding of network security, authentication, access control, and common cybersecurity vulnerabilities."
+        }
+      ],
+      "german_analysis": {
+        "category": "unspecified",
+        "level": "unspecified",
+        "mandatory": false,
+        "label": "German requested; level/strictness unclear",
+        "evidence": "Founded in Munich in 2018 by renowned robotics researchers from the German Aerospace Center (DLR), Agile Robots has experienced rapid global growth."
+      },
+      "experience_analysis": {
+        "min_years": 2,
+        "max_years": null,
+        "optional": false,
+        "display": "2+ years",
+        "evidence": "2+ years of experience in product cybersecurity, security testing, compliance, or certification."
+      }
+    },
+    {
+      "report_number": 2,
       "job_key": "022b02e42c40ff735dbc",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -350,10 +469,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-11-19T12:40:18Z",
-      "posting_age_days": 0,
+      "posting_age_days": 1,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 0,
+        "age_days": 1,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
@@ -421,7 +540,7 @@
       ],
       "recommendation": "REVIEW - material seniority, language, or skill risk",
       "description_excerpt": "Help Us Change the Way the World Works Build something that matters. Langdock exists to change the way the world works, bridging the gap between what technology can do and what people actually do with it. We bring all leading AI models into one secure, model-agnostic platform and make them usable across entire organizations. Over 10,000 companies use our platform every day, from fast-growing startups to some of Europe's largest enterprises. Their employees open Langdock to draft strategies, analyze documents, or automate workflows - helping them to work smarter, think more creatively, and reach their full potential. About the Role We’re hiring a hands-on (Senior) Security Engineer to strengthen the security of Langdock’s product, infrastructure, and internal systems. Your primary focus will be application and infrastructure security. You’ll work closely with our CTO and engineering teams to identify risks, assess our defenses, and drive practical improvements. You’ll coordinate penetration tests, triage incoming vulnerability reports, and make sure findings turn into lasting fixes. You should be comfortable getting into technical details, challenging assumptions, and helping engin…",
-      "full_description": "Help Us Change the Way the World Works\n\nBuild something that matters.\n\nLangdock exists to change the way the world works, bridging the gap between what technology can do and what people actually do with it. We bring all leading AI models into one secure, model-agnostic platform and make them usable across entire organizations. Over 10,000 companies use our platform every day, from fast-growing startups to some of Europe's largest enterprises. Their employees open Langdock to draft strategies, analyze documents, or automate workflows - helping them to work smarter, think more creatively, and reach their full potential.\n\nAbout the Role\n\nWe’re hiring a hands-on (Senior) Security Engineer to strengthen the security of Langdock’s product, infrastructure, and internal systems.\n\nYour primary focus will be application and infrastructure security. You’ll work closely with our CTO and engineering teams to identify risks, assess our defenses, and drive practical improvements. You’ll coordinate penetration tests, triage incoming vulnerability reports, and make sure findings turn into lasting fixes. You should be comfortable getting into technical details, challenging assumptions, and helping engineers choose the right controls.\n\nYou’ll also own the security of our internal IT environment, including identity, access, and device security. We’re looking for someone who builds reliable, automated processes and can judge whether our protections are effective.\n\nAlongside this technical work, you’ll help explain our security posture to customers and support our compliance efforts. The foundation of this role is making Langdock secure; audits and customer assessments should reflect that work.\n\nWhat You Will Do\n\nThe role's responsibility will span over multiple fields, which are:\n\nApplication security\n\nCoordinate penetration tests end to end. Define scope with engineering and external testing partners, support testing, assess findings, and follow remediation through to verification.\n\nOwn vulnerability intake and triage. Monitor our security inbox and responsible disclosure program, assess reported issues, and work with engineering to prioritize and resolve them.\n\nHelp engineering build securely. Review security-sensitive designs and changes, identify weaknesses in areas such as authentication, authorization, and data isolation, and recommend practical improvements.\n\nInfrastructure security\n\nAssess and improve our security posture. Work with engineering to evaluate how our production infrastructure and internal systems are protected, identify gaps, and drive improvements.\n\nStrengthen network and access controls. Review network separation, service exposure, privileged access, and permissions so systems and data are accessible only where needed.\n\nVerify that controls work in practice. Look beyond configuration checklists to understand how systems could be compromised and whether our protections would prevent or detect it.\n\nInternal security and automation\n\nOwn identity and device security. Ensure we have effective MFA, appropriate access policies, and properly managed, encrypted, and patched devices.\n\nAutomate the employee lifecycle. Build dependable processes for account provisioning, access changes, offboarding, and access reviews across Entra ID and our internal tools.\n\nKeep recurring work manageable. Use scripts, integrations, and AI tooling to automate security operations and surface issues that need attention.\n\nCustomer assurance and compliance\n\nSupport customer security assessments. Help answer questionnaires and join customer conversations that require a clear, technically credible explanation of our security controls.\n\nContribute to our compliance programs. Support our ISO 27001 and SOC 2 Type II work through effective controls, current evidence, and technical input into audits and risk assessments.\n\nYou Might Be a Fit If…\n\nHands-on application and infrastructure security experience. You understand how modern SaaS applications and cloud environments are built, where they can fail, and how to protect them.\n\nTechnical depth and sound judgment. You can investigate a vulnerability, assess its practical impact, discuss remediation with engineers, and distinguish urgent risks from lower-priority findings.\n\nExperience taking findings through to resolution. You’ve worked with penetration testers or vulnerability disclosure programs and helped teams turn reports into verified fixes.\n\nConfidence with identity and endpoint security. You’re comfortable configuring identity providers, MFA, access policies, and device management, and automating the processes around them.\n\nAn automation mindset. You build scripts, workflows, and integrations to reduce recurring work, and use AI tooling thoughtfully to increase your effectiveness.\n\nClear communication. You can explain technical risks and controls to engineers, colleagues, and customers. German is a plus, but not a requirement.\n\nPragmatism. You prioritize meaningful risk reduction and choose controls that teams can realistically implement and maintain.\n\nExperience with ISO 27001, SOC 2, and customer security assessments is valuable. Your strongest skill set should be in technical security.\n\nThe Environment\n\nWe work from our office in Berlin, Greifswalder Strasse 212. Everyone works together in person because the hardest problems get solved faster at a whiteboard than in a Slack thread. Conversations happen faster, problems get solved quicker, and we actually know each other.\n\nDays start at 8:30. Lunch & dinner are together. We run, go to the gym, and take care of ourselves. Health is not separate from work here, it is part of how we work well.\n\nThe vibe is calm but intense. No one is yelling or panicking. But everyone is working hard on things that matter.\n\nCompensation\n\nSalaries are transparent and tied to levels, not negotiation. All roles include equity.\n\nWe will figure out the right level together based on your experience and scope. Levels are about the work you own, not your title or years of experience. We narrow down the expected salary range early in the process.\n\nNext steps\n\nWe move fast. Most processes complete within two weeks.\n\nIf this sounds like your kind of work, we would like to meet you.\n\nCompensation: €90K – €140K • Offers Equity\n\n• Base Salary €90K – €140K • Offers Equity\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
+      "full_description": "Help Us Change the Way the World Works\n\nBuild something that matters.\n\nLangdock exists to change the way the world works, bridging the gap between what technology can do and what people actually do with it. We bring all leading AI models into one secure, model-agnostic platform and make them usable across entire organizations. Over 10,000 companies use our platform every day, from fast-growing startups to some of Europe's largest enterprises. Their employees open Langdock to draft strategies, analyze documents, or automate workflows - helping them to work smarter, think more creatively, and reach their full potential.\n\nAbout the Role\n\nWe’re hiring a hands-on (Senior) Security Engineer to strengthen the security of Langdock’s product, infrastructure, and internal systems.\n\nYour primary focus will be application and infrastructure security. You’ll work closely with our CTO and engineering teams to identify risks, assess our defenses, and drive practical improvements. You’ll coordinate penetration tests, triage incoming vulnerability reports, and make sure findings turn into lasting fixes. You should be comfortable getting into technical details, challenging assumptions, and helping engineers choose the right controls.\n\nYou’ll also own the security of our internal IT environment, including identity, access, and device security. We’re looking for someone who builds reliable, automated processes and can judge whether our protections are effective.\n\nAlongside this technical work, you’ll help explain our security posture to customers and support our compliance efforts. The foundation of this role is making Langdock secure; audits and customer assessments should reflect that work.\n\nWhat You Will Do\n\nThe role's responsibility will span over multiple fields, which are:\n\nApplication security\n\nCoordinate penetration tests end to end. Define scope with engineering and external testing partners, support testing, assess findings, and follow remediation through to verification.\n\nOwn vulnerability intake and triage. Monitor our security inbox and responsible disclosure program, assess reported issues, and work with engineering to prioritize and resolve them.\n\nHelp engineering build securely. Review security-sensitive designs and changes, identify weaknesses in areas such as authentication, authorization, and data isolation, and recommend practical improvements.\n\nInfrastructure security\n\nAssess and improve our security posture. Work with engineering to evaluate how our production infrastructure and internal systems are protected, identify gaps, and drive improvements.\n\nStrengthen network and access controls. Review network separation, service exposure, privileged access, and permissions so systems and data are accessible only where needed.\n\nVerify that controls work in practice. Look beyond configuration checklists to understand how systems could be compromised and whether our protections would prevent or detect it.\n\nInternal security and automation\n\nOwn identity and device security. Ensure we have effective MFA, appropriate access policies, and properly managed, encrypted, and patched devices.\n\nAutomate the employee lifecycle. Build dependable processes for account provisioning, access changes, offboarding, and access reviews across Entra ID and our internal tools.\n\nKeep recurring work manageable. Use scripts, integrations, and AI tooling to automate security operations and surface issues that need attention.\n\nCustomer assurance and compliance\n\nSupport customer security assessments. Help answer questionnaires and join customer conversations that require a clear, technically credible explanation of our security controls.\n\nContribute to our compliance programs. Support our ISO 27001 and SOC 2 Type II work through effective controls, current evidence, and technical input into audits and risk assessments.\n\nYou Might Be a Fit If…\n\nHands-on application and infrastructure security experience. You understand how modern SaaS applications and cloud environments are built, where they can fail, and how to protect them.\n\nTechnical depth and sound judgment. You can investigate a vulnerability, assess its practical impact, discuss remediation with engineers, and distinguish urgent risks from lower-priority findings.\n\nExperience taking findings through to resolution. You’ve worked with penetration testers or vulnerability disclosure programs and helped teams turn reports into verified fixes.\n\nConfidence with identity and endpoint security. You’re comfortable configuring identity providers, MFA, access policies, and device management, and automating the processes around them.\n\nAn automation mindset. You build scripts, workflows, and integrations to reduce recurring work, and use AI tooling thoughtfully to increase your effectiveness.\n\nClear communication. You can explain technical risks and controls to engineers, colleagues, and customers. German is a plus, but not a requirement.\n\nPragmatism. You prioritize meaningful risk reduction and choose controls that teams can realistically implement and maintain.\n\nExperience with ISO 27001, SOC 2, and customer security assessments is valuable. Your strongest skill set should be in technical security.\n\nThe Environment\n\nWe work from our office in Berlin, Greifswalder Strasse 212. Everyone works together in person because the hardest problems get solved faster at a whiteboard than in a Slack thread. Conversations happen faster, problems get solved quicker, and we actually know each other.\n\nDays start at 8:30. Lunch & dinner are together. We run, go to the gym, and take care of ourselves. Health is not separate from work here, it is part of how we work well.\n\nThe vibe is calm but intense. No one is yelling or panicking. But everyone is working hard on things that matter.\n\nCompensation\n\nSalaries are transparent and tied to levels, not negotiation. All roles include equity.\n\nWe will figure out the right level together based on your experience and scope. Levels are about the work you own, not your title or years of experience. We narrow down the expected salary range early in the process.\n\nNext steps\n\nWe move fast. Most processes complete within two weeks.\n\nIf this sounds like your kind of work, we would like to meet you.\n\nCompensation: €90K – €140K • Offers Equity\n\n• Base Salary €90K – €140K • Offers Equity\n\nFind Jobs in Germany on Arbeitnow",
       "skill_requirements": [
         {
           "skill": "iso 27001",
@@ -472,149 +591,6 @@
         "mandatory": false,
         "label": "German is preferred/nice-to-have",
         "evidence": "German is a plus, but not a requirement."
-      },
-      "experience_analysis": null
-    },
-    {
-      "report_number": 2,
-      "job_key": "20d0eaa3f9871a4e6032",
-      "status": "NEW",
-      "application_status": "NEW",
-      "score": 69,
-      "raw_score": 81,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "score_label": "REVIEW",
-      "title": "Business Development Representative - Cybersecurity",
-      "company": "Huzzle",
-      "location": "Germany",
-      "location_analysis": {
-        "category": "eligible_germany_remote",
-        "eligible": true,
-        "score": 15,
-        "reason": "Remote work from Germany is explicitly available",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Germany remote",
-        "work_model": "Remote"
-      },
-      "location_scope": "Germany remote",
-      "working_model": "Remote",
-      "role_family": {
-        "id": "cloud_devsecops",
-        "label": "Cloud Security / DevSecOps",
-        "priority": 2,
-        "confidence": "medium",
-        "evidence": [
-          "cloud security"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://www.arbeitnow.com/jobs/companies/huzzle/remote-business-development-representative-cybersecurity-germany-259748",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/huzzle/remote-business-development-representative-cybersecurity-germany-259748",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/huzzle/remote-business-development-representative-cybersecurity-germany-259748",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-11-18T21:20:06Z",
-      "posting_age_days": 0,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 0,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-11-19T15:57:48Z",
-      "experience_required": null,
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "stakeholder communication"
-        ],
-        "partial": [
-          "cloud security",
-          "network security"
-        ],
-        "missing": [],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "cloud security",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Familiarity with cybersecurity areas such as network security, endpoint protection, cloud security, managed security services (MSSP), threat detection, or compliance."
-        },
-        {
-          "skill": "network security",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Familiarity with cybersecurity areas such as network security, endpoint protection, cloud security, managed security services (MSSP), threat detection, or compliance."
-        }
-      ],
-      "potential_gaps": [],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 17,
-        "experience": 10,
-        "location": 15,
-        "language": 10,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Cloud Security / DevSecOps.",
-        "Remote work from Germany is explicitly available.",
-        "Evidenced matches include stakeholder communication."
-      ],
-      "warnings": [
-        "Mandatory gaps: cloud security, network security",
-        "Exposure only; do not claim deep expertise: cloud security, network security",
-        "At least one explicitly mandatory skill has exposure only"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "About Huzzle At Huzzle, we connect talented professionals with exciting career opportunities at leading companies across the UK, US, Canada, Europe, and Australia. Our client network includes growing startups, digital agencies, SaaS businesses, and technology-driven companies across sectors such as MarTech, FinTech, EdTech, and eCommerce. Rather than following the traditional outsourcing model, we place you directly within innovative companies, where you become a valued member of their team. Job Summary We are looking for an experienced and results-driven Business Development Representative (BDR) with a proven background in the cybersecurity industry to join a growing international technology company. In this role, you will be responsible for identifying new business opportunities, engaging key decision-makers, and generating qualified sales meetings through strategic outbound prospecting. The ideal candidate understands the cybersecurity landscape, can confidently communicate technical value propositions, and has experience selling cybersecurity solutions to B2B customers. Previous experience working in cybersecurity sales is a strict requirement for this position. Key Responsibi…",
-      "full_description": "About Huzzle\n\nAt Huzzle, we connect talented professionals with exciting career opportunities at leading companies across the UK, US, Canada, Europe, and Australia. Our client network includes growing startups, digital agencies, SaaS businesses, and technology-driven companies across sectors such as MarTech, FinTech, EdTech, and eCommerce. Rather than following the traditional outsourcing model, we place you directly within innovative companies, where you become a valued member of their team.\n\nJob Summary\n\nWe are looking for an experienced and results-driven Business Development Representative (BDR) with a proven background in the cybersecurity industry to join a growing international technology company.\n\nIn this role, you will be responsible for identifying new business opportunities, engaging key decision-makers, and generating qualified sales meetings through strategic outbound prospecting.\n\nThe ideal candidate understands the cybersecurity landscape, can confidently communicate technical value propositions, and has experience selling cybersecurity solutions to B2B customers.\n\nPrevious experience working in cybersecurity sales is a strict requirement for this position.\n\nKey Responsibilities\n\nIdentify and prospect potential B2B customers through cold calling, email outreach, LinkedIn, and other outbound sales channels.\n\nGenerate and qualify leads, building a consistent pipeline of sales opportunities.\n\nEngage IT Directors, CISOs, CTOs, Security Managers, and other relevant decision-makers.\n\nConduct discovery conversations to understand prospects' cybersecurity challenges, business needs, and purchasing priorities.\n\nCommunicate the value of cybersecurity products and services to technical and non-technical stakeholders.\n\nSchedule qualified meetings and product demonstrations for Account Executives and senior sales teams.\n\nMaintain accurate prospect records, sales activities, and pipeline updates in CRM platforms.\n\nCollaborate with sales and marketing teams to improve outreach strategies, messaging, and conversion rates.\n\nConsistently achieve or exceed KPIs related to outreach activity, qualified meetings, and pipeline generation.\n\nRequirements\n\nMandatory: Previous professional experience in the cybersecurity industry, preferably in a BDR, SDR, or outbound sales role.\n\nProven track record in B2B outbound sales, business development, lead generation, or appointment setting.\n\nStrong understanding of cybersecurity solutions, industry terminology, and common security challenges faced by businesses.\n\nFamiliarity with cybersecurity areas such as network security, endpoint protection, cloud security, managed security services (MSSP), threat detection, or compliance.\n\nExperience engaging senior IT and cybersecurity decision-makers.\n\nDemonstrated success with cold calling, cold emailing, LinkedIn prospecting, and multichannel outreach.\n\nProficiency with CRM systems such as Salesforce, HubSpot, or similar platforms.\n\nExcellent written and verbal English communication skills.\n\nStrong objection-handling, relationship-building, and consultative selling abilities.\n\nSelf-motivated, target-driven, and comfortable working independently in a remote environment.\n\nBenefits\n\n💰 Competitive salary package based on experience and qualifications.\n\n🌎 Fully remote opportunity with an international company.\n\n🚀 Work in the rapidly growing cybersecurity industry.\n\n📈 Clear opportunities for professional development and career progression.\n\n🤝 Join a collaborative, high-performing international sales team.\n\n💻 Gain exposure to innovative cybersecurity technologies and enterprise clients.\n\nFind Jobs in Germany on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "cloud security",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Familiarity with cybersecurity areas such as network security, endpoint protection, cloud security, managed security services (MSSP), threat detection, or compliance."
-        },
-        {
-          "skill": "network security",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Familiarity with cybersecurity areas such as network security, endpoint protection, cloud security, managed security services (MSSP), threat detection, or compliance."
-        },
-        {
-          "skill": "stakeholder communication",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Communicate the value of cybersecurity products and services to technical and non-technical stakeholders."
-        }
-      ],
-      "german_analysis": {
-        "category": "none",
-        "level": "none",
-        "mandatory": false,
-        "label": "No German requirement detected",
-        "evidence": ""
       },
       "experience_analysis": null
     },
