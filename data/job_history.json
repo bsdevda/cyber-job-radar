@@ -10859,6 +10859,128 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-11-22T14:59:26Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 25556,
+      "security_title_candidates": 849,
+      "prefiltered_non_security_jobs": 24707,
+      "unique_jobs_after_deduplication": 664,
+      "duplicates_removed": 185,
+      "jobs_rejected_or_below_threshold": 25356,
+      "relevant_jobs_in_current_run": 15,
+      "new_jobs": 0,
+      "updated_jobs": 2,
+      "strong_matches": 1,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 1,
+      "report_jobs": 43,
+      "jobs_by_source": {
+        "arbeitnow": 2328,
+        "remotive": 16,
+        "linkedin_posts": 0,
+        "greenhouse": 21356,
+        "ashby": 517,
+        "lever": 1154,
+        "personio": 174,
+        "recruitee": 11
+      },
+      "employer_mode": "full",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 39.7,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2328,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 16,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "partial",
+          "ok": true,
+          "jobs": 21356,
+          "requests": 166,
+          "errors": [
+            {
+              "source": "greenhouse",
+              "company": "Scout AI",
+              "http_status": 404,
+              "exception_type": "RuntimeError",
+              "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/scoutai/jobs?content=true: HTTP Error 404: Not Found",
+              "message": "Greenhouse | Scout AI | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/scoutai/jobs?content=true: HTTP Error 404: Not Found"
+            }
+          ],
+          "error": "Greenhouse | Scout AI | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/scoutai/jobs?content=true: HTTP Error 404: Not Found",
+          "companies_checked": 166,
+          "companies_successful": 165,
+          "companies_failed": 1
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 517,
+          "requests": 12,
+          "errors": [],
+          "error": "",
+          "companies_checked": 12,
+          "companies_successful": 12,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 1154,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 174,
+          "requests": 7,
+          "errors": [],
+          "error": "",
+          "companies_checked": 7,
+          "companies_successful": 7,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 11,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -18641,6 +18763,36 @@
       "company": "Langdock",
       "title": "(Senior) Security Engineer - m/f/d",
       "score": 69
+    },
+    {
+      "at": "2026-11-22T14:59:26Z",
+      "job_key": "240800e330239220c3d1",
+      "event": "UPDATED",
+      "company": "Mozilla",
+      "title": "Senior Security Engineer - SecOps",
+      "score": 59
+    },
+    {
+      "at": "2026-11-22T14:59:26Z",
+      "job_key": "022b02e42c40ff735dbc",
+      "event": "UPDATED",
+      "company": "Langdock",
+      "title": "(Senior) Security Engineer - m/f/d",
+      "score": 69
+    },
+    {
+      "at": "2026-11-22T14:59:26Z",
+      "job_key": "b0c87693b777ab13ba5f",
+      "event": "REMOVED",
+      "company": "Wiz",
+      "title": "Security Engineer - Product"
+    },
+    {
+      "at": "2026-11-22T14:59:26Z",
+      "job_key": "ad5a9fea931d31fc704c",
+      "event": "REMOVED",
+      "company": "Cypher Consulting Europe",
+      "title": "SAP Security & Authorizations Consultant"
     }
   ]
 }
