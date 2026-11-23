@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T14:59:26Z",
+  "generated_at": "2026-11-23T18:36:55Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,42 +171,42 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-11-22T14:59:26Z",
+    "generated_at": "2026-11-23T18:36:55Z",
     "scoring_version": 2.2,
-    "jobs_collected": 25556,
-    "security_title_candidates": 849,
-    "prefiltered_non_security_jobs": 24707,
-    "unique_jobs_after_deduplication": 664,
-    "duplicates_removed": 185,
-    "jobs_rejected_or_below_threshold": 25356,
-    "relevant_jobs_in_current_run": 15,
+    "jobs_collected": 9146,
+    "security_title_candidates": 292,
+    "prefiltered_non_security_jobs": 8854,
+    "unique_jobs_after_deduplication": 209,
+    "duplicates_removed": 83,
+    "jobs_rejected_or_below_threshold": 9053,
+    "relevant_jobs_in_current_run": 10,
     "new_jobs": 0,
-    "updated_jobs": 2,
+    "updated_jobs": 0,
     "strong_matches": 1,
     "sources_checked": 8,
     "sources_failed": 0,
-    "sources_partial": 1,
+    "sources_partial": 0,
     "report_jobs": 43,
     "jobs_by_source": {
-      "arbeitnow": 2328,
-      "remotive": 16,
+      "arbeitnow": 2337,
+      "remotive": 15,
       "linkedin_posts": 0,
-      "greenhouse": 21356,
-      "ashby": 517,
-      "lever": 1154,
-      "personio": 174,
-      "recruitee": 11
+      "greenhouse": 6124,
+      "ashby": 438,
+      "lever": 90,
+      "personio": 142,
+      "recruitee": 0
     },
-    "employer_mode": "full",
+    "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 39.7
+    "workflow_duration_seconds": 27.6
   },
   "source_status": {
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 2328,
+      "jobs": 2337,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 16,
+      "jobs": 15,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -228,67 +228,58 @@
       "error": ""
     },
     "greenhouse": {
-      "status": "partial",
+      "status": "ok",
       "ok": true,
-      "jobs": 21356,
-      "requests": 166,
-      "errors": [
-        {
-          "source": "greenhouse",
-          "company": "Scout AI",
-          "http_status": 404,
-          "exception_type": "RuntimeError",
-          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/scoutai/jobs?content=true: HTTP Error 404: Not Found",
-          "message": "Greenhouse | Scout AI | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/scoutai/jobs?content=true: HTTP Error 404: Not Found"
-        }
-      ],
-      "error": "Greenhouse | Scout AI | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/scoutai/jobs?content=true: HTTP Error 404: Not Found",
-      "companies_checked": 166,
-      "companies_successful": 165,
-      "companies_failed": 1
+      "jobs": 6124,
+      "requests": 48,
+      "errors": [],
+      "error": "",
+      "companies_checked": 48,
+      "companies_successful": 48,
+      "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 517,
-      "requests": 12,
+      "jobs": 438,
+      "requests": 10,
       "errors": [],
       "error": "",
-      "companies_checked": 12,
-      "companies_successful": 12,
+      "companies_checked": 10,
+      "companies_successful": 10,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 1154,
-      "requests": 6,
-      "errors": [],
-      "error": "",
-      "companies_checked": 6,
-      "companies_successful": 6,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 174,
-      "requests": 7,
-      "errors": [],
-      "error": "",
-      "companies_checked": 7,
-      "companies_successful": 7,
-      "companies_failed": 0
-    },
-    "recruitee": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 11,
+      "jobs": 90,
       "requests": 2,
       "errors": [],
       "error": "",
       "companies_checked": 2,
       "companies_successful": 2,
+      "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 142,
+      "requests": 3,
+      "errors": [],
+      "error": "",
+      "companies_checked": 3,
+      "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "recruitee": {
+      "status": "idle",
+      "ok": true,
+      "jobs": 0,
+      "requests": 0,
+      "errors": [],
+      "error": "",
+      "companies_checked": 0,
+      "companies_successful": 0,
       "companies_failed": 0
     }
   },

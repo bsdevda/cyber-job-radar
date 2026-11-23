@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "latest_week": "2026-11-16",
+  "latest_week": "2026-11-23",
   "snapshots": [
     {
       "week_start": "2026-08-10",
@@ -3192,6 +3192,195 @@
           },
           {
             "skill": "splunk",
+            "jobs": 1
+          },
+          {
+            "skill": "ci/cd",
+            "jobs": 1
+          }
+        ]
+      },
+      "application_funnel": {
+        "tracked_records": 0,
+        "status_counts": {},
+        "applications_submitted": 0,
+        "responses_or_screens": 0,
+        "interviews": 0,
+        "offers": 0,
+        "response_rate_percent": 0.0,
+        "interview_rate_percent": 0.0,
+        "offer_rate_percent": 0.0,
+        "by_radar_recommendation": {},
+        "by_cv_version": {}
+      }
+    },
+    {
+      "week_start": "2026-11-23",
+      "generated_at": "2026-11-23T18:36:55Z",
+      "active_relevant_jobs": 10,
+      "role_family_counts": {
+        "Security Engineering": 4,
+        "IT Audit / GRC": 3,
+        "Product Security": 1,
+        "SOC / Detection and Response": 1,
+        "Penetration Testing / VAPT": 1
+      },
+      "score_bands": {
+        "60-69 review": 5,
+        "50-59 stretch": 3,
+        "70-79 good": 1,
+        "80-100 strong": 1
+      },
+      "skill_gaps": {
+        "mandatory": [
+          {
+            "skill": "incident response",
+            "jobs": 2
+          },
+          {
+            "skill": "nist",
+            "jobs": 2
+          },
+          {
+            "skill": "edr",
+            "jobs": 2
+          },
+          {
+            "skill": "software development",
+            "jobs": 2
+          },
+          {
+            "skill": "rust",
+            "jobs": 2
+          },
+          {
+            "skill": "aws",
+            "jobs": 1
+          },
+          {
+            "skill": "docker",
+            "jobs": 1
+          },
+          {
+            "skill": "iso 27001",
+            "jobs": 1
+          },
+          {
+            "skill": "javascript",
+            "jobs": 1
+          },
+          {
+            "skill": "go",
+            "jobs": 1
+          },
+          {
+            "skill": "gdpr",
+            "jobs": 1
+          },
+          {
+            "skill": "kubernetes",
+            "jobs": 1
+          }
+        ],
+        "potential": [
+          {
+            "skill": "rust",
+            "jobs": 3
+          },
+          {
+            "skill": "iso 27001",
+            "jobs": 2
+          },
+          {
+            "skill": "go",
+            "jobs": 2
+          },
+          {
+            "skill": "edr",
+            "jobs": 1
+          },
+          {
+            "skill": "azure",
+            "jobs": 1
+          },
+          {
+            "skill": "detection engineering",
+            "jobs": 1
+          }
+        ],
+        "optional": [
+          {
+            "skill": "splunk",
+            "jobs": 1
+          },
+          {
+            "skill": "iso 27001",
+            "jobs": 1
+          },
+          {
+            "skill": "go",
+            "jobs": 1
+          },
+          {
+            "skill": "javascript",
+            "jobs": 1
+          },
+          {
+            "skill": "kubernetes",
+            "jobs": 1
+          },
+          {
+            "skill": "terraform",
+            "jobs": 1
+          },
+          {
+            "skill": "bug bounty",
+            "jobs": 1
+          }
+        ],
+        "partial_exposure": [
+          {
+            "skill": "software development",
+            "jobs": 5
+          },
+          {
+            "skill": "incident response",
+            "jobs": 4
+          },
+          {
+            "skill": "nist",
+            "jobs": 3
+          },
+          {
+            "skill": "siem",
+            "jobs": 3
+          },
+          {
+            "skill": "javascript",
+            "jobs": 3
+          },
+          {
+            "skill": "aws",
+            "jobs": 2
+          },
+          {
+            "skill": "product security",
+            "jobs": 2
+          },
+          {
+            "skill": "cloud security",
+            "jobs": 1
+          },
+          {
+            "skill": "docker",
+            "jobs": 1
+          },
+          {
+            "skill": "splunk",
+            "jobs": 1
+          },
+          {
+            "skill": "network security",
             "jobs": 1
           },
           {
