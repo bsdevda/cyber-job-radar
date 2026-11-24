@@ -1,6 +1,6 @@
 # Employer Watchlist Health
 
-**Generated:** 2026-11-23T18:36:55Z
+**Generated:** 2026-11-24T18:06:07Z
 **Scan mode:** Daily
 **Configured employers:** 200
 **Healthy after a completed check:** 192
@@ -9,10 +9,10 @@
 
 ## Scan coverage
 
-- **Greenhouse:** 48/172 selected; 117 scheduled for another batch; 7 cooling down
-- **Ashby:** 10/13 selected; 2 scheduled for another batch; 1 cooling down
-- **Lever:** 2/6 selected; 4 scheduled for another batch; 0 cooling down
-- **Personio:** 3/7 selected; 4 scheduled for another batch; 0 cooling down
+- **Greenhouse:** 62/172 selected; 104 scheduled for another batch; 6 cooling down
+- **Ashby:** 8/13 selected; 4 scheduled for another batch; 1 cooling down
+- **Lever:** 3/6 selected; 3 scheduled for another batch; 0 cooling down
+- **Personio:** 4/7 selected; 3 scheduled for another batch; 0 cooling down
 - **Recruitee:** 0/2 selected; 2 scheduled for another batch; 0 cooling down
 
 ## Verified security hiring watch
@@ -40,5 +40,5 @@
 - **Magic Leap (greenhouse):** invalid_identifier; next retry 2026-12-15T14:26:43Z; Greenhouse | Magic Leap | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/magicleap/jobs?content=true: HTTP Error 404: Not Found
 - **Marqeta (greenhouse):** invalid_identifier; next retry 2026-12-03T14:31:48Z; Greenhouse | Marqeta | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/marqeta/jobs?content=true: HTTP Error 404: Not Found
 - **Parloa (greenhouse):** invalid_identifier; next retry 2026-12-06T14:29:32Z; Greenhouse | Parloa | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/parloa/jobs?content=true: HTTP Error 404: Not Found
-- **Postman (greenhouse):** invalid_identifier; next retry 2026-11-24T12:15:06Z; Greenhouse | Postman | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found
+- **Postman (greenhouse):** invalid_identifier; next retry 2026-12-24T18:06:07Z; Greenhouse | Postman | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found
 - **Scout AI (greenhouse):** invalid_identifier; next retry 2026-12-22T14:59:26Z; Greenhouse | Scout AI | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/scoutai/jobs?content=true: HTTP Error 404: Not Found
