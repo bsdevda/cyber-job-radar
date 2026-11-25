@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T18:06:07Z",
+  "generated_at": "2026-11-25T17:30:26Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,42 +171,42 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-11-24T18:06:07Z",
+    "generated_at": "2026-11-25T17:30:26Z",
     "scoring_version": 2.2,
-    "jobs_collected": 7447,
-    "security_title_candidates": 204,
-    "prefiltered_non_security_jobs": 7243,
-    "unique_jobs_after_deduplication": 154,
-    "duplicates_removed": 50,
-    "jobs_rejected_or_below_threshold": 7388,
-    "relevant_jobs_in_current_run": 9,
+    "jobs_collected": 9860,
+    "security_title_candidates": 315,
+    "prefiltered_non_security_jobs": 9545,
+    "unique_jobs_after_deduplication": 245,
+    "duplicates_removed": 70,
+    "jobs_rejected_or_below_threshold": 9778,
+    "relevant_jobs_in_current_run": 12,
     "new_jobs": 0,
     "updated_jobs": 0,
     "strong_matches": 1,
     "sources_checked": 8,
     "sources_failed": 0,
-    "sources_partial": 1,
+    "sources_partial": 0,
     "report_jobs": 40,
     "jobs_by_source": {
-      "arbeitnow": 2282,
-      "remotive": 15,
+      "arbeitnow": 2260,
+      "remotive": 16,
       "linkedin_posts": 0,
-      "greenhouse": 4557,
-      "ashby": 250,
-      "lever": 188,
-      "personio": 155,
-      "recruitee": 0
+      "greenhouse": 6164,
+      "ashby": 260,
+      "lever": 1014,
+      "personio": 140,
+      "recruitee": 6
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 26.4
+    "workflow_duration_seconds": 26.6
   },
   "source_status": {
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 2282,
+      "jobs": 2260,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 15,
+      "jobs": 16,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -228,51 +228,31 @@
       "error": ""
     },
     "greenhouse": {
-      "status": "partial",
+      "status": "ok",
       "ok": true,
-      "jobs": 4557,
-      "requests": 62,
-      "errors": [
-        {
-          "source": "greenhouse",
-          "company": "Postman",
-          "http_status": 404,
-          "exception_type": "RuntimeError",
-          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found",
-          "message": "Greenhouse | Postman | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found"
-        }
-      ],
-      "error": "Greenhouse | Postman | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found",
-      "companies_checked": 62,
-      "companies_successful": 61,
-      "companies_failed": 1
+      "jobs": 6164,
+      "requests": 68,
+      "errors": [],
+      "error": "",
+      "companies_checked": 68,
+      "companies_successful": 68,
+      "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 250,
-      "requests": 8,
+      "jobs": 260,
+      "requests": 9,
       "errors": [],
       "error": "",
-      "companies_checked": 8,
-      "companies_successful": 8,
+      "companies_checked": 9,
+      "companies_successful": 9,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 188,
-      "requests": 3,
-      "errors": [],
-      "error": "",
-      "companies_checked": 3,
-      "companies_successful": 3,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 155,
+      "jobs": 1014,
       "requests": 4,
       "errors": [],
       "error": "",
@@ -280,15 +260,26 @@
       "companies_successful": 4,
       "companies_failed": 0
     },
-    "recruitee": {
-      "status": "idle",
+    "personio": {
+      "status": "ok",
       "ok": true,
-      "jobs": 0,
-      "requests": 0,
+      "jobs": 140,
+      "requests": 3,
       "errors": [],
       "error": "",
-      "companies_checked": 0,
-      "companies_successful": 0,
+      "companies_checked": 3,
+      "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "recruitee": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 6,
+      "requests": 1,
+      "errors": [],
+      "error": "",
+      "companies_checked": 1,
+      "companies_successful": 1,
       "companies_failed": 0
     }
   },
@@ -453,188 +444,6 @@
     },
     {
       "report_number": 2,
-      "job_key": "022b02e42c40ff735dbc",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 69,
-      "raw_score": 72,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "Senior title is above the profile's current 2+ years",
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "score_label": "REVIEW",
-      "title": "(Senior) Security Engineer - m/f/d",
-      "company": "Langdock",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin on-site role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "On-site"
-      },
-      "location_scope": "Berlin",
-      "working_model": "On-site",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "security engineer",
-          "security controls",
-          "vulnerability"
-        ]
-      },
-      "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
-      },
-      "url": "https://jobs.ashbyhq.com/langdock/8662e63f-63fe-47f1-92c3-a402d3d24486",
-      "apply_url": "https://jobs.ashbyhq.com/langdock/8662e63f-63fe-47f1-92c3-a402d3d24486/application",
-      "canonical_url": "https://jobs.ashbyhq.com/langdock/8662e63f-63fe-47f1-92c3-a402d3d24486",
-      "source": "Ashby",
-      "sources": [
-        "Ashby"
-      ],
-      "ats": "ashby",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-11-18T13:45:47Z",
-      "posting_age_days": 4,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 4,
-        "category": "recent",
-        "label": "RECENT"
-      },
-      "urgency": "RECENT",
-      "first_seen": "2026-10-21T10:26:52Z",
-      "experience_required": null,
-      "german_requirement": "German is preferred/nice-to-have",
-      "skill_matches": {
-        "match": [
-          "application security",
-          "penetration testing",
-          "security reporting",
-          "vulnerability assessment"
-        ],
-        "partial": [],
-        "missing": [
-          "go",
-          "iso 27001",
-          "vulnerability disclosure program"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Experience with ISO 27001, SOC 2, and customer security assessments is valuable."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "We run, go to the gym, and take care of ourselves."
-        },
-        {
-          "skill": "vulnerability disclosure program",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "You’ve worked with penetration testers or vulnerability disclosure programs and helped teams turn reports into verified fixes."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 15,
-        "experience": 10,
-        "location": 15,
-        "language": 9,
-        "seniority": 4,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Security Engineering.",
-        "Berlin on-site role.",
-        "Evidenced matches include application security, penetration testing, security reporting, vulnerability assessment."
-      ],
-      "warnings": [
-        "Mandatory gaps: iso 27001",
-        "Potential gaps: go, vulnerability disclosure program",
-        "Senior title is above the profile's current 2+ years",
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "HELP US CHANGE THE WAY THE WORLD WORKS BUILD SOMETHING THAT MATTERS. Langdock exists to change the way the world works, bridging the gap between what technology can do and what people actually do with it. We bring all leading AI models into one secure, model-agnostic platform and make them usable across entire organizations. Over 10,000 companies use our platform every day, from fast-growing startups to some of Europe's largest enterprises. Their employees open Langdock to draft strategies, analyze documents, or automate workflows - helping them to work smarter, think more creatively, and reach their full potential. ABOUT THE ROLE We’re hiring a hands-on (Senior) Security Engineer to strengthen the security of Langdock’s product, infrastructure, and internal systems. Your primary focus will be application and infrastructure security. You’ll work closely with our CTO and engineering teams to identify risks, assess our defenses, and drive practical improvements. You’ll coordinate penetration tests, triage incoming vulnerability reports, and make sure findings turn into lasting fixes. You should be comfortable getting into technical details, challenging assumptions, and helping engin…",
-      "full_description": "HELP US CHANGE THE WAY THE WORLD WORKS\n\nBUILD SOMETHING THAT MATTERS.\n\nLangdock exists to change the way the world works, bridging the gap between what technology can do and what people actually do with it. We bring all leading AI models into one secure, model-agnostic platform and make them usable across entire organizations. Over 10,000 companies use our platform every day, from fast-growing startups to some of Europe's largest enterprises. Their employees open Langdock to draft strategies, analyze documents, or automate workflows - helping them to work smarter, think more creatively, and reach their full potential.\n\nABOUT THE ROLE\n\nWe’re hiring a hands-on (Senior) Security Engineer to strengthen the security of Langdock’s product, infrastructure, and internal systems.\n\nYour primary focus will be application and infrastructure security. You’ll work closely with our CTO and engineering teams to identify risks, assess our defenses, and drive practical improvements. You’ll coordinate penetration tests, triage incoming vulnerability reports, and make sure findings turn into lasting fixes. You should be comfortable getting into technical details, challenging assumptions, and helping engineers choose the right controls.\n\nYou’ll also own the security of our internal IT environment, including identity, access, and device security. We’re looking for someone who builds reliable, automated processes and can judge whether our protections are effective.\n\nAlongside this technical work, you’ll help explain our security posture to customers and support our compliance efforts. The foundation of this role is making Langdock secure; audits and customer assessments should reflect that work.\n\nWHAT YOU WILL DO\n\nThe role's responsibility will span over multiple fields, which are:\n\nAPPLICATION SECURITY\n\n- Coordinate penetration tests end to end. Define scope with engineering and external testing partners, support testing, assess findings, and follow remediation through to verification.\n\n- Own vulnerability intake and triage. Monitor our security inbox and responsible disclosure program, assess reported issues, and work with engineering to prioritize and resolve them.\n\n- Help engineering build securely. Review security-sensitive designs and changes, identify weaknesses in areas such as authentication, authorization, and data isolation, and recommend practical improvements.\n\nINFRASTRUCTURE SECURITY\n\n- Assess and improve our security posture. Work with engineering to evaluate how our production infrastructure and internal systems are protected, identify gaps, and drive improvements.\n\n- Strengthen network and access controls. Review network separation, service exposure, privileged access, and permissions so systems and data are accessible only where needed.\n\n- Verify that controls work in practice. Look beyond configuration checklists to understand how systems could be compromised and whether our protections would prevent or detect it.\n\nINTERNAL SECURITY AND AUTOMATION\n\n- Own identity and device security. Ensure we have effective MFA, appropriate access policies, and properly managed, encrypted, and patched devices.\n\n- Automate the employee lifecycle. Build dependable processes for account provisioning, access changes, offboarding, and access reviews across Entra ID and our internal tools.\n\n- Keep recurring work manageable. Use scripts, integrations, and AI tooling to automate security operations and surface issues that need attention.\n\nCUSTOMER ASSURANCE AND COMPLIANCE\n\n- Support customer security assessments. Help answer questionnaires and join customer conversations that require a clear, technically credible explanation of our security controls.\n\n- Contribute to our compliance programs. Support our ISO 27001 and SOC 2 Type II work through effective controls, current evidence, and technical input into audits and risk assessments.\n\nYOU MIGHT BE A FIT IF…\n\n- Hands-on application and infrastructure security experience. You understand how modern SaaS applications and cloud environments are built, where they can fail, and how to protect them.\n\n- Technical depth and sound judgment. You can investigate a vulnerability, assess its practical impact, discuss remediation with engineers, and distinguish urgent risks from lower-priority findings.\n\n- Experience taking findings through to resolution. You’ve worked with penetration testers or vulnerability disclosure programs and helped teams turn reports into verified fixes.\n\n- Confidence with identity and endpoint security. You’re comfortable configuring identity providers, MFA, access policies, and device management, and automating the processes around them.\n\n- An automation mindset. You build scripts, workflows, and integrations to reduce recurring work, and use AI tooling thoughtfully to increase your effectiveness.\n\n- Clear communication. You can explain technical risks and controls to engineers, colleagues, and customers. German is a plus, but not a requirement.\n\n- Pragmatism. You prioritize meaningful risk reduction and choose controls that teams can realistically implement and maintain.\n\nExperience with ISO 27001, SOC 2, and customer security assessments is valuable. Your strongest skill set should be in technical security.\n\nTHE ENVIRONMENT\n\nWe work from our office in Berlin, Greifswalder Strasse 212. Everyone works together in person because the hardest problems get solved faster at a whiteboard than in a Slack thread. Conversations happen faster, problems get solved quicker, and we actually know each other.\n\nDays start at 8:30. Lunch & dinner are together. We run, go to the gym, and take care of ourselves. Health is not separate from work here, it is part of how we work well.\n\nThe vibe is calm but intense. No one is yelling or panicking. But everyone is working hard on things that matter.\n\nCOMPENSATION\n\nSalaries are transparent and tied to levels, not negotiation. All roles include equity.\n\nWe will figure out the right level together based on your experience and scope. Levels are about the work you own, not your title or years of experience. We narrow down the expected salary range early in the process.\n\nNEXT STEPS\n\nWe move fast. Most processes complete within two weeks.\n\nIf this sounds like your kind of work, we would like to meet you.",
-      "skill_requirements": [
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Experience with ISO 27001, SOC 2, and customer security assessments is valuable."
-        },
-        {
-          "skill": "vulnerability assessment",
-          "profile_status": "match",
-          "requirement": "mandatory",
-          "evidence": "Experience with ISO 27001, SOC 2, and customer security assessments is valuable."
-        },
-        {
-          "skill": "application security",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "APPLICATION SECURITY"
-        },
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "We run, go to the gym, and take care of ourselves."
-        },
-        {
-          "skill": "penetration testing",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "You’ll coordinate penetration tests, triage incoming vulnerability reports, and make sure findings turn into lasting fixes."
-        },
-        {
-          "skill": "security reporting",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "You’ll coordinate penetration tests, triage incoming vulnerability reports, and make sure findings turn into lasting fixes."
-        },
-        {
-          "skill": "vulnerability disclosure program",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "You’ve worked with penetration testers or vulnerability disclosure programs and helped teams turn reports into verified fixes."
-        }
-      ],
-      "german_analysis": {
-        "category": "nice",
-        "level": "unspecified",
-        "mandatory": false,
-        "label": "German is preferred/nice-to-have",
-        "evidence": "German is a plus, but not a requirement."
-      },
-      "experience_analysis": null
-    },
-    {
-      "report_number": 3,
       "job_key": "5905ac43fe0eb9144bfd",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -835,7 +644,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 4,
+      "report_number": 3,
       "job_key": "d109d27448fdf0dc0ee1",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1106,7 +915,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 5,
+      "report_number": 4,
       "job_key": "855f35dfe9f06890eb91",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1283,7 +1092,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 6,
+      "report_number": 5,
       "job_key": "565e052ce84fc91a01cc",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1489,7 +1298,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 7,
+      "report_number": 6,
       "job_key": "1b23d725f32d2f811703",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1664,7 +1473,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 8,
+      "report_number": 7,
       "job_key": "bd1b3b1bbb48fe52ce64",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1760,7 +1569,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 9,
+      "report_number": 8,
       "job_key": "32c54022816bcac2a151",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -2083,7 +1892,7 @@
       }
     },
     {
-      "report_number": 10,
+      "report_number": 9,
       "job_key": "6943ccc7ff70c247e0a3",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -2300,6 +2109,150 @@
         "display": "2-4 years",
         "evidence": "2–4 years of experience in software engineering, data engineering, or automated QA/evaluation roles."
       }
+    },
+    {
+      "report_number": 10,
+      "job_key": "4bc13b238d5a17d93580",
+      "status": "SEEN_BEFORE",
+      "application_status": "NEW",
+      "score": 82,
+      "raw_score": 82,
+      "score_cap": null,
+      "score_cap_reasons": [],
+      "score_label": "STRONG",
+      "title": "Prevention Analyst - Pentesting",
+      "company": "Eye Security",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin hybrid role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "Hybrid"
+      },
+      "location_scope": "Berlin",
+      "working_model": "Hybrid",
+      "role_family": {
+        "id": "penetration_testing",
+        "label": "Penetration Testing / VAPT",
+        "priority": 1,
+        "confidence": "high",
+        "evidence": [
+          "pentest",
+          "penetration test",
+          "offensive security"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://jobs.ashbyhq.com/eye-security/20cd9c92-38b5-4694-aec4-fc8b4f01d40b",
+      "apply_url": "https://jobs.ashbyhq.com/eye-security/20cd9c92-38b5-4694-aec4-fc8b4f01d40b/application",
+      "canonical_url": "https://jobs.ashbyhq.com/eye-security/20cd9c92-38b5-4694-aec4-fc8b4f01d40b",
+      "source": "Ashby",
+      "sources": [
+        "Ashby"
+      ],
+      "ats": "ashby",
+      "priority_employer": true,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-11-13T15:44:00Z",
+      "posting_age_days": 12,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 12,
+        "category": "current",
+        "label": "OPEN FOR REVIEW"
+      },
+      "urgency": "OPEN FOR REVIEW",
+      "first_seen": "2026-11-15T14:26:43Z",
+      "experience_required": null,
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "penetration testing"
+        ],
+        "partial": [],
+        "missing": [
+          "go"
+        ],
+        "nice_to_have": [
+          "bug bounty (missing)"
+        ]
+      },
+      "mandatory_gaps": [],
+      "potential_gaps": [
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "When you find a potential weak point, you dig into it technically to find out how far an attacker could actually go."
+        }
+      ],
+      "optional_gaps": [
+        {
+          "skill": "bug bounty",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "- A proven bug bounty track record or other real world offensive security experience."
+        }
+      ],
+      "score_breakdown": {
+        "role_alignment": 20,
+        "skills": 14,
+        "experience": 10,
+        "location": 15,
+        "language": 10,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Penetration Testing / VAPT.",
+        "Berlin hybrid role.",
+        "Evidenced matches include penetration testing."
+      ],
+      "warnings": [
+        "Potential gaps: go",
+        "Optional gaps: bug bounty"
+      ],
+      "recommendation": "APPLY - strong evidence-based match",
+      "description_excerpt": "PREVENTION ANALYST - PENTESTING About this role We are looking for a Prevention Analyst - Pentester, to join our Prevention track. An attacker does not look at one server in isolation. They look at everything a company exposes to the internet and work out where to start. You will do the same for our clients, taking the attacker’s view of their external attack surface, seeing what an attacker sees, and doing what an attacker would do next. That means reading the story behind an attack surface. A forgotten subdomain, an old login portal, and a misconfigured mail server may each look minor on their own. Together they can show how an organisation has grown, where its blind spots are, and where someone could get in. When you find a potential weak point, you dig into it technically to find out how far an attacker could actually go. This is not a classic penetration testing role. The deep dive draws on pentest methodology and expertise, but it is not a full pentest, and you will not spend your weeks writing long reports. We focus on finding the high impact vulnerabilities that need attention now and getting them to the client in a form they can act on. This is for someone with hands on p…",
+      "full_description": "PREVENTION ANALYST - PENTESTING\n\nAbout this role\n\nWe are looking for a Prevention Analyst - Pentester, to join our Prevention track. An attacker does not look at one server in isolation. They look at everything a company exposes to the internet and work out where to start. You will do the same for our clients, taking the attacker’s view of their external attack surface, seeing what an attacker sees, and doing what an attacker would do next.\n\nThat means reading the story behind an attack surface. A forgotten subdomain, an old login portal, and a misconfigured mail server may each look minor on their own. Together they can show how an organisation has grown, where its blind spots are, and where someone could get in. When you find a potential weak point, you dig into it technically to find out how far an attacker could actually go.\n\nThis is not a classic penetration testing role. The deep dive draws on pentest methodology and expertise, but it is not a full pentest, and you will not spend your weeks writing long reports. We focus on finding the high impact vulnerabilities that need attention now and getting them to the client in a form they can act on.\n\nThis is for someone with hands on pentesting experience who wants to work across many customer environments, sharpen their attacker mindset, and grow into owning complex prevention engagements end to end. \n\nWhat you will do\n\n- Assess clients’ external attack surface as a whole, from the attacker’s perspective.\n\n- Identify gaps and weaknesses across the surface, not just within a single asset, and work out how they connect.\n\n- Run technical deep dives into potential weak points to establish how far an attacker could get in practice.\n\n- Separate what needs fixing now from what does not, and focus on high and critical findings with immediate impact.\n\n- Turn technical findings into short, clear advice that clients can understand and act on.\n\n- Share what you learn with the team and actively pick up what others know. We work on problems together.\n\n- Contribute to improving our approach, sharing ideas that make assessments faster, clearer, and more useful for clients.\n\nWhat you will need\n\n- Hands on penetration testing experience and a solid grasp of pentest methodology, particularly for external infrastructure and web applications.\n\n- The ability to think like an attacker, to look at a set of exposed assets and see where you would start and why.\n\n- Good judgement about real world impact, so you can tell an interesting finding from an urgent one.\n\n- The ability to explain technical findings to non technical readers, briefly and without losing accuracy.\n\n- A collaborative way of working and a genuine interest in learning and growing with colleagues, not working as a solo player.\n\n- Comfortable working across multiple client environments in parallel.\n\n- Fluent English.\n\nNice-to-have\n\n- Certifications such as OSCP, BSCP, or CPTS.\n\n- A proven bug bounty track record or other real world offensive security experience.\n\n- Experience working with SMEs or mid market customers on security topics.\n\nWhat we offer \n\n- A meaningful mission, protecting organisations across Europe from real world cyber threats.\n\n- Work with top tier professionals from national CERTs, intelligence agencies, and leading tech backgrounds.\n\n- A remote friendly culture with quarterly meetups and annual company retreats, for example in Spain, Portugal, or Italy.\n\n- Thursday socials to stay connected.\n\n- A generous time off policy, including wellbeing and volunteering days.\n\nAbout Eye Security\n\nEye Security is providing cybersecurity with embedded cyber insurance solutions for organisations across Europe. Headquartered in the Netherlands, we are already over 190 FTEs and continue to grow internationally, having secured our Series C funding of 60 million.\n\nWe combine cutting edge technology with hands on expertise to detect, respond to, and recover from cyber threats in real time. Our team brings together talent from intelligence, military, tech, and consulting backgrounds, all united by a shared mission, to make enterprise grade cybersecurity accessible to every business, not just the big players.\n\nAt Eye, you will work on projects with an international footprint, solving real world challenges and helping to build a safer digital future for our clients.\n\nWe are an equal opportunity employer. We are committed to making our hiring process accessible to everyone. If you need a reasonable accommodation to apply or interview for this role, please inform the TA team.",
+      "skill_requirements": [
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "When you find a potential weak point, you dig into it technically to find out how far an attacker could actually go."
+        },
+        {
+          "skill": "penetration testing",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "PREVENTION ANALYST - PENTESTING"
+        },
+        {
+          "skill": "bug bounty",
+          "profile_status": "missing",
+          "requirement": "optional",
+          "evidence": "- A proven bug bounty track record or other real world offensive security experience."
+        }
+      ],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": null
     }
   ],
   "analysis_request": {

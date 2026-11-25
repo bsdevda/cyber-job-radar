@@ -1,37 +1,37 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-24T18:06:07Z",
+  "generated_at": "2026-11-25T17:30:26Z",
   "summary": {
-    "generated_at": "2026-11-24T18:06:07Z",
+    "generated_at": "2026-11-25T17:30:26Z",
     "scoring_version": 2.2,
-    "jobs_collected": 7447,
-    "security_title_candidates": 204,
-    "prefiltered_non_security_jobs": 7243,
-    "unique_jobs_after_deduplication": 154,
-    "duplicates_removed": 50,
-    "jobs_rejected_or_below_threshold": 7388,
-    "relevant_jobs_in_current_run": 9,
+    "jobs_collected": 9860,
+    "security_title_candidates": 315,
+    "prefiltered_non_security_jobs": 9545,
+    "unique_jobs_after_deduplication": 245,
+    "duplicates_removed": 70,
+    "jobs_rejected_or_below_threshold": 9778,
+    "relevant_jobs_in_current_run": 12,
     "new_jobs": 0,
     "updated_jobs": 0,
     "strong_matches": 1,
     "sources_checked": 8,
     "sources_failed": 0,
-    "sources_partial": 1,
+    "sources_partial": 0,
     "report_jobs": 40,
     "jobs_by_source": {
-      "arbeitnow": 2282,
-      "remotive": 15,
+      "arbeitnow": 2260,
+      "remotive": 16,
       "linkedin_posts": 0,
-      "greenhouse": 4557,
-      "ashby": 250,
-      "lever": 188,
-      "personio": 155,
-      "recruitee": 0
+      "greenhouse": 6164,
+      "ashby": 260,
+      "lever": 1014,
+      "personio": 140,
+      "recruitee": 6
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 26.4
+    "workflow_duration_seconds": 26.6
   },
   "jobs": [
     {
@@ -159,135 +159,6 @@
     },
     {
       "report_number": 2,
-      "job_key": "022b02e42c40ff735dbc",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 69,
-      "raw_score": 72,
-      "score_cap": 69,
-      "score_cap_reasons": [
-        "Senior title is above the profile's current 2+ years",
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "score_label": "REVIEW",
-      "title": "(Senior) Security Engineer - m/f/d",
-      "company": "Langdock",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin on-site role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "On-site"
-      },
-      "location_scope": "Berlin",
-      "working_model": "On-site",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "security engineer",
-          "security controls",
-          "vulnerability"
-        ]
-      },
-      "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
-      },
-      "url": "https://jobs.ashbyhq.com/langdock/8662e63f-63fe-47f1-92c3-a402d3d24486",
-      "apply_url": "https://jobs.ashbyhq.com/langdock/8662e63f-63fe-47f1-92c3-a402d3d24486/application",
-      "canonical_url": "https://jobs.ashbyhq.com/langdock/8662e63f-63fe-47f1-92c3-a402d3d24486",
-      "source": "Ashby",
-      "sources": [
-        "Ashby"
-      ],
-      "ats": "ashby",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-11-18T13:45:47Z",
-      "posting_age_days": 4,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 4,
-        "category": "recent",
-        "label": "RECENT"
-      },
-      "urgency": "RECENT",
-      "first_seen": "2026-10-21T10:26:52Z",
-      "experience_required": null,
-      "german_requirement": "German is preferred/nice-to-have",
-      "skill_matches": {
-        "match": [
-          "application security",
-          "penetration testing",
-          "security reporting",
-          "vulnerability assessment"
-        ],
-        "partial": [],
-        "missing": [
-          "go",
-          "iso 27001",
-          "vulnerability disclosure program"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "iso 27001",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Experience with ISO 27001, SOC 2, and customer security assessments is valuable."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "We run, go to the gym, and take care of ourselves."
-        },
-        {
-          "skill": "vulnerability disclosure program",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "You’ve worked with penetration testers or vulnerability disclosure programs and helped teams turn reports into verified fixes."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 15,
-        "experience": 10,
-        "location": 15,
-        "language": 9,
-        "seniority": 4,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Security Engineering.",
-        "Berlin on-site role.",
-        "Evidenced matches include application security, penetration testing, security reporting, vulnerability assessment."
-      ],
-      "warnings": [
-        "Mandatory gaps: iso 27001",
-        "Potential gaps: go, vulnerability disclosure program",
-        "Senior title is above the profile's current 2+ years",
-        "One explicitly mandatory skill is not evidenced"
-      ],
-      "recommendation": "REVIEW - material seniority, language, or skill risk",
-      "description_excerpt": "HELP US CHANGE THE WAY THE WORLD WORKS BUILD SOMETHING THAT MATTERS. Langdock exists to change the way the world works, bridging the gap between what technology can do and what people actually do with it. We bring all leading AI models into one secure, model-agnostic platform and make them usable across entire organizations. Over 10,000 companies use our platform every day, from fast-growing startups to some of Europe's largest enterprises. Their employees open Langdock to draft strategies, analyze documents, or automate workflows - helping them to work smarter, think more creatively, and reach their full potential. ABOUT THE ROLE We’re hiring a hands-on (Senior) Security Engineer to strengthen the security of Langdock’s product, infrastructure, and internal systems. Your primary focus will be application and infrastructure security. You’ll work closely with our CTO and engineering teams to identify risks, assess our defenses, and drive practical improvements. You’ll coordinate penetration tests, triage incoming vulnerability reports, and make sure findings turn into lasting fixes. You should be comfortable getting into technical details, challenging assumptions, and helping engin…"
-    },
-    {
-      "report_number": 3,
       "job_key": "5905ac43fe0eb9144bfd",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -423,7 +294,7 @@
       "description_excerpt": "Who we are Foundation models transformed text and images. Structured data - the largest and most consequential data format in the world - stayed untouched, until now. What LLMs did for language, we're doing for tables. We pioneered tabular foundation models: TabPFN v2 was a Nature cover story, has passed 3.5M+ downloads and 7,500+ GitHub stars, and runs in production from detecting lung disease with Oxford Cancer Analytics to preventing train failures with Hitachi. The hardest problems - millions of rows, real-time inference, entirely new modalities - are still open, and no one else is working on them at this level. We're a small, highly selective team of 40+ with backgrounds from Google, DeepMind, Meta, Apple, Amazon, Jane Street, and CERN, led by Frank Hutter, Noah Hollmann, and Sauraj Gambhir, and advised by Bernhard Schölkopf and Turing Award winner Yann LeCun. In July 2026, less than 18 months after our €9M pre-seed, we joined SAP as an independent frontier AI lab - same team, mission, and open-weights models, now backed by more than €1 billion over four years. The role We're hiring our first dedicated Security Engineer to protect our technology and our customers' data. You'l…"
     },
     {
-      "report_number": 4,
+      "report_number": 3,
       "job_key": "d109d27448fdf0dc0ee1",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -575,7 +446,7 @@
       "description_excerpt": "Camunda is the enterprise platform for agentic orchestration, enabling organizations to coordinate AI agents, people, and systems across complex, end-to-end business processes. With built-in governance, auditability, and human oversight, Camunda gives enterprises the control they need to move AI from pilots to production — safely and at scale. Trusted by over 700 organizations worldwide, including 9 of top 10 US banks, Camunda helps enterprises boost operational efficiency, accelerate time-to-value, and deliver better customer experiences. Fully remote and global, we are in the middle of something bigger: transforming into an AI-first organisation, built on our own platform. We use Agentic AI to automate, orchestrate intelligent processes, and elevate human contribution across every team. Named GP Bullhound’s Top 100 Next Unicorn list, 2025 Great Place to Work certified. Visionary in 2025 Gartner® Magic Quadrant™ for Business Orchestration and Automation Technologies. ranked 3rd in Flexa's 2026 Most Flexible Companies, We’re growing fast and looking for top talent to join our team. If you want meaningful work, visible impact and put something genuinely rare on your CV, keep readin…"
     },
     {
-      "report_number": 5,
+      "report_number": 4,
       "job_key": "855f35dfe9f06890eb91",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -705,7 +576,7 @@
       "description_excerpt": "About the Role at RobCo RobCo is building the category of Autonomous Industrial Robotics and we're doing it fast. We believe that automating the ordinary frees humans to do the extraordinary, and we're building the end-to-end robotics infrastructure to make that possible - hardware, software, and AI in one stack that just works. At RobCo, we automate the ordinary, so humans can do the extraordinary. To achieve this, we are looking for an ambitious Automation, IT Systems & Security Specialist (m/f/d) to help us establish RobCo as leading provider of automation solutions. In this key role, you act as the architect and guardian of our internal IT infrastructure. Your focus is not on maintaining the status quo, but on building a highly secure, automated, and scalable system landscape. You eliminate manual effort through intelligent IT automation and ensure that our network and security architecture keeps pace with our global growth. Your Responsibilities Design and implementation of a secure, cloud-aligned IT and network landscape (e.g. AWS, Zero Trust principles) Ensuring highest standards in Identity & Access Management (IAM), SSO, and secrets management Protection of endpoints and…"
     },
     {
-      "report_number": 6,
+      "report_number": 5,
       "job_key": "565e052ce84fc91a01cc",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -828,7 +699,7 @@
       "description_excerpt": "Clariness is looking for a Senior AI Security Engineer (f/m/d) based Germany, UK, SA, or Serbia. - Full-time; unlimited - About the role: This role is about building, operating and continuously improving Clariness’ security capabilities across applications, cloud infrastructure and AI systems. As our founding-level security hire, you will establish the security engineering function, define its priorities and work directly with engineering teams to embed effective security controls throughout our technology environment. As a Senior AI Security Engineer, you would be responsible for: Defining Clariness’ security engineering strategy and roadmap, and building and operating the security function across application security, cloud security, AI and LLM security, vulnerability management and supporting security tooling. Working directly with engineering teams on secure system design, threat modelling, penetration testing and vulnerability remediation, while embedding appropriate security controls into development processes and CI/CD pipelines. Owning AI security and governance across LLM-powered features, RAG systems and agentic pipelines, including assessing and mitigating risks covered…"
     },
     {
-      "report_number": 7,
+      "report_number": 6,
       "job_key": "1b23d725f32d2f811703",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -956,7 +827,7 @@
       "description_excerpt": "About Wolt At Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we’re building the delivery of (almost) everything and you’ll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe. Working at Wolt isn’t always easy, but it’s definitely exciting. Here you’ll learn more, build more, and ship more than in most other companies. You’ll be challenged a lot, but also have a lot of fun on the way. So, if you’re a self-starter with drive and entrepreneurial spirit, this could be the ride of your life. At Wolt, as a part of Doordash, we’re building the industry’s most scalable and reliable delivery platform to support our three-sided marketplace of consumers, merchants, and courier partners. What makes our team unique: Our global Security team aspires to be the world’s most admired security team, with members across EU, UK and North America (operating as Wolt, Deliveroo and Doordash). We’re shaping our next generation infrastructure that is hardened from the ground up. T…"
     },
     {
-      "report_number": 8,
+      "report_number": 7,
       "job_key": "bd1b3b1bbb48fe52ce64",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1042,7 +913,7 @@
       "description_excerpt": "Your role at Market Cloud Market Cloud delivers IT services and consulting across the European Economic Area, supporting clients with specialized enterprise software expertise. This fixed-term contract role focuses entirely on SAP Concur Module Security, where you will manage, configure, and secure Concur environments for clients on a remote basis. What you will do Configure and maintain SAP Concur security profiles, user roles, and authorization concepts. Collaborate with clients to translate access requirements into secure, functional Concur configurations. Troubleshoot and resolve security-related incidents and audit findings within SAP Concur. Support deployment activities and continuous improvement initiatives for module security enhancements. What we are looking for Proven experience in SAP Concur consulting with a primary focus on module security. Strong understanding of authorization concepts, role design, and access governance within enterprise environments. Ability to communicate technical security requirements clearly to business users and stakeholders. Working with us You will receive 24 vacation days per year across your 40-hour work week on this 12-month contract. Yo…"
     },
     {
-      "report_number": 9,
+      "report_number": 8,
       "job_key": "32c54022816bcac2a151",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1228,7 +1099,7 @@
       "description_excerpt": "About Kestra Kestra is the universal orchestration platform: open source, declarative, and designed to orchestrate data pipelines, IT automation, business workflows, and AI/agentic systems. Trusted by over 10,000 organizations worldwide, including JPMorgan Chase, Bloomberg, FILA, and Crédit Agricole, Kestra orchestrates mission-critical workloads at scale. The open-source project has close to 30,000 GitHub stars, hundreds of contributors, and a fast-growing global community. About the role Kestra runs arbitrary, user-defined code at scale. Our users write workflows that execute scripts, containers, and queries against their own production systems, through hundreds of community-built plugins, on a platform whose entire source code is public. That is an unusually rich attack surface, and securing it is a genuinely hard engineering problem rather than a checklist exercise. You would be our first dedicated security hire. We're looking for a Senior Security Engineer to own and elevate the end-to-end security posture of our platform, infrastructure, and open-source ecosystem. This is a unique, hybrid role for someone who excels at both sides of security: actively breaking systems to fin…"
     },
     {
-      "report_number": 10,
+      "report_number": 9,
       "job_key": "6943ccc7ff70c247e0a3",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1382,7 +1253,7 @@
       "description_excerpt": "Menlo Security is the leader in Browser Security for human and agentic workforces. Our mission is to enable humans and agents to connect, communicate, and collaborate securely, without compromise. The Menlo Browser Security Platform protects organizations from cyberattacks by stopping threats across the web, documents, and email before they reach the user. With Menlo Agent Runtime Security (MARS), that protection now extends to the AI agents working alongside every employee. Menlo Security is trusted by major global businesses, including Fortune 500 companies and government agencies, to protect their most valuable asset, their data, and is backed by top-tier investors. We are looking for a Data & AI / ML Evaluation Engineer to own the data collection, mining, curation and continuous evaluation foundation for our various AI security products. High-quality models require high-quality datasets and ongoing enrichment and retraining. In this role, you will build automated data ingestion pipelines from surrogate web traffic and open sources, manage dataset curation, labeling workflows, model training and operate our benchmark and evaluation harnesses. This is a data and AI / ML software…"
     },
     {
-      "report_number": 11,
+      "report_number": 10,
       "job_key": "4bc13b238d5a17d93580",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1435,10 +1306,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-11-13T15:44:00Z",
-      "posting_age_days": 11,
+      "posting_age_days": 12,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 11,
+        "age_days": 12,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1497,7 +1368,7 @@
       "description_excerpt": "PREVENTION ANALYST - PENTESTING About this role We are looking for a Prevention Analyst - Pentester, to join our Prevention track. An attacker does not look at one server in isolation. They look at everything a company exposes to the internet and work out where to start. You will do the same for our clients, taking the attacker’s view of their external attack surface, seeing what an attacker sees, and doing what an attacker would do next. That means reading the story behind an attack surface. A forgotten subdomain, an old login portal, and a misconfigured mail server may each look minor on their own. Together they can show how an organisation has grown, where its blind spots are, and where someone could get in. When you find a potential weak point, you dig into it technically to find out how far an attacker could actually go. This is not a classic penetration testing role. The deep dive draws on pentest methodology and expertise, but it is not a full pentest, and you will not spend your weeks writing long reports. We focus on finding the high impact vulnerabilities that need attention now and getting them to the client in a form they can act on. This is for someone with hands on p…"
     },
     {
-      "report_number": 12,
+      "report_number": 11,
       "job_key": "2f29ad78138db41e371d",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1596,7 +1467,7 @@
       "description_excerpt": "Responsibilities Support EU cybersecurity compliance for robotic products, including CRA, RED, and applicable cybersecurity standards. Coordinate cybersecurity testing and conformity assessments with external laboratories and certification bodies. Work with R&D teams to assess cybersecurity risks, review test findings, and follow up on corrective actions. Prepare and maintain compliance documentation, risk assessments, and test reports, while tracking relevant regulatory updates. Qualifications Bachelor's degree in Computer Science, Cybersecurity, Electrical Engineering, Automation, or a related field. 2+ years of experience in product cybersecurity, security testing, compliance, or certification. Good understanding of network security, authentication, access control, and common cybersecurity vulnerabilities. Familiarity with embedded systems, IoT devices, or connected products and their security risks. Ability to interpret security test results and independently coordinate issue resolution with R&D teams and external partners. Business-fluent in English and Chinese, both spoken and written Preferred Qualifications Familiarity with EU cybersecurity regulations and standards, such…"
     },
     {
-      "report_number": 13,
+      "report_number": 12,
       "job_key": "729a044bba71f5b2b24a",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1649,10 +1520,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-11-24T09:50:25Z",
-      "posting_age_days": 0,
+      "posting_age_days": 1,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 0,
+        "age_days": 1,
         "category": "new",
         "label": "NEW - APPLY QUICKLY"
       },
@@ -1701,7 +1572,7 @@
       "description_excerpt": "About the opportunity We are seeking an Internal IT Auditor to conduct the full IT audit cycle, ensuring operational effectiveness, reliability, and regulatory compliance across our internal IT environments and critical ICT third-party ecosystems. Our Internal Audit team provides independent assurance over risk and control management, and follows proactive risk mitigation and robust governance to safeguard our digital banking environment. This is a unique opportunity to play a pivotal role in shaping our IT resilience, where you will engage directly with internal architecture teams and critical external vendors to navigate the evolving landscape of digital banking and European financial regulations. In this role, you will: Execute the full audit cycle: Perform comprehensive risk and control management over IT operations to ensure effectiveness, reliability, and adherence to established professional and regulatory standards. Audit critical ICT services & vendors: Lead audits of third-party vendors, outsourced service providers, and cloud infrastructures, evaluating their control environments and how internal processes govern these external services. Analyze data and IT processes: O…"
     },
     {
-      "report_number": 14,
+      "report_number": 13,
       "job_key": "cc78a757c373716678d7",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1862,7 +1733,7 @@
       "description_excerpt": "YGO.ai is a VC-funded AI tourism platform. We are hiring a Cloud Security Engineer to own the security of our cloud platform, the APIs our enterprise clients run on and the company itself. 🛡️ About this role. The role carries two things at once. You own security engineering directly and hands-on. You build the security function around it as we grow. At YGO a pod lead is a squad leader and a spokesperson, close to the work and close to the client, rather than a full-time manager. You will not stop being an engineer. The work is broad. You might review source code in the morning, investigate an endpoint alert after lunch and help design a new authentication flow the next day. You identify the highest-risk problems, decide what happens first and execute. We serve major travel enterprises and we have enterprise commitments going live from the start of 2027. Security is a condition of that business, not a layer added afterwards. 🧑‍💻 What you'll own Application security. Hands-on code and architecture review across our APIs, backend services and internal tooling. Targeted penetration testing to validate issues yourself. Working with engineers on root causes and practical fixes rather th…"
     },
     {
-      "report_number": 15,
+      "report_number": 14,
       "job_key": "b420e12f1f07d8e20c57",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -1916,10 +1787,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-30T13:09:26Z",
-      "posting_age_days": 25,
+      "posting_age_days": 26,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 25,
+        "age_days": 26,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -1985,7 +1856,7 @@
       "description_excerpt": "Why Mozilla? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people. The Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute open-source software that enables people to enjoy the internet on their terms. What you’ll do: Design, build and implement security and hardening features for enterprise users: Design, implement, test, and ship cutting-edge security features that strengthen Firefox’s security posture. Advance Firefox’s s…"
     },
     {
-      "report_number": 16,
+      "report_number": 15,
       "job_key": "3256d24bfeb9b7759cfb",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -2141,7 +2012,7 @@
       "description_excerpt": "The role We’re looking for a new teammate to join us on the journey of keeping HelloFresh a trusted name - someone with a passion for security and appetite for new challenges. Security Engineers work in a variety of ways to constantly iterate and improve HelloFresh’s security posture. This role aims to improve the HelloFresh Security Logging & Monitoring Program by maturing the tools, processes and playbooks to reduce dwell time (indicators of which would be lowered MTTD&R). Above all, we are looking for people who will make HelloFresh better. We believe there are many different ways of developing skills and we love diverse experiences! So even if you don’t “tick all the boxes” but think you’d thrive in this role, we would really like to learn more about you. What you’ll do Responsible for SOC monitoring, use-case building, triage and advisory using cloud-native SIEM platforms Conduct initial triage of security events and incidents and document progress throughout the Incident Response Lifecycle Automate, optimize, automate and operate modern security solutions like EDR/EPPs and conventional Firewalls, IDS/IPS, Email Security, VPN, and MDM tools Leverage premium and open-source th…"
     },
     {
-      "report_number": 17,
+      "report_number": 16,
       "job_key": "521c71dc83dfa3787db3",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -2195,10 +2066,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-16T09:23:08Z",
-      "posting_age_days": 39,
+      "posting_age_days": 40,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 39,
+        "age_days": 40,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -2291,7 +2162,7 @@
       "description_excerpt": "About Staffbase We inspire people to achieve great things together. Our mission is to help organizations unlock the power of inspirational communication with the first AI-native Employee Experience Platform. Our industry-leading and award-winning agentic AI communications channels - intranet, employee app and email solutions - create engaging experiences that connect and empower employees. Headquartered in Chemnitz, Germany and New York City, with offices in Berlin, London, Sydney, Tokyo, Prague, and Minneapolis–St. Paul, our diverse team of 550+ employees supports 1,500+ customers—reaching over 14 million employees—in transforming their employee experience. We are proud to be a Unicorn company—privately valued at over $1 billion—demonstrating strong growth, innovation, and lasting impact in our industry. Together, we’re shaping the future of workplace communication. At Staffbase, security is at the heart of everything we build. Our Product Security team helps keep our products and customer data secure while enabling engineering teams across the company. We believe the best security work happens when people bring their authentic selves and diverse perspectives to the table and we’…"
     },
     {
-      "report_number": 18,
+      "report_number": 17,
       "job_key": "1d8705aa550b912143d8",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -2345,10 +2216,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-02T09:11:35Z",
-      "posting_age_days": 53,
+      "posting_age_days": 54,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 53,
+        "age_days": 54,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -2436,7 +2307,7 @@
       "description_excerpt": "KAYAK, part of Booking Holdings (NASDAQ: BKNG), is a leading travel search engine. With billions of queries across our platforms, we help people find their perfect flight, stay, rental car and vacation package. We're also transforming business travel with a new corporate travel solution, KAYAK for Business. As an employee of KAYAK, you will be part of a travel company that operates a portfolio of global metasearch brands including momondo, Cheapflights and HotelsCombined, among others. From start-up to industry leader, innovation is in our DNA and every employee has an opportunity to make their mark. Our focus is on building the best travel search engine to make it easier for everyone to experience the world. Security at KAYAK is a team effort — we protect the people, systems, and data that power travel for millions of users worldwide, and we do it by working closely with engineering, operations, and product teams. As an Associate Security Engineer, you will help to drive our vulnerability management program while contributing across multiple security domains in a collaborative, globally distributed environment. You can find more information about our security program at https://w…"
     },
     {
-      "report_number": 19,
+      "report_number": 18,
       "job_key": "9ba7cf301be480a6ff9f",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -2446,7 +2317,7 @@
       "score_cap_reasons": [
         "Senior title is above the profile's current 2+ years",
         "One explicitly mandatory skill is not evidenced",
-        "Posting is 74 days old; verify that it is active"
+        "Posting is 75 days old; verify that it is active"
       ],
       "score_label": "REVIEW",
       "title": "Senior Security Engineer (F/M/D)",
@@ -2493,10 +2364,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-09-11T10:13:09Z",
-      "posting_age_days": 74,
+      "posting_age_days": 75,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 74,
+        "age_days": 75,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -2562,13 +2433,13 @@
         "Exposure only; do not claim deep expertise: incident response, network security",
         "Senior title is above the profile's current 2+ years",
         "One explicitly mandatory skill is not evidenced",
-        "Posting is 74 days old; verify that it is active"
+        "Posting is 75 days old; verify that it is active"
       ],
       "recommendation": "REVIEW - material seniority, language, or skill risk",
       "description_excerpt": "THE OPPORTUNITY Join our Global IT Infrastructure team and take ownership of security operations that protect NavVis worldwide. You’ll lead detection and incident response across corporate IT and SaaS environments, working hand-in-hand with Service Delivery, Cloud Infrastructure Engineering, and our Cloud Infrastructure Engineer. This is an hands-on role where you’ll make real impact—investigating threats, driving improvements, and shaping security processes. No ticket forwarding, no passive coordination—just meaningful responsibility and the chance to build a security posture you can be proud of. If you thrive on solving complex problems, love staying ahead of emerging threats, and want to safeguard technology that powers the future of spatial intelligence, we want to hear from you! HOW YOU WILL MAKE AN IMPACT Lead security incident response and drive continuous improvements. Own Microsoft Defender, email security, and phishing protection. Strengthen network security with IT Ops: firewalls, VPNs, segmentation. Manage vulnerability scanning, remediation, and risk reporting. Govern access reviews and enforce least privileges. Run ISO 27001 & SOC 2 audits and coordinate via Vanta. S…"
     },
     {
-      "report_number": 20,
+      "report_number": 19,
       "job_key": "20d0eaa3f9871a4e6032",
       "status": "SEEN_BEFORE",
       "application_status": "NEW",
@@ -2680,6 +2551,135 @@
       ],
       "recommendation": "REVIEW - material seniority, language, or skill risk",
       "description_excerpt": "About Huzzle At Huzzle, we connect talented professionals with exciting career opportunities at leading companies across the UK, US, Canada, Europe, and Australia. Our client network includes growing startups, digital agencies, SaaS businesses, and technology-driven companies across sectors such as MarTech, FinTech, EdTech, and eCommerce. Rather than following the traditional outsourcing model, we place you directly within innovative companies, where you become a valued member of their team. Job Summary We are looking for an experienced and results-driven Business Development Representative (BDR) with a proven background in the cybersecurity industry to join a growing international technology company. In this role, you will be responsible for identifying new business opportunities, engaging key decision-makers, and generating qualified sales meetings through strategic outbound prospecting. The ideal candidate understands the cybersecurity landscape, can confidently communicate technical value propositions, and has experience selling cybersecurity solutions to B2B customers. Previous experience working in cybersecurity sales is a strict requirement for this position. Key Responsibi…"
+    },
+    {
+      "report_number": 20,
+      "job_key": "022b02e42c40ff735dbc",
+      "status": "SEEN_BEFORE",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 72,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "Senior title is above the profile's current 2+ years",
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "score_label": "REVIEW",
+      "title": "(Senior) Security Engineer - m/f/d",
+      "company": "Langdock",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin on-site role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "On-site"
+      },
+      "location_scope": "Berlin",
+      "working_model": "On-site",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer",
+          "security controls",
+          "vulnerability"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://jobs.ashbyhq.com/langdock/8662e63f-63fe-47f1-92c3-a402d3d24486",
+      "apply_url": "https://jobs.ashbyhq.com/langdock/8662e63f-63fe-47f1-92c3-a402d3d24486/application",
+      "canonical_url": "https://jobs.ashbyhq.com/langdock/8662e63f-63fe-47f1-92c3-a402d3d24486",
+      "source": "Ashby",
+      "sources": [
+        "Ashby"
+      ],
+      "ats": "ashby",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-11-18T13:45:47Z",
+      "posting_age_days": 7,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 7,
+        "category": "recent",
+        "label": "RECENT"
+      },
+      "urgency": "RECENT",
+      "first_seen": "2026-10-21T10:26:52Z",
+      "experience_required": null,
+      "german_requirement": "German is preferred/nice-to-have",
+      "skill_matches": {
+        "match": [
+          "application security",
+          "penetration testing",
+          "security reporting",
+          "vulnerability assessment"
+        ],
+        "partial": [],
+        "missing": [
+          "go",
+          "iso 27001",
+          "vulnerability disclosure program"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Experience with ISO 27001, SOC 2, and customer security assessments is valuable."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "go",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "We run, go to the gym, and take care of ourselves."
+        },
+        {
+          "skill": "vulnerability disclosure program",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "You’ve worked with penetration testers or vulnerability disclosure programs and helped teams turn reports into verified fixes."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 15,
+        "experience": 10,
+        "location": 15,
+        "language": 9,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "Berlin on-site role.",
+        "Evidenced matches include application security, penetration testing, security reporting, vulnerability assessment."
+      ],
+      "warnings": [
+        "Mandatory gaps: iso 27001",
+        "Potential gaps: go, vulnerability disclosure program",
+        "Senior title is above the profile's current 2+ years",
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "HELP US CHANGE THE WAY THE WORLD WORKS BUILD SOMETHING THAT MATTERS. Langdock exists to change the way the world works, bridging the gap between what technology can do and what people actually do with it. We bring all leading AI models into one secure, model-agnostic platform and make them usable across entire organizations. Over 10,000 companies use our platform every day, from fast-growing startups to some of Europe's largest enterprises. Their employees open Langdock to draft strategies, analyze documents, or automate workflows - helping them to work smarter, think more creatively, and reach their full potential. ABOUT THE ROLE We’re hiring a hands-on (Senior) Security Engineer to strengthen the security of Langdock’s product, infrastructure, and internal systems. Your primary focus will be application and infrastructure security. You’ll work closely with our CTO and engineering teams to identify risks, assess our defenses, and drive practical improvements. You’ll coordinate penetration tests, triage incoming vulnerability reports, and make sure findings turn into lasting fixes. You should be comfortable getting into technical details, challenging assumptions, and helping engin…"
     },
     {
       "report_number": 21,
@@ -3974,10 +3974,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-19T08:41:49Z",
-      "posting_age_days": 36,
+      "posting_age_days": 37,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 36,
+        "age_days": 37,
         "category": "older",
         "label": "OLDER POSTING - VERIFY ACTIVE"
       },
@@ -4099,10 +4099,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-11-02T18:44:15Z",
-      "posting_age_days": 21,
+      "posting_age_days": 22,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 21,
+        "age_days": 22,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -4244,10 +4244,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-10-30T12:41:53Z",
-      "posting_age_days": 25,
+      "posting_age_days": 26,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 25,
+        "age_days": 26,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -5344,10 +5344,10 @@
       "post_author": "",
       "feed_name": "",
       "published_at": "2026-11-03T08:49:49Z",
-      "posting_age_days": 19,
+      "posting_age_days": 22,
       "posting_age_analysis": {
         "known": true,
-        "age_days": 19,
+        "age_days": 22,
         "category": "current",
         "label": "OPEN FOR REVIEW"
       },
@@ -5536,7 +5536,7 @@
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 2282,
+      "jobs": 2260,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -5544,7 +5544,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 15,
+      "jobs": 16,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -5558,51 +5558,31 @@
       "error": ""
     },
     "greenhouse": {
-      "status": "partial",
+      "status": "ok",
       "ok": true,
-      "jobs": 4557,
-      "requests": 62,
-      "errors": [
-        {
-          "source": "greenhouse",
-          "company": "Postman",
-          "http_status": 404,
-          "exception_type": "RuntimeError",
-          "description": "Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found",
-          "message": "Greenhouse | Postman | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found"
-        }
-      ],
-      "error": "Greenhouse | Postman | RuntimeError | HTTP 404 | Request failed after 1 attempt(s): https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true: HTTP Error 404: Not Found",
-      "companies_checked": 62,
-      "companies_successful": 61,
-      "companies_failed": 1
+      "jobs": 6164,
+      "requests": 68,
+      "errors": [],
+      "error": "",
+      "companies_checked": 68,
+      "companies_successful": 68,
+      "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 250,
-      "requests": 8,
+      "jobs": 260,
+      "requests": 9,
       "errors": [],
       "error": "",
-      "companies_checked": 8,
-      "companies_successful": 8,
+      "companies_checked": 9,
+      "companies_successful": 9,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 188,
-      "requests": 3,
-      "errors": [],
-      "error": "",
-      "companies_checked": 3,
-      "companies_successful": 3,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 155,
+      "jobs": 1014,
       "requests": 4,
       "errors": [],
       "error": "",
@@ -5610,94 +5590,101 @@
       "companies_successful": 4,
       "companies_failed": 0
     },
-    "recruitee": {
-      "status": "idle",
+    "personio": {
+      "status": "ok",
       "ok": true,
-      "jobs": 0,
-      "requests": 0,
+      "jobs": 140,
+      "requests": 3,
       "errors": [],
       "error": "",
-      "companies_checked": 0,
-      "companies_successful": 0,
+      "companies_checked": 3,
+      "companies_successful": 3,
+      "companies_failed": 0
+    },
+    "recruitee": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 6,
+      "requests": 1,
+      "errors": [],
+      "error": "",
+      "companies_checked": 1,
+      "companies_successful": 1,
       "companies_failed": 0
     }
   },
   "all_sources_failed": false,
   "employer_scan": {
     "mode": "daily",
-    "generated_at": "2026-11-24T18:06:07Z",
+    "generated_at": "2026-11-25T17:30:26Z",
     "sources": {
       "greenhouse": {
         "source": "greenhouse",
         "mode": "daily",
-        "batch_index": 1,
+        "batch_index": 2,
         "configured_enabled": 172,
         "priority_configured": 34,
-        "selected": 62,
-        "skipped_by_rotation": 104,
-        "skipped_by_cooldown": 6,
+        "selected": 68,
+        "skipped_by_rotation": 97,
+        "skipped_by_cooldown": 7,
         "rotation_skip_keys": [
           "greenhouse:abnormalsecurity",
           "greenhouse:adahealth",
           "greenhouse:affirm",
           "greenhouse:airbnb",
-          "greenhouse:algolia",
+          "greenhouse:airspace",
+          "greenhouse:airtable",
           "greenhouse:andurilindustries",
-          "greenhouse:anthropic",
-          "greenhouse:bitpanda",
-          "greenhouse:block",
+          "greenhouse:applovin",
+          "greenhouse:bitgo",
           "greenhouse:brex",
-          "greenhouse:bridgebio",
-          "greenhouse:bugcrowd",
           "greenhouse:calm",
           "greenhouse:carta",
-          "greenhouse:chainguard",
-          "greenhouse:charterup",
           "greenhouse:checkr",
           "greenhouse:chime",
+          "greenhouse:circleci",
+          "greenhouse:civicnation",
+          "greenhouse:cloudflare",
+          "greenhouse:cockroachlabs",
           "greenhouse:coinbase",
           "greenhouse:coursera",
           "greenhouse:cribl",
+          "greenhouse:cultureamp",
+          "greenhouse:databricks",
           "greenhouse:datadog",
           "greenhouse:dialpad",
-          "greenhouse:discord",
           "greenhouse:dropbox",
+          "greenhouse:duolingo",
           "greenhouse:elastic",
-          "greenhouse:faire",
+          "greenhouse:epicgames",
           "greenhouse:fastly",
-          "greenhouse:figma",
           "greenhouse:fireblocks",
-          "greenhouse:fivetran",
-          "greenhouse:flatironhealth",
           "greenhouse:flexport",
           "greenhouse:freenow",
-          "greenhouse:gemini",
           "greenhouse:gitlab",
           "greenhouse:gleanwork",
           "greenhouse:grafanalabs",
+          "greenhouse:greenhouse",
           "greenhouse:guardsquare",
+          "greenhouse:gusto",
           "greenhouse:honeycomb",
-          "greenhouse:huntress",
-          "greenhouse:instacart",
+          "greenhouse:imply",
           "greenhouse:instawork",
-          "greenhouse:intercom",
           "greenhouse:isaraerospace",
           "greenhouse:jetbrains",
           "greenhouse:justworks",
           "greenhouse:khanacademy",
+          "greenhouse:klanggames",
           "greenhouse:knowbe4",
+          "greenhouse:lattice",
           "greenhouse:launchdarkly",
-          "greenhouse:locusrobotics",
           "greenhouse:lookoutinc",
-          "greenhouse:lucidsoftware",
           "greenhouse:lyft",
           "greenhouse:mavenclinic",
-          "greenhouse:melio",
           "greenhouse:mercari",
+          "greenhouse:mercury",
           "greenhouse:mixpanel",
-          "greenhouse:mongodb",
           "greenhouse:newrelic",
-          "greenhouse:nuro",
           "greenhouse:okta",
           "greenhouse:orcasecurity",
           "greenhouse:oscar",
@@ -5705,42 +5692,39 @@
           "greenhouse:pandadoc",
           "greenhouse:peloton",
           "greenhouse:pinterest",
+          "greenhouse:planetscale",
           "greenhouse:poshmark",
-          "greenhouse:precisionmedicinegroup",
-          "greenhouse:pulley",
-          "greenhouse:raisin",
-          "greenhouse:recursionpharmaceuticals",
           "greenhouse:reddit",
-          "greenhouse:remotecom",
+          "greenhouse:riotgames",
+          "greenhouse:ripple",
           "greenhouse:robinhood",
           "greenhouse:roblox",
           "greenhouse:salesloft",
-          "greenhouse:samsara",
-          "greenhouse:scaleai",
-          "greenhouse:scopely",
           "greenhouse:seatgeek",
           "greenhouse:singlestore",
           "greenhouse:sixgeninc",
+          "greenhouse:sofi",
           "greenhouse:spacex",
           "greenhouse:squarespace",
-          "greenhouse:stabilityai",
+          "greenhouse:starburst",
           "greenhouse:stockx",
-          "greenhouse:stripe",
+          "greenhouse:stubhubinc",
           "greenhouse:sumologic",
+          "greenhouse:sweetgreen",
           "greenhouse:tailscale",
           "greenhouse:tanium",
           "greenhouse:thirdbridge",
+          "greenhouse:togetherai",
           "greenhouse:twilio",
-          "greenhouse:twitch",
-          "greenhouse:upstart",
           "greenhouse:veeamsoftware",
           "greenhouse:verkada",
           "greenhouse:waymo",
           "greenhouse:webflow",
           "greenhouse:wizinc",
-          "greenhouse:xai",
-          "greenhouse:yugabyte",
-          "greenhouse:zetaglobal"
+          "greenhouse:wolt",
+          "greenhouse:wooga",
+          "greenhouse:zetaglobal",
+          "greenhouse:zoominfo"
         ],
         "cooldown_skip_keys": [
           "greenhouse:clickhouse",
@@ -5748,22 +5732,22 @@
           "greenhouse:amplitude",
           "greenhouse:magicleap",
           "greenhouse:marqeta",
+          "greenhouse:postman",
           "greenhouse:scoutai"
         ]
       },
       "ashby": {
         "source": "ashby",
         "mode": "daily",
-        "batch_index": 1,
+        "batch_index": 2,
         "configured_enabled": 13,
         "priority_configured": 8,
-        "selected": 8,
-        "skipped_by_rotation": 4,
+        "selected": 9,
+        "skipped_by_rotation": 3,
         "skipped_by_cooldown": 1,
         "rotation_skip_keys": [
           "ashby:choco",
           "ashby:enpal",
-          "ashby:langdock",
           "ashby:n8n"
         ],
         "cooldown_skip_keys": [
@@ -5773,46 +5757,45 @@
       "lever": {
         "source": "lever",
         "mode": "daily",
-        "batch_index": 1,
+        "batch_index": 2,
         "configured_enabled": 6,
         "priority_configured": 2,
-        "selected": 3,
-        "skipped_by_rotation": 3,
+        "selected": 4,
+        "skipped_by_rotation": 2,
         "skipped_by_cooldown": 0,
         "rotation_skip_keys": [
-          "lever:olx",
           "lever:saviynt",
-          "lever:veeva"
+          "lever:westernacher"
         ],
         "cooldown_skip_keys": []
       },
       "personio": {
         "source": "personio",
         "mode": "daily",
-        "batch_index": 1,
+        "batch_index": 2,
         "configured_enabled": 7,
         "priority_configured": 3,
-        "selected": 4,
-        "skipped_by_rotation": 3,
+        "selected": 3,
+        "skipped_by_rotation": 4,
         "skipped_by_cooldown": 0,
         "rotation_skip_keys": [
           "personio:dnsnet",
           "personio:liveeo-gmbh",
-          "personio:perseus"
+          "personio:perseus",
+          "personio:syseleven"
         ],
         "cooldown_skip_keys": []
       },
       "recruitee": {
         "source": "recruitee",
         "mode": "daily",
-        "batch_index": 1,
+        "batch_index": 2,
         "configured_enabled": 2,
         "priority_configured": 0,
-        "selected": 0,
-        "skipped_by_rotation": 2,
+        "selected": 1,
+        "skipped_by_rotation": 1,
         "skipped_by_cooldown": 0,
         "rotation_skip_keys": [
-          "recruitee:cygridgmbh",
           "recruitee:dransay"
         ],
         "cooldown_skip_keys": []
@@ -5820,32 +5803,36 @@
     }
   },
   "rejection_summary": {
-    "The vacancy has an explicit location outside Berlin/Germany-remote/Europe-remote/worldwide-remote scope": 72,
-    "Excluded seniority in title: Staff/Principal": 25,
-    "On-site role is not located in Berlin": 17,
+    "The vacancy has an explicit location outside Berlin/Germany-remote/Europe-remote/worldwide-remote scope": 173,
+    "Excluded seniority in title: Staff/Principal": 39,
+    "Excluded seniority in title: Management": 33,
+    "On-site role is not located in Berlin": 18,
     "Advanced/fluent German required": 16,
-    "Excluded seniority in title: Management": 15,
-    "Hybrid role is not located in Berlin": 15,
-    "Germany role is on-site/hybrid outside Berlin; only Germany-remote roles are allowed": 14,
-    "Mandatory experience is too senior: 10+ years": 10,
-    "Excluded seniority in title: Lead/Architect": 9,
-    "Mandatory experience is too senior: 8+ years": 9,
-    "Vacancy text is predominantly German; the radar is limited to English-speaking roles": 8,
-    "Excluded seniority in title: Executive": 7,
-    "German C2 required": 4,
-    "Student/internship-only employment type": 3,
+    "Mandatory experience is too senior: 8+ years": 16,
+    "Germany role is on-site/hybrid outside Berlin; only Germany-remote roles are allowed": 11,
+    "Excluded seniority in title: Lead/Architect": 11,
+    "Mandatory experience is too senior: 10+ years": 11,
+    "Vacancy text is predominantly German; the radar is limited to English-speaking roles": 10,
+    "Excluded seniority in title: Executive": 10,
+    "Hybrid role is not located in Berlin": 5,
+    "Mandatory experience is too senior: 12+ years": 4,
+    "Mandatory experience is too senior: 15+ years": 3,
+    "German C2 required": 3,
+    "Excluded seniority/employment type in title: head of security": 2,
+    "Student/internship-only employment type": 2,
     "German C1 required": 2,
-    "Posting is too old: 425 days (maximum 120)": 2,
+    "Posting is too old: 426 days (maximum 120)": 2,
+    "Remote region is unclear; Germany, Europe/EU/EMEA, or worldwide eligibility is not explicit": 1,
     "Excluded seniority/employment type in title: security intern": 1,
-    "Mandatory experience is too senior: 15+ years": 1,
-    "Mandatory experience is too senior: 12+ years": 1,
-    "Posting is too old: 202 days (maximum 120)": 1,
-    "Posting is too old: 218 days (maximum 120)": 1,
-    "Posting is too old: 378 days (maximum 120)": 1,
-    "Posting is too old: 559 days (maximum 120)": 1,
-    "Posting is too old: 631 days (maximum 120)": 1,
-    "Posting is too old: 795 days (maximum 120)": 1,
-    "Posting is too old: 546 days (maximum 120)": 1,
-    "Posting is too old: 547 days (maximum 120)": 1
+    "Mandatory experience is too senior: 8-15 years": 1,
+    "Mandatory experience is too senior: 8-12 years": 1,
+    "Posting is too old: 203 days (maximum 120)": 1,
+    "Posting is too old: 219 days (maximum 120)": 1,
+    "Posting is too old: 379 days (maximum 120)": 1,
+    "Posting is too old: 560 days (maximum 120)": 1,
+    "Posting is too old: 632 days (maximum 120)": 1,
+    "Posting is too old: 796 days (maximum 120)": 1,
+    "Posting is too old: 547 days (maximum 120)": 1,
+    "Posting is too old: 548 days (maximum 120)": 1
   }
 }
