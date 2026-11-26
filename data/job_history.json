@@ -11329,6 +11329,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-11-26T17:12:22Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 8071,
+      "security_title_candidates": 303,
+      "prefiltered_non_security_jobs": 7768,
+      "unique_jobs_after_deduplication": 227,
+      "duplicates_removed": 76,
+      "jobs_rejected_or_below_threshold": 7984,
+      "relevant_jobs_in_current_run": 11,
+      "new_jobs": 2,
+      "updated_jobs": 0,
+      "strong_matches": 1,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 41,
+      "jobs_by_source": {
+        "arbeitnow": 2200,
+        "remotive": 16,
+        "linkedin_posts": 0,
+        "greenhouse": 5189,
+        "ashby": 324,
+        "lever": 162,
+        "personio": 177,
+        "recruitee": 3
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 21.3,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2200,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 16,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 5189,
+          "requests": 57,
+          "errors": [],
+          "error": "",
+          "companies_checked": 57,
+          "companies_successful": 57,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 324,
+          "requests": 9,
+          "errors": [],
+          "error": "",
+          "companies_checked": 9,
+          "companies_successful": 9,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 162,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 177,
+          "requests": 6,
+          "errors": [],
+          "error": "",
+          "companies_checked": 6,
+          "companies_successful": 6,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 3,
+          "requests": 1,
+          "errors": [],
+          "error": "",
+          "companies_checked": 1,
+          "companies_successful": 1,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -19162,6 +19275,29 @@
       "event": "REMOVED",
       "company": "Getolo",
       "title": "IT Security Engineer (all genders)"
+    },
+    {
+      "at": "2026-11-26T17:12:22Z",
+      "job_key": "426ffd439b99ee250e0f",
+      "event": "NEW",
+      "company": "Fiskaly",
+      "title": "Senior Security Engineer (Application & Platform Security)",
+      "score": 59
+    },
+    {
+      "at": "2026-11-26T17:12:22Z",
+      "job_key": "61bd50c351f4dfeeaeac",
+      "event": "NEW",
+      "company": "n8n",
+      "title": "Sr Security Engineer | Remote | Europe",
+      "score": 66
+    },
+    {
+      "at": "2026-11-26T17:12:22Z",
+      "job_key": "3256d24bfeb9b7759cfb",
+      "event": "REMOVED",
+      "company": "HelloFresh",
+      "title": "Security Engineer, SOC (all genders)"
     }
   ]
 }

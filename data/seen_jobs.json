@@ -208,7 +208,7 @@
   },
   "521c71dc83dfa3787db3": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-11-25T17:30:26Z",
+    "last_seen": "2026-11-26T17:12:22Z",
     "content_hash": "2c040214033ea8916a3acfc5d53099f7b45d4e07ed4a37d2804853d325041e92",
     "status": "SEEN_BEFORE",
     "company": "Staffbase",
@@ -460,7 +460,7 @@
   },
   "9ba7cf301be480a6ff9f": {
     "first_seen": "2026-08-15T04:18:44Z",
-    "last_seen": "2026-11-25T17:30:26Z",
+    "last_seen": "2026-11-26T17:12:22Z",
     "content_hash": "695565afccbc0ea27aed88980573bdd4151d8c3a3fd8cfff9885244f400ab84b",
     "status": "SEEN_BEFORE",
     "company": "NavVis",
@@ -3385,7 +3385,7 @@
   },
   "b420e12f1f07d8e20c57": {
     "first_seen": "2026-08-16T17:17:56Z",
-    "last_seen": "2026-11-25T17:30:26Z",
+    "last_seen": "2026-11-26T17:12:22Z",
     "content_hash": "c1d53540907aed6663126b5ecb81087605b40a04545b613152414e913fa65582",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3772,7 +3772,7 @@
   },
   "240800e330239220c3d1": {
     "first_seen": "2026-09-30T11:17:18Z",
-    "last_seen": "2026-11-25T17:30:26Z",
+    "last_seen": "2026-11-26T17:12:22Z",
     "content_hash": "672bd2297c6ada31659e90387c64a92c5fc9cad62f7620c07ec8b9a0b86dccd4",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3808,7 +3808,7 @@
   },
   "729a044bba71f5b2b24a": {
     "first_seen": "2026-10-01T11:44:36Z",
-    "last_seen": "2026-11-25T17:30:26Z",
+    "last_seen": "2026-11-26T17:12:22Z",
     "content_hash": "4ac2f1d5bd8b8e9b3675f81beb268329c36e95fd551d623de030dabeb30007d4",
     "status": "SEEN_BEFORE",
     "company": "N26",
@@ -3853,7 +3853,7 @@
   },
   "1d8705aa550b912143d8": {
     "first_seen": "2026-10-07T11:55:14Z",
-    "last_seen": "2026-11-25T17:30:26Z",
+    "last_seen": "2026-11-26T17:12:22Z",
     "content_hash": "3aa41d70911562622ed6770353b4e0684fa21f01fd13607cd0cc36fea54351b3",
     "status": "SEEN_BEFORE",
     "company": "KAYAK",
@@ -3909,14 +3909,14 @@
     "first_seen": "2026-10-16T10:02:11Z",
     "last_seen": "2026-10-27T12:33:40Z",
     "content_hash": "16945b5e3d079de067fb296f154a059975423fa18b63963f597dd9e263f15ac6",
-    "status": "SEEN_BEFORE",
+    "status": "REMOVED",
     "company": "HelloFresh",
     "title": "Security Engineer, SOC (all genders)",
     "url": "https://careers.hellofresh.com/global/en/job/8281022?gh_jid=8281022"
   },
   "697670f71dcd9793a00c": {
     "first_seen": "2026-10-16T10:02:11Z",
-    "last_seen": "2026-11-25T17:30:26Z",
+    "last_seen": "2026-11-26T17:12:22Z",
     "content_hash": "20adbe249f6cf83cac6756f8fd8e788adf50f213937c49552518f9419a9d0961",
     "status": "SEEN_BEFORE",
     "company": "Mozilla",
@@ -3952,7 +3952,7 @@
   },
   "f1e7ab2db758d14bd8de": {
     "first_seen": "2026-10-19T11:04:26Z",
-    "last_seen": "2026-11-25T17:30:26Z",
+    "last_seen": "2026-11-26T17:12:22Z",
     "content_hash": "c979e2bf58b0549855a8ca3b24d7f18a2ff1665bd40217a335e7003ef9000fc8",
     "status": "SEEN_BEFORE",
     "company": "Eye Security",
@@ -4141,7 +4141,7 @@
   },
   "4bc13b238d5a17d93580": {
     "first_seen": "2026-11-15T14:26:43Z",
-    "last_seen": "2026-11-25T17:30:26Z",
+    "last_seen": "2026-11-26T17:12:22Z",
     "content_hash": "2cdc14d91c0f03ad1d5ea625918ba8247f28ec3a7df66d101d96a6b9224b9367",
     "status": "SEEN_BEFORE",
     "company": "Eye Security",
@@ -4183,5 +4183,23 @@
     "company": "Agilerobotsse",
     "title": "Product Cybersecurity Compliance Engineer (m/f/d)",
     "url": "https://www.arbeitnow.com/jobs/companies/agilerobotsse/product-cybersecurity-compliance-engineer-munich-bavaria-474592"
+  },
+  "426ffd439b99ee250e0f": {
+    "first_seen": "2026-11-26T17:12:22Z",
+    "last_seen": "2026-11-26T17:12:22Z",
+    "content_hash": "daf595ce229d65eac9250833d355f6eedeae303b7e431e724f21295590096c7d",
+    "status": "NEW",
+    "company": "Fiskaly",
+    "title": "Senior Security Engineer (Application & Platform Security)",
+    "url": "https://www.arbeitnow.com/jobs/companies/fiskaly/senior-security-engineer-application-platform-security-berlin-berlin-209883"
+  },
+  "61bd50c351f4dfeeaeac": {
+    "first_seen": "2026-11-26T17:12:22Z",
+    "last_seen": "2026-11-26T17:12:22Z",
+    "content_hash": "feb35ad2c76d46f11227dbc37e468e6315d9526cecf9b3b0457cee49912d8940",
+    "status": "NEW",
+    "company": "n8n",
+    "title": "Sr Security Engineer | Remote | Europe",
+    "url": "https://jobs.ashbyhq.com/n8n/49e569f0-503e-4e42-a1ba-7e63684e90d3"
   }
 }

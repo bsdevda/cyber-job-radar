@@ -3216,17 +3216,17 @@
     },
     {
       "week_start": "2026-11-23",
-      "generated_at": "2026-11-25T17:30:26Z",
-      "active_relevant_jobs": 12,
+      "generated_at": "2026-11-26T17:12:22Z",
+      "active_relevant_jobs": 11,
       "role_family_counts": {
-        "Security Engineering": 5,
-        "IT Audit / GRC": 3,
-        "Penetration Testing / VAPT": 2,
+        "Security Engineering": 6,
+        "IT Audit / GRC": 2,
         "Product Security": 1,
-        "SOC / Detection and Response": 1
+        "SOC / Detection and Response": 1,
+        "Penetration Testing / VAPT": 1
       },
       "score_bands": {
-        "60-69 review": 7,
+        "60-69 review": 6,
         "50-59 stretch": 3,
         "70-79 good": 1,
         "80-100 strong": 1
@@ -3234,12 +3234,12 @@
       "skill_gaps": {
         "mandatory": [
           {
-            "skill": "iso 27001",
+            "skill": "rust",
             "jobs": 3
           },
           {
-            "skill": "nist",
-            "jobs": 3
+            "skill": "kubernetes",
+            "jobs": 2
           },
           {
             "skill": "edr",
@@ -3250,7 +3250,7 @@
             "jobs": 2
           },
           {
-            "skill": "rust",
+            "skill": "nist",
             "jobs": 2
           },
           {
@@ -3258,53 +3258,61 @@
             "jobs": 2
           },
           {
-            "skill": "aws",
-            "jobs": 2
-          },
-          {
-            "skill": "javascript",
+            "skill": "bsi it-grundschutz",
             "jobs": 1
           },
           {
-            "skill": "go",
+            "skill": "git",
             "jobs": 1
           },
           {
-            "skill": "siem",
+            "skill": "github actions",
             "jobs": 1
           },
           {
-            "skill": "docker",
+            "skill": "infrastructure as code",
             "jobs": 1
           },
           {
-            "skill": "azure",
+            "skill": "terraform",
+            "jobs": 1
+          },
+          {
+            "skill": "iso 27001",
             "jobs": 1
           }
         ],
         "potential": [
           {
             "skill": "rust",
-            "jobs": 4
-          },
-          {
-            "skill": "go",
             "jobs": 3
           },
           {
-            "skill": "detection engineering",
+            "skill": "azure",
             "jobs": 2
           },
           {
-            "skill": "azure",
+            "skill": "iso 27001",
+            "jobs": 2
+          },
+          {
+            "skill": "detection engineering",
             "jobs": 1
           },
           {
-            "skill": "iso 27001",
+            "skill": "go",
             "jobs": 1
           },
           {
             "skill": "edr",
+            "jobs": 1
+          },
+          {
+            "skill": "bug bounty",
+            "jobs": 1
+          },
+          {
+            "skill": "github security",
             "jobs": 1
           },
           {
@@ -3340,23 +3348,19 @@
           {
             "skill": "bug bounty",
             "jobs": 1
-          },
-          {
-            "skill": "active directory",
-            "jobs": 1
           }
         ],
         "partial_exposure": [
           {
             "skill": "incident response",
-            "jobs": 4
+            "jobs": 5
           },
           {
             "skill": "software development",
             "jobs": 4
           },
           {
-            "skill": "aws",
+            "skill": "nist",
             "jobs": 3
           },
           {
@@ -3364,8 +3368,12 @@
             "jobs": 3
           },
           {
-            "skill": "nist",
-            "jobs": 3
+            "skill": "git",
+            "jobs": 2
+          },
+          {
+            "skill": "aws",
+            "jobs": 2
           },
           {
             "skill": "product security",
@@ -3374,6 +3382,10 @@
           {
             "skill": "javascript",
             "jobs": 2
+          },
+          {
+            "skill": "github actions",
+            "jobs": 1
           },
           {
             "skill": "splunk",
@@ -3385,14 +3397,6 @@
           },
           {
             "skill": "ci/cd",
-            "jobs": 1
-          },
-          {
-            "skill": "cloud security",
-            "jobs": 1
-          },
-          {
-            "skill": "docker",
             "jobs": 1
           }
         ]

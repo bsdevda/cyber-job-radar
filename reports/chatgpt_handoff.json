@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T17:30:26Z",
+  "generated_at": "2026-11-26T17:12:22Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,42 +171,42 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-11-25T17:30:26Z",
+    "generated_at": "2026-11-26T17:12:22Z",
     "scoring_version": 2.2,
-    "jobs_collected": 9860,
-    "security_title_candidates": 315,
-    "prefiltered_non_security_jobs": 9545,
-    "unique_jobs_after_deduplication": 245,
-    "duplicates_removed": 70,
-    "jobs_rejected_or_below_threshold": 9778,
-    "relevant_jobs_in_current_run": 12,
-    "new_jobs": 0,
+    "jobs_collected": 8071,
+    "security_title_candidates": 303,
+    "prefiltered_non_security_jobs": 7768,
+    "unique_jobs_after_deduplication": 227,
+    "duplicates_removed": 76,
+    "jobs_rejected_or_below_threshold": 7984,
+    "relevant_jobs_in_current_run": 11,
+    "new_jobs": 2,
     "updated_jobs": 0,
     "strong_matches": 1,
     "sources_checked": 8,
     "sources_failed": 0,
     "sources_partial": 0,
-    "report_jobs": 40,
+    "report_jobs": 41,
     "jobs_by_source": {
-      "arbeitnow": 2260,
+      "arbeitnow": 2200,
       "remotive": 16,
       "linkedin_posts": 0,
-      "greenhouse": 6164,
-      "ashby": 260,
-      "lever": 1014,
-      "personio": 140,
-      "recruitee": 6
+      "greenhouse": 5189,
+      "ashby": 324,
+      "lever": 162,
+      "personio": 177,
+      "recruitee": 3
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 26.6
+    "workflow_duration_seconds": 21.3
   },
   "source_status": {
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 2260,
+      "jobs": 2200,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -230,18 +230,18 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 6164,
-      "requests": 68,
+      "jobs": 5189,
+      "requests": 57,
       "errors": [],
       "error": "",
-      "companies_checked": 68,
-      "companies_successful": 68,
+      "companies_checked": 57,
+      "companies_successful": 57,
       "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 260,
+      "jobs": 324,
       "requests": 9,
       "errors": [],
       "error": "",
@@ -252,18 +252,7 @@
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 1014,
-      "requests": 4,
-      "errors": [],
-      "error": "",
-      "companies_checked": 4,
-      "companies_successful": 4,
-      "companies_failed": 0
-    },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 140,
+      "jobs": 162,
       "requests": 3,
       "errors": [],
       "error": "",
@@ -271,10 +260,21 @@
       "companies_successful": 3,
       "companies_failed": 0
     },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 177,
+      "requests": 6,
+      "errors": [],
+      "error": "",
+      "companies_checked": 6,
+      "companies_successful": 6,
+      "companies_failed": 0
+    },
     "recruitee": {
       "status": "ok",
       "ok": true,
-      "jobs": 6,
+      "jobs": 3,
       "requests": 1,
       "errors": [],
       "error": "",
@@ -1474,6 +1474,278 @@
     },
     {
       "report_number": 7,
+      "job_key": "61bd50c351f4dfeeaeac",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 66,
+      "raw_score": 66,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "Senior title is above the profile's current 2+ years",
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "score_label": "REVIEW",
+      "title": "Sr Security Engineer | Remote | Europe",
+      "company": "n8n",
+      "location": "Germany | Bosnia | Norway | Estonia | Latvia | Slovenia | Netherlands | Hungary | Kosovo | Portugal | Poland | Serbia | Austria | Finland | Montenegro | Albania | Lithuania | Slovakia | Ireland | Bulgaria | Denmark | Belgium | Czech Republic | United Kingdom | Croatia | Spain | Greece",
+      "location_analysis": {
+        "category": "eligible_germany_remote",
+        "eligible": true,
+        "score": 15,
+        "reason": "Remote work from Germany is explicitly available",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Germany remote",
+        "work_model": "Remote"
+      },
+      "location_scope": "Germany remote",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer",
+          "security engineering",
+          "vulnerability"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "sr"
+      },
+      "url": "https://jobs.ashbyhq.com/n8n/49e569f0-503e-4e42-a1ba-7e63684e90d3",
+      "apply_url": "https://jobs.ashbyhq.com/n8n/49e569f0-503e-4e42-a1ba-7e63684e90d3/application",
+      "canonical_url": "https://jobs.ashbyhq.com/n8n/49e569f0-503e-4e42-a1ba-7e63684e90d3",
+      "source": "Ashby",
+      "sources": [
+        "Ashby"
+      ],
+      "ats": "ashby",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-10-13T13:48:21Z",
+      "posting_age_days": 44,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 44,
+        "category": "older",
+        "label": "OLDER POSTING - VERIFY ACTIVE"
+      },
+      "urgency": "OLDER POSTING - VERIFY ACTIVE",
+      "first_seen": "2026-11-26T17:12:22Z",
+      "experience_required": null,
+      "german_requirement": "German requested; level/strictness unclear",
+      "skill_matches": {
+        "match": [
+          "application security",
+          "penetration testing",
+          "security reporting",
+          "stakeholder communication",
+          "threat modeling",
+          "vulnerability assessment",
+          "vulnerability management"
+        ],
+        "partial": [
+          "git",
+          "incident response"
+        ],
+        "missing": [
+          "azure",
+          "bug bounty",
+          "github security",
+          "iso 27001",
+          "kubernetes",
+          "rust",
+          "vulnerability disclosure program"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "- ☁️ Platform Security: You have experience securing a major cloud provider and Kubernetes environments, including areas such as sandboxing, multi-tenancy, or identity."
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "azure",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- 🏢 Corporate IT Tooling: You're familiar with platforms such as Okta, Azure, or Drata and their role in securing corporate systems and supporting compliance."
+        },
+        {
+          "skill": "bug bounty",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories."
+        },
+        {
+          "skill": "github security",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories."
+        },
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- 📋 Security Assurance & Compliance: You've supported SOC 2 or ISO 27001 from an engineering perspective, including implementing technical controls or automating compliance evidence collection."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "You'll join our growing security team at a pivotal stage, acting as a trusted security partner to teams across the business."
+        },
+        {
+          "skill": "vulnerability disclosure program",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories."
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 14,
+        "experience": 10,
+        "location": 15,
+        "language": 4,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "Remote work from Germany is explicitly available.",
+        "Evidenced matches include application security, penetration testing, security reporting, stakeholder communication, threat modeling."
+      ],
+      "warnings": [
+        "German requested; level/strictness unclear",
+        "Mandatory gaps: kubernetes",
+        "Potential gaps: azure, bug bounty, github security, iso 27001, rust, vulnerability disclosure program",
+        "Exposure only; do not claim deep expertise: git, incident response",
+        "Senior title is above the profile's current 2+ years",
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "The AI orchestration of your wildest imagination. n8n is the open workflow orchestration platform built for the new era of AI. We give technical teams the freedom of code with the speed of no-code, so they can automate faster, smarter, and without limits. Backed by a fiercely inventive community and 500+ builder-approved integrations, we’re changing the way people bring systems together and scale ideas for impact. Since our founding in 2019, we’ve grown into a diverse team of over 260 - working across Europe and the US, connected by a shared builder spirit and with our centre of gravity in Berlin. Along the way, we’ve: - Cultivated a community of more than 650,000 active developers and builders - Earned 190K+ GitHub stars, making us one of the world’s Top 40 most popular projects - Backed by top investors, from Sequoia’s first German seed to our SAP's recent strategic investment - bringing us to a $5.2bn valuation That’s the company we’ve built. Now we’d love to see what you can build. If you’re applying, try n8n out - whether you’re technical or not - and share a screenshot of your first workflow with us. The easiest place to start is here: app.n8n.cloud/register http://app.n8n.c…",
+      "full_description": "The AI orchestration of your wildest imagination.\n\nn8n is the open workflow orchestration platform built for the new era of AI. We give technical teams the freedom of code with the speed of no-code, so they can automate faster, smarter, and without limits. Backed by a fiercely inventive community and 500+ builder-approved integrations, we’re changing the way people bring systems together and scale ideas for impact.\n\nSince our founding in 2019, we’ve grown into a diverse team of over 260 - working across Europe and the US, connected by a shared builder spirit and with our centre of gravity in Berlin. Along the way, we’ve:\n\n- Cultivated a community of more than 650,000 active developers and builders\n\n- Earned 190K+ GitHub stars, making us one of the world’s Top 40 most popular projects\n\n- Backed by top investors, from Sequoia’s first German seed to our SAP's recent strategic investment - bringing us to a $5.2bn valuation\n\nThat’s the company we’ve built. Now we’d love to see what you can build. If you’re applying, try n8n out - whether you’re technical or not - and share a screenshot of your first workflow with us. The easiest place to start is here: app.n8n.cloud/register http://app.n8n.cloud/register.\n\nWe’re in a defining moment of an incredible journey. Come and build with us.\n\n🎯 Your main goal will be to identify and reduce security risks across n8n's product and internal systems, using threat modelling, hands-on security expertise, and cross-functional collaboration to help teams design, build, and operate more secure systems.\n\nYou'll join our growing security team at a pivotal stage, acting as a trusted security partner to teams across the business. You'll help us build a move from reactive security management to a proactive, scalable security practice.\n\nHere's what you'll be driving:\n\nTHREAT MODELLING, RISK ASSESSMENT & SECURITY DESIGN\n\n- Conduct threat modelling and risk assessments across product features, AI agents, cloud infrastructure, corporate IT, internal applications, and data systems, identifying vulnerabilities and recommending practical mitigations.\n\n- Partner with Engineering, Cloud, IT, and Data teams to review security designs, define actionable security requirements, and influence the implementation of appropriate controls.\n\n- Help teams embed security into their development processes through secure coding guidance, design reviews, documentation, and security tooling that enables them to identify and address risks independently.\n\nVULNERABILITY MANAGEMENT & COORDINATED DISCLOSURE\n\n- Participate in the security triage rotation, assessing incoming vulnerability reports, validating findings, and prioritising remediation based on severity and business impact.\n\n- Collaborate with engineering teams to coordinate vulnerability remediation, verify fixes, and support secure patch and release processes.\n\n- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories.\n\nSECURITY OPERATIONS & INCIDENT READINESS\n\n- Help establish and improve logging, detection, and protective monitoring capabilities across our infrastructure, corporate systems, and internal applications.\n\n- Develop and improve incident response processes, runbooks, and exercises to strengthen our ability to detect, investigate, and respond to security incidents.\n\n- Work closely with system owners to identify security gaps, prioritise remediation, and verify that implemented controls effectively reduce risk.\n\nCUSTOMER TRUST & COMPLIANCE ENGINEERING\n\n- Support SOC 2 compliance by helping establish continuous control monitoring, automated evidence collection, and processes that make security assurance part of everyday operations.\n\n- Collaborate with Sales, Solutions Engineering, and Customer Success to respond to customer security assessments and build reusable resources that streamline future requests.\n\n- Partner with Legal, Finance, IT, and other stakeholders to assess security risks, improve security policies and controls, and strengthen trust with enterprise customers.\n\nWe're hiring two Security Engineers with complementary strengths, so you don't need to be an expert in every security domain. \n\nREQUIREMENTS\n\nMUST-HAVES\n\n- 🔍 Threat Modelling & Risk Assessment: You have hands-on experience assessing real-world systems, identifying security risks, determining defensible severity levels, and recommending practical controls that teams can implement.\n\n- 🛠️ Technical Security Expertise: You can validate security findings, reproduce vulnerabilities, develop proof-of-concepts, and write code or automation when needed to demonstrate risks or improve security processes.\n\n- 🔐 Security Engineering Experience: You've worked hands-on in infrastructure, product, or application security within a product-focused organisation, with a strong understanding of how modern systems are designed and secured.\n\n- 🤝 Cross-functional Influence: You're comfortable acting as an internal security consultant, advising teams, challenging technical decisions constructively, and influencing stakeholders without direct authority.\n\n- 🎯 Risk Remediation & Ownership: You've helped secure systems you don't directly own, translating security findings into actionable requirements and working with responsible teams to ensure effective remediation.\n\n- 🤖 AI & LLM Fluency: You're comfortable using LLM-assisted tooling and understand its limitations, security implications, and potential failure modes.\n\n- ✍️ Clear Communication: You can explain complex security risks, document technical findings, and provide practical guidance that engineers and non-technical stakeholders can confidently act on.\n\nYou also bring deep expertise in at least two of the following areas:\n\n- 💻 Application Security: You've developed security checks, engineering guardrails, tooling, or guidance that helps product teams build and ship secure software.\n\n- ☁️ Platform Security: You have experience securing a major cloud provider and Kubernetes environments, including areas such as sandboxing, multi-tenancy, or identity.\n\n- 🔑 Corporate Security: You've worked on identity and access management, endpoint security, employee access lifecycles, or data access controls across corporate environments.\n\n- 🚨 Security Monitoring: You've implemented logging, protective monitoring, or security detection capabilities that support effective investigation and incident response.\n\n- 📋 Security Assurance & Compliance: You've supported SOC 2 or ISO 27001 from an engineering perspective, including implementing technical controls or automating compliance evidence collection.\n\nNICE-TO-HAVES\n\n- 🐛 Vulnerability Disclosure: You've helped operate bug bounty or coordinated vulnerability disclosure programmes, including publishing security advisories such as GHSAs or CVEs.\n\n- 🧠 AI & Agent Security: You have experience assessing or securing LLM-powered applications and AI agents, including risks related to permissions, tool access, prompt injection, or sensitive data.\n\n- 🏢 Corporate IT Tooling: You're familiar with platforms such as Okta, Azure, or Drata and their role in securing corporate systems and supporting compliance.\n\n- 🌍 Open-source Ecosystems: You've worked with open-source or source-available products, contributed to security communities, or are already familiar with n8n.\n\n- 🎯 Penetration Testing: You have practical penetration testing experience and can independently identify, demonstrate, and help remediate security vulnerabilities.\n\n- 🌱 Early-stage Security Experience: You've been an early security hire or helped establish security practices in a startup or rapidly scaling organisation.\n\nWhy join us?\n\nAt n8n, you'll help shape security at a defining stage of our growth. We're building a security practice that goes beyond reacting to vulnerabilities, and you'll play a key role in how we identify risks, influence engineering decisions, and establish security practices that scale with the business.\n\nYou'll work across a broad range of challenges, from securing AI-powered product features and our source-available automation platform to improving corporate security, strengthening incident readiness, and making compliance more automated. You'll have direct exposure to teams across the company, the opportunity to influence important technical decisions, and the autonomy to turn your expertise into measurable security improvements.\n\nSound like a challenge you're excited to take on?\n\nApply now — and help us build the future of secure automation.\n\nn8n is an equal opportunity employer and does not discriminate on the basis of race, religion, colour, national origin, gender, sexual orientation, gender identity, age, marital status, veteran status, or disability status.\n\nWe can sponsor visas to Germany; for any other country, you need to have existing right to work.\n\nOur company language is English.\n\nYou care about diversity and inclusion? We do too! Check out our Diversity, Inclusion and Belonging initiatives at n8n https://www.notion.so/Diversity-inclusion-and-belonging-n8n-c1bec2fff536422d868b1a438d990e35?pvs=21 (https://www.notion.so/n8n/Diversity-inclusion-and-belonging-n8n-c1bec2fff536422d868b1a438d990e35).\n\nLocation disclaimer: If you see multiple job postings for the same role, it is most likely because we're hiring remotely for this role and posting in different locations to make sure every potential candidate can see the role. Please apply to the location you're the most likely to work from in the future. \n\nBENEFITS \n\n- Competitive compensation 💸 – We offer fair and attractive pay.\n\n- Ownership 💪 – Our core value is to “empower others,” and we mean it—you’ll get a slice of n8n with equity.\n\n- Work/life balance 🏖️ – We work hard but ensure you have time to recharge:\n\n- Europe: 30 days of vacation, plus public holidays wherever you are.\n\n- US: 20 vacation days, 8 sick days, plus public holidays wherever you are.\n\n- Health & wellness 🩺 –\n\n- Europe: We provide benefits according to local country norms.*\n\n- US: Multiple low-premium, low-deductible medical plans with coverage for individuals and families—plus a no-cost premium HDHP option with a pre-seeded HSA—along with dental and vision coverage.\n\n- Future planning 💰 –\n\n- Europe: We provide pension contributions according to local country norms.*\n\n- US: 401(k) retirement plan with a 4% employer match.\n\n- Financial security 🛡️ –\n\n- Europe: We provide benefits according to local country norms.*\n\n- US: Company-paid short-term and long-term disability insurance, plus life insurance to support you and your loved ones.\n\n- Career growth 📈 – We hire rising stars who grow with us! You’ll get €1K (or equivalent) per year to spend on courses, books, events, or coaching to level up your skills.\n\n- A passionate team 🤩 – We love our product, and we prove it with regular hackathons where we see who can build the coolest thing with it!\n\n- Remote-first 🌏 – Our team works remotely across Europe, with regular off-sites for team bonding. Some roles, like sales in the US, are hybrid—please check the job description.\n\n- Giving back 🤝 – We're big fans of open source, and you'll get $100 per month to support projects you care about.\n\n- Transparency 🙏 – We all know what everyone’s working on, how the company is doing—the whole shebang.\n\n*Country and/or State specific details provided in your employment agreement.",
+      "skill_requirements": [
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "- ☁️ Platform Security: You have experience securing a major cloud provider and Kubernetes environments, including areas such as sandboxing, multi-tenancy, or identity."
+        },
+        {
+          "skill": "penetration testing",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "- 🎯 Penetration Testing: You have practical penetration testing experience and can independently identify, demonstrate, and help remediate security vulnerabilities."
+        },
+        {
+          "skill": "stakeholder communication",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "- ✍️ Clear Communication: You can explain complex security risks, document technical findings, and provide practical guidance that engineers and non-technical stakeholders can confidently act on."
+        },
+        {
+          "skill": "threat modeling",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "- 🔍 Threat Modelling & Risk Assessment: You have hands-on experience assessing real-world systems, identifying security risks, determining defensible severity levels, and recommending practical controls that teams can implement."
+        },
+        {
+          "skill": "application security",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "- 🔐 Security Engineering Experience: You've worked hands-on in infrastructure, product, or application security within a product-focused organisation, with a strong understanding of how modern systems are designed and secured."
+        },
+        {
+          "skill": "azure",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- 🏢 Corporate IT Tooling: You're familiar with platforms such as Okta, Azure, or Drata and their role in securing corporate systems and supporting compliance."
+        },
+        {
+          "skill": "bug bounty",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories."
+        },
+        {
+          "skill": "git",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "- Earned 190K+ GitHub stars, making us one of the world’s Top 40 most popular projects"
+        },
+        {
+          "skill": "github security",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories."
+        },
+        {
+          "skill": "incident response",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "- Develop and improve incident response processes, runbooks, and exercises to strengthen our ability to detect, investigate, and respond to security incidents."
+        },
+        {
+          "skill": "iso 27001",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- 📋 Security Assurance & Compliance: You've supported SOC 2 or ISO 27001 from an engineering perspective, including implementing technical controls or automating compliance evidence collection."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "You'll join our growing security team at a pivotal stage, acting as a trusted security partner to teams across the business."
+        },
+        {
+          "skill": "security reporting",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "- Participate in the security triage rotation, assessing incoming vulnerability reports, validating findings, and prioritising remediation based on severity and business impact."
+        },
+        {
+          "skill": "vulnerability assessment",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "- Collaborate with Sales, Solutions Engineering, and Customer Success to respond to customer security assessments and build reusable resources that streamline future requests."
+        },
+        {
+          "skill": "vulnerability disclosure program",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "- Help manage our vulnerability disclosure and bug bounty programmes, including engagement with security researchers, coordinated disclosures, and GitHub Security Advisories."
+        },
+        {
+          "skill": "vulnerability management",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "VULNERABILITY MANAGEMENT & COORDINATED DISCLOSURE"
+        }
+      ],
+      "german_analysis": {
+        "category": "unspecified",
+        "level": "unspecified",
+        "mandatory": false,
+        "label": "German requested; level/strictness unclear",
+        "evidence": "- Backed by top investors, from Sequoia’s first German seed to our SAP's recent strategic investment - bringing us to a $5.2bn valuation"
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 8,
       "job_key": "bd1b3b1bbb48fe52ce64",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1569,7 +1841,246 @@
       "experience_analysis": null
     },
     {
-      "report_number": 8,
+      "report_number": 9,
+      "job_key": "426ffd439b99ee250e0f",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 59,
+      "raw_score": 65,
+      "score_cap": 59,
+      "score_cap_reasons": [
+        "Multiple explicitly mandatory skills are not evidenced"
+      ],
+      "score_label": "STRETCH",
+      "title": "Senior Security Engineer (Application & Platform Security)",
+      "company": "Fiskaly",
+      "location": "Berlin, Germany",
+      "location_analysis": {
+        "category": "eligible_berlin",
+        "eligible": true,
+        "score": 15,
+        "reason": "Berlin on-site role",
+        "verification_required": false,
+        "score_cap": null,
+        "scope": "Berlin",
+        "work_model": "On-site"
+      },
+      "location_scope": "Berlin",
+      "working_model": "On-site",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer",
+          "security controls"
+        ]
+      },
+      "seniority": {
+        "level": "senior",
+        "label": "Senior",
+        "evidence": "senior"
+      },
+      "url": "https://www.arbeitnow.com/jobs/companies/fiskaly/senior-security-engineer-application-platform-security-berlin-berlin-209883",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/fiskaly/senior-security-engineer-application-platform-security-berlin-berlin-209883",
+      "canonical_url": "https://www.arbeitnow.com/jobs/companies/fiskaly/senior-security-engineer-application-platform-security-berlin-berlin-209883",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-11-25T21:55:31Z",
+      "posting_age_days": 0,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-11-26T17:12:22Z",
+      "experience_required": null,
+      "german_requirement": "German requested; level/strictness unclear",
+      "skill_matches": {
+        "match": [
+          "application security",
+          "penetration testing",
+          "security testing",
+          "threat modeling"
+        ],
+        "partial": [
+          "git",
+          "github actions",
+          "nist"
+        ],
+        "missing": [
+          "bsi it-grundschutz",
+          "infrastructure as code",
+          "kubernetes",
+          "rust",
+          "terraform"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "bsi it-grundschutz",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Regulatory Literacy: Enough familiarity with the German regulatory landscape to sit in a BSI / KassenSichV conversation without owning the programme."
+        },
+        {
+          "skill": "git",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "You have hands-on experience with Kyverno or OPA and with GitHub Actions."
+        },
+        {
+          "skill": "github actions",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "You have hands-on experience with Kyverno or OPA and with GitHub Actions."
+        },
+        {
+          "skill": "infrastructure as code",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Controls Shipped as Code: You have shipped security controls as code (policy, CI checks, IaC guardrails), not only advised on them."
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Cloud & Kubernetes Fluency: You read Terraform/OpenTofu, Kubernetes manifests and Helm without assistance, and you know cloud IAM and Kubernetes security boundaries well enough to write a baseline engineers can actually implement."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "First-Security-Hire Experience: You have been the first or only security person somewhere, ideally in a regulated or otherwise high-trust environment, and you can describe what you deliberately did not do."
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Cloud & Kubernetes Fluency: You read Terraform/OpenTofu, Kubernetes manifests and Helm without assistance, and you know cloud IAM and Kubernetes security boundaries well enough to write a baseline engineers can actually implement."
+        }
+      ],
+      "potential_gaps": [],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 13,
+        "experience": 10,
+        "location": 15,
+        "language": 4,
+        "seniority": 4,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "Berlin on-site role.",
+        "Evidenced matches include application security, penetration testing, security testing, threat modeling."
+      ],
+      "warnings": [
+        "German requested; level/strictness unclear",
+        "Mandatory gaps: bsi it-grundschutz, git, github actions, infrastructure as code, kubernetes, rust",
+        "Exposure only; do not claim deep expertise: git, github actions, nist",
+        "Multiple explicitly mandatory skills are not evidenced"
+      ],
+      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
+      "description_excerpt": "Job Details Location: Warsaw, Berlin or Vienna Stack: Kubernetes, Terraform/OpenTofu, Helm, Kyverno/OPA, GitHub Actions, Cloud IAM Contract: B2B (Poland), Full-Time (Vienna or Berlin) 🚀 Join fiskaly! Help Us Build Trust in Compliance & Security Our squads ship fast, with AI-assisted tooling, on a regulated fiscalization platform that customers trust with their compliance. We want security to keep pace with that speed, not stand in front of it. We are looking for a Senior Security Engineer (Application & Platform Security) to be our founding security engineer in a company of about 150 people. This is a builder's role: you will write the controls that make the secure path the fast path, then prove they work. 💼 The Role As a Senior individual contributor, you will own the secure baseline for cloud, Kubernetes and application delivery, and you will express it as code rather than documents. You will bring threat modelling into squad design reviews, buy and steer external testing, and act as our named security incident commander. You will work closely with Compliance by supplying the technical facts they need, while the regulatory relationship stays with them. You will have read access…",
+      "full_description": "Job Details\n\nLocation: Warsaw, Berlin or Vienna\n\nStack: Kubernetes, Terraform/OpenTofu, Helm, Kyverno/OPA, GitHub Actions, Cloud IAM\n\nContract: B2B (Poland), Full-Time (Vienna or Berlin)\n\n🚀 Join fiskaly! Help Us Build Trust in Compliance & Security\n\nOur squads ship fast, with AI-assisted tooling, on a regulated fiscalization platform that customers trust with their compliance. We want security to keep pace with that speed, not stand in front of it. We are looking for a Senior Security Engineer (Application & Platform Security) to be our founding security engineer in a company of about 150 people. This is a builder's role: you will write the controls that make the secure path the fast path, then prove they work.\n\n💼 The Role\n\nAs a Senior individual contributor, you will own the secure baseline for cloud, Kubernetes and application delivery, and you will express it as code rather than documents. You will bring threat modelling into squad design reviews, buy and steer external testing, and act as our named security incident commander. You will work closely with Compliance by supplying the technical facts they need, while the regulatory relationship stays with them. You will have read access to all repositories and staging environments, with break-glass production access under audit. You will have no direct reports; you will influence through standards, coaching and well-argued written advice.\n\n🛠️ What You’ll Do\n\nSecure Baseline as Code: Define and maintain the secure baseline for cloud, Kubernetes and application delivery as policy-as-code and archetype defaults, so squads inherit the control instead of waiting for a review.\n\nThreat Modelling: Run threat modelling inside squad design reviews for changes that touch data flows, authentication, authorisation or cryptography.\n\nSecurity Assurance: Own assurance end to end: scope external tests, triage findings, drive remediation to a verified fix and run the retest.\n\nIncident Command: Act as named security incident commander. Maintain the severity model and runbook, coordinate response, preserve evidence and supply the facts for Compliance's notification decisions.\n\nAI-Assisted Testing: Operate our AI-assisted security testing programme: run it, score it, tune it, and decide when it is not worth the triage.\n\nChampions & Collaboration: Re-charter and run the security champions guild, and turn recurring squad friction into platform improvements together with Foundational Infrastructure, Observability, Compliance and Delivery.\n\nVendor & Data Review: Review external vendor changes that would put customer data in a new place.\n\nMeasure & Publish: Own the security metrics, including publishing the function's own misses, and measure the friction security adds to delivery.\n\n✨ What You Bring\n\nControls Shipped as Code: You have shipped security controls as code (policy, CI checks, IaC guardrails), not only advised on them. You have hands-on experience with Kyverno or OPA and with GitHub Actions.\n\nApplication Security Depth: Strong grounding in threat modelling, authentication, authorisation, cryptography misuse and injection classes, plus data classification and redaction design.\n\nCloud & Kubernetes Fluency: You read Terraform/OpenTofu, Kubernetes manifests and Helm without assistance, and you know cloud IAM and Kubernetes security boundaries well enough to write a baseline engineers can actually implement.\n\nPentest Ownership as the Client: Practical experience scoping and running penetration tests from the buying side: writing the scope, judging the report and driving remediation.\n\nFirst-Security-Hire Experience: You have been the first or only security person somewhere, ideally in a regulated or otherwise high-trust environment, and you can describe what you deliberately did not do.\n\nRegulatory Literacy: Enough familiarity with the German regulatory landscape to sit in a BSI / KassenSichV conversation without owning the programme.\n\nAI Literacy: You use AI tooling for drafting, triage and policy generation with review discipline, and you can say where it fails. You understand AI-specific attack surface: prompt injection against agents that read code, agent credential scope and model supply chain.\n\nWriting & Influence: You write more than you talk, and prefer a one-page decision note to a 20-slide deck. You bring a proposed control with an adoption plan and a cost, never a mandate. You are comfortable saying \"that is advice, not a veto\", and you build relationships with squad engineers before asking them to change anything.\n\n💡 What We Offer\n\nHigh-Impact Ownership: Administrative authority over cloud landing zones, network devices, bare-metal hosts, and core routing services to shape the foundation of our platform.\n\nA Culture of Engineering Excellence: An environment that values clean topology modeling, resilient routing, and automation over manual configuration.\n\nCross-Functional Collaboration: A highly collaborative setup working alongside Platform Engineering and product squads to deliver secure, foundational capabilities.\n\nStrategic Growth: Opportunities to lead massive infrastructure projects and migrations with high visibility and business impact.\n\nProactive Over Reactive Environment: A focus on scaling architecture and capacity proactively, ensuring the network remains stable without constant firefighting.\n\nFlexibility & Support: Modern tooling, structured operational readiness checks, and a strong culture of autonomy and professional development.\n\n🌍 Why fiskaly? \n\nWe’re not just building tech, we’re shaping the future of digital compliance. At fiskaly, we believe in trust, shared vision, and celebrating success together. If you want to grow your career where security meets innovation, we’d love to hear from you.\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "bsi it-grundschutz",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Regulatory Literacy: Enough familiarity with the German regulatory landscape to sit in a BSI / KassenSichV conversation without owning the programme."
+        },
+        {
+          "skill": "git",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "You have hands-on experience with Kyverno or OPA and with GitHub Actions."
+        },
+        {
+          "skill": "github actions",
+          "profile_status": "partial",
+          "requirement": "mandatory",
+          "evidence": "You have hands-on experience with Kyverno or OPA and with GitHub Actions."
+        },
+        {
+          "skill": "infrastructure as code",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Controls Shipped as Code: You have shipped security controls as code (policy, CI checks, IaC guardrails), not only advised on them."
+        },
+        {
+          "skill": "kubernetes",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Cloud & Kubernetes Fluency: You read Terraform/OpenTofu, Kubernetes manifests and Helm without assistance, and you know cloud IAM and Kubernetes security boundaries well enough to write a baseline engineers can actually implement."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "First-Security-Hire Experience: You have been the first or only security person somewhere, ideally in a regulated or otherwise high-trust environment, and you can describe what you deliberately did not do."
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Cloud & Kubernetes Fluency: You read Terraform/OpenTofu, Kubernetes manifests and Helm without assistance, and you know cloud IAM and Kubernetes security boundaries well enough to write a baseline engineers can actually implement."
+        },
+        {
+          "skill": "application security",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Application Security Depth: Strong grounding in threat modelling, authentication, authorisation, cryptography misuse and injection classes, plus data classification and redaction design."
+        },
+        {
+          "skill": "nist",
+          "profile_status": "partial",
+          "requirement": "mentioned",
+          "evidence": "High-Impact Ownership: Administrative authority over cloud landing zones, network devices, bare-metal hosts, and core routing services to shape the foundation of our platform."
+        },
+        {
+          "skill": "penetration testing",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "Pentest Ownership as the Client: Practical experience scoping and running penetration tests from the buying side: writing the scope, judging the report and driving remediation."
+        },
+        {
+          "skill": "security testing",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "AI-Assisted Testing: Operate our AI-assisted security testing programme: run it, score it, tune it, and decide when it is not worth the triage."
+        },
+        {
+          "skill": "threat modeling",
+          "profile_status": "match",
+          "requirement": "mentioned",
+          "evidence": "You will bring threat modelling into squad design reviews, buy and steer external testing, and act as our named security incident commander."
+        }
+      ],
+      "german_analysis": {
+        "category": "unspecified",
+        "level": "unspecified",
+        "mandatory": false,
+        "label": "German requested; level/strictness unclear",
+        "evidence": "Regulatory Literacy: Enough familiarity with the German regulatory landscape to sit in a BSI / KassenSichV conversation without owning the programme."
+      },
+      "experience_analysis": null
+    },
+    {
+      "report_number": 10,
       "job_key": "32c54022816bcac2a151",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1890,369 +2401,6 @@
         "display": "5+ years",
         "evidence": "5+ years of experience in Security Engineering, Product Security, DevSecOps, or a combined Offensive/Defensive role."
       }
-    },
-    {
-      "report_number": 9,
-      "job_key": "6943ccc7ff70c247e0a3",
-      "status": "UPDATED",
-      "application_status": "NEW",
-      "score": 59,
-      "raw_score": 77,
-      "score_cap": 59,
-      "score_cap_reasons": [
-        "Multiple explicitly mandatory skills are not evidenced"
-      ],
-      "score_label": "STRETCH",
-      "title": "AI Security Engineer",
-      "company": "Menlosecurity",
-      "location": "EMEA - U.K.",
-      "location_analysis": {
-        "category": "eligible_europe_remote",
-        "eligible": true,
-        "score": 13,
-        "reason": "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
-        "verification_required": true,
-        "score_cap": 89,
-        "scope": "Europe remote",
-        "work_model": "Remote"
-      },
-      "location_scope": "Europe remote",
-      "working_model": "Remote",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "security engineer"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/menlosecurity/ai-security-engineer-bracknell-300427",
-      "apply_url": "https://www.arbeitnow.co.uk/jobs/companies/menlosecurity/ai-security-engineer-bracknell-300427",
-      "canonical_url": "https://www.arbeitnow.co.uk/jobs/companies/menlosecurity/ai-security-engineer-bracknell-300427",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-10-30T21:40:22Z",
-      "posting_age_days": 2,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 2,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-11-01T13:56:58Z",
-      "experience_required": "2-4 years",
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "python"
-        ],
-        "partial": [
-          "aws",
-          "docker",
-          "software development"
-        ],
-        "missing": [
-          "dlp",
-          "kubernetes",
-          "rust",
-          "terraform"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with AWS, GCP, Terraform, Kubernetes, and Linux."
-        },
-        {
-          "skill": "docker",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Basic experience with cloud storage, object stores, and basic containerization (Docker)."
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Experience with AWS, GCP, Terraform, Kubernetes, and Linux."
-        },
-        {
-          "skill": "software development",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "2–4 years of experience in software engineering, data engineering, or automated QA/evaluation roles."
-        },
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Experience with AWS, GCP, Terraform, Kubernetes, and Linux."
-        }
-      ],
-      "potential_gaps": [
-        {
-          "skill": "dlp",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Understanding of cybersecurity concepts (Prompt Injection, Malicious Macros, DLP/PII)."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Menlo Security is trusted by major global businesses, including Fortune 500 companies and government agencies, to protect their most valuable asset, their data, and is backed by top-tier investors."
-        }
-      ],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 10,
-        "experience": 15,
-        "location": 13,
-        "language": 10,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Security Engineering.",
-        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country.",
-        "Evidenced matches include python.",
-        "The detected experience requirement is within or close to the 2+ year profile."
-      ],
-      "warnings": [
-        "Europe/EU/EMEA remote eligibility detected; verify Germany is an employing country",
-        "Mandatory gaps: aws, docker, kubernetes, software development, terraform",
-        "Potential gaps: dlp, rust",
-        "Exposure only; do not claim deep expertise: aws, docker, software development",
-        "Multiple explicitly mandatory skills are not evidenced"
-      ],
-      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "Menlo Security is the leader in Browser Security for human and agentic workforces. Our mission is to enable humans and agents to connect, communicate, and collaborate securely, without compromise. The Menlo Browser Security Platform protects organizations from cyberattacks by stopping threats across the web, documents, and email before they reach the user. With Menlo Agent Runtime Security (MARS), that protection now extends to the AI agents working alongside every employee. Menlo Security is trusted by major global businesses, including Fortune 500 companies and government agencies, to protect their most valuable asset, their data, and is backed by top-tier investors. We are looking for a Data & AI / ML Evaluation Engineer to own the data collection, mining, curation and continuous evaluation foundation for our various AI security products. High-quality models require high-quality datasets and ongoing enrichment and retraining. In this role, you will build automated data ingestion pipelines from surrogate web traffic and open sources, manage dataset curation, labeling workflows, model training and operate our benchmark and evaluation harnesses. This is a data and AI / ML software…",
-      "full_description": "Menlo Security is the leader in Browser Security for human and agentic workforces. Our mission is to enable humans and agents to connect, communicate, and collaborate securely, without compromise. The Menlo Browser Security Platform protects organizations from cyberattacks by stopping threats across the web, documents, and email before they reach the user. With Menlo Agent Runtime Security (MARS), that protection now extends to the AI agents working alongside every employee. Menlo Security is trusted by major global businesses, including Fortune 500 companies and government agencies, to protect their most valuable asset, their data, and is backed by top-tier investors.\n\nWe are looking for a Data & AI / ML Evaluation Engineer to own the data collection, mining, curation and continuous evaluation foundation for our various AI security products. High-quality models require high-quality datasets and ongoing enrichment and retraining. In this role, you will build automated data ingestion pipelines from surrogate web traffic and open sources, manage dataset curation, labeling workflows, model training and operate our benchmark and evaluation harnesses. This is a data and AI / ML software engineering role focused on building the data infrastructure that trains our proprietary Prompt Injection SLMs, Shadow-AI detection models, Malicious Macro classifiers, PII, Content Classification engines and more. \n\nOutcomes & KPIs Key Outcome(s) Owned: \n\nAutomated, continuous generation and curation of training, evaluation, and false-positive (FP) datasets across web, file, and macro threat surfaces. \n\nStandardized, reproducible evaluation benchmarks that guide model improvements before deployment. \n\nAutomated data pipeline uptime and ingestion throughput from web/file sources. \n\nSize, diversity, and labeling accuracy of threat dataset repositories (PI, Shadow-AI, PII, Macros). \n\nMean time to ingest live false-positive/false-negative feedback into training evaluation loops.\n\nAccuracy and benchmark coverage across historical vs. newly trained SLMs. \n\nWhat You'll Do \n\nDesign and operate automated data collection, mining, and web-scraping pipelines to gather threat samples from surrogate traffic and web sources.\n\nBuild data processing, annotation, and dataset curation workflows, training and re-training various models, e.g. Prompt Injection (PI) SLMs, Shadow-AI detection models, Malicious Macro classifiers, and PII detection. \n\nBuild mechanisms to capture false-positive (FP) samples from live user/DDR flows and represent / integrate them into model retraining pipelines. \n\nDevelop automated benchmarking and evaluation harnesses to continuously test model detection quality, runtime performance, and accuracy against baseline models (e.g., Vertex AI). \n\nBuild automated pipelines for model training for various models. \n\nWork closely with research and software engineering teams to turn raw detection telemetry into ongoing actionable model improvements.\n\nRequired: \n\n2–4 years of experience in software engineering, data engineering, or automated QA/evaluation roles. \n\nStrong programming proficiency in Python. Adv: C++, SQL. \n\nExperience in model training and various ML, AI algorithms. \n\nExperience building data pipelines, web scrapers, or automated data processing systems. \n\nFamiliarity with data structures, storage formats, and database configurations. \n\nMethodical approach to dataset labeling, validation, bug logging, and metric tracking. \n\nPreferred / Nice to Have: \n\nHands-on experience with ML evaluation frameworks, dataset curation, or annotation tools.\n\nFamiliarity with text extraction, NLP preprocessing, or document parsing techniques.\n\nUnderstanding of cybersecurity concepts (Prompt Injection, Malicious Macros, DLP/PII). \n\nBasic experience with cloud storage, object stores, and basic containerization (Docker). \n\nExperience with AWS, GCP, Terraform, Kubernetes, and Linux.\n\nFollow us on LinkedIn!\n\nWhy Menlo?\n\nAt Menlo, we don't settle for the status quo — in our technology or our culture. How we think and act is just as important as what we build. Our culture is defined by five core mindsets: Proactive Leadership, Straight Talk, United Impact, Elevated Talent, and Customer-Compelled. We take ownership and drive outcomes without waiting to be told. We communicate directly and seek hard truths. We break down silos and win together. We hold a high bar for ourselves and the people around us. And we treat every customer interaction as mission-critical. If you're someone who sees it, owns it, solves it, and does it — you'll thrive here.\n\nAll qualified applicants will receive consideration for employment without regard to race, sex, color, religion, sexual orientation, gender identity, national origin, protected veteran status, or on the basis of disability.\n\nTO ALL AGENCIES: Please, no phone calls or emails to any employee of Menlo Security outside of the Talent organization. Menlo Security’s policy is to only accept resumes from agencies via Ashby (ATS). Agencies must have a valid services agreement executed and must have been assigned by the Talent team to a specific requisition. Any resume submitted outside of this process will be deemed the sole property of Menlo Security. In the event a candidate submitted outside of this policy is hired, no fee or payment will be paid.\n\nFind Jobs in United Kingdom on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "aws",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Experience with AWS, GCP, Terraform, Kubernetes, and Linux."
-        },
-        {
-          "skill": "docker",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "Basic experience with cloud storage, object stores, and basic containerization (Docker)."
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Experience with AWS, GCP, Terraform, Kubernetes, and Linux."
-        },
-        {
-          "skill": "python",
-          "profile_status": "match",
-          "requirement": "mandatory",
-          "evidence": "Strong programming proficiency in Python."
-        },
-        {
-          "skill": "software development",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "2–4 years of experience in software engineering, data engineering, or automated QA/evaluation roles."
-        },
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Experience with AWS, GCP, Terraform, Kubernetes, and Linux."
-        },
-        {
-          "skill": "dlp",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Understanding of cybersecurity concepts (Prompt Injection, Malicious Macros, DLP/PII)."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "Menlo Security is trusted by major global businesses, including Fortune 500 companies and government agencies, to protect their most valuable asset, their data, and is backed by top-tier investors."
-        }
-      ],
-      "german_analysis": {
-        "category": "none",
-        "level": "none",
-        "mandatory": false,
-        "label": "No German requirement detected",
-        "evidence": ""
-      },
-      "experience_analysis": {
-        "min_years": 2,
-        "max_years": 4,
-        "optional": false,
-        "display": "2-4 years",
-        "evidence": "2–4 years of experience in software engineering, data engineering, or automated QA/evaluation roles."
-      }
-    },
-    {
-      "report_number": 10,
-      "job_key": "4bc13b238d5a17d93580",
-      "status": "SEEN_BEFORE",
-      "application_status": "NEW",
-      "score": 82,
-      "raw_score": 82,
-      "score_cap": null,
-      "score_cap_reasons": [],
-      "score_label": "STRONG",
-      "title": "Prevention Analyst - Pentesting",
-      "company": "Eye Security",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin hybrid role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "Hybrid"
-      },
-      "location_scope": "Berlin",
-      "working_model": "Hybrid",
-      "role_family": {
-        "id": "penetration_testing",
-        "label": "Penetration Testing / VAPT",
-        "priority": 1,
-        "confidence": "high",
-        "evidence": [
-          "pentest",
-          "penetration test",
-          "offensive security"
-        ]
-      },
-      "seniority": {
-        "level": "mid_unspecified",
-        "label": "Mid-level or unspecified",
-        "evidence": "No explicit seniority marker in title"
-      },
-      "url": "https://jobs.ashbyhq.com/eye-security/20cd9c92-38b5-4694-aec4-fc8b4f01d40b",
-      "apply_url": "https://jobs.ashbyhq.com/eye-security/20cd9c92-38b5-4694-aec4-fc8b4f01d40b/application",
-      "canonical_url": "https://jobs.ashbyhq.com/eye-security/20cd9c92-38b5-4694-aec4-fc8b4f01d40b",
-      "source": "Ashby",
-      "sources": [
-        "Ashby"
-      ],
-      "ats": "ashby",
-      "priority_employer": true,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-11-13T15:44:00Z",
-      "posting_age_days": 12,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 12,
-        "category": "current",
-        "label": "OPEN FOR REVIEW"
-      },
-      "urgency": "OPEN FOR REVIEW",
-      "first_seen": "2026-11-15T14:26:43Z",
-      "experience_required": null,
-      "german_requirement": "No German requirement detected",
-      "skill_matches": {
-        "match": [
-          "penetration testing"
-        ],
-        "partial": [],
-        "missing": [
-          "go"
-        ],
-        "nice_to_have": [
-          "bug bounty (missing)"
-        ]
-      },
-      "mandatory_gaps": [],
-      "potential_gaps": [
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "When you find a potential weak point, you dig into it technically to find out how far an attacker could actually go."
-        }
-      ],
-      "optional_gaps": [
-        {
-          "skill": "bug bounty",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "- A proven bug bounty track record or other real world offensive security experience."
-        }
-      ],
-      "score_breakdown": {
-        "role_alignment": 20,
-        "skills": 14,
-        "experience": 10,
-        "location": 15,
-        "language": 10,
-        "seniority": 10,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Penetration Testing / VAPT.",
-        "Berlin hybrid role.",
-        "Evidenced matches include penetration testing."
-      ],
-      "warnings": [
-        "Potential gaps: go",
-        "Optional gaps: bug bounty"
-      ],
-      "recommendation": "APPLY - strong evidence-based match",
-      "description_excerpt": "PREVENTION ANALYST - PENTESTING About this role We are looking for a Prevention Analyst - Pentester, to join our Prevention track. An attacker does not look at one server in isolation. They look at everything a company exposes to the internet and work out where to start. You will do the same for our clients, taking the attacker’s view of their external attack surface, seeing what an attacker sees, and doing what an attacker would do next. That means reading the story behind an attack surface. A forgotten subdomain, an old login portal, and a misconfigured mail server may each look minor on their own. Together they can show how an organisation has grown, where its blind spots are, and where someone could get in. When you find a potential weak point, you dig into it technically to find out how far an attacker could actually go. This is not a classic penetration testing role. The deep dive draws on pentest methodology and expertise, but it is not a full pentest, and you will not spend your weeks writing long reports. We focus on finding the high impact vulnerabilities that need attention now and getting them to the client in a form they can act on. This is for someone with hands on p…",
-      "full_description": "PREVENTION ANALYST - PENTESTING\n\nAbout this role\n\nWe are looking for a Prevention Analyst - Pentester, to join our Prevention track. An attacker does not look at one server in isolation. They look at everything a company exposes to the internet and work out where to start. You will do the same for our clients, taking the attacker’s view of their external attack surface, seeing what an attacker sees, and doing what an attacker would do next.\n\nThat means reading the story behind an attack surface. A forgotten subdomain, an old login portal, and a misconfigured mail server may each look minor on their own. Together they can show how an organisation has grown, where its blind spots are, and where someone could get in. When you find a potential weak point, you dig into it technically to find out how far an attacker could actually go.\n\nThis is not a classic penetration testing role. The deep dive draws on pentest methodology and expertise, but it is not a full pentest, and you will not spend your weeks writing long reports. We focus on finding the high impact vulnerabilities that need attention now and getting them to the client in a form they can act on.\n\nThis is for someone with hands on pentesting experience who wants to work across many customer environments, sharpen their attacker mindset, and grow into owning complex prevention engagements end to end. \n\nWhat you will do\n\n- Assess clients’ external attack surface as a whole, from the attacker’s perspective.\n\n- Identify gaps and weaknesses across the surface, not just within a single asset, and work out how they connect.\n\n- Run technical deep dives into potential weak points to establish how far an attacker could get in practice.\n\n- Separate what needs fixing now from what does not, and focus on high and critical findings with immediate impact.\n\n- Turn technical findings into short, clear advice that clients can understand and act on.\n\n- Share what you learn with the team and actively pick up what others know. We work on problems together.\n\n- Contribute to improving our approach, sharing ideas that make assessments faster, clearer, and more useful for clients.\n\nWhat you will need\n\n- Hands on penetration testing experience and a solid grasp of pentest methodology, particularly for external infrastructure and web applications.\n\n- The ability to think like an attacker, to look at a set of exposed assets and see where you would start and why.\n\n- Good judgement about real world impact, so you can tell an interesting finding from an urgent one.\n\n- The ability to explain technical findings to non technical readers, briefly and without losing accuracy.\n\n- A collaborative way of working and a genuine interest in learning and growing with colleagues, not working as a solo player.\n\n- Comfortable working across multiple client environments in parallel.\n\n- Fluent English.\n\nNice-to-have\n\n- Certifications such as OSCP, BSCP, or CPTS.\n\n- A proven bug bounty track record or other real world offensive security experience.\n\n- Experience working with SMEs or mid market customers on security topics.\n\nWhat we offer \n\n- A meaningful mission, protecting organisations across Europe from real world cyber threats.\n\n- Work with top tier professionals from national CERTs, intelligence agencies, and leading tech backgrounds.\n\n- A remote friendly culture with quarterly meetups and annual company retreats, for example in Spain, Portugal, or Italy.\n\n- Thursday socials to stay connected.\n\n- A generous time off policy, including wellbeing and volunteering days.\n\nAbout Eye Security\n\nEye Security is providing cybersecurity with embedded cyber insurance solutions for organisations across Europe. Headquartered in the Netherlands, we are already over 190 FTEs and continue to grow internationally, having secured our Series C funding of 60 million.\n\nWe combine cutting edge technology with hands on expertise to detect, respond to, and recover from cyber threats in real time. Our team brings together talent from intelligence, military, tech, and consulting backgrounds, all united by a shared mission, to make enterprise grade cybersecurity accessible to every business, not just the big players.\n\nAt Eye, you will work on projects with an international footprint, solving real world challenges and helping to build a safer digital future for our clients.\n\nWe are an equal opportunity employer. We are committed to making our hiring process accessible to everyone. If you need a reasonable accommodation to apply or interview for this role, please inform the TA team.",
-      "skill_requirements": [
-        {
-          "skill": "go",
-          "profile_status": "missing",
-          "requirement": "mentioned",
-          "evidence": "When you find a potential weak point, you dig into it technically to find out how far an attacker could actually go."
-        },
-        {
-          "skill": "penetration testing",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "PREVENTION ANALYST - PENTESTING"
-        },
-        {
-          "skill": "bug bounty",
-          "profile_status": "missing",
-          "requirement": "optional",
-          "evidence": "- A proven bug bounty track record or other real world offensive security experience."
-        }
-      ],
-      "german_analysis": {
-        "category": "none",
-        "level": "none",
-        "mandatory": false,
-        "label": "No German requirement detected",
-        "evidence": ""
-      },
-      "experience_analysis": null
     }
   ],
   "analysis_request": {
