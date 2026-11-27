@@ -3216,7 +3216,7 @@
     },
     {
       "week_start": "2026-11-23",
-      "generated_at": "2026-11-26T17:12:22Z",
+      "generated_at": "2026-11-27T16:54:05Z",
       "active_relevant_jobs": 11,
       "role_family_counts": {
         "Security Engineering": 6,
@@ -3238,7 +3238,7 @@
             "jobs": 3
           },
           {
-            "skill": "kubernetes",
+            "skill": "terraform",
             "jobs": 2
           },
           {
@@ -3274,7 +3274,7 @@
             "jobs": 1
           },
           {
-            "skill": "terraform",
+            "skill": "kubernetes",
             "jobs": 1
           },
           {
@@ -3288,12 +3288,20 @@
             "jobs": 3
           },
           {
-            "skill": "azure",
+            "skill": "edr",
             "jobs": 2
           },
           {
+            "skill": "gdpr",
+            "jobs": 1
+          },
+          {
+            "skill": "azure",
+            "jobs": 1
+          },
+          {
             "skill": "iso 27001",
-            "jobs": 2
+            "jobs": 1
           },
           {
             "skill": "detection engineering",
@@ -3301,22 +3309,6 @@
           },
           {
             "skill": "go",
-            "jobs": 1
-          },
-          {
-            "skill": "edr",
-            "jobs": 1
-          },
-          {
-            "skill": "bug bounty",
-            "jobs": 1
-          },
-          {
-            "skill": "github security",
-            "jobs": 1
-          },
-          {
-            "skill": "vulnerability disclosure program",
             "jobs": 1
           }
         ],
@@ -3353,7 +3345,7 @@
         "partial_exposure": [
           {
             "skill": "incident response",
-            "jobs": 5
+            "jobs": 4
           },
           {
             "skill": "software development",
@@ -3368,10 +3360,6 @@
             "jobs": 3
           },
           {
-            "skill": "git",
-            "jobs": 2
-          },
-          {
             "skill": "aws",
             "jobs": 2
           },
@@ -3382,6 +3370,10 @@
           {
             "skill": "javascript",
             "jobs": 2
+          },
+          {
+            "skill": "git",
+            "jobs": 1
           },
           {
             "skill": "github actions",

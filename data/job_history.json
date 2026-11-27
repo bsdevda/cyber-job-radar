@@ -11442,6 +11442,119 @@
           "companies_failed": 0
         }
       }
+    },
+    {
+      "generated_at": "2026-11-27T16:54:05Z",
+      "scoring_version": 2.2,
+      "jobs_collected": 8627,
+      "security_title_candidates": 269,
+      "prefiltered_non_security_jobs": 8358,
+      "unique_jobs_after_deduplication": 203,
+      "duplicates_removed": 66,
+      "jobs_rejected_or_below_threshold": 8550,
+      "relevant_jobs_in_current_run": 11,
+      "new_jobs": 1,
+      "updated_jobs": 0,
+      "strong_matches": 1,
+      "sources_checked": 8,
+      "sources_failed": 0,
+      "sources_partial": 0,
+      "report_jobs": 41,
+      "jobs_by_source": {
+        "arbeitnow": 2107,
+        "remotive": 17,
+        "linkedin_posts": 0,
+        "greenhouse": 6010,
+        "ashby": 251,
+        "lever": 94,
+        "personio": 148,
+        "recruitee": 0
+      },
+      "employer_mode": "daily",
+      "quality_review_schema_version": 1,
+      "stored_jobs_excluded_by_current_policy": 360,
+      "workflow_duration_seconds": 21.4,
+      "source_status": {
+        "arbeitnow": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 2107,
+          "requests": 8,
+          "errors": [],
+          "error": ""
+        },
+        "remotive": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 17,
+          "requests": 1,
+          "errors": [],
+          "error": ""
+        },
+        "linkedin_posts": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 0,
+          "requests": 6,
+          "errors": [],
+          "error": ""
+        },
+        "greenhouse": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 6010,
+          "requests": 59,
+          "errors": [],
+          "error": "",
+          "companies_checked": 59,
+          "companies_successful": 59,
+          "companies_failed": 0
+        },
+        "ashby": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 251,
+          "requests": 8,
+          "errors": [],
+          "error": "",
+          "companies_checked": 8,
+          "companies_successful": 8,
+          "companies_failed": 0
+        },
+        "lever": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 94,
+          "requests": 2,
+          "errors": [],
+          "error": "",
+          "companies_checked": 2,
+          "companies_successful": 2,
+          "companies_failed": 0
+        },
+        "personio": {
+          "status": "ok",
+          "ok": true,
+          "jobs": 148,
+          "requests": 3,
+          "errors": [],
+          "error": "",
+          "companies_checked": 3,
+          "companies_successful": 3,
+          "companies_failed": 0
+        },
+        "recruitee": {
+          "status": "idle",
+          "ok": true,
+          "jobs": 0,
+          "requests": 0,
+          "errors": [],
+          "error": "",
+          "companies_checked": 0,
+          "companies_successful": 0,
+          "companies_failed": 0
+        }
+      }
     }
   ],
   "events": [
@@ -19298,6 +19411,21 @@
       "event": "REMOVED",
       "company": "HelloFresh",
       "title": "Security Engineer, SOC (all genders)"
+    },
+    {
+      "at": "2026-11-27T16:54:05Z",
+      "job_key": "2bdb63fd55a8fd190ab4",
+      "event": "NEW",
+      "company": "Kraken",
+      "title": "Security Engineer II",
+      "score": 69
+    },
+    {
+      "at": "2026-11-27T16:54:05Z",
+      "job_key": "cc78a757c373716678d7",
+      "event": "REMOVED",
+      "company": "Ygo",
+      "title": "Cloud Security Engineer"
     }
   ]
 }

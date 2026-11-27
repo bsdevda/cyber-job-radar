@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T17:12:22Z",
+  "generated_at": "2026-11-27T16:54:05Z",
   "purpose": "Single-file private handoff for final human/ChatGPT vacancy analysis.",
   "privacy": "Contains sanitized professional evidence only; no CV, email, phone, photo, address or identity documents.",
   "candidate_profile": {
@@ -171,16 +171,16 @@
     "honesty_note": "Match means clearly evidenced professional capability. Partial means transferable experience, familiarity or limited project exposure. Missing means the supplied CV/profile does not support the claim."
   },
   "radar_summary": {
-    "generated_at": "2026-11-26T17:12:22Z",
+    "generated_at": "2026-11-27T16:54:05Z",
     "scoring_version": 2.2,
-    "jobs_collected": 8071,
-    "security_title_candidates": 303,
-    "prefiltered_non_security_jobs": 7768,
-    "unique_jobs_after_deduplication": 227,
-    "duplicates_removed": 76,
-    "jobs_rejected_or_below_threshold": 7984,
+    "jobs_collected": 8627,
+    "security_title_candidates": 269,
+    "prefiltered_non_security_jobs": 8358,
+    "unique_jobs_after_deduplication": 203,
+    "duplicates_removed": 66,
+    "jobs_rejected_or_below_threshold": 8550,
     "relevant_jobs_in_current_run": 11,
-    "new_jobs": 2,
+    "new_jobs": 1,
     "updated_jobs": 0,
     "strong_matches": 1,
     "sources_checked": 8,
@@ -188,25 +188,25 @@
     "sources_partial": 0,
     "report_jobs": 41,
     "jobs_by_source": {
-      "arbeitnow": 2200,
-      "remotive": 16,
+      "arbeitnow": 2107,
+      "remotive": 17,
       "linkedin_posts": 0,
-      "greenhouse": 5189,
-      "ashby": 324,
-      "lever": 162,
-      "personio": 177,
-      "recruitee": 3
+      "greenhouse": 6010,
+      "ashby": 251,
+      "lever": 94,
+      "personio": 148,
+      "recruitee": 0
     },
     "employer_mode": "daily",
     "quality_review_schema_version": 1,
     "stored_jobs_excluded_by_current_policy": 360,
-    "workflow_duration_seconds": 21.3
+    "workflow_duration_seconds": 21.4
   },
   "source_status": {
     "arbeitnow": {
       "status": "ok",
       "ok": true,
-      "jobs": 2200,
+      "jobs": 2107,
       "requests": 8,
       "errors": [],
       "error": ""
@@ -214,7 +214,7 @@
     "remotive": {
       "status": "ok",
       "ok": true,
-      "jobs": 16,
+      "jobs": 17,
       "requests": 1,
       "errors": [],
       "error": ""
@@ -230,29 +230,40 @@
     "greenhouse": {
       "status": "ok",
       "ok": true,
-      "jobs": 5189,
-      "requests": 57,
+      "jobs": 6010,
+      "requests": 59,
       "errors": [],
       "error": "",
-      "companies_checked": 57,
-      "companies_successful": 57,
+      "companies_checked": 59,
+      "companies_successful": 59,
       "companies_failed": 0
     },
     "ashby": {
       "status": "ok",
       "ok": true,
-      "jobs": 324,
-      "requests": 9,
+      "jobs": 251,
+      "requests": 8,
       "errors": [],
       "error": "",
-      "companies_checked": 9,
-      "companies_successful": 9,
+      "companies_checked": 8,
+      "companies_successful": 8,
       "companies_failed": 0
     },
     "lever": {
       "status": "ok",
       "ok": true,
-      "jobs": 162,
+      "jobs": 94,
+      "requests": 2,
+      "errors": [],
+      "error": "",
+      "companies_checked": 2,
+      "companies_successful": 2,
+      "companies_failed": 0
+    },
+    "personio": {
+      "status": "ok",
+      "ok": true,
+      "jobs": 148,
       "requests": 3,
       "errors": [],
       "error": "",
@@ -260,32 +271,229 @@
       "companies_successful": 3,
       "companies_failed": 0
     },
-    "personio": {
-      "status": "ok",
-      "ok": true,
-      "jobs": 177,
-      "requests": 6,
-      "errors": [],
-      "error": "",
-      "companies_checked": 6,
-      "companies_successful": 6,
-      "companies_failed": 0
-    },
     "recruitee": {
-      "status": "ok",
+      "status": "idle",
       "ok": true,
-      "jobs": 3,
-      "requests": 1,
+      "jobs": 0,
+      "requests": 0,
       "errors": [],
       "error": "",
-      "companies_checked": 1,
-      "companies_successful": 1,
+      "companies_checked": 0,
+      "companies_successful": 0,
       "companies_failed": 0
     }
   },
   "jobs": [
     {
       "report_number": 1,
+      "job_key": "2bdb63fd55a8fd190ab4",
+      "status": "NEW",
+      "application_status": "NEW",
+      "score": 69,
+      "raw_score": 80,
+      "score_cap": 69,
+      "score_cap_reasons": [
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "score_label": "REVIEW",
+      "title": "Security Engineer II",
+      "company": "Kraken",
+      "location": "Remote",
+      "location_analysis": {
+        "category": "eligible_worldwide_remote",
+        "eligible": true,
+        "score": 11,
+        "reason": "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
+        "verification_required": true,
+        "score_cap": 89,
+        "scope": "Worldwide remote",
+        "work_model": "Remote"
+      },
+      "location_scope": "Worldwide remote",
+      "working_model": "Remote",
+      "role_family": {
+        "id": "security_engineering",
+        "label": "Security Engineering",
+        "priority": 2,
+        "confidence": "high",
+        "evidence": [
+          "security engineer",
+          "vulnerability",
+          "security architecture"
+        ]
+      },
+      "seniority": {
+        "level": "mid_unspecified",
+        "label": "Mid-level or unspecified",
+        "evidence": "No explicit seniority marker in title"
+      },
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/kraken/remote-security-engineer-ii-482316",
+      "apply_url": "https://www.arbeitnow.co.uk/jobs/companies/kraken/remote-security-engineer-ii-482316",
+      "canonical_url": "https://www.arbeitnow.co.uk/jobs/companies/kraken/remote-security-engineer-ii-482316",
+      "source": "Arbeitnow",
+      "sources": [
+        "Arbeitnow"
+      ],
+      "ats": "",
+      "priority_employer": false,
+      "lead_type": "",
+      "post_author": "",
+      "feed_name": "",
+      "published_at": "2026-11-27T03:43:06Z",
+      "posting_age_days": 0,
+      "posting_age_analysis": {
+        "known": true,
+        "age_days": 0,
+        "category": "new",
+        "label": "NEW - APPLY QUICKLY"
+      },
+      "urgency": "NEW - APPLY QUICKLY",
+      "first_seen": "2026-11-27T16:54:05Z",
+      "experience_required": "2+ years",
+      "german_requirement": "No German requirement detected",
+      "skill_matches": {
+        "match": [
+          "application security",
+          "dast",
+          "python",
+          "sast",
+          "security testing"
+        ],
+        "partial": [],
+        "missing": [
+          "edr",
+          "gdpr",
+          "rust",
+          "terraform"
+        ],
+        "nice_to_have": []
+      },
+      "mandatory_gaps": [
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Experience with Python and Terraform (or another similar language)"
+        }
+      ],
+      "potential_gaps": [
+        {
+          "skill": "edr",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Build, manage, and improve enterprise security tooling, such as Okta, Crowdstrike, and Zscaler focusing on GitOps and automation"
+        },
+        {
+          "skill": "gdpr",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "These policies explain how we handle your data and outline your rights under applicable laws, including, but not limited to, the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA)."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Familiar with zero trust access principles and implementation"
+        }
+      ],
+      "optional_gaps": [],
+      "score_breakdown": {
+        "role_alignment": 16,
+        "skills": 15,
+        "experience": 15,
+        "location": 11,
+        "language": 10,
+        "seniority": 10,
+        "education": 3
+      },
+      "match_reasons": [
+        "Role family: Security Engineering.",
+        "Worldwide/anywhere remote eligibility detected; verify employment from Germany.",
+        "Evidenced matches include application security, dast, python, sast, security testing.",
+        "The detected experience requirement is within or close to the 2+ year profile."
+      ],
+      "warnings": [
+        "Worldwide/anywhere remote eligibility detected; verify employment from Germany",
+        "Mandatory gaps: terraform",
+        "Potential gaps: edr, gdpr, rust",
+        "One explicitly mandatory skill is not evidenced"
+      ],
+      "recommendation": "REVIEW - material seniority, language, or skill risk",
+      "description_excerpt": "Help us use technology to make a big green dent in the universe! Kraken powers some of the most innovative global developments in energy. We create the technology that redefines utilities and unlocks a new energy system of the future. By optimising renewable generation, building a more intelligent grid, and empowering utilities to deliver an exceptional customer experience, our operating system is transforming the industry worldwide. It’s an incredibly exciting time to work in energy. Join us on our mission to improve the lives of ONE BILLION humans within the decade and shape a cleaner, better future for everyone. Kraken Customer What we do: build the most AI-driven, innovative, forward-thinking platform for energy management. From optimizing resources to delivering cost-effective, exceptional customer experiences through advanced Customer Information Systems (CIS), billing, meter data management, CRM, and AI-driven communications, Kraken is powering the next wave of innovation in the energy industry. We're an innovative and customer-focussed company, helping to drag the utilities industry into the 21st century. Why we do it: future energy will not look like energy as we know it…",
+      "full_description": "Help us use technology to make a big green dent in the universe!\n\nKraken powers some of the most innovative global developments in energy.\n\nWe create the technology that redefines utilities and unlocks a new energy system of the future. By optimising renewable generation, building a more intelligent grid, and empowering utilities to deliver an exceptional customer experience, our operating system is transforming the industry worldwide.\n\nIt’s an incredibly exciting time to work in energy. Join us on our mission to improve the lives of ONE BILLION humans within the decade and shape a cleaner, better future for everyone.\n\nKraken Customer\n\nWhat we do: build the most AI-driven, innovative, forward-thinking platform for energy management. From optimizing resources to delivering cost-effective, exceptional customer experiences through advanced Customer Information Systems (CIS), billing, meter data management, CRM, and AI-driven communications, Kraken is powering the next wave of innovation in the energy industry. We're an innovative and customer-focussed company, helping to drag the utilities industry into the 21st century.\n\nWhy we do it: future energy will not look like energy as we know it today. We need to not just think about our future, but build for it. Now.\n\nWe are seeking an experienced Security Engineer II that will become a member of a growing Security Team in Kraken Technologies. You’ll play a crucial role in helping to secure our organisation by building and managing our security tooling, integrating security best practices, and shaping a culture of security. This is a creative, and collaborative position that is a full-time member of a dynamic engineering organisation. If you’re passionate about Cloud technologies and driving security by design, we encourage you to apply!\n\nSpecifically, we're looking for a Security Engineer II with at least 2 years of relevant experience to help us improve security across Kraken Technologies.\n\n🚀 What you’ll own\n\nYou will be supporting the following activities:\n\nBuild security services and engineer security guardrails for cloud-native environments and AI\n\nSupport security operations and help improve incident processes (not on an on-call rota)\n\nBuild, manage, and improve enterprise security tooling, such as Okta, Crowdstrike, and Zscaler focusing on GitOps and automation\n\nWork with the wider TechOps (IT support team), Platform, and application teams to constantly harden our infrastructure, systems, and applications are secure\n\nKeep up to date with the latest security architecture and technologies and assess how they could benefit the company\n\nDevelop and maintain security documentation related to security tooling, including technical documentation and guides.\n\n🧠 What you’ll bring to the party\n\nLeadership skills and the ability to get things done\n\nInformation security and engineering background\n\nFamiliarity with managing enterprise security tools at-scale with a GitOps focus\n\nExperience with security tools and technologies, such as web application firewalls (WAFs), static and dynamic application security testing (SAST/DAST) tools, and vulnerability scanners\n\nStrong analytical and problem-solving skills, with the ability to identify and mitigate security risks\n\n⭐️ Bonus points\n\nExperience with Python and Terraform (or another similar language)\n\nPrevious experience with managing enterprise security tools\n\nFamiliar with zero trust access principles and implementation\n\nSecurity certifications (any of the famous abbreviations)\n\nCertifications from Cloud and platform providers’ certification paths\n\nSecurity qualifications (e.g. apprenticeships or degrees)\n\nEngineering qualifications\n\nAre you ready for a career with us? We want to ensure you have the right tools and environment to unleash your potential. If you have any accommodation requests, please contact us at ----- We’ll do our best to tailor the experience to your needs so you can feel comfortable, confident and be at your best!\n\nStudies have shown that some groups of people, like women, are less likely to apply to a role unless they meet 100% of the job requirements. Whoever you are, if you like one of our jobs, we encourage you to apply as you might just be the candidate we’re looking for! At Kraken, we're creating a team of genuine, honest, empathetic people. Our people are our strongest asset and the unique skills and perspectives people bring to the team are the driving force of our success. As an equal opportunity employer, we do not discriminate on the basis of any protected attribute. We consider all applicants without regard to race, colour, religion, national origin, age, sex, gender identity or expression, sexual orientation, marital or veteran status, disability, or any other legally protected status.\n\n*Our (i) Applicant and Candidate Privacy Notice and Artificial Intelligence (AI) Notice, (ii) Website Privacy Notice and (iii) Cookie Notice govern the collection and use of your personal data in connection with your application and use of our website. These policies explain how we handle your data and outline your rights under applicable laws, including, but not limited to, the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA). Depending on your location, you may have the right to access, correct, or delete your information, object to processing, or withdraw consent. By applying, you acknowledge that you’ve read, understood and consent to these terms\n\nPlease note that, in line with our current recruitment policy, we are unable to offer visa sponsorship for this position; applicants must have the right to work in the country that they're applying to, at the time of application.*\n\nFind more English Speaking Jobs in United Kingdom on Arbeitnow",
+      "skill_requirements": [
+        {
+          "skill": "application security",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "Experience with security tools and technologies, such as web application firewalls (WAFs), static and dynamic application security testing (SAST/DAST) tools, and vulnerability scanners"
+        },
+        {
+          "skill": "dast",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "Experience with security tools and technologies, such as web application firewalls (WAFs), static and dynamic application security testing (SAST/DAST) tools, and vulnerability scanners"
+        },
+        {
+          "skill": "python",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "Experience with Python and Terraform (or another similar language)"
+        },
+        {
+          "skill": "sast",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "Experience with security tools and technologies, such as web application firewalls (WAFs), static and dynamic application security testing (SAST/DAST) tools, and vulnerability scanners"
+        },
+        {
+          "skill": "security testing",
+          "profile_status": "match",
+          "requirement": "mandatory",
+          "evidence": "Experience with security tools and technologies, such as web application firewalls (WAFs), static and dynamic application security testing (SAST/DAST) tools, and vulnerability scanners"
+        },
+        {
+          "skill": "terraform",
+          "profile_status": "missing",
+          "requirement": "mandatory",
+          "evidence": "Experience with Python and Terraform (or another similar language)"
+        },
+        {
+          "skill": "edr",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Build, manage, and improve enterprise security tooling, such as Okta, Crowdstrike, and Zscaler focusing on GitOps and automation"
+        },
+        {
+          "skill": "gdpr",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "These policies explain how we handle your data and outline your rights under applicable laws, including, but not limited to, the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA)."
+        },
+        {
+          "skill": "rust",
+          "profile_status": "missing",
+          "requirement": "mentioned",
+          "evidence": "Familiar with zero trust access principles and implementation"
+        }
+      ],
+      "german_analysis": {
+        "category": "none",
+        "level": "none",
+        "mandatory": false,
+        "label": "No German requirement detected",
+        "evidence": ""
+      },
+      "experience_analysis": {
+        "min_years": 2,
+        "max_years": null,
+        "optional": false,
+        "display": "2+ years",
+        "evidence": "Specifically, we're looking for a Security Engineer II with at least 2 years of relevant experience to help us improve security across Kraken Technologies."
+      }
+    },
+    {
+      "report_number": 2,
       "job_key": "97e10fb205544ff97e76",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -443,7 +651,7 @@
       }
     },
     {
-      "report_number": 2,
+      "report_number": 3,
       "job_key": "5905ac43fe0eb9144bfd",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -644,7 +852,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 3,
+      "report_number": 4,
       "job_key": "d109d27448fdf0dc0ee1",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -915,7 +1123,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 4,
+      "report_number": 5,
       "job_key": "855f35dfe9f06890eb91",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1092,7 +1300,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 5,
+      "report_number": 6,
       "job_key": "565e052ce84fc91a01cc",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1298,7 +1506,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 6,
+      "report_number": 7,
       "job_key": "1b23d725f32d2f811703",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1473,7 +1681,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 7,
+      "report_number": 8,
       "job_key": "61bd50c351f4dfeeaeac",
       "status": "NEW",
       "application_status": "NEW",
@@ -1745,7 +1953,7 @@
       "experience_analysis": null
     },
     {
-      "report_number": 8,
+      "report_number": 9,
       "job_key": "bd1b3b1bbb48fe52ce64",
       "status": "UPDATED",
       "application_status": "NEW",
@@ -1837,245 +2045,6 @@
         "mandatory": false,
         "label": "No German requirement detected",
         "evidence": ""
-      },
-      "experience_analysis": null
-    },
-    {
-      "report_number": 9,
-      "job_key": "426ffd439b99ee250e0f",
-      "status": "NEW",
-      "application_status": "NEW",
-      "score": 59,
-      "raw_score": 65,
-      "score_cap": 59,
-      "score_cap_reasons": [
-        "Multiple explicitly mandatory skills are not evidenced"
-      ],
-      "score_label": "STRETCH",
-      "title": "Senior Security Engineer (Application & Platform Security)",
-      "company": "Fiskaly",
-      "location": "Berlin, Germany",
-      "location_analysis": {
-        "category": "eligible_berlin",
-        "eligible": true,
-        "score": 15,
-        "reason": "Berlin on-site role",
-        "verification_required": false,
-        "score_cap": null,
-        "scope": "Berlin",
-        "work_model": "On-site"
-      },
-      "location_scope": "Berlin",
-      "working_model": "On-site",
-      "role_family": {
-        "id": "security_engineering",
-        "label": "Security Engineering",
-        "priority": 2,
-        "confidence": "high",
-        "evidence": [
-          "security engineer",
-          "security controls"
-        ]
-      },
-      "seniority": {
-        "level": "senior",
-        "label": "Senior",
-        "evidence": "senior"
-      },
-      "url": "https://www.arbeitnow.com/jobs/companies/fiskaly/senior-security-engineer-application-platform-security-berlin-berlin-209883",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/fiskaly/senior-security-engineer-application-platform-security-berlin-berlin-209883",
-      "canonical_url": "https://www.arbeitnow.com/jobs/companies/fiskaly/senior-security-engineer-application-platform-security-berlin-berlin-209883",
-      "source": "Arbeitnow",
-      "sources": [
-        "Arbeitnow"
-      ],
-      "ats": "",
-      "priority_employer": false,
-      "lead_type": "",
-      "post_author": "",
-      "feed_name": "",
-      "published_at": "2026-11-25T21:55:31Z",
-      "posting_age_days": 0,
-      "posting_age_analysis": {
-        "known": true,
-        "age_days": 0,
-        "category": "new",
-        "label": "NEW - APPLY QUICKLY"
-      },
-      "urgency": "NEW - APPLY QUICKLY",
-      "first_seen": "2026-11-26T17:12:22Z",
-      "experience_required": null,
-      "german_requirement": "German requested; level/strictness unclear",
-      "skill_matches": {
-        "match": [
-          "application security",
-          "penetration testing",
-          "security testing",
-          "threat modeling"
-        ],
-        "partial": [
-          "git",
-          "github actions",
-          "nist"
-        ],
-        "missing": [
-          "bsi it-grundschutz",
-          "infrastructure as code",
-          "kubernetes",
-          "rust",
-          "terraform"
-        ],
-        "nice_to_have": []
-      },
-      "mandatory_gaps": [
-        {
-          "skill": "bsi it-grundschutz",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Regulatory Literacy: Enough familiarity with the German regulatory landscape to sit in a BSI / KassenSichV conversation without owning the programme."
-        },
-        {
-          "skill": "git",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "You have hands-on experience with Kyverno or OPA and with GitHub Actions."
-        },
-        {
-          "skill": "github actions",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "You have hands-on experience with Kyverno or OPA and with GitHub Actions."
-        },
-        {
-          "skill": "infrastructure as code",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Controls Shipped as Code: You have shipped security controls as code (policy, CI checks, IaC guardrails), not only advised on them."
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Cloud & Kubernetes Fluency: You read Terraform/OpenTofu, Kubernetes manifests and Helm without assistance, and you know cloud IAM and Kubernetes security boundaries well enough to write a baseline engineers can actually implement."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "First-Security-Hire Experience: You have been the first or only security person somewhere, ideally in a regulated or otherwise high-trust environment, and you can describe what you deliberately did not do."
-        },
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Cloud & Kubernetes Fluency: You read Terraform/OpenTofu, Kubernetes manifests and Helm without assistance, and you know cloud IAM and Kubernetes security boundaries well enough to write a baseline engineers can actually implement."
-        }
-      ],
-      "potential_gaps": [],
-      "optional_gaps": [],
-      "score_breakdown": {
-        "role_alignment": 16,
-        "skills": 13,
-        "experience": 10,
-        "location": 15,
-        "language": 4,
-        "seniority": 4,
-        "education": 3
-      },
-      "match_reasons": [
-        "Role family: Security Engineering.",
-        "Berlin on-site role.",
-        "Evidenced matches include application security, penetration testing, security testing, threat modeling."
-      ],
-      "warnings": [
-        "German requested; level/strictness unclear",
-        "Mandatory gaps: bsi it-grundschutz, git, github actions, infrastructure as code, kubernetes, rust",
-        "Exposure only; do not claim deep expertise: git, github actions, nist",
-        "Multiple explicitly mandatory skills are not evidenced"
-      ],
-      "recommendation": "STRETCH - apply only after manually resolving the flagged risks",
-      "description_excerpt": "Job Details Location: Warsaw, Berlin or Vienna Stack: Kubernetes, Terraform/OpenTofu, Helm, Kyverno/OPA, GitHub Actions, Cloud IAM Contract: B2B (Poland), Full-Time (Vienna or Berlin) 🚀 Join fiskaly! Help Us Build Trust in Compliance & Security Our squads ship fast, with AI-assisted tooling, on a regulated fiscalization platform that customers trust with their compliance. We want security to keep pace with that speed, not stand in front of it. We are looking for a Senior Security Engineer (Application & Platform Security) to be our founding security engineer in a company of about 150 people. This is a builder's role: you will write the controls that make the secure path the fast path, then prove they work. 💼 The Role As a Senior individual contributor, you will own the secure baseline for cloud, Kubernetes and application delivery, and you will express it as code rather than documents. You will bring threat modelling into squad design reviews, buy and steer external testing, and act as our named security incident commander. You will work closely with Compliance by supplying the technical facts they need, while the regulatory relationship stays with them. You will have read access…",
-      "full_description": "Job Details\n\nLocation: Warsaw, Berlin or Vienna\n\nStack: Kubernetes, Terraform/OpenTofu, Helm, Kyverno/OPA, GitHub Actions, Cloud IAM\n\nContract: B2B (Poland), Full-Time (Vienna or Berlin)\n\n🚀 Join fiskaly! Help Us Build Trust in Compliance & Security\n\nOur squads ship fast, with AI-assisted tooling, on a regulated fiscalization platform that customers trust with their compliance. We want security to keep pace with that speed, not stand in front of it. We are looking for a Senior Security Engineer (Application & Platform Security) to be our founding security engineer in a company of about 150 people. This is a builder's role: you will write the controls that make the secure path the fast path, then prove they work.\n\n💼 The Role\n\nAs a Senior individual contributor, you will own the secure baseline for cloud, Kubernetes and application delivery, and you will express it as code rather than documents. You will bring threat modelling into squad design reviews, buy and steer external testing, and act as our named security incident commander. You will work closely with Compliance by supplying the technical facts they need, while the regulatory relationship stays with them. You will have read access to all repositories and staging environments, with break-glass production access under audit. You will have no direct reports; you will influence through standards, coaching and well-argued written advice.\n\n🛠️ What You’ll Do\n\nSecure Baseline as Code: Define and maintain the secure baseline for cloud, Kubernetes and application delivery as policy-as-code and archetype defaults, so squads inherit the control instead of waiting for a review.\n\nThreat Modelling: Run threat modelling inside squad design reviews for changes that touch data flows, authentication, authorisation or cryptography.\n\nSecurity Assurance: Own assurance end to end: scope external tests, triage findings, drive remediation to a verified fix and run the retest.\n\nIncident Command: Act as named security incident commander. Maintain the severity model and runbook, coordinate response, preserve evidence and supply the facts for Compliance's notification decisions.\n\nAI-Assisted Testing: Operate our AI-assisted security testing programme: run it, score it, tune it, and decide when it is not worth the triage.\n\nChampions & Collaboration: Re-charter and run the security champions guild, and turn recurring squad friction into platform improvements together with Foundational Infrastructure, Observability, Compliance and Delivery.\n\nVendor & Data Review: Review external vendor changes that would put customer data in a new place.\n\nMeasure & Publish: Own the security metrics, including publishing the function's own misses, and measure the friction security adds to delivery.\n\n✨ What You Bring\n\nControls Shipped as Code: You have shipped security controls as code (policy, CI checks, IaC guardrails), not only advised on them. You have hands-on experience with Kyverno or OPA and with GitHub Actions.\n\nApplication Security Depth: Strong grounding in threat modelling, authentication, authorisation, cryptography misuse and injection classes, plus data classification and redaction design.\n\nCloud & Kubernetes Fluency: You read Terraform/OpenTofu, Kubernetes manifests and Helm without assistance, and you know cloud IAM and Kubernetes security boundaries well enough to write a baseline engineers can actually implement.\n\nPentest Ownership as the Client: Practical experience scoping and running penetration tests from the buying side: writing the scope, judging the report and driving remediation.\n\nFirst-Security-Hire Experience: You have been the first or only security person somewhere, ideally in a regulated or otherwise high-trust environment, and you can describe what you deliberately did not do.\n\nRegulatory Literacy: Enough familiarity with the German regulatory landscape to sit in a BSI / KassenSichV conversation without owning the programme.\n\nAI Literacy: You use AI tooling for drafting, triage and policy generation with review discipline, and you can say where it fails. You understand AI-specific attack surface: prompt injection against agents that read code, agent credential scope and model supply chain.\n\nWriting & Influence: You write more than you talk, and prefer a one-page decision note to a 20-slide deck. You bring a proposed control with an adoption plan and a cost, never a mandate. You are comfortable saying \"that is advice, not a veto\", and you build relationships with squad engineers before asking them to change anything.\n\n💡 What We Offer\n\nHigh-Impact Ownership: Administrative authority over cloud landing zones, network devices, bare-metal hosts, and core routing services to shape the foundation of our platform.\n\nA Culture of Engineering Excellence: An environment that values clean topology modeling, resilient routing, and automation over manual configuration.\n\nCross-Functional Collaboration: A highly collaborative setup working alongside Platform Engineering and product squads to deliver secure, foundational capabilities.\n\nStrategic Growth: Opportunities to lead massive infrastructure projects and migrations with high visibility and business impact.\n\nProactive Over Reactive Environment: A focus on scaling architecture and capacity proactively, ensuring the network remains stable without constant firefighting.\n\nFlexibility & Support: Modern tooling, structured operational readiness checks, and a strong culture of autonomy and professional development.\n\n🌍 Why fiskaly? \n\nWe’re not just building tech, we’re shaping the future of digital compliance. At fiskaly, we believe in trust, shared vision, and celebrating success together. If you want to grow your career where security meets innovation, we’d love to hear from you.\n\nFind more English Speaking Jobs in Germany on Arbeitnow",
-      "skill_requirements": [
-        {
-          "skill": "bsi it-grundschutz",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Regulatory Literacy: Enough familiarity with the German regulatory landscape to sit in a BSI / KassenSichV conversation without owning the programme."
-        },
-        {
-          "skill": "git",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "You have hands-on experience with Kyverno or OPA and with GitHub Actions."
-        },
-        {
-          "skill": "github actions",
-          "profile_status": "partial",
-          "requirement": "mandatory",
-          "evidence": "You have hands-on experience with Kyverno or OPA and with GitHub Actions."
-        },
-        {
-          "skill": "infrastructure as code",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Controls Shipped as Code: You have shipped security controls as code (policy, CI checks, IaC guardrails), not only advised on them."
-        },
-        {
-          "skill": "kubernetes",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Cloud & Kubernetes Fluency: You read Terraform/OpenTofu, Kubernetes manifests and Helm without assistance, and you know cloud IAM and Kubernetes security boundaries well enough to write a baseline engineers can actually implement."
-        },
-        {
-          "skill": "rust",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "First-Security-Hire Experience: You have been the first or only security person somewhere, ideally in a regulated or otherwise high-trust environment, and you can describe what you deliberately did not do."
-        },
-        {
-          "skill": "terraform",
-          "profile_status": "missing",
-          "requirement": "mandatory",
-          "evidence": "Cloud & Kubernetes Fluency: You read Terraform/OpenTofu, Kubernetes manifests and Helm without assistance, and you know cloud IAM and Kubernetes security boundaries well enough to write a baseline engineers can actually implement."
-        },
-        {
-          "skill": "application security",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Application Security Depth: Strong grounding in threat modelling, authentication, authorisation, cryptography misuse and injection classes, plus data classification and redaction design."
-        },
-        {
-          "skill": "nist",
-          "profile_status": "partial",
-          "requirement": "mentioned",
-          "evidence": "High-Impact Ownership: Administrative authority over cloud landing zones, network devices, bare-metal hosts, and core routing services to shape the foundation of our platform."
-        },
-        {
-          "skill": "penetration testing",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "Pentest Ownership as the Client: Practical experience scoping and running penetration tests from the buying side: writing the scope, judging the report and driving remediation."
-        },
-        {
-          "skill": "security testing",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "AI-Assisted Testing: Operate our AI-assisted security testing programme: run it, score it, tune it, and decide when it is not worth the triage."
-        },
-        {
-          "skill": "threat modeling",
-          "profile_status": "match",
-          "requirement": "mentioned",
-          "evidence": "You will bring threat modelling into squad design reviews, buy and steer external testing, and act as our named security incident commander."
-        }
-      ],
-      "german_analysis": {
-        "category": "unspecified",
-        "level": "unspecified",
-        "mandatory": false,
-        "label": "German requested; level/strictness unclear",
-        "evidence": "Regulatory Literacy: Enough familiarity with the German regulatory landscape to sit in a BSI / KassenSichV conversation without owning the programme."
       },
       "experience_analysis": null
     },

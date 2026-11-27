@@ -1,7 +1,7 @@
 # Weekly Job Radar Analytics
 
 **Week starting:** 2026-11-23
-**Generated:** 2026-11-26T17:12:22Z
+**Generated:** 2026-11-27T16:54:05Z
 **Active relevant jobs:** 11
 
 ## Role-family demand
@@ -17,7 +17,7 @@
 ### Explicit mandatory gaps
 
 - **rust:** 3 job(s)
-- **kubernetes:** 2 job(s)
+- **terraform:** 2 job(s)
 - **edr:** 2 job(s)
 - **software development:** 2 job(s)
 - **nist:** 2 job(s)
@@ -26,20 +26,18 @@
 - **git:** 1 job(s)
 - **github actions:** 1 job(s)
 - **infrastructure as code:** 1 job(s)
-- **terraform:** 1 job(s)
+- **kubernetes:** 1 job(s)
 - **iso 27001:** 1 job(s)
 
 ### Potential gaps
 
 - **rust:** 3 job(s)
-- **azure:** 2 job(s)
-- **iso 27001:** 2 job(s)
+- **edr:** 2 job(s)
+- **gdpr:** 1 job(s)
+- **azure:** 1 job(s)
+- **iso 27001:** 1 job(s)
 - **detection engineering:** 1 job(s)
 - **go:** 1 job(s)
-- **edr:** 1 job(s)
-- **bug bounty:** 1 job(s)
-- **github security:** 1 job(s)
-- **vulnerability disclosure program:** 1 job(s)
 
 ### Optional gaps
 
@@ -53,14 +51,14 @@
 
 ### Exposure-only skills
 
-- **incident response:** 5 job(s)
+- **incident response:** 4 job(s)
 - **software development:** 4 job(s)
 - **nist:** 3 job(s)
 - **siem:** 3 job(s)
-- **git:** 2 job(s)
 - **aws:** 2 job(s)
 - **product security:** 2 job(s)
 - **javascript:** 2 job(s)
+- **git:** 1 job(s)
 - **github actions:** 1 job(s)
 - **splunk:** 1 job(s)
 - **network security:** 1 job(s)
